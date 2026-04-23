@@ -12,7 +12,7 @@ function Results() {
   return (
     <section id="results" className="section">
       <div className="container">
-        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 80, alignItems: 'end', marginBottom: 72 }}>
+        <div className="grid-2 stack-mobile" style={{ alignItems: 'end', marginBottom: 72 }}>
           <div>
             <div className="eyebrow" style={{ marginBottom: 20 }}>Real results</div>
             <h2 className="serif" style={{ fontSize: 64 }}>
@@ -24,11 +24,11 @@ function Results() {
           </p>
         </div>
 
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 24 }}>
+        <div className="grid-3">
           {stories.map((s, i) => <StoryCard key={i} s={s}/>)}
         </div>
 
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 24, marginTop: 80, paddingTop: 40, borderTop: '1px solid var(--line)' }}>
+        <div className="grid-4" style={{ marginTop: 80, paddingTop: 40, borderTop: '1px solid var(--line)' }}>
           <BigStat num="94%" label="of members lose weight in first 90 days" />
           <BigStat num="18 lbs" label="average loss at 6 months" />
           <BigStat num="4.9★" label="member rating · 12.4k reviews" />
@@ -93,7 +93,7 @@ function BigStat({ num, label }) {
 function Science() {
   return (
     <section style={{ background: 'var(--brand)', color: '#FBF8F3', padding: '120px 0' }}>
-      <div className="container" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 80, alignItems: 'center' }}>
+      <div className="container grid-2" style={{ alignItems: 'center' }}>
         <div>
           <div className="eyebrow" style={{ color: 'rgba(251, 248, 243, 0.6)', marginBottom: 24 }}>The science</div>
           <h2 className="serif" style={{ fontSize: 64, marginBottom: 28, color: '#FBF8F3' }}>
@@ -193,7 +193,7 @@ function Pricing({ priceAnchor, onStartQuiz }) {
           </p>
         </div>
 
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 20, maxWidth: 1080, margin: '0 auto' }}>
+        <div className="grid-3" style={{ maxWidth: 1080, margin: '0 auto' }}>
           {plans.map((p, i) => (
             <div
               key={i}

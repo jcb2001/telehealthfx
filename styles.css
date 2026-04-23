@@ -111,3 +111,61 @@ h1, h2, h3, h4 { font-weight: 500; letter-spacing: -0.02em; line-height: 1.1; }
 
 .fade-in { animation: fadeIn .6s ease both; }
 @keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+
+/* Mobile Responsiveness Utilities */
+
+/* Base grid classes that we'll use instead of inline styles */
+.grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+.grid-2-hero { display: grid; grid-template-columns: 1.15fr 1fr; gap: 64px; align-items: center; }
+.grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+.grid-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; }
+.grid-5 { display: grid; grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr; gap: 48px; }
+.grid-faq { display: grid; grid-template-columns: 1fr 1.3fr; gap: 80px; }
+
+.flex-row { display: flex; flex-direction: row; }
+.flex-col { display: flex; flex-direction: column; }
+.flex-center { display: flex; align-items: center; justify-content: center; }
+.flex-between { display: flex; justify-content: space-between; align-items: center; }
+.quiz-content { padding: 60px 40px; }
+
+
+/* Responsive adjustments */
+@media (max-width: 900px) {
+  .grid-3 { grid-template-columns: 1fr; }
+  .grid-4 { grid-template-columns: 1fr 1fr; }
+  .grid-5 { grid-template-columns: 1fr 1fr 1fr; }
+  .grid-faq { grid-template-columns: 1fr; gap: 40px; }
+}
+
+@media (max-width: 768px) {
+  /* Container adjustments */
+  .container { padding: 0 24px; }
+  .section { padding: 60px 0; }
+  
+  /* Typography scaling */
+  h1.serif { font-size: 56px !important; }
+  h2.serif { font-size: 40px !important; }
+  .btn-lg { padding: 16px 24px; font-size: 14px; }
+  
+  /* Grid collapsing */
+  .grid-2, .grid-2-hero, .grid-4, .grid-5 { grid-template-columns: 1fr; gap: 32px; }
+  
+  /* Flex direction switches */
+  .stack-mobile { flex-direction: column !important; align-items: flex-start !important; }
+  .stack-mobile-center { flex-direction: column !important; align-items: center !important; text-align: center; }
+  
+  /* Specific component tweaks */
+  .nav-links { display: none !important; } /* Hide on mobile to keep it simple */
+  .press-strip { flex-wrap: wrap; justify-content: center !important; gap: 24px !important; }
+  .press-strip .eyebrow { width: 100%; text-align: center; }
+  
+  /* Card padding reductions */
+  .card { padding: 24px !important; }
+  
+  /* Specific layout padding tweaks */
+  .final-cta-box { padding: 48px 24px !important; border-radius: 20px !important; }
+  .hero-trust-row { flex-direction: column; gap: 20px !important; }
+  .footer-bottom { flex-direction: column; align-items: flex-start !important; gap: 20px !important; }
+  .quiz-content { padding: 40px 24px !important; }
+}
+

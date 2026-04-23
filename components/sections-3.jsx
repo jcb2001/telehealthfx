@@ -16,7 +16,7 @@ function FAQ() {
   const [open, setOpen] = React.useState(0);
   return (
     <section id="faq" className="section">
-      <div className="container" style={{ display: 'grid', gridTemplateColumns: '1fr 1.3fr', gap: 80 }}>
+      <div className="container grid-faq">
         <div>
           <div className="eyebrow" style={{ marginBottom: 20 }}>FAQ</div>
           <h2 className="serif" style={{ fontSize: 64, marginBottom: 24 }}>
@@ -63,7 +63,7 @@ function FinalCTA({ priceAnchor, onStartQuiz }) {
   return (
     <section style={{ padding: '120px 0' }}>
       <div className="container">
-        <div style={{
+        <div className="final-cta-box" style={{
           background: 'var(--brand)', color: '#FBF8F3',
           borderRadius: 32, padding: '100px 80px',
           position: 'relative', overflow: 'hidden',
@@ -102,7 +102,7 @@ function Footer() {
   return (
     <footer style={{ background: 'var(--bg-alt)', padding: '80px 0 40px', borderTop: '1px solid var(--line-soft)' }}>
       <div className="container">
-        <div style={{ display: 'grid', gridTemplateColumns: '1.5fr 1fr 1fr 1fr 1fr', gap: 48, marginBottom: 80 }}>
+        <div className="grid-5" style={{ marginBottom: 80 }}>
           <div>
             <Logo size={22}/>
             <p style={{ marginTop: 20, fontSize: 13, color: 'var(--ink-3)', lineHeight: 1.6, maxWidth: 280 }}>
@@ -126,7 +126,7 @@ function Footer() {
           ))}
         </div>
 
-        <div style={{ paddingTop: 40, borderTop: '1px solid var(--line)', display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', gap: 40 }}>
+        <div className="flex-row footer-bottom" style={{ paddingTop: 40, borderTop: '1px solid var(--line)', justifyContent: 'space-between', alignItems: 'flex-end', gap: 40 }}>
           <div style={{ fontSize: 11, color: 'var(--ink-3)', lineHeight: 1.6, maxWidth: 720 }}>
             <strong>Important safety information.</strong> Compounded semaglutide and tirzepatide are not FDA-approved. They are custom preparations made at the discretion of a licensed pharmacy under 503A/503B compounding law. GLP-1 medications may cause serious side effects. Do not use if you have a personal or family history of medullary thyroid carcinoma or MEN 2. Consult your clinician before starting any medication.
           </div>

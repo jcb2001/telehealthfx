@@ -51,7 +51,7 @@ function Quiz({ onClose, priceAnchor }) {
       </div>
 
       {/* Content */}
-      <div style={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '60px 40px' }}>
+      <div className="quiz-content" style={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
         <div key={step} className="fade-in" style={{ width: '100%', maxWidth: 680 }}>
           {steps[step].render()}
         </div>
@@ -155,7 +155,7 @@ function GoalStep({ answers, setAnswers }) {
 function VitalsStep({ answers, setAnswers }) {
   return (<>
     <StepHeader eyebrow="About you · 2 of 9" title="Tell us about your body." sub="This determines your BMI and dosing recommendations."/>
-    <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 16 }}>
+    <div className="grid-2">
       <FieldGroup label="Height">
         <div style={{ display: 'flex', gap: 8 }}>
           <NumberField value={answers.height_ft} onChange={v => setAnswers({ ...answers, height_ft: v })} suffix="ft" min={4} max={7}/>
@@ -273,7 +273,7 @@ function EligibilityStep({ answers }) {
         Based on your answers, you meet our initial eligibility criteria. A licensed clinician will make the final determination after reviewing your full health profile.
       </p>
 
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 16, maxWidth: 560, margin: '0 auto' }}>
+      <div className="grid-3" style={{ maxWidth: 560, margin: '0 auto' }}>
         <SummaryStat label="BMI" value={bmi.toFixed(1)}/>
         <SummaryStat label="Target loss" value={`${answers.current_weight - answers.goal_weight} lbs`}/>
         <SummaryStat label="Expected timeline" value={`${Math.round((answers.current_weight - answers.goal_weight) / 3)} mo`}/>
@@ -285,7 +285,7 @@ function EligibilityStep({ answers }) {
 function EmailStep({ answers, setAnswers, priceAnchor }) {
   const med = answers.medication_pref === 'tirz' ? { name: 'Tirzepatide', price: priceAnchor + 100 } : { name: 'Semaglutide', price: priceAnchor };
   return (<>
-    <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 48, alignItems: 'center' }}>
+    <div className="grid-2 stack-mobile" style={{ alignItems: 'center' }}>
       <div>
         <div className="eyebrow" style={{ marginBottom: 16 }}>Final step · 9 of 9</div>
         <h2 className="serif" style={{ fontSize: 44, marginBottom: 20, lineHeight: 1.1 }}>

@@ -18,7 +18,7 @@ function Nav({ onStartQuiz }) {
     }}>
       <div className="container" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', height: 72 }}>
         <Logo />
-        <div style={{ display: 'flex', gap: 32, fontSize: 14, color: 'var(--ink-2)' }}>
+        <div className="nav-links" style={{ display: 'flex', gap: 32, fontSize: 14, color: 'var(--ink-2)' }}>
           <a href="#how">How it works</a>
           <a href="#treatments">Treatments</a>
           <a href="#pricing">Pricing</a>
@@ -48,7 +48,7 @@ function Hero({ headline, priceAnchor, layout, onStartQuiz }) {
 function HeroDefault({ headline, priceAnchor, onStartQuiz }) {
   return (
     <section style={{ padding: '60px 0 100px' }}>
-      <div className="container" style={{ display: 'grid', gridTemplateColumns: '1.15fr 1fr', gap: 64, alignItems: 'center' }}>
+      <div className="container grid-2-hero">
         <div>
           <div className="pill pill-dot pill-brand fade-in" style={{ marginBottom: 28 }}>
             <span>FDA-approved medications · Board-certified clinicians</span>
@@ -61,7 +61,7 @@ function HeroDefault({ headline, priceAnchor, onStartQuiz }) {
           <p className="fade-in" style={{ fontSize: 18, color: 'var(--ink-2)', maxWidth: 520, marginBottom: 36, lineHeight: 1.55 }}>
             GLP-1 weight loss medication, delivered. A personalized clinical program with semaglutide or tirzepatide — prescribed online, shipped to your door.
           </p>
-          <div style={{ display: 'flex', gap: 12, alignItems: 'center', marginBottom: 40 }}>
+          <div className="flex-row stack-mobile" style={{ gap: 12, marginBottom: 40 }}>
             <button className="btn btn-primary btn-lg" onClick={onStartQuiz}>
               Take the 2-minute quiz <Icon.Arrow />
             </button>
@@ -71,7 +71,7 @@ function HeroDefault({ headline, priceAnchor, onStartQuiz }) {
           </div>
 
           {/* Trust row */}
-          <div style={{ display: 'flex', gap: 32, paddingTop: 28, borderTop: '1px solid var(--line-soft)' }}>
+          <div className="flex-row hero-trust-row" style={{ gap: 32, paddingTop: 28, borderTop: '1px solid var(--line-soft)' }}>
             <TrustStat number="94%" label="of members lose weight in 90 days" />
             <TrustStat number="15 lbs" label="average loss at 3 months" />
             <TrustStat number="4.9★" label="from 12,400+ reviews" />
@@ -109,7 +109,7 @@ function HeroEditorial({ headline, priceAnchor, onStartQuiz }) {
 function HeroData({ headline, priceAnchor, onStartQuiz }) {
   return (
     <section style={{ padding: '60px 0 100px' }}>
-      <div className="container" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 64, alignItems: 'center' }}>
+      <div className="container grid-2">
         <div>
           <div className="pill pill-dot pill-brand" style={{ marginBottom: 28 }}>
             <span>Now accepting new patients</span>

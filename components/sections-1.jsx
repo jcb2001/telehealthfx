@@ -7,7 +7,7 @@ function PressStrip() {
   const logos = ['Vogue', 'The Cut', 'Bloomberg', 'WSJ', 'Forbes', 'Well+Good'];
   return (
     <section style={{ padding: '40px 0', borderTop: '1px solid var(--line-soft)', borderBottom: '1px solid var(--line-soft)' }}>
-      <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: 40 }}>
+      <div className="container flex-row flex-between press-strip" style={{ gap: 40 }}>
         <span className="eyebrow" style={{ whiteSpace: 'nowrap' }}>As seen in</span>
         {logos.map(l => (
           <span key={l} className="serif" style={{ fontSize: 26, color: 'var(--ink-3)', fontStyle: 'italic' }}>{l}</span>
@@ -30,7 +30,7 @@ function HowItWorks() {
   return (
     <section id="how" className="section">
       <div className="container">
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', marginBottom: 72 }}>
+        <div className="flex-row stack-mobile" style={{ justifyContent: 'space-between', alignItems: 'flex-end', marginBottom: 72, gap: 32 }}>
           <div style={{ maxWidth: 560 }}>
             <div className="eyebrow" style={{ marginBottom: 20 }}>How it works</div>
             <h2 className="serif" style={{ fontSize: 64 }}>
@@ -42,7 +42,7 @@ function HowItWorks() {
           </p>
         </div>
 
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 24 }}>
+        <div className="grid-4">
           {steps.map((s, i) => (
             <div key={i} style={{ padding: '32px 0', borderTop: '1px solid var(--line)', position: 'relative' }}>
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: 40 }}>
@@ -111,7 +111,7 @@ function Medications({ priceAnchor, onStartQuiz }) {
           </p>
         </div>
 
-        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 24 }}>
+        <div className="grid-2">
           {meds.map((m, i) => (
             <MedCard key={i} med={m} selected={selected === i} onSelect={() => setSelected(i)} onStartQuiz={onStartQuiz}/>
           ))}
@@ -148,7 +148,7 @@ function MedCard({ med, selected, onSelect, onStartQuiz }) {
       <h3 className="serif" style={{ fontSize: 48, marginBottom: 16 }}>{med.name}</h3>
       <p style={{ color: 'var(--ink-2)', marginBottom: 32, fontSize: 15, lineHeight: 1.55 }}>{med.intro}</p>
 
-      <div style={{ display: 'flex', gap: 24, marginBottom: 32, paddingBottom: 28, borderBottom: '1px solid var(--line-soft)' }}>
+      <div className="flex-row stack-mobile" style={{ gap: 24, marginBottom: 32, paddingBottom: 28, borderBottom: '1px solid var(--line-soft)' }}>
         <div style={{ flex: 1, minWidth: 0 }}>
           <div className="serif" style={{ fontSize: 32, color: 'var(--brand)', whiteSpace: 'nowrap' }}>{med.avg}</div>
           <div style={{ fontSize: 12, color: 'var(--ink-3)', marginTop: 4 }}>{med.avgSub}</div>
