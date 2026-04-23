@@ -5,9 +5,9 @@
 // ============================================================================
 function Results() {
   const stories = [
-    { name: 'Sarah M.', age: 42, city: 'Austin, TX', loss: '–32 lbs', duration: '6 months', quote: 'The weekly check-ins kept me honest. I\'ve tried everything — this is the first thing that actually worked.', med: 'Tirzepatide' },
-    { name: 'Marcus R.', age: 38, city: 'Chicago, IL', loss: '–24 lbs', duration: '4 months', quote: 'The appetite changes were immediate. I finally feel in control around food.', med: 'Semaglutide' },
-    { name: 'Priya K.', age: 51, city: 'Seattle, WA', loss: '–41 lbs', duration: '9 months', quote: 'My doctor adjusted the dose twice based on how I was responding. It felt genuinely personalized.', med: 'Tirzepatide' },
+    { name: 'Sarah M.', age: 42, city: 'Austin, TX', loss: '–32 lbs', duration: '6 months', quote: 'The weekly check-ins kept me honest. I\'ve tried everything — this is the first thing that actually worked.', med: 'Tirzepatide', img: 'assets/ba1.jpg' },
+    { name: 'Marcus R.', age: 38, city: 'Chicago, IL', loss: '–24 lbs', duration: '4 months', quote: 'The appetite changes were immediate. I finally feel in control around food.', med: 'Semaglutide', img: 'assets/ba2.jpg' },
+    { name: 'Priya K.', age: 51, city: 'Seattle, WA', loss: '–41 lbs', duration: '9 months', quote: 'My doctor adjusted the dose twice based on how I was responding. It felt genuinely personalized.', med: 'Tirzepatide', img: 'assets/ba3.jpg' },
   ];
   return (
     <section id="results" className="section">
@@ -42,19 +42,8 @@ function Results() {
 function StoryCard({ s }) {
   return (
     <div className="card" style={{ overflow: 'hidden' }}>
-      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', height: 220, position: 'relative' }}>
-        <div className="placeholder" style={{
-          borderRadius: 0, borderLeft: 0, borderTop: 0, borderBottom: 0, borderRight: '1px solid var(--line-soft)',
-          background: `repeating-linear-gradient(135deg, rgba(46,74,59,0.08) 0 1px, transparent 1px 10px), linear-gradient(180deg, #D8D2C0, #C5BDA9)`,
-        }}>
-          <span style={{ position: 'absolute', bottom: 8, left: 10, fontFamily: 'var(--mono)', fontSize: 9, letterSpacing: '0.1em', color: 'var(--ink-3)' }}>BEFORE</span>
-        </div>
-        <div className="placeholder" style={{
-          borderRadius: 0, border: 0,
-          background: `repeating-linear-gradient(135deg, rgba(199,125,92,0.1) 0 1px, transparent 1px 10px), linear-gradient(180deg, #E8D5C4, #D4BBA5)`,
-        }}>
-          <span style={{ position: 'absolute', bottom: 8, right: 10, fontFamily: 'var(--mono)', fontSize: 9, letterSpacing: '0.1em', color: 'var(--ink-3)' }}>AFTER</span>
-        </div>
+      <div style={{ height: 260, position: 'relative' }}>
+        <img src={s.img} alt={`${s.name} before and after`} style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center' }} />
       </div>
       <div style={{ padding: 28 }}>
         <div style={{ display: 'flex', gap: 6, color: 'var(--accent)', marginBottom: 16 }}>
