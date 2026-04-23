@@ -65,9 +65,6 @@ function HeroDefault({ headline, priceAnchor, onStartQuiz }) {
             <button className="btn btn-primary btn-lg" onClick={onStartQuiz}>
               Take the 2-minute quiz <Icon.Arrow />
             </button>
-            <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>
-              <span style={{ color: 'var(--ink)', fontWeight: 500 }}>From ${priceAnchor}/mo</span> · No insurance needed
-            </div>
           </div>
 
           {/* Trust row */}

@@ -4,14 +4,21 @@
 // PRESS / LOGO STRIP
 // ============================================================================
 function PressStrip() {
-  const logos = ['Vogue', 'The Cut', 'Bloomberg', 'WSJ', 'Forbes', 'Well+Good'];
+  const logos = [
+    { alt: 'Vogue', src: 'https://upload.wikimedia.org/wikipedia/commons/9/99/Vogue.svg', height: 18 },
+    { alt: 'The Cut', src: 'https://upload.wikimedia.org/wikipedia/commons/3/3c/The_Cut_logo.svg', height: 18 },
+    { alt: 'Bloomberg', src: 'https://upload.wikimedia.org/wikipedia/commons/5/56/Bloomberg_logo.svg', height: 20 },
+    { alt: 'WSJ', src: 'https://upload.wikimedia.org/wikipedia/commons/c/c4/The_Wall_Street_Journal_Logo.svg', height: 16 },
+    { alt: 'Forbes', src: 'https://upload.wikimedia.org/wikipedia/commons/d/db/Forbes_logo.svg', height: 16 }
+  ];
   return (
     <section style={{ padding: '40px 0', borderTop: '1px solid var(--line-soft)', borderBottom: '1px solid var(--line-soft)' }}>
-      <div className="container flex-row flex-between press-strip" style={{ gap: 40 }}>
+      <div className="container flex-row flex-between press-strip" style={{ gap: 40, alignItems: 'center' }}>
         <span className="eyebrow" style={{ whiteSpace: 'nowrap' }}>As seen in</span>
         {logos.map(l => (
-          <span key={l} className="serif" style={{ fontSize: 26, color: 'var(--ink-3)', fontStyle: 'italic' }}>{l}</span>
+          <img key={l.alt} src={l.src} alt={l.alt} style={{ height: l.height, filter: 'grayscale(100%) opacity(50%) contrast(150%) brightness(0)', pointerEvents: 'none' }} />
         ))}
+        <span style={{ fontFamily: 'var(--sans)', fontWeight: 800, fontSize: 16, letterSpacing: '-0.02em', textTransform: 'uppercase', color: 'var(--ink)', opacity: 0.5 }}>Well+Good</span>
       </div>
     </section>
   );
