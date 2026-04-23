@@ -26,7 +26,6 @@ function Nav({ onStartQuiz }) {
           <a href="#faq">FAQ</a>
         </div>
         <div className="flex-row nav-actions" style={{ gap: 12, alignItems: 'center' }}>
-          <a href="#" className="sign-in-link" style={{ fontSize: 14, color: 'var(--ink-2)' }}>Sign in</a>
           <button className="btn btn-primary" onClick={onStartQuiz}>
             Start my plan <Icon.Arrow />
           </button>
