@@ -5,9 +5,9 @@
 // ============================================================================
 function Results() {
   const stories = [
-    { name: 'Sarah M.', age: 42, city: 'Austin, TX', loss: '–32 lbs', duration: '6 months', quote: 'The weekly check-ins kept me honest. I\'ve tried everything — this is the first thing that actually worked.', med: 'Tirzepatide', img: 'assets/ba1.jpg' },
-    { name: 'Marcus R.', age: 38, city: 'Chicago, IL', loss: '–24 lbs', duration: '4 months', quote: 'The appetite changes were immediate. I finally feel in control around food.', med: 'Semaglutide', img: 'assets/ba2.jpg' },
-    { name: 'Priya K.', age: 51, city: 'Seattle, WA', loss: '–41 lbs', duration: '9 months', quote: 'My doctor adjusted the dose twice based on how I was responding. It felt genuinely personalized.', med: 'Tirzepatide', img: 'assets/ba3.jpg' },
+    { name: 'Sarah M.', age: 42, city: 'Austin, TX', loss: '–32 lbs', duration: '6 months', quote: 'The weekly check-ins kept me honest. I\'ve tried everything — this is the first thing that actually worked.', med: 'Tirzepatide', img: 'assets/ba3.jpg' },
+    { name: 'Marcus R.', age: 38, city: 'Chicago, IL', loss: '–24 lbs', duration: '4 months', quote: 'The appetite changes were immediate. I finally feel in control around food.', med: 'Semaglutide', img: 'assets/ba1.jpg' },
+    { name: 'Priya K.', age: 51, city: 'Seattle, WA', loss: '–41 lbs', duration: '9 months', quote: 'My doctor adjusted the dose twice based on how I was responding. It felt genuinely personalized.', med: 'Tirzepatide', img: 'assets/ba2.jpg' },
   ];
   return (
     <section id="results" className="section">
