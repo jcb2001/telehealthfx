@@ -110,16 +110,43 @@ function Footer() {
             </p>
           </div>
           {[
-            { h: 'Product', l: ['How it works', 'Medications', 'Pricing', 'Results', 'Science'] },
-            { h: 'Company', l: ['About', 'Careers', 'Press', 'Partners', 'Contact'] },
-            { h: 'Support', l: ['Help center', 'Shipping', 'Returns', 'Insurance', 'Status'] },
-            { h: 'Legal', l: ['Privacy', 'Terms', 'Telehealth consent', 'HIPAA', 'Accessibility'] },
+            { h: 'Product', l: [
+              { label: 'How it works', slug: 'how' }, 
+              { label: 'Medications', slug: 'medications' }, 
+              { label: 'Pricing', slug: 'pricing' }, 
+              { label: 'Results', slug: 'results' }, 
+              { label: 'Science', slug: 'science' }
+            ] },
+            { h: 'Company', l: [
+              { label: 'About', slug: 'about' }, 
+              { label: 'Careers', slug: 'careers' }, 
+              { label: 'Press', slug: 'press' }, 
+              { label: 'Partners', slug: 'partners' }, 
+              { label: 'Contact', slug: 'contact' }
+            ] },
+            { h: 'Support', l: [
+              { label: 'Help center', slug: 'help-center' }, 
+              { label: 'Shipping', slug: 'shipping' }, 
+              { label: 'Returns', slug: 'returns' }, 
+              { label: 'Insurance', slug: 'insurance' }, 
+              { label: 'Status', slug: 'status' }
+            ] },
+            { h: 'Legal', l: [
+              { label: 'Privacy', slug: 'privacy' }, 
+              { label: 'Terms', slug: 'terms' }, 
+              { label: 'Telehealth consent', slug: 'telehealth-consent' }, 
+              { label: 'HIPAA', slug: 'hipaa' }, 
+              { label: 'Accessibility', slug: 'accessibility' },
+              { label: 'Affiliate Disclosure', slug: 'affiliate-disclosure' }
+            ] },
           ].map((col, i) => (
             <div key={i}>
               <div className="mono" style={{ color: 'var(--ink-3)', marginBottom: 16 }}>{col.h}</div>
               <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: 10 }}>
                 {col.l.map(item => (
-                  <li key={item} style={{ fontSize: 14, color: 'var(--ink-2)' }}>{item}</li>
+                  <li key={item.slug} style={{ fontSize: 14, color: 'var(--ink-2)' }}>
+                    <a href={`?p=${item.slug}`} style={{ color: 'inherit', textDecoration: 'none' }}>{item.label}</a>
+                  </li>
                 ))}
               </ul>
             </div>

@@ -9,11 +9,20 @@ const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
 }/*EDITMODE-END*/;
 
 function App() {
-  const [view, setView] = useStateApp(() => localStorage.getItem('tfx_view') || 'landing');
+  const [view, setView] = useStateApp(() => {
+    const params = new URLSearchParams(window.location.search);
+    const p = params.get('p');
+    if (p) return `page:${p}`;
+    return localStorage.getItem('tfx_view') || 'landing';
+  });
   const [tweaks, setTweaks] = useStateApp(TWEAK_DEFAULTS);
   const [editMode, setEditMode] = useStateApp(false);
 
-  useEffectApp(() => { localStorage.setItem('tfx_view', view); }, [view]);
+  useEffectApp(() => { 
+    if (!view.startsWith('page:')) {
+      localStorage.setItem('tfx_view', view); 
+    }
+  }, [view]);
 
   // Apply accent color live
   useEffectApp(() => {
@@ -44,7 +53,9 @@ function App() {
 
   return (
     <>
-      {view === 'landing' ? (
+      {view.startsWith('page:') ? (
+        <GenericPage pageSlug={view.replace('page:', '')} priceAnchor={tweaks.priceAnchor} onStartQuiz={startQuiz}/>
+      ) : view === 'landing' ? (
         <div data-screen-label="01 Landing">
           <Nav onStartQuiz={startQuiz}/>
           <Hero headline={tweaks.headline} priceAnchor={tweaks.priceAnchor} layout={tweaks.heroLayout} onStartQuiz={startQuiz}/>

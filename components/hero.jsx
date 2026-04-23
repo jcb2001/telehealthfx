@@ -17,7 +17,7 @@ function Nav({ onStartQuiz }) {
       transition: 'all .3s ease',
     }}>
       <div className="container" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', height: 72 }}>
-        <Logo />
+        <a href="?" style={{ textDecoration: 'none', color: 'inherit' }}><Logo /></a>
         <div className="nav-links" style={{ display: 'flex', gap: 32, fontSize: 14, color: 'var(--ink-2)' }}>
           <a href="#how">How it works</a>
           <a href="#treatments">Treatments</a>
