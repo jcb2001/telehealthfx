@@ -68,7 +68,7 @@ function FinalCTA({ priceAnchor, onStartQuiz }) {
           borderRadius: 32, padding: '100px 80px',
           position: 'relative', overflow: 'hidden',
         }}>
-          <svg style={{ position: 'absolute', top: -40, right: -40, opacity: 0.1 }} width="400" height="400" viewBox="0 0 400 400">
+          <svg className="cta-bg-shape" style={{ position: 'absolute', top: -40, right: -40, opacity: 0.1 }} width="400" height="400" viewBox="0 0 400 400">
             <circle cx="200" cy="200" r="199" fill="none" stroke="#E8C4AE" strokeWidth="1"/>
             <circle cx="200" cy="200" r="160" fill="none" stroke="#E8C4AE" strokeWidth="1"/>
             <circle cx="200" cy="200" r="120" fill="none" stroke="#E8C4AE" strokeWidth="1"/>

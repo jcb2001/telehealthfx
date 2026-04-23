@@ -197,7 +197,7 @@ function Pricing({ priceAnchor, onStartQuiz }) {
           {plans.map((p, i) => (
             <div
               key={i}
-              className="card"
+              className={`pricing-card ${p.best ? 'highlighted' : ''}`}
               style={{
                 padding: 36,
                 position: 'relative',

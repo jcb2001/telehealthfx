@@ -74,13 +74,13 @@ const Icon = {
 // ============================================================================
 function Logo({ color = 'currentColor', size = 20 }) {
   return (
-    <div className="logo" style={{ display: 'flex', alignItems: 'center', gap: 8, color }}>
-      <svg width={size} height={size} viewBox="0 0 20 20" fill="none">
+    <div className="logo-container" style={{ '--logo-size': `${size}px`, display: 'flex', alignItems: 'center', gap: 8, color }}>
+      <svg width="1em" height="1em" style={{ fontSize: 'var(--logo-size)' }} viewBox="0 0 20 20" fill="none">
         <circle cx="10" cy="10" r="9" stroke={color} strokeWidth="1.2" />
         <path d="M10 1.5 v17 M1.5 10 h17" stroke={color} strokeWidth="1.2" opacity="0.3"/>
         <circle cx="10" cy="10" r="3.5" fill={color} />
       </svg>
-      <span style={{ fontFamily: 'var(--serif)', fontSize: size * 0.95, letterSpacing: '-0.02em', fontWeight: 400 }}>
+      <span style={{ fontFamily: 'var(--serif)', fontSize: 'calc(var(--logo-size) * 0.95)', letterSpacing: '-0.02em', fontWeight: 400 }}>
         Telehealth<span style={{ fontStyle: 'italic', marginLeft: 2 }}>FX</span>
       </span>
     </div>

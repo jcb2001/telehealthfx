@@ -187,7 +187,7 @@ function HeroVisual() {
       </div>
 
       {/* Progress card — bottom left, overlapping */}
-      <div className="card" style={{
+      <div className="card hero-floating-card" style={{
         position: 'absolute', bottom: 32, left: -36, padding: 18, width: 240,
         boxShadow: '0 20px 60px -20px rgba(26, 31, 28, 0.35)',
         background: '#FBF8F3',
@@ -209,10 +209,10 @@ function HeroVisual() {
       </div>
 
       {/* Clinician card — top right */}
-      <div className="card" style={{
-        position: 'absolute', top: 40, right: -28, padding: '12px 16px',
-        boxShadow: '0 12px 40px -12px rgba(26, 31, 28, 0.3)',
-        display: 'flex', alignItems: 'center', gap: 10,
+      <div className="card fade-in hero-floating-card" style={{
+        position: 'absolute', top: 40, right: -28, padding: '16px 20px',
+        display: 'flex', gap: 12, alignItems: 'center', boxShadow: '0 12px 32px rgba(0,0,0,0.08)',
+        animationDelay: '0.2s', zIndex: 10,
         background: '#FBF8F3',
       }}>
         <Icon.Shield size={16}/>
@@ -223,7 +223,7 @@ function HeroVisual() {
       </div>
 
       {/* Med pill — mid right */}
-      <div style={{
+      <div className="hero-floating-card" style={{
         position: 'absolute', top: '42%', right: -16,
         background: 'var(--accent)', color: '#FBF8F3',
         borderRadius: 999, padding: '10px 14px',

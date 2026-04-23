@@ -173,6 +173,13 @@ h1, h2, h3, h4 { font-weight: 500; letter-spacing: -0.02em; line-height: 1.1; }
   .nav-actions .sign-in-link { display: none !important; }
   .nav-actions .btn { padding: 10px 14px !important; font-size: 13px !important; }
   .nav-actions .btn svg { display: none !important; } /* Hide arrow to save space */
+  .logo-container { --logo-size: 20px !important; }
+
+  /* Hide overflowing decorative elements */
+  .hero-floating-card, .cta-bg-shape { display: none !important; }
+  
+  /* Reset pricing card scale */
+  .pricing-card.highlighted { transform: none !important; }
 }
 
 
