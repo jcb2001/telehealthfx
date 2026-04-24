@@ -30,7 +30,7 @@ function BlogBerberine() {
       "Sarcopenia Mitigation"
     ],
     "url": "https://www.telehealthfx.com/author/julian-mercer",
-    "image": "https://www.telehealthfx.com/images/authors/julian-mercer-headshot.jpg",
+    "image": "https://galaglp1.com/assets/julian-mercer-headshot.png",
     "sameAs": [
       "https://www.linkedin.com/in/placeholder-julian-mercer",
       "https://twitter.com/placeholder-julian-data"
@@ -48,7 +48,7 @@ function BlogBerberine() {
         </h1>
         <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}>
           <div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)', color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold' }}>
-            <img src="https://www.telehealthfx.com/images/authors/julian-mercer-headshot.jpg" alt="Julian Mercer" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' }} onError={(e) => { e.target.style.display = 'none'; e.target.parentElement.innerHTML = 'JM'; }} />
+            <img src="/assets/julian-mercer-headshot.png" alt="Julian Mercer" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' }} onError={(e) => { e.target.style.display = 'none'; e.target.parentElement.innerHTML = 'JM'; }} />
           </div>
           <div>
             <div style={{ fontWeight: 500, fontSize: 14 }}>Julian Mercer, M.S.</div>
@@ -184,7 +184,7 @@ function BlogBerberine() {
 
           <div style={{ padding: 32, marginTop: 60, borderRadius: 16, background: '#F5F5F5', display: 'flex', gap: 20, alignItems: 'flex-start' }}>
             <div style={{ width: 64, height: 64, borderRadius: '50%', background: 'var(--brand)', flexShrink: 0, overflow: 'hidden' }}>
-              <img src="https://www.telehealthfx.com/images/authors/julian-mercer-headshot.jpg" alt="Julian Mercer" style={{ width: '100%', height: '100%', objectFit: 'cover' }} onError={(e) => { e.target.style.display = 'none'; e.target.parentElement.innerHTML = '<div style="width:100%;height:100%;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:bold;font-size:24px;">JM</div>'; }} />
+              <img src="/assets/julian-mercer-headshot.png" alt="Julian Mercer" style={{ width: '100%', height: '100%', objectFit: 'cover' }} onError={(e) => { e.target.style.display = 'none'; e.target.parentElement.innerHTML = '<div style="width:100%;height:100%;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:bold;font-size:24px;">JM</div>'; }} />
             </div>
             <div>
               <h3 style={{ fontSize: 18, marginBottom: 8, color: 'var(--ink)' }}>Julian Mercer, Lead Bio-Systems Analyst</h3>
