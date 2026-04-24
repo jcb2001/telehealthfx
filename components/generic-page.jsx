@@ -15,6 +15,7 @@ function GenericPage({ pageSlug, onStartQuiz, priceAnchor }) {
       case 'pricing': return <Pricing priceAnchor={priceAnchor} onStartQuiz={onStartQuiz} />;
       case 'faq': return <FAQ />;
       case 'blog/berberine': return <BlogBerberine />;
+      case 'blog/72-hour-myth': return <Blog72HourMyth />;
     }
 
     // 2. Check for Legal/Support/Company text pages
