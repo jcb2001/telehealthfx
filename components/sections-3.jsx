@@ -145,7 +145,7 @@ function Footer() {
               <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: 10 }}>
                 {col.l.map(item => (
                   <li key={item.slug} style={{ fontSize: 14, color: 'var(--ink-2)' }}>
-                    <a href={`?p=${item.slug}`} style={{ color: 'inherit', textDecoration: 'none' }}>{item.label}</a>
+                    <a href={`/${item.slug}`} style={{ color: 'inherit', textDecoration: 'none' }}>{item.label}</a>
                   </li>
                 ))}
               </ul>

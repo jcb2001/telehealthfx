@@ -10,9 +10,10 @@ const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
 
 function App() {
   const [view, setView] = useStateApp(() => {
-    const params = new URLSearchParams(window.location.search);
-    const p = params.get('p');
-    if (p) return `page:${p}`;
+    const path = window.location.pathname;
+    if (path && path !== '/' && path !== '/index.html') {
+      return `page:${path.substring(1)}`; // Remove leading slash
+    }
     return localStorage.getItem('tfx_view') || 'landing';
   });
   const [tweaks, setTweaks] = useStateApp(TWEAK_DEFAULTS);
