@@ -146,7 +146,7 @@ function HeroVisual() {
         background: '#3C5766',
       }}>
         <img
-          src="assets/hero-model.jpg"
+          src="assets/hero-model.jpg?v=2"
           alt="Telehealth FX member"
           style={{
             position: 'absolute', inset: 0,
