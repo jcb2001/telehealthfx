@@ -1,8 +1,45 @@
 /* global React, Icon */
 
 function BlogBerberine() {
+  const authorSchema = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Julian Mercer",
+    "jobTitle": "Lead Bio-Systems Analyst",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Telehealth FX",
+      "url": "https://www.telehealthfx.com"
+    },
+    "hasOccupation": {
+      "@type": "Occupation",
+      "name": "Bioinformatics Researcher",
+      "educationRequirements": "Master of Science in Bioinformatics"
+    },
+    "description": "Julian Mercer is the Lead Bio-Systems Analyst at Telehealth FX. With an M.S. in Bioinformatics and eight years of academic research, Julian specializes in analyzing transdermal delivery systems, metabolic data modeling, and the pharmacokinetic transition protocols from AMPK activators (Berberine) to clinical GLP-1 receptor agonists (Semaglutide and Tirzepatide).",
+    "knowsAbout": [
+      "Bioinformatics",
+      "Transdermal Delivery Systems",
+      "Pharmacokinetics",
+      "AMPK Activation (Berberine)",
+      "GLP-1 Receptor Agonism",
+      "Semaglutide & Tirzepatide Titration",
+      "Metabolic Data Modeling",
+      "First-Pass Metabolism",
+      "Peptide Temperature Stability",
+      "Sarcopenia Mitigation"
+    ],
+    "url": "https://www.telehealthfx.com/author/julian-mercer",
+    "image": "https://www.telehealthfx.com/images/authors/julian-mercer-headshot.jpg",
+    "sameAs": [
+      "https://www.linkedin.com/in/placeholder-julian-mercer",
+      "https://twitter.com/placeholder-julian-data"
+    ]
+  };
+
   return (
     <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(authorSchema) }} />
       <div className="container" style={{ maxWidth: 800 }}>
         
         <div className="eyebrow" style={{ marginBottom: 20 }}>Metabolic Health</div>
@@ -10,10 +47,12 @@ function BlogBerberine() {
           The Dirty Secret About "Nature's Ozempic" <span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>(And How to Fix It)</span>
         </h1>
         <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}>
-          <div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)', color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold' }}>TFX</div>
+          <div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)', color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold' }}>
+            <img src="https://www.telehealthfx.com/images/authors/julian-mercer-headshot.jpg" alt="Julian Mercer" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' }} onError={(e) => { e.target.style.display = 'none'; e.target.parentElement.innerHTML = 'JM'; }} />
+          </div>
           <div>
-            <div style={{ fontWeight: 500, fontSize: 14 }}>Telehealth FX Editorial Team</div>
-            <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Updated April 2026 · 12 min read</div>
+            <div style={{ fontWeight: 500, fontSize: 14 }}>Julian Mercer, M.S.</div>
+            <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated April 2026 · 12 min read</div>
           </div>
         </div>
 
@@ -141,6 +180,16 @@ function BlogBerberine() {
             <a href="https://swiy.co/purisaki" target="_blank" rel="noopener noreferrer" className="btn btn-lg" style={{ background: '#FBF8F3', color: 'var(--ink)', display: 'inline-flex', justifyContent: 'center', width: '100%', maxWidth: 300 }}>
               Shop Now <Icon.Arrow />
             </a>
+          </div>
+
+          <div style={{ padding: 32, marginTop: 60, borderRadius: 16, background: '#F5F5F5', display: 'flex', gap: 20, alignItems: 'flex-start' }}>
+            <div style={{ width: 64, height: 64, borderRadius: '50%', background: 'var(--brand)', flexShrink: 0, overflow: 'hidden' }}>
+              <img src="https://www.telehealthfx.com/images/authors/julian-mercer-headshot.jpg" alt="Julian Mercer" style={{ width: '100%', height: '100%', objectFit: 'cover' }} onError={(e) => { e.target.style.display = 'none'; e.target.parentElement.innerHTML = '<div style="width:100%;height:100%;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:bold;font-size:24px;">JM</div>'; }} />
+            </div>
+            <div>
+              <h3 style={{ fontSize: 18, marginBottom: 8, color: 'var(--ink)' }}>Julian Mercer, Lead Bio-Systems Analyst</h3>
+              <p style={{ fontSize: 14, lineHeight: 1.6, margin: 0, color: 'var(--ink-2)' }}>Julian holds an M.S. in Bioinformatics and spent eight years as a university researcher specializing in transdermal delivery systems and metabolic data modeling. He does not prescribe medication; his entire career has been spent analyzing how the body absorbs different compounds and tracking the failure rates of commercial supplements. He left academia and joined Telehealth FX because he was tired of seeing solid metabolic research twisted by cheap supplement marketing. He is the guy who reads the 40-page clinical pharmacokinetic reports so the consumer doesn't have to.</p>
+            </div>
           </div>
 
         </div>
