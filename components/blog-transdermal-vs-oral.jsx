@@ -57,6 +57,7 @@ function BlogTransdermalVsOral() {
         </div>
 
         <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
+          <img src="/assets/delivery-featured.png" alt="Comparison between oral capsules and transdermal patches" style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)' }} />
           <p>In 2026, metabolic health stands at a crossroads. Millions seek better blood sugar control, sustainable fat loss, and long-term insulin sensitivity without the daily hassle of pills or the weekly discomfort of injections. The market offers three primary delivery methods for metabolic compounds like Berberine (which we recently explored in <a href="/blog/berberine" style={{ color: 'var(--brand)', fontWeight: 500 }}>our comprehensive breakdown of Berberine's metabolic benefits</a>), metformin, and GLP-1 agonists (e.g., semaglutide in Ozempic or Wegovy): oral, transdermal (patches/gels), and injections.</p>
           <p>Each route carries distinct pharmacokinetics, efficacy profiles, side effects, and real-world adherence. This definitive guide breaks down the science, compares them head-to-head (with a focus on Berberine as a natural metabolic powerhouse), and explains why consistent 24-hour transdermal delivery represents a superior middle ground for most people.</p>
 

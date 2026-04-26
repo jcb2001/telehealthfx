@@ -57,6 +57,7 @@ function Blog72HourMyth() {
         </div>
 
         <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
+          <img src="/assets/myth-featured.png" alt="Laboratory testing of transdermal patches" style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)' }} />
           <p>If you buy a cheap Berberine patch from a generic supplement dropshipper online—often in an attempt to <a href="/blog/berberine" style={{ color: 'var(--brand)', fontWeight: 500 }}>avoid the notorious "Berberine Belly" caused by oral pills</a>—you will almost always see the same marketing claim printed on the box: “Lasts for 72 Hours.” It sounds great. You stick it on, forget about it for three days, and let your metabolism do the work.</p>
           <p>The promise is seductive—consistent metabolic support without the hassle of daily pills or gastrointestinal upset. Yet, as a bio-systems researcher with more than a decade auditing supplement delivery systems, my job is to look past the marketing and audit the actual biology.</p>
           <p>So, we ran the data at Telehealth FX. What we found is that the “72-hour patch” is one of the biggest biological myths in the supplement industry.</p>
