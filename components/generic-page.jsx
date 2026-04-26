@@ -14,6 +14,7 @@ function GenericPage({ pageSlug, onStartQuiz, priceAnchor }) {
       case 'science': return <Science />;
       case 'pricing': return <Pricing priceAnchor={priceAnchor} onStartQuiz={onStartQuiz} />;
       case 'faq': return <FAQ />;
+      case 'blog': return <BlogIndex />;
       case 'blog/berberine': return <BlogBerberine />;
       case 'blog/72-hour-myth': return <Blog72HourMyth />;
       case 'blog/transdermal-vs-oral': return <BlogTransdermalVsOral />;
