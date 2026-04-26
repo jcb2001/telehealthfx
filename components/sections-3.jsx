@@ -135,6 +135,7 @@ function Footer() {
             { h: 'Company', l: [
               { label: 'About', slug: 'about' }, 
               { label: 'Careers', slug: 'careers' }, 
+              { label: 'Blog', slug: 'blog/berberine' },
               { label: 'Press', slug: 'press' }, 
               { label: 'Partners', slug: 'partners' }, 
               { label: 'Contact', slug: 'contact' }
