@@ -14,8 +14,23 @@ function FAQ() {
     { q: 'Which medication is right for me?', a: 'Your clinician will recommend semaglutide or tirzepatide based on your health history, goals, and prior weight loss experience. You can also express a preference during your intake.' },
   ];
   const [open, setOpen] = React.useState(0);
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map(f => ({
+      "@type": "Question",
+      "name": f.q,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": f.a
+      }
+    }))
+  };
+
   return (
     <section id="faq" className="section">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <div className="container grid-faq">
         <div>
           <div className="eyebrow" style={{ marginBottom: 20 }}>FAQ</div>

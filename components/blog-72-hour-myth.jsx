@@ -1,45 +1,75 @@
 /* global React, Icon */
 
 function Blog72HourMyth() {
-  const authorSchema = {
+  const articleSchema = {
     "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Julian Mercer",
-    "jobTitle": "Lead Bio-Systems Analyst",
-    "worksFor": {
-      "@type": "Organization",
+    "@type": "MedicalScholarlyArticle",
+    "headline": "The 72-Hour Myth: We Lab-Tested Transdermal Depletion Rates at Hour 18",
+    "description": "An investigation into transdermal delivery systems revealing the 72-hour myth of berberine patches and the pharmacokinetic reality of rapid depletion.",
+    "author": {
+      "@type": "Person",
+      "name": "Julian Mercer",
+      "jobTitle": "Lead Bio-Systems Analyst",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Telehealth FX",
+        "url": "https://www.telehealthfx.com"
+      },
+      "hasOccupation": {
+        "@type": "Occupation",
+        "name": "Bioinformatics Researcher",
+        "educationRequirements": "Master of Science in Bioinformatics"
+      },
+      "description": "Julian Mercer is the Lead Bio-Systems Analyst at Telehealth FX. With an M.S. in Bioinformatics and eight years of academic research, Julian specializes in analyzing transdermal delivery systems, metabolic data modeling, and the pharmacokinetic transition protocols from AMPK activators (Berberine) to clinical GLP-1 receptor agonists (Semaglutide and Tirzepatide).",
+      "url": "https://www.telehealthfx.com/author/julian-mercer",
+      "sameAs": [
+        "https://www.linkedin.com/in/placeholder-julian-mercer",
+        "https://twitter.com/placeholder-julian-data"
+      ]
+    },
+    "publisher": {
+      "@type": "MedicalOrganization",
       "name": "Telehealth FX",
-      "url": "https://www.telehealthfx.com"
+      "url": "https://www.telehealthfx.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://telehealthfx.com/assets/Site%20Icon-modified.png"
+      }
     },
-    "hasOccupation": {
-      "@type": "Occupation",
-      "name": "Bioinformatics Researcher",
-      "educationRequirements": "Master of Science in Bioinformatics"
-    },
-    "description": "Julian Mercer is the Lead Bio-Systems Analyst at Telehealth FX. With an M.S. in Bioinformatics and eight years of academic research, Julian specializes in analyzing transdermal delivery systems, metabolic data modeling, and the pharmacokinetic transition protocols from AMPK activators (Berberine) to clinical GLP-1 receptor agonists (Semaglutide and Tirzepatide).",
-    "knowsAbout": [
-      "Bioinformatics",
-      "Transdermal Delivery Systems",
-      "Pharmacokinetics",
-      "AMPK Activation (Berberine)",
-      "GLP-1 Receptor Agonism",
-      "Semaglutide & Tirzepatide Titration",
-      "Metabolic Data Modeling",
-      "First-Pass Metabolism",
-      "Peptide Temperature Stability",
-      "Sarcopenia Mitigation"
+    "datePublished": "2026-04-10",
+    "dateModified": "2026-04-26",
+    "image": "https://telehealthfx.com/assets/myth-featured.png",
+    "citation": [
+      "https://doi.org/10.1002/ptr.6770",
+      "https://doi.org/10.2165/00003088-199426020-00005",
+      "https://doi.org/10.1002/mds3.10069",
+      "https://doi.org/10.1371/journal.pone.0194979",
+      "https://doi.org/10.1007/s00216-024-05584-3",
+      "https://doi.org/10.1155/2021/2074610",
+      "https://doi.org/10.3389/fphar.2025.1572197",
+      "https://doi.org/10.3390/nu14010124",
+      "https://doi.org/10.1016/j.metabol.2008.01.013",
+      "https://doi.org/10.3389/fnut.2022.1013055"
     ],
-    "url": "https://www.telehealthfx.com/author/julian-mercer",
-    "image": "https://galaglp1.com/assets/julian-mercer-headshot.png",
-    "sameAs": [
-      "https://www.linkedin.com/in/placeholder-julian-mercer",
-      "https://twitter.com/placeholder-julian-data"
+    "about": [
+      {
+        "@type": "TherapeuticProcedure",
+        "name": "Transdermal Drug Delivery System"
+      },
+      {
+        "@type": "DietarySupplement",
+        "name": "Transdermal Berberine Patch",
+        "activeIngredient": "Berberine / Dihydroberberine",
+        "mechanismOfAction": "AMP-activated protein kinase (AMPK) activation",
+        "targetPopulation": "Adults seeking metabolic support",
+        "safetyConsideration": "Bypasses GI tract, limits nausea compared to oral administration"
+      }
     ]
   };
 
   return (
     <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(authorSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <div className="container" style={{ maxWidth: 800 }}>
         
         <div className="eyebrow" style={{ marginBottom: 20 }}>Clinical Analysis</div>
