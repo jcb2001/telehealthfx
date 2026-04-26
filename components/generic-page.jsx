@@ -17,6 +17,7 @@ function GenericPage({ pageSlug, onStartQuiz, priceAnchor }) {
       case 'blog/berberine': return <BlogBerberine />;
       case 'blog/72-hour-myth': return <Blog72HourMyth />;
       case 'blog/transdermal-vs-oral': return <BlogTransdermalVsOral />;
+      case 'blog/natures-ozempic-exposed': return <BlogNaturesOzempicExposed />;
     }
 
     // 2. Check for Legal/Support/Company text pages

@@ -89,7 +89,7 @@ function BlogBerberine() {
           </div>
 
           <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Berberine vs. Ozempic vs. Metformin: A Head-to-Head Breakdown</h2>
-          <p>Social media loves the “Nature’s Ozempic” label, but experts caution it’s marketing, not science. Ozempic (semaglutide) is a GLP-1 receptor agonist that slows gastric emptying, boosts satiety hormones, and delivers 15–20% body weight loss in trials. Berberine works via AMPK and gut modulation—different pathways—and yields far more modest results (typically 2–5% body weight).</p>
+          <p>Social media loves the “Nature’s Ozempic” label, but experts caution it’s marketing, not science (we break down exactly why in our <a href="/blog/natures-ozempic-exposed" style={{ color: 'var(--brand)', fontWeight: 500 }}>exposé on Berberine vs Ozempic for sustainable weight loss</a>). Ozempic (semaglutide) is a GLP-1 receptor agonist that slows gastric emptying, boosts satiety hormones, and delivers 15–20% body weight loss in trials. Berberine works via AMPK and gut modulation—different pathways—and yields far more modest results (typically 2–5% body weight).</p>
           <p>Metformin, the first-line diabetes drug, also activates AMPK and is often compared directly to berberine. Small trials show similar HbA1c reductions, but metformin has decades of large-scale safety data. Berberine may edge out on lipid improvements in some studies, but it lacks FDA approval as a drug.</p>
           <p><strong>Key Differences:</strong></p>
           <ul style={{ marginBottom: 24, paddingLeft: 20 }}>
