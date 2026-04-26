@@ -113,7 +113,7 @@ function BlogBerberine() {
 
           <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The Simple, Science-Backed Fix: Transdermal Berberine Patches</h2>
           <p>You shouldn’t have to trade stomach comfort for results. Enter transdermal (skin) patch technology—a “set it and forget it” delivery system that bypasses the entire digestive tract.</p>
-          <p>Instead of giant pills, you apply a small, discreet patch (often to the arm, abdomen, or thigh) once daily. Berberine (or its more lipophilic derivative, dihydroberberine/DHB) is formulated with penetration enhancers, lipids, and sometimes flavonoids to cross the skin barrier directly into the bloodstream. No first-pass liver metabolism. No gut irritation. Steady, low-dose release over 8–24 hours.</p>
+          <p>Instead of giant pills, you apply a small, discreet patch (often to the arm, abdomen, or thigh) once daily. Berberine (or its more lipophilic derivative, dihydroberberine/DHB) is formulated with penetration enhancers, lipids, and sometimes flavonoids to cross the skin barrier directly into the bloodstream. No first-pass liver metabolism. No gut irritation. Steady, low-dose release over 8–24 hours (for a deep dive on how this compares to other methods, see our <a href="/blog/transdermal-vs-oral" style={{ color: 'var(--brand)', fontWeight: 500 }}>definitive 2026 guide to transdermal vs oral vs injections</a>).</p>
           
           <p><strong>The Science Supporting Patches:</strong></p>
           <ul style={{ marginBottom: 24, paddingLeft: 20 }}>
