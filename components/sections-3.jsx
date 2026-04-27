@@ -99,7 +99,7 @@ function FinalCTA({ priceAnchor, onStartQuiz }) {
             </p>
             <div style={{ display: 'flex', gap: 16, alignItems: 'center' }}>
               <button className="btn btn-lg" style={{ background: '#FBF8F3', color: 'var(--brand)' }} onClick={onStartQuiz}>
-                Start my plan <Icon.Arrow/>
+                See If You Qualify <Icon.Arrow/>
               </button>
               <div style={{ fontSize: 13, opacity: 0.7 }}>No insurance · 30-day guarantee</div>
             </div>

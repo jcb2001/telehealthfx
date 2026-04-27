@@ -50,6 +50,7 @@ function App() {
   };
 
   const startQuiz = () => { setView('quiz'); window.scrollTo(0, 0); };
+  const startAffiliate = () => { window.location.href = 'https://swiy.co/yucca-quiz'; };
   const backToLanding = () => { setView('landing'); window.scrollTo(0, 0); };
 
   return (
@@ -58,16 +59,16 @@ function App() {
         <GenericPage pageSlug={view.replace('page:', '')} priceAnchor={tweaks.priceAnchor} onStartQuiz={startQuiz}/>
       ) : view === 'landing' ? (
         <div data-screen-label="01 Landing">
-          <Nav onStartQuiz={startQuiz}/>
-          <Hero headline={tweaks.headline} priceAnchor={tweaks.priceAnchor} layout={tweaks.heroLayout} onStartQuiz={startQuiz}/>
+          <Nav onStartQuiz={startAffiliate}/>
+          <Hero headline={tweaks.headline} priceAnchor={tweaks.priceAnchor} layout={tweaks.heroLayout} onStartQuiz={startAffiliate}/>
           <PressStrip/>
           <HowItWorks/>
-          <Medications priceAnchor={tweaks.priceAnchor} onStartQuiz={startQuiz}/>
+          <Medications priceAnchor={tweaks.priceAnchor} onStartQuiz={startAffiliate}/>
           <Results/>
           <Science/>
-          <Pricing priceAnchor={tweaks.priceAnchor} onStartQuiz={startQuiz}/>
+          <Pricing priceAnchor={tweaks.priceAnchor} onStartQuiz={startAffiliate}/>
           <FAQ/>
-          <FinalCTA priceAnchor={tweaks.priceAnchor} onStartQuiz={startQuiz}/>
+          <FinalCTA priceAnchor={tweaks.priceAnchor} onStartQuiz={startAffiliate}/>
           <Footer/>
         </div>
       ) : (

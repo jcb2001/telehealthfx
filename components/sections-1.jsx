@@ -180,7 +180,7 @@ function MedCard({ med, selected, onSelect, onStartQuiz }) {
         style={{ width: '100%', justifyContent: 'center' }}
         onClick={(e) => { e.stopPropagation(); onStartQuiz(); }}
       >
-        Start with {med.name} <Icon.Arrow />
+        See If You Qualify <Icon.Arrow />
       </button>
     </div>
   );

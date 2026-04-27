@@ -232,7 +232,7 @@ function Pricing({ priceAnchor, onStartQuiz }) {
                 }}
                 onClick={onStartQuiz}
               >
-                Choose {p.name}
+                See If You Qualify
               </button>
             </div>
           ))}

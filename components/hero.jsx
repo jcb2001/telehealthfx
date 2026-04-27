@@ -27,7 +27,7 @@ function Nav({ onStartQuiz }) {
         </div>
         <div className="flex-row nav-actions" style={{ gap: 12, alignItems: 'center' }}>
           <button className="btn btn-primary" onClick={onStartQuiz}>
-            Start my plan <Icon.Arrow />
+            See If You Qualify <Icon.Arrow />
           </button>
         </div>
       </div>
@@ -62,7 +62,7 @@ function HeroDefault({ headline, priceAnchor, onStartQuiz }) {
           </p>
           <div className="flex-row stack-mobile" style={{ gap: 12, marginBottom: 40 }}>
             <button className="btn btn-primary btn-lg" onClick={onStartQuiz}>
-              Take the 2-minute quiz <Icon.Arrow />
+              See If You Qualify <Icon.Arrow />
             </button>
           </div>
 
@@ -95,7 +95,7 @@ function HeroEditorial({ headline, priceAnchor, onStartQuiz }) {
           Personalized GLP-1 care from licensed clinicians. From ${priceAnchor}/month, shipped to your door.
         </p>
         <button className="btn btn-primary btn-lg" onClick={onStartQuiz}>
-          Start my plan <Icon.Arrow />
+          See If You Qualify <Icon.Arrow />
         </button>
       </div>
     </section>
@@ -119,7 +119,7 @@ function HeroData({ headline, priceAnchor, onStartQuiz }) {
             Personalized GLP-1 care from board-certified clinicians. From ${priceAnchor}/month.
           </p>
           <button className="btn btn-primary btn-lg" onClick={onStartQuiz}>
-            Check my eligibility <Icon.Arrow />
+            See If You Qualify <Icon.Arrow />
           </button>
         </div>
         <WeightChart />
