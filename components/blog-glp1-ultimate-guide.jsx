@@ -7,13 +7,10 @@ function BlogGlp1UltimateGuide() {
     "headline": "The Ultimate Guide to GLP-1 Medications: How They Work & What's New",
     "description": "A comprehensive clinical breakdown of GLP-1 receptor agonists, how they function for weight loss, and the newest metabolic treatments available.",
     "author": {
-      "@type": "Person",
-      "name": "Julian Mercer",
-      "jobTitle": "Lead Bio-Systems Analyst"
+      "@id": "https://telehealthfx.com/#julianmercer"
     },
     "publisher": {
-      "@type": "MedicalOrganization",
-      "name": "Telehealth FX"
+      "@id": "https://telehealthfx.com/#organization"
     },
     "datePublished": "2026-04-27",
     "image": "https://telehealthfx.com/assets/glp1-ultimate-guide.png",

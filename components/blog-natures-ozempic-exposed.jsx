@@ -7,34 +7,10 @@ function BlogNaturesOzempicExposed() {
     "headline": "Nature’s Ozempic Exposed: Why Berberine Beats the Hype for Sustainable Weight Loss",
     "description": "An evidence-based comparison of Berberine and Semaglutide (Ozempic), separating social media hype from clinical reality for sustainable weight loss.",
     "author": {
-      "@type": "Person",
-      "name": "Julian Mercer",
-      "jobTitle": "Lead Bio-Systems Analyst",
-      "worksFor": {
-        "@type": "Organization",
-        "name": "Telehealth FX",
-        "url": "https://www.telehealthfx.com"
-      },
-      "hasOccupation": {
-        "@type": "Occupation",
-        "name": "Bioinformatics Researcher",
-        "educationRequirements": "Master of Science in Bioinformatics"
-      },
-      "description": "Julian Mercer is the Lead Bio-Systems Analyst at Telehealth FX. With an M.S. in Bioinformatics and eight years of academic research, Julian specializes in analyzing transdermal delivery systems, metabolic data modeling, and the pharmacokinetic transition protocols from AMPK activators (Berberine) to clinical GLP-1 receptor agonists (Semaglutide and Tirzepatide).",
-      "url": "https://www.telehealthfx.com/author/julian-mercer",
-      "sameAs": [
-        "https://www.linkedin.com/in/placeholder-julian-mercer",
-        "https://twitter.com/placeholder-julian-data"
-      ]
+      "@id": "https://telehealthfx.com/#julianmercer"
     },
     "publisher": {
-      "@type": "MedicalOrganization",
-      "name": "Telehealth FX",
-      "url": "https://www.telehealthfx.com",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://telehealthfx.com/assets/Site%20Icon-modified.png"
-      }
+      "@id": "https://telehealthfx.com/#organization"
     },
     "datePublished": "2026-04-26",
     "dateModified": "2026-04-26",
