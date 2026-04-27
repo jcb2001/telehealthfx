@@ -169,11 +169,19 @@ function Footer() {
           ))}
         </div>
 
-        <div className="flex-row footer-bottom" style={{ paddingTop: 40, borderTop: '1px solid var(--line)', justifyContent: 'space-between', alignItems: 'flex-end', gap: 40 }}>
-          <div style={{ fontSize: 11, color: 'var(--ink-3)', lineHeight: 1.6, maxWidth: 720 }}>
-            <strong>Important safety information.</strong> Compounded semaglutide and tirzepatide are not FDA-approved. They are custom preparations made at the discretion of a licensed pharmacy under 503A/503B compounding law. GLP-1 medications may cause serious side effects. Do not use if you have a personal or family history of medullary thyroid carcinoma or MEN 2. Consult your clinician before starting any medication.
+        <div className="flex-row footer-bottom stack-mobile" style={{ paddingTop: 40, borderTop: '1px solid var(--line)', justifyContent: 'space-between', alignItems: 'flex-start', gap: 40 }}>
+          <div style={{ fontSize: 11, color: 'var(--ink-3)', lineHeight: 1.6, flex: 1 }}>
+            <p style={{ marginBottom: 12 }}>
+              <strong>Important Affiliate & Medical Disclaimer:</strong> Telehealth FX is an informational website and affiliate marketing platform. We are not a medical provider or pharmacy, and we do not provide medical advice, diagnosis, or treatment. We may earn a commission when you click on links or sign up for a partner’s service. The information on this website is for informational purposes only and is not a substitute for professional medical advice. Always consult your physician before starting any medication or weight loss program. 
+            </p>
+            <p style={{ marginBottom: 12 }}>
+              <strong>Results May Vary:</strong> Individual weight loss results may vary based on starting weight, diet, exercise, and adherence to the clinical program. Testimonials or data provided do not guarantee that you will achieve the exact same results.
+            </p>
+            <p style={{ marginBottom: 0 }}>
+              <strong>FDA & Compounding Disclaimer:</strong> Compounded medications (including compounded semaglutide and tirzepatide) are not FDA-approved, meaning the FDA does not evaluate them for safety, efficacy, or quality. They are custom preparations made by licensed compounding pharmacies. Telehealth FX does not sell, distribute, or claim equivalence to commercially available branded products such as Ozempic®, Wegovy®, Mounjaro®, or Zepbound®. GLP-1 medications may cause serious side effects. Do not use if you have a personal or family history of medullary thyroid carcinoma (MTC) or Multiple Endocrine Neoplasia syndrome type 2 (MEN 2).
+            </p>
           </div>
-          <div style={{ fontSize: 12, color: 'var(--ink-3)', whiteSpace: 'nowrap' }}>
+          <div style={{ fontSize: 12, color: 'var(--ink-3)', whiteSpace: 'nowrap', paddingTop: 4 }}>
             © 2026 Telehealth FX, Inc.
           </div>
         </div>
