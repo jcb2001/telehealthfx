@@ -89,3 +89,32 @@ function Logo({ color = 'currentColor', size = 20 }) {
 
 window.Icon = Icon;
 window.Logo = Logo;
+
+function useSEO(title, description) {
+  useEffect(() => {
+    if (title) document.title = title;
+    if (description) {
+      let meta = document.querySelector('meta[name="description"]');
+      if (!meta) {
+        meta = document.createElement('meta');
+        meta.name = "description";
+        document.head.appendChild(meta);
+      }
+      meta.content = description;
+    }
+
+    // Dynamic Canonical URL Injection
+    let canonical = document.querySelector('link[rel="canonical"]');
+    if (!canonical) {
+      canonical = document.createElement('link');
+      canonical.rel = 'canonical';
+      document.head.appendChild(canonical);
+    }
+    // Force all canonicals to the secure, non-www version
+    const cleanPath = window.location.pathname.replace(/\/$/, '') || '/';
+    canonical.href = `https://telehealthfx.com${cleanPath === '/' ? '' : cleanPath}`;
+
+  }, [title, description]);
+}
+window.useSEO = useSEO;
+
