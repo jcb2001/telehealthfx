@@ -177,8 +177,11 @@ function Footer() {
             <p style={{ marginBottom: 12 }}>
               <strong>Results May Vary:</strong> Individual weight loss results may vary based on starting weight, diet, exercise, and adherence to the clinical program. Testimonials or data provided do not guarantee that you will achieve the exact same results.
             </p>
-            <p style={{ marginBottom: 0 }}>
+            <p style={{ marginBottom: 12 }}>
               <strong>FDA & Compounding Disclaimer:</strong> Compounded medications (including compounded semaglutide and tirzepatide) are not FDA-approved, meaning the FDA does not evaluate them for safety, efficacy, or quality. They are custom preparations made by licensed compounding pharmacies. Telehealth FX does not sell, distribute, or claim equivalence to commercially available branded products such as Ozempic®, Wegovy®, Mounjaro®, or Zepbound®. GLP-1 medications may cause serious side effects. Do not use if you have a personal or family history of medullary thyroid carcinoma (MTC) or Multiple Endocrine Neoplasia syndrome type 2 (MEN 2).
+            </p>
+            <p style={{ marginBottom: 0 }}>
+              <strong>Platform Disclaimer:</strong> This site is not a part of the Facebook website or Facebook Inc. Additionally, this site is NOT endorsed by Facebook in any way. FACEBOOK is a trademark of FACEBOOK, Inc. This site is not a part of Google™ or the Google network of sites.
             </p>
           </div>
           <div style={{ fontSize: 12, color: 'var(--ink-3)', whiteSpace: 'nowrap', paddingTop: 4 }}>
