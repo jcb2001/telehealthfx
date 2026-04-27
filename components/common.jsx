@@ -90,7 +90,7 @@ function Logo({ color = 'currentColor', size = 20 }) {
 window.Icon = Icon;
 window.Logo = Logo;
 
-function useSEO(title, description) {
+function useSEO(title, description, schema) {
   useEffect(() => {
     if (title) document.title = title;
     if (description) {
@@ -114,7 +114,20 @@ function useSEO(title, description) {
     const cleanPath = window.location.pathname.replace(/\/$/, '') || '/';
     canonical.href = `https://telehealthfx.com${cleanPath === '/' ? '' : cleanPath}`;
 
-  }, [title, description]);
+    // Dynamic Schema Injection
+    let existingSchema = document.getElementById('dynamic-schema');
+    if (existingSchema) {
+      existingSchema.remove();
+    }
+    if (schema) {
+      const script = document.createElement('script');
+      script.id = 'dynamic-schema';
+      script.type = 'application/ld+json';
+      script.text = JSON.stringify(schema);
+      document.head.appendChild(script);
+    }
+
+  }, [title, description, schema]);
 }
 window.useSEO = useSEO;
 

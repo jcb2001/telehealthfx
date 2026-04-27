@@ -68,9 +68,10 @@ function BlogTransdermalVsOral() {
     ]
   };
 
+  useSEO("Transdermal vs Oral vs Injections: The Definitive Guide | Telehealth FX", "A comprehensive pharmacokinetic review comparing oral, transdermal, and injection delivery methods for metabolic compounds like Berberine and Semaglutide.", articleSchema);
+
   return (
     <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <div className="container" style={{ maxWidth: 800 }}>
         
         <div className="eyebrow" style={{ marginBottom: 20 }}>Pharmacokinetic Review</div>

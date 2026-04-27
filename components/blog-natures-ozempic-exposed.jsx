@@ -68,9 +68,10 @@ function BlogNaturesOzempicExposed() {
     ]
   };
 
+  useSEO("Nature’s Ozempic Exposed: Why Berberine Beats the Hype | Telehealth FX", "An evidence-based comparison of Berberine and Semaglutide (Ozempic), separating social media hype from clinical reality for sustainable weight loss.", articleSchema);
+
   return (
     <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <div className="container" style={{ maxWidth: 800 }}>
         
         <div className="eyebrow" style={{ marginBottom: 20 }}>Metabolic Reality Check</div>

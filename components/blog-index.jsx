@@ -3,6 +3,13 @@
 function BlogIndex() {
   const articles = [
     {
+      title: "The Ultimate Guide to GLP-1 Medications: How They Work & What's New",
+      description: "A comprehensive clinical breakdown of GLP-1 receptor agonists, how they function for weight loss, and the newest metabolic treatments available.",
+      slug: "/blog/glp1-ultimate-guide",
+      image: "/assets/glp1-ultimate-guide.png",
+      tag: "Science & Basics"
+    },
+    {
       title: "Nature’s Ozempic Exposed: Why Berberine Beats the Hype for Sustainable Weight Loss",
       description: "An evidence-based comparison of Berberine and Semaglutide (Ozempic), separating social media hype from clinical reality for sustainable weight loss.",
       slug: "/blog/natures-ozempic-exposed",
@@ -57,9 +64,10 @@ function BlogIndex() {
     }
   };
 
+  useSEO("Metabolic Health Articles | Telehealth FX", "Clinical analyses, pharmacokinetic reviews, and evidence-based breakdowns from the Telehealth FX Bio-Systems team.", indexSchema);
+
   return (
     <section className="section" style={{ minHeight: '80vh', paddingTop: 140, paddingBottom: 100 }}>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(indexSchema) }} />
       <div className="container">
         
         <div style={{ textAlign: 'center', marginBottom: 80, maxWidth: 800, margin: '0 auto 80px' }}>

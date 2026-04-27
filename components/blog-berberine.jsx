@@ -1,7 +1,6 @@
 /* global React, Icon */
 
 function BlogBerberine() {
-  const articleSchema = {
     "@context": "https://schema.org",
     "@type": "MedicalScholarlyArticle",
     "headline": "The Transdermal Revolution: Why Berberine Patches are the Future of Metabolic Health",
@@ -67,9 +66,10 @@ function BlogBerberine() {
     ]
   };
 
+  useSEO("The Transdermal Revolution: Why Berberine Patches are the Future of Metabolic Health | Telehealth FX", "An in-depth clinical analysis of Berberine transdermal patches vs oral delivery for metabolic health, AMPK activation, and avoiding the Berberine Belly.", articleSchema);
+
   return (
     <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <div className="container" style={{ maxWidth: 800 }}>
         
         <div className="eyebrow" style={{ marginBottom: 20 }}>Metabolic Health</div>

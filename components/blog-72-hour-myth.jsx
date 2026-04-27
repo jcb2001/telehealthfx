@@ -67,9 +67,10 @@ function Blog72HourMyth() {
     ]
   };
 
+  useSEO("The 72-Hour Myth: We Lab-Tested Transdermal Depletion Rates at Hour 18 | Telehealth FX", "An investigation into transdermal delivery systems revealing the 72-hour myth of berberine patches and the pharmacokinetic reality of rapid depletion.", articleSchema);
+
   return (
     <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <div className="container" style={{ maxWidth: 800 }}>
         
         <div className="eyebrow" style={{ marginBottom: 20 }}>Clinical Analysis</div>
