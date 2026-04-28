@@ -1,7 +1,11 @@
-/* global React, Icon, Logo */
+"use client";
+import React, { useState, useEffect } from 'react';
+import { Icon } from './common.jsx';
+import { Logo } from './common.jsx';
+
 const { useState: useStateNav, useEffect: useEffectNav } = React;
 
-function Nav({ onStartQuiz }) {
+function Nav() {
   const [scrolled, setScrolled] = useStateNav(false);
   useEffectNav(() => {
     const onScroll = () => setScrolled(window.scrollY > 20);
@@ -19,16 +23,16 @@ function Nav({ onStartQuiz }) {
       <div className="container" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', height: 72 }}>
         <a href="/" style={{ textDecoration: 'none', color: 'inherit' }}><Logo /></a>
         <div className="nav-links" style={{ display: 'flex', gap: 32, fontSize: 14, color: 'var(--ink-2)' }}>
-          <a href="#how">How it works</a>
-          <a href="#treatments">Treatments</a>
-          <a href="#pricing">Pricing</a>
-          <a href="#results">Results</a>
-          <a href="#faq">FAQ</a>
+          <a href="/#how">How it works</a>
+          <a href="/#treatments">Treatments</a>
+          <a href="/#pricing">Pricing</a>
+          <a href="/#results">Results</a>
+          <a href="/#faq">FAQ</a>
         </div>
         <div className="flex-row nav-actions" style={{ gap: 12, alignItems: 'center' }}>
-          <button className="btn btn-primary" onClick={onStartQuiz}>
+          <a className="btn btn-primary" href="https://swiy.co/yucca-quiz">
             See If You Qualify <Icon.Arrow />
-          </button>
+          </a>
         </div>
       </div>
     </nav>
@@ -38,13 +42,13 @@ function Nav({ onStartQuiz }) {
 // ============================================================================
 // HERO
 // ============================================================================
-function Hero({ headline, priceAnchor, layout, onStartQuiz }) {
-  if (layout === 'editorial') return <HeroEditorial headline={headline} priceAnchor={priceAnchor} onStartQuiz={onStartQuiz} />;
-  if (layout === 'data') return <HeroData headline={headline} priceAnchor={priceAnchor} onStartQuiz={onStartQuiz} />;
-  return <HeroDefault headline={headline} priceAnchor={priceAnchor} onStartQuiz={onStartQuiz} />;
+function Hero({ headline, priceAnchor, layout }) {
+  if (layout === 'editorial') return <HeroEditorial headline={headline} priceAnchor={priceAnchor} />;
+  if (layout === 'data') return <HeroData headline={headline} priceAnchor={priceAnchor} />;
+  return <HeroDefault headline={headline} priceAnchor={priceAnchor} />;
 }
 
-function HeroDefault({ headline, priceAnchor, onStartQuiz }) {
+function HeroDefault({ headline, priceAnchor }) {
   return (
     <section style={{ padding: '60px 0 100px' }}>
       <div className="container grid-2-hero">
@@ -53,17 +57,17 @@ function HeroDefault({ headline, priceAnchor, onStartQuiz }) {
             <span>FDA-approved medications · Board-certified clinicians</span>
           </div>
           <h1 className="serif fade-in" style={{ fontSize: 88, marginBottom: 28 }}>
-            {headline.split('\n').map((line, i) => (
+            {headline?.split('\n').map((line, i) => (
               <span key={i} style={{ display: 'block', fontStyle: i === 1 ? 'italic' : 'normal', color: i === 1 ? 'var(--brand)' : 'inherit' }}>{line}</span>
-            ))}
+            )) || "Clinical weight loss, delivered."}
           </h1>
           <p className="fade-in" style={{ fontSize: 18, color: 'var(--ink-2)', maxWidth: 520, marginBottom: 36, lineHeight: 1.55 }}>
             GLP-1 weight loss medication, delivered. A personalized clinical program with semaglutide or tirzepatide — prescribed online, shipped to your door.
           </p>
           <div className="flex-row stack-mobile" style={{ gap: 12, marginBottom: 40 }}>
-            <button className="btn btn-primary btn-lg" onClick={onStartQuiz}>
+            <a className="btn btn-primary btn-lg" href="https://swiy.co/yucca-quiz">
               See If You Qualify <Icon.Arrow />
-            </button>
+            </a>
           </div>
 
           {/* Trust row */}
@@ -81,28 +85,28 @@ function HeroDefault({ headline, priceAnchor, onStartQuiz }) {
   );
 }
 
-function HeroEditorial({ headline, priceAnchor, onStartQuiz }) {
+function HeroEditorial({ headline, priceAnchor }) {
   return (
     <section style={{ padding: '80px 0 120px', textAlign: 'center' }}>
       <div className="container" style={{ maxWidth: 980 }}>
         <div className="eyebrow" style={{ marginBottom: 32 }}>Clinical Weight Loss · Est. 2024</div>
         <h1 className="serif" style={{ fontSize: 132, marginBottom: 40, lineHeight: 0.92 }}>
-          {headline.split('\n').map((line, i) => (
+          {headline?.split('\n').map((line, i) => (
             <span key={i} style={{ display: 'block', fontStyle: i === 1 ? 'italic' : 'normal' }}>{line}</span>
-          ))}
+          )) || "Clinical Weight Loss"}
         </h1>
         <p style={{ fontSize: 19, color: 'var(--ink-2)', maxWidth: 600, margin: '0 auto 40px', lineHeight: 1.5 }}>
           Personalized GLP-1 care from licensed clinicians. From ${priceAnchor}/month, shipped to your door.
         </p>
-        <button className="btn btn-primary btn-lg" onClick={onStartQuiz}>
+        <a className="btn btn-primary btn-lg" href="https://swiy.co/yucca-quiz">
           See If You Qualify <Icon.Arrow />
-        </button>
+        </a>
       </div>
     </section>
   );
 }
 
-function HeroData({ headline, priceAnchor, onStartQuiz }) {
+function HeroData({ headline, priceAnchor }) {
   return (
     <section style={{ padding: '60px 0 100px' }}>
       <div className="container grid-2">
@@ -111,16 +115,16 @@ function HeroData({ headline, priceAnchor, onStartQuiz }) {
             <span>Now accepting new patients</span>
           </div>
           <h1 className="serif" style={{ fontSize: 80, marginBottom: 28 }}>
-            {headline.split('\n').map((line, i) => (
+            {headline?.split('\n').map((line, i) => (
               <span key={i} style={{ display: 'block', fontStyle: i === 1 ? 'italic' : 'normal' }}>{line}</span>
-            ))}
+            )) || "Clinical Weight Loss"}
           </h1>
           <p style={{ fontSize: 17, color: 'var(--ink-2)', maxWidth: 480, marginBottom: 32, lineHeight: 1.55 }}>
             Personalized GLP-1 care from board-certified clinicians. From ${priceAnchor}/month.
           </p>
-          <button className="btn btn-primary btn-lg" onClick={onStartQuiz}>
+          <a className="btn btn-primary btn-lg" href="https://swiy.co/yucca-quiz">
             See If You Qualify <Icon.Arrow />
-          </button>
+          </a>
         </div>
         <WeightChart />
       </div>
@@ -268,5 +272,5 @@ function WeightChart() {
   );
 }
 
-window.Nav = Nav;
-window.Hero = Hero;
+export { Nav };
+export { Hero };

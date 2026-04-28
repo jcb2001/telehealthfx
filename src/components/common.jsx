@@ -1,5 +1,7 @@
-/* global React */
-const { useState, useEffect, useRef } = React;
+"use client";
+import React, { useState, useEffect } from 'react';
+
+const { useRef } = React;
 
 // ============================================================================
 // ICONS — minimal line icons drawn from primitives
@@ -87,8 +89,8 @@ function Logo({ color = 'currentColor', size = 20 }) {
   );
 }
 
-window.Icon = Icon;
-window.Logo = Logo;
+export { Icon };
+export { Logo };
 
 function useSEO(title, description, schema) {
   useEffect(() => {
@@ -129,5 +131,5 @@ function useSEO(title, description, schema) {
 
   }, [title, description, schema]);
 }
-window.useSEO = useSEO;
+export { useSEO };
 

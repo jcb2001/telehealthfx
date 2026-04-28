@@ -1,4 +1,8 @@
-/* global React, Icon, Logo */
+"use client";
+import React, { useState, useEffect } from 'react';
+import { Icon } from './common.jsx';
+import { Logo } from './common.jsx';
+
 const { useState: useStateQuiz } = React;
 
 function Quiz({ onClose, priceAnchor }) {
@@ -395,4 +399,4 @@ function SummaryStat({ label, value }) {
   );
 }
 
-window.Quiz = Quiz;
+export { Quiz };

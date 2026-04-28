@@ -1,33 +1,10 @@
-/* global React, Icon */
+"use client";
+import React, { useState, useEffect } from 'react';
+import { Icon } from './common.jsx';
+
 
 function BlogGlp1UltimateGuide() {
-  const articleSchema = {
-    "@context": "https://schema.org",
-    "@type": "MedicalScholarlyArticle",
-    "headline": "The Ultimate Guide to GLP-1 Medications: How They Work & What's New",
-    "description": "A comprehensive clinical breakdown of GLP-1 receptor agonists, how they function for weight loss, and the newest metabolic treatments available.",
-    "author": {
-      "@id": "https://telehealthfx.com/#julianmercer"
-    },
-    "publisher": {
-      "@id": "https://telehealthfx.com/#organization"
-    },
-    "datePublished": "2026-04-27",
-    "image": "https://telehealthfx.com/assets/glp1-ultimate-guide.png",
-    "about": [
-      {
-        "@type": "MedicalCondition",
-        "name": "Obesity"
-      },
-      {
-        "@type": "Drug",
-        "name": "GLP-1 Receptor Agonist"
-      }
-    ]
-  };
-
-  useSEO("The Ultimate Guide to GLP-1 Medications: How They Work | Telehealth FX", "A comprehensive clinical breakdown of GLP-1 receptor agonists, how they function for weight loss, and the newest metabolic treatments available.", articleSchema);
-
+  
   return (
     <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
       <div className="container" style={{ maxWidth: 800 }}>
@@ -105,4 +82,4 @@ function BlogGlp1UltimateGuide() {
   );
 }
 
-window.BlogGlp1UltimateGuide = BlogGlp1UltimateGuide;
+export { BlogGlp1UltimateGuide };

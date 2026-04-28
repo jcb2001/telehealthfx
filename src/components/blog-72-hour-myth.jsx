@@ -1,50 +1,10 @@
-/* global React, Icon */
+"use client";
+import React, { useState, useEffect } from 'react';
+import { Icon } from './common.jsx';
+
 
 function Blog72HourMyth() {
-  const articleSchema = {
-    "@context": "https://schema.org",
-    "@type": "MedicalScholarlyArticle",
-    "headline": "The 72-Hour Myth: We Lab-Tested Transdermal Depletion Rates at Hour 18",
-    "description": "An investigation into transdermal delivery systems revealing the 72-hour myth of berberine patches and the pharmacokinetic reality of rapid depletion.",
-    "author": {
-      "@id": "https://telehealthfx.com/#julianmercer"
-    },
-    "publisher": {
-      "@id": "https://telehealthfx.com/#organization"
-    },
-    "datePublished": "2026-04-10",
-    "dateModified": "2026-04-26",
-    "image": "https://telehealthfx.com/assets/myth-featured.png",
-    "citation": [
-      "https://doi.org/10.1002/ptr.6770",
-      "https://doi.org/10.2165/00003088-199426020-00005",
-      "https://doi.org/10.1002/mds3.10069",
-      "https://doi.org/10.1371/journal.pone.0194979",
-      "https://doi.org/10.1007/s00216-024-05584-3",
-      "https://doi.org/10.1155/2021/2074610",
-      "https://doi.org/10.3389/fphar.2025.1572197",
-      "https://doi.org/10.3390/nu14010124",
-      "https://doi.org/10.1016/j.metabol.2008.01.013",
-      "https://doi.org/10.3389/fnut.2022.1013055"
-    ],
-    "about": [
-      {
-        "@type": "TherapeuticProcedure",
-        "name": "Transdermal Drug Delivery System"
-      },
-      {
-        "@type": "DietarySupplement",
-        "name": "Transdermal Berberine Patch",
-        "activeIngredient": "Berberine / Dihydroberberine",
-        "mechanismOfAction": "AMP-activated protein kinase (AMPK) activation",
-        "targetPopulation": "Adults seeking metabolic support",
-        "safetyConsideration": "Bypasses GI tract, limits nausea compared to oral administration"
-      }
-    ]
-  };
-
-  useSEO("The 72-Hour Myth: We Lab-Tested Transdermal Depletion Rates at Hour 18 | Telehealth FX", "An investigation into transdermal delivery systems revealing the 72-hour myth of berberine patches and the pharmacokinetic reality of rapid depletion.", articleSchema);
-
+  
   return (
     <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
       <div className="container" style={{ maxWidth: 800 }}>
@@ -217,4 +177,4 @@ function Blog72HourMyth() {
   );
 }
 
-window.Blog72HourMyth = Blog72HourMyth;
+export { Blog72HourMyth };

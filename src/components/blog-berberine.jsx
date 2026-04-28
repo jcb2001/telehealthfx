@@ -1,48 +1,9 @@
-/* global React, Icon */
+"use client";
+import React, { useState, useEffect } from 'react';
+import { Icon } from './common.jsx';
+
 
 function BlogBerberine() {
-    "@context": "https://schema.org",
-    "@type": "MedicalScholarlyArticle",
-    "headline": "The Transdermal Revolution: Why Berberine Patches are the Future of Metabolic Health",
-    "description": "An in-depth clinical analysis of Berberine transdermal patches vs oral delivery for metabolic health, AMPK activation, and avoiding the Berberine Belly.",
-    "author": {
-      "@id": "https://telehealthfx.com/#julianmercer"
-    },
-    "publisher": {
-      "@id": "https://telehealthfx.com/#organization"
-    },
-    "datePublished": "2026-04-01",
-    "dateModified": "2026-04-26",
-    "image": "https://telehealthfx.com/assets/berberine-featured.png",
-    "citation": [
-      "https://doi.org/10.1016/j.biopha.2022.112718",
-      "https://doi.org/10.1371/journal.pone.0194979",
-      "https://doi.org/10.1016/j.metabol.2008.01.013",
-      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7839591/",
-      "https://doi.org/10.1155/2021/7563889",
-      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10997930/"
-    ],
-    "about": [
-      {
-        "@type": "MedicalCondition",
-        "name": "Insulin Resistance",
-        "associatedAnatomy": {
-          "@type": "AnatomicalStructure",
-          "name": "Metabolic System"
-        }
-      },
-      {
-        "@type": "DietarySupplement",
-        "name": "Transdermal Berberine Patch",
-        "activeIngredient": "Berberine / Dihydroberberine",
-        "mechanismOfAction": "AMP-activated protein kinase (AMPK) activation",
-        "targetPopulation": "Adults seeking metabolic support",
-        "safetyConsideration": "Bypasses GI tract, limits nausea compared to oral administration"
-      }
-    ]
-  };
-
-  useSEO("The Transdermal Revolution: Why Berberine Patches are the Future of Metabolic Health | Telehealth FX", "An in-depth clinical analysis of Berberine transdermal patches vs oral delivery for metabolic health, AMPK activation, and avoiding the Berberine Belly.", articleSchema);
 
   return (
     <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
@@ -205,4 +166,4 @@ function BlogBerberine() {
   );
 }
 
-window.BlogBerberine = BlogBerberine;
+export { BlogBerberine };

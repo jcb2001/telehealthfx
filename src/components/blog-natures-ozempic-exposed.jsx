@@ -1,51 +1,10 @@
-/* global React, Icon */
+"use client";
+import React, { useState, useEffect } from 'react';
+import { Icon } from './common.jsx';
+
 
 function BlogNaturesOzempicExposed() {
-  const articleSchema = {
-    "@context": "https://schema.org",
-    "@type": "MedicalScholarlyArticle",
-    "headline": "Nature’s Ozempic Exposed: Why Berberine Beats the Hype for Sustainable Weight Loss",
-    "description": "An evidence-based comparison of Berberine and Semaglutide (Ozempic), separating social media hype from clinical reality for sustainable weight loss.",
-    "author": {
-      "@id": "https://telehealthfx.com/#julianmercer"
-    },
-    "publisher": {
-      "@id": "https://telehealthfx.com/#organization"
-    },
-    "datePublished": "2026-04-26",
-    "dateModified": "2026-04-26",
-    "image": "https://telehealthfx.com/assets/ozempic-featured.png",
-    "citation": [
-      "https://doi.org/10.1002/ptr.6770",
-      "https://doi.org/10.1371/journal.pone.0194979",
-      "https://doi.org/10.1016/j.dsx.2023.102778",
-      "https://doi.org/10.1186/s40001-025-02738-6",
-      "https://doi.org/10.1001/jamanetworkopen.2025.54152",
-      "https://doi.org/10.3389/fphar.2025.1572197",
-      "https://doi.org/10.1016/j.metabol.2008.01.013"
-    ],
-    "about": [
-      {
-        "@type": "MedicalCondition",
-        "name": "Obesity"
-      },
-      {
-        "@type": "MedicalCondition",
-        "name": "Metabolic Syndrome"
-      },
-      {
-        "@type": "DietarySupplement",
-        "name": "Transdermal Berberine Patch",
-        "activeIngredient": "Berberine / Dihydroberberine",
-        "mechanismOfAction": "AMP-activated protein kinase (AMPK) activation",
-        "targetPopulation": "Adults seeking metabolic support",
-        "safetyConsideration": "Bypasses GI tract, limits nausea compared to oral administration"
-      }
-    ]
-  };
-
-  useSEO("Nature’s Ozempic Exposed: Why Berberine Beats the Hype | Telehealth FX", "An evidence-based comparison of Berberine and Semaglutide (Ozempic), separating social media hype from clinical reality for sustainable weight loss.", articleSchema);
-
+  
   return (
     <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
       <div className="container" style={{ maxWidth: 800 }}>
@@ -217,4 +176,4 @@ function BlogNaturesOzempicExposed() {
   );
 }
 
-window.BlogNaturesOzempicExposed = BlogNaturesOzempicExposed;
+export { BlogNaturesOzempicExposed };

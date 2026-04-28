@@ -1,4 +1,7 @@
-/* global React, Icon */
+"use client";
+import React, { useState, useEffect } from 'react';
+import { Icon } from './common.jsx';
+
 
 // ============================================================================
 // RESULTS — testimonial cards with before/after placeholders
@@ -163,11 +166,12 @@ function ScienceDiagram() {
 // ============================================================================
 // PRICING
 // ============================================================================
-function Pricing({ priceAnchor, onStartQuiz }) {
+function Pricing({ priceAnchor }) {
+  const basePrice = priceAnchor || 249;
   const plans = [
-    { name: 'Monthly', price: priceAnchor + 50, interval: 'mo', note: 'Billed monthly', best: false, save: null },
-    { name: '3-Month', price: priceAnchor, interval: 'mo', note: 'Billed quarterly', best: true, save: 'Save 17%' },
-    { name: '6-Month', price: priceAnchor - 20, interval: 'mo', note: 'Billed every 6 months', best: false, save: 'Save 26%' },
+    { name: 'Monthly', price: basePrice + 50, interval: 'mo', note: 'Billed monthly', best: false, save: null },
+    { name: '3-Month', price: basePrice, interval: 'mo', note: 'Billed quarterly', best: true, save: 'Save 17%' },
+    { name: '6-Month', price: basePrice - 20, interval: 'mo', note: 'Billed every 6 months', best: false, save: 'Save 26%' },
   ];
   return (
     <section id="pricing" className="section">
@@ -224,16 +228,16 @@ function Pricing({ priceAnchor, onStartQuiz }) {
                   </li>
                 ))}
               </ul>
-              <button
+              <a
                 className={p.best ? 'btn' : 'btn btn-secondary'}
                 style={{
-                  width: '100%', justifyContent: 'center',
+                  width: '100%', justifyContent: 'center', display: 'inline-flex',
                   ...(p.best ? { background: '#FBF8F3', color: 'var(--brand)' } : {}),
                 }}
-                onClick={onStartQuiz}
+                href="https://swiy.co/yucca-quiz"
               >
                 See If You Qualify
-              </button>
+              </a>
             </div>
           ))}
         </div>
@@ -246,6 +250,6 @@ function Pricing({ priceAnchor, onStartQuiz }) {
   );
 }
 
-window.Results = Results;
-window.Science = Science;
-window.Pricing = Pricing;
+export { Results };
+export { Science };
+export { Pricing };

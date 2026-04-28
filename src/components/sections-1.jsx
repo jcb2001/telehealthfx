@@ -1,4 +1,7 @@
-/* global React, Icon */
+"use client";
+import React, { useState, useEffect } from 'react';
+import { Icon } from './common.jsx';
+
 
 // ============================================================================
 // PRESS / LOGO STRIP
@@ -71,14 +74,14 @@ function HowItWorks() {
 // ============================================================================
 // MEDICATIONS — Semaglutide + Tirzepatide comparison
 // ============================================================================
-function Medications({ priceAnchor, onStartQuiz }) {
+function Medications({ priceAnchor }) {
   const [selected, setSelected] = React.useState(0);
   const meds = [
     {
       name: 'Semaglutide',
       tag: 'Most popular',
       tagType: 'brand',
-      price: priceAnchor,
+      price: priceAnchor || 249,
       intro: 'A once-weekly GLP-1 agonist that regulates appetite and blood sugar.',
       avg: '–15% body weight',
       avgSub: 'at 12 months (avg.)',
@@ -93,7 +96,7 @@ function Medications({ priceAnchor, onStartQuiz }) {
       name: 'Tirzepatide',
       tag: 'Strongest results',
       tagType: 'accent',
-      price: priceAnchor + 100,
+      price: (priceAnchor || 249) + 100,
       intro: 'A dual GIP/GLP-1 receptor agonist — the most effective GLP-1 class available.',
       avg: '–21% body weight',
       avgSub: 'at 12 months (avg.)',
@@ -120,7 +123,7 @@ function Medications({ priceAnchor, onStartQuiz }) {
 
         <div className="grid-2">
           {meds.map((m, i) => (
-            <MedCard key={i} med={m} selected={selected === i} onSelect={() => setSelected(i)} onStartQuiz={onStartQuiz}/>
+            <MedCard key={i} med={m} selected={selected === i} onSelect={() => setSelected(i)} />
           ))}
         </div>
       </div>
@@ -128,7 +131,7 @@ function Medications({ priceAnchor, onStartQuiz }) {
   );
 }
 
-function MedCard({ med, selected, onSelect, onStartQuiz }) {
+function MedCard({ med, selected, onSelect }) {
   return (
     <div
       onClick={onSelect}
@@ -175,17 +178,18 @@ function MedCard({ med, selected, onSelect, onStartQuiz }) {
         ))}
       </ul>
 
-      <button
+      <a
         className="btn btn-primary"
-        style={{ width: '100%', justifyContent: 'center' }}
-        onClick={(e) => { e.stopPropagation(); onStartQuiz(); }}
+        href="https://swiy.co/yucca-quiz"
+        style={{ width: '100%', justifyContent: 'center', display: 'inline-flex' }}
+        onClick={(e) => e.stopPropagation()}
       >
         See If You Qualify <Icon.Arrow />
-      </button>
+      </a>
     </div>
   );
 }
 
-window.PressStrip = PressStrip;
-window.HowItWorks = HowItWorks;
-window.Medications = Medications;
+export { PressStrip };
+export { HowItWorks };
+export { Medications };

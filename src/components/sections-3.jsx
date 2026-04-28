@@ -1,4 +1,8 @@
-/* global React, Icon, Logo */
+"use client";
+import React, { useState, useEffect } from 'react';
+import { Icon } from './common.jsx';
+import { Logo } from './common.jsx';
+
 
 // ============================================================================
 // FAQ
@@ -193,6 +197,6 @@ function Footer() {
   );
 }
 
-window.FAQ = FAQ;
-window.FinalCTA = FinalCTA;
-window.Footer = Footer;
+export { FAQ };
+export { FinalCTA };
+export { Footer };

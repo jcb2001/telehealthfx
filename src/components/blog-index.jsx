@@ -1,4 +1,7 @@
-/* global React, Icon */
+"use client";
+import React, { useState, useEffect } from 'react';
+import { Icon } from './common.jsx';
+
 
 function BlogIndex() {
   const articles = [
@@ -64,8 +67,6 @@ function BlogIndex() {
     }
   };
 
-  useSEO("Metabolic Health Articles | Telehealth FX", "Clinical analyses, pharmacokinetic reviews, and evidence-based breakdowns from the Telehealth FX Bio-Systems team.", indexSchema);
-
   return (
     <section className="section" style={{ minHeight: '80vh', paddingTop: 140, paddingBottom: 100 }}>
       <div className="container">
@@ -113,4 +114,4 @@ function BlogIndex() {
   );
 }
 
-window.BlogIndex = BlogIndex;
+export { BlogIndex };

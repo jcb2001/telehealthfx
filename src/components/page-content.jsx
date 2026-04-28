@@ -1,4 +1,6 @@
-/* global React */
+"use client";
+import React, { useState, useEffect } from 'react';
+
 
 const AffiliateDisclosure = () => (
   <>
@@ -68,7 +70,7 @@ const Placeholder = ({ title }) => (
   </>
 );
 
-window.PAGE_CONTENT = {
+const PAGE_CONTENT = {
   'affiliate-disclosure': { title: 'Affiliate Disclosure', component: AffiliateDisclosure },
   'privacy': { title: 'Privacy Policy', component: PrivacyPolicy },
   'terms': { title: 'Terms of Service', component: TermsOfService },
@@ -86,3 +88,4 @@ window.PAGE_CONTENT = {
   'insurance': { title: 'Insurance Information', component: () => <Placeholder title="Insurance Information" /> },
   'status': { title: 'System Status', component: () => <Placeholder title="System Status" /> },
 };
+export { PAGE_CONTENT };

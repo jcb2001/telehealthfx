@@ -1,51 +1,10 @@
-/* global React, Icon */
+"use client";
+import React, { useState, useEffect } from 'react';
+import { Icon } from './common.jsx';
+
 
 function BlogTransdermalVsOral() {
-  const articleSchema = {
-    "@context": "https://schema.org",
-    "@type": "MedicalScholarlyArticle",
-    "headline": "Transdermal vs Oral vs Injections: The Definitive Guide to Metabolic Supplements in 2026",
-    "description": "A comprehensive pharmacokinetic review comparing oral, transdermal, and injection delivery methods for metabolic compounds like Berberine and Semaglutide.",
-    "author": {
-      "@id": "https://telehealthfx.com/#julianmercer"
-    },
-    "publisher": {
-      "@id": "https://telehealthfx.com/#organization"
-    },
-    "datePublished": "2026-04-18",
-    "dateModified": "2026-04-26",
-    "image": "https://telehealthfx.com/assets/delivery-featured.png",
-    "citation": [
-      "https://doi.org/10.1016/j.biopha.2022.112718",
-      "https://doi.org/10.1371/journal.pone.0194979",
-      "https://doi.org/10.3390/metabo15040240",
-      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7839591/",
-      "https://doi.org/10.1155/2021/7563889",
-      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10997930/",
-      "https://doi.org/10.1016/j.metabol.2008.01.013"
-    ],
-    "about": [
-      {
-        "@type": "MedicalCondition",
-        "name": "Type 2 Diabetes"
-      },
-      {
-        "@type": "MedicalCondition",
-        "name": "Obesity"
-      },
-      {
-        "@type": "DietarySupplement",
-        "name": "Transdermal Berberine Patch",
-        "activeIngredient": "Berberine / Dihydroberberine",
-        "mechanismOfAction": "AMP-activated protein kinase (AMPK) activation",
-        "targetPopulation": "Adults seeking metabolic support",
-        "safetyConsideration": "Bypasses GI tract, limits nausea compared to oral administration"
-      }
-    ]
-  };
-
-  useSEO("Transdermal vs Oral vs Injections: The Definitive Guide | Telehealth FX", "A comprehensive pharmacokinetic review comparing oral, transdermal, and injection delivery methods for metabolic compounds like Berberine and Semaglutide.", articleSchema);
-
+  
   return (
     <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
       <div className="container" style={{ maxWidth: 800 }}>
@@ -290,4 +249,4 @@ function BlogTransdermalVsOral() {
   );
 }
 
-window.BlogTransdermalVsOral = BlogTransdermalVsOral;
+export { BlogTransdermalVsOral };
