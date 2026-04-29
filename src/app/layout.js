@@ -3,8 +3,8 @@ import { Nav } from "../components/hero.jsx";
 import { Footer } from "../components/sections-3.jsx";
 
 export const metadata = {
-  title: "Telehealth FX — Clinical weight loss, delivered.",
-  description: "Clinical weight loss, delivered to your door. Get the GLP-1 medications you need without the hassle.",
+  title: "Telehealth FX — GLP-1 clinical weight loss, delivered.",
+  description: "GLP-1 clinical weight loss, delivered to your door. Get Semaglutide and Tirzepatide prescribed with 24-hour approval and transparent pricing.",
 };
 
 export default function RootLayout({ children }) {
