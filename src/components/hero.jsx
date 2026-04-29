@@ -59,7 +59,7 @@ function HeroDefault({ headline, priceAnchor }) {
           <h1 className="serif fade-in" style={{ fontSize: 88, marginBottom: 28 }}>
             {headline?.split('\n').map((line, i) => (
               <span key={i} style={{ display: 'block', fontStyle: i === 1 ? 'italic' : 'normal', color: i === 1 ? 'var(--brand)' : 'inherit' }}>{line}</span>
-            )) || "Clinical weight loss, delivered."}
+            )) || "GLP-1 clinical weight loss, delivered."}
           </h1>
           <p className="fade-in" style={{ fontSize: 18, color: 'var(--ink-2)', maxWidth: 520, marginBottom: 36, lineHeight: 1.55 }}>
             GLP-1 weight loss medication, delivered. A personalized clinical program with 100% transparent pricing, 6-month payment plans, and 2-Day UPS shipping to your door.
@@ -93,7 +93,7 @@ function HeroEditorial({ headline, priceAnchor }) {
         <h1 className="serif" style={{ fontSize: 132, marginBottom: 40, lineHeight: 0.92 }}>
           {headline?.split('\n').map((line, i) => (
             <span key={i} style={{ display: 'block', fontStyle: i === 1 ? 'italic' : 'normal' }}>{line}</span>
-          )) || "Clinical Weight Loss"}
+          )) || "GLP-1 Clinical Weight Loss"}
         </h1>
         <p style={{ fontSize: 19, color: 'var(--ink-2)', maxWidth: 600, margin: '0 auto 40px', lineHeight: 1.5 }}>
           Personalized GLP-1 care from licensed clinicians. From $146/month, 2-Day shipping to your door.
@@ -117,7 +117,7 @@ function HeroData({ headline, priceAnchor }) {
           <h1 className="serif" style={{ fontSize: 80, marginBottom: 28 }}>
             {headline?.split('\n').map((line, i) => (
               <span key={i} style={{ display: 'block', fontStyle: i === 1 ? 'italic' : 'normal' }}>{line}</span>
-            )) || "Clinical Weight Loss"}
+            )) || "GLP-1 Clinical Weight Loss"}
           </h1>
           <p style={{ fontSize: 17, color: 'var(--ink-2)', maxWidth: 480, marginBottom: 32, lineHeight: 1.55 }}>
             Personalized GLP-1 care from board-certified clinicians. Transparent pricing from $146/month.
