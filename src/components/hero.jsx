@@ -54,7 +54,7 @@ function HeroDefault({ headline, priceAnchor }) {
       <div className="container grid-2-hero">
         <div>
           <div className="pill pill-dot pill-brand fade-in" style={{ marginBottom: 28 }}>
-            <span>FDA-approved medications · Board-certified clinicians</span>
+            <span>24-Hour Approval · No Hidden Membership Fees</span>
           </div>
           <h1 className="serif fade-in" style={{ fontSize: 88, marginBottom: 28 }}>
             {headline?.split('\n').map((line, i) => (
@@ -62,7 +62,7 @@ function HeroDefault({ headline, priceAnchor }) {
             )) || "Clinical weight loss, delivered."}
           </h1>
           <p className="fade-in" style={{ fontSize: 18, color: 'var(--ink-2)', maxWidth: 520, marginBottom: 36, lineHeight: 1.55 }}>
-            GLP-1 weight loss medication, delivered. A personalized clinical program with semaglutide or tirzepatide — prescribed online, shipped to your door.
+            GLP-1 weight loss medication, delivered. A personalized clinical program with 100% transparent pricing, 6-month payment plans, and 2-Day UPS shipping to your door.
           </p>
           <div className="flex-row stack-mobile" style={{ gap: 12, marginBottom: 40 }}>
             <a className="btn btn-primary btn-lg" href="https://swiy.co/yucca-quiz">
@@ -96,7 +96,7 @@ function HeroEditorial({ headline, priceAnchor }) {
           )) || "Clinical Weight Loss"}
         </h1>
         <p style={{ fontSize: 19, color: 'var(--ink-2)', maxWidth: 600, margin: '0 auto 40px', lineHeight: 1.5 }}>
-          Personalized GLP-1 care from licensed clinicians. From ${priceAnchor}/month, shipped to your door.
+          Personalized GLP-1 care from licensed clinicians. From $146/month, 2-Day shipping to your door.
         </p>
         <a className="btn btn-primary btn-lg" href="https://swiy.co/yucca-quiz">
           See If You Qualify <Icon.Arrow />
@@ -120,7 +120,7 @@ function HeroData({ headline, priceAnchor }) {
             )) || "Clinical Weight Loss"}
           </h1>
           <p style={{ fontSize: 17, color: 'var(--ink-2)', maxWidth: 480, marginBottom: 32, lineHeight: 1.55 }}>
-            Personalized GLP-1 care from board-certified clinicians. From ${priceAnchor}/month.
+            Personalized GLP-1 care from board-certified clinicians. Transparent pricing from $146/month.
           </p>
           <a className="btn btn-primary btn-lg" href="https://swiy.co/yucca-quiz">
             See If You Qualify <Icon.Arrow />

@@ -166,12 +166,10 @@ function ScienceDiagram() {
 // ============================================================================
 // PRICING
 // ============================================================================
-function Pricing({ priceAnchor }) {
-  const basePrice = priceAnchor || 249;
+function Pricing() {
   const plans = [
-    { name: 'Monthly', price: basePrice + 50, interval: 'mo', note: 'Billed monthly', best: false, save: null },
-    { name: '3-Month', price: basePrice, interval: 'mo', note: 'Billed quarterly', best: true, save: 'Save 17%' },
-    { name: '6-Month', price: basePrice - 20, interval: 'mo', note: 'Billed every 6 months', best: false, save: 'Save 26%' },
+    { name: 'Semaglutide', price: '146', interval: 'mo', note: 'Based on 6-month plan', best: true, save: 'Most Popular' },
+    { name: 'Tirzepatide', price: '258', interval: 'mo', note: 'Based on 6-month plan', best: false, save: 'Strongest Results' },
   ];
   return (
     <section id="pricing" className="section">
@@ -179,14 +177,14 @@ function Pricing({ priceAnchor }) {
         <div style={{ textAlign: 'center', marginBottom: 72 }}>
           <div className="eyebrow" style={{ marginBottom: 20 }}>Pricing</div>
           <h2 className="serif" style={{ fontSize: 64, marginBottom: 16 }}>
-            Simple pricing.<br/><span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>No insurance needed.</span>
+            100% Transparent Pricing.<br/><span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>No hidden fees.</span>
           </h2>
           <p style={{ maxWidth: 560, margin: '0 auto', color: 'var(--ink-2)', fontSize: 16 }}>
-            Every plan includes medication, clinical care, shipping, and unlimited messaging with your care team.
+            Zero membership fees. Flexible 6-month payment plans available. Medication, supplies, and 2-Day UPS shipping included.
           </p>
         </div>
 
-        <div className="grid-3" style={{ maxWidth: 1080, margin: '0 auto' }}>
+        <div className="grid-2" style={{ maxWidth: 800, margin: '0 auto' }}>
           {plans.map((p, i) => (
             <div
               key={i}
@@ -207,22 +205,23 @@ function Pricing({ priceAnchor }) {
                   background: 'var(--accent)', color: '#FBF8F3',
                   padding: '6px 14px', borderRadius: 999, fontSize: 11, fontWeight: 500, letterSpacing: '0.04em', textTransform: 'uppercase',
                 }}>
-                  Most popular
+                  {p.save}
                 </div>
               )}
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 28 }}>
                 <h3 className="serif" style={{ fontSize: 32 }}>{p.name}</h3>
-                {p.save && <span className="pill" style={p.best ? { background: 'rgba(251,248,243,0.15)', color: '#FBF8F3', borderColor: 'rgba(251,248,243,0.25)' } : {}}>{p.save}</span>}
+                {!p.best && p.save && <span className="pill">{p.save}</span>}
               </div>
               <div style={{ marginBottom: 28 }}>
                 <div style={{ display: 'flex', alignItems: 'baseline', gap: 6 }}>
+                  <span style={{ fontSize: 24 }}>From </span>
                   <span className="serif" style={{ fontSize: 72, lineHeight: 1 }}>${p.price}</span>
                   <span style={{ fontSize: 16, opacity: 0.7 }}>/ {p.interval}</span>
                 </div>
                 <div style={{ fontSize: 13, opacity: 0.7, marginTop: 6 }}>{p.note}</div>
               </div>
               <ul style={{ listStyle: 'none', marginBottom: 28, display: 'flex', flexDirection: 'column', gap: 10, fontSize: 14 }}>
-                {['GLP-1 medication (sema or tirz)', 'Personalized clinician plan', 'Free shipping, always', 'Unlimited care team messaging', p.best ? 'Priority shipping (2-day)' : 'Standard shipping (5-7 day)'].map((f, j) => (
+                {['No hidden membership fees', 'Fast 24-Hour Provider Review', '2-Day UPS Shipping', 'Dedicated Onboarding Support', 'Payment plans available'].map((f, j) => (
                   <li key={j} style={{ display: 'flex', gap: 10, alignItems: 'center', opacity: p.best ? 0.95 : 0.9 }}>
                     <Icon.Check size={14}/> {f}
                   </li>
@@ -243,7 +242,7 @@ function Pricing({ priceAnchor }) {
         </div>
 
         <div style={{ textAlign: 'center', marginTop: 40, fontSize: 13, color: 'var(--ink-3)' }}>
-          All plans include a 30-day money-back guarantee. Cancel anytime before your next shipment.
+          Pricing reflects starting doses. Discounts may apply based on commitments and current promotions.
         </div>
       </div>
     </section>
