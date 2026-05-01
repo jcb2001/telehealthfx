@@ -80,14 +80,34 @@ export default function RootLayout({ children }) {
           "@id": "https://telehealthfx.com/#organization"
         },
         "description": "Comprehensive metabolic health program including clinician consults and compounded GLP-1 medications.",
+        "offers": {
+          "@type": "AggregateOffer",
+          "priceCurrency": "USD",
+          "lowPrice": "146.00",
+          "highPrice": "258.00",
+          "offerCount": "2",
+          "availability": "https://schema.org/InStock"
+        },
         "hasVariant": [
           {
             "@type": "Product",
-            "name": "Compounded Semaglutide Program"
+            "name": "Compounded Semaglutide Program",
+            "offers": {
+              "@type": "Offer",
+              "price": "146.00",
+              "priceCurrency": "USD",
+              "availability": "https://schema.org/InStock"
+            }
           },
           {
             "@type": "Product",
-            "name": "Compounded Tirzepatide Program"
+            "name": "Compounded Tirzepatide Program",
+            "offers": {
+              "@type": "Offer",
+              "price": "258.00",
+              "priceCurrency": "USD",
+              "availability": "https://schema.org/InStock"
+            }
           }
         ]
       },
