@@ -6,6 +6,13 @@ import { Icon } from './common.jsx';
 function BlogIndex() {
   const articles = [
     {
+      title: "Coptis Chinensis & Berberis Vulgaris: The Botanical Sources of Nature's Ozempic",
+      description: "A clinical breakdown of Coptis Chinensis and Berberis Vulgaris. We analyze the isoquinoline alkaloids and the synergy of full-spectrum extracts.",
+      slug: "/blog/coptis-chinensis-vs-berberis-vulgaris-botanical-sources",
+      image: "/assets/coptis-chinensis-featured.png",
+      tag: "Botanical Supplements"
+    },
+    {
       title: "Dihydroberberine (DHB) vs. Standard Berberine: The 5x Bioavailability Myth Explained",
       description: "A clinical breakdown of Dihydroberberine (DHB) vs standard Berberine. We analyze the pharmacokinetics and the 5x bioavailability marketing claims.",
       slug: "/blog/dihydroberberine-vs-berberine",
