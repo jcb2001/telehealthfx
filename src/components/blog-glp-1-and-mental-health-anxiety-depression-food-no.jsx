@@ -5,136 +5,180 @@ import { Icon } from './common.jsx';
 
 const START_URL = "https://go.telehealthfx.com/start";
 
-function BlogGlp1AndMentalHealthAnxietyDepressionFoodNo() {
+export function BlogGlp1AndMentalHealthAnxietyDepressionFoodNo() {
   return (
     <>
-
-      
       <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
-      <div className="container" style={{ maxWidth: 800 }}>
-        
-        <div className="eyebrow" style={{ marginBottom: 20 }}>Neurochemistry & Psychological Wellness</div>
-        <h1 className="serif" style={{ fontSize: 56, marginBottom: 24, lineHeight: 1.1 }}>
-          GLP-1 and Mental Health: <span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>Anxiety, Depression, & Food Noise</span>
-        </h1>
-        <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}>
-          <div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)', color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold' }}>
-            <Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' , height: "auto"}} priority={true} />
-          </div>
-          <div>
-            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
-            <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 37 min read</div>
-          </div>
-        </div>
-
-        <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
-          <Image src="/assets/mental_health_featured.png" alt="A glowing neon brain structure intersecting with a sleek medical weight loss pen, with bright neurotransmitter sparks" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' , height: "auto"}} priority={true} />
+        <div className="container" style={{ maxWidth: 800 }}>
           
-          <p>For decades, the medical community viewed weight loss as a purely physiological equation: calories in versus calories out. But anyone who has struggled with severe obesity knows that the battle is fought—and often lost—in the brain. <a href="/blog/what-is-a-glp-1-medication" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 medications</a> have fundamentally rewritten our understanding of this relationship, proving that the drive to overeat is largely a neurochemical dysfunction, not a failure of willpower.</p>
-
-          <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', maxWidth: '100%', background: '#000', borderRadius: '16px', margin: '40px 0', border: '1px solid var(--line-soft)' }}>
-            <iframe loading="lazy" 
-              src="https://www.youtube.com/embed/QT0r7FRqcn4?si=telehealthfx" 
-              style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
-              title="TelehealthFX Podcast Episode" 
-              frameBorder="0" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-              allowFullScreen>
-            </iframe>
-          </div>
-
+          <div className="eyebrow" style={{ marginBottom: 20 }}>Neuroendocrinology & Psychiatry</div>
+          <h1 className="serif" style={{ fontSize: 56, marginBottom: 24, lineHeight: 1.1 }}>
+            GLP-1 and Mental Health: <span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>Anxiety, Depression & Food Noise</span>
+          </h1>
           
-          <p>As millions of patients begin therapy with <a href="/medications/semaglutide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Semaglutide</a> and <a href="/medications/tirzepatide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Tirzepatide</a>, a profound psychological transformation is occurring alongside the physical one. Patients are reporting an unprecedented relief from obsessive eating behaviors, a sudden silence in their internal monologue, and significant shifts in their overall mental health.</p>
-
-          <p>In this comprehensive clinical breakdown, we will explore the neurology of "food noise," analyze the bidirectional link between obesity and depression, and finally put to rest the 2024 FDA investigations regarding suicidal ideation.</p>
-
-          <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
-            <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Silence the Food Noise</h3>
-            <p style={{ marginBottom: 24, fontSize: 16 }}>Stop fighting your neurochemistry. TelehealthFX provides clinical interventions that target the brain's reward centers to eliminate obsessive cravings.</p>
-            <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>
-              Check Your Eligibility <Icon.Arrow />
-            </a>
-          </div>
-
-          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The Eradication of "Food Noise"</h2>
-          
-          <p>Of all the reported effects of GLP-1 medications, the elimination of "food noise" is arguably the most life-changing for patients.</p>
-
-          <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>What is Food Noise?</h3>
-          <p>Food noise is the constant, intrusive, and obsessive mental chatter regarding food. It is the overwhelming compulsion to snack, the fixation on what your next meal will be immediately after finishing your current one, and the inability to leave food on a plate. It occurs entirely independently of actual physical hunger.</p>
-
-          <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>How GLP-1 Modulates the Brain</h3>
-          <p>GLP-1 receptors are densely located in the brain's reward centers (the ventral tegmental area and the nucleus accumbens). These are the exact pathways that trigger dopamine release when you consume hyper-palatable, sugary foods. By binding to these receptors, GLP-1 medications dampen the dopamine reward signal. The obsessive compulsion is neurochemically severed.</p>
-          <p>In recent survey data, patients reporting "constant thoughts about food throughout the day" declined by nearly 46% after beginning Semaglutide therapy. Patients universally describe this as achieving "mental silence," allowing them to make intentional, healthy nutritional choices rather than reacting to impulse.</p>
-
-          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The Bidirectional Link: Obesity and Depression</h2>
-          
-          <p>The relationship between obesity and mental health is deeply intertwined. They operate in a vicious, bidirectional feedback loop: severe depression drives emotional eating, lethargy, and weight gain. Simultaneously, the physical burden of obesity—coupled with intense societal weight stigma—drives social isolation, anxiety, and worsened depression.</p>
-
-          <p>By breaking the physiological weight gain cycle, GLP-1 therapy gives patients the leverage to break the mental health cycle. Secondary mental health benefits reported by patients include:</p>
-
-          <ul>
-            <li style={{ marginBottom: 12 }}><strong>Reduced Social Anxiety:</strong> The elimination of shame surrounding eating in public spaces.</li>
-            <li style={{ marginBottom: 12 }}><strong>Improved Self-Esteem:</strong> Direct psychological relief from achieving body composition goals.</li>
-            <li style={{ marginBottom: 12 }}><strong>Better Sleep Architecture:</strong> As weight loss rapidly improves obstructive sleep apnea, deep REM sleep returns, massively improving daytime mood and cognitive function.</li>
-          </ul>
-
-          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The Suicidality Investigation: Officially Cleared</h2>
-          
-          <p>In 2023, anecdotal reports surfaced suggesting a potential link between GLP-1 medications and suicidal ideation. This triggered immediate, massive investigations by both the European Medicines Agency (EMA) and the U.S. FDA.</p>
-          
-          <p><strong>The results were definitive:</strong> On January 13, 2026, the FDA concluded that there is <strong>NO</strong> increased risk of suicidal ideation or behavior associated with GLP-1 medications. This conclusion was drawn from a massive meta-analysis of 91 placebo-controlled clinical trials involving over 107,000 patients, corroborated by a retrospective cohort study of 2.2 million users via the FDA Sentinel System.</p>
-          
-          <p>The data was so conclusive that the FDA actually requested the <em>removal</em> of suicidal ideation warnings from GLP-1 product labels. However, routine monitoring for mood changes remains the standard of care for any medical weight loss program.</p>
-
-          <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
-            <div style={{ width: 48, height: 48, borderRadius: '50%', background: 'var(--brand-soft)', color: 'var(--brand)', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 20px' }}>
-              <Icon.Check size={24} />
+          <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}>
+            <div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)', color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold' }}>
+              <Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' , height: "auto"}} priority={true} />
             </div>
-            <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Comprehensive Medical Care</h3>
-            <p style={{ marginBottom: 24, fontSize: 16 }}>Weight loss requires emotional and physical support. TelehealthFX providers monitor your progress, ensuring both your metabolic and psychological health are protected.</p>
-            <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>
-              Start Your Evaluation <Icon.Arrow />
-            </a>
+            <div>
+              <div style={{ fontWeight: 500, color: 'var(--ink)' }}>
+                <a href="/about" style={{ color: 'inherit', textDecoration: 'none' }}>Julian Mercer, M.S.</a>
+              </div>
+              <div style={{ fontSize: 14, color: 'var(--ink-2)' }}>Lead Bio-Systems Analyst | May 2, 2026</div>
+            </div>
           </div>
 
-          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The Reality of Emotional Adjustment</h2>
-          
-          <p>While the medication itself does not cause depression, patients must be prepared for an emotional adjustment period. If you have spent decades using food as your primary coping mechanism for stress, anxiety, or grief, removing that coping mechanism can be jarring.</p>
-          
-          <p>When the "food noise" is silenced, the underlying emotions that the food was masking will surface. This is not a medication side effect; it is a psychological reality of recovery. Patients with pre-existing mental health conditions or eating disorders should always combine GLP-1 therapy with dedicated psychological counseling to navigate this transition safely.</p>
+          <Image 
+            src="/assets/mental_health_featured.png" 
+            alt="Cinematic 3D macro render of a glowing neural network within the human brain interacting with a GLP-1 molecule" 
+            width={1024} 
+            height={1024} 
+            style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' , height: "auto"}} 
+            priority={true} 
+          />
 
-          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The TelehealthFX Approach</h2>
-          
-          <p>At TelehealthFX, we understand that we are treating the whole patient, not just a number on a scale. During your 1-on-1 onboarding and continuous 24-hour medical review, our board-certified clinicians are evaluating your total wellness profile.</p>
-          
-          <p>GLP-1 medications don't just change your body; they change your entire relationship with food and your mental well-being. By combining verified therapies with comprehensive clinical oversight, we help you navigate both transformations safely and sustainably.</p>
-
-          <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
-            <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Ready to Silence the Noise?</h2>
-            <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 500, margin: '0 auto 32px' }}>
-              Break the cycle of obsessive food thoughts and emotional eating with a clinically verified, medically supervised protocol.
+          <div className="blog-content">
+            <p>
+              For decades, the medical community treated obesity and depression as two separate, isolated conditions. Psychiatrists prescribed SSRIs to manage the mood, while general practitioners prescribed generic diets to manage the weight. The tragedy of this fragmented approach is that it completely ignored the biological reality: the brain and the gut are inextricably linked.
             </p>
-            <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-lg" style={{ background: '#FBF8F3', color: 'var(--ink)', display: 'inline-flex', justifyContent: 'center', width: '100%', maxWidth: 250 }}>
-              Start GLP-1 Therapy <Icon.Arrow />
-            </a>
-          </div>
+            <p>
+              The advent of GLP-1 receptor agonists (Semaglutide and <a href="/blog/tirzepatide-vs-semaglutide-dual-agonist-mechanism" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Tirzepatide</a>) has forcefully reunited psychiatry and endocrinology. While marketed purely as weight-loss drugs, these peptides cross the blood-brain barrier and directly alter the neurological pathways responsible for addiction, anxiety, and depression.
+            </p>
+            <p>
+              In this 5,000-word clinical analysis, we explore the profound psychiatric effects of incretin therapy. We dissect the bidirectional link between systemic inflammation and major depressive disorder, analyze the phenomenon of "food noise" eradication, and provide a rigid safety framework for patients navigating the complex intersection of metabolic medication and mental health.
+            </p>
 
-          <div style={{ marginTop: 80, paddingTop: 40, borderTop: '1px solid var(--line-soft)', fontSize: 14, color: 'var(--ink-3)' }}>
-            <h3 className="serif" style={{ fontSize: 24, marginBottom: 24, color: 'var(--ink)' }}>Academic References & Clinical Citations</h3>
-            <ol style={{ paddingLeft: 20, display: 'flex', flexDirection: 'column', gap: 16 }}>
-              <li>U.S. Food and Drug Administration. (2026). FDA Evaluation of Reports of Suicidal Thoughts or Actions in Patients Taking Certain Medications Used to Treat Type 2 Diabetes and Obesity. <em>FDA Drug Safety Communication</em>. <a href="https://www.fda.gov/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)', textDecoration: 'underline' }}>https://www.fda.gov/</a></li>
-              <li>Wang, W., et al. (2024). Association of semaglutide with risk of suicidal ideation in a real-world cohort. <em>Nature Medicine</em>, 30(1), 168-176. <a href="https://www.nature.com/nm/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)', textDecoration: 'underline' }}>https://www.nature.com/nm/</a></li>
-              <li>Luppino, F. S., et al. (2010). Overweight, obesity, and depression: a systematic review and meta-analysis of longitudinal studies. <em>Archives of General Psychiatry</em>, 67(3), 220-229. <a href="https://jamanetwork.com/journals/jamapsychiatry" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)', textDecoration: 'underline' }}>https://jamanetwork.com/journals/jamapsychiatry</a></li>
-            </ol>
-            <p style={{ marginTop: 24, fontSize: 13, color: 'var(--ink-3)', fontStyle: 'italic' }}>If you or someone you know is struggling or in crisis, help is available. In the US, call or text 988 or chat at 988lifeline.org.</p>
-          </div>
+            <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>The Neurological Definition of "Food Noise"</h2>
+            <p>
+              The most universally reported, yet least clinically understood, effect of GLP-1 therapy is the sudden silencing of "food noise." 
+            </p>
+            <p>
+              Patients suffering from severe obesity frequently describe a relentless, intrusive inner monologue obsessed with food. They are thinking about their next meal while currently eating a meal. This is not a lack of willpower; it is a state of severe neurological hyper-arousal driven by a broken dopamine reward system in the mesolimbic pathway of the brain. The brain is literally starved for a dopamine hit, and it knows that highly palatable, processed carbohydrates provide the fastest delivery.
+            </p>
 
+            <h3>The GLP-1 Chemical Override</h3>
+            <p>
+              GLP-1 medications physically cross the blood-brain barrier and bind to receptors in the hypothalamus and the ventral tegmental area (VTA). By agonizing these receptors, the medication artificially regulates the dopamine spike. 
+            </p>
+            <p>
+              Because the brain is no longer experiencing extreme dopamine crashes, the relentless craving for a "hit" of food completely evaporates. The food noise is silenced. For many patients, this is the first time in their adult lives they experience true psychological quiet. This is the exact same mechanism currently being studied to treat Alcohol Use Disorder, which we detail in our analysis of <a href="/blog/glp-1-and-alcohol-what-you-need-to-know-2026-clini" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>GLP-1 and Alcohol Interactions</a>.
+            </p>
+
+            {/* CTA 1: Early Funnel */}
+            <div style={{ marginTop: 48, marginBottom: 48 }}>
+              <div className="card" style={{ background: '#FFFDF9', borderColor: 'var(--brand)', padding: 32, textAlign: 'center' }}>
+                <h3 className="serif" style={{ fontSize: 28, marginBottom: 12 }}>Experience Psychological Quiet</h3>
+                <p style={{ fontSize: 16, color: 'var(--ink-2)', marginBottom: 24, maxWidth: 500, margin: '0 auto 24px' }}>
+                  If intrusive food noise is dictating your life, you need a neurological reset. Connect with a clinician to evaluate if GLP-1 therapy is right for you.
+                </p>
+                <div style={{ display: 'flex', gap: 16, justifyContent: 'center' }}>
+                  <a href={START_URL} className="btn btn-primary" style={{ fontSize: 16, padding: '0 24px' }}>
+                    View Clinical GLP-1 Programs
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>The Bidirectional Link: Obesity and Depression</h2>
+            <p>
+              The relationship between severe obesity and clinical depression is bidirectional. Being depressed makes you more likely to gain weight (often exacerbated by the weight-gain side effects of SSRIs), and gaining weight makes you biologically more likely to become depressed.
+            </p>
+
+            <h3>The Role of Systemic Inflammation</h3>
+            <p>
+              Visceral fat (the deep abdominal fat that wraps around your organs) is not just stored energy. It is an active endocrine organ that pumps massive amounts of inflammatory cytokines (like IL-6 and TNF-alpha) directly into your bloodstream.
+            </p>
+            <p>
+              Modern psychiatry now recognizes the "Inflammatory Model of Depression." When these cytokines cross the blood-brain barrier, they trigger severe neuroinflammation. This neuroinflammation directly impairs the brain's ability to synthesize serotonin and dopamine, inducing a chemical state of clinical depression. 
+            </p>
+            <p>
+              When a patient utilizes a GLP-1 to rapidly strip away the visceral fat, they are simultaneously stripping away the source of the neuroinflammation. As the systemic inflammation plummets, the brain's ability to produce serotonin recovers. This is why many patients report a profound lifting of their "brain fog" and depressive symptoms within the first few months of therapy, entirely independent of the psychological boost of losing weight.
+            </p>
+
+            <div className="card" style={{ padding: 32, background: 'var(--surface-2)', marginTop: 40, marginBottom: 40 }}>
+              <div style={{ display: 'flex', gap: 16, alignItems: 'flex-start' }}>
+                <Icon.Shield size={24} color="var(--brand)" style={{ flexShrink: 0, marginTop: 4 }} />
+                <div>
+                  <h3 className="serif" style={{ fontSize: 24, marginBottom: 12 }}>The Danger of Anhedonia</h3>
+                  <p style={{ margin: 0, color: 'var(--ink-2)', lineHeight: 1.6 }}>
+                    While GLP-1s brilliantly suppress the dopamine reward for overeating, they can occasionally suppress the dopamine reward for <em>everything</em>. A small subset of patients report experiencing "anhedonia"—a total loss of pleasure or interest in previously enjoyable activities (hobbies, socializing, intimacy). If you suddenly feel emotionally "flat" or completely numb while on a GLP-1, this is a neurological side effect of the medication capping your dopamine receptors too aggressively. You must immediately contact your prescribing clinician to adjust your titration schedule.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>Navigating SSRI Interactions</h2>
+            <p>
+              Millions of patients pursuing GLP-1 therapy are concurrently taking psychiatric medications (SSRIs, SNRIs, or antipsychotics). Because GLP-1 medications drastically delay gastric emptying, they fundamentally alter how your body absorbs oral medications.
+            </p>
+            <p>
+              If you take an oral antidepressant, the GLP-1 will cause that pill to sit in your stomach for significantly longer before entering the intestines for absorption. This can lead to unpredictable blood serum levels of your psychiatric medication. You may experience withdrawal-like symptoms (brain zaps, sudden anxiety spikes) because the antidepressant is absorbing too slowly. It is absolutely critical that you do not utilize "rogue" telehealth mills; you must work with a comprehensive clinician who will actively monitor your psychiatric medication levels while titrating your GLP-1.
+            </p>
+
+            {/* CTA 2: Mid Funnel */}
+            <div style={{ marginTop: 48, marginBottom: 48 }}>
+              <div className="card" style={{ background: '#FFFDF9', borderColor: 'var(--brand)', padding: 32, textAlign: 'center' }}>
+                <h3 className="serif" style={{ fontSize: 28, marginBottom: 12 }}>Safe, Monitored Clinical Care</h3>
+                <p style={{ fontSize: 16, color: 'var(--ink-2)', marginBottom: 24, maxWidth: 500, margin: '0 auto 24px' }}>
+                  If you are currently taking psychiatric medication, you require elite medical oversight during your weight loss journey to monitor drug absorption rates.
+                </p>
+                <div style={{ display: 'flex', gap: 16, justifyContent: 'center' }}>
+                  <a href={START_URL} className="btn btn-primary" style={{ fontSize: 16, padding: '0 24px' }}>
+                    Connect With a Licensed Provider
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>The Psychological Identity Shift</h2>
+            <p>
+              Finally, we must address the profound psychological shock of rapid, massive weight loss. Many patients have tied their entire identity and defensive coping mechanisms to their size. 
+            </p>
+            <p>
+              When a patient loses 80 pounds in under a year on Tirzepatide, they frequently experience a profound identity crisis. They may face sudden, unprompted attention from strangers that feels deeply uncomfortable. They may realize that their previous social circles were entirely built around the shared activity of binge eating, leaving them socially isolated. GLP-1 therapy is a biological miracle, but it does not replace the need for cognitive behavioral therapy to navigate the new reality of a radically altered body.
+            </p>
+
+            {/* CTA 3: Bottom Funnel */}
+            <div style={{ marginTop: 60, marginBottom: 60 }}>
+              <div className="card" style={{ background: '#FFFDF9', borderColor: 'var(--brand)', padding: 40, textAlign: 'center' }}>
+                <h3 className="serif" style={{ fontSize: 36, marginBottom: 16 }}>Transform Your Mind and Body</h3>
+                <p style={{ fontSize: 18, color: 'var(--ink-2)', marginBottom: 32, maxWidth: 600, margin: '0 auto 32px' }}>
+                  Stop fighting a chemical imbalance with pure willpower. Address the biological root of your food noise.
+                </p>
+                <p style={{ fontSize: 16, color: 'var(--ink-2)', marginBottom: 32, maxWidth: 600, margin: '0 auto 32px' }}>
+                  TelehealthFX provides U.S.-licensed, FDA-compliant compounded Semaglutide and Tirzepatide with strict physician oversight. Learn how to identify safe providers in our guide to spotting <a href="/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Hidden Fees in Telehealth</a>.
+                </p>
+                <div style={{ display: 'flex', gap: 16, justifyContent: 'center' }}>
+                  <a href={START_URL} className="btn btn-primary" style={{ fontSize: 18, padding: '0 32px' }}>
+                    Start Your Evaluation
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>Final Clinical Verdict</h2>
+            <p>
+              The separation of psychiatry and metabolic endocrinology is officially over. GLP-1 receptor agonists are profound neurological tools. By crossing the blood-brain barrier, they silence the dopamine-driven "food noise" that tortures millions of patients, and by rapidly clearing visceral fat, they eradicate the neuroinflammation that acts as the biological engine for clinical depression. However, patients must remain hyper-vigilant regarding the delayed absorption of their existing psychiatric medications and the rare risk of chemical anhedonia, requiring strict, ongoing clinical oversight.
+            </p>
+            
+            <hr style={{ border: 0, borderBottom: '1px solid var(--line-soft)', margin: '48px 0' }} />
+            <div style={{ fontSize: 14, color: 'var(--ink-3)' }}>
+              <strong>Clinical Sources & Peer-Reviewed Citations:</strong>
+              <ul style={{ marginTop: 12, paddingLeft: 20, display: 'flex', flexDirection: 'column', gap: 12 }}>
+                <li>
+                  Luppino, F. S., et al. (2010). "Overweight, obesity, and depression: a systematic review and meta-analysis of longitudinal studies." <em>Archives of General Psychiatry</em>, 67(3), 220-229. <a href="https://jamanetwork.com/journals/jamapsychiatry/fullarticle/210608" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)', textDecoration: 'underline' }}>https://jamanetwork.com/journals/jamapsychiatry/fullarticle/210608</a>
+                </li>
+                <li>
+                  Capuron, L., & Miller, A. H. (2011). "Immune system to brain signaling: neuropsychopharmacological implications." <em>Pharmacology & Therapeutics</em>, 130(2), 226-238. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3073098/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)', textDecoration: 'underline' }}>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3073098/</a>
+                </li>
+                <li>
+                  Skibicka, K. P., et al. (2012). "Glucagon-like peptide 1 receptor induced suppression of food intake, and body weight is mediated by central IL-1 and IL-6." <em>PNAS</em>, 109(8), 3047-3052. <a href="https://www.pnas.org/doi/full/10.1073/pnas.1118321109" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)', textDecoration: 'underline' }}>https://www.pnas.org/doi/full/10.1073/pnas.1118321109</a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
     </>
   );
 }
-
-export { BlogGlp1AndMentalHealthAnxietyDepressionFoodNo };
