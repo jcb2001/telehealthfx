@@ -2,295 +2,445 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://telehealthfx.com/</loc>
-    <lastmod>2026-05-02T21:41:12.005Z</lastmod>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://telehealthfx.com/how</loc>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://telehealthfx.com/medications</loc>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://telehealthfx.com/results</loc>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://telehealthfx.com/science</loc>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://telehealthfx.com/pricing</loc>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://telehealthfx.com/faq</loc>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://telehealthfx.com/affiliate-disclosure</loc>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://telehealthfx.com/privacy</loc>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://telehealthfx.com/terms</loc>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://telehealthfx.com/telehealth-consent</loc>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://telehealthfx.com/hipaa</loc>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://telehealthfx.com/accessibility</loc>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://telehealthfx.com/about</loc>
-    <lastmod>2026-05-02T21:41:12.005Z</lastmod>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://telehealthfx.com/careers</loc>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://telehealthfx.com/press</loc>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://telehealthfx.com/partners</loc>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://telehealthfx.com/contact</loc>
-    <lastmod>2026-05-02T21:41:12.005Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://telehealthfx.com/help-center</loc>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://telehealthfx.com/shipping</loc>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://telehealthfx.com/returns</loc>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://telehealthfx.com/insurance</loc>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://telehealthfx.com/status</loc>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://telehealthfx.com/medications/berberine</loc>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://telehealthfx.com/medications/nad</loc>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://telehealthfx.com/medications/semaglutide</loc>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://telehealthfx.com/medications/sermorelin</loc>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://telehealthfx.com/medications/tirzepatide</loc>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://telehealthfx.com/blog/tirzepatide-vs-semaglutide-dual-agonist-mechanism</loc>
-    <lastmod>2026-05-02T21:41:12.005Z</lastmod>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://telehealthfx.com/blog/pharmacokinetics-ozempic-semaglutide-cellular-breakdown</loc>
-    <lastmod>2026-05-02T21:41:12.005Z</lastmod>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://telehealthfx.com/blog/berberine-extraction-process-purity-test</loc>
-    <lastmod>2026-05-02T21:41:12.005Z</lastmod>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://telehealthfx.com/blog/coptis-chinensis-vs-berberis-vulgaris-botanical-sources</loc>
-    <lastmod>2026-05-02T21:41:12.005Z</lastmod>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://telehealthfx.com/blog/dihydroberberine-vs-berberine</loc>
-    <lastmod>2026-05-02T21:41:12.005Z</lastmod>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://telehealthfx.com/blog/glp-1-muscle-loss-the-hidden-risk-nobodys-talking</loc>
-    <lastmod>2026-05-02T21:41:12.005Z</lastmod>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://telehealthfx.com/blog/oral-semaglutide-is-here-is-the-glp-1-pill-as-good</loc>
-    <lastmod>2026-05-02T21:41:12.005Z</lastmod>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://telehealthfx.com/blog/what-happens-when-you-stop-glp-1-medication-the-re</loc>
-    <lastmod>2026-05-02T21:41:12.005Z</lastmod>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://telehealthfx.com/blog/berberine-vs-glp-1-in-2026-can-natures-ozempic-act</loc>
-    <lastmod>2026-05-02T21:41:12.005Z</lastmod>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://telehealthfx.com/blog/glp-1-side-effects-how-to-manage-nausea-fatigue-mo</loc>
-    <lastmod>2026-05-02T21:41:12.005Z</lastmod>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://telehealthfx.com/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot</loc>
-    <lastmod>2026-05-02T21:41:12.005Z</lastmod>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://telehealthfx.com/blog/glp-1-and-exercise-how-to-combine-medication-with</loc>
-    <lastmod>2026-05-02T21:41:12.005Z</lastmod>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://telehealthfx.com/blog/weight-loss-for-women-over-40-how-glp-1-can-help-2</loc>
-    <lastmod>2026-05-02T21:41:12.005Z</lastmod>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://telehealthfx.com/blog/berberine-for-pcos-what-the-research-actually-says</loc>
-    <lastmod>2026-05-02T21:41:12.005Z</lastmod>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://telehealthfx.com/blog/tirzepatide-vs-semaglutide-which-glp-1-is-right-fo</loc>
-    <lastmod>2026-05-02T21:41:12.005Z</lastmod>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://telehealthfx.com/blog/glp-1-and-alcohol-what-you-need-to-know-2026-clini</loc>
-    <lastmod>2026-05-02T21:41:12.005Z</lastmod>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://telehealthfx.com/blog/weight-loss-for-men-why-glp-1-isnt-just-for-women</loc>
-    <lastmod>2026-05-02T21:41:12.005Z</lastmod>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://telehealthfx.com/blog/nad-therapy-explained-anti-aging-energy-weight-los</loc>
-    <lastmod>2026-05-02T21:41:12.005Z</lastmod>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://telehealthfx.com/blog/is-compounded-semaglutide-safe-what-you-need-to-kn</loc>
-    <lastmod>2026-05-02T21:41:12.005Z</lastmod>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://telehealthfx.com/blog/glp-1-and-mental-health-anxiety-depression-food-no</loc>
-    <lastmod>2026-05-02T21:41:12.005Z</lastmod>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://telehealthfx.com/blog/sermorelin-growth-hormone-the-weight-loss-accelera</loc>
-    <lastmod>2026-05-02T21:41:12.005Z</lastmod>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://telehealthfx.com/blog/glp-1-for-seniors-weight-loss-after-60-safely-2026</loc>
-    <lastmod>2026-05-02T21:41:12.005Z</lastmod>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://telehealthfx.com/blog/glp-1-plateau-when-weight-loss-stalls-what-to-do-2</loc>
-    <lastmod>2026-05-02T21:41:12.005Z</lastmod>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://telehealthfx.com/blog/ozempic-face-loose-skin-prevention-treatment-what</loc>
-    <lastmod>2026-05-02T21:41:12.005Z</lastmod>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://telehealthfx.com/blog/glp-1-and-your-heart-the-select-trial-cardiovascul</loc>
-    <lastmod>2026-05-02T21:41:12.005Z</lastmod>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://telehealthfx.com/blog/ozempic-babies-glp-1-and-fertility-what-women-need</loc>
-    <lastmod>2026-05-02T21:41:12.005Z</lastmod>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://telehealthfx.com/blog/next-gen-glp-1-drugs-survodutide-orforglipron-amyc</loc>
-    <lastmod>2026-05-02T21:41:12.005Z</lastmod>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://telehealthfx.com/blog/glp-1-and-type-2-diabetes-beyond-weight-loss-2026</loc>
-    <lastmod>2026-05-02T21:41:12.005Z</lastmod>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://telehealthfx.com/blog/the-social-stigma-of-weight-loss-medication-why-it</loc>
-    <lastmod>2026-05-02T21:41:12.005Z</lastmod>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://telehealthfx.com/blog/intermittent-fasting-glp-1-do-they-work-together-2</loc>
-    <lastmod>2026-05-02T21:41:12.005Z</lastmod>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://telehealthfx.com/blog/glp-1-and-inflammation-arthritis-sleep-apnea-chron</loc>
-    <lastmod>2026-05-02T21:41:12.005Z</lastmod>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://telehealthfx.com/blog/your-first-90-days-on-glp-1-week-by-week-what-to-e</loc>
-    <lastmod>2026-05-02T21:41:12.005Z</lastmod>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://telehealthfx.com/blog/how-to-choose-a-telehealth-weight-loss-program-and</loc>
-    <lastmod>2026-05-02T21:41:12.005Z</lastmod>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://telehealthfx.com/blog/fda-compounding-ban</loc>
-    <lastmod>2026-05-02T21:41:12.005Z</lastmod>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://telehealthfx.com/blog/nad-therapy-metabolism</loc>
-    <lastmod>2026-05-02T21:41:12.005Z</lastmod>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://telehealthfx.com/blog/sermorelin-peptide-benefits</loc>
-    <lastmod>2026-05-02T21:41:12.005Z</lastmod>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://telehealthfx.com/blog/berberine-oral-bioavailability</loc>
-    <lastmod>2026-05-02T21:41:12.005Z</lastmod>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://telehealthfx.com/blog/berberine-pcos-weight-loss</loc>
-    <lastmod>2026-05-02T21:41:12.005Z</lastmod>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://telehealthfx.com/blog/ozempic-insulin-resistance</loc>
-    <lastmod>2026-05-02T21:41:12.005Z</lastmod>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://telehealthfx.com/blog/wegovy-fda-label</loc>
-    <lastmod>2026-05-02T21:41:12.005Z</lastmod>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://telehealthfx.com/blog/transdermal-drug-delivery-systems</loc>
-    <lastmod>2026-05-02T21:41:12.005Z</lastmod>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://telehealthfx.com/blog/what-is-a-glp-1-medication</loc>
-    <lastmod>2026-05-02T21:41:12.005Z</lastmod>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://telehealthfx.com/blog/berberine-vs-ozempic</loc>
-    <lastmod>2026-05-02T21:41:12.005Z</lastmod>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://telehealthfx.com/blog/transdermal-vs-oral</loc>
-    <lastmod>2026-05-02T21:41:12.005Z</lastmod>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://telehealthfx.com/blog/72-hour-berberine-patch</loc>
-    <lastmod>2026-05-02T21:41:12.005Z</lastmod>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://telehealthfx.com/blog/berberine-transdermal-patch</loc>
-    <lastmod>2026-05-02T21:41:12.005Z</lastmod>
+    <lastmod>2026-05-02T21:46:13.993Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
