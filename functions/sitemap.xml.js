@@ -64,7 +64,9 @@ export async function onRequest(context) {
       '/blog/next-gen-glp-1-drugs-survodutide-orforglipron-amyc',
       '/blog/glp-1-and-type-2-diabetes-beyond-weight-loss-2026',
       '/blog/the-social-stigma-of-weight-loss-medication-why-it',
-      '/blog/intermittent-fasting-glp-1-do-they-work-together-2'
+      '/blog/intermittent-fasting-glp-1-do-they-work-together-2',
+      '/blog/glp-1-and-inflammation-arthritis-sleep-apnea-chron',
+      '/blog/your-first-90-days-on-glp-1-week-by-week-what-to-e'
     ];
   }
   if (staticRoutes.length <= 1) { // Only contains root

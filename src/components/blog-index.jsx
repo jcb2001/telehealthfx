@@ -188,18 +188,18 @@ function BlogIndex() {
       tag: "Nutrition"
     },
     {
-      title: "GLP-1 and Inflammation: Arthritis, Sleep Apnea & Chronic Pain (2026 Clinical Guide)",
-      description: "A comprehensive clinical breakdown exploring glp-1 and inflammation: arthritis, sleep apnea & chronic pain (2026 clinical guide).",
+      title: "GLP-1 and Inflammation: Arthritis, Sleep Apnea & Chronic Pain",
+      description: "How GLP-1 medications act as powerful systemic anti-inflammatory agents, resolving chronic joint pain and sleep apnea.",
       slug: "/blog/glp-1-and-inflammation-arthritis-sleep-apnea-chron",
-      image: "/assets/sermorelin-peptide-featured.png",
-      tag: "Clinical Guide"
+      image: "/assets/glp1_inflammation_featured.png",
+      tag: "Immunology"
     },
     {
-      title: "Your First 90 Days on GLP-1: Week-by-Week What to Expect (2026 Clinical Guide)",
-      description: "A comprehensive clinical breakdown exploring your first 90 days on glp-1: week-by-week what to expect (2026 clinical guide).",
+      title: "Your First 90 Days on GLP-1: A Week-by-Week Clinical Guide",
+      description: "A precise chronological timeline of exactly what to expect during your first 90 days of GLP-1 therapy, including dose titrations and plateaus.",
       slug: "/blog/your-first-90-days-on-glp-1-week-by-week-what-to-e",
-      image: "/assets/wegovy-label-featured.png",
-      tag: "Clinical Guide"
+      image: "/assets/glp1_90days_featured.png",
+      tag: "Clinical Protocols"
     },
     {
       title: "How to Choose a Telehealth Weight Loss Program (And Avoid the Scams) (2026 Clinical Guide)",
