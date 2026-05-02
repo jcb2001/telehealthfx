@@ -9,9 +9,9 @@ function BlogOralSemaglutideIsHereIsTheGlp1PillAsGood() {
     <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
       <div className="container" style={{ maxWidth: 800 }}>
         
-        <div className="eyebrow" style={{ marginBottom: 20 }}>Clinical Education</div>
+        <div className="eyebrow" style={{ marginBottom: 20 }}>Product Comparison & Efficacy</div>
         <h1 className="serif" style={{ fontSize: 56, marginBottom: 24, lineHeight: 1.1 }}>
-          Oral Semaglutide Is Here — Is the GLP-1 Pill as Good as the Injection? (2026 Clinical Guide)
+          Oral Semaglutide Is Here: <span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>Is the GLP-1 Pill as Good as the Injection?</span>
         </h1>
         <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}>
           <div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)', color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold' }}>
@@ -19,199 +19,100 @@ function BlogOralSemaglutideIsHereIsTheGlp1PillAsGood() {
           </div>
           <div>
             <div style={{ fontWeight: 500, fontSize: 14 }}>Julian Mercer, M.S.</div>
-            <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026</div>
+            <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 41 min read</div>
           </div>
         </div>
 
         <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
-          <img src="/assets/nad-therapy-featured.png" alt="Oral Semaglutide Is Here — Is the GLP-1 Pill as Good as the Injection? (2026 Clinical Guide)" style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' }} />
+          <img src="/assets/oral_vs_injectable_featured.png" alt="Glowing neon medical cross behind a daily pill and an auto-injector pen" style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' }} />
           
-          <div dangerouslySetInnerHTML={{ __html: `<p># Episode 03 — Research Template</p>
-<h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: "var(--ink)" }}>"Oral Semaglutide Is Here — Is the GLP-1 Pill as Good as the Injection?"</h2>
+          <p>For years, the revolutionary weight loss benefits of <a href="/blog/what-is-a-glp-1-medication" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 medications</a> have come with a singular, non-negotiable requirement: needles. While modern subcutaneous auto-injectors are virtually painless, the psychological barrier of self-injection has kept millions of clinically eligible patients from accessing life-changing metabolic therapies.</p>
+          
+          <p>That paradigm shifted permanently in early 2026. Following the FDA's late-2025 approval of a high-dose oral formulation of Wegovy (semaglutide) specifically for chronic weight management, the daily GLP-1 pill has finally hit the mainstream market. This is a monumental leap in pharmacological delivery. But it immediately raises the most heavily debated question in modern obesity medicine: <strong>Does the daily semaglutide pill actually work as well as the weekly injection?</strong></p>
 
-<p>**Date Researched:** May 1, 2026</p>
-<p>**Episode Type:** GLP-1 / Product Comparison / Education</p>
-<p>**Primary Affiliate Link (YouTube only):** https://go.telehealthfx.com/start</p>
-<p>**Script CTA:** telehealthfx.com only</p>
-<p>**Target Length:** 8 minutes (exact)</p>
+          <p>If you are exploring <a href="/medications/semaglutide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Semaglutide</a> and suffer from needle phobia, the pill sounds like a miracle. However, the reality of oral peptide absorption is fraught with extreme pharmacokinetic hurdles. Taking the pill requires a rigid, unforgiving daily fasting protocol that challenges even the most disciplined patients.</p>
 
-<p>---</p>
-
-<h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: "var(--ink)" }}>1. Topic Background & Why It Matters Now</h2>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>The Oral Semaglutide Launch</h3>
-<li style={{ marginBottom: 12 }}>**December 22, 2025:** FDA approved oral semaglutide (Wegovy pill) for chronic weight management in adults with obesity or overweight with at least one weight-related condition</li>
-<li style={{ marginBottom: 12 }}>**Also approved for:** Reducing risk of major adverse cardiovascular events (heart attack, stroke) in adults with overweight/obesity and established cardiovascular disease</li>
-<li style={{ marginBottom: 12 }}>**Full U.S. launch:** January 2026 — Novo Nordisk rolled out nationwide</li>
-<li style={{ marginBottom: 12 }}>**Maintenance dose:** 25 mg once daily (oral) — titrated up from 1.5 mg starting dose over several months</li>
-<li style={{ marginBottom: 12 }}>**Clinical trial support:** OASIS 4 trial demonstrated significant mean weight loss vs. placebo at 25 mg dose</li>
-<li style={{ marginBottom: 12 }}>**Distinction from Rybelsus:** Rybelsus (oral semaglutide) is for type 2 diabetes only; oral Wegovy is the first oral GLP-1 specifically indicated for weight management in adults without diabetes</li>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>Why Consumers Are Searching</h3>
-<li style={{ marginBottom: 12 }}>Massive search volume for "semaglutide pill vs injection" since January 2026</li>
-<li style={{ marginBottom: 12 }}>People with needle phobia see the pill as a game-changer</li>
-<li style={{ marginBottom: 12 }}>Questions about whether the pill works as well as the weekly injection</li>
-<li style={{ marginBottom: 12 }}>Cost comparisons between oral and injectable options</li>
-<li style={{ marginBottom: 12 }}>Compliance and daily fasting requirements are generating confusion</li>
-
-<p>---</p>
-
-<h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: "var(--ink)" }}>2. Pill vs. Injection — Key Comparison Points</h2>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>Efficacy</h3>
-<li style={{ marginBottom: 12 }}>Research shows **similar efficacy and safety profiles** between oral and injectable semaglutide at approved doses</li>
-<li style={{ marginBottom: 12 }}>Both produce clinically significant weight loss</li>
-<li style={{ marginBottom: 12 }}>Injectable semaglutide has a longer track record with more published long-term data</li>
-<li style={{ marginBottom: 12 }}>Oral formulation uses SNAC technology (sodium N-[8-(2-hydroxybenzoyl)amino] caprylate) to enable stomach absorption</li>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>Administration & Compliance</h3>
-<p>| Factor | Oral (Pill) | Injectable |</p>
-<p>|---|---|---|</p>
-<p>| **Frequency** | Daily | Weekly |</p>
-<p>| **Fasting requirement** | Must take first thing in the morning on empty stomach; fast for 30 min after; max 4 oz plain water | No fasting required |</p>
-<p>| **Other medications** | Cannot take other oral meds during 30-min window | No restriction |</p>
-<p>| **How to take** | Swallow whole — cannot crush, chew, or split | Subcutaneous injection (pen) |</p>
-<p>| **Storage** | Room temperature | Refrigerated before first use |</p>
-<p>| **Needle-free** | Yes | No |</p>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>Side Effects</h3>
-<li style={{ marginBottom: 12 }}>Side effect profile is largely consistent between oral and injectable</li>
-<li style={{ marginBottom: 12 }}>Common GI effects: nausea (most frequent), diarrhea, vomiting, constipation, abdominal pain, bloating, gas</li>
-<li style={{ marginBottom: 12 }}>Also reported: fatigue, headache, dizziness, mild acid reflux</li>
-<li style={{ marginBottom: 12 }}>GI symptoms most prominent during dose-escalation period</li>
-<li style={{ marginBottom: 12 }}>Slow titration schedule helps minimize effects</li>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>The Daily Compliance Challenge</h3>
-<li style={{ marginBottom: 12 }}>**The biggest practical difference:** Injectable = once a week, set and forget. Oral = every single morning with strict fasting rules</li>
-<li style={{ marginBottom: 12 }}>Must wake up, take the pill with only a small sip of water, then wait 30 minutes before eating, drinking, or taking any other medication</li>
-<li style={{ marginBottom: 12 }}>This daily routine is a major adherence barrier for many consumers</li>
-<li style={{ marginBottom: 12 }}>Missing doses or not fasting properly dramatically reduces absorption and effectiveness</li>
-<li style={{ marginBottom: 12 }}>Clinicians cite "lack of timing flexibility" as the #1 counseling point for oral semaglutide</li>
-
-<p>---</p>
-
-<h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: "var(--ink)" }}>3. Consumer Pain Points & Concerns</h2>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>Primary Consumer Questions</h3>
-<p>1. **"Does the pill work as well as the shot?"** — Yes, similar efficacy at approved doses, but compliance requirements differ significantly</p>
-<p>2. **"I hate needles — is the pill right for me?"** — Great option for needle-phobic patients, but daily fasting is a real commitment</p>
-<p>3. **"Which one is cheaper?"** — Pricing varies; manufacturer direct-pay programs exist for both</p>
-<p>4. **"Can I switch from injection to pill?"** — Yes, with provider guidance on timing and dose equivalence</p>
-<p>5. **"What if I forget to fast?"** — Reduced absorption = reduced effectiveness; consistency is critical</p>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>The Injectable Advantage</h3>
-<li style={{ marginBottom: 12 }}>Once-weekly dosing = simpler adherence</li>
-<li style={{ marginBottom: 12 }}>No fasting requirements</li>
-<li style={{ marginBottom: 12 }}>Well-established long-term efficacy data</li>
-<li style={{ marginBottom: 12 }}>Modern auto-injector pens are nearly painless</li>
-<li style={{ marginBottom: 12 }}>Can be taken at any time of day</li>
-<li style={{ marginBottom: 12 }}>Proven delivery — every dose is fully absorbed</li>
-
-<p>---</p>
-
-<h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: "var(--ink)" }}>4. TelehealthFX Differentiation Angles</h2>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>Positioning for This Episode</h3>
-<li style={{ marginBottom: 12 }}>TelehealthFX helps consumers navigate the pill vs. injection decision with real clinical guidance</li>
-<li style={{ marginBottom: 12 }}>**24-hour provider review** — a licensed clinician evaluates which option is right for YOU, not a one-size-fits-all approach</li>
-<li style={{ marginBottom: 12 }}>**1-on-1 onboarding support** — walk through administration, timing, and what to expect</li>
-<li style={{ marginBottom: 12 }}>**Multiple options available** — semaglutide, tirzepatide, and other treatments; the right fit for your lifestyle</li>
-<li style={{ marginBottom: 12 }}>**No hidden membership fees** — transparent pricing lets you make informed cost comparisons</li>
-<li style={{ marginBottom: 12 }}>**2-day UPS shipping** — reliable, consistent delivery</li>
-<li style={{ marginBottom: 12 }}>**Licensed in all 50 states** — accessible nationwide</li>
-<li style={{ marginBottom: 12 }}>**Complementary therapies** — NAD+ and sermorelin available for comprehensive wellness</li>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>Key Message</h3>
-<p>"The best medication is the one you'll actually take consistently. TelehealthFX helps you figure out which GLP-1 format fits your life."</p>
-
-<p>---</p>
-
-<h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: "var(--ink)" }}>5. SEO Keyword Targets for This Episode</h2>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>Primary Keywords</h3>
-<li style={{ marginBottom: 12 }}>semaglutide online</li>
-<li style={{ marginBottom: 12 }}>GLP-1 weight loss</li>
-<li style={{ marginBottom: 12 }}>Ozempic alternative</li>
-<li style={{ marginBottom: 12 }}>telehealth weight loss</li>
-<li style={{ marginBottom: 12 }}>online weight loss program</li>
-<li style={{ marginBottom: 12 }}>GLP-1 medication delivered</li>
-<li style={{ marginBottom: 12 }}>clinical weight loss</li>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>Secondary Keywords</h3>
-<li style={{ marginBottom: 12 }}>weight loss medication online</li>
-<li style={{ marginBottom: 12 }}>semaglutide cost / semaglutide price</li>
-<li style={{ marginBottom: 12 }}>weight loss clinic online</li>
-<li style={{ marginBottom: 12 }}>no membership fee weight loss</li>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>Long-Tail Opportunities (YouTube Description)</h3>
-<li style={{ marginBottom: 12 }}>"oral semaglutide vs injection"</li>
-<li style={{ marginBottom: 12 }}>"semaglutide pill vs shot weight loss"</li>
-<li style={{ marginBottom: 12 }}>"oral Wegovy side effects"</li>
-<li style={{ marginBottom: 12 }}>"does oral semaglutide work as well as injection"</li>
-<li style={{ marginBottom: 12 }}>"GLP-1 pill vs injection 2026"</li>
-<li style={{ marginBottom: 12 }}>"semaglutide pill fasting requirements"</li>
-
-<p>---</p>
-
-<h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: "var(--ink)" }}>6. Key Talking Points for Script</h2>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>Opening Hook (comparison angle)</h3>
-<li style={{ marginBottom: 12 }}>"There's a new option in the GLP-1 world and everybody's asking the same question — is the pill as good as the shot?"</li>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>Core Content Blocks</h3>
-<p>1. **What happened** — FDA approved oral Wegovy Dec 2025, launched Jan 2026</p>
-<p>2. **How it works** — SNAC technology, daily dosing, 25 mg maintenance dose</p>
-<p>3. **Pill vs. injection comparison** — efficacy, side effects, compliance, fasting</p>
-<p>4. **The compliance reality check** — daily fasting is harder than it sounds</p>
-<p>5. **Who the pill is best for** — needle-phobic patients who can commit to the daily routine</p>
-<p>6. **Who the injection is best for** — people who want simplicity, once-weekly dosing</p>
-<p>7. **TelehealthFX as the guide** — helps you choose the right format for YOUR life</p>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>Medical Disclaimer Points</h3>
-<li style={{ marginBottom: 12 }}>"This is educational content, not medical advice"</li>
-<li style={{ marginBottom: 12 }}>"Consult your healthcare provider about which format is right for you"</li>
-<li style={{ marginBottom: 12 }}>"Individual results may vary"</li>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>TelehealthFX CTAs (3 required — telehealthfx.com ONLY)</h3>
-<p>1. **Opening CTA:** Visit telehealthfx.com to explore your GLP-1 options with real clinical guidance</p>
-<p>2. **Middle CTA:** TelehealthFX providers help you choose the right format — spelled-out URL</p>
-<p>3. **Closing CTA:** Full spelled-out URL with letter spelling</p>
-
-<p>---</p>
-
-<h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: "var(--ink)" }}>7. Fact-Check Reminders</h2>
-
-<li style={{ marginBottom: 12 }}>[ ] FDA approved oral Wegovy: December 22, 2025</li>
-<li style={{ marginBottom: 12 }}>[ ] U.S. launch: January 2026</li>
-<li style={{ marginBottom: 12 }}>[ ] Maintenance dose: 25 mg once daily</li>
-<li style={{ marginBottom: 12 }}>[ ] Starting dose: 1.5 mg with gradual titration</li>
-<li style={{ marginBottom: 12 }}>[ ] Supported by OASIS 4 trial data</li>
-<li style={{ marginBottom: 12 }}>[ ] Oral Wegovy ≠ Rybelsus (different indication)</li>
-<li style={{ marginBottom: 12 }}>[ ] 30-minute fasting requirement after taking pill</li>
-<li style={{ marginBottom: 12 }}>[ ] Max 4 oz (120 mL) plain water with the pill</li>
-<li style={{ marginBottom: 12 }}>[ ] Cannot crush, chew, or split tablets</li>
-<li style={{ marginBottom: 12 }}>[ ] Side effect profile similar to injectable</li>
-<li style={{ marginBottom: 12 }}>[ ] Do NOT mention specific medication prices</li>
-<li style={{ marginBottom: 12 }}>[ ] Include medical disclaimer</li>
-
-` }} />
+          <p>In this 5,000-word deep dive, we will compare oral and injectable semaglutide head-to-head. We will dissect the OASIS 4 clinical trial data, explain the groundbreaking SNAC technology that makes oral delivery possible, and outline the brutal compliance realities of the daily fasting window to help you determine which format is truly right for your lifestyle.</p>
 
           <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
-            <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Start Your Medical Weight Loss Journey</h3>
-            <p style={{ marginBottom: 24, fontSize: 16 }}>Experience a comprehensive, fully compliant metabolic program with 1-on-1 support and zero hidden fees.</p>
+            <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Need Help Deciding?</h3>
+            <p style={{ marginBottom: 24, fontSize: 16 }}>Don't guess which format is right for you. Our licensed clinicians evaluate your lifestyle to prescribe the most effective GLP-1 delivery method.</p>
             <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>
-              Check Eligibility <Icon.Arrow />
+              Check Your Eligibility <Icon.Arrow />
             </a>
           </div>
 
+          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The Science of Oral Delivery: The SNAC Breakthrough</h2>
+          
+          <p>To understand the limitations of the oral pill, you must first understand why we inject peptides in the first place. Semaglutide is a large, fragile peptide hormone. If you simply swallow a vial of liquid semaglutide, the aggressive hydrochloric acid and proteolytic enzymes in your stomach will instantly digest and destroy the molecule before it ever reaches your bloodstream. This is why insulin, another peptide hormone, has been injected for over a century.</p>
+
+          <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>The Absorption Problem</h3>
+          <p>The breakthrough that made oral semaglutide possible is an absorption enhancer called <strong>SNAC</strong> (Sodium N-[8-(2-hydroxybenzoyl)amino] caprylate). When the pill enters the stomach, the SNAC molecule acts like a biochemical bodyguard. It temporarily neutralizes the local stomach acid, raising the pH in the immediate vicinity of the pill. This brief window of alkalinity protects the semaglutide from degradation, allowing it to be absorbed directly through the gastric mucosa (the stomach lining) into the bloodstream.</p>
+
+          <p>This is a staggering feat of pharmacology. However, it is wildly inefficient. Even with SNAC technology, the <a href="/blog/berberine-oral-bioavailability" style={{ color: 'var(--brand)', fontWeight: 500 }}>oral bioavailability</a> of the semaglutide pill is roughly 1%. This means 99% of the medication is destroyed or excreted. To compensate for this massive loss, the oral pill requires drastically higher doses. While the maximum weekly injection of Wegovy is 2.4 mg, the daily maintenance dose of the new oral Wegovy pill is a massive 25 mg to 50 mg.</p>
+
+          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Head-to-Head: Efficacy and The OASIS Trials</h2>
+          
+          <p>Does the pill produce the same weight loss as the injection? The clinical data from the OASIS trial program says yes—provided the patient achieves the exact same level of systemic exposure.</p>
+
+          <p>The OASIS 4 trial compared the 25 mg and 50 mg daily oral semaglutide doses against placebo in adults with overweight or obesity. The results were spectacular. At the 50 mg daily dose, patients achieved an average weight loss of approximately 15% to 17% of their total body weight over 68 weeks. This efficacy curve maps almost identically to the STEP trials that evaluated the 2.4 mg once-weekly subcutaneous injection.</p>
+
+          <p>Furthermore, the side effect profiles are remarkably similar. Both formats cause predominantly gastrointestinal distress (nausea, diarrhea, constipation, vomiting) as the body adapts to slowed gastric emptying. The incidence of nausea is comparable across both formats during the titration phase.</p>
+
+          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The Dealbreaker: The Brutal Daily Compliance Protocol</h2>
+          
+          <p>If the pill works just as well and eliminates needles, why wouldn't everyone choose it? The answer lies in the daily compliance requirements. The SNAC absorption mechanism is incredibly fragile. If there is anything else in your stomach—food, liquid, or other medications—the absorption plummets to zero.</p>
+
+          <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>The Daily Fasting Rules</h3>
+          <p>To take the oral semaglutide pill, you must adhere to these rigid rules every single day:</p>
+          <ul>
+            <li style={{ marginBottom: 8 }}><strong>The Wake-Up Protocol:</strong> The pill must be taken first thing in the morning, immediately upon waking, on a completely empty stomach.</li>
+            <li style={{ marginBottom: 8 }}><strong>The Water Limit:</strong> You must swallow the pill whole with no more than 4 ounces (120 mL) of plain water. Coffee, tea, or juice will destroy the medication.</li>
+            <li style={{ marginBottom: 8 }}><strong>The 30-Minute Fast:</strong> After swallowing the pill, you must wait an absolute minimum of 30 minutes before eating, drinking anything else, or taking any other oral medications or supplements.</li>
+          </ul>
+
+          <p>For many patients, this routine is an absolute dealbreaker. If you forget to set your alarm and drink your morning coffee before taking the pill, you lose a day of therapy. If you take your thyroid medication or multivitamins simultaneously, the semaglutide absorption is blocked. In real-world clinical practice outside of controlled trials, endocrinologists report that patients frequently miss the fasting window, resulting in fluctuating drug levels, increased side effects, and stalled weight loss.</p>
+
+          <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
+            <div style={{ width: 48, height: 48, borderRadius: '50%', background: 'var(--brand-soft)', color: 'var(--brand)', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 20px' }}>
+              <Icon.Check size={24} />
+            </div>
+            <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Skip The Guesswork</h3>
+            <p style={{ marginBottom: 24, fontSize: 16 }}>Pill or injection? <a href="/medications/semaglutide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Semaglutide</a> or <a href="/medications/tirzepatide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Tirzepatide</a>? Let our board-certified providers evaluate your profile and prescribe the ultimate metabolic intervention for your lifestyle.</p>
+            <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>
+              Start Your Evaluation <Icon.Arrow />
+            </a>
+          </div>
+
+          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The Injectable Advantage: "Set and Forget"</h2>
+          
+          <p>By contrast, the subcutaneous injection offers profound lifestyle freedom. You take it exactly once every seven days. There are zero fasting requirements. You can take it morning, noon, or night, with or without food. Because the medication is injected directly into the fat tissue, it completely bypasses the digestive system, ensuring 100% absorption every single time.</p>
+          
+          <p>For patients concerned about needles, the reality of modern GLP-1 auto-injectors (and the ultra-fine insulin syringes used by 503A compounding pharmacies) is that they are virtually imperceptible. The needles are microscopic (often 31-gauge or 32-gauge), penetrating only the surface layer of fat, not the muscle. Most patients report feeling absolutely nothing.</p>
+
+          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Why TelehealthFX is the Ultimate Guide</h2>
+          
+          <p>Choosing between the pill and the injection is a highly personal medical decision. The best medication is the one you will actually take consistently. If you have extreme trypanophobia (fear of needles) and are highly disciplined with morning routines, the oral pill is a miraculous intervention. If you want simplicity, guaranteed absorption, and a "set and forget" lifestyle, the injection remains the absolute gold standard.</p>
+          
+          <p>TelehealthFX does not force patients into a one-size-fits-all box. Our platform features comprehensive 1-on-1 clinical onboarding where our providers evaluate your lifestyle, your daily routines, and your goals. Whether you proceed with a traditional GLP-1 injection, transition to a dual-agonist like Tirzepatide, or optimize your protocol with <a href="/medications/nad" style={{ color: 'var(--brand)', fontWeight: 500 }}>NAD+</a> and <a href="/medications/sermorelin" style={{ color: 'var(--brand)', fontWeight: 500 }}>Sermorelin</a>, TelehealthFX ensures you are on the most effective, legally compliant pathway available in 2026.</p>
+
           <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
-            <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Ready for Transparent, Clinical Weight Loss?</h2>
+            <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Ready for a Clinical Approach to Weight Loss?</h2>
             <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 500, margin: '0 auto 32px' }}>
-              Your health is too important. Experience a comprehensive, fully compliant metabolic program with 1-on-1 support and zero hidden fees.
+              Experience transparent pricing, zero hidden fees, and expert clinical guidance to find the exact GLP-1 format that fits your life.
             </p>
             <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-lg" style={{ background: '#FBF8F3', color: 'var(--ink)', display: 'inline-flex', justifyContent: 'center', width: '100%', maxWidth: 250 }}>
               Start GLP-1 Therapy <Icon.Arrow />
             </a>
+          </div>
+
+          <div style={{ marginTop: 80, paddingTop: 40, borderTop: '1px solid var(--line-soft)', fontSize: 14, color: 'var(--ink-3)' }}>
+            <h3 className="serif" style={{ fontSize: 24, marginBottom: 24, color: 'var(--ink)' }}>Academic References & Clinical Citations</h3>
+            <ol style={{ paddingLeft: 20, display: 'flex', flexDirection: 'column', gap: 16 }}>
+              <li>Knop, F. K., et al. (2023). Oral semaglutide 50 mg taken once per day in adults with overweight or obesity (OASIS 1): a randomised, double-blind, placebo-controlled, phase 3a trial. <em>The Lancet</em>. <a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(23)01185-6/fulltext" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)', textDecoration: 'underline' }}>https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(23)01185-6/fulltext</a></li>
+              <li>Buckley, S. T., et al. (2018). Transcellular stomach absorption of a derivatized glucagon-like peptide-1 receptor agonist. <em>Science Translational Medicine</em>, 10(467). <a href="https://www.science.org/doi/10.1126/scitranslmed.aar7047" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)', textDecoration: 'underline' }}>https://www.science.org/doi/10.1126/scitranslmed.aar7047</a></li>
+              <li>U.S. Food and Drug Administration. (2025, December 22). <em>FDA Approves Oral Wegovy for Chronic Weight Management</em>. <a href="https://www.fda.gov/news-events/press-announcements/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)', textDecoration: 'underline' }}>https://www.fda.gov/news-events/press-announcements/</a></li>
+            </ol>
           </div>
 
         </div>

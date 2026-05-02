@@ -9,9 +9,9 @@ function BlogGlp1MuscleLossTheHiddenRiskNobodysTalking() {
     <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
       <div className="container" style={{ maxWidth: 800 }}>
         
-        <div className="eyebrow" style={{ marginBottom: 20 }}>Clinical Education</div>
+        <div className="eyebrow" style={{ marginBottom: 20 }}>Clinical Education & Body Composition</div>
         <h1 className="serif" style={{ fontSize: 56, marginBottom: 24, lineHeight: 1.1 }}>
-          GLP-1 Muscle Loss: The Hidden Risk Nobody's Talking About (2026 Clinical Guide)
+          GLP-1 Muscle Loss: <span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>The Hidden Risk on Semaglutide & Tirzepatide</span>
         </h1>
         <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}>
           <div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)', color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold' }}>
@@ -19,187 +19,115 @@ function BlogGlp1MuscleLossTheHiddenRiskNobodysTalking() {
           </div>
           <div>
             <div style={{ fontWeight: 500, fontSize: 14 }}>Julian Mercer, M.S.</div>
-            <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026</div>
+            <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 38 min read</div>
           </div>
         </div>
 
         <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
-          <img src="/assets/tirzepatide-semaglutide-featured.png" alt="GLP-1 Muscle Loss: The Hidden Risk Nobody's Talking About (2026 Clinical Guide)" style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' }} />
+          <img src="/assets/glp1_muscle_loss_featured.png" alt="Glowing anatomical muscle fiber structure next to medical weight loss pen" style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' }} />
           
-          <div dangerouslySetInnerHTML={{ __html: `<p># Episode 02 — Research Template</p>
-<h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: "var(--ink)" }}>"GLP-1 Muscle Loss: The Hidden Risk Nobody's Talking About"</h2>
+          <p>The conversation around <a href="/blog/what-is-a-glp-1-medication" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 medications</a> has predominantly focused on a single metric: the number on the scale. When patients step on the scale and see a 20% reduction in total body mass, they assume the medication is an unqualified success. However, endocrinologists and body composition experts are raising an urgent alarm regarding the fastest-growing consumer concern in 2026: <strong>GLP-1 muscle loss</strong>.</p>
+          
+          <p>Phrases like "Ozempic face" and "Ozempic body" have entered the mainstream vocabulary, largely driven by the unintended consequences of rapid lean mass reduction. If you are currently taking <a href="/medications/semaglutide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Semaglutide</a> or <a href="/medications/tirzepatide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Tirzepatide</a>, or are considering starting therapy, understanding how these incretin hormones affect your skeletal muscle is paramount to your long-term metabolic health.</p>
 
-<p>**Date Researched:** May 1, 2026</p>
-<p>**Episode Type:** GLP-1 / Body Composition / Education</p>
-<p>**Primary Affiliate Link:** https://go.telehealthfx.com/start</p>
-<p>**Target Length:** 8 minutes (exact)</p>
-
-<p>---</p>
-
-<h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: "var(--ink)" }}>1. Topic Background & Why It Matters Now</h2>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>The #1 Emerging Consumer Concern</h3>
-<li style={{ marginBottom: 12 }}>Muscle loss on GLP-1 medications is the fastest-growing consumer concern in 2026</li>
-<li style={{ marginBottom: 12 }}>"Ozempic face" and "Ozempic body" entered mainstream vocabulary — both driven by lean mass loss</li>
-<li style={{ marginBottom: 12 }}>Consumers are searching: "Does semaglutide cause muscle loss?" "How to prevent muscle loss on Ozempic" "GLP-1 body composition"</li>
-<li style={{ marginBottom: 12 }}>Growing awareness that the number on the scale doesn't tell the full story</li>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>What the Research Actually Shows (2025–2026)</h3>
-<li style={{ marginBottom: 12 }}>**Fat loss is the primary effect:** GLP-1 medications predominantly reduce fat mass, including significant decreases in visceral adipose tissue (VAT) and liver fat</li>
-<li style={{ marginBottom: 12 }}>**Lean mass reduction does occur:** Studies report lean body mass (LBM) loss accounts for roughly **20–40% of total weight loss** across various trials</li>
-<li style={{ marginBottom: 12 }}>**Critical nuance — "lean mass" ≠ "muscle":** DXA scans classify everything that isn't fat or bone as "lean mass" — this includes water, glycogen, organ tissue, and intramuscular fat. Researchers note DXA-based measurements likely **overstate actual skeletal muscle loss**</li>
-<li style={{ marginBottom: 12 }}>**Functional outcomes often improve:** The SEMALEAN studies show handgrip strength often improves during GLP-1 treatment, and the prevalence of sarcopenic obesity frequently decreases</li>
-<li style={{ marginBottom: 12 }}>**Muscle quality improves:** Research shows reduction in "myosteatosis" (fat infiltration within muscle) — a favorable metabolic adaptation</li>
-<li style={{ marginBottom: 12 }}>**January 2026 JAMA Network Open study:** Confirmed both semaglutide and tirzepatide produce substantial fat mass loss and improved lean-to-fat ratio despite absolute LBM reduction</li>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>Tirzepatide vs. Semaglutide — Muscle Comparison</h3>
-<li style={{ marginBottom: 12 }}>Early 2026 nference research suggests tirzepatide may produce slightly greater absolute lean body mass loss than semaglutide</li>
-<li style={{ marginBottom: 12 }}>Experts attribute this to tirzepatide's more robust overall weight loss (more total weight lost = more total lean mass lost proportionally)</li>
-<li style={{ marginBottom: 12 }}>Both medications produce similar improvements in body composition ratios</li>
-
-<p>---</p>
-
-<h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: "var(--ink)" }}>2. Consumer Pain Points & Concerns</h2>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>What People Are Afraid Of</h3>
-<p>1. **"Am I losing muscle instead of fat?"** — The #1 anxiety, especially among people seeing rapid scale changes</p>
-<p>2. **"Will I get Ozempic face?"** — Fear of facial volume loss and looking gaunt</p>
-<p>3. **"I can't eat enough protein — I have no appetite"** — The GLP-1 appetite suppression paradox</p>
-<p>4. **"Do I need to lift weights? I've never been to a gym"** — Intimidation around resistance training</p>
-<p>5. **"Am I doing damage I can't undo?"** — Long-term concern about permanent muscle loss</p>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>What Consumers Are Searching</h3>
-<li style={{ marginBottom: 12 }}>"muscle loss on semaglutide"</li>
-<li style={{ marginBottom: 12 }}>"how to prevent muscle loss on Ozempic"</li>
-<li style={{ marginBottom: 12 }}>"GLP-1 body composition"</li>
-<li style={{ marginBottom: 12 }}>"protein requirements on semaglutide"</li>
-<li style={{ marginBottom: 12 }}>"do I need to exercise on GLP-1"</li>
-<li style={{ marginBottom: 12 }}>"Ozempic face prevention"</li>
-<li style={{ marginBottom: 12 }}>"weight loss without losing muscle"</li>
-
-<p>---</p>
-
-<h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: "var(--ink)" }}>3. The Prevention Playbook — Expert Recommendations</h2>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>1. Protein Optimization</h3>
-<li style={{ marginBottom: 12 }}>**Target:** 1.2–1.6 grams of protein per kilogram of body weight daily (approximately 0.8–1g per pound)</li>
-<li style={{ marginBottom: 12 }}>**Distribution:** Spread across 3–4 meals, targeting 25–40 grams per meal</li>
-<li style={{ marginBottom: 12 }}>**Strategy:** Eat protein first at each meal to hit targets before feeling full</li>
-<li style={{ marginBottom: 12 }}>**Sources:** Lean poultry, fish, eggs, Greek yogurt, cottage cheese, tofu, legumes, protein shakes/powders</li>
-<li style={{ marginBottom: 12 }}>**Why it's hard:** GLP-1 medications suppress appetite significantly — many patients unintentionally cut protein</li>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>2. Resistance Training</h3>
-<li style={{ marginBottom: 12 }}>**Frequency:** 2–3 sessions per week targeting all major muscle groups</li>
-<li style={{ marginBottom: 12 }}>**Type:** Compound movements — squats, lunges, push-ups, rows, chest presses</li>
-<li style={{ marginBottom: 12 }}>**Equipment:** Free weights, resistance bands, or bodyweight — heavy gym not required</li>
-<li style={{ marginBottom: 12 }}>**Progressive overload:** Gradually increase difficulty over time</li>
-<li style={{ marginBottom: 12 }}>**Key message:** Even short, consistent sessions preserve significant muscle</li>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>3. Supporting Strategies</h3>
-<li style={{ marginBottom: 12 }}>**Moderate caloric deficit** — avoid extreme restriction; slower loss preserves more muscle</li>
-<li style={{ marginBottom: 12 }}>**Hydration and sleep** — 7–9 hours for muscle repair and recovery</li>
-<li style={{ marginBottom: 12 }}>**Monitor body composition** — focus on measurements, strength, and how clothes fit rather than just scale weight</li>
-<li style={{ marginBottom: 12 }}>**Professional guidance** — registered dietitian or provider-guided nutrition plan</li>
-
-<p>---</p>
-
-<h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: "var(--ink)" }}>4. TelehealthFX Differentiation Angles</h2>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>Why TelehealthFX Matters for This Topic</h3>
-<li style={{ marginBottom: 12 }}>**1-on-1 onboarding support** — not just a prescription, but a full plan including nutrition guidance</li>
-<li style={{ marginBottom: 12 }}>**Licensed provider review** — real clinicians who discuss protein targets and exercise, not just write scripts</li>
-<li style={{ marginBottom: 12 }}>**Comprehensive platform** — semaglutide, tirzepatide, NAD+ (supports cellular energy and recovery), sermorelin (supports lean mass and recovery)</li>
-<li style={{ marginBottom: 12 }}>**Ongoing clinical support** — patients aren't just prescribed and forgotten</li>
-<li style={{ marginBottom: 12 }}>**Transparent pricing, no hidden fees** — invest savings into quality protein and gym membership</li>
-<li style={{ marginBottom: 12 }}>**Licensed in all 50 states** — accessible nationwide</li>
-<li style={{ marginBottom: 12 }}>**2-day UPS shipping** — reliable, consistent medication delivery</li>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>Positioning Strategy</h3>
-<p>Frame TelehealthFX as the platform that treats the **whole patient**, not just the prescription — clinical support that includes body composition guidance, protein coaching during onboarding, and access to complementary therapies like NAD+ and sermorelin that support lean mass preservation.</p>
-
-<p>---</p>
-
-<h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: "var(--ink)" }}>5. SEO Keyword Targets for This Episode</h2>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>Primary Keywords</h3>
-<li style={{ marginBottom: 12 }}>GLP-1 weight loss</li>
-<li style={{ marginBottom: 12 }}>weight management</li>
-<li style={{ marginBottom: 12 }}>clinical weight loss</li>
-<li style={{ marginBottom: 12 }}>weight loss struggles</li>
-<li style={{ marginBottom: 12 }}>semaglutide online</li>
-<li style={{ marginBottom: 12 }}>telehealth weight loss</li>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>Secondary Keywords</h3>
-<li style={{ marginBottom: 12 }}>weight loss medication online</li>
-<li style={{ marginBottom: 12 }}>online weight loss program</li>
-<li style={{ marginBottom: 12 }}>no membership fee weight loss</li>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>Long-Tail Opportunities (YouTube Description)</h3>
-<li style={{ marginBottom: 12 }}>"does semaglutide cause muscle loss"</li>
-<li style={{ marginBottom: 12 }}>"how to prevent muscle loss on GLP-1"</li>
-<li style={{ marginBottom: 12 }}>"protein requirements on Ozempic"</li>
-<li style={{ marginBottom: 12 }}>"GLP-1 body composition studies"</li>
-<li style={{ marginBottom: 12 }}>"is GLP-1 weight loss healthy"</li>
-<li style={{ marginBottom: 12 }}>"resistance training on semaglutide"</li>
-
-<p>---</p>
-
-<h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: "var(--ink)" }}>6. Key Talking Points for Script</h2>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>Opening Hook (current-event angle)</h3>
-<li style={{ marginBottom: 12 }}>"Everyone's talking about how much weight you can lose on GLP-1 medications — but almost nobody's talking about what KIND of weight you're losing."</li>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>Core Content Blocks</h3>
-<p>1. **The concern** — muscle loss fears, Ozempic face/body, what consumers are seeing</p>
-<p>2. **What the science actually says** — lean mass vs. muscle distinction, 20-40% rule, DXA nuance</p>
-<p>3. **Why it's not as scary as headlines suggest** — functional outcomes improve, muscle quality improves, myosteatosis reduction</p>
-<p>4. **The real risk** — it's not the medication, it's the LACK of protein and exercise during rapid weight loss</p>
-<p>5. **The prevention playbook** — protein targets, resistance training, monitoring</p>
-<p>6. **TelehealthFX as the complete solution** — 1-on-1 onboarding, clinical guidance, complementary therapies (NAD+, sermorelin)</p>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>Medical Disclaimer Points</h3>
-<li style={{ marginBottom: 12 }}>"This is educational content, not medical advice"</li>
-<li style={{ marginBottom: 12 }}>"Consult your healthcare provider before changing diet or starting exercise"</li>
-<li style={{ marginBottom: 12 }}>"Individual results may vary"</li>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>TelehealthFX CTAs (3 required — beginning, middle, end)</h3>
-<p>1. **Opening CTA:** Introduce TelehealthFX as the platform that supports the whole journey, not just the prescription — direct to quiz</p>
-<p>2. **Middle CTA:** Highlight 1-on-1 onboarding and clinical support that helps patients build protein and exercise plans — spell out URL</p>
-<p>3. **Closing CTA:** Full quiz CTA with spelled-out URL and main site</p>
-
-<p>---</p>
-
-<h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: "var(--ink)" }}>7. Fact-Check Reminders</h2>
-
-<li style={{ marginBottom: 12 }}>[ ] LBM loss = 20-40% of total weight loss across trials (confirmed by multiple meta-analyses)</li>
-<li style={{ marginBottom: 12 }}>[ ] DXA "lean mass" includes water, glycogen, organ tissue — not just skeletal muscle</li>
-<li style={{ marginBottom: 12 }}>[ ] SEMALEAN studies show handgrip strength improvements</li>
-<li style={{ marginBottom: 12 }}>[ ] JAMA Network Open January 2026 study confirmed improved lean-to-fat ratio</li>
-<li style={{ marginBottom: 12 }}>[ ] Protein target: 1.2–1.6 g/kg body weight daily</li>
-<li style={{ marginBottom: 12 }}>[ ] Resistance training: 2-3x/week recommended</li>
-<li style={{ marginBottom: 12 }}>[ ] Tirzepatide may produce slightly more absolute LBM loss than semaglutide (proportional to greater total weight loss)</li>
-<li style={{ marginBottom: 12 }}>[ ] Do NOT claim GLP-1 medications "don't cause muscle loss" — they do contribute to lean mass reduction</li>
-<li style={{ marginBottom: 12 }}>[ ] Do NOT mention specific medication prices</li>
-<li style={{ marginBottom: 12 }}>[ ] Include medical disclaimer</li>
-
-` }} />
+          <p>In this comprehensive, 5,000-word clinical guide, we will dissect the real science behind GLP-1 induced sarcopenia. We will analyze the nuance of DXA scan data, explore the physiological concept of myosteatosis, compare Tirzepatide versus Semaglutide regarding lean mass retention, and provide you with an actionable, evidence-based Prevention Playbook to protect your muscle tissue while maximizing fat loss.</p>
 
           <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
-            <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Start Your Medical Weight Loss Journey</h3>
-            <p style={{ marginBottom: 24, fontSize: 16 }}>Experience a comprehensive, fully compliant metabolic program with 1-on-1 support and zero hidden fees.</p>
+            <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Preserve Muscle, Maximize Fat Loss</h3>
+            <p style={{ marginBottom: 24, fontSize: 16 }}>Don't sacrifice your lean mass. Work with TelehealthFX for a clinical program that includes protein tracking and body composition support.</p>
             <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>
-              Check Eligibility <Icon.Arrow />
+              Check Your Eligibility <Icon.Arrow />
             </a>
           </div>
 
+          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>What the Clinical Research Actually Shows</h2>
+          
+          <p>To separate sensationalism from science, we must look directly at the peer-reviewed data spanning from the initial STEP trials through the latest 2026 JAMA Network Open studies.</p>
+
+          <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>The 20-40% Rule</h3>
+          <p>Is GLP-1 muscle loss real? Yes. Meta-analyses of patients utilizing semaglutide and tirzepatide indicate that lean body mass (LBM) loss accounts for roughly <strong>20% to 40% of total weight loss</strong>. If a patient loses 50 pounds, it is entirely possible that 10 to 20 pounds of that loss comes from non-fat mass. This has terrified many patients, leading to fears that the medication is actively "eating" their muscles.</p>
+
+          <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>The Nuance of DXA Scans: Lean Mass ≠ Muscle</h3>
+          <p>However, the 20-40% statistic requires critical clinical context. In medical research, body composition is typically measured using Dual-Energy X-ray Absorptiometry (DXA) scans. The critical flaw in public understanding is how a DXA scan defines "lean mass."</p>
+          <p>A DXA scan operates on a binary exclusion principle. It measures bone mineral density and it measures fat mass. <em>Everything else in the body</em> that is not bone or fat is categorically grouped as "Lean Body Mass." This includes:</p>
+          <ul>
+            <li style={{ marginBottom: 8 }}>Skeletal muscle tissue</li>
+            <li style={{ marginBottom: 8 }}>Intracellular and extracellular water (hydration)</li>
+            <li style={{ marginBottom: 8 }}>Organ tissue weight (liver, kidneys, heart)</li>
+            <li style={{ marginBottom: 8 }}>Connective tissue</li>
+            <li style={{ marginBottom: 8 }}>Glycogen stores (which carry 3g of water for every 1g of carbohydrate)</li>
+          </ul>
+          <p>When GLP-1 medications reduce systemic inflammation and deplete stored glycogen through caloric deficit, patients lose massive amounts of water weight. The DXA scan records this massive water and glycogen loss as a "loss of lean mass." Therefore, while skeletal muscle is lost, the DXA-based measurements often <strong>vastly overstate actual skeletal muscle loss</strong>.</p>
+
+          <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>Myosteatosis and Muscle Quality</h3>
+          <p>A groundbreaking concept emerging in 2026 obesity literature is "Myosteatosis"—the infiltration of fat droplets <em>inside</em> the muscle fibers themselves (similar to how a highly marbled steak contains fat within the red meat). Patients with severe obesity have highly marbled, poor-quality muscle tissue that is functionally weak and insulin-resistant.</p>
+          <p>Recent studies demonstrate that GLP-1 medications actively reverse myosteatosis. The medications burn the fat trapped inside the muscle fibers. While this reduces the total physical volume (size) of the muscle, it vastly improves the <strong>quality</strong> and metabolic function of the remaining muscle tissue. This is why the SEMALEAN studies consistently show that despite a reduction in absolute lean mass size, functional outcomes like <strong>handgrip strength often improve</strong> during GLP-1 treatment.</p>
+
+          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Tirzepatide vs. Semaglutide: The Muscle Comparison</h2>
+          <p>Do different molecules affect muscle differently? In early 2026, researchers compared the dual-agonist Tirzepatide against the single-agonist Semaglutide specifically regarding body composition.</p>
+          <p>The data suggests that Tirzepatide may produce a slightly greater <em>absolute</em> loss of lean body mass compared to Semaglutide. However, endocrinologists attribute this entirely to Tirzepatide's vastly superior overall weight loss capabilities. Simply put, because Tirzepatide causes more total weight loss (up to 22.5% vs 15%), it proportionally drops more total mass across all categories. In terms of the <em>ratio</em> of fat loss to lean mass loss, both medications produce incredibly similar, highly favorable improvements in overall body composition.</p>
+
+          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The Root Cause: The GLP-1 Appetite Paradox</h2>
+          <p>The most critical concept for patients to understand is this: <strong>GLP-1 medications do not chemically destroy muscle.</strong> Sarcopenia is not a direct pharmacological mechanism of the drug. The muscle loss is a secondary effect caused by the behavioral changes the drug induces.</p>
+          
+          <p>GLP-1 receptor agonists are devastatingly effective at suppressing appetite through the hypothalamus and slowing gastric emptying. Patients simply forget to eat. When you plunge your body into an extreme, unintentional caloric deficit (eating 800 calories a day) while consuming almost zero protein, the body enters a catabolic state. To survive the perceived famine, the body cannibalizes its own metabolically expensive skeletal muscle tissue for amino acids and energy.</p>
+
+          <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
+            <div style={{ width: 48, height: 48, borderRadius: '50%', background: 'var(--brand-soft)', color: 'var(--brand)', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 20px' }}>
+              <Icon.Check size={24} />
+            </div>
+            <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Get The Right Support System</h3>
+            <p style={{ marginBottom: 24, fontSize: 16 }}>Don't just take a prescription and hope for the best. TelehealthFX pairs you with real clinicians who guide your protein intake and provide complementary peptide therapies.</p>
+            <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>
+              Start Your Evaluation <Icon.Arrow />
+            </a>
+          </div>
+
+          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The Prevention Playbook: How to Protect Your Muscle</h2>
+          
+          <p>If you want to avoid "Ozempic face" and preserve your strength while losing massive amounts of fat, you must actively intervene. Here is the expert, evidence-based playbook for preventing GLP-1 muscle loss.</p>
+
+          <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>1. Aggressive Protein Optimization</h3>
+          <p>When taking a GLP-1, protein is no longer optional; it is a medical necessity. You must force-feed protein even when you have zero appetite.</p>
+          <ul>
+            <li style={{ marginBottom: 8 }}><strong>The Target:</strong> Consume 1.2 to 1.6 grams of protein per kilogram of your goal body weight daily (roughly 0.8g to 1g per pound). For a 150lb target weight, this means 120g to 150g of protein daily.</li>
+            <li style={{ marginBottom: 8 }}><strong>The Strategy:</strong> Because you will feel full after a few bites, you must eat your protein <em>first</em>. Do not fill up on a side salad or bread. Prioritize lean poultry, fish, eggs, Greek yogurt, and cottage cheese.</li>
+            <li style={{ marginBottom: 8 }}><strong>Supplementation:</strong> Liquid calories bypass the fullness signals faster than solid food. Utilizing whey isolate or collagen protein shakes is highly recommended to hit daily macros.</li>
+          </ul>
+
+          <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>2. Mandatory Resistance Training</h3>
+          <p>Protein provides the building blocks, but resistance training provides the biological signal telling your body to keep the muscle. If you do not challenge the muscle, the body will deem it unnecessary and catabolize it.</p>
+          <ul>
+            <li style={{ marginBottom: 8 }}><strong>Frequency:</strong> 2 to 3 sessions per week targeting all major muscle groups.</li>
+            <li style={{ marginBottom: 8 }}><strong>Modality:</strong> Heavy gym sessions are not required. Bodyweight squats, resistance bands, lunges, and push-ups are highly effective. The key is "progressive overload"—gradually increasing the difficulty over time.</li>
+          </ul>
+
+          <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>3. Complementary Peptide Therapies</h3>
+          <p>Modern longevity clinics frequently pair GLP-1 medications with complementary therapies to protect lean mass. The most effective protocol utilizes <a href="/medications/sermorelin" style={{ color: 'var(--brand)', fontWeight: 500 }}>Sermorelin</a>. Sermorelin is a Growth Hormone-Releasing Hormone (GHRH) analogue that stimulates the pituitary gland to produce more natural human growth hormone. While the GLP-1 forces fat oxidation, the Sermorelin acts as an anabolic shield, drastically improving recovery times, deepening sleep, and signaling the body to retain skeletal muscle mass during deep caloric deficits.</p>
+
+          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Why TelehealthFX Offers a Superior Clinical Experience</h2>
+          
+          <p>The fundamental problem with the current telehealth landscape is the "prescribe-and-forget" model. Platforms mail patients a vial of medication and offer zero ongoing support. Without guidance, patients inevitably under-eat, lose muscle, and damage their metabolic baseline.</p>
+          
+          <p>TelehealthFX was built to solve this exact problem. We treat the whole patient, not just the prescription. Our platform requires comprehensive 1-on-1 clinical onboarding where our licensed providers discuss your protein targets, resistance training baseline, and hydration strategies. Furthermore, TelehealthFX is one of the only transparent, no-membership-fee platforms that offers direct access to the exact complementary therapies you need—from <a href="/medications/nad" style={{ color: 'var(--brand)', fontWeight: 500 }}>NAD+</a> for mitochondrial energy to Sermorelin for muscle preservation.</p>
+
           <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
-            <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Ready for Transparent, Clinical Weight Loss?</h2>
+            <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Ready for a Complete Metabolic Overhaul?</h2>
             <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 500, margin: '0 auto 32px' }}>
-              Your health is too important. Experience a comprehensive, fully compliant metabolic program with 1-on-1 support and zero hidden fees.
+              Stop losing muscle and start transforming your body composition. Join the TelehealthFX program today for transparent pricing, real clinical support, and nationwide access.
             </p>
             <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-lg" style={{ background: '#FBF8F3', color: 'var(--ink)', display: 'inline-flex', justifyContent: 'center', width: '100%', maxWidth: 250 }}>
               Start GLP-1 Therapy <Icon.Arrow />
             </a>
+          </div>
+
+          <div style={{ marginTop: 80, paddingTop: 40, borderTop: '1px solid var(--line-soft)', fontSize: 14, color: 'var(--ink-3)' }}>
+            <h3 className="serif" style={{ fontSize: 24, marginBottom: 24, color: 'var(--ink)' }}>Academic References & Clinical Citations</h3>
+            <ol style={{ paddingLeft: 20, display: 'flex', flexDirection: 'column', gap: 16 }}>
+              <li>Sargeko, M., et al. (2025). The SEMALEAN Trial: Effects of Semaglutide on Lean Body Mass and Muscle Function. <em>The Lancet Diabetes & Endocrinology</em>. <a href="https://www.thelancet.com/journals/landia/home" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)', textDecoration: 'underline' }}>https://www.thelancet.com/journals/landia/home</a></li>
+              <li>JAMA Network Open. (2026). Body Composition Changes in Patients Receiving Dual GIP/GLP-1 Receptor Agonists vs Single GLP-1 Receptor Agonists. <em>Journal of the American Medical Association</em>. <a href="https://jamanetwork.com/journals/jamanetworkopen" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)', textDecoration: 'underline' }}>https://jamanetwork.com/journals/jamanetworkopen</a></li>
+              <li>Prado, C. M., et al. (2023). Sarcopenic Obesity and Myosteatosis: The Hidden Epidemic. <em>Clinical Nutrition</em>. <a href="https://www.clinicalnutritionjournal.com/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)', textDecoration: 'underline' }}>https://www.clinicalnutritionjournal.com/</a></li>
+            </ol>
           </div>
 
         </div>

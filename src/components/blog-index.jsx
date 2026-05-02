@@ -6,25 +6,25 @@ import { Icon } from './common.jsx';
 function BlogIndex() {
   const articles = [
     {
-      title: "GLP-1 Muscle Loss: The Hidden Risk Nobody's Talking About (2026 Clinical Guide)",
-      description: "A comprehensive clinical breakdown exploring glp-1 muscle loss: the hidden risk nobody's talking about (2026 clinical guide).",
+      title: "GLP-1 Muscle Loss: The Hidden Risk on Semaglutide & Tirzepatide",
+      description: "A comprehensive clinical breakdown of GLP-1 induced sarcopenia, DXA scan nuance, and the ultimate prevention playbook to protect your lean mass.",
       slug: "/blog/glp-1-muscle-loss-the-hidden-risk-nobodys-talking",
-      image: "/assets/tirzepatide-semaglutide-featured.png",
-      tag: "Clinical Guide"
+      image: "/assets/glp1_muscle_loss_featured.png",
+      tag: "Clinical Education"
     },
     {
-      title: "Oral Semaglutide Is Here — Is the GLP-1 Pill as Good as the Injection? (2026 Clinical Guide)",
-      description: "A comprehensive clinical breakdown exploring oral semaglutide is here — is the glp-1 pill as good as the injection? (2026 clinical guide).",
+      title: "Oral Semaglutide Is Here: Is the GLP-1 Pill as Good as the Injection?",
+      description: "We compare oral semaglutide to the weekly injection, analyzing SNAC absorption technology, the OASIS 4 trial, and the brutal daily fasting requirements.",
       slug: "/blog/oral-semaglutide-is-here-is-the-glp-1-pill-as-good",
-      image: "/assets/nad-therapy-featured.png",
-      tag: "Clinical Guide"
+      image: "/assets/oral_vs_injectable_featured.png",
+      tag: "Product Comparison"
     },
     {
-      title: "What Happens When You Stop GLP-1 Medication? The Rebound Effect Explained (2026 Clinical Guide)",
-      description: "A comprehensive clinical breakdown exploring what happens when you stop glp-1 medication? the rebound effect explained (2026 clinical guide).",
+      title: "What Happens When You Stop GLP-1 Medication? The Rebound Effect Explained",
+      description: "Explore the biological mechanisms of the GLP-1 rebound effect, the return of food noise, and the clinical playbook for long-term weight maintenance.",
       slug: "/blog/what-happens-when-you-stop-glp-1-medication-the-re",
-      image: "/assets/sermorelin-peptide-featured.png",
-      tag: "Clinical Guide"
+      image: "/assets/glp1_rebound_effect_featured.png",
+      tag: "Clinical Physiology"
     },
     {
       title: "Berberine vs. GLP-1 in 2026: Can 'Nature's Ozempic' Actually Compete? (2026 Clinical Guide)",
