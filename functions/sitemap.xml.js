@@ -49,7 +49,9 @@ export async function onRequest(context) {
       '/blog/weight-loss-for-women-over-40-how-glp-1-can-help-2',
       '/blog/berberine-for-pcos-what-the-research-actually-says',
       '/blog/tirzepatide-vs-semaglutide-which-glp-1-is-right-fo',
-      '/blog/glp-1-and-alcohol-what-you-need-to-know-2026-clini'
+      '/blog/glp-1-and-alcohol-what-you-need-to-know-2026-clini',
+      '/blog/weight-loss-for-men-why-glp-1-isnt-just-for-women',
+      '/blog/ozempic-face-loose-skin-prevention-treatment-what'
     ];
   }
   if (staticRoutes.length <= 1) { // Only contains root

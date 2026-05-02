@@ -83,11 +83,11 @@ function BlogIndex() {
       tag: "Lifestyle Guidelines"
     },
     {
-      title: "Weight Loss for Men: Why GLP-1 Isn't Just for Women (2026 Clinical Guide)",
-      description: "A comprehensive clinical breakdown exploring weight loss for men: why glp-1 isn't just for women (2026 clinical guide).",
+      title: "Weight Loss for Men: Why GLP-1 Isn't Just for Women",
+      description: "A clinical guide explaining how visceral fat destroys male testosterone, and why GLP-1 is a targeted intervention for men's cardiovascular and endocrine health.",
       slug: "/blog/weight-loss-for-men-why-glp-1-isnt-just-for-women",
-      image: "/assets/ozempic-featured.png",
-      tag: "Clinical Guide"
+      image: "/assets/mens_health_featured.png",
+      tag: "Men's Health"
     },
     {
       title: "NAD+ Therapy Explained: Anti-Aging, Energy & Weight Loss (2026 Clinical Guide)",
@@ -132,11 +132,11 @@ function BlogIndex() {
       tag: "Clinical Guide"
     },
     {
-      title: "Ozempic Face & Loose Skin: Prevention, Treatment & What to Expect (2026 Clinical Guide)",
-      description: "A comprehensive clinical breakdown exploring ozempic face & loose skin: prevention, treatment & what to expect (2026 clinical guide).",
+      title: "Ozempic Face & Loose Skin: Prevention and Treatment",
+      description: "A rigid 7-step clinical framework to protect your collagen elasticity, and a realistic overview of post-weight-loss treatment options.",
       slug: "/blog/ozempic-face-loose-skin-prevention-treatment-what",
-      image: "/assets/tirzepatide-semaglutide-featured.png",
-      tag: "Clinical Guide"
+      image: "/assets/loose_skin_featured.png",
+      tag: "Aesthetics"
     },
     {
       title: "GLP-1 and Your Heart: The SELECT Trial & Cardiovascular Protection (2026 Clinical Guide)",
