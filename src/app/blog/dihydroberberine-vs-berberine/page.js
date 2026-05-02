@@ -1,8 +1,8 @@
 import { BlogDihydroberberineVsBerberine } from "../../../components/blog-dihydroberberine-vs-berberine.jsx";
 
 export const metadata = {
-  title: "Dihydroberberine vs. Berberine: Absorption & Dosing | Telehealth FX",
-  description: "A complete comparison of dihydroberberine (DHB) and standard berberine, including absorption rates, dosing, side effects, and transdermal delivery.",
+  title: "Dihydroberberine vs Berberine: The 5x Absorption Multiplier | Telehealth FX",
+  description: "Explore the clinical comparison of dihydroberberine vs berberine, including absorption rates, side effects, and transdermal delivery methods.",
 };
 
 export default function Page() {

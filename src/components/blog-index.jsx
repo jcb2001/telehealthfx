@@ -6,10 +6,10 @@ import { Icon } from './common.jsx';
 function BlogIndex() {
   const articles = [
     {
-      title: "Berberine Bioavailability: Transdermal Patch vs. Oral — The Complete Evidence Review",
-      description: "A complete evidence review comparing the pharmacokinetics and absorption rates of transdermal berberine patches versus standard oral pills.",
-      slug: "/blog/berberine-bioavailability",
-      image: "/assets/berberine-bioavailability-featured.png",
+      title: "Berberine Oral Bioavailability: The Evidence Against Oral Delivery",
+      description: "A deep dive into why berberine oral bioavailability is less than 1% and how transdermal patches solve the problem.",
+      slug: "/blog/berberine-oral-bioavailability",
+      image: "/assets/bioavailability-featured.png",
       tag: "Pharmacokinetics"
     },
     {
@@ -20,11 +20,11 @@ function BlogIndex() {
       tag: "Clinical Data"
     },
     {
-      title: "Dihydroberberine vs. Berberine: Absorption, Dosing & Which One Actually Works",
-      description: "A complete comparison of dihydroberberine (DHB) and standard berberine, including absorption rates, dosing, side effects, and transdermal delivery.",
+      title: "Dihydroberberine vs Berberine: The 5x Absorption Multiplier Explained",
+      description: "A clinical comparison of dihydroberberine vs berberine, analyzing absorption kinetics, gut microbiome conversion, and steady-state transdermal delivery.",
       slug: "/blog/dihydroberberine-vs-berberine",
-      image: "/assets/dihydroberberine-featured.png",
-      tag: "Compound Analysis"
+      image: "/assets/dhb-featured.png",
+      tag: "Pharmacokinetics"
     },
     {
       title: "Ozempic for Insulin Resistance: How GLP-1 Medications Reverse Metabolic Dysfunction",

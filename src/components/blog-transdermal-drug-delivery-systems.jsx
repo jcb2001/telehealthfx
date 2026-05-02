@@ -28,7 +28,7 @@ function BlogTransdermalSystems() {
           
           <p>Transdermal drug delivery systems (TDDS) represent one of the most significant pharmacological advancements in modern medicine. By delivering active therapeutic agents across the skin for systemic distribution, TDDS bypasses the hepatic first-pass metabolism and avoids gastrointestinal degradation.</p>
           
-          <p>In the realm of metabolic medicine, this technology is revolutionizing how we administer everything from <a href="/blog/berberine-bioavailability" style={{ color: 'var(--brand)', fontWeight: 500 }}>bioavailable berberine</a> to large-molecule peptides. This technical overview explores the formulation aspects, evaluation methods, and engineering behind modern matrix and reservoir patches.</p>
+          <p>In the realm of metabolic medicine, this technology is revolutionizing how we administer everything from <a href="/blog/berberine-oral-bioavailability" style={{ color: 'var(--brand)', fontWeight: 500 }}>bioavailable berberine</a> to large-molecule peptides. This technical overview explores the formulation aspects, evaluation methods, and engineering behind modern matrix and reservoir patches.</p>
 
           <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
             <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Experience Transdermal Metabolic Care</h3>
