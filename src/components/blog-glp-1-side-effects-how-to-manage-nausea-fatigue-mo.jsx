@@ -1,7 +1,6 @@
 "use client";
 import React from 'react';
 import Image from 'next/image';
-import Head from 'next/head';
 import { Icon } from './common.jsx';
 
 const START_URL = "https://go.telehealthfx.com/start";
@@ -10,9 +9,7 @@ function BlogGlp1SideEffectsHowToManageNauseaFatigueMo() {
   return (
     <>
 
-      <Head>
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{"@context":"https://schema.org","@graph":[{"@type":"MedicalWebPage","name":"GLP-1 Side Effects: How to Manage Nausea, Fatigue & More","author":{"@type":"Person","name":"Julian Mercer, M.S.","url":"https://telehealthfx.com/about"},"publisher":{"@type":"Organization","name":"TelehealthFX","logo":{"@type":"ImageObject","url":"https://telehealthfx.com/assets/logo.png"}}},{"@type":"VideoObject","name":"GLP-1 Side Effects: How to Manage Nausea, Fatigue & More","description":"Clinical overview and deep dive into metabolic health, GLP-1 medications, and weight loss science.","thumbnailUrl":"https://img.youtube.com/vi/H22n6UGPhf0/maxresdefault.jpg","uploadDate":"2026-05-01T08:00:00+08:00","embedUrl":"https://www.youtube.com/embed/H22n6UGPhf0","publisher":{"@type":"Organization","name":"TelehealthFX","logo":{"@type":"ImageObject","url":"https://telehealthfx.com/assets/logo.png"}}}]}` }} />
-      </Head>
+      
       <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
       <div className="container" style={{ maxWidth: 800 }}>
         

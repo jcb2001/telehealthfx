@@ -22,7 +22,7 @@ export default function Page() {
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": "Article",
+        "@type": "MedicalWebPage",
         "@id": "https://telehealthfx.com/blog/oral-vs-injectable-glp-1-rybelsus-oral-wegovy-orfo/#article",
         "headline": "Oral vs. Injectable GLP-1: Rybelsus, Oral Wegovy, Orforglipron & What's Coming (2026 Clinical Guide)",
         "description": "Comprehensive clinical breakdown of oral vs. injectable glp-1: rybelsus, oral wegovy, orforglipron & what's coming (2026 clinical guide).",
@@ -30,6 +30,7 @@ export default function Page() {
         "author": {
           "@type": "Person",
           "name": "Julian Mercer, M.S.",
+          "url": "https://telehealthfx.com/about",
           "jobTitle": "Lead Bio-Systems Analyst"
         },
         "publisher": {
@@ -43,6 +44,22 @@ export default function Page() {
         "mainEntityOfPage": {
           "@type": "WebPage",
           "@id": "https://telehealthfx.com/blog/oral-vs-injectable-glp-1-rybelsus-oral-wegovy-orfo/"
+        }
+      }
+        ,{
+        "@type": "VideoObject",
+        "name": "TelehealthFX Medical Overview",
+        "description": "Clinical overview and deep dive into metabolic health, GLP-1 medications, and weight loss science.",
+        "thumbnailUrl": "https://img.youtube.com/vi/bl7yObb0AWI/maxresdefault.jpg",
+        "uploadDate": "2026-05-01T08:00:00+08:00",
+        "embedUrl": "https://www.youtube.com/embed/bl7yObb0AWI",
+        "publisher": {
+          "@type": "Organization",
+          "name": "TelehealthFX",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://telehealthfx.com/assets/logo.png"
+          }
         }
       }
     ]

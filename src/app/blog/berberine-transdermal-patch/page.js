@@ -10,7 +10,7 @@ export default function Page() {
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Article",
+      "@type": "MedicalWebPage",
       "@id": "https://telehealthfx.com/blog/berberine-transdermal-patch/#article",
       "headline": "The Berberine Transdermal Patch: Why Oral Pills Are Obsolete",
       "description": "Learn how the berberine transdermal patch bypasses the liver and GI tract to deliver steady-state AMPK activation without the Berberine Belly.",
@@ -18,6 +18,7 @@ export default function Page() {
       "author": {
         "@type": "Person",
         "name": "Julian Mercer, M.S.",
+          "url": "https://telehealthfx.com/about",
         "jobTitle": "Lead Bio-Systems Analyst"
       },
       "publisher": {

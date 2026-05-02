@@ -22,7 +22,7 @@ export default function Page() {
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": "Article",
+        "@type": "MedicalWebPage",
         "@id": "https://telehealthfx.com/blog/the-social-stigma-of-weight-loss-medication-why-it/#article",
         "headline": "The Social Stigma of Weight Loss Medication: Why It's Nobody's Business (2026 Clinical Guide)",
         "description": "Comprehensive clinical breakdown of the social stigma of weight loss medication: why it's nobody's business (2026 clinical guide).",
@@ -30,6 +30,7 @@ export default function Page() {
         "author": {
           "@type": "Person",
           "name": "Julian Mercer, M.S.",
+          "url": "https://telehealthfx.com/about",
           "jobTitle": "Lead Bio-Systems Analyst"
         },
         "publisher": {

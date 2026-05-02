@@ -22,7 +22,7 @@ export default function Page() {
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Article",
+      "@type": "MedicalWebPage",
       "@id": "https://telehealthfx.com/blog/berberine-vs-ozempic/#article",
       "headline": "Berberine vs Ozempic: The Complete Clinical Comparison & Weight Loss Guide",
       "description": "Berberine vs Ozempic: Discover the clinical differences between AMPK activation and GLP-1 weight loss, and why transdermal and compounded delivery are better.",
@@ -30,6 +30,7 @@ export default function Page() {
       "author": {
         "@type": "Person",
         "name": "Julian Mercer, M.S.",
+          "url": "https://telehealthfx.com/about",
         "jobTitle": "Lead Bio-Systems Analyst"
       },
       "publisher": {

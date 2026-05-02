@@ -22,7 +22,7 @@ export default function Page() {
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": "Article",
+        "@type": "MedicalWebPage",
         "@id": "https://telehealthfx.com/blog/fda-compounding-ban/#article",
         "headline": "FDA Proposes Banning Compounded Semaglutide: What It Means for Your GLP-1 Options in 2026",
         "description": "The FDA has proposed banning compounded semaglutide from 503B facilities. Learn what this means for your GLP-1 options and how to navigate the 2026 telehealth landscape safely.",
@@ -30,6 +30,7 @@ export default function Page() {
         "author": {
           "@type": "Person",
           "name": "Julian Mercer, M.S.",
+          "url": "https://telehealthfx.com/about",
           "jobTitle": "Lead Bio-Systems Analyst"
         },
         "publisher": {
@@ -74,6 +75,22 @@ export default function Page() {
             }
           }
         ]
+      }
+        ,{
+        "@type": "VideoObject",
+        "name": "TelehealthFX Medical Overview",
+        "description": "Clinical overview and deep dive into metabolic health, GLP-1 medications, and weight loss science.",
+        "thumbnailUrl": "https://img.youtube.com/vi/ERXLzJ_D1uY/maxresdefault.jpg",
+        "uploadDate": "2026-05-01T08:00:00+08:00",
+        "embedUrl": "https://www.youtube.com/embed/ERXLzJ_D1uY",
+        "publisher": {
+          "@type": "Organization",
+          "name": "TelehealthFX",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://telehealthfx.com/assets/logo.png"
+          }
+        }
       }
     ]
   };

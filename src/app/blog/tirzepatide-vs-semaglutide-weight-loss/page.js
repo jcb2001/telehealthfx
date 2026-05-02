@@ -10,7 +10,7 @@ export default function Page() {
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": "Article",
+        "@type": "MedicalWebPage",
         "@id": "https://telehealthfx.com/blog/tirzepatide-vs-semaglutide-weight-loss/#article",
         "headline": "Tirzepatide vs Semaglutide Weight Loss: The Dual-Agonist Difference",
         "description": "A clinical comparison of tirzepatide vs semaglutide weight loss. Discover why dual-agonist GLP-1/GIP therapies yield superior clinical results.",
@@ -18,6 +18,7 @@ export default function Page() {
         "author": {
           "@type": "Person",
           "name": "Julian Mercer, M.S.",
+          "url": "https://telehealthfx.com/about",
           "jobTitle": "Lead Bio-Systems Analyst"
         },
         "publisher": {

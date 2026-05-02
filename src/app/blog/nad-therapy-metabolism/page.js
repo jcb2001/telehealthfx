@@ -10,7 +10,7 @@ export default function Page() {
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": "Article",
+        "@type": "MedicalWebPage",
         "@id": "https://telehealthfx.com/blog/nad-therapy-metabolism/#article",
         "headline": "NAD Therapy Metabolism: Reversing Cellular Aging",
         "description": "Discover the truth about NAD therapy metabolism. Learn why subcutaneous injections outperform oral supplements for restoring mitochondrial energy and reversing cellular aging.",
@@ -18,6 +18,7 @@ export default function Page() {
         "author": {
           "@type": "Person",
           "name": "Julian Mercer, M.S.",
+          "url": "https://telehealthfx.com/about",
           "jobTitle": "Lead Bio-Systems Analyst"
         },
         "publisher": {

@@ -10,7 +10,7 @@ export default function Page() {
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": "Article",
+        "@type": "MedicalWebPage",
         "@id": "https://telehealthfx.com/blog/sermorelin-peptide-benefits/#article",
         "headline": "Sermorelin Peptide Benefits: Sleep & Anti-Aging Secret",
         "description": "Explore the profound sermorelin peptide benefits for deep sleep, cellular recovery, and natural HGH production. The ultimate safe alternative to synthetic HGH.",
@@ -18,6 +18,7 @@ export default function Page() {
         "author": {
           "@type": "Person",
           "name": "Julian Mercer, M.S.",
+          "url": "https://telehealthfx.com/about",
           "jobTitle": "Lead Bio-Systems Analyst"
         },
         "publisher": {

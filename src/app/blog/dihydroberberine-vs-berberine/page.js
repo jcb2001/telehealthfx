@@ -10,7 +10,7 @@ export default function Page() {
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Article",
+      "@type": "MedicalWebPage",
       "@id": "https://telehealthfx.com/blog/dihydroberberine-vs-berberine/#article",
       "headline": "Dihydroberberine vs Berberine: The 5x Absorption Multiplier",
       "description": "Explore the clinical comparison of dihydroberberine vs berberine, including absorption rates, side effects, and transdermal delivery methods.",
@@ -18,6 +18,7 @@ export default function Page() {
       "author": {
         "@type": "Person",
         "name": "Julian Mercer, M.S.",
+          "url": "https://telehealthfx.com/about",
         "jobTitle": "Lead Bio-Systems Analyst"
       },
       "publisher": {

@@ -22,7 +22,7 @@ export default function Page() {
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": "Article",
+        "@type": "MedicalWebPage",
         "@id": "https://telehealthfx.com/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot/#article",
         "headline": "Hidden Fees in Telehealth Weight Loss: How to Spot Them (2026 Clinical Guide)",
         "description": "Comprehensive clinical breakdown of hidden fees in telehealth weight loss: how to spot them (2026 clinical guide).",
@@ -30,6 +30,7 @@ export default function Page() {
         "author": {
           "@type": "Person",
           "name": "Julian Mercer, M.S.",
+          "url": "https://telehealthfx.com/about",
           "jobTitle": "Lead Bio-Systems Analyst"
         },
         "publisher": {

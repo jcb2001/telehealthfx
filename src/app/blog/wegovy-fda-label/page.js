@@ -10,7 +10,7 @@ export default function Page() {
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Article",
+      "@type": "MedicalWebPage",
       "@id": "https://telehealthfx.com/blog/wegovy-fda-label/#article",
       "headline": "Wegovy FDA Label Decoded: Criteria & Off-Label Access",
       "description": "We break down the exact Wegovy FDA label criteria for weight loss, the clinical trial data, and how to access compounded semaglutide if your insurance denies you.",
@@ -18,6 +18,7 @@ export default function Page() {
       "author": {
         "@type": "Person",
         "name": "Julian Mercer, M.S.",
+          "url": "https://telehealthfx.com/about",
         "jobTitle": "Lead Bio-Systems Analyst"
       },
       "publisher": {

@@ -22,7 +22,7 @@ export default function Page() {
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": "Article",
+        "@type": "MedicalWebPage",
         "@id": "https://telehealthfx.com/blog/intermittent-fasting-glp-1-do-they-work-together-2/#article",
         "headline": "Intermittent Fasting + GLP-1: Do They Work Together? (2026 Clinical Guide)",
         "description": "Comprehensive clinical breakdown of intermittent fasting + glp-1: do they work together? (2026 clinical guide).",
@@ -30,6 +30,7 @@ export default function Page() {
         "author": {
           "@type": "Person",
           "name": "Julian Mercer, M.S.",
+          "url": "https://telehealthfx.com/about",
           "jobTitle": "Lead Bio-Systems Analyst"
         },
         "publisher": {

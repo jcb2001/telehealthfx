@@ -10,7 +10,7 @@ export default function Page() {
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Article",
+      "@type": "MedicalWebPage",
       "@id": "https://telehealthfx.com/blog/what-is-a-glp-1-medication/#article",
       "headline": "What is a GLP-1 Medication? The Ultimate Guide",
       "description": "What is a GLP-1 medication? Discover how Semaglutide and Tirzepatide work, the clinical science behind them, and how to access affordable compounding.",
@@ -18,6 +18,7 @@ export default function Page() {
       "author": {
         "@type": "Person",
         "name": "Julian Mercer, M.S.",
+          "url": "https://telehealthfx.com/about",
         "jobTitle": "Lead Bio-Systems Analyst"
       },
       "publisher": {

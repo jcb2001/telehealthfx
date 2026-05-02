@@ -10,7 +10,7 @@ export default function Page() {
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Article",
+      "@type": "MedicalWebPage",
       "@id": "https://telehealthfx.com/blog/72-hour-berberine-patch/#article",
       "headline": "The 72 Hour Berberine Patch Myth Exposed",
       "description": "Are you being scammed by the 72 hour berberine patch myth? Discover the clinical truth about transdermal matrix depletion and why patches only last 24 hours.",
@@ -18,6 +18,7 @@ export default function Page() {
       "author": {
         "@type": "Person",
         "name": "Julian Mercer, M.S.",
+          "url": "https://telehealthfx.com/about",
         "jobTitle": "Lead Bio-Systems Analyst"
       },
       "publisher": {

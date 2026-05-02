@@ -10,7 +10,7 @@ export default function Page() {
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Article",
+      "@type": "MedicalWebPage",
       "@id": "https://telehealthfx.com/blog/transdermal-drug-delivery-systems/#article",
       "headline": "Transdermal Drug Delivery Systems: Academic Overview",
       "description": "A complete academic overview of transdermal drug delivery systems (TDDS), explaining formulation, permeation enhancers, and matrix patch technology.",
@@ -18,6 +18,7 @@ export default function Page() {
       "author": {
         "@type": "Person",
         "name": "Julian Mercer, M.S.",
+          "url": "https://telehealthfx.com/about",
         "jobTitle": "Lead Bio-Systems Analyst"
       },
       "publisher": {

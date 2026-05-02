@@ -22,7 +22,7 @@ export default function Page() {
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": "Article",
+        "@type": "MedicalWebPage",
         "@id": "https://telehealthfx.com/blog/glp-1-and-inflammation-arthritis-sleep-apnea-chron/#article",
         "headline": "GLP-1 and Inflammation: Arthritis, Sleep Apnea & Chronic Pain (2026 Clinical Guide)",
         "description": "Comprehensive clinical breakdown of glp-1 and inflammation: arthritis, sleep apnea & chronic pain (2026 clinical guide).",
@@ -30,6 +30,7 @@ export default function Page() {
         "author": {
           "@type": "Person",
           "name": "Julian Mercer, M.S.",
+          "url": "https://telehealthfx.com/about",
           "jobTitle": "Lead Bio-Systems Analyst"
         },
         "publisher": {

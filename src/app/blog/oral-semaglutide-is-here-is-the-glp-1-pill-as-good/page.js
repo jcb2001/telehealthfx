@@ -22,7 +22,7 @@ export default function Page() {
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": "Article",
+        "@type": "MedicalWebPage",
         "@id": "https://telehealthfx.com/blog/oral-semaglutide-is-here-is-the-glp-1-pill-as-good/#article",
         "headline": "Oral Semaglutide Is Here — Is the GLP-1 Pill as Good as the Injection? (2026 Clinical Guide)",
         "description": "Comprehensive clinical breakdown of oral semaglutide is here — is the glp-1 pill as good as the injection? (2026 clinical guide).",
@@ -30,6 +30,7 @@ export default function Page() {
         "author": {
           "@type": "Person",
           "name": "Julian Mercer, M.S.",
+          "url": "https://telehealthfx.com/about",
           "jobTitle": "Lead Bio-Systems Analyst"
         },
         "publisher": {
