@@ -6,6 +6,13 @@ import { Icon } from './common.jsx';
 function BlogIndex() {
   const articles = [
     {
+      title: "Tirzepatide vs. Semaglutide: The Dual GIP/GLP-1 Agonist Mechanism",
+      description: "A clinical breakdown of Tirzepatide's dual-agonist mechanism. We analyze GIP receptor activation, fat cell remodeling, and the SURMOUNT trial data.",
+      slug: "/blog/tirzepatide-vs-semaglutide-dual-agonist-mechanism",
+      image: "/assets/tirzepatide-mechanism-featured.png",
+      tag: "GLP-1 Mechanics"
+    },
+    {
       title: "The Pharmacokinetics of Ozempic (Semaglutide): A Cellular Breakdown",
       description: "A clinical breakdown of Semaglutide pharmacokinetics. We analyze the DPP-4 enzyme, aminoisobutyric acid substitution, and the albumin transport mechanism.",
       slug: "/blog/pharmacokinetics-ozempic-semaglutide-cellular-breakdown",
@@ -243,13 +250,7 @@ function BlogIndex() {
       image: "/assets/fda-compounding-ban-featured.png",
       tag: "Regulatory News"
     },
-    {
-      title: "Tirzepatide vs Semaglutide Weight Loss: The Dual-Agonist Difference",
-      description: "A clinical comparison of tirzepatide vs semaglutide weight loss. Discover why dual-agonist GLP-1/GIP therapies yield superior clinical results.",
-      slug: "/blog/tirzepatide-vs-semaglutide-weight-loss",
-      image: "/assets/tirzepatide-semaglutide-featured.png",
-      tag: "Clinical Comparison"
-    },
+
     {
       title: "NAD Therapy Metabolism: Reversing Cellular Aging",
       description: "Discover the truth about NAD therapy metabolism. Learn why subcutaneous injections outperform oral supplements for restoring mitochondrial energy and reversing cellular aging.",
