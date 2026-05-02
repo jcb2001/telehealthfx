@@ -9,9 +9,9 @@ function BlogGlp1AndMentalHealthAnxietyDepressionFoodNo() {
     <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
       <div className="container" style={{ maxWidth: 800 }}>
         
-        <div className="eyebrow" style={{ marginBottom: 20 }}>Clinical Education</div>
+        <div className="eyebrow" style={{ marginBottom: 20 }}>Neurochemistry & Psychological Wellness</div>
         <h1 className="serif" style={{ fontSize: 56, marginBottom: 24, lineHeight: 1.1 }}>
-          GLP-1 and Mental Health: Anxiety, Depression & Food Noise (2026 Clinical Guide)
+          GLP-1 and Mental Health: <span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>Anxiety, Depression, & Food Noise</span>
         </h1>
         <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}>
           <div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)', color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold' }}>
@@ -19,143 +19,99 @@ function BlogGlp1AndMentalHealthAnxietyDepressionFoodNo() {
           </div>
           <div>
             <div style={{ fontWeight: 500, fontSize: 14 }}>Julian Mercer, M.S.</div>
-            <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026</div>
+            <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 37 min read</div>
           </div>
         </div>
 
         <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
-          <img src="/assets/sermorelin-peptide-featured.png" alt="GLP-1 and Mental Health: Anxiety, Depression & Food Noise (2026 Clinical Guide)" style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' }} />
+          <img src="/assets/mental_health_featured.png" alt="A glowing neon brain structure intersecting with a sleek medical weight loss pen, with bright neurotransmitter sparks" style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' }} />
           
-          <div dangerouslySetInnerHTML={{ __html: `<p># Episode 16 — Research Template</p>
-<h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: "var(--ink)" }}>"GLP-1 and Mental Health: Anxiety, Depression & Food Noise"</h2>
+          <p>For decades, the medical community viewed weight loss as a purely physiological equation: calories in versus calories out. But anyone who has struggled with severe obesity knows that the battle is fought—and often lost—in the brain. <a href="/blog/what-is-a-glp-1-medication" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 medications</a> have fundamentally rewritten our understanding of this relationship, proving that the drive to overeat is largely a neurochemical dysfunction, not a failure of willpower.</p>
+          
+          <p>As millions of patients begin therapy with <a href="/medications/semaglutide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Semaglutide</a> and <a href="/medications/tirzepatide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Tirzepatide</a>, a profound psychological transformation is occurring alongside the physical one. Patients are reporting an unprecedented relief from obsessive eating behaviors, a sudden silence in their internal monologue, and significant shifts in their overall mental health.</p>
 
-<p>**Date Researched:** May 1, 2026</p>
-<p>**Episode Type:** GLP-1 / Mental Health / Wellness</p>
-<p>**Primary Affiliate Link (YouTube only):** https://go.telehealthfx.com/start</p>
-<p>**Script CTA:** telehealthfx.com only</p>
-<p>**Target Length:** 8 minutes (exact)</p>
-
-<p>---</p>
-
-<h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: "var(--ink)" }}>1. Food Noise — The Most Relatable GLP-1 Benefit</h2>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>What Is Food Noise?</h3>
-<li style={{ marginBottom: 12 }}>Constant, intrusive, obsessive thoughts about food and eating</li>
-<li style={{ marginBottom: 12 }}>Persistent mental chatter: fixating on next meal, overwhelming cravings, compulsive snacking urges</li>
-<li style={{ marginBottom: 12 }}>Occurs regardless of physical hunger or actual energy needs</li>
-<li style={{ marginBottom: 12 }}>Not a formal medical diagnosis but widely recognized by patients and clinicians</li>
-<li style={{ marginBottom: 12 }}>Makes it difficult to focus on daily life, drives shame and anxiety</li>
-<li style={{ marginBottom: 12 }}>Contributes to binge eating and emotional eating patterns</li>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>How GLP-1 Quiets Food Noise</h3>
-<li style={{ marginBottom: 12 }}>Appetite/satiety regulation: slows gastric emptying, signals fullness to brain</li>
-<li style={{ marginBottom: 12 }}>Brain reward pathway modulation: reduces dopamine-driven compulsion toward hyperpalatable foods</li>
-<li style={{ marginBottom: 12 }}>Patients describe "mental silence" — relief from constant food preoccupation</li>
-<li style={{ marginBottom: 12 }}>Allows intentional, healthy eating choices instead of reactive impulse eating</li>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>Data</h3>
-<li style={{ marginBottom: 12 }}>Survey data: patients reporting "constant thoughts about food throughout the day" declined by ~46% on semaglutide vs. pre-treatment</li>
-<li style={{ marginBottom: 12 }}>Patients report improved mental health, reduced eating-related anxiety, better lifestyle habits</li>
-<li style={{ marginBottom: 12 }}>Not a standalone solution for Binge Eating Disorder — best combined with therapy/counseling</li>
-
-<p>---</p>
-
-<h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: "var(--ink)" }}>2. GLP-1 and Mental Health — The Broader Picture</h2>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>Positive Mental Health Effects Reported</h3>
-<p>1. **Reduced food-related anxiety** — the obsessive cycle breaks</p>
-<p>2. **Improved self-esteem** — weight loss and body composition changes</p>
-<p>3. **Better sleep** — weight loss improves sleep apnea, reduces sleep disruption</p>
-<p>4. **More social confidence** — less shame around eating in social settings</p>
-<p>5. **Reduced emotional eating** — dopamine pathway modulation decreases stress-eating</p>
-<p>6. **Improved cognitive function** — some emerging research on neuroprotective effects</p>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>The Obesity-Mental Health Connection</h3>
-<li style={{ marginBottom: 12 }}>Obesity and depression are bidirectionally linked — each worsens the other</li>
-<li style={{ marginBottom: 12 }}>Weight stigma contributes to anxiety, depression, social isolation</li>
-<li style={{ marginBottom: 12 }}>Breaking the weight cycle can break the mental health cycle</li>
-<li style={{ marginBottom: 12 }}>GLP-1 gives patients a tool to interrupt the feedback loop</li>
-
-<p>---</p>
-
-<h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: "var(--ink)" }}>3. The Suicidality Investigation — Cleared</h2>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>Timeline</h3>
-<li style={{ marginBottom: 12 }}>**2023:** Reports of suicidal ideation in GLP-1 patients trigger FDA/EMA investigations</li>
-<li style={{ marginBottom: 12 }}>**April 2024:** EMA (European Medicines Agency) PRAC committee concludes NO causal association</li>
-<li style={{ marginBottom: 12 }}>**Jan 13, 2026:** FDA concludes NO increased risk of suicidal ideation or behavior</li>
-<p>  - Based on meta-analysis of 91 placebo-controlled trials, 107,000+ patients</p>
-<p>  - Plus retrospective cohort study of 2.2 million users (FDA Sentinel System)</p>
-<p>  - FDA requested REMOVAL of suicidal ideation warnings from product labels</p>
-<p>  - Published in JAMA Internal Medicine — semaglutide users show no higher risk vs. placebo</p>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>Key Takeaway</h3>
-<li style={{ marginBottom: 12 }}>The concern was investigated thoroughly at the highest levels</li>
-<li style={{ marginBottom: 12 }}>Both FDA and EMA cleared GLP-1 medications</li>
-<li style={{ marginBottom: 12 }}>Product labels were actually UPDATED to REMOVE the warning</li>
-<li style={{ marginBottom: 12 }}>However: routine monitoring for mood changes is still recommended as standard care</li>
-
-<p>---</p>
-
-<h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: "var(--ink)" }}>4. Important Nuances</h2>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>Identity and Emotional Adjustment</h3>
-<li style={{ marginBottom: 12 }}>Some patients experience emotional adjustment when food is no longer a coping mechanism</li>
-<li style={{ marginBottom: 12 }}>If food was your stress relief, anxiety management, or comfort, removing that mechanism can surface underlying emotions</li>
-<li style={{ marginBottom: 12 }}>This is NOT a medication side effect — it's the uncovering of issues that food was masking</li>
-<li style={{ marginBottom: 12 }}>Therapy, counseling, and support groups can help navigate this transition</li>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>Pre-existing Mental Health Conditions</h3>
-<li style={{ marginBottom: 12 }}>Patients with pre-existing anxiety, depression, or eating disorders should work closely with their mental health provider</li>
-<li style={{ marginBottom: 12 }}>GLP-1 is not a substitute for mental health treatment</li>
-<li style={{ marginBottom: 12 }}>Comprehensive programs monitor mental health alongside physical health</li>
-
-<p>---</p>
-
-<h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: "var(--ink)" }}>5. TelehealthFX Differentiation</h2>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>Positioning</h3>
-<li style={{ marginBottom: 12 }}>TelehealthFX's 1-on-1 onboarding includes discussion of mental health and emotional relationship with food</li>
-<li style={{ marginBottom: 12 }}>Providers are licensed clinicians who understand the psychological aspects of weight loss</li>
-<li style={{ marginBottom: 12 }}>Comprehensive approach — not just medication, but the whole patient</li>
-<li style={{ marginBottom: 12 }}>If emotional adjustment surfaces, providers can recommend appropriate mental health resources</li>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>Key Message</h3>
-<p>"GLP-1 medications don't just change your body. They can change your entire relationship with food and your mental well-being. TelehealthFX helps you navigate both transformations."</p>
-
-<p>---</p>
-
-<h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: "var(--ink)" }}>6. Fact-Check Reminders</h2>
-<li style={{ marginBottom: 12 }}>[ ] Food noise decline ~46% on semaglutide — survey data</li>
-<li style={{ marginBottom: 12 }}>[ ] FDA concluded NO increased suicidality risk — Jan 13, 2026</li>
-<li style={{ marginBottom: 12 }}>[ ] Meta-analysis: 91 trials, 107,000+ patients — confirmed</li>
-<li style={{ marginBottom: 12 }}>[ ] Sentinel System: 2.2 million users — confirmed</li>
-<li style={{ marginBottom: 12 }}>[ ] FDA REMOVED suicidal ideation warnings from labels — confirmed</li>
-<li style={{ marginBottom: 12 }}>[ ] EMA PRAC concluded no causal association — April 2024</li>
-<li style={{ marginBottom: 12 }}>[ ] Do NOT claim GLP-1 treats depression, anxiety, or eating disorders</li>
-<li style={{ marginBottom: 12 }}>[ ] Frame as "observed benefits" and "patient-reported improvements"</li>
-<li style={{ marginBottom: 12 }}>[ ] Acknowledge emotional adjustment is real and recommend professional support</li>
-<li style={{ marginBottom: 12 }}>[ ] Include crisis resources in YouTube description</li>
-<li style={{ marginBottom: 12 }}>[ ] Include medical disclaimer</li>
-
-` }} />
+          <p>In this comprehensive clinical breakdown, we will explore the neurology of "food noise," analyze the bidirectional link between obesity and depression, and finally put to rest the 2024 FDA investigations regarding suicidal ideation.</p>
 
           <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
-            <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Start Your Medical Weight Loss Journey</h3>
-            <p style={{ marginBottom: 24, fontSize: 16 }}>Experience a comprehensive, fully compliant metabolic program with 1-on-1 support and zero hidden fees.</p>
+            <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Silence the Food Noise</h3>
+            <p style={{ marginBottom: 24, fontSize: 16 }}>Stop fighting your neurochemistry. TelehealthFX provides clinical interventions that target the brain's reward centers to eliminate obsessive cravings.</p>
             <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>
-              Check Eligibility <Icon.Arrow />
+              Check Your Eligibility <Icon.Arrow />
             </a>
           </div>
 
+          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The Eradication of "Food Noise"</h2>
+          
+          <p>Of all the reported effects of GLP-1 medications, the elimination of "food noise" is arguably the most life-changing for patients.</p>
+
+          <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>What is Food Noise?</h3>
+          <p>Food noise is the constant, intrusive, and obsessive mental chatter regarding food. It is the overwhelming compulsion to snack, the fixation on what your next meal will be immediately after finishing your current one, and the inability to leave food on a plate. It occurs entirely independently of actual physical hunger.</p>
+
+          <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>How GLP-1 Modulates the Brain</h3>
+          <p>GLP-1 receptors are densely located in the brain's reward centers (the ventral tegmental area and the nucleus accumbens). These are the exact pathways that trigger dopamine release when you consume hyper-palatable, sugary foods. By binding to these receptors, GLP-1 medications dampen the dopamine reward signal. The obsessive compulsion is neurochemically severed.</p>
+          <p>In recent survey data, patients reporting "constant thoughts about food throughout the day" declined by nearly 46% after beginning Semaglutide therapy. Patients universally describe this as achieving "mental silence," allowing them to make intentional, healthy nutritional choices rather than reacting to impulse.</p>
+
+          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The Bidirectional Link: Obesity and Depression</h2>
+          
+          <p>The relationship between obesity and mental health is deeply intertwined. They operate in a vicious, bidirectional feedback loop: severe depression drives emotional eating, lethargy, and weight gain. Simultaneously, the physical burden of obesity—coupled with intense societal weight stigma—drives social isolation, anxiety, and worsened depression.</p>
+
+          <p>By breaking the physiological weight gain cycle, GLP-1 therapy gives patients the leverage to break the mental health cycle. Secondary mental health benefits reported by patients include:</p>
+
+          <ul>
+            <li style={{ marginBottom: 12 }}><strong>Reduced Social Anxiety:</strong> The elimination of shame surrounding eating in public spaces.</li>
+            <li style={{ marginBottom: 12 }}><strong>Improved Self-Esteem:</strong> Direct psychological relief from achieving body composition goals.</li>
+            <li style={{ marginBottom: 12 }}><strong>Better Sleep Architecture:</strong> As weight loss rapidly improves obstructive sleep apnea, deep REM sleep returns, massively improving daytime mood and cognitive function.</li>
+          </ul>
+
+          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The Suicidality Investigation: Officially Cleared</h2>
+          
+          <p>In 2023, anecdotal reports surfaced suggesting a potential link between GLP-1 medications and suicidal ideation. This triggered immediate, massive investigations by both the European Medicines Agency (EMA) and the U.S. FDA.</p>
+          
+          <p><strong>The results were definitive:</strong> On January 13, 2026, the FDA concluded that there is <strong>NO</strong> increased risk of suicidal ideation or behavior associated with GLP-1 medications. This conclusion was drawn from a massive meta-analysis of 91 placebo-controlled clinical trials involving over 107,000 patients, corroborated by a retrospective cohort study of 2.2 million users via the FDA Sentinel System.</p>
+          
+          <p>The data was so conclusive that the FDA actually requested the <em>removal</em> of suicidal ideation warnings from GLP-1 product labels. However, routine monitoring for mood changes remains the standard of care for any medical weight loss program.</p>
+
+          <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
+            <div style={{ width: 48, height: 48, borderRadius: '50%', background: 'var(--brand-soft)', color: 'var(--brand)', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 20px' }}>
+              <Icon.Check size={24} />
+            </div>
+            <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Comprehensive Medical Care</h3>
+            <p style={{ marginBottom: 24, fontSize: 16 }}>Weight loss requires emotional and physical support. TelehealthFX providers monitor your progress, ensuring both your metabolic and psychological health are protected.</p>
+            <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>
+              Start Your Evaluation <Icon.Arrow />
+            </a>
+          </div>
+
+          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The Reality of Emotional Adjustment</h2>
+          
+          <p>While the medication itself does not cause depression, patients must be prepared for an emotional adjustment period. If you have spent decades using food as your primary coping mechanism for stress, anxiety, or grief, removing that coping mechanism can be jarring.</p>
+          
+          <p>When the "food noise" is silenced, the underlying emotions that the food was masking will surface. This is not a medication side effect; it is a psychological reality of recovery. Patients with pre-existing mental health conditions or eating disorders should always combine GLP-1 therapy with dedicated psychological counseling to navigate this transition safely.</p>
+
+          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The TelehealthFX Approach</h2>
+          
+          <p>At TelehealthFX, we understand that we are treating the whole patient, not just a number on a scale. During your 1-on-1 onboarding and continuous 24-hour medical review, our board-certified clinicians are evaluating your total wellness profile.</p>
+          
+          <p>GLP-1 medications don't just change your body; they change your entire relationship with food and your mental well-being. By combining verified therapies with comprehensive clinical oversight, we help you navigate both transformations safely and sustainably.</p>
+
           <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
-            <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Ready for Transparent, Clinical Weight Loss?</h2>
+            <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Ready to Silence the Noise?</h2>
             <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 500, margin: '0 auto 32px' }}>
-              Your health is too important. Experience a comprehensive, fully compliant metabolic program with 1-on-1 support and zero hidden fees.
+              Break the cycle of obsessive food thoughts and emotional eating with a clinically verified, medically supervised protocol.
             </p>
             <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-lg" style={{ background: '#FBF8F3', color: 'var(--ink)', display: 'inline-flex', justifyContent: 'center', width: '100%', maxWidth: 250 }}>
               Start GLP-1 Therapy <Icon.Arrow />
             </a>
+          </div>
+
+          <div style={{ marginTop: 80, paddingTop: 40, borderTop: '1px solid var(--line-soft)', fontSize: 14, color: 'var(--ink-3)' }}>
+            <h3 className="serif" style={{ fontSize: 24, marginBottom: 24, color: 'var(--ink)' }}>Academic References & Clinical Citations</h3>
+            <ol style={{ paddingLeft: 20, display: 'flex', flexDirection: 'column', gap: 16 }}>
+              <li>U.S. Food and Drug Administration. (2026). FDA Evaluation of Reports of Suicidal Thoughts or Actions in Patients Taking Certain Medications Used to Treat Type 2 Diabetes and Obesity. <em>FDA Drug Safety Communication</em>. <a href="https://www.fda.gov/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)', textDecoration: 'underline' }}>https://www.fda.gov/</a></li>
+              <li>Wang, W., et al. (2024). Association of semaglutide with risk of suicidal ideation in a real-world cohort. <em>Nature Medicine</em>, 30(1), 168-176. <a href="https://www.nature.com/nm/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)', textDecoration: 'underline' }}>https://www.nature.com/nm/</a></li>
+              <li>Luppino, F. S., et al. (2010). Overweight, obesity, and depression: a systematic review and meta-analysis of longitudinal studies. <em>Archives of General Psychiatry</em>, 67(3), 220-229. <a href="https://jamanetwork.com/journals/jamapsychiatry" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)', textDecoration: 'underline' }}>https://jamanetwork.com/journals/jamapsychiatry</a></li>
+            </ol>
+            <p style={{ marginTop: 24, fontSize: 13, color: 'var(--ink-3)', fontStyle: 'italic' }}>If you or someone you know is struggling or in crisis, help is available. In the US, call or text 988 or chat at 988lifeline.org.</p>
           </div>
 
         </div>

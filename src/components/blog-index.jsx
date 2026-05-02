@@ -104,18 +104,18 @@ function BlogIndex() {
       tag: "Regulatory Safety"
     },
     {
-      title: "GLP-1 and Mental Health: Anxiety, Depression & Food Noise (2026 Clinical Guide)",
-      description: "A comprehensive clinical breakdown exploring glp-1 and mental health: anxiety, depression & food noise (2026 clinical guide).",
+      title: "GLP-1 and Mental Health: Anxiety, Depression & Food Noise",
+      description: "Explore the bidirectional link between obesity and depression, and how silencing 'food noise' creates profound shifts in psychological wellness.",
       slug: "/blog/glp-1-and-mental-health-anxiety-depression-food-no",
-      image: "/assets/sermorelin-peptide-featured.png",
-      tag: "Clinical Guide"
+      image: "/assets/mental_health_featured.png",
+      tag: "Mental Health"
     },
     {
-      title: "Sermorelin & Growth Hormone: The Weight Loss Accelerator (2026 Clinical Guide)",
-      description: "A comprehensive clinical breakdown exploring sermorelin & growth hormone: the weight loss accelerator (2026 clinical guide).",
+      title: "Sermorelin & Growth Hormone: The Weight Loss Accelerator",
+      description: "Discover how Sermorelin safely restores natural growth hormone production to preserve lean muscle mass during rapid GLP-1 weight loss.",
       slug: "/blog/sermorelin-growth-hormone-the-weight-loss-accelera",
-      image: "/assets/wegovy-label-featured.png",
-      tag: "Clinical Guide"
+      image: "/assets/sermorelin_peptide_featured.png",
+      tag: "Peptides"
     },
     {
       title: "GLP-1 for Seniors: Weight Loss After 60 Safely (2026 Clinical Guide)",

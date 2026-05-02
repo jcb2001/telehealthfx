@@ -53,7 +53,9 @@ export async function onRequest(context) {
       '/blog/weight-loss-for-men-why-glp-1-isnt-just-for-women',
       '/blog/ozempic-face-loose-skin-prevention-treatment-what',
       '/blog/nad-therapy-explained-anti-aging-energy-weight-los',
-      '/blog/is-compounded-semaglutide-safe-what-you-need-to-kn'
+      '/blog/is-compounded-semaglutide-safe-what-you-need-to-kn',
+      '/blog/glp-1-and-mental-health-anxiety-depression-food-no',
+      '/blog/sermorelin-growth-hormone-the-weight-loss-accelera'
     ];
   }
   if (staticRoutes.length <= 1) { // Only contains root
