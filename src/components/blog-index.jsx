@@ -6,6 +6,13 @@ import { Icon } from './common.jsx';
 function BlogIndex() {
   const articles = [
     {
+      title: "The Berberine Extraction Process: Why 90% of Supplements Fail the Purity Test",
+      description: "A clinical breakdown of the Berberine extraction process. We analyze solvent residues, heavy metal contamination, and the limits of botanical purity.",
+      slug: "/blog/berberine-extraction-process-purity-test",
+      image: "/assets/berberine-extraction-featured.png",
+      tag: "Botanical Supplements"
+    },
+    {
       title: "Coptis Chinensis & Berberis Vulgaris: The Botanical Sources of Nature's Ozempic",
       description: "A clinical breakdown of Coptis Chinensis and Berberis Vulgaris. We analyze the isoquinoline alkaloids and the synergy of full-spectrum extracts.",
       slug: "/blog/coptis-chinensis-vs-berberis-vulgaris-botanical-sources",
