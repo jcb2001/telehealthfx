@@ -3,22 +3,14 @@ import { PAGE_CONTENT } from "../../components/page-content.jsx";
 
 const genericPages = ['how', 'medications', 'results', 'science', 'pricing', 'faq'];
 
-export function generateStaticParams() {
-  const params = [];
-  
-  // Base generic pages
-  for (const slug of genericPages) {
-    params.push({ slug });
-  }
+const contentPages = [
+  'affiliate-disclosure', 'privacy', 'terms', 'telehealth-consent', 'hipaa',
+  'accessibility', 'about', 'careers', 'press', 'partners', 'contact',
+  'help-center', 'shipping', 'returns', 'insurance', 'status'
+];
 
-  // Legal/Help pages
-  if (typeof PAGE_CONTENT !== 'undefined') {
-    for (const slug in PAGE_CONTENT) {
-      params.push({ slug });
-    }
-  }
-  
-  return params;
+export function generateStaticParams() {
+  return [...genericPages, ...contentPages].map(slug => ({ slug }));
 }
 
 export function generateMetadata({ params }) {
