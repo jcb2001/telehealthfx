@@ -45,33 +45,49 @@ export function BlogDihydroberberineVsBerberine() {
               Supplement companies are currently aggressively marketing DHB as having "5x to 10x higher absorption" than regular Berberine, charging an extreme premium (often $60 to $80 per month) for what is fundamentally an unproven metabolic bridge. In this exhaustive, 5,000-word clinical breakdown, we dissect the pharmacokinetics of Dihydroberberine, examine the actual biochemical evidence behind the "5x bioavailability" claim, and explain why pouring money into highly-priced botanical derivatives might be a poor investment when <a href="/blog/what-is-a-glp-1-medication" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>FDA-regulated, compounded GLP-1 medications</a> are now priced identically.
             </p>
 
-            <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>1. The Biochemical Foundations of Berberine</h2>
+            <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>The Biochemical Foundations of Berberine</h2>
             <p>
               Before we can understand the hydrogenated derivative (DHB), we must first analyze the source material. Berberine is an isoquinoline alkaloid naturally occurring in the roots, rhizomes, and stem bark of several plants, most notably <em>Coptis chinensis</em> (Goldthread) and <em>Berberis vulgaris</em> (Barberry). For centuries, it has been a cornerstone of traditional Chinese and Ayurvedic medicine for its antimicrobial and gastrointestinal properties.
             </p>
             <p>
               However, modern clinical interest in Berberine surged when researchers discovered its profound impact on metabolic syndrome, type 2 diabetes, and hyperlipidemia. The primary mechanism of action for Berberine is the activation of the AMP-activated protein kinase (AMPK) pathway. Often referred to as the body's "metabolic master switch," AMPK regulates cellular energy homeostasis. When cellular ATP (energy) levels drop and AMP levels rise, AMPK is activated, triggering a cascade of metabolic adaptations: increased glucose uptake in skeletal muscle, enhanced fatty acid oxidation, and the inhibition of hepatic gluconeogenesis (glucose production by the liver).
             </p>
+
+            {/* CTA 1: Early Top of Funnel */}
+            <div style={{ marginTop: 48, marginBottom: 48 }}>
+              <div className="card" style={{ background: '#FFFDF9', borderColor: 'var(--brand)', padding: 32, textAlign: 'center' }}>
+                <h3 className="serif" style={{ fontSize: 28, marginBottom: 12 }}>Ready to Skip the Supplements?</h3>
+                <p style={{ fontSize: 16, color: 'var(--ink-2)', marginBottom: 24, maxWidth: 500, margin: '0 auto 24px' }}>
+                  Get access to FDA-compliant, compounded Semaglutide directly from licensed medical providers. Start your clinical protocol today.
+                </p>
+                <div style={{ display: 'flex', gap: 16, justifyContent: 'center' }}>
+                  <a href="https://go.telehealthfx.com/start" className="btn btn-primary" style={{ fontSize: 16, padding: '0 24px' }}>
+                    View Clinical GLP-1 Programs
+                  </a>
+                </div>
+              </div>
+            </div>
+
             <p>
               This mechanism is strikingly similar to the pharmaceutical drug Metformin. In fact, numerous clinical trials have compared standard Berberine directly against Metformin in patients with type 2 diabetes, often finding comparable reductions in HbA1c and fasting blood glucose levels. You can read more about how this mechanism directly impacts conditions like Polycystic Ovary Syndrome in our definitive guide: <a href="/blog/berberine-for-pcos-what-the-research-actually-says" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Berberine for PCOS: What the Research Actually Says</a>.
             </p>
 
-            <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>2. The Pharmacokinetic Roadblock: Why Standard Berberine Fails</h2>
+            <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>The Pharmacokinetic Roadblock: Why Standard Berberine Fails</h2>
             <p>
               If standard Berberine is as effective as Metformin in vitro, why is it not the universal gold standard for metabolic dysfunction? The answer lies in its atrocious pharmacokinetic profile. To put it simply, Berberine is exceptionally difficult for the human body to absorb and utilize when taken orally. We explore this extensively in our core pillar on <a href="/blog/berberine-oral-bioavailability" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Berberine Oral Bioavailability</a>.
             </p>
             <p>
               When you consume standard Berberine, it must survive a brutal, multi-stage physiological gauntlet:
             </p>
-            <h3>A. Low Intestinal Permeability and the Stratum Corneum</h3>
+            <h3>Low Intestinal Permeability and the Stratum Corneum</h3>
             <p>
               Berberine is a quaternary ammonium salt, giving it a strong positive charge and a high molecular weight. These physicochemical properties result in a very low partition coefficient, meaning it struggles immensely to pass through the lipid bilayers of the intestinal wall (the enterocytes). It is highly hydrophilic but lipophobic, a terrible combination for passive diffusion across cell membranes.
             </p>
-            <h3>B. The P-glycoprotein (P-gp) Efflux Pump</h3>
+            <h3>The P-glycoprotein (P-gp) Efflux Pump</h3>
             <p>
               Even when a fraction of Berberine manages to permeate the enterocytes, it immediately encounters the P-glycoprotein (P-gp) efflux pump. P-gp is a defense mechanism built into the lining of the intestines designed to identify foreign toxins and xenobiotics. Unfortunately, P-gp identifies Berberine as a xenobiotic. The moment Berberine enters the intestinal cell, P-gp actively and violently ejects it back into the intestinal lumen, where it is subsequently excreted in feces.
             </p>
-            <h3>C. Hepatic First-Pass Metabolism</h3>
+            <h3>Hepatic First-Pass Metabolism</h3>
             <p>
               The minuscule amount of Berberine that evades the P-gp efflux pump and makes it into the portal vein is then routed directly to the liver. Here, it undergoes severe first-pass metabolism. The liver's cytochrome P450 (CYP450) enzymes—specifically CYP2D6 and CYP3A4—rapidly demethylate and glucuronidate the Berberine molecules, converting them into largely inactive metabolites before they ever reach systemic circulation.
             </p>
@@ -79,7 +95,7 @@ export function BlogDihydroberberineVsBerberine() {
               Because of these three massive biological barriers, the absolute oral bioavailability of standard Berberine is clinically estimated to be less than 1%. This is precisely why standard protocols require extraordinary dosages—typically 500mg taken three times a day (1,500mg total). You must overwhelm the intestinal absorption barriers through sheer volume, which often leads to severe gastrointestinal distress, cramping, and diarrhea. 
             </p>
 
-            <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>3. The Engineering of Dihydroberberine (DHB)</h2>
+            <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>The Engineering of Dihydroberberine (DHB)</h2>
             <p>
               Recognizing the fatal pharmacokinetic flaws of standard Berberine, organic chemists and supplement manufacturers sought a workaround. Enter Dihydroberberine (DHB).
             </p>
@@ -96,7 +112,25 @@ export function BlogDihydroberberineVsBerberine() {
               Essentially, DHB is nothing more than a biological "Trojan Horse." It disguises itself to slip past the intestinal guards, only to reveal itself as standard Berberine once inside the castle (the bloodstream).
             </p>
 
-            <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>4. Deconstructing the "5x Bioavailability" Myth</h2>
+            {/* CTA 2: Mid Funnel */}
+            <div style={{ marginTop: 48, marginBottom: 48 }}>
+              <div className="card" style={{ background: '#FFFDF9', borderColor: 'var(--brand)', padding: 32, textAlign: 'center' }}>
+                <h3 className="serif" style={{ fontSize: 28, marginBottom: 12 }}>Bypass the Bioavailability Trap</h3>
+                <p style={{ fontSize: 16, color: 'var(--ink-2)', marginBottom: 24, maxWidth: 500, margin: '0 auto 24px' }}>
+                  Subcutaneous GLP-1 injections bypass the gastrointestinal tract entirely, resulting in near 100% absorption. Speak with a doctor today.
+                </p>
+                <div style={{ display: 'flex', gap: 16, justifyContent: 'center' }}>
+                  <a href="https://go.telehealthfx.com/start" className="btn btn-primary" style={{ fontSize: 16, padding: '0 24px' }}>
+                    Start Your Evaluation
+                  </a>
+                  <a href={BERBERINE_URL} className="btn" style={{ fontSize: 16, padding: '0 24px', background: 'transparent', border: '1px solid var(--line-soft)' }}>
+                    Learn About Berberine
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>Deconstructing the "5x Bioavailability" Myth</h2>
             <p>
               The central thesis of DHB marketing—spearheaded by patent holders like GlucoVantage®—is that DHB delivers "5x to 10x higher bioavailability" than standard Berberine. On a purely pharmacokinetic level, this statement is accurate. But on a clinical, outcome-based level, it is a masterclass in deceptive marketing.
             </p>
@@ -123,11 +157,8 @@ export function BlogDihydroberberineVsBerberine() {
             <p>
               This is the crux of the myth. Consumers are led to believe that because DHB is "5x stronger," they will experience a 500% increase in fat oxidation or a 500% greater reduction in HbA1c. This is categorically false. The ceiling of efficacy for Berberine remains static regardless of how efficiently the molecule enters the bloodstream. Once you achieve the maximum safe plasma concentration of Berberine, the metabolic benefits plateau. 
             </p>
-            <p>
-              If you take 1,500mg of standard Berberine and achieve a specific level of AMPK activation, taking an equivalent dose of DHB will result in the exact same level of AMPK activation. The only tangible benefit of DHB is that you have to swallow fewer capsules, and you may experience slightly less gastrointestinal distress because there is less unabsorbed Berberine lingering in your colon. 
-            </p>
 
-            <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>5. The Gut Microbiome: The Forgotten Hero of Standard Berberine</h2>
+            <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>The Gut Microbiome: The Forgotten Hero of Standard Berberine</h2>
             <p>
               There is an entirely different school of clinical thought that suggests circumventing the gut with DHB might actually blunt one of Berberine's most powerful mechanisms of action: microbiome modulation.
             </p>
@@ -141,7 +172,7 @@ export function BlogDihydroberberineVsBerberine() {
               Furthermore, the gut microbiota actually produces an enzyme called nitroreductase, which naturally converts unabsorbed standard Berberine into—you guessed it—Dihydroberberine right there in the colon. The colon then readily absorbs this naturally generated DHB. By paying a massive premium for synthetic DHB supplements, you are essentially paying a laboratory to do what your own gut bacteria do for free.
             </p>
 
-            <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>6. The ROI Problem: Transitioning from OTC to Clinical Therapeutics</h2>
+            <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>The ROI Problem: Transitioning from OTC to Clinical Therapeutics</h2>
             <p>
               The fundamental issue with Dihydroberberine is the cost-to-efficacy ratio. At $60 to $80 per month, DHB crosses the threshold from a cheap, sensible over-the-counter supplement into the pricing territory of actual clinical, prescription-grade therapeutics.
             </p>
@@ -152,12 +183,12 @@ export function BlogDihydroberberineVsBerberine() {
               The biological mechanism of a GLP-1 receptor agonist fundamentally dwarfs the AMPK activation provided by Berberine or DHB. GLP-1s directly interface with the pancreas to stimulate glucose-dependent insulin release, while simultaneously suppressing glucagon and agonizing the brain's satiety centers (the hypothalamus) to completely eradicate food noise. We outline the superiority of modern GLP-1 therapy over OTC supplements in our detailed guide: <a href="/blog/ozempic-insulin-resistance" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Ozempic for Insulin Resistance: Beyond Weight Loss</a>.
             </p>
 
-            <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>7. The Clinical Reality of Sarcopenia and Weight Loss Ceilings</h2>
+            <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>The Clinical Reality of Sarcopenia and Weight Loss Ceilings</h2>
             <p>
               It is critical to note that whether you are using Berberine, Dihydroberberine, or a prescription GLP-1, you must aggressively manage the risk of sarcopenia (muscle loss). Rapid fat loss via intense caloric deficits invariably leads to the catabolism of lean muscle tissue. This lowers your basal metabolic rate and sets the stage for rapid weight regain. We highly recommend reading our clinical playbook on <a href="/blog/glp-1-muscle-loss-the-hidden-risk-nobodys-talking" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>GLP-1 Muscle Loss Prevention</a> before initiating any advanced metabolic intervention.
             </p>
 
-            {/* Injected CTA */}
+            {/* CTA 3: Bottom Funnel */}
             <div style={{ marginTop: 60, marginBottom: 60 }}>
               <div className="card" style={{ background: '#FFFDF9', borderColor: 'var(--brand)', padding: 40, textAlign: 'center' }}>
                 <h3 className="serif" style={{ fontSize: 36, marginBottom: 16 }}>Stop Paying Premium Prices for OTC Supplements</h3>
@@ -178,7 +209,7 @@ export function BlogDihydroberberineVsBerberine() {
               </div>
             </div>
 
-            <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>8. Final Clinical Verdict on Dihydroberberine</h2>
+            <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>Final Clinical Verdict on Dihydroberberine</h2>
             <p>
               Does Dihydroberberine work? Yes. It efficiently circumvents the P-glycoprotein efflux pump, absorbs through the enterocytes, and rapidly converts to Berberine in the bloodstream. Is it "5x more bioavailable"? Technically yes, meaning you can ingest a 200mg capsule instead of a 1,000mg capsule. 
             </p>

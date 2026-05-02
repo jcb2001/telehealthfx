@@ -45,18 +45,34 @@ export function BlogCoptisChinensis() {
               As Berberine continues to dominate social media algorithms as "Nature's Ozempic," supplement manufacturers have flooded the market with highly processed, low-grade extracts. Understanding the precise botanical source, the method of extraction, and the synergistic alkaloids present in the raw plant material is the difference between achieving profound AMPK activation and flushing your money down the drain. In this exhaustive clinical breakdown, we dissect the pharmacology of <em>Coptis Chinensis</em> and <em>Berberis Vulgaris</em>, analyze their secondary metabolites, and compare their clinical efficacy against modern, <a href="/blog/what-is-a-glp-1-medication" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>FDA-approved GLP-1 medications</a>.
             </p>
 
-            <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>1. The Biochemistry of the Isoquinoline Alkaloid</h2>
+            <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>The Biochemistry of the Isoquinoline Alkaloid</h2>
             <p>
               To understand why the plant source matters, we must first analyze the molecular structure of Berberine. Berberine is a quaternary ammonium salt from the protoberberine group of benzylisoquinoline alkaloids. It exhibits a distinct, vibrant yellow color, which is why the roots of <em>Coptis Chinensis</em> and the bark of <em>Berberis Vulgaris</em> bleed yellow when cut.
             </p>
             <p>
               The primary mechanism of action for Berberine is the activation of the AMP-activated protein kinase (AMPK) pathway. Often referred to as the body's "metabolic master switch," AMPK regulates cellular energy homeostasis. When you consume high-quality Berberine, it enters the cell and inhibits mitochondrial respiratory complex I. This causes a localized drop in ATP (cellular energy) and a spike in AMP. The cell interprets this ratio shift as an energy crisis and violently activates AMPK to compensate. 
             </p>
+
+            {/* CTA 1: Early Funnel */}
+            <div style={{ marginTop: 48, marginBottom: 48 }}>
+              <div className="card" style={{ background: '#FFFDF9', borderColor: 'var(--brand)', padding: 32, textAlign: 'center' }}>
+                <h3 className="serif" style={{ fontSize: 28, marginBottom: 12 }}>Ready to Skip the Supplements?</h3>
+                <p style={{ fontSize: 16, color: 'var(--ink-2)', marginBottom: 24, maxWidth: 500, margin: '0 auto 24px' }}>
+                  Get access to FDA-compliant, compounded Semaglutide directly from licensed medical providers. Start your clinical protocol today.
+                </p>
+                <div style={{ display: 'flex', gap: 16, justifyContent: 'center' }}>
+                  <a href="https://go.telehealthfx.com/start" className="btn btn-primary" style={{ fontSize: 16, padding: '0 24px' }}>
+                    View Clinical GLP-1 Programs
+                  </a>
+                </div>
+              </div>
+            </div>
+
             <p>
               Once AMPK is activated, it triggers a cascade of metabolic adaptations: it forces skeletal muscle to absorb glucose from the bloodstream (independent of insulin), it enhances fatty acid oxidation, and it suppresses hepatic gluconeogenesis (the liver's production of new glucose). This mechanism is strikingly similar to the pharmaceutical drug Metformin. You can read more about how this specific pathway helps reverse conditions like Polycystic Ovary Syndrome in our definitive guide: <a href="/blog/berberine-for-pcos-what-the-research-actually-says" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Berberine for PCOS: What the Research Actually Says</a>.
             </p>
 
-            <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>2. Coptis Chinensis (Chinese Goldthread)</h2>
+            <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>Coptis Chinensis (Chinese Goldthread)</h2>
             <p>
               <em>Coptis Chinensis</em>, known in Traditional Chinese Medicine (TCM) as Huang Lian, is widely considered the premium botanical source of Berberine. It is a slow-growing perennial herb native to the cool, mountainous regions of China.
             </p>
@@ -73,7 +89,7 @@ export function BlogCoptisChinensis() {
               These secondary alkaloids create an "entourage effect." While isolated, 99% pure Berberine HCl (hydrochloride) is the industry standard for cheap supplements, clinical herbalists argue that full-spectrum <em>Coptis Chinensis</em> root extract provides superior metabolic regulation because these secondary compounds help mitigate Berberine's notoriously poor oral bioavailability. We discuss this absorption failure extensively in our pillar on <a href="/blog/berberine-oral-bioavailability" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Berberine Oral Bioavailability</a>.
             </p>
 
-            <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>3. Berberis Vulgaris (European Barberry)</h2>
+            <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>Berberis Vulgaris (European Barberry)</h2>
             <p>
               <em>Berberis Vulgaris</em>, commonly known as Barberry, is a deciduous shrub native to central and southern Europe, northwest Africa, and western Asia. Unlike Coptis, where the rhizome is utilized, the highest concentration of Berberine in Barberry is found in the stem bark and root bark.
             </p>
@@ -85,6 +101,25 @@ export function BlogCoptisChinensis() {
               <li><strong>Berbamine:</strong> A unique alkaloid that has shown profound efficacy in regulating calcium channels and protecting cardiovascular tissue during ischemic events.</li>
               <li><strong>Oxyacanthine:</strong> A bisbenzylisoquinoline alkaloid known for its potent vasorelaxant properties, helping to lower systemic blood pressure.</li>
             </ul>
+
+            {/* CTA 2: Mid Funnel */}
+            <div style={{ marginTop: 48, marginBottom: 48 }}>
+              <div className="card" style={{ background: '#FFFDF9', borderColor: 'var(--brand)', padding: 32, textAlign: 'center' }}>
+                <h3 className="serif" style={{ fontSize: 28, marginBottom: 12 }}>Bypass the Botanical Guesswork</h3>
+                <p style={{ fontSize: 16, color: 'var(--ink-2)', marginBottom: 24, maxWidth: 500, margin: '0 auto 24px' }}>
+                  If you are trying to reverse profound insulin resistance, botanical extracts have a physiological ceiling. GLP-1 therapy does not.
+                </p>
+                <div style={{ display: 'flex', gap: 16, justifyContent: 'center' }}>
+                  <a href="https://go.telehealthfx.com/start" className="btn btn-primary" style={{ fontSize: 16, padding: '0 24px' }}>
+                    Start Your Evaluation
+                  </a>
+                  <a href={BERBERINE_URL} className="btn" style={{ fontSize: 16, padding: '0 24px', background: 'transparent', border: '1px solid var(--line-soft)' }}>
+                    Learn About Berberine
+                  </a>
+                </div>
+              </div>
+            </div>
+
             <p>
               From a purely weight-loss perspective, <em>Coptis Chinensis</em> is generally considered superior due to the presence of Coptisine and Palmatine, which directly target adipogenesis. However, for patients suffering from metabolic syndrome complicated by severe hypertension and cardiovascular stress, the Berbamine found in <em>Berberis Vulgaris</em> offers a highly compelling synergistic benefit. 
             </p>
@@ -101,7 +136,7 @@ export function BlogCoptisChinensis() {
               </div>
             </div>
 
-            <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>4. The Extraction Process: Why 90% of Supplements Fail</h2>
+            <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>The Extraction Process: Why 90% of Supplements Fail</h2>
             <p>
               The massive surge in demand for Berberine—driven by the "Nature's Ozempic" TikTok trend—has led to severe adulteration and supply chain degradation. <em>Coptis Chinensis</em> takes over five years to reach maturity before the rhizome can be harvested. It is expensive, slow-growing, and labor-intensive. 
             </p>
@@ -112,7 +147,7 @@ export function BlogCoptisChinensis() {
               Furthermore, these cheap extracts are notoriously susceptible to heavy metal contamination. Because these root systems act as bioaccumulators in the soil, cheap extracts sourced from polluted agricultural regions frequently test positive for high levels of lead and cadmium. If you are consuming 1,500mg of cheap Berberine daily to chase weight loss, you are actively increasing your hepatic toxic load. We recently dissected the failure of another highly-marketed derivative in our breakdown of <a href="/blog/dihydroberberine-vs-berberine" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Dihydroberberine (DHB) and the 5x Bioavailability Myth</a>.
             </p>
 
-            <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>5. The Ceiling of Botanical Pharmacology</h2>
+            <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>The Ceiling of Botanical Pharmacology</h2>
             <p>
               Whether you source the most pristine, organic, full-spectrum <em>Coptis Chinensis</em> rhizome in the world, or you consume standard Berberine HCl, you will inevitably hit a physiological ceiling. 
             </p>
@@ -123,7 +158,7 @@ export function BlogCoptisChinensis() {
               Why? Because Berberine does not cross the blood-brain barrier in sufficient quantities to agonize the GLP-1 receptors in the hypothalamus. Berberine forces your muscles to absorb glucose, but it does absolutely nothing to eradicate "food noise." It does not slow gastric emptying. It does not send profound satiety signals to the brain. We cover this biological disparity extensively in our guide: <a href="/blog/ozempic-insulin-resistance" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Ozempic for Insulin Resistance: Beyond Weight Loss</a>.
             </p>
 
-            <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>6. The Financial Reality: Moving to Clinical Grade Therapeutics</h2>
+            <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>The Financial Reality: Moving to Clinical Grade Therapeutics</h2>
             <p>
               If your goal is to lose 5 pounds and optimize your fasting glucose, a high-quality Berberine supplement sourced from <em>Coptis Chinensis</em> is an excellent, cost-effective tool. However, if your goal is profound metabolic transformation, you must evaluate the ROI of your interventions.
             </p>
@@ -134,7 +169,7 @@ export function BlogCoptisChinensis() {
               Furthermore, whether you choose botanicals or GLP-1s, you must aggressively protect your lean muscle mass during weight loss to prevent metabolic damage. We highly recommend reading our clinical playbook on <a href="/blog/glp-1-muscle-loss-the-hidden-risk-nobodys-talking" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>GLP-1 Muscle Loss Prevention</a>.
             </p>
 
-            {/* Injected CTA */}
+            {/* CTA 3: Bottom Funnel */}
             <div style={{ marginTop: 60, marginBottom: 60 }}>
               <div className="card" style={{ background: '#FFFDF9', borderColor: 'var(--brand)', padding: 40, textAlign: 'center' }}>
                 <h3 className="serif" style={{ fontSize: 36, marginBottom: 16 }}>Stop Chasing the "Nature's Ozempic" Myth</h3>
@@ -155,7 +190,7 @@ export function BlogCoptisChinensis() {
               </div>
             </div>
 
-            <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>7. Final Verdict on Botanical Sources</h2>
+            <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>Final Verdict on Botanical Sources</h2>
             <p>
               When evaluating Berberine supplements, the botanical source absolutely matters. <em>Coptis Chinensis</em> provides a superior alkaloid matrix (Coptisine, Palmatine) tailored for metabolic regulation and adipogenesis suppression, while <em>Berberis Vulgaris</em> offers unique synergistic benefits for cardiovascular health via Berbamine. 
             </p>
