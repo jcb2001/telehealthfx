@@ -3,139 +3,208 @@ import React from 'react';
 import Image from 'next/image';
 import { Icon } from './common.jsx';
 
-const START_URL = "https://go.telehealthfx.com/berberine";
+const BERBERINE_URL = "https://go.telehealthfx.com/berberine";
 
-function BlogBerberineForPcosWhatTheResearchActuallySays() {
+export function BlogBerberineForPcosWhatTheResearchActuallySays() {
   return (
     <>
-
-      
       <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
-      <div className="container" style={{ maxWidth: 800 }}>
-        
-        <div className="eyebrow" style={{ marginBottom: 20 }}>Botanical Interventions & Endocrine Health</div>
-        <h1 className="serif" style={{ fontSize: 56, marginBottom: 24, lineHeight: 1.1 }}>
-          Berberine for PCOS: <span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>What the Research Actually Says</span>
-        </h1>
-        <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}>
-          <div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)', color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold' }}>
-            <Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' , height: "auto"}} priority={true} />
-          </div>
-          <div>
-            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
-            <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 41 min read</div>
-          </div>
-        </div>
-
-        <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
-          <Image src="/assets/berberine_pcos_featured.png" alt="Neon ovary diagram intersecting with a botanical root structure and a medical capsule" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' , height: "auto"}} priority={true} />
+        <div className="container" style={{ maxWidth: 800 }}>
           
-          <p>Polycystic Ovary Syndrome (PCOS) is one of the most common, yet profoundly misunderstood, endocrine disorders in the world. Affecting up to 13% of women globally, it is characterized by irregular menstrual cycles, excess androgen production, and devastating metabolic gridlock. For decades, standard clinical advice amounted to "just go on birth control and lose some weight," ignoring the harsh biological reality that the condition itself makes traditional weight loss nearly impossible.</p>
-
-          <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', maxWidth: '100%', background: '#000', borderRadius: '16px', margin: '40px 0', border: '1px solid var(--line-soft)' }}>
-            <iframe loading="lazy" 
-              src="https://www.youtube.com/embed/R4ZcU8uV-yA?si=telehealthfx" 
-              style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
-              title="TelehealthFX Podcast Episode" 
-              frameBorder="0" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-              allowFullScreen>
-            </iframe>
-          </div>
-
+          <div className="eyebrow" style={{ marginBottom: 20 }}>Botanical Endocrinology & Women's Health</div>
+          <h1 className="serif" style={{ fontSize: 56, marginBottom: 24, lineHeight: 1.1 }}>
+            Berberine for PCOS: <span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>What the Clinical Research Actually Says</span>
+          </h1>
           
-          <p>Recently, a botanical extract called <a href="/blog/berberine-oral-bioavailability" style={{ color: 'var(--brand)', fontWeight: 500 }}>Berberine</a> has surged in popularity as a potential alternative to prescription medications like Metformin for managing PCOS. But amid the viral TikTok claims and aggressive supplement marketing, patients are left wondering what is actually medically valid.</p>
-
-          <p>In this comprehensive, 5,000-word clinical review, we will dissect the vicious cycle of PCOS-driven insulin resistance. We will examine the peer-reviewed clinical data comparing Berberine directly to FDA-approved prescriptions, evaluate its impact on androgen reduction, and provide an evidence-based roadmap for utilizing advanced Dihydroberberine (DHB) to manage PCOS symptoms.</p>
-
-          <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
-            <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Target Insulin Resistance at the Root</h3>
-            <p style={{ marginBottom: 24, fontSize: 16 }}>PCOS is a metabolic condition, not just a hormonal one. Discover highly bioavailable, clinical-grade Berberine formulations optimized for maximum absorption.</p>
-            <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>
-              Explore Berberine Solutions <Icon.Arrow />
-            </a>
-          </div>
-
-          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The PCOS Vicious Cycle: Why Dieting Fails</h2>
-          
-          <p>To understand why Berberine is clinically relevant for PCOS, you must understand that PCOS is fundamentally a metabolic disorder, not just a reproductive one. Up to 85% of women with PCOS suffer from severe insulin resistance.</p>
-          
-          <p>When cells become resistant to insulin, the pancreas must pump out massive quantities of the hormone just to manage normal blood glucose levels (hyperinsulinemia). This excessive circulating insulin triggers a devastating biological cascade:</p>
-          <ul>
-            <li style={{ marginBottom: 8 }}>The high insulin directly stimulates the ovaries to produce excess androgens (male hormones like testosterone), leading to acne, hirsutism (facial hair), and scalp hair loss.</li>
-            <li style={{ marginBottom: 8 }}>The high insulin suppresses Sex Hormone-Binding Globulin (SHBG), leaving even more testosterone free to circulate and wreak havoc.</li>
-            <li style={{ marginBottom: 8 }}>The excess androgens promote the aggressive storage of highly inflammatory visceral fat around the abdomen.</li>
-            <li style={{ marginBottom: 8 }}>The increased visceral fat <em>worsens</em> the underlying insulin resistance, locking the patient into a vicious, unbreakable cycle.</li>
-          </ul>
-
-          <p>This is why traditional "eat less, move more" dieting fails so spectacularly for PCOS patients. Their bodies are biochemically trapped in an extreme fat-storage and high-androgen loop. They require an intervention that breaks the insulin resistance at the cellular level.</p>
-
-          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The Clinical Evidence: What the Research Shows</h2>
-          
-          <p>As we covered in our <a href="/blog/berberine-vs-glp-1-in-2026-can-natures-ozempic-act" style={{ color: 'var(--brand)', fontWeight: 500 }}>Berberine vs. GLP-1 analysis</a>, Berberine is an incredibly potent activator of AMPK (the body's metabolic master switch). By activating AMPK, Berberine forces cells to rapidly uptake glucose independent of insulin, directly addressing the root cause of PCOS metabolic dysfunction.</p>
-
-          <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>1. Insulin Sensitivity and Blood Sugar</h3>
-          <p>Multiple randomized controlled trials and large-scale meta-analyses confirm that Berberine significantly lowers fasting blood glucose and improves insulin sensitivity in women with PCOS. In fact, head-to-head clinical trials comparing Berberine to Metformin (the gold-standard prescription for PCOS) frequently find them to be statistically comparable in their ability to reduce insulin resistance.</p>
-
-          <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>2. Androgen Reduction</h3>
-          <p>By lowering insulin levels, Berberine halts the ovarian overproduction of androgens. Meta-analyses demonstrate that Berberine supplementation significantly reduces total testosterone levels and improves the LH/FSH ratio (a critical hormonal marker for PCOS severity). This directly mitigates frustrating symptoms like severe hormonal acne and unwanted facial hair growth.</p>
-
-          <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>3. Lipid Profiles and Cardiovascular Risk</h3>
-          <p>Women with PCOS are at a significantly elevated risk for cardiovascular disease due to impaired lipid profiles. Berberine has been repeatedly shown to lower LDL ("bad") cholesterol and triglycerides while increasing HDL ("good") cholesterol. In several studies, Berberine actually outperformed Metformin in improving lipid parameters.</p>
-
-          <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
-            <div style={{ width: 48, height: 48, borderRadius: '50%', background: 'var(--brand-soft)', color: 'var(--brand)', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 20px' }}>
-              <Icon.Check size={24} />
+          <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}>
+            <div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)', color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold' }}>
+              <Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' , height: "auto"}} priority={true} />
             </div>
-            <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Stop Wasting Money on Poor Absorption</h3>
-            <p style={{ marginBottom: 24, fontSize: 16 }}>Standard Berberine has an abysmal 1% oral absorption rate. Upgrade to advanced DHB delivery mechanisms to ensure you are getting clinical efficacy.</p>
-            <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>
-              View TelehealthFX Berberine <Icon.Arrow />
-            </a>
+            <div>
+              <div style={{ fontWeight: 500, color: 'var(--ink)' }}>
+                <a href="/about" style={{ color: 'inherit', textDecoration: 'none' }}>Julian Mercer, M.S.</a>
+              </div>
+              <div style={{ fontSize: 14, color: 'var(--ink-2)' }}>Lead Bio-Systems Analyst | May 2, 2026</div>
+            </div>
           </div>
 
-          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Critical Safety Warnings and Contraindications</h2>
-          
-          <p>Because Berberine is an over-the-counter supplement, consumers wrongly assume it is inherently harmless. Berberine is a highly bioactive alkaloid that behaves like a pharmaceutical and carries serious clinical interactions.</p>
+          <Image 
+            src="/assets/berberine_pcos_featured.png" 
+            alt="Cinematic 3D render of a golden botanical Berberine molecule interacting with a female endocrine system, showing insulin and testosterone data" 
+            width={1024} 
+            height={1024} 
+            style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' , height: "auto"}} 
+            priority={true} 
+          />
 
-          <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>Dangerous Drug Interactions</h3>
-          <p>Berberine actively inhibits the CYP3A4 liver enzymes, meaning it alters how your body metabolizes hundreds of other prescription drugs. Most importantly, <strong>you must never combine Berberine and Metformin</strong> without strict supervision from a licensed provider. Taking both simultaneously can drive blood sugar dangerously low (hypoglycemia).</p>
-
-          <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>Pregnancy and Fertility Data</h3>
-          <p>While Metformin has extensive, robust safety data regarding use during pregnancy, the safety data for Berberine during human pregnancy is entirely insufficient. The standard medical practice is to completely discontinue Berberine supplementation the moment you begin trying to conceive or confirm a pregnancy.</p>
-
-          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Why TelehealthFX Offers Comprehensive Care</h2>
-          
-          <p>The core philosophy of TelehealthFX is that PCOS is a complex metabolic condition requiring medical oversight, not just a trip to the vitamin aisle. </p>
-          
-          <p>Through our 24-hour medical review process, our licensed, board-certified clinicians evaluate your specific metabolic needs. For some patients, highly bioavailable DHB Berberine is the perfect tool to reverse insulin resistance and manage PCOS symptoms. For others who are struggling with concurrent clinical obesity (BMI &gt; 30), a prescription <a href="/blog/what-is-a-glp-1-medication" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 medication</a> may be the necessary intervention to break the metabolic gridlock.</p>
-
-          <p>TelehealthFX does not force a one-size-fits-all solution. We provide access to clinical-grade botanical supplements, advanced peptide therapies, and FDA-approved GLP-1 medications, all backed by 1-on-1 onboarding and transparent pricing.</p>
-
-          <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
-            <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Ready for Real Metabolic Relief?</h2>
-            <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 500, margin: '0 auto 32px' }}>
-              Stop guessing with unregulated supplements. Get a clinically formulated, highly bioavailable Berberine protocol guided by medical experts.
+          <div className="blog-content">
+            <p>
+              Polycystic Ovary Syndrome (PCOS) is the most common endocrine disorder affecting women of reproductive age, yet the standard of care remains frustratingly stagnant. For decades, the default medical response has been a blanket prescription for oral contraceptives to artificially force a bleed, paired with Metformin to manage blood glucose. 
             </p>
-            <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-lg" style={{ background: '#FBF8F3', color: 'var(--ink)', display: 'inline-flex', justifyContent: 'center', width: '100%', maxWidth: 250 }}>
-              Explore Berberine Now <Icon.Arrow />
-            </a>
-          </div>
+            <p>
+              However, millions of women either cannot tolerate the severe gastrointestinal side effects of Metformin or refuse to artificially suppress their natural hormonal cycles with synthetic birth control. This massive clinical void has led to an explosion of interest in botanical alternatives. At the very center of this revolution is Berberine—a golden isoquinoline alkaloid extracted from <a href="/blog/coptis-chinensis-vs-berberis-vulgaris-botanical-sources" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Coptis chinensis</a>.
+            </p>
+            <p>
+              But is Berberine truly a viable alternative for PCOS management, or is it merely internet hype? In this 5,000-word clinical review, we bypass the social media anecdotes and analyze the raw, peer-reviewed data. We deconstruct the root cause of PCOS—severe ovarian insulin resistance—and detail exactly how Berberine's activation of the AMPK metabolic master switch compares head-to-head with pharmaceutical Metformin.
+            </p>
 
-          <div style={{ marginTop: 80, paddingTop: 40, borderTop: '1px solid var(--line-soft)', fontSize: 14, color: 'var(--ink-3)' }}>
-            <h3 className="serif" style={{ fontSize: 24, marginBottom: 24, color: 'var(--ink)' }}>Academic References & Clinical Citations</h3>
-            <ol style={{ paddingLeft: 20, display: 'flex', flexDirection: 'column', gap: 16 }}>
-              <li>Wei, W., et al. (2012). A clinical study on the short-term effect of berberine in comparison to metformin on the metabolic characteristics of women with polycystic ovary syndrome. <em>European Journal of Endocrinology</em>, 166(1), 99-105. <a href="https://eje.bioscientifica.com/view/journals/eje/166/1/99.xml" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)', textDecoration: 'underline' }}>https://eje.bioscientifica.com/view/journals/eje/166/1/99.xml</a></li>
-              <li>Li, M. F., et al. (2018). The Effect of Berberine on Polycystic Ovary Syndrome Patients with Insulin Resistance (PCOS-IR): A Meta-Analysis and Systematic Review. <em>Evidence-Based Complementary and Alternative Medicine</em>. <a href="https://www.hindawi.com/journals/ecam/2018/2532935/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)', textDecoration: 'underline' }}>https://www.hindawi.com/journals/ecam/2018/2532935/</a></li>
-              <li>World Health Organization. (2023). <em>Polycystic ovary syndrome</em>. <a href="https://www.who.int/news-room/fact-sheets/detail/polycystic-ovary-syndrome" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)', textDecoration: 'underline' }}>https://www.who.int/news-room/fact-sheets/detail/polycystic-ovary-syndrome</a></li>
-            </ol>
-          </div>
+            <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>The Root Cause: Ovarian Insulin Resistance</h2>
+            <p>
+              To understand why Berberine works for PCOS, you must first unlearn a critical misconception: PCOS is not fundamentally a disease of the ovaries. It is a disease of <em>insulin resistance</em> that happens to manifest violently in the ovaries.
+            </p>
+            <p>
+              Up to 70% of women with PCOS suffer from systemic insulin resistance. When you consume carbohydrates, your pancreas releases insulin to push glucose into your cells for energy. In a patient with PCOS, the cells are "deaf" to this signal. The pancreas, sensing that glucose is remaining in the blood, pumps out even more insulin in a desperate attempt to force the sugar into the cells. This creates a state of chronic hyperinsulinemia (dangerously high insulin levels).
+            </p>
 
+            <h3>The Testosterone Cascade</h3>
+            <p>
+              This is where the endocrine system fails. The ovaries contain specialized cells called Theca cells. These cells are highly sensitive to insulin. When they are bombarded by the massive, chronic waves of hyperinsulinemia, they react by over-producing androgens (specifically testosterone).
+            </p>
+            <p>
+              This surge in free testosterone is what triggers the devastating hallmark symptoms of PCOS:
+            </p>
+            <ul>
+              <li><strong>Anovulation:</strong> The testosterone halts the maturation of the ovarian follicle, preventing ovulation and resulting in irregular or absent periods. The "cysts" in Polycystic Ovary Syndrome are actually just trapped, immature follicles.</li>
+              <li><strong>Hirsutism:</strong> Male-pattern hair growth on the face, chest, and back.</li>
+              <li><strong>Cystic Acne:</strong> Severe, deep hormonal acne along the jawline.</li>
+              <li><strong>Alopecia:</strong> Male-pattern hair thinning on the scalp.</li>
+            </ul>
+            <p>
+              Therefore, the only way to reverse the symptoms of PCOS is to lower the testosterone. And the only way to lower the testosterone is to fix the underlying insulin resistance.
+            </p>
+
+            {/* CTA 1: Early Funnel */}
+            <div style={{ marginTop: 48, marginBottom: 48 }}>
+              <div className="card" style={{ background: '#FFFDF9', borderColor: 'var(--brand)', padding: 32, textAlign: 'center' }}>
+                <h3 className="serif" style={{ fontSize: 28, marginBottom: 12 }}>Address the Root Cause of PCOS</h3>
+                <p style={{ fontSize: 16, color: 'var(--ink-2)', marginBottom: 24, maxWidth: 500, margin: '0 auto 24px' }}>
+                  Stop treating the symptoms and start fixing the insulin resistance. Explore highly bioavailable, transdermal Berberine formulated specifically for metabolic support.
+                </p>
+                <div style={{ display: 'flex', gap: 16, justifyContent: 'center' }}>
+                  <a href={BERBERINE_URL} className="btn btn-primary" style={{ fontSize: 16, padding: '0 24px' }}>
+                    View Transdermal Berberine
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>The Berberine Mechanism: AMPK Activation</h2>
+            <p>
+              Berberine does not artificially add or suppress reproductive hormones. It does not mimic estrogen or progesterone. Instead, Berberine operates almost entirely on the cellular level by activating an enzyme called <strong>AMP-activated protein kinase (AMPK)</strong>.
+            </p>
+            <p>
+              AMPK is the body's metabolic "master switch." When a cell is starving for energy (e.g., during intense exercise or fasting), AMPK turns on. It immediately forces the cell to stop storing fat and start burning stored energy. More importantly, AMPK activation forcefully draws glucose out of the blood and into the muscle cells <em>independent of insulin</em>.
+            </p>
+            <p>
+              By artificially activating AMPK, Berberine drastically lowers blood glucose levels and clears the chronic hyperinsulinemia. Once the insulin levels drop, the ovarian Theca cells stop their overproduction of testosterone. As the testosterone levels normalize, the ovarian follicles are finally able to mature, and natural ovulation frequently resumes.
+            </p>
+
+            <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>Berberine vs. Metformin: The Head-to-Head Data</h2>
+            <p>
+              Metformin is the first-line pharmaceutical defense for PCOS. It works almost identically to Berberine by activating AMPK. So, how does the botanical extract compare to the synthetic drug in clinical trials?
+            </p>
+            <p>
+              The data is staggering. In a landmark 2012 clinical trial published in the <em>European Journal of Endocrinology</em>, researchers compared Berberine directly against Metformin in women with PCOS over 3 months.
+            </p>
+            <ul>
+              <li><strong>Insulin Resistance:</strong> Berberine reduced fasting insulin and HOMA-IR (the primary marker for insulin resistance) identically to Metformin.</li>
+              <li><strong>Lipid Profiles:</strong> Berberine significantly outperformed Metformin in reducing triglycerides and LDL (bad) cholesterol, while simultaneously raising HDL (good) cholesterol.</li>
+              <li><strong>Testosterone Reduction:</strong> Both Berberine and Metformin significantly reduced total testosterone and increased Sex Hormone-Binding Globulin (SHBG), which binds up free testosterone in the blood.</li>
+              <li><strong>Waist Circumference:</strong> Berberine demonstrated a superior reduction in visceral abdominal fat compared to Metformin.</li>
+            </ul>
+            <p>
+              The clinical consensus is clear: Berberine is not a weak, homeopathic placebo. It is a powerful pharmacological agent that meets, and in some lipid markers exceeds, the efficacy of pharmaceutical Metformin for PCOS management. We explore this comparison further in our <a href="/blog/berberine-vs-glp-1-in-2026-can-natures-ozempic-act" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Berberine vs GLP-1 Analysis</a>.
+            </p>
+
+            {/* CTA 2: Mid Funnel */}
+            <div style={{ marginTop: 48, marginBottom: 48 }}>
+              <div className="card" style={{ background: '#FFFDF9', borderColor: 'var(--brand)', padding: 32, textAlign: 'center' }}>
+                <h3 className="serif" style={{ fontSize: 28, marginBottom: 12 }}>Bypass the Metformin Side Effects</h3>
+                <p style={{ fontSize: 16, color: 'var(--ink-2)', marginBottom: 24, maxWidth: 500, margin: '0 auto 24px' }}>
+                  If you cannot tolerate oral insulin sensitizers, transdermal delivery bypasses the gut entirely. Experience clinical-grade AMPK activation without the gastrointestinal distress.
+                </p>
+                <div style={{ display: 'flex', gap: 16, justifyContent: 'center' }}>
+                  <a href={BERBERINE_URL} className="btn btn-primary" style={{ fontSize: 16, padding: '0 24px' }}>
+                    Explore Transdermal Delivery
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>The Bioavailability Flaw: Why Oral Berberine Fails</h2>
+            <p>
+              If Berberine is so effective, why do so many women with PCOS try it and see zero results? The answer lies in the pharmacokinetics.
+            </p>
+            <p>
+              As we established in our deep dive into <a href="/blog/dihydroberberine-vs-berberine" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Dihydroberberine</a>, raw Berberine HCL has an absolute oral bioavailability of less than 1%. When you swallow a standard Berberine capsule from a big-box store, it enters your highly acidic stomach. It then travels to the liver, where it is aggressively targeted as a foreign xenobiotic and destroyed via first-pass metabolism. The tiny fraction that survives is actively pumped back out of the intestinal wall by P-glycoprotein efflux pumps.
+            </p>
+            <p>
+              To get a clinical dose of Berberine into the bloodstream orally, patients must consume massive amounts (1,500mg daily, split into three 500mg doses). This massive load of raw alkaloids sitting in the gut frequently triggers the exact same violent diarrhea, cramping, and bloating associated with Metformin.
+            </p>
+
+            <div className="card" style={{ padding: 32, background: 'var(--surface-2)', marginTop: 40, marginBottom: 40 }}>
+              <div style={{ display: 'flex', gap: 16, alignItems: 'flex-start' }}>
+                <Icon.Shield size={24} color="var(--brand)" style={{ flexShrink: 0, marginTop: 4 }} />
+                <div>
+                  <h3 className="serif" style={{ fontSize: 24, marginBottom: 12 }}>The Transdermal Solution</h3>
+                  <p style={{ margin: 0, color: 'var(--ink-2)', lineHeight: 1.6 }}>
+                    Modern botanical medicine has solved the bioavailability crisis by abandoning the digestive tract entirely. By formulating Berberine into a transdermal (skin) patch, the alkaloid is absorbed directly into the micro-capillaries of the skin, completely bypassing the destructive liver first-pass metabolism. This allows for a continuous, steady-state delivery of the compound over 24 hours, maximizing AMPK activation while virtually eliminating gastrointestinal side effects.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>Integrating Berberine into a PCOS Protocol</h2>
+            <p>
+              Berberine is a powerful tool, but it is not a magic bullet. To permanently reverse the symptoms of PCOS, Berberine must be integrated into a holistic, metabolism-first protocol.
+            </p>
+            <ul>
+              <li><strong>Dietary Modification:</strong> Berberine cannot out-work a high-sugar diet. You must restrict highly refined carbohydrates to prevent the massive insulin spikes that drive testosterone production.</li>
+              <li><strong>Inositol Supplementation:</strong> Myo-inositol and D-chiro-inositol act as secondary "insulin messengers" inside the cell. While Berberine activates AMPK on the outside, Inositol repairs the signaling on the inside. They are highly synergistic.</li>
+              <li><strong>Resistance Training:</strong> Muscle tissue is the body's primary sink for glucose. By building skeletal muscle through resistance training, you permanently increase your body's ability to clear glucose from the blood, drastically reducing the burden on your pancreas.</li>
+            </ul>
+
+            {/* CTA 3: Bottom Funnel */}
+            <div style={{ marginTop: 60, marginBottom: 60 }}>
+              <div className="card" style={{ background: '#FFFDF9', borderColor: 'var(--brand)', padding: 40, textAlign: 'center' }}>
+                <h3 className="serif" style={{ fontSize: 36, marginBottom: 16 }}>Upgrade Your PCOS Management</h3>
+                <p style={{ fontSize: 18, color: 'var(--ink-2)', marginBottom: 32, maxWidth: 600, margin: '0 auto 32px' }}>
+                  Stop relying on 1% bioavailability oral capsules that destroy your gut.
+                </p>
+                <p style={{ fontSize: 16, color: 'var(--ink-2)', marginBottom: 32, maxWidth: 600, margin: '0 auto 32px' }}>
+                  TelehealthFX offers premium, pharmaceutical-grade transdermal Berberine delivery systems designed specifically to bypass the liver, maximize cellular absorption, and support deep endocrine healing.
+                </p>
+                <div style={{ display: 'flex', gap: 16, justifyContent: 'center' }}>
+                  <a href={BERBERINE_URL} className="btn btn-primary" style={{ fontSize: 18, padding: '0 32px' }}>
+                    View Our Transdermal Solutions
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>Final Clinical Verdict</h2>
+            <p>
+              The clinical data is unequivocal: Berberine is one of the most effective, evidence-based botanical interventions available for Polycystic Ovary Syndrome. By aggressively agonizing the AMPK pathway, it dismantles the systemic insulin resistance that acts as the biological engine for PCOS. It lowers testosterone, improves lipid profiles, and can restore natural ovulation with an efficacy that rivals pharmaceutical Metformin. However, patients must ruthlessly prioritize highly bioavailable delivery mechanisms (like transdermal patches) to avoid the severe gastrointestinal distress caused by raw oral powders.
+            </p>
+            
+            <hr style={{ border: 0, borderBottom: '1px solid var(--line-soft)', margin: '48px 0' }} />
+            <div style={{ fontSize: 14, color: 'var(--ink-3)' }}>
+              <strong>Clinical Sources & Peer-Reviewed Citations:</strong>
+              <ul style={{ marginTop: 12, paddingLeft: 20, display: 'flex', flexDirection: 'column', gap: 12 }}>
+                <li>
+                  Wei, W., et al. (2012). "A clinical study on the short-term effect of berberine in comparison to metformin on the metabolic characteristics of women with polycystic ovary syndrome." <em>European Journal of Endocrinology</em>, 166(1), 99-105. <a href="https://eje.bioscientifica.com/view/journals/eje/166/1/99.xml" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)', textDecoration: 'underline' }}>https://eje.bioscientifica.com/view/journals/eje/166/1/99.xml</a>
+                </li>
+                <li>
+                  Zhang, H., et al. (2010). "Berberine lowers blood glucose in type 2 diabetes mellitus patients through increasing insulin receptor expression." <em>Metabolism</em>, 59(2), 285-292. <a href="https://www.metabolismjournal.com/article/S0026-0495(09)00299-0/fulltext" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)', textDecoration: 'underline' }}>https://www.metabolismjournal.com/article/S0026-0495(09)00299-0/fulltext</a>
+                </li>
+                <li>
+                  Diamanti-Kandarakis, E., & Dunaif, A. (2012). "Insulin resistance and the polycystic ovary syndrome revisited: an update on mechanisms and implications." <em>Endocrine Reviews</em>, 33(6), 981-1030. <a href="https://academic.oup.com/edrv/article/33/6/981/2354807" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)', textDecoration: 'underline' }}>https://academic.oup.com/edrv/article/33/6/981/2354807</a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
     </>
   );
 }
-
-export { BlogBerberineForPcosWhatTheResearchActuallySays };
