@@ -1,12 +1,19 @@
 "use client";
 import React from 'react';
+import Image from 'next/image';
+import Head from 'next/head';
 import { Icon } from './common.jsx';
 
 const START_URL = "https://go.telehealthfx.com/start";
 
 function BlogNextGenGlp1DrugsSurvodutideOrforglipronAmyc() {
   return (
-    <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
+    <>
+
+      <Head>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{"@context":"https://schema.org","@type":"MedicalWebPage","name":"Next-Gen GLP-1 Drugs: Survodutide, Orforglipron & Amycretin","author":{"@type":"Person","name":"Julian Mercer, M.S.","url":"https://telehealthfx.com/about"},"publisher":{"@type":"Organization","name":"TelehealthFX","logo":{"@type":"ImageObject","url":"https://telehealthfx.com/assets/logo.png"}}}` }} />
+      </Head>
+      <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
       <div className="container" style={{ maxWidth: 800 }}>
         
         <div className="eyebrow" style={{ marginBottom: 20 }}>Pharmaceutical Pipeline & Future Science</div>
@@ -15,21 +22,21 @@ function BlogNextGenGlp1DrugsSurvodutideOrforglipronAmyc() {
         </h1>
         <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}>
           <div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)', color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold' }}>
-            <img src="/assets/jm-profile.jpg" alt="Julian Mercer" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' }} />
+            <Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' , height: "auto"}} priority={true} />
           </div>
           <div>
-            <div style={{ fontWeight: 500, fontSize: 14 }}>Julian Mercer, M.S.</div>
+            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
             <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 66 min read</div>
           </div>
         </div>
 
         <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
-          <img src="/assets/glp1_future_pipeline_featured.png" alt="A glowing neon DNA helix and complex molecular receptor structures intersecting with a futuristic sleek medical injection vial" style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' }} />
+          <Image src="/assets/glp1_future_pipeline_featured.png" alt="A glowing neon DNA helix and complex molecular receptor structures intersecting with a futuristic sleek medical injection vial" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' , height: "auto"}} priority={true} />
           
           <p>The field of medical weight loss is advancing at a velocity unseen in the history of modern pharmacology. We have completely exited the era of single-agonist therapies. While <a href="/medications/semaglutide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Semaglutide</a> (Wegovy/Ozempic) will forever be immortalized as the molecule that broke the dam—proving that obesity is a treatable biological disease rather than a moral failure—it is already being technologically eclipsed by the staggering innovations erupting from the pharmaceutical pipelines of Eli Lilly, Novo Nordisk, and Boehringer Ingelheim.</p>
 
           <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', maxWidth: '100%', background: '#000', borderRadius: '16px', margin: '40px 0', border: '1px solid var(--line-soft)' }}>
-            <iframe 
+            <iframe loading="lazy" 
               src="https://www.youtube.com/embed/qtkJzol-YXc?si=telehealthfx" 
               style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
               title="TelehealthFX Podcast Episode" 
@@ -77,7 +84,7 @@ function BlogNextGenGlp1DrugsSurvodutideOrforglipronAmyc() {
           <h3 style={{ fontSize: 28, marginTop: 40, marginBottom: 20, color: 'var(--ink)' }}>The Trifecta of Metabolic Annihilation</h3>
           <p>Retatrutide leverages every known neuroendocrine pathway to violently reverse obesity:</p>
           <ol>
-            <li style={{ marginBottom: 16 }}><strong>GLP-1 (Satiety):</strong> Severely delays gastric emptying and hits the hypothalamus to crush hunger and silence food noise.</li>
+            <li style={{ marginBottom: 16 }}><strong>GLP-1 (Satiety):</strong> Severely delays gastric emptying and hits the hypothalamus to crush hunger and silence <a href="/blog/glp-1-and-mental-health-anxiety-depression-food-no" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>food noise</a>.</li>
             <li style={{ marginBottom: 16 }}><strong>GIP (Fat Storage Optimization):</strong> Enhances insulin sensitivity, drastically reduces nausea (counteracting the GLP-1 side effects), and improves how the body clears triglycerides from the blood.</li>
             <li style={{ marginBottom: 16 }}><strong>Glucagon (Energy Expenditure):</strong> Directly attacks liver fat and massively upregulates resting energy expenditure, forcing the body to burn fat at a highly accelerated rate.</li>
           </ol>
@@ -157,7 +164,7 @@ function BlogNextGenGlp1DrugsSurvodutideOrforglipronAmyc() {
 
           <div style={{ background: 'var(--bg-secondary)', padding: 32, borderRadius: 16, marginBottom: 40 }}>
             <h4 style={{ fontSize: 20, marginBottom: 12, color: 'var(--ink)' }}>3. Are there any pipeline drugs specifically for muscle preservation?</h4>
-            <p style={{ fontSize: 16, color: 'var(--ink-2)' }}>Yes. The pharmaceutical industry is acutely aware that losing 30% of your body weight on Retatrutide will result in catastrophic muscle loss if left unchecked. Several companies (such as Regeneron) are currently testing "myostatin inhibitors"—drugs that actively force the body to build and retain muscle mass—in combination with GLP-1 therapies. Until those are approved, TelehealthFX utilizes proven peptide therapies like Sermorelin to accomplish this critical structural protection.</p>
+            <p style={{ fontSize: 16, color: 'var(--ink-2)' }}>Yes. The pharmaceutical industry is acutely aware that losing 30% of your body weight on Retatrutide will result in catastrophic <a href="/blog/the-muscle-loss-myth-how-to-protect-your-lean-mass" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>muscle loss</a> if left unchecked. Several companies (such as Regeneron) are currently testing "myostatin inhibitors"—drugs that actively force the body to build and retain muscle mass—in combination with GLP-1 therapies. Until those are approved, TelehealthFX utilizes proven peptide therapies like Sermorelin to accomplish this critical structural protection.</p>
           </div>
 
           <div style={{ background: 'var(--bg-secondary)', padding: 32, borderRadius: 16, marginBottom: 40 }}>
@@ -179,6 +186,7 @@ function BlogNextGenGlp1DrugsSurvodutideOrforglipronAmyc() {
         </div>
       </div>
     </section>
+    </>
   );
 }
 

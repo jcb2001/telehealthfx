@@ -1,12 +1,19 @@
 "use client";
 import React from 'react';
+import Image from 'next/image';
+import Head from 'next/head';
 import { Icon } from './common.jsx';
 
 const START_URL = "https://go.telehealthfx.com/start";
 
 function BlogSermorelinGrowthHormoneTheWeightLossAccelera() {
   return (
-    <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
+    <>
+
+      <Head>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{"@context":"https://schema.org","@type":"MedicalWebPage","name":"Sermorelin & Growth Hormone: The Weight Loss Accelerator","author":{"@type":"Person","name":"Julian Mercer, M.S.","url":"https://telehealthfx.com/about"},"publisher":{"@type":"Organization","name":"TelehealthFX","logo":{"@type":"ImageObject","url":"https://telehealthfx.com/assets/logo.png"}}}` }} />
+      </Head>
+      <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
       <div className="container" style={{ maxWidth: 800 }}>
         
         <div className="eyebrow" style={{ marginBottom: 20 }}>Muscle Preservation & Peptides</div>
@@ -15,21 +22,21 @@ function BlogSermorelinGrowthHormoneTheWeightLossAccelera() {
         </h1>
         <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}>
           <div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)', color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold' }}>
-            <img src="/assets/jm-profile.jpg" alt="Julian Mercer" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' }} />
+            <Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' , height: "auto"}} priority={true} />
           </div>
           <div>
-            <div style={{ fontWeight: 500, fontSize: 14 }}>Julian Mercer, M.S.</div>
+            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
             <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 40 min read</div>
           </div>
         </div>
 
         <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
-          <img src="/assets/sermorelin_peptide_featured.png" alt="A glowing neon muscular fiber matrix intersecting with a sleek medical injection vial" style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' }} />
+          <Image src="/assets/sermorelin_peptide_featured.png" alt="A glowing neon muscular fiber matrix intersecting with a sleek medical injection vial" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' , height: "auto"}} priority={true} />
           
           <p>The greatest biological hazard of rapid medical weight loss is the unintended destruction of lean muscle mass. As we discussed in our <a href="/blog/glp-1-muscle-loss-the-hidden-risk-nobodys-talking" style={{ color: 'var(--brand)', fontWeight: 500 }}>comprehensive review on GLP-1 muscle catabolism</a>, losing weight too quickly without proper structural support can lead to frailty, a crashed metabolism, and severe long-term health complications.</p>
 
           <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', maxWidth: '100%', background: '#000', borderRadius: '16px', margin: '40px 0', border: '1px solid var(--line-soft)' }}>
-            <iframe 
+            <iframe loading="lazy" 
               src="https://www.youtube.com/embed/gSn7DEsJWOQ?si=telehealthfx" 
               style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
               title="TelehealthFX Podcast Episode" 
@@ -72,7 +79,7 @@ function BlogSermorelinGrowthHormoneTheWeightLossAccelera() {
           <p>GLP-1 medications create the severe caloric deficit necessary to burn massive amounts of fat. Sermorelin supports the <em>quality</em> of that weight loss. By safely elevating your natural GH and IGF-1 levels, Sermorelin acts as a biochemical shield, signaling the body to preserve lean muscle tissue even while calories are restricted.</p>
 
           <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>2. Accelerated Recovery</h3>
-          <p>To truly prevent muscle loss, you must engage in <a href="/blog/glp-1-and-exercise-how-to-combine-medication-with" style={{ color: 'var(--brand)', fontWeight: 500 }}>heavy resistance training</a>. Sermorelin excels at accelerating tissue repair and cellular recovery. It allows you to train harder, recover faster, and build muscle density more efficiently, entirely transforming your body composition from "skinny fat" to toned and structured.</p>
+          <p>To truly prevent <a href="/blog/the-muscle-loss-myth-how-to-protect-your-lean-mass" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>muscle loss</a>, you must engage in <a href="/blog/glp-1-and-exercise-how-to-combine-medication-with" style={{ color: 'var(--brand)', fontWeight: 500 }}>heavy resistance training</a>. Sermorelin excels at accelerating tissue repair and cellular recovery. It allows you to train harder, recover faster, and build muscle density more efficiently, entirely transforming your body composition from "skinny fat" to toned and structured.</p>
 
           <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>3. Deep Slow-Wave Sleep</h3>
           <p>Natural growth hormone is released during the deepest phases of sleep. By restoring this natural rhythm, patients consistently report vastly improved sleep depth and quality. Better sleep directly translates to reduced cortisol levels, which further accelerates stubborn fat loss.</p>
@@ -116,6 +123,7 @@ function BlogSermorelinGrowthHormoneTheWeightLossAccelera() {
         </div>
       </div>
     </section>
+    </>
   );
 }
 

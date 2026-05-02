@@ -1,5 +1,7 @@
 "use client";
 import React from 'react';
+import Image from 'next/image';
+import Head from 'next/head';
 import { Icon } from './common.jsx';
 
 const CTA_URL = "https://go.telehealthfx.com/berberine";
@@ -7,7 +9,12 @@ const START_URL = "https://go.telehealthfx.com/start";
 
 function BlogTransdermalVsOral() {
   return (
-    <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
+    <>
+
+      <Head>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{"@context":"https://schema.org","@type":"MedicalWebPage","name":"Transdermal vs Oral Bioavailability: The Definitive Delivery Guide","author":{"@type":"Person","name":"Julian Mercer, M.S.","url":"https://telehealthfx.com/about"},"publisher":{"@type":"Organization","name":"TelehealthFX","logo":{"@type":"ImageObject","url":"https://telehealthfx.com/assets/logo.png"}}}` }} />
+      </Head>
+      <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
       <div className="container" style={{ maxWidth: 800 }}>
         
         <div className="eyebrow" style={{ marginBottom: 20 }}>Pharmacokinetic Review</div>
@@ -16,16 +23,16 @@ function BlogTransdermalVsOral() {
         </h1>
         <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}>
           <div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)', color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold' }}>
-            <img src="/assets/jm-profile.jpg" alt="Julian Mercer" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' }} />
+            <Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' , height: "auto"}} priority={true} />
           </div>
           <div>
-            <div style={{ fontWeight: 500, fontSize: 14 }}>Julian Mercer, M.S.</div>
+            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
             <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 27 min read</div>
           </div>
         </div>
 
         <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
-          <img src="/assets/delivery-featured.png" alt="Comparing transdermal vs oral bioavailability and injection delivery systems" style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' }} />
+          <Image src="/assets/delivery-featured.png" alt="Comparing transdermal vs oral bioavailability and injection delivery systems" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' , height: "auto"}} priority={true} />
           
           <p>In the pursuit of metabolic optimization, the active ingredient is only half the battle. Whether you are attempting to lower HbA1c with berberine, replace declining NAD+ levels, or utilize GLP-1 agonists for weight loss, the most profound biological bottleneck is delivery. A 1,000mg capsule of a miracle compound is utterly useless if it never enters your bloodstream.</p>
           
@@ -107,14 +114,14 @@ function BlogTransdermalVsOral() {
           <p>Semaglutide, the active peptide in <a href="/blog/what-is-a-glp-1-medication" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 medications</a>, is a massive macromolecule with a molecular weight of 4,113 Daltons. It is physically impossible for a molecule that large to passively diffuse through the stratum corneum. If you put Semaglutide in a transdermal patch, 0% of it would enter your bloodstream. It would simply sit on top of your skin.</p>
 
           <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>The Subcutaneous Route</h3>
-          <p>To deliver massive peptides like GLP-1s, Tirzepatide, or Sermorelin, we must mechanically bypass the skin barrier using a tiny needle. Subcutaneous injections deliver the peptide directly into the fatty tissue just beneath the skin. From there, it is rapidly absorbed into the capillaries. This provides 100% bioavailability, zero first-pass liver metabolism, and avoids the gastrointestinal tract entirely.</p>
+          <p>To deliver massive peptides like GLP-1s, Tirzepatide, or <a href="/medications/sermorelin" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Sermorelin</a>, we must mechanically bypass the skin barrier using a tiny needle. Subcutaneous injections deliver the peptide directly into the fatty tissue just beneath the skin. From there, it is rapidly absorbed into the capillaries. This provides 100% bioavailability, zero first-pass liver metabolism, and avoids the gastrointestinal tract entirely.</p>
 
           <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
             <div style={{ width: 48, height: 48, borderRadius: '50%', background: 'var(--brand-soft)', color: 'var(--brand)', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 20px' }}>
               <Icon.Check size={24} />
             </div>
             <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Access Clinical-Grade Injections</h3>
-            <p style={{ marginBottom: 24, fontSize: 16 }}>Need the power of GLP-1 peptides? See if you qualify for compounded Semaglutide or Tirzepatide prescribed by board-certified physicians.</p>
+            <p style={{ marginBottom: 24, fontSize: 16 }}>Need the power of GLP-1 peptides? See if you qualify for <a href="/blog/is-compounded-semaglutide-safe-what-you-need-to-kn" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>compounded semaglutide</a> or Tirzepatide prescribed by board-certified physicians.</p>
             <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>
               Check GLP-1 Eligibility <Icon.Arrow />
             </a>
@@ -161,6 +168,7 @@ function BlogTransdermalVsOral() {
         </div>
       </div>
     </section>
+    </>
   );
 }
 

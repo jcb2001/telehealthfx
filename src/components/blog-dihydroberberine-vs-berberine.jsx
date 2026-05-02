@@ -1,5 +1,7 @@
 "use client";
 import React from 'react';
+import Image from 'next/image';
+import Head from 'next/head';
 import { Icon } from './common.jsx';
 
 const CTA_URL = "https://go.telehealthfx.com/berberine";
@@ -7,7 +9,12 @@ const START_URL = "https://go.telehealthfx.com/start";
 
 function BlogDihydroberberineVsBerberine() {
   return (
-    <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
+    <>
+
+      <Head>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{"@context":"https://schema.org","@type":"MedicalWebPage","name":"Dihydroberberine vs Berberine: The 5x Absorption Multiplier Explained","author":{"@type":"Person","name":"Julian Mercer, M.S.","url":"https://telehealthfx.com/about"},"publisher":{"@type":"Organization","name":"TelehealthFX","logo":{"@type":"ImageObject","url":"https://telehealthfx.com/assets/logo.png"}}}` }} />
+      </Head>
+      <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
       <div className="container" style={{ maxWidth: 800 }}>
         
         <div className="eyebrow" style={{ marginBottom: 20 }}>Advanced Metabolic Formulations</div>
@@ -16,16 +23,16 @@ function BlogDihydroberberineVsBerberine() {
         </h1>
         <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}>
           <div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)', color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold' }}>
-            <img src="/assets/jm-profile.jpg" alt="Julian Mercer" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' }} />
+            <Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' , height: "auto"}} priority={true} />
           </div>
           <div>
-            <div style={{ fontWeight: 500, fontSize: 14 }}>Julian Mercer, M.S.</div>
+            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
             <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 23 min read</div>
           </div>
         </div>
 
         <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
-          <img src="/assets/dhb-featured.png" alt="Dihydroberberine vs berberine comparison for metabolic health" style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' }} />
+          <Image src="/assets/dhb-featured.png" alt="Dihydroberberine vs berberine comparison for metabolic health" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' , height: "auto"}} priority={true} />
           
           <p>The metabolic optimization community is well aware of berberine's incredible ability to activate AMPK, lower blood sugar, and act as a natural alternative to Metformin. However, as we detailed extensively in our review of <a href="/blog/berberine-oral-bioavailability" style={{ color: 'var(--brand)', fontWeight: 500 }}>berberine oral bioavailability</a>, swallowing raw berberine powder is a highly inefficient process that often leads to severe gastrointestinal distress.</p>
           
@@ -156,6 +163,7 @@ function BlogDihydroberberineVsBerberine() {
         </div>
       </div>
     </section>
+    </>
   );
 }
 

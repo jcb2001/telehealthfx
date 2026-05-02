@@ -1,12 +1,19 @@
 "use client";
 import React from 'react';
+import Image from 'next/image';
+import Head from 'next/head';
 import { Icon } from './common.jsx';
 
 const START_URL = "https://go.telehealthfx.com/start";
 
 function BlogWeightLossForWomenOver40HowGlp1CanHelp2() {
   return (
-    <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
+    <>
+
+      <Head>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{"@context":"https://schema.org","@type":"MedicalWebPage","name":"Weight Loss for Women Over 40: How GLP-1 Changes the Game","author":{"@type":"Person","name":"Julian Mercer, M.S.","url":"https://telehealthfx.com/about"},"publisher":{"@type":"Organization","name":"TelehealthFX","logo":{"@type":"ImageObject","url":"https://telehealthfx.com/assets/logo.png"}}}` }} />
+      </Head>
+      <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
       <div className="container" style={{ maxWidth: 800 }}>
         
         <div className="eyebrow" style={{ marginBottom: 20 }}>Women's Health & Metabolic Medicine</div>
@@ -15,21 +22,21 @@ function BlogWeightLossForWomenOver40HowGlp1CanHelp2() {
         </h1>
         <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}>
           <div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)', color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold' }}>
-            <img src="/assets/jm-profile.jpg" alt="Julian Mercer" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' }} />
+            <Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' , height: "auto"}} priority={true} />
           </div>
           <div>
-            <div style={{ fontWeight: 500, fontSize: 14 }}>Julian Mercer, M.S.</div>
+            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
             <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 45 min read</div>
           </div>
         </div>
 
         <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
-          <img src="/assets/women_over_40_featured.png" alt="Glowing neon hormonal estrogen ring fading into a sleek medical weight loss pen" style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' }} />
+          <Image src="/assets/women_over_40_featured.png" alt="Glowing neon hormonal estrogen ring fading into a sleek medical weight loss pen" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' , height: "auto"}} priority={true} />
           
           <p>For millions of women, the arrival of their 40s brings an incredibly frustrating biological shift: the exact same diet and exercise routines that effortlessly maintained their weight in their 20s and 30s suddenly stop working. They begin to accumulate stubborn abdominal fat, experience intense food cravings, and watch their energy levels plummet.</p>
 
           <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', maxWidth: '100%', background: '#000', borderRadius: '16px', margin: '40px 0', border: '1px solid var(--line-soft)' }}>
-            <iframe 
+            <iframe loading="lazy" 
               src="https://www.youtube.com/embed/WeL9Z100zSI?si=telehealthfx" 
               style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
               title="TelehealthFX Podcast Episode" 
@@ -59,7 +66,7 @@ function BlogWeightLossForWomenOver40HowGlp1CanHelp2() {
           <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>1. Declining Estrogen and "Meno-Belly"</h3>
           <p>During a woman's reproductive years, estrogen directs the body to store fat primarily in the hips, thighs, and buttocks (subcutaneous fat). As estrogen levels decline during perimenopause and menopause, the body's fat-storage mechanism shifts dramatically. The body begins prioritizing the storage of <strong>visceral fat</strong>—deep abdominal fat that surrounds the internal organs. This is why women often experience a thickening of the waistline even if their overall scale weight hasn't changed.</p>
 
-          <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>2. Accelerating Sarcopenia (Muscle Loss)</h3>
+          <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>2. Accelerating Sarcopenia (<a href="/blog/the-muscle-loss-myth-how-to-protect-your-lean-mass" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>muscle loss</a>)</h3>
           <p>Skeletal muscle is highly metabolically active tissue; it burns significantly more calories at rest than fat tissue. Starting in a woman's 30s, she naturally loses about 3% to 8% of her muscle mass per decade, a process called sarcopenia. This accelerates dramatically after 40. As muscle mass drops, the body's resting metabolic rate plummets, meaning you require fewer calories just to survive.</p>
 
           <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>3. Severe Insulin Resistance</h3>
@@ -78,7 +85,7 @@ function BlogWeightLossForWomenOver40HowGlp1CanHelp2() {
           <ul>
             <li style={{ marginBottom: 12 }}><strong>Correcting Insulin Resistance:</strong> GLP-1 medications dramatically improve peripheral insulin sensitivity. By lowering circulating insulin levels, the body is finally able to unlock and utilize stored body fat for energy.</li>
             <li style={{ marginBottom: 12 }}><strong>Targeting Visceral Fat:</strong> Clinical trials consistently demonstrate that Semaglutide and Tirzepatide preferentially target the reduction of metabolically dangerous visceral fat (the "meno-belly"), directly reducing cardiovascular disease risk.</li>
-            <li style={{ marginBottom: 12 }}><strong>Eliminating Hormonal Hunger:</strong> By agonizing GLP-1 receptors in the hypothalamus, the medication overrides the ghrelin surges caused by sleep deprivation and stress, completely eliminating obsessive "food noise" and restoring total behavioral control over food choices.</li>
+            <li style={{ marginBottom: 12 }}><strong>Eliminating Hormonal Hunger:</strong> By agonizing GLP-1 receptors in the hypothalamus, the medication overrides the ghrelin surges caused by sleep deprivation and stress, completely eliminating obsessive "<a href="/blog/glp-1-and-mental-health-anxiety-depression-food-no" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>food noise</a>" and restoring total behavioral control over food choices.</li>
           </ul>
 
           <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
@@ -130,6 +137,7 @@ function BlogWeightLossForWomenOver40HowGlp1CanHelp2() {
         </div>
       </div>
     </section>
+    </>
   );
 }
 

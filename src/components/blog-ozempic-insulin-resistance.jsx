@@ -1,12 +1,19 @@
 "use client";
 import React from 'react';
+import Image from 'next/image';
+import Head from 'next/head';
 import { Icon } from './common.jsx';
 
 const START_URL = "https://go.telehealthfx.com/start";
 
 function BlogOzempicInsulinResistance() {
   return (
-    <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
+    <>
+
+      <Head>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{"@context":"https://schema.org","@type":"MedicalWebPage","name":"Ozempic for Insulin Resistance: How GLP-1 Medications Reverse Metabolic Dysfunction","author":{"@type":"Person","name":"Julian Mercer, M.S.","url":"https://telehealthfx.com/about"},"publisher":{"@type":"Organization","name":"TelehealthFX","logo":{"@type":"ImageObject","url":"https://telehealthfx.com/assets/logo.png"}}}` }} />
+      </Head>
+      <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
       <div className="container" style={{ maxWidth: 800 }}>
         
         <div className="eyebrow" style={{ marginBottom: 20 }}>Mechanism of Action</div>
@@ -15,22 +22,22 @@ function BlogOzempicInsulinResistance() {
         </h1>
         <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}>
           <div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)', color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold' }}>
-            <img src="/assets/jm-profile.jpg" alt="Julian Mercer" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' }} />
+            <Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' , height: "auto"}} priority={true} />
           </div>
           <div>
-            <div style={{ fontWeight: 500, fontSize: 14 }}>Julian Mercer, M.S.</div>
+            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
             <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 22 min read</div>
           </div>
         </div>
 
         <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
-          <img src="/assets/ozempic-insulin-featured.png" alt="Using Ozempic for insulin resistance and metabolic health" style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)' }} />
+          <Image src="/assets/ozempic-insulin-featured.png" alt="Using Ozempic for insulin resistance and metabolic health" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)' , height: "auto"}} priority={true} />
           
           <p>For decades, the medical and fitness communities viewed obesity primarily as an issue of caloric surplus and a lack of willpower. Today, modern endocrinology recognizes that stubborn weight gain is often the symptom of a much deeper, more insidious cellular issue. If you are struggling to lose weight despite dieting and exercising, you might be looking into <strong>ozempic for insulin resistance</strong>.</p>
           
-          <p>When cells become resistant to insulin, the pancreas compensates by producing more of it. This state of hyperinsulinemia chemically blocks lipolysis (the burning of stored fat) and drives the body to constantly store excess energy as dangerous visceral fat. While natural compounds like <a href="/blog/berberine-vs-ozempic" style={{ color: 'var(--brand)', fontWeight: 500 }}>berberine</a> can gently support insulin sensitivity, the pharmaceutical introduction of GLP-1 receptor agonists like Ozempic has fundamentally changed the landscape of metabolic medicine.</p>
+          <p>When cells become resistant to insulin, the pancreas compensates by producing more of it. This state of hyperinsulinemia chemically blocks lipolysis (the burning of stored fat) and drives the body to constantly store excess energy as dangerous visceral fat. While natural compounds like <a href="/blog/Berberine-vs-ozempic" style={{ color: 'var(--brand)', fontWeight: 500 }}>berberine</a> can gently support insulin sensitivity, the pharmaceutical introduction of GLP-1 receptor agonists like Ozempic has fundamentally changed the landscape of metabolic medicine.</p>
 
-          <p>In this comprehensive, 5,000+ word clinical guide, we will explore the specific biochemical mechanisms by which semaglutide (the active molecule in Ozempic and Wegovy) actively reverses insulin resistance. We will look at how it protects pancreatic beta-cells, how it reduces visceral adiposity, and most importantly, how patients without a formal Type 2 Diabetes diagnosis can legally access compounded semaglutide to treat their metabolic syndrome off-label.</p>
+          <p>In this comprehensive, 5,000+ word clinical guide, we will explore the specific biochemical mechanisms by which semaglutide (the active molecule in Ozempic and Wegovy) actively reverses insulin resistance. We will look at how it protects pancreatic beta-cells, how it reduces visceral adiposity, and most importantly, how patients without a formal Type 2 Diabetes diagnosis can legally access <a href="/blog/is-compounded-semaglutide-safe-what-you-need-to-kn" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>compounded semaglutide</a> to treat their metabolic syndrome off-label.</p>
 
           <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
             <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Reverse Your Metabolic Age</h3>
@@ -76,7 +83,7 @@ function BlogOzempicInsulinResistance() {
           
           <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>1. Massive Reduction in Visceral Adiposity</h3>
           <p>The primary driver of insulin resistance is visceral fat—the hard, deep belly fat that wraps around your organs (like your liver and pancreas). Visceral fat is not just dead weight; it is highly biologically active tissue that constantly secretes inflammatory cytokines (like TNF-alpha and IL-6) which directly block insulin signaling pathways.</p>
-          <p>Ozempic operates heavily on the hypothalamus in the brain, crushing appetite and "food noise." This enforces a significant caloric deficit, leading to rapid weight loss. As visceral fat melts away, the inflammatory cytokine storm stops. The cells "change the locks" back, allowing insulin to work properly again. This is why many clinicians argue that Ozempic's greatest impact on insulin resistance is actually secondary to the massive fat loss it induces.</p>
+          <p>Ozempic operates heavily on the hypothalamus in the brain, crushing appetite and "<a href="/blog/glp-1-and-mental-health-anxiety-depression-food-no" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>food noise</a>." This enforces a significant caloric deficit, leading to rapid weight loss. As visceral fat melts away, the inflammatory cytokine storm stops. The cells "change the locks" back, allowing insulin to work properly again. This is why many clinicians argue that Ozempic's greatest impact on insulin resistance is actually secondary to the massive fat loss it induces.</p>
 
           <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>2. Restoration of Beta-Cell Function</h3>
           <p>In patients with severe insulin resistance or Type 2 Diabetes, the pancreatic beta-cells (the ones that make insulin) become exhausted, damaged, and eventually die off (apoptosis) due to the constant overwork of trying to lower high blood sugar. GLP-1 receptor agonists have been shown in clinical trials to promote beta-cell proliferation and prevent beta-cell apoptosis. Ozempic literally gives the pancreas a chance to heal and regenerate its insulin-producing capacity.</p>
@@ -164,6 +171,7 @@ function BlogOzempicInsulinResistance() {
         </div>
       </div>
     </section>
+    </>
   );
 }
 

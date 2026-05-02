@@ -1,12 +1,19 @@
 "use client";
 import React from 'react';
+import Image from 'next/image';
+import Head from 'next/head';
 import { Icon } from './common.jsx';
 
 const START_URL = "https://go.telehealthfx.com/start";
 
 function BlogWhatIsAGlp1Medication() {
   return (
-    <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
+    <>
+
+      <Head>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{"@context":"https://schema.org","@type":"MedicalWebPage","name":"What is a GLP-1 Medication? The Complete Science & Treatment Guide","author":{"@type":"Person","name":"Julian Mercer, M.S.","url":"https://telehealthfx.com/about"},"publisher":{"@type":"Organization","name":"TelehealthFX","logo":{"@type":"ImageObject","url":"https://telehealthfx.com/assets/logo.png"}}}` }} />
+      </Head>
+      <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
       <div className="container" style={{ maxWidth: 800 }}>
         
         <div className="eyebrow" style={{ marginBottom: 20 }}>The Ultimate Guide</div>
@@ -15,16 +22,16 @@ function BlogWhatIsAGlp1Medication() {
         </h1>
         <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}>
           <div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)', color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold' }}>
-            <img src="/assets/jm-profile.jpg" alt="Julian Mercer" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' }} />
+            <Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' , height: "auto"}} priority={true} />
           </div>
           <div>
-            <div style={{ fontWeight: 500, fontSize: 14 }}>Julian Mercer, M.S.</div>
+            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
             <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 32 min read</div>
           </div>
         </div>
 
         <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
-          <img src="/assets/glp1-featured.png" alt="Understanding what a GLP-1 medication is and how it works" style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)' }} />
+          <Image src="/assets/glp1-featured.png" alt="Understanding what a GLP-1 medication is and how it works" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)' , height: "auto"}} priority={true} />
           
           <p>Every decade, a pharmaceutical breakthrough completely upends an entire field of medicine. In the 1940s, it was penicillin for infectious disease. In the 1990s, it was statins for cardiology. Today, we are living through the GLP-1 revolution. But if you are watching the headlines about Ozempic, Wegovy, and Mounjaro, you are likely asking: <strong>what is a glp-1 medication</strong> exactly, and how do they work?</p>
           
@@ -55,7 +62,7 @@ function BlogWhatIsAGlp1Medication() {
           <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>How Do GLP-1 Medications Cause Weight Loss?</h2>
           <p>While originally developed to lower A1C in Type 2 Diabetics, endocrinologists quickly realized that GLP-1s cause massive, sustained weight loss through three distinct mechanisms.</p>
 
-          <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>1. Neurological Satiety (Crushing "Food Noise")</h3>
+          <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>1. Neurological Satiety (Crushing "<a href="/blog/glp-1-and-mental-health-anxiety-depression-food-no" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>food noise</a>")</h3>
           <p>The most profound effect of a GLP-1 medication is psychological. Patients report that the constant, obsessive thoughts about food—what the medical community calls "food noise"—completely disappear. The drug acts directly on the brain's reward centers. You no longer crave high-sugar, high-fat foods. You eat a few bites and feel physically and mentally satisfied.</p>
 
           <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>2. Delayed Gastric Emptying</h3>
@@ -132,7 +139,7 @@ function BlogWhatIsAGlp1Medication() {
           <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>What happens if I stop taking it?</h4>
           <p style={{ marginBottom: 24 }}>GLP-1 medications do not permanently change your DNA. If you use the drug to lose 50 pounds, but fail to change your underlying relationship with food, the "food noise" will return when you stop the medication, and you will likely regain the weight. It is a powerful tool to enforce a deficit while you build permanent, healthy habits.</p>
 
-          <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>Is Berberine really "Nature's Ozempic"?</h4>
+          <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>Is <a href="/medications/berberine" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Berberine</a> really "Nature's Ozempic"?</h4>
           <p style={{ marginBottom: 24 }}>No. Berberine works via AMPK activation, not the GLP-1 receptor. It does not crush your appetite or slow gastric emptying. It is a phenomenal supplement for mild insulin resistance, but it is not in the same universe as Semaglutide. We compare them directly in our <a href="/blog/berberine-vs-ozempic" style={{ color: 'var(--brand)', fontWeight: 500 }}>Berberine vs Ozempic clinical guide</a>.</p>
 
           <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
@@ -157,6 +164,7 @@ function BlogWhatIsAGlp1Medication() {
         </div>
       </div>
     </section>
+    </>
   );
 }
 

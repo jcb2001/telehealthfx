@@ -1,12 +1,19 @@
 "use client";
 import React from 'react';
+import Image from 'next/image';
+import Head from 'next/head';
 import { Icon } from './common.jsx';
 
 const START_URL = "https://go.telehealthfx.com/start";
 
 function BlogGlp1PlateauWhenWeightLossStallsWhatToDo2() {
   return (
-    <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
+    <>
+
+      <Head>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{"@context":"https://schema.org","@type":"MedicalWebPage","name":"The GLP-1 Plateau: When Weight Loss Stalls & What to Do","author":{"@type":"Person","name":"Julian Mercer, M.S.","url":"https://telehealthfx.com/about"},"publisher":{"@type":"Organization","name":"TelehealthFX","logo":{"@type":"ImageObject","url":"https://telehealthfx.com/assets/logo.png"}}}` }} />
+      </Head>
+      <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
       <div className="container" style={{ maxWidth: 800 }}>
         
         <div className="eyebrow" style={{ marginBottom: 20 }}>Metabolic Troubleshooting & Adaptation</div>
@@ -15,21 +22,21 @@ function BlogGlp1PlateauWhenWeightLossStallsWhatToDo2() {
         </h1>
         <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}>
           <div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)', color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold' }}>
-            <img src="/assets/jm-profile.jpg" alt="Julian Mercer" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' }} />
+            <Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' , height: "auto"}} priority={true} />
           </div>
           <div>
-            <div style={{ fontWeight: 500, fontSize: 14 }}>Julian Mercer, M.S.</div>
+            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
             <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 45 min read</div>
           </div>
         </div>
 
         <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
-          <img src="/assets/glp1_plateau_featured.png" alt="A glowing neon metabolic engine graph bursting through a barrier, intersecting with a sleek medical weight loss vial" style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' }} />
+          <Image src="/assets/glp1_plateau_featured.png" alt="A glowing neon metabolic engine graph bursting through a barrier, intersecting with a sleek medical weight loss vial" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' , height: "auto"}} priority={true} />
           
           <p>It happens to nearly every single patient on <a href="/blog/what-is-a-glp-1-medication" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 therapy</a>. After months of rapid, life-changing progress, the scale abruptly stops moving. You haven't changed your diet, you are still taking your medication, but for three weeks straight, your weight refuses to drop.</p>
 
           <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', maxWidth: '100%', background: '#000', borderRadius: '16px', margin: '40px 0', border: '1px solid var(--line-soft)' }}>
-            <iframe 
+            <iframe loading="lazy" 
               src="https://www.youtube.com/embed/HA4aCGMb9nE?si=telehealthfx" 
               style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
               title="TelehealthFX Podcast Episode" 
@@ -40,7 +47,7 @@ function BlogGlp1PlateauWhenWeightLossStallsWhatToDo2() {
           </div>
 
           
-          <p>Panic sets in. You assume the <a href="/medications/semaglutide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Semaglutide</a> has stopped working, or worse, that your body is fundamentally broken. Let us state the clinical reality immediately: a weight loss plateau is not a failure. It is a biological inevitability. Your body is a highly advanced survival machine, and it is currently engaging its emergency brakes to prevent what it perceives as starvation.</p>
+          <p>Panic sets in. You assume the <a href="/medications/semaglutide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Semaglutide</a> has stopped working, or worse, that your body is fundamentally broken. Let us state the clinical reality immediately: a <a href="/blog/glp-1-plateau-when-weight-loss-stalls-what-to-do-2" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>weight loss plateau</a> is not a failure. It is a biological inevitability. Your body is a highly advanced survival machine, and it is currently engaging its emergency brakes to prevent what it perceives as starvation.</p>
 
           <p>In this comprehensive troubleshooting guide, we will dissect the four specific biological mechanisms causing your plateau, outline a rigid 7-strategy framework to break through the metabolic stall, and explain when it is time to consult a TelehealthFX provider regarding a medication adjustment.</p>
 
@@ -59,7 +66,7 @@ function BlogGlp1PlateauWhenWeightLossStallsWhatToDo2() {
           <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>1. Adaptive Thermogenesis (Metabolic Slowdown)</h3>
           <p>As your body shrinks, it physically requires less energy to operate. A 250-pound body requires significantly more calories just to pump blood and breathe than a 200-pound body. Furthermore, the body actively slows your resting metabolic rate to conserve energy during a prolonged deficit. The caloric deficit that caused you to lose weight at month one is now your "maintenance" caloric level at month nine.</p>
 
-          <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>2. Muscle Loss</h3>
+          <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>2. <a href="/blog/the-muscle-loss-myth-how-to-protect-your-lean-mass" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>muscle loss</a></h3>
           <p>If you lost weight without adequate protein and resistance training, you inevitably lost metabolically active muscle tissue. Muscle burns calories even while you sleep. The less muscle you have, the lower your metabolic rate drops, creating a self-reinforcing stall.</p>
 
           <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>3. Set Point Defense</h3>
@@ -123,6 +130,7 @@ function BlogGlp1PlateauWhenWeightLossStallsWhatToDo2() {
         </div>
       </div>
     </section>
+    </>
   );
 }
 

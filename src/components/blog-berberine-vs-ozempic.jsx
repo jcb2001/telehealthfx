@@ -1,5 +1,7 @@
 "use client";
 import React from 'react';
+import Image from 'next/image';
+import Head from 'next/head';
 import { Icon } from './common.jsx';
 
 const BERBERINE_URL = "https://go.telehealthfx.com/berberine";
@@ -7,7 +9,12 @@ const START_URL = "https://go.telehealthfx.com/start";
 
 function BlogBerberineVsOzempic() {
   return (
-    <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
+    <>
+
+      <Head>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{"@context":"https://schema.org","@type":"MedicalWebPage","name":"Berberine vs Ozempic: The Complete Clinical Comparison & Weight Loss Guide","author":{"@type":"Person","name":"Julian Mercer, M.S.","url":"https://telehealthfx.com/about"},"publisher":{"@type":"Organization","name":"TelehealthFX","logo":{"@type":"ImageObject","url":"https://telehealthfx.com/assets/logo.png"}}}` }} />
+      </Head>
+      <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
       <div className="container" style={{ maxWidth: 800 }}>
         
         <div className="eyebrow" style={{ marginBottom: 20 }}>Clinical Comparison Guide</div>
@@ -16,16 +23,16 @@ function BlogBerberineVsOzempic() {
         </h1>
         <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}>
           <div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)', color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold' }}>
-            <img src="/assets/jm-profile.jpg" alt="Julian Mercer" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' }} />
+            <Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' , height: "auto"}} priority={true} />
           </div>
           <div>
-            <div style={{ fontWeight: 500, fontSize: 14 }}>Julian Mercer, M.S.</div>
+            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
             <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 28 min read</div>
           </div>
         </div>
 
         <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
-          <img src="/assets/ozempic-featured.png" alt="Berberine vs Ozempic comparison for metabolic health" style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)' }} />
+          <Image src="/assets/ozempic-featured.png" alt="Berberine vs Ozempic comparison for metabolic health" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)' , height: "auto"}} priority={true} />
           
           <p>When analyzing the current landscape of metabolic health and medical weight loss in 2026, the debate inevitably centers around two heavyweights: <strong>berberine vs ozempic</strong>. One is a highly regulated, synthetic pharmaceutical peptide that has revolutionized obesity treatment; the other is a naturally occurring alkaloid with thousands of years of traditional use, recently dubbed "Nature's Ozempic" by viral social media trends.</p>
           
@@ -60,7 +67,7 @@ function BlogBerberineVsOzempic() {
           <p>When you consume food, your intestines naturally release GLP-1. This hormone tells your pancreas to release insulin (to manage blood sugar), tells your liver to stop producing glucose, and signals the hypothalamus in your brain that you are full. However, natural GLP-1 is destroyed by an enzyme called DPP-4 within two minutes.</p>
           <p>Ozempic is a synthetic GLP-1 that resists enzymatic breakdown. It stays active in your system for a full week, providing three massive metabolic interventions:</p>
           <ul style={{ marginBottom: 24, paddingLeft: 20 }}>
-            <li style={{ marginBottom: 12 }}><strong>Central Nervous System Satiety:</strong> It powerfully suppresses appetite at the neurological level. The constant background signaling reduces what clinicians call "food noise." You simply do not feel hungry.</li>
+            <li style={{ marginBottom: 12 }}><strong>Central Nervous System Satiety:</strong> It powerfully suppresses appetite at the neurological level. The constant background signaling reduces what clinicians call "<a href="/blog/glp-1-and-mental-health-anxiety-depression-food-no" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>food noise</a>." You simply do not feel hungry.</li>
             <li style={{ marginBottom: 12 }}><strong>Gastric Emptying:</strong> It slows the rate at which food leaves your stomach. By delaying digestion, you remain physically full for many hours after a small meal.</li>
             <li style={{ marginBottom: 12 }}><strong>Glucose-Dependent Insulin Secretion:</strong> It forces the pancreas to release insulin only when blood sugar is high, preventing hypoglycemia while rapidly clearing glucose from the bloodstream.</li>
           </ul>
@@ -131,7 +138,7 @@ function BlogBerberineVsOzempic() {
                 </tr>
                 <tr>
                   <td style={{ padding: 16, borderBottom: '1px solid var(--line-soft)', fontWeight: 600 }}>Side Effects Profile</td>
-                  <td style={{ padding: 16, borderBottom: '1px solid var(--line-soft)' }}>Nausea, vomiting, diarrhea, muscle loss (if protein is low)</td>
+                  <td style={{ padding: 16, borderBottom: '1px solid var(--line-soft)' }}>Nausea, vomiting, diarrhea, <a href="/blog/the-muscle-loss-myth-how-to-protect-your-lean-mass" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>muscle loss</a> (if protein is low)</td>
                   <td style={{ padding: 16, borderBottom: '1px solid var(--line-soft)' }}>Severe GI distress (if oral), zero GI issues (if transdermal)</td>
                 </tr>
                 <tr style={{ background: '#fafafa' }}>
@@ -174,7 +181,7 @@ function BlogBerberineVsOzempic() {
           <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>The Ozempic Access Crisis: Cost and Shortages</h3>
           <p>The flaw with Ozempic isn't the delivery (subcutaneous injections are highly effective); the flaw is the pharmaceutical monopoly. Branded Ozempic and Wegovy cost upwards of $1,000 to $1,300 per month out-of-pocket in the US. Insurance companies are increasingly dropping coverage for weight loss medications, demanding exhausting prior authorizations. Furthermore, Novo Nordisk cannot manufacture the pens fast enough, leading to constant national shortages.</p>
           
-          <p><strong>The Solution: Compounded Semaglutide.</strong> During FDA-declared drug shortages, licensed 503A and 503B compounding pharmacies are legally permitted to compound the exact same active pharmaceutical ingredient (semaglutide base). This allows patients to access clinical GLP-1 therapy for a fraction of the cost—often starting under $150 per month—without dealing with insurance denials or pharmacy stockouts. (Learn more about <a href="/blog/ozempic-insulin-resistance" style={{ color: 'var(--brand)', fontWeight: 500 }}>how semaglutide treats insulin resistance off-label</a>).</p>
+          <p><strong>The Solution: <a href="/blog/is-compounded-semaglutide-safe-what-you-need-to-kn" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>compounded semaglutide</a>.</strong> During FDA-declared drug shortages, licensed 503A and 503B compounding pharmacies are legally permitted to compound the exact same active pharmaceutical ingredient (semaglutide base). This allows patients to access clinical GLP-1 therapy for a fraction of the cost—often starting under $150 per month—without dealing with insurance denials or pharmacy stockouts. (Learn more about <a href="/blog/ozempic-insulin-resistance" style={{ color: 'var(--brand)', fontWeight: 500 }}>how semaglutide treats insulin resistance off-label</a>).</p>
 
           <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Who Should Choose Which?</h2>
           
@@ -238,6 +245,7 @@ function BlogBerberineVsOzempic() {
         </div>
       </div>
     </section>
+    </>
   );
 }
 

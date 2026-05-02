@@ -1,12 +1,19 @@
 "use client";
 import React from 'react';
+import Image from 'next/image';
+import Head from 'next/head';
 import { Icon } from './common.jsx';
 
 const START_URL = "https://go.telehealthfx.com/start";
 
 function BlogGlp1AndAlcoholWhatYouNeedToKnow2026Clini() {
   return (
-    <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
+    <>
+
+      <Head>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{"@context":"https://schema.org","@type":"MedicalWebPage","name":"GLP-1 and Alcohol: The Hidden Interactions You Need to Know","author":{"@type":"Person","name":"Julian Mercer, M.S.","url":"https://telehealthfx.com/about"},"publisher":{"@type":"Organization","name":"TelehealthFX","logo":{"@type":"ImageObject","url":"https://telehealthfx.com/assets/logo.png"}}}` }} />
+      </Head>
+      <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
       <div className="container" style={{ maxWidth: 800 }}>
         
         <div className="eyebrow" style={{ marginBottom: 20 }}>Lifestyle Guidelines & Safety Protocols</div>
@@ -15,21 +22,21 @@ function BlogGlp1AndAlcoholWhatYouNeedToKnow2026Clini() {
         </h1>
         <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}>
           <div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)', color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold' }}>
-            <img src="/assets/jm-profile.jpg" alt="Julian Mercer" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' }} />
+            <Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' , height: "auto"}} priority={true} />
           </div>
           <div>
-            <div style={{ fontWeight: 500, fontSize: 14 }}>Julian Mercer, M.S.</div>
+            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
             <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 42 min read</div>
           </div>
         </div>
 
         <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
-          <img src="/assets/glp1_alcohol_featured.png" alt="A sleek medical weight loss pen intersecting with an elegant, glowing neon crystal cocktail glass that appears to be shattering" style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' }} />
+          <Image src="/assets/glp1_alcohol_featured.png" alt="A sleek medical weight loss pen intersecting with an elegant, glowing neon crystal cocktail glass that appears to be shattering" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' , height: "auto"}} priority={true} />
           
           <p>Over the past two years, an unexpected phenomenon has flooded social media: patients taking <a href="/blog/what-is-a-glp-1-medication" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 medications</a> for weight loss suddenly reporting that they have entirely lost their desire to drink alcohol. What began as anecdotal internet chatter has now been validated by rigorous, peer-reviewed clinical trials published in leading medical journals like <em>JAMA Psychiatry</em> and <em>The Lancet</em>.</p>
 
           <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', maxWidth: '100%', background: '#000', borderRadius: '16px', margin: '40px 0', border: '1px solid var(--line-soft)' }}>
-            <iframe 
+            <iframe loading="lazy" 
               src="https://www.youtube.com/embed/lge7CNPfgq8?si=telehealthfx" 
               style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
               title="TelehealthFX Podcast Episode" 
@@ -59,7 +66,7 @@ function BlogGlp1AndAlcoholWhatYouNeedToKnow2026Clini() {
           <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>Dopamine and the Reward Pathway</h3>
           <p>GLP-1 receptors are not just located in your gut and pancreas; they are densely packed within the brain's primary reward centers (the ventral tegmental area and the nucleus accumbens). These are the exact neurological pathways responsible for generating the intense surge of dopamine you feel when you consume high-sugar foods or alcohol.</p>
           
-          <p>When Semaglutide or Tirzepatide binds to these receptors, it effectively dampens the reward signal. Just as the medication eliminates "food noise" and obsessive thoughts about sugar, it appears to similarly eliminate "alcohol noise." The chemical reward your brain expects from a glass of wine simply doesn't arrive, causing the behavioral desire to evaporate.</p>
+          <p>When Semaglutide or Tirzepatide binds to these receptors, it effectively dampens the reward signal. Just as the medication eliminates "<a href="/blog/glp-1-and-mental-health-anxiety-depression-food-no" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>food noise</a>" and obsessive thoughts about sugar, it appears to similarly eliminate "alcohol noise." The chemical reward your brain expects from a glass of wine simply doesn't arrive, causing the behavioral desire to evaporate.</p>
 
           <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>The Clinical Trial Data (2025-2026)</h3>
           <p>This is no longer just an internet rumor. A landmark 2025 trial published in <em>JAMA Psychiatry</em> demonstrated that weekly Semaglutide injections significantly reduced weekly alcohol cravings, the average number of drinks per drinking day, and the frequency of heavy drinking episodes compared to a placebo. This was corroborated by a 2026 trial in <em>The Lancet</em> showing similar reductions in alcohol consumption among obese adults.</p>
@@ -132,6 +139,7 @@ function BlogGlp1AndAlcoholWhatYouNeedToKnow2026Clini() {
         </div>
       </div>
     </section>
+    </>
   );
 }
 

@@ -1,12 +1,19 @@
 "use client";
 import React from 'react';
+import Image from 'next/image';
+import Head from 'next/head';
 import { Icon } from './common.jsx';
 
 const START_URL = "https://go.telehealthfx.com/start";
 
 function BlogIntermittentFastingGlp1DoTheyWorkTogether2() {
   return (
-    <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
+    <>
+
+      <Head>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{"@context":"https://schema.org","@type":"MedicalWebPage","name":"Diet Traps: Keto, Intermittent Fasting, and GLP-1 Therapy","author":{"@type":"Person","name":"Julian Mercer, M.S.","url":"https://telehealthfx.com/about"},"publisher":{"@type":"Organization","name":"TelehealthFX","logo":{"@type":"ImageObject","url":"https://telehealthfx.com/assets/logo.png"}}}` }} />
+      </Head>
+      <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
       <div className="container" style={{ maxWidth: 800 }}>
         
         <div className="eyebrow" style={{ marginBottom: 20 }}>Lifestyle & Dietary Optimization</div>
@@ -15,16 +22,16 @@ function BlogIntermittentFastingGlp1DoTheyWorkTogether2() {
         </h1>
         <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}>
           <div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)', color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold' }}>
-            <img src="/assets/jm-profile.jpg" alt="Julian Mercer" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' }} />
+            <Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' , height: "auto"}} priority={true} />
           </div>
           <div>
-            <div style={{ fontWeight: 500, fontSize: 14 }}>Julian Mercer, M.S.</div>
+            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
             <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 68 min read</div>
           </div>
         </div>
 
         <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
-          <img src="/assets/glp1_diet_traps_featured.png" alt="A glowing neon shattered keto food pyramid intersecting with a sleek medical weight loss pen" style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' }} />
+          <Image src="/assets/glp1_diet_traps_featured.png" alt="A glowing neon shattered keto food pyramid intersecting with a sleek medical weight loss pen" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' , height: "auto"}} priority={true} />
           
           <p>The modern weight loss landscape is littered with extreme dietary dogmas, strict nutritional cults, and punishing lifestyle protocols. For the last twenty years, patients suffering from chronic obesity and insulin resistance have been sold an endless rotation of "biohacks" guaranteed to melt visceral fat. From the severe carbohydrate restrictions of the Ketogenic Diet (Keto) to the punishing chronological constraints of Intermittent Fasting (IF) and One Meal A Day (OMAD), the prevailing philosophy has always been built on deprivation and willpower.</p>
           
@@ -143,7 +150,7 @@ function BlogIntermittentFastingGlp1DoTheyWorkTogether2() {
 
           <div style={{ background: 'var(--bg-secondary)', padding: 32, borderRadius: 16, marginBottom: 40 }}>
             <h4 style={{ fontSize: 20, marginBottom: 12, color: 'var(--ink)' }}>3. I literally cannot eat enough protein because I am so full. What do I do?</h4>
-            <p style={{ fontSize: 16, color: 'var(--ink-2)' }}>This is the most common and dangerous side effect of GLP-1 therapy. If you cannot consume solid protein, you must transition immediately to high-quality liquid whey protein isolates or essential amino acid (EAA) supplements. Liquids pass through the delayed stomach much faster than solid food. If you consistently fail to hit your protein targets, you must contact your provider to potentially lower your GLP-1 dose. Muscle loss is unacceptable.</p>
+            <p style={{ fontSize: 16, color: 'var(--ink-2)' }}>This is the most common and dangerous side effect of GLP-1 therapy. If you cannot consume solid protein, you must transition immediately to high-quality liquid whey protein isolates or essential amino acid (EAA) supplements. Liquids pass through the delayed stomach much faster than solid food. If you consistently fail to hit your protein targets, you must contact your provider to potentially lower your GLP-1 dose. <a href="/blog/the-muscle-loss-myth-how-to-protect-your-lean-mass" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>muscle loss</a> is unacceptable.</p>
           </div>
 
           <div style={{ background: 'var(--bg-secondary)', padding: 32, borderRadius: 16, marginBottom: 40 }}>
@@ -165,6 +172,7 @@ function BlogIntermittentFastingGlp1DoTheyWorkTogether2() {
         </div>
       </div>
     </section>
+    </>
   );
 }
 

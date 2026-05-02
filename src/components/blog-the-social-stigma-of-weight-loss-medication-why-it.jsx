@@ -1,12 +1,19 @@
 "use client";
 import React from 'react';
+import Image from 'next/image';
+import Head from 'next/head';
 import { Icon } from './common.jsx';
 
 const START_URL = "https://go.telehealthfx.com/start";
 
 function BlogTheSocialStigmaOfWeightLossMedicationWhyIt() {
   return (
-    <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
+    <>
+
+      <Head>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{"@context":"https://schema.org","@type":"MedicalWebPage","name":"The Social Stigma of Weight Loss Medication: Why It's Nobody's Business (2026 Clinical Guide)","author":{"@type":"Person","name":"Julian Mercer, M.S.","url":"https://telehealthfx.com/about"},"publisher":{"@type":"Organization","name":"TelehealthFX","logo":{"@type":"ImageObject","url":"https://telehealthfx.com/assets/logo.png"}}}` }} />
+      </Head>
+      <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
       <div className="container" style={{ maxWidth: 800 }}>
         
         <div className="eyebrow" style={{ marginBottom: 20 }}>Clinical Education</div>
@@ -15,16 +22,16 @@ function BlogTheSocialStigmaOfWeightLossMedicationWhyIt() {
         </h1>
         <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}>
           <div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)', color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold' }}>
-            <img src="/assets/jm-profile.jpg" alt="Julian Mercer" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' }} />
+            <Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' , height: "auto"}} priority={true} />
           </div>
           <div>
-            <div style={{ fontWeight: 500, fontSize: 14 }}>Julian Mercer, M.S.</div>
+            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
             <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026</div>
           </div>
         </div>
 
         <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
-          <img src="/assets/tirzepatide-semaglutide-featured.png" alt="The Social Stigma of Weight Loss Medication: Why It's Nobody's Business (2026 Clinical Guide)" style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' }} />
+          <Image src="/assets/tirzepatide-semaglutide-featured.png" alt="The Social Stigma of Weight Loss Medication: Why It's Nobody's Business (2026 Clinical Guide)" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' , height: "auto"}} priority={true} />
           
           <div dangerouslySetInnerHTML={{ __html: `<p># Episode 26 — Research Template</p>
 <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: "var(--ink)" }}>"The Social Stigma of Weight Loss Medication: Why It's Nobody's Business"</h2>
@@ -57,7 +64,7 @@ function BlogTheSocialStigmaOfWeightLossMedicationWhyIt() {
 <li style={{ marginBottom: 12 }}>The human body biologically resists weight loss. It is an evolutionary survival mechanism.</li>
 <li style={{ marginBottom: 12 }}>When you restrict calories, your resting metabolic rate drops (adaptive thermogenesis) and hunger hormones (ghrelin) skyrocket.</li>
 <li style={{ marginBottom: 12 }}>The body defends its highest weight. It is a biological "defended state."</li>
-<li style={{ marginBottom: 12 }}>GLP-1s do not replace willpower; they fix the broken biological signals (food noise, broken satiety cues) so that a person's willpower actually has a chance to work.</li>
+<li style={{ marginBottom: 12 }}>GLP-1s do not replace willpower; they fix the broken biological signals (<a href="/blog/glp-1-and-mental-health-anxiety-depression-food-no" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>food noise</a>, broken satiety cues) so that a person's willpower actually has a chance to work.</li>
 
 <p>---</p>
 
@@ -128,6 +135,7 @@ function BlogTheSocialStigmaOfWeightLossMedicationWhyIt() {
         </div>
       </div>
     </section>
+    </>
   );
 }
 

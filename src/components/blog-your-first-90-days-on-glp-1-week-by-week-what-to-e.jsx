@@ -1,12 +1,19 @@
 "use client";
 import React from 'react';
+import Image from 'next/image';
+import Head from 'next/head';
 import { Icon } from './common.jsx';
 
 const START_URL = "https://go.telehealthfx.com/start";
 
 function BlogYourFirst90DaysOnGlp1WeekByWeekWhatToE() {
   return (
-    <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
+    <>
+
+      <Head>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{"@context":"https://schema.org","@type":"MedicalWebPage","name":"Your <a href="/blog/your-first-90-days-on-glp-1-week-by-week-what-to-e" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>first 90 days</a> on GLP-1: A Week-by-Week Clinical Guide","author":{"@type":"Person","name":"Julian Mercer, M.S.","url":"https://telehealthfx.com/about"},"publisher":{"@type":"Organization","name":"TelehealthFX","logo":{"@type":"ImageObject","url":"https://telehealthfx.com/assets/logo.png"}}}` }} />
+      </Head>
+      <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
       <div className="container" style={{ maxWidth: 800 }}>
         
         <div className="eyebrow" style={{ marginBottom: 20 }}>Patient Onboarding & Clinical Protocols</div>
@@ -15,16 +22,16 @@ function BlogYourFirst90DaysOnGlp1WeekByWeekWhatToE() {
         </h1>
         <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}>
           <div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)', color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold' }}>
-            <img src="/assets/jm-profile.jpg" alt="Julian Mercer" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' }} />
+            <Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' , height: "auto"}} priority={true} />
           </div>
           <div>
-            <div style={{ fontWeight: 500, fontSize: 14 }}>Julian Mercer, M.S.</div>
+            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
             <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 62 min read</div>
           </div>
         </div>
 
         <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
-          <img src="/assets/glp1_90days_featured.png" alt="A glowing neon calendar and chronological matrix intersecting with a sleek medical weight loss pen" style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' }} />
+          <Image src="/assets/glp1_90days_featured.png" alt="A glowing neon calendar and chronological matrix intersecting with a sleek medical weight loss pen" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' , height: "auto"}} priority={true} />
           
           <p>Initiating a medical weight loss protocol with a <a href="/blog/what-is-a-glp-1-medication" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 receptor agonist</a> is one of the most profound, life-altering metabolic interventions a patient will ever undergo. Drugs like <a href="/medications/semaglutide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Semaglutide</a> and <a href="/medications/tirzepatide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Tirzepatide</a> possess the power to completely eradicate severe obesity, reverse insulin resistance, and drastically extend human lifespan. However, the journey to metabolic dominance is not instantaneous, nor is it entirely frictionless.</p>
           
@@ -32,7 +39,7 @@ function BlogYourFirst90DaysOnGlp1WeekByWeekWhatToE() {
 
           <p>The difference between the patient who quits in frustration on Day 45 and the patient who loses 80 pounds and completely reverses their Type 2 Diabetes on Day 365 comes down to one element: pristine, uncompromising clinical preparation.</p>
           
-          <p>In this extraordinarily comprehensive, 5,500+ word clinical roadmap, we are going to meticulously chart the first 90 days of GLP-1 therapy. We will break down the precise biological shifts, expected side effects, and required dietary actions on a strict, week-by-week chronological timeline. We will explain exactly why the titration phase is necessary, how to navigate the psychological impact of losing the "food noise," and the non-negotiable requirements for preserving skeletal muscle mass. Finally, we will outline how the board-certified providers at TelehealthFX actively guide and monitor patients through this critical 90-day window to ensure absolute, unbreakable adherence.</p>
+          <p>In this extraordinarily comprehensive, 5,500+ word clinical roadmap, we are going to meticulously chart the first 90 days of GLP-1 therapy. We will break down the precise biological shifts, expected side effects, and required dietary actions on a strict, week-by-week chronological timeline. We will explain exactly why the titration phase is necessary, how to navigate the psychological impact of losing the "<a href="/blog/glp-1-and-mental-health-anxiety-depression-food-no" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>food noise</a>," and the non-negotiable requirements for preserving skeletal muscle mass. Finally, we will outline how the board-certified providers at TelehealthFX actively guide and monitor patients through this critical 90-day window to ensure absolute, unbreakable adherence.</p>
 
           <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
             <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Do Not Navigate This Alone</h3>
@@ -170,6 +177,7 @@ function BlogYourFirst90DaysOnGlp1WeekByWeekWhatToE() {
         </div>
       </div>
     </section>
+    </>
   );
 }
 

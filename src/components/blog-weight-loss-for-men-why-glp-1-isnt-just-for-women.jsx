@@ -1,12 +1,19 @@
 "use client";
 import React from 'react';
+import Image from 'next/image';
+import Head from 'next/head';
 import { Icon } from './common.jsx';
 
 const START_URL = "https://go.telehealthfx.com/start";
 
 function BlogWeightLossForMenWhyGlp1IsntJustForWomen() {
   return (
-    <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
+    <>
+
+      <Head>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{"@context":"https://schema.org","@type":"MedicalWebPage","name":"Weight Loss for Men: Why GLP-1 Isn't Just for Women","author":{"@type":"Person","name":"Julian Mercer, M.S.","url":"https://telehealthfx.com/about"},"publisher":{"@type":"Organization","name":"TelehealthFX","logo":{"@type":"ImageObject","url":"https://telehealthfx.com/assets/logo.png"}}}` }} />
+      </Head>
+      <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
       <div className="container" style={{ maxWidth: 800 }}>
         
         <div className="eyebrow" style={{ marginBottom: 20 }}>Men's Health & Metabolic Medicine</div>
@@ -15,21 +22,21 @@ function BlogWeightLossForMenWhyGlp1IsntJustForWomen() {
         </h1>
         <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}>
           <div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)', color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold' }}>
-            <img src="/assets/jm-profile.jpg" alt="Julian Mercer" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' }} />
+            <Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' , height: "auto"}} priority={true} />
           </div>
           <div>
-            <div style={{ fontWeight: 500, fontSize: 14 }}>Julian Mercer, M.S.</div>
+            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
             <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 36 min read</div>
           </div>
         </div>
 
         <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
-          <img src="/assets/mens_health_featured.png" alt="Neon molecular testosterone structure intersecting with a sleek medical weight loss pen" style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' }} />
+          <Image src="/assets/mens_health_featured.png" alt="Neon molecular testosterone structure intersecting with a sleek medical weight loss pen" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' , height: "auto"}} priority={true} />
           
           <p>If you look at the marketing landscape for <a href="/blog/what-is-a-glp-1-medication" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 medications</a>, you would assume obesity is exclusively a women's issue. The branding, the testimonials, and the commercial targeting overwhelmingly exclude men. This creates a dangerous stigma: men feel they should be able to "handle it on their own" in the gym, viewing medical weight loss as somehow unmasculine.</p>
 
           <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', maxWidth: '100%', background: '#000', borderRadius: '16px', margin: '40px 0', border: '1px solid var(--line-soft)' }}>
-            <iframe 
+            <iframe loading="lazy" 
               src="https://www.youtube.com/embed/zBRQRzkmuXM?si=telehealthfx" 
               style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
               title="TelehealthFX Podcast Episode" 
@@ -57,7 +64,7 @@ function BlogWeightLossForMenWhyGlp1IsntJustForWomen() {
           <p>A man's waist circumference is the single most accurate visual indicator of his internal health. A waist circumference over 40 inches indicates the presence of severe visceral fat—fat that wraps around the internal organs and functions as an actively destructive endocrine organ.</p>
 
           <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>1. The Destruction of Testosterone</h3>
-          <p>Visceral fat is packed with an enzyme called <em>aromatase</em>. Aromatase has one primary job: it converts your naturally produced testosterone directly into estrogen. The fatter a man gets, the more of his testosterone is chemically stolen and converted. Clinical data shows that a mere 4-inch increase in waist circumference results in a 75% increased risk of low testosterone. Up to 40% of obese men suffer from clinically deficient testosterone, leading to severe fatigue, muscle loss, and depression.</p>
+          <p>Visceral fat is packed with an enzyme called <em>aromatase</em>. Aromatase has one primary job: it converts your naturally produced testosterone directly into estrogen. The fatter a man gets, the more of his testosterone is chemically stolen and converted. Clinical data shows that a mere 4-inch increase in waist circumference results in a 75% increased risk of low testosterone. Up to 40% of obese men suffer from clinically deficient testosterone, leading to severe fatigue, <a href="/blog/the-muscle-loss-myth-how-to-protect-your-lean-mass" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>muscle loss</a>, and depression.</p>
 
           <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>2. Erectile Dysfunction (The Early Warning Sign)</h3>
           <p>Erectile dysfunction is not just a sexual issue; it is a vascular issue. Obesity causes severe endothelial dysfunction, preventing healthy blood flow throughout the body. Because the penile arteries are much smaller than coronary arteries, they clog and fail first. Men with a 42-inch waist are nearly twice as likely to develop ED compared to men with a 32-inch waist. In fact, 79% of men presenting with ED are clinically overweight or obese.</p>
@@ -116,6 +123,7 @@ function BlogWeightLossForMenWhyGlp1IsntJustForWomen() {
         </div>
       </div>
     </section>
+    </>
   );
 }
 

@@ -1,12 +1,19 @@
 "use client";
 import React from 'react';
+import Image from 'next/image';
+import Head from 'next/head';
 import { Icon } from './common.jsx';
 
 const START_URL = "https://go.telehealthfx.com/start";
 
 function BlogWhatHappensWhenYouStopGlp1MedicationTheRe() {
   return (
-    <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
+    <>
+
+      <Head>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{"@context":"https://schema.org","@type":"MedicalWebPage","name":"What Happens When You Stop GLP-1 Medication? The Rebound Effect Explained","author":{"@type":"Person","name":"Julian Mercer, M.S.","url":"https://telehealthfx.com/about"},"publisher":{"@type":"Organization","name":"TelehealthFX","logo":{"@type":"ImageObject","url":"https://telehealthfx.com/assets/logo.png"}}}` }} />
+      </Head>
+      <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
       <div className="container" style={{ maxWidth: 800 }}>
         
         <div className="eyebrow" style={{ marginBottom: 20 }}>Clinical Physiology & Long-Term Management</div>
@@ -15,21 +22,21 @@ function BlogWhatHappensWhenYouStopGlp1MedicationTheRe() {
         </h1>
         <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}>
           <div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)', color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold' }}>
-            <img src="/assets/jm-profile.jpg" alt="Julian Mercer" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' }} />
+            <Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' , height: "auto"}} priority={true} />
           </div>
           <div>
-            <div style={{ fontWeight: 500, fontSize: 14 }}>Julian Mercer, M.S.</div>
+            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
             <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 44 min read</div>
           </div>
         </div>
 
         <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
-          <img src="/assets/glp1_rebound_effect_featured.png" alt="Neon scale tipping next to a fading molecular structure" style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' }} />
+          <Image src="/assets/glp1_rebound_effect_featured.png" alt="Neon scale tipping next to a fading molecular structure" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' , height: "auto"}} priority={true} />
           
           <p>Of all the questions surrounding <a href="/blog/what-is-a-glp-1-medication" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 medications</a>, none is more emotionally charged or frequently asked than this: <em>"Do I have to take it forever? What happens when I stop?"</em></p>
 
           <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', maxWidth: '100%', background: '#000', borderRadius: '16px', margin: '40px 0', border: '1px solid var(--line-soft)' }}>
-            <iframe 
+            <iframe loading="lazy" 
               src="https://www.youtube.com/embed/Gcv-dnQcXZA?si=telehealthfx" 
               style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
               title="TelehealthFX Podcast Episode" 
@@ -42,7 +49,7 @@ function BlogWhatHappensWhenYouStopGlp1MedicationTheRe() {
           
           <p>Millions of consumers who started on medications like <a href="/medications/semaglutide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Semaglutide</a> and <a href="/medications/tirzepatide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Tirzepatide</a> during the massive 2023–2024 shortage era are now reaching their one- or two-year marks. They have achieved incredible metabolic transformations, but are now facing the daunting prospect of life after the injection. The fear of "the rebound"—rapidly regaining all the weight they fought so hard to lose—is driving massive consumer anxiety.</p>
 
-          <p>In this comprehensive clinical guide, we will break down the biological mechanisms of the GLP-1 rebound effect. We will look directly at the definitive STEP 1 Extension Trial data to see exactly how much weight patients regain on average, explain the horrifying psychological return of "food noise," and discuss the dangerous phenomenon of sarcopenic obesity. Most importantly, we will outline an evidence-based Maintenance Playbook to help you protect your progress.</p>
+          <p>In this comprehensive clinical guide, we will break down the biological mechanisms of the GLP-1 rebound effect. We will look directly at the definitive STEP 1 Extension Trial data to see exactly how much weight patients regain on average, explain the horrifying psychological return of "<a href="/blog/glp-1-and-mental-health-anxiety-depression-food-no" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>food noise</a>," and discuss the dangerous phenomenon of sarcopenic obesity. Most importantly, we will outline an evidence-based Maintenance Playbook to help you protect your progress.</p>
 
           <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
             <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Navigate Maintenance with Clinical Experts</h3>
@@ -76,7 +83,7 @@ function BlogWhatHappensWhenYouStopGlp1MedicationTheRe() {
           </ul>
 
           <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>The Hidden Danger: Sarcopenic Obesity</h3>
-          <p>Perhaps the most concerning aspect of the rebound effect is the impact on body composition. As we covered in our <a href="/blog/glp-1-muscle-loss-the-hidden-risk-nobodys-talking" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 Muscle Loss guide</a>, patients lose a significant amount of lean mass while actively taking the drug. If a patient stops the medication and rapidly regains the weight without engaging in aggressive resistance training, the regained weight will consist disproportionately of fat tissue, not muscle.</p>
+          <p>Perhaps the most concerning aspect of the rebound effect is the impact on body composition. As we covered in our <a href="/blog/glp-1-muscle-loss-the-hidden-risk-nobodys-talking" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 <a href="/blog/the-muscle-loss-myth-how-to-protect-your-lean-mass" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>muscle loss</a> guide</a>, patients lose a significant amount of lean mass while actively taking the drug. If a patient stops the medication and rapidly regains the weight without engaging in aggressive resistance training, the regained weight will consist disproportionately of fat tissue, not muscle.</p>
           <p>This leads to a condition known as sarcopenic obesity. A patient might return to their exact original scale weight, but their body fat percentage will be significantly higher than when they started, leaving them in a worse metabolic state than before.</p>
 
           <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
@@ -106,7 +113,7 @@ function BlogWhatHappensWhenYouStopGlp1MedicationTheRe() {
 
           <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Why TelehealthFX is the Long-Term Solution</h2>
           
-          <p>The failure of most telehealth weight loss clinics is that they operate as a short-term subscription service. They mail you the medication, but they do not prepare you for life after the initial weight loss phase.</p>
+          <p>The failure of most <a href="/blog/how-to-choose-a-telehealth-weight-loss-program-and" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>telehealth weight loss</a> clinics is that they operate as a short-term subscription service. They mail you the medication, but they do not prepare you for life after the initial weight loss phase.</p>
           
           <p>TelehealthFX is fundamentally different. Our platform supports the entire metabolic journey. Our 1-on-1 clinical onboarding ensures that from day one, you are building the protein habits and lifestyle foundations required for permanent change. Furthermore, TelehealthFX offers access to powerful complementary therapies like <a href="/medications/nad" style={{ color: 'var(--brand)', fontWeight: 500 }}>NAD+</a> for sustained cellular energy and Sermorelin to combat the loss of lean mass. </p>
           
@@ -134,6 +141,7 @@ function BlogWhatHappensWhenYouStopGlp1MedicationTheRe() {
         </div>
       </div>
     </section>
+    </>
   );
 }
 

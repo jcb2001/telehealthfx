@@ -1,12 +1,19 @@
 "use client";
 import React from 'react';
+import Image from 'next/image';
+import Head from 'next/head';
 import { Icon } from './common.jsx';
 
 const START_URL = "https://go.telehealthfx.com/start";
 
 function BlogTirzepatideVsSemaglutideWhichGlp1IsRightFo() {
   return (
-    <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
+    <>
+
+      <Head>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{"@context":"https://schema.org","@type":"MedicalWebPage","name":"Tirzepatide vs. Semaglutide: Which GLP-1 is Right for You?","author":{"@type":"Person","name":"Julian Mercer, M.S.","url":"https://telehealthfx.com/about"},"publisher":{"@type":"Organization","name":"TelehealthFX","logo":{"@type":"ImageObject","url":"https://telehealthfx.com/assets/logo.png"}}}` }} />
+      </Head>
+      <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
       <div className="container" style={{ maxWidth: 800 }}>
         
         <div className="eyebrow" style={{ marginBottom: 20 }}>Clinical Pharmacology & Medication Selection</div>
@@ -15,21 +22,21 @@ function BlogTirzepatideVsSemaglutideWhichGlp1IsRightFo() {
         </h1>
         <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}>
           <div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)', color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold' }}>
-            <img src="/assets/jm-profile.jpg" alt="Julian Mercer" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' }} />
+            <Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' , height: "auto"}} priority={true} />
           </div>
           <div>
-            <div style={{ fontWeight: 500, fontSize: 14 }}>Julian Mercer, M.S.</div>
+            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
             <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 38 min read</div>
           </div>
         </div>
 
         <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
-          <img src="/assets/tirzepatide_vs_semaglutide_featured.png" alt="Two glowing medical weight loss pens facing each other on a dark reflective surface" style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' }} />
+          <Image src="/assets/tirzepatide_vs_semaglutide_featured.png" alt="Two glowing medical weight loss pens facing each other on a dark reflective surface" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' , height: "auto"}} priority={true} />
           
           <p>It is the most frequently asked question in modern metabolic medicine: <em>"Which medication is better?"</em> With a confusing array of brand names—Wegovy, Ozempic, Mounjaro, Zepbound—patients are often overwhelmed when trying to determine which injection will yield the best results for their specific body.</p>
 
           <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', maxWidth: '100%', background: '#000', borderRadius: '16px', margin: '40px 0', border: '1px solid var(--line-soft)' }}>
-            <iframe 
+            <iframe loading="lazy" 
               src="https://www.youtube.com/embed/5Rq8KJKRzrk?si=telehealthfx" 
               style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
               title="TelehealthFX Podcast Episode" 
@@ -109,7 +116,7 @@ function BlogTirzepatideVsSemaglutideWhichGlp1IsRightFo() {
           <p>Semaglutide possesses a significantly longer clinical track record. For patients who prioritize decades of long-term safety data, particularly regarding extensive cardiovascular risk reduction (as demonstrated in the SELECT trial), Semaglutide remains the gold standard. Furthermore, for patients who absolutely refuse injections, Semaglutide is currently the only GLP-1 available in a <a href="/blog/oral-semaglutide-is-here-is-the-glp-1-pill-as-good" style={{ color: 'var(--brand)', fontWeight: 500 }}>daily oral formulation</a>.</p>
 
           <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>When Tirzepatide May Be Preferable</h3>
-          <p>For patients seeking maximum total body weight reduction, or for those who suffer from severe, stubborn insulin resistance (such as <a href="/blog/berberine-for-pcos-what-the-research-actually-says" style={{ color: 'var(--brand)', fontWeight: 500 }}>patients with PCOS</a>), the dual-agonist mechanism of Tirzepatide is often clinically superior. It is also an excellent option for patients who have "plateaued" and stopped losing weight on maximum doses of Semaglutide.</p>
+          <p>For patients seeking maximum total body weight reduction, or for those who suffer from severe, stubborn insulin resistance (such as <a href="/blog/Berberine-for-pcos-what-the-research-actually-says" style={{ color: 'var(--brand)', fontWeight: 500 }}>patients with PCOS</a>), the dual-agonist mechanism of Tirzepatide is often clinically superior. It is also an excellent option for patients who have "plateaued" and stopped losing weight on maximum doses of Semaglutide.</p>
 
           <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
             <div style={{ width: 48, height: 48, borderRadius: '50%', background: 'var(--brand-soft)', color: 'var(--brand)', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 20px' }}>
@@ -150,6 +157,7 @@ function BlogTirzepatideVsSemaglutideWhichGlp1IsRightFo() {
         </div>
       </div>
     </section>
+    </>
   );
 }
 

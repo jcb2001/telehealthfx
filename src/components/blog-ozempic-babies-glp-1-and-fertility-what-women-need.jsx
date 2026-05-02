@@ -1,12 +1,19 @@
 "use client";
 import React from 'react';
+import Image from 'next/image';
+import Head from 'next/head';
 import { Icon } from './common.jsx';
 
 const START_URL = "https://go.telehealthfx.com/start";
 
 function BlogOzempicBabiesGlp1AndFertilityWhatWomenNeed() {
   return (
-    <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
+    <>
+
+      <Head>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{"@context":"https://schema.org","@type":"MedicalWebPage","name":"Ozempic Babies: GLP-1 and Fertility — What Women Need to Know","author":{"@type":"Person","name":"Julian Mercer, M.S.","url":"https://telehealthfx.com/about"},"publisher":{"@type":"Organization","name":"TelehealthFX","logo":{"@type":"ImageObject","url":"https://telehealthfx.com/assets/logo.png"}}}` }} />
+      </Head>
+      <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
       <div className="container" style={{ maxWidth: 800 }}>
         
         <div className="eyebrow" style={{ marginBottom: 20 }}>Women's Health & Reproductive Endocrinology</div>
@@ -15,21 +22,21 @@ function BlogOzempicBabiesGlp1AndFertilityWhatWomenNeed() {
         </h1>
         <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}>
           <div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)', color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold' }}>
-            <img src="/assets/jm-profile.jpg" alt="Julian Mercer" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' }} />
+            <Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' , height: "auto"}} priority={true} />
           </div>
           <div>
-            <div style={{ fontWeight: 500, fontSize: 14 }}>Julian Mercer, M.S.</div>
+            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
             <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 62 min read</div>
           </div>
         </div>
 
         <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
-          <img src="/assets/ozempic_babies_fertility_featured.png" alt="A glowing neon embryonic and cellular matrix intersecting with a sleek medical weight loss pen" style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' }} />
+          <Image src="/assets/ozempic_babies_fertility_featured.png" alt="A glowing neon embryonic and cellular matrix intersecting with a sleek medical weight loss pen" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' , height: "auto"}} priority={true} />
           
           <p>Over the past three years, a bizarre and highly viral phenomenon has swept across social media platforms. Tens of thousands of women—many of whom had been diagnosed with severe, treatment-resistant infertility, and others who were strictly adhering to their daily oral contraceptive pills—suddenly found themselves staring at positive pregnancy tests. The common denominator among these unprecedented medical anomalies was not a new fertility drug or a change in partner. It was the initiation of <a href="/blog/what-is-a-glp-1-medication" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 receptor agonist therapy</a>.</p>
 
           <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', maxWidth: '100%', background: '#000', borderRadius: '16px', margin: '40px 0', border: '1px solid var(--line-soft)' }}>
-            <iframe 
+            <iframe loading="lazy" 
               src="https://www.youtube.com/embed/pSWBEPzrdXA?si=telehealthfx" 
               style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
               title="TelehealthFX Podcast Episode" 
@@ -128,7 +135,7 @@ function BlogOzempicBabiesGlp1AndFertilityWhatWomenNeed() {
           <p>In pharmacology, it generally takes roughly five half-lives for a drug to be considered completely eliminated from the human body. Therefore, the strict, internationally recognized clinical guideline is the <strong>8-Week Washout Period</strong>. A woman must completely discontinue her GLP-1 injections at least two full months (8 weeks) before actively attempting to conceive. This ensures that the serum concentration of the peptide is at absolute zero when the embryo implants and begins organogenesis.</p>
 
           <h3 style={{ fontSize: 28, marginTop: 40, marginBottom: 20, color: 'var(--ink)' }}>The Clinical Catch-22: Rebound and Relapse</h3>
-          <p>The 8-week washout period introduces a terrifying "Catch-22" for the patient. Obesity is a chronic, relapsing disease. When you withdraw the GLP-1 therapy, the severe hunger, the food noise, and the underlying insulin resistance roar back to life. The patient must navigate the two months of the washout period, plus the nine months of gestation, completely unmedicated.</p>
+          <p>The 8-week washout period introduces a terrifying "Catch-22" for the patient. Obesity is a chronic, relapsing disease. When you withdraw the GLP-1 therapy, the severe hunger, the <a href="/blog/glp-1-and-mental-health-anxiety-depression-food-no" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>food noise</a>, and the underlying insulin resistance roar back to life. The patient must navigate the two months of the washout period, plus the nine months of gestation, completely unmedicated.</p>
           
           <p>During this massive 11-month gap, the risk of "rebound" weight gain is immense. If the mother rapidly regains the adipose tissue she lost, she instantly re-introduces the severe risks of gestational diabetes, preeclampsia (life-threatening high blood pressure during pregnancy), and macrosomia (an excessively large baby leading to traumatic birth complications).</p>
 
@@ -198,6 +205,7 @@ function BlogOzempicBabiesGlp1AndFertilityWhatWomenNeed() {
         </div>
       </div>
     </section>
+    </>
   );
 }
 

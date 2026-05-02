@@ -1,12 +1,19 @@
 "use client";
 import React from 'react';
+import Image from 'next/image';
+import Head from 'next/head';
 import { Icon } from './common.jsx';
 
 const START_URL = "https://go.telehealthfx.com/start";
 
 function BlogWegovyFdaLabel() {
   return (
-    <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
+    <>
+
+      <Head>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{"@context":"https://schema.org","@type":"MedicalWebPage","name":"The Wegovy FDA Label Decoded: Criteria, Clinical Data, and Off-Label Access","author":{"@type":"Person","name":"Julian Mercer, M.S.","url":"https://telehealthfx.com/about"},"publisher":{"@type":"Organization","name":"TelehealthFX","logo":{"@type":"ImageObject","url":"https://telehealthfx.com/assets/logo.png"}}}` }} />
+      </Head>
+      <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
       <div className="container" style={{ maxWidth: 800 }}>
         
         <div className="eyebrow" style={{ marginBottom: 20 }}>Regulatory Analysis</div>
@@ -15,16 +22,16 @@ function BlogWegovyFdaLabel() {
         </h1>
         <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}>
           <div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)', color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold' }}>
-            <img src="/assets/jm-profile.jpg" alt="Julian Mercer" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' }} />
+            <Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' , height: "auto"}} priority={true} />
           </div>
           <div>
-            <div style={{ fontWeight: 500, fontSize: 14 }}>Julian Mercer, M.S.</div>
+            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
             <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 26 min read</div>
           </div>
         </div>
 
         <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
-          <img src="/assets/wegovy-featured.png" alt="Understanding the Wegovy FDA label and compounding access" style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' }} />
+          <Image src="/assets/wegovy-featured.png" alt="Understanding the Wegovy FDA label and compounding access" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' , height: "auto"}} priority={true} />
           
           <p>On June 4, 2021, the landscape of obesity medicine changed forever. The U.S. Food and Drug Administration approved Semaglutide 2.4 mg under the brand name Wegovy for chronic weight management. However, understanding the exact <strong>wegovy fda label</strong> is critical, because those specific criteria dictate who gets insurance coverage, who gets denied, and why millions of Americans are turning to compounded alternatives.</p>
           
@@ -34,7 +41,7 @@ function BlogWegovyFdaLabel() {
 
           <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
             <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Bypass the $1,300 Price Tag</h3>
-            <p style={{ marginBottom: 24, fontSize: 16 }}>If your insurance denied your Wegovy prescription, see if you qualify for compounded semaglutide starting at just $146/mo.</p>
+            <p style={{ marginBottom: 24, fontSize: 16 }}>If your insurance denied your Wegovy prescription, see if you qualify for <a href="/blog/is-compounded-semaglutide-safe-what-you-need-to-kn" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>compounded semaglutide</a> starting at just $146/mo.</p>
             <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>
               Check GLP-1 Eligibility <Icon.Arrow />
             </a>
@@ -56,7 +63,7 @@ function BlogWegovyFdaLabel() {
             <li style={{ marginBottom: 12 }}><strong>Type 2 Diabetes Mellitus</strong></li>
             <li style={{ marginBottom: 12 }}><strong>Dyslipidemia</strong> (High cholesterol or abnormal lipids)</li>
           </ul>
-          <p>This is where the first major hurdle for patients arises. If you are struggling with severe <a href="/blog/ozempic-insulin-resistance" style={{ color: 'var(--brand)', fontWeight: 500 }}>insulin resistance</a> or <a href="/blog/berberine-pcos-weight-loss" style={{ color: 'var(--brand)', fontWeight: 500 }}>PCOS weight gain</a>, but your BMI is 26.5 and your blood pressure is normal, your insurance will instantly reject a Wegovy claim because it violates the FDA label indications.</p>
+          <p>This is where the first major hurdle for patients arises. If you are struggling with severe <a href="/blog/ozempic-insulin-resistance" style={{ color: 'var(--brand)', fontWeight: 500 }}>insulin resistance</a> or <a href="/blog/Berberine-pcos-weight-loss" style={{ color: 'var(--brand)', fontWeight: 500 }}>PCOS weight gain</a>, but your BMI is 26.5 and your blood pressure is normal, your insurance will instantly reject a Wegovy claim because it violates the FDA label indications.</p>
 
           <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The Clinical Data: The STEP 1 Trial</h2>
           <p>The FDA does not grant approvals lightly. The Wegovy FDA label is backed by the Semaglutide Treatment Effect in People with Obesity (STEP) clinical trial program. The most famous of these is the STEP 1 trial, published in the <em>New England Journal of Medicine</em>.</p>
@@ -176,6 +183,7 @@ function BlogWegovyFdaLabel() {
         </div>
       </div>
     </section>
+    </>
   );
 }
 

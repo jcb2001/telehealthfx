@@ -1,12 +1,19 @@
 "use client";
 import React from 'react';
+import Image from 'next/image';
+import Head from 'next/head';
 import { Icon } from './common.jsx';
 
 const START_URL = "https://go.telehealthfx.com/start";
 
 function BlogFDACompoundingBan() {
   return (
-    <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
+    <>
+
+      <Head>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{"@context":"https://schema.org","@type":"MedicalWebPage","name":"FDA Proposes Banning <a href="/blog/is-compounded-semaglutide-safe-what-you-need-to-kn" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>compounded semaglutide</a>: What It Means for Your GLP-1 Options in 2026","author":{"@type":"Person","name":"Julian Mercer, M.S.","url":"https://telehealthfx.com/about"},"publisher":{"@type":"Organization","name":"TelehealthFX","logo":{"@type":"ImageObject","url":"https://telehealthfx.com/assets/logo.png"}}}` }} />
+      </Head>
+      <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
       <div className="container" style={{ maxWidth: 800 }}>
         
         <div className="eyebrow" style={{ marginBottom: 20 }}>Regulatory & Consumer Protection</div>
@@ -15,21 +22,21 @@ function BlogFDACompoundingBan() {
         </h1>
         <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}>
           <div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)', color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold' }}>
-            <img src="/assets/jm-profile.jpg" alt="Julian Mercer" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' }} />
+            <Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' , height: "auto"}} priority={true} />
           </div>
           <div>
-            <div style={{ fontWeight: 500, fontSize: 14 }}>Julian Mercer, M.S.</div>
+            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
             <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 45 min read</div>
           </div>
         </div>
 
         <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
-          <img src="/assets/fda-compounding-ban-featured.png" alt="FDA building with compounding pharmacy concept" style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' }} />
+          <Image src="/assets/fda-compounding-ban-featured.png" alt="FDA building with compounding pharmacy concept" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' , height: "auto"}} priority={true} />
           
           <p>On April 30, 2026, the FDA dropped a regulatory bombshell on the medical weight loss industry. In a landmark proposal, the agency announced its intention to exclude semaglutide, tirzepatide, and liraglutide from the 503B bulks list. If finalized, this ruling will fundamentally alter the landscape of medical weight loss, effectively banning large-scale outsourcing facilities from manufacturing these life-changing <a href="/blog/what-is-a-glp-1-medication" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 medications</a> from bulk drug substances.</p>
 
           <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', maxWidth: '100%', background: '#000', borderRadius: '16px', margin: '40px 0', border: '1px solid var(--line-soft)' }}>
-            <iframe 
+            <iframe loading="lazy" 
               src="https://www.youtube.com/embed/ERXLzJ_D1uY?si=telehealthfx" 
               style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
               title="TelehealthFX Podcast Episode" 
@@ -107,7 +114,7 @@ function BlogFDACompoundingBan() {
 
           <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The Consumer Protection Checklist: Spotting the 7 Red Flags</h2>
           
-          <p>With the FTC launching major enforcement actions against several telehealth providers for deceptive practices, hidden fees, and illegal compounding, it is imperative to act as an informed consumer. If you are exploring telehealth weight loss options in 2026, you must protect your health and your finances. We have developed this 8-point consumer protection checklist to help you identify the red flags of an illicit operation.</p>
+          <p>With the FTC launching major enforcement actions against several telehealth providers for deceptive practices, hidden fees, and illegal compounding, it is imperative to act as an informed consumer. If you are exploring <a href="/blog/how-to-choose-a-telehealth-weight-loss-program-and" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>telehealth weight loss</a> options in 2026, you must protect your health and your finances. We have developed this 8-point consumer protection checklist to help you identify the red flags of an illicit operation.</p>
           
           <ol>
             <li style={{ marginBottom: 16 }}><strong>Hidden Membership Fees:</strong> The most common predatory tactic. Platforms lure patients in with a low advertised medication cost (e.g., "$99/month"), but bury a mandatory, recurring $135+ monthly subscription fee in the fine print. At TelehealthFX, we demand radical transparency: the price of the medication includes the clinical care. There are zero hidden membership fees.</li>
@@ -141,7 +148,7 @@ function BlogFDACompoundingBan() {
           <p style={{ marginBottom: 24 }}>The FDA is prioritizing patient safety. They found 'no demonstrated clinical need' for bulk compounding of these drugs when FDA-approved versions are available. They also issued warning letters to pharmacies using unsafe ingredients like 'semaglutide sodium' instead of the approved base molecule.</p>
 
           <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>Can I just use "Nature's Ozempic" instead?</h4>
-          <p style={{ marginBottom: 24 }}>"Nature's Ozempic" is a marketing term for berberine. While <a href="/blog/berberine-vs-ozempic" style={{ color: 'var(--brand)', fontWeight: 500 }}>berberine</a> is a highly effective, natural AMPK activator that improves insulin sensitivity, it does not possess the powerful incretin hormone action of a true GLP-1 medication. It is an excellent supplement, but not a pharmaceutical equivalent for extreme weight loss.</p>
+          <p style={{ marginBottom: 24 }}>"Nature's Ozempic" is a marketing term for <a href="/medications/berberine" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Berberine</a>. While <a href="/blog/berberine-vs-ozempic" style={{ color: 'var(--brand)', fontWeight: 500 }}>berberine</a> is a highly effective, natural AMPK activator that improves insulin sensitivity, it does not possess the powerful incretin hormone action of a true GLP-1 medication. It is an excellent supplement, but not a pharmaceutical equivalent for extreme weight loss.</p>
 
           <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
             <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Ready for Transparent, Clinical Weight Loss?</h2>
@@ -165,6 +172,7 @@ function BlogFDACompoundingBan() {
         </div>
       </div>
     </section>
+    </>
   );
 }
 

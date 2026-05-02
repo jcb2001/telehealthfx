@@ -1,12 +1,19 @@
 "use client";
 import React from 'react';
+import Image from 'next/image';
+import Head from 'next/head';
 import { Icon } from './common.jsx';
 
 const START_URL = "https://go.telehealthfx.com/start";
 
 function BlogTirzepatideVsSemaglutide() {
   return (
-    <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
+    <>
+
+      <Head>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{"@context":"https://schema.org","@type":"MedicalWebPage","name":"Tirzepatide vs Semaglutide Weight Loss: The Dual-Agonist Difference","author":{"@type":"Person","name":"Julian Mercer, M.S.","url":"https://telehealthfx.com/about"},"publisher":{"@type":"Organization","name":"TelehealthFX","logo":{"@type":"ImageObject","url":"https://telehealthfx.com/assets/logo.png"}}}` }} />
+      </Head>
+      <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
       <div className="container" style={{ maxWidth: 800 }}>
         
         <div className="eyebrow" style={{ marginBottom: 20 }}>Clinical Comparison</div>
@@ -15,16 +22,16 @@ function BlogTirzepatideVsSemaglutide() {
         </h1>
         <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}>
           <div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)', color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold' }}>
-            <img src="/assets/jm-profile.jpg" alt="Julian Mercer" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' }} />
+            <Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' , height: "auto"}} priority={true} />
           </div>
           <div>
-            <div style={{ fontWeight: 500, fontSize: 14 }}>Julian Mercer, M.S.</div>
+            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
             <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 31 min read</div>
           </div>
         </div>
 
         <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
-          <img src="/assets/tirzepatide-semaglutide-featured.png" alt="Molecular comparison of tirzepatide vs semaglutide for weight loss" style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' }} />
+          <Image src="/assets/tirzepatide-semaglutide-featured.png" alt="Molecular comparison of tirzepatide vs semaglutide for weight loss" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' , height: "auto"}} priority={true} />
           
           <p>For the past several years, semaglutide (the active ingredient in Ozempic and Wegovy) has reigned supreme as the gold standard in medical weight loss. It shattered clinical trial records and fundamentally changed how endocrinologists treat the obesity epidemic. But pharmacology never stops advancing. Today, a new, more powerful molecule has entered the arena: <a href="/medications/tirzepatide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Tirzepatide</a> (Zepbound and Mounjaro).</p>
           
@@ -106,7 +113,7 @@ function BlogTirzepatideVsSemaglutide() {
               <Icon.Check size={24} />
             </div>
             <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Skip the Pharmacy Line</h3>
-            <p style={{ marginBottom: 24, fontSize: 16 }}>Take our 60-second medical assessment to see if you qualify for affordable, clinical-grade compounded Semaglutide or Tirzepatide.</p>
+            <p style={{ marginBottom: 24, fontSize: 16 }}>Take our 60-second medical assessment to see if you qualify for affordable, clinical-grade <a href="/blog/is-compounded-semaglutide-safe-what-you-need-to-kn" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>compounded semaglutide</a> or Tirzepatide.</p>
             <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>
               Start Your Evaluation <Icon.Arrow />
             </a>
@@ -118,7 +125,7 @@ function BlogTirzepatideVsSemaglutide() {
           <p style={{ marginBottom: 24 }}>For most patients new to medical weight loss, Semaglutide is the standard first-line treatment. It is highly effective and significantly cheaper. Tirzepatide is often reserved as a "step-up" therapy for patients who have stalled on Semaglutide or who have extreme metabolic resistance.</p>
 
           <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>Is Tirzepatide the same as "Nature's Ozempic"?</h4>
-          <p style={{ marginBottom: 24 }}>No. Tirzepatide is a highly complex synthetic peptide. "Nature's Ozempic" is a marketing nickname given to the botanical alkaloid Berberine. While transdermal berberine is excellent for mild insulin resistance, it cannot match the sheer weight loss power of a GLP-1/GIP injection. We compare the botanical and pharmaceutical approaches in our <a href="/blog/berberine-vs-ozempic" style={{ color: 'var(--brand)', fontWeight: 500 }}>Berberine vs Ozempic clinical guide</a>.</p>
+          <p style={{ marginBottom: 24 }}>No. Tirzepatide is a highly complex synthetic peptide. "Nature's Ozempic" is a marketing nickname given to the botanical alkaloid <a href="/medications/berberine" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Berberine</a>. While transdermal berberine is excellent for mild insulin resistance, it cannot match the sheer weight loss power of a GLP-1/GIP injection. We compare the botanical and pharmaceutical approaches in our <a href="/blog/berberine-vs-ozempic" style={{ color: 'var(--brand)', fontWeight: 500 }}>Berberine vs Ozempic clinical guide</a>.</p>
 
           <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>Do I have to take them forever?</h4>
           <p style={{ marginBottom: 24 }}>These medications act as a crutch. They enforce a caloric deficit by crushing your appetite. If you use this window to permanently change your relationship with food, prioritize protein, and build muscle mass, you can titrate off the medication. If you eat the same garbage diet just in smaller portions, the weight will return when you stop the drug.</p>
@@ -145,6 +152,7 @@ function BlogTirzepatideVsSemaglutide() {
         </div>
       </div>
     </section>
+    </>
   );
 }
 

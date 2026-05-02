@@ -1,12 +1,19 @@
 "use client";
 import React from 'react';
+import Image from 'next/image';
+import Head from 'next/head';
 import { Icon } from './common.jsx';
 
 const START_URL = "https://go.telehealthfx.com/start";
 
 function BlogOralSemaglutideIsHereIsTheGlp1PillAsGood() {
   return (
-    <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
+    <>
+
+      <Head>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{"@context":"https://schema.org","@type":"MedicalWebPage","name":"Oral Semaglutide Is Here: Is the GLP-1 Pill as Good as the Injection?","author":{"@type":"Person","name":"Julian Mercer, M.S.","url":"https://telehealthfx.com/about"},"publisher":{"@type":"Organization","name":"TelehealthFX","logo":{"@type":"ImageObject","url":"https://telehealthfx.com/assets/logo.png"}}}` }} />
+      </Head>
+      <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
       <div className="container" style={{ maxWidth: 800 }}>
         
         <div className="eyebrow" style={{ marginBottom: 20 }}>Product Comparison & Efficacy</div>
@@ -15,16 +22,16 @@ function BlogOralSemaglutideIsHereIsTheGlp1PillAsGood() {
         </h1>
         <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}>
           <div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)', color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold' }}>
-            <img src="/assets/jm-profile.jpg" alt="Julian Mercer" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' }} />
+            <Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' , height: "auto"}} priority={true} />
           </div>
           <div>
-            <div style={{ fontWeight: 500, fontSize: 14 }}>Julian Mercer, M.S.</div>
+            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
             <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 41 min read</div>
           </div>
         </div>
 
         <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
-          <img src="/assets/oral_vs_injectable_featured.png" alt="Glowing neon medical cross behind a daily pill and an auto-injector pen" style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' }} />
+          <Image src="/assets/oral_vs_injectable_featured.png" alt="Glowing neon medical cross behind a daily pill and an auto-injector pen" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' , height: "auto"}} priority={true} />
           
           <p>For years, the revolutionary weight loss benefits of <a href="/blog/what-is-a-glp-1-medication" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 medications</a> have come with a singular, non-negotiable requirement: needles. While modern subcutaneous auto-injectors are virtually painless, the psychological barrier of self-injection has kept millions of clinically eligible patients from accessing life-changing metabolic therapies.</p>
           
@@ -49,7 +56,7 @@ function BlogOralSemaglutideIsHereIsTheGlp1PillAsGood() {
           <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>The Absorption Problem</h3>
           <p>The breakthrough that made oral semaglutide possible is an absorption enhancer called <strong>SNAC</strong> (Sodium N-[8-(2-hydroxybenzoyl)amino] caprylate). When the pill enters the stomach, the SNAC molecule acts like a biochemical bodyguard. It temporarily neutralizes the local stomach acid, raising the pH in the immediate vicinity of the pill. This brief window of alkalinity protects the semaglutide from degradation, allowing it to be absorbed directly through the gastric mucosa (the stomach lining) into the bloodstream.</p>
 
-          <p>This is a staggering feat of pharmacology. However, it is wildly inefficient. Even with SNAC technology, the <a href="/blog/berberine-oral-bioavailability" style={{ color: 'var(--brand)', fontWeight: 500 }}>oral bioavailability</a> of the semaglutide pill is roughly 1%. This means 99% of the medication is destroyed or excreted. To compensate for this massive loss, the oral pill requires drastically higher doses. While the maximum weekly injection of Wegovy is 2.4 mg, the daily maintenance dose of the new oral Wegovy pill is a massive 25 mg to 50 mg.</p>
+          <p>This is a staggering feat of pharmacology. However, it is wildly inefficient. Even with SNAC technology, the <a href="/blog/Berberine-oral-bioavailability" style={{ color: 'var(--brand)', fontWeight: 500 }}>oral bioavailability</a> of the semaglutide pill is roughly 1%. This means 99% of the medication is destroyed or excreted. To compensate for this massive loss, the oral pill requires drastically higher doses. While the maximum weekly injection of Wegovy is 2.4 mg, the daily maintenance dose of the new oral Wegovy pill is a massive 25 mg to 50 mg.</p>
 
           <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Head-to-Head: Efficacy and The OASIS Trials</h2>
           
@@ -118,6 +125,7 @@ function BlogOralSemaglutideIsHereIsTheGlp1PillAsGood() {
         </div>
       </div>
     </section>
+    </>
   );
 }
 

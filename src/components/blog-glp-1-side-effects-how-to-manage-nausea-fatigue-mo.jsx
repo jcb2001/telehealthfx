@@ -1,12 +1,19 @@
 "use client";
 import React from 'react';
+import Image from 'next/image';
+import Head from 'next/head';
 import { Icon } from './common.jsx';
 
 const START_URL = "https://go.telehealthfx.com/start";
 
 function BlogGlp1SideEffectsHowToManageNauseaFatigueMo() {
   return (
-    <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
+    <>
+
+      <Head>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{"@context":"https://schema.org","@type":"MedicalWebPage","name":"GLP-1 Side Effects: How to Manage Nausea, Fatigue & More","author":{"@type":"Person","name":"Julian Mercer, M.S.","url":"https://telehealthfx.com/about"},"publisher":{"@type":"Organization","name":"TelehealthFX","logo":{"@type":"ImageObject","url":"https://telehealthfx.com/assets/logo.png"}}}` }} />
+      </Head>
+      <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
       <div className="container" style={{ maxWidth: 800 }}>
         
         <div className="eyebrow" style={{ marginBottom: 20 }}>Patient Care & Side Effect Management</div>
@@ -15,21 +22,21 @@ function BlogGlp1SideEffectsHowToManageNauseaFatigueMo() {
         </h1>
         <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}>
           <div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)', color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold' }}>
-            <img src="/assets/jm-profile.jpg" alt="Julian Mercer" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' }} />
+            <Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' , height: "auto"}} priority={true} />
           </div>
           <div>
-            <div style={{ fontWeight: 500, fontSize: 14 }}>Julian Mercer, M.S.</div>
+            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
             <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 42 min read</div>
           </div>
         </div>
 
         <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
-          <img src="/assets/glp1_side_effects_featured.png" alt="Neon stomach diagram with soothing blue waves counteracting inflammation next to a medical pen" style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' }} />
+          <Image src="/assets/glp1_side_effects_featured.png" alt="Neon stomach diagram with soothing blue waves counteracting inflammation next to a medical pen" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' , height: "auto"}} priority={true} />
           
           <p>For all the miraculous transformations associated with <a href="/blog/what-is-a-glp-1-medication" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 medications</a>, there is an unavoidable clinical reality that every patient must face: the adaptation phase. The gastrointestinal distress caused by medications like <a href="/medications/semaglutide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Semaglutide</a> and <a href="/medications/tirzepatide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Tirzepatide</a> is not just an inconvenience—it is the single largest barrier to successful obesity treatment in 2026.</p>
 
           <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', maxWidth: '100%', background: '#000', borderRadius: '16px', margin: '40px 0', border: '1px solid var(--line-soft)' }}>
-            <iframe 
+            <iframe loading="lazy" 
               src="https://www.youtube.com/embed/H22n6UGPhf0?si=telehealthfx" 
               style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
               title="TelehealthFX Podcast Episode" 
@@ -42,7 +49,7 @@ function BlogGlp1SideEffectsHowToManageNauseaFatigueMo() {
           
           <p>Clinical data indicates that side effects are the number one reason patients hesitate to start GLP-1 therapy, and overwhelmingly the number one reason patients prematurely quit before reaching therapeutic maintenance doses. The tragedy of this statistic is that the vast majority of these side effects are entirely manageable, highly temporary, and preventable with proper clinical guidance.</p>
 
-          <p>In this comprehensive 5,000-word clinical guide, we will break down the "Big 6" GLP-1 side effects—ranging from profound nausea to the phenomenon of "sulfur burps." We will explain the physiological root causes of each symptom, outline the mandatory "Go Low and Slow" titration protocol, identify the rare but severe warning signs that require immediate medical intervention, and provide you with a practical, evidence-based playbook to comfortably survive your first 90 days on medication.</p>
+          <p>In this comprehensive 5,000-word clinical guide, we will break down the "Big 6" GLP-1 side effects—ranging from profound nausea to the phenomenon of "sulfur burps." We will explain the physiological root causes of each symptom, outline the mandatory "Go Low and Slow" titration protocol, identify the rare but severe warning signs that require immediate medical intervention, and provide you with a practical, evidence-based playbook to comfortably survive your <a href="/blog/your-first-90-days-on-glp-1-week-by-week-what-to-e" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>first 90 days</a> on medication.</p>
 
           <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
             <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Get Real Clinical Support</h3>
@@ -140,6 +147,7 @@ function BlogGlp1SideEffectsHowToManageNauseaFatigueMo() {
         </div>
       </div>
     </section>
+    </>
   );
 }
 
