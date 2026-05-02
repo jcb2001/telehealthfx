@@ -11,7 +11,7 @@ function BlogGlp1AndYourHeartTheSelectTrialCardiovascul() {
     <>
 
       <Head>
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{"@context":"https://schema.org","@type":"MedicalWebPage","name":"GLP-1 and Your Heart: The SELECT Trial & Cardiovascular Protection","author":{"@type":"Person","name":"Julian Mercer, M.S.","url":"https://telehealthfx.com/about"},"publisher":{"@type":"Organization","name":"TelehealthFX","logo":{"@type":"ImageObject","url":"https://telehealthfx.com/assets/logo.png"}}}` }} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{"@context":"https://schema.org","@graph":[{"@type":"MedicalWebPage","name":"GLP-1 and Your Heart: The SELECT Trial & Cardiovascular Protection","author":{"@type":"Person","name":"Julian Mercer, M.S.","url":"https://telehealthfx.com/about"},"publisher":{"@type":"Organization","name":"TelehealthFX","logo":{"@type":"ImageObject","url":"https://telehealthfx.com/assets/logo.png"}}},{"@type":"VideoObject","name":"GLP-1 and Your Heart: The SELECT Trial & Cardiovascular Protection","description":"Clinical overview and deep dive into metabolic health, GLP-1 medications, and weight loss science.","thumbnailUrl":"https://img.youtube.com/vi/ZuTiZEFKZ5k/maxresdefault.jpg","uploadDate":"2026-05-01T08:00:00+08:00","embedUrl":"https://www.youtube.com/embed/ZuTiZEFKZ5k","publisher":{"@type":"Organization","name":"TelehealthFX","logo":{"@type":"ImageObject","url":"https://telehealthfx.com/assets/logo.png"}}}]}` }} />
       </Head>
       <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
       <div className="container" style={{ maxWidth: 800 }}>

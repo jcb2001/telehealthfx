@@ -11,7 +11,7 @@ function BlogWeightLossForWomenOver40HowGlp1CanHelp2() {
     <>
 
       <Head>
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{"@context":"https://schema.org","@type":"MedicalWebPage","name":"Weight Loss for Women Over 40: How GLP-1 Changes the Game","author":{"@type":"Person","name":"Julian Mercer, M.S.","url":"https://telehealthfx.com/about"},"publisher":{"@type":"Organization","name":"TelehealthFX","logo":{"@type":"ImageObject","url":"https://telehealthfx.com/assets/logo.png"}}}` }} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{"@context":"https://schema.org","@graph":[{"@type":"MedicalWebPage","name":"Weight Loss for Women Over 40: How GLP-1 Changes the Game","author":{"@type":"Person","name":"Julian Mercer, M.S.","url":"https://telehealthfx.com/about"},"publisher":{"@type":"Organization","name":"TelehealthFX","logo":{"@type":"ImageObject","url":"https://telehealthfx.com/assets/logo.png"}}},{"@type":"VideoObject","name":"Weight Loss for Women Over 40: How GLP-1 Changes the Game","description":"Clinical overview and deep dive into metabolic health, GLP-1 medications, and weight loss science.","thumbnailUrl":"https://img.youtube.com/vi/WeL9Z100zSI/maxresdefault.jpg","uploadDate":"2026-05-01T08:00:00+08:00","embedUrl":"https://www.youtube.com/embed/WeL9Z100zSI","publisher":{"@type":"Organization","name":"TelehealthFX","logo":{"@type":"ImageObject","url":"https://telehealthfx.com/assets/logo.png"}}}]}` }} />
       </Head>
       <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
       <div className="container" style={{ maxWidth: 800 }}>
