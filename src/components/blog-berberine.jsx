@@ -50,7 +50,7 @@ function BlogBerberine() {
           <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
             <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Ready to skip the stomach issues?</h3>
             <p style={{ marginBottom: 24, fontSize: 16 }}>Experience the metabolic benefits of Berberine delivered directly through the skin with medical-grade transdermal patches.</p>
-            <a href="https://swiy.co/purisaki" target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>
+            <a href="https://go.telehealthfx.com/berberine" target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>
               Shop Berberine Patches <Icon.Arrow />
             </a>
           </div>
@@ -97,7 +97,7 @@ function BlogBerberine() {
             </div>
             <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>100% Stomach Safe</h3>
             <p style={{ marginBottom: 24, fontSize: 16 }}>Bypass the digestive system entirely. Get the benefits of AMPK activation without the notorious "Berberine Belly."</p>
-            <a href="https://swiy.co/purisaki" target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>
+            <a href="https://go.telehealthfx.com/berberine" target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>
               Order Transdermal Patches <Icon.Arrow />
             </a>
           </div>
@@ -145,7 +145,7 @@ function BlogBerberine() {
             <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 500, margin: '0 auto 32px' }}>
               If you’re ready for gentle, effective metabolic support without stomach sabotage, it’s time to switch to high-quality berberine patches.
             </p>
-            <a href="https://swiy.co/purisaki" target="_blank" rel="noopener noreferrer" className="btn btn-lg" style={{ background: '#FBF8F3', color: 'var(--ink)', display: 'inline-flex', justifyContent: 'center', width: '100%', maxWidth: 300 }}>
+            <a href="https://go.telehealthfx.com/berberine" target="_blank" rel="noopener noreferrer" className="btn btn-lg" style={{ background: '#FBF8F3', color: 'var(--ink)', display: 'inline-flex', justifyContent: 'center', width: '100%', maxWidth: 300 }}>
               Shop Now <Icon.Arrow />
             </a>
           </div>

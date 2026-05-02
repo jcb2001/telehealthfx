@@ -41,7 +41,7 @@ function Blog72HourMyth() {
           <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
             <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Demand Better Data.</h3>
             <p style={{ marginBottom: 24, fontSize: 16 }}>Stop settling for 72-hour myths. Experience consistent, 24-hour metabolic support engineered for real human physiology.</p>
-            <a href="https://swiy.co/purisaki" target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>
+            <a href="https://go.telehealthfx.com/berberine" target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>
               Shop 24-Hour Berberine Patches <Icon.Arrow />
             </a>
           </div>
@@ -115,7 +115,7 @@ function Blog72HourMyth() {
             </div>
             <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Engineered for 24 Hours</h3>
             <p style={{ marginBottom: 24, fontSize: 16 }}>Our medical-grade patches are engineered to release steadily for exactly 24 hours—eliminating dead zones and keeping your metabolism supported.</p>
-            <a href="https://swiy.co/purisaki" target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>
+            <a href="https://go.telehealthfx.com/berberine" target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>
               Order Your 24-Hour Supply <Icon.Arrow />
             </a>
           </div>
@@ -139,7 +139,7 @@ function Blog72HourMyth() {
             <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 500, margin: '0 auto 32px' }}>
               Get true 24-hour metabolic support engineered specifically for human skin kinetics and daily bioavailability.
             </p>
-            <a href="https://swiy.co/purisaki" target="_blank" rel="noopener noreferrer" className="btn btn-lg" style={{ background: '#FBF8F3', color: 'var(--ink)', display: 'inline-flex', justifyContent: 'center', width: '100%', maxWidth: 300 }}>
+            <a href="https://go.telehealthfx.com/berberine" target="_blank" rel="noopener noreferrer" className="btn btn-lg" style={{ background: '#FBF8F3', color: 'var(--ink)', display: 'inline-flex', justifyContent: 'center', width: '100%', maxWidth: 300 }}>
               Shop the 24-Hour Patch <Icon.Arrow />
             </a>
           </div>

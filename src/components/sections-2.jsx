@@ -233,7 +233,7 @@ function Pricing() {
                   width: '100%', justifyContent: 'center', display: 'inline-flex',
                   ...(p.best ? { background: '#FBF8F3', color: 'var(--brand)' } : {}),
                 }}
-                href="https://swiy.co/yucca-quiz"
+                href="https://go.telehealthfx.com/start"
               >
                 See If You Qualify
               </a>

@@ -30,7 +30,7 @@ function Nav() {
           <a href="/#faq">FAQ</a>
         </div>
         <div className="flex-row nav-actions" style={{ gap: 12, alignItems: 'center' }}>
-          <a className="btn btn-primary" href="https://swiy.co/yucca-quiz">
+          <a className="btn btn-primary" href="https://go.telehealthfx.com/start">
             See If You Qualify <Icon.Arrow />
           </a>
         </div>
@@ -65,7 +65,7 @@ function HeroDefault({ headline, priceAnchor }) {
             GLP-1 weight loss medication, delivered. A personalized clinical program with 100% transparent pricing, 6-month payment plans, and 2-Day UPS shipping to your door.
           </p>
           <div className="flex-row stack-mobile" style={{ gap: 12, marginBottom: 40 }}>
-            <a className="btn btn-primary btn-lg" href="https://swiy.co/yucca-quiz">
+            <a className="btn btn-primary btn-lg" href="https://go.telehealthfx.com/start">
               See If You Qualify <Icon.Arrow />
             </a>
           </div>
@@ -98,7 +98,7 @@ function HeroEditorial({ headline, priceAnchor }) {
         <p style={{ fontSize: 19, color: 'var(--ink-2)', maxWidth: 600, margin: '0 auto 40px', lineHeight: 1.5 }}>
           Personalized GLP-1 care from licensed clinicians. From $146/month, 2-Day shipping to your door.
         </p>
-        <a className="btn btn-primary btn-lg" href="https://swiy.co/yucca-quiz">
+        <a className="btn btn-primary btn-lg" href="https://go.telehealthfx.com/start">
           See If You Qualify <Icon.Arrow />
         </a>
       </div>
@@ -122,7 +122,7 @@ function HeroData({ headline, priceAnchor }) {
           <p style={{ fontSize: 17, color: 'var(--ink-2)', maxWidth: 480, marginBottom: 32, lineHeight: 1.55 }}>
             Personalized GLP-1 care from board-certified clinicians. Transparent pricing from $146/month.
           </p>
-          <a className="btn btn-primary btn-lg" href="https://swiy.co/yucca-quiz">
+          <a className="btn btn-primary btn-lg" href="https://go.telehealthfx.com/start">
             See If You Qualify <Icon.Arrow />
           </a>
         </div>

@@ -71,9 +71,38 @@ function BlogGlp1UltimateGuide() {
           <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
             <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Ready to transform your metabolic health?</h3>
             <p style={{ marginBottom: 24, fontSize: 16 }}>Take our quick assessment to see if a GLP-1 prescription through Telehealth FX is right for you.</p>
-            <button className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }} onClick={() => window.scrollTo(0,0)}>
+            <a href="https://go.telehealthfx.com/start" target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>
+              See If You Qualify <Icon.Arrow />
+            </a>
+          </div>
+
+          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Compounded Semaglutide: The Accessible Alternative</h2>
+          <p>While branded Ozempic and Wegovy can cost $900–$1,300+ per month without insurance, <strong>compounded semaglutide</strong> provides the same active molecule at a fraction of the cost. These are produced by licensed 503A and 503B compounding pharmacies under FDA regulation, using pharmaceutical-grade semaglutide.</p>
+          <p>At Telehealth FX, compounded Semaglutide programs start at <strong>$146/month</strong> with 24-hour clinician approval and 2-day UPS shipping directly to your door — no insurance required, no hidden fees.</p>
+
+          <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
+            <div style={{ width: 48, height: 48, borderRadius: '50%', background: 'var(--brand-soft)', color: 'var(--brand)', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 20px' }}>
+              <Icon.Check size={24} />
+            </div>
+            <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Semaglutide from $146/mo</h3>
+            <p style={{ marginBottom: 24, fontSize: 16 }}>Same molecule as Ozempic & Wegovy. Licensed clinicians. Transparent pricing. No insurance needed.</p>
+            <a href="https://go.telehealthfx.com/start" target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>
               Start Your Assessment <Icon.Arrow />
-            </button>
+            </a>
+          </div>
+
+          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The Bottom Line</h2>
+          <p>GLP-1 medications represent one of the most significant breakthroughs in metabolic medicine in decades. Whether you're exploring semaglutide, tirzepatide, or the next generation of triple-agonists, the science is clear: these medications fundamentally change the hormonal signals driving hunger, insulin resistance, and fat storage.</p>
+          <p>The key is working with qualified clinicians who can guide dosing, monitor your progress, and ensure you're on the right protocol for your specific metabolic profile.</p>
+
+          <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
+            <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Take the First Step</h2>
+            <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 500, margin: '0 auto 32px' }}>
+              Get prescribed GLP-1 medication from licensed clinicians with 24-hour approval, transparent pricing, and 2-day shipping.
+            </p>
+            <a href="https://go.telehealthfx.com/start" target="_blank" rel="noopener noreferrer" className="btn btn-lg" style={{ background: '#FBF8F3', color: 'var(--ink)', display: 'inline-flex', justifyContent: 'center', width: '100%', maxWidth: 300 }}>
+              See If You Qualify <Icon.Arrow />
+            </a>
           </div>
 
         </div>

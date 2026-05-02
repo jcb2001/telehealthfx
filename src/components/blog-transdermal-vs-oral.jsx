@@ -107,6 +107,14 @@ function BlogTransdermalVsOral() {
           </ul>
           <p>Optimized 24-hour medical-grade patches maintain flux longer than generics, aligning delivery with circadian glucose rhythms.</p>
 
+          <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
+            <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Explore Clinician-Guided Metabolic Programs</h3>
+            <p style={{ marginBottom: 24, fontSize: 16 }}>Whether you're considering GLP-1 medication or transdermal solutions, get a personalized protocol from licensed clinicians with transparent pricing.</p>
+            <a href="https://go.telehealthfx.com/start" target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>
+              See If You Qualify <Icon.Arrow />
+            </a>
+          </div>
+
           <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Head-to-Head Comparison Table</h2>
           <p style={{ marginBottom: 16 }}><em>(Berberine-Focused Metabolic Support)</em></p>
           <div style={{ margin: '32px 0', overflowX: 'auto' }}>
@@ -189,7 +197,7 @@ function BlogTransdermalVsOral() {
             </div>
             <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Experience 24-Hour Transdermal Delivery</h3>
             <p style={{ marginBottom: 24, fontSize: 16 }}>Ready for consistent metabolic support without compromise? Explore the Telehealth FX 24-hour Berberine patch system—engineered from real pharmacokinetic principles.</p>
-            <a href="https://swiy.co/purisaki" target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>
+            <a href="https://go.telehealthfx.com/start" target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>
               Order Your 24-Hour Supply <Icon.Arrow />
             </a>
           </div>
@@ -213,7 +221,7 @@ function BlogTransdermalVsOral() {
             <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 500, margin: '0 auto 32px' }}>
               Explore the 24-hour transdermal system engineered for true daily bioavailability without the stomach issues.
             </p>
-            <a href="https://swiy.co/purisaki" target="_blank" rel="noopener noreferrer" className="btn btn-lg" style={{ background: '#FBF8F3', color: 'var(--ink)', display: 'inline-flex', justifyContent: 'center', width: '100%', maxWidth: 300 }}>
+            <a href="https://go.telehealthfx.com/start" target="_blank" rel="noopener noreferrer" className="btn btn-lg" style={{ background: '#FBF8F3', color: 'var(--ink)', display: 'inline-flex', justifyContent: 'center', width: '100%', maxWidth: 300 }}>
               Shop the 24-Hour Patch <Icon.Arrow />
             </a>
           </div>

@@ -107,7 +107,7 @@ function BlogNaturesOzempicExposed() {
             </div>
             <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Escape the Yo-Yo Trap</h3>
             <p style={{ marginBottom: 24, fontSize: 16 }}>Ready for consistent metabolic support without the rebound effect? Explore the Telehealth FX 24-hour Berberine patch system—engineered for sustainable, long-term health.</p>
-            <a href="https://swiy.co/purisaki" target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>
+            <a href="https://go.telehealthfx.com/berberine" target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>
               Order Your 24-Hour Supply <Icon.Arrow />
             </a>
           </div>
@@ -120,6 +120,14 @@ function BlogNaturesOzempicExposed() {
             <li style={{ marginBottom: 8 }}>Anyone wanting natural AMPK activation for long-term metabolic health</li>
           </ul>
           <p>Best results occur when combined with resistance training, protein-rich diet, and consistent daily delivery.</p>
+
+          <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
+            <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Sound like you?</h3>
+            <p style={{ marginBottom: 24, fontSize: 16 }}>See how the Telehealth FX 24-hour Berberine patch system can support your metabolic goals — without the stomach issues of oral supplements.</p>
+            <a href="https://go.telehealthfx.com/berberine" target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>
+              Shop Berberine Patches <Icon.Arrow />
+            </a>
+          </div>
 
           <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Realistic Expectations and Protocol for Success</h2>
           <p>Expect 1–2 lbs per month of sustainable fat loss when paired with lifestyle changes — far better than yo-yo dieting. Track waist circumference, fasting glucose, and energy levels rather than scale weight alone.</p>
@@ -141,7 +149,7 @@ function BlogNaturesOzempicExposed() {
             <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 500, margin: '0 auto 32px' }}>
               Explore the full Telehealth FX 24-hour Berberine system and see why daily precision beats viral shortcuts.
             </p>
-            <a href="https://swiy.co/purisaki" target="_blank" rel="noopener noreferrer" className="btn btn-lg" style={{ background: '#FBF8F3', color: 'var(--ink)', display: 'inline-flex', justifyContent: 'center', width: '100%', maxWidth: 300 }}>
+            <a href="https://go.telehealthfx.com/berberine" target="_blank" rel="noopener noreferrer" className="btn btn-lg" style={{ background: '#FBF8F3', color: 'var(--ink)', display: 'inline-flex', justifyContent: 'center', width: '100%', maxWidth: 300 }}>
               Shop the 24-Hour Patch <Icon.Arrow />
             </a>
           </div>

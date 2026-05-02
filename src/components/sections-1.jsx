@@ -210,7 +210,7 @@ function MedCard({ med, selected, onSelect }) {
 
       <a
         className="btn btn-primary"
-        href="https://swiy.co/yucca-quiz"
+        href="https://go.telehealthfx.com/start"
         style={{ width: '100%', justifyContent: 'center', display: 'inline-flex' }}
         onClick={(e) => e.stopPropagation()}
       >
