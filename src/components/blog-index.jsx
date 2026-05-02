@@ -139,18 +139,18 @@ function BlogIndex() {
       tag: "Aesthetics"
     },
     {
-      title: "GLP-1 and Your Heart: The SELECT Trial & Cardiovascular Protection (2026 Clinical Guide)",
-      description: "A comprehensive clinical breakdown exploring glp-1 and your heart: the select trial & cardiovascular protection (2026 clinical guide).",
+      title: "GLP-1 and Your Heart: The SELECT Trial & Cardiovascular Protection",
+      description: "Discover the groundbreaking SELECT Trial data proving that Semaglutide directly reduces the risk of heart attacks and strokes by 20%.",
       slug: "/blog/glp-1-and-your-heart-the-select-trial-cardiovascul",
-      image: "/assets/nad-therapy-featured.png",
-      tag: "Clinical Guide"
+      image: "/assets/cardiovascular_glp1_featured.png",
+      tag: "Cardiovascular Health"
     },
     {
-      title: "Oral vs. Injectable GLP-1: Rybelsus, Oral Wegovy, Orforglipron & What's Coming (2026 Clinical Guide)",
-      description: "A comprehensive clinical breakdown exploring oral vs. injectable glp-1: rybelsus, oral wegovy, orforglipron & what's coming (2026 clinical guide).",
+      title: "Oral vs. Injectable GLP-1: Rybelsus, Oral Wegovy, and Orforglipron",
+      description: "A comprehensive breakdown of oral GLP-1 delivery, comparing the strict fasting of Oral Wegovy against the revolutionary non-peptide Orforglipron.",
       slug: "/blog/oral-vs-injectable-glp-1-rybelsus-oral-wegovy-orfo",
-      image: "/assets/sermorelin-peptide-featured.png",
-      tag: "Clinical Guide"
+      image: "/assets/oral_vs_injectable_featured.png",
+      tag: "Pharmacology"
     },
     {
       title: "Ozempic Babies: GLP-1 and Fertility — What Women Need to Know (2026 Clinical Guide)",
