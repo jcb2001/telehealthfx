@@ -60,7 +60,7 @@ export default function RootLayout({ children }) {
         "description": "Lead Bio-Systems Analyst at Telehealth FX specializing in metabolic data modeling and pharmacokinetic protocols."
       },
       {
-        "@type": "MedicalService",
+        "@type": "Service",
         "@id": "https://telehealthfx.com/#service",
         "name": "Telehealth Weight Loss & GLP-1 Program - Telehealth FX",
         "provider": {
