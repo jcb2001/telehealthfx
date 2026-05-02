@@ -27,6 +27,18 @@ function BlogGlp1ForSeniorsWeightLossAfter60Safely2026() {
           <img src="/assets/seniors_longevity_featured.png" alt="A glowing neon skeletal matrix intersecting with a sleek medical weight loss pen" style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' }} />
           
           <p>For decades, the medical community has faced a dangerous paradox regarding older adults and obesity. Nearly 40% of adults over the age of 60 are obese, carrying severe risks for cardiovascular disease, severe osteoarthritis, and loss of independence. However, prescribing aggressive weight loss for seniors has historically been viewed as equally dangerous, due to the high risk of accelerating age-related muscle loss and bone density reduction.</p>
+
+          <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', maxWidth: '100%', background: '#000', borderRadius: '16px', margin: '40px 0', border: '1px solid var(--line-soft)' }}>
+            <iframe 
+              src="https://www.youtube.com/embed/h2cmGF_cklc?si=telehealthfx" 
+              style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
+              title="TelehealthFX Podcast Episode" 
+              frameBorder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              allowFullScreen>
+            </iframe>
+          </div>
+
           
           <p>The advent of <a href="/blog/what-is-a-glp-1-medication" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 medications</a> like <a href="/medications/semaglutide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Semaglutide</a> has revolutionized geriatric metabolic medicine. It allows for controlled, sustainable fat loss without extreme starvation. But navigating this therapy safely requires a fundamentally different clinical approach than treating a 30-year-old.</p>
 

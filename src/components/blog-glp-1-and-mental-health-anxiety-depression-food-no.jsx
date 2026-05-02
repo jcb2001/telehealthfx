@@ -27,6 +27,18 @@ function BlogGlp1AndMentalHealthAnxietyDepressionFoodNo() {
           <img src="/assets/mental_health_featured.png" alt="A glowing neon brain structure intersecting with a sleek medical weight loss pen, with bright neurotransmitter sparks" style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' }} />
           
           <p>For decades, the medical community viewed weight loss as a purely physiological equation: calories in versus calories out. But anyone who has struggled with severe obesity knows that the battle is fought—and often lost—in the brain. <a href="/blog/what-is-a-glp-1-medication" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 medications</a> have fundamentally rewritten our understanding of this relationship, proving that the drive to overeat is largely a neurochemical dysfunction, not a failure of willpower.</p>
+
+          <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', maxWidth: '100%', background: '#000', borderRadius: '16px', margin: '40px 0', border: '1px solid var(--line-soft)' }}>
+            <iframe 
+              src="https://www.youtube.com/embed/QT0r7FRqcn4?si=telehealthfx" 
+              style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
+              title="TelehealthFX Podcast Episode" 
+              frameBorder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              allowFullScreen>
+            </iframe>
+          </div>
+
           
           <p>As millions of patients begin therapy with <a href="/medications/semaglutide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Semaglutide</a> and <a href="/medications/tirzepatide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Tirzepatide</a>, a profound psychological transformation is occurring alongside the physical one. Patients are reporting an unprecedented relief from obsessive eating behaviors, a sudden silence in their internal monologue, and significant shifts in their overall mental health.</p>
 

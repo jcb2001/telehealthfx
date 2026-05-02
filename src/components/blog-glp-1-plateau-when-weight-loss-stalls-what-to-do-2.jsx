@@ -27,6 +27,18 @@ function BlogGlp1PlateauWhenWeightLossStallsWhatToDo2() {
           <img src="/assets/glp1_plateau_featured.png" alt="A glowing neon metabolic engine graph bursting through a barrier, intersecting with a sleek medical weight loss vial" style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' }} />
           
           <p>It happens to nearly every single patient on <a href="/blog/what-is-a-glp-1-medication" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 therapy</a>. After months of rapid, life-changing progress, the scale abruptly stops moving. You haven't changed your diet, you are still taking your medication, but for three weeks straight, your weight refuses to drop.</p>
+
+          <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', maxWidth: '100%', background: '#000', borderRadius: '16px', margin: '40px 0', border: '1px solid var(--line-soft)' }}>
+            <iframe 
+              src="https://www.youtube.com/embed/HA4aCGMb9nE?si=telehealthfx" 
+              style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
+              title="TelehealthFX Podcast Episode" 
+              frameBorder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              allowFullScreen>
+            </iframe>
+          </div>
+
           
           <p>Panic sets in. You assume the <a href="/medications/semaglutide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Semaglutide</a> has stopped working, or worse, that your body is fundamentally broken. Let us state the clinical reality immediately: a weight loss plateau is not a failure. It is a biological inevitability. Your body is a highly advanced survival machine, and it is currently engaging its emergency brakes to prevent what it perceives as starvation.</p>
 

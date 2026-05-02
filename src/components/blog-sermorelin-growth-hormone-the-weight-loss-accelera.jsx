@@ -27,6 +27,18 @@ function BlogSermorelinGrowthHormoneTheWeightLossAccelera() {
           <img src="/assets/sermorelin_peptide_featured.png" alt="A glowing neon muscular fiber matrix intersecting with a sleek medical injection vial" style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' }} />
           
           <p>The greatest biological hazard of rapid medical weight loss is the unintended destruction of lean muscle mass. As we discussed in our <a href="/blog/glp-1-muscle-loss-the-hidden-risk-nobodys-talking" style={{ color: 'var(--brand)', fontWeight: 500 }}>comprehensive review on GLP-1 muscle catabolism</a>, losing weight too quickly without proper structural support can lead to frailty, a crashed metabolism, and severe long-term health complications.</p>
+
+          <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', maxWidth: '100%', background: '#000', borderRadius: '16px', margin: '40px 0', border: '1px solid var(--line-soft)' }}>
+            <iframe 
+              src="https://www.youtube.com/embed/gSn7DEsJWOQ?si=telehealthfx" 
+              style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
+              title="TelehealthFX Podcast Episode" 
+              frameBorder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              allowFullScreen>
+            </iframe>
+          </div>
+
           
           <p>To combat this, elite anti-aging clinics and metabolic specialists deploy an advanced peptide known as <a href="/medications/sermorelin" style={{ color: 'var(--brand)', fontWeight: 500 }}>Sermorelin</a>. While frequently marketed as a standalone "fountain of youth," its true clinical value lies in its profound synergy with <a href="/blog/what-is-a-glp-1-medication" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 therapy</a>.</p>
 

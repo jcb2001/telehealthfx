@@ -27,6 +27,18 @@ function BlogWeightLossForWomenOver40HowGlp1CanHelp2() {
           <img src="/assets/women_over_40_featured.png" alt="Glowing neon hormonal estrogen ring fading into a sleek medical weight loss pen" style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' }} />
           
           <p>For millions of women, the arrival of their 40s brings an incredibly frustrating biological shift: the exact same diet and exercise routines that effortlessly maintained their weight in their 20s and 30s suddenly stop working. They begin to accumulate stubborn abdominal fat, experience intense food cravings, and watch their energy levels plummet.</p>
+
+          <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', maxWidth: '100%', background: '#000', borderRadius: '16px', margin: '40px 0', border: '1px solid var(--line-soft)' }}>
+            <iframe 
+              src="https://www.youtube.com/embed/WeL9Z100zSI?si=telehealthfx" 
+              style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
+              title="TelehealthFX Podcast Episode" 
+              frameBorder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              allowFullScreen>
+            </iframe>
+          </div>
+
           
           <p>The medical establishment has historically dismissed these women, offering the outdated, condescending advice to simply "eat less and move more." However, in 2026, clinical endocrinology recognizes that perimenopausal and menopausal weight gain is not a behavioral failure. It is a profound, biochemically driven metabolic shift.</p>
 

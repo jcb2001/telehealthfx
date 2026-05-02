@@ -27,6 +27,18 @@ function BlogGlp1MuscleLossTheHiddenRiskNobodysTalking() {
           <img src="/assets/glp1_muscle_loss_featured.png" alt="Glowing anatomical muscle fiber structure next to medical weight loss pen" style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' }} />
           
           <p>The conversation around <a href="/blog/what-is-a-glp-1-medication" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 medications</a> has predominantly focused on a single metric: the number on the scale. When patients step on the scale and see a 20% reduction in total body mass, they assume the medication is an unqualified success. However, endocrinologists and body composition experts are raising an urgent alarm regarding the fastest-growing consumer concern in 2026: <strong>GLP-1 muscle loss</strong>.</p>
+
+          <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', maxWidth: '100%', background: '#000', borderRadius: '16px', margin: '40px 0', border: '1px solid var(--line-soft)' }}>
+            <iframe 
+              src="https://www.youtube.com/embed/kUAn_f0lWO4?si=telehealthfx" 
+              style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
+              title="TelehealthFX Podcast Episode" 
+              frameBorder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              allowFullScreen>
+            </iframe>
+          </div>
+
           
           <p>Phrases like "Ozempic face" and "Ozempic body" have entered the mainstream vocabulary, largely driven by the unintended consequences of rapid lean mass reduction. If you are currently taking <a href="/medications/semaglutide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Semaglutide</a> or <a href="/medications/tirzepatide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Tirzepatide</a>, or are considering starting therapy, understanding how these incretin hormones affect your skeletal muscle is paramount to your long-term metabolic health.</p>
 

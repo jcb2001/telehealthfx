@@ -27,6 +27,18 @@ function BlogIsCompoundedSemaglutideSafeWhatYouNeedToKn() {
           <img src="/assets/compounded_safety_featured.png" alt="A glowing neon pharmaceutical regulatory shield intersecting with a sleek medical weight loss vial" style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' }} />
           
           <p>For several years, the explosive demand for <a href="/blog/what-is-a-glp-1-medication" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 medications</a> vastly outpaced pharmaceutical manufacturing capacity. The resulting FDA-declared drug shortage triggered a massive legal loophole: compounding pharmacies were permitted to manufacture their own "essentially similar" versions of <a href="/medications/semaglutide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Semaglutide</a> and <a href="/medications/tirzepatide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Tirzepatide</a>.</p>
+
+          <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', maxWidth: '100%', background: '#000', borderRadius: '16px', margin: '40px 0', border: '1px solid var(--line-soft)' }}>
+            <iframe 
+              src="https://www.youtube.com/embed/qoRWs9FxAG0?si=telehealthfx" 
+              style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
+              title="TelehealthFX Podcast Episode" 
+              frameBorder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              allowFullScreen>
+            </iframe>
+          </div>
+
           
           <p>This led to a wild west of online weight loss clinics offering heavily discounted, compounded injections. But as of 2025, the FDA officially declared the Semaglutide shortage resolved, abruptly closing the legal grace periods for both 503A and 503B compounding facilities.</p>
 

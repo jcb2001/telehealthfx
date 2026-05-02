@@ -27,6 +27,18 @@ function BlogHowToChooseATelehealthWeightLossProgramAnd() {
           <img src="/assets/glp1_telehealth_scams_featured.png" alt="A glowing neon medical shield shattering a fake pill bottle, intersecting with a sleek medical weight loss pen" style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' }} />
           
           <p>The explosion of <a href="/blog/what-is-a-glp-1-medication" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 receptor agonists</a> over the past five years has fundamentally transformed the medical landscape. Medications like <a href="/medications/semaglutide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Semaglutide</a> and <a href="/medications/tirzepatide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Tirzepatide</a> have proven capable of reversing severe obesity, inducing diabetes remission, and significantly extending the human lifespan. This unprecedented clinical success, combined with persistent national shortages of the brand-name drugs (Wegovy and Zepbound), generated a massive surge in consumer demand.</p>
+
+          <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', maxWidth: '100%', background: '#000', borderRadius: '16px', margin: '40px 0', border: '1px solid var(--line-soft)' }}>
+            <iframe 
+              src="https://www.youtube.com/embed/-lgh0elFd3I?si=telehealthfx" 
+              style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
+              title="TelehealthFX Podcast Episode" 
+              frameBorder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              allowFullScreen>
+            </iframe>
+          </div>
+
           
           <p>Where there is overwhelming demand, supply will inevitably follow. But in the largely unregulated frontier of the digital healthcare gold rush, much of that supply has been deeply compromised. Since 2022, thousands of "telehealth weight loss clinics" have materialized overnight. While some are legitimate, highly sophisticated clinical platforms operating with rigorous medical oversight, a terrifying percentage are nothing more than digital shell companies. They are marketing agencies posing as medical institutions, built rapidly to harvest credit cards by prescribing incredibly potent hormones with zero medical supervision and shipping unverified, potentially dangerous compounds.</p>
 

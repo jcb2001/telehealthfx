@@ -27,6 +27,18 @@ function BlogBerberineForPcosWhatTheResearchActuallySays() {
           <img src="/assets/berberine_pcos_featured.png" alt="Neon ovary diagram intersecting with a botanical root structure and a medical capsule" style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' }} />
           
           <p>Polycystic Ovary Syndrome (PCOS) is one of the most common, yet profoundly misunderstood, endocrine disorders in the world. Affecting up to 13% of women globally, it is characterized by irregular menstrual cycles, excess androgen production, and devastating metabolic gridlock. For decades, standard clinical advice amounted to "just go on birth control and lose some weight," ignoring the harsh biological reality that the condition itself makes traditional weight loss nearly impossible.</p>
+
+          <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', maxWidth: '100%', background: '#000', borderRadius: '16px', margin: '40px 0', border: '1px solid var(--line-soft)' }}>
+            <iframe 
+              src="https://www.youtube.com/embed/R4ZcU8uV-yA?si=telehealthfx" 
+              style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
+              title="TelehealthFX Podcast Episode" 
+              frameBorder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              allowFullScreen>
+            </iframe>
+          </div>
+
           
           <p>Recently, a botanical extract called <a href="/blog/berberine-oral-bioavailability" style={{ color: 'var(--brand)', fontWeight: 500 }}>Berberine</a> has surged in popularity as a potential alternative to prescription medications like Metformin for managing PCOS. But amid the viral TikTok claims and aggressive supplement marketing, patients are left wondering what is actually medically valid.</p>
 

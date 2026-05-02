@@ -27,6 +27,18 @@ function BlogTirzepatideVsSemaglutideWhichGlp1IsRightFo() {
           <img src="/assets/tirzepatide_vs_semaglutide_featured.png" alt="Two glowing medical weight loss pens facing each other on a dark reflective surface" style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' }} />
           
           <p>It is the most frequently asked question in modern metabolic medicine: <em>"Which medication is better?"</em> With a confusing array of brand names—Wegovy, Ozempic, Mounjaro, Zepbound—patients are often overwhelmed when trying to determine which injection will yield the best results for their specific body.</p>
+
+          <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', maxWidth: '100%', background: '#000', borderRadius: '16px', margin: '40px 0', border: '1px solid var(--line-soft)' }}>
+            <iframe 
+              src="https://www.youtube.com/embed/5Rq8KJKRzrk?si=telehealthfx" 
+              style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
+              title="TelehealthFX Podcast Episode" 
+              frameBorder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              allowFullScreen>
+            </iframe>
+          </div>
+
           
           <p>The clinical reality is that <a href="/medications/tirzepatide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Tirzepatide</a> and <a href="/medications/semaglutide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Semaglutide</a> are not interchangeable. While both are incredibly powerful tools for treating obesity and metabolic dysfunction, they operate via fundamentally different biochemical mechanisms.</p>
 

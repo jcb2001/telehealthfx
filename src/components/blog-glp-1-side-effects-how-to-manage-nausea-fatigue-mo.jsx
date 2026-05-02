@@ -27,6 +27,18 @@ function BlogGlp1SideEffectsHowToManageNauseaFatigueMo() {
           <img src="/assets/glp1_side_effects_featured.png" alt="Neon stomach diagram with soothing blue waves counteracting inflammation next to a medical pen" style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' }} />
           
           <p>For all the miraculous transformations associated with <a href="/blog/what-is-a-glp-1-medication" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 medications</a>, there is an unavoidable clinical reality that every patient must face: the adaptation phase. The gastrointestinal distress caused by medications like <a href="/medications/semaglutide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Semaglutide</a> and <a href="/medications/tirzepatide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Tirzepatide</a> is not just an inconvenience—it is the single largest barrier to successful obesity treatment in 2026.</p>
+
+          <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', maxWidth: '100%', background: '#000', borderRadius: '16px', margin: '40px 0', border: '1px solid var(--line-soft)' }}>
+            <iframe 
+              src="https://www.youtube.com/embed/H22n6UGPhf0?si=telehealthfx" 
+              style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
+              title="TelehealthFX Podcast Episode" 
+              frameBorder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              allowFullScreen>
+            </iframe>
+          </div>
+
           
           <p>Clinical data indicates that side effects are the number one reason patients hesitate to start GLP-1 therapy, and overwhelmingly the number one reason patients prematurely quit before reaching therapeutic maintenance doses. The tragedy of this statistic is that the vast majority of these side effects are entirely manageable, highly temporary, and preventable with proper clinical guidance.</p>
 

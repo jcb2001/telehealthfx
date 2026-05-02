@@ -27,6 +27,18 @@ function BlogOzempicBabiesGlp1AndFertilityWhatWomenNeed() {
           <img src="/assets/ozempic_babies_fertility_featured.png" alt="A glowing neon embryonic and cellular matrix intersecting with a sleek medical weight loss pen" style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' }} />
           
           <p>Over the past three years, a bizarre and highly viral phenomenon has swept across social media platforms. Tens of thousands of women—many of whom had been diagnosed with severe, treatment-resistant infertility, and others who were strictly adhering to their daily oral contraceptive pills—suddenly found themselves staring at positive pregnancy tests. The common denominator among these unprecedented medical anomalies was not a new fertility drug or a change in partner. It was the initiation of <a href="/blog/what-is-a-glp-1-medication" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 receptor agonist therapy</a>.</p>
+
+          <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', maxWidth: '100%', background: '#000', borderRadius: '16px', margin: '40px 0', border: '1px solid var(--line-soft)' }}>
+            <iframe 
+              src="https://www.youtube.com/embed/pSWBEPzrdXA?si=telehealthfx" 
+              style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
+              title="TelehealthFX Podcast Episode" 
+              frameBorder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              allowFullScreen>
+            </iframe>
+          </div>
+
           
           <p>This phenomenon, dubbed the "Ozempic Baby" trend by the media, is not a collective delusion, nor is it a statistical coincidence. It is a profound, biologically verifiable demonstration of how deeply intertwined metabolic health and reproductive endocrinology truly are. <a href="/medications/semaglutide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Semaglutide</a> and <a href="/medications/tirzepatide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Tirzepatide</a> are inadvertently acting as the most potent, indirect fertility treatments the medical community has seen in decades, completely rewiring the female reproductive axis by restoring metabolic homeostasis.</p>
 

@@ -27,6 +27,18 @@ function BlogGlp1AndAlcoholWhatYouNeedToKnow2026Clini() {
           <img src="/assets/glp1_alcohol_featured.png" alt="A sleek medical weight loss pen intersecting with an elegant, glowing neon crystal cocktail glass that appears to be shattering" style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' }} />
           
           <p>Over the past two years, an unexpected phenomenon has flooded social media: patients taking <a href="/blog/what-is-a-glp-1-medication" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 medications</a> for weight loss suddenly reporting that they have entirely lost their desire to drink alcohol. What began as anecdotal internet chatter has now been validated by rigorous, peer-reviewed clinical trials published in leading medical journals like <em>JAMA Psychiatry</em> and <em>The Lancet</em>.</p>
+
+          <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', maxWidth: '100%', background: '#000', borderRadius: '16px', margin: '40px 0', border: '1px solid var(--line-soft)' }}>
+            <iframe 
+              src="https://www.youtube.com/embed/lge7CNPfgq8?si=telehealthfx" 
+              style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
+              title="TelehealthFX Podcast Episode" 
+              frameBorder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              allowFullScreen>
+            </iframe>
+          </div>
+
           
           <p>However, the intersection of <a href="/medications/semaglutide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Semaglutide</a>, <a href="/medications/tirzepatide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Tirzepatide</a>, and alcohol is not just a fascinating behavioral side effect—it carries profound physiological risks. Mixing these powerful metabolic hormones with alcohol can dramatically alter your tolerance, severely amplify gastrointestinal side effects, and create dangerous blood sugar fluctuations.</p>
 

@@ -27,6 +27,18 @@ function BlogGlp1AndYourHeartTheSelectTrialCardiovascul() {
           <img src="/assets/cardiovascular_glp1_featured.png" alt="A glowing neon human heart matrix intersecting with a sleek medical weight loss pen" style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' }} />
           
           <p>For decades, the medical establishment viewed obesity and cardiovascular disease as two entirely separate clinical entities connected only by epidemiological correlation. While physicians universally understood that excess adipose tissue increased the risk of heart attacks, strokes, and cardiovascular mortality, the pharmacological treatments for these conditions were heavily siloed. If you had high cholesterol, you were prescribed a statin. If you had hypertension, you were prescribed an ACE inhibitor or a beta-blocker. And if you had obesity? You were told to simply eat less and exercise more, a prescription that spectacularly failed over 95% of the population long-term.</p>
+
+          <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', maxWidth: '100%', background: '#000', borderRadius: '16px', margin: '40px 0', border: '1px solid var(--line-soft)' }}>
+            <iframe 
+              src="https://www.youtube.com/embed/ZuTiZEFKZ5k?si=telehealthfx" 
+              style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
+              title="TelehealthFX Podcast Episode" 
+              frameBorder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              allowFullScreen>
+            </iframe>
+          </div>
+
           
           <p>The dawn of <a href="/blog/what-is-a-glp-1-medication" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 receptor agonists</a> fundamentally shattered this paradigm, but initially, they were still viewed exclusively through the lens of endocrinology and metabolic weight reduction. They were "diabetes drugs" or "weight loss shots." The idea that a medication designed to modulate insulin secretion and delay gastric emptying could act as a direct, highly potent cardioprotective agent was considered speculative at best. This perception persisted until the publication of the most important cardiovascular outcome trial of the 21st century: The SELECT Trial.</p>
 

@@ -27,6 +27,18 @@ function BlogGlp1AndExerciseHowToCombineMedicationWith() {
           <img src="/assets/glp1_exercise_featured.png" alt="Neon dumbbell intersecting with a sleek medical weight loss pen" style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' }} />
           
           <p>One of the most dangerous misconceptions regarding <a href="/blog/what-is-a-glp-1-medication" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 medications</a> is that the injection replaces the need for exercise. Patients frequently ask, "If the medication is suppressing my appetite and I'm losing weight effortlessly, why do I need to work out?"</p>
+
+          <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', maxWidth: '100%', background: '#000', borderRadius: '16px', margin: '40px 0', border: '1px solid var(--line-soft)' }}>
+            <iframe 
+              src="https://www.youtube.com/embed/gsLCCV4C4so?si=telehealthfx" 
+              style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
+              title="TelehealthFX Podcast Episode" 
+              frameBorder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              allowFullScreen>
+            </iframe>
+          </div>
+
           
           <p>The clinical reality is stark. If you rely solely on <a href="/medications/semaglutide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Semaglutide</a> or <a href="/medications/tirzepatide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Tirzepatide</a> without a structured exercise protocol, you are virtually guaranteeing severe <a href="/blog/glp-1-muscle-loss-the-hidden-risk-nobodys-talking" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 muscle loss</a>, a plummeting metabolic rate, and a much higher probability of <a href="/blog/what-happens-when-you-stop-glp-1-medication-the-re" style={{ color: 'var(--brand)', fontWeight: 500 }}>severe weight regain (the rebound effect)</a> if you ever stop the medication.</p>
 

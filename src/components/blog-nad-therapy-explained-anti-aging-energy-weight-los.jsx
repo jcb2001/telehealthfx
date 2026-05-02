@@ -27,6 +27,18 @@ function BlogNadTherapyExplainedAntiAgingEnergyWeightLos() {
           <img src="/assets/nad_therapy_featured.png" alt="A glowing neon molecular model of NAD+ intersecting with a sleek medical injection vial" style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' }} />
           
           <p>As the fields of metabolic medicine and longevity science continue to merge, one specific molecule has moved from obscure academic research into the mainstream clinical spotlight: <a href="/medications/nad" style={{ color: 'var(--brand)', fontWeight: 500 }}>NAD+ (nicotinamide adenine dinucleotide)</a>. Promoted by high-performance athletes, biohackers, and anti-aging physicians alike, NAD+ therapy is frequently heralded as the ultimate cellular upgrade.</p>
+
+          <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', maxWidth: '100%', background: '#000', borderRadius: '16px', margin: '40px 0', border: '1px solid var(--line-soft)' }}>
+            <iframe 
+              src="https://www.youtube.com/embed/rvRZto-qBkk?si=telehealthfx" 
+              style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
+              title="TelehealthFX Podcast Episode" 
+              frameBorder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              allowFullScreen>
+            </iframe>
+          </div>
+
           
           <p>But separating the rigorous clinical science from the marketing hype is critical. Is NAD+ a magic anti-aging bullet? Will it directly burn fat? Is an expensive, hours-long IV infusion the only way to get it?</p>
 

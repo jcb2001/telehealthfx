@@ -27,6 +27,18 @@ function BlogWhatHappensWhenYouStopGlp1MedicationTheRe() {
           <img src="/assets/glp1_rebound_effect_featured.png" alt="Neon scale tipping next to a fading molecular structure" style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' }} />
           
           <p>Of all the questions surrounding <a href="/blog/what-is-a-glp-1-medication" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 medications</a>, none is more emotionally charged or frequently asked than this: <em>"Do I have to take it forever? What happens when I stop?"</em></p>
+
+          <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', maxWidth: '100%', background: '#000', borderRadius: '16px', margin: '40px 0', border: '1px solid var(--line-soft)' }}>
+            <iframe 
+              src="https://www.youtube.com/embed/Gcv-dnQcXZA?si=telehealthfx" 
+              style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
+              title="TelehealthFX Podcast Episode" 
+              frameBorder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              allowFullScreen>
+            </iframe>
+          </div>
+
           
           <p>Millions of consumers who started on medications like <a href="/medications/semaglutide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Semaglutide</a> and <a href="/medications/tirzepatide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Tirzepatide</a> during the massive 2023–2024 shortage era are now reaching their one- or two-year marks. They have achieved incredible metabolic transformations, but are now facing the daunting prospect of life after the injection. The fear of "the rebound"—rapidly regaining all the weight they fought so hard to lose—is driving massive consumer anxiety.</p>
 

@@ -27,6 +27,18 @@ function BlogWeightLossForMenWhyGlp1IsntJustForWomen() {
           <img src="/assets/mens_health_featured.png" alt="Neon molecular testosterone structure intersecting with a sleek medical weight loss pen" style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' }} />
           
           <p>If you look at the marketing landscape for <a href="/blog/what-is-a-glp-1-medication" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 medications</a>, you would assume obesity is exclusively a women's issue. The branding, the testimonials, and the commercial targeting overwhelmingly exclude men. This creates a dangerous stigma: men feel they should be able to "handle it on their own" in the gym, viewing medical weight loss as somehow unmasculine.</p>
+
+          <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', maxWidth: '100%', background: '#000', borderRadius: '16px', margin: '40px 0', border: '1px solid var(--line-soft)' }}>
+            <iframe 
+              src="https://www.youtube.com/embed/zBRQRzkmuXM?si=telehealthfx" 
+              style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
+              title="TelehealthFX Podcast Episode" 
+              frameBorder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              allowFullScreen>
+            </iframe>
+          </div>
+
           
           <p>The clinical data tells a far more urgent story. Obesity-related heart disease deaths in US men skyrocketed by 243% between 1999 and 2020. Furthermore, because men biologically store excess weight as metabolically dangerous visceral fat around the abdomen, obesity aggressively attacks three specific pillars of male health: testosterone production, cardiovascular integrity, and sexual function.</p>
 

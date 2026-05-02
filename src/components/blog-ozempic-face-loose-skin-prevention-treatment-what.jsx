@@ -27,6 +27,18 @@ function BlogOzempicFaceLooseSkinPreventionTreatmentWhat() {
           <img src="/assets/loose_skin_featured.png" alt="A glowing neon geometric collagen matrix wrapping around a sleek medical weight loss pen" style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' }} />
           
           <p>As <a href="/blog/what-is-a-glp-1-medication" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 medications</a> have dominated the weight loss industry, a new wave of aesthetic panic has swept across social media. The media quickly coined the term "Ozempic Face" to describe the hollowed, sagging, and prematurely aged appearance some patients experience after massive weight loss. Simultaneously, anxiety regarding severe loose skin on the body prevents many individuals from ever beginning therapy.</p>
+
+          <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', maxWidth: '100%', background: '#000', borderRadius: '16px', margin: '40px 0', border: '1px solid var(--line-soft)' }}>
+            <iframe 
+              src="https://www.youtube.com/embed/LpEqo5mS0hs?si=telehealthfx" 
+              style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
+              title="TelehealthFX Podcast Episode" 
+              frameBorder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              allowFullScreen>
+            </iframe>
+          </div>
+
           
           <p>Let's immediately clear the clinical record: "Ozempic Face" is not a side effect of the medication itself. It is the natural, biological consequence of <em>any</em> rapid, significant fat loss. Whether you lose 50 pounds through gastric bypass, severe calorie restriction, or <a href="/medications/semaglutide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Semaglutide</a>, the structural changes to your skin and fat pads are identical.</p>
 

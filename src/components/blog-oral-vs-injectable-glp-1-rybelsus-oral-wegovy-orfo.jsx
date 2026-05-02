@@ -27,6 +27,18 @@ function BlogOralVsInjectableGlp1RybelsusOralWegovyOrfo() {
           <img src="/assets/oral_vs_injectable_featured.png" alt="A glowing neon geometric capsule splitting open next to a sleek medical injection vial" style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' }} />
           
           <p>For the past five years, the revolution in medical weight loss has been inextricably linked to a single, intimidating medical device: the subcutaneous injection pen. <a href="/blog/what-is-a-glp-1-medication" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 medications</a> like <a href="/medications/semaglutide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Semaglutide</a> and <a href="/medications/tirzepatide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Tirzepatide</a> have demonstrated unprecedented, life-altering efficacy in treating obesity, crushing food noise, and restoring metabolic health. However, their reliance on a weekly needle has acted as a massive bottleneck, deterring millions of needle-phobic patients from accessing life-saving care.</p>
+
+          <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', maxWidth: '100%', background: '#000', borderRadius: '16px', margin: '40px 0', border: '1px solid var(--line-soft)' }}>
+            <iframe 
+              src="https://www.youtube.com/embed/bl7yObb0AWI?si=telehealthfx" 
+              style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
+              title="TelehealthFX Podcast Episode" 
+              frameBorder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              allowFullScreen>
+            </iframe>
+          </div>
+
           
           <p>The pharmaceutical industry recognized this barrier immediately, sparking a multi-billion dollar race to solve one of the most notoriously difficult problems in biochemistry: how to successfully deliver a fragile, large peptide molecule into the human bloodstream through the harsh, highly acidic environment of the human digestive tract. The goal was simple but elusive—create a daily oral pill that matches the immense weight-loss power of a weekly injection.</p>
 

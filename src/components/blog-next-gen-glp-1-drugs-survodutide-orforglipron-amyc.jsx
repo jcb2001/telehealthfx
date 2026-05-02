@@ -27,6 +27,18 @@ function BlogNextGenGlp1DrugsSurvodutideOrforglipronAmyc() {
           <img src="/assets/glp1_future_pipeline_featured.png" alt="A glowing neon DNA helix and complex molecular receptor structures intersecting with a futuristic sleek medical injection vial" style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' }} />
           
           <p>The field of medical weight loss is advancing at a velocity unseen in the history of modern pharmacology. We have completely exited the era of single-agonist therapies. While <a href="/medications/semaglutide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Semaglutide</a> (Wegovy/Ozempic) will forever be immortalized as the molecule that broke the dam—proving that obesity is a treatable biological disease rather than a moral failure—it is already being technologically eclipsed by the staggering innovations erupting from the pharmaceutical pipelines of Eli Lilly, Novo Nordisk, and Boehringer Ingelheim.</p>
+
+          <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', maxWidth: '100%', background: '#000', borderRadius: '16px', margin: '40px 0', border: '1px solid var(--line-soft)' }}>
+            <iframe 
+              src="https://www.youtube.com/embed/qtkJzol-YXc?si=telehealthfx" 
+              style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
+              title="TelehealthFX Podcast Episode" 
+              frameBorder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              allowFullScreen>
+            </iframe>
+          </div>
+
           
           <p>The first evolutionary leap occurred with the introduction of <a href="/medications/tirzepatide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Tirzepatide</a> (Zepbound/Mounjaro), the world's first "dual-agonist." By simultaneously targeting both the GLP-1 and the GIP receptors, Tirzepatide pushed average weight loss boundaries past the 20% mark, an efficacy previously reserved exclusively for irreversible bariatric surgery. But Tirzepatide was merely the prototype for a much larger, far more aggressive multi-receptor strategy.</p>
 

@@ -27,6 +27,18 @@ function BlogFDACompoundingBan() {
           <img src="/assets/fda-compounding-ban-featured.png" alt="FDA building with compounding pharmacy concept" style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' }} />
           
           <p>On April 30, 2026, the FDA dropped a regulatory bombshell on the medical weight loss industry. In a landmark proposal, the agency announced its intention to exclude semaglutide, tirzepatide, and liraglutide from the 503B bulks list. If finalized, this ruling will fundamentally alter the landscape of medical weight loss, effectively banning large-scale outsourcing facilities from manufacturing these life-changing <a href="/blog/what-is-a-glp-1-medication" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 medications</a> from bulk drug substances.</p>
+
+          <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', maxWidth: '100%', background: '#000', borderRadius: '16px', margin: '40px 0', border: '1px solid var(--line-soft)' }}>
+            <iframe 
+              src="https://www.youtube.com/embed/ERXLzJ_D1uY?si=telehealthfx" 
+              style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
+              title="TelehealthFX Podcast Episode" 
+              frameBorder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              allowFullScreen>
+            </iframe>
+          </div>
+
           
           <p>For millions of Americans who rely on compounded versions of <a href="/medications/semaglutide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Semaglutide</a> and <a href="/medications/tirzepatide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Tirzepatide</a> for metabolic health, this news has triggered panic, confusion, and fear. Will you lose access to your medication? Are you going to be forced back into a retail pharmacy system that charges upwards of $1,300 per month? Is your current medication even legal?</p>
 

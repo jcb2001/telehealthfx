@@ -27,6 +27,18 @@ function BlogBerberineVsGlp1In2026CanNaturesOzempicAct() {
           <img src="/assets/berberine_vs_glp1_featured.png" alt="Botanical root structure next to medical weight loss pen" style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' }} />
           
           <p>Beginning in 2023, a massive viral trend overtook TikTok and mainstream wellness culture: a completely natural, over-the-counter root extract was aggressively branded as "Nature's Ozempic." That supplement is <a href="/blog/berberine-oral-bioavailability" style={{ color: 'var(--brand)', fontWeight: 500 }}>Berberine</a>.</p>
+
+          <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', maxWidth: '100%', background: '#000', borderRadius: '16px', margin: '40px 0', border: '1px solid var(--line-soft)' }}>
+            <iframe 
+              src="https://www.youtube.com/embed/tXhuQAERmg8?si=telehealthfx" 
+              style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
+              title="TelehealthFX Podcast Episode" 
+              frameBorder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              allowFullScreen>
+            </iframe>
+          </div>
+
           
           <p>Driven by the high cost and unprecedented shortages of prescription <a href="/blog/what-is-a-glp-1-medication" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 medications</a>, millions of consumers rushed to health food stores seeking a cheaper, natural alternative. But as we enter 2026, the clinical data is clear, and the dust has settled on the hype. It is time to answer the definitive question: Can an ancient botanical extract actually compete with the most powerful metabolic pharmaceuticals ever synthesized?</p>
 
