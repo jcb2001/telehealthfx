@@ -34,11 +34,11 @@ function BlogIndex() {
       tag: "Mechanism of Action"
     },
     {
-      title: "Wegovy FDA Label Decoded: Dosing, Indications & What Your Doctor Won't Tell You",
-      description: "A clinical breakdown of the Wegovy FDA label, dosing titration schedule, and what you need to know about semaglutide 2.4 mg.",
+      title: "The Wegovy FDA Label Decoded: Criteria, Clinical Data, and Off-Label Access",
+      description: "We break down the exact Wegovy FDA label criteria for weight loss, the clinical trial data, and how to access compounded semaglutide if your insurance denies you.",
       slug: "/blog/wegovy-fda-label",
       image: "/assets/wegovy-label-featured.png",
-      tag: "Regulatory & Dosing"
+      tag: "Regulatory Analysis"
     },
     {
       title: "Transdermal Drug Delivery Systems: Formulation, Evaluation & the Future",
@@ -48,9 +48,9 @@ function BlogIndex() {
       tag: "Scientific Authority"
     },
     {
-      title: "The Ultimate Guide to GLP-1 Medications: How They Work & What's New",
-      description: "A comprehensive clinical breakdown of GLP-1 receptor agonists, how they function for weight loss, and the newest metabolic treatments available.",
-      slug: "/blog/glp1-ultimate-guide",
+      title: "What is a GLP-1 Medication? The Complete Science & Treatment Guide",
+      description: "What is a GLP-1 medication? Discover how Semaglutide and Tirzepatide work, the clinical science behind them, and how to access affordable compounding.",
+      slug: "/blog/what-is-a-glp-1-medication",
       image: "/assets/glp1-ultimate-guide.png",
       tag: "Science & Basics"
     },

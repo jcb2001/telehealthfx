@@ -59,7 +59,7 @@ function BlogOzempicInsulinResistance() {
 
           <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>How Ozempic (Semaglutide) Works</h2>
           <p>Semaglutide, the active ingredient in Ozempic and Wegovy, is a synthetic peptide engineered to perfectly mimic human GLP-1, but with a slight structural modification (an amino acid substitution at position 8 and the attachment of a fatty acid diacid). This modification makes semaglutide highly resistant to the DPP-4 enzyme and allows it to bind to albumin in the blood.</p>
-          <p>Because of this, semaglutide has a half-life of 165 hours (about 7 days), compared to the 2-minute half-life of natural GLP-1. (For a deeper look at the basics of these medications, see our <a href="/blog/glp1-ultimate-guide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Ultimate Guide to GLP-1s</a>).</p>
+          <p>Because of this, semaglutide has a half-life of 165 hours (about 7 days), compared to the 2-minute half-life of natural GLP-1. (For a deeper look at the basics of these medications, see our <a href="/blog/what-is-a-glp-1-medication" style={{ color: 'var(--brand)', fontWeight: 500 }}>Ultimate Guide to GLP-1s</a>).</p>
 
           <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
             <div style={{ width: 48, height: 48, borderRadius: '50%', background: 'var(--brand-soft)', color: 'var(--brand)', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 20px' }}>

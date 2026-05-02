@@ -9,7 +9,6 @@ import { BlogBerberine } from './blog-berberine.jsx';
 import { Blog72HourMyth } from './blog-72-hour-myth.jsx';
 import { BlogTransdermalVsOral } from './blog-transdermal-vs-oral.jsx';
 import { BlogBerberineVsOzempic } from './blog-berberine-vs-ozempic.jsx';
-import { BlogGlp1UltimateGuide } from './blog-glp1-ultimate-guide.jsx';
 
 
 import { PAGE_CONTENT } from './page-content.jsx';

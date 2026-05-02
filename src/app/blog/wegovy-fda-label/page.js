@@ -1,8 +1,8 @@
 import { BlogWegovyFdaLabel } from "../../../components/blog-wegovy-fda-label.jsx";
 
 export const metadata = {
-  title: "Wegovy FDA Label Decoded: Dosing & Indications | Telehealth FX",
-  description: "A clinical breakdown of the Wegovy FDA label, dosing titration schedule, and what you need to know about semaglutide 2.4 mg.",
+  title: "Wegovy FDA Label Decoded: Criteria & Off-Label Access | Telehealth FX",
+  description: "We break down the exact Wegovy FDA label criteria for weight loss, the clinical trial data, and how to access compounded semaglutide if your insurance denies you.",
 };
 
 export default function Page() {
