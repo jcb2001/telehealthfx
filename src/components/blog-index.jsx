@@ -27,6 +27,27 @@ function BlogIndex() {
       tag: "Compound Analysis"
     },
     {
+      title: "Ozempic for Insulin Resistance: How GLP-1 Medications Reverse Metabolic Dysfunction",
+      description: "Learn how GLP-1 medications like Ozempic reverse metabolic dysfunction and improve insulin sensitivity before weight loss even begins.",
+      slug: "/blog/ozempic-insulin-resistance",
+      image: "/assets/ozempic-insulin-featured.png",
+      tag: "Mechanism of Action"
+    },
+    {
+      title: "Wegovy FDA Label Decoded: Dosing, Indications & What Your Doctor Won't Tell You",
+      description: "A clinical breakdown of the Wegovy FDA label, dosing titration schedule, and what you need to know about semaglutide 2.4 mg.",
+      slug: "/blog/wegovy-fda-label",
+      image: "/assets/wegovy-label-featured.png",
+      tag: "Regulatory & Dosing"
+    },
+    {
+      title: "Transdermal Drug Delivery Systems: Formulation, Evaluation & the Future",
+      description: "An academic overview of TDDS formulation, permeation enhancers, and how patches deliver metabolic medicine.",
+      slug: "/blog/transdermal-drug-delivery-systems",
+      image: "/assets/transdermal-systems-featured.png",
+      tag: "Scientific Authority"
+    },
+    {
       title: "The Ultimate Guide to GLP-1 Medications: How They Work & What's New",
       description: "A comprehensive clinical breakdown of GLP-1 receptor agonists, how they function for weight loss, and the newest metabolic treatments available.",
       slug: "/blog/glp1-ultimate-guide",

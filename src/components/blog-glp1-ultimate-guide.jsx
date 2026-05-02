@@ -51,8 +51,8 @@ function BlogGlp1UltimateGuide() {
           <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>1. Semaglutide (Ozempic & Wegovy)</h3>
           <p>Semaglutide is arguably the most famous GLP-1. It is a single-agonist, meaning it targets only the GLP-1 receptors.</p>
           <ul style={{ marginBottom: 24, paddingLeft: 20 }}>
-            <li><strong>Ozempic:</strong> FDA-approved for Type 2 Diabetes management.</li>
-            <li><strong>Wegovy:</strong> FDA-approved specifically for chronic weight management in adults with obesity or overweight individuals with at least one weight-related condition.</li>
+            <li><strong>Ozempic:</strong> <a href="/blog/ozempic-insulin-resistance" style={{ color: 'var(--brand)', fontWeight: 500 }}>FDA-approved</a> for Type 2 Diabetes management.</li>
+            <li><strong>Wegovy:</strong> <a href="/blog/wegovy-fda-label" style={{ color: 'var(--brand)', fontWeight: 500 }}>FDA-approved specifically</a> for chronic weight management in adults with obesity or overweight individuals with at least one weight-related condition.</li>
           </ul>
 
           <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>2. Tirzepatide (Mounjaro & Zepbound)</h3>
