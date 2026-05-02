@@ -41,18 +41,18 @@ function BlogIndex() {
       tag: "Patient Care"
     },
     {
-      title: "Hidden Fees in Telehealth Weight Loss: How to Spot Them (2026 Clinical Guide)",
-      description: "A comprehensive clinical breakdown exploring hidden fees in telehealth weight loss: how to spot them (2026 clinical guide).",
+      title: "Hidden Fees in Telehealth Weight Loss: How to Spot the Scams",
+      description: "An uncompromising consumer protection guide detailing the 7 major red flags of deceptive telehealth clinics, based on 2025 FTC intervention data.",
       slug: "/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot",
-      image: "/assets/ozempic-featured.png",
-      tag: "Clinical Guide"
+      image: "/assets/hidden_fees_featured.png",
+      tag: "Consumer Protection"
     },
     {
-      title: "GLP-1 and Exercise: How to Combine Medication with Fitness (2026 Clinical Guide)",
-      description: "A comprehensive clinical breakdown exploring glp-1 and exercise: how to combine medication with fitness (2026 clinical guide).",
+      title: "GLP-1 and Exercise: How to Combine Medication with Fitness",
+      description: "A definitive clinical fitness guide detailing the two non-negotiable pillars of a GLP-1 exercise protocol to protect muscle mass during extreme caloric deficits.",
       slug: "/blog/glp-1-and-exercise-how-to-combine-medication-with",
-      image: "/assets/tirzepatide-semaglutide-featured.png",
-      tag: "Clinical Guide"
+      image: "/assets/glp1_exercise_featured.png",
+      tag: "Clinical Physiology"
     },
     {
       title: "Weight Loss for Women Over 40: How GLP-1 Can Help (2026 Clinical Guide)",
