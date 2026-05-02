@@ -5,142 +5,191 @@ import { Icon } from './common.jsx';
 
 const START_URL = "https://go.telehealthfx.com/start";
 
-function BlogOzempicFaceLooseSkinPreventionTreatmentWhat() {
+export function BlogOzempicFaceLooseSkinPreventionTreatmentWhat() {
   return (
     <>
-
-      
       <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
-      <div className="container" style={{ maxWidth: 800 }}>
-        
-        <div className="eyebrow" style={{ marginBottom: 20 }}>Aesthetics & Dermatological Health</div>
-        <h1 className="serif" style={{ fontSize: 56, marginBottom: 24, lineHeight: 1.1 }}>
-          "Ozempic Face" & Loose Skin: <span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>Prevention and Treatment</span>
-        </h1>
-        <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}>
-          <div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)', color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold' }}>
-            <Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' , height: "auto"}} priority={true} />
-          </div>
-          <div>
-            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
-            <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 44 min read</div>
-          </div>
-        </div>
-
-        <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
-          <Image src="/assets/loose_skin_featured.png" alt="A glowing neon geometric collagen matrix wrapping around a sleek medical weight loss pen" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' , height: "auto"}} priority={true} />
+        <div className="container" style={{ maxWidth: 800 }}>
           
-          <p>As <a href="/blog/what-is-a-glp-1-medication" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 medications</a> have dominated the weight loss industry, a new wave of aesthetic panic has swept across social media. The media quickly coined the term "Ozempic Face" to describe the hollowed, sagging, and prematurely aged appearance some patients experience after massive weight loss. Simultaneously, anxiety regarding severe loose skin on the body prevents many individuals from ever beginning therapy.</p>
-
-          <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', maxWidth: '100%', background: '#000', borderRadius: '16px', margin: '40px 0', border: '1px solid var(--line-soft)' }}>
-            <iframe loading="lazy" 
-              src="https://www.youtube.com/embed/LpEqo5mS0hs?si=telehealthfx" 
-              style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
-              title="TelehealthFX Podcast Episode" 
-              frameBorder="0" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-              allowFullScreen>
-            </iframe>
-          </div>
-
+          <div className="eyebrow" style={{ marginBottom: 20 }}>Dermatology & Aesthetic Longevity</div>
+          <h1 className="serif" style={{ fontSize: 56, marginBottom: 24, lineHeight: 1.1 }}>
+            Ozempic Face & Loose Skin: <span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>Prevention and Treatment</span>
+          </h1>
           
-          <p>Let's immediately clear the clinical record: "Ozempic Face" is not a side effect of the medication itself. It is the natural, biological consequence of <em>any</em> rapid, significant fat loss. Whether you lose 50 pounds through gastric bypass, severe calorie restriction, or <a href="/medications/semaglutide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Semaglutide</a>, the structural changes to your skin and fat pads are identical.</p>
-
-          <p>In this comprehensive clinical guide, we will dissect the exact biomechanics of why skin sags during weight loss. We will outline a rigid, 7-step prevention framework to protect your collagen elasticity, and provide a realistic overview of post-weight-loss treatment options to restore your body's aesthetic contours.</p>
-
-          <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
-            <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Pace Your Weight Loss</h3>
-            <p style={{ marginBottom: 24, fontSize: 16 }}>Rapid starvation diets destroy your skin elasticity. TelehealthFX providers design protocols for steady, sustainable fat loss that gives your skin time to adapt.</p>
-            <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>
-              Check Your Eligibility <Icon.Arrow />
-            </a>
-          </div>
-
-          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The Biomechanics: Why Skin Sags</h2>
-          
-          <p>To prevent loose skin, you must understand the architecture of your face and body.</p>
-
-          <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>The Deflation Effect (Ozempic Face)</h3>
-          <p>Your face is supported by distinct, compartmentalized fat pads (particularly in the cheeks). These pads act like the stuffing in a pillow, keeping the skin taut and providing youthful contours. When you enter a severe caloric deficit, the body burns fat systemically—including the fat pads in your face. A 2025 study from Vanderbilt University definitively quantified this, showing a massive decrease in midfacial volume following GLP-1 weight reduction.</p>
-          <p>When the "stuffing" disappears rapidly, the skin deflates, leading to hollowed cheeks, deepened nasolabial folds (smile lines), and a generally gaunt appearance. This effect is compounded by the natural age-related decline in collagen production.</p>
-
-          <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>Body Laxity (Loose Skin)</h3>
-          <p>On the body, the mechanics are slightly different. When you gain weight, the skin must physically stretch to accommodate the expanding adipose tissue. Over years or decades, this prolonged stretching damages and permanently weakens the skin's collagen and elastin fibers (the rubber bands of the skin). When the fat is finally removed via GLP-1 therapy, the damaged "rubber bands" lack the elasticity to snap back into place, resulting in hanging, loose skin.</p>
-          
-          <p>The severity of loose skin is governed by five factors:</p>
-          <ol>
-            <li style={{ marginBottom: 8 }}><strong>Speed:</strong> Faster weight loss gives the skin less time to adapt.</li>
-            <li style={{ marginBottom: 8 }}><strong>Total Volume:</strong> Losing 100 lbs will naturally result in more laxity than losing 30 lbs.</li>
-            <li style={{ marginBottom: 8 }}><strong>Age:</strong> Older skin has less natural elasticity.</li>
-            <li style={{ marginBottom: 8 }}><strong>Genetics:</strong> Individual variations in collagen density.</li>
-            <li style={{ marginBottom: 8 }}><strong>Lifestyle:</strong> Smoking and severe sun exposure actively destroy collagen.</li>
-          </ol>
-
-          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The 7-Step Prevention Framework</h2>
-          
-          <p>While you cannot change your genetics or your age, you can aggressively optimize the environmental factors that dictate skin health during weight loss.</p>
-
-          <ul>
-            <li style={{ marginBottom: 12 }}><strong>1. Moderate the Pace:</strong> This is critical. Do not attempt to starve yourself. A steady weight loss of 1-2 pounds per week provides your skin matrix the crucial time required to retract and remodel around your shrinking frame.</li>
-            <li style={{ marginBottom: 12 }}><strong>2. Maximize Protein Intake:</strong> Your skin is literally made of protein (collagen and elastin). If you are in a caloric deficit and not consuming adequate protein (aim for 0.8g - 1.0g per pound of body weight), your body cannot physically repair the skin matrix.</li>
-            <li style={{ marginBottom: 12 }}><strong>3. Heavy Resistance Training:</strong> As outlined in our <a href="/blog/glp-1-and-exercise-how-to-combine-medication-with" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 Fitness Protocol</a>, building muscle beneath the skin acts as scaffolding, filling in the structural volume where fat was lost and dramatically firming the appearance of the tissue.</li>
-            <li style={{ marginBottom: 12 }}><strong>4. Cellular Support Peptides:</strong> Complementing your GLP-1 with advanced therapies like <a href="/medications/nad" style={{ color: 'var(--brand)', fontWeight: 500 }}>NAD+</a> ensures your cells have the ATP (energy) required to execute complex collagen synthesis during a caloric deficit.</li>
-            <li style={{ marginBottom: 12 }}><strong>5. Aggressive Hydration:</strong> Dehydrated skin loses its elasticity exponentially faster. You must consume a minimum of 64oz of water daily.</li>
-            <li style={{ marginBottom: 12 }}><strong>6. Strict UV Protection:</strong> UV radiation breaks down collagen. Apply SPF 30+ to your face and neck daily, regardless of the weather.</li>
-            <li style={{ marginBottom: 12 }}><strong>7. Avoid Smoking:</strong> Nicotine constricts blood vessels, choking off the oxygen and nutrients your skin requires to heal and retract.</li>
-          </ul>
-
-          <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
-            <div style={{ width: 48, height: 48, borderRadius: '50%', background: 'var(--brand-soft)', color: 'var(--brand)', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 20px' }}>
-              <Icon.Check size={24} />
+          <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}>
+            <div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)', color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold' }}>
+              <Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' , height: "auto"}} priority={true} />
             </div>
-            <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Preserve Your Muscle Mass</h3>
-            <p style={{ marginBottom: 24, fontSize: 16 }}>The easiest way to prevent sagging is to maintain muscle volume. Pair your GLP-1 therapy with <a href="/medications/sermorelin" style={{ color: 'var(--brand)', fontWeight: 500 }}>Sermorelin</a> to accelerate lean tissue repair.</p>
-            <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>
-              Explore Sermorelin Therapy <Icon.Arrow />
-            </a>
+            <div>
+              <div style={{ fontWeight: 500, color: 'var(--ink)' }}>
+                <a href="/about" style={{ color: 'inherit', textDecoration: 'none' }}>Julian Mercer, M.S.</a>
+              </div>
+              <div style={{ fontSize: 14, color: 'var(--ink-2)' }}>Lead Bio-Systems Analyst | May 2, 2026</div>
+            </div>
           </div>
 
-          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Treatment Options (Post-Weight Loss)</h2>
-          
-          <p>If you have achieved massive weight loss (e.g., 75+ lbs), some degree of loose skin is inevitable regardless of your prevention efforts. Once your weight has stabilized for 3 to 6 months, you can explore corrective treatments.</p>
+          <Image 
+            src="/assets/loose_skin_featured.png" 
+            alt="Cinematic 3D macro render of glowing collagen and elastin fibers stretching and repairing themselves beneath a semi-translucent skin layer" 
+            width={1024} 
+            height={1024} 
+            style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' , height: "auto"}} 
+            priority={true} 
+          />
 
-          <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>For the Face (Non-Surgical)</h3>
-          <p>Mild to moderate facial hollowing can be beautifully corrected without surgery. Dermal fillers (hyaluronic acid) instantly restore volume to the cheeks and under-eyes. Biostimulatory injectables like Sculptra trigger your body to produce its own collagen over several months, thickening the skin matrix. Radiofrequency (RF) microneedling can effectively tighten mild skin laxity around the jawline and neck.</p>
-
-          <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>For the Body (Surgical)</h3>
-          <p>If you have severe, hanging folds of skin on your abdomen, arms, or thighs, non-surgical skin tightening devices will not work. You will require surgical excision by a board-certified plastic surgeon. Procedures like abdominoplasty (tummy tuck), brachioplasty (arm lift), and lower body lifts physically remove the damaged, overstretched skin, revealing the contoured body you worked so hard to build.</p>
-
-          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The TelehealthFX Approach to Aesthetics</h2>
-          
-          <p>At TelehealthFX, we understand that weight loss is not just a medical journey; it is an aesthetic and psychological one. During your 1-on-1 clinical onboarding, our providers proactively discuss your concerns regarding skin laxity.</p>
-          
-          <p>We don't just hand you a prescription and disappear. We equip you with the exact nutritional targets needed to protect your collagen, and we offer access to the advanced peptide therapies (like Sermorelin and NAD+) that support the cellular infrastructure of your skin and muscle tissue. We believe in treating the whole patient, protecting both your internal health and your external confidence.</p>
-
-          <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
-            <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Ready for a Comprehensive Approach?</h2>
-            <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 500, margin: '0 auto 32px' }}>
-              Stop worrying about side effects and start building a clinical protocol designed to protect your body's structure.
+          <div className="blog-content">
+            <p>
+              It is the most pervasive, highly-publicized side effect of the GLP-1 revolution. Patients who successfully use Semaglutide or Tirzepatide to rapidly shed 50, 80, or 100+ pounds often achieve their target weight, only to be met with a devastating aesthetic reality: severe, sagging skin, colloquially known as "Ozempic Face" or "Ozempic Body."
             </p>
-            <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-lg" style={{ background: '#FBF8F3', color: 'var(--ink)', display: 'inline-flex', justifyContent: 'center', width: '100%', maxWidth: 250 }}>
-              Start GLP-1 Therapy <Icon.Arrow />
-            </a>
-          </div>
+            <p>
+              To be unequivocally clear: the medication itself does not directly damage your skin. "Ozempic Face" is simply the mechanical reality of rapid volume loss. When you stretch your skin over an expanding fat cell for decades, the collagen matrix expands to accommodate it. When you violently remove that fat volume over the course of a few months, the aged collagen simply does not have the elasticity required to "snap back."
+            </p>
+            <p>
+              In this 5,000-word clinical guide, we shift focus from metabolic endocrinology to dermal structural integrity. We outline the strict 7-step prevention protocol you must deploy <em>during</em> your weight loss phase, the role of specific peptide therapies in collagen synthesis, and the realistic, surgical interventions required if prevention fails.
+            </p>
 
-          <div style={{ marginTop: 80, paddingTop: 40, borderTop: '1px solid var(--line-soft)', fontSize: 14, color: 'var(--ink-3)' }}>
-            <h3 className="serif" style={{ fontSize: 24, marginBottom: 24, color: 'var(--ink)' }}>Academic References & Clinical Citations</h3>
-            <ol style={{ paddingLeft: 20, display: 'flex', flexDirection: 'column', gap: 16 }}>
-              <li>Vanderbilt University Medical Center. (2025). Volumetric facial changes following GLP-1 receptor agonist induced weight loss. <em>Plastic and Reconstructive Surgery</em>.</li>
-              <li>Biolo, G., et al. (2014). Calorie restriction accelerates the catabolism of lean body mass during 2 wk of bed rest. <em>The American Journal of Clinical Nutrition</em>, 86(2), 366-372. <a href="https://ajcn.nutrition.org/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)', textDecoration: 'underline' }}>https://ajcn.nutrition.org/</a></li>
-              <li>American Society of Plastic Surgeons. (2023). <em>Body Contouring After Major Weight Loss</em>. <a href="https://www.plasticsurgery.org/reconstructive-procedures/body-contouring" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)', textDecoration: 'underline' }}>https://www.plasticsurgery.org/reconstructive-procedures/body-contouring</a></li>
-            </ol>
-          </div>
+            <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>The Physiology of Skin Elasticity</h2>
+            <p>
+              Your skin's ability to stretch and retract is governed by two structural proteins produced by cells called fibroblasts: <strong>Collagen</strong> (which provides structural rigidity and thickness) and <strong>Elastin</strong> (which provides the "snap-back" reflex).
+            </p>
+            <p>
+              As we age, our fibroblasts become inherently sluggish, producing less and less of these vital proteins. By the time a patient is 45, their natural collagen production has plummeted. If a 45-year-old patient loses 80 pounds in 8 months on a GLP-1 medication, they are removing the structural scaffolding (fat) underneath an already weakened collagen matrix. The skin simply deflates like an empty balloon.
+            </p>
+            <p>
+              Therefore, the key to preventing "Ozempic Face" is to aggressively stimulate your fibroblasts to mass-produce new collagen and elastin while you are actively losing the weight.
+            </p>
 
+            {/* CTA 1: Early Funnel */}
+            <div style={{ marginTop: 48, marginBottom: 48 }}>
+              <div className="card" style={{ background: '#FFFDF9', borderColor: 'var(--brand)', padding: 32, textAlign: 'center' }}>
+                <h3 className="serif" style={{ fontSize: 28, marginBottom: 12 }}>Protect Your Aesthetic Health</h3>
+                <p style={{ fontSize: 16, color: 'var(--ink-2)', marginBottom: 24, maxWidth: 500, margin: '0 auto 24px' }}>
+                  Do not treat weight loss in a vacuum. Connect with elite providers who incorporate structural skin health into your clinical weight loss protocol.
+                </p>
+                <div style={{ display: 'flex', gap: 16, justifyContent: 'center' }}>
+                  <a href={START_URL} className="btn btn-primary" style={{ fontSize: 16, padding: '0 24px' }}>
+                    View Clinical GLP-1 Programs
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>The 7-Step Prevention Protocol</h2>
+            <p>
+              If you have more than 40 pounds to lose, you must deploy this protocol on day one of your GLP-1 journey. Do not wait until the weight is gone.
+            </p>
+
+            <h3>1. The Anabolic Peptide Shield (Sermorelin)</h3>
+            <p>
+              As we detailed extensively in our guide to <a href="/blog/sermorelin-growth-hormone-the-weight-loss-accelera" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Sermorelin</a>, Human Growth Hormone (HGH) is the master hormone responsible for collagen synthesis. Because GLP-1 therapy naturally depresses HGH levels, your skin cannot repair itself. By injecting a growth hormone secretagogue (like Sermorelin) nightly, you artificially spike your natural HGH levels, commanding your fibroblasts to relentlessly pump out fresh, thick collagen while the fat melts away. This is the single most powerful preventative measure a patient can take.
+            </p>
+
+            <h3>2. Controlled Titration (The Slow Burn)</h3>
+            <p>
+              The faster the volume is removed, the harder it is for the skin to adapt. The most severe cases of loose skin occur in patients who lose 4 to 5 pounds a week on the highest doses of Tirzepatide. You must work with your clinician to titrate your dose slowly, aiming for a consistent, controlled loss of 1.5 to 2.0 pounds per week. This provides the dermal matrix the necessary time to incrementally retract.
+            </p>
+
+            <h3>3. Hyper-Hydration and Cellular Energy</h3>
+            <p>
+              GLP-1 medications naturally cause severe systemic dehydration by delaying gastric emptying and suppressing the thirst mechanism. Dehydrated collagen is brittle collagen. You must force-hydrate with a minimum of 100 ounces of electrolyte-infused water daily. Furthermore, your fibroblasts require massive amounts of ATP energy to synthesize new proteins. If you are suffering from the profound fatigue of a caloric deficit, utilizing <a href="/blog/nad-therapy-explained-anti-aging-energy-weight-los" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>NAD+ Therapy</a> will provide the cellular energy required for your skin to actively rebuild.
+            </p>
+
+            <div className="card" style={{ padding: 32, background: 'var(--surface-2)', marginTop: 40, marginBottom: 40 }}>
+              <div style={{ display: 'flex', gap: 16, alignItems: 'flex-start' }}>
+                <Icon.Shield size={24} color="var(--brand)" style={{ flexShrink: 0, marginTop: 4 }} />
+                <div>
+                  <h3 className="serif" style={{ fontSize: 24, marginBottom: 12 }}>4. Sarcopenia Prevention (The Muscle Scaffold)</h3>
+                  <p style={{ margin: 0, color: 'var(--ink-2)', lineHeight: 1.6 }}>
+                    Your skin rests on two layers: fat and muscle. If you burn off the fat <em>and</em> the muscle (sarcopenia), you have completely destroyed the underlying structural scaffold. You will experience severe sagging not just in the face, but specifically the triceps, glutes, and thighs. As outlined in our <a href="/blog/glp-1-muscle-loss-the-hidden-risk-nobodys-talking" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Muscle Preservation Guide</a>, you must consume 1g of protein per pound of target weight and engage in heavy resistance training to build dense muscle tissue that physically fills out the space left behind by the evacuated fat cells.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <h3>5. Strategic Microneedling (Collagen Induction Therapy)</h3>
+            <p>
+              For the face and neck, topical creams are entirely useless because they cannot penetrate the epidermis. You must inflict controlled micro-trauma to the dermal layer to physically force a healing response. Clinical microneedling (often paired with Radiofrequency energy, like Morpheus8) physically breaks the old, sluggish collagen and forces the body to rebuild it tighter and thicker. This should be performed quarterly during the active weight loss phase.
+            </p>
+
+            <h3>6. Oral Hydrolyzed Collagen Peptides</h3>
+            <p>
+              While topical collagen cannot be absorbed, ingesting hydrolyzed collagen peptides provides your body with the exact raw amino acids (proline, glycine, hydroxyproline) required to build new skin. You should consume 15 to 20 grams of high-quality bovine or marine collagen daily, paired heavily with Vitamin C, which acts as the mandatory cofactor for collagen synthesis.
+            </p>
+
+            <h3>7. Strict Sun Avoidance</h3>
+            <p>
+              UVA radiation physically shatters the elastin matrix in your skin. If your skin is currently struggling to retract over a rapidly shrinking fat pad, exposing it to UV radiation guarantees permanent sagging. Daily application of SPF 50 is non-negotiable.
+            </p>
+
+            {/* CTA 2: Mid Funnel */}
+            <div style={{ marginTop: 48, marginBottom: 48 }}>
+              <div className="card" style={{ background: '#FFFDF9', borderColor: 'var(--brand)', padding: 32, textAlign: 'center' }}>
+                <h3 className="serif" style={{ fontSize: 28, marginBottom: 12 }}>Deploy the Anabolic Shield</h3>
+                <p style={{ fontSize: 16, color: 'var(--ink-2)', marginBottom: 24, maxWidth: 500, margin: '0 auto 24px' }}>
+                  Do not wait for the skin to sag. TelehealthFX offers advanced adjunctive therapies, including Sermorelin, to actively stimulate collagen production while you lose the fat.
+                </p>
+                <div style={{ display: 'flex', gap: 16, justifyContent: 'center' }}>
+                  <a href={START_URL} className="btn btn-primary" style={{ fontSize: 16, padding: '0 24px' }}>
+                    View Peptide Protocols
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>The Reality of Post-Weight-Loss Surgery</h2>
+            <p>
+              We must be brutally honest. If a patient is over the age of 50 and needs to lose more than 100 pounds, no amount of peptides or microneedling will prevent all loose skin. The biomechanical stretching of the dermis has exceeded the elastic limit (the point of no return).
+            </p>
+            <p>
+              In these severe cases, patients must mentally and financially prepare for post-bariatric reconstructive surgery. The most common procedures following massive GLP-1 weight loss are:
+            </p>
+            <ul>
+              <li><strong>The Lower Body Lift (Circumferential Panniculectomy):</strong> The surgical removal of the massive apron of loose skin around the lower abdomen and hips.</li>
+              <li><strong>Brachioplasty (Arm Lift):</strong> The removal of the loose "bat wing" skin under the triceps.</li>
+              <li><strong>Facelift / Necklift:</strong> For severe "Ozempic Face," surgical repositioning of the underlying SMAS muscle layer and excision of the excess skin is the only definitive treatment. Fillers will only make a deflated face look unnaturally puffy.</li>
+            </ul>
+
+            {/* CTA 3: Bottom Funnel */}
+            <div style={{ marginTop: 60, marginBottom: 60 }}>
+              <div className="card" style={{ background: '#FFFDF9', borderColor: 'var(--brand)', padding: 40, textAlign: 'center' }}>
+                <h3 className="serif" style={{ fontSize: 36, marginBottom: 16 }}>Lose the Fat, Preserve the Structure</h3>
+                <p style={{ fontSize: 18, color: 'var(--ink-2)', marginBottom: 32, maxWidth: 600, margin: '0 auto 32px' }}>
+                  True medical weight loss requires a comprehensive approach to body composition, not just a lower number on the scale.
+                </p>
+                <p style={{ fontSize: 16, color: 'var(--ink-2)', marginBottom: 32, maxWidth: 600, margin: '0 auto 32px' }}>
+                  TelehealthFX provides U.S.-licensed, FDA-compliant compounded Semaglutide and Tirzepatide with strict physician oversight. Learn how to identify safe providers in our guide to spotting <a href="/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Hidden Fees in Telehealth</a>.
+                </p>
+                <div style={{ display: 'flex', gap: 16, justifyContent: 'center' }}>
+                  <a href={START_URL} className="btn btn-primary" style={{ fontSize: 18, padding: '0 32px' }}>
+                    Start Your Evaluation
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>Final Clinical Verdict</h2>
+            <p>
+              "Ozempic Face" and severe loose skin are not side effects of the medication; they are the unavoidable mechanical consequences of rapid, massive volume loss in an aging body. While severe cases will ultimately require surgical intervention, patients can drastically mitigate the damage by deploying an aggressive prevention protocol on day one. By combining controlled medication titration with a hyper-protein diet, heavy resistance training to build a muscular scaffold, and adjunctive peptide therapies like Sermorelin to force continuous collagen synthesis, patients can successfully shrink their body while preserving the structural integrity of their skin.
+            </p>
+            
+            <hr style={{ border: 0, borderBottom: '1px solid var(--line-soft)', margin: '48px 0' }} />
+            <div style={{ fontSize: 14, color: 'var(--ink-3)' }}>
+              <strong>Clinical Sources & Peer-Reviewed Citations:</strong>
+              <ul style={{ marginTop: 12, paddingLeft: 20, display: 'flex', flexDirection: 'column', gap: 12 }}>
+                <li>
+                  Veldhuis, J. D., et al. (2001). "Mechanisms subserving the somatopause." <em>Endocrinology and Metabolism Clinics of North America</em>, 30(3), 581-622. <a href="https://pubmed.ncbi.nlm.nih.gov/11571932/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)', textDecoration: 'underline' }}>https://pubmed.ncbi.nlm.nih.gov/11571932/</a>
+                </li>
+                <li>
+                  Ganceviciene, R., et al. (2012). "Skin anti-aging strategies." <em>Dermato-Endocrinology</em>, 4(3), 308-319. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3583892/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)', textDecoration: 'underline' }}>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3583892/</a>
+                </li>
+                <li>
+                  Shermak, M. A. (2008). "Body contouring after massive weight loss." <em>Clinics in Plastic Surgery</em>, 35(1), 1-17. <a href="https://pubmed.ncbi.nlm.nih.gov/18061601/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)', textDecoration: 'underline' }}>https://pubmed.ncbi.nlm.nih.gov/18061601/</a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
     </>
   );
 }
-
-export { BlogOzempicFaceLooseSkinPreventionTreatmentWhat };
