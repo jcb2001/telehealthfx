@@ -61,7 +61,10 @@ export async function onRequest(context) {
       '/blog/glp-1-and-your-heart-the-select-trial-cardiovascul',
       '/blog/oral-vs-injectable-glp-1-rybelsus-oral-wegovy-orfo',
       '/blog/ozempic-babies-glp-1-and-fertility-what-women-need',
-      '/blog/next-gen-glp-1-drugs-survodutide-orforglipron-amyc'
+      '/blog/next-gen-glp-1-drugs-survodutide-orforglipron-amyc',
+      '/blog/glp-1-and-type-2-diabetes-beyond-weight-loss-2026',
+      '/blog/the-social-stigma-of-weight-loss-medication-why-it',
+      '/blog/intermittent-fasting-glp-1-do-they-work-together-2'
     ];
   }
   if (staticRoutes.length <= 1) { // Only contains root

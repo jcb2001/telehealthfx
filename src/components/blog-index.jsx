@@ -167,11 +167,11 @@ function BlogIndex() {
       tag: "Future Science"
     },
     {
-      title: "GLP-1 and Type 2 Diabetes: Beyond Weight Loss (2026 Clinical Guide)",
-      description: "A comprehensive clinical breakdown exploring glp-1 and type 2 diabetes: beyond weight loss (2026 clinical guide).",
+      title: "GLP-1 and Type 2 Diabetes: Beyond Weight Loss",
+      description: "A deep dive into the cellular mechanics of insulin resistance, the SURPASS-2 trial data, and how GLP-1 therapy can push Type 2 Diabetes into remission.",
       slug: "/blog/glp-1-and-type-2-diabetes-beyond-weight-loss-2026",
-      image: "/assets/ozempic-featured.png",
-      tag: "Clinical Guide"
+      image: "/assets/glp1_type2_diabetes_featured.png",
+      tag: "Endocrinology"
     },
     {
       title: "The Social Stigma of Weight Loss Medication: Why It's Nobody's Business (2026 Clinical Guide)",
@@ -181,11 +181,11 @@ function BlogIndex() {
       tag: "Clinical Guide"
     },
     {
-      title: "Intermittent Fasting + GLP-1: Do They Work Together? (2026 Clinical Guide)",
-      description: "A comprehensive clinical breakdown exploring intermittent fasting + glp-1: do they work together? (2026 clinical guide).",
+      title: "Diet Traps: Keto, Intermittent Fasting, and GLP-1 Therapy",
+      description: "Why stacking extreme diets like Keto and strict Intermittent Fasting on top of GLP-1 therapy creates catastrophic muscle wasting and metabolic failure.",
       slug: "/blog/intermittent-fasting-glp-1-do-they-work-together-2",
-      image: "/assets/nad-therapy-featured.png",
-      tag: "Clinical Guide"
+      image: "/assets/glp1_diet_traps_featured.png",
+      tag: "Nutrition"
     },
     {
       title: "GLP-1 and Inflammation: Arthritis, Sleep Apnea & Chronic Pain (2026 Clinical Guide)",
