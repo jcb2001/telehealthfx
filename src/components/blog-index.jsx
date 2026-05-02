@@ -6,6 +6,13 @@ import { Icon } from './common.jsx';
 function BlogIndex() {
   const articles = [
     {
+      title: "The Pharmacokinetics of Ozempic (Semaglutide): A Cellular Breakdown",
+      description: "A clinical breakdown of Semaglutide pharmacokinetics. We analyze the DPP-4 enzyme, aminoisobutyric acid substitution, and the albumin transport mechanism.",
+      slug: "/blog/pharmacokinetics-ozempic-semaglutide-cellular-breakdown",
+      image: "/assets/ozempic-pharmacokinetics-featured.png",
+      tag: "GLP-1 Mechanics"
+    },
+    {
       title: "The Berberine Extraction Process: Why 90% of Supplements Fail the Purity Test",
       description: "A clinical breakdown of the Berberine extraction process. We analyze solvent residues, heavy metal contamination, and the limits of botanical purity.",
       slug: "/blog/berberine-extraction-process-purity-test",
