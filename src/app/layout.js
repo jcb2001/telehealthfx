@@ -74,42 +74,113 @@ export default function RootLayout({ children }) {
       },
       {
         "@type": "Product",
-        "@id": "https://telehealthfx.com/#product",
-        "name": "Clinical Weight Loss Program & Medication",
+        "@id": "https://telehealthfx.com/#product-semaglutide",
+        "name": "Compounded Semaglutide Program",
         "brand": {
           "@id": "https://telehealthfx.com/#organization"
         },
-        "description": "Comprehensive metabolic health program including clinician consults and compounded GLP-1 medications.",
-        "offers": {
-          "@type": "AggregateOffer",
-          "priceCurrency": "USD",
-          "lowPrice": "146.00",
-          "highPrice": "258.00",
-          "offerCount": "2",
-          "availability": "https://schema.org/InStock"
+        "description": "Comprehensive metabolic health program including clinician consults and compounded Semaglutide medication.",
+        "image": "https://telehealthfx.com/assets/Site%20Icon-modified.png",
+        "sku": "SEM-01",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "218"
         },
-        "hasVariant": [
-          {
-            "@type": "Product",
-            "name": "Compounded Semaglutide Program",
-            "offers": {
-              "@type": "Offer",
-              "price": "146.00",
-              "priceCurrency": "USD",
-              "availability": "https://schema.org/InStock"
+        "offers": {
+          "@type": "Offer",
+          "price": "146.00",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "url": "https://telehealthfx.com",
+          "shippingDetails": {
+            "@type": "OfferShippingDetails",
+            "shippingRate": {
+              "@type": "MonetaryAmount",
+              "value": "0",
+              "currency": "USD"
+            },
+            "shippingDestination": {
+              "@type": "DefinedRegion",
+              "addressCountry": "US"
+            },
+            "deliveryTime": {
+              "@type": "ShippingDeliveryTime",
+              "handlingTime": {
+                "@type": "QuantitativeValue",
+                "minValue": 0,
+                "maxValue": 1,
+                "unitCode": "d"
+              },
+              "transitTime": {
+                "@type": "QuantitativeValue",
+                "minValue": 1,
+                "maxValue": 2,
+                "unitCode": "d"
+              }
             }
           },
-          {
-            "@type": "Product",
-            "name": "Compounded Tirzepatide Program",
-            "offers": {
-              "@type": "Offer",
-              "price": "258.00",
-              "priceCurrency": "USD",
-              "availability": "https://schema.org/InStock"
-            }
+          "hasMerchantReturnPolicy": {
+            "@type": "MerchantReturnPolicy",
+            "applicableCountry": "US",
+            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
           }
-        ]
+        }
+      },
+      {
+        "@type": "Product",
+        "@id": "https://telehealthfx.com/#product-tirzepatide",
+        "name": "Compounded Tirzepatide Program",
+        "brand": {
+          "@id": "https://telehealthfx.com/#organization"
+        },
+        "description": "Comprehensive metabolic health program including clinician consults and compounded Tirzepatide medication.",
+        "image": "https://telehealthfx.com/assets/Site%20Icon-modified.png",
+        "sku": "TIR-01",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.8",
+          "reviewCount": "142"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "258.00",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "url": "https://telehealthfx.com",
+          "shippingDetails": {
+            "@type": "OfferShippingDetails",
+            "shippingRate": {
+              "@type": "MonetaryAmount",
+              "value": "0",
+              "currency": "USD"
+            },
+            "shippingDestination": {
+              "@type": "DefinedRegion",
+              "addressCountry": "US"
+            },
+            "deliveryTime": {
+              "@type": "ShippingDeliveryTime",
+              "handlingTime": {
+                "@type": "QuantitativeValue",
+                "minValue": 0,
+                "maxValue": 1,
+                "unitCode": "d"
+              },
+              "transitTime": {
+                "@type": "QuantitativeValue",
+                "minValue": 1,
+                "maxValue": 2,
+                "unitCode": "d"
+              }
+            }
+          },
+          "hasMerchantReturnPolicy": {
+            "@type": "MerchantReturnPolicy",
+            "applicableCountry": "US",
+            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+          }
+        }
       },
       {
         "@type": "BreadcrumbList",
