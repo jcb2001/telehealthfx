@@ -13,8 +13,8 @@ export function generateStaticParams() {
   return [...genericPages, ...contentPages].map(slug => ({ slug }));
 }
 
-export function generateMetadata({ params }) {
-  const { slug } = params;
+export async function generateMetadata({ params }) {
+  const { slug } = await params;
   
   const seoMap = {
     'how': { title: 'How It Works | Telehealth FX', desc: 'Discover how Telehealth FX delivers clinical weight loss medications directly to your door.' },
@@ -34,8 +34,8 @@ export function generateMetadata({ params }) {
   };
 }
 
-export default function Page({ params }) {
-  const { slug } = params;
+export default async function Page({ params }) {
+  const { slug } = await params;
 
   return (
     <div style={{ paddingTop: '100px' }}>
