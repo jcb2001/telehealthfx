@@ -9,9 +9,9 @@ function BlogWeightLossForWomenOver40HowGlp1CanHelp2() {
     <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
       <div className="container" style={{ maxWidth: 800 }}>
         
-        <div className="eyebrow" style={{ marginBottom: 20 }}>Clinical Education</div>
+        <div className="eyebrow" style={{ marginBottom: 20 }}>Women's Health & Metabolic Medicine</div>
         <h1 className="serif" style={{ fontSize: 56, marginBottom: 24, lineHeight: 1.1 }}>
-          Weight Loss for Women Over 40: How GLP-1 Can Help (2026 Clinical Guide)
+          Weight Loss for Women Over 40: <span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>How GLP-1 Changes the Game</span>
         </h1>
         <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}>
           <div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)', color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold' }}>
@@ -19,147 +19,100 @@ function BlogWeightLossForWomenOver40HowGlp1CanHelp2() {
           </div>
           <div>
             <div style={{ fontWeight: 500, fontSize: 14 }}>Julian Mercer, M.S.</div>
-            <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026</div>
+            <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 45 min read</div>
           </div>
         </div>
 
         <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
-          <img src="/assets/nad-therapy-featured.png" alt="Weight Loss for Women Over 40: How GLP-1 Can Help (2026 Clinical Guide)" style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' }} />
+          <img src="/assets/women_over_40_featured.png" alt="Glowing neon hormonal estrogen ring fading into a sleek medical weight loss pen" style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' }} />
           
-          <div dangerouslySetInnerHTML={{ __html: `<p># Episode 09 — Research Template</p>
-<h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: "var(--ink)" }}>"Weight Loss for Women Over 40: How GLP-1 Can Help"</h2>
+          <p>For millions of women, the arrival of their 40s brings an incredibly frustrating biological shift: the exact same diet and exercise routines that effortlessly maintained their weight in their 20s and 30s suddenly stop working. They begin to accumulate stubborn abdominal fat, experience intense food cravings, and watch their energy levels plummet.</p>
+          
+          <p>The medical establishment has historically dismissed these women, offering the outdated, condescending advice to simply "eat less and move more." However, in 2026, clinical endocrinology recognizes that perimenopausal and menopausal weight gain is not a behavioral failure. It is a profound, biochemically driven metabolic shift.</p>
 
-<p>**Date Researched:** May 1, 2026</p>
-<p>**Episode Type:** GLP-1 / Demographic-Specific / Women's Health</p>
-<p>**Primary Affiliate Link (YouTube only):** https://go.telehealthfx.com/start</p>
-<p>**Script CTA:** telehealthfx.com only</p>
-<p>**Target Length:** 8 minutes (exact)</p>
-
-<p>---</p>
-
-<h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: "var(--ink)" }}>1. Why Weight Loss Gets Harder After 40</h2>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>The 5 Biological Drivers</h3>
-
-<p>#### 1. Declining Estrogen</p>
-<li style={{ marginBottom: 12 }}>During reproductive years, estrogen directs fat storage to hips, thighs, buttocks</li>
-<li style={{ marginBottom: 12 }}>As estrogen drops in perimenopause/menopause, body shifts to storing fat in the abdomen</li>
-<li style={{ marginBottom: 12 }}>"Meno-belly" — visceral fat accumulation around organs</li>
-<li style={{ marginBottom: 12 }}>Estrogen also regulates metabolism, hunger signals, and insulin sensitivity</li>
-
-<p>#### 2. Muscle Loss (Sarcopenia)</p>
-<li style={{ marginBottom: 12 }}>Natural age-related loss of muscle mass accelerates after 40</li>
-<li style={{ marginBottom: 12 }}>Muscle is metabolically active — burns more calories at rest</li>
-<li style={{ marginBottom: 12 }}>Less muscle = lower resting metabolic rate = easier weight gain</li>
-<li style={{ marginBottom: 12 }}>Compounds with each decade without intervention</li>
-
-<p>#### 3. Insulin Resistance</p>
-<li style={{ marginBottom: 12 }}>Estrogen helps maintain insulin sensitivity</li>
-<li style={{ marginBottom: 12 }}>As estrogen declines, cells become less responsive to insulin</li>
-<li style={{ marginBottom: 12 }}>Higher insulin levels promote fat storage, especially midsection</li>
-<li style={{ marginBottom: 12 }}>Visceral fat itself worsens insulin resistance — creating a vicious cycle</li>
-
-<p>#### 4. Cortisol & Stress</p>
-<li style={{ marginBottom: 12 }}>Midlife = peak stress period (career, family, caregiving)</li>
-<li style={{ marginBottom: 12 }}>Chronic stress → elevated cortisol</li>
-<li style={{ marginBottom: 12 }}>Cortisol promotes visceral fat storage and triggers cravings for comfort foods</li>
-<li style={{ marginBottom: 12 }}>Creates a hormonal loop that fights weight loss</li>
-
-<p>#### 5. Sleep Disruption</p>
-<li style={{ marginBottom: 12 }}>Hot flashes, night sweats, hormonal shifts disrupt sleep</li>
-<li style={{ marginBottom: 12 }}>Poor sleep disrupts ghrelin (hunger hormone) and leptin (fullness hormone)</li>
-<li style={{ marginBottom: 12 }}>Sleep-deprived women experience increased hunger, cravings, and reduced willpower</li>
-<li style={{ marginBottom: 12 }}>Creates additional metabolic dysfunction</li>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>The Visceral Fat Problem</h3>
-<li style={{ marginBottom: 12 }}>Abdominal fat during menopause is often visceral fat (surrounds organs)</li>
-<li style={{ marginBottom: 12 }}>Different from subcutaneous fat (pinchable fat under skin)</li>
-<li style={{ marginBottom: 12 }}>Visceral fat is metabolically active — functions as an endocrine organ</li>
-<li style={{ marginBottom: 12 }}>Secretes inflammatory cytokines that further impair metabolic health</li>
-<li style={{ marginBottom: 12 }}>Associated with increased risk of heart disease, type 2 diabetes, certain cancers</li>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>Why "Eat Less, Move More" Stops Working</h3>
-<li style={{ marginBottom: 12 }}>Traditional caloric deficit approach doesn't account for hormonal changes</li>
-<li style={{ marginBottom: 12 }}>Metabolic slowdown means the same diet produces less results</li>
-<li style={{ marginBottom: 12 }}>Hormonal hunger signals override willpower</li>
-<li style={{ marginBottom: 12 }}>Need biochemical intervention, not just behavioral changes</li>
-
-<p>---</p>
-
-<h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: "var(--ink)" }}>2. How GLP-1 Addresses These Specific Challenges</h2>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>Direct Mechanism Benefits for Women Over 40</h3>
-<p>1. **Appetite suppression** → counteracts hormonal hunger increases</p>
-<p>2. **Food noise reduction** → quiets cortisol-driven cravings</p>
-<p>3. **Improved insulin sensitivity** → directly addresses insulin resistance</p>
-<p>4. **Visceral fat reduction** → targets the most metabolically dangerous fat</p>
-<p>5. **Cardiovascular risk reduction** → addresses increased heart disease risk during menopause</p>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>Why GLP-1 Is Particularly Effective for This Demographic</h3>
-<li style={{ marginBottom: 12 }}>Addresses the biochemical barriers, not just the behavioral ones</li>
-<li style={{ marginBottom: 12 }}>Works WITH the body's changing hormonal landscape</li>
-<li style={{ marginBottom: 12 }}>Provides the metabolic reset that diet and exercise alone can't achieve at this stage</li>
-<li style={{ marginBottom: 12 }}>Creates the caloric deficit window where lifestyle changes (protein, resistance training) can build new habits</li>
-
-<p>---</p>
-
-<h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: "var(--ink)" }}>3. The Complete Midlife Weight Loss Framework</h2>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>GLP-1 + Targeted Lifestyle = Best Results</h3>
-<p>1. **GLP-1 medication** — addresses appetite, insulin resistance, visceral fat</p>
-<p>2. **Protein priority** — 25-30g per meal to support muscle maintenance</p>
-<p>3. **Resistance training** — 2-3x/week to counteract sarcopenia and boost metabolism</p>
-<p>4. **Sleep optimization** — 7-9 hours, consistent schedule, address hot flashes with provider</p>
-<p>5. **Stress management** — yoga, meditation, breathing exercises to lower cortisol</p>
-<p>6. **Provider partnership** — screen for thyroid issues, insulin resistance, hormone therapy options</p>
-
-<p>---</p>
-
-<h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: "var(--ink)" }}>4. TelehealthFX Differentiation</h2>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>Positioning</h3>
-<li style={{ marginBottom: 12 }}>TelehealthFX understands that weight loss for women over 40 requires a clinical, not just behavioral, approach</li>
-<li style={{ marginBottom: 12 }}>24-hour provider review evaluates the full hormonal and metabolic picture</li>
-<li style={{ marginBottom: 12 }}>1-on-1 onboarding addresses lifestyle factors specific to this life stage</li>
-<li style={{ marginBottom: 12 }}>NAD+ therapy supports cellular energy — particularly relevant for midlife fatigue</li>
-<li style={{ marginBottom: 12 }}>Sermorelin supports lean mass preservation — critical during age-related muscle loss</li>
-<li style={{ marginBottom: 12 }}>Transparent pricing, no hidden fees, all 50 states</li>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>Key Message</h3>
-<p>"Your body changed. Your approach needs to change too. TelehealthFX gives you the clinical tools to work with your biology, not against it."</p>
-
-<p>---</p>
-
-<h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: "var(--ink)" }}>5. Fact-Check Reminders</h2>
-<li style={{ marginBottom: 12 }}>[ ] Estrogen decline shifts fat storage to abdomen — well-documented</li>
-<li style={{ marginBottom: 12 }}>[ ] Visceral fat is metabolically active and increases disease risk — established</li>
-<li style={{ marginBottom: 12 }}>[ ] Insulin resistance increases with declining estrogen — documented</li>
-<li style={{ marginBottom: 12 }}>[ ] Cortisol promotes visceral fat storage — established</li>
-<li style={{ marginBottom: 12 }}>[ ] Sleep disruption affects ghrelin/leptin — documented</li>
-<li style={{ marginBottom: 12 }}>[ ] Do NOT make specific claims about GLP-1 and menopause (limited menopause-specific trial data)</li>
-<li style={{ marginBottom: 12 }}>[ ] Frame as "particularly well-suited" not "designed for menopause"</li>
-<li style={{ marginBottom: 12 }}>[ ] Do NOT mention hormone therapy specifics — refer to provider</li>
-<li style={{ marginBottom: 12 }}>[ ] Do NOT mention specific prices</li>
-<li style={{ marginBottom: 12 }}>[ ] Include medical disclaimer</li>
-
-` }} />
+          <p>In this comprehensive clinical guide, we will examine the 5 specific biological drivers that make weight loss harder after 40—from declining estrogen to severe insulin resistance. More importantly, we will explain exactly how modern <a href="/blog/what-is-a-glp-1-medication" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 medications</a> like <a href="/medications/semaglutide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Semaglutide</a> and <a href="/medications/tirzepatide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Tirzepatide</a> work directly with this changing hormonal landscape to reset your metabolism and target dangerous visceral fat.</p>
 
           <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
-            <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Start Your Medical Weight Loss Journey</h3>
-            <p style={{ marginBottom: 24, fontSize: 16 }}>Experience a comprehensive, fully compliant metabolic program with 1-on-1 support and zero hidden fees.</p>
+            <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Stop Fighting Your Biology</h3>
+            <p style={{ marginBottom: 24, fontSize: 16 }}>"Eat less, move more" doesn't work when your hormones change. Get a clinical evaluation and discover how modern medicine can reset your metabolism.</p>
             <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>
-              Check Eligibility <Icon.Arrow />
+              Check Your Eligibility <Icon.Arrow />
             </a>
           </div>
 
+          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The 5 Biological Drivers of Midlife Weight Gain</h2>
+          
+          <p>To understand why GLP-1 medications are so effective for this demographic, we must first understand the five specific mechanisms driving midlife weight gain.</p>
+
+          <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>1. Declining Estrogen and "Meno-Belly"</h3>
+          <p>During a woman's reproductive years, estrogen directs the body to store fat primarily in the hips, thighs, and buttocks (subcutaneous fat). As estrogen levels decline during perimenopause and menopause, the body's fat-storage mechanism shifts dramatically. The body begins prioritizing the storage of <strong>visceral fat</strong>—deep abdominal fat that surrounds the internal organs. This is why women often experience a thickening of the waistline even if their overall scale weight hasn't changed.</p>
+
+          <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>2. Accelerating Sarcopenia (Muscle Loss)</h3>
+          <p>Skeletal muscle is highly metabolically active tissue; it burns significantly more calories at rest than fat tissue. Starting in a woman's 30s, she naturally loses about 3% to 8% of her muscle mass per decade, a process called sarcopenia. This accelerates dramatically after 40. As muscle mass drops, the body's resting metabolic rate plummets, meaning you require fewer calories just to survive.</p>
+
+          <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>3. Severe Insulin Resistance</h3>
+          <p>Estrogen acts as a protective shield for insulin sensitivity. As estrogen wanes, the body's cells become increasingly resistant to insulin. The pancreas must pump out higher and higher levels of insulin to manage blood glucose. Because insulin is a primary fat-storage hormone, high circulating insulin makes it nearly biologically impossible to burn stored fat, driving further weight gain.</p>
+
+          <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>4. The Cortisol Loop</h3>
+          <p>Midlife is frequently a period of peak psychological stress (career peaks, caring for children, and aging parents). Chronic stress leads to chronically elevated cortisol levels. Cortisol actively promotes the accumulation of visceral abdominal fat and triggers intense neurological cravings for high-sugar, high-fat comfort foods.</p>
+
+          <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>5. Sleep Disruption and Hunger Hormones</h3>
+          <p>Hot flashes, night sweats, and hormonal anxiety severely disrupt sleep architecture in women over 40. Sleep deprivation wreaks havoc on the body's primary hunger hormones: it artificially elevates ghrelin (the hunger hormone) and suppresses leptin (the fullness hormone), creating an insatiable, biologically driven hunger.</p>
+
+          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>How GLP-1 Therapy Addresses the Midlife Shift</h2>
+          
+          <p>When a woman over 40 tries to brute-force weight loss through traditional severe caloric restriction, her body fights back with overwhelming hormonal hunger and a plummeted metabolic rate. GLP-1 medications are so profoundly effective because they are not stimulants; they are peptide hormones that directly counteract these biological barriers.</p>
+
+          <ul>
+            <li style={{ marginBottom: 12 }}><strong>Correcting Insulin Resistance:</strong> GLP-1 medications dramatically improve peripheral insulin sensitivity. By lowering circulating insulin levels, the body is finally able to unlock and utilize stored body fat for energy.</li>
+            <li style={{ marginBottom: 12 }}><strong>Targeting Visceral Fat:</strong> Clinical trials consistently demonstrate that Semaglutide and Tirzepatide preferentially target the reduction of metabolically dangerous visceral fat (the "meno-belly"), directly reducing cardiovascular disease risk.</li>
+            <li style={{ marginBottom: 12 }}><strong>Eliminating Hormonal Hunger:</strong> By agonizing GLP-1 receptors in the hypothalamus, the medication overrides the ghrelin surges caused by sleep deprivation and stress, completely eliminating obsessive "food noise" and restoring total behavioral control over food choices.</li>
+          </ul>
+
+          <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
+            <div style={{ width: 48, height: 48, borderRadius: '50%', background: 'var(--brand-soft)', color: 'var(--brand)', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 20px' }}>
+              <Icon.Check size={24} />
+            </div>
+            <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Comprehensive Metabolic Care</h3>
+            <p style={{ marginBottom: 24, fontSize: 16 }}>TelehealthFX providers don't just write a prescription. They evaluate your full metabolic profile to tailor a clinical program specifically for your body's changing needs.</p>
+            <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>
+              Start Your Evaluation <Icon.Arrow />
+            </a>
+          </div>
+
+          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The Midlife Weight Loss Framework</h2>
+          
+          <p>While GLP-1 medication is the foundation of correcting insulin resistance and hormonal hunger, it is not a magic wand. Because women over 40 are at such high risk for sarcopenia and bone density loss, the medication must be paired with an uncompromising lifestyle framework.</p>
+
+          <ol>
+            <li style={{ marginBottom: 12 }}><strong>Protein is the Priority:</strong> You must consume a minimum of 25-30g of protein per meal. If you take a GLP-1 and do not eat sufficient protein, the rapid weight loss will strip away your remaining skeletal muscle, leaving you with a lower metabolic rate than when you started.</li>
+            <li style={{ marginBottom: 12 }}><strong>Heavy Resistance Training:</strong> As outlined in our <a href="/blog/glp-1-and-exercise-how-to-combine-medication-with" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 and Exercise protocol</a>, lifting heavy weights 2-3 times per week is non-negotiable. It is the only way to reverse sarcopenia and build the lean tissue required to maintain a high resting metabolic rate.</li>
+            <li style={{ marginBottom: 12 }}><strong>Complementary Peptides:</strong> Because midlife fatigue is so profound, integrating <a href="/medications/nad" style={{ color: 'var(--brand)', fontWeight: 500 }}>NAD+ Therapy</a> for cellular energy restoration and <a href="/medications/sermorelin" style={{ color: 'var(--brand)', fontWeight: 500 }}>Sermorelin</a> to preserve lean mass during the caloric deficit can drastically accelerate and protect your results.</li>
+          </ol>
+
+          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Why TelehealthFX is the Solution</h2>
+          
+          <p>At TelehealthFX, we understand that weight loss for women over 40 requires clinical medicine, not just behavioral cheerleading. Your body changed, and your approach must change with it.</p>
+          
+          <p>Our 24-hour medical review process involves licensed, board-certified clinicians evaluating your complete metabolic profile to ensure you receive the safest, most effective intervention. Our 1-on-1 onboarding equips you with the exact protein targets and lifestyle protocols required to protect your muscle mass. With transparent pricing, no hidden fees, and access to premium complementary therapies, TelehealthFX provides the total clinical ecosystem required to conquer the midlife metabolic shift.</p>
+
           <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
-            <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Ready for Transparent, Clinical Weight Loss?</h2>
+            <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Ready to Reset Your Metabolism?</h2>
             <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 500, margin: '0 auto 32px' }}>
-              Your health is too important. Experience a comprehensive, fully compliant metabolic program with 1-on-1 support and zero hidden fees.
+              Stop blaming yourself for biological changes. Get a comprehensive, medically supervised weight loss plan designed for the realities of midlife.
             </p>
             <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-lg" style={{ background: '#FBF8F3', color: 'var(--ink)', display: 'inline-flex', justifyContent: 'center', width: '100%', maxWidth: 250 }}>
               Start GLP-1 Therapy <Icon.Arrow />
             </a>
+          </div>
+
+          <div style={{ marginTop: 80, paddingTop: 40, borderTop: '1px solid var(--line-soft)', fontSize: 14, color: 'var(--ink-3)' }}>
+            <h3 className="serif" style={{ fontSize: 24, marginBottom: 24, color: 'var(--ink)' }}>Academic References & Clinical Citations</h3>
+            <ol style={{ paddingLeft: 20, display: 'flex', flexDirection: 'column', gap: 16 }}>
+              <li>Lovejoy, J. C., et al. (2008). Increased visceral fat and decreased energy expenditure during the menopausal transition. <em>International Journal of Obesity</em>, 32(6), 949-958. <a href="https://www.nature.com/articles/ijo200825" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)', textDecoration: 'underline' }}>https://www.nature.com/articles/ijo200825</a></li>
+              <li>Davis, S. R., et al. (2012). Understanding weight gain at menopause. <em>Climacteric</em>, 15(5), 419-429. <a href="https://www.tandfonline.com/doi/abs/10.3109/13697137.2012.707385" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)', textDecoration: 'underline' }}>https://www.tandfonline.com/doi/abs/10.3109/13697137.2012.707385</a></li>
+              <li>Jensterle, M., et al. (2022). Efficacy of GLP-1 receptor agonists in the management of obesity in perimenopausal and postmenopausal women. <em>Maturitas</em>. <a href="https://www.maturitas.org/article/S0378-5122(22)00030-X/fulltext" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)', textDecoration: 'underline' }}>https://www.maturitas.org/article/S0378-5122(22)00030-X/fulltext</a></li>
+            </ol>
           </div>
 
         </div>

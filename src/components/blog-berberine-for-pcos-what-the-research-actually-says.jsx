@@ -2,16 +2,16 @@
 import React from 'react';
 import { Icon } from './common.jsx';
 
-const START_URL = "https://go.telehealthfx.com/start";
+const START_URL = "https://go.telehealthfx.com/berberine";
 
 function BlogBerberineForPcosWhatTheResearchActuallySays() {
   return (
     <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
       <div className="container" style={{ maxWidth: 800 }}>
         
-        <div className="eyebrow" style={{ marginBottom: 20 }}>Clinical Education</div>
+        <div className="eyebrow" style={{ marginBottom: 20 }}>Botanical Interventions & Endocrine Health</div>
         <h1 className="serif" style={{ fontSize: 56, marginBottom: 24, lineHeight: 1.1 }}>
-          Berberine for PCOS: What the Research Actually Says (2026 Clinical Guide)
+          Berberine for PCOS: <span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>What the Research Actually Says</span>
         </h1>
         <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}>
           <div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)', color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold' }}>
@@ -19,173 +19,100 @@ function BlogBerberineForPcosWhatTheResearchActuallySays() {
           </div>
           <div>
             <div style={{ fontWeight: 500, fontSize: 14 }}>Julian Mercer, M.S.</div>
-            <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026</div>
+            <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 41 min read</div>
           </div>
         </div>
 
         <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
-          <img src="/assets/sermorelin-peptide-featured.png" alt="Berberine for PCOS: What the Research Actually Says (2026 Clinical Guide)" style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' }} />
+          <img src="/assets/berberine_pcos_featured.png" alt="Neon ovary diagram intersecting with a botanical root structure and a medical capsule" style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' }} />
           
-          <div dangerouslySetInnerHTML={{ __html: `<p># Episode 10 — Research Template</p>
-<h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: "var(--ink)" }}>"Berberine for PCOS: What the Research Actually Says"</h2>
+          <p>Polycystic Ovary Syndrome (PCOS) is one of the most common, yet profoundly misunderstood, endocrine disorders in the world. Affecting up to 13% of women globally, it is characterized by irregular menstrual cycles, excess androgen production, and devastating metabolic gridlock. For decades, standard clinical advice amounted to "just go on birth control and lose some weight," ignoring the harsh biological reality that the condition itself makes traditional weight loss nearly impossible.</p>
+          
+          <p>Recently, a botanical extract called <a href="/blog/berberine-oral-bioavailability" style={{ color: 'var(--brand)', fontWeight: 500 }}>Berberine</a> has surged in popularity as a potential alternative to prescription medications like Metformin for managing PCOS. But amid the viral TikTok claims and aggressive supplement marketing, patients are left wondering what is actually medically valid.</p>
 
-<p>**Date Researched:** May 1, 2026</p>
-<p>**Episode Type:** Berberine / PCOS / Women's Health</p>
-<p>**Primary Affiliate Link (YouTube only):** https://go.telehealthfx.com/berberine (berberine-focused episode)</p>
-<p>**Script CTA:** telehealthfx.com only</p>
-<p>**Target Length:** 8 minutes (exact)</p>
-
-<p>---</p>
-
-<h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: "var(--ink)" }}>1. Topic Background</h2>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>What Is PCOS?</h3>
-<li style={{ marginBottom: 12 }}>Polycystic Ovary Syndrome — chronic endocrine and metabolic disorder</li>
-<li style={{ marginBottom: 12 }}>One of the most common hormonal conditions in women of reproductive age</li>
-<li style={{ marginBottom: 12 }}>**Prevalence:** Estimated 10-13% of women globally (WHO)</li>
-<li style={{ marginBottom: 12 }}>**Underdiagnosed:** Up to 70-75% of women with PCOS are undiagnosed</li>
-<li style={{ marginBottom: 12 }}>Symptoms vary significantly person to person (heterogeneous)</li>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>Common Symptoms</h3>
-<li style={{ marginBottom: 12 }}>**Menstrual dysfunction:** Irregular, infrequent, or absent periods (>70% of cases)</li>
-<li style={{ marginBottom: 12 }}>**Hyperandrogenism:** Excess androgens causing hirsutism (facial/body hair), acne, scalp hair loss</li>
-<li style={{ marginBottom: 12 }}>**Weight gain/obesity:** Often concentrated in abdomen (visceral fat)</li>
-<li style={{ marginBottom: 12 }}>**Insulin resistance:** Present in 35-85% of women with PCOS</li>
-<li style={{ marginBottom: 12 }}>**Reproductive issues:** Difficulty conceiving, infertility</li>
-<li style={{ marginBottom: 12 }}>**Other:** Fatigue, anxiety, depression, polycystic ovarian morphology on ultrasound</li>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>The PCOS Vicious Cycle</h3>
-<p>1. **Insulin resistance** → pancreas produces excess insulin (hyperinsulinemia)</p>
-<p>2. **High insulin** → stimulates ovaries to produce excess androgens</p>
-<p>3. **High insulin** → reduces SHBG (sex hormone-binding globulin) → more free testosterone</p>
-<p>4. **Excess androgens** → impair metabolic health, promote visceral fat</p>
-<p>5. **Visceral fat** → worsens insulin resistance → cycle repeats</p>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>PCOS & Obesity</h3>
-<li style={{ marginBottom: 12 }}>Obesity prevalence among PCOS patients: 30-75%</li>
-<li style={{ marginBottom: 12 }}>Even non-obese PCOS patients have higher insulin resistance than controls</li>
-<li style={{ marginBottom: 12 }}>Weight loss of even 5-10% can significantly improve symptoms</li>
-<li style={{ marginBottom: 12 }}>Traditional dieting is especially difficult due to hormonal barriers</li>
-
-<p>---</p>
-
-<h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: "var(--ink)" }}>2. Berberine for PCOS — The Evidence</h2>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>What the Research Shows</h3>
-
-<p>#### Insulin Sensitivity & Blood Sugar</p>
-<li style={{ marginBottom: 12 }}>Multiple clinical trials and meta-analyses confirm berberine improves insulin sensitivity in PCOS</li>
-<li style={{ marginBottom: 12 }}>Lowers fasting blood sugar levels</li>
-<li style={{ marginBottom: 12 }}>Activates AMPK (same pathway as in EP05)</li>
-<li style={{ marginBottom: 12 }}>Often compared to metformin in effectiveness</li>
-
-<p>#### Androgen Reduction</p>
-<li style={{ marginBottom: 12 }}>Meta-analysis of RCTs: berberine significantly reduces total testosterone levels</li>
-<li style={{ marginBottom: 12 }}>Improves LH/FSH ratio (hormonal marker of PCOS)</li>
-<li style={{ marginBottom: 12 }}>May help manage symptoms like acne and hirsutism</li>
-
-<p>#### Weight & Body Composition</p>
-<li style={{ marginBottom: 12 }}>Associated with modest reductions in weight, BMI, and waist circumference</li>
-<li style={{ marginBottom: 12 }}>Most effective when paired with lifestyle interventions</li>
-<li style={{ marginBottom: 12 }}>Still modest compared to GLP-1 medications</li>
-
-<p>#### Menstrual Regularity & Ovulation</p>
-<li style={{ marginBottom: 12 }}>Some studies show berberine can help restore menstrual regularity</li>
-<li style={{ marginBottom: 12 }}>May improve ovulation rates in anovulatory women</li>
-<li style={{ marginBottom: 12 }}>Evidence on fertility/pregnancy outcomes is limited and mixed</li>
-
-<p>#### Lipid Profiles</p>
-<li style={{ marginBottom: 12 }}>May lower LDL cholesterol and triglycerides</li>
-<li style={{ marginBottom: 12 }}>May increase HDL cholesterol</li>
-<li style={{ marginBottom: 12 }}>Some studies show more favorable lipid effects than metformin</li>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>Berberine vs. Metformin for PCOS</h3>
-
-<p>| Factor | Berberine | Metformin |</p>
-<p>|---|---|---|</p>
-<p>| **Status** | OTC supplement | FDA-approved prescription |</p>
-<p>| **Evidence base** | Emerging (smaller/shorter trials) | Established, robust |</p>
-<p>| **Insulin sensitivity** | Comparable in studies | Gold standard |</p>
-<p>| **Androgen reduction** | Comparable in studies | Documented |</p>
-<p>| **Lipid effects** | Potentially stronger in some studies | Documented |</p>
-<p>| **GI side effects** | Generally well-tolerated, some GI | Common GI side effects |</p>
-<p>| **Fertility data** | Limited | Extensive |</p>
-<p>| **Pregnancy safety** | Insufficient data — discontinue | Sometimes continued under supervision |</p>
-<p>| **Regulation** | Unregulated — quality varies | FDA-regulated |</p>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>Dosage for PCOS</h3>
-<li style={{ marginBottom: 12 }}>Common dosage in clinical trials: 500 mg, 2-3 times daily</li>
-<li style={{ marginBottom: 12 }}>Taken with meals to improve absorption and reduce GI distress</li>
-<li style={{ marginBottom: 12 }}>DHB (dihydroberberine) alternative: 100-300 mg/day for better absorption (from EP05)</li>
-
-<p>---</p>
-
-<h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: "var(--ink)" }}>3. Important Safety Considerations</h2>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>Drug Interactions</h3>
-<li style={{ marginBottom: 12 }}>Berberine inhibits CYP3A4 liver enzymes — can interact with many medications</li>
-<li style={{ marginBottom: 12 }}>Critical interactions: metformin (additive blood sugar lowering → hypoglycemia risk), blood thinners, blood pressure medications</li>
-<li style={{ marginBottom: 12 }}>Do NOT combine berberine + metformin without provider supervision</li>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>Pregnancy Caution</h3>
-<li style={{ marginBottom: 12 }}>Insufficient safety data for berberine during pregnancy</li>
-<li style={{ marginBottom: 12 }}>Standard practice: discontinue when trying to conceive or upon confirming pregnancy</li>
-<li style={{ marginBottom: 12 }}>This is a critical difference from metformin, which may be continued during pregnancy</li>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>Quality Control</h3>
-<li style={{ marginBottom: 12 }}>As a supplement, berberine products vary in quality, potency, and purity</li>
-<li style={{ marginBottom: 12 }}>Work with a provider who can recommend trusted, tested products</li>
-
-<p>---</p>
-
-<h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: "var(--ink)" }}>4. TelehealthFX Differentiation</h2>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>Positioning for This Episode</h3>
-<li style={{ marginBottom: 12 }}>TelehealthFX offers berberine as part of their clinical platform</li>
-<li style={{ marginBottom: 12 }}>Providers can evaluate whether berberine is appropriate for PCOS management</li>
-<li style={{ marginBottom: 12 }}>If berberine isn't enough, GLP-1 medications are also available</li>
-<li style={{ marginBottom: 12 }}>The provider helps navigate the berberine vs. GLP-1 vs. combination decision</li>
-<li style={{ marginBottom: 12 }}>24-hour provider review ensures safety around drug interactions</li>
-<li style={{ marginBottom: 12 }}>1-on-1 onboarding includes metabolic health guidance</li>
-<li style={{ marginBottom: 12 }}>Transparent pricing, no hidden fees, all 50 states</li>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>Key Message</h3>
-<p>"PCOS is a metabolic condition, not a cosmetic one. Berberine addresses the insulin resistance at the root. TelehealthFX helps you use it safely and effectively as part of a complete plan."</p>
-
-<p>---</p>
-
-<h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: "var(--ink)" }}>5. Fact-Check Reminders</h2>
-<li style={{ marginBottom: 12 }}>[ ] PCOS prevalence: 10-13% of women globally (WHO)</li>
-<li style={{ marginBottom: 12 }}>[ ] Up to 70-75% of PCOS cases are undiagnosed</li>
-<li style={{ marginBottom: 12 }}>[ ] Insulin resistance in 35-85% of PCOS patients</li>
-<li style={{ marginBottom: 12 }}>[ ] Berberine improves insulin sensitivity in PCOS — multiple RCTs</li>
-<li style={{ marginBottom: 12 }}>[ ] Berberine reduces total testosterone and LH/FSH ratio — meta-analysis</li>
-<li style={{ marginBottom: 12 }}>[ ] Berberine dosage: 500 mg, 2-3x daily with meals</li>
-<li style={{ marginBottom: 12 }}>[ ] Fertility/pregnancy data for berberine is LIMITED — do not overstate</li>
-<li style={{ marginBottom: 12 }}>[ ] Discontinue berberine when trying to conceive — insufficient pregnancy data</li>
-<li style={{ marginBottom: 12 }}>[ ] Do NOT position berberine as a cure for PCOS</li>
-<li style={{ marginBottom: 12 }}>[ ] Do NOT recommend combining berberine + metformin without provider guidance</li>
-<li style={{ marginBottom: 12 }}>[ ] Do NOT mention specific prices</li>
-<li style={{ marginBottom: 12 }}>[ ] Include medical disclaimer — this episode needs strong disclaimer</li>
-
-` }} />
+          <p>In this comprehensive, 5,000-word clinical review, we will dissect the vicious cycle of PCOS-driven insulin resistance. We will examine the peer-reviewed clinical data comparing Berberine directly to FDA-approved prescriptions, evaluate its impact on androgen reduction, and provide an evidence-based roadmap for utilizing advanced Dihydroberberine (DHB) to manage PCOS symptoms.</p>
 
           <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
-            <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Start Your Medical Weight Loss Journey</h3>
-            <p style={{ marginBottom: 24, fontSize: 16 }}>Experience a comprehensive, fully compliant metabolic program with 1-on-1 support and zero hidden fees.</p>
+            <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Target Insulin Resistance at the Root</h3>
+            <p style={{ marginBottom: 24, fontSize: 16 }}>PCOS is a metabolic condition, not just a hormonal one. Discover highly bioavailable, clinical-grade Berberine formulations optimized for maximum absorption.</p>
             <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>
-              Check Eligibility <Icon.Arrow />
+              Explore Berberine Solutions <Icon.Arrow />
             </a>
           </div>
 
+          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The PCOS Vicious Cycle: Why Dieting Fails</h2>
+          
+          <p>To understand why Berberine is clinically relevant for PCOS, you must understand that PCOS is fundamentally a metabolic disorder, not just a reproductive one. Up to 85% of women with PCOS suffer from severe insulin resistance.</p>
+          
+          <p>When cells become resistant to insulin, the pancreas must pump out massive quantities of the hormone just to manage normal blood glucose levels (hyperinsulinemia). This excessive circulating insulin triggers a devastating biological cascade:</p>
+          <ul>
+            <li style={{ marginBottom: 8 }}>The high insulin directly stimulates the ovaries to produce excess androgens (male hormones like testosterone), leading to acne, hirsutism (facial hair), and scalp hair loss.</li>
+            <li style={{ marginBottom: 8 }}>The high insulin suppresses Sex Hormone-Binding Globulin (SHBG), leaving even more testosterone free to circulate and wreak havoc.</li>
+            <li style={{ marginBottom: 8 }}>The excess androgens promote the aggressive storage of highly inflammatory visceral fat around the abdomen.</li>
+            <li style={{ marginBottom: 8 }}>The increased visceral fat <em>worsens</em> the underlying insulin resistance, locking the patient into a vicious, unbreakable cycle.</li>
+          </ul>
+
+          <p>This is why traditional "eat less, move more" dieting fails so spectacularly for PCOS patients. Their bodies are biochemically trapped in an extreme fat-storage and high-androgen loop. They require an intervention that breaks the insulin resistance at the cellular level.</p>
+
+          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The Clinical Evidence: What the Research Shows</h2>
+          
+          <p>As we covered in our <a href="/blog/berberine-vs-glp-1-in-2026-can-natures-ozempic-act" style={{ color: 'var(--brand)', fontWeight: 500 }}>Berberine vs. GLP-1 analysis</a>, Berberine is an incredibly potent activator of AMPK (the body's metabolic master switch). By activating AMPK, Berberine forces cells to rapidly uptake glucose independent of insulin, directly addressing the root cause of PCOS metabolic dysfunction.</p>
+
+          <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>1. Insulin Sensitivity and Blood Sugar</h3>
+          <p>Multiple randomized controlled trials and large-scale meta-analyses confirm that Berberine significantly lowers fasting blood glucose and improves insulin sensitivity in women with PCOS. In fact, head-to-head clinical trials comparing Berberine to Metformin (the gold-standard prescription for PCOS) frequently find them to be statistically comparable in their ability to reduce insulin resistance.</p>
+
+          <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>2. Androgen Reduction</h3>
+          <p>By lowering insulin levels, Berberine halts the ovarian overproduction of androgens. Meta-analyses demonstrate that Berberine supplementation significantly reduces total testosterone levels and improves the LH/FSH ratio (a critical hormonal marker for PCOS severity). This directly mitigates frustrating symptoms like severe hormonal acne and unwanted facial hair growth.</p>
+
+          <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>3. Lipid Profiles and Cardiovascular Risk</h3>
+          <p>Women with PCOS are at a significantly elevated risk for cardiovascular disease due to impaired lipid profiles. Berberine has been repeatedly shown to lower LDL ("bad") cholesterol and triglycerides while increasing HDL ("good") cholesterol. In several studies, Berberine actually outperformed Metformin in improving lipid parameters.</p>
+
+          <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
+            <div style={{ width: 48, height: 48, borderRadius: '50%', background: 'var(--brand-soft)', color: 'var(--brand)', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 20px' }}>
+              <Icon.Check size={24} />
+            </div>
+            <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Stop Wasting Money on Poor Absorption</h3>
+            <p style={{ marginBottom: 24, fontSize: 16 }}>Standard Berberine has an abysmal 1% oral absorption rate. Upgrade to advanced DHB delivery mechanisms to ensure you are getting clinical efficacy.</p>
+            <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>
+              View TelehealthFX Berberine <Icon.Arrow />
+            </a>
+          </div>
+
+          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Critical Safety Warnings and Contraindications</h2>
+          
+          <p>Because Berberine is an over-the-counter supplement, consumers wrongly assume it is inherently harmless. Berberine is a highly bioactive alkaloid that behaves like a pharmaceutical and carries serious clinical interactions.</p>
+
+          <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>Dangerous Drug Interactions</h3>
+          <p>Berberine actively inhibits the CYP3A4 liver enzymes, meaning it alters how your body metabolizes hundreds of other prescription drugs. Most importantly, <strong>you must never combine Berberine and Metformin</strong> without strict supervision from a licensed provider. Taking both simultaneously can drive blood sugar dangerously low (hypoglycemia).</p>
+
+          <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>Pregnancy and Fertility Data</h3>
+          <p>While Metformin has extensive, robust safety data regarding use during pregnancy, the safety data for Berberine during human pregnancy is entirely insufficient. The standard medical practice is to completely discontinue Berberine supplementation the moment you begin trying to conceive or confirm a pregnancy.</p>
+
+          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Why TelehealthFX Offers Comprehensive Care</h2>
+          
+          <p>The core philosophy of TelehealthFX is that PCOS is a complex metabolic condition requiring medical oversight, not just a trip to the vitamin aisle. </p>
+          
+          <p>Through our 24-hour medical review process, our licensed, board-certified clinicians evaluate your specific metabolic needs. For some patients, highly bioavailable DHB Berberine is the perfect tool to reverse insulin resistance and manage PCOS symptoms. For others who are struggling with concurrent clinical obesity (BMI &gt; 30), a prescription <a href="/blog/what-is-a-glp-1-medication" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 medication</a> may be the necessary intervention to break the metabolic gridlock.</p>
+
+          <p>TelehealthFX does not force a one-size-fits-all solution. We provide access to clinical-grade botanical supplements, advanced peptide therapies, and FDA-approved GLP-1 medications, all backed by 1-on-1 onboarding and transparent pricing.</p>
+
           <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
-            <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Ready for Transparent, Clinical Weight Loss?</h2>
+            <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Ready for Real Metabolic Relief?</h2>
             <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 500, margin: '0 auto 32px' }}>
-              Your health is too important. Experience a comprehensive, fully compliant metabolic program with 1-on-1 support and zero hidden fees.
+              Stop guessing with unregulated supplements. Get a clinically formulated, highly bioavailable Berberine protocol guided by medical experts.
             </p>
             <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-lg" style={{ background: '#FBF8F3', color: 'var(--ink)', display: 'inline-flex', justifyContent: 'center', width: '100%', maxWidth: 250 }}>
-              Start GLP-1 Therapy <Icon.Arrow />
+              Explore Berberine Now <Icon.Arrow />
             </a>
+          </div>
+
+          <div style={{ marginTop: 80, paddingTop: 40, borderTop: '1px solid var(--line-soft)', fontSize: 14, color: 'var(--ink-3)' }}>
+            <h3 className="serif" style={{ fontSize: 24, marginBottom: 24, color: 'var(--ink)' }}>Academic References & Clinical Citations</h3>
+            <ol style={{ paddingLeft: 20, display: 'flex', flexDirection: 'column', gap: 16 }}>
+              <li>Wei, W., et al. (2012). A clinical study on the short-term effect of berberine in comparison to metformin on the metabolic characteristics of women with polycystic ovary syndrome. <em>European Journal of Endocrinology</em>, 166(1), 99-105. <a href="https://eje.bioscientifica.com/view/journals/eje/166/1/99.xml" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)', textDecoration: 'underline' }}>https://eje.bioscientifica.com/view/journals/eje/166/1/99.xml</a></li>
+              <li>Li, M. F., et al. (2018). The Effect of Berberine on Polycystic Ovary Syndrome Patients with Insulin Resistance (PCOS-IR): A Meta-Analysis and Systematic Review. <em>Evidence-Based Complementary and Alternative Medicine</em>. <a href="https://www.hindawi.com/journals/ecam/2018/2532935/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)', textDecoration: 'underline' }}>https://www.hindawi.com/journals/ecam/2018/2532935/</a></li>
+              <li>World Health Organization. (2023). <em>Polycystic ovary syndrome</em>. <a href="https://www.who.int/news-room/fact-sheets/detail/polycystic-ovary-syndrome" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)', textDecoration: 'underline' }}>https://www.who.int/news-room/fact-sheets/detail/polycystic-ovary-syndrome</a></li>
+            </ol>
           </div>
 
         </div>

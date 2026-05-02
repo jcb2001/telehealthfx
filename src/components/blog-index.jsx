@@ -55,18 +55,18 @@ function BlogIndex() {
       tag: "Clinical Physiology"
     },
     {
-      title: "Weight Loss for Women Over 40: How GLP-1 Can Help (2026 Clinical Guide)",
-      description: "A comprehensive clinical breakdown exploring weight loss for women over 40: how glp-1 can help (2026 clinical guide).",
+      title: "Weight Loss for Women Over 40: How GLP-1 Changes the Game",
+      description: "Discover why 'eat less, move more' stops working after 40, and how modern GLP-1 therapy addresses the five biological drivers of midlife weight gain.",
       slug: "/blog/weight-loss-for-women-over-40-how-glp-1-can-help-2",
-      image: "/assets/nad-therapy-featured.png",
-      tag: "Clinical Guide"
+      image: "/assets/women_over_40_featured.png",
+      tag: "Women's Health"
     },
     {
-      title: "Berberine for PCOS: What the Research Actually Says (2026 Clinical Guide)",
-      description: "A comprehensive clinical breakdown exploring berberine for pcos: what the research actually says (2026 clinical guide).",
+      title: "Berberine for PCOS: What the Research Actually Says",
+      description: "A clinical review of how Berberine addresses the root cause of PCOS: severe insulin resistance. Discover how AMPK activation compares to Metformin.",
       slug: "/blog/berberine-for-pcos-what-the-research-actually-says",
-      image: "/assets/sermorelin-peptide-featured.png",
-      tag: "Clinical Guide"
+      image: "/assets/berberine_pcos_featured.png",
+      tag: "Endocrine Health"
     },
     {
       title: "Tirzepatide vs. Semaglutide: Which GLP-1 Is Right for You? (2026 Clinical Guide)",

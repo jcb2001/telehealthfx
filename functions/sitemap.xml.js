@@ -37,7 +37,17 @@ export async function onRequest(context) {
   if (dynamicRoutes.length === 0) {
     dynamicRoutes = [
       '/how', '/medications', '/pricing', '/results', '/science', '/faq', '/blog',
-      '/blog/berberine', '/blog/72-hour-myth', '/blog/transdermal-vs-oral', '/blog/natures-ozempic-exposed'
+      '/blog/berberine', '/blog/72-hour-myth', '/blog/transdermal-vs-oral', '/blog/natures-ozempic-exposed',
+      '/blog/fda-compounding-ban',
+      '/blog/glp-1-muscle-loss-the-hidden-risk-nobodys-talking',
+      '/blog/oral-semaglutide-is-here-is-the-glp-1-pill-as-good',
+      '/blog/what-happens-when-you-stop-glp-1-medication-the-re',
+      '/blog/berberine-vs-glp-1-in-2026-can-natures-ozempic-act',
+      '/blog/glp-1-side-effects-how-to-manage-nausea-fatigue-mo',
+      '/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot',
+      '/blog/glp-1-and-exercise-how-to-combine-medication-with',
+      '/blog/weight-loss-for-women-over-40-how-glp-1-can-help-2',
+      '/blog/berberine-for-pcos-what-the-research-actually-says'
     ];
   }
   if (staticRoutes.length <= 1) { // Only contains root
