@@ -1,17 +1,17 @@
 import { BlogNadTherapyExplainedAntiAgingEnergyWeightLos } from "../../../components/blog-nad-therapy-explained-anti-aging-energy-weight-los.jsx";
 
 export const metadata = {
-  title: "NAD+ Therapy Explained: Anti-Aging, Energy & Weight Loss (2026 Clinical Guide)",
-  description: "Comprehensive clinical breakdown of nad+ therapy explained: anti-aging, energy & weight loss (2026 clinical guide).",
+  title: "NAD+ Therapy Explained: Anti-Aging, Energy & Weight Loss",
+  description: "Discover how NAD+ powers your 'longevity genes' (sirtuins) and why it's the ultimate cellular complement to combat the fatigue of GLP-1 weight loss.",
   openGraph: {
-    title: "NAD+ Therapy Explained: Anti-Aging, Energy & Weight Loss (2026 Clinical Guide)",
-    description: "Comprehensive clinical breakdown of nad+ therapy explained: anti-aging, energy & weight loss (2026 clinical guide).",
+    title: "NAD+ Therapy Explained: Anti-Aging, Energy & Weight Loss",
+    description: "Discover how NAD+ powers your 'longevity genes' (sirtuins) and why it's the ultimate cellular complement to combat the fatigue of GLP-1 weight loss.",
     images: [
       {
-        url: "https://telehealthfx.com/assets/tirzepatide-semaglutide-featured.png",
-        width: 1200,
-        height: 630,
-        alt: "NAD+ Therapy Explained: Anti-Aging, Energy & Weight Loss (2026 Clinical Guide)",
+        url: "https://telehealthfx.com/assets/nad_therapy_featured.png",
+        width: 1024,
+        height: 1024,
+        alt: "NAD+ Therapy and Anti-Aging",
       },
     ],
   },
@@ -24,9 +24,9 @@ export default function Page() {
       {
         "@type": "MedicalWebPage",
         "@id": "https://telehealthfx.com/blog/nad-therapy-explained-anti-aging-energy-weight-los/#article",
-        "headline": "NAD+ Therapy Explained: Anti-Aging, Energy & Weight Loss (2026 Clinical Guide)",
-        "description": "Comprehensive clinical breakdown of nad+ therapy explained: anti-aging, energy & weight loss (2026 clinical guide).",
-        "image": "https://telehealthfx.com/assets/tirzepatide-semaglutide-featured.png",
+        "headline": "NAD+ Therapy Explained: Anti-Aging, Energy & Weight Loss",
+        "description": "Discover how NAD+ powers your 'longevity genes' (sirtuins) and why it's the ultimate cellular complement to combat the fatigue of GLP-1 weight loss.",
+        "image": "https://telehealthfx.com/assets/nad_therapy_featured.png",
         "author": {
           "@type": "Person",
           "name": "Julian Mercer, M.S.",
@@ -44,22 +44,6 @@ export default function Page() {
         "mainEntityOfPage": {
           "@type": "WebPage",
           "@id": "https://telehealthfx.com/blog/nad-therapy-explained-anti-aging-energy-weight-los/"
-        }
-      }
-        ,{
-        "@type": "VideoObject",
-        "name": "TelehealthFX Medical Overview",
-        "description": "Clinical overview and deep dive into metabolic health, GLP-1 medications, and weight loss science.",
-        "thumbnailUrl": "https://img.youtube.com/vi/rvRZto-qBkk/maxresdefault.jpg",
-        "uploadDate": "2026-05-01T08:00:00+08:00",
-        "embedUrl": "https://www.youtube.com/embed/rvRZto-qBkk",
-        "publisher": {
-          "@type": "Organization",
-          "name": "TelehealthFX",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://telehealthfx.com/assets/logo.png"
-          }
         }
       }
     ]

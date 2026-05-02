@@ -1,17 +1,17 @@
 import { BlogIsCompoundedSemaglutideSafeWhatYouNeedToKn } from "../../../components/blog-is-compounded-semaglutide-safe-what-you-need-to-kn.jsx";
 
 export const metadata = {
-  title: "Is Compounded Semaglutide Safe? What You Need to Know (2026 Clinical Guide)",
-  description: "Comprehensive clinical breakdown of is compounded semaglutide safe? what you need to know (2026 clinical guide).",
+  title: "Is Compounded Semaglutide Safe? What You Need to Know",
+  description: "A clinical review of the FDA regulations on compounding pharmacies. Understand the severe risks of unverified 'salt forms' and research peptides.",
   openGraph: {
-    title: "Is Compounded Semaglutide Safe? What You Need to Know (2026 Clinical Guide)",
-    description: "Comprehensive clinical breakdown of is compounded semaglutide safe? what you need to know (2026 clinical guide).",
+    title: "Is Compounded Semaglutide Safe? What You Need to Know",
+    description: "A clinical review of the FDA regulations on compounding pharmacies. Understand the severe risks of unverified 'salt forms' and research peptides.",
     images: [
       {
-        url: "https://telehealthfx.com/assets/nad-therapy-featured.png",
-        width: 1200,
-        height: 630,
-        alt: "Is Compounded Semaglutide Safe? What You Need to Know (2026 Clinical Guide)",
+        url: "https://telehealthfx.com/assets/compounded_safety_featured.png",
+        width: 1024,
+        height: 1024,
+        alt: "Compounded Semaglutide Safety",
       },
     ],
   },
@@ -24,9 +24,9 @@ export default function Page() {
       {
         "@type": "MedicalWebPage",
         "@id": "https://telehealthfx.com/blog/is-compounded-semaglutide-safe-what-you-need-to-kn/#article",
-        "headline": "Is Compounded Semaglutide Safe? What You Need to Know (2026 Clinical Guide)",
-        "description": "Comprehensive clinical breakdown of is compounded semaglutide safe? what you need to know (2026 clinical guide).",
-        "image": "https://telehealthfx.com/assets/nad-therapy-featured.png",
+        "headline": "Is Compounded Semaglutide Safe? What You Need to Know",
+        "description": "A clinical review of the FDA regulations on compounding pharmacies. Understand the severe risks of unverified 'salt forms' and research peptides.",
+        "image": "https://telehealthfx.com/assets/compounded_safety_featured.png",
         "author": {
           "@type": "Person",
           "name": "Julian Mercer, M.S.",
@@ -44,22 +44,6 @@ export default function Page() {
         "mainEntityOfPage": {
           "@type": "WebPage",
           "@id": "https://telehealthfx.com/blog/is-compounded-semaglutide-safe-what-you-need-to-kn/"
-        }
-      }
-        ,{
-        "@type": "VideoObject",
-        "name": "TelehealthFX Medical Overview",
-        "description": "Clinical overview and deep dive into metabolic health, GLP-1 medications, and weight loss science.",
-        "thumbnailUrl": "https://img.youtube.com/vi/qoRWs9FxAG0/maxresdefault.jpg",
-        "uploadDate": "2026-05-01T08:00:00+08:00",
-        "embedUrl": "https://www.youtube.com/embed/qoRWs9FxAG0",
-        "publisher": {
-          "@type": "Organization",
-          "name": "TelehealthFX",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://telehealthfx.com/assets/logo.png"
-          }
         }
       }
     ]

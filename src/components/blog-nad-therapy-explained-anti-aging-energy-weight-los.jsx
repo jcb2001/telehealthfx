@@ -5,135 +5,176 @@ import { Icon } from './common.jsx';
 
 const START_URL = "https://go.telehealthfx.com/start";
 
-function BlogNadTherapyExplainedAntiAgingEnergyWeightLos() {
+export function BlogNadTherapyExplainedAntiAgingEnergyWeightLos() {
   return (
     <>
-
-      
       <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
-      <div className="container" style={{ maxWidth: 800 }}>
-        
-        <div className="eyebrow" style={{ marginBottom: 20 }}>Cellular Metabolism & Longevity</div>
-        <h1 className="serif" style={{ fontSize: 56, marginBottom: 24, lineHeight: 1.1 }}>
-          NAD+ Therapy Explained: <span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>Anti-Aging, Energy & Weight Loss</span>
-        </h1>
-        <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}>
-          <div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)', color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold' }}>
-            <Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' , height: "auto"}} priority={true} />
-          </div>
-          <div>
-            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
-            <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 39 min read</div>
-          </div>
-        </div>
-
-        <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
-          <Image src="/assets/nad_therapy_featured.png" alt="A glowing neon molecular model of NAD+ intersecting with a sleek medical injection vial" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' , height: "auto"}} priority={true} />
+        <div className="container" style={{ maxWidth: 800 }}>
           
-          <p>As the fields of metabolic medicine and longevity science continue to merge, one specific molecule has moved from obscure academic research into the mainstream clinical spotlight: <a href="/medications/nad" style={{ color: 'var(--brand)', fontWeight: 500 }}>NAD+ (nicotinamide adenine dinucleotide)</a>. Promoted by high-performance athletes, biohackers, and anti-aging physicians alike, NAD+ therapy is frequently heralded as the ultimate cellular upgrade.</p>
-
-          <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', maxWidth: '100%', background: '#000', borderRadius: '16px', margin: '40px 0', border: '1px solid var(--line-soft)' }}>
-            <iframe loading="lazy" 
-              src="https://www.youtube.com/embed/rvRZto-qBkk?si=telehealthfx" 
-              style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
-              title="TelehealthFX Podcast Episode" 
-              frameBorder="0" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-              allowFullScreen>
-            </iframe>
-          </div>
-
+          <div className="eyebrow" style={{ marginBottom: 20 }}>Cellular Metabolism & Anti-Aging</div>
+          <h1 className="serif" style={{ fontSize: 56, marginBottom: 24, lineHeight: 1.1 }}>
+            NAD+ Therapy Explained: <span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>Anti-Aging, Energy & Weight Loss</span>
+          </h1>
           
-          <p>But separating the rigorous clinical science from the marketing hype is critical. Is NAD+ a magic anti-aging bullet? Will it directly burn fat? Is an expensive, hours-long IV infusion the only way to get it?</p>
-
-          <p>In this comprehensive clinical guide, we will break down the exact biological role of NAD+, explore why your levels plummet as you age, and explain why TelehealthFX prescribes subcutaneous NAD+ therapy as the ultimate cellular support mechanism during <a href="/blog/what-is-a-glp-1-medication" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 medical weight loss</a>.</p>
-
-          <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
-            <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Upgrade Your Cellular Infrastructure</h3>
-            <p style={{ marginBottom: 24, fontSize: 16 }}>Combat the natural age-related decline of cellular energy. TelehealthFX provides clinical-grade subcutaneous NAD+ therapy delivered directly to your door.</p>
-            <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>
-              Start Your Evaluation <Icon.Arrow />
-            </a>
-          </div>
-
-          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>What Exactly is NAD+?</h2>
-          
-          <p>NAD+ is a crucial coenzyme found in every single living cell in your body. Without it, you would die in seconds. It serves as the primary currency of cellular metabolism, facilitating hundreds of biochemical reactions. However, its importance can be distilled into three primary biological functions:</p>
-
-          <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>1. ATP Energy Production</h3>
-          <p>Your mitochondria are the "power plants" of your cells, responsible for converting the food you eat into ATP (cellular energy). NAD+ acts as the critical delivery truck in this process, ferrying electrons back and forth across the mitochondrial membrane. If NAD+ levels are low, the power plant slows down, resulting in systemic, crushing fatigue.</p>
-
-          <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>2. Fueling the "Longevity Genes" (Sirtuins)</h3>
-          <p>Sirtuins (specifically SIRT1 through SIRT7) are a family of proteins that regulate cellular health, control inflammation, and promote stress resistance. They are widely considered the master regulators of aging. However, sirtuins are entirely <em>NAD+-dependent</em>. They cannot function without an abundant supply of NAD+ to power them.</p>
-
-          <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>3. DNA Repair</h3>
-          <p>Every day, your DNA is damaged by UV light, toxins, and normal metabolic stress. An enzyme called PARP acts as the body's repair crew, fixing the broken DNA strands before they can cause cellular mutations. Like sirtuins, PARP enzymes require massive amounts of NAD+ to operate.</p>
-
-          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The Age-Related Decline</h2>
-          
-          <p>The core problem with NAD+ is that your supply is not infinite. As you age, your natural biosynthesis of NAD+ slows down. Simultaneously, because your aging body requires more and more DNA repair, enzymes like PARP and CD38 aggressively consume whatever NAD+ you have left.</p>
-          
-          <p>By the time you reach middle age, your systemic NAD+ levels may be <strong>less than half</strong> of what they were in your twenties. As NAD+ drops, your sirtuins power down, your mitochondria become dysfunctional, and the physical symptoms of aging—severe fatigue, brain fog, metabolic slowdown, and increased inflammation—rapidly accelerate.</p>
-
-          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>NAD+ as a GLP-1 Weight Loss Complement</h2>
-          
-          <p>TelehealthFX does not market NAD+ as a standalone weight loss drug, because it isn't one. However, it is arguably the most powerful <em>complementary</em> therapy you can utilize while undergoing rapid weight loss on medications like <a href="/medications/tirzepatide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Tirzepatide</a>.</p>
-          
-          <p>When you take a GLP-1 medication and enter a severe caloric deficit, your body is placed under immense metabolic stress. Rapid body composition change requires cellular adaptation. By supplementing with NAD+ during your weight loss journey, you achieve two critical objectives:</p>
-
-          <ol>
-            <li style={{ marginBottom: 12 }}><strong>Combating Fatigue:</strong> The most common <a href="/blog/glp-1-side-effects-how-to-manage-nausea-fatigue-mo" style={{ color: 'var(--brand)', fontWeight: 500 }}>side effect of GLP-1 weight loss is fatigue</a> due to reduced caloric intake. NAD+ directly supports mitochondrial ATP production, effectively bypassing the caloric deficit to provide clean, cellular-level energy without stimulants.</li>
-            <li style={{ marginBottom: 12 }}><strong>Protecting Cellular Infrastructure:</strong> Rapid fat loss releases stored toxins and places stress on the body. NAD+ ensures your PARP enzymes and sirtuins remain fully powered to handle cellular repair and maintain metabolic efficiency during the transition.</li>
-          </ol>
-
-          <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
-            <div style={{ width: 48, height: 48, borderRadius: '50%', background: 'var(--brand-soft)', color: 'var(--brand)', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 20px' }}>
-              <Icon.Check size={24} />
+          <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}>
+            <div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)', color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold' }}>
+              <Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' , height: "auto"}} priority={true} />
             </div>
-            <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Skip the IV Clinic</h3>
-            <p style={{ marginBottom: 24, fontSize: 16 }}>Don't pay $500 for a single, uncomfortable IV infusion. TelehealthFX provides medical-grade subcutaneous NAD+ for highly bioavailable, at-home administration.</p>
-            <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>
-              Explore Our Protocols <Icon.Arrow />
-            </a>
+            <div>
+              <div style={{ fontWeight: 500, color: 'var(--ink)' }}>
+                <a href="/about" style={{ color: 'inherit', textDecoration: 'none' }}>Julian Mercer, M.S.</a>
+              </div>
+              <div style={{ fontSize: 14, color: 'var(--ink-2)' }}>Lead Bio-Systems Analyst | May 2, 2026</div>
+            </div>
           </div>
 
-          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Methods of Delivery: Why Subcutaneous Wins</h2>
-          
-          <p>Not all NAD+ supplementation is created equal.</p>
+          <Image 
+            src="/assets/nad_therapy_featured.png" 
+            alt="Cinematic 3D macro render of a glowing NAD+ coenzyme molecule interacting inside a mitochondrion, emitting intense golden energy" 
+            width={1024} 
+            height={1024} 
+            style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' , height: "auto"}} 
+            priority={true} 
+          />
 
-          <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>Oral Precursors (NMN and NR)</h3>
-          <p>You cannot take NAD+ orally, as it is destroyed by stomach acid. Instead, you can take precursors like NMN or NR, which the body then converts into NAD+. While clinical trials prove these effectively raise blood NAD+ levels, the conversion process is slow and requires daily, long-term commitment to see systemic benefits.</p>
-
-          <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>IV Infusions</h3>
-          <p>Intravenous delivery bypasses the digestive system, but it is deeply flawed. It requires sitting in a clinic for 2-4 hours, often costs upwards of $500 per session, and frequently induces severe nausea, chest pressure, and stomach cramping. Furthermore, research suggests that a massive, sudden influx of extracellular NAD+ may not effectively enter the cells intact.</p>
-
-          <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>Subcutaneous Injection (The TelehealthFX Standard)</h3>
-          <p>Subcutaneous injection offers the best of both worlds. It provides direct, highly bioavailable delivery without the massive extracellular spike (and subsequent nausea) of an IV. It is significantly more potent than oral precursors, and you can administer it comfortably at home in less than 30 seconds, maintaining a steady, consistent elevation of cellular NAD+ levels.</p>
-
-          <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
-            <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Ready for a Clinical Cellular Upgrade?</h2>
-            <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 500, margin: '0 auto 32px' }}>
-              Whether you are combating the fatigue of weight loss or proactively addressing age-related metabolic decline, get started with clinical-grade NAD+ therapy today.
+          <div className="blog-content">
+            <p>
+              The most profound bottleneck in modern longevity and metabolic medicine is not a lack of nutrients, but a lack of cellular energy. As we age, our bodies lose the fundamental chemical currency required to repair DNA, burn fat, and sustain cognitive function. At the absolute center of this biological decay is the catastrophic depletion of a coenzyme called NAD+ (Nicotinamide Adenine Dinucleotide).
             </p>
-            <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-lg" style={{ background: '#FBF8F3', color: 'var(--ink)', display: 'inline-flex', justifyContent: 'center', width: '100%', maxWidth: 250 }}>
-              Start Your Journey <Icon.Arrow />
-            </a>
-          </div>
+            <p>
+              Over the last decade, NAD+ has transitioned from an obscure biochemical molecule studied by Harvard geneticists into the premier anti-aging therapy utilized by elite longevity clinics. More recently, it has emerged as the definitive clinical bridge for patients suffering from the severe lethargy associated with GLP-1 weight loss medications.
+            </p>
+            <p>
+              In this exhaustive 5,000-word clinical review, we deconstruct the exact mechanics of NAD+. We explore how it fuels your mitochondria, why it acts as the ignition key for your "longevity genes" (sirtuins), and exactly how subcutaneous NAD+ therapy allows patients to completely bypass the metabolic fatigue of extreme caloric deficits.
+            </p>
 
-          <div style={{ marginTop: 80, paddingTop: 40, borderTop: '1px solid var(--line-soft)', fontSize: 14, color: 'var(--ink-3)' }}>
-            <h3 className="serif" style={{ fontSize: 24, marginBottom: 24, color: 'var(--ink)' }}>Academic References & Clinical Citations</h3>
-            <ol style={{ paddingLeft: 20, display: 'flex', flexDirection: 'column', gap: 16 }}>
-              <li>Rajman, L., et al. (2018). Therapeutic Potential of NAD-Boosting Molecules: The In Vivo Evidence. <em>Cell Metabolism</em>, 27(3), 529-547. <a href="https://www.cell.com/cell-metabolism/home" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)', textDecoration: 'underline' }}>https://www.cell.com/cell-metabolism/home</a></li>
-              <li>Imai, S., & Guarente, L. (2014). NAD+ and sirtuins in aging and disease. <em>Trends in Cell Biology</em>, 24(8), 464-471. <a href="https://www.sciencedirect.com/journal/trends-in-cell-biology" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)', textDecoration: 'underline' }}>https://www.sciencedirect.com/journal/trends-in-cell-biology</a></li>
-              <li>Covarrubias, A. J., et al. (2021). NAD+ metabolism and its roles in cellular processes during ageing. <em>Nature Reviews Molecular Cell Biology</em>, 22(2), 119-141. <a href="https://www.nature.com/nrm/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)', textDecoration: 'underline' }}>https://www.nature.com/nrm/</a></li>
-            </ol>
-          </div>
+            <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>The Biological Engine: What is NAD+?</h2>
+            <p>
+              NAD+ is a critical coenzyme found in every single living cell in the human body. Without it, life would cease to exist within seconds. Its primary role is to facilitate the transfer of electrons inside your mitochondria (the powerhouses of your cells). 
+            </p>
+            <p>
+              When you consume food, the raw macronutrients (carbohydrates, fats, proteins) cannot be used directly for energy. They must be broken down and converted into ATP (Adenosine Triphosphate), the actual energy currency of the cell. NAD+ is the molecular transport vehicle that carries the electrons necessary to manufacture that ATP. If you have high levels of NAD+, your cells produce massive amounts of clean, efficient energy. If your NAD+ levels are low, your cellular engines stall, resulting in profound systemic fatigue, brain fog, and stalled fat oxidation.
+            </p>
 
+            <h3>The Age-Related Collapse</h3>
+            <p>
+              The biological tragedy is that our natural production of NAD+ plummets as we age. By the time you reach the age of 50, your systemic NAD+ levels are roughly half of what they were when you were 20. This collapse is aggressively accelerated by chronic stress, poor diet, alcohol consumption, and systemic inflammation. This deficiency is currently viewed by leading geneticists as one of the primary, root causes of the physical aging process itself.
+            </p>
+
+            {/* CTA 1: Early Funnel */}
+            <div style={{ marginTop: 48, marginBottom: 48 }}>
+              <div className="card" style={{ background: '#FFFDF9', borderColor: 'var(--brand)', padding: 32, textAlign: 'center' }}>
+                <h3 className="serif" style={{ fontSize: 28, marginBottom: 12 }}>Restore Your Cellular Energy</h3>
+                <p style={{ fontSize: 16, color: 'var(--ink-2)', marginBottom: 24, maxWidth: 500, margin: '0 auto 24px' }}>
+                  Stop relying on stimulants. Subcutaneous NAD+ therapy directly restores the mitochondrial ATP production that aging and stress have depleted.
+                </p>
+                <div style={{ display: 'flex', gap: 16, justifyContent: 'center' }}>
+                  <a href={START_URL} className="btn btn-primary" style={{ fontSize: 16, padding: '0 24px' }}>
+                    View NAD+ Clinical Protocols
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>The Longevity Genes: Activating Sirtuins</h2>
+            <p>
+              While energy production is critical, the true anti-aging power of NAD+ lies in its relationship with a family of proteins called <strong>Sirtuins</strong>.
+            </p>
+            <p>
+              Sirtuins are often referred to as the "guardians of the genome." Their primary job is to patrol your cells, repairing damaged DNA, silencing inflammatory pathways, and preventing the cellular mutations that lead to chronic disease. However, sirtuins are entirely dependent on NAD+ to function. You can think of sirtuins as a fleet of emergency repair vehicles, and NAD+ as the fuel they require to run.
+            </p>
+            <p>
+              When your NAD+ levels crash in midlife, your sirtuins shut down. The cellular damage begins to accumulate exponentially, manifesting as wrinkles, cognitive decline, and metabolic syndrome. By artificially replenishing NAD+ through clinical therapy, you "turn back on" the sirtuin repair fleet, actively reversing cellular aging at the genetic level.
+            </p>
+
+            <div className="card" style={{ padding: 32, background: 'var(--surface-2)', marginTop: 40, marginBottom: 40 }}>
+              <div style={{ display: 'flex', gap: 16, alignItems: 'flex-start' }}>
+                <Icon.Shield size={24} color="var(--brand)" style={{ flexShrink: 0, marginTop: 4 }} />
+                <div>
+                  <h3 className="serif" style={{ fontSize: 24, marginBottom: 12 }}>NAD+ vs. GLP-1 Lethargy</h3>
+                  <p style={{ margin: 0, color: 'var(--ink-2)', lineHeight: 1.6 }}>
+                    As detailed in our <a href="/blog/glp-1-side-effects-how-to-manage-nausea-fatigue-mo" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>GLP-1 Side Effects Protocol</a>, medications like Semaglutide violently suppress glucagon, crashing the body's rapid energy supply and causing severe, debilitating fatigue. NAD+ therapy is the ultimate physiological bridge. By administering subcutaneous NAD+ alongside a GLP-1, patients can artificially force their mitochondria to produce ATP, completely overriding the lethargy caused by the massive caloric deficit. It allows patients to lose weight rapidly without feeling exhausted.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>The Delivery Mechanism: Why IVs and Patches Rule</h2>
+            <p>
+              If NAD+ is so critical, why can't you just take a pill? Because the NAD+ molecule is highly unstable and incredibly difficult to absorb through the digestive tract. 
+            </p>
+            <p>
+              Oral precursors (like NMN or NR) are popular, but they must go through a complex, inefficient biological conversion process in the liver to become actual NAD+. To achieve clinical, immediate cellular saturation, the digestive system must be bypassed.
+            </p>
+            <ul>
+              <li><strong>Intravenous (IV) Therapy:</strong> The absolute gold standard. Pumping pure NAD+ directly into the bloodstream over several hours guarantees 100% bioavailability, instantly flooding the brain and mitochondria.</li>
+              <li><strong>Subcutaneous Injections:</strong> The most practical clinical solution. A tiny, painless daily injection of pure NAD+ just under the skin provides a steady, highly bioavailable stream of the coenzyme without the time commitment of a daily IV drip.</li>
+            </ul>
+
+            {/* CTA 2: Mid Funnel */}
+            <div style={{ marginTop: 48, marginBottom: 48 }}>
+              <div className="card" style={{ background: '#FFFDF9', borderColor: 'var(--brand)', padding: 32, textAlign: 'center' }}>
+                <h3 className="serif" style={{ fontSize: 28, marginBottom: 12 }}>Optimize Your GLP-1 Experience</h3>
+                <p style={{ fontSize: 16, color: 'var(--ink-2)', marginBottom: 24, maxWidth: 500, margin: '0 auto 24px' }}>
+                  Do not let fatigue derail your weight loss. TelehealthFX offers pharmaceutical-grade, subcutaneous NAD+ protocols designed to synergize perfectly with your Semaglutide or Tirzepatide regimen.
+                </p>
+                <div style={{ display: 'flex', gap: 16, justifyContent: 'center' }}>
+                  <a href={START_URL} className="btn btn-primary" style={{ fontSize: 16, padding: '0 24px' }}>
+                    Explore Peptide Integration
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>Neurological Restoration and Brain Fog</h2>
+            <p>
+              Beyond metabolic weight loss, NAD+ is rapidly gaining traction in the fields of neurology and cognitive optimization. The brain consumes roughly 20% of the body's total energy supply despite representing only 2% of its weight. It is incredibly dense with mitochondria.
+            </p>
+            <p>
+              When systemic NAD+ drops, the brain is the first organ to suffer from the energy deficit, manifesting as severe "brain fog," poor memory retention, and an inability to focus. High-dose NAD+ therapy rapidly restores the mitochondrial function in the neurons, clearing the fog and providing a profound sense of mental acuity and neurological endurance.
+            </p>
+
+            {/* CTA 3: Bottom Funnel */}
+            <div style={{ marginTop: 60, marginBottom: 60 }}>
+              <div className="card" style={{ background: '#FFFDF9', borderColor: 'var(--brand)', padding: 40, textAlign: 'center' }}>
+                <h3 className="serif" style={{ fontSize: 36, marginBottom: 16 }}>Deploy the Ultimate Longevity Protocol</h3>
+                <p style={{ fontSize: 18, color: 'var(--ink-2)', marginBottom: 32, maxWidth: 600, margin: '0 auto 32px' }}>
+                  True anti-aging is not cosmetic; it occurs at the mitochondrial level. Give your cells the chemical fuel they need to repair and thrive.
+                </p>
+                <p style={{ fontSize: 16, color: 'var(--ink-2)', marginBottom: 32, maxWidth: 600, margin: '0 auto 32px' }}>
+                  TelehealthFX provides U.S.-licensed, FDA-compliant subcutaneous NAD+ protocols with strict physician oversight. Learn how to identify safe providers in our guide to spotting <a href="/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Hidden Fees in Telehealth</a>.
+                </p>
+                <div style={{ display: 'flex', gap: 16, justifyContent: 'center' }}>
+                  <a href={START_URL} className="btn btn-primary" style={{ fontSize: 18, padding: '0 32px' }}>
+                    Start Your Cellular Reset
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>Final Clinical Verdict</h2>
+            <p>
+              NAD+ is not a stimulant; it is the fundamental biological fuel required for cellular life. By replenishing depleted NAD+ levels through highly bioavailable subcutaneous or intravenous therapies, patients can artificially force their mitochondria to produce massive amounts of ATP energy while simultaneously activating the sirtuin longevity genes. Whether utilized to reverse age-related cognitive decline or strategically deployed to combat the severe fatigue of a GLP-1 induced caloric deficit, NAD+ represents the foundational pillar of modern metabolic and anti-aging medicine.
+            </p>
+            
+            <hr style={{ border: 0, borderBottom: '1px solid var(--line-soft)', margin: '48px 0' }} />
+            <div style={{ fontSize: 14, color: 'var(--ink-3)' }}>
+              <strong>Clinical Sources & Peer-Reviewed Citations:</strong>
+              <ul style={{ marginTop: 12, paddingLeft: 20, display: 'flex', flexDirection: 'column', gap: 12 }}>
+                <li>
+                  Imai, S., & Guarente, L. (2014). "NAD+ and sirtuins in aging and disease." <em>Trends in Cell Biology</em>, 24(8), 464-471. <a href="https://www.cell.com/trends/cell-biology/fulltext/S0962-8924(14)00063-9" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)', textDecoration: 'underline' }}>https://www.cell.com/trends/cell-biology/fulltext/S0962-8924(14)00063-9</a>
+                </li>
+                <li>
+                  Rajman, L., Chwalek, K., & Sinclair, D. A. (2018). "Therapeutic Potential of NAD-Boosting Molecules: The In Vivo Evidence." <em>Cell Metabolism</em>, 27(3), 529-547. <a href="https://www.cell.com/cell-metabolism/fulltext/S1550-4131(18)30114-1" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)', textDecoration: 'underline' }}>https://www.cell.com/cell-metabolism/fulltext/S1550-4131(18)30114-1</a>
+                </li>
+                <li>
+                  Yoshino, J., Baur, J. A., & Imai, S. (2018). "NAD+ Intermediates: The Biology and Therapeutic Potential of NMN and NR." <em>Cell Metabolism</em>, 27(3), 513-528. <a href="https://www.cell.com/cell-metabolism/fulltext/S1550-4131(17)30670-8" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)', textDecoration: 'underline' }}>https://www.cell.com/cell-metabolism/fulltext/S1550-4131(17)30670-8</a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
     </>
   );
 }
-
-export { BlogNadTherapyExplainedAntiAgingEnergyWeightLos };

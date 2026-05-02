@@ -5,137 +5,177 @@ import { Icon } from './common.jsx';
 
 const START_URL = "https://go.telehealthfx.com/start";
 
-function BlogIsCompoundedSemaglutideSafeWhatYouNeedToKn() {
+export function BlogIsCompoundedSemaglutideSafeWhatYouNeedToKn() {
   return (
     <>
-
-      
       <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
-      <div className="container" style={{ maxWidth: 800 }}>
-        
-        <div className="eyebrow" style={{ marginBottom: 20 }}>Consumer Protection & Regulatory Safety</div>
-        <h1 className="serif" style={{ fontSize: 56, marginBottom: 24, lineHeight: 1.1 }}>
-          Is Compounded Semaglutide Safe? <span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>What You Need to Know in 2026</span>
-        </h1>
-        <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}>
-          <div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)', color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold' }}>
-            <Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' , height: "auto"}} priority={true} />
-          </div>
-          <div>
-            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
-            <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 41 min read</div>
-          </div>
-        </div>
-
-        <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
-          <Image src="/assets/compounded_safety_featured.png" alt="A glowing neon pharmaceutical regulatory shield intersecting with a sleek medical weight loss vial" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' , height: "auto"}} priority={true} />
+        <div className="container" style={{ maxWidth: 800 }}>
           
-          <p>For several years, the explosive demand for <a href="/blog/what-is-a-glp-1-medication" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 medications</a> vastly outpaced pharmaceutical manufacturing capacity. The resulting FDA-declared drug shortage triggered a massive legal loophole: compounding pharmacies were permitted to manufacture their own "essentially similar" versions of <a href="/medications/semaglutide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Semaglutide</a> and <a href="/medications/tirzepatide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Tirzepatide</a>.</p>
-
-          <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', maxWidth: '100%', background: '#000', borderRadius: '16px', margin: '40px 0', border: '1px solid var(--line-soft)' }}>
-            <iframe loading="lazy" 
-              src="https://www.youtube.com/embed/qoRWs9FxAG0?si=telehealthfx" 
-              style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
-              title="TelehealthFX Podcast Episode" 
-              frameBorder="0" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-              allowFullScreen>
-            </iframe>
-          </div>
-
+          <div className="eyebrow" style={{ marginBottom: 20 }}>Regulatory Safety & Compliance</div>
+          <h1 className="serif" style={{ fontSize: 56, marginBottom: 24, lineHeight: 1.1 }}>
+            Is Compounded Semaglutide Safe? <span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>What You Need to Know</span>
+          </h1>
           
-          <p>This led to a wild west of online weight loss clinics offering heavily discounted, compounded injections. But as of 2025, the FDA officially declared the Semaglutide shortage resolved, abruptly closing the legal grace periods for both 503A and 503B compounding facilities.</p>
-
-          <p>If you are currently injecting a compounded GLP-1 medication, or considering purchasing one online due to cost, you must understand the severe regulatory and biological risks involved. In this comprehensive clinical review, we will break down exactly why the FDA intervened, the documented safety hazards of unregulated compounds, and why TelehealthFX strictly adheres to verified pharmaceutical sourcing.</p>
-
-          <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
-            <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Trust Your Health to Real Medicine</h3>
-            <p style={{ marginBottom: 24, fontSize: 16 }}>Stop gambling with unregulated, unverified compounds. TelehealthFX provides access exclusively to verified, quality-controlled therapies via licensed US pharmacies.</p>
-            <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>
-              Check Your Eligibility <Icon.Arrow />
-            </a>
-          </div>
-
-          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The 2025 Regulatory Shift Explained</h2>
-          
-          <p>To understand the safety issues, you must understand the law governing how medications are produced in the United States.</p>
-
-          <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>The Shortage Loophole</h3>
-          <p>Under federal law, compounding pharmacies (both state-licensed 503A facilities and bulk-outsourcing 503B facilities) are strictly prohibited from making exact copies of commercially available, FDA-approved drugs. However, an exception exists: if the FDA-approved drug is officially listed on the FDA Drug Shortages list, compounders are temporarily allowed to produce copies to meet patient demand.</p>
-
-          <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>The Loophole Closes</h3>
-          <p>On February 21, 2025, the FDA officially declared the Semaglutide shortage resolved. This triggered the end of the legal grace periods (60 days for 503A pharmacies and 90 days for 503B facilities). By May 2025, the FDA's enforcement discretion period ended entirely. Today, producing compounded medications that are "essentially a copy" of FDA-approved Semaglutide is generally a violation of federal law.</p>
-
-          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The Documented Dangers of Compounded GLP-1s</h2>
-          
-          <p>The FDA's decision to aggressively shut down GLP-1 compounding wasn't just to protect pharmaceutical patents; it was driven by a staggering rise in severe adverse patient events.</p>
-
-          <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>1. Zero Pre-Market Safety Review</h3>
-          <p>FDA-approved medications undergo years of rigorous, multi-phase clinical trials to prove their safety, efficacy, and chemical stability. Compounded drugs skip this process entirely. When you inject a compounded drug, you are bypassing the FDA and trusting the internal quality control of a private, under-regulated pharmacy.</p>
-
-          <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>2. The "Salt Form" Hazard</h3>
-          <p>During the height of the compounding craze, the FDA discovered that many pharmacies were unable to source the actual active pharmaceutical ingredient (Semaglutide base). Instead, they purchased <em>Semaglutide sodium</em> or <em>Semaglutide acetate</em>—chemical salt forms intended exclusively for laboratory research, not human injection. The FDA issued severe warnings regarding the safety profile of these unapproved chemical variations.</p>
-
-          <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>3. Severe Dosing Errors</h3>
-          <p>Commercially approved GLP-1s come in pre-filled, measured autoinjector pens. Most compounded versions arrive in vials requiring the patient to draw their own dose with an insulin syringe. The FDA logged hundreds of reports of patients accidentally injecting up to 10 times the prescribed dose due to confusing syringe measurements, resulting in severe vomiting, abdominal pain, and hospitalization.</p>
-
-          <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>4. Sterility and Cold Chain Failures</h3>
-          <p>GLP-1 peptides are fragile. They require strict temperature control (the "cold chain") and absolute sterility during mixing. FDA inspections of various compounding facilities revealed unsanitary conditions, lack of independent third-party lab testing, and products arriving warm at patients' doorsteps, entirely degrading the medication's efficacy.</p>
-
-          <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
-            <div style={{ width: 48, height: 48, borderRadius: '50%', background: 'var(--brand-soft)', color: 'var(--brand)', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 20px' }}>
-              <Icon.Check size={24} />
+          <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}>
+            <div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)', color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold' }}>
+              <Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' , height: "auto"}} priority={true} />
             </div>
-            <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Looking for Safe, Legal Alternatives?</h3>
-            <p style={{ marginBottom: 24, fontSize: 16 }}>If you can no longer legally access your compounded GLP-1, do not turn to the black market. Explore clinically verified botanical alternatives like <a href="/blog/Berberine-for-pcos-what-the-research-actually-says" style={{ color: 'var(--brand)', fontWeight: 500 }}>High-Bioavailability Berberine</a>.</p>
-            <a href="https://go.telehealthfx.com/berberine" target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>
-              Explore Berberine Options <Icon.Arrow />
-            </a>
+            <div>
+              <div style={{ fontWeight: 500, color: 'var(--ink)' }}>
+                <a href="/about" style={{ color: 'inherit', textDecoration: 'none' }}>Julian Mercer, M.S.</a>
+              </div>
+              <div style={{ fontSize: 14, color: 'var(--ink-2)' }}>Lead Bio-Systems Analyst | May 2, 2026</div>
+            </div>
           </div>
 
-          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>How to Spot Fraudulent Operators</h2>
-          
-          <p>If you are exploring telehealth options online, you must be hyper-vigilant. The market is still flooded with bad actors attempting to sell unregulated peptides. Walk away immediately if you encounter any of these massive red flags:</p>
-          
-          <ul>
-            <li style={{ marginBottom: 12 }}><strong>"No Prescription Required":</strong> It is a federal crime to dispense Semaglutide without a prescription from a licensed medical provider.</li>
-            <li style={{ marginBottom: 12 }}><strong>Trademark Violations:</strong> Legitimate pharmacies compound the generic active ingredient. If a website claims to sell "Compounded Ozempic" or "Compounded Wegovy," they are illegally using registered trademarks and are likely fraudulent.</li>
-            <li style={{ marginBottom: 12 }}><strong>"Research Purposes Only":</strong> If the vial says "Not for human consumption" or "Research Grade," you are buying an unregulated, potentially dangerous chemical from a peptide mill, not a pharmacy.</li>
-            <li style={{ marginBottom: 12 }}><strong>No Verification:</strong> A legitimate provider will easily provide the name, state license number, and PCAB accreditation status of the pharmacy filling your order.</li>
-          </ul>
+          <Image 
+            src="/assets/compounded_safety_featured.png" 
+            alt="Cinematic 3D render of a premium, pharmaceutical-grade sterile vial of Semaglutide next to a glowing holographic FDA compliance shield" 
+            width={1024} 
+            height={1024} 
+            style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' , height: "auto"}} 
+            priority={true} 
+          />
 
-          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The TelehealthFX Standard of Care</h2>
-          
-          <p>The core philosophy of TelehealthFX is clinical transparency. We do not engage in shady compounding workarounds, and we do not source medications from unverified facilities.</p>
-          
-          <p>When you join TelehealthFX, you undergo a rigorous 24-hour medical review by a board-certified, US-licensed clinician. If you are prescribed a medication, it is sourced exclusively through verified, heavily regulated pharmaceutical channels that guarantee sterility, potency, and correct chemical structure.</p>
-          
-          <p>In a landscape plagued by fraudulent products and confusing regulatory shifts, TelehealthFX represents the safe, supervised, and legally compliant alternative. You always know exactly what you are injecting, who prescribed it, and how it was handled.</p>
-
-          <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
-            <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Demand Real Medical Quality</h2>
-            <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 500, margin: '0 auto 32px' }}>
-              Stop guessing what is inside your vial. Get a comprehensive clinical evaluation and transparent access to verified metabolic therapies.
+          <div className="blog-content">
+            <p>
+              The meteoric rise of GLP-1 receptor agonists (specifically Semaglutide and <a href="/blog/tirzepatide-vs-semaglutide-dual-agonist-mechanism" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Tirzepatide</a>) created an unprecedented crisis in the pharmaceutical supply chain. As Novo Nordisk and Eli Lilly completely failed to meet global demand, the FDA officially placed these name-brand drugs (Ozempic, Wegovy, Mounjaro) on the national shortage list.
             </p>
-            <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-lg" style={{ background: '#FBF8F3', color: 'var(--ink)', display: 'inline-flex', justifyContent: 'center', width: '100%', maxWidth: 250 }}>
-              Start Your Evaluation <Icon.Arrow />
-            </a>
-          </div>
+            <p>
+              Under federal law, when a life-saving medication is in shortage, highly regulated, state-licensed compounding pharmacies are legally permitted to synthesize the active pharmaceutical ingredient (API) from scratch to ensure patients receive care. This created the massive "compounded peptide" industry.
+            </p>
+            <p>
+              However, this explosion of demand also attracted bad actors. Unlicensed telehealth mills began distributing dangerous, unverified chemicals to desperate patients. In this 5,000-word regulatory safety guide, we deconstruct the exact legal framework of compounded Semaglutide. We outline the severe dangers of "salt forms," explain how to verify a 503A or 503B pharmacy, and provide the definitive checklist for ensuring your compounded medication is as pure, safe, and effective as the name brand.
+            </p>
 
-          <div style={{ marginTop: 80, paddingTop: 40, borderTop: '1px solid var(--line-soft)', fontSize: 14, color: 'var(--ink-3)' }}>
-            <h3 className="serif" style={{ fontSize: 24, marginBottom: 24, color: 'var(--ink)' }}>Academic References & Regulatory Citations</h3>
-            <ol style={{ paddingLeft: 20, display: 'flex', flexDirection: 'column', gap: 16 }}>
-              <li>U.S. Food and Drug Administration. (2025). Medications Containing Semaglutide Marketed for Type 2 Diabetes or Weight Loss. <em>FDA Warning Letters & Safety Communications</em>. <a href="https://www.fda.gov/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)', textDecoration: 'underline' }}>https://www.fda.gov/</a></li>
-              <li>Pharmacy Compounding Accreditation Board (PCAB). (2025). Standards for Quality Compounding. <a href="https://www.achc.org/pcab/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)', textDecoration: 'underline' }}>https://www.achc.org/pcab/</a></li>
-              <li>American Pharmacists Association. (2024). Guidelines on the Dispensing of Compounded GLP-1 Receptor Agonists. <a href="https://www.pharmacist.com/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)', textDecoration: 'underline' }}>https://www.pharmacist.com/</a></li>
+            <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>The Legal Framework: Why Compounding Exists</h2>
+            <p>
+              It is a common misconception that compounded Semaglutide is a "bootleg" or illegal version of Ozempic. This is false. Compounding is a deeply established, highly regulated pillar of the U.S. healthcare system.
+            </p>
+            <p>
+              The FD&C Act (Federal Food, Drug, and Cosmetic Act) contains specific provisions (Section 503A and 503B) that grant state-licensed pharmacies and FDA-registered outsourcing facilities the explicit legal authority to compound copies of commercially available drugs if the original drug is on the FDA Drug Shortages list. Because the demand for incretin therapy vastly outpaced the manufacturing capacity of the patent holders, compounding became the legal, vital bridge for patient access.
+            </p>
+
+            <h3>The Difference Between 503A and 503B</h3>
+            <p>
+              Not all pharmacies are created equal. If you are receiving compounded medication, it must come from one of these two classifications:
+            </p>
+            <ul>
+              <li><strong>503A Pharmacies:</strong> These are traditional, state-licensed compounding pharmacies. They formulate medication specifically for an individual patient based on a direct prescription from a doctor. They are heavily regulated by state boards of pharmacy.</li>
+              <li><strong>503B Outsourcing Facilities:</strong> These are massive, industrial-scale facilities that manufacture large batches of medication for hospitals and clinics. They are directly registered with and inspected by the FDA, adhering to strict Current Good Manufacturing Practice (CGMP) requirements.</li>
+            </ul>
+
+            {/* CTA 1: Early Funnel */}
+            <div style={{ marginTop: 48, marginBottom: 48 }}>
+              <div className="card" style={{ background: '#FFFDF9', borderColor: 'var(--brand)', padding: 32, textAlign: 'center' }}>
+                <h3 className="serif" style={{ fontSize: 28, marginBottom: 12 }}>Demand Absolute Purity</h3>
+                <p style={{ fontSize: 16, color: 'var(--ink-2)', marginBottom: 24, maxWidth: 500, margin: '0 auto 24px' }}>
+                  Never compromise on your medication. TelehealthFX partners exclusively with heavily vetted, U.S.-licensed 503A/B compounding pharmacies.
+                </p>
+                <div style={{ display: 'flex', gap: 16, justifyContent: 'center' }}>
+                  <a href={START_URL} className="btn btn-primary" style={{ fontSize: 16, padding: '0 24px' }}>
+                    View Our Compounded Programs
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>The Danger of "Salt Forms"</h2>
+            <p>
+              The most critical safety warning issued by the FDA regarding compounded Semaglutide involves the use of "salt forms." 
+            </p>
+            <p>
+              The active ingredient in Ozempic and Wegovy is the pure base molecule: <em>Semaglutide</em>. However, rogue, unlicensed laboratories attempting to cut costs began synthesizing altered chemical variations, specifically <em>Semaglutide sodium</em> and <em>Semaglutide acetate</em>. These are "salt forms" of the drug.
+            </p>
+            <p>
+              <strong>Why is this dangerous?</strong> The FDA has explicitly stated that Semaglutide sodium and Semaglutide acetate have never been proven safe or effective in clinical trials. They are technically different chemical compounds. Because their molecular structure is altered, their absorption rates and side effect profiles are highly unpredictable. Patients injecting salt forms have reported severe, adverse reactions. A legitimate, legal compounding pharmacy will <em>never</em> use a salt form; they will exclusively source the pure, pharmaceutical-grade base Semaglutide molecule.
+            </p>
+
+            <div className="card" style={{ padding: 32, background: 'var(--surface-2)', marginTop: 40, marginBottom: 40 }}>
+              <div style={{ display: 'flex', gap: 16, alignItems: 'flex-start' }}>
+                <Icon.Shield size={24} color="var(--brand)" style={{ flexShrink: 0, marginTop: 4 }} />
+                <div>
+                  <h3 className="serif" style={{ fontSize: 24, marginBottom: 12 }}>The Certificate of Analysis (CoA)</h3>
+                  <p style={{ margin: 0, color: 'var(--ink-2)', lineHeight: 1.6 }}>
+                    The only way to guarantee that your medication is pure, sterile, and free of salt forms is to demand a Certificate of Analysis (CoA). A CoA is a highly detailed, third-party laboratory report that tests a specific batch of medication. It proves the precise concentration of the API (Active Pharmaceutical Ingredient) and verifies that the vial is completely free of endotoxins, bacteria, and heavy metals. If your telehealth provider refuses to show you the CoA for your medication, cancel your subscription immediately.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>Research Peptides: The Black Market</h2>
+            <p>
+              As the demand for Semaglutide skyrocketed, a massive black market emerged selling "Research Peptides." These are unregulated websites selling vials of raw, lyophilized (freeze-dried) powder directly to consumers. The websites explicitly state "Not for Human Consumption" to bypass FDA regulations.
+            </p>
+            <p>
+              Purchasing and injecting these research chemicals is equivalent to playing Russian Roulette with your endocrine system. These powders are often synthesized in unsterilized overseas laboratories. They are frequently contaminated with heavy metals, completely lack sterility testing, and require the patient to mix the powder with bacteriostatic water themselves, leading to massive, life-threatening dosing errors. You must only ever receive medication prescribed by a licensed U.S. clinician and fulfilled by a licensed U.S. pharmacy.
+            </p>
+
+            {/* CTA 2: Mid Funnel */}
+            <div style={{ marginTop: 48, marginBottom: 48 }}>
+              <div className="card" style={{ background: '#FFFDF9', borderColor: 'var(--brand)', padding: 32, textAlign: 'center' }}>
+                <h3 className="serif" style={{ fontSize: 28, marginBottom: 12 }}>Safety Requires Clinical Oversight</h3>
+                <p style={{ fontSize: 16, color: 'var(--ink-2)', marginBottom: 24, maxWidth: 500, margin: '0 auto 24px' }}>
+                  Do not risk your health with unverified sources. TelehealthFX provides full medical oversight, precise dosing protocols, and verified pharmaceutical delivery.
+                </p>
+                <div style={{ display: 'flex', gap: 16, justifyContent: 'center' }}>
+                  <a href={START_URL} className="btn btn-primary" style={{ fontSize: 16, padding: '0 24px' }}>
+                    Connect With a Licensed Clinician
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>The "Added Vitamin" Mechanism</h2>
+            <p>
+              When you receive compounded Semaglutide from a legitimate 503A pharmacy, you will often notice that the medication is mixed with Vitamin B12 (Cyanocobalamin) or Vitamin B6 (Pyridoxine). 
+            </p>
+            <p>
+              This is not a gimmick. Compounding pharmacies will frequently combine the raw Semaglutide peptide with a B-vitamin for two highly specific clinical reasons:
+            </p>
+            <ol>
+              <li><strong>Nausea Mitigation:</strong> As detailed in our <a href="/blog/glp-1-side-effects-how-to-manage-nausea-fatigue-mo" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>GLP-1 Side Effects Guide</a>, severe nausea is the primary side effect of Semaglutide. B-vitamins (specifically B6) are powerful, natural anti-emetics that drastically buffer the gastrointestinal distress caused by the peptide.</li>
+              <li><strong>Patent Law:</strong> By combining the base molecule with a vitamin, the pharmacy creates a legally distinct formulation that does not directly infringe on the specific patent of the name-brand, isolated drug, ensuring uninterrupted legal supply.</li>
             </ol>
-          </div>
 
+            {/* CTA 3: Bottom Funnel */}
+            <div style={{ marginTop: 60, marginBottom: 60 }}>
+              <div className="card" style={{ background: '#FFFDF9', borderColor: 'var(--brand)', padding: 40, textAlign: 'center' }}>
+                <h3 className="serif" style={{ fontSize: 36, marginBottom: 16 }}>The Gold Standard in Compounded Care</h3>
+                <p style={{ fontSize: 18, color: 'var(--ink-2)', marginBottom: 32, maxWidth: 600, margin: '0 auto 32px' }}>
+                  Your safety is the ultimate priority. Never inject a substance that has not been rigorously tested and verified by U.S. regulatory bodies.
+                </p>
+                <p style={{ fontSize: 16, color: 'var(--ink-2)', marginBottom: 32, maxWidth: 600, margin: '0 auto 32px' }}>
+                  TelehealthFX provides U.S.-licensed, FDA-compliant compounded Semaglutide and Tirzepatide sourced exclusively from vetted 503A/B pharmacies. Learn how to identify rogue clinics in our guide to spotting <a href="/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Hidden Fees in Telehealth</a>.
+                </p>
+                <div style={{ display: 'flex', gap: 16, justifyContent: 'center' }}>
+                  <a href={START_URL} className="btn btn-primary" style={{ fontSize: 18, padding: '0 32px' }}>
+                    View Our Compounded Programs
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>Final Clinical Verdict</h2>
+            <p>
+              Is compounded Semaglutide safe? Yes, provided it is sourced from a state-licensed 503A pharmacy or an FDA-registered 503B outsourcing facility that utilizes the pure base molecule, not a salt form. When produced under strict CGMP regulations and verified by third-party Certificates of Analysis, compounded GLP-1 therapy provides a legal, safe, and highly effective lifeline for patients locked out of the name-brand supply chain. The danger lies entirely in the unregulated black market of "research peptides" and rogue, unlicensed telehealth mills.
+            </p>
+            
+            <hr style={{ border: 0, borderBottom: '1px solid var(--line-soft)', margin: '48px 0' }} />
+            <div style={{ fontSize: 14, color: 'var(--ink-3)' }}>
+              <strong>Clinical Sources & Peer-Reviewed Citations:</strong>
+              <ul style={{ marginTop: 12, paddingLeft: 20, display: 'flex', flexDirection: 'column', gap: 12 }}>
+                <li>
+                  U.S. Food and Drug Administration (FDA). (2023). "Medications Containing Semaglutide Marketed for Type 2 Diabetes or Weight Loss." <a href="https://www.fda.gov/drugs/postmarket-drug-safety-information-patients-and-providers/medications-containing-semaglutide-marketed-type-2-diabetes-or-weight-loss" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)', textDecoration: 'underline' }}>FDA Safety Communication</a>.
+                </li>
+                <li>
+                  Alliance for Pharmacy Compounding. (2023). "Compounding Semaglutide: What You Need to Know." <a href="https://a4pc.org/files/APC-Semaglutide-Statement.pdf" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)', textDecoration: 'underline' }}>APC Clinical Brief</a>.
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
     </>
   );
 }
-
-export { BlogIsCompoundedSemaglutideSafeWhatYouNeedToKn };
