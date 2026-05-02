@@ -6,6 +6,27 @@ import { Icon } from './common.jsx';
 function BlogIndex() {
   const articles = [
     {
+      title: "Tirzepatide vs Semaglutide Weight Loss: The Dual-Agonist Difference",
+      description: "A clinical comparison of tirzepatide vs semaglutide weight loss. Discover why dual-agonist GLP-1/GIP therapies yield superior clinical results.",
+      slug: "/blog/tirzepatide-vs-semaglutide-weight-loss",
+      image: "/assets/tirzepatide-semaglutide-featured.png",
+      tag: "Clinical Comparison"
+    },
+    {
+      title: "NAD Therapy Metabolism: Reversing Cellular Aging",
+      description: "Discover the truth about NAD therapy metabolism. Learn why subcutaneous injections outperform oral supplements for restoring mitochondrial energy and reversing cellular aging.",
+      slug: "/blog/nad-therapy-metabolism",
+      image: "/assets/nad-therapy-featured.png",
+      tag: "Cellular Longevity"
+    },
+    {
+      title: "Sermorelin Peptide Benefits: Sleep & Anti-Aging Secret",
+      description: "Explore the profound sermorelin peptide benefits for deep sleep, cellular recovery, and natural HGH production. The ultimate safe alternative to synthetic HGH.",
+      slug: "/blog/sermorelin-peptide-benefits",
+      image: "/assets/sermorelin-peptide-featured.png",
+      tag: "Sleep & Recovery"
+    },
+    {
       title: "Berberine Oral Bioavailability: The Evidence Against Oral Delivery",
       description: "A deep dive into why berberine oral bioavailability is less than 1% and how transdermal patches solve the problem.",
       slug: "/blog/berberine-oral-bioavailability",
