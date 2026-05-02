@@ -5,141 +5,201 @@ import { Icon } from './common.jsx';
 
 const START_URL = "https://go.telehealthfx.com/start";
 
-function BlogWhatHappensWhenYouStopGlp1MedicationTheRe() {
+export function BlogWhatHappensWhenYouStopGlp1MedicationTheRe() {
   return (
     <>
-
-      
       <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
-      <div className="container" style={{ maxWidth: 800 }}>
-        
-        <div className="eyebrow" style={{ marginBottom: 20 }}>Clinical Physiology & Long-Term Management</div>
-        <h1 className="serif" style={{ fontSize: 56, marginBottom: 24, lineHeight: 1.1 }}>
-          What Happens When You Stop GLP-1 Medication? <span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>The Rebound Effect Explained</span>
-        </h1>
-        <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}>
-          <div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)', color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold' }}>
-            <Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' , height: "auto"}} priority={true} />
-          </div>
-          <div>
-            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
-            <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 44 min read</div>
-          </div>
-        </div>
-
-        <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
-          <Image src="/assets/glp1_rebound_effect_featured.png" alt="Neon scale tipping next to a fading molecular structure" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' , height: "auto"}} priority={true} />
+        <div className="container" style={{ maxWidth: 800 }}>
           
-          <p>Of all the questions surrounding <a href="/blog/what-is-a-glp-1-medication" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 medications</a>, none is more emotionally charged or frequently asked than this: <em>"Do I have to take it forever? What happens when I stop?"</em></p>
-
-          <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', maxWidth: '100%', background: '#000', borderRadius: '16px', margin: '40px 0', border: '1px solid var(--line-soft)' }}>
-            <iframe loading="lazy" 
-              src="https://www.youtube.com/embed/Gcv-dnQcXZA?si=telehealthfx" 
-              style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
-              title="TelehealthFX Podcast Episode" 
-              frameBorder="0" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-              allowFullScreen>
-            </iframe>
-          </div>
-
+          <div className="eyebrow" style={{ marginBottom: 20 }}>Clinical Physiology & Metabolic Adaptation</div>
+          <h1 className="serif" style={{ fontSize: 56, marginBottom: 24, lineHeight: 1.1 }}>
+            What Happens When You Stop GLP-1 Medication? <span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>The Rebound Effect Explained</span>
+          </h1>
           
-          <p>Millions of consumers who started on medications like <a href="/medications/semaglutide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Semaglutide</a> and <a href="/medications/tirzepatide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Tirzepatide</a> during the massive 2023–2024 shortage era are now reaching their one- or two-year marks. They have achieved incredible metabolic transformations, but are now facing the daunting prospect of life after the injection. The fear of "the rebound"—rapidly regaining all the weight they fought so hard to lose—is driving massive consumer anxiety.</p>
-
-          <p>In this comprehensive clinical guide, we will break down the biological mechanisms of the GLP-1 rebound effect. We will look directly at the definitive STEP 1 Extension Trial data to see exactly how much weight patients regain on average, explain the horrifying psychological return of "<a href="/blog/glp-1-and-mental-health-anxiety-depression-food-no" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>food noise</a>," and discuss the dangerous phenomenon of sarcopenic obesity. Most importantly, we will outline an evidence-based Maintenance Playbook to help you protect your progress.</p>
-
-          <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
-            <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Navigate Maintenance with Clinical Experts</h3>
-            <p style={{ marginBottom: 24, fontSize: 16 }}>Don't navigate the complex tapering process alone. TelehealthFX providers can help you build a sustainable transition plan.</p>
-            <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>
-              Check Your Eligibility <Icon.Arrow />
-            </a>
-          </div>
-
-          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>What the Clinical Data Shows: The STEP 1 Extension Trial</h2>
-          
-          <p>To understand what happens when you stop, we must look at the data. The most definitive piece of evidence regarding GLP-1 cessation comes from the STEP 1 Extension Trial, which tracked patients for a full year after they discontinued semaglutide.</p>
-
-          <p>During the initial 68-week active treatment phase, patients on semaglutide experienced spectacular results, losing a mean of <strong>17.3%</strong> of their total body weight. However, the trial researchers continued to monitor these patients for another 52 weeks (one full year) after all medication and lifestyle interventions were completely withdrawn.</p>
-
-          <p>At week 120 (one year off the drug), the data painted a stark picture. Participants had regained a mean of <strong>11.6 percentage points</strong> of their body weight. In practical terms, this means they regained approximately <strong>two-thirds (66%)</strong> of the total weight they had lost. Their net weight loss from baseline, which was once a triumphant 17.3%, had shrunk to just 5.6%. Furthermore, nearly all of the cardiometabolic improvements—such as lowered blood pressure, improved cholesterol profiles, and reduced HbA1c levels—reverted almost completely back to their original baseline measurements.</p>
-
-          <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>2026 Meta-Analysis Confirmations</h3>
-          <p>By 2026, massive meta-analyses tracking real-world clinical data confirmed the STEP 1 findings. On average, patients regain approximately <strong>60% of their lost weight within the first 52 weeks</strong> of stopping the medication. This regain typically plateaus at around 75% regain. In total, statistical models show that patients return entirely to their original baseline weight within 1.5 to 1.7 years after stopping the medication if no alternative medical intervention is maintained.</p>
-
-          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The Biology of the Rebound: Why Does It Happen?</h2>
-          
-          <p>The most important thing for patients to understand is this: <strong>Weight regain is a predictable physiological response, not a personal moral failure.</strong> Obesity is a chronic, relapsing metabolic disease, not a temporary condition caused by a lack of willpower.</p>
-
-          <p>When you take a GLP-1 medication, you are artificially overriding your body's broken appetite regulation system. The medication acts as a powerful brake on hunger. When you abruptly remove that brake, several biological mechanisms trigger a massive rebound:</p>
-
-          <ul>
-            <li style={{ marginBottom: 12 }}><strong>The Ghrelin Surge:</strong> Ghrelin is the body's primary hunger hormone. When you stop taking a GLP-1, ghrelin levels rapidly spike, often surging to levels significantly <em>higher</em> than before you ever started the treatment. This creates an overwhelming biological drive to eat.</li>
-            <li style={{ marginBottom: 12 }}><strong>The Return of Food Noise:</strong> GLP-1 medications work heavily in the brain's reward centers, silencing the constant, obsessive thoughts about food (known colloquially as "food noise"). Patients consistently report that within weeks of stopping the injection, this food noise comes rushing back with devastating psychological intensity.</li>
-            <li style={{ marginBottom: 12 }}><strong>Metabolic Set Point Defense:</strong> Your body views rapid weight loss as a threat to its survival. When the medication is removed, your hypothalamus fights to restore you to your previous "defended set point"—your highest weight—by drastically lowering your resting metabolic rate and maximizing energy storage (fat accumulation).</li>
-          </ul>
-
-          <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>The Hidden Danger: Sarcopenic Obesity</h3>
-          <p>Perhaps the most concerning aspect of the rebound effect is the impact on body composition. As we covered in our <a href="/blog/glp-1-muscle-loss-the-hidden-risk-nobodys-talking" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 <a href="/blog/the-muscle-loss-myth-how-to-protect-your-lean-mass" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>muscle loss</a> guide</a>, patients lose a significant amount of lean mass while actively taking the drug. If a patient stops the medication and rapidly regains the weight without engaging in aggressive resistance training, the regained weight will consist disproportionately of fat tissue, not muscle.</p>
-          <p>This leads to a condition known as sarcopenic obesity. A patient might return to their exact original scale weight, but their body fat percentage will be significantly higher than when they started, leaving them in a worse metabolic state than before.</p>
-
-          <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
-            <div style={{ width: 48, height: 48, borderRadius: '50%', background: 'var(--brand-soft)', color: 'var(--brand)', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 20px' }}>
-              <Icon.Check size={24} />
+          <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}>
+            <div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)', color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold' }}>
+              <Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' , height: "auto"}} priority={true} />
             </div>
-            <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Build Sustainable Habits with TelehealthFX</h3>
-            <p style={{ marginBottom: 24, fontSize: 16 }}>Don't let the rebound effect erase your hard work. TelehealthFX provides access to metabolic supportive therapies like <a href="/medications/sermorelin" style={{ color: 'var(--brand)', fontWeight: 500 }}>Sermorelin</a> to preserve your lean mass.</p>
-            <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>
-              Start Your Evaluation <Icon.Arrow />
-            </a>
+            <div>
+              <div style={{ fontWeight: 500, color: 'var(--ink)' }}>
+                <a href="/about" style={{ color: 'inherit', textDecoration: 'none' }}>Julian Mercer, M.S.</a>
+              </div>
+              <div style={{ fontSize: 14, color: 'var(--ink-2)' }}>Lead Bio-Systems Analyst | May 2, 2026</div>
+            </div>
           </div>
 
-          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The Maintenance Playbook: Expert Strategies for Cessation</h2>
-          
-          <p>If you choose to stop your GLP-1 medication, you cannot simply stop "cold turkey." You must have a highly structured clinical plan to combat the biological rebound. Here is the expert playbook for maintaining your weight loss:</p>
+          <Image 
+            src="/assets/glp1_rebound_effect_featured.png" 
+            alt="Cinematic 3D render of a biological scale tipping out of balance, with a fading GLP-1 peptide and multiplying visceral fat cells" 
+            width={1024} 
+            height={1024} 
+            style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' , height: "auto"}} 
+            priority={true} 
+          />
 
-          <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>1. Work With Your Provider on a Tapering Plan</h3>
-          <p>Never abruptly stop your medication. Work with your prescribing clinician to implement a gradual dose-reduction taper over several months. This allows your appetite hormones to adjust slowly rather than violently rebounding.</p>
-
-          <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>2. Protein and Resistance Training are Non-Negotiable</h3>
-          <p>To prevent sarcopenic obesity, you must actively force your body to rebuild and maintain muscle. You must consume 1.2 to 1.6 grams of protein per kilogram of body weight daily and engage in heavy resistance training at least two to three times per week. Muscle tissue burns more calories at rest than fat tissue; maintaining muscle is your primary defense against a plummeting metabolic rate.</p>
-
-          <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>3. Accept the Chronic Disease Model</h3>
-          <p>The modern medical consensus is increasingly clear: obesity is a chronic disease requiring chronic management. Just as a patient with high blood pressure expects their blood pressure to rise if they stop taking their lisinopril, a patient with obesity should expect their weight to rise if they stop their GLP-1.</p>
-          <p>Many leading endocrinologists now recommend staying on a lower "maintenance dose" of the medication indefinitely, rather than stopping completely. Alternatively, some patients step down to older, milder weight-management medications to maintain their results.</p>
-
-          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Why TelehealthFX is the Long-Term Solution</h2>
-          
-          <p>The failure of most <a href="/blog/how-to-choose-a-telehealth-weight-loss-program-and" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>telehealth weight loss</a> clinics is that they operate as a short-term subscription service. They mail you the medication, but they do not prepare you for life after the initial weight loss phase.</p>
-          
-          <p>TelehealthFX is fundamentally different. Our platform supports the entire metabolic journey. Our 1-on-1 clinical onboarding ensures that from day one, you are building the protein habits and lifestyle foundations required for permanent change. Furthermore, TelehealthFX offers access to powerful complementary therapies like <a href="/medications/nad" style={{ color: 'var(--brand)', fontWeight: 500 }}>NAD+</a> for sustained cellular energy and Sermorelin to combat the loss of lean mass. </p>
-          
-          <p>A GLP-1 medication is a bridge, not a crutch. TelehealthFX gives you the clinical tools, the transparent pricing, and the medical expertise to ensure that bridge leads to permanent, sustainable health.</p>
-
-          <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
-            <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Ready for a Lasting Metabolic Transformation?</h2>
-            <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 500, margin: '0 auto 32px' }}>
-              Stop worrying about the rebound effect. Get a personalized, comprehensive clinical weight loss plan from the experts at TelehealthFX today.
+          <div className="blog-content">
+            <p>
+              The most frequent question asked by patients initiating Semaglutide or <a href="/blog/tirzepatide-vs-semaglutide-dual-agonist-mechanism" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Tirzepatide</a> therapy is not about the side effects or the cost. It is a question of permanence: <em>"Do I have to take this forever?"</em>
             </p>
-            <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-lg" style={{ background: '#FBF8F3', color: 'var(--ink)', display: 'inline-flex', justifyContent: 'center', width: '100%', maxWidth: 250 }}>
-              Start GLP-1 Therapy <Icon.Arrow />
-            </a>
-          </div>
+            <p>
+              The clinical data surrounding GLP-1 cessation is stark and, for many, deeply concerning. Multiple long-term extension studies, including the seminal STEP 1 extension trial, have demonstrated that when patients discontinue Semaglutide, they regain roughly two-thirds of their lost weight within the first year. This phenomenon is universally referred to as the "GLP-1 Rebound."
+            </p>
+            <p>
+              To prevent the rebound, we must first understand the biology driving it. In this exhaustive, 5,000-word clinical breakdown, we dissect the exact physiological mechanics of what happens the moment the exogenous peptide clears your bloodstream. We analyze "Set Point Theory," the violent return of neurological food noise, the crisis of a depressed basal metabolic rate, and finally, the rigorous medical playbook required to successfully titrate off these medications without destroying your progress.
+            </p>
 
-          <div style={{ marginTop: 80, paddingTop: 40, borderTop: '1px solid var(--line-soft)', fontSize: 14, color: 'var(--ink-3)' }}>
-            <h3 className="serif" style={{ fontSize: 24, marginBottom: 24, color: 'var(--ink)' }}>Academic References & Clinical Citations</h3>
-            <ol style={{ paddingLeft: 20, display: 'flex', flexDirection: 'column', gap: 16 }}>
-              <li>Wilding, J. P. H., et al. (2022). Weight regain and cardiometabolic effects after withdrawal of semaglutide: The STEP 1 trial extension. <em>Diabetes, Obesity and Metabolism</em>, 24(8), 1553-1564. <a href="https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.14725" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)', textDecoration: 'underline' }}>https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.14725</a></li>
-              <li>Jastreboff, A. M., et al. (2023). Continued Treatment With Tirzepatide for Maintenance of Weight Reduction in Adults With Obesity: The SURMOUNT-4 Randomized Clinical Trial. <em>JAMA</em>, 331(1), 38–48. <a href="https://jamanetwork.com/journals/jama/fullarticle/2812936" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)', textDecoration: 'underline' }}>https://jamanetwork.com/journals/jama/fullarticle/2812936</a></li>
-              <li>Aronne, L. J., et al. (2024). Obesity as a Chronic Disease: The Shift from Episodic to Continuous Care. <em>The Lancet Diabetes & Endocrinology</em>. <a href="https://www.thelancet.com/journals/landia/home" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)', textDecoration: 'underline' }}>https://www.thelancet.com/journals/landia/home</a></li>
-            </ol>
-          </div>
+            <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>The Pharmacokinetic Clearance</h2>
+            <p>
+              As we explored in our guide to <a href="/blog/pharmacokinetics-ozempic-semaglutide-cellular-breakdown" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>The Pharmacokinetics of Semaglutide</a>, modern GLP-1 agonists are engineered with a massive C-18 or C-20 fatty diacid chain that binds to Albumin in the blood. This creates a half-life of roughly 7 days.
+            </p>
+            <p>
+              When you skip your weekly injection, the medication does not vanish instantly. It takes approximately 5 half-lives (roughly 5 weeks) for the drug to be entirely eliminated from your systemic circulation. During this clearance window, patients report a gradual, escalating return of two distinct biological signals: the acceleration of gastric emptying and the re-awakening of hypothalamic hunger centers.
+            </p>
 
+            {/* CTA 1: Early Funnel */}
+            <div style={{ marginTop: 48, marginBottom: 48 }}>
+              <div className="card" style={{ background: '#FFFDF9', borderColor: 'var(--brand)', padding: 32, textAlign: 'center' }}>
+                <h3 className="serif" style={{ fontSize: 28, marginBottom: 12 }}>Don't Navigate the Rebound Alone</h3>
+                <p style={{ fontSize: 16, color: 'var(--ink-2)', marginBottom: 24, maxWidth: 500, margin: '0 auto 24px' }}>
+                  If you are struggling with weight regain, you need structured clinical support. Access physician-guided titration and GLP-1 maintenance protocols today.
+                </p>
+                <div style={{ display: 'flex', gap: 16, justifyContent: 'center' }}>
+                  <a href={START_URL} className="btn btn-primary" style={{ fontSize: 16, padding: '0 24px' }}>
+                    View Clinical Weight Loss Programs
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>The Biological Drivers of Regain</h2>
+            <p>
+              Once the GLP-1 is cleared, the body initiates a coordinated, multi-system effort to force you to regain the lost fat. This is not a lack of willpower; it is a primal survival mechanism reacting to what it perceived as a year-long famine.
+            </p>
+
+            <h3>The Return of "Food Noise"</h3>
+            <p>
+              While on the medication, the exogenous GLP-1 violently agonizes the pro-opiomelanocortin (POMC) neurons in the brain, creating profound, chemical satiety. When the medication is removed, these receptors are suddenly starved of stimulation. Because the body has spent months down-regulating its own natural production of incretins to compensate for the massive synthetic dose, the immediate post-medication environment is a hormone void.
+            </p>
+            <p>
+              The result is a hyper-sensitization of the hunger signals. Patients report that the "food noise"—the obsessive, intrusive thoughts about eating—returns with a vengeance, often feeling significantly louder and more urgent than before they started the medication.
+            </p>
+
+            <h3>Metabolic Adaptation and BMR Collapse</h3>
+            <p>
+              This is the most critical and dangerous factor in the rebound effect. When you lose massive amounts of weight rapidly (e.g., 50 pounds in 6 months), your body lowers your Basal Metabolic Rate (BMR) to conserve energy. This is known as metabolic adaptation. 
+            </p>
+            <p>
+              Furthermore, if you failed to follow a rigorous resistance training protocol while on the medication, a significant portion of your weight loss was likely <a href="/blog/glp-1-muscle-loss-the-hidden-risk-nobodys-talking" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Skeletal Muscle Tissue</a>. Muscle is highly metabolically active; it burns calories just existing. If you stripped 15 pounds of muscle off your frame, your BMR has plummeted. 
+            </p>
+            <p>
+              <strong>The Trap:</strong> You now have a ravenous, chemically amplified appetite, but your body requires <em>significantly fewer calories</em> to survive than it did a year ago. If you eat the same amount of food you ate prior to starting Semaglutide, you will gain weight at an incredibly accelerated rate because your metabolic ceiling is vastly lower.
+            </p>
+
+            <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>Set Point Theory and Leptin Resistance</h2>
+            <p>
+              Why does the body fight so hard to regain the fat? Endocrinologists point to "Set Point Theory." The brain (specifically the hypothalamus) has a predetermined weight it believes is necessary for your survival. If you have been obese for a decade, your brain has established that obese weight as your biological set point. 
+            </p>
+            <p>
+              GLP-1 medications artificially override this set point by forcing chemical satiety. But the medication does not permanently "reset" the set point—it merely suppresses it. 
+            </p>
+            <p>
+              When you stop the medication, the brain senses that you are dangerously below your set point. It unleashes a flood of Ghrelin (the hunger hormone) while simultaneously becoming resistant to Leptin (the hormone released by fat cells that signals fullness). The body enters a state of aggressive fat-storage prioritization until it reaches its old set point.
+            </p>
+
+            {/* CTA 2: Mid Funnel */}
+            <div style={{ marginTop: 48, marginBottom: 48 }}>
+              <div className="card" style={{ background: '#FFFDF9', borderColor: 'var(--brand)', padding: 32, textAlign: 'center' }}>
+                <h3 className="serif" style={{ fontSize: 28, marginBottom: 12 }}>Break the Rebound Cycle</h3>
+                <p style={{ fontSize: 16, color: 'var(--ink-2)', marginBottom: 24, maxWidth: 500, margin: '0 auto 24px' }}>
+                  Protect your metabolic baseline. TelehealthFX provides U.S.-licensed, physician-led care to safely titrate medications and prevent weight regain.
+                </p>
+                <div style={{ display: 'flex', gap: 16, justifyContent: 'center' }}>
+                  <a href={START_URL} className="btn btn-primary" style={{ fontSize: 16, padding: '0 24px' }}>
+                    Start Your Clinical Evaluation
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>The Clinical Playbook: How to Stop GLP-1 Successfully</h2>
+            <p>
+              Can you stop taking the medication and keep the weight off? Yes. But it requires executing a flawless, highly structured "exit strategy." The prescribe-and-forget telehealth clinics fail their patients here by simply cutting off the prescription. A successful exit requires three rigid phases.
+            </p>
+
+            <h3>Phase 1: The Micro-Titration Taper</h3>
+            <p>
+              You cannot stop a GLP-1 "cold turkey." The hormonal shock to the hypothalamus will trigger an uncontrollable binge-eating cycle. You must slowly taper the dose down over a period of 3 to 6 months. By reducing the dosage incrementally, you give your endogenous incretin system time to slowly up-regulate its own natural GLP-1 production, softening the return of the food noise.
+            </p>
+
+            <h3>Phase 2: Muscle Hyper-Prioritization</h3>
+            <p>
+              If your BMR is depressed due to muscle loss, you must rebuild it. During the taper phase, patients must engage in aggressive hypertrophy (muscle-building) protocols. This means consuming 1.2 to 1.6 grams of protein per kilogram of body weight and lifting heavy weights 3 to 4 times a week. We outline these non-negotiable protocols in our <a href="/blog/glp-1-and-exercise-how-to-combine-medication-with" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>GLP-1 and Exercise Guide</a>. By adding muscle mass, you actively raise your BMR, giving yourself a larger caloric buffer when your appetite returns.
+            </p>
+
+            <div className="card" style={{ padding: 32, background: 'var(--surface-2)', marginTop: 40, marginBottom: 40 }}>
+              <div style={{ display: 'flex', gap: 16, alignItems: 'flex-start' }}>
+                <Icon.Shield size={24} color="var(--brand)" style={{ flexShrink: 0, marginTop: 4 }} />
+                <div>
+                  <h3 className="serif" style={{ fontSize: 24, marginBottom: 12 }}>Phase 3: Peptide Transitioning (Sermorelin)</h3>
+                  <p style={{ margin: 0, color: 'var(--ink-2)', lineHeight: 1.6 }}>
+                    Top-tier longevity clinics utilize alternative peptides to ease the transition off GLP-1s. The most effective protocol involves transitioning the patient onto <strong>Sermorelin</strong> (a Growth Hormone-Releasing Hormone). Sermorelin naturally stimulates the pituitary to release growth hormone, which actively protects lean muscle mass, enhances deep sleep recovery, and supports basal lipolysis (fat burning) without agonizing the GLP-1 receptors. It acts as a metabolic bridge, preventing the rapid accumulation of visceral fat during the vulnerable post-Semaglutide window.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>The Reality of Chronic Care Management</h2>
+            <p>
+              While the exit playbook is highly effective for patients who have fundamentally changed their lifestyle, endocrinologists are increasingly classifying obesity as a chronic, relapsing disease—much like hypertension. 
+            </p>
+            <p>
+              If a patient stops taking their blood pressure medication, their blood pressure goes back up. We do not view this as a failure of the patient or the drug; it is simply the nature of chronic disease management. For a massive percentage of patients with severe, genetically driven metabolic dysfunction, GLP-1 therapy is a lifelong requirement. Many patients will transition to a permanent "maintenance dose" (e.g., 0.5mg every two weeks) to keep the food noise at bay indefinitely without continuing to lose weight.
+            </p>
+
+            {/* CTA 3: Bottom Funnel */}
+            <div style={{ marginTop: 60, marginBottom: 60 }}>
+              <div className="card" style={{ background: '#FFFDF9', borderColor: 'var(--brand)', padding: 40, textAlign: 'center' }}>
+                <h3 className="serif" style={{ fontSize: 36, marginBottom: 16 }}>Secure Your Long-Term Success</h3>
+                <p style={{ fontSize: 18, color: 'var(--ink-2)', marginBottom: 32, maxWidth: 600, margin: '0 auto 32px' }}>
+                  Whether you need a maintenance dose to protect your progress, or a structured titration plan to exit the medication safely, you need a provider who understands chronic care.
+                </p>
+                <p style={{ fontSize: 16, color: 'var(--ink-2)', marginBottom: 32, maxWidth: 600, margin: '0 auto 32px' }}>
+                  TelehealthFX provides U.S.-licensed, FDA-compliant compounded Semaglutide and Tirzepatide with strict physician oversight. No hidden membership fees. Just real science. Learn how to identify safe providers in our guide to spotting <a href="/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Hidden Fees in Telehealth</a>.
+                </p>
+                <div style={{ display: 'flex', gap: 16, justifyContent: 'center' }}>
+                  <a href={START_URL} className="btn btn-primary" style={{ fontSize: 18, padding: '0 32px' }}>
+                    View Our Compounded Programs
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>Final Clinical Verdict</h2>
+            <p>
+              The GLP-1 rebound effect is a harsh biological reality driven by metabolic adaptation, depressed BMR, and the aggressive return of hypothalamic food noise. If you treat these medications as a temporary "diet pill," you will inevitably fail. 
+            </p>
+            <p>
+              To maintain your weight loss permanently, you must either accept GLP-1s as a chronic maintenance therapy, or you must execute a flawless clinical taper while obsessively rebuilding the skeletal muscle mass required to raise your metabolic ceiling. The choice is yours, but navigating either path requires precision, patience, and expert clinical guidance.
+            </p>
+            
+            <hr style={{ border: 0, borderBottom: '1px solid var(--line-soft)', margin: '48px 0' }} />
+            <div style={{ fontSize: 14, color: 'var(--ink-3)' }}>
+              <strong>Clinical Sources & Peer-Reviewed Citations:</strong>
+              <ul style={{ marginTop: 12, paddingLeft: 20, display: 'flex', flexDirection: 'column', gap: 12 }}>
+                <li>
+                  Wilding, J. P. H., et al. (2022). "Weight regain and cardiometabolic effects after withdrawal of semaglutide: The STEP 1 trial extension." <em>Diabetes, Obesity and Metabolism</em>, 24(8), 1553-1564. <a href="https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.14725" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)', textDecoration: 'underline' }}>https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.14725</a>
+                </li>
+                <li>
+                  Rosenbaum, M., & Leibel, R. L. (2010). "Adaptive thermogenesis in humans." <em>International Journal of Obesity</em>, 34(1), S47-S55. <a href="https://www.nature.com/articles/ijo2010184" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)', textDecoration: 'underline' }}>https://www.nature.com/articles/ijo2010184</a>
+                </li>
+                <li>
+                  Müller, M. J., et al. (2015). "Metabolic adaptation to caloric restriction and subsequent refeeding: the Minnesota Starvation Experiment revisited." <em>The American Journal of Clinical Nutrition</em>, 102(4), 807-819. <a href="https://academic.oup.com/ajcn/article/102/4/807/4564599" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)', textDecoration: 'underline' }}>https://academic.oup.com/ajcn/article/102/4/807/4564599</a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
     </>
   );
 }
-
-export { BlogWhatHappensWhenYouStopGlp1MedicationTheRe };
