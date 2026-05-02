@@ -2,7 +2,7 @@ import { BlogOzempicInsulinResistance } from "../../../components/blog-ozempic-i
 
 export const metadata = {
   title: "Ozempic for Insulin Resistance: Mechanism of Action | Telehealth FX",
-  description: "Learn how GLP-1 medications like Ozempic reverse metabolic dysfunction and improve insulin sensitivity before weight loss even begins.",
+  description: "Are you considering Ozempic for insulin resistance? Learn how GLP-1 medications like Semaglutide reverse metabolic dysfunction and improve insulin sensitivity.",
 };
 
 export default function Page() {
