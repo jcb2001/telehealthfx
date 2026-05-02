@@ -6,6 +6,27 @@ import { Icon } from './common.jsx';
 function BlogIndex() {
   const articles = [
     {
+      title: "Berberine Bioavailability: Transdermal Patch vs. Oral — The Complete Evidence Review",
+      description: "A complete evidence review comparing the pharmacokinetics and absorption rates of transdermal berberine patches versus standard oral pills.",
+      slug: "/blog/berberine-bioavailability",
+      image: "/assets/berberine-bioavailability-featured.png",
+      tag: "Pharmacokinetics"
+    },
+    {
+      title: "Berberine for PCOS Weight Loss: What the Clinical Data Actually Shows",
+      description: "Explore the clinical data on how berberine manages insulin resistance and supports weight loss in women with Polycystic Ovary Syndrome (PCOS).",
+      slug: "/blog/berberine-pcos-weight-loss",
+      image: "/assets/berberine-pcos-featured.png",
+      tag: "Clinical Data"
+    },
+    {
+      title: "Dihydroberberine vs. Berberine: Absorption, Dosing & Which One Actually Works",
+      description: "A complete comparison of dihydroberberine (DHB) and standard berberine, including absorption rates, dosing, side effects, and transdermal delivery.",
+      slug: "/blog/dihydroberberine-vs-berberine",
+      image: "/assets/dihydroberberine-featured.png",
+      tag: "Compound Analysis"
+    },
+    {
       title: "The Ultimate Guide to GLP-1 Medications: How They Work & What's New",
       description: "A comprehensive clinical breakdown of GLP-1 receptor agonists, how they function for weight loss, and the newest metabolic treatments available.",
       slug: "/blog/glp1-ultimate-guide",
