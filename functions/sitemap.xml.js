@@ -51,7 +51,9 @@ export async function onRequest(context) {
       '/blog/tirzepatide-vs-semaglutide-which-glp-1-is-right-fo',
       '/blog/glp-1-and-alcohol-what-you-need-to-know-2026-clini',
       '/blog/weight-loss-for-men-why-glp-1-isnt-just-for-women',
-      '/blog/ozempic-face-loose-skin-prevention-treatment-what'
+      '/blog/ozempic-face-loose-skin-prevention-treatment-what',
+      '/blog/nad-therapy-explained-anti-aging-energy-weight-los',
+      '/blog/is-compounded-semaglutide-safe-what-you-need-to-kn'
     ];
   }
   if (staticRoutes.length <= 1) { // Only contains root

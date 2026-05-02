@@ -90,18 +90,18 @@ function BlogIndex() {
       tag: "Men's Health"
     },
     {
-      title: "NAD+ Therapy Explained: Anti-Aging, Energy & Weight Loss (2026 Clinical Guide)",
-      description: "A comprehensive clinical breakdown exploring nad+ therapy explained: anti-aging, energy & weight loss (2026 clinical guide).",
+      title: "NAD+ Therapy Explained: Anti-Aging, Energy & Weight Loss",
+      description: "Discover how NAD+ powers your 'longevity genes' (sirtuins) and why it's the ultimate cellular complement to combat the fatigue of GLP-1 weight loss.",
       slug: "/blog/nad-therapy-explained-anti-aging-energy-weight-los",
-      image: "/assets/tirzepatide-semaglutide-featured.png",
-      tag: "Clinical Guide"
+      image: "/assets/nad_therapy_featured.png",
+      tag: "Cellular Metabolism"
     },
     {
-      title: "Is Compounded Semaglutide Safe? What You Need to Know (2026 Clinical Guide)",
-      description: "A comprehensive clinical breakdown exploring is compounded semaglutide safe? what you need to know (2026 clinical guide).",
+      title: "Is Compounded Semaglutide Safe? What You Need to Know",
+      description: "A clinical review of the 2025 FDA crackdown on compounding pharmacies. Understand the severe risks of unverified 'salt forms' and dosing errors.",
       slug: "/blog/is-compounded-semaglutide-safe-what-you-need-to-kn",
-      image: "/assets/nad-therapy-featured.png",
-      tag: "Clinical Guide"
+      image: "/assets/compounded_safety_featured.png",
+      tag: "Regulatory Safety"
     },
     {
       title: "GLP-1 and Mental Health: Anxiety, Depression & Food Noise (2026 Clinical Guide)",
