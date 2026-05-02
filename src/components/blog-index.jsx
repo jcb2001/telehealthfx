@@ -6,6 +6,13 @@ import { Icon } from './common.jsx';
 function BlogIndex() {
   const articles = [
     {
+      title: "FDA Proposes Banning Compounded Semaglutide: What It Means for Your GLP-1 Options",
+      description: "The FDA has proposed banning compounded semaglutide from 503B facilities. Learn what this means for your GLP-1 options and how to navigate the 2026 telehealth landscape safely.",
+      slug: "/blog/fda-compounding-ban",
+      image: "/assets/fda-compounding-ban-featured.png",
+      tag: "Regulatory News"
+    },
+    {
       title: "Tirzepatide vs Semaglutide Weight Loss: The Dual-Agonist Difference",
       description: "A clinical comparison of tirzepatide vs semaglutide weight loss. Discover why dual-agonist GLP-1/GIP therapies yield superior clinical results.",
       slug: "/blog/tirzepatide-vs-semaglutide-weight-loss",
