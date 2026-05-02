@@ -95,7 +95,7 @@ function BlogTransdermalVsOral() {
           <h3 style={{ fontSize: 22, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>Limitations:</h3>
           <ul style={{ marginBottom: 24, paddingLeft: 20 }}>
             <li style={{ marginBottom: 12 }}><strong>Skin barrier challenges</strong> — Only potent, low-molecular-weight compounds (&lt;500 Da) with appropriate lipophilicity work well without enhancers.</li>
-            <li style={{ marginBottom: 12 }}><strong>Formulation-dependent</strong> — Cheap generic patches deplete rapidly (often by 18 hours), <a href="/blog/72-hour-myth" style={{ color: 'var(--brand)', fontWeight: 500 }}>as detailed in our prior depletion analysis</a>.</li>
+            <li style={{ marginBottom: 12 }}><strong>Formulation-dependent</strong> — Cheap generic patches deplete rapidly (often by 18 hours), <a href="/blog/72-hour-berberine-patch" style={{ color: 'var(--brand)', fontWeight: 500 }}>as detailed in our prior depletion analysis</a>.</li>
             <li style={{ marginBottom: 12 }}><strong>Limited large-scale human data</strong> — Most Berberine transdermal evidence is preclinical or early clinical.</li>
           </ul>
 

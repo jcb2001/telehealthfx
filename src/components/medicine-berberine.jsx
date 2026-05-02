@@ -127,7 +127,7 @@ function BerberineMedicinePage() {
           </ul>
 
           <h2 className="serif" style={{ fontSize: 40, marginTop: 64, marginBottom: 24, color: 'var(--ink)' }}>The 72-Hour Patch Myth</h2>
-          <p>Many cheap berberine patches marketed online claim 72-hour sustained release. <a href="/blog/72-hour-myth" style={{ color: 'var(--brand)', fontWeight: 500 }}>Our lab analysis revealed</a> that most of these generic patches deplete their active compound by hour 18 — leaving users with 54+ hours of zero delivery per application cycle.</p>
+          <p>Many cheap berberine patches marketed online claim 72-hour sustained release. <a href="/blog/72-hour-berberine-patch" style={{ color: 'var(--brand)', fontWeight: 500 }}>Our lab analysis revealed</a> that most of these generic patches deplete their active compound by hour 18 — leaving users with 54+ hours of zero delivery per application cycle.</p>
           <p>The Telehealth FX 24-hour patch system is engineered for <strong>daily application</strong>, ensuring consistent berberine delivery aligned with your body's circadian metabolic demands. Fresh patch each morning. Zero dead zones. Continuous AMPK activation.</p>
 
           <h2 className="serif" style={{ fontSize: 40, marginTop: 64, marginBottom: 24, color: 'var(--ink)' }}>Frequently Asked Questions</h2>

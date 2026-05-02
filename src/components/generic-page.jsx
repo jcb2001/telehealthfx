@@ -6,7 +6,6 @@ import { HowItWorks, Medications } from './sections-1.jsx';
 import { Results, Science, Pricing } from './sections-2.jsx';
 import { BlogIndex } from './blog-index.jsx';
 import { BlogBerberine } from './blog-berberine.jsx';
-import { Blog72HourMyth } from './blog-72-hour-myth.jsx';
 import { BlogTransdermalVsOral } from './blog-transdermal-vs-oral.jsx';
 import { BlogBerberineVsOzempic } from './blog-berberine-vs-ozempic.jsx';
 

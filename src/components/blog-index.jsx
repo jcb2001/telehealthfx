@@ -41,8 +41,8 @@ function BlogIndex() {
       tag: "Regulatory Analysis"
     },
     {
-      title: "Transdermal Drug Delivery Systems: Formulation, Evaluation & the Future",
-      description: "An academic overview of TDDS formulation, permeation enhancers, and how patches deliver metabolic medicine.",
+      title: "Transdermal Drug Delivery Systems: The Science of Bypassing the Gut",
+      description: "A complete academic overview of transdermal drug delivery systems (TDDS), explaining formulation, permeation enhancers, and matrix patch technology.",
       slug: "/blog/transdermal-drug-delivery-systems",
       image: "/assets/transdermal-systems-featured.png",
       tag: "Scientific Authority"
@@ -69,10 +69,10 @@ function BlogIndex() {
       tag: "Pharmacokinetic Review"
     },
     {
-      title: "The 72-Hour Myth: We Lab-Tested Transdermal Depletion Rates at Hour 18",
-      description: "An investigation into transdermal delivery systems revealing the 72-hour myth of berberine patches and the pharmacokinetic reality of rapid depletion.",
-      slug: "/blog/72-hour-myth",
-      image: "/assets/myth-featured.png",
+      title: "The 72 Hour Berberine Patch Myth: Why You Are Being Scammed",
+      description: "Are you being scammed by the 72 hour berberine patch myth? Discover the clinical truth about transdermal matrix depletion and why patches only last 24 hours.",
+      slug: "/blog/72-hour-berberine-patch",
+      image: "/assets/72-hour-myth-featured.png",
       tag: "Clinical Analysis"
     },
     {
