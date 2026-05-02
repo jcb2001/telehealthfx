@@ -28,7 +28,7 @@ function BlogWhatIsAGlp1Medication() {
         </div>
 
         <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
-          <Image src="/assets/glp1-featured.png" alt="Understanding what a GLP-1 medication is and how it works" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)' , height: "auto"}} priority={true} />
+          <Image src="/assets/glp1-ultimate-guide.png" alt="Understanding what a GLP-1 medication is and how it works" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)' , height: "auto"}} priority={true} />
           
           <p>Every decade, a pharmaceutical breakthrough completely upends an entire field of medicine. In the 1940s, it was penicillin for infectious disease. In the 1990s, it was statins for cardiology. Today, we are living through the GLP-1 revolution. But if you are watching the headlines about Ozempic, Wegovy, and Mounjaro, you are likely asking: <strong>what is a glp-1 medication</strong> exactly, and how do they work?</p>
           

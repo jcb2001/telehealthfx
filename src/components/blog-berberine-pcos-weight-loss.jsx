@@ -29,7 +29,7 @@ function BlogBerberinePcosWeightLoss() {
         </div>
 
         <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
-          <Image src="/assets/pcos-featured.png" alt="Using berberine for PCOS weight loss and metabolic balance" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' , height: "auto"}} priority={true} />
+          <Image src="/assets/berberine-pcos-featured.png" alt="Using berberine for PCOS weight loss and metabolic balance" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' , height: "auto"}} priority={true} />
           
           <p>For women navigating Polycystic Ovary Syndrome (PCOS), the struggle with weight management is rarely a matter of discipline or diet. It is a complex endocrine cascade driven primarily by severe, underlying insulin resistance. As the search for effective, sustainable treatments has intensified, the use of <strong>berberine for pcos weight loss</strong> has emerged as one of the most promising and heavily researched interventions in modern metabolic medicine.</p>
           

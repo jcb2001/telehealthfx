@@ -28,7 +28,7 @@ function BlogWegovyFdaLabel() {
         </div>
 
         <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
-          <Image src="/assets/wegovy-featured.png" alt="Understanding the Wegovy FDA label and compounding access" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' , height: "auto"}} priority={true} />
+          <Image src="/assets/wegovy-label-featured.png" alt="Understanding the Wegovy FDA label and compounding access" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' , height: "auto"}} priority={true} />
           
           <p>On June 4, 2021, the landscape of obesity medicine changed forever. The U.S. Food and Drug Administration approved Semaglutide 2.4 mg under the brand name Wegovy for chronic weight management. However, understanding the exact <strong>wegovy fda label</strong> is critical, because those specific criteria dictate who gets insurance coverage, who gets denied, and why millions of Americans are turning to compounded alternatives.</p>
           
