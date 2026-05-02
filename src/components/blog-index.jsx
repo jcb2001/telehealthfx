@@ -6,6 +6,13 @@ import { Icon } from './common.jsx';
 function BlogIndex() {
   const articles = [
     {
+      title: "Dihydroberberine (DHB) vs. Standard Berberine: The 5x Bioavailability Myth Explained",
+      description: "A clinical breakdown of Dihydroberberine (DHB) vs standard Berberine. We analyze the pharmacokinetics and the 5x bioavailability marketing claims.",
+      slug: "/blog/dihydroberberine-vs-berberine",
+      image: "/assets/dhb-bioavailability-featured.png",
+      tag: "Botanical Supplements"
+    },
+    {
       title: "GLP-1 Muscle Loss: The Hidden Risk on Semaglutide & Tirzepatide",
       description: "A comprehensive clinical breakdown of GLP-1 induced sarcopenia, DXA scan nuance, and the ultimate prevention playbook to protect your lean mass.",
       slug: "/blog/glp-1-muscle-loss-the-hidden-risk-nobodys-talking",
