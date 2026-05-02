@@ -11,7 +11,7 @@ function BlogYourFirst90DaysOnGlp1WeekByWeekWhatToE() {
     <>
 
       <Head>
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{"@context":"https://schema.org","@type":"MedicalWebPage","name":"Your <a href="/blog/your-first-90-days-on-glp-1-week-by-week-what-to-e" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>first 90 days</a> on GLP-1: A Week-by-Week Clinical Guide","author":{"@type":"Person","name":"Julian Mercer, M.S.","url":"https://telehealthfx.com/about"},"publisher":{"@type":"Organization","name":"TelehealthFX","logo":{"@type":"ImageObject","url":"https://telehealthfx.com/assets/logo.png"}}}` }} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{"@context":"https://schema.org","@type":"MedicalWebPage","name":"Your first 90 days on GLP-1: A Week-by-Week Clinical Guide","author":{"@type":"Person","name":"Julian Mercer, M.S.","url":"https://telehealthfx.com/about"},"publisher":{"@type":"Organization","name":"TelehealthFX","logo":{"@type":"ImageObject","url":"https://telehealthfx.com/assets/logo.png"}}}` }} />
       </Head>
       <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
       <div className="container" style={{ maxWidth: 800 }}>
