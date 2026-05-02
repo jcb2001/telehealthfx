@@ -47,7 +47,9 @@ export async function onRequest(context) {
       '/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot',
       '/blog/glp-1-and-exercise-how-to-combine-medication-with',
       '/blog/weight-loss-for-women-over-40-how-glp-1-can-help-2',
-      '/blog/berberine-for-pcos-what-the-research-actually-says'
+      '/blog/berberine-for-pcos-what-the-research-actually-says',
+      '/blog/tirzepatide-vs-semaglutide-which-glp-1-is-right-fo',
+      '/blog/glp-1-and-alcohol-what-you-need-to-know-2026-clini'
     ];
   }
   if (staticRoutes.length <= 1) { // Only contains root

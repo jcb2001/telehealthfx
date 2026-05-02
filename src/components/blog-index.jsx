@@ -69,18 +69,18 @@ function BlogIndex() {
       tag: "Endocrine Health"
     },
     {
-      title: "Tirzepatide vs. Semaglutide: Which GLP-1 Is Right for You? (2026 Clinical Guide)",
-      description: "A comprehensive clinical breakdown exploring tirzepatide vs. semaglutide: which glp-1 is right for you? (2026 clinical guide).",
+      title: "Tirzepatide vs. Semaglutide: Which GLP-1 is Right for You?",
+      description: "A definitive clinical breakdown of the SURMOUNT-5 head-to-head trial. Understand the physiological difference between a single-agonist and dual-agonist medication.",
       slug: "/blog/tirzepatide-vs-semaglutide-which-glp-1-is-right-fo",
-      image: "/assets/wegovy-label-featured.png",
-      tag: "Clinical Guide"
+      image: "/assets/tirzepatide_vs_semaglutide_featured.png",
+      tag: "Clinical Pharmacology"
     },
     {
-      title: "GLP-1 and Alcohol: What You Need to Know (2026 Clinical Guide)",
-      description: "A comprehensive clinical breakdown exploring glp-1 and alcohol: what you need to know (2026 clinical guide).",
+      title: "GLP-1 and Alcohol: The Hidden Interactions You Need to Know",
+      description: "A comprehensive clinical guide explaining why GLP-1 therapy eliminates alcohol cravings, and the 4 critical physiological dangers of mixing the two.",
       slug: "/blog/glp-1-and-alcohol-what-you-need-to-know-2026-clini",
-      image: "/assets/glp1-ultimate-guide.png",
-      tag: "Clinical Guide"
+      image: "/assets/glp1_alcohol_featured.png",
+      tag: "Lifestyle Guidelines"
     },
     {
       title: "Weight Loss for Men: Why GLP-1 Isn't Just for Women (2026 Clinical Guide)",

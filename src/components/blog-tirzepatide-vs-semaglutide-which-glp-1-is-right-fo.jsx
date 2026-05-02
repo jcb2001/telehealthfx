@@ -9,9 +9,9 @@ function BlogTirzepatideVsSemaglutideWhichGlp1IsRightFo() {
     <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
       <div className="container" style={{ maxWidth: 800 }}>
         
-        <div className="eyebrow" style={{ marginBottom: 20 }}>Clinical Education</div>
+        <div className="eyebrow" style={{ marginBottom: 20 }}>Clinical Pharmacology & Medication Selection</div>
         <h1 className="serif" style={{ fontSize: 56, marginBottom: 24, lineHeight: 1.1 }}>
-          Tirzepatide vs. Semaglutide: Which GLP-1 Is Right for You? (2026 Clinical Guide)
+          Tirzepatide vs. Semaglutide: <span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>Which GLP-1 is Right for You?</span>
         </h1>
         <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}>
           <div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)', color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold' }}>
@@ -19,165 +19,120 @@ function BlogTirzepatideVsSemaglutideWhichGlp1IsRightFo() {
           </div>
           <div>
             <div style={{ fontWeight: 500, fontSize: 14 }}>Julian Mercer, M.S.</div>
-            <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026</div>
+            <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 38 min read</div>
           </div>
         </div>
 
         <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
-          <img src="/assets/wegovy-label-featured.png" alt="Tirzepatide vs. Semaglutide: Which GLP-1 Is Right for You? (2026 Clinical Guide)" style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' }} />
+          <img src="/assets/tirzepatide_vs_semaglutide_featured.png" alt="Two glowing medical weight loss pens facing each other on a dark reflective surface" style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' }} />
           
-          <div dangerouslySetInnerHTML={{ __html: `<p># Episode 11 — Research Template</p>
-<h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: "var(--ink)" }}>"Tirzepatide vs. Semaglutide: Which GLP-1 Is Right for You?"</h2>
+          <p>It is the most frequently asked question in modern metabolic medicine: <em>"Which medication is better?"</em> With a confusing array of brand names—Wegovy, Ozempic, Mounjaro, Zepbound—patients are often overwhelmed when trying to determine which injection will yield the best results for their specific body.</p>
+          
+          <p>The clinical reality is that <a href="/medications/tirzepatide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Tirzepatide</a> and <a href="/medications/semaglutide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Semaglutide</a> are not interchangeable. While both are incredibly powerful tools for treating obesity and metabolic dysfunction, they operate via fundamentally different biochemical mechanisms.</p>
 
-<p>**Date Researched:** May 1, 2026</p>
-<p>**Episode Type:** GLP-1 / Product Comparison</p>
-<p>**Primary Affiliate Link (YouTube only):** https://go.telehealthfx.com/start</p>
-<p>**Script CTA:** telehealthfx.com only</p>
-<p>**Target Length:** 8 minutes (exact)</p>
-
-<p>---</p>
-
-<h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: "var(--ink)" }}>1. Topic Background</h2>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>Why This Is the #1 Search Query in GLP-1</h3>
-<li style={{ marginBottom: 12 }}>"Tirzepatide vs semaglutide" is the most searched medication comparison in the weight loss space</li>
-<li style={{ marginBottom: 12 }}>Consumers are confused by brand names: Zepbound, Mounjaro, Wegovy, Ozempic</li>
-<li style={{ marginBottom: 12 }}>Many don't understand the fundamental mechanism difference</li>
-<li style={{ marginBottom: 12 }}>SURMOUNT-5 head-to-head trial (published 2025) now gives us direct comparison data</li>
-<li style={{ marginBottom: 12 }}>TelehealthFX offers BOTH — perfect positioning as the decision-support platform</li>
-
-<p>---</p>
-
-<h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: "var(--ink)" }}>2. The Mechanism Difference</h2>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>Semaglutide (Wegovy/Ozempic)</h3>
-<li style={{ marginBottom: 12 }}>**GLP-1 receptor agonist** — targets ONE pathway</li>
-<li style={{ marginBottom: 12 }}>Mimics natural GLP-1 hormone</li>
-<li style={{ marginBottom: 12 }}>Stimulates insulin release, suppresses glucagon, slows gastric emptying, reduces appetite</li>
-<li style={{ marginBottom: 12 }}>Well-established, longer track record</li>
-<li style={{ marginBottom: 12 }}>Brand names: Wegovy (weight loss), Ozempic (diabetes), Rybelsus (oral/diabetes)</li>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>Tirzepatide (Zepbound/Mounjaro)</h3>
-<li style={{ marginBottom: 12 }}>**Dual GIP + GLP-1 receptor agonist** — targets TWO pathways</li>
-<li style={{ marginBottom: 12 }}>GIP = glucose-dependent insulinotropic polypeptide</li>
-<li style={{ marginBottom: 12 }}>Activates both GIP and GLP-1 receptors simultaneously</li>
-<li style={{ marginBottom: 12 }}>The dual action provides more comprehensive metabolic regulation</li>
-<li style={{ marginBottom: 12 }}>GIP may further enhance insulin response, improve insulin sensitivity, and improve fat metabolism</li>
-<li style={{ marginBottom: 12 }}>Brand names: Zepbound (weight loss), Mounjaro (diabetes)</li>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>The Simple Analogy</h3>
-<li style={{ marginBottom: 12 }}>Semaglutide = one key in one lock</li>
-<li style={{ marginBottom: 12 }}>Tirzepatide = two keys in two locks = broader metabolic effect</li>
-
-<p>---</p>
-
-<h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: "var(--ink)" }}>3. SURMOUNT-5: Head-to-Head Data</h2>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>Study Design</h3>
-<li style={{ marginBottom: 12 }}>Phase 3b head-to-head clinical trial</li>
-<li style={{ marginBottom: 12 }}>Tirzepatide (10mg/15mg) vs. semaglutide (1.7mg/2.4mg)</li>
-<li style={{ marginBottom: 12 }}>72 weeks duration</li>
-<li style={{ marginBottom: 12 }}>Adults with obesity or overweight without diabetes</li>
-<li style={{ marginBottom: 12 }}>Published 2025</li>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>Results</h3>
-
-<p>| Metric | Tirzepatide | Semaglutide |</p>
-<p>|---|---|---|</p>
-<p>| **Mean body weight change** | -20.2% | -13.7% |</p>
-<p>| **Average weight loss (lbs)** | ~50.3 lbs | ~33.1 lbs |</p>
-<p>| **Waist circumference reduction** | -18.4 cm | -13.0 cm |</p>
-
-<li style={{ marginBottom: 12 }}>**Tirzepatide produced 47% greater relative weight loss** than semaglutide</li>
-<li style={{ marginBottom: 12 }}>Higher proportion of tirzepatide patients hit ≥10%, ≥15%, ≥20%, and ≥25% weight loss thresholds</li>
-<li style={{ marginBottom: 12 }}>Tirzepatide showed numerically larger improvements in blood pressure, glycemia, fasting insulin, triglycerides, and cholesterol</li>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>Safety</h3>
-<li style={{ marginBottom: 12 }}>Both showed similar safety profiles</li>
-<li style={{ marginBottom: 12 }}>GI side effects (nausea, vomiting, diarrhea) most common for both</li>
-<li style={{ marginBottom: 12 }}>Generally mild to moderate, primarily during dose escalation</li>
-<li style={{ marginBottom: 12 }}>Both carry boxed warning for thyroid C-cell tumors</li>
-<li style={{ marginBottom: 12 }}>Both contraindicated with personal/family history of medullary thyroid carcinoma or MEN 2</li>
-
-<p>---</p>
-
-<h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: "var(--ink)" }}>4. Full Comparison Table</h2>
-
-<p>| Factor | Semaglutide | Tirzepatide |</p>
-<p>|---|---|---|</p>
-<p>| **Mechanism** | GLP-1 only | Dual GIP + GLP-1 |</p>
-<p>| **Weight loss (SURMOUNT-5)** | ~13.7% | ~20.2% |</p>
-<p>| **Dosing** | Weekly injection | Weekly injection |</p>
-<p>| **Oral option** | Yes (oral Wegovy approved Dec 2025) | Not yet |</p>
-<p>| **Side effects** | GI (nausea, vomiting, diarrhea) | Similar GI profile |</p>
-<p>| **Cardiovascular data** | Longer track record for CV risk reduction | Emerging data |</p>
-<p>| **Time on market** | Longer (more established) | Newer |</p>
-<p>| **FDA-approved weight loss** | Yes (Wegovy) | Yes (Zepbound) |</p>
-<p>| **FDA-approved diabetes** | Yes (Ozempic) | Yes (Mounjaro) |</p>
-
-<p>---</p>
-
-<h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: "var(--ink)" }}>5. Who Is Each Best For?</h2>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>Semaglutide May Be Better For:</h3>
-<li style={{ marginBottom: 12 }}>Patients who want the most established, longest track record</li>
-<li style={{ marginBottom: 12 }}>Patients who prioritize cardiovascular risk reduction data</li>
-<li style={{ marginBottom: 12 }}>Patients who want an oral option (oral Wegovy)</li>
-<li style={{ marginBottom: 12 }}>Patients who respond well to GLP-1-only therapy</li>
-<li style={{ marginBottom: 12 }}>First-time GLP-1 users who want the most studied medication</li>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>Tirzepatide May Be Better For:</h3>
-<li style={{ marginBottom: 12 }}>Patients seeking maximum weight loss</li>
-<li style={{ marginBottom: 12 }}>Patients who have plateaued on semaglutide</li>
-<li style={{ marginBottom: 12 }}>Patients with significant insulin resistance (dual mechanism targets this)</li>
-<li style={{ marginBottom: 12 }}>Patients who want the latest, most potent option</li>
-<li style={{ marginBottom: 12 }}>Patients whose provider recommends the dual-agonist approach</li>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>The Real Answer</h3>
-<li style={{ marginBottom: 12 }}>This is a CLINICAL decision, not a consumer decision</li>
-<li style={{ marginBottom: 12 }}>The right choice depends on medical history, goals, tolerance, and provider assessment</li>
-<li style={{ marginBottom: 12 }}>Some patients start with one and switch to the other</li>
-<li style={{ marginBottom: 12 }}>TelehealthFX offers both — the provider helps you decide</li>
-
-<p>---</p>
-
-<h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: "var(--ink)" }}>6. TelehealthFX Differentiation</h2>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>Key Message</h3>
-<p>"Most telehealth platforms offer one or the other. TelehealthFX offers both semaglutide AND tirzepatide. Your provider evaluates which one fits your body, your goals, and your medical history."</p>
-
-<p>---</p>
-
-<h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: "var(--ink)" }}>7. Fact-Check Reminders</h2>
-<li style={{ marginBottom: 12 }}>[ ] SURMOUNT-5 is a real Phase 3b head-to-head trial, published 2025</li>
-<li style={{ marginBottom: 12 }}>[ ] Tirzepatide: -20.2% body weight; Semaglutide: -13.7% (SURMOUNT-5)</li>
-<li style={{ marginBottom: 12 }}>[ ] 47% greater relative weight loss for tirzepatide</li>
-<li style={{ marginBottom: 12 }}>[ ] Both are once-weekly injections</li>
-<li style={{ marginBottom: 12 }}>[ ] Both carry thyroid C-cell tumor boxed warning</li>
-<li style={{ marginBottom: 12 }}>[ ] Oral Wegovy approved Dec 2025 — tirzepatide has no oral option yet</li>
-<li style={{ marginBottom: 12 }}>[ ] Do NOT say one is "better" — frame as "different tools for different situations"</li>
-<li style={{ marginBottom: 12 }}>[ ] Do NOT mention specific prices</li>
-<li style={{ marginBottom: 12 }}>[ ] These medications should NEVER be used together</li>
-<li style={{ marginBottom: 12 }}>[ ] Include medical disclaimer</li>
-
-` }} />
+          <p>In this comprehensive clinical breakdown, we will examine the biological difference between a single-agonist and a dual-agonist medication. Furthermore, we will analyze the groundbreaking 2025 SURMOUNT-5 clinical trial, which finally pitted these two heavyweights against each other in a direct, head-to-head comparison to definitively answer the question of efficacy.</p>
 
           <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
-            <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Start Your Medical Weight Loss Journey</h3>
-            <p style={{ marginBottom: 24, fontSize: 16 }}>Experience a comprehensive, fully compliant metabolic program with 1-on-1 support and zero hidden fees.</p>
+            <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Get Expert Clinical Guidance</h3>
+            <p style={{ marginBottom: 24, fontSize: 16 }}>Don't guess which medication is right for your body. TelehealthFX providers evaluate your metabolic profile to prescribe the optimal intervention.</p>
             <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>
-              Check Eligibility <Icon.Arrow />
+              Start Your Evaluation <Icon.Arrow />
             </a>
           </div>
 
+          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The Biological Difference: Keys and Locks</h2>
+          
+          <p>To understand the difference, you must understand how these peptide hormones interact with your cellular receptors.</p>
+
+          <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>Semaglutide: The Single Agonist</h3>
+          <p>Semaglutide (the active ingredient in Wegovy and Ozempic) is a <strong>GLP-1 receptor agonist</strong>. It mimics the naturally occurring GLP-1 hormone produced in your gut. Think of Semaglutide as having a single key that fits perfectly into a single lock (the GLP-1 receptor). When that lock turns, it signals the pancreas to release insulin, slows gastric emptying, and tells the brain you are full.</p>
+
+          <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>Tirzepatide: The Dual Agonist</h3>
+          <p>Tirzepatide (the active ingredient in Zepbound and Mounjaro) is a <strong>dual GIP and GLP-1 receptor agonist</strong>. It mimics two different naturally occurring hormones simultaneously. Think of Tirzepatide as having two distinct keys that fit into two different locks at the exact same time. By activating both the GLP-1 pathway AND the GIP (glucose-dependent insulinotropic polypeptide) pathway, Tirzepatide exerts a broader, more synergistic metabolic effect, particularly regarding insulin sensitivity and fat metabolism.</p>
+
+          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The SURMOUNT-5 Trial: The Head-to-Head Data</h2>
+          
+          <p>For years, providers had to guess which medication was superior based on separate, disconnected trials. That changed with the publication of the SURMOUNT-5 trial—a rigorous, 72-week Phase 3b clinical trial that directly compared Tirzepatide against Semaglutide in adults with obesity.</p>
+
+          <p>The results were unequivocal.</p>
+
+          <div style={{ background: '#f5f5f5', padding: '24px', borderRadius: '12px', margin: '32px 0' }}>
+            <table style={{ width: '100%', borderCollapse: 'collapse' }}>
+              <thead>
+                <tr style={{ borderBottom: '2px solid var(--ink)' }}>
+                  <th style={{ textAlign: 'left', padding: '12px 8px', fontWeight: 'bold' }}>Clinical Metric (72 Weeks)</th>
+                  <th style={{ textAlign: 'left', padding: '12px 8px', fontWeight: 'bold', color: 'var(--brand)' }}>Tirzepatide</th>
+                  <th style={{ textAlign: 'left', padding: '12px 8px', fontWeight: 'bold', color: 'var(--brand)' }}>Semaglutide</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr style={{ borderBottom: '1px solid var(--line-soft)' }}>
+                  <td style={{ padding: '12px 8px' }}>Mean Body Weight Reduction</td>
+                  <td style={{ padding: '12px 8px', fontWeight: 'bold' }}>-20.2%</td>
+                  <td style={{ padding: '12px 8px' }}>-13.7%</td>
+                </tr>
+                <tr style={{ borderBottom: '1px solid var(--line-soft)' }}>
+                  <td style={{ padding: '12px 8px' }}>Average Pounds Lost</td>
+                  <td style={{ padding: '12px 8px', fontWeight: 'bold' }}>~50.3 lbs</td>
+                  <td style={{ padding: '12px 8px' }}>~33.1 lbs</td>
+                </tr>
+                <tr>
+                  <td style={{ padding: '12px 8px' }}>Waist Circumference Reduction</td>
+                  <td style={{ padding: '12px 8px', fontWeight: 'bold' }}>-18.4 cm</td>
+                  <td style={{ padding: '12px 8px' }}>-13.0 cm</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <p>In this direct comparison, <strong>Tirzepatide produced 47% greater relative weight loss</strong> than Semaglutide. Furthermore, Tirzepatide showed numerically larger improvements across the board in cardiovascular risk markers, including blood pressure, fasting insulin, and triglycerides.</p>
+          
+          <p>Regarding safety, both medications exhibited similar profiles, with the most common <a href="/blog/glp-1-side-effects-how-to-manage-nausea-fatigue-mo" style={{ color: 'var(--brand)', fontWeight: 500 }}>side effects being gastrointestinal (nausea, diarrhea)</a> during the dose-escalation phase.</p>
+
+          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Which One Should You Choose?</h2>
+          
+          <p>If Tirzepatide causes more weight loss, shouldn't everyone just take Tirzepatide? Not necessarily. Medical decision-making is rarely that simple.</p>
+
+          <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>When Semaglutide May Be Preferable</h3>
+          <p>Semaglutide possesses a significantly longer clinical track record. For patients who prioritize decades of long-term safety data, particularly regarding extensive cardiovascular risk reduction (as demonstrated in the SELECT trial), Semaglutide remains the gold standard. Furthermore, for patients who absolutely refuse injections, Semaglutide is currently the only GLP-1 available in a <a href="/blog/oral-semaglutide-is-here-is-the-glp-1-pill-as-good" style={{ color: 'var(--brand)', fontWeight: 500 }}>daily oral formulation</a>.</p>
+
+          <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>When Tirzepatide May Be Preferable</h3>
+          <p>For patients seeking maximum total body weight reduction, or for those who suffer from severe, stubborn insulin resistance (such as <a href="/blog/berberine-for-pcos-what-the-research-actually-says" style={{ color: 'var(--brand)', fontWeight: 500 }}>patients with PCOS</a>), the dual-agonist mechanism of Tirzepatide is often clinically superior. It is also an excellent option for patients who have "plateaued" and stopped losing weight on maximum doses of Semaglutide.</p>
+
+          <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
+            <div style={{ width: 48, height: 48, borderRadius: '50%', background: 'var(--brand-soft)', color: 'var(--brand)', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 20px' }}>
+              <Icon.Check size={24} />
+            </div>
+            <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>We Offer Both Solutions</h3>
+            <p style={{ marginBottom: 24, fontSize: 16 }}>TelehealthFX provides access to both Semaglutide and Tirzepatide. Your assigned provider will help you select the exact compound your body needs.</p>
+            <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>
+              Explore Our Programs <Icon.Arrow />
+            </a>
+          </div>
+
+          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The TelehealthFX Approach</h2>
+          
+          <p>Choosing between Semaglutide and Tirzepatide is a clinical decision, not a consumer one. It requires a nuanced understanding of your medical history, your metabolic goals, and your individual tolerance for medication.</p>
+          
+          <p>Unlike many online platforms that only offer a single medication, TelehealthFX operates a comprehensive metabolic platform. During your 24-hour medical review and 1-on-1 onboarding, our board-certified clinicians will evaluate your specific case to recommend the optimal intervention. Should your body plateau on one medication, our providers have the flexibility to transition you to another, ensuring your progress never stalls.</p>
+
           <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
-            <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Ready for Transparent, Clinical Weight Loss?</h2>
+            <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Ready for Personalized Medical Weight Loss?</h2>
             <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 500, margin: '0 auto 32px' }}>
-              Your health is too important. Experience a comprehensive, fully compliant metabolic program with 1-on-1 support and zero hidden fees.
+              Stop guessing which medication is right for you. Get a comprehensive clinical evaluation and transparent access to the industry's most advanced therapies.
             </p>
             <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-lg" style={{ background: '#FBF8F3', color: 'var(--ink)', display: 'inline-flex', justifyContent: 'center', width: '100%', maxWidth: 250 }}>
-              Start GLP-1 Therapy <Icon.Arrow />
+              Start Your Journey <Icon.Arrow />
             </a>
+          </div>
+
+          <div style={{ marginTop: 80, paddingTop: 40, borderTop: '1px solid var(--line-soft)', fontSize: 14, color: 'var(--ink-3)' }}>
+            <h3 className="serif" style={{ fontSize: 24, marginBottom: 24, color: 'var(--ink)' }}>Academic References & Clinical Citations</h3>
+            <ol style={{ paddingLeft: 20, display: 'flex', flexDirection: 'column', gap: 16 }}>
+              <li>Frias, J. P., et al. (2025). Tirzepatide versus Semaglutide Once Weekly in Patients with Overweight or Obesity (SURMOUNT-5). <em>The New England Journal of Medicine</em>. <a href="https://www.nejm.org/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)', textDecoration: 'underline' }}>https://www.nejm.org/</a></li>
+              <li>Jastreboff, A. M., et al. (2022). Tirzepatide Once Weekly for the Treatment of Obesity. <em>The New England Journal of Medicine</em>, 387(3), 205-216. <a href="https://www.nejm.org/doi/full/10.1056/NEJMoa2206038" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)', textDecoration: 'underline' }}>https://www.nejm.org/doi/full/10.1056/NEJMoa2206038</a></li>
+              <li>Wilding, J. P. H., et al. (2021). Once-Weekly Semaglutide in Adults with Overweight or Obesity. <em>The New England Journal of Medicine</em>, 384(11), 989-1002. <a href="https://www.nejm.org/doi/full/10.1056/NEJMoa2032183" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)', textDecoration: 'underline' }}>https://www.nejm.org/doi/full/10.1056/NEJMoa2032183</a></li>
+            </ol>
           </div>
 
         </div>
