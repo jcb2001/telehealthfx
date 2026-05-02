@@ -137,6 +137,24 @@ function Medications() {
         '1-on-1 welcome onboarding call',
       ],
     },
+    {
+      name: 'Berberine',
+      tag: 'Natural AMPK',
+      tagType: 'brand',
+      price: '30',
+      intro: 'Medical-grade 24-hour transdermal patches for sustained AMPK activation — zero stomach issues, bypass oral bioavailability problems.',
+      avg: 'Metabolic Support',
+      avgSub: 'Primary Benefit',
+      icon: 'patch',
+      ctaUrl: 'https://go.telehealthfx.com/berberine',
+      ctaLabel: 'Shop Berberine Patches',
+      features: [
+        '24-hour sustained transdermal delivery',
+        'Zero GI side effects',
+        'Supports insulin sensitivity & fat loss',
+        'No prescription required',
+      ],
+    },
   ];
   return (
     <section id="treatments" className="section" style={{ background: 'var(--bg-alt)' }}>
@@ -182,7 +200,7 @@ function MedCard({ med, selected, onSelect }) {
             {med.tag}
           </div>
         </div>
-        <Icon.Syringe size={22} />
+        {med.icon === 'patch' ? <Icon.Shield size={22} /> : <Icon.Syringe size={22} />}
       </div>
 
       <h3 className="serif" style={{ fontSize: 48, marginBottom: 16 }}>{med.name}</h3>
@@ -210,11 +228,13 @@ function MedCard({ med, selected, onSelect }) {
 
       <a
         className="btn btn-primary"
-        href="https://go.telehealthfx.com/start"
+        href={med.ctaUrl || 'https://go.telehealthfx.com/start'}
+        target="_blank"
+        rel="noopener noreferrer"
         style={{ width: '100%', justifyContent: 'center', display: 'inline-flex' }}
         onClick={(e) => e.stopPropagation()}
       >
-        See If You Qualify <Icon.Arrow />
+        {med.ctaLabel || 'See If You Qualify'} <Icon.Arrow />
       </a>
     </div>
   );
