@@ -55,7 +55,9 @@ export async function onRequest(context) {
       '/blog/nad-therapy-explained-anti-aging-energy-weight-los',
       '/blog/is-compounded-semaglutide-safe-what-you-need-to-kn',
       '/blog/glp-1-and-mental-health-anxiety-depression-food-no',
-      '/blog/sermorelin-growth-hormone-the-weight-loss-accelera'
+      '/blog/sermorelin-growth-hormone-the-weight-loss-accelera',
+      '/blog/glp-1-for-seniors-weight-loss-after-60-safely-2026',
+      '/blog/glp-1-plateau-when-weight-loss-stalls-what-to-do-2'
     ];
   }
   if (staticRoutes.length <= 1) { // Only contains root

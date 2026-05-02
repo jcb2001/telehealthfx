@@ -118,18 +118,18 @@ function BlogIndex() {
       tag: "Peptides"
     },
     {
-      title: "GLP-1 for Seniors: Weight Loss After 60 Safely (2026 Clinical Guide)",
-      description: "A comprehensive clinical breakdown exploring glp-1 for seniors: weight loss after 60 safely (2026 clinical guide).",
+      title: "GLP-1 for Seniors: Weight Loss After 60 Safely",
+      description: "Understand the hidden dangers of 'sarcopenic obesity' and the strict clinical framework required to protect your bone density during weight loss.",
       slug: "/blog/glp-1-for-seniors-weight-loss-after-60-safely-2026",
-      image: "/assets/glp1-ultimate-guide.png",
-      tag: "Clinical Guide"
+      image: "/assets/seniors_longevity_featured.png",
+      tag: "Geriatric Health"
     },
     {
-      title: "GLP-1 Plateau: When Weight Loss Stalls & What to Do (2026 Clinical Guide)",
-      description: "A comprehensive clinical breakdown exploring glp-1 plateau: when weight loss stalls & what to do (2026 clinical guide).",
+      title: "The GLP-1 Plateau: When Weight Loss Stalls & What to Do",
+      description: "Break through your weight loss stall with a rigid 7-strategy framework targeting metabolic adaptation and behavioral drift.",
       slug: "/blog/glp-1-plateau-when-weight-loss-stalls-what-to-do-2",
-      image: "/assets/ozempic-featured.png",
-      tag: "Clinical Guide"
+      image: "/assets/glp1_plateau_featured.png",
+      tag: "Metabolic Adaptation"
     },
     {
       title: "Ozempic Face & Loose Skin: Prevention and Treatment",

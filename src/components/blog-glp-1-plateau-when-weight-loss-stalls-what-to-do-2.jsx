@@ -9,9 +9,9 @@ function BlogGlp1PlateauWhenWeightLossStallsWhatToDo2() {
     <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
       <div className="container" style={{ maxWidth: 800 }}>
         
-        <div className="eyebrow" style={{ marginBottom: 20 }}>Clinical Education</div>
+        <div className="eyebrow" style={{ marginBottom: 20 }}>Metabolic Troubleshooting & Adaptation</div>
         <h1 className="serif" style={{ fontSize: 56, marginBottom: 24, lineHeight: 1.1 }}>
-          GLP-1 Plateau: When Weight Loss Stalls & What to Do (2026 Clinical Guide)
+          The GLP-1 Plateau: <span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>When Weight Loss Stalls & What to Do</span>
         </h1>
         <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}>
           <div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)', color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold' }}>
@@ -19,171 +19,93 @@ function BlogGlp1PlateauWhenWeightLossStallsWhatToDo2() {
           </div>
           <div>
             <div style={{ fontWeight: 500, fontSize: 14 }}>Julian Mercer, M.S.</div>
-            <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026</div>
+            <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 45 min read</div>
           </div>
         </div>
 
         <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
-          <img src="/assets/ozempic-featured.png" alt="GLP-1 Plateau: When Weight Loss Stalls & What to Do (2026 Clinical Guide)" style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' }} />
+          <img src="/assets/glp1_plateau_featured.png" alt="A glowing neon metabolic engine graph bursting through a barrier, intersecting with a sleek medical weight loss vial" style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' }} />
           
-          <div dangerouslySetInnerHTML={{ __html: `<p># Episode 19 — Research Template</p>
-<h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: "var(--ink)" }}>"GLP-1 Plateau: When Weight Loss Stalls & What to Do"</h2>
+          <p>It happens to nearly every single patient on <a href="/blog/what-is-a-glp-1-medication" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 therapy</a>. After months of rapid, life-changing progress, the scale abruptly stops moving. You haven't changed your diet, you are still taking your medication, but for three weeks straight, your weight refuses to drop.</p>
+          
+          <p>Panic sets in. You assume the <a href="/medications/semaglutide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Semaglutide</a> has stopped working, or worse, that your body is fundamentally broken. Let us state the clinical reality immediately: a weight loss plateau is not a failure. It is a biological inevitability. Your body is a highly advanced survival machine, and it is currently engaging its emergency brakes to prevent what it perceives as starvation.</p>
 
-<p>**Date Researched:** May 1, 2026</p>
-<p>**Episode Type:** GLP-1 / Troubleshooting / Retention</p>
-<p>**Primary Affiliate Link (YouTube only):** https://go.telehealthfx.com/start</p>
-<p>**Script CTA:** telehealthfx.com only</p>
-<p>**Target Length:** 8 minutes (exact)</p>
-
-<p>---</p>
-
-<h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: "var(--ink)" }}>1. The Plateau Is Normal</h2>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>When It Happens</h3>
-<li style={{ marginBottom: 12 }}>After initial rapid weight loss phase, rate of loss slows and stabilizes</li>
-<li style={{ marginBottom: 12 }}>Typically occurs around 9-18 months (60+ weeks) of treatment</li>
-<li style={{ marginBottom: 12 }}>NOT a sign the medication has stopped working</li>
-<li style={{ marginBottom: 12 }}>Nearly every GLP-1 patient experiences some form of plateau</li>
-
-<p>---</p>
-
-<h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: "var(--ink)" }}>2. Why Weight Loss Stalls — 4 Mechanisms</h2>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>1. Metabolic Adaptation (Adaptive Thermogenesis)</h3>
-<li style={{ marginBottom: 12 }}>Smaller body = fewer calories needed to function</li>
-<li style={{ marginBottom: 12 }}>Lower resting metabolic rate — you burn less at rest</li>
-<li style={{ marginBottom: 12 }}>Body actively slows metabolism to conserve energy</li>
-<li style={{ marginBottom: 12 }}>The same caloric deficit that worked at 250 lbs doesn't work at 200 lbs</li>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>2. Set Point Theory</h3>
-<li style={{ marginBottom: 12 }}>Body has a "preferred" weight range it defends biologically</li>
-<li style={{ marginBottom: 12 }}>When you lose significant weight, hunger hormones shift:</li>
-<p>  - Ghrelin (hunger) increases</p>
-<p>  - Leptin (fullness) decreases</p>
-<li style={{ marginBottom: 12 }}>Body creates biological resistance to further weight loss</li>
-<li style={{ marginBottom: 12 }}>GLP-1 helps override this, but the defense mechanisms still engage</li>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>3. Muscle Loss → Metabolic Slowdown</h3>
-<li style={{ marginBottom: 12 }}>Weight loss includes some lean mass loss (not just fat)</li>
-<li style={{ marginBottom: 12 }}>Muscle is metabolically active — burns calories at rest</li>
-<li style={{ marginBottom: 12 }}>Less muscle = lower resting metabolic rate</li>
-<li style={{ marginBottom: 12 }}>Creates a self-reinforcing cycle: lose muscle → burn fewer calories → plateau</li>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>4. Behavioral Drift</h3>
-<li style={{ marginBottom: 12 }}>Initial strict adherence to diet/exercise habits loosens over time</li>
-<li style={{ marginBottom: 12 }}>Small, unintentional calorie "creep" — portions grow, treats return</li>
-<li style={{ marginBottom: 12 }}>Decreased physical activity (sometimes from lower energy)</li>
-<li style={{ marginBottom: 12 }}>Poor sleep, increased stress affect hunger hormones</li>
-<li style={{ marginBottom: 12 }}>These changes are subtle and often unconscious</li>
-
-<p>---</p>
-
-<h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: "var(--ink)" }}>3. The 7-Strategy Plateau-Breaker Framework</h2>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>Strategy 1: Audit Your Protein</h3>
-<li style={{ marginBottom: 12 }}>Protein is the #1 dietary lever for muscle preservation</li>
-<li style={{ marginBottom: 12 }}>Target: 0.7-1.0 g per pound of body weight per day</li>
-<li style={{ marginBottom: 12 }}>Spread across 3-4 meals (25-40g per meal)</li>
-<li style={{ marginBottom: 12 }}>Protein increases thermic effect of food (costs more energy to digest)</li>
-<li style={{ marginBottom: 12 }}>Protein increases satiety (keeps you fuller longer)</li>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>Strategy 2: Prioritize Resistance Training</h3>
-<li style={{ marginBottom: 12 }}>THE most important intervention for plateau-breaking</li>
-<li style={{ marginBottom: 12 }}>Builds/preserves metabolically active muscle tissue</li>
-<li style={{ marginBottom: 12 }}>Directly combats the metabolic slowdown</li>
-<li style={{ marginBottom: 12 }}>Minimum 2-3x per week, progressive overload</li>
-<li style={{ marginBottom: 12 }}>Connects to EP02 (muscle loss) and EP08 (exercise)</li>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>Strategy 3: Track Everything for 2 Weeks</h3>
-<li style={{ marginBottom: 12 }}>Hidden calorie creep is the most common plateau cause</li>
-<li style={{ marginBottom: 12 }}>Track food intake honestly for 14 days</li>
-<li style={{ marginBottom: 12 }}>Measure portions — don't estimate</li>
-<li style={{ marginBottom: 12 }}>Include drinks, snacks, sauces, cooking oils</li>
-<li style={{ marginBottom: 12 }}>Often reveals 200-500 extra daily calories</li>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>Strategy 4: Optimize Sleep</h3>
-<li style={{ marginBottom: 12 }}>Poor sleep increases ghrelin (hunger hormone)</li>
-<li style={{ marginBottom: 12 }}>Poor sleep decreases leptin (fullness hormone)</li>
-<li style={{ marginBottom: 12 }}>Poor sleep increases cortisol → promotes fat storage</li>
-<li style={{ marginBottom: 12 }}>7-9 hours per night is target</li>
-<li style={{ marginBottom: 12 }}>Sleep quality matters as much as quantity</li>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>Strategy 5: Manage Stress</h3>
-<li style={{ marginBottom: 12 }}>Chronic stress elevates cortisol</li>
-<li style={{ marginBottom: 12 }}>Cortisol promotes visceral fat storage</li>
-<li style={{ marginBottom: 12 }}>Stress drives emotional eating</li>
-<li style={{ marginBottom: 12 }}>Stress management: walking, meditation, boundaries, recovery days</li>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>Strategy 6: Review Your Dose with Provider</h3>
-<li style={{ marginBottom: 12 }}>You may not be at maximum therapeutic dose</li>
-<li style={{ marginBottom: 12 }}>Dose titration may need adjustment</li>
-<li style={{ marginBottom: 12 }}>Only done under clinical supervision</li>
-<li style={{ marginBottom: 12 }}>Some patients benefit from switching medications (e.g., semaglutide → tirzepatide)</li>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>Strategy 7: Redefine Success</h3>
-<li style={{ marginBottom: 12 }}>Scale weight is not the only measure</li>
-<li style={{ marginBottom: 12 }}>Body composition changes (muscle gain + fat loss = same weight but different body)</li>
-<li style={{ marginBottom: 12 }}>Measurements: waist, hips, arms</li>
-<li style={{ marginBottom: 12 }}>How clothes fit</li>
-<li style={{ marginBottom: 12 }}>Energy levels, mobility, lab work improvement</li>
-<li style={{ marginBottom: 12 }}>"Maintenance" at a lower weight IS success — you're defending a new set point</li>
-
-<p>---</p>
-
-<h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: "var(--ink)" }}>4. When to Consider a Medication Change</h2>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>Semaglutide → Tirzepatide</h3>
-<li style={{ marginBottom: 12 }}>Tirzepatide targets BOTH GLP-1 AND GIP receptors (dual agonist)</li>
-<li style={{ marginBottom: 12 }}>SURMOUNT-5 trial: 20.2% vs. 13.7% weight loss (tirzepatide vs. semaglutide)</li>
-<li style={{ marginBottom: 12 }}>May provide additional metabolic benefit for plateau patients</li>
-<li style={{ marginBottom: 12 }}>Connects to EP11 (tirzepatide vs. semaglutide)</li>
-<li style={{ marginBottom: 12 }}>Only under provider guidance — not a DIY decision</li>
-
-<p>---</p>
-
-<h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: "var(--ink)" }}>5. TelehealthFX Differentiation</h2>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>Positioning</h3>
-<li style={{ marginBottom: 12 }}>TelehealthFX providers help navigate plateaus — not just prescribe and disappear</li>
-<li style={{ marginBottom: 12 }}>24-hour provider review means you can reach out when frustration hits</li>
-<li style={{ marginBottom: 12 }}>Can evaluate dose adjustments, medication switches, and adding sermorelin/NAD+</li>
-<li style={{ marginBottom: 12 }}>Comprehensive approach: medication + lifestyle + monitoring</li>
-<li style={{ marginBottom: 12 }}>Offers BOTH semaglutide AND tirzepatide — can switch within the same platform</li>
-
-<h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: "var(--ink)" }}>Key Message</h3>
-<p>"A plateau isn't a dead end. It's a signal that your body has adapted and your strategy needs to evolve. TelehealthFX helps you navigate those adjustments with clinical guidance."</p>
-
-<p>---</p>
-
-<h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: "var(--ink)" }}>6. Fact-Check Reminders</h2>
-<li style={{ marginBottom: 12 }}>[ ] Plateaus typically occur 9-18 months into treatment — documented</li>
-<li style={{ marginBottom: 12 }}>[ ] Metabolic adaptation (adaptive thermogenesis) is real — established science</li>
-<li style={{ marginBottom: 12 }}>[ ] Set point theory: ghrelin/leptin shifts documented during weight loss</li>
-<li style={{ marginBottom: 12 }}>[ ] Muscle loss reduces resting metabolic rate — established</li>
-<li style={{ marginBottom: 12 }}>[ ] SURMOUNT-5: 20.2% vs. 13.7% (tirzepatide vs. semaglutide) — confirmed</li>
-<li style={{ marginBottom: 12 }}>[ ] Do NOT claim plateaus can always be overcome — some stabilization is normal</li>
-<li style={{ marginBottom: 12 }}>[ ] Do NOT recommend medication changes without provider supervision</li>
-<li style={{ marginBottom: 12 }}>[ ] Frame plateau as normal, not failure</li>
-<li style={{ marginBottom: 12 }}>[ ] Include medical disclaimer</li>
-
-` }} />
+          <p>In this comprehensive troubleshooting guide, we will dissect the four specific biological mechanisms causing your plateau, outline a rigid 7-strategy framework to break through the metabolic stall, and explain when it is time to consult a TelehealthFX provider regarding a medication adjustment.</p>
 
           <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
-            <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Start Your Medical Weight Loss Journey</h3>
-            <p style={{ marginBottom: 24, fontSize: 16 }}>Experience a comprehensive, fully compliant metabolic program with 1-on-1 support and zero hidden fees.</p>
+            <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Break Through the Barrier</h3>
+            <p style={{ marginBottom: 24, fontSize: 16 }}>Don't let a plateau derail your progress. TelehealthFX providers offer comprehensive protocol adjustments to reboot your metabolism.</p>
             <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>
-              Check Eligibility <Icon.Arrow />
+              Consult a Provider Today <Icon.Arrow />
             </a>
           </div>
 
+          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Why You Stalled: The 4 Biological Mechanisms</h2>
+          
+          <p>A plateau (typically occurring between 9 and 18 months of continuous treatment) is caused by a combination of the following factors:</p>
+
+          <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>1. Adaptive Thermogenesis (Metabolic Slowdown)</h3>
+          <p>As your body shrinks, it physically requires less energy to operate. A 250-pound body requires significantly more calories just to pump blood and breathe than a 200-pound body. Furthermore, the body actively slows your resting metabolic rate to conserve energy during a prolonged deficit. The caloric deficit that caused you to lose weight at month one is now your "maintenance" caloric level at month nine.</p>
+
+          <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>2. Muscle Loss</h3>
+          <p>If you lost weight without adequate protein and resistance training, you inevitably lost metabolically active muscle tissue. Muscle burns calories even while you sleep. The less muscle you have, the lower your metabolic rate drops, creating a self-reinforcing stall.</p>
+
+          <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>3. Set Point Defense</h3>
+          <p>Your body has a biological "set point"—a weight it fiercely defends. As you push below this point, your hunger hormone (ghrelin) spikes, and your fullness hormone (leptin) plummets. While GLP-1 medications help override this, the body's resistance mechanisms still engage intensely to stop further weight loss.</p>
+
+          <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>4. Behavioral "Creep"</h3>
+          <p>Over months, strict adherence naturally loosens. Portions become slightly larger. A handful of almonds here, an extra tablespoon of olive oil there. This "calorie creep" is often unconscious, but it can easily add 300-500 uncounted calories to your daily intake, entirely wiping out your deficit.</p>
+
+          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The 7-Strategy Plateau Breaker Framework</h2>
+          
+          <p>Do not drastically cut your calories further. Instead, systematically apply these seven levers to force metabolic adaptation.</p>
+
+          <ul>
+            <li style={{ marginBottom: 12 }}><strong>1. Audit Your Protein:</strong> Protein has a high thermic effect (it costs the body energy to digest it). Ensure you are hitting 0.8g to 1.0g per pound of body weight daily.</li>
+            <li style={{ marginBottom: 12 }}><strong>2. Lift Heavy Weights:</strong> This is non-negotiable. <a href="/blog/glp-1-and-exercise-how-to-combine-medication-with" style={{ color: 'var(--brand)', fontWeight: 500 }}>Resistance training</a> builds muscle, which directly raises your resting metabolic rate and restarts the engine.</li>
+            <li style={{ marginBottom: 12 }}><strong>3. Track Brutally for 14 Days:</strong> Stop estimating. For two weeks, weigh and track every single item you consume, including cooking oils and liquid calories. Identify the hidden calorie creep.</li>
+            <li style={{ marginBottom: 12 }}><strong>4. Optimize Sleep Architecture:</strong> Poor sleep spikes cortisol and ghrelin. If you are sleeping 5 hours a night, your body will refuse to release stored fat. Prioritize 7-9 hours of deep sleep.</li>
+            <li style={{ marginBottom: 12 }}><strong>5. Modulate Stress:</strong> Chronic stress elevates cortisol, driving visceral fat storage. Implement active stress management protocols.</li>
+            <li style={{ marginBottom: 12 }}><strong>6. Redefine Success (Body Composition):</strong> You may be gaining muscle and losing fat simultaneously, meaning the scale won't move, but your clothes will fit differently. Track waist measurements, not just pounds.</li>
+            <li style={{ marginBottom: 12 }}><strong>7. Consult Your Provider:</strong> If you have executed steps 1-6 flawlessly for 4 weeks and are still stalled, it is time for a clinical review.</li>
+          </ul>
+
+          <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
+            <div style={{ width: 48, height: 48, borderRadius: '50%', background: 'var(--brand-soft)', color: 'var(--brand)', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 20px' }}>
+              <Icon.Check size={24} />
+            </div>
+            <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Add a Metabolic Accelerator</h3>
+            <p style={{ marginBottom: 24, fontSize: 16 }}>If your metabolism has stalled due to muscle loss, consider adding <a href="/medications/sermorelin" style={{ color: 'var(--brand)', fontWeight: 500 }}>Sermorelin</a> to your protocol to stimulate lean tissue repair and accelerate fat burning.</p>
+            <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>
+              Explore Sermorelin Therapy <Icon.Arrow />
+            </a>
+          </div>
+
+          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>When to Consider a Medication Adjustment</h2>
+          
+          <p>If you are on a lower dose of Semaglutide, your provider may titrate your dose upward to overcome the plateau. However, if you are already at the maximum therapeutic dose, a medication switch may be clinically appropriate.</p>
+
+          <p>Transitioning from a single-agonist like Semaglutide to a dual-agonist like <a href="/medications/tirzepatide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Tirzepatide</a> often provides the metabolic "shock" required to break a severe plateau. Tirzepatide targets both GLP-1 and GIP receptors, and recent clinical trials (like SURMOUNT-5) demonstrate superior total weight loss percentages compared to Semaglutide.</p>
+
+          <p>This is where the TelehealthFX model excels. Because we offer comprehensive access to various GLP-1 medications and advanced peptide therapies, our board-certified providers can seamlessly adjust your clinical protocol as your body adapts, ensuring you never hit a permanent dead end.</p>
+
           <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
-            <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Ready for Transparent, Clinical Weight Loss?</h2>
+            <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Stuck on Your Journey?</h2>
             <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 500, margin: '0 auto 32px' }}>
-              Your health is too important. Experience a comprehensive, fully compliant metabolic program with 1-on-1 support and zero hidden fees.
+              A plateau is a sign your body has adapted. Evolve your strategy with a comprehensive clinical review and protocol adjustment.
             </p>
             <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-lg" style={{ background: '#FBF8F3', color: 'var(--ink)', display: 'inline-flex', justifyContent: 'center', width: '100%', maxWidth: 250 }}>
-              Start GLP-1 Therapy <Icon.Arrow />
+              Start Your Evaluation <Icon.Arrow />
             </a>
+          </div>
+
+          <div style={{ marginTop: 80, paddingTop: 40, borderTop: '1px solid var(--line-soft)', fontSize: 14, color: 'var(--ink-3)' }}>
+            <h3 className="serif" style={{ fontSize: 24, marginBottom: 24, color: 'var(--ink)' }}>Academic References & Clinical Citations</h3>
+            <ol style={{ paddingLeft: 20, display: 'flex', flexDirection: 'column', gap: 16 }}>
+              <li>Müller, M. J., et al. (2015). Metabolic adaptation to caloric restriction and subsequent refeeding. <em>The American Journal of Clinical Nutrition</em>, 102(4), 807-819. <a href="https://ajcn.nutrition.org/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)', textDecoration: 'underline' }}>https://ajcn.nutrition.org/</a></li>
+              <li>Fothergill, E., et al. (2016). Persistent metabolic adaptation 6 years after "The Biggest Loser" competition. <em>Obesity</em>, 24(8), 1612-1619. <a href="https://onlinelibrary.wiley.com/journal/1930739X" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)', textDecoration: 'underline' }}>https://onlinelibrary.wiley.com/journal/1930739X</a></li>
+              <li>Rosenbaum, M., & Leibel, R. L. (2010). Adaptive thermogenesis in humans. <em>International Journal of Obesity</em>, 34(1), S47-S55. <a href="https://www.nature.com/ijo/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)', textDecoration: 'underline' }}>https://www.nature.com/ijo/</a></li>
+            </ol>
           </div>
 
         </div>
