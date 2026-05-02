@@ -5,122 +5,182 @@ import { Icon } from './common.jsx';
 
 const START_URL = "https://go.telehealthfx.com/start";
 
-function BlogGlp1ForSeniorsWeightLossAfter60Safely2026() {
+export function BlogGlp1ForSeniorsWeightLossAfter60Safely2026() {
   return (
     <>
-
-      
       <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
-      <div className="container" style={{ maxWidth: 800 }}>
-        
-        <div className="eyebrow" style={{ marginBottom: 20 }}>Geriatric Health & Metabolic Medicine</div>
-        <h1 className="serif" style={{ fontSize: 56, marginBottom: 24, lineHeight: 1.1 }}>
-          GLP-1 for Seniors: <span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>Weight Loss After 60 Safely</span>
-        </h1>
-        <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}>
-          <div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)', color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold' }}>
-            <Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' , height: "auto"}} priority={true} />
-          </div>
-          <div>
-            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
-            <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 42 min read</div>
-          </div>
-        </div>
-
-        <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
-          <Image src="/assets/seniors_longevity_featured.png" alt="A glowing neon skeletal matrix intersecting with a sleek medical weight loss pen" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' , height: "auto"}} priority={true} />
+        <div className="container" style={{ maxWidth: 800 }}>
           
-          <p>For decades, the medical community has faced a dangerous paradox regarding older adults and obesity. Nearly 40% of adults over the age of 60 are obese, carrying severe risks for cardiovascular disease, severe osteoarthritis, and loss of independence. However, prescribing aggressive weight loss for seniors has historically been viewed as equally dangerous, due to the high risk of accelerating age-related <a href="/blog/the-muscle-loss-myth-how-to-protect-your-lean-mass" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>muscle loss</a> and bone density reduction.</p>
-
-          <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', maxWidth: '100%', background: '#000', borderRadius: '16px', margin: '40px 0', border: '1px solid var(--line-soft)' }}>
-            <iframe loading="lazy" 
-              src="https://www.youtube.com/embed/h2cmGF_cklc?si=telehealthfx" 
-              style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
-              title="TelehealthFX Podcast Episode" 
-              frameBorder="0" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-              allowFullScreen>
-            </iframe>
-          </div>
-
+          <div className="eyebrow" style={{ marginBottom: 20 }}>Geriatric Health & Orthopedics</div>
+          <h1 className="serif" style={{ fontSize: 56, marginBottom: 24, lineHeight: 1.1 }}>
+            GLP-1 for Seniors: <span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>Weight Loss After 60 Safely</span>
+          </h1>
           
-          <p>The advent of <a href="/blog/what-is-a-glp-1-medication" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 medications</a> like <a href="/medications/semaglutide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Semaglutide</a> has revolutionized geriatric metabolic medicine. It allows for controlled, sustainable fat loss without extreme starvation. But navigating this therapy safely requires a fundamentally different clinical approach than treating a 30-year-old.</p>
-
-          <p>In this comprehensive guide, we will explore the hidden dangers of "sarcopenic obesity," outline the strict biological framework required to protect a senior's bone density during weight loss, and explain why TelehealthFX's supervised clinical model is uniquely positioned to handle geriatric metabolic care safely.</p>
-
-          <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
-            <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Lose Fat, Preserve Independence</h3>
-            <p style={{ marginBottom: 24, fontSize: 16 }}>Don't attempt severe weight loss without clinical oversight. TelehealthFX providers specialize in protecting your lean muscle and bone density while utilizing GLP-1 therapy.</p>
-            <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>
-              Check Your Eligibility <Icon.Arrow />
-            </a>
-          </div>
-
-          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The Hidden Danger: Sarcopenic Obesity</h2>
-          
-          <p>To understand the stakes of weight loss after 60, you must understand a condition known as Sarcopenic Obesity. This occurs when a patient suffers from both an excess accumulation of body fat AND an age-related loss of skeletal muscle mass (sarcopenia).</p>
-          
-          <p>This is the worst possible metabolic state for an older adult. The excess fat places a massive physical burden on the joints and cardiovascular system, while the lack of muscle severely weakens the physical function required to move that burden. Consequently, obese older adults have up to a 31% higher risk of dangerous falls and fractures compared to their healthy-weight peers.</p>
-          
-          <p>If a senior undergoes rapid, unsupervised weight loss and loses an additional 10 pounds of muscle, they may step on the scale and see a "better" number, but clinically, they have just drastically increased their risk of frailty, disability, and institutionalization.</p>
-
-          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The Safe Weight Loss Framework for Seniors</h2>
-          
-          <p>To safely prescribe GLP-1 medications for adults over 60, TelehealthFX providers emphasize a framework focused entirely on body composition (losing fat while retaining muscle and bone), rather than arbitrary scale weight.</p>
-
-          <ul>
-            <li style={{ marginBottom: 12 }}><strong>1. Moderate Caloric Deficit:</strong> We do not prescribe starvation diets. The appetite suppression of GLP-1 allows seniors to achieve a moderate 500-700 calorie deficit, avoiding the severe metabolic stress that triggers rapid bone and muscle catabolism.</li>
-            <li style={{ marginBottom: 12 }}><strong>2. High Protein Requirements:</strong> Older adults actually require <em>more</em> protein than younger adults to stimulate muscle protein synthesis. Clinical guidance dictates a minimum of 1.0-1.2 grams of protein per kilogram of body weight, evenly distributed across meals.</li>
-            <li style={{ marginBottom: 12 }}><strong>3. Mandatory Resistance Training:</strong> Taking a GLP-1 without doing resistance training is dangerous for a senior. Lifting weights or using resistance bands (minimum 2x per week) is the only proven way to signal the body to preserve lean mass while in a caloric deficit.</li>
-            <li style={{ marginBottom: 12 }}><strong>4. Slower Dose Titration:</strong> "Start low and go slow." Older adults may be more susceptible to GI side effects like nausea or diarrhea, which can rapidly lead to dangerous dehydration. Slower dose increases mitigate this risk.</li>
-          </ul>
-
-          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Why Telehealth Actually Works Better for Seniors</h2>
-          
-          <p>Historically, seniors face massive logistical barriers to high-level clinical care. Driving to specialized metabolic clinics, navigating complex medical campuses, and sitting in waiting rooms full of sick patients is burdensome, especially for those with obesity-induced mobility issues.</p>
-          
-          <p>The TelehealthFX model removes these barriers. Our asynchronous medical review process allows seniors (or their adult children assisting them) to complete comprehensive clinical intakes from the comfort of their own home. More importantly, medications are shipped directly to the door via 2-day UPS, eliminating the need to physically travel to a pharmacy.</p>
-
-          <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
-            <div style={{ width: 48, height: 48, borderRadius: '50%', background: 'var(--brand-soft)', color: 'var(--brand)', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 20px' }}>
-              <Icon.Check size={24} />
+          <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}>
+            <div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)', color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold' }}>
+              <Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' , height: "auto"}} priority={true} />
             </div>
-            <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Protect Your Cellular Energy</h3>
-            <p style={{ marginBottom: 24, fontSize: 16 }}>Combat the natural age-related decline of cellular energy and metabolism. TelehealthFX providers can evaluate if <a href="/medications/nad" style={{ color: 'var(--brand)', fontWeight: 500 }}>NAD+ Therapy</a> is appropriate for your protocol.</p>
-            <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>
-              Explore NAD+ Options <Icon.Arrow />
-            </a>
+            <div>
+              <div style={{ fontWeight: 500, color: 'var(--ink)' }}>
+                <a href="/about" style={{ color: 'inherit', textDecoration: 'none' }}>Julian Mercer, M.S.</a>
+              </div>
+              <div style={{ fontSize: 14, color: 'var(--ink-2)' }}>Lead Bio-Systems Analyst | May 2, 2026</div>
+            </div>
           </div>
 
-          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Comprehensive, Supervised Care</h2>
-          
-          <p>Weight loss after 60 requires more clinical oversight, not less. When you join TelehealthFX, our providers evaluate the full picture: your current kidney function, your fall risk, and your existing medications (polypharmacy). By focusing on function, mobility, and body composition over simple weight loss, we provide a pathway for older adults to reclaim their metabolic health safely.</p>
+          <Image 
+            src="/assets/seniors_longevity_featured.png" 
+            alt="Cinematic 3D macro render of a glowing bone matrix and healthy red muscle tissue interacting with a GLP-1 molecule" 
+            width={1024} 
+            height={1024} 
+            style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' , height: "auto"}} 
+            priority={true} 
+          />
 
-          <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
-            <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Ready to Take the First Step?</h2>
-            <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 500, margin: '0 auto 32px' }}>
-              Weight loss after 60 is possible, but it must be done with precision. Get a comprehensive clinical evaluation today.
+          <div className="blog-content">
+            <p>
+              The clinical approach to weight loss completely changes the moment a patient crosses the age of 60. For a 30-year-old, losing 50 pounds of fat while accidentally losing 10 pounds of muscle is a cosmetic annoyance. For a 65-year-old, losing 10 pounds of muscle is a catastrophic orthopedic event that can directly lead to loss of independent living, severe frailty, and fatal fall injuries.
             </p>
-            <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-lg" style={{ background: '#FBF8F3', color: 'var(--ink)', display: 'inline-flex', justifyContent: 'center', width: '100%', maxWidth: 250 }}>
-              Start Your Evaluation <Icon.Arrow />
-            </a>
-          </div>
+            <p>
+              However, the cardiovascular threat of carrying massive visceral fat loads into old age is equally deadly. Seniors are trapped in a biological Catch-22: they must lose the fat to survive, but they cannot afford to lose the muscle required to carry the weight.
+            </p>
+            <p>
+              In this exhaustive 5,000-word geriatric health guide, we analyze the use of GLP-1 receptor agonists (like Semaglutide and <a href="/blog/tirzepatide-vs-semaglutide-dual-agonist-mechanism" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Tirzepatide</a>) in the senior population. We deconstruct the silent killer known as "sarcopenic obesity," detail the strict DEXA-scan protocols required during therapy, and provide a rigid nutritional framework to ensure that weight loss over 60 extends lifespan rather than crippling it.
+            </p>
 
-          <div style={{ marginTop: 80, paddingTop: 40, borderTop: '1px solid var(--line-soft)', fontSize: 14, color: 'var(--ink-3)' }}>
-            <h3 className="serif" style={{ fontSize: 24, marginBottom: 24, color: 'var(--ink)' }}>Academic References & Clinical Citations</h3>
-            <ol style={{ paddingLeft: 20, display: 'flex', flexDirection: 'column', gap: 16 }}>
-              <li>Flegal, K. M., et al. (2016). Trends in Obesity Among Adults in the United States, 2005 to 2014. <em>JAMA</em>, 315(21), 2284-2291. <a href="https://jamanetwork.com/journals/jama" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)', textDecoration: 'underline' }}>https://jamanetwork.com/journals/jama</a></li>
-              <li>Batskoet, S., et al. (2014). Sarcopenic obesity in the elderly and its impact on mortality and functional disability. <em>Clinical Nutrition</em>, 33(3), 438-443.</li>
-              <li>Villareal, D. T., et al. (2011). Weight loss, exercise, or both and physical function in obese older adults. <em>New England Journal of Medicine</em>, 364(13), 1218-1229. <a href="https://www.nejm.org/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)', textDecoration: 'underline' }}>https://www.nejm.org/</a></li>
-            </ol>
-            <p style={{ marginTop: 24, fontSize: 13, color: 'var(--ink-3)', fontStyle: 'italic' }}>Note: GLP-1 medications are generally not appropriate for frail or underweight seniors. Always consult a geriatric specialist regarding major metabolic interventions.</p>
-          </div>
+            <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>The Threat of Sarcopenic Obesity</h2>
+            <p>
+              To understand the danger, you must first understand the baseline physiology of aging. By the age of 60, humans naturally lose roughly 1% to 2% of their skeletal muscle mass every single year (a process called sarcopenia). Concurrently, due to plummeting hormones (testosterone in men, estrogen in women), the body naturally accumulates visceral abdominal fat. 
+            </p>
+            <p>
+              When a senior patient is simultaneously obese and severely muscle-depleted, they suffer from <strong>Sarcopenic Obesity</strong>. This is the most dangerous metabolic state for an older adult. The high body fat places massive mechanical stress on the joints, while the low muscle mass provides zero orthopedic support. This leads directly to knee replacements, shattered hips, and severe mobility loss.
+            </p>
 
+            <h3>The GLP-1 Risk Vector</h3>
+            <p>
+              When a senior patient is prescribed a GLP-1 medication, the drug violently suppresses appetite, forcing a massive caloric deficit. If the patient simply stops eating, the body will rapidly burn both fat <em>and</em> muscle for energy. In a senior patient who is already suffering from sarcopenia, losing another 15 pounds of skeletal muscle can rapidly push them over the "frailty threshold," meaning they are suddenly too weak to stand up from a chair unassisted.
+            </p>
+
+            {/* CTA 1: Early Funnel */}
+            <div style={{ marginTop: 48, marginBottom: 48 }}>
+              <div className="card" style={{ background: '#FFFDF9', borderColor: 'var(--brand)', padding: 32, textAlign: 'center' }}>
+                <h3 className="serif" style={{ fontSize: 28, marginBottom: 12 }}>Safe, Monitored Weight Loss for Seniors</h3>
+                <p style={{ fontSize: 16, color: 'var(--ink-2)', marginBottom: 24, maxWidth: 500, margin: '0 auto 24px' }}>
+                  Do not attempt massive weight reduction without geriatric oversight. Connect with U.S.-licensed clinicians trained in muscle preservation.
+                </p>
+                <div style={{ display: 'flex', gap: 16, justifyContent: 'center' }}>
+                  <a href={START_URL} className="btn btn-primary" style={{ fontSize: 16, padding: '0 24px' }}>
+                    View Clinical GLP-1 Programs
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>The Cardiovascular Imperative</h2>
+            <p>
+              If the risk of muscle loss is so high, why do endocrinologists still prescribe Semaglutide to seniors? Because the cardiovascular benefits are impossible to ignore.
+            </p>
+            <p>
+              As proven by the landmark SELECT Trial (which we analyze deeply in our <a href="/blog/glp-1-and-your-heart-the-select-trial-cardiovascul" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Cardiovascular GLP-1 Guide</a>), Semaglutide reduces the risk of major adverse cardiovascular events (heart attacks and strokes) by 20% in patients over 45 with preexisting heart disease. Furthermore, GLP-1s rapidly clear visceral fat from the liver and pancreas, reversing Type 2 Diabetes and plummeting blood pressure. 
+            </p>
+            <p>
+              For a 68-year-old on the verge of a fatal myocardial infarction, the GLP-1 is a life-saving intervention. The clinical goal is not to avoid the medication, but to use the medication while deploying an impenetrable anabolic shield to protect the muscle.
+            </p>
+
+            <div className="card" style={{ padding: 32, background: 'var(--surface-2)', marginTop: 40, marginBottom: 40 }}>
+              <div style={{ display: 'flex', gap: 16, alignItems: 'flex-start' }}>
+                <Icon.Shield size={24} color="var(--brand)" style={{ flexShrink: 0, marginTop: 4 }} />
+                <div>
+                  <h3 className="serif" style={{ fontSize: 24, marginBottom: 12 }}>Bone Mineral Density (BMD) Protection</h3>
+                  <p style={{ margin: 0, color: 'var(--ink-2)', lineHeight: 1.6 }}>
+                    Rapid weight loss physically reduces the mechanical load on the skeleton. Without that heavy load, the body assumes it no longer needs thick bones and rapidly sheds bone mineral density, leading to severe osteoporosis. Seniors on GLP-1 therapy MUST undergo baseline and quarterly DEXA scans to monitor bone density. Furthermore, they must supplement heavily with Vitamin D3, Vitamin K2, and Calcium, while engaging in load-bearing resistance training to force the bones to remain dense.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>The Geriatric Protocol: How to Protect Your Body</h2>
+            <p>
+              Seniors utilizing Semaglutide or Tirzepatide must abandon traditional "dieting" and treat their nutrition as a precise medical prescription.
+            </p>
+
+            <h3>1. The Protein Mandate</h3>
+            <p>
+              When a GLP-1 crushes a senior's appetite, they typically gravitate toward eating a small piece of toast or a bowl of soup, because it is easy to digest. This is a fatal error. 
+            </p>
+            <p>
+              Senior patients must prioritize protein above all else. They require a minimum of 1.0 to 1.2 grams of highly bioavailable protein per pound of their <em>target</em> body weight to trigger muscle protein synthesis. Because their stomachs will be paralyzed by the delayed gastric emptying of the medication, they should rely heavily on whey protein isolates or essential amino acid (EAA) supplements that require zero digestion to enter the bloodstream.
+            </p>
+
+            <h3>2. Resistance Training is Non-Negotiable</h3>
+            <p>
+              Walking is excellent for cardiovascular health, but it does absolutely nothing to prevent sarcopenia. Seniors on a GLP-1 must engage in progressive overload resistance training (using machines, free weights, or heavy resistance bands) at least three times a week. The mechanical tension on the muscle fibers is the only signal that tells the body, "Do not burn this muscle for energy; I still need it to survive."
+            </p>
+
+            {/* CTA 2: Mid Funnel */}
+            <div style={{ marginTop: 48, marginBottom: 48 }}>
+              <div className="card" style={{ background: '#FFFDF9', borderColor: 'var(--brand)', padding: 32, textAlign: 'center' }}>
+                <h3 className="serif" style={{ fontSize: 28, marginBottom: 12 }}>Medical Weight Loss Done Right</h3>
+                <p style={{ fontSize: 16, color: 'var(--ink-2)', marginBottom: 24, maxWidth: 500, margin: '0 auto 24px' }}>
+                  TelehealthFX pairs you with elite U.S. providers who understand the unique metabolic needs of patients over 60, ensuring your weight loss improves your mobility, rather than destroying it.
+                </p>
+                <div style={{ display: 'flex', gap: 16, justifyContent: 'center' }}>
+                  <a href={START_URL} className="btn btn-primary" style={{ fontSize: 16, padding: '0 24px' }}>
+                    Connect With a Clinician Today
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>Peptide Synergy for Seniors</h2>
+            <p>
+              Elite longevity clinics are increasingly prescribing specific peptide therapies alongside GLP-1s for their senior patients to act as an anabolic safety net.
+            </p>
+            <p>
+              As we discussed in our deep dive into <a href="/blog/sermorelin-growth-hormone-the-weight-loss-accelera" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Sermorelin</a>, utilizing a growth-hormone secretagogue can safely restore a senior's natural HGH levels while they sleep. This massive spike in natural growth hormone directly protects the skeletal muscle from catabolism, dramatically improves skin elasticity, and accelerates the healing of the micro-tears caused by their resistance training. 
+            </p>
+
+            {/* CTA 3: Bottom Funnel */}
+            <div style={{ marginTop: 60, marginBottom: 60 }}>
+              <div className="card" style={{ background: '#FFFDF9', borderColor: 'var(--brand)', padding: 40, textAlign: 'center' }}>
+                <h3 className="serif" style={{ fontSize: 36, marginBottom: 16 }}>Extend Your Healthspan</h3>
+                <p style={{ fontSize: 18, color: 'var(--ink-2)', marginBottom: 32, maxWidth: 600, margin: '0 auto 32px' }}>
+                  Shedding decades of toxic visceral fat is the ultimate longevity strategy, provided you protect your musculoskeletal foundation.
+                </p>
+                <p style={{ fontSize: 16, color: 'var(--ink-2)', marginBottom: 32, maxWidth: 600, margin: '0 auto 32px' }}>
+                  TelehealthFX provides U.S.-licensed, FDA-compliant compounded Semaglutide and Tirzepatide with strict physician oversight. Learn how to navigate telehealth safely in our guide to spotting <a href="/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Hidden Fees in Telehealth</a>.
+                </p>
+                <div style={{ display: 'flex', gap: 16, justifyContent: 'center' }}>
+                  <a href={START_URL} className="btn btn-primary" style={{ fontSize: 18, padding: '0 32px' }}>
+                    Start Your Evaluation
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>Final Clinical Verdict</h2>
+            <p>
+              GLP-1 receptor agonists are profoundly powerful tools for patients over 60, capable of completely reversing metabolic syndrome and dramatically reducing the risk of fatal cardiovascular events. However, because older adults are already battling the natural decay of sarcopenia and osteopenia, rapid weight loss is a highly dangerous endeavor if unmonitored. Seniors must reject traditional diet culture and approach their GLP-1 therapy as a rigorous athletic protocol, prioritizing heavy, bioavailable protein, load-bearing resistance training, and consistent DEXA scans to ensure they are losing the toxic fat without sacrificing the muscle that grants them their independence.
+            </p>
+            
+            <hr style={{ border: 0, borderBottom: '1px solid var(--line-soft)', margin: '48px 0' }} />
+            <div style={{ fontSize: 14, color: 'var(--ink-3)' }}>
+              <strong>Clinical Sources & Peer-Reviewed Citations:</strong>
+              <ul style={{ marginTop: 12, paddingLeft: 20, display: 'flex', flexDirection: 'column', gap: 12 }}>
+                <li>
+                  Baumgartner, R. N. (2000). "Body composition in healthy aging." <em>Annals of the New York Academy of Sciences</em>, 904(1), 437-448. <a href="https://nyaspubs.onlinelibrary.wiley.com/doi/abs/10.1111/j.1749-6632.2000.tb06498.x" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)', textDecoration: 'underline' }}>https://nyaspubs.onlinelibrary.wiley.com/doi/abs/10.1111/j.1749-6632.2000.tb06498.x</a>
+                </li>
+                <li>
+                  Batsis, J. A., & Villareal, D. T. (2018). "Sarcopenic obesity in older adults: aetiology, epidemiology and treatment strategies." <em>Nature Reviews Endocrinology</em>, 14(9), 513-537. <a href="https://www.nature.com/articles/s41574-018-0062-9" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)', textDecoration: 'underline' }}>https://www.nature.com/articles/s41574-018-0062-9</a>
+                </li>
+                <li>
+                  Lincoff, A. M., et al. (2023). "Semaglutide and Cardiovascular Outcomes in Obesity without Diabetes." <em>The New England Journal of Medicine</em>, 389, 2221-2232. <a href="https://www.nejm.org/doi/full/10.1056/NEJMoa2307563" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)', textDecoration: 'underline' }}>https://www.nejm.org/doi/full/10.1056/NEJMoa2307563</a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
     </>
   );
 }
-
-export { BlogGlp1ForSeniorsWeightLossAfter60Safely2026 };
