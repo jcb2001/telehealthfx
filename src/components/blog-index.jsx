@@ -153,18 +153,18 @@ function BlogIndex() {
       tag: "Pharmacology"
     },
     {
-      title: "Ozempic Babies: GLP-1 and Fertility — What Women Need to Know (2026 Clinical Guide)",
-      description: "A comprehensive clinical breakdown exploring ozempic babies: glp-1 and fertility — what women need to know (2026 clinical guide).",
+      title: "Ozempic Babies: GLP-1 and Fertility — What Women Need to Know",
+      description: "Explore the biological phenomenon of GLP-1 restoring fertility in women with PCOS, and the strict safety protocols required for conception.",
       slug: "/blog/ozempic-babies-glp-1-and-fertility-what-women-need",
-      image: "/assets/wegovy-label-featured.png",
-      tag: "Clinical Guide"
+      image: "/assets/ozempic_babies_fertility_featured.png",
+      tag: "Women's Health"
     },
     {
-      title: "Next-Gen GLP-1 Drugs: Survodutide, Orforglipron & Amycretin (2026 Pipeline) (2026 Clinical Guide)",
-      description: "A comprehensive clinical breakdown exploring next-gen glp-1 drugs: survodutide, orforglipron & amycretin (2026 pipeline) (2026 clinical guide).",
+      title: "Next-Gen GLP-1 Drugs: Survodutide, Orforglipron & Amycretin",
+      description: "A deep dive into the 2026 pipeline of triple-agonists and amylin co-agonists engineered to shatter weight loss plateaus.",
       slug: "/blog/next-gen-glp-1-drugs-survodutide-orforglipron-amyc",
-      image: "/assets/glp1-ultimate-guide.png",
-      tag: "Clinical Guide"
+      image: "/assets/glp1_future_pipeline_featured.png",
+      tag: "Future Science"
     },
     {
       title: "GLP-1 and Type 2 Diabetes: Beyond Weight Loss (2026 Clinical Guide)",

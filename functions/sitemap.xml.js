@@ -59,7 +59,9 @@ export async function onRequest(context) {
       '/blog/glp-1-for-seniors-weight-loss-after-60-safely-2026',
       '/blog/glp-1-plateau-when-weight-loss-stalls-what-to-do-2',
       '/blog/glp-1-and-your-heart-the-select-trial-cardiovascul',
-      '/blog/oral-vs-injectable-glp-1-rybelsus-oral-wegovy-orfo'
+      '/blog/oral-vs-injectable-glp-1-rybelsus-oral-wegovy-orfo',
+      '/blog/ozempic-babies-glp-1-and-fertility-what-women-need',
+      '/blog/next-gen-glp-1-drugs-survodutide-orforglipron-amyc'
     ];
   }
   if (staticRoutes.length <= 1) { // Only contains root
