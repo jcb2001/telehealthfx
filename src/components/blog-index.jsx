@@ -55,9 +55,9 @@ function BlogIndex() {
       tag: "Science & Basics"
     },
     {
-      title: "Nature’s Ozempic Exposed: Why Berberine Beats the Hype for Sustainable Weight Loss",
+      title: "Berberine vs Ozempic: The Complete Clinical Comparison & Weight Loss Guide",
       description: "An evidence-based comparison of Berberine and Semaglutide (Ozempic), separating social media hype from clinical reality for sustainable weight loss.",
-      slug: "/blog/natures-ozempic-exposed",
+      slug: "/blog/berberine-vs-ozempic",
       image: "/assets/ozempic-featured.png",
       tag: "Metabolic Reality Check"
     },

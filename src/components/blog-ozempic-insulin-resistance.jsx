@@ -28,7 +28,7 @@ function BlogOzempicInsulinResistance() {
           
           <p>For decades, the medical community viewed obesity primarily as an issue of caloric surplus. Today, endocrinologists recognize that stubborn weight gain is often the symptom of a deeper cellular issue: <strong>insulin resistance</strong>.</p>
           
-          <p>When cells become resistant to insulin, the pancreas compensates by producing more of it. This hyperinsulinemia blocks lipolysis (fat burning) and drives the body to store excess energy as visceral fat. While natural compounds like <a href="/blog/natures-ozempic-exposed" style={{ color: 'var(--brand)', fontWeight: 500 }}>berberine</a> can support insulin sensitivity via AMPK activation, the pharmaceutical introduction of GLP-1 receptor agonists has fundamentally changed the landscape of metabolic medicine.</p>
+          <p>When cells become resistant to insulin, the pancreas compensates by producing more of it. This hyperinsulinemia blocks lipolysis (fat burning) and drives the body to store excess energy as visceral fat. While natural compounds like <a href="/blog/berberine-vs-ozempic" style={{ color: 'var(--brand)', fontWeight: 500 }}>berberine</a> can support insulin sensitivity via AMPK activation, the pharmaceutical introduction of GLP-1 receptor agonists has fundamentally changed the landscape of metabolic medicine.</p>
 
           <p>In this guide, we explore the specific mechanisms by which semaglutide (Ozempic) and other GLP-1 medications actively reverse insulin resistance, independent of their weight loss effects.</p>
 
