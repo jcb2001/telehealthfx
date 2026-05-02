@@ -27,18 +27,18 @@ function BlogIndex() {
       tag: "Clinical Physiology"
     },
     {
-      title: "Berberine vs. GLP-1 in 2026: Can 'Nature's Ozempic' Actually Compete? (2026 Clinical Guide)",
-      description: "A comprehensive clinical breakdown exploring berberine vs. glp-1 in 2026: can 'nature's ozempic' actually compete? (2026 clinical guide).",
+      title: "Berberine vs. GLP-1 in 2026: Can 'Nature's Ozempic' Actually Compete?",
+      description: "We deconstruct the 'Nature's Ozempic' hype, analyzing the AMPK metabolic master switch, Dihydroberberine bioavailability, and head-to-head clinical efficacy.",
       slug: "/blog/berberine-vs-glp-1-in-2026-can-natures-ozempic-act",
-      image: "/assets/wegovy-label-featured.png",
-      tag: "Clinical Guide"
+      image: "/assets/berberine_vs_glp1_featured.png",
+      tag: "Botanical Supplements"
     },
     {
-      title: "GLP-1 Side Effects: How to Manage Nausea, Fatigue & More (2026 Clinical Guide)",
-      description: "A comprehensive clinical breakdown exploring glp-1 side effects: how to manage nausea, fatigue & more (2026 clinical guide).",
+      title: "GLP-1 Side Effects: How to Manage Nausea, Fatigue & More",
+      description: "The definitive playbook for surviving the adaptation phase. Learn the 'Go Low and Slow' protocol, how to mitigate GI distress, and when to contact a provider.",
       slug: "/blog/glp-1-side-effects-how-to-manage-nausea-fatigue-mo",
-      image: "/assets/glp1-ultimate-guide.png",
-      tag: "Clinical Guide"
+      image: "/assets/glp1_side_effects_featured.png",
+      tag: "Patient Care"
     },
     {
       title: "Hidden Fees in Telehealth Weight Loss: How to Spot Them (2026 Clinical Guide)",
