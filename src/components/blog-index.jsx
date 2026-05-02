@@ -6,6 +6,209 @@ import { Icon } from './common.jsx';
 function BlogIndex() {
   const articles = [
     {
+      title: "GLP-1 Muscle Loss: The Hidden Risk Nobody's Talking About (2026 Clinical Guide)",
+      description: "A comprehensive clinical breakdown exploring glp-1 muscle loss: the hidden risk nobody's talking about (2026 clinical guide).",
+      slug: "/blog/glp-1-muscle-loss-the-hidden-risk-nobodys-talking",
+      image: "/assets/tirzepatide-semaglutide-featured.png",
+      tag: "Clinical Guide"
+    },
+    {
+      title: "Oral Semaglutide Is Here — Is the GLP-1 Pill as Good as the Injection? (2026 Clinical Guide)",
+      description: "A comprehensive clinical breakdown exploring oral semaglutide is here — is the glp-1 pill as good as the injection? (2026 clinical guide).",
+      slug: "/blog/oral-semaglutide-is-here-is-the-glp-1-pill-as-good",
+      image: "/assets/nad-therapy-featured.png",
+      tag: "Clinical Guide"
+    },
+    {
+      title: "What Happens When You Stop GLP-1 Medication? The Rebound Effect Explained (2026 Clinical Guide)",
+      description: "A comprehensive clinical breakdown exploring what happens when you stop glp-1 medication? the rebound effect explained (2026 clinical guide).",
+      slug: "/blog/what-happens-when-you-stop-glp-1-medication-the-re",
+      image: "/assets/sermorelin-peptide-featured.png",
+      tag: "Clinical Guide"
+    },
+    {
+      title: "Berberine vs. GLP-1 in 2026: Can 'Nature's Ozempic' Actually Compete? (2026 Clinical Guide)",
+      description: "A comprehensive clinical breakdown exploring berberine vs. glp-1 in 2026: can 'nature's ozempic' actually compete? (2026 clinical guide).",
+      slug: "/blog/berberine-vs-glp-1-in-2026-can-natures-ozempic-act",
+      image: "/assets/wegovy-label-featured.png",
+      tag: "Clinical Guide"
+    },
+    {
+      title: "GLP-1 Side Effects: How to Manage Nausea, Fatigue & More (2026 Clinical Guide)",
+      description: "A comprehensive clinical breakdown exploring glp-1 side effects: how to manage nausea, fatigue & more (2026 clinical guide).",
+      slug: "/blog/glp-1-side-effects-how-to-manage-nausea-fatigue-mo",
+      image: "/assets/glp1-ultimate-guide.png",
+      tag: "Clinical Guide"
+    },
+    {
+      title: "Hidden Fees in Telehealth Weight Loss: How to Spot Them (2026 Clinical Guide)",
+      description: "A comprehensive clinical breakdown exploring hidden fees in telehealth weight loss: how to spot them (2026 clinical guide).",
+      slug: "/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot",
+      image: "/assets/ozempic-featured.png",
+      tag: "Clinical Guide"
+    },
+    {
+      title: "GLP-1 and Exercise: How to Combine Medication with Fitness (2026 Clinical Guide)",
+      description: "A comprehensive clinical breakdown exploring glp-1 and exercise: how to combine medication with fitness (2026 clinical guide).",
+      slug: "/blog/glp-1-and-exercise-how-to-combine-medication-with",
+      image: "/assets/tirzepatide-semaglutide-featured.png",
+      tag: "Clinical Guide"
+    },
+    {
+      title: "Weight Loss for Women Over 40: How GLP-1 Can Help (2026 Clinical Guide)",
+      description: "A comprehensive clinical breakdown exploring weight loss for women over 40: how glp-1 can help (2026 clinical guide).",
+      slug: "/blog/weight-loss-for-women-over-40-how-glp-1-can-help-2",
+      image: "/assets/nad-therapy-featured.png",
+      tag: "Clinical Guide"
+    },
+    {
+      title: "Berberine for PCOS: What the Research Actually Says (2026 Clinical Guide)",
+      description: "A comprehensive clinical breakdown exploring berberine for pcos: what the research actually says (2026 clinical guide).",
+      slug: "/blog/berberine-for-pcos-what-the-research-actually-says",
+      image: "/assets/sermorelin-peptide-featured.png",
+      tag: "Clinical Guide"
+    },
+    {
+      title: "Tirzepatide vs. Semaglutide: Which GLP-1 Is Right for You? (2026 Clinical Guide)",
+      description: "A comprehensive clinical breakdown exploring tirzepatide vs. semaglutide: which glp-1 is right for you? (2026 clinical guide).",
+      slug: "/blog/tirzepatide-vs-semaglutide-which-glp-1-is-right-fo",
+      image: "/assets/wegovy-label-featured.png",
+      tag: "Clinical Guide"
+    },
+    {
+      title: "GLP-1 and Alcohol: What You Need to Know (2026 Clinical Guide)",
+      description: "A comprehensive clinical breakdown exploring glp-1 and alcohol: what you need to know (2026 clinical guide).",
+      slug: "/blog/glp-1-and-alcohol-what-you-need-to-know-2026-clini",
+      image: "/assets/glp1-ultimate-guide.png",
+      tag: "Clinical Guide"
+    },
+    {
+      title: "Weight Loss for Men: Why GLP-1 Isn't Just for Women (2026 Clinical Guide)",
+      description: "A comprehensive clinical breakdown exploring weight loss for men: why glp-1 isn't just for women (2026 clinical guide).",
+      slug: "/blog/weight-loss-for-men-why-glp-1-isnt-just-for-women",
+      image: "/assets/ozempic-featured.png",
+      tag: "Clinical Guide"
+    },
+    {
+      title: "NAD+ Therapy Explained: Anti-Aging, Energy & Weight Loss (2026 Clinical Guide)",
+      description: "A comprehensive clinical breakdown exploring nad+ therapy explained: anti-aging, energy & weight loss (2026 clinical guide).",
+      slug: "/blog/nad-therapy-explained-anti-aging-energy-weight-los",
+      image: "/assets/tirzepatide-semaglutide-featured.png",
+      tag: "Clinical Guide"
+    },
+    {
+      title: "Is Compounded Semaglutide Safe? What You Need to Know (2026 Clinical Guide)",
+      description: "A comprehensive clinical breakdown exploring is compounded semaglutide safe? what you need to know (2026 clinical guide).",
+      slug: "/blog/is-compounded-semaglutide-safe-what-you-need-to-kn",
+      image: "/assets/nad-therapy-featured.png",
+      tag: "Clinical Guide"
+    },
+    {
+      title: "GLP-1 and Mental Health: Anxiety, Depression & Food Noise (2026 Clinical Guide)",
+      description: "A comprehensive clinical breakdown exploring glp-1 and mental health: anxiety, depression & food noise (2026 clinical guide).",
+      slug: "/blog/glp-1-and-mental-health-anxiety-depression-food-no",
+      image: "/assets/sermorelin-peptide-featured.png",
+      tag: "Clinical Guide"
+    },
+    {
+      title: "Sermorelin & Growth Hormone: The Weight Loss Accelerator (2026 Clinical Guide)",
+      description: "A comprehensive clinical breakdown exploring sermorelin & growth hormone: the weight loss accelerator (2026 clinical guide).",
+      slug: "/blog/sermorelin-growth-hormone-the-weight-loss-accelera",
+      image: "/assets/wegovy-label-featured.png",
+      tag: "Clinical Guide"
+    },
+    {
+      title: "GLP-1 for Seniors: Weight Loss After 60 Safely (2026 Clinical Guide)",
+      description: "A comprehensive clinical breakdown exploring glp-1 for seniors: weight loss after 60 safely (2026 clinical guide).",
+      slug: "/blog/glp-1-for-seniors-weight-loss-after-60-safely-2026",
+      image: "/assets/glp1-ultimate-guide.png",
+      tag: "Clinical Guide"
+    },
+    {
+      title: "GLP-1 Plateau: When Weight Loss Stalls & What to Do (2026 Clinical Guide)",
+      description: "A comprehensive clinical breakdown exploring glp-1 plateau: when weight loss stalls & what to do (2026 clinical guide).",
+      slug: "/blog/glp-1-plateau-when-weight-loss-stalls-what-to-do-2",
+      image: "/assets/ozempic-featured.png",
+      tag: "Clinical Guide"
+    },
+    {
+      title: "Ozempic Face & Loose Skin: Prevention, Treatment & What to Expect (2026 Clinical Guide)",
+      description: "A comprehensive clinical breakdown exploring ozempic face & loose skin: prevention, treatment & what to expect (2026 clinical guide).",
+      slug: "/blog/ozempic-face-loose-skin-prevention-treatment-what",
+      image: "/assets/tirzepatide-semaglutide-featured.png",
+      tag: "Clinical Guide"
+    },
+    {
+      title: "GLP-1 and Your Heart: The SELECT Trial & Cardiovascular Protection (2026 Clinical Guide)",
+      description: "A comprehensive clinical breakdown exploring glp-1 and your heart: the select trial & cardiovascular protection (2026 clinical guide).",
+      slug: "/blog/glp-1-and-your-heart-the-select-trial-cardiovascul",
+      image: "/assets/nad-therapy-featured.png",
+      tag: "Clinical Guide"
+    },
+    {
+      title: "Oral vs. Injectable GLP-1: Rybelsus, Oral Wegovy, Orforglipron & What's Coming (2026 Clinical Guide)",
+      description: "A comprehensive clinical breakdown exploring oral vs. injectable glp-1: rybelsus, oral wegovy, orforglipron & what's coming (2026 clinical guide).",
+      slug: "/blog/oral-vs-injectable-glp-1-rybelsus-oral-wegovy-orfo",
+      image: "/assets/sermorelin-peptide-featured.png",
+      tag: "Clinical Guide"
+    },
+    {
+      title: "Ozempic Babies: GLP-1 and Fertility — What Women Need to Know (2026 Clinical Guide)",
+      description: "A comprehensive clinical breakdown exploring ozempic babies: glp-1 and fertility — what women need to know (2026 clinical guide).",
+      slug: "/blog/ozempic-babies-glp-1-and-fertility-what-women-need",
+      image: "/assets/wegovy-label-featured.png",
+      tag: "Clinical Guide"
+    },
+    {
+      title: "Next-Gen GLP-1 Drugs: Survodutide, Orforglipron & Amycretin (2026 Pipeline) (2026 Clinical Guide)",
+      description: "A comprehensive clinical breakdown exploring next-gen glp-1 drugs: survodutide, orforglipron & amycretin (2026 pipeline) (2026 clinical guide).",
+      slug: "/blog/next-gen-glp-1-drugs-survodutide-orforglipron-amyc",
+      image: "/assets/glp1-ultimate-guide.png",
+      tag: "Clinical Guide"
+    },
+    {
+      title: "GLP-1 and Type 2 Diabetes: Beyond Weight Loss (2026 Clinical Guide)",
+      description: "A comprehensive clinical breakdown exploring glp-1 and type 2 diabetes: beyond weight loss (2026 clinical guide).",
+      slug: "/blog/glp-1-and-type-2-diabetes-beyond-weight-loss-2026",
+      image: "/assets/ozempic-featured.png",
+      tag: "Clinical Guide"
+    },
+    {
+      title: "The Social Stigma of Weight Loss Medication: Why It's Nobody's Business (2026 Clinical Guide)",
+      description: "A comprehensive clinical breakdown exploring the social stigma of weight loss medication: why it's nobody's business (2026 clinical guide).",
+      slug: "/blog/the-social-stigma-of-weight-loss-medication-why-it",
+      image: "/assets/tirzepatide-semaglutide-featured.png",
+      tag: "Clinical Guide"
+    },
+    {
+      title: "Intermittent Fasting + GLP-1: Do They Work Together? (2026 Clinical Guide)",
+      description: "A comprehensive clinical breakdown exploring intermittent fasting + glp-1: do they work together? (2026 clinical guide).",
+      slug: "/blog/intermittent-fasting-glp-1-do-they-work-together-2",
+      image: "/assets/nad-therapy-featured.png",
+      tag: "Clinical Guide"
+    },
+    {
+      title: "GLP-1 and Inflammation: Arthritis, Sleep Apnea & Chronic Pain (2026 Clinical Guide)",
+      description: "A comprehensive clinical breakdown exploring glp-1 and inflammation: arthritis, sleep apnea & chronic pain (2026 clinical guide).",
+      slug: "/blog/glp-1-and-inflammation-arthritis-sleep-apnea-chron",
+      image: "/assets/sermorelin-peptide-featured.png",
+      tag: "Clinical Guide"
+    },
+    {
+      title: "Your First 90 Days on GLP-1: Week-by-Week What to Expect (2026 Clinical Guide)",
+      description: "A comprehensive clinical breakdown exploring your first 90 days on glp-1: week-by-week what to expect (2026 clinical guide).",
+      slug: "/blog/your-first-90-days-on-glp-1-week-by-week-what-to-e",
+      image: "/assets/wegovy-label-featured.png",
+      tag: "Clinical Guide"
+    },
+    {
+      title: "How to Choose a Telehealth Weight Loss Program (And Avoid the Scams) (2026 Clinical Guide)",
+      description: "A comprehensive clinical breakdown exploring how to choose a telehealth weight loss program (and avoid the scams) (2026 clinical guide).",
+      slug: "/blog/how-to-choose-a-telehealth-weight-loss-program-and",
+      image: "/assets/glp1-ultimate-guide.png",
+      tag: "Clinical Guide"
+    },
+    {
       title: "FDA Proposes Banning Compounded Semaglutide: What It Means for Your GLP-1 Options",
       description: "The FDA has proposed banning compounded semaglutide from 503B facilities. Learn what this means for your GLP-1 options and how to navigate the 2026 telehealth landscape safely.",
       slug: "/blog/fda-compounding-ban",
