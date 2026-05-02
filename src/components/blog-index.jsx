@@ -180,13 +180,7 @@ function BlogIndex() {
       image: "/assets/cardiovascular_glp1_featured.png",
       tag: "Cardiovascular Health"
     },
-    {
-      title: "Oral vs. Injectable GLP-1: Rybelsus, Oral Wegovy, and Orforglipron",
-      description: "A comprehensive breakdown of oral GLP-1 delivery, comparing the strict fasting of Oral Wegovy against the revolutionary non-peptide Orforglipron.",
-      slug: "/blog/oral-vs-injectable-glp-1-rybelsus-oral-wegovy-orfo",
-      image: "/assets/oral_vs_injectable_featured.png",
-      tag: "Pharmacology"
-    },
+
     {
       title: "Ozempic Babies: GLP-1 and Fertility — What Women Need to Know",
       description: "Explore the biological phenomenon of GLP-1 restoring fertility in women with PCOS, and the strict safety protocols required for conception.",
