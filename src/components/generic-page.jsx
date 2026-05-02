@@ -5,7 +5,6 @@ import { Footer, FAQ } from './sections-3.jsx';
 import { HowItWorks, Medications } from './sections-1.jsx';
 import { Results, Science, Pricing } from './sections-2.jsx';
 import { BlogIndex } from './blog-index.jsx';
-import { BlogBerberine } from './blog-berberine.jsx';
 import { BlogTransdermalVsOral } from './blog-transdermal-vs-oral.jsx';
 import { BlogBerberineVsOzempic } from './blog-berberine-vs-ozempic.jsx';
 

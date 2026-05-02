@@ -76,9 +76,9 @@ function BlogIndex() {
       tag: "Clinical Analysis"
     },
     {
-      title: "The Transdermal Revolution: Why Berberine Patches are the Future of Metabolic Health",
-      description: "An in-depth clinical analysis of Berberine transdermal patches vs oral delivery for metabolic health, AMPK activation, and avoiding the Berberine Belly.",
-      slug: "/blog/berberine",
+      title: "The Berberine Transdermal Patch: Why Oral Pills Are Obsolete",
+      description: "Learn how the berberine transdermal patch bypasses the liver and GI tract to deliver steady-state AMPK activation without the Berberine Belly.",
+      slug: "/blog/berberine-transdermal-patch",
       image: "/assets/berberine-featured.png",
       tag: "Metabolic Health"
     }
