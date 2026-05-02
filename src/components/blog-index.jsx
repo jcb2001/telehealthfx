@@ -202,11 +202,11 @@ function BlogIndex() {
       tag: "Clinical Protocols"
     },
     {
-      title: "How to Choose a Telehealth Weight Loss Program (And Avoid the Scams) (2026 Clinical Guide)",
-      description: "A comprehensive clinical breakdown exploring how to choose a telehealth weight loss program (and avoid the scams) (2026 clinical guide).",
+      title: "How to Choose a Telehealth Weight Loss Program: The 2026 Warning Signs",
+      description: "Avoid the hidden fees, fake pharmacies, and dangerous 'pill mills.' Here are the 7 massive red flags to look for when choosing a telehealth provider for GLP-1 therapy.",
       slug: "/blog/how-to-choose-a-telehealth-weight-loss-program-and",
-      image: "/assets/glp1-ultimate-guide.png",
-      tag: "Clinical Guide"
+      image: "/assets/glp1_telehealth_scams_featured.png",
+      tag: "Consumer Protection"
     },
     {
       title: "FDA Proposes Banning Compounded Semaglutide: What It Means for Your GLP-1 Options",
