@@ -61,6 +61,36 @@ export default function Page() {
             "url": "https://telehealthfx.com/assets/logo.png"
           }
         }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://telehealthfx.com/blog/next-gen-glp-1-drugs-survodutide-orforglipron-amyc/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is the main clinical takeaway regarding Next-Gen GLP-1 Drugs: Survodutide, Orforglipron & Amycretin (2026 Pipeline) (2026 Clinical Guide)?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "This article provides a comprehensive clinical breakdown of Next-Gen GLP-1 Drugs: Survodutide, Orforglipron & Amycretin (2026 Pipeline) (2026 Clinical Guide), detailing the exact mechanisms, safety protocols, and evidence-based research required for optimal metabolic health."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are the treatments discussed in this guide safe and FDA-approved?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "While specific FDA labels vary (e.g., Wegovy is approved for weight loss while Ozempic is for Type 2 Diabetes), all compounded medications discussed must be prescribed by a licensed healthcare provider and sourced from compliant 503A or 503B facilities."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How can I start a clinical protocol based on this research?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "You can begin your metabolic health journey by undergoing a comprehensive telehealth evaluation with a U.S.-licensed provider to determine if GLP-1 therapy or targeted botanical treatments are clinically appropriate for your unique physiology."
+            }
+          }
+        ]
       }
     ]
   };

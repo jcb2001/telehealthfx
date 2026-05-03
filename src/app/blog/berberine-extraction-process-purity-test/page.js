@@ -45,6 +45,36 @@ export default function Page() {
           "@type": "WebPage",
           "@id": "https://telehealthfx.com/blog/berberine-extraction-process-purity-test/"
         }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://telehealthfx.com/blog/berberine-extraction-process-purity-test/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is the main clinical takeaway regarding The Berberine Extraction Process: Why 90% of Supplements Fail the Purity Test?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "This article provides a comprehensive clinical breakdown of The Berberine Extraction Process: Why 90% of Supplements Fail the Purity Test, detailing the exact mechanisms, safety protocols, and evidence-based research required for optimal metabolic health."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are the treatments discussed in this guide safe and FDA-approved?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "While specific FDA labels vary (e.g., Wegovy is approved for weight loss while Ozempic is for Type 2 Diabetes), all compounded medications discussed must be prescribed by a licensed healthcare provider and sourced from compliant 503A or 503B facilities."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How can I start a clinical protocol based on this research?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "You can begin your metabolic health journey by undergoing a comprehensive telehealth evaluation with a U.S.-licensed provider to determine if GLP-1 therapy or targeted botanical treatments are clinically appropriate for your unique physiology."
+            }
+          }
+        ]
       }
     ]
   };
