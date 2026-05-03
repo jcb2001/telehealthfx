@@ -4,62 +4,83 @@ import React, { useState, useEffect } from 'react';
 
 const AffiliateDisclosure = () => (
   <>
-    <p><strong>Last Updated: April 2026</strong></p>
-    <p>Telehealth FX ("we," "us," or "our") is an informational website and affiliate marketing platform. We are <strong>not</strong> a medical provider, pharmacy, or telehealth clinic. We do not provide medical advice, diagnosis, or treatment.</p>
+    <p><strong>Last Updated: May 2026</strong></p>
+    <p>Telehealth FX ("we," "us," or "our") operates as a digital health information hub and independent marketing platform. We are <strong>strictly an informational resource</strong> and are not a licensed medical provider, pharmacy, or telehealth clinic. We do not provide medical advice, diagnosis, or treatment.</p>
     
-    <h3>1. Financial Relationships</h3>
-    <p>This website is supported by our partners. We participate in affiliate marketing programs, which means we may earn a commission, referral fee, or other compensation when you click on links to our partners' websites and/or make a purchase or sign up for a service (such as a GLP-1 weight loss program).</p>
-    <p>This compensation may impact how and where products appear on this site. However, our reviews and recommendations are based on our independent research and evaluation of the programs.</p>
+    <h3>1. FTC Compliance & Financial Relationships</h3>
+    <p>In compliance with the Federal Trade Commission (FTC) guidelines, please assume that any links leading you to products or services are affiliate links from which we will receive compensation. We participate in various affiliate marketing programs and partner networks. This means we earn a commission, referral fee, or CPA (Cost Per Action) payout when you click on links to our partners' websites and/or complete a transaction, such as signing up for a GLP-1 weight loss program or ordering diagnostic labs.</p>
+    <p>While this financial compensation may impact how and where products appear on this site (including the order in which they appear), it does not influence our editorial independence. Our reviews and clinical summaries are based on independent research, peer-reviewed literature, and evaluation of the programs.</p>
 
-    <h3>2. No Medical Advice</h3>
-    <p>The information provided on Telehealth FX, including text, graphics, images, and other material, is for informational purposes only. It is not intended to be a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition or treatment.</p>
-    <p>Never disregard professional medical advice or delay in seeking it because of something you have read on this website.</p>
+    <h3>2. Strict Disclaimer of Medical Advice</h3>
+    <p>The information provided on Telehealth FX—including text, graphics, clinical trial summaries, images, and other materials—is for educational and informational purposes only. It is <strong>never</strong> intended to be a substitute for professional medical advice, diagnosis, or treatment.</p>
+    <p>Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition, weight management protocol, or new medication. Never disregard professional medical advice or delay in seeking it because of something you have read on this website. If you think you may have a medical emergency, call your doctor, go to the emergency department, or call 911 immediately.</p>
 
-    <h3>3. FDA Disclaimer</h3>
-    <p>Information regarding compounded medications (including compounded semaglutide and tirzepatide) discussed on this site is provided for educational purposes. Compounded medications are not FDA-approved, meaning the FDA does not evaluate them for safety, efficacy, or quality. They are prepared by licensed compounding pharmacies pursuant to a prescription from a licensed healthcare provider.</p>
+    <h3>3. FDA & Compounding Disclaimer</h3>
+    <p>Information regarding compounded medications (including compounded Semaglutide and Tirzepatide) discussed on this site is provided for educational purposes. Compounded medications are not FDA-approved, meaning the FDA does not evaluate them for safety, efficacy, or quality prior to marketing. They are prepared by licensed 503A or 503B compounding pharmacies pursuant to a specific prescription from a licensed healthcare provider. Results are not guaranteed and vary widely depending on genetics, metabolic baseline, and lifestyle adherence.</p>
 
-    <h3>4. User Responsibility</h3>
-    <p>When you click on a link to a telehealth provider, you will be directed to their platform to undergo a medical consultation. Any medical decisions, prescriptions, and treatments are strictly between you and the licensed medical professionals on that platform.</p>
+    <h3>4. Limitation of Liability for Partner Services</h3>
+    <p>When you click on a link to a telehealth provider, you are leaving Telehealth FX and entering a third-party platform. Any medical consultations, prescribing decisions, and fulfillment of medications are strictly between you and the licensed medical professionals on that platform. Telehealth FX assumes no liability for any adverse effects, financial disputes, or malpractice issues arising from your relationship with our third-party partners.</p>
   </>
 );
 
 const PrivacyPolicy = () => (
   <>
-    <p><strong>Last Updated: April 2026</strong></p>
-    <p>At Telehealth FX, we take your privacy seriously. This Privacy Policy describes how we collect, use, and share your personal information when you use our website.</p>
+    <p><strong>Last Updated: May 2026</strong></p>
+    <p>Telehealth FX respects your privacy. This comprehensive Privacy Policy describes how we collect, use, disclose, and safeguard your information when you visit our website, click our affiliate links, or interact with our digital content.</p>
+    
     <h3>1. Information We Collect</h3>
-    <p>We may collect information you voluntarily provide, such as your email address if you subscribe to our newsletter, and usage data via cookies to improve our site.</p>
-    <h3>2. Health Information</h3>
-    <p>We are not a medical provider and do not collect Protected Health Information (PHI). When you click through to our partners, any health information you provide is governed by their Privacy Policy and Notice of Privacy Practices.</p>
-    <h3>3. Cookies and Tracking</h3>
-    <p>We use cookies to analyze site traffic and track affiliate referrals. You can manage cookie preferences through your browser settings.</p>
+    <p><strong>A. Automatically Collected Information:</strong> When you visit our site, our servers automatically collect standard log data, including your IP address, browser type, operating system, referring URLs, and interaction data (such as links clicked). We use tracking pixels (e.g., Meta Pixel, Google Analytics) to monitor traffic and measure the efficacy of our advertising campaigns.</p>
+    <p><strong>B. Voluntarily Provided Information:</strong> We may collect personal identifiers such as your name and email address if you voluntarily subscribe to our newsletter or submit a contact form.</p>
+    
+    <h3>2. No Protected Health Information (PHI)</h3>
+    <p>Telehealth FX is a marketing entity, not a healthcare provider. We do not solicit, collect, or store Protected Health Information (PHI). If you navigate to one of our partner clinics, any medical history or personal data you submit to them is governed entirely by their respective Privacy Policies and HIPAA Notices of Privacy Practices.</p>
+    
+    <h3>3. Use of Cookies and Web Beacons</h3>
+    <p>We use cookies, web beacons, and similar tracking technologies to customize the site and improve your experience. These technologies are crucial for tracking our affiliate referrals so that our partners can compensate us. You may configure your browser to reject cookies, though doing so may limit your ability to use certain features of our site.</p>
+
+    <h3>4. Data Sharing and Third Parties</h3>
+    <p>We do not sell your personal data to third parties. We may share anonymous, aggregated demographic information with our business partners and advertisers. We may also disclose your information if required to do so by law or in response to valid requests by public authorities (e.g., a court or a government agency).</p>
+
+    <h3>5. California Privacy Rights (CCPA/CPRA)</h3>
+    <p>If you are a resident of California, you have the right to request access to the specific pieces of personal information we have collected about you, the right to request deletion of your personal data, and the right to opt-out of the "sale" or "sharing" of your personal information (as defined by the CCPA). To exercise these rights, please contact us via our Contact page.</p>
   </>
 );
 
 const TermsOfService = () => (
   <>
-    <p><strong>Last Updated: April 2026</strong></p>
-    <p>By accessing Telehealth FX, you agree to be bound by these Terms of Service.</p>
-    <h3>1. Use of Site</h3>
-    <p>You may use our site for lawful, informational purposes only. You must be at least 18 years old to use this site.</p>
+    <p><strong>Last Updated: May 2026</strong></p>
+    <p>Please read these Terms of Service ("Terms", "Terms of Service") carefully before using the Telehealth FX website. Your access to and use of the Service is conditioned on your acceptance of and compliance with these Terms. By accessing or using the site, you agree to be bound by these Terms.</p>
+    
+    <h3>1. Intellectual Property & Copyright</h3>
+    <p>The site and its original content (including text, clinical summaries, graphics, and layout), features, and functionality are owned by Telehealth FX and are protected by international copyright, trademark, patent, trade secret, and other intellectual property or proprietary rights laws. You may not reproduce, distribute, or create derivative works without our express written consent.</p>
+
     <h3>2. Disclaimer of Warranties</h3>
-    <p>Our website is provided "as is" without any representations or warranties, express or implied. We make no representations about the accuracy or completeness of the content provided.</p>
+    <p>The materials on Telehealth FX are provided on an 'as is' and 'as available' basis. We make no warranties, expressed or implied, and hereby disclaim and negate all other warranties including, without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property. We do not warrant or make any representations concerning the accuracy, likely clinical results, or reliability of the use of the materials on our website.</p>
+
     <h3>3. Limitation of Liability</h3>
-    <p>In no event shall Telehealth FX be liable for any indirect, consequential, or special liability arising out of your use of this website or reliance on its content.</p>
+    <p>In no event shall Telehealth FX, nor its directors, employees, partners, agents, suppliers, or affiliates, be liable for any indirect, incidental, special, consequential or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses, resulting from (i) your access to or use of or inability to access or use the Service; (ii) any conduct or content of any third party on the Service; and (iii) unauthorized access, use or alteration of your transmissions or content.</p>
+
+    <h3>4. Binding Arbitration and Class Action Waiver</h3>
+    <p>Any dispute arising out of or relating to these Terms or the use of the website shall be resolved through binding arbitration conducted by the American Arbitration Association (AAA) rather than in court. <strong>You agree to waive any right to participate in a class action lawsuit or class-wide arbitration.</strong></p>
   </>
 );
 
 const TelehealthConsent = () => (
   <>
-    <p>Since Telehealth FX is an informational affiliate site, we do not provide telehealth services directly. However, we want you to understand how telehealth works when you visit our partners.</p>
-    <p>Telehealth involves the delivery of healthcare services using electronic communications, information technology, or other means. By utilizing a partner's telehealth platform, you will be required to consent to their specific Telehealth Consent policies, which cover the risks, benefits, and limitations of receiving care remotely rather than in person.</p>
+    <p><strong>Last Updated: May 2026</strong></p>
+    <p>Telehealth FX is an independent digital publisher and affiliate marketing platform. <strong>We do not provide telehealth services, we do not employ medical professionals, and we do not issue prescriptions.</strong></p>
+    <p>Telehealth involves the delivery of healthcare services using electronic communications (such as asynchronous intake forms, video consults, and secure messaging) rather than in-person physical examinations. While telehealth offers extreme convenience and privacy for weight management programs, it has limitations, including the inability of the provider to conduct a hands-on physical exam.</p>
+    <p>By clicking on any affiliate link on our site and utilizing a partner's telehealth platform, you will be required to read, understand, and sign their specific Telehealth Informed Consent. That document will govern the clinical relationship between you and the treating physician. Telehealth FX bears no responsibility for the quality of care, misdiagnosis, or treatment outcomes rendered by our third-party partners.</p>
   </>
 );
 
 const HIPAA = () => (
   <>
-    <p>Because Telehealth FX does not provide medical services, we are not a "Covered Entity" under the Health Insurance Portability and Accountability Act (HIPAA).</p>
-    <p>However, the licensed medical providers and pharmacies we refer you to are bound by HIPAA and state privacy laws. Once you leave our site and enter a partner's platform, any health data you share will be protected according to their Notice of Privacy Practices.</p>
+    <p><strong>Last Updated: May 2026</strong></p>
+    <p>The Health Insurance Portability and Accountability Act of 1996 (HIPAA) applies exclusively to "Covered Entities" (such as healthcare providers, health plans, and healthcare clearinghouses) and their "Business Associates."</p>
+    <p><strong>Because Telehealth FX operates strictly as an informational affiliate marketing platform and does not provide medical treatment, diagnosis, or billing, we are NOT a Covered Entity under HIPAA.</strong> We do not collect, process, or store Protected Health Information (PHI) subject to HIPAA regulations.</p>
+    <p>However, the privacy of your data is paramount. Once you click an outbound link on our site and are directed to a partner telehealth provider (e.g., to begin a consultation for GLP-1 medications), you will enter a secure, HIPAA-compliant environment managed entirely by that provider. Any medical history, biometric data, or payment information you submit on the partner's platform is protected by their Notice of Privacy Practices.</p>
+    <p>Please note that our standard marketing tracking pixels (such as Google Analytics or Meta Pixel) used on our informational pages are not bound by HIPAA, as no clinical relationship exists while you are browsing our domain.</p>
   </>
 );
 
