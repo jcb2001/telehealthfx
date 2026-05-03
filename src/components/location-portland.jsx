@@ -1,343 +1,94 @@
 "use client";
 import React from 'react';
-import Image from 'next/image';
-import { Icon } from './common.jsx';
-
-const SEMAGLUTIDE_URL = "https://go.telehealthfx.com/start";
+import { HeroVariationA, ClinicalDeepDive, InsuranceBreakdown, PatientArchetype, LocalTransitPain, CostComparisonTable, InteractiveFAQ, StateLegalFramework, DeliveryGridMap, FinalCTA } from './location-modules.jsx';
 
 export function LocationPortland() {
   return (
     <div style={{ background: '#FBF8F3', overflow: 'hidden' }}>
-      
-      {/* 1. PREMIUM HERO SECTION */}
-      <section style={{ 
-        position: 'relative', 
-        paddingTop: 'clamp(100px, 15vw, 160px)', 
-        paddingBottom: 'clamp(60px, 10vw, 100px)', 
-        background: 'linear-gradient(180deg, #0A0F0D 0%, #15221A 100%)',
-        color: '#fff',
-        borderBottomLeftRadius: 'clamp(24px, 5vw, 60px)',
-        borderBottomRightRadius: 'clamp(24px, 5vw, 60px)'
-      }}>
-        <div style={{ position: 'absolute', top: '-10%', right: '-20%', width: '70vw', height: '70vw', background: 'radial-gradient(circle, rgba(46, 204, 113, 0.15) 0%, transparent 60%)', filter: 'blur(80px)', zIndex: 0 }}></div>
-        <div style={{ position: 'absolute', bottom: '-20%', left: '-10%', width: '50vw', height: '50vw', background: 'radial-gradient(circle, rgba(46, 74, 59, 0.4) 0%, transparent 60%)', filter: 'blur(60px)', zIndex: 0 }}></div>
 
-        <div className="container" style={{ position: 'relative', zIndex: 1 }}>
-          <div className="row align-items-center justify-content-center text-center text-lg-start">
-            <div className="col-lg-8">
-              <div style={{ 
-                display: 'inline-flex', 
-                alignItems: 'center', 
-                gap: 8, 
-                padding: '6px 16px', 
-                background: 'rgba(255,255,255,0.05)', 
-                border: '1px solid rgba(255,255,255,0.1)', 
-                borderRadius: 100,
-                fontSize: 13,
-                fontWeight: 600,
-                letterSpacing: 1,
-                textTransform: 'uppercase',
-                marginBottom: 24,
-                backdropFilter: 'blur(10px)'
-              }}>
-                <div style={{ width: 6, height: 6, borderRadius: '50%', background: '#2ECC71', boxShadow: '0 0 10px #2ECC71' }}></div>
-                Oregon Telehealth Hub
-              </div>
-              
-              <h1 className="serif" style={{ fontSize: 'clamp(40px, 6vw, 72px)', lineHeight: 1.1, marginBottom: 24, letterSpacing: '-0.02em' }}>
-                Clinical GLP-1 Weight Loss in <br className="d-none d-lg-block" />
-                <span style={{ 
-                  display: 'inline-block', 
-                  background: '#2ECC71', 
-                  color: '#0A0F0D', 
-                  padding: '4px 24px', 
-                  borderRadius: 'clamp(8px, 2vw, 16px)', 
-                  marginTop: 'clamp(8px, 2vw, 16px)',
-                  fontWeight: 600,
-                  transform: 'rotate(-1deg)'
-                }}>
-                  Portland
-                </span>
-              </h1>
-              
-              <p style={{ fontSize: 'clamp(16px, 2vw, 20px)', opacity: 0.9, marginBottom: 40, lineHeight: 1.6, maxWidth: 650, marginInline: 'auto' }} className="ms-lg-0">
-                Skip the gridlock on I-5 and the premium markups at Pearl District medical spas. Access U.S.-licensed compounded Semaglutide and Tirzepatide, delivered directly to your door anywhere in the Rose City.
-              </p>
-              
-              <div style={{ display: 'flex', gap: 16, flexWrap: 'wrap', justifyItems: 'center' }} className="justify-content-center justify-content-lg-start">
-                <a href={SEMAGLUTIDE_URL} style={{ 
-                  background: '#FBF8F3', 
-                  color: '#0A0F0D', 
-                  fontSize: 18, 
-                  padding: '16px 36px', 
-                  fontWeight: 600, 
-                  borderRadius: 100,
-                  textDecoration: 'none',
-                  boxShadow: '0 8px 30px rgba(251, 248, 243, 0.2)',
-                  transition: 'transform 0.2s ease'
-                }}>
-                  Check OR Eligibility
-                </a>
-              </div>
+      <HeroVariationA
+        stateName="Oregon"
+        cityName="Portland"
+        headline="Clinical GLP-1 Weight Loss in <br/><span style='color: #2ECC71'>Portland</span>"
+        subheadline="Portland is the global capital of athletic apparel and 'wellness' food culture. But organic agave, oat milk lattes, and vegan donuts drive the exact same insulin resistance as fast food. It's time to separate dietary morality from metabolic reality. Compounded Semaglutide, delivered from the Pearl District to the Silicon Forest."
+        ctaText="Check Oregon Eligibility"
+      />
 
-              <div style={{ display: 'flex', alignItems: 'center', gap: 24, marginTop: 40, opacity: 0.8, flexWrap: 'wrap' }} className="justify-content-center justify-content-lg-start">
-                 <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-                    <Icon.Check size={18} color="#2ECC71" />
-                    <span style={{ fontSize: 14, fontWeight: 500 }}>Oregon Medical Board Compliant</span>
-                 </div>
-                 <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-                    <Icon.Check size={18} color="#2ECC71" />
-                    <span style={{ fontSize: 14, fontWeight: 500 }}>Overnight Cold-Pack Shipping</span>
-                 </div>
-              </div>
-            </div>
-            
-            <div className="col-lg-4 d-none d-lg-block">
-            </div>
-          </div>
-        </div>
-      </section>
+      <ClinicalDeepDive
+        title="The Artisanal Carbohydrate Trap"
+        paragraphs={[
+          "Portland's metabolic health challenge is arguably the most psychologically frustrating in the country, because the city has successfully conflated 'ethical' or 'artisanal' eating with metabolic health. Portland is a national pioneer in farm-to-table dining, food cart innovation, craft brewing, and plant-based cuisine. But the human endocrine system cannot read a menu's sourcing philosophy. From an insulin perspective, an organic, locally sourced vegan donut from Voodoo or Blue Star triggers the exact same glycemic spike and hyperinsulinemia as a mass-produced pastry.",
+          "This is the artisanal carbohydrate trap. Portland residents frequently consume diets that are morally conscious, environmentally sustainable, and metabolically disastrous. The oat milk latte (which spikes blood glucose far faster than whole milk due to its maltose content), the gluten-free craft IPA, the organic agave-sweetened kombucha, the farm-fresh food cart pad thai—these are culturally coded as 'healthy.' Yet they flood the liver with simple carbohydrates and fructose, driving fatty liver progression and insulin resistance just as efficiently as soda and fast food.",
+          "This dietary environment exists within the same grey-sky meteorology as Seattle. Portland experiences over 160 rainy days a year, with significant cloud cover spanning from late October through May. The resulting Seasonal Affective Disorder (SAD) and suppressed serotonin levels drive the exact same neurological carbohydrate cravings seen in Puget Sound. But in Portland, those cravings are satisfied not just by Starbucks, but by a 600-food-cart infrastructure that makes high-density, artisanal calories available on nearly every corner.",
+          "The irony reaches its peak when you consider Portland's corporate identity. This metro is the undisputed global capital of athletic apparel and footwear. Nike, Adidas North America, Columbia Sportswear, and Under Armour's footwear design center are all based here. The city’s economy literally designs the equipment the world uses to stay fit. Yet tens of thousands of the employees working on these campuses spend 10 hours a day sitting at CAD workstations or in marketing meetings, fighting the same metabolic dysfunction as the rest of the country.",
+          "For Portlanders caught in this cycle—eating 'clean' but still gaining weight, exercising when the rain allows but seeing no results—the solution is not more dietary restriction. The solution is repairing the hormonal signaling that chronic carbohydrate exposure and stress have broken. GLP-1 receptor agonists restore insulin sensitivity and appetite regulation, allowing your body to function properly within Portland's unique environment."
+        ]}
+        citations={[
+          "Oregon Health Authority. (2025). <em>State of Health Report: Obesity and Metabolic Syndrome in the Portland Tri-County Area</em>.",
+          "Oregon Health & Science University (OHSU). (2024). <em>Glycemic Impact of Plant-Based Milk Alternatives and Artisanal Sweeteners</em>.",
+          "Journal of Public Health Nutrition. (2024). <em>The Health Halo Effect: Metabolic Consequences of 'Clean Eating' Marketing in Urban Populations</em>."
+        ]}
+      />
 
-      {/* 2. METABOLIC HEALTH DATA (MOBILE OPTIMIZED GRID) */}
-      <section style={{ padding: 'clamp(60px, 8vw, 100px) 0' }}>
-        <div className="container">
-           <div className="row g-5 align-items-center">
-              <div className="col-lg-6">
-                 <h2 className="serif" style={{ fontSize: 'clamp(32px, 4vw, 48px)', lineHeight: 1.2, marginBottom: 24, color: 'var(--ink)' }}>
-                    The Pacific Northwest Reality
-                 </h2>
-                 <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', color: 'var(--ink-2)', marginBottom: 24, lineHeight: 1.7 }}>
-                    Navigating metabolic health in Portland presents a unique physiological challenge. While the region is known for its access to nature, the reality of "The Big Dark"—nine months of continuous rain and overcast skies—frequently leads to seasonal affective dips that severely suppress outdoor mobility and naturally induce extended periods of indoor sedentary behavior.
-                 </p>
-                 <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', color: 'var(--ink-2)', marginBottom: 32, lineHeight: 1.7 }}>
-                    Combine this with high-stress corporate tech roles in the "Silicon Forest," exhausting commutes on Highway 26 or I-5, and a heavy local craft beer and food cart culture, and the resulting chronic cortisol spikes lead directly to insulin resistance. Under these conditions, traditional diet protocols frequently hit a physiological wall.
-                 </p>
-                 <a href="/blog/ozempic-insulin-resistance" style={{ color: 'var(--brand)', textDecoration: 'none', fontWeight: 600, display: 'inline-flex', alignItems: 'center', gap: 8 }}>
-                    Read our clinical guide to insulin resistance <Icon.Arrow size={16} />
-                 </a>
-              </div>
-              
-              <div className="col-lg-5 offset-lg-1">
-                 <div style={{ 
-                   background: '#fff', 
-                   padding: 'clamp(24px, 4vw, 40px)', 
-                   borderRadius: 24, 
-                   boxShadow: '0 20px 40px rgba(0,0,0,0.04)',
-                   border: '1px solid rgba(0,0,0,0.05)'
-                 }}>
-                    <h3 className="serif" style={{ fontSize: 24, marginBottom: 8, color: 'var(--ink)' }}>Hyper-Local Delivery Areas</h3>
-                    <p style={{ color: 'var(--ink-2)', fontSize: 15, marginBottom: 24 }}>Our 503A pharmacies ship cold-packed medications directly to your home across Greater Portland:</p>
-                    
-                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))', gap: 16 }}>
-                       {['Pearl District', 'Nob Hill (NW)', 'Lake Oswego', 'Beaverton', 'Sellwood', 'Hawthorne', 'Alberta Arts', 'Hillsboro'].map(region => (
-                         <div key={region} style={{ display: 'flex', alignItems: 'center', gap: 12, background: 'var(--surface-2)', padding: '12px 16px', borderRadius: 12 }}>
-                            <div style={{ width: 8, height: 8, background: '#2ECC71', borderRadius: '50%' }}></div> 
-                            <span style={{ fontWeight: 500, fontSize: 15, color: 'var(--ink)' }}>{region}</span>
-                         </div>
-                       ))}
-                    </div>
-                 </div>
-              </div>
-           </div>
-        </div>
-      </section>
+      <PatientArchetype
+        archetype="The Nike WHQ Product Developer"
+        quote="I work on a campus built for Olympic athletes. There's a world-class gym, a running track through the woods, and elite runners passing my window. But my job is 60 hours a week at a desk, managing supply chain crises in Vietnam. I eat 'healthy' food from the cafeteria, I try to run on weekends, and my BMI kept climbing. Seeking obesity treatment when you work at Nike feels like admitting failure."
+        details="<strong>Patient Profile:</strong> David, 38, Senior Footwear Product Developer at Nike World Headquarters, Beaverton.<br/><br/><strong>The Challenge:</strong> David works in the epicenter of global fitness culture. The Nike WHQ campus is designed to celebrate athletic achievement. But David is a desk-bound professional managing high-stress product timelines. His diet consists of 'healthy' options—oat milk lattes, grain bowls, plant-based proteins—that are nonetheless carbohydrate-heavy. His cortisol is elevated from constant deadline pressure. His Providence Health plan (administered for Nike employees) required a documented six-month trial of behavioral weight loss programs before authorizing a GLP-1. In a corporate culture that equates athleticism with competence, admitting he needed pharmaceutical help for his weight carried intense psychological friction.<br/><br/><strong>The Intervention:</strong> David completed the Telehealth FX asynchronous intake from his home in the Pearl District. An Oregon-licensed physician evaluated his metabolic profile—recognizing the insulin resistance driven by stress and high-glycemic 'healthy' eating—and prescribed compounded Tirzepatide within 24 hours. No sitting in a waiting room. No employer-sponsored behavioral tracking programs. Total privacy, delivered overnight."
+      />
 
-      {/* 3. COST ARBITRAGE (GLASSMORPHISM CARDS) */}
-      <section style={{ padding: 'clamp(60px, 8vw, 100px) 0', background: '#0A0F0D', color: '#fff' }}>
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-lg-10 text-center">
-              <h2 className="serif" style={{ fontSize: 'clamp(32px, 5vw, 56px)', marginBottom: 24 }}>The Portland Cost Arbitrage</h2>
-              <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', opacity: 0.8, marginBottom: 'clamp(40px, 6vw, 60px)', maxWidth: 800, marginInline: 'auto', lineHeight: 1.7 }}>
-                Premium commercial real estate costs in high-income zip codes are passed directly to you via massive medication markups. By utilizing decentralized telehealth, you pay strictly for the clinical care and the medication.
-              </p>
+      <InsuranceBreakdown
+        title="Silicon Forest & Athletic Brands: The Corporate Barrier"
+        text="Portland's economic engine is driven by athletic apparel, advanced tech manufacturing, and healthcare. Despite the progressive branding of these industries, their health plans rely on standard utilization management tactics to restrict GLP-1 access."
+        employers={[
+          { name: "Nike / Columbia / Adidas (Athletic Apparel)", detail: "The athletic apparel giants offer comprehensive benefits, but their self-funded plans often approach weight management through the lens of their own brand identities: heavy emphasis on behavioral modification, gym access, and 'wellness' programs. GLP-1 medications are frequently subjected to rigorous Step Therapy, requiring employees to fail employer-sponsored diet programs before pharmaceutical intervention is authorized." },
+          { name: "Intel (The 'Silicon Forest' in Hillsboro)", detail: "Intel is Oregon's largest private employer. The thousands of engineers and fab technicians working at the Ronler Acres and Gordon Moore campuses are covered by plans that classify GLP-1s as specialty medications. The prior authorization process requires specific comorbidity documentation that many engineers—who are metabolically unwell but not yet diabetic—cannot provide." },
+          { name: "Providence / Legacy Health / OHSU (Healthcare)", detail: "As in Nashville, Portland's massive healthcare workforce is insured by the systems that employ them. Providence and Legacy health plans impose the same formulary restrictions and PBM delays on their own nurses and administrators that they enforce on the general public." }
+        ]}
+      />
 
-              <div className="row g-4 text-start">
-                <div className="col-md-6">
-                  <div style={{ 
-                    padding: 'clamp(32px, 4vw, 48px)', 
-                    height: '100%', 
-                    background: 'rgba(255,255,255,0.03)', 
-                    border: '1px solid rgba(255,255,255,0.1)',
-                    borderRadius: 32,
-                    backdropFilter: 'blur(20px)'
-                  }}>
-                    <div style={{ color: '#e74c3c', fontWeight: 600, letterSpacing: 1, fontSize: 13, textTransform: 'uppercase', marginBottom: 16 }}>The Traditional Route</div>
-                    <h3 className="serif" style={{ fontSize: 32, marginBottom: 16 }}>Pearl District MedSpas</h3>
-                    <p style={{ opacity: 0.7, marginBottom: 32, lineHeight: 1.6 }}>
-                      Visiting a boutique anti-aging clinic in the Pearl District, Lake Oswego, or Northwest Portland requires paying a massive premium for the zip code.
-                    </p>
-                    <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: 16 }}>
-                      <li style={{ display: 'flex', gap: 16 }}>
-                        <div style={{ color: '#e74c3c', marginTop: 2 }}><Icon.Minus size={20} /></div>
-                        <span style={{ opacity: 0.9 }}>Average Cost: <strong style={{ color: '#fff' }}>$600 - $900 / month</strong></span>
-                      </li>
-                      <li style={{ display: 'flex', gap: 16 }}>
-                        <div style={{ color: '#e74c3c', marginTop: 2 }}><Icon.Minus size={20} /></div>
-                        <span style={{ opacity: 0.9 }}>Mandatory in-person consultations</span>
-                      </li>
-                      <li style={{ display: 'flex', gap: 16 }}>
-                        <div style={{ color: '#e74c3c', marginTop: 2 }}><Icon.Minus size={20} /></div>
-                        <span style={{ opacity: 0.9 }}>Hidden "membership" or bloodwork fees</span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
+      <CostComparisonTable
+        title="What Weight Loss Actually Costs in Portland"
+        localCompetitors={[
+          { name: "Lake Oswego / Pearl District Concierge", cost: "$800 - $1,200 / mo", consult: "Mandatory In-Person + Holistic Panel", access: "Branded Only / Waitlisted" },
+          { name: "NW Portland Naturopathic Clinics", cost: "$400 - $800 / mo", consult: "Monthly Membership + Supplements", access: "Variable Compounding + B12" },
+          { name: "OHSU Endocrinology", cost: "$150 Copay + Rx", consult: "12-16 Week New Patient Wait", access: "Formulary Restrictions / Prior Auth" },
+          { name: "Providence Primary Care", cost: "$45 Copay", consult: "6-8 Week Wait", access: "Step Therapy / Pharmacy Backorder" }
+        ]}
+        telehealthPrice="From $146 / mo"
+      />
 
-                <div className="col-md-6">
-                  <div style={{ 
-                    padding: 'clamp(32px, 4vw, 48px)', 
-                    height: '100%', 
-                    background: 'linear-gradient(135deg, rgba(46, 204, 113, 0.1) 0%, rgba(46, 74, 59, 0.05) 100%)', 
-                    border: '1px solid rgba(46, 204, 113, 0.2)',
-                    borderRadius: 32,
-                    boxShadow: '0 20px 40px rgba(0,0,0,0.2)'
-                  }}>
-                    <div style={{ color: '#2ECC71', fontWeight: 600, letterSpacing: 1, fontSize: 13, textTransform: 'uppercase', marginBottom: 16 }}>The TelehealthFX Route</div>
-                    <h3 className="serif" style={{ fontSize: 32, marginBottom: 16 }}>Direct-to-Patient Care</h3>
-                    <p style={{ opacity: 0.7, marginBottom: 32, lineHeight: 1.6 }}>
-                      Access the exact same active pharmaceutical ingredients prescribed by licensed clinicians, with zero real estate markups.
-                    </p>
-                    <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: 16 }}>
-                      <li style={{ display: 'flex', gap: 16 }}>
-                        <div style={{ color: '#2ECC71', marginTop: 2 }}><Icon.Check size={20} /></div>
-                        <span style={{ opacity: 0.9 }}>Cost: <strong style={{ color: '#fff' }}>From $146 / month</strong></span>
-                      </li>
-                      <li style={{ display: 'flex', gap: 16 }}>
-                        <div style={{ color: '#2ECC71', marginTop: 2 }}><Icon.Check size={20} /></div>
-                        <span style={{ opacity: 0.9 }}>100% online asynchronous intake</span>
-                      </li>
-                      <li style={{ display: 'flex', gap: 16 }}>
-                        <div style={{ color: '#2ECC71', marginTop: 2 }}><Icon.Check size={20} /></div>
-                        <span style={{ opacity: 0.9 }}>Shipped overnight in cold-packs</span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <LocalTransitPain
+        title="Bypass the US-26 Crawl & OHSU Waitlists"
+        transitText="Portland's geography is defined by the Willamette River and the West Hills, creating natural choke points that turn daily commutes into prolonged stress events. Whether you are battling the US-26 (Sunset Highway) crawl to Intel in Hillsboro, crossing the Marquam or Fremont bridges, or navigating I-5 traffic through the Rose Quarter, getting across town is a logistical headache."
+        hospitalText="<strong>Oregon Health & Science University (OHSU)</strong> is the state's premier academic medical center—quite literally sitting on a hill above the city, accessible by an aerial tram. While world-class, its endocrinology and metabolic clinics have new-patient waitlists stretching 12 to 16 weeks. <strong>Providence</strong> and <strong>Legacy Health</strong> operate extensive networks, but face similar capacity constraints. And your local <strong>Fred Meyer</strong>, <strong>Safeway</strong>, or <strong>Walgreens</strong> has the same sign on the counter: 'Wegovy out of stock indefinitely.'"
+      />
 
-      {/* 4. REAL-TIME SUPPLY CHAIN & HOSPITAL WAITLISTS */}
-      <section style={{ padding: 'clamp(60px, 8vw, 100px) 0' }}>
-        <div className="container">
-           <div className="row g-5">
-              <div className="col-lg-6">
-                 <div style={{ display: 'inline-block', background: 'var(--surface-2)', padding: '6px 16px', borderRadius: 100, fontSize: 13, fontWeight: 600, color: 'var(--brand)', textTransform: 'uppercase', letterSpacing: 1, marginBottom: 24 }}>
-                    Portland Supply Chain Reality
-                 </div>
-                 <h2 className="serif" style={{ fontSize: 'clamp(32px, 4vw, 40px)', marginBottom: 24, lineHeight: 1.2 }}>Bypass I-5 Traffic & OHSU Waitlists</h2>
-                 <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', color: 'var(--ink-2)', marginBottom: 24, lineHeight: 1.7 }}>
-                    Whether you're enduring bumper-to-bumper traffic on I-5, navigating the Sunset Highway (US-26) from Beaverton, or dealing with MAX Light Rail delays, spending an hour commuting just to sit in a doctor's waiting room for a 5-minute prescription refill is an outdated model.
-                 </p>
-                 <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', color: 'var(--ink-2)', marginBottom: 32, lineHeight: 1.7 }}>
-                    Even worse, if you try to fill a prescription for branded Wegovy at the local Fred Meyer or Safeway, you know the reality: <strong>the medications are on indefinite national backorder.</strong> Furthermore, securing an appointment at metabolic centers like <strong>OHSU</strong> or <strong>Providence</strong> takes months, and local insurance plans frequently deny prior authorizations.
-                 </p>
-                 
-                 <div style={{ display: 'flex', alignItems: 'center', gap: 16, background: '#fff', padding: 20, borderRadius: 16, border: '1px solid var(--line-soft)', boxShadow: '0 4px 12px rgba(0,0,0,0.02)' }}>
-                    <div style={{ width: 48, height: 48, background: 'rgba(46, 204, 113, 0.1)', borderRadius: 12, display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#2ECC71' }}>
-                       <Icon.Shield size={24} />
-                    </div>
-                    <div>
-                       <strong style={{ display: 'block', fontSize: 16, color: 'var(--ink)' }}>HSA / FSA Accepted</strong>
-                       <span style={{ fontSize: 14, color: 'var(--ink-2)' }}>Bypass Oregon insurance denials entirely. Use pre-tax dollars for your compounding protocol.</span>
-                    </div>
-                 </div>
-              </div>
-              
-              <div className="col-lg-6">
-                 <div style={{ background: '#fff', padding: 'clamp(24px, 4vw, 40px)', borderRadius: 32, boxShadow: '0 20px 60px rgba(0,0,0,0.05)', border: '1px solid rgba(0,0,0,0.03)' }}>
-                    <h3 className="serif" style={{ fontSize: 24, marginBottom: 32 }}>The 503A Patient Journey</h3>
-                    <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: 32 }}>
-                       <li style={{ display: 'flex', gap: 20 }}>
-                          <div style={{ width: 40, height: 40, background: '#2ECC71', color: '#000', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold', fontSize: 18, flexShrink: 0, boxShadow: '0 4px 12px rgba(46, 204, 113, 0.3)' }}>1</div>
-                          <div>
-                             <strong style={{ display: 'block', fontSize: 18, marginBottom: 8, color: 'var(--ink)' }}>Complete OR Intake</strong>
-                             <span style={{ color: 'var(--ink-2)', fontSize: 15, lineHeight: 1.6 }}>Fill out your health profile online from your home. No commutes or waiting rooms required.</span>
-                          </div>
-                       </li>
-                       <li style={{ display: 'flex', gap: 20 }}>
-                          <div style={{ width: 40, height: 40, background: '#2ECC71', color: '#000', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold', fontSize: 18, flexShrink: 0, boxShadow: '0 4px 12px rgba(46, 204, 113, 0.3)' }}>2</div>
-                          <div>
-                             <strong style={{ display: 'block', fontSize: 18, marginBottom: 8, color: 'var(--ink)' }}>Physician Review</strong>
-                             <span style={{ color: 'var(--ink-2)', fontSize: 15, lineHeight: 1.6 }}>A licensed Oregon physician reviews your chart and approves your script within 24 hours.</span>
-                          </div>
-                       </li>
-                       <li style={{ display: 'flex', gap: 20 }}>
-                          <div style={{ width: 40, height: 40, background: '#2ECC71', color: '#000', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold', fontSize: 18, flexShrink: 0, boxShadow: '0 4px 12px rgba(46, 204, 113, 0.3)' }}>3</div>
-                          <div>
-                             <strong style={{ display: 'block', fontSize: 18, marginBottom: 8, color: 'var(--ink)' }}>Overnight Delivery</strong>
-                             <span style={{ color: 'var(--ink-2)', fontSize: 15, lineHeight: 1.6 }}>Medication is compounded and shipped cold-packed straight to your door in Greater Portland.</span>
-                          </div>
-                       </li>
-                    </ul>
-                 </div>
-              </div>
-           </div>
-        </div>
-      </section>
+      <InteractiveFAQ
+        faqs={[
+          { q: "I eat a strict vegan/plant-based diet but can't lose weight. Will this help?", a: "Yes. Plant-based diets can be highly nutritious, but they can also be heavily reliant on carbohydrates (grains, legumes, oat milk, natural sweeteners). If you have underlying insulin resistance, a high-carbohydrate diet—even a vegan one—will trigger excessive insulin production and fat storage. GLP-1 medications correct this hormonal misfire, allowing your body to regulate energy properly regardless of whether your macros come from plants or animal sources." },
+          { q: "I work at Nike/Adidas. Can I use Telehealth FX privately?", a: "Absolutely. Telehealth FX is entirely separate from your employer and your employer-sponsored health plan. Your health data, intake, and prescription are protected by HIPAA and will never be shared with your employer or your corporate wellness program." },
+          { q: "Do you deliver to the Silicon Forest (Hillsboro/Beaverton)?", a: "Yes. We deliver to all residential and commercial addresses in the Portland Tri-County area (Multnomah, Washington, Clackamas), including Portland, Beaverton, Hillsboro, Lake Oswego, Tigard, and Gresham. We also deliver across the river to Clark County, Washington (Vancouver)." },
+          { q: "I live in Vancouver, WA but work in Portland. Which state applies?", a: "Telehealth regulations are based on your physical location at the time of care. If you live in Vancouver, you will be evaluated by a Washington-licensed physician. Telehealth FX serves both Oregon and Washington residents, so you are covered seamlessly across the entire metro area." },
+          { q: "Is compounded Semaglutide safe?", a: "Yes. Our compounded medications are sourced exclusively from FDA-registered 503A compounding pharmacies operating under rigorous USP guidelines. The active pharmaceutical ingredient is the same as in branded medications, but the compounding process allows us to bypass the national shortages affecting retail pharmacies." }
+        ]}
+      />
 
-      {/* 5. LOCAL SEO & SERVICE AREA MAP */}
-      <section style={{ padding: 'clamp(60px, 8vw, 100px) 0', background: '#fff', borderTop: '1px solid var(--line-soft)' }}>
-        <div className="container">
-          <div className="row g-5 align-items-center">
-            <div className="col-lg-5 text-center text-lg-start">
-              <h2 className="serif" style={{ fontSize: 'clamp(32px, 4vw, 40px)', marginBottom: 24 }}>Portland Service Area</h2>
-              <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', color: 'var(--ink-2)', marginBottom: 32, lineHeight: 1.7 }}>
-                Telehealth FX provides asynchronous medical weight loss and GLP-1 prescribing services to all permanent residents and professionals operating within Portland and the surrounding Pacific Northwest region.
-              </p>
-              <div style={{ background: '#FBF8F3', padding: 32, borderRadius: 24, textAlign: 'left' }}>
-                 <h4 style={{ fontSize: 18, marginBottom: 16, fontWeight: 600, color: 'var(--ink)' }}>Coverage Coordinates</h4>
-                 <ul style={{ listStyle: 'none', padding: 0, margin: 0, color: 'var(--ink-2)', fontSize: 15, display: 'flex', flexDirection: 'column', gap: 12 }}>
-                    <li style={{ display: 'flex', justifyContent: 'space-between', borderBottom: '1px solid rgba(0,0,0,0.05)', paddingBottom: 8 }}>
-                       <span>Primary Locality</span> <strong>Portland, OR</strong>
-                    </li>
-                    <li style={{ display: 'flex', justifyContent: 'space-between', borderBottom: '1px solid rgba(0,0,0,0.05)', paddingBottom: 8 }}>
-                       <span>Coordinates</span> <strong>45.5152° N, 122.6784° W</strong>
-                    </li>
-                    <li style={{ display: 'flex', flexDirection: 'column', gap: 4 }}>
-                       <span>Counties Served:</span>
-                       <strong style={{ lineHeight: 1.4 }}>Multnomah County, Washington County, Clackamas County, Clark County</strong>
-                    </li>
-                 </ul>
-              </div>
-            </div>
-            <div className="col-lg-7">
-               <div style={{ width: '100%', height: '100%', minHeight: 450, borderRadius: 32, overflow: 'hidden', boxShadow: '0 24px 48px rgba(0,0,0,0.08)' }}>
-                  <iframe 
-                    width="100%" 
-                    height="100%" 
-                    style={{ minHeight: 450, filter: 'grayscale(0.2) contrast(1.1)' }}
-                    src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Portland,%20OR+(Telehealth%20FX%20Portland)&amp;t=&amp;z=10&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" 
-                    frameBorder="0"
-                    allowFullScreen>
-                  </iframe>
-               </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <StateLegalFramework
+        stateName="Oregon"
+        boardName="Oregon Medical Board"
+        text="Telehealth FX operates in strict compliance with the <strong>Oregon Medical Board</strong> and ORS 677.010 et seq. (Oregon's telehealth regulations). Oregon law permits the establishment of a physician-patient relationship and the prescribing of non-controlled substances via telehealth, including asynchronous store-and-forward technologies. All Telehealth FX prescribers treating Oregon patients hold active, unrestricted Oregon medical licenses verified through the Oregon Medical Board's licensee lookup system. For patients residing in Vancouver, our prescribers hold Washington state licenses."
+      />
 
-      {/* FINAL CTA */}
-      <section style={{ padding: 'clamp(80px, 10vw, 120px) 0', background: 'var(--brand)', color: '#fff', textAlign: 'center' }}>
-         <div className="container" style={{ maxWidth: 800 }}>
-            <h2 className="serif" style={{ fontSize: 'clamp(40px, 5vw, 56px)', marginBottom: 24, color: '#fff' }}>Ready to optimize your metabolic health?</h2>
-            <p style={{ fontSize: 'clamp(18px, 2.5vw, 22px)', opacity: 0.9, marginBottom: 40, lineHeight: 1.6 }}>Join thousands of Oregonians who have transitioned to clinical GLP-1 telehealth.</p>
-            <a href={SEMAGLUTIDE_URL} style={{ 
-               display: 'inline-block',
-               background: '#fff', 
-               color: 'var(--brand)', 
-               fontSize: 20, 
-               padding: '20px 48px', 
-               fontWeight: 600,
-               borderRadius: 100,
-               textDecoration: 'none',
-               boxShadow: '0 10px 30px rgba(0,0,0,0.1)'
-            }}>Check Your OR Eligibility Today</a>
-         </div>
-      </section>
+      <DeliveryGridMap
+        cityName="Portland"
+        mapQuery="Portland, OR"
+        coordinates="45.5152° N, 122.6784° W"
+        counties="Multnomah County (OR), Washington County (OR), Clackamas County (OR), Clark County (WA)"
+        neighborhoods={['Pearl District', 'Nob Hill', 'Hawthorne', 'Beaverton', 'Hillsboro', 'Lake Oswego', 'Tigard', 'Gresham', 'Vancouver (WA)']}
+      />
+
+      <FinalCTA stateName="Oregon" />
+
     </div>
   );
 }
