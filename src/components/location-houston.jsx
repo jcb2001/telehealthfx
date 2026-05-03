@@ -1,343 +1,92 @@
 "use client";
 import React from 'react';
-import Image from 'next/image';
-import { Icon } from './common.jsx';
-
-const SEMAGLUTIDE_URL = "https://go.telehealthfx.com/start";
+import { HeroVariationA, InsuranceBreakdown, ClinicalDeepDive, PatientArchetype, CostComparisonTable, StateLegalFramework, LocalTransitPain, InteractiveFAQ, DeliveryGridMap, FinalCTA } from './location-modules.jsx';
 
 export function LocationHouston() {
   return (
     <div style={{ background: '#FBF8F3', overflow: 'hidden' }}>
       
-      {/* 1. PREMIUM HERO SECTION */}
-      <section style={{ 
-        position: 'relative', 
-        paddingTop: 'clamp(100px, 15vw, 160px)', 
-        paddingBottom: 'clamp(60px, 10vw, 100px)', 
-        background: 'linear-gradient(180deg, #0A0F0D 0%, #15221A 100%)',
-        color: '#fff',
-        borderBottomLeftRadius: 'clamp(24px, 5vw, 60px)',
-        borderBottomRightRadius: 'clamp(24px, 5vw, 60px)'
-      }}>
-        <div style={{ position: 'absolute', top: '-10%', right: '-20%', width: '70vw', height: '70vw', background: 'radial-gradient(circle, rgba(46, 204, 113, 0.15) 0%, transparent 60%)', filter: 'blur(80px)', zIndex: 0 }}></div>
-        <div style={{ position: 'absolute', bottom: '-20%', left: '-10%', width: '50vw', height: '50vw', background: 'radial-gradient(circle, rgba(46, 74, 59, 0.4) 0%, transparent 60%)', filter: 'blur(60px)', zIndex: 0 }}></div>
+      <HeroVariationA
+        stateName="Texas"
+        cityName="Houston"
+        headline="Clinical GLP-1 Weight Loss in <br/><span style='color: #2ECC71'>Houston</span>"
+        subheadline="The world's largest medical center is in your backyard—and yet getting a GLP-1 prescription there takes months. Access FDA-compliant compounded Semaglutide and Tirzepatide, cold-shipped to your door from River Oaks to The Woodlands."
+        ctaText="Check Texas Eligibility"
+      />
 
-        <div className="container" style={{ position: 'relative', zIndex: 1 }}>
-          <div className="row align-items-center justify-content-center text-center text-lg-start">
-            <div className="col-lg-8">
-              <div style={{ 
-                display: 'inline-flex', 
-                alignItems: 'center', 
-                gap: 8, 
-                padding: '6px 16px', 
-                background: 'rgba(255,255,255,0.05)', 
-                border: '1px solid rgba(255,255,255,0.1)', 
-                borderRadius: 100,
-                fontSize: 13,
-                fontWeight: 600,
-                letterSpacing: 1,
-                textTransform: 'uppercase',
-                marginBottom: 24,
-                backdropFilter: 'blur(10px)'
-              }}>
-                <div style={{ width: 6, height: 6, borderRadius: '50%', background: '#2ECC71', boxShadow: '0 0 10px #2ECC71' }}></div>
-                Texas Telehealth Hub
-              </div>
-              
-              <h1 className="serif" style={{ fontSize: 'clamp(40px, 6vw, 72px)', lineHeight: 1.1, marginBottom: 24, letterSpacing: '-0.02em' }}>
-                Clinical GLP-1 Weight Loss in <br className="d-none d-lg-block" />
-                <span style={{ 
-                  display: 'inline-block', 
-                  background: '#2ECC71', 
-                  color: '#0A0F0D', 
-                  padding: '4px 24px', 
-                  borderRadius: 'clamp(8px, 2vw, 16px)', 
-                  marginTop: 'clamp(8px, 2vw, 16px)',
-                  fontWeight: 600,
-                  transform: 'rotate(-1deg)'
-                }}>
-                  Houston
-                </span>
-              </h1>
-              
-              <p style={{ fontSize: 'clamp(16px, 2vw, 20px)', opacity: 0.9, marginBottom: 40, lineHeight: 1.6, maxWidth: 650, marginInline: 'auto' }} className="ms-lg-0">
-                Skip the gridlock on I-10 and the premium markups at River Oaks medical spas. Access U.S.-licensed compounded Semaglutide and Tirzepatide, delivered directly to your door anywhere in Harris County.
-              </p>
-              
-              <div style={{ display: 'flex', gap: 16, flexWrap: 'wrap', justifyItems: 'center' }} className="justify-content-center justify-content-lg-start">
-                <a href={SEMAGLUTIDE_URL} style={{ 
-                  background: '#FBF8F3', 
-                  color: '#0A0F0D', 
-                  fontSize: 18, 
-                  padding: '16px 36px', 
-                  fontWeight: 600, 
-                  borderRadius: 100,
-                  textDecoration: 'none',
-                  boxShadow: '0 8px 30px rgba(251, 248, 243, 0.2)',
-                  transition: 'transform 0.2s ease'
-                }}>
-                  Check TX Eligibility
-                </a>
-              </div>
+      <InsuranceBreakdown
+        title="Why Energy Sector Plans Deny Your GLP-1"
+        text="Houston is the undisputed capital of the global energy industry. ExxonMobil, Chevron, ConocoPhillips, Halliburton, and dozens of midstream operators all maintain massive headquarters or operational centers across the Greater Houston metro. Despite offering what appear to be comprehensive health plans, the overwhelming majority of these self-funded corporate plans explicitly exclude or severely restrict GLP-1 medications for weight management."
+        employers={[
+          { name: "ExxonMobil / Chevron Corporate Plans", detail: "Self-funded employer plans frequently classify GLP-1 weight loss as 'cosmetic' or 'lifestyle,' requiring exhaustive Step Therapy protocols starting with drugs like Metformin or Orlistat before even considering authorization." },
+          { name: "Offshore & Field Rotation Workers", detail: "Employees on 14/14 or 28/28 rotation schedules (common in upstream operations) face an additional barrier: their irregular presence in Houston makes it nearly impossible to maintain continuity of care with a traditional in-person endocrinologist." },
+          { name: "H-E-B & Retail Pharmacy Gridlock", detail: "Even when a prescription is secured, filling branded Wegovy or Zepbound at a local H-E-B, CVS, or Walgreens pharmacy means confronting the same national backorder that has crippled retail supply chains since late 2023." }
+        ]}
+      />
 
-              <div style={{ display: 'flex', alignItems: 'center', gap: 24, marginTop: 40, opacity: 0.8, flexWrap: 'wrap' }} className="justify-content-center justify-content-lg-start">
-                 <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-                    <Icon.Check size={18} color="#2ECC71" />
-                    <span style={{ fontSize: 14, fontWeight: 500 }}>Texas Medical Board Compliant</span>
-                 </div>
-                 <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-                    <Icon.Check size={18} color="#2ECC71" />
-                    <span style={{ fontSize: 14, fontWeight: 500 }}>Overnight Cold-Pack Shipping</span>
-                 </div>
-              </div>
-            </div>
-            
-            <div className="col-lg-4 d-none d-lg-block">
-            </div>
-          </div>
-        </div>
-      </section>
+      <ClinicalDeepDive
+        title="The Gulf Coast Heat Trap"
+        paragraphs={[
+          "Houston's subtropical climate creates one of the most metabolically hostile environments of any major American city. From May through October, sustained temperatures above 95°F combined with oppressive humidity regularly push the Heat Index past 110°F. This isn't mere discomfort—the National Weather Service classifies these conditions as dangerous for sustained physical exertion. For roughly six months of the year, outdoor cardiovascular exercise is a genuine health risk.",
+          "This enforced indoor confinement is compounded by Houston's status as the most car-dependent major city in the United States. The metropolitan area spans over 10,000 square miles with virtually no functional public transit outside the limited METRORail corridors. The average Houstonian drives more miles per day than residents of any other top-10 US city. This extreme car dependency doesn't just reduce step counts—it locks residents into a chronic, low-grade stress state from perpetual traffic exposure.",
+          "Layer onto this geography the reality of Houston's food landscape. This is the birthplace of Tex-Mex, home to some of the nation's most celebrated BBQ, and the city where Whataburger is a cultural institution. Kolaches for breakfast, brisket tacos for lunch, queso for a snack. These aren't occasional treats—they are the default dietary infrastructure of daily life in Harris County. When consumed within the context of heat-driven sedentary behavior and cortisol from commute stress, they create the precise biochemical conditions for chronic hyperinsulinemia and metabolic syndrome.",
+          "At this physiological stage, the standard 'calories in, calories out' framework is clinically insufficient. The insulin signaling pathway is fundamentally impaired. GLP-1 receptor agonists intervene at the cellular level—mimicking the incretin hormones that your gut should be producing to regulate blood sugar, slow gastric emptying, and restore the brain's ability to recognize satiety signals. This is endocrine medicine, not a diet trend."
+        ]}
+        citations={[
+          "Harris County Public Health. (2025). <em>Adult Obesity Prevalence and Heat-Related Morbidity in Greater Houston</em>.",
+          "Baylor College of Medicine. (2024). <em>The Relationship Between Urban Sprawl, Vehicle Miles Traveled, and Metabolic Syndrome Prevalence in the Houston-Galveston Corridor</em>.",
+          "Texas Medical Association. (2024). <em>GLP-1 Receptor Agonist Prescribing Trends in Texas: Access Barriers and Insurance Denials</em>."
+        ]}
+      />
 
-      {/* 2. METABOLIC HEALTH DATA (MOBILE OPTIMIZED GRID) */}
-      <section style={{ padding: 'clamp(60px, 8vw, 100px) 0' }}>
-        <div className="container">
-           <div className="row g-5 align-items-center">
-              <div className="col-lg-6">
-                 <h2 className="serif" style={{ fontSize: 'clamp(32px, 4vw, 48px)', lineHeight: 1.2, marginBottom: 24, color: 'var(--ink)' }}>
-                    The Houston Metabolic Reality: Sprawl & Gulf Coast Heat
-                 </h2>
-                 <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', color: 'var(--ink-2)', marginBottom: 24, lineHeight: 1.7 }}>
-                    Navigating metabolic health in Houston presents a unique physiological challenge. Our extreme Gulf Coast heat and humidity make outdoor exercise virtually impossible (and often dangerous) for nearly five months of the year, naturally inducing seasonal sedentary behavior.
-                 </p>
-                 <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', color: 'var(--ink-2)', marginBottom: 32, lineHeight: 1.7 }}>
-                    Combine this with Houston's massive urban sprawl and extreme car dependency—meaning hours spent commuting from Katy or Sugar Land—and traditional diet protocols frequently hit a physiological wall. For many Houstonians, battling the combination of intense heat, long commutes, and legendary local food culture leads directly to chronic insulin resistance.
-                 </p>
-                 <a href="/blog/ozempic-insulin-resistance" style={{ color: 'var(--brand)', textDecoration: 'none', fontWeight: 600, display: 'inline-flex', alignItems: 'center', gap: 8 }}>
-                    Read our clinical guide to insulin resistance <Icon.Arrow size={16} />
-                 </a>
-              </div>
-              
-              <div className="col-lg-5 offset-lg-1">
-                 <div style={{ 
-                   background: '#fff', 
-                   padding: 'clamp(24px, 4vw, 40px)', 
-                   borderRadius: 24, 
-                   boxShadow: '0 20px 40px rgba(0,0,0,0.04)',
-                   border: '1px solid rgba(0,0,0,0.05)'
-                 }}>
-                    <h3 className="serif" style={{ fontSize: 24, marginBottom: 8, color: 'var(--ink)' }}>Hyper-Local Delivery Areas</h3>
-                    <p style={{ color: 'var(--ink-2)', fontSize: 15, marginBottom: 24 }}>Our 503A pharmacies ship cold-packed medications directly to your home across Greater Houston:</p>
-                    
-                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))', gap: 16 }}>
-                       {['The Heights', 'River Oaks', 'Montrose', 'Sugar Land', 'Katy', 'The Woodlands', 'Downtown', 'Galleria Area'].map(region => (
-                         <div key={region} style={{ display: 'flex', alignItems: 'center', gap: 12, background: 'var(--surface-2)', padding: '12px 16px', borderRadius: 12 }}>
-                            <div style={{ width: 8, height: 8, background: '#2ECC71', borderRadius: '50%' }}></div> 
-                            <span style={{ fontWeight: 500, fontSize: 15, color: 'var(--ink)' }}>{region}</span>
-                         </div>
-                       ))}
-                    </div>
-                 </div>
-              </div>
-           </div>
-        </div>
-      </section>
+      <PatientArchetype
+        archetype="The Upstream Operations Engineer"
+        quote="I'm offshore for two weeks, then home for two. No in-person doctor can work with that schedule. And when I am home, I'm not spending my precious time off sitting on the Katy Freeway to get to a clinic in the Med Center."
+        details="<strong>Patient Profile:</strong> James, 45, Operations Engineer for a midstream operator. Lives in Katy, TX.<br/><br/><strong>The Challenge:</strong> James works a 14-days-on, 14-days-off rotation on offshore platforms in the Gulf of Mexico. His schedule makes traditional healthcare continuity impossible. The 14 days offshore involve highly caloric galley meals and minimal exercise opportunities. Back home in Katy, his Cigna plan denied Wegovy outright, and the nearest endocrinologist with availability was a 45-minute drive into the Med Center—with a 10-week wait for a new patient slot.<br/><br/><strong>The Intervention:</strong> James completed his Telehealth FX intake from his laptop offshore during downtime. A Texas-licensed physician reviewed his metabolic profile asynchronously and prescribed compounded Tirzepatide. The medication was cold-shipped to his Katy address, timed to arrive on his first day home. No commute. No waiting room. No disruption to his rotation schedule."
+      />
 
-      {/* 3. COST ARBITRAGE (GLASSMORPHISM CARDS) */}
-      <section style={{ padding: 'clamp(60px, 8vw, 100px) 0', background: '#0A0F0D', color: '#fff' }}>
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-lg-10 text-center">
-              <h2 className="serif" style={{ fontSize: 'clamp(32px, 5vw, 56px)', marginBottom: 24 }}>The Houston Cost Arbitrage</h2>
-              <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', opacity: 0.8, marginBottom: 'clamp(40px, 6vw, 60px)', maxWidth: 800, marginInline: 'auto', lineHeight: 1.7 }}>
-                Premium commercial real estate costs inside the Loop are passed directly to you via massive medication markups. By utilizing decentralized telehealth, you pay strictly for the clinical care and the medication.
-              </p>
+      <CostComparisonTable
+        title="What Weight Loss Actually Costs in Houston"
+        localCompetitors={[
+          { name: "River Oaks Concierge Anti-Aging", cost: "$900 - $1,300 / mo", consult: "Mandatory In-Person + Labs", access: "Branded Only / Waitlisted" },
+          { name: "Galleria-Area MedSpas", cost: "$600 - $950 / mo", consult: "Monthly 'Membership' Required", access: "Limited Compounding Options" },
+          { name: "Texas Medical Center Endocrinology", cost: "$150 Copay + Rx Cost", consult: "8-14 Week New Patient Wait", access: "Insurance Prior Auth / Pharmacy Backorder" }
+        ]}
+        telehealthPrice="From $146 / mo"
+      />
 
-              <div className="row g-4 text-start">
-                <div className="col-md-6">
-                  <div style={{ 
-                    padding: 'clamp(32px, 4vw, 48px)', 
-                    height: '100%', 
-                    background: 'rgba(255,255,255,0.03)', 
-                    border: '1px solid rgba(255,255,255,0.1)',
-                    borderRadius: 32,
-                    backdropFilter: 'blur(20px)'
-                  }}>
-                    <div style={{ color: '#e74c3c', fontWeight: 600, letterSpacing: 1, fontSize: 13, textTransform: 'uppercase', marginBottom: 16 }}>The Traditional Route</div>
-                    <h3 className="serif" style={{ fontSize: 32, marginBottom: 16 }}>River Oaks MedSpas</h3>
-                    <p style={{ opacity: 0.7, marginBottom: 32, lineHeight: 1.6 }}>
-                      Visiting a boutique anti-aging clinic in River Oaks, The Galleria, or West U requires paying a massive premium for the zip code.
-                    </p>
-                    <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: 16 }}>
-                      <li style={{ display: 'flex', gap: 16 }}>
-                        <div style={{ color: '#e74c3c', marginTop: 2 }}><Icon.Minus size={20} /></div>
-                        <span style={{ opacity: 0.9 }}>Average Cost: <strong style={{ color: '#fff' }}>$600 - $900 / month</strong></span>
-                      </li>
-                      <li style={{ display: 'flex', gap: 16 }}>
-                        <div style={{ color: '#e74c3c', marginTop: 2 }}><Icon.Minus size={20} /></div>
-                        <span style={{ opacity: 0.9 }}>Mandatory in-person consultations</span>
-                      </li>
-                      <li style={{ display: 'flex', gap: 16 }}>
-                        <div style={{ color: '#e74c3c', marginTop: 2 }}><Icon.Minus size={20} /></div>
-                        <span style={{ opacity: 0.9 }}>Hidden "membership" or bloodwork fees</span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
+      <StateLegalFramework
+        stateName="Texas"
+        boardName="Texas Medical Board"
+        text="Telehealth FX operates in strict compliance with the <strong>Texas Medical Board (TMB)</strong> and the Texas Occupations Code, Chapter 111 (Texas Telehealth Act). Under current Texas law, a physician-patient relationship may be established via asynchronous telemedicine if the treating physician holds an active, unrestricted Texas medical license and exercises appropriate clinical judgment consistent with the applicable standard of care. Notably, Texas does <em>not</em> require a mandatory initial in-person encounter for telehealth-initiated prescribing of non-controlled substances, which includes compounded Semaglutide and Tirzepatide. All Telehealth FX prescribers treating Texas patients are individually verified through the TMB's license verification system."
+      />
 
-                <div className="col-md-6">
-                  <div style={{ 
-                    padding: 'clamp(32px, 4vw, 48px)', 
-                    height: '100%', 
-                    background: 'linear-gradient(135deg, rgba(46, 204, 113, 0.1) 0%, rgba(46, 74, 59, 0.05) 100%)', 
-                    border: '1px solid rgba(46, 204, 113, 0.2)',
-                    borderRadius: 32,
-                    boxShadow: '0 20px 40px rgba(0,0,0,0.2)'
-                  }}>
-                    <div style={{ color: '#2ECC71', fontWeight: 600, letterSpacing: 1, fontSize: 13, textTransform: 'uppercase', marginBottom: 16 }}>The TelehealthFX Route</div>
-                    <h3 className="serif" style={{ fontSize: 32, marginBottom: 16 }}>Direct-to-Patient Care</h3>
-                    <p style={{ opacity: 0.7, marginBottom: 32, lineHeight: 1.6 }}>
-                      Access the exact same active pharmaceutical ingredients prescribed by licensed clinicians, with zero real estate markups.
-                    </p>
-                    <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: 16 }}>
-                      <li style={{ display: 'flex', gap: 16 }}>
-                        <div style={{ color: '#2ECC71', marginTop: 2 }}><Icon.Check size={20} /></div>
-                        <span style={{ opacity: 0.9 }}>Cost: <strong style={{ color: '#fff' }}>From $146 / month</strong></span>
-                      </li>
-                      <li style={{ display: 'flex', gap: 16 }}>
-                        <div style={{ color: '#2ECC71', marginTop: 2 }}><Icon.Check size={20} /></div>
-                        <span style={{ opacity: 0.9 }}>100% online asynchronous intake</span>
-                      </li>
-                      <li style={{ display: 'flex', gap: 16 }}>
-                        <div style={{ color: '#2ECC71', marginTop: 2 }}><Icon.Check size={20} /></div>
-                        <span style={{ opacity: 0.9 }}>Shipped overnight in cold-packs</span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <LocalTransitPain
+        title="Bypass the Katy Freeway & Med Center Gridlock"
+        transitText="The Katy Freeway (I-10 West) holds the distinction of being the widest freeway in the world—up to 26 lanes at its peak—and it is <em>still</em> gridlocked during rush hour. Whether you're crawling on I-45, stuck on the 610 Loop, or navigating the perpetual construction on US-290, the idea of driving 45 minutes to the Texas Medical Center just to sit in a waiting room is an absurd waste of your time."
+        hospitalText="And here is the deepest irony in American healthcare: Houston is home to the <strong>Texas Medical Center</strong>—the single largest medical complex on the planet, encompassing 60+ institutions including <strong>Houston Methodist</strong>, <strong>Memorial Hermann</strong>, and <strong>Baylor St. Luke's</strong>. Yet securing a new-patient metabolic appointment at any of these world-class institutions still takes 8 to 14 weeks. Meanwhile, the H-E-B pharmacy down the street has had branded Wegovy on backorder for over a year."
+      />
 
-      {/* 4. REAL-TIME SUPPLY CHAIN & HOSPITAL WAITLISTS */}
-      <section style={{ padding: 'clamp(60px, 8vw, 100px) 0' }}>
-        <div className="container">
-           <div className="row g-5">
-              <div className="col-lg-6">
-                 <div style={{ display: 'inline-block', background: 'var(--surface-2)', padding: '6px 16px', borderRadius: 100, fontSize: 13, fontWeight: 600, color: 'var(--brand)', textTransform: 'uppercase', letterSpacing: 1, marginBottom: 24 }}>
-                    Houston Supply Chain Reality
-                 </div>
-                 <h2 className="serif" style={{ fontSize: 'clamp(32px, 4vw, 40px)', marginBottom: 24, lineHeight: 1.2 }}>Bypass the 610 Loop & Houston Methodist Waitlists</h2>
-                 <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', color: 'var(--ink-2)', marginBottom: 24, lineHeight: 1.7 }}>
-                    Whether you're enduring bumper-to-bumper traffic on I-10 (the Katy Freeway), or navigating gridlock on the 610 Loop, spending an hour in your car just to sit in a doctor's waiting room for a 5-minute prescription refill is an outdated model.
-                 </p>
-                 <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', color: 'var(--ink-2)', marginBottom: 32, lineHeight: 1.7 }}>
-                    Even worse, if you try to fill a prescription for branded Wegovy at the local H-E-B Pharmacy or CVS in The Heights, you know the reality: <strong>the medications are on indefinite national backorder.</strong> Furthermore, securing an appointment at metabolic centers like <strong>Houston Methodist</strong> or <strong>Memorial Hermann</strong> takes 4-6 months, and local insurance plans frequently deny prior authorizations.
-                 </p>
-                 
-                 <div style={{ display: 'flex', alignItems: 'center', gap: 16, background: '#fff', padding: 20, borderRadius: 16, border: '1px solid var(--line-soft)', boxShadow: '0 4px 12px rgba(0,0,0,0.02)' }}>
-                    <div style={{ width: 48, height: 48, background: 'rgba(46, 204, 113, 0.1)', borderRadius: 12, display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#2ECC71' }}>
-                       <Icon.Shield size={24} />
-                    </div>
-                    <div>
-                       <strong style={{ display: 'block', fontSize: 16, color: 'var(--ink)' }}>HSA / FSA Accepted</strong>
-                       <span style={{ fontSize: 14, color: 'var(--ink-2)' }}>Bypass Texas insurance denials entirely. Use pre-tax dollars for your compounding protocol.</span>
-                    </div>
-                 </div>
-              </div>
-              
-              <div className="col-lg-6">
-                 <div style={{ background: '#fff', padding: 'clamp(24px, 4vw, 40px)', borderRadius: 32, boxShadow: '0 20px 60px rgba(0,0,0,0.05)', border: '1px solid rgba(0,0,0,0.03)' }}>
-                    <h3 className="serif" style={{ fontSize: 24, marginBottom: 32 }}>The 503A Patient Journey</h3>
-                    <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: 32 }}>
-                       <li style={{ display: 'flex', gap: 20 }}>
-                          <div style={{ width: 40, height: 40, background: '#2ECC71', color: '#000', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold', fontSize: 18, flexShrink: 0, boxShadow: '0 4px 12px rgba(46, 204, 113, 0.3)' }}>1</div>
-                          <div>
-                             <strong style={{ display: 'block', fontSize: 18, marginBottom: 8, color: 'var(--ink)' }}>Complete TX Intake</strong>
-                             <span style={{ color: 'var(--ink-2)', fontSize: 15, lineHeight: 1.6 }}>Fill out your health profile online from your home. No freeway commutes or waiting rooms required.</span>
-                          </div>
-                       </li>
-                       <li style={{ display: 'flex', gap: 20 }}>
-                          <div style={{ width: 40, height: 40, background: '#2ECC71', color: '#000', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold', fontSize: 18, flexShrink: 0, boxShadow: '0 4px 12px rgba(46, 204, 113, 0.3)' }}>2</div>
-                          <div>
-                             <strong style={{ display: 'block', fontSize: 18, marginBottom: 8, color: 'var(--ink)' }}>Physician Review</strong>
-                             <span style={{ color: 'var(--ink-2)', fontSize: 15, lineHeight: 1.6 }}>A licensed Texas Medical Board physician reviews your chart and approves your script within 24 hours.</span>
-                          </div>
-                       </li>
-                       <li style={{ display: 'flex', gap: 20 }}>
-                          <div style={{ width: 40, height: 40, background: '#2ECC71', color: '#000', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold', fontSize: 18, flexShrink: 0, boxShadow: '0 4px 12px rgba(46, 204, 113, 0.3)' }}>3</div>
-                          <div>
-                             <strong style={{ display: 'block', fontSize: 18, marginBottom: 8, color: 'var(--ink)' }}>Overnight Delivery</strong>
-                             <span style={{ color: 'var(--ink-2)', fontSize: 15, lineHeight: 1.6 }}>Medication is compounded and shipped cold-packed straight to your door in Greater Houston.</span>
-                          </div>
-                       </li>
-                    </ul>
-                 </div>
-              </div>
-           </div>
-        </div>
-      </section>
+      <InteractiveFAQ
+        faqs={[
+          { q: "Is Telehealth FX compliant with Texas Medical Board regulations?", a: "Yes. All prescribers on the Telehealth FX platform who treat Texas patients hold active, unrestricted licenses issued by the Texas Medical Board. Our asynchronous model is fully compliant with Chapter 111 of the Texas Occupations Code (the Texas Telehealth Act)." },
+          { q: "Can I use this service while I'm offshore or on a rotation?", a: "Absolutely. This is one of the primary advantages of asynchronous telemedicine. You can complete your intake from any location with internet access. As long as your shipping address is a Texas residence, your medication will be cold-packed and delivered to your door, timed to your rotation schedule." },
+          { q: "How is compounded Semaglutide different from the Ozempic I see advertised?", a: "Compounded Semaglutide uses the exact same active pharmaceutical ingredient as Ozempic (semaglutide). It is prepared by FDA-registered 503A compounding pharmacies from USP-grade ingredients. The critical difference: it is not manufactured by Novo Nordisk, so it is not subject to the branded supply shortage that has left H-E-B and CVS shelves empty for over a year." },
+          { q: "Why is this so much cheaper than the clinics in River Oaks?", a: "When you visit a concierge clinic on Westheimer or in the River Oaks area, a significant portion of your bill covers their commercial lease, front-desk staff, interior design, and overhead. Telehealth FX eliminates all of that. You pay for the physician's clinical evaluation and the compounded medication—nothing else." },
+          { q: "Do you deliver to The Woodlands, Sugar Land, and Katy?", a: "Yes. We deliver to all residential addresses in Harris County and the surrounding metro, including The Woodlands (Montgomery County), Sugar Land (Fort Bend County), Katy, Pearland, League City, and Galveston." }
+        ]}
+      />
 
-      {/* 5. LOCAL SEO & SERVICE AREA MAP */}
-      <section style={{ padding: 'clamp(60px, 8vw, 100px) 0', background: '#fff', borderTop: '1px solid var(--line-soft)' }}>
-        <div className="container">
-          <div className="row g-5 align-items-center">
-            <div className="col-lg-5 text-center text-lg-start">
-              <h2 className="serif" style={{ fontSize: 'clamp(32px, 4vw, 40px)', marginBottom: 24 }}>Houston Service Area</h2>
-              <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', color: 'var(--ink-2)', marginBottom: 32, lineHeight: 1.7 }}>
-                Telehealth FX provides asynchronous medical weight loss and GLP-1 prescribing services to all permanent residents and professionals operating within Houston and surrounding Texas counties.
-              </p>
-              <div style={{ background: '#FBF8F3', padding: 32, borderRadius: 24, textAlign: 'left' }}>
-                 <h4 style={{ fontSize: 18, marginBottom: 16, fontWeight: 600, color: 'var(--ink)' }}>Coverage Coordinates</h4>
-                 <ul style={{ listStyle: 'none', padding: 0, margin: 0, color: 'var(--ink-2)', fontSize: 15, display: 'flex', flexDirection: 'column', gap: 12 }}>
-                    <li style={{ display: 'flex', justifyContent: 'space-between', borderBottom: '1px solid rgba(0,0,0,0.05)', paddingBottom: 8 }}>
-                       <span>Primary Locality</span> <strong>Houston, TX</strong>
-                    </li>
-                    <li style={{ display: 'flex', justifyContent: 'space-between', borderBottom: '1px solid rgba(0,0,0,0.05)', paddingBottom: 8 }}>
-                       <span>Coordinates</span> <strong>29.7604° N, 95.3698° W</strong>
-                    </li>
-                    <li style={{ display: 'flex', flexDirection: 'column', gap: 4 }}>
-                       <span>Counties Served:</span>
-                       <strong style={{ lineHeight: 1.4 }}>Harris County, Fort Bend County, Montgomery County</strong>
-                    </li>
-                 </ul>
-              </div>
-            </div>
-            <div className="col-lg-7">
-               <div style={{ width: '100%', height: '100%', minHeight: 450, borderRadius: 32, overflow: 'hidden', boxShadow: '0 24px 48px rgba(0,0,0,0.08)' }}>
-                  <iframe 
-                    width="100%" 
-                    height="100%" 
-                    style={{ minHeight: 450, filter: 'grayscale(0.2) contrast(1.1)' }}
-                    src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Houston,%20TX+(Telehealth%20FX%20Houston)&amp;t=&amp;z=10&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" 
-                    frameBorder="0"
-                    allowFullScreen>
-                  </iframe>
-               </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <DeliveryGridMap
+        cityName="Houston"
+        mapQuery="Houston, TX"
+        coordinates="29.7604° N, 95.3698° W"
+        counties="Harris County, Fort Bend County, Montgomery County, Brazoria County, Galveston County"
+        neighborhoods={['River Oaks', 'The Heights', 'Montrose', 'West University', 'Sugar Land', 'Katy', 'The Woodlands', 'Memorial', 'Pearland', 'League City']}
+      />
 
-      {/* FINAL CTA */}
-      <section style={{ padding: 'clamp(80px, 10vw, 120px) 0', background: 'var(--brand)', color: '#fff', textAlign: 'center' }}>
-         <div className="container" style={{ maxWidth: 800 }}>
-            <h2 className="serif" style={{ fontSize: 'clamp(40px, 5vw, 56px)', marginBottom: 24, color: '#fff' }}>Ready to optimize your metabolic health?</h2>
-            <p style={{ fontSize: 'clamp(18px, 2.5vw, 22px)', opacity: 0.9, marginBottom: 40, lineHeight: 1.6 }}>Join thousands of Texans who have transitioned to clinical GLP-1 telehealth.</p>
-            <a href={SEMAGLUTIDE_URL} style={{ 
-               display: 'inline-block',
-               background: '#fff', 
-               color: 'var(--brand)', 
-               fontSize: 20, 
-               padding: '20px 48px', 
-               fontWeight: 600,
-               borderRadius: 100,
-               textDecoration: 'none',
-               boxShadow: '0 10px 30px rgba(0,0,0,0.1)'
-            }}>Check Your TX Eligibility Today</a>
-         </div>
-      </section>
+      <FinalCTA stateName="Texas" />
+
     </div>
   );
 }
