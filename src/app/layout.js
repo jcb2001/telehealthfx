@@ -77,7 +77,8 @@ export default function RootLayout({ children }) {
         "@id": "https://telehealthfx.com/#product-semaglutide",
         "name": "Compounded Semaglutide Program",
         "brand": {
-          "@id": "https://telehealthfx.com/#organization"
+          "@type": "Brand",
+          "name": "Telehealth FX"
         },
         "description": "Comprehensive metabolic health program including clinician consults and compounded Semaglutide medication.",
         "image": "https://telehealthfx.com/assets/Site%20Icon-modified.png",
@@ -132,7 +133,8 @@ export default function RootLayout({ children }) {
         "@id": "https://telehealthfx.com/#product-tirzepatide",
         "name": "Compounded Tirzepatide Program",
         "brand": {
-          "@id": "https://telehealthfx.com/#organization"
+          "@type": "Brand",
+          "name": "Telehealth FX"
         },
         "description": "Comprehensive metabolic health program including clinician consults and compounded Tirzepatide medication.",
         "image": "https://telehealthfx.com/assets/Site%20Icon-modified.png",
