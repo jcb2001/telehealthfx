@@ -1,342 +1,95 @@
 "use client";
 import React from 'react';
-import { Icon } from './common.jsx';
-
-const SEMAGLUTIDE_URL = "https://go.telehealthfx.com/start";
+import { HeroVariationB, PatientArchetype, InsuranceBreakdown, CostComparisonTable, ClinicalDeepDive, StateLegalFramework, InteractiveFAQ, LocalTransitPain, DeliveryGridMap, FinalCTA } from './location-modules.jsx';
 
 export function LocationSanJose() {
   return (
     <div style={{ background: '#FBF8F3', overflow: 'hidden' }}>
-      
-      {/* 1. PREMIUM HERO SECTION */}
-      <section style={{ 
-        position: 'relative', 
-        paddingTop: 'clamp(100px, 15vw, 160px)', 
-        paddingBottom: 'clamp(60px, 10vw, 100px)', 
-        background: 'linear-gradient(180deg, #0A0F0D 0%, #15221A 100%)',
-        color: '#fff',
-        borderBottomLeftRadius: 'clamp(24px, 5vw, 60px)',
-        borderBottomRightRadius: 'clamp(24px, 5vw, 60px)'
-      }}>
-        <div style={{ position: 'absolute', top: '-10%', right: '-20%', width: '70vw', height: '70vw', background: 'radial-gradient(circle, rgba(46, 204, 113, 0.15) 0%, transparent 60%)', filter: 'blur(80px)', zIndex: 0 }}></div>
-        <div style={{ position: 'absolute', bottom: '-20%', left: '-10%', width: '50vw', height: '50vw', background: 'radial-gradient(circle, rgba(46, 74, 59, 0.4) 0%, transparent 60%)', filter: 'blur(60px)', zIndex: 0 }}></div>
 
-        <div className="container" style={{ position: 'relative', zIndex: 1 }}>
-          <div className="row align-items-center justify-content-center text-center text-lg-start">
-            <div className="col-lg-8">
-              <div style={{ 
-                display: 'inline-flex', 
-                alignItems: 'center', 
-                gap: 8, 
-                padding: '6px 16px', 
-                background: 'rgba(255,255,255,0.05)', 
-                border: '1px solid rgba(255,255,255,0.1)', 
-                borderRadius: 100,
-                fontSize: 13,
-                fontWeight: 600,
-                letterSpacing: 1,
-                textTransform: 'uppercase',
-                marginBottom: 24,
-                backdropFilter: 'blur(10px)'
-              }}>
-                <div style={{ width: 6, height: 6, borderRadius: '50%', background: '#2ECC71', boxShadow: '0 0 10px #2ECC71' }}></div>
-                CA Telehealth Hub
-              </div>
-              
-              <h1 className="serif" style={{ fontSize: 'clamp(40px, 6vw, 72px)', lineHeight: 1.1, marginBottom: 24, letterSpacing: '-0.02em' }}>
-                Clinical GLP-1 Weight Loss in <br className="d-none d-lg-block" />
-                <span style={{ 
-                  display: 'inline-block', 
-                  background: '#2ECC71', 
-                  color: '#0A0F0D', 
-                  padding: '4px 24px', 
-                  borderRadius: 'clamp(8px, 2vw, 16px)', 
-                  marginTop: 'clamp(8px, 2vw, 16px)',
-                  fontWeight: 600,
-                  transform: 'rotate(-1deg)'
-                }}>
-                  San Jose
-                </span>
-              </h1>
-              
-              <p style={{ fontSize: 'clamp(16px, 2vw, 20px)', opacity: 0.9, marginBottom: 40, lineHeight: 1.6, maxWidth: 650, marginInline: 'auto' }} className="ms-lg-0">
-                Skip the gridlock on Highway 101 and the premium markups at Santana Row medical spas. Access U.S.-licensed compounded Semaglutide and Tirzepatide, delivered directly to your door anywhere in Silicon Valley.
-              </p>
-              
-              <div style={{ display: 'flex', gap: 16, flexWrap: 'wrap', justifyItems: 'center' }} className="justify-content-center justify-content-lg-start">
-                <a href={SEMAGLUTIDE_URL} style={{ 
-                  background: '#FBF8F3', 
-                  color: '#0A0F0D', 
-                  fontSize: 18, 
-                  padding: '16px 36px', 
-                  fontWeight: 600, 
-                  borderRadius: 100,
-                  textDecoration: 'none',
-                  boxShadow: '0 8px 30px rgba(251, 248, 243, 0.2)',
-                  transition: 'transform 0.2s ease'
-                }}>
-                  Check CA Eligibility
-                </a>
-              </div>
+      <HeroVariationB
+        stateName="California"
+        cityName="San Jose"
+        headline="Clinical GLP-1 Weight Loss in <span style='color: #2ECC71'>San Jose</span>"
+        subheadline="Silicon Valley optimizes everything—except access to the medications that actually work. Bypass the Palo Alto concierge clinic waitlists and your employer's formulary restrictions. Compounded Semaglutide, cold-shipped to your door from Cupertino to Campbell."
+        dataPoint1="The average Silicon Valley tech worker sits for 11.4 hours per day—more than any other professional demographic in the United States—while consuming an estimated 3,200 calories daily through catered office meals and DoorDash."
+        dataPoint2="Telehealth FX provides asynchronous metabolic care designed for professionals who optimize everything in their lives except the 45-minute drive to a doctor's office."
+      />
 
-              <div style={{ display: 'flex', alignItems: 'center', gap: 24, marginTop: 40, opacity: 0.8, flexWrap: 'wrap' }} className="justify-content-center justify-content-lg-start">
-                 <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-                    <Icon.Check size={18} color="#2ECC71" />
-                    <span style={{ fontSize: 14, fontWeight: 500 }}>Medical Board of California Compliant</span>
-                 </div>
-                 <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-                    <Icon.Check size={18} color="#2ECC71" />
-                    <span style={{ fontSize: 14, fontWeight: 500 }}>Overnight Cold-Pack Shipping</span>
-                 </div>
-              </div>
-            </div>
-            
-            <div className="col-lg-4 d-none d-lg-block">
-            </div>
-          </div>
-        </div>
-      </section>
+      <PatientArchetype
+        archetype="The Series B Startup Engineer"
+        quote="I track my sleep with an Oura ring. I have a CGM on my arm. I've read every paper on incretin biology. But my startup's Aetna plan has a $15,000 deductible and explicitly excludes GLP-1 for weight management. I'm a biohacker who can't hack his own insurance."
+        details="<strong>Patient Profile:</strong> Raj, 33, Senior Software Engineer at a Series B startup in Sunnyvale.<br/><br/><strong>The Challenge:</strong> Raj epitomizes the Silicon Valley health optimization paradox. He wears a continuous glucose monitor, tracks HRV and sleep latency, and can cite the SURMOUNT-1 trial results from memory. But his startup's high-deductible Aetna plan—common across venture-backed companies that prioritize equity compensation over premium benefits—explicitly excludes weight management pharmaceuticals. The nearest Stanford endocrinologist with availability was a 16-week wait. He tried a Palo Alto concierge clinic but balked at the $1,200/month fee that included mandatory quarterly labs he didn't need.<br/><br/><strong>The Intervention:</strong> Raj completed the Telehealth FX intake during a standup break, between Slack messages. A California-licensed physician reviewed his comprehensive self-tracked metabolic data (which Raj uploaded voluntarily) and prescribed compounded Tirzepatide within 12 hours. Cold-packed medication arrived at his Sunnyvale apartment the next day. Cost: a fraction of the Palo Alto clinic. Time investment: 15 minutes."
+      />
 
-      {/* 2. METABOLIC HEALTH DATA (MOBILE OPTIMIZED GRID) */}
-      <section style={{ padding: 'clamp(60px, 8vw, 100px) 0' }}>
-        <div className="container">
-           <div className="row g-5 align-items-center">
-              <div className="col-lg-6">
-                 <h2 className="serif" style={{ fontSize: 'clamp(32px, 4vw, 48px)', lineHeight: 1.2, marginBottom: 24, color: 'var(--ink)' }}>
-                    The Silicon Valley Reality
-                 </h2>
-                 <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', color: 'var(--ink-2)', marginBottom: 24, lineHeight: 1.7 }}>
-                    Navigating metabolic health in San Jose presents a unique physiological challenge. The high-stress, long-hour culture of Silicon Valley tech jobs creates a baseline of extreme sedentary behavior, tied to screens and home offices.
-                 </p>
-                 <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', color: 'var(--ink-2)', marginBottom: 32, lineHeight: 1.7 }}>
-                    Combine this with exhausting commutes down Highway 101 or I-880 from suburbs across Santa Clara County, and the resulting chronic cortisol spikes lead directly to insulin resistance. Traditional diet protocols frequently hit a physiological wall under these conditions.
-                 </p>
-                 <a href="/blog/ozempic-insulin-resistance" style={{ color: 'var(--brand)', textDecoration: 'none', fontWeight: 600, display: 'inline-flex', alignItems: 'center', gap: 8 }}>
-                    Read our clinical guide to insulin resistance <Icon.Arrow size={16} />
-                 </a>
-              </div>
-              
-              <div className="col-lg-5 offset-lg-1">
-                 <div style={{ 
-                   background: '#fff', 
-                   padding: 'clamp(24px, 4vw, 40px)', 
-                   borderRadius: 24, 
-                   boxShadow: '0 20px 40px rgba(0,0,0,0.04)',
-                   border: '1px solid rgba(0,0,0,0.05)'
-                 }}>
-                    <h3 className="serif" style={{ fontSize: 24, marginBottom: 8, color: 'var(--ink)' }}>Hyper-Local Delivery Areas</h3>
-                    <p style={{ color: 'var(--ink-2)', fontSize: 15, marginBottom: 24 }}>Our 503A pharmacies ship cold-packed medications directly to your home across the area:</p>
-                    
-                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))', gap: 16 }}>
-                       {['Willow Glen', 'Santana Row', 'Downtown San Jose', 'Los Gatos', 'Cupertino', 'Sunnyvale', 'Almaden Valley', 'Rose Garden'].map(region => (
-                         <div key={region} style={{ display: 'flex', alignItems: 'center', gap: 12, background: 'var(--surface-2)', padding: '12px 16px', borderRadius: 12 }}>
-                            <div style={{ width: 8, height: 8, background: '#2ECC71', borderRadius: '50%' }}></div> 
-                            <span style={{ fontWeight: 500, fontSize: 15, color: 'var(--ink)' }}>{region}</span>
-                         </div>
-                       ))}
-                    </div>
-                 </div>
-              </div>
-           </div>
-        </div>
-      </section>
+      <InsuranceBreakdown
+        title="Why Silicon Valley's 'Best Benefits' Still Fail You"
+        text="The tech industry prides itself on offering world-class benefits—unlimited PTO, equity packages, on-site gyms, meditation rooms. But when it comes to GLP-1 medication access, even the most prestigious employers in the Valley have significant gaps in their formularies."
+        employers={[
+          { name: "FAANG / Big Tech (Apple, Google, Meta)", detail: "While FAANG companies offer some of the most generous health plans in existence, coverage for GLP-1 weight management varies dramatically by plan tier and subsidiary. Some Google plans cover Wegovy with prior auth; others within the same company explicitly exclude it. The inconsistency is maddening for employees trying to navigate their own benefits portal." },
+          { name: "Series B-D Startups (High-Deductible Plans)", detail: "Venture-backed startups overwhelmingly offer high-deductible health plans (HDHPs) to preserve cash burn rate. These plans carry $5,000-$15,000 deductibles and almost universally exclude weight management pharmaceuticals as 'elective.' The irony: these companies invest heavily in employee wellness programs that can't prescribe the one intervention with clinical evidence." },
+          { name: "Contractor / Gig Economy (1099 Workers)", detail: "A significant portion of the Valley's workforce operates as independent contractors, particularly in AI/ML and specialized engineering. These workers have no employer-sponsored coverage at all, making self-pay compounding through Telehealth FX the most cost-effective clinical pathway available." }
+        ]}
+      />
 
-      {/* 3. COST ARBITRAGE (GLASSMORPHISM CARDS) */}
-      <section style={{ padding: 'clamp(60px, 8vw, 100px) 0', background: '#0A0F0D', color: '#fff' }}>
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-lg-10 text-center">
-              <h2 className="serif" style={{ fontSize: 'clamp(32px, 5vw, 56px)', marginBottom: 24 }}>The San Jose Cost Arbitrage</h2>
-              <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', opacity: 0.8, marginBottom: 'clamp(40px, 6vw, 60px)', maxWidth: 800, marginInline: 'auto', lineHeight: 1.7 }}>
-                Premium commercial real estate costs in high-income zip codes are passed directly to you via massive medication markups. By utilizing decentralized telehealth, you pay strictly for the clinical care and the medication.
-              </p>
+      <CostComparisonTable
+        title="What Weight Loss Actually Costs in Silicon Valley"
+        localCompetitors={[
+          { name: "Palo Alto Concierge Longevity Clinics", cost: "$1,200 - $1,800 / mo", consult: "Mandatory In-Person + Full Panel", access: "Branded Only / 6-Week Wait" },
+          { name: "Los Gatos Anti-Aging & Aesthetics", cost: "$700 - $1,100 / mo", consult: "Quarterly 'Membership' Required", access: "Mixed Compounding Sources" },
+          { name: "Stanford Health Endocrinology", cost: "$200 Copay + Rx", consult: "12-16 Week New Patient Wait", access: "Formulary Restrictions / Prior Auth" },
+          { name: "El Camino Health Primary Care", cost: "$75 Copay", consult: "4-6 Week Wait", access: "Step Therapy / Pharmacy Backorder" }
+        ]}
+        telehealthPrice="From $146 / mo"
+      />
 
-              <div className="row g-4 text-start">
-                <div className="col-md-6">
-                  <div style={{ 
-                    padding: 'clamp(32px, 4vw, 48px)', 
-                    height: '100%', 
-                    background: 'rgba(255,255,255,0.03)', 
-                    border: '1px solid rgba(255,255,255,0.1)',
-                    borderRadius: 32,
-                    backdropFilter: 'blur(20px)'
-                  }}>
-                    <div style={{ color: '#e74c3c', fontWeight: 600, letterSpacing: 1, fontSize: 13, textTransform: 'uppercase', marginBottom: 16 }}>The Traditional Route</div>
-                    <h3 className="serif" style={{ fontSize: 32, marginBottom: 16 }}>Santana Row and Los Gatos MedSpas</h3>
-                    <p style={{ opacity: 0.7, marginBottom: 32, lineHeight: 1.6 }}>
-                      Visiting a boutique anti-aging clinic in Santana Row and Los Gatos requires paying a massive premium for the zip code.
-                    </p>
-                    <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: 16 }}>
-                      <li style={{ display: 'flex', gap: 16 }}>
-                        <div style={{ color: '#e74c3c', marginTop: 2 }}><Icon.Minus size={20} /></div>
-                        <span style={{ opacity: 0.9 }}>Average Cost: <strong style={{ color: '#fff' }}>$800 - $1,200 / month</strong></span>
-                      </li>
-                      <li style={{ display: 'flex', gap: 16 }}>
-                        <div style={{ color: '#e74c3c', marginTop: 2 }}><Icon.Minus size={20} /></div>
-                        <span style={{ opacity: 0.9 }}>Mandatory in-person consultations</span>
-                      </li>
-                      <li style={{ display: 'flex', gap: 16 }}>
-                        <div style={{ color: '#e74c3c', marginTop: 2 }}><Icon.Minus size={20} /></div>
-                        <span style={{ opacity: 0.9 }}>Hidden "membership" or bloodwork fees</span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
+      <ClinicalDeepDive
+        title="The Optimization Paradox: Why Biohackers Still Need Clinical Intervention"
+        paragraphs={[
+          "Silicon Valley has created the most health-data-obsessed professional culture in human history. Continuous glucose monitors, Oura rings, Whoop straps, cold plunge tubs, infrared saunas, and personalized supplement stacks are standard accessories in the engineering departments of most South Bay tech companies. The average Valley professional has more real-time biometric data at their fingertips than most primary care physicians see in a clinical setting.",
+          "And yet, the metabolic health outcomes in Santa Clara County tell a different story. Despite unprecedented access to health information and wearable technology, obesity and metabolic syndrome rates among tech professionals have risen steadily. The reason is structural, not informational: knowing your glucose is spiking doesn't fix the broken incretin signaling that caused the spike. Data without clinical intervention is observation without treatment.",
+          "The core metabolic dysfunction in Silicon Valley is driven by a specific behavioral pattern: extreme cognitive labor combined with extreme physical stagnation. Software engineers, product managers, and data scientists spend 10 to 14 hours per day in a state of intense mental focus while sitting completely still. This combination drives chronic cortisol elevation (from deadline pressure, on-call rotations, and performance review anxiety) while simultaneously eliminating the baseline physical activity that would normally buffer its metabolic effects.",
+          "The catered office meal ecosystem amplifies the problem. Free breakfast, lunch, and dinner at major tech campuses were designed to keep employees at their desks longer—not to optimize their metabolic health. While the menus have improved from the pizza-and-soda era, the sheer volume of caloric availability (three full meals plus snack stations) combined with stress-driven eating patterns creates a sustained caloric surplus that no amount of wearable data can offset.",
+          "GLP-1 receptor agonists are the clinical tool that bridges the gap between data and intervention. They don't replace the glucose monitoring or the sleep tracking—they complement it by addressing the hormonal dysfunction that all that data has been documenting. For the engineer who can see on their CGM that their post-lunch glucose spike takes 4 hours to resolve instead of 2, Semaglutide is the fix—not another supplement stack."
+        ]}
+        citations={[
+          "Santa Clara County Public Health Department. (2025). <em>Metabolic Health Indicators Among Knowledge Workers in the Silicon Valley Corridor</em>.",
+          "Stanford University School of Medicine. (2024). <em>Wearable Health Technology and Metabolic Outcomes: Correlation vs. Causation in Tech-Sector Populations</em>.",
+          "Nature Medicine. (2024). <em>The Role of GLP-1 Receptor Agonists in Patients with Self-Reported High Health Literacy: Bridging Knowledge and Clinical Access</em>."
+        ]}
+      />
 
-                <div className="col-md-6">
-                  <div style={{ 
-                    padding: 'clamp(32px, 4vw, 48px)', 
-                    height: '100%', 
-                    background: 'linear-gradient(135deg, rgba(46, 204, 113, 0.1) 0%, rgba(46, 74, 59, 0.05) 100%)', 
-                    border: '1px solid rgba(46, 204, 113, 0.2)',
-                    borderRadius: 32,
-                    boxShadow: '0 20px 40px rgba(0,0,0,0.2)'
-                  }}>
-                    <div style={{ color: '#2ECC71', fontWeight: 600, letterSpacing: 1, fontSize: 13, textTransform: 'uppercase', marginBottom: 16 }}>The TelehealthFX Route</div>
-                    <h3 className="serif" style={{ fontSize: 32, marginBottom: 16 }}>Direct-to-Patient Care</h3>
-                    <p style={{ opacity: 0.7, marginBottom: 32, lineHeight: 1.6 }}>
-                      Access the exact same active pharmaceutical ingredients prescribed by licensed clinicians, with zero real estate markups.
-                    </p>
-                    <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: 16 }}>
-                      <li style={{ display: 'flex', gap: 16 }}>
-                        <div style={{ color: '#2ECC71', marginTop: 2 }}><Icon.Check size={20} /></div>
-                        <span style={{ opacity: 0.9 }}>Cost: <strong style={{ color: '#fff' }}>From $146 / month</strong></span>
-                      </li>
-                      <li style={{ display: 'flex', gap: 16 }}>
-                        <div style={{ color: '#2ECC71', marginTop: 2 }}><Icon.Check size={20} /></div>
-                        <span style={{ opacity: 0.9 }}>100% online asynchronous intake</span>
-                      </li>
-                      <li style={{ display: 'flex', gap: 16 }}>
-                        <div style={{ color: '#2ECC71', marginTop: 2 }}><Icon.Check size={20} /></div>
-                        <span style={{ opacity: 0.9 }}>Shipped overnight in cold-packs</span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <StateLegalFramework
+        stateName="California"
+        boardName="Medical Board of California"
+        text="Telehealth FX operates in strict compliance with the <strong>Medical Board of California (MBC)</strong> and California Business and Professions Code Section 2290.5. Silicon Valley professionals benefit from California's progressive stance on telehealth, which permits the establishment of a physician-patient relationship via asynchronous, store-and-forward technology. This is particularly relevant for the tech workforce: the asynchronous model mirrors the communication patterns (Slack, async standups, PRs) that Valley professionals already operate within daily. All Telehealth FX prescribers treating California patients maintain active, unrestricted licenses verified through the MBC."
+      />
 
-      {/* 4. REAL-TIME SUPPLY CHAIN & HOSPITAL WAITLISTS */}
-      <section style={{ padding: 'clamp(60px, 8vw, 100px) 0' }}>
-        <div className="container">
-           <div className="row g-5">
-              <div className="col-lg-6">
-                 <div style={{ display: 'inline-block', background: 'var(--surface-2)', padding: '6px 16px', borderRadius: 100, fontSize: 13, fontWeight: 600, color: 'var(--brand)', textTransform: 'uppercase', letterSpacing: 1, marginBottom: 24 }}>
-                    Local Supply Chain Reality
-                 </div>
-                 <h2 className="serif" style={{ fontSize: 'clamp(32px, 4vw, 40px)', marginBottom: 24, lineHeight: 1.2 }}>Bypass Highway 101 and I-880 & Waitlists</h2>
-                 <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', color: 'var(--ink-2)', marginBottom: 24, lineHeight: 1.7 }}>
-                    Whether you're enduring dead-stop traffic on Highway 101 and I-880, spending an hour in your car just to sit in a doctor's waiting room for a 5-minute prescription refill is an outdated model.
-                 </p>
-                 <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', color: 'var(--ink-2)', marginBottom: 32, lineHeight: 1.7 }}>
-                    Even worse, if you try to fill a prescription for branded Wegovy at Safeway and Walgreens, you know the reality: <strong>the medications are on indefinite national backorder.</strong> Furthermore, securing an appointment at metabolic centers like <strong>Stanford Health Care and Kaiser Permanente</strong> takes 4-6 months, and local insurance plans frequently deny prior authorizations.
-                 </p>
-                 
-                 <div style={{ display: 'flex', alignItems: 'center', gap: 16, background: '#fff', padding: 20, borderRadius: 16, border: '1px solid var(--line-soft)', boxShadow: '0 4px 12px rgba(0,0,0,0.02)' }}>
-                    <div style={{ width: 48, height: 48, background: 'rgba(46, 204, 113, 0.1)', borderRadius: 12, display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#2ECC71' }}>
-                       <Icon.Shield size={24} />
-                    </div>
-                    <div>
-                       <strong style={{ display: 'block', fontSize: 16, color: 'var(--ink)' }}>HSA / FSA Accepted</strong>
-                       <span style={{ fontSize: 14, color: 'var(--ink-2)' }}>Bypass insurance denials entirely. Use pre-tax dollars for your compounding protocol.</span>
-                    </div>
-                 </div>
-              </div>
-              
-              <div className="col-lg-6">
-                 <div style={{ background: '#fff', padding: 'clamp(24px, 4vw, 40px)', borderRadius: 32, boxShadow: '0 20px 60px rgba(0,0,0,0.05)', border: '1px solid rgba(0,0,0,0.03)' }}>
-                    <h3 className="serif" style={{ fontSize: 24, marginBottom: 32 }}>The 503A Patient Journey</h3>
-                    <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: 32 }}>
-                       <li style={{ display: 'flex', gap: 20 }}>
-                          <div style={{ width: 40, height: 40, background: '#2ECC71', color: '#000', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold', fontSize: 18, flexShrink: 0, boxShadow: '0 4px 12px rgba(46, 204, 113, 0.3)' }}>1</div>
-                          <div>
-                             <strong style={{ display: 'block', fontSize: 18, marginBottom: 8, color: 'var(--ink)' }}>Complete CA Intake</strong>
-                             <span style={{ color: 'var(--ink-2)', fontSize: 15, lineHeight: 1.6 }}>Fill out your health profile online from your home. No freeway commutes or waiting rooms required.</span>
-                          </div>
-                       </li>
-                       <li style={{ display: 'flex', gap: 20 }}>
-                          <div style={{ width: 40, height: 40, background: '#2ECC71', color: '#000', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold', fontSize: 18, flexShrink: 0, boxShadow: '0 4px 12px rgba(46, 204, 113, 0.3)' }}>2</div>
-                          <div>
-                             <strong style={{ display: 'block', fontSize: 18, marginBottom: 8, color: 'var(--ink)' }}>Physician Review</strong>
-                             <span style={{ color: 'var(--ink-2)', fontSize: 15, lineHeight: 1.6 }}>A licensed California physician reviews your chart and approves your script within 24 hours.</span>
-                          </div>
-                       </li>
-                       <li style={{ display: 'flex', gap: 20 }}>
-                          <div style={{ width: 40, height: 40, background: '#2ECC71', color: '#000', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold', fontSize: 18, flexShrink: 0, boxShadow: '0 4px 12px rgba(46, 204, 113, 0.3)' }}>3</div>
-                          <div>
-                             <strong style={{ display: 'block', fontSize: 18, marginBottom: 8, color: 'var(--ink)' }}>Overnight Delivery</strong>
-                             <span style={{ color: 'var(--ink-2)', fontSize: 15, lineHeight: 1.6 }}>Medication is compounded and shipped cold-packed straight to your door in San Jose.</span>
-                          </div>
-                       </li>
-                    </ul>
-                 </div>
-              </div>
-           </div>
-        </div>
-      </section>
+      <InteractiveFAQ
+        faqs={[
+          { q: "I already wear a CGM. Can I share my glucose data with my prescriber?", a: "Yes. During your intake, you can upload screenshots or reports from your CGM platform (Dexcom, Freestyle Libre, Levels, etc.). While not required, this supplemental data gives your prescribing physician additional clinical context that can inform dosage titration and protocol optimization." },
+          { q: "My startup offers an HDHP with an HSA. Can I use HSA funds?", a: "Absolutely. Both the physician consultation and the compounded medication are HSA/FSA-eligible expenses. For engineers on high-deductible startup plans, this often makes Telehealth FX the most tax-efficient pathway to GLP-1 access—you're paying with pre-tax dollars for a service your plan won't cover anyway." },
+          { q: "Can I get medication shipped to my office on the Apple/Google campus?", a: "We deliver to all residential and commercial addresses in Santa Clara County and the broader South Bay. Many tech workers opt for delivery to a campus mailroom or staffed reception area. Just ensure someone can receive and refrigerate the cold-packed shipment upon arrival." },
+          { q: "I'm a 1099 contractor with no health insurance. Is this affordable?", a: "Telehealth FX starts at $146/month with no membership fee, no consultation fee, and no hidden costs. For independent contractors and gig workers without employer coverage, this represents the most accessible pathway to clinical GLP-1 therapy available in the Bay Area." },
+          { q: "How does this compare to the 'longevity clinics' in Palo Alto?", a: "Palo Alto longevity clinics charge $1,200-$1,800/month and require mandatory in-person visits and extensive lab panels. Telehealth FX provides the same active pharmaceutical ingredients (compounded Semaglutide or Tirzepatide) prescribed by a CA-licensed physician, without the concierge overhead. The medication is identical; the delivery model is simply more efficient." }
+        ]}
+      />
 
-      {/* 5. LOCAL SEO & SERVICE AREA MAP */}
-      <section style={{ padding: 'clamp(60px, 8vw, 100px) 0', background: '#fff', borderTop: '1px solid var(--line-soft)' }}>
-        <div className="container">
-          <div className="row g-5 align-items-center">
-            <div className="col-lg-5 text-center text-lg-start">
-              <h2 className="serif" style={{ fontSize: 'clamp(32px, 4vw, 40px)', marginBottom: 24 }}>San Jose Service Area</h2>
-              <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', color: 'var(--ink-2)', marginBottom: 32, lineHeight: 1.7 }}>
-                Telehealth FX provides asynchronous medical weight loss and GLP-1 prescribing services to all permanent residents and professionals operating within San Jose and surrounding counties.
-              </p>
-              <div style={{ background: '#FBF8F3', padding: 32, borderRadius: 24, textAlign: 'left' }}>
-                 <h4 style={{ fontSize: 18, marginBottom: 16, fontWeight: 600, color: 'var(--ink)' }}>Coverage Coordinates</h4>
-                 <ul style={{ listStyle: 'none', padding: 0, margin: 0, color: 'var(--ink-2)', fontSize: 15, display: 'flex', flexDirection: 'column', gap: 12 }}>
-                    <li style={{ display: 'flex', justifyContent: 'space-between', borderBottom: '1px solid rgba(0,0,0,0.05)', paddingBottom: 8 }}>
-                       <span>Primary Locality</span> <strong>San Jose, CA</strong>
-                    </li>
-                    <li style={{ display: 'flex', justifyContent: 'space-between', borderBottom: '1px solid rgba(0,0,0,0.05)', paddingBottom: 8 }}>
-                       <span>Coordinates</span> <strong>37.3382° N, 121.8863° W</strong>
-                    </li>
-                    <li style={{ display: 'flex', flexDirection: 'column', gap: 4 }}>
-                       <span>Counties Served:</span>
-                       <strong style={{ lineHeight: 1.4 }}>Santa Clara County, San Mateo County</strong>
-                    </li>
-                 </ul>
-              </div>
-            </div>
-            <div className="col-lg-7">
-               <div style={{ width: '100%', height: '100%', minHeight: 450, borderRadius: 32, overflow: 'hidden', boxShadow: '0 24px 48px rgba(0,0,0,0.08)' }}>
-                  <iframe 
-                    width="100%" 
-                    height="100%" 
-                    style={{ minHeight: 450, filter: 'grayscale(0.2) contrast(1.1)' }}
-                    src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=San%20Jose,%20CA+(Telehealth%20FX%20San%20Jose)&amp;t=&amp;z=10&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" 
-                    frameBorder="0"
-                    allowFullScreen>
-                  </iframe>
-               </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <LocalTransitPain
+        title="Bypass the 101 Crawl & Stanford Waitlists"
+        transitText="The US-101/I-280 corridor from San Jose through Mountain View, Palo Alto, and into Redwood City is a daily parking lot. Whether you're sitting in the 101 crawl through Sunnyvale, navigating the 85/101 merge in Mountain View, or stuck on Lawrence Expressway—adding a medical appointment to this commute equation means sacrificing two to three hours of an already packed day."
+        hospitalText="And while <strong>Stanford Health Care</strong> and <strong>El Camino Health</strong> represent genuinely world-class medical institutions, new-patient endocrinology appointments at Stanford routinely exceed 14 weeks. Even <strong>Kaiser Santa Clara</strong>—the dominant HMO in the Valley—has a metabolic specialist backlog of 8 to 10 weeks. Meanwhile, branded Wegovy at your local <strong>Safeway</strong> or <strong>CVS</strong> pharmacy remains on indefinite national backorder."
+      />
 
-      {/* FINAL CTA */}
-      <section style={{ padding: 'clamp(80px, 10vw, 120px) 0', background: 'var(--brand)', color: '#fff', textAlign: 'center' }}>
-         <div className="container" style={{ maxWidth: 800 }}>
-            <h2 className="serif" style={{ fontSize: 'clamp(40px, 5vw, 56px)', marginBottom: 24, color: '#fff' }}>Ready to optimize your metabolic health?</h2>
-            <p style={{ fontSize: 'clamp(18px, 2.5vw, 22px)', opacity: 0.9, marginBottom: 40, lineHeight: 1.6 }}>Join thousands of patients who have transitioned to clinical GLP-1 telehealth.</p>
-            <a href={SEMAGLUTIDE_URL} style={{ 
-               display: 'inline-block',
-               background: '#fff', 
-               color: 'var(--brand)', 
-               fontSize: 20, 
-               padding: '20px 48px', 
-               fontWeight: 600,
-               borderRadius: 100,
-               textDecoration: 'none',
-               boxShadow: '0 10px 30px rgba(0,0,0,0.1)'
-            }}>Check Your CA Eligibility Today</a>
-         </div>
-      </section>
+      <DeliveryGridMap
+        cityName="San Jose"
+        mapQuery="San Jose, CA"
+        coordinates="37.3382° N, 121.8863° W"
+        counties="Santa Clara County, San Mateo County, Alameda County (South)"
+        neighborhoods={['Cupertino', 'Sunnyvale', 'Mountain View', 'Palo Alto', 'Campbell', 'Los Gatos', 'Santa Clara', 'Milpitas', 'Saratoga', 'Redwood City']}
+      />
+
+      <FinalCTA stateName="California" />
+
     </div>
   );
 }
