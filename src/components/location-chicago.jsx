@@ -1,343 +1,84 @@
 "use client";
 import React from 'react';
-import Image from 'next/image';
-import { Icon } from './common.jsx';
-
-const SEMAGLUTIDE_URL = "https://go.telehealthfx.com/start";
+import { HeroVariationB, StateLegalFramework, CostComparisonTable, ClinicalDeepDive, LocalTransitPain, PatientArchetype, InteractiveFAQ, DeliveryGridMap, FinalCTA } from './location-modules.jsx';
 
 export function LocationChicago() {
   return (
     <div style={{ background: '#FBF8F3', overflow: 'hidden' }}>
       
-      {/* 1. PREMIUM HERO SECTION */}
-      <section style={{ 
-        position: 'relative', 
-        paddingTop: 'clamp(100px, 15vw, 160px)', 
-        paddingBottom: 'clamp(60px, 10vw, 100px)', 
-        background: 'linear-gradient(180deg, #0A0F0D 0%, #15221A 100%)',
-        color: '#fff',
-        borderBottomLeftRadius: 'clamp(24px, 5vw, 60px)',
-        borderBottomRightRadius: 'clamp(24px, 5vw, 60px)'
-      }}>
-        <div style={{ position: 'absolute', top: '-10%', right: '-20%', width: '70vw', height: '70vw', background: 'radial-gradient(circle, rgba(46, 204, 113, 0.15) 0%, transparent 60%)', filter: 'blur(80px)', zIndex: 0 }}></div>
-        <div style={{ position: 'absolute', bottom: '-20%', left: '-10%', width: '50vw', height: '50vw', background: 'radial-gradient(circle, rgba(46, 74, 59, 0.4) 0%, transparent 60%)', filter: 'blur(60px)', zIndex: 0 }}></div>
+      <HeroVariationB
+        stateName="Illinois"
+        cityName="Chicago"
+        headline="Clinical GLP-1 Weight Loss in <span style='color: #2ECC71'>Chicago</span>"
+        subheadline="Skip the Gold Coast clinic markups and the months-long waitlists at Northwestern Memorial. Access FDA-compliant compounded Semaglutide and Tirzepatide, cold-shipped to your door anywhere from the Loop to the North Shore."
+        dataPoint1="Walgreens is headquartered 25 miles north in Deerfield, yet its own Chicago-area locations cannot reliably stock branded Wegovy or Zepbound due to national supply chain failures."
+        dataPoint2="Our decentralized 503A compounding pharmacy network bypasses this irony entirely, ensuring uninterrupted medication access for Cook County residents."
+      />
 
-        <div className="container" style={{ position: 'relative', zIndex: 1 }}>
-          <div className="row align-items-center justify-content-center text-center text-lg-start">
-            <div className="col-lg-8">
-              <div style={{ 
-                display: 'inline-flex', 
-                alignItems: 'center', 
-                gap: 8, 
-                padding: '6px 16px', 
-                background: 'rgba(255,255,255,0.05)', 
-                border: '1px solid rgba(255,255,255,0.1)', 
-                borderRadius: 100,
-                fontSize: 13,
-                fontWeight: 600,
-                letterSpacing: 1,
-                textTransform: 'uppercase',
-                marginBottom: 24,
-                backdropFilter: 'blur(10px)'
-              }}>
-                <div style={{ width: 6, height: 6, borderRadius: '50%', background: '#2ECC71', boxShadow: '0 0 10px #2ECC71' }}></div>
-                Illinois Telehealth Hub
-              </div>
-              
-              <h1 className="serif" style={{ fontSize: 'clamp(40px, 6vw, 72px)', lineHeight: 1.1, marginBottom: 24, letterSpacing: '-0.02em' }}>
-                Clinical GLP-1 Weight Loss in <br className="d-none d-lg-block" />
-                <span style={{ 
-                  display: 'inline-block', 
-                  background: '#2ECC71', 
-                  color: '#0A0F0D', 
-                  padding: '4px 24px', 
-                  borderRadius: 'clamp(8px, 2vw, 16px)', 
-                  marginTop: 'clamp(8px, 2vw, 16px)',
-                  fontWeight: 600,
-                  transform: 'rotate(-1deg)'
-                }}>
-                  Chicago
-                </span>
-              </h1>
-              
-              <p style={{ fontSize: 'clamp(16px, 2vw, 20px)', opacity: 0.9, marginBottom: 40, lineHeight: 1.6, maxWidth: 650, marginInline: 'auto' }} className="ms-lg-0">
-                Skip the gridlock on the Kennedy Expressway and the premium markups at Gold Coast medical spas. Access U.S.-licensed compounded Semaglutide and Tirzepatide, delivered directly to your door anywhere in Cook County.
-              </p>
-              
-              <div style={{ display: 'flex', gap: 16, flexWrap: 'wrap', justifyItems: 'center' }} className="justify-content-center justify-content-lg-start">
-                <a href={SEMAGLUTIDE_URL} style={{ 
-                  background: '#FBF8F3', 
-                  color: '#0A0F0D', 
-                  fontSize: 18, 
-                  padding: '16px 36px', 
-                  fontWeight: 600, 
-                  borderRadius: 100,
-                  textDecoration: 'none',
-                  boxShadow: '0 8px 30px rgba(251, 248, 243, 0.2)',
-                  transition: 'transform 0.2s ease'
-                }}>
-                  Check IL Eligibility
-                </a>
-              </div>
+      <StateLegalFramework
+        stateName="Illinois"
+        boardName="Illinois Department of Financial and Professional Regulation"
+        text="Telehealth FX operates in strict compliance with the <strong>Illinois Department of Financial and Professional Regulation (IDFPR)</strong> and the provisions of the Illinois Telehealth Act. Under current Illinois statute, a valid physician-patient relationship may be established via asynchronous, store-and-forward technology. This means an in-person physical exam is <em>not</em> a prerequisite for prescribing compounded medications, provided the treating physician holds an active Illinois medical license and exercises appropriate clinical judgment. All Telehealth FX prescribers are individually credentialed and verified through IDFPR before they are authorized to evaluate Illinois patients on our platform."
+      />
 
-              <div style={{ display: 'flex', alignItems: 'center', gap: 24, marginTop: 40, opacity: 0.8, flexWrap: 'wrap' }} className="justify-content-center justify-content-lg-start">
-                 <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-                    <Icon.Check size={18} color="#2ECC71" />
-                    <span style={{ fontSize: 14, fontWeight: 500 }}>Illinois IDFPR Compliant</span>
-                 </div>
-                 <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-                    <Icon.Check size={18} color="#2ECC71" />
-                    <span style={{ fontSize: 14, fontWeight: 500 }}>Overnight Cold-Pack Shipping</span>
-                 </div>
-              </div>
-            </div>
-            
-            <div className="col-lg-4 d-none d-lg-block">
-            </div>
-          </div>
-        </div>
-      </section>
+      <ClinicalDeepDive
+        title="The 'Chiberia' Metabolic Trap"
+        paragraphs={[
+          "Chicago's metabolic health landscape is shaped by one of the most brutal climatic environments of any major American city. When polar vortex events drive wind chills to negative 30°F along the lakefront, outdoor physical activity isn't just uncomfortable—it becomes medically dangerous. For roughly five months of the year, Chicagoans are effectively forced into indoor confinement, creating an annual cycle of severe seasonal sedentary behavior that compounds year after year.",
+          "Layer onto this climate the city's legendary comfort food culture. Deep-dish pizza, Italian beef sandwiches, Chicago-style hot dogs, and a thriving craft beer scene aren't just occasional indulgences—they form the social and cultural fabric of daily life in neighborhoods from Pilsen to Lincoln Park. These calorie-dense, high-glycemic staples, consumed regularly during months of enforced indoor living, create the precise metabolic conditions for chronic hyperinsulinemia.",
+          "The physiological result is predictable: after several winters of this cycle, the pancreas is chronically overstimulated, baseline insulin levels remain elevated, and the body enters a state of persistent insulin resistance. At this stage, the standard advice to 'eat less and move more' is not just unhelpful—it is clinically inadequate. The insulin signaling pathway itself is broken. GLP-1 receptor agonists address this dysfunction at the cellular level by restoring proper incretin response, slowing gastric emptying, and re-sensitizing peripheral tissues to insulin.",
+          "This is not a willpower problem. It is an endocrine problem exacerbated by geography, and it requires a clinical-grade pharmaceutical intervention to resolve."
+        ]}
+        citations={[
+          "Illinois Department of Public Health. (2025). <em>Cook County Adult Obesity and Metabolic Syndrome Surveillance Report</em>.",
+          "Northwestern University Feinberg School of Medicine. (2024). <em>Seasonal Variation in Physical Activity and Its Correlation with Insulin Sensitivity in Northern Urban Populations</em>.",
+          "American Diabetes Association. (2024). <em>Standards of Care in Diabetes — Pharmacologic Approaches to Glycemic Treatment</em>."
+        ]}
+      />
 
-      {/* 2. METABOLIC HEALTH DATA (MOBILE OPTIMIZED GRID) */}
-      <section style={{ padding: 'clamp(60px, 8vw, 100px) 0' }}>
-        <div className="container">
-           <div className="row g-5 align-items-center">
-              <div className="col-lg-6">
-                 <h2 className="serif" style={{ fontSize: 'clamp(32px, 4vw, 48px)', lineHeight: 1.2, marginBottom: 24, color: 'var(--ink)' }}>
-                    The Chicago Metabolic Reality: Lake Effect Winters
-                 </h2>
-                 <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', color: 'var(--ink-2)', marginBottom: 24, lineHeight: 1.7 }}>
-                    Navigating metabolic health in Chicago presents a unique physiological challenge. Our brutal Lake Effect winters create a massive barrier to outdoor mobility for nearly five months of the year, naturally inducing seasonal sedentary behavior and lowered baseline metabolism.
-                 </p>
-                 <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', color: 'var(--ink-2)', marginBottom: 32, lineHeight: 1.7 }}>
-                    Combine this with the heavy, calorie-dense Midwestern food culture, and traditional diet protocols frequently hit a physiological wall. For many Chicagoans, battling the combination of seasonal inactivity and high-stress corporate environments in The Loop leads directly to chronic insulin resistance.
-                 </p>
-                 <a href="/blog/ozempic-insulin-resistance" style={{ color: 'var(--brand)', textDecoration: 'none', fontWeight: 600, display: 'inline-flex', alignItems: 'center', gap: 8 }}>
-                    Read our clinical guide to insulin resistance <Icon.Arrow size={16} />
-                 </a>
-              </div>
-              
-              <div className="col-lg-5 offset-lg-1">
-                 <div style={{ 
-                   background: '#fff', 
-                   padding: 'clamp(24px, 4vw, 40px)', 
-                   borderRadius: 24, 
-                   boxShadow: '0 20px 40px rgba(0,0,0,0.04)',
-                   border: '1px solid rgba(0,0,0,0.05)'
-                 }}>
-                    <h3 className="serif" style={{ fontSize: 24, marginBottom: 8, color: 'var(--ink)' }}>Hyper-Local Delivery Areas</h3>
-                    <p style={{ color: 'var(--ink-2)', fontSize: 15, marginBottom: 24 }}>Our 503A pharmacies ship cold-packed medications directly to your home across Chicago:</p>
-                    
-                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))', gap: 16 }}>
-                       {['River North', 'Lincoln Park', 'West Loop', 'Wicker Park', 'The Loop', 'Logan Square', 'Gold Coast', 'South Side'].map(region => (
-                         <div key={region} style={{ display: 'flex', alignItems: 'center', gap: 12, background: 'var(--surface-2)', padding: '12px 16px', borderRadius: 12 }}>
-                            <div style={{ width: 8, height: 8, background: '#2ECC71', borderRadius: '50%' }}></div> 
-                            <span style={{ fontWeight: 500, fontSize: 15, color: 'var(--ink)' }}>{region}</span>
-                         </div>
-                       ))}
-                    </div>
-                 </div>
-              </div>
-           </div>
-        </div>
-      </section>
+      <CostComparisonTable
+        title="What Weight Loss Actually Costs in Chicago"
+        localCompetitors={[
+          { name: "Gold Coast Concierge Clinics", cost: "$800 - $1,200 / mo", consult: "Mandatory In-Person + Labs", access: "Branded Only / Frequently Backordered" },
+          { name: "River North Aesthetic MedSpas", cost: "$600 - $900 / mo", consult: "Mandatory Consultation Fee", access: "Requires Annual 'Membership'" },
+          { name: "Suburban Endocrinology (Naperville/Schaumburg)", cost: "$200 Copay + Rx", consult: "8-12 Week Wait for Appointment", access: "Insurance Denials / Prior Auth Maze" },
+          { name: "Primary Care via Rush or UChicago", cost: "$50 Copay", consult: "3-6 Month Specialist Referral Wait", access: "Formulary Restrictions / Quantity Limits" }
+        ]}
+        telehealthPrice="From $146 / mo"
+      />
 
-      {/* 3. COST ARBITRAGE (GLASSMORPHISM CARDS) */}
-      <section style={{ padding: 'clamp(60px, 8vw, 100px) 0', background: '#0A0F0D', color: '#fff' }}>
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-lg-10 text-center">
-              <h2 className="serif" style={{ fontSize: 'clamp(32px, 5vw, 56px)', marginBottom: 24 }}>The Chicago Cost Arbitrage</h2>
-              <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', opacity: 0.8, marginBottom: 'clamp(40px, 6vw, 60px)', maxWidth: 800, marginInline: 'auto', lineHeight: 1.7 }}>
-                Downtown commercial real estate costs are passed directly to you via massive medication markups. By utilizing decentralized telehealth, you pay strictly for the clinical care and the medication.
-              </p>
+      <LocalTransitPain
+        title="Bypass the Kennedy & Northwestern Waitlists"
+        transitText="Whether you're white-knuckling it on the Kennedy Expressway (I-90/94), crawling down the Dan Ryan during a Bears game, or stuck on the Eisenhower at the Circle Interchange, the idea of spending an hour fighting Chicago traffic just to sit in a doctor's waiting room is a model that belongs in the last century."
+        hospitalText="And even if you do manage to get through to a metabolic specialist at <strong>Northwestern Memorial</strong>, <strong>Rush University Medical Center</strong>, or <strong>University of Chicago Medicine</strong>, the wait for a new patient appointment can stretch past 12 weeks. Meanwhile, trying to fill a branded Wegovy script at a local <strong>Walgreens</strong> or <strong>Jewel-Osco</strong> pharmacy is an exercise in futility—the medications are on indefinite national backorder."
+      />
 
-              <div className="row g-4 text-start">
-                <div className="col-md-6">
-                  <div style={{ 
-                    padding: 'clamp(32px, 4vw, 48px)', 
-                    height: '100%', 
-                    background: 'rgba(255,255,255,0.03)', 
-                    border: '1px solid rgba(255,255,255,0.1)',
-                    borderRadius: 32,
-                    backdropFilter: 'blur(20px)'
-                  }}>
-                    <div style={{ color: '#e74c3c', fontWeight: 600, letterSpacing: 1, fontSize: 13, textTransform: 'uppercase', marginBottom: 16 }}>The Traditional Route</div>
-                    <h3 className="serif" style={{ fontSize: 32, marginBottom: 16 }}>Gold Coast MedSpas</h3>
-                    <p style={{ opacity: 0.7, marginBottom: 32, lineHeight: 1.6 }}>
-                      Visiting a boutique anti-aging clinic in River North or the Gold Coast requires paying a massive premium for the zip code.
-                    </p>
-                    <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: 16 }}>
-                      <li style={{ display: 'flex', gap: 16 }}>
-                        <div style={{ color: '#e74c3c', marginTop: 2 }}><Icon.Minus size={20} /></div>
-                        <span style={{ opacity: 0.9 }}>Average Cost: <strong style={{ color: '#fff' }}>$600 - $900 / month</strong></span>
-                      </li>
-                      <li style={{ display: 'flex', gap: 16 }}>
-                        <div style={{ color: '#e74c3c', marginTop: 2 }}><Icon.Minus size={20} /></div>
-                        <span style={{ opacity: 0.9 }}>Mandatory in-person consultations</span>
-                      </li>
-                      <li style={{ display: 'flex', gap: 16 }}>
-                        <div style={{ color: '#e74c3c', marginTop: 2 }}><Icon.Minus size={20} /></div>
-                        <span style={{ opacity: 0.9 }}>Hidden "membership" or bloodwork fees</span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
+      <PatientArchetype
+        archetype="The O'Hare Operations Supervisor"
+        quote="I work rotating shifts at O'Hare. There is no version of reality where I can get to a Gold Coast doctor during business hours. My body doesn't operate on a 9-to-5, and my healthcare shouldn't either."
+        details="<strong>Patient Profile:</strong> Marcus, 38, Operations Supervisor at O'Hare International Airport.<br/><br/><strong>The Challenge:</strong> Marcus works a rotating schedule of days and overnights. His circadian rhythm is perpetually disrupted, which clinical research directly links to elevated ghrelin (the hunger hormone) and suppressed leptin (the satiety hormone). Grabbing meals from airport concession stands at 2 AM compounded the problem. His employer-provided BCBS plan denied Wegovy, requiring a Step Therapy protocol starting with Metformin—a drug not indicated for his condition.<br/><br/><strong>The Intervention:</strong> Marcus completed the Telehealth FX intake on his phone during a break. An Illinois-licensed physician reviewed his profile asynchronously and prescribed compounded Semaglutide. Cold-packed medication was delivered to his home in Schaumburg within 48 hours. No commute. No waiting room. No prior authorization battle."
+      />
 
-                <div className="col-md-6">
-                  <div style={{ 
-                    padding: 'clamp(32px, 4vw, 48px)', 
-                    height: '100%', 
-                    background: 'linear-gradient(135deg, rgba(46, 204, 113, 0.1) 0%, rgba(46, 74, 59, 0.05) 100%)', 
-                    border: '1px solid rgba(46, 204, 113, 0.2)',
-                    borderRadius: 32,
-                    boxShadow: '0 20px 40px rgba(0,0,0,0.2)'
-                  }}>
-                    <div style={{ color: '#2ECC71', fontWeight: 600, letterSpacing: 1, fontSize: 13, textTransform: 'uppercase', marginBottom: 16 }}>The TelehealthFX Route</div>
-                    <h3 className="serif" style={{ fontSize: 32, marginBottom: 16 }}>Direct-to-Patient Care</h3>
-                    <p style={{ opacity: 0.7, marginBottom: 32, lineHeight: 1.6 }}>
-                      Access the exact same active pharmaceutical ingredients prescribed by licensed clinicians, with zero real estate markups.
-                    </p>
-                    <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: 16 }}>
-                      <li style={{ display: 'flex', gap: 16 }}>
-                        <div style={{ color: '#2ECC71', marginTop: 2 }}><Icon.Check size={20} /></div>
-                        <span style={{ opacity: 0.9 }}>Cost: <strong style={{ color: '#fff' }}>From $146 / month</strong></span>
-                      </li>
-                      <li style={{ display: 'flex', gap: 16 }}>
-                        <div style={{ color: '#2ECC71', marginTop: 2 }}><Icon.Check size={20} /></div>
-                        <span style={{ opacity: 0.9 }}>100% online asynchronous intake</span>
-                      </li>
-                      <li style={{ display: 'flex', gap: 16 }}>
-                        <div style={{ color: '#2ECC71', marginTop: 2 }}><Icon.Check size={20} /></div>
-                        <span style={{ opacity: 0.9 }}>Shipped overnight in cold-packs</span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <InteractiveFAQ
+        faqs={[
+          { q: "How is this different from the GLP-1 programs advertised on the CTA?", a: "Many advertisements you see on CTA trains and buses are from telemedicine companies that use generic questionnaires and offer little to no physician oversight. Telehealth FX provides a comprehensive, asynchronous clinical intake reviewed by an individually credentialed, Illinois-licensed physician—not an algorithm. Your prescriber is a real doctor, verified through IDFPR." },
+          { q: "Can I get my medication delivered to my office in the Loop?", a: "Yes. Our 503A pharmacy partners ship via overnight courier with insulated cold-packs. You can have your medication delivered to any residential or commercial address in Cook County, including Loop office buildings with mailrooms." },
+          { q: "What if I'm currently on a Northwestern or Rush waitlist?", a: "You can begin your Telehealth FX evaluation immediately, without needing to cancel your existing referral. Many patients use our service to bridge the gap while waiting for a specialist appointment, and some choose to continue with us permanently due to the convenience and cost savings." },
+          { q: "Is compounded Semaglutide the same as branded Ozempic?", a: "Compounded Semaglutide contains the same active pharmaceutical ingredient as Ozempic and Wegovy. It is prepared by FDA-registered 503A compounding pharmacies using USP-grade ingredients. The key difference is that it is not manufactured by Novo Nordisk, which allows us to bypass the brand-name supply shortage entirely." },
+          { q: "Do you accept insurance?", a: "We do not bill insurance directly, which is actually the key advantage. By operating outside the insurance framework, we eliminate prior authorization delays, step therapy requirements, and formulary restrictions. However, your Telehealth FX costs are fully eligible for payment via FSA or HSA pre-tax funds." }
+        ]}
+      />
 
-      {/* 4. REAL-TIME SUPPLY CHAIN & HOSPITAL WAITLISTS */}
-      <section style={{ padding: 'clamp(60px, 8vw, 100px) 0' }}>
-        <div className="container">
-           <div className="row g-5">
-              <div className="col-lg-6">
-                 <div style={{ display: 'inline-block', background: 'var(--surface-2)', padding: '6px 16px', borderRadius: 100, fontSize: 13, fontWeight: 600, color: 'var(--brand)', textTransform: 'uppercase', letterSpacing: 1, marginBottom: 24 }}>
-                    Chicago Supply Chain Reality
-                 </div>
-                 <h2 className="serif" style={{ fontSize: 'clamp(32px, 4vw, 40px)', marginBottom: 24, lineHeight: 1.2 }}>Bypass the L Train & Northwestern Waitlists</h2>
-                 <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', color: 'var(--ink-2)', marginBottom: 24, lineHeight: 1.7 }}>
-                    Whether you're enduring delays on the Red Line, or sitting in rush hour traffic on the Kennedy Expressway (I-90/94) in freezing weather, spending an hour commuting just to sit in a doctor's waiting room for a 5-minute prescription refill is an outdated model.
-                 </p>
-                 <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', color: 'var(--ink-2)', marginBottom: 32, lineHeight: 1.7 }}>
-                    Even worse, if you try to fill a prescription for branded Wegovy at the local Walgreens on State Street or a neighborhood Jewel-Osco, you know the reality: <strong>the medications are on indefinite national backorder.</strong> Furthermore, securing an appointment at metabolic centers like <strong>Northwestern Memorial Hospital</strong> takes 4-6 months, and local insurance plans frequently deny prior authorizations.
-                 </p>
-                 
-                 <div style={{ display: 'flex', alignItems: 'center', gap: 16, background: '#fff', padding: 20, borderRadius: 16, border: '1px solid var(--line-soft)', boxShadow: '0 4px 12px rgba(0,0,0,0.02)' }}>
-                    <div style={{ width: 48, height: 48, background: 'rgba(46, 204, 113, 0.1)', borderRadius: 12, display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#2ECC71' }}>
-                       <Icon.Shield size={24} />
-                    </div>
-                    <div>
-                       <strong style={{ display: 'block', fontSize: 16, color: 'var(--ink)' }}>HSA / FSA Accepted</strong>
-                       <span style={{ fontSize: 14, color: 'var(--ink-2)' }}>Bypass Illinois insurance denials entirely. Use pre-tax dollars for your compounding protocol.</span>
-                    </div>
-                 </div>
-              </div>
-              
-              <div className="col-lg-6">
-                 <div style={{ background: '#fff', padding: 'clamp(24px, 4vw, 40px)', borderRadius: 32, boxShadow: '0 20px 60px rgba(0,0,0,0.05)', border: '1px solid rgba(0,0,0,0.03)' }}>
-                    <h3 className="serif" style={{ fontSize: 24, marginBottom: 32 }}>The 503A Patient Journey</h3>
-                    <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: 32 }}>
-                       <li style={{ display: 'flex', gap: 20 }}>
-                          <div style={{ width: 40, height: 40, background: '#2ECC71', color: '#000', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold', fontSize: 18, flexShrink: 0, boxShadow: '0 4px 12px rgba(46, 204, 113, 0.3)' }}>1</div>
-                          <div>
-                             <strong style={{ display: 'block', fontSize: 18, marginBottom: 8, color: 'var(--ink)' }}>Complete IL Intake</strong>
-                             <span style={{ color: 'var(--ink-2)', fontSize: 15, lineHeight: 1.6 }}>Fill out your health profile online from your home. No freezing commutes or waiting rooms required.</span>
-                          </div>
-                       </li>
-                       <li style={{ display: 'flex', gap: 20 }}>
-                          <div style={{ width: 40, height: 40, background: '#2ECC71', color: '#000', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold', fontSize: 18, flexShrink: 0, boxShadow: '0 4px 12px rgba(46, 204, 113, 0.3)' }}>2</div>
-                          <div>
-                             <strong style={{ display: 'block', fontSize: 18, marginBottom: 8, color: 'var(--ink)' }}>Physician Review</strong>
-                             <span style={{ color: 'var(--ink-2)', fontSize: 15, lineHeight: 1.6 }}>A licensed Illinois physician reviews your chart and approves your script within 24 hours.</span>
-                          </div>
-                       </li>
-                       <li style={{ display: 'flex', gap: 20 }}>
-                          <div style={{ width: 40, height: 40, background: '#2ECC71', color: '#000', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold', fontSize: 18, flexShrink: 0, boxShadow: '0 4px 12px rgba(46, 204, 113, 0.3)' }}>3</div>
-                          <div>
-                             <strong style={{ display: 'block', fontSize: 18, marginBottom: 8, color: 'var(--ink)' }}>Overnight Delivery</strong>
-                             <span style={{ color: 'var(--ink-2)', fontSize: 15, lineHeight: 1.6 }}>Medication is compounded and shipped cold-packed straight to your door in Cook County.</span>
-                          </div>
-                       </li>
-                    </ul>
-                 </div>
-              </div>
-           </div>
-        </div>
-      </section>
+      <DeliveryGridMap
+        cityName="Chicago"
+        mapQuery="Chicago, IL"
+        coordinates="41.8781° N, 87.6298° W"
+        counties="Cook County, DuPage County, Lake County, Will County, Kane County"
+        neighborhoods={['The Loop', 'Lincoln Park', 'Lakeview', 'Wicker Park', 'Gold Coast', 'River North', 'Naperville', 'Evanston', 'Oak Park', 'Schaumburg']}
+      />
 
-      {/* 5. LOCAL SEO & SERVICE AREA MAP */}
-      <section style={{ padding: 'clamp(60px, 8vw, 100px) 0', background: '#fff', borderTop: '1px solid var(--line-soft)' }}>
-        <div className="container">
-          <div className="row g-5 align-items-center">
-            <div className="col-lg-5 text-center text-lg-start">
-              <h2 className="serif" style={{ fontSize: 'clamp(32px, 4vw, 40px)', marginBottom: 24 }}>Chicago Service Area</h2>
-              <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', color: 'var(--ink-2)', marginBottom: 32, lineHeight: 1.7 }}>
-                Telehealth FX provides asynchronous medical weight loss and GLP-1 prescribing services to all permanent residents and professionals operating within Chicago and surrounding Illinois counties.
-              </p>
-              <div style={{ background: '#FBF8F3', padding: 32, borderRadius: 24, textAlign: 'left' }}>
-                 <h4 style={{ fontSize: 18, marginBottom: 16, fontWeight: 600, color: 'var(--ink)' }}>Coverage Coordinates</h4>
-                 <ul style={{ listStyle: 'none', padding: 0, margin: 0, color: 'var(--ink-2)', fontSize: 15, display: 'flex', flexDirection: 'column', gap: 12 }}>
-                    <li style={{ display: 'flex', justifyContent: 'space-between', borderBottom: '1px solid rgba(0,0,0,0.05)', paddingBottom: 8 }}>
-                       <span>Primary Locality</span> <strong>Chicago, IL</strong>
-                    </li>
-                    <li style={{ display: 'flex', justifyContent: 'space-between', borderBottom: '1px solid rgba(0,0,0,0.05)', paddingBottom: 8 }}>
-                       <span>Coordinates</span> <strong>41.8781° N, 87.6298° W</strong>
-                    </li>
-                    <li style={{ display: 'flex', flexDirection: 'column', gap: 4 }}>
-                       <span>Counties Served:</span>
-                       <strong style={{ lineHeight: 1.4 }}>Cook County, DuPage County, Lake County, Will County</strong>
-                    </li>
-                 </ul>
-              </div>
-            </div>
-            <div className="col-lg-7">
-               <div style={{ width: '100%', height: '100%', minHeight: 450, borderRadius: 32, overflow: 'hidden', boxShadow: '0 24px 48px rgba(0,0,0,0.08)' }}>
-                  <iframe 
-                    width="100%" 
-                    height="100%" 
-                    style={{ minHeight: 450, filter: 'grayscale(0.2) contrast(1.1)' }}
-                    src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Chicago,%20IL+(Telehealth%20FX%20Chicago)&amp;t=&amp;z=10&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" 
-                    frameBorder="0"
-                    allowFullScreen>
-                  </iframe>
-               </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <FinalCTA stateName="Illinois" />
 
-      {/* FINAL CTA */}
-      <section style={{ padding: 'clamp(80px, 10vw, 120px) 0', background: 'var(--brand)', color: '#fff', textAlign: 'center' }}>
-         <div className="container" style={{ maxWidth: 800 }}>
-            <h2 className="serif" style={{ fontSize: 'clamp(40px, 5vw, 56px)', marginBottom: 24, color: '#fff' }}>Ready to optimize your metabolic health?</h2>
-            <p style={{ fontSize: 'clamp(18px, 2.5vw, 22px)', opacity: 0.9, marginBottom: 40, lineHeight: 1.6 }}>Join thousands of Illinois residents who have transitioned to clinical GLP-1 telehealth.</p>
-            <a href={SEMAGLUTIDE_URL} style={{ 
-               display: 'inline-block',
-               background: '#fff', 
-               color: 'var(--brand)', 
-               fontSize: 20, 
-               padding: '20px 48px', 
-               fontWeight: 600,
-               borderRadius: 100,
-               textDecoration: 'none',
-               boxShadow: '0 10px 30px rgba(0,0,0,0.1)'
-            }}>Check Your IL Eligibility Today</a>
-         </div>
-      </section>
     </div>
   );
 }
