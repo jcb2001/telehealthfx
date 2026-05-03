@@ -107,16 +107,16 @@ export function LocationNYC() {
            <div className="row g-5 align-items-center">
               <div className="col-lg-6">
                  <h2 className="serif" style={{ fontSize: 'clamp(32px, 4vw, 48px)', lineHeight: 1.2, marginBottom: 24, color: 'var(--ink)' }}>
-                    Metabolic Health in the Five Boroughs
+                    The NYC Metabolic Reality: FiDi Hours & The Bodega Diet
                  </h2>
                  <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', color: 'var(--ink-2)', marginBottom: 24, lineHeight: 1.7 }}>
-                    Navigating metabolic health in NYC presents a unique physiological challenge. The high-stress, high-cortisol environment combined with the convenience of delivery apps severely impacts baseline metabolism.
+                    Navigating metabolic health in NYC presents a unique physiological challenge. The reality of 12-hour workdays in the Financial District (FiDi) or Silicon Alley creates a high-cortisol environment that severely impacts baseline metabolism.
                  </p>
                  <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', color: 'var(--ink-2)', marginBottom: 32, lineHeight: 1.7 }}>
-                    According to the NYC Department of Health, over 50% of adult New Yorkers are overweight, with skyrocketing insulin resistance in Queens and The Bronx. Traditional protocols often fail in this demanding environment.
+                    While Manhattan offers $300/month Equinox memberships and premium access to Whole Foods, the reality for many New Yorkers is relying on the convenience of bodega sandwiches and late-night Seamless deliveries. According to the NYC Department of Health, this environment has led to skyrocketing insulin resistance across Queens and The Bronx. Traditional diet protocols simply hit a physiological wall in this demanding environment.
                  </p>
                  <a href="/blog/ozempic-insulin-resistance" style={{ color: 'var(--brand)', textDecoration: 'none', fontWeight: 600, display: 'inline-flex', alignItems: 'center', gap: 8 }}>
-                    Read our clinical guide <Icon.Arrow size={16} />
+                    Read our clinical guide to insulin resistance <Icon.Arrow size={16} />
                  </a>
               </div>
               
@@ -128,11 +128,11 @@ export function LocationNYC() {
                    boxShadow: '0 20px 40px rgba(0,0,0,0.04)',
                    border: '1px solid rgba(0,0,0,0.05)'
                  }}>
-                    <h3 className="serif" style={{ fontSize: 24, marginBottom: 8, color: 'var(--ink)' }}>Borough Coverage</h3>
-                    <p style={{ color: 'var(--ink-2)', fontSize: 15, marginBottom: 24 }}>Our 503A pharmacies ship directly to:</p>
+                    <h3 className="serif" style={{ fontSize: 24, marginBottom: 8, color: 'var(--ink)' }}>Hyper-Local Delivery Areas</h3>
+                    <p style={{ color: 'var(--ink-2)', fontSize: 15, marginBottom: 24 }}>Our 503A pharmacies ship cold-packed medications directly to your doorman or walk-up across:</p>
                     
                     <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))', gap: 16 }}>
-                       {['Manhattan', 'Brooklyn', 'Queens', 'The Bronx', 'Staten Island', 'Long Island'].map(borough => (
+                       {['Upper East Side', 'Williamsburg', 'Astoria', 'Park Slope', 'Financial District', 'Riverdale', 'Flushing', 'Staten Island'].map(borough => (
                          <div key={borough} style={{ display: 'flex', alignItems: 'center', gap: 12, background: 'var(--surface-2)', padding: '12px 16px', borderRadius: 12 }}>
                             <div style={{ width: 8, height: 8, background: '#2ECC71', borderRadius: '50%' }}></div> 
                             <span style={{ fontWeight: 500, fontSize: 15, color: 'var(--ink)' }}>{borough}</span>
@@ -166,9 +166,9 @@ export function LocationNYC() {
                     backdropFilter: 'blur(20px)'
                   }}>
                     <div style={{ color: '#e74c3c', fontWeight: 600, letterSpacing: 1, fontSize: 13, textTransform: 'uppercase', marginBottom: 16 }}>The Traditional Route</div>
-                    <h3 className="serif" style={{ fontSize: 32, marginBottom: 16 }}>Manhattan MedSpas</h3>
+                    <h3 className="serif" style={{ fontSize: 32, marginBottom: 16 }}>Tribeca & SoHo MedSpas</h3>
                     <p style={{ opacity: 0.7, marginBottom: 32, lineHeight: 1.6 }}>
-                      Visiting a boutique anti-aging clinic in SoHo or Tribeca requires paying a massive premium for the zip code.
+                      Visiting a boutique anti-aging clinic south of 14th Street or on the Upper East Side requires paying a massive premium for the zip code.
                     </p>
                     <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: 16 }}>
                       <li style={{ display: 'flex', gap: 16 }}>
@@ -197,7 +197,7 @@ export function LocationNYC() {
                     boxShadow: '0 20px 40px rgba(0,0,0,0.2)'
                   }}>
                     <div style={{ color: '#2ECC71', fontWeight: 600, letterSpacing: 1, fontSize: 13, textTransform: 'uppercase', marginBottom: 16 }}>The TelehealthFX Route</div>
-                    <h3 className="serif" style={{ fontSize: 32, marginBottom: 16 }}>Direct-to-Patient</h3>
+                    <h3 className="serif" style={{ fontSize: 32, marginBottom: 16 }}>Direct-to-Patient Care</h3>
                     <p style={{ opacity: 0.7, marginBottom: 32, lineHeight: 1.6 }}>
                       Access the exact same active pharmaceutical ingredients prescribed by licensed clinicians, with zero real estate markups.
                     </p>
@@ -231,12 +231,12 @@ export function LocationNYC() {
                  <div style={{ display: 'inline-block', background: 'var(--surface-2)', padding: '6px 16px', borderRadius: 100, fontSize: 13, fontWeight: 600, color: 'var(--brand)', textTransform: 'uppercase', letterSpacing: 1, marginBottom: 24 }}>
                     NYC Supply Chain Reality
                  </div>
-                 <h2 className="serif" style={{ fontSize: 'clamp(32px, 4vw, 40px)', marginBottom: 24, lineHeight: 1.2 }}>Bypass Duane Reade Shortages & Hospital Waitlists</h2>
+                 <h2 className="serif" style={{ fontSize: 'clamp(32px, 4vw, 40px)', marginBottom: 24, lineHeight: 1.2 }}>Bypass the 4/5/6 Train & The Duane Reade Shortages</h2>
                  <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', color: 'var(--ink-2)', marginBottom: 24, lineHeight: 1.7 }}>
-                    If you've tried to fill a prescription for branded Wegovy at a local CVS in Manhattan, you know the reality: <strong>the medications are on indefinite national backorder.</strong>
+                    Whether you're commuting from Astoria via the N/W, taking the L train from Williamsburg, or navigating rush hour in Midtown, spending 45 minutes delayed in transit just to sit in a doctor's waiting room for a 5-minute refill is an outdated model.
                  </p>
                  <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', color: 'var(--ink-2)', marginBottom: 32, lineHeight: 1.7 }}>
-                    Furthermore, securing an appointment at metabolic centers like <strong>NYU Langone</strong> or <strong>Mount Sinai</strong> takes 4-6 months. Even then, local insurance plans (Empire BCBS, MetroPlus) frequently deny prior authorizations.
+                    Even worse, if you try to fill a prescription for branded Wegovy at the Duane Reade on 14th Street or a local independent pharmacy in Bay Ridge, you know the reality: <strong>the medications are on indefinite national backorder.</strong> Furthermore, securing an appointment at metabolic centers like <strong>NYU Langone</strong> takes 4-6 months, and local insurance plans (Empire BCBS, MetroPlus) frequently deny prior authorizations.
                  </p>
                  
                  <div style={{ display: 'flex', alignItems: 'center', gap: 16, background: '#fff', padding: 20, borderRadius: 16, border: '1px solid var(--line-soft)', boxShadow: '0 4px 12px rgba(0,0,0,0.02)' }}>
@@ -258,7 +258,7 @@ export function LocationNYC() {
                           <div style={{ width: 40, height: 40, background: '#2ECC71', color: '#000', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold', fontSize: 18, flexShrink: 0, boxShadow: '0 4px 12px rgba(46, 204, 113, 0.3)' }}>1</div>
                           <div>
                              <strong style={{ display: 'block', fontSize: 18, marginBottom: 8, color: 'var(--ink)' }}>Complete NY Intake</strong>
-                             <span style={{ color: 'var(--ink-2)', fontSize: 15, lineHeight: 1.6 }}>Fill out your health profile online. No MTA commute or waiting rooms required.</span>
+                             <span style={{ color: 'var(--ink-2)', fontSize: 15, lineHeight: 1.6 }}>Fill out your health profile online while riding the subway. No MTA commute or waiting rooms required.</span>
                           </div>
                        </li>
                        <li style={{ display: 'flex', gap: 20 }}>
@@ -272,7 +272,7 @@ export function LocationNYC() {
                           <div style={{ width: 40, height: 40, background: '#2ECC71', color: '#000', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold', fontSize: 18, flexShrink: 0, boxShadow: '0 4px 12px rgba(46, 204, 113, 0.3)' }}>3</div>
                           <div>
                              <strong style={{ display: 'block', fontSize: 18, marginBottom: 8, color: 'var(--ink)' }}>Overnight Delivery</strong>
-                             <span style={{ color: 'var(--ink-2)', fontSize: 15, lineHeight: 1.6 }}>Medication is compounded and shipped cold-packed straight to your apartment.</span>
+                             <span style={{ color: 'var(--ink-2)', fontSize: 15, lineHeight: 1.6 }}>Medication is compounded and shipped cold-packed straight to your apartment or doorman.</span>
                           </div>
                        </li>
                     </ul>
