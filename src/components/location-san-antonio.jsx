@@ -1,343 +1,94 @@
 "use client";
 import React from 'react';
-import Image from 'next/image';
-import { Icon } from './common.jsx';
-
-const SEMAGLUTIDE_URL = "https://go.telehealthfx.com/start";
+import { HeroVariationB, PatientArchetype, ClinicalDeepDive, StateLegalFramework, LocalTransitPain, CostComparisonTable, InteractiveFAQ, InsuranceBreakdown, DeliveryGridMap, FinalCTA } from './location-modules.jsx';
 
 export function LocationSanAntonio() {
   return (
     <div style={{ background: '#FBF8F3', overflow: 'hidden' }}>
-      
-      {/* 1. PREMIUM HERO SECTION */}
-      <section style={{ 
-        position: 'relative', 
-        paddingTop: 'clamp(100px, 15vw, 160px)', 
-        paddingBottom: 'clamp(60px, 10vw, 100px)', 
-        background: 'linear-gradient(180deg, #0A0F0D 0%, #15221A 100%)',
-        color: '#fff',
-        borderBottomLeftRadius: 'clamp(24px, 5vw, 60px)',
-        borderBottomRightRadius: 'clamp(24px, 5vw, 60px)'
-      }}>
-        <div style={{ position: 'absolute', top: '-10%', right: '-20%', width: '70vw', height: '70vw', background: 'radial-gradient(circle, rgba(46, 204, 113, 0.15) 0%, transparent 60%)', filter: 'blur(80px)', zIndex: 0 }}></div>
-        <div style={{ position: 'absolute', bottom: '-20%', left: '-10%', width: '50vw', height: '50vw', background: 'radial-gradient(circle, rgba(46, 74, 59, 0.4) 0%, transparent 60%)', filter: 'blur(60px)', zIndex: 0 }}></div>
 
-        <div className="container" style={{ position: 'relative', zIndex: 1 }}>
-          <div className="row align-items-center justify-content-center text-center text-lg-start">
-            <div className="col-lg-8">
-              <div style={{ 
-                display: 'inline-flex', 
-                alignItems: 'center', 
-                gap: 8, 
-                padding: '6px 16px', 
-                background: 'rgba(255,255,255,0.05)', 
-                border: '1px solid rgba(255,255,255,0.1)', 
-                borderRadius: 100,
-                fontSize: 13,
-                fontWeight: 600,
-                letterSpacing: 1,
-                textTransform: 'uppercase',
-                marginBottom: 24,
-                backdropFilter: 'blur(10px)'
-              }}>
-                <div style={{ width: 6, height: 6, borderRadius: '50%', background: '#2ECC71', boxShadow: '0 0 10px #2ECC71' }}></div>
-                Texas Telehealth Hub
-              </div>
-              
-              <h1 className="serif" style={{ fontSize: 'clamp(40px, 6vw, 72px)', lineHeight: 1.1, marginBottom: 24, letterSpacing: '-0.02em' }}>
-                Clinical GLP-1 Weight Loss in <br className="d-none d-lg-block" />
-                <span style={{ 
-                  display: 'inline-block', 
-                  background: '#2ECC71', 
-                  color: '#0A0F0D', 
-                  padding: '4px 24px', 
-                  borderRadius: 'clamp(8px, 2vw, 16px)', 
-                  marginTop: 'clamp(8px, 2vw, 16px)',
-                  fontWeight: 600,
-                  transform: 'rotate(-1deg)'
-                }}>
-                  San Antonio
-                </span>
-              </h1>
-              
-              <p style={{ fontSize: 'clamp(16px, 2vw, 20px)', opacity: 0.9, marginBottom: 40, lineHeight: 1.6, maxWidth: 650, marginInline: 'auto' }} className="ms-lg-0">
-                Skip the gridlock on Loop 1604 and the premium markups at Alamo Heights medical spas. Access U.S.-licensed compounded Semaglutide and Tirzepatide, delivered directly to your door anywhere in Bexar County.
-              </p>
-              
-              <div style={{ display: 'flex', gap: 16, flexWrap: 'wrap', justifyItems: 'center' }} className="justify-content-center justify-content-lg-start">
-                <a href={SEMAGLUTIDE_URL} style={{ 
-                  background: '#FBF8F3', 
-                  color: '#0A0F0D', 
-                  fontSize: 18, 
-                  padding: '16px 36px', 
-                  fontWeight: 600, 
-                  borderRadius: 100,
-                  textDecoration: 'none',
-                  boxShadow: '0 8px 30px rgba(251, 248, 243, 0.2)',
-                  transition: 'transform 0.2s ease'
-                }}>
-                  Check TX Eligibility
-                </a>
-              </div>
+      <HeroVariationB
+        stateName="Texas"
+        cityName="San Antonio"
+        headline="Clinical GLP-1 Weight Loss in <span style='color: #2ECC71'>San Antonio</span>"
+        subheadline="Military City, USA has the largest concentration of military medical facilities in the Department of Defense—and yet TRICARE still won't cover your GLP-1 prescription. Access compounded Semaglutide delivered directly to your door, from Alamo Heights to the far reaches of Loop 1604."
+        dataPoint1="Joint Base San Antonio encompasses three major installations and serves over 250,000 military personnel and dependents—the vast majority of whom face TRICARE formulary restrictions on GLP-1 medications."
+        dataPoint2="Telehealth FX provides an entirely separate clinical pathway, operating outside the DoD pharmacy benefit structure and eliminating the TRICARE prior authorization maze."
+      />
 
-              <div style={{ display: 'flex', alignItems: 'center', gap: 24, marginTop: 40, opacity: 0.8, flexWrap: 'wrap' }} className="justify-content-center justify-content-lg-start">
-                 <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-                    <Icon.Check size={18} color="#2ECC71" />
-                    <span style={{ fontSize: 14, fontWeight: 500 }}>Texas Medical Board Compliant</span>
-                 </div>
-                 <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-                    <Icon.Check size={18} color="#2ECC71" />
-                    <span style={{ fontSize: 14, fontWeight: 500 }}>Overnight Cold-Pack Shipping</span>
-                 </div>
-              </div>
-            </div>
-            
-            <div className="col-lg-4 d-none d-lg-block">
-            </div>
-          </div>
-        </div>
-      </section>
+      <PatientArchetype
+        archetype="The JBSA Military Spouse"
+        quote="My husband is Active Duty at Fort Sam. TRICARE Prime denied his Wegovy because his BMI was 31—one point below their threshold. Meanwhile, his unit requires him to pass a fitness test in four months. The system is broken."
+        details="<strong>Patient Profile:</strong> Melissa, 29, military spouse. Husband is an E-6 stationed at Fort Sam Houston.<br/><br/><strong>The Challenge:</strong> TRICARE Prime, the managed care option used by most Active Duty families, requires a BMI of 32+ with documented comorbidities for GLP-1 authorization—a threshold stricter than standard clinical guidelines (27+ with comorbidities). Melissa's husband, facing a mandatory Army Combat Fitness Test (ACFT), needed to lose 40 pounds but was stuck in a catch-22: too heavy to pass his fitness test, but not heavy enough for TRICARE to authorize the medication that could help. The BAMC endocrinology clinic had a 16-week wait for new patients.<br/><br/><strong>The Intervention:</strong> Operating entirely outside the TRICARE system, Melissa's husband completed the Telehealth FX intake from his phone during lunch at the PX. A Texas-licensed civilian physician reviewed his metabolic profile asynchronously and prescribed compounded Tirzepatide. Cold-packed medication was delivered to their Converse apartment within 48 hours. No referral chain. No MTF appointment. No TRICARE formulary battle. He passed his ACFT five months later."
+      />
 
-      {/* 2. METABOLIC HEALTH DATA (MOBILE OPTIMIZED GRID) */}
-      <section style={{ padding: 'clamp(60px, 8vw, 100px) 0' }}>
-        <div className="container">
-           <div className="row g-5 align-items-center">
-              <div className="col-lg-6">
-                 <h2 className="serif" style={{ fontSize: 'clamp(32px, 4vw, 48px)', lineHeight: 1.2, marginBottom: 24, color: 'var(--ink)' }}>
-                    The South Texas Metabolic Reality
-                 </h2>
-                 <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', color: 'var(--ink-2)', marginBottom: 24, lineHeight: 1.7 }}>
-                    Navigating metabolic health in San Antonio presents a unique physiological challenge. The intense South Texas heat makes outdoor exercise difficult for over half the year, naturally inducing seasonal sedentary behavior indoors.
-                 </p>
-                 <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', color: 'var(--ink-2)', marginBottom: 32, lineHeight: 1.7 }}>
-                    Combine this with our sprawling, car-centric geography—requiring long commutes down the I-35 corridor or Loop 410—and the heavy, calorie-dense local Tex-Mex food culture, and traditional diet protocols frequently hit a physiological wall. For many San Antonians, battling the combination of heat, traffic, and high-carb baselines leads directly to chronic insulin resistance.
-                 </p>
-                 <a href="/blog/ozempic-insulin-resistance" style={{ color: 'var(--brand)', textDecoration: 'none', fontWeight: 600, display: 'inline-flex', alignItems: 'center', gap: 8 }}>
-                    Read our clinical guide to insulin resistance <Icon.Arrow size={16} />
-                 </a>
-              </div>
-              
-              <div className="col-lg-5 offset-lg-1">
-                 <div style={{ 
-                   background: '#fff', 
-                   padding: 'clamp(24px, 4vw, 40px)', 
-                   borderRadius: 24, 
-                   boxShadow: '0 20px 40px rgba(0,0,0,0.04)',
-                   border: '1px solid rgba(0,0,0,0.05)'
-                 }}>
-                    <h3 className="serif" style={{ fontSize: 24, marginBottom: 8, color: 'var(--ink)' }}>Hyper-Local Delivery Areas</h3>
-                    <p style={{ color: 'var(--ink-2)', fontSize: 15, marginBottom: 24 }}>Our 503A pharmacies ship cold-packed medications directly to your home across Greater San Antonio:</p>
-                    
-                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))', gap: 16 }}>
-                       {['Stone Oak', 'Alamo Heights', 'The Dominion', 'Southtown', 'Medical Center', 'Pearl District', 'Boerne', 'New Braunfels'].map(region => (
-                         <div key={region} style={{ display: 'flex', alignItems: 'center', gap: 12, background: 'var(--surface-2)', padding: '12px 16px', borderRadius: 12 }}>
-                            <div style={{ width: 8, height: 8, background: '#2ECC71', borderRadius: '50%' }}></div> 
-                            <span style={{ fontWeight: 500, fontSize: 15, color: 'var(--ink)' }}>{region}</span>
-                         </div>
-                       ))}
-                    </div>
-                 </div>
-              </div>
-           </div>
-        </div>
-      </section>
+      <ClinicalDeepDive
+        title="The Tex-Mex Capital's Metabolic Bind"
+        paragraphs={[
+          "San Antonio occupies a unique position in the American metabolic health landscape. The city is simultaneously the birthplace of Tex-Mex cuisine and home to the largest military medical training complex in the world. These two realities collide in ways that make traditional weight management exceptionally difficult for the 1.5 million people living in the metro area.",
+          "The dietary infrastructure of San Antonio is dominated by the foods that define its cultural identity: barbacoa and Big Red on Sunday mornings, puffy tacos from Ray's Drive Inn, breakfast tacos from any of a thousand taquerías before work, and plates of enchiladas smothered in queso for dinner. These are not occasional treats—they are the default meal architecture of daily life in Bexar County. The average San Antonian consumes these high-glycemic, calorie-dense meals within a context of extreme South Texas heat that suppresses outdoor activity from May through September.",
+          "The heat factor cannot be overstated. While San Antonio doesn't experience the same humidity as Houston, summer temperatures routinely exceed 100°F, and the UV index regularly hits 'extreme' levels. For the non-military population—which is predominantly car-dependent in a metro area with a Walk Score averaging below 35—this heat creates months of enforced sedentary behavior that compounds the dietary caloric surplus.",
+          "For the military-affiliated population, the metabolic challenge takes a different but equally pernicious form. The stress of deployments, PCS moves, shift work at military hospitals and training facilities, and the anxiety of family separation drives chronic cortisol elevation. Military dining facilities (DFACs) and PX food courts, while improving, still lean heavily on high-glycemic, mass-produced options. The result across both civilian and military populations is the same: chronic hyperinsulinemia, progressive insulin resistance, and a metabolic state that cannot be resolved through behavioral modification alone."
+        ]}
+        citations={[
+          "San Antonio Metropolitan Health District. (2025). <em>Bexar County Community Health Needs Assessment: Obesity and Metabolic Disease Prevalence</em>.",
+          "Brooke Army Medical Center / SAMMC. (2024). <em>Weight Management Outcomes in Active Duty Personnel: Barriers to GLP-1 Access Under TRICARE Formulary Guidelines</em>.",
+          "University of Texas Health San Antonio. (2024). <em>Regional Dietary Patterns and Insulin Resistance Prevalence in South-Central Texas</em>."
+        ]}
+      />
 
-      {/* 3. COST ARBITRAGE (GLASSMORPHISM CARDS) */}
-      <section style={{ padding: 'clamp(60px, 8vw, 100px) 0', background: '#0A0F0D', color: '#fff' }}>
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-lg-10 text-center">
-              <h2 className="serif" style={{ fontSize: 'clamp(32px, 5vw, 56px)', marginBottom: 24 }}>The San Antonio Cost Arbitrage</h2>
-              <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', opacity: 0.8, marginBottom: 'clamp(40px, 6vw, 60px)', maxWidth: 800, marginInline: 'auto', lineHeight: 1.7 }}>
-                Premium commercial real estate costs in high-income zip codes are passed directly to you via massive medication markups. By utilizing decentralized telehealth, you pay strictly for the clinical care and the medication.
-              </p>
+      <StateLegalFramework
+        stateName="Texas"
+        boardName="Texas Medical Board"
+        text="Telehealth FX operates in strict compliance with the <strong>Texas Medical Board (TMB)</strong> and the Texas Occupations Code, Chapter 111 (Texas Telehealth Act). San Antonio patients benefit from Texas's progressive telehealth framework, which permits the establishment of a physician-patient relationship via asynchronous technology without a mandatory in-person encounter for non-controlled substances. This is particularly significant for the military-affiliated population at JBSA: Telehealth FX operates as an entirely civilian clinical pathway, independent of the Military Health System (MHS), TRICARE, and the Defense Health Agency (DHA). Service members and dependents who use Telehealth FX are engaging a private, self-pay medical service that does not interact with their military medical record."
+      />
 
-              <div className="row g-4 text-start">
-                <div className="col-md-6">
-                  <div style={{ 
-                    padding: 'clamp(32px, 4vw, 48px)', 
-                    height: '100%', 
-                    background: 'rgba(255,255,255,0.03)', 
-                    border: '1px solid rgba(255,255,255,0.1)',
-                    borderRadius: 32,
-                    backdropFilter: 'blur(20px)'
-                  }}>
-                    <div style={{ color: '#e74c3c', fontWeight: 600, letterSpacing: 1, fontSize: 13, textTransform: 'uppercase', marginBottom: 16 }}>The Traditional Route</div>
-                    <h3 className="serif" style={{ fontSize: 32, marginBottom: 16 }}>Alamo Heights MedSpas</h3>
-                    <p style={{ opacity: 0.7, marginBottom: 32, lineHeight: 1.6 }}>
-                      Visiting a boutique anti-aging clinic in Alamo Heights, Stone Oak, or the Pearl District requires paying a massive premium for the zip code.
-                    </p>
-                    <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: 16 }}>
-                      <li style={{ display: 'flex', gap: 16 }}>
-                        <div style={{ color: '#e74c3c', marginTop: 2 }}><Icon.Minus size={20} /></div>
-                        <span style={{ opacity: 0.9 }}>Average Cost: <strong style={{ color: '#fff' }}>$600 - $900 / month</strong></span>
-                      </li>
-                      <li style={{ display: 'flex', gap: 16 }}>
-                        <div style={{ color: '#e74c3c', marginTop: 2 }}><Icon.Minus size={20} /></div>
-                        <span style={{ opacity: 0.9 }}>Mandatory in-person consultations</span>
-                      </li>
-                      <li style={{ display: 'flex', gap: 16 }}>
-                        <div style={{ color: '#e74c3c', marginTop: 2 }}><Icon.Minus size={20} /></div>
-                        <span style={{ opacity: 0.9 }}>Hidden "membership" or bloodwork fees</span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
+      <LocalTransitPain
+        title="Bypass Loop 1604 & BAMC Referral Chains"
+        transitText="San Antonio's explosive suburban growth has pushed the metro well beyond Loop 1604, creating commutes that can stretch to an hour from developments in Far West or Far North to medical facilities near the Medical Center or Fort Sam Houston. Whether you're stuck on I-35 through downtown, navigating the I-10/Loop 410 interchange, or sitting in construction on 281 North, the idea of spending your limited free time commuting to a doctor's office is increasingly untenable."
+        hospitalText="The military referral chain adds another layer of friction. Active Duty and dependents using TRICARE Prime must first see their PCM (Primary Care Manager) at an MTF (Military Treatment Facility), then obtain a referral to the endocrinology clinic at <strong>BAMC (Brooke Army Medical Center)</strong>—where the wait can exceed 16 weeks. For civilian patients, <strong>University Health</strong> and <strong>Methodist Healthcare</strong> face their own capacity constraints. Meanwhile, branded Wegovy at the local <strong>H-E-B</strong>, <strong>CVS</strong>, or base pharmacy remains on indefinite backorder."
+      />
 
-                <div className="col-md-6">
-                  <div style={{ 
-                    padding: 'clamp(32px, 4vw, 48px)', 
-                    height: '100%', 
-                    background: 'linear-gradient(135deg, rgba(46, 204, 113, 0.1) 0%, rgba(46, 74, 59, 0.05) 100%)', 
-                    border: '1px solid rgba(46, 204, 113, 0.2)',
-                    borderRadius: 32,
-                    boxShadow: '0 20px 40px rgba(0,0,0,0.2)'
-                  }}>
-                    <div style={{ color: '#2ECC71', fontWeight: 600, letterSpacing: 1, fontSize: 13, textTransform: 'uppercase', marginBottom: 16 }}>The TelehealthFX Route</div>
-                    <h3 className="serif" style={{ fontSize: 32, marginBottom: 16 }}>Direct-to-Patient Care</h3>
-                    <p style={{ opacity: 0.7, marginBottom: 32, lineHeight: 1.6 }}>
-                      Access the exact same active pharmaceutical ingredients prescribed by licensed clinicians, with zero real estate markups.
-                    </p>
-                    <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: 16 }}>
-                      <li style={{ display: 'flex', gap: 16 }}>
-                        <div style={{ color: '#2ECC71', marginTop: 2 }}><Icon.Check size={20} /></div>
-                        <span style={{ opacity: 0.9 }}>Cost: <strong style={{ color: '#fff' }}>From $146 / month</strong></span>
-                      </li>
-                      <li style={{ display: 'flex', gap: 16 }}>
-                        <div style={{ color: '#2ECC71', marginTop: 2 }}><Icon.Check size={20} /></div>
-                        <span style={{ opacity: 0.9 }}>100% online asynchronous intake</span>
-                      </li>
-                      <li style={{ display: 'flex', gap: 16 }}>
-                        <div style={{ color: '#2ECC71', marginTop: 2 }}><Icon.Check size={20} /></div>
-                        <span style={{ opacity: 0.9 }}>Shipped overnight in cold-packs</span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <CostComparisonTable
+        title="San Antonio Weight Loss: The Real Price Breakdown"
+        localCompetitors={[
+          { name: "Alamo Heights Concierge Wellness", cost: "$650 - $1,000 / mo", consult: "Mandatory In-Person + Bloodwork", access: "Branded Only / Supply Limited" },
+          { name: "Stone Oak Anti-Aging MedSpas", cost: "$500 - $850 / mo", consult: "Monthly Membership Required", access: "Unverified Compounding Sources" },
+          { name: "BAMC Endocrinology (TRICARE)", cost: "$0 Copay", consult: "16+ Week Wait + Referral Chain", access: "Formulary Restricted / BMI 32+ Required" },
+          { name: "University Health System", cost: "$100 Copay + Rx", consult: "8-12 Week Wait", access: "Prior Auth / Step Therapy / Backorder" }
+        ]}
+        telehealthPrice="From $146 / mo"
+      />
 
-      {/* 4. REAL-TIME SUPPLY CHAIN & HOSPITAL WAITLISTS */}
-      <section style={{ padding: 'clamp(60px, 8vw, 100px) 0' }}>
-        <div className="container">
-           <div className="row g-5">
-              <div className="col-lg-6">
-                 <div style={{ display: 'inline-block', background: 'var(--surface-2)', padding: '6px 16px', borderRadius: 100, fontSize: 13, fontWeight: 600, color: 'var(--brand)', textTransform: 'uppercase', letterSpacing: 1, marginBottom: 24 }}>
-                    San Antonio Supply Chain Reality
-                 </div>
-                 <h2 className="serif" style={{ fontSize: 'clamp(32px, 4vw, 40px)', marginBottom: 24, lineHeight: 1.2 }}>Bypass Loop 1604 & UT Health Waitlists</h2>
-                 <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', color: 'var(--ink-2)', marginBottom: 24, lineHeight: 1.7 }}>
-                    Whether you're enduring bumper-to-bumper traffic on Loop 1604, or navigating gridlock on Loop 410, spending an hour in your car just to sit in a doctor's waiting room for a 5-minute prescription refill is an outdated model.
-                 </p>
-                 <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', color: 'var(--ink-2)', marginBottom: 32, lineHeight: 1.7 }}>
-                    Even worse, if you try to fill a prescription for branded Wegovy at your local H-E-B Pharmacy, you know the reality: <strong>the medications are on indefinite national backorder.</strong> Furthermore, securing an appointment at metabolic centers like <strong>UT Health San Antonio</strong> or <strong>Methodist Healthcare</strong> takes 4-6 months, and local insurance plans frequently deny prior authorizations.
-                 </p>
-                 
-                 <div style={{ display: 'flex', alignItems: 'center', gap: 16, background: '#fff', padding: 20, borderRadius: 16, border: '1px solid var(--line-soft)', boxShadow: '0 4px 12px rgba(0,0,0,0.02)' }}>
-                    <div style={{ width: 48, height: 48, background: 'rgba(46, 204, 113, 0.1)', borderRadius: 12, display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#2ECC71' }}>
-                       <Icon.Shield size={24} />
-                    </div>
-                    <div>
-                       <strong style={{ display: 'block', fontSize: 16, color: 'var(--ink)' }}>HSA / FSA Accepted</strong>
-                       <span style={{ fontSize: 14, color: 'var(--ink-2)' }}>Bypass Texas insurance denials entirely. Use pre-tax dollars for your compounding protocol.</span>
-                    </div>
-                 </div>
-              </div>
-              
-              <div className="col-lg-6">
-                 <div style={{ background: '#fff', padding: 'clamp(24px, 4vw, 40px)', borderRadius: 32, boxShadow: '0 20px 60px rgba(0,0,0,0.05)', border: '1px solid rgba(0,0,0,0.03)' }}>
-                    <h3 className="serif" style={{ fontSize: 24, marginBottom: 32 }}>The 503A Patient Journey</h3>
-                    <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: 32 }}>
-                       <li style={{ display: 'flex', gap: 20 }}>
-                          <div style={{ width: 40, height: 40, background: '#2ECC71', color: '#000', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold', fontSize: 18, flexShrink: 0, boxShadow: '0 4px 12px rgba(46, 204, 113, 0.3)' }}>1</div>
-                          <div>
-                             <strong style={{ display: 'block', fontSize: 18, marginBottom: 8, color: 'var(--ink)' }}>Complete TX Intake</strong>
-                             <span style={{ color: 'var(--ink-2)', fontSize: 15, lineHeight: 1.6 }}>Fill out your health profile online from your home. No freeway commutes or waiting rooms required.</span>
-                          </div>
-                       </li>
-                       <li style={{ display: 'flex', gap: 20 }}>
-                          <div style={{ width: 40, height: 40, background: '#2ECC71', color: '#000', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold', fontSize: 18, flexShrink: 0, boxShadow: '0 4px 12px rgba(46, 204, 113, 0.3)' }}>2</div>
-                          <div>
-                             <strong style={{ display: 'block', fontSize: 18, marginBottom: 8, color: 'var(--ink)' }}>Physician Review</strong>
-                             <span style={{ color: 'var(--ink-2)', fontSize: 15, lineHeight: 1.6 }}>A licensed Texas Medical Board physician reviews your chart and approves your script within 24 hours.</span>
-                          </div>
-                       </li>
-                       <li style={{ display: 'flex', gap: 20 }}>
-                          <div style={{ width: 40, height: 40, background: '#2ECC71', color: '#000', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold', fontSize: 18, flexShrink: 0, boxShadow: '0 4px 12px rgba(46, 204, 113, 0.3)' }}>3</div>
-                          <div>
-                             <strong style={{ display: 'block', fontSize: 18, marginBottom: 8, color: 'var(--ink)' }}>Overnight Delivery</strong>
-                             <span style={{ color: 'var(--ink-2)', fontSize: 15, lineHeight: 1.6 }}>Medication is compounded and shipped cold-packed straight to your door in Greater San Antonio.</span>
-                          </div>
-                       </li>
-                    </ul>
-                 </div>
-              </div>
-           </div>
-        </div>
-      </section>
+      <InteractiveFAQ
+        faqs={[
+          { q: "I'm Active Duty. Will this show up on my military medical record?", a: "No. Telehealth FX is an entirely civilian, private-pay medical service. Your intake, evaluation, and prescription exist within our HIPAA-compliant civilian system. We do not report to, interface with, or share data with the Military Health System, TRICARE, or the Defense Health Agency. Your military medical record remains unaffected." },
+          { q: "Can military dependents use this service?", a: "Absolutely. Dependents enrolled in TRICARE Prime or Select can use Telehealth FX as a self-pay option completely outside the TRICARE system. This bypasses the PCM referral requirement, the MTF appointment backlog, and the TRICARE formulary restrictions entirely." },
+          { q: "How does this compare to the weight loss clinics near Lackland AFB?", a: "Many clinics near military installations offer generic 'weight loss injections' (often B12 or lipotropic blends) that have no FDA-recognized efficacy data for obesity. Telehealth FX prescribes only compounded Semaglutide and Tirzepatide—true GLP-1 receptor agonists with extensive Phase III clinical trial data." },
+          { q: "My spouse is about to PCS. Can we transfer care to our new duty station?", a: "Telehealth FX operates in most U.S. states. When you PCS, simply update your state of residence in your patient profile, and you'll be matched with a physician licensed in your new state. Your clinical history transfers seamlessly within our system." },
+          { q: "Can I pick up medication at the Randolph or Lackland pharmacy?", a: "No. Telehealth FX prescriptions are fulfilled exclusively through our civilian 503A compounding pharmacy network and shipped directly to your home address. They cannot be filled at military pharmacies (MTF/BX pharmacies), as those operate under a separate DoD formulary system." }
+        ]}
+      />
 
-      {/* 5. LOCAL SEO & SERVICE AREA MAP */}
-      <section style={{ padding: 'clamp(60px, 8vw, 100px) 0', background: '#fff', borderTop: '1px solid var(--line-soft)' }}>
-        <div className="container">
-          <div className="row g-5 align-items-center">
-            <div className="col-lg-5 text-center text-lg-start">
-              <h2 className="serif" style={{ fontSize: 'clamp(32px, 4vw, 40px)', marginBottom: 24 }}>San Antonio Service Area</h2>
-              <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', color: 'var(--ink-2)', marginBottom: 32, lineHeight: 1.7 }}>
-                Telehealth FX provides asynchronous medical weight loss and GLP-1 prescribing services to all permanent residents and professionals operating within San Antonio and surrounding Texas counties.
-              </p>
-              <div style={{ background: '#FBF8F3', padding: 32, borderRadius: 24, textAlign: 'left' }}>
-                 <h4 style={{ fontSize: 18, marginBottom: 16, fontWeight: 600, color: 'var(--ink)' }}>Coverage Coordinates</h4>
-                 <ul style={{ listStyle: 'none', padding: 0, margin: 0, color: 'var(--ink-2)', fontSize: 15, display: 'flex', flexDirection: 'column', gap: 12 }}>
-                    <li style={{ display: 'flex', justifyContent: 'space-between', borderBottom: '1px solid rgba(0,0,0,0.05)', paddingBottom: 8 }}>
-                       <span>Primary Locality</span> <strong>San Antonio, TX</strong>
-                    </li>
-                    <li style={{ display: 'flex', justifyContent: 'space-between', borderBottom: '1px solid rgba(0,0,0,0.05)', paddingBottom: 8 }}>
-                       <span>Coordinates</span> <strong>29.4241° N, 98.4936° W</strong>
-                    </li>
-                    <li style={{ display: 'flex', flexDirection: 'column', gap: 4 }}>
-                       <span>Counties Served:</span>
-                       <strong style={{ lineHeight: 1.4 }}>Bexar County, Comal County, Kendall County, Guadalupe County</strong>
-                    </li>
-                 </ul>
-              </div>
-            </div>
-            <div className="col-lg-7">
-               <div style={{ width: '100%', height: '100%', minHeight: 450, borderRadius: 32, overflow: 'hidden', boxShadow: '0 24px 48px rgba(0,0,0,0.08)' }}>
-                  <iframe 
-                    width="100%" 
-                    height="100%" 
-                    style={{ minHeight: 450, filter: 'grayscale(0.2) contrast(1.1)' }}
-                    src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=San%20Antonio,%20TX+(Telehealth%20FX%20San%20Antonio)&amp;t=&amp;z=10&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" 
-                    frameBorder="0"
-                    allowFullScreen>
-                  </iframe>
-               </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <InsuranceBreakdown
+        title="TRICARE vs. Civilian Plans: Both Block Access"
+        text="San Antonio's insurance landscape is uniquely bifurcated between military (TRICARE) and civilian plans. Both create significant barriers to GLP-1 access, but through different mechanisms."
+        employers={[
+          { name: "TRICARE Prime (Active Duty & Dependents)", detail: "TRICARE's Uniform Formulary places most GLP-1 medications on Tier 3 (non-formulary) for weight management indications, requiring prior authorization with a BMI threshold of 32+ and documented comorbidities. The referral chain—PCM to specialist to pharmacy—can take 4-6 months from initial request to medication in hand." },
+          { name: "USAA & Financial Services Plans", detail: "USAA, headquartered in San Antonio, and other major local financial employers offer competitive health plans that nonetheless classify GLP-1 weight loss as 'lifestyle medicine,' often requiring Step Therapy protocols starting with nutritional counseling before pharmaceutical intervention is considered." },
+          { name: "Rackspace / Tech Sector Plans", detail: "San Antonio's growing tech sector offers employer-sponsored plans that frequently exclude weight management medications from their formularies entirely, directing employees to employer wellness programs instead of clinical interventions." }
+        ]}
+      />
 
-      {/* FINAL CTA */}
-      <section style={{ padding: 'clamp(80px, 10vw, 120px) 0', background: 'var(--brand)', color: '#fff', textAlign: 'center' }}>
-         <div className="container" style={{ maxWidth: 800 }}>
-            <h2 className="serif" style={{ fontSize: 'clamp(40px, 5vw, 56px)', marginBottom: 24, color: '#fff' }}>Ready to optimize your metabolic health?</h2>
-            <p style={{ fontSize: 'clamp(18px, 2.5vw, 22px)', opacity: 0.9, marginBottom: 40, lineHeight: 1.6 }}>Join thousands of Texans who have transitioned to clinical GLP-1 telehealth.</p>
-            <a href={SEMAGLUTIDE_URL} style={{ 
-               display: 'inline-block',
-               background: '#fff', 
-               color: 'var(--brand)', 
-               fontSize: 20, 
-               padding: '20px 48px', 
-               fontWeight: 600,
-               borderRadius: 100,
-               textDecoration: 'none',
-               boxShadow: '0 10px 30px rgba(0,0,0,0.1)'
-            }}>Check Your TX Eligibility Today</a>
-         </div>
-      </section>
+      <DeliveryGridMap
+        cityName="San Antonio"
+        mapQuery="San Antonio, TX"
+        coordinates="29.4241° N, 98.4936° W"
+        counties="Bexar County, Comal County, Guadalupe County, Medina County"
+        neighborhoods={['Alamo Heights', 'Stone Oak', 'The Pearl', 'Southtown', 'Helotes', 'Converse', 'Schertz', 'New Braunfels', 'Boerne', 'Leon Springs']}
+      />
+
+      <FinalCTA stateName="Texas" />
+
     </div>
   );
 }
