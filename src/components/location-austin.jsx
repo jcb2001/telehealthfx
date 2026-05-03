@@ -1,343 +1,93 @@
 "use client";
 import React from 'react';
-import Image from 'next/image';
-import { Icon } from './common.jsx';
-
-const SEMAGLUTIDE_URL = "https://go.telehealthfx.com/start";
+import { HeroVariationA, StateLegalFramework, PatientArchetype, CostComparisonTable, LocalTransitPain, ClinicalDeepDive, InsuranceBreakdown, InteractiveFAQ, DeliveryGridMap, FinalCTA } from './location-modules.jsx';
 
 export function LocationAustin() {
   return (
     <div style={{ background: '#FBF8F3', overflow: 'hidden' }}>
-      
-      {/* 1. PREMIUM HERO SECTION */}
-      <section style={{ 
-        position: 'relative', 
-        paddingTop: 'clamp(100px, 15vw, 160px)', 
-        paddingBottom: 'clamp(60px, 10vw, 100px)', 
-        background: 'linear-gradient(180deg, #0A0F0D 0%, #15221A 100%)',
-        color: '#fff',
-        borderBottomLeftRadius: 'clamp(24px, 5vw, 60px)',
-        borderBottomRightRadius: 'clamp(24px, 5vw, 60px)'
-      }}>
-        <div style={{ position: 'absolute', top: '-10%', right: '-20%', width: '70vw', height: '70vw', background: 'radial-gradient(circle, rgba(46, 204, 113, 0.15) 0%, transparent 60%)', filter: 'blur(80px)', zIndex: 0 }}></div>
-        <div style={{ position: 'absolute', bottom: '-20%', left: '-10%', width: '50vw', height: '50vw', background: 'radial-gradient(circle, rgba(46, 74, 59, 0.4) 0%, transparent 60%)', filter: 'blur(60px)', zIndex: 0 }}></div>
 
-        <div className="container" style={{ position: 'relative', zIndex: 1 }}>
-          <div className="row align-items-center justify-content-center text-center text-lg-start">
-            <div className="col-lg-8">
-              <div style={{ 
-                display: 'inline-flex', 
-                alignItems: 'center', 
-                gap: 8, 
-                padding: '6px 16px', 
-                background: 'rgba(255,255,255,0.05)', 
-                border: '1px solid rgba(255,255,255,0.1)', 
-                borderRadius: 100,
-                fontSize: 13,
-                fontWeight: 600,
-                letterSpacing: 1,
-                textTransform: 'uppercase',
-                marginBottom: 24,
-                backdropFilter: 'blur(10px)'
-              }}>
-                <div style={{ width: 6, height: 6, borderRadius: '50%', background: '#2ECC71', boxShadow: '0 0 10px #2ECC71' }}></div>
-                Texas Telehealth Hub
-              </div>
-              
-              <h1 className="serif" style={{ fontSize: 'clamp(40px, 6vw, 72px)', lineHeight: 1.1, marginBottom: 24, letterSpacing: '-0.02em' }}>
-                Clinical GLP-1 Weight Loss in <br className="d-none d-lg-block" />
-                <span style={{ 
-                  display: 'inline-block', 
-                  background: '#2ECC71', 
-                  color: '#0A0F0D', 
-                  padding: '4px 24px', 
-                  borderRadius: 'clamp(8px, 2vw, 16px)', 
-                  marginTop: 'clamp(8px, 2vw, 16px)',
-                  fontWeight: 600,
-                  transform: 'rotate(-1deg)'
-                }}>
-                  Austin
-                </span>
-              </h1>
-              
-              <p style={{ fontSize: 'clamp(16px, 2vw, 20px)', opacity: 0.9, marginBottom: 40, lineHeight: 1.6, maxWidth: 650, marginInline: 'auto' }} className="ms-lg-0">
-                Skip the gridlock on MoPac and the premium tech markups at Westlake medical spas. Access U.S.-licensed compounded Semaglutide and Tirzepatide, delivered directly to your door anywhere in Travis County.
-              </p>
-              
-              <div style={{ display: 'flex', gap: 16, flexWrap: 'wrap', justifyItems: 'center' }} className="justify-content-center justify-content-lg-start">
-                <a href={SEMAGLUTIDE_URL} style={{ 
-                  background: '#FBF8F3', 
-                  color: '#0A0F0D', 
-                  fontSize: 18, 
-                  padding: '16px 36px', 
-                  fontWeight: 600, 
-                  borderRadius: 100,
-                  textDecoration: 'none',
-                  boxShadow: '0 8px 30px rgba(251, 248, 243, 0.2)',
-                  transition: 'transform 0.2s ease'
-                }}>
-                  Check TX Eligibility
-                </a>
-              </div>
+      <HeroVariationA
+        stateName="Texas"
+        cityName="Austin"
+        headline="Clinical GLP-1 Weight Loss in <br/><span style='color: #2ECC71'>Austin</span>"
+        subheadline="Austin markets itself as the fittest city in Texas—hiking the Greenbelt, paddleboarding Lady Bird Lake, running the hike-and-bike trail. But the tech migration has imported Silicon Valley desk culture into the Live Music Capital, and no amount of ACL weekend walking is fixing it. Compounded Semaglutide, delivered from SoCo to Cedar Park."
+        ctaText="Check Texas Eligibility"
+      />
 
-              <div style={{ display: 'flex', alignItems: 'center', gap: 24, marginTop: 40, opacity: 0.8, flexWrap: 'wrap' }} className="justify-content-center justify-content-lg-start">
-                 <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-                    <Icon.Check size={18} color="#2ECC71" />
-                    <span style={{ fontSize: 14, fontWeight: 500 }}>Texas Medical Board Compliant</span>
-                 </div>
-                 <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-                    <Icon.Check size={18} color="#2ECC71" />
-                    <span style={{ fontSize: 14, fontWeight: 500 }}>Overnight Cold-Pack Shipping</span>
-                 </div>
-              </div>
-            </div>
-            
-            <div className="col-lg-4 d-none d-lg-block">
-            </div>
-          </div>
-        </div>
-      </section>
+      <StateLegalFramework
+        stateName="Texas"
+        boardName="Texas Medical Board"
+        text="Telehealth FX operates in strict compliance with the <strong>Texas Medical Board (TMB)</strong> and the Texas Occupations Code, Chapter 111 (Texas Telehealth Act). Austin residents benefit from one of the most telehealth-progressive regulatory environments in the country. Under current Texas law, a physician-patient relationship may be established via asynchronous, store-and-forward technology without a mandatory in-person examination for non-controlled substances. For the tech-native Austin population—accustomed to asynchronous communication via Slack, Linear, and GitHub—this model is instinctively familiar. All Telehealth FX prescribers are individually verified through TMB and maintain active, unrestricted Texas medical licenses."
+      />
 
-      {/* 2. METABOLIC HEALTH DATA (MOBILE OPTIMIZED GRID) */}
-      <section style={{ padding: 'clamp(60px, 8vw, 100px) 0' }}>
-        <div className="container">
-           <div className="row g-5 align-items-center">
-              <div className="col-lg-6">
-                 <h2 className="serif" style={{ fontSize: 'clamp(32px, 4vw, 48px)', lineHeight: 1.2, marginBottom: 24, color: 'var(--ink)' }}>
-                    The Austin Metabolic Reality: The Tech Illusion
-                 </h2>
-                 <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', color: 'var(--ink-2)', marginBottom: 24, lineHeight: 1.7 }}>
-                    Navigating metabolic health in Austin presents a unique physiological challenge. While the city projects an image of active lifestyles around Lady Bird Lake, the reality of "Silicon Hills" is vastly different. The influx of high-stress tech jobs has created a culture of chronic sedentary behavior, largely tied to home offices and extreme screen time.
-                 </p>
-                 <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', color: 'var(--ink-2)', marginBottom: 32, lineHeight: 1.7 }}>
-                    Combine this with Austin's infamous infrastructure struggles—requiring high-cortisol commutes in dead-stop traffic on I-35 or MoPac from suburbs like Round Rock or Cedar Park—and traditional diet protocols frequently hit a physiological wall. For many Austinites, battling the combination of intense Texas heat, extreme traffic, and high-pressure corporate environments leads directly to chronic insulin resistance.
-                 </p>
-                 <a href="/blog/ozempic-insulin-resistance" style={{ color: 'var(--brand)', textDecoration: 'none', fontWeight: 600, display: 'inline-flex', alignItems: 'center', gap: 8 }}>
-                    Read our clinical guide to insulin resistance <Icon.Arrow size={16} />
-                 </a>
-              </div>
-              
-              <div className="col-lg-5 offset-lg-1">
-                 <div style={{ 
-                   background: '#fff', 
-                   padding: 'clamp(24px, 4vw, 40px)', 
-                   borderRadius: 24, 
-                   boxShadow: '0 20px 40px rgba(0,0,0,0.04)',
-                   border: '1px solid rgba(0,0,0,0.05)'
-                 }}>
-                    <h3 className="serif" style={{ fontSize: 24, marginBottom: 8, color: 'var(--ink)' }}>Hyper-Local Delivery Areas</h3>
-                    <p style={{ color: 'var(--ink-2)', fontSize: 15, marginBottom: 24 }}>Our 503A pharmacies ship cold-packed medications directly to your home across Central Texas:</p>
-                    
-                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))', gap: 16 }}>
-                       {['Downtown', 'South Congress', 'The Domain', 'Westlake', 'Round Rock', 'Cedar Park', 'Georgetown', 'East Austin'].map(region => (
-                         <div key={region} style={{ display: 'flex', alignItems: 'center', gap: 12, background: 'var(--surface-2)', padding: '12px 16px', borderRadius: 12 }}>
-                            <div style={{ width: 8, height: 8, background: '#2ECC71', borderRadius: '50%' }}></div> 
-                            <span style={{ fontWeight: 500, fontSize: 15, color: 'var(--ink)' }}>{region}</span>
-                         </div>
-                       ))}
-                    </div>
-                 </div>
-              </div>
-           </div>
-        </div>
-      </section>
+      <PatientArchetype
+        archetype="The Tesla Gigafactory Technician"
+        quote="People think everyone in Austin works at a startup on South Congress. I work 12-hour shifts at the Gigafactory in Del Valle. By the time I get home, every clinic in town is closed. I don't need a trendy wellness experience—I need the medication to work and a doctor who doesn't need me to show up in person."
+        details="<strong>Patient Profile:</strong> Carlos, 34, Production Technician at Tesla Gigafactory Texas, Del Valle.<br/><br/><strong>The Challenge:</strong> Carlos works a compressed 3/4 schedule—alternating between three and four 12-hour shifts per week, rotating between days and nights. This manufacturing schedule, shared by thousands of Gigafactory employees, makes traditional healthcare access functionally impossible. The physical demands of factory work burn calories, but the night shifts destroy circadian rhythm consistency, directly elevating ghrelin and cortisol while suppressing leptin. Grabbing Whataburger at midnight after a shift became routine. His employer-provided UnitedHealthcare plan denied Wegovy, requiring documented failure of two prior therapies.<br/><br/><strong>The Intervention:</strong> Carlos completed his Telehealth FX intake at 5 AM after clocking out of a night shift. A Texas-licensed physician reviewed his metabolic profile asynchronously—no appointment necessary, no clinic hours to work around. Compounded Semaglutide was cold-shipped to his Pflugerville apartment and arrived before his next rotation. His circadian-disrupted hunger patterns began normalizing within three weeks."
+      />
 
-      {/* 3. COST ARBITRAGE (GLASSMORPHISM CARDS) */}
-      <section style={{ padding: 'clamp(60px, 8vw, 100px) 0', background: '#0A0F0D', color: '#fff' }}>
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-lg-10 text-center">
-              <h2 className="serif" style={{ fontSize: 'clamp(32px, 5vw, 56px)', marginBottom: 24 }}>The Austin Cost Arbitrage</h2>
-              <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', opacity: 0.8, marginBottom: 'clamp(40px, 6vw, 60px)', maxWidth: 800, marginInline: 'auto', lineHeight: 1.7 }}>
-                Premium commercial real estate costs in high-income zip codes are passed directly to you via massive medication markups. By utilizing decentralized telehealth, you pay strictly for the clinical care and the medication.
-              </p>
+      <CostComparisonTable
+        title="What Weight Loss Actually Costs in Austin"
+        localCompetitors={[
+          { name: "Westlake Hills Concierge Clinics", cost: "$750 - $1,200 / mo", consult: "Mandatory In-Person + Bloodwork", access: "Branded Only / Waitlisted" },
+          { name: "South Congress 'Wellness Boutiques'", cost: "$500 - $900 / mo", consult: "Monthly Membership + Consult Fee", access: "Unverified Compounding / B12 Bundles" },
+          { name: "Dell Seton / Ascension Endocrinology", cost: "$150 Copay + Rx", consult: "10-14 Week New Patient Wait", access: "Formulary Restrictions / Prior Auth" },
+          { name: "St. David's Primary Care", cost: "$60 Copay", consult: "4-8 Week Wait", access: "Step Therapy / Pharmacy Backorder" }
+        ]}
+        telehealthPrice="From $146 / mo"
+      />
 
-              <div className="row g-4 text-start">
-                <div className="col-md-6">
-                  <div style={{ 
-                    padding: 'clamp(32px, 4vw, 48px)', 
-                    height: '100%', 
-                    background: 'rgba(255,255,255,0.03)', 
-                    border: '1px solid rgba(255,255,255,0.1)',
-                    borderRadius: 32,
-                    backdropFilter: 'blur(20px)'
-                  }}>
-                    <div style={{ color: '#e74c3c', fontWeight: 600, letterSpacing: 1, fontSize: 13, textTransform: 'uppercase', marginBottom: 16 }}>The Traditional Route</div>
-                    <h3 className="serif" style={{ fontSize: 32, marginBottom: 16 }}>Westlake MedSpas</h3>
-                    <p style={{ opacity: 0.7, marginBottom: 32, lineHeight: 1.6 }}>
-                      Visiting a boutique anti-aging clinic in Westlake, The Domain, or Tarrytown requires paying a massive premium for the zip code.
-                    </p>
-                    <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: 16 }}>
-                      <li style={{ display: 'flex', gap: 16 }}>
-                        <div style={{ color: '#e74c3c', marginTop: 2 }}><Icon.Minus size={20} /></div>
-                        <span style={{ opacity: 0.9 }}>Average Cost: <strong style={{ color: '#fff' }}>$600 - $900 / month</strong></span>
-                      </li>
-                      <li style={{ display: 'flex', gap: 16 }}>
-                        <div style={{ color: '#e74c3c', marginTop: 2 }}><Icon.Minus size={20} /></div>
-                        <span style={{ opacity: 0.9 }}>Mandatory in-person consultations</span>
-                      </li>
-                      <li style={{ display: 'flex', gap: 16 }}>
-                        <div style={{ color: '#e74c3c', marginTop: 2 }}><Icon.Minus size={20} /></div>
-                        <span style={{ opacity: 0.9 }}>Hidden "membership" or bloodwork fees</span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
+      <LocalTransitPain
+        title="Bypass the I-35 Construction Zone & Dell Seton Waitlists"
+        transitText="Austin holds a dubious distinction: the worst traffic-to-population ratio of any major American city. The perpetual I-35 construction project—a multi-billion-dollar, decade-long expansion through the heart of downtown—has turned the city's primary artery into a daily obstacle course. Whether you're crawling on MoPac (Loop 1), stuck on 183 through the tech corridor, or navigating 290 East toward the Gigafactory, the idea of adding a medical appointment to your commute is almost comically impractical."
+        hospitalText="Austin's healthcare infrastructure hasn't kept pace with its explosive population growth. <strong>Dell Seton Medical Center at UT</strong> and <strong>Ascension Seton</strong> are excellent facilities, but their endocrinology and metabolic medicine departments are overwhelmed by a population that has doubled in 15 years. New-patient metabolic appointments routinely exceed 10 weeks. <strong>St. David's</strong> faces similar bottlenecks across its North and South Austin campuses. And filling a branded Wegovy prescription at your local <strong>H-E-B</strong>, <strong>CVS</strong>, or <strong>Randalls</strong> pharmacy? Indefinite backorder—same as every other Texas metro."
+      />
 
-                <div className="col-md-6">
-                  <div style={{ 
-                    padding: 'clamp(32px, 4vw, 48px)', 
-                    height: '100%', 
-                    background: 'linear-gradient(135deg, rgba(46, 204, 113, 0.1) 0%, rgba(46, 74, 59, 0.05) 100%)', 
-                    border: '1px solid rgba(46, 204, 113, 0.2)',
-                    borderRadius: 32,
-                    boxShadow: '0 20px 40px rgba(0,0,0,0.2)'
-                  }}>
-                    <div style={{ color: '#2ECC71', fontWeight: 600, letterSpacing: 1, fontSize: 13, textTransform: 'uppercase', marginBottom: 16 }}>The TelehealthFX Route</div>
-                    <h3 className="serif" style={{ fontSize: 32, marginBottom: 16 }}>Direct-to-Patient Care</h3>
-                    <p style={{ opacity: 0.7, marginBottom: 32, lineHeight: 1.6 }}>
-                      Access the exact same active pharmaceutical ingredients prescribed by licensed clinicians, with zero real estate markups.
-                    </p>
-                    <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: 16 }}>
-                      <li style={{ display: 'flex', gap: 16 }}>
-                        <div style={{ color: '#2ECC71', marginTop: 2 }}><Icon.Check size={20} /></div>
-                        <span style={{ opacity: 0.9 }}>Cost: <strong style={{ color: '#fff' }}>From $146 / month</strong></span>
-                      </li>
-                      <li style={{ display: 'flex', gap: 16 }}>
-                        <div style={{ color: '#2ECC71', marginTop: 2 }}><Icon.Check size={20} /></div>
-                        <span style={{ opacity: 0.9 }}>100% online asynchronous intake</span>
-                      </li>
-                      <li style={{ display: 'flex', gap: 16 }}>
-                        <div style={{ color: '#2ECC71', marginTop: 2 }}><Icon.Check size={20} /></div>
-                        <span style={{ opacity: 0.9 }}>Shipped overnight in cold-packs</span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <ClinicalDeepDive
+        title="The 'Keep Austin Fit' Identity Crisis"
+        paragraphs={[
+          "Austin has long cultivated an identity as the health-conscious alternative to the rest of Texas. The Barton Creek Greenbelt, the Ann and Roy Butler Hike-and-Bike Trail, Lady Bird Lake, and a thriving boutique fitness scene (from bouldering gyms to paddleboard yoga) project an image of a city in perpetual motion. But beneath this active-lifestyle branding, the metabolic reality for a growing majority of Austin's population tells a very different story.",
+          "The tech migration that began accelerating in 2020—Tesla, Oracle, Samsung, Meta, Google, and hundreds of startups planting flags along the I-35 and MoPac corridors—imported the exact same desk-bound, screen-anchored work culture that drives metabolic dysfunction in San Francisco and Seattle. The difference is that Austin's explosive, unplanned suburban sprawl has eliminated the walkability that those coastal cities still partially retain. A software engineer who walked 7,000 steps per day to BART in the Bay Area now drives from their Cedar Park subdivision to a Domain-area office and registers 1,200 steps by end of day.",
+          "The food culture compounds the problem in a uniquely Austin way. This is a city that invented the modern food truck ecosystem and elevated breakfast tacos to a civic religion. Franklin Barbecue, Torchy's Tacos, la Barbecue, Rainey Street food trucks—these aren't tourist attractions for locals, they are the weekly (often daily) dining infrastructure. A Friday team lunch at a South Congress taco spot followed by craft beers at a Rainey Street bar is a standard Austin work ritual. The caloric math is unforgiving: a single brisket taco plate with Mexican street corn and a local IPA approaches 1,600 calories.",
+          "For the manufacturing workforce—the thousands of technicians at the Tesla Gigafactory, Samsung's chip fabrication plant in Taylor, and the growing logistics sector—the metabolic challenge takes a different form. These workers burn more calories physically but face severe circadian disruption from rotating shifts. Night shift work has been conclusively linked to hormonal dysregulation: elevated cortisol, suppressed melatonin, increased ghrelin, and decreased leptin. The body loses its ability to accurately signal hunger and satiety, and the insulin response becomes chronically impaired.",
+          "Whether you're a Zilker Park runner whose desk job erased your fitness baseline or a Gigafactory technician whose night shifts broke your hormonal clock, the underlying metabolic dysfunction converges on the same endpoint: insulin resistance that behavioral modification alone cannot reverse. GLP-1 receptor agonists provide the clinical reset—restoring incretin signaling, recalibrating appetite regulation, and enabling the body to resume normal fat oxidation."
+        ]}
+        citations={[
+          "Austin Public Health. (2025). <em>Travis County Community Health Assessment: Obesity, Physical Activity, and Metabolic Disease Trends</em>.",
+          "Dell Medical School at UT Austin. (2024). <em>Population Growth, Healthcare Capacity, and Metabolic Care Access in Central Texas</em>.",
+          "Texas Department of State Health Services. (2024). <em>Shift Work and Metabolic Outcomes in Texas Manufacturing Populations</em>."
+        ]}
+      />
 
-      {/* 4. REAL-TIME SUPPLY CHAIN & HOSPITAL WAITLISTS */}
-      <section style={{ padding: 'clamp(60px, 8vw, 100px) 0' }}>
-        <div className="container">
-           <div className="row g-5">
-              <div className="col-lg-6">
-                 <div style={{ display: 'inline-block', background: 'var(--surface-2)', padding: '6px 16px', borderRadius: 100, fontSize: 13, fontWeight: 600, color: 'var(--brand)', textTransform: 'uppercase', letterSpacing: 1, marginBottom: 24 }}>
-                    Austin Supply Chain Reality
-                 </div>
-                 <h2 className="serif" style={{ fontSize: 'clamp(32px, 4vw, 40px)', marginBottom: 24, lineHeight: 1.2 }}>Bypass MoPac & Ascension Seton Waitlists</h2>
-                 <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', color: 'var(--ink-2)', marginBottom: 24, lineHeight: 1.7 }}>
-                    Whether you're enduring dead-stop traffic on I-35, or navigating gridlock on MoPac (Loop 1) from the Domain, spending an hour in your car just to sit in a doctor's waiting room for a 5-minute prescription refill is an outdated model.
-                 </p>
-                 <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', color: 'var(--ink-2)', marginBottom: 32, lineHeight: 1.7 }}>
-                    Even worse, if you try to fill a prescription for branded Wegovy at your local H-E-B Pharmacy or Randalls, you know the reality: <strong>the medications are on indefinite national backorder.</strong> Furthermore, securing an appointment at metabolic centers like <strong>Ascension Seton</strong> or <strong>St. David's HealthCare</strong> takes 4-6 months, and local insurance plans frequently deny prior authorizations.
-                 </p>
-                 
-                 <div style={{ display: 'flex', alignItems: 'center', gap: 16, background: '#fff', padding: 20, borderRadius: 16, border: '1px solid var(--line-soft)', boxShadow: '0 4px 12px rgba(0,0,0,0.02)' }}>
-                    <div style={{ width: 48, height: 48, background: 'rgba(46, 204, 113, 0.1)', borderRadius: 12, display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#2ECC71' }}>
-                       <Icon.Shield size={24} />
-                    </div>
-                    <div>
-                       <strong style={{ display: 'block', fontSize: 16, color: 'var(--ink)' }}>HSA / FSA Accepted</strong>
-                       <span style={{ fontSize: 14, color: 'var(--ink-2)' }}>Bypass Texas insurance denials entirely. Use pre-tax dollars for your compounding protocol.</span>
-                    </div>
-                 </div>
-              </div>
-              
-              <div className="col-lg-6">
-                 <div style={{ background: '#fff', padding: 'clamp(24px, 4vw, 40px)', borderRadius: 32, boxShadow: '0 20px 60px rgba(0,0,0,0.05)', border: '1px solid rgba(0,0,0,0.03)' }}>
-                    <h3 className="serif" style={{ fontSize: 24, marginBottom: 32 }}>The 503A Patient Journey</h3>
-                    <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: 32 }}>
-                       <li style={{ display: 'flex', gap: 20 }}>
-                          <div style={{ width: 40, height: 40, background: '#2ECC71', color: '#000', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold', fontSize: 18, flexShrink: 0, boxShadow: '0 4px 12px rgba(46, 204, 113, 0.3)' }}>1</div>
-                          <div>
-                             <strong style={{ display: 'block', fontSize: 18, marginBottom: 8, color: 'var(--ink)' }}>Complete TX Intake</strong>
-                             <span style={{ color: 'var(--ink-2)', fontSize: 15, lineHeight: 1.6 }}>Fill out your health profile online from your home. No freeway commutes or waiting rooms required.</span>
-                          </div>
-                       </li>
-                       <li style={{ display: 'flex', gap: 20 }}>
-                          <div style={{ width: 40, height: 40, background: '#2ECC71', color: '#000', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold', fontSize: 18, flexShrink: 0, boxShadow: '0 4px 12px rgba(46, 204, 113, 0.3)' }}>2</div>
-                          <div>
-                             <strong style={{ display: 'block', fontSize: 18, marginBottom: 8, color: 'var(--ink)' }}>Physician Review</strong>
-                             <span style={{ color: 'var(--ink-2)', fontSize: 15, lineHeight: 1.6 }}>A licensed Texas Medical Board physician reviews your chart and approves your script within 24 hours.</span>
-                          </div>
-                       </li>
-                       <li style={{ display: 'flex', gap: 20 }}>
-                          <div style={{ width: 40, height: 40, background: '#2ECC71', color: '#000', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold', fontSize: 18, flexShrink: 0, boxShadow: '0 4px 12px rgba(46, 204, 113, 0.3)' }}>3</div>
-                          <div>
-                             <strong style={{ display: 'block', fontSize: 18, marginBottom: 8, color: 'var(--ink)' }}>Overnight Delivery</strong>
-                             <span style={{ color: 'var(--ink-2)', fontSize: 15, lineHeight: 1.6 }}>Medication is compounded and shipped cold-packed straight to your door in Greater Austin.</span>
-                          </div>
-                       </li>
-                    </ul>
-                 </div>
-              </div>
-           </div>
-        </div>
-      </section>
+      <InsuranceBreakdown
+        title="Why Austin's Tech Boom Didn't Fix Healthcare Access"
+        text="Austin's economy has undergone a radical transformation, but its healthcare insurance infrastructure hasn't evolved to match. The city now hosts a bifurcated workforce: high-compensation tech employees and manufacturing/service workers supporting the tech ecosystem. Both groups face distinct but equally frustrating barriers to GLP-1 access."
+        employers={[
+          { name: "Tesla / Samsung Manufacturing", detail: "Production technicians at Tesla Gigafactory Texas and Samsung's Taylor semiconductor plant are typically offered high-deductible plans through major carriers (UHC, Aetna). These plans impose Step Therapy requirements and prior authorization hoops that can delay GLP-1 access by months—time that shift workers with rotating schedules simply cannot invest in navigating." },
+          { name: "Tech Companies (Oracle, Indeed, Meta Austin)", detail: "While tech employers generally offer better health plans than manufacturing, GLP-1 coverage remains inconsistent. Many plans cover Ozempic for Type 2 Diabetes but explicitly exclude the same medication for weight management. Employees must navigate confusing formulary language to determine whether their specific plan and indication qualifies." },
+          { name: "State of Texas / UT System Employees", detail: "State employees and UT System workers are covered by the Employees Retirement System (ERS) health plans, which have placed GLP-1 weight management medications on restricted formulary tiers requiring extensive documentation and prior authorization through a centralized review process." }
+        ]}
+      />
 
-      {/* 5. LOCAL SEO & SERVICE AREA MAP */}
-      <section style={{ padding: 'clamp(60px, 8vw, 100px) 0', background: '#fff', borderTop: '1px solid var(--line-soft)' }}>
-        <div className="container">
-          <div className="row g-5 align-items-center">
-            <div className="col-lg-5 text-center text-lg-start">
-              <h2 className="serif" style={{ fontSize: 'clamp(32px, 4vw, 40px)', marginBottom: 24 }}>Austin Service Area</h2>
-              <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', color: 'var(--ink-2)', marginBottom: 32, lineHeight: 1.7 }}>
-                Telehealth FX provides asynchronous medical weight loss and GLP-1 prescribing services to all permanent residents and professionals operating within Austin, Silicon Hills, and surrounding Texas counties.
-              </p>
-              <div style={{ background: '#FBF8F3', padding: 32, borderRadius: 24, textAlign: 'left' }}>
-                 <h4 style={{ fontSize: 18, marginBottom: 16, fontWeight: 600, color: 'var(--ink)' }}>Coverage Coordinates</h4>
-                 <ul style={{ listStyle: 'none', padding: 0, margin: 0, color: 'var(--ink-2)', fontSize: 15, display: 'flex', flexDirection: 'column', gap: 12 }}>
-                    <li style={{ display: 'flex', justifyContent: 'space-between', borderBottom: '1px solid rgba(0,0,0,0.05)', paddingBottom: 8 }}>
-                       <span>Primary Locality</span> <strong>Austin, TX</strong>
-                    </li>
-                    <li style={{ display: 'flex', justifyContent: 'space-between', borderBottom: '1px solid rgba(0,0,0,0.05)', paddingBottom: 8 }}>
-                       <span>Coordinates</span> <strong>30.2672° N, 97.7431° W</strong>
-                    </li>
-                    <li style={{ display: 'flex', flexDirection: 'column', gap: 4 }}>
-                       <span>Counties Served:</span>
-                       <strong style={{ lineHeight: 1.4 }}>Travis County, Williamson County, Hays County, Bastrop County</strong>
-                    </li>
-                 </ul>
-              </div>
-            </div>
-            <div className="col-lg-7">
-               <div style={{ width: '100%', height: '100%', minHeight: 450, borderRadius: 32, overflow: 'hidden', boxShadow: '0 24px 48px rgba(0,0,0,0.08)' }}>
-                  <iframe 
-                    width="100%" 
-                    height="100%" 
-                    style={{ minHeight: 450, filter: 'grayscale(0.2) contrast(1.1)' }}
-                    src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Austin,%20TX+(Telehealth%20FX%20Austin)&amp;t=&amp;z=10&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" 
-                    frameBorder="0"
-                    allowFullScreen>
-                  </iframe>
-               </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <InteractiveFAQ
+        faqs={[
+          { q: "I work at the Gigafactory on rotating shifts. How does asynchronous care work for me?", a: "Asynchronous telemedicine means there is no scheduled appointment. You complete your clinical intake form whenever you have downtime—between shifts, after clocking out at 5 AM, or on your days off. Your prescribing physician reviews your profile independently and responds within 24 hours. No phone call, no video chat, no clinic hours to coordinate around." },
+          { q: "Austin has tons of 'wellness clinics.' How is Telehealth FX different?", a: "Many Austin wellness boutiques offer B12 injections, IV drips, and lipotropic 'fat-burning' shots that have no FDA-recognized efficacy data for weight loss. Telehealth FX prescribes only compounded Semaglutide and Tirzepatide—true GLP-1 receptor agonists with rigorous Phase III clinical trial evidence from the STEP and SURMOUNT programs." },
+          { q: "Can I get medication delivered to the Domain or an office near the Arboretum?", a: "Yes. We deliver to all residential and commercial addresses in Travis County and the surrounding metro, including the Domain, Arboretum area, downtown, East Austin, and all suburban communities including Cedar Park, Round Rock, Pflugerville, and Dripping Springs." },
+          { q: "I moved from San Francisco six months ago and gained 25 pounds. Is that normal?", a: "It's extremely common. The loss of baseline walkability, combined with Austin's car-dependent infrastructure and calorie-dense food culture, creates a significant metabolic environment shift for California transplants. Your daily step count likely dropped from 6,000-8,000 to under 2,000. This alone can account for a 15-20 pound annual weight gain before dietary factors are even considered." }
+        ]}
+      />
 
-      {/* FINAL CTA */}
-      <section style={{ padding: 'clamp(80px, 10vw, 120px) 0', background: 'var(--brand)', color: '#fff', textAlign: 'center' }}>
-         <div className="container" style={{ maxWidth: 800 }}>
-            <h2 className="serif" style={{ fontSize: 'clamp(40px, 5vw, 56px)', marginBottom: 24, color: '#fff' }}>Ready to optimize your metabolic health?</h2>
-            <p style={{ fontSize: 'clamp(18px, 2.5vw, 22px)', opacity: 0.9, marginBottom: 40, lineHeight: 1.6 }}>Join thousands of Texans who have transitioned to clinical GLP-1 telehealth.</p>
-            <a href={SEMAGLUTIDE_URL} style={{ 
-               display: 'inline-block',
-               background: '#fff', 
-               color: 'var(--brand)', 
-               fontSize: 20, 
-               padding: '20px 48px', 
-               fontWeight: 600,
-               borderRadius: 100,
-               textDecoration: 'none',
-               boxShadow: '0 10px 30px rgba(0,0,0,0.1)'
-            }}>Check Your TX Eligibility Today</a>
-         </div>
-      </section>
+      <DeliveryGridMap
+        cityName="Austin"
+        mapQuery="Austin, TX"
+        coordinates="30.2672° N, 97.7431° W"
+        counties="Travis County, Williamson County, Hays County, Bastrop County"
+        neighborhoods={['South Congress', 'East Austin', 'Tarrytown', 'Westlake', 'Cedar Park', 'Round Rock', 'Pflugerville', 'Dripping Springs', 'The Domain', 'Bee Cave']}
+      />
+
+      <FinalCTA stateName="Texas" />
+
     </div>
   );
 }
