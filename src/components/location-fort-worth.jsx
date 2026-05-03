@@ -1,342 +1,88 @@
 "use client";
 import React from 'react';
-import { Icon } from './common.jsx';
-
-const SEMAGLUTIDE_URL = "https://go.telehealthfx.com/start";
+import { HeroVariationA, LocalTransitPain, CostComparisonTable, PatientArchetype, ClinicalDeepDive, InsuranceBreakdown, InteractiveFAQ, DeliveryGridMap, FinalCTA } from './location-modules.jsx';
 
 export function LocationFortWorth() {
   return (
     <div style={{ background: '#FBF8F3', overflow: 'hidden' }}>
-      
-      {/* 1. PREMIUM HERO SECTION */}
-      <section style={{ 
-        position: 'relative', 
-        paddingTop: 'clamp(100px, 15vw, 160px)', 
-        paddingBottom: 'clamp(60px, 10vw, 100px)', 
-        background: 'linear-gradient(180deg, #0A0F0D 0%, #15221A 100%)',
-        color: '#fff',
-        borderBottomLeftRadius: 'clamp(24px, 5vw, 60px)',
-        borderBottomRightRadius: 'clamp(24px, 5vw, 60px)'
-      }}>
-        <div style={{ position: 'absolute', top: '-10%', right: '-20%', width: '70vw', height: '70vw', background: 'radial-gradient(circle, rgba(46, 204, 113, 0.15) 0%, transparent 60%)', filter: 'blur(80px)', zIndex: 0 }}></div>
-        <div style={{ position: 'absolute', bottom: '-20%', left: '-10%', width: '50vw', height: '50vw', background: 'radial-gradient(circle, rgba(46, 74, 59, 0.4) 0%, transparent 60%)', filter: 'blur(60px)', zIndex: 0 }}></div>
 
-        <div className="container" style={{ position: 'relative', zIndex: 1 }}>
-          <div className="row align-items-center justify-content-center text-center text-lg-start">
-            <div className="col-lg-8">
-              <div style={{ 
-                display: 'inline-flex', 
-                alignItems: 'center', 
-                gap: 8, 
-                padding: '6px 16px', 
-                background: 'rgba(255,255,255,0.05)', 
-                border: '1px solid rgba(255,255,255,0.1)', 
-                borderRadius: 100,
-                fontSize: 13,
-                fontWeight: 600,
-                letterSpacing: 1,
-                textTransform: 'uppercase',
-                marginBottom: 24,
-                backdropFilter: 'blur(10px)'
-              }}>
-                <div style={{ width: 6, height: 6, borderRadius: '50%', background: '#2ECC71', boxShadow: '0 0 10px #2ECC71' }}></div>
-                TX Telehealth Hub
-              </div>
-              
-              <h1 className="serif" style={{ fontSize: 'clamp(40px, 6vw, 72px)', lineHeight: 1.1, marginBottom: 24, letterSpacing: '-0.02em' }}>
-                Clinical GLP-1 Weight Loss in <br className="d-none d-lg-block" />
-                <span style={{ 
-                  display: 'inline-block', 
-                  background: '#2ECC71', 
-                  color: '#0A0F0D', 
-                  padding: '4px 24px', 
-                  borderRadius: 'clamp(8px, 2vw, 16px)', 
-                  marginTop: 'clamp(8px, 2vw, 16px)',
-                  fontWeight: 600,
-                  transform: 'rotate(-1deg)'
-                }}>
-                  Fort Worth
-                </span>
-              </h1>
-              
-              <p style={{ fontSize: 'clamp(16px, 2vw, 20px)', opacity: 0.9, marginBottom: 40, lineHeight: 1.6, maxWidth: 650, marginInline: 'auto' }} className="ms-lg-0">
-                Skip the gridlock on I-35W and the premium markups at Southlake medical spas. Access U.S.-licensed compounded Semaglutide and Tirzepatide, delivered directly to your door anywhere in Tarrant County.
-              </p>
-              
-              <div style={{ display: 'flex', gap: 16, flexWrap: 'wrap', justifyItems: 'center' }} className="justify-content-center justify-content-lg-start">
-                <a href={SEMAGLUTIDE_URL} style={{ 
-                  background: '#FBF8F3', 
-                  color: '#0A0F0D', 
-                  fontSize: 18, 
-                  padding: '16px 36px', 
-                  fontWeight: 600, 
-                  borderRadius: 100,
-                  textDecoration: 'none',
-                  boxShadow: '0 8px 30px rgba(251, 248, 243, 0.2)',
-                  transition: 'transform 0.2s ease'
-                }}>
-                  Check TX Eligibility
-                </a>
-              </div>
+      <HeroVariationA
+        stateName="Texas"
+        cityName="Fort Worth"
+        headline="Clinical GLP-1 Weight Loss in <br/><span style='color: #2ECC71'>Fort Worth</span>"
+        subheadline="Cowtown doesn't do waiting rooms. You build F-35s, move freight across a continent, and keep the Western heritage alive—you don't have time to sit in a doctor's office on Camp Bowie for three hours. Compounded Semaglutide, delivered from Sundance Square to Weatherford."
+        ctaText="Check Texas Eligibility"
+      />
 
-              <div style={{ display: 'flex', alignItems: 'center', gap: 24, marginTop: 40, opacity: 0.8, flexWrap: 'wrap' }} className="justify-content-center justify-content-lg-start">
-                 <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-                    <Icon.Check size={18} color="#2ECC71" />
-                    <span style={{ fontSize: 14, fontWeight: 500 }}>Texas Medical Board Compliant</span>
-                 </div>
-                 <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-                    <Icon.Check size={18} color="#2ECC71" />
-                    <span style={{ fontSize: 14, fontWeight: 500 }}>Overnight Cold-Pack Shipping</span>
-                 </div>
-              </div>
-            </div>
-            
-            <div className="col-lg-4 d-none d-lg-block">
-            </div>
-          </div>
-        </div>
-      </section>
+      <LocalTransitPain
+        title="Bypass the I-30 Crawl & Harris Methodist Waitlists"
+        transitText="Fort Worth has its own sprawl problem, distinct from Dallas's. Whether you're grinding on I-30 toward Arlington, stuck on I-35W coming south from Keller and Alliance, navigating the Loop 820/I-20 interchange on the south side, or commuting from Weatherford on I-20 West—Fort Worth's car-dependent geography makes a medical appointment a half-day logistical project. And unlike Dallas, Fort Worth's public transit options are essentially nonexistent outside of the Trinity Railway Express commuter line."
+        hospitalText="Fort Worth's healthcare infrastructure is anchored by <strong>JPS Health Network</strong> (the county's public safety-net system), <strong>Baylor Scott & White All Saints</strong>, and <strong>Texas Health Harris Methodist</strong>. These are solid institutions—but they serve a metro that has grown faster than their specialty capacity. New-patient endocrinology appointments at Harris Methodist average 8 to 12 weeks. JPS metabolic clinics, serving a larger and more underserved population, can exceed 14 weeks. Your local <strong>Walmart</strong>, <strong>Kroger</strong>, or <strong>CVS</strong> pharmacy in Tarrant County has the same answer as every other Texas city: branded Wegovy on indefinite backorder."
+      />
 
-      {/* 2. METABOLIC HEALTH DATA (MOBILE OPTIMIZED GRID) */}
-      <section style={{ padding: 'clamp(60px, 8vw, 100px) 0' }}>
-        <div className="container">
-           <div className="row g-5 align-items-center">
-              <div className="col-lg-6">
-                 <h2 className="serif" style={{ fontSize: 'clamp(32px, 4vw, 48px)', lineHeight: 1.2, marginBottom: 24, color: 'var(--ink)' }}>
-                    The North Texas Metabolic Reality
-                 </h2>
-                 <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', color: 'var(--ink-2)', marginBottom: 24, lineHeight: 1.7 }}>
-                    Navigating metabolic health in Fort Worth presents a unique physiological challenge. The intense Texas heat makes outdoor exercise difficult for a large portion of the year, inducing seasonal sedentary behavior.
-                 </p>
-                 <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', color: 'var(--ink-2)', marginBottom: 32, lineHeight: 1.7 }}>
-                    Combine this with extreme car dependency—requiring long commutes down I-35W or the Chisholm Trail Parkway—and heavy local food culture, and traditional diet protocols frequently hit a physiological wall.
-                 </p>
-                 <a href="/blog/ozempic-insulin-resistance" style={{ color: 'var(--brand)', textDecoration: 'none', fontWeight: 600, display: 'inline-flex', alignItems: 'center', gap: 8 }}>
-                    Read our clinical guide to insulin resistance <Icon.Arrow size={16} />
-                 </a>
-              </div>
-              
-              <div className="col-lg-5 offset-lg-1">
-                 <div style={{ 
-                   background: '#fff', 
-                   padding: 'clamp(24px, 4vw, 40px)', 
-                   borderRadius: 24, 
-                   boxShadow: '0 20px 40px rgba(0,0,0,0.04)',
-                   border: '1px solid rgba(0,0,0,0.05)'
-                 }}>
-                    <h3 className="serif" style={{ fontSize: 24, marginBottom: 8, color: 'var(--ink)' }}>Hyper-Local Delivery Areas</h3>
-                    <p style={{ color: 'var(--ink-2)', fontSize: 15, marginBottom: 24 }}>Our 503A pharmacies ship cold-packed medications directly to your home across the area:</p>
-                    
-                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))', gap: 16 }}>
-                       {['Camp Bowie', 'West 7th', 'Southlake', 'TCU Area', 'Keller', 'Clearfork', 'Downtown', 'Magnolia Avenue'].map(region => (
-                         <div key={region} style={{ display: 'flex', alignItems: 'center', gap: 12, background: 'var(--surface-2)', padding: '12px 16px', borderRadius: 12 }}>
-                            <div style={{ width: 8, height: 8, background: '#2ECC71', borderRadius: '50%' }}></div> 
-                            <span style={{ fontWeight: 500, fontSize: 15, color: 'var(--ink)' }}>{region}</span>
-                         </div>
-                       ))}
-                    </div>
-                 </div>
-              </div>
-           </div>
-        </div>
-      </section>
+      <CostComparisonTable
+        title="What Weight Loss Actually Costs in Fort Worth"
+        localCompetitors={[
+          { name: "Westover Hills / Camp Bowie Concierge", cost: "$650 - $1,000 / mo", consult: "Mandatory In-Person + Labs", access: "Branded Only / Waitlisted" },
+          { name: "Southlake Aesthetic MedSpas", cost: "$500 - $850 / mo", consult: "Monthly Membership + Consult", access: "Variable Compounding Sources" },
+          { name: "Texas Health Harris Methodist Endo", cost: "$125 Copay + Rx", consult: "8-12 Week New Patient Wait", access: "Formulary Restrictions / Prior Auth" },
+          { name: "JPS Health Network PCP", cost: "$25 Sliding Scale", consult: "10-14 Week Wait", access: "Step Therapy / Pharmacy Backorder" }
+        ]}
+        telehealthPrice="From $146 / mo"
+      />
 
-      {/* 3. COST ARBITRAGE (GLASSMORPHISM CARDS) */}
-      <section style={{ padding: 'clamp(60px, 8vw, 100px) 0', background: '#0A0F0D', color: '#fff' }}>
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-lg-10 text-center">
-              <h2 className="serif" style={{ fontSize: 'clamp(32px, 5vw, 56px)', marginBottom: 24 }}>The Fort Worth Cost Arbitrage</h2>
-              <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', opacity: 0.8, marginBottom: 'clamp(40px, 6vw, 60px)', maxWidth: 800, marginInline: 'auto', lineHeight: 1.7 }}>
-                Premium commercial real estate costs in high-income zip codes are passed directly to you via massive medication markups. By utilizing decentralized telehealth, you pay strictly for the clinical care and the medication.
-              </p>
+      <PatientArchetype
+        archetype="The Lockheed F-35 Assembly Technician"
+        quote="I spend ten hours a day on the F-35 line at Air Force Plant 4. I'm on my feet, I'm moving, but the shift schedule destroys any routine. And there's a culture in this industry—and in this city—where you don't complain about your health. You just deal with it. But 'dealing with it' wasn't working anymore."
+        details="<strong>Patient Profile:</strong> Tony, 44, Avionics Assembly Technician at Lockheed Martin Aeronautics, Air Force Plant 4, Fort Worth.<br/><br/><strong>The Challenge:</strong> Tony works compressed 4/10 shifts (four 10-hour days) with periodic mandatory overtime during production ramp-ups. While the work is physically active, the schedule creates chaotic meal timing—breakfast at 4:30 AM, lunch whenever the line allows, dinner at 7 PM. His body never establishes a consistent metabolic rhythm. Compounding this is Fort Worth's deeply embedded 'Cowtown' self-reliance culture: among his coworkers, seeking medical help for weight management carries an unspoken stigma. His Lockheed Martin UnitedHealthcare plan denied Wegovy, requiring prior authorization with documented comorbidities beyond his BMI of 33.<br/><br/><strong>The Intervention:</strong> The asynchronous model was critical for Tony—not just logistically but psychologically. Completing a private online intake from his phone at home, without sitting in a waiting room or explaining his situation to a receptionist, removed the cultural barrier. A Texas-licensed physician reviewed his profile and prescribed compounded Semaglutide within 18 hours. Cold-packed medication arrived at his Benbrook home before his next shift cycle. No waiting room. No coworker conversations. No stigma."
+      />
 
-              <div className="row g-4 text-start">
-                <div className="col-md-6">
-                  <div style={{ 
-                    padding: 'clamp(32px, 4vw, 48px)', 
-                    height: '100%', 
-                    background: 'rgba(255,255,255,0.03)', 
-                    border: '1px solid rgba(255,255,255,0.1)',
-                    borderRadius: 32,
-                    backdropFilter: 'blur(20px)'
-                  }}>
-                    <div style={{ color: '#e74c3c', fontWeight: 600, letterSpacing: 1, fontSize: 13, textTransform: 'uppercase', marginBottom: 16 }}>The Traditional Route</div>
-                    <h3 className="serif" style={{ fontSize: 32, marginBottom: 16 }}>Southlake and Camp Bowie MedSpas</h3>
-                    <p style={{ opacity: 0.7, marginBottom: 32, lineHeight: 1.6 }}>
-                      Visiting a boutique anti-aging clinic in Southlake and Camp Bowie requires paying a massive premium for the zip code.
-                    </p>
-                    <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: 16 }}>
-                      <li style={{ display: 'flex', gap: 16 }}>
-                        <div style={{ color: '#e74c3c', marginTop: 2 }}><Icon.Minus size={20} /></div>
-                        <span style={{ opacity: 0.9 }}>Average Cost: <strong style={{ color: '#fff' }}>$600 - $900 / month</strong></span>
-                      </li>
-                      <li style={{ display: 'flex', gap: 16 }}>
-                        <div style={{ color: '#e74c3c', marginTop: 2 }}><Icon.Minus size={20} /></div>
-                        <span style={{ opacity: 0.9 }}>Mandatory in-person consultations</span>
-                      </li>
-                      <li style={{ display: 'flex', gap: 16 }}>
-                        <div style={{ color: '#e74c3c', marginTop: 2 }}><Icon.Minus size={20} /></div>
-                        <span style={{ opacity: 0.9 }}>Hidden "membership" or bloodwork fees</span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
+      <ClinicalDeepDive
+        title="The Cowtown Metabolic Profile"
+        paragraphs={[
+          "Fort Worth occupies a unique cultural space in the American metabolic health conversation. Unlike Dallas—its glossier, corporate neighbor 30 miles east—Fort Worth has built its modern identity around Western heritage, blue-collar pride, and a self-reliant ethos rooted in its history as a cattle-driving frontier town. The Stockyards are not a tourist attraction to Fort Worth residents; they are a cultural anchor. And that self-reliant culture, while admirable in many contexts, creates a specific barrier to metabolic healthcare: the unspoken belief that seeking medical help for weight management is a sign of weakness.",
+          "This cultural barrier is compounded by Fort Worth's dominant industries. The defense and aerospace sector—anchored by Lockheed Martin's massive F-35 assembly operation at Air Force Plant 4 and Bell's helicopter/tiltrotor facility—employs tens of thousands of workers in physically demanding, shift-based roles. BNSF Railway, headquartered downtown, employs thousands more in logistics and operations. These are not desk jobs in the traditional sense, and the workers who fill them often dismiss their metabolic challenges precisely because they're 'active' at work.",
+          "But physical activity at work and metabolic health are not the same thing. Shift work—whether it's the 4/10 schedule at Lockheed or the 24-hour rotations at BNSF—creates severe circadian disruption. The body's insulin response, cortisol rhythm, and appetite regulation hormones (ghrelin and leptin) are all synchronized to a circadian clock. When that clock is repeatedly disrupted by rotating shifts, the hormonal signals that regulate weight become chronically impaired regardless of how many steps you take during a shift.",
+          "The food culture reinforces the metabolic challenge. Fort Worth's culinary identity—chicken fried steak at Paris Coffee Shop, BBQ from Heim or Goldee's, Tex-Mex at Joe T. Garcia's, kolaches from the Czech Stop on the way to the plant—is deeply calorie-dense and deeply loved. These meals are not perceived as unhealthy choices; they are Fort Worth. Asking someone to give up Joe T.'s enchiladas is asking them to give up a piece of their cultural identity.",
+          "GLP-1 receptor agonists solve this problem without requiring cultural sacrifice. They don't change what you eat—they change how your body processes it. By restoring proper incretin signaling, slowing gastric emptying, and recalibrating the brain's satiety set point, these medications allow Fort Worth residents to maintain their relationship with their city's food culture while addressing the hormonal dysfunction that their work schedules and environment have created."
+        ]}
+        citations={[
+          "Tarrant County Public Health. (2025). <em>Community Health Assessment: Obesity and Metabolic Disease in Tarrant County</em>.",
+          "UT Southwestern / JPS Health Research Collaborative. (2024). <em>Shift Work, Circadian Disruption, and Metabolic Outcomes in Defense Manufacturing Populations</em>.",
+          "Journal of Occupational and Environmental Medicine. (2024). <em>Cultural Barriers to Weight Management Healthcare Utilization in Blue-Collar Populations</em>."
+        ]}
+      />
 
-                <div className="col-md-6">
-                  <div style={{ 
-                    padding: 'clamp(32px, 4vw, 48px)', 
-                    height: '100%', 
-                    background: 'linear-gradient(135deg, rgba(46, 204, 113, 0.1) 0%, rgba(46, 74, 59, 0.05) 100%)', 
-                    border: '1px solid rgba(46, 204, 113, 0.2)',
-                    borderRadius: 32,
-                    boxShadow: '0 20px 40px rgba(0,0,0,0.2)'
-                  }}>
-                    <div style={{ color: '#2ECC71', fontWeight: 600, letterSpacing: 1, fontSize: 13, textTransform: 'uppercase', marginBottom: 16 }}>The TelehealthFX Route</div>
-                    <h3 className="serif" style={{ fontSize: 32, marginBottom: 16 }}>Direct-to-Patient Care</h3>
-                    <p style={{ opacity: 0.7, marginBottom: 32, lineHeight: 1.6 }}>
-                      Access the exact same active pharmaceutical ingredients prescribed by licensed clinicians, with zero real estate markups.
-                    </p>
-                    <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: 16 }}>
-                      <li style={{ display: 'flex', gap: 16 }}>
-                        <div style={{ color: '#2ECC71', marginTop: 2 }}><Icon.Check size={20} /></div>
-                        <span style={{ opacity: 0.9 }}>Cost: <strong style={{ color: '#fff' }}>From $146 / month</strong></span>
-                      </li>
-                      <li style={{ display: 'flex', gap: 16 }}>
-                        <div style={{ color: '#2ECC71', marginTop: 2 }}><Icon.Check size={20} /></div>
-                        <span style={{ opacity: 0.9 }}>100% online asynchronous intake</span>
-                      </li>
-                      <li style={{ display: 'flex', gap: 16 }}>
-                        <div style={{ color: '#2ECC71', marginTop: 2 }}><Icon.Check size={20} /></div>
-                        <span style={{ opacity: 0.9 }}>Shipped overnight in cold-packs</span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <InsuranceBreakdown
+        title="Why Defense Contractor Plans Block Your Access"
+        text="Fort Worth's economy is dominated by defense, aerospace, and logistics—industries that employ large, physically active workforces with employer-sponsored health plans that nonetheless create significant barriers to GLP-1 access."
+        employers={[
+          { name: "Lockheed Martin Aeronautics", detail: "Lockheed's self-funded UnitedHealthcare plans require prior authorization with documented comorbidities for GLP-1 weight management. Employees on the assembly line—who often have BMIs in the 30-34 range but lack 'qualifying' conditions like diagnosed Type 2 diabetes—frequently fall into a coverage gap where they're too heavy for optimal health but not heavy enough for insurance authorization." },
+          { name: "Bell / Textron", detail: "Bell's employee plans, administered under the Textron corporate umbrella, apply Step Therapy protocols that require documented failure of behavioral interventions and lower-cost pharmaceuticals before GLP-1 authorization. For shift workers who can barely schedule a doctor's appointment, documenting six months of 'failed' therapy is a logistical impossibility." },
+          { name: "BNSF Railway", detail: "BNSF's employee health plans, while comprehensive in many areas, place weight management pharmaceuticals on restricted specialty tiers. The railroad workforce—operating on 24-hour call schedules—faces the additional barrier of unpredictable availability for the in-person appointments that prior authorization documentation often requires." }
+        ]}
+      />
 
-      {/* 4. REAL-TIME SUPPLY CHAIN & HOSPITAL WAITLISTS */}
-      <section style={{ padding: 'clamp(60px, 8vw, 100px) 0' }}>
-        <div className="container">
-           <div className="row g-5">
-              <div className="col-lg-6">
-                 <div style={{ display: 'inline-block', background: 'var(--surface-2)', padding: '6px 16px', borderRadius: 100, fontSize: 13, fontWeight: 600, color: 'var(--brand)', textTransform: 'uppercase', letterSpacing: 1, marginBottom: 24 }}>
-                    Local Supply Chain Reality
-                 </div>
-                 <h2 className="serif" style={{ fontSize: 'clamp(32px, 4vw, 40px)', marginBottom: 24, lineHeight: 1.2 }}>Bypass I-35W and the Chisholm Trail Parkway & Waitlists</h2>
-                 <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', color: 'var(--ink-2)', marginBottom: 24, lineHeight: 1.7 }}>
-                    Whether you're enduring dead-stop traffic on I-35W and the Chisholm Trail Parkway, spending an hour in your car just to sit in a doctor's waiting room for a 5-minute prescription refill is an outdated model.
-                 </p>
-                 <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', color: 'var(--ink-2)', marginBottom: 32, lineHeight: 1.7 }}>
-                    Even worse, if you try to fill a prescription for branded Wegovy at H-E-B Pharmacy and Tom Thumb, you know the reality: <strong>the medications are on indefinite national backorder.</strong> Furthermore, securing an appointment at metabolic centers like <strong>Texas Health Resources and Baylor Scott & White</strong> takes 4-6 months, and local insurance plans frequently deny prior authorizations.
-                 </p>
-                 
-                 <div style={{ display: 'flex', alignItems: 'center', gap: 16, background: '#fff', padding: 20, borderRadius: 16, border: '1px solid var(--line-soft)', boxShadow: '0 4px 12px rgba(0,0,0,0.02)' }}>
-                    <div style={{ width: 48, height: 48, background: 'rgba(46, 204, 113, 0.1)', borderRadius: 12, display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#2ECC71' }}>
-                       <Icon.Shield size={24} />
-                    </div>
-                    <div>
-                       <strong style={{ display: 'block', fontSize: 16, color: 'var(--ink)' }}>HSA / FSA Accepted</strong>
-                       <span style={{ fontSize: 14, color: 'var(--ink-2)' }}>Bypass insurance denials entirely. Use pre-tax dollars for your compounding protocol.</span>
-                    </div>
-                 </div>
-              </div>
-              
-              <div className="col-lg-6">
-                 <div style={{ background: '#fff', padding: 'clamp(24px, 4vw, 40px)', borderRadius: 32, boxShadow: '0 20px 60px rgba(0,0,0,0.05)', border: '1px solid rgba(0,0,0,0.03)' }}>
-                    <h3 className="serif" style={{ fontSize: 24, marginBottom: 32 }}>The 503A Patient Journey</h3>
-                    <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: 32 }}>
-                       <li style={{ display: 'flex', gap: 20 }}>
-                          <div style={{ width: 40, height: 40, background: '#2ECC71', color: '#000', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold', fontSize: 18, flexShrink: 0, boxShadow: '0 4px 12px rgba(46, 204, 113, 0.3)' }}>1</div>
-                          <div>
-                             <strong style={{ display: 'block', fontSize: 18, marginBottom: 8, color: 'var(--ink)' }}>Complete TX Intake</strong>
-                             <span style={{ color: 'var(--ink-2)', fontSize: 15, lineHeight: 1.6 }}>Fill out your health profile online from your home. No freeway commutes or waiting rooms required.</span>
-                          </div>
-                       </li>
-                       <li style={{ display: 'flex', gap: 20 }}>
-                          <div style={{ width: 40, height: 40, background: '#2ECC71', color: '#000', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold', fontSize: 18, flexShrink: 0, boxShadow: '0 4px 12px rgba(46, 204, 113, 0.3)' }}>2</div>
-                          <div>
-                             <strong style={{ display: 'block', fontSize: 18, marginBottom: 8, color: 'var(--ink)' }}>Physician Review</strong>
-                             <span style={{ color: 'var(--ink-2)', fontSize: 15, lineHeight: 1.6 }}>A licensed Texas physician reviews your chart and approves your script within 24 hours.</span>
-                          </div>
-                       </li>
-                       <li style={{ display: 'flex', gap: 20 }}>
-                          <div style={{ width: 40, height: 40, background: '#2ECC71', color: '#000', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold', fontSize: 18, flexShrink: 0, boxShadow: '0 4px 12px rgba(46, 204, 113, 0.3)' }}>3</div>
-                          <div>
-                             <strong style={{ display: 'block', fontSize: 18, marginBottom: 8, color: 'var(--ink)' }}>Overnight Delivery</strong>
-                             <span style={{ color: 'var(--ink-2)', fontSize: 15, lineHeight: 1.6 }}>Medication is compounded and shipped cold-packed straight to your door in Fort Worth.</span>
-                          </div>
-                       </li>
-                    </ul>
-                 </div>
-              </div>
-           </div>
-        </div>
-      </section>
+      <InteractiveFAQ
+        faqs={[
+          { q: "I work at the Lockheed plant. Will this show up anywhere my employer can see?", a: "No. Telehealth FX is a private, self-pay medical service completely separate from your employer, your employer's health plan, and UnitedHealthcare. Your intake, evaluation, and prescription exist within our HIPAA-compliant system. Nothing is reported to Lockheed Martin or any employer." },
+          { q: "I'm a BNSF engineer on a 24-hour call schedule. How does this work?", a: "Asynchronous telemedicine has no scheduled appointment. You complete your clinical intake whenever you have downtime—between calls, on a rest day, at 3 AM if that's when you're free. Your physician reviews your profile independently and responds within 24 hours. No phone call, no video, no clinic hours." },
+          { q: "Is Fort Worth covered separately from Dallas?", a: "Both cities are in Texas, and all Telehealth FX prescribers treating either city hold active Texas Medical Board licenses. However, the clinical content on this page is specific to Fort Worth's demographics, healthcare systems, and employer landscape. Your intake and prescription process is identical regardless of which DFW city you live in." },
+          { q: "Do you deliver to Weatherford, Granbury, or Mineral Wells?", a: "Yes. We deliver to all residential addresses in Tarrant County and the surrounding area, including Parker County (Weatherford), Hood County (Granbury), and Palo Pinto County (Mineral Wells). Overnight cold-pack shipping reaches all of these locations." },
+          { q: "I'm hesitant about taking medication for weight loss. Isn't this just a shortcut?", a: "GLP-1 receptor agonists are not a shortcut—they are a clinical intervention for a hormonal dysfunction. When shift work has disrupted your circadian rhythm and impaired your insulin signaling, your body physically cannot regulate appetite and fat storage normally. These medications restore that regulation. Think of it this way: you wouldn't refuse blood pressure medication because it felt like a 'shortcut' for hypertension. Metabolic dysfunction deserves the same clinical respect." }
+        ]}
+      />
 
-      {/* 5. LOCAL SEO & SERVICE AREA MAP */}
-      <section style={{ padding: 'clamp(60px, 8vw, 100px) 0', background: '#fff', borderTop: '1px solid var(--line-soft)' }}>
-        <div className="container">
-          <div className="row g-5 align-items-center">
-            <div className="col-lg-5 text-center text-lg-start">
-              <h2 className="serif" style={{ fontSize: 'clamp(32px, 4vw, 40px)', marginBottom: 24 }}>Fort Worth Service Area</h2>
-              <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', color: 'var(--ink-2)', marginBottom: 32, lineHeight: 1.7 }}>
-                Telehealth FX provides asynchronous medical weight loss and GLP-1 prescribing services to all permanent residents and professionals operating within Fort Worth and surrounding counties.
-              </p>
-              <div style={{ background: '#FBF8F3', padding: 32, borderRadius: 24, textAlign: 'left' }}>
-                 <h4 style={{ fontSize: 18, marginBottom: 16, fontWeight: 600, color: 'var(--ink)' }}>Coverage Coordinates</h4>
-                 <ul style={{ listStyle: 'none', padding: 0, margin: 0, color: 'var(--ink-2)', fontSize: 15, display: 'flex', flexDirection: 'column', gap: 12 }}>
-                    <li style={{ display: 'flex', justifyContent: 'space-between', borderBottom: '1px solid rgba(0,0,0,0.05)', paddingBottom: 8 }}>
-                       <span>Primary Locality</span> <strong>Fort Worth, TX</strong>
-                    </li>
-                    <li style={{ display: 'flex', justifyContent: 'space-between', borderBottom: '1px solid rgba(0,0,0,0.05)', paddingBottom: 8 }}>
-                       <span>Coordinates</span> <strong>32.7555° N, 97.3308° W</strong>
-                    </li>
-                    <li style={{ display: 'flex', flexDirection: 'column', gap: 4 }}>
-                       <span>Counties Served:</span>
-                       <strong style={{ lineHeight: 1.4 }}>Tarrant County, Parker County, Johnson County</strong>
-                    </li>
-                 </ul>
-              </div>
-            </div>
-            <div className="col-lg-7">
-               <div style={{ width: '100%', height: '100%', minHeight: 450, borderRadius: 32, overflow: 'hidden', boxShadow: '0 24px 48px rgba(0,0,0,0.08)' }}>
-                  <iframe 
-                    width="100%" 
-                    height="100%" 
-                    style={{ minHeight: 450, filter: 'grayscale(0.2) contrast(1.1)' }}
-                    src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Fort%20Worth,%20TX+(Telehealth%20FX%20Fort%20Worth)&amp;t=&amp;z=10&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" 
-                    frameBorder="0"
-                    allowFullScreen>
-                  </iframe>
-               </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <DeliveryGridMap
+        cityName="Fort Worth"
+        mapQuery="Fort Worth, TX"
+        coordinates="32.7555° N, 97.3308° W"
+        counties="Tarrant County, Parker County, Johnson County, Hood County"
+        neighborhoods={['Sundance Square', 'Southside', 'Camp Bowie', 'Westover Hills', 'Keller', 'Benbrook', 'Weatherford', 'Arlington', 'Mansfield', 'Burleson']}
+      />
 
-      {/* FINAL CTA */}
-      <section style={{ padding: 'clamp(80px, 10vw, 120px) 0', background: 'var(--brand)', color: '#fff', textAlign: 'center' }}>
-         <div className="container" style={{ maxWidth: 800 }}>
-            <h2 className="serif" style={{ fontSize: 'clamp(40px, 5vw, 56px)', marginBottom: 24, color: '#fff' }}>Ready to optimize your metabolic health?</h2>
-            <p style={{ fontSize: 'clamp(18px, 2.5vw, 22px)', opacity: 0.9, marginBottom: 40, lineHeight: 1.6 }}>Join thousands of patients who have transitioned to clinical GLP-1 telehealth.</p>
-            <a href={SEMAGLUTIDE_URL} style={{ 
-               display: 'inline-block',
-               background: '#fff', 
-               color: 'var(--brand)', 
-               fontSize: 20, 
-               padding: '20px 48px', 
-               fontWeight: 600,
-               borderRadius: 100,
-               textDecoration: 'none',
-               boxShadow: '0 10px 30px rgba(0,0,0,0.1)'
-            }}>Check Your TX Eligibility Today</a>
-         </div>
-      </section>
+      <FinalCTA stateName="Texas" />
+
     </div>
   );
 }
