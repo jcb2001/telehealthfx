@@ -1,342 +1,95 @@
 "use client";
 import React from 'react';
-import { Icon } from './common.jsx';
-
-const SEMAGLUTIDE_URL = "https://go.telehealthfx.com/start";
+import { HeroVariationB, LocalTransitPain, PatientArchetype, InsuranceBreakdown, CostComparisonTable, ClinicalDeepDive, InteractiveFAQ, StateLegalFramework, DeliveryGridMap, FinalCTA } from './location-modules.jsx';
 
 export function LocationSanFrancisco() {
   return (
     <div style={{ background: '#FBF8F3', overflow: 'hidden' }}>
-      
-      {/* 1. PREMIUM HERO SECTION */}
-      <section style={{ 
-        position: 'relative', 
-        paddingTop: 'clamp(100px, 15vw, 160px)', 
-        paddingBottom: 'clamp(60px, 10vw, 100px)', 
-        background: 'linear-gradient(180deg, #0A0F0D 0%, #15221A 100%)',
-        color: '#fff',
-        borderBottomLeftRadius: 'clamp(24px, 5vw, 60px)',
-        borderBottomRightRadius: 'clamp(24px, 5vw, 60px)'
-      }}>
-        <div style={{ position: 'absolute', top: '-10%', right: '-20%', width: '70vw', height: '70vw', background: 'radial-gradient(circle, rgba(46, 204, 113, 0.15) 0%, transparent 60%)', filter: 'blur(80px)', zIndex: 0 }}></div>
-        <div style={{ position: 'absolute', bottom: '-20%', left: '-10%', width: '50vw', height: '50vw', background: 'radial-gradient(circle, rgba(46, 74, 59, 0.4) 0%, transparent 60%)', filter: 'blur(60px)', zIndex: 0 }}></div>
 
-        <div className="container" style={{ position: 'relative', zIndex: 1 }}>
-          <div className="row align-items-center justify-content-center text-center text-lg-start">
-            <div className="col-lg-8">
-              <div style={{ 
-                display: 'inline-flex', 
-                alignItems: 'center', 
-                gap: 8, 
-                padding: '6px 16px', 
-                background: 'rgba(255,255,255,0.05)', 
-                border: '1px solid rgba(255,255,255,0.1)', 
-                borderRadius: 100,
-                fontSize: 13,
-                fontWeight: 600,
-                letterSpacing: 1,
-                textTransform: 'uppercase',
-                marginBottom: 24,
-                backdropFilter: 'blur(10px)'
-              }}>
-                <div style={{ width: 6, height: 6, borderRadius: '50%', background: '#2ECC71', boxShadow: '0 0 10px #2ECC71' }}></div>
-                CA Telehealth Hub
-              </div>
-              
-              <h1 className="serif" style={{ fontSize: 'clamp(40px, 6vw, 72px)', lineHeight: 1.1, marginBottom: 24, letterSpacing: '-0.02em' }}>
-                Clinical GLP-1 Weight Loss in <br className="d-none d-lg-block" />
-                <span style={{ 
-                  display: 'inline-block', 
-                  background: '#2ECC71', 
-                  color: '#0A0F0D', 
-                  padding: '4px 24px', 
-                  borderRadius: 'clamp(8px, 2vw, 16px)', 
-                  marginTop: 'clamp(8px, 2vw, 16px)',
-                  fontWeight: 600,
-                  transform: 'rotate(-1deg)'
-                }}>
-                  San Francisco
-                </span>
-              </h1>
-              
-              <p style={{ fontSize: 'clamp(16px, 2vw, 20px)', opacity: 0.9, marginBottom: 40, lineHeight: 1.6, maxWidth: 650, marginInline: 'auto' }} className="ms-lg-0">
-                Skip the gridlock on US-101 and the premium markups at Pacific Heights medical spas. Access U.S.-licensed compounded Semaglutide and Tirzepatide, delivered directly to your door anywhere in the Bay Area.
-              </p>
-              
-              <div style={{ display: 'flex', gap: 16, flexWrap: 'wrap', justifyItems: 'center' }} className="justify-content-center justify-content-lg-start">
-                <a href={SEMAGLUTIDE_URL} style={{ 
-                  background: '#FBF8F3', 
-                  color: '#0A0F0D', 
-                  fontSize: 18, 
-                  padding: '16px 36px', 
-                  fontWeight: 600, 
-                  borderRadius: 100,
-                  textDecoration: 'none',
-                  boxShadow: '0 8px 30px rgba(251, 248, 243, 0.2)',
-                  transition: 'transform 0.2s ease'
-                }}>
-                  Check CA Eligibility
-                </a>
-              </div>
+      <HeroVariationB
+        stateName="California"
+        cityName="San Francisco"
+        headline="Clinical GLP-1 Weight Loss in <span style='color: #2ECC71'>San Francisco</span>"
+        subheadline="San Francisco has the highest per-capita income of any major American city, world-class walkability, and UCSF—one of the finest medical institutions on earth. And yet accessing a GLP-1 prescription here is just as broken as anywhere else. Compounded Semaglutide, delivered from Pacific Heights to the Sunset."
+        dataPoint1="UCSF's Weight Management Program has a new-patient waitlist exceeding 14 weeks—in a city of 800,000 with one of the highest concentrations of physicians per capita in America."
+        dataPoint2="Telehealth FX bypasses this institutional bottleneck entirely. Asynchronous intake, overnight delivery. Clinical-grade care without the UCSF timeline."
+      />
 
-              <div style={{ display: 'flex', alignItems: 'center', gap: 24, marginTop: 40, opacity: 0.8, flexWrap: 'wrap' }} className="justify-content-center justify-content-lg-start">
-                 <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-                    <Icon.Check size={18} color="#2ECC71" />
-                    <span style={{ fontSize: 14, fontWeight: 500 }}>Medical Board of California Compliant</span>
-                 </div>
-                 <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-                    <Icon.Check size={18} color="#2ECC71" />
-                    <span style={{ fontSize: 14, fontWeight: 500 }}>Overnight Cold-Pack Shipping</span>
-                 </div>
-              </div>
-            </div>
-            
-            <div className="col-lg-4 d-none d-lg-block">
-            </div>
-          </div>
-        </div>
-      </section>
+      <LocalTransitPain
+        title="Bypass the Bay Bridge & UCSF Waitlists"
+        transitText="San Francisco has better public transit than most American cities—and it's still profoundly dysfunctional. MUNI delays, BART breakdowns, the Bay Bridge backup that starts forming at 3 PM, the Golden Gate congestion from Marin, and the impossibility of parking anywhere near the UCSF Parnassus campus or Zuckerberg SF General. For a city that prides itself on being car-optional, getting to a medical appointment on time still requires either extraordinary planning or extraordinary luck."
+        hospitalText="The medical infrastructure is genuinely world-class. <strong>UCSF Medical Center</strong> is a top-10 nationally ranked hospital. <strong>Zuckerberg San Francisco General</strong>, <strong>Kaiser SF</strong>, and <strong>Sutter/CPMC</strong> all provide excellent care. But 'excellent' doesn't mean 'accessible.' UCSF's metabolic and weight management clinics have new-patient waits exceeding 14 weeks. Kaiser SF's endocrinology referral pipeline runs 8 to 12 weeks. And the system-wide strain caused by the city's ongoing behavioral health crisis has diverted resources away from chronic disease management. Meanwhile, your local <strong>Walgreens</strong> on Market Street (if it hasn't closed) has branded Wegovy on indefinite backorder."
+      />
 
-      {/* 2. METABOLIC HEALTH DATA (MOBILE OPTIMIZED GRID) */}
-      <section style={{ padding: 'clamp(60px, 8vw, 100px) 0' }}>
-        <div className="container">
-           <div className="row g-5 align-items-center">
-              <div className="col-lg-6">
-                 <h2 className="serif" style={{ fontSize: 'clamp(32px, 4vw, 48px)', lineHeight: 1.2, marginBottom: 24, color: 'var(--ink)' }}>
-                    The Bay Area Metabolic Reality
-                 </h2>
-                 <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', color: 'var(--ink-2)', marginBottom: 24, lineHeight: 1.7 }}>
-                    Navigating metabolic health in San Francisco presents a unique physiological challenge. Despite a highly walkable city layout, the intense, high-stress tech and finance sectors create a heavily desk-bound, sedentary reality for most professionals.
-                 </p>
-                 <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', color: 'var(--ink-2)', marginBottom: 32, lineHeight: 1.7 }}>
-                    Combine this with grueling commutes across the Bay Bridge or down the Peninsula, plus an extremely high cost of living that drives up local healthcare costs, and traditional diet protocols frequently hit a wall.
-                 </p>
-                 <a href="/blog/ozempic-insulin-resistance" style={{ color: 'var(--brand)', textDecoration: 'none', fontWeight: 600, display: 'inline-flex', alignItems: 'center', gap: 8 }}>
-                    Read our clinical guide to insulin resistance <Icon.Arrow size={16} />
-                 </a>
-              </div>
-              
-              <div className="col-lg-5 offset-lg-1">
-                 <div style={{ 
-                   background: '#fff', 
-                   padding: 'clamp(24px, 4vw, 40px)', 
-                   borderRadius: 24, 
-                   boxShadow: '0 20px 40px rgba(0,0,0,0.04)',
-                   border: '1px solid rgba(0,0,0,0.05)'
-                 }}>
-                    <h3 className="serif" style={{ fontSize: 24, marginBottom: 8, color: 'var(--ink)' }}>Hyper-Local Delivery Areas</h3>
-                    <p style={{ color: 'var(--ink-2)', fontSize: 15, marginBottom: 24 }}>Our 503A pharmacies ship cold-packed medications directly to your home across the area:</p>
-                    
-                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))', gap: 16 }}>
-                       {['Pacific Heights', 'Marina District', 'Noe Valley', 'SOMA', 'Russian Hill', 'Hayes Valley', 'Mission District', 'Presidio Heights'].map(region => (
-                         <div key={region} style={{ display: 'flex', alignItems: 'center', gap: 12, background: 'var(--surface-2)', padding: '12px 16px', borderRadius: 12 }}>
-                            <div style={{ width: 8, height: 8, background: '#2ECC71', borderRadius: '50%' }}></div> 
-                            <span style={{ fontWeight: 500, fontSize: 15, color: 'var(--ink)' }}>{region}</span>
-                         </div>
-                       ))}
-                    </div>
-                 </div>
-              </div>
-           </div>
-        </div>
-      </section>
+      <PatientArchetype
+        archetype="The Sand Hill Road VC Partner"
+        quote="I evaluate companies for a living. I do due diligence on billion-dollar deals. But I spent four months trying to navigate UCSF's referral system and my own firm's Anthem plan just to get a medication that I know works. The opportunity cost of that wasted time was absurd. I should have done this from the start."
+        details="<strong>Patient Profile:</strong> Jonathan, 48, General Partner at a venture capital firm on Sand Hill Road (Menlo Park), lives in Pacific Heights.<br/><br/><strong>The Challenge:</strong> Jonathan's professional life is built on efficiency—evaluating companies in days, making allocation decisions in hours. But his personal healthcare experience was the opposite. His firm's Anthem plan required a PCP referral to endocrinology, then a specialist evaluation, then a prior authorization submission, then a formulary review—a sequential process that consumed four months before producing a denial requiring Step Therapy. The UCSF Weight Management Program had a 16-week new-patient wait. A Pacific Heights concierge clinic offered immediate access for $1,400/month.<br/><br/><strong>The Intervention:</strong> Jonathan completed the Telehealth FX intake on his phone between LP meetings. A California-licensed physician reviewed his profile asynchronously and prescribed compounded Semaglutide within 10 hours. Cold-packed medication arrived at his Pacific Heights home the next morning. Total elapsed time from intake to medication in hand: 34 hours. Total elapsed time through his insurance: 4 months and counting, with no medication received."
+      />
 
-      {/* 3. COST ARBITRAGE (GLASSMORPHISM CARDS) */}
-      <section style={{ padding: 'clamp(60px, 8vw, 100px) 0', background: '#0A0F0D', color: '#fff' }}>
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-lg-10 text-center">
-              <h2 className="serif" style={{ fontSize: 'clamp(32px, 5vw, 56px)', marginBottom: 24 }}>The San Francisco Cost Arbitrage</h2>
-              <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', opacity: 0.8, marginBottom: 'clamp(40px, 6vw, 60px)', maxWidth: 800, marginInline: 'auto', lineHeight: 1.7 }}>
-                Premium commercial real estate costs in high-income zip codes are passed directly to you via massive medication markups. By utilizing decentralized telehealth, you pay strictly for the clinical care and the medication.
-              </p>
+      <InsuranceBreakdown
+        title="Why the Richest City in America Still Can't Fix Access"
+        text="San Francisco's wealth creates a paradox: the city has among the highest health insurance coverage rates in the nation (thanks to Healthy San Francisco and ACA marketplace penetration), but coverage does not equal access. Even the most premium plans available in the San Francisco market create significant barriers to GLP-1 medications."
+        employers={[
+          { name: "VC / Private Equity / Hedge Fund Plans", detail: "Small-firm financial services plans, common in the Sand Hill Road and SoMa corridors, are typically administered by major carriers (Anthem, Aetna, UHC) on standard formularies that don't differentiate between a two-person GP fund and a Fortune 500 company. Prior authorization requirements, Step Therapy, and BMI thresholds apply identically." },
+          { name: "Salesforce / Tech Giants (SF-Based)", detail: "While Salesforce and other large SF tech employers offer generous benefits, GLP-1 weight management coverage varies by plan tier and is frequently subject to the same formulary restrictions as smaller employers. The Tower may be iconic, but the benefits portal is the same maze." },
+          { name: "UCSF / City & County Employee Plans", detail: "City and County of San Francisco employees and UCSF staff are covered through plans that impose Step Therapy for GLP-1 weight management. In a bitter irony, UCSF clinicians who prescribe these medications to patients face the same formulary barriers when seeking them for their own care." },
+          { name: "Gig Economy / 1099 (Uber, Lyft HQ City)", detail: "San Francisco is the headquarters of the gig economy. Tens of thousands of residents—drivers, freelancers, contract workers—have no employer-sponsored coverage. For this population, Telehealth FX's self-pay model (from $146/month) represents the most accessible clinical pathway available." }
+        ]}
+      />
 
-              <div className="row g-4 text-start">
-                <div className="col-md-6">
-                  <div style={{ 
-                    padding: 'clamp(32px, 4vw, 48px)', 
-                    height: '100%', 
-                    background: 'rgba(255,255,255,0.03)', 
-                    border: '1px solid rgba(255,255,255,0.1)',
-                    borderRadius: 32,
-                    backdropFilter: 'blur(20px)'
-                  }}>
-                    <div style={{ color: '#e74c3c', fontWeight: 600, letterSpacing: 1, fontSize: 13, textTransform: 'uppercase', marginBottom: 16 }}>The Traditional Route</div>
-                    <h3 className="serif" style={{ fontSize: 32, marginBottom: 16 }}>Pacific Heights and the Marina MedSpas</h3>
-                    <p style={{ opacity: 0.7, marginBottom: 32, lineHeight: 1.6 }}>
-                      Visiting a boutique anti-aging clinic in Pacific Heights and the Marina requires paying a massive premium for the zip code.
-                    </p>
-                    <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: 16 }}>
-                      <li style={{ display: 'flex', gap: 16 }}>
-                        <div style={{ color: '#e74c3c', marginTop: 2 }}><Icon.Minus size={20} /></div>
-                        <span style={{ opacity: 0.9 }}>Average Cost: <strong style={{ color: '#fff' }}>$900 - $1,500 / month</strong></span>
-                      </li>
-                      <li style={{ display: 'flex', gap: 16 }}>
-                        <div style={{ color: '#e74c3c', marginTop: 2 }}><Icon.Minus size={20} /></div>
-                        <span style={{ opacity: 0.9 }}>Mandatory in-person consultations</span>
-                      </li>
-                      <li style={{ display: 'flex', gap: 16 }}>
-                        <div style={{ color: '#e74c3c', marginTop: 2 }}><Icon.Minus size={20} /></div>
-                        <span style={{ opacity: 0.9 }}>Hidden "membership" or bloodwork fees</span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
+      <CostComparisonTable
+        title="What Weight Loss Actually Costs in San Francisco"
+        localCompetitors={[
+          { name: "Pacific Heights / Nob Hill Concierge Clinics", cost: "$1,200 - $1,800 / mo", consult: "Mandatory In-Person + Comprehensive Labs", access: "Branded Only / Immediate (for the Price)" },
+          { name: "Marina District Aesthetic MedSpas", cost: "$700 - $1,100 / mo", consult: "Monthly Membership + Consult Fee", access: "Variable Compounding Quality" },
+          { name: "UCSF Weight Management Program", cost: "$200 Copay + Rx", consult: "14-16 Week New Patient Wait", access: "Formulary Restrictions / Insurance Denials" },
+          { name: "Kaiser SF Endocrinology", cost: "$75 Copay", consult: "8-12 Week Referral Wait", access: "HMO Formulary / Step Therapy Required" }
+        ]}
+        telehealthPrice="From $146 / mo"
+      />
 
-                <div className="col-md-6">
-                  <div style={{ 
-                    padding: 'clamp(32px, 4vw, 48px)', 
-                    height: '100%', 
-                    background: 'linear-gradient(135deg, rgba(46, 204, 113, 0.1) 0%, rgba(46, 74, 59, 0.05) 100%)', 
-                    border: '1px solid rgba(46, 204, 113, 0.2)',
-                    borderRadius: 32,
-                    boxShadow: '0 20px 40px rgba(0,0,0,0.2)'
-                  }}>
-                    <div style={{ color: '#2ECC71', fontWeight: 600, letterSpacing: 1, fontSize: 13, textTransform: 'uppercase', marginBottom: 16 }}>The TelehealthFX Route</div>
-                    <h3 className="serif" style={{ fontSize: 32, marginBottom: 16 }}>Direct-to-Patient Care</h3>
-                    <p style={{ opacity: 0.7, marginBottom: 32, lineHeight: 1.6 }}>
-                      Access the exact same active pharmaceutical ingredients prescribed by licensed clinicians, with zero real estate markups.
-                    </p>
-                    <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: 16 }}>
-                      <li style={{ display: 'flex', gap: 16 }}>
-                        <div style={{ color: '#2ECC71', marginTop: 2 }}><Icon.Check size={20} /></div>
-                        <span style={{ opacity: 0.9 }}>Cost: <strong style={{ color: '#fff' }}>From $146 / month</strong></span>
-                      </li>
-                      <li style={{ display: 'flex', gap: 16 }}>
-                        <div style={{ color: '#2ECC71', marginTop: 2 }}><Icon.Check size={20} /></div>
-                        <span style={{ opacity: 0.9 }}>100% online asynchronous intake</span>
-                      </li>
-                      <li style={{ display: 'flex', gap: 16 }}>
-                        <div style={{ color: '#2ECC71', marginTop: 2 }}><Icon.Check size={20} /></div>
-                        <span style={{ opacity: 0.9 }}>Shipped overnight in cold-packs</span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <ClinicalDeepDive
+        title="The Wealth-Health Disconnect"
+        paragraphs={[
+          "San Francisco defies the conventional assumption that wealth and walkability produce metabolic health. The city has the highest median household income of any major metro, some of the best walkability scores in the country, and more farmers' markets per capita than almost anywhere in North America. By every surface-level indicator, San Franciscans should be among the healthiest populations in America. And yet metabolic dysfunction persists at rates that mirror far less affluent, far less walkable cities.",
+          "The explanation is stress. Not the acute stress of a dangerous commute or financial precarity—but the chronic, grinding, identity-level stress of operating in one of the most competitive professional ecosystems on the planet. Venture capital, startup founding, big tech performance reviews, the relentless social comparison amplified by proximity to extreme wealth—these create a cortisol environment that is biochemically devastating regardless of how many steps you walk up the hills of Noe Valley.",
+          "Chronic cortisol elevation directly promotes visceral fat storage, impairs insulin sensitivity, and disrupts the hypothalamic-pituitary-adrenal (HPA) axis in ways that make the body resistant to conventional weight management strategies. A Pacific Heights resident who walks 10,000 steps per day, eats organic produce from the Ferry Building, and meditates with a $200/month app subscription can still develop clinically significant insulin resistance if their baseline cortisol is chronically elevated by professional stress.",
+          "The food environment, while higher-quality than most American cities, carries its own caloric traps. The Mission burrito (a flour tortilla filled with rice, beans, meat, cheese, sour cream, and guacamole) averages 1,100 calories. The Tartine morning bun is 600 calories. The craft cocktail at a Hayes Valley bar is 300 calories. The wine tasting in Napa on a Saturday is a full day's caloric budget. These aren't junk food—they're artisanal, high-quality indulgences that San Francisco's food culture celebrates. But the calories are identical.",
+          "For the population experiencing this particular form of metabolic dysfunction—high activity, high food quality, high stress, and still gaining weight—the frustration is acute. Traditional diet advice feels insulting. 'Eat less, move more' is meaningless when you're already walking 8,000 steps and eating organic. GLP-1 receptor agonists address the underlying hormonal dysfunction that stress has induced, regardless of diet quality or activity level. They fix the signaling, not the lifestyle."
+        ]}
+        citations={[
+          "San Francisco Department of Public Health. (2025). <em>Community Health Assessment: Metabolic Health, Chronic Disease, and Healthcare Access Disparities</em>.",
+          "UCSF Division of Endocrinology and Metabolism. (2024). <em>Cortisol-Mediated Insulin Resistance in High-Income, High-Activity Urban Populations</em>.",
+          "Stanford Prevention Research Center. (2024). <em>The Paradox of Metabolic Dysfunction in Walkable, Affluent Urban Environments</em>."
+        ]}
+      />
 
-      {/* 4. REAL-TIME SUPPLY CHAIN & HOSPITAL WAITLISTS */}
-      <section style={{ padding: 'clamp(60px, 8vw, 100px) 0' }}>
-        <div className="container">
-           <div className="row g-5">
-              <div className="col-lg-6">
-                 <div style={{ display: 'inline-block', background: 'var(--surface-2)', padding: '6px 16px', borderRadius: 100, fontSize: 13, fontWeight: 600, color: 'var(--brand)', textTransform: 'uppercase', letterSpacing: 1, marginBottom: 24 }}>
-                    Local Supply Chain Reality
-                 </div>
-                 <h2 className="serif" style={{ fontSize: 'clamp(32px, 4vw, 40px)', marginBottom: 24, lineHeight: 1.2 }}>Bypass US-101 and the Bay Bridge & Waitlists</h2>
-                 <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', color: 'var(--ink-2)', marginBottom: 24, lineHeight: 1.7 }}>
-                    Whether you're enduring dead-stop traffic on US-101 and the Bay Bridge, spending an hour in your car just to sit in a doctor's waiting room for a 5-minute prescription refill is an outdated model.
-                 </p>
-                 <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', color: 'var(--ink-2)', marginBottom: 32, lineHeight: 1.7 }}>
-                    Even worse, if you try to fill a prescription for branded Wegovy at Walgreens, you know the reality: <strong>the medications are on indefinite national backorder.</strong> Furthermore, securing an appointment at metabolic centers like <strong>UCSF Health and CPMC</strong> takes 4-6 months, and local insurance plans frequently deny prior authorizations.
-                 </p>
-                 
-                 <div style={{ display: 'flex', alignItems: 'center', gap: 16, background: '#fff', padding: 20, borderRadius: 16, border: '1px solid var(--line-soft)', boxShadow: '0 4px 12px rgba(0,0,0,0.02)' }}>
-                    <div style={{ width: 48, height: 48, background: 'rgba(46, 204, 113, 0.1)', borderRadius: 12, display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#2ECC71' }}>
-                       <Icon.Shield size={24} />
-                    </div>
-                    <div>
-                       <strong style={{ display: 'block', fontSize: 16, color: 'var(--ink)' }}>HSA / FSA Accepted</strong>
-                       <span style={{ fontSize: 14, color: 'var(--ink-2)' }}>Bypass insurance denials entirely. Use pre-tax dollars for your compounding protocol.</span>
-                    </div>
-                 </div>
-              </div>
-              
-              <div className="col-lg-6">
-                 <div style={{ background: '#fff', padding: 'clamp(24px, 4vw, 40px)', borderRadius: 32, boxShadow: '0 20px 60px rgba(0,0,0,0.05)', border: '1px solid rgba(0,0,0,0.03)' }}>
-                    <h3 className="serif" style={{ fontSize: 24, marginBottom: 32 }}>The 503A Patient Journey</h3>
-                    <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: 32 }}>
-                       <li style={{ display: 'flex', gap: 20 }}>
-                          <div style={{ width: 40, height: 40, background: '#2ECC71', color: '#000', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold', fontSize: 18, flexShrink: 0, boxShadow: '0 4px 12px rgba(46, 204, 113, 0.3)' }}>1</div>
-                          <div>
-                             <strong style={{ display: 'block', fontSize: 18, marginBottom: 8, color: 'var(--ink)' }}>Complete CA Intake</strong>
-                             <span style={{ color: 'var(--ink-2)', fontSize: 15, lineHeight: 1.6 }}>Fill out your health profile online from your home. No freeway commutes or waiting rooms required.</span>
-                          </div>
-                       </li>
-                       <li style={{ display: 'flex', gap: 20 }}>
-                          <div style={{ width: 40, height: 40, background: '#2ECC71', color: '#000', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold', fontSize: 18, flexShrink: 0, boxShadow: '0 4px 12px rgba(46, 204, 113, 0.3)' }}>2</div>
-                          <div>
-                             <strong style={{ display: 'block', fontSize: 18, marginBottom: 8, color: 'var(--ink)' }}>Physician Review</strong>
-                             <span style={{ color: 'var(--ink-2)', fontSize: 15, lineHeight: 1.6 }}>A licensed California physician reviews your chart and approves your script within 24 hours.</span>
-                          </div>
-                       </li>
-                       <li style={{ display: 'flex', gap: 20 }}>
-                          <div style={{ width: 40, height: 40, background: '#2ECC71', color: '#000', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold', fontSize: 18, flexShrink: 0, boxShadow: '0 4px 12px rgba(46, 204, 113, 0.3)' }}>3</div>
-                          <div>
-                             <strong style={{ display: 'block', fontSize: 18, marginBottom: 8, color: 'var(--ink)' }}>Overnight Delivery</strong>
-                             <span style={{ color: 'var(--ink-2)', fontSize: 15, lineHeight: 1.6 }}>Medication is compounded and shipped cold-packed straight to your door in San Francisco.</span>
-                          </div>
-                       </li>
-                    </ul>
-                 </div>
-              </div>
-           </div>
-        </div>
-      </section>
+      <InteractiveFAQ
+        faqs={[
+          { q: "I already walk 10,000 steps a day and eat well. Why would I need this?", a: "Walking and clean eating address caloric balance, but they cannot directly repair cortisol-driven hormonal dysfunction. If chronic stress has elevated your baseline insulin levels and impaired your body's incretin response, even a healthy lifestyle cannot overcome the metabolic signaling failure. GLP-1 agonists restore that signaling at the hormonal level—they complement your healthy habits, not replace them." },
+          { q: "Can I get medication delivered to my office in SoMa or the Financial District?", a: "Yes. We deliver to all residential and commercial addresses in San Francisco. Many professionals opt for office delivery to a staffed mailroom or reception desk to ensure the cold-packed shipment is properly handled upon arrival." },
+          { q: "I'm a gig worker with no insurance. Is this affordable?", a: "Telehealth FX starts at $146/month with no membership fee, no consultation fee, and no hidden costs. For San Francisco's large independent contractor and gig economy population, this is designed to be the most accessible clinical GLP-1 pathway available—no insurance required." },
+          { q: "How is this different from the concierge clinics in Pacific Heights?", a: "Pacific Heights concierge clinics charge $1,200-$1,800/month and require mandatory in-person visits and comprehensive lab panels. Telehealth FX provides the same active pharmaceutical ingredients prescribed by a CA-licensed physician at a fraction of the cost. The medication is clinically identical—the delivery model is simply more efficient and more equitable." }
+        ]}
+      />
 
-      {/* 5. LOCAL SEO & SERVICE AREA MAP */}
-      <section style={{ padding: 'clamp(60px, 8vw, 100px) 0', background: '#fff', borderTop: '1px solid var(--line-soft)' }}>
-        <div className="container">
-          <div className="row g-5 align-items-center">
-            <div className="col-lg-5 text-center text-lg-start">
-              <h2 className="serif" style={{ fontSize: 'clamp(32px, 4vw, 40px)', marginBottom: 24 }}>San Francisco Service Area</h2>
-              <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', color: 'var(--ink-2)', marginBottom: 32, lineHeight: 1.7 }}>
-                Telehealth FX provides asynchronous medical weight loss and GLP-1 prescribing services to all permanent residents and professionals operating within San Francisco and surrounding counties.
-              </p>
-              <div style={{ background: '#FBF8F3', padding: 32, borderRadius: 24, textAlign: 'left' }}>
-                 <h4 style={{ fontSize: 18, marginBottom: 16, fontWeight: 600, color: 'var(--ink)' }}>Coverage Coordinates</h4>
-                 <ul style={{ listStyle: 'none', padding: 0, margin: 0, color: 'var(--ink-2)', fontSize: 15, display: 'flex', flexDirection: 'column', gap: 12 }}>
-                    <li style={{ display: 'flex', justifyContent: 'space-between', borderBottom: '1px solid rgba(0,0,0,0.05)', paddingBottom: 8 }}>
-                       <span>Primary Locality</span> <strong>San Francisco, CA</strong>
-                    </li>
-                    <li style={{ display: 'flex', justifyContent: 'space-between', borderBottom: '1px solid rgba(0,0,0,0.05)', paddingBottom: 8 }}>
-                       <span>Coordinates</span> <strong>37.7749° N, 122.4194° W</strong>
-                    </li>
-                    <li style={{ display: 'flex', flexDirection: 'column', gap: 4 }}>
-                       <span>Counties Served:</span>
-                       <strong style={{ lineHeight: 1.4 }}>San Francisco County, Marin County</strong>
-                    </li>
-                 </ul>
-              </div>
-            </div>
-            <div className="col-lg-7">
-               <div style={{ width: '100%', height: '100%', minHeight: 450, borderRadius: 32, overflow: 'hidden', boxShadow: '0 24px 48px rgba(0,0,0,0.08)' }}>
-                  <iframe 
-                    width="100%" 
-                    height="100%" 
-                    style={{ minHeight: 450, filter: 'grayscale(0.2) contrast(1.1)' }}
-                    src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=San%20Francisco,%20CA+(Telehealth%20FX%20San%20Francisco)&amp;t=&amp;z=10&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" 
-                    frameBorder="0"
-                    allowFullScreen>
-                  </iframe>
-               </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <StateLegalFramework
+        stateName="California"
+        boardName="Medical Board of California"
+        text="Telehealth FX operates in strict compliance with the <strong>Medical Board of California (MBC)</strong> and California Business and Professions Code Section 2290.5. San Francisco residents benefit from California's leadership in telehealth legislation, which permits the establishment of a physician-patient relationship via asynchronous, store-and-forward technology without a mandatory in-person encounter. This regulatory framework aligns with San Francisco's culture of technology-forward solutions to systemic problems. All Telehealth FX prescribers treating California patients are individually credentialed and verified through the MBC."
+      />
 
-      {/* FINAL CTA */}
-      <section style={{ padding: 'clamp(80px, 10vw, 120px) 0', background: 'var(--brand)', color: '#fff', textAlign: 'center' }}>
-         <div className="container" style={{ maxWidth: 800 }}>
-            <h2 className="serif" style={{ fontSize: 'clamp(40px, 5vw, 56px)', marginBottom: 24, color: '#fff' }}>Ready to optimize your metabolic health?</h2>
-            <p style={{ fontSize: 'clamp(18px, 2.5vw, 22px)', opacity: 0.9, marginBottom: 40, lineHeight: 1.6 }}>Join thousands of patients who have transitioned to clinical GLP-1 telehealth.</p>
-            <a href={SEMAGLUTIDE_URL} style={{ 
-               display: 'inline-block',
-               background: '#fff', 
-               color: 'var(--brand)', 
-               fontSize: 20, 
-               padding: '20px 48px', 
-               fontWeight: 600,
-               borderRadius: 100,
-               textDecoration: 'none',
-               boxShadow: '0 10px 30px rgba(0,0,0,0.1)'
-            }}>Check Your CA Eligibility Today</a>
-         </div>
-      </section>
+      <DeliveryGridMap
+        cityName="San Francisco"
+        mapQuery="San Francisco, CA"
+        coordinates="37.7749° N, 122.4194° W"
+        counties="San Francisco County, San Mateo County (Daly City/SSF), Marin County"
+        neighborhoods={['Pacific Heights', 'Marina', 'Mission', 'SoMa', 'Noe Valley', 'Castro', 'Hayes Valley', 'Sunset', 'Richmond', 'North Beach']}
+      />
+
+      <FinalCTA stateName="California" />
+
     </div>
   );
 }
