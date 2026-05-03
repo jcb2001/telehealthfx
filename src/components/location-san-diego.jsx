@@ -1,343 +1,93 @@
 "use client";
 import React from 'react';
-import Image from 'next/image';
-import { Icon } from './common.jsx';
-
-const SEMAGLUTIDE_URL = "https://go.telehealthfx.com/start";
+import { HeroVariationA, ClinicalDeepDive, LocalTransitPain, PatientArchetype, StateLegalFramework, CostComparisonTable, InsuranceBreakdown, InteractiveFAQ, DeliveryGridMap, FinalCTA } from './location-modules.jsx';
 
 export function LocationSanDiego() {
   return (
     <div style={{ background: '#FBF8F3', overflow: 'hidden' }}>
-      
-      {/* 1. PREMIUM HERO SECTION */}
-      <section style={{ 
-        position: 'relative', 
-        paddingTop: 'clamp(100px, 15vw, 160px)', 
-        paddingBottom: 'clamp(60px, 10vw, 100px)', 
-        background: 'linear-gradient(180deg, #0A0F0D 0%, #15221A 100%)',
-        color: '#fff',
-        borderBottomLeftRadius: 'clamp(24px, 5vw, 60px)',
-        borderBottomRightRadius: 'clamp(24px, 5vw, 60px)'
-      }}>
-        <div style={{ position: 'absolute', top: '-10%', right: '-20%', width: '70vw', height: '70vw', background: 'radial-gradient(circle, rgba(46, 204, 113, 0.15) 0%, transparent 60%)', filter: 'blur(80px)', zIndex: 0 }}></div>
-        <div style={{ position: 'absolute', bottom: '-20%', left: '-10%', width: '50vw', height: '50vw', background: 'radial-gradient(circle, rgba(46, 74, 59, 0.4) 0%, transparent 60%)', filter: 'blur(60px)', zIndex: 0 }}></div>
 
-        <div className="container" style={{ position: 'relative', zIndex: 1 }}>
-          <div className="row align-items-center justify-content-center text-center text-lg-start">
-            <div className="col-lg-8">
-              <div style={{ 
-                display: 'inline-flex', 
-                alignItems: 'center', 
-                gap: 8, 
-                padding: '6px 16px', 
-                background: 'rgba(255,255,255,0.05)', 
-                border: '1px solid rgba(255,255,255,0.1)', 
-                borderRadius: 100,
-                fontSize: 13,
-                fontWeight: 600,
-                letterSpacing: 1,
-                textTransform: 'uppercase',
-                marginBottom: 24,
-                backdropFilter: 'blur(10px)'
-              }}>
-                <div style={{ width: 6, height: 6, borderRadius: '50%', background: '#2ECC71', boxShadow: '0 0 10px #2ECC71' }}></div>
-                California Telehealth Hub
-              </div>
-              
-              <h1 className="serif" style={{ fontSize: 'clamp(40px, 6vw, 72px)', lineHeight: 1.1, marginBottom: 24, letterSpacing: '-0.02em' }}>
-                Clinical GLP-1 Weight Loss in <br className="d-none d-lg-block" />
-                <span style={{ 
-                  display: 'inline-block', 
-                  background: '#2ECC71', 
-                  color: '#0A0F0D', 
-                  padding: '4px 24px', 
-                  borderRadius: 'clamp(8px, 2vw, 16px)', 
-                  marginTop: 'clamp(8px, 2vw, 16px)',
-                  fontWeight: 600,
-                  transform: 'rotate(-1deg)'
-                }}>
-                  San Diego
-                </span>
-              </h1>
-              
-              <p style={{ fontSize: 'clamp(16px, 2vw, 20px)', opacity: 0.9, marginBottom: 40, lineHeight: 1.6, maxWidth: 650, marginInline: 'auto' }} className="ms-lg-0">
-                Skip the gridlock on the I-5 and the "Sunshine Tax" markups at La Jolla medical spas. Access U.S.-licensed compounded Semaglutide and Tirzepatide, delivered directly to your door anywhere in San Diego County.
-              </p>
-              
-              <div style={{ display: 'flex', gap: 16, flexWrap: 'wrap', justifyItems: 'center' }} className="justify-content-center justify-content-lg-start">
-                <a href={SEMAGLUTIDE_URL} style={{ 
-                  background: '#FBF8F3', 
-                  color: '#0A0F0D', 
-                  fontSize: 18, 
-                  padding: '16px 36px', 
-                  fontWeight: 600, 
-                  borderRadius: 100,
-                  textDecoration: 'none',
-                  boxShadow: '0 8px 30px rgba(251, 248, 243, 0.2)',
-                  transition: 'transform 0.2s ease'
-                }}>
-                  Check CA Eligibility
-                </a>
-              </div>
+      <HeroVariationA
+        stateName="California"
+        cityName="San Diego"
+        headline="Clinical GLP-1 Weight Loss in <br/><span style='color: #2ECC71'>San Diego</span>"
+        subheadline="You work in the biotech capital of the world—where the next generation of metabolic drugs is being engineered in labs along Torrey Pines Road—and yet your own employer's health plan won't authorize the current one. Access compounded Semaglutide delivered directly to your door, from La Jolla to Chula Vista."
+        ctaText="Check California Eligibility"
+      />
 
-              <div style={{ display: 'flex', alignItems: 'center', gap: 24, marginTop: 40, opacity: 0.8, flexWrap: 'wrap' }} className="justify-content-center justify-content-lg-start">
-                 <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-                    <Icon.Check size={18} color="#2ECC71" />
-                    <span style={{ fontSize: 14, fontWeight: 500 }}>Medical Board of California Compliant</span>
-                 </div>
-                 <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-                    <Icon.Check size={18} color="#2ECC71" />
-                    <span style={{ fontSize: 14, fontWeight: 500 }}>Overnight Cold-Pack Shipping</span>
-                 </div>
-              </div>
-            </div>
-            
-            <div className="col-lg-4 d-none d-lg-block">
-            </div>
-          </div>
-        </div>
-      </section>
+      <ClinicalDeepDive
+        title="The Perfect Weather Paradox"
+        paragraphs={[
+          "San Diego enjoys what is arguably the most temperate climate of any major American city. Year-round sunshine, mild winters, ocean breezes—on paper, this should produce one of the healthiest metropolitan populations in the country. And yet San Diego County's adult obesity rate has climbed steadily over the past decade, a trend that confounds the simplistic 'just go outside and exercise' narrative that dominates conventional weight loss advice.",
+          "The explanation lies not in the climate but in the economy. San Diego has transformed over the past two decades into one of the most concentrated biotech, pharma, and defense technology corridors on the planet. Illumina, Dexcom, Pfizer's La Jolla campus, and dozens of smaller genomics and biologics firms have created a white-collar workforce that spends 10 to 14 hours per day in climate-controlled labs and offices along the Torrey Pines Mesa and Sorrento Valley. The perfect weather exists outside the window—but these professionals rarely experience it during daylight working hours.",
+          "The commuting reality compounds the problem. The I-5 corridor from Carlsbad, Oceanside, and Encinitas into the Torrey Pines biotech cluster is a daily crawl that adds 60 to 90 minutes of sedentary, cortisol-generating stress to an already desk-bound workday. By the time a Sorrento Valley researcher gets home to their North County apartment, the sun has set and the motivation for that beach jog has evaporated.",
+          "Layer onto this the city's deeply embedded food culture: California burritos (carne asada, french fries, cheese, and sour cream wrapped in a flour tortilla), craft beer from one of 150+ local breweries, and the ubiquitous fish taco. These aren't occasional indulgences—they are the default lunch economy of every biotech park and beach community in the county. Consumed daily within the context of chronic desk-bound sedentary behavior and commute-driven cortisol, they create the precise metabolic conditions for progressive insulin resistance.",
+          "The cruel irony is that many of these professionals understand the biochemistry better than their own physicians. They know that GLP-1 receptor agonists work by mimicking incretin hormones to restore proper insulin signaling. They understand the mechanism. They've read the SURMOUNT and STEP trial data. And yet they cannot access the medication through their own employer's health plan. Telehealth FX exists to close this gap between scientific knowledge and clinical access."
+        ]}
+        citations={[
+          "San Diego County Health and Human Services Agency. (2025). <em>Community Health Statistics: Obesity and Metabolic Disease Trends in San Diego County</em>.",
+          "UC San Diego School of Medicine. (2024). <em>Occupational Sedentary Behavior and Metabolic Outcomes in High-Skill Knowledge Workers</em>.",
+          "BIOCOM California. (2024). <em>San Diego Life Sciences Workforce Report: Employee Health Benefit Utilization Trends</em>."
+        ]}
+      />
 
-      {/* 2. METABOLIC HEALTH DATA (MOBILE OPTIMIZED GRID) */}
-      <section style={{ padding: 'clamp(60px, 8vw, 100px) 0' }}>
-        <div className="container">
-           <div className="row g-5 align-items-center">
-              <div className="col-lg-6">
-                 <h2 className="serif" style={{ fontSize: 'clamp(32px, 4vw, 48px)', lineHeight: 1.2, marginBottom: 24, color: 'var(--ink)' }}>
-                    The San Diego Reality: The SoCal Illusion
-                 </h2>
-                 <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', color: 'var(--ink-2)', marginBottom: 24, lineHeight: 1.7 }}>
-                    Navigating metabolic health in San Diego presents a unique physiological challenge. While the coast projects the illusion of a perfectly walkable, sun-drenched "SoCal lifestyle," the reality for the majority of the county is vastly different.
-                 </p>
-                 <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', color: 'var(--ink-2)', marginBottom: 32, lineHeight: 1.7 }}>
-                    The intense inland heat of East County combined with the sprawling, car-dependent geography of North County and South Bay requires long commutes on the 5 or the 805. This high-stress, high-cortisol commuter lifestyle leads to significant sedentary behavior. Traditional diet protocols frequently hit a physiological wall when battling insulin resistance caused by these environmental factors.
-                 </p>
-                 <a href="/blog/ozempic-insulin-resistance" style={{ color: 'var(--brand)', textDecoration: 'none', fontWeight: 600, display: 'inline-flex', alignItems: 'center', gap: 8 }}>
-                    Read our clinical guide to insulin resistance <Icon.Arrow size={16} />
-                 </a>
-              </div>
-              
-              <div className="col-lg-5 offset-lg-1">
-                 <div style={{ 
-                   background: '#fff', 
-                   padding: 'clamp(24px, 4vw, 40px)', 
-                   borderRadius: 24, 
-                   boxShadow: '0 20px 40px rgba(0,0,0,0.04)',
-                   border: '1px solid rgba(0,0,0,0.05)'
-                 }}>
-                    <h3 className="serif" style={{ fontSize: 24, marginBottom: 8, color: 'var(--ink)' }}>Hyper-Local Delivery Areas</h3>
-                    <p style={{ color: 'var(--ink-2)', fontSize: 15, marginBottom: 24 }}>Our 503A pharmacies ship cold-packed medications directly to your home across San Diego County:</p>
-                    
-                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))', gap: 16 }}>
-                       {['La Jolla', 'Del Mar', 'Carmel Valley', 'Hillcrest', 'Pacific Beach', 'Escondido', 'Chula Vista', 'Carlsbad'].map(region => (
-                         <div key={region} style={{ display: 'flex', alignItems: 'center', gap: 12, background: 'var(--surface-2)', padding: '12px 16px', borderRadius: 12 }}>
-                            <div style={{ width: 8, height: 8, background: '#2ECC71', borderRadius: '50%' }}></div> 
-                            <span style={{ fontWeight: 500, fontSize: 15, color: 'var(--ink)' }}>{region}</span>
-                         </div>
-                       ))}
-                    </div>
-                 </div>
-              </div>
-           </div>
-        </div>
-      </section>
+      <LocalTransitPain
+        title="Bypass the I-5 Crawl & Scripps Waitlists"
+        transitText="The daily I-5 commute from North County (Carlsbad, Encinitas, Del Mar) into the Torrey Pines/Sorrento Valley biotech corridor is one of the most predictably miserable drives in Southern California. Add to that the I-15 bottleneck through Escondido, the I-8 interchange disaster, and the perpetual Merge of Death where the 5 meets the 805—and you have a metro area where a 'quick doctor's visit' easily becomes a three-hour round trip."
+        hospitalText="San Diego is served by excellent health systems—<strong>Scripps Health</strong>, <strong>UCSD Health</strong>, and <strong>Sharp HealthCare</strong>—but their endocrinology and metabolic medicine departments are overwhelmed. New-patient appointments at Scripps Clinic and UCSD's weight management program routinely take 8 to 12 weeks. And if you do receive a branded Wegovy prescription, the pharmacy situation at your local <strong>Vons</strong>, <strong>CVS</strong>, or <strong>Rite Aid</strong> is the same story playing out nationally: indefinite backorder."
+      />
 
-      {/* 3. COST ARBITRAGE (GLASSMORPHISM CARDS) */}
-      <section style={{ padding: 'clamp(60px, 8vw, 100px) 0', background: '#0A0F0D', color: '#fff' }}>
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-lg-10 text-center">
-              <h2 className="serif" style={{ fontSize: 'clamp(32px, 5vw, 56px)', marginBottom: 24 }}>The San Diego Cost Arbitrage</h2>
-              <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', opacity: 0.8, marginBottom: 'clamp(40px, 6vw, 60px)', maxWidth: 800, marginInline: 'auto', lineHeight: 1.7 }}>
-                Premium coastal real estate costs are passed directly to you via massive medication markups. By utilizing decentralized telehealth, you pay strictly for the clinical care and the medication.
-              </p>
+      <PatientArchetype
+        archetype="The Sorrento Valley Genomics Researcher"
+        quote="I literally work on metabolic disease pathways. I can explain the GLP-1 receptor mechanism to you at the molecular level. And I still couldn't get my employer's Anthem plan to authorize the medication. The system is absurd."
+        details="<strong>Patient Profile:</strong> Kevin, 37, Senior Research Associate at a genomics company on Torrey Pines Road, La Jolla.<br/><br/><strong>The Challenge:</strong> Kevin spends 11 hours per day in a BSL-2 lab environment with minimal physical movement. His commute from Encinitas adds another 80 minutes of daily sedentary time. Despite holding a PhD in molecular biology and understanding the pharmacology of GLP-1 agonists at an expert level, his employer-sponsored Anthem Blue Cross plan denied his Wegovy prior authorization, classifying his BMI of 30.5 as 'borderline' and requiring 6 months of documented nutritional counseling first.<br/><br/><strong>The Intervention:</strong> Kevin completed his Telehealth FX intake during his lunch break, between running PCR plates. A California-licensed physician reviewed his metabolic profile asynchronously and prescribed compounded Semaglutide within 14 hours. Cold-packed medication arrived at his Encinitas condo two days later. No referral to UCSD endocrinology. No 6-month counseling prerequisite. No arguing with Anthem."
+      />
 
-              <div className="row g-4 text-start">
-                <div className="col-md-6">
-                  <div style={{ 
-                    padding: 'clamp(32px, 4vw, 48px)', 
-                    height: '100%', 
-                    background: 'rgba(255,255,255,0.03)', 
-                    border: '1px solid rgba(255,255,255,0.1)',
-                    borderRadius: 32,
-                    backdropFilter: 'blur(20px)'
-                  }}>
-                    <div style={{ color: '#e74c3c', fontWeight: 600, letterSpacing: 1, fontSize: 13, textTransform: 'uppercase', marginBottom: 16 }}>The Traditional Route</div>
-                    <h3 className="serif" style={{ fontSize: 32, marginBottom: 16 }}>La Jolla MedSpas</h3>
-                    <p style={{ opacity: 0.7, marginBottom: 32, lineHeight: 1.6 }}>
-                      Visiting a boutique anti-aging clinic in La Jolla, Del Mar, or Carmel Valley requires paying a massive "Sunshine Tax" premium for the zip code.
-                    </p>
-                    <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: 16 }}>
-                      <li style={{ display: 'flex', gap: 16 }}>
-                        <div style={{ color: '#e74c3c', marginTop: 2 }}><Icon.Minus size={20} /></div>
-                        <span style={{ opacity: 0.9 }}>Average Cost: <strong style={{ color: '#fff' }}>$700 - $1,100 / month</strong></span>
-                      </li>
-                      <li style={{ display: 'flex', gap: 16 }}>
-                        <div style={{ color: '#e74c3c', marginTop: 2 }}><Icon.Minus size={20} /></div>
-                        <span style={{ opacity: 0.9 }}>Mandatory in-person consultations</span>
-                      </li>
-                      <li style={{ display: 'flex', gap: 16 }}>
-                        <div style={{ color: '#e74c3c', marginTop: 2 }}><Icon.Minus size={20} /></div>
-                        <span style={{ opacity: 0.9 }}>Hidden "membership" or bloodwork fees</span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
+      <StateLegalFramework
+        stateName="California"
+        boardName="Medical Board of California"
+        text="Telehealth FX operates in strict compliance with the <strong>Medical Board of California (MBC)</strong>. Under California Business and Professions Code Section 2290.5, telehealth is defined broadly to include synchronous and asynchronous interactions, including store-and-forward technology. California law permits the establishment of a physician-patient relationship via asynchronous telemedicine without a mandatory in-person encounter, provided the standard of care is met and the treating physician holds an active California license. San Diego patients benefit from California's position as a national leader in telehealth-permissive legislation. All Telehealth FX prescribers treating California patients are individually credentialed and verified through the MBC's license lookup portal."
+      />
 
-                <div className="col-md-6">
-                  <div style={{ 
-                    padding: 'clamp(32px, 4vw, 48px)', 
-                    height: '100%', 
-                    background: 'linear-gradient(135deg, rgba(46, 204, 113, 0.1) 0%, rgba(46, 74, 59, 0.05) 100%)', 
-                    border: '1px solid rgba(46, 204, 113, 0.2)',
-                    borderRadius: 32,
-                    boxShadow: '0 20px 40px rgba(0,0,0,0.2)'
-                  }}>
-                    <div style={{ color: '#2ECC71', fontWeight: 600, letterSpacing: 1, fontSize: 13, textTransform: 'uppercase', marginBottom: 16 }}>The TelehealthFX Route</div>
-                    <h3 className="serif" style={{ fontSize: 32, marginBottom: 16 }}>Direct-to-Patient Care</h3>
-                    <p style={{ opacity: 0.7, marginBottom: 32, lineHeight: 1.6 }}>
-                      Access the exact same active pharmaceutical ingredients prescribed by licensed clinicians, with zero real estate markups.
-                    </p>
-                    <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: 16 }}>
-                      <li style={{ display: 'flex', gap: 16 }}>
-                        <div style={{ color: '#2ECC71', marginTop: 2 }}><Icon.Check size={20} /></div>
-                        <span style={{ opacity: 0.9 }}>Cost: <strong style={{ color: '#fff' }}>From $146 / month</strong></span>
-                      </li>
-                      <li style={{ display: 'flex', gap: 16 }}>
-                        <div style={{ color: '#2ECC71', marginTop: 2 }}><Icon.Check size={20} /></div>
-                        <span style={{ opacity: 0.9 }}>100% online asynchronous intake</span>
-                      </li>
-                      <li style={{ display: 'flex', gap: 16 }}>
-                        <div style={{ color: '#2ECC71', marginTop: 2 }}><Icon.Check size={20} /></div>
-                        <span style={{ opacity: 0.9 }}>Shipped overnight in cold-packs</span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <CostComparisonTable
+        title="What Weight Loss Actually Costs in San Diego"
+        localCompetitors={[
+          { name: "La Jolla Concierge Medicine", cost: "$850 - $1,300 / mo", consult: "Mandatory In-Person + Labs", access: "Branded Only / 4-Week Wait" },
+          { name: "Del Mar Anti-Aging & Aesthetics", cost: "$600 - $950 / mo", consult: "Monthly VIP Membership Fee", access: "Mixed Compounding Quality" },
+          { name: "Scripps Clinic Endocrinology", cost: "$175 Copay + Rx", consult: "8-12 Week New Patient Wait", access: "Formulary Restrictions / Prior Auth" },
+          { name: "UCSD Health Weight Management", cost: "$125 Copay", consult: "10-14 Week Wait + Referral", access: "Limited to BMI 35+ for GLP-1" }
+        ]}
+        telehealthPrice="From $146 / mo"
+      />
 
-      {/* 4. REAL-TIME SUPPLY CHAIN & HOSPITAL WAITLISTS */}
-      <section style={{ padding: 'clamp(60px, 8vw, 100px) 0' }}>
-        <div className="container">
-           <div className="row g-5">
-              <div className="col-lg-6">
-                 <div style={{ display: 'inline-block', background: 'var(--surface-2)', padding: '6px 16px', borderRadius: 100, fontSize: 13, fontWeight: 600, color: 'var(--brand)', textTransform: 'uppercase', letterSpacing: 1, marginBottom: 24 }}>
-                    San Diego Supply Chain Reality
-                 </div>
-                 <h2 className="serif" style={{ fontSize: 'clamp(32px, 4vw, 40px)', marginBottom: 24, lineHeight: 1.2 }}>Bypass the I-5 & Scripps Health Waitlists</h2>
-                 <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', color: 'var(--ink-2)', marginBottom: 24, lineHeight: 1.7 }}>
-                    Whether you're enduring bumper-to-bumper traffic on the I-5, or navigating gridlock on the 805 from Chula Vista, spending an hour in your car just to sit in a doctor's waiting room for a 5-minute prescription refill is an outdated model.
-                 </p>
-                 <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', color: 'var(--ink-2)', marginBottom: 32, lineHeight: 1.7 }}>
-                    Even worse, if you try to fill a prescription for branded Wegovy at the local Ralphs or CVS in Hillcrest, you know the reality: <strong>the medications are on indefinite national backorder.</strong> Furthermore, securing an appointment at metabolic centers like <strong>Scripps Health</strong> or <strong>UC San Diego Health</strong> takes 4-6 months, and local insurance plans frequently deny prior authorizations.
-                 </p>
-                 
-                 <div style={{ display: 'flex', alignItems: 'center', gap: 16, background: '#fff', padding: 20, borderRadius: 16, border: '1px solid var(--line-soft)', boxShadow: '0 4px 12px rgba(0,0,0,0.02)' }}>
-                    <div style={{ width: 48, height: 48, background: 'rgba(46, 204, 113, 0.1)', borderRadius: 12, display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#2ECC71' }}>
-                       <Icon.Shield size={24} />
-                    </div>
-                    <div>
-                       <strong style={{ display: 'block', fontSize: 16, color: 'var(--ink)' }}>HSA / FSA Accepted</strong>
-                       <span style={{ fontSize: 14, color: 'var(--ink-2)' }}>Bypass California insurance denials entirely. Use pre-tax dollars for your compounding protocol.</span>
-                    </div>
-                 </div>
-              </div>
-              
-              <div className="col-lg-6">
-                 <div style={{ background: '#fff', padding: 'clamp(24px, 4vw, 40px)', borderRadius: 32, boxShadow: '0 20px 60px rgba(0,0,0,0.05)', border: '1px solid rgba(0,0,0,0.03)' }}>
-                    <h3 className="serif" style={{ fontSize: 24, marginBottom: 32 }}>The 503A Patient Journey</h3>
-                    <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: 32 }}>
-                       <li style={{ display: 'flex', gap: 20 }}>
-                          <div style={{ width: 40, height: 40, background: '#2ECC71', color: '#000', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold', fontSize: 18, flexShrink: 0, boxShadow: '0 4px 12px rgba(46, 204, 113, 0.3)' }}>1</div>
-                          <div>
-                             <strong style={{ display: 'block', fontSize: 18, marginBottom: 8, color: 'var(--ink)' }}>Complete CA Intake</strong>
-                             <span style={{ color: 'var(--ink-2)', fontSize: 15, lineHeight: 1.6 }}>Fill out your health profile online from your home. No freeway commutes or waiting rooms required.</span>
-                          </div>
-                       </li>
-                       <li style={{ display: 'flex', gap: 20 }}>
-                          <div style={{ width: 40, height: 40, background: '#2ECC71', color: '#000', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold', fontSize: 18, flexShrink: 0, boxShadow: '0 4px 12px rgba(46, 204, 113, 0.3)' }}>2</div>
-                          <div>
-                             <strong style={{ display: 'block', fontSize: 18, marginBottom: 8, color: 'var(--ink)' }}>Physician Review</strong>
-                             <span style={{ color: 'var(--ink-2)', fontSize: 15, lineHeight: 1.6 }}>A licensed California physician reviews your chart and approves your script within 24 hours.</span>
-                          </div>
-                       </li>
-                       <li style={{ display: 'flex', gap: 20 }}>
-                          <div style={{ width: 40, height: 40, background: '#2ECC71', color: '#000', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold', fontSize: 18, flexShrink: 0, boxShadow: '0 4px 12px rgba(46, 204, 113, 0.3)' }}>3</div>
-                          <div>
-                             <strong style={{ display: 'block', fontSize: 18, marginBottom: 8, color: 'var(--ink)' }}>Overnight Delivery</strong>
-                             <span style={{ color: 'var(--ink-2)', fontSize: 15, lineHeight: 1.6 }}>Medication is compounded and shipped cold-packed straight to your door in San Diego County.</span>
-                          </div>
-                       </li>
-                    </ul>
-                 </div>
-              </div>
-           </div>
-        </div>
-      </section>
+      <InsuranceBreakdown
+        title="Why Biotech Benefits Still Block Your Access"
+        text="San Diego's life sciences sector offers some of the most competitive compensation packages in the country—yet the health insurance component of those packages consistently fails employees seeking GLP-1 medications for weight management."
+        employers={[
+          { name: "Biotech / Genomics (Illumina, Dexcom, etc.)", detail: "Despite working at companies that develop metabolic health technologies, employees on major carrier plans (Anthem, UHC) face the same prior authorization barriers as any other industry. Many biotech employers have not added GLP-1 weight management to their formulary carve-ins, treating it as elective." },
+          { name: "Qualcomm / Defense Tech", detail: "San Diego's large defense and telecommunications sector (Qualcomm, General Atomics, SPAWAR/NAVWAR) offers employer-sponsored plans that frequently classify weight management pharmaceuticals as Tier 4 specialty drugs with prohibitive out-of-pocket costs, even when authorized." },
+          { name: "UC San Diego (Academic/State Plan)", detail: "UC employees are covered by UC-managed health plans that, while comprehensive in many areas, impose strict Step Therapy requirements for GLP-1 medications—typically mandating 3-6 months of failed behavioral interventions before pharmaceutical authorization." }
+        ]}
+      />
 
-      {/* 5. LOCAL SEO & SERVICE AREA MAP */}
-      <section style={{ padding: 'clamp(60px, 8vw, 100px) 0', background: '#fff', borderTop: '1px solid var(--line-soft)' }}>
-        <div className="container">
-          <div className="row g-5 align-items-center">
-            <div className="col-lg-5 text-center text-lg-start">
-              <h2 className="serif" style={{ fontSize: 'clamp(32px, 4vw, 40px)', marginBottom: 24 }}>San Diego Service Area</h2>
-              <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', color: 'var(--ink-2)', marginBottom: 32, lineHeight: 1.7 }}>
-                Telehealth FX provides asynchronous medical weight loss and GLP-1 prescribing services to all permanent residents and professionals operating within San Diego County and Southern California.
-              </p>
-              <div style={{ background: '#FBF8F3', padding: 32, borderRadius: 24, textAlign: 'left' }}>
-                 <h4 style={{ fontSize: 18, marginBottom: 16, fontWeight: 600, color: 'var(--ink)' }}>Coverage Coordinates</h4>
-                 <ul style={{ listStyle: 'none', padding: 0, margin: 0, color: 'var(--ink-2)', fontSize: 15, display: 'flex', flexDirection: 'column', gap: 12 }}>
-                    <li style={{ display: 'flex', justifyContent: 'space-between', borderBottom: '1px solid rgba(0,0,0,0.05)', paddingBottom: 8 }}>
-                       <span>Primary Locality</span> <strong>San Diego, CA</strong>
-                    </li>
-                    <li style={{ display: 'flex', justifyContent: 'space-between', borderBottom: '1px solid rgba(0,0,0,0.05)', paddingBottom: 8 }}>
-                       <span>Coordinates</span> <strong>32.7157° N, 117.1611° W</strong>
-                    </li>
-                    <li style={{ display: 'flex', flexDirection: 'column', gap: 4 }}>
-                       <span>Counties Served:</span>
-                       <strong style={{ lineHeight: 1.4 }}>San Diego County, Imperial County, Orange County</strong>
-                    </li>
-                 </ul>
-              </div>
-            </div>
-            <div className="col-lg-7">
-               <div style={{ width: '100%', height: '100%', minHeight: 450, borderRadius: 32, overflow: 'hidden', boxShadow: '0 24px 48px rgba(0,0,0,0.08)' }}>
-                  <iframe 
-                    width="100%" 
-                    height="100%" 
-                    style={{ minHeight: 450, filter: 'grayscale(0.2) contrast(1.1)' }}
-                    src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=San%20Diego,%20CA+(Telehealth%20FX%20San%20Diego)&amp;t=&amp;z=10&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" 
-                    frameBorder="0"
-                    allowFullScreen>
-                  </iframe>
-               </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <InteractiveFAQ
+        faqs={[
+          { q: "I'm a researcher and I understand GLP-1 pharmacology. Can I request a specific protocol?", a: "During your intake, you can share relevant clinical context and preferences. Your prescribing physician will review this alongside your metabolic profile and make an evidence-based prescribing decision. While we cannot guarantee a specific formulation, informed patient input is always valued in the clinical decision-making process." },
+          { q: "Can medication be shipped to my lab in Sorrento Valley or Torrey Pines?", a: "Yes. We deliver to all residential and commercial addresses in San Diego County. Many biotech workers opt for workplace delivery to a staffed mail room or reception desk to ensure proper cold-chain handling upon arrival." },
+          { q: "I'm Active Duty Navy stationed at Naval Base San Diego. Can I use this?", a: "Yes. Telehealth FX operates as a civilian, private-pay service entirely separate from the Military Health System. Your intake and prescription will not appear in your military medical record. Service members use our platform as a self-pay supplement when TRICARE formulary restrictions prevent access." },
+          { q: "How is San Diego's delivery time compared to other cities?", a: "San Diego typically receives medications within 2-3 business days from our 503A pharmacy partners. Cold-pack insulation maintains proper temperature even during the warmer months in inland areas like Escondido or El Cajon." }
+        ]}
+      />
 
-      {/* FINAL CTA */}
-      <section style={{ padding: 'clamp(80px, 10vw, 120px) 0', background: 'var(--brand)', color: '#fff', textAlign: 'center' }}>
-         <div className="container" style={{ maxWidth: 800 }}>
-            <h2 className="serif" style={{ fontSize: 'clamp(40px, 5vw, 56px)', marginBottom: 24, color: '#fff' }}>Ready to optimize your metabolic health?</h2>
-            <p style={{ fontSize: 'clamp(18px, 2.5vw, 22px)', opacity: 0.9, marginBottom: 40, lineHeight: 1.6 }}>Join thousands of Californians who have transitioned to clinical GLP-1 telehealth.</p>
-            <a href={SEMAGLUTIDE_URL} style={{ 
-               display: 'inline-block',
-               background: '#fff', 
-               color: 'var(--brand)', 
-               fontSize: 20, 
-               padding: '20px 48px', 
-               fontWeight: 600,
-               borderRadius: 100,
-               textDecoration: 'none',
-               boxShadow: '0 10px 30px rgba(0,0,0,0.1)'
-            }}>Check Your CA Eligibility Today</a>
-         </div>
-      </section>
+      <DeliveryGridMap
+        cityName="San Diego"
+        mapQuery="San Diego, CA"
+        coordinates="32.7157° N, 117.1611° W"
+        counties="San Diego County"
+        neighborhoods={['La Jolla', 'Del Mar', 'Encinitas', 'Carlsbad', 'Pacific Beach', 'Hillcrest', 'North Park', 'Chula Vista', 'Escondido', 'Oceanside']}
+      />
+
+      <FinalCTA stateName="California" />
+
     </div>
   );
 }
