@@ -20,8 +20,20 @@ export function LocationNYC() {
               <div className="eyebrow" style={{ marginBottom: 24, color: '#FBF8F3', border: '1px solid rgba(251, 248, 243, 0.3)', display: 'inline-block', padding: '6px 16px', borderRadius: 100 }}>
                 New York Telehealth Hub • Fully Licensed in NY
               </div>
-              <h1 className="serif text-white" style={{ fontSize: 64, lineHeight: 1.1, marginBottom: 24 }}>
-                Clinical GLP-1 Weight Loss in <span style={{ fontStyle: 'italic', color: '#FBF8F3', borderBottom: '2px solid var(--brand-soft)' }}>New York City</span>
+              <h1 className="serif text-white" style={{ fontSize: 64, lineHeight: 1.2, marginBottom: 24 }}>
+                Clinical GLP-1 Weight Loss in <br/>
+                <span style={{ 
+                  display: 'inline-block', 
+                  background: '#2ECC71', 
+                  color: '#0A0F0D', 
+                  padding: '4px 20px', 
+                  borderRadius: 12, 
+                  marginTop: 12,
+                  fontWeight: 600,
+                  fontStyle: 'normal'
+                }}>
+                  New York City
+                </span>
               </h1>
               <p className="text-white" style={{ fontSize: 20, opacity: 0.9, marginBottom: 40, maxWidth: 650, lineHeight: 1.6 }}>
                 Skip the waitlists and premium markups at Manhattan and Brooklyn medical spas. Access U.S.-licensed, FDA-compliant compounded Semaglutide and Tirzepatide, prescribed by NY-licensed physicians and delivered directly to your apartment in all five boroughs.
@@ -266,6 +278,40 @@ export function LocationNYC() {
         </div>
       </section>
       
+      {/* Local SEO: Google Map & Service Area Signals */}
+      <section className="section" style={{ background: '#FFFDF9', borderTop: '1px solid var(--line-soft)' }}>
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-6">
+              <h2 className="serif" style={{ fontSize: 40, marginBottom: 24 }}>New York City Service Area</h2>
+              <p style={{ fontSize: 18, color: 'var(--ink-2)', marginBottom: 24 }}>
+                Telehealth FX provides asynchronous medical weight loss and GLP-1 prescribing services to all permanent residents and professionals operating within the five boroughs of New York City.
+              </p>
+              <div style={{ background: '#fff', padding: 24, borderRadius: 12, border: '1px solid var(--line-soft)', marginBottom: 24 }}>
+                 <h4 style={{ fontSize: 16, marginBottom: 12, fontWeight: 600 }}>Coverage Coordinates</h4>
+                 <ul style={{ listStyle: 'none', padding: 0, margin: 0, color: 'var(--ink-2)', fontSize: 14, display: 'flex', flexDirection: 'column', gap: 8 }}>
+                    <li><strong>Primary Locality:</strong> New York, NY, USA</li>
+                    <li><strong>Latitude / Longitude:</strong> 40.7128° N, 74.0060° W</li>
+                    <li><strong>Counties Served:</strong> New York (Manhattan), Kings (Brooklyn), Queens, Bronx, Richmond (Staten Island)</li>
+                 </ul>
+              </div>
+            </div>
+            <div className="col-lg-6">
+               <div style={{ width: '100%', height: '100%', minHeight: 350, borderRadius: 16, overflow: 'hidden', border: '1px solid var(--line-soft)', boxShadow: '0 8px 30px rgba(0,0,0,0.05)' }}>
+                  <iframe 
+                    width="100%" 
+                    height="100%" 
+                    style={{ minHeight: 350 }}
+                    src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=New%20York,%20NY+(Telehealth%20FX%20New%20York)&amp;t=&amp;z=10&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" 
+                    frameBorder="0"
+                    allowFullScreen>
+                  </iframe>
+               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Re-use standard FAQ/Clinical Funnel */}
       <section className="section" style={{ background: '#0A0F0D', color: '#fff' }}>
          <div className="container text-center" style={{ maxWidth: 800 }}>
