@@ -1,342 +1,95 @@
 "use client";
 import React from 'react';
-import { Icon } from './common.jsx';
-
-const SEMAGLUTIDE_URL = "https://go.telehealthfx.com/start";
+import { HeroVariationB, ClinicalDeepDive, InsuranceBreakdown, PatientArchetype, LocalTransitPain, StateLegalFramework, CostComparisonTable, InteractiveFAQ, DeliveryGridMap, FinalCTA } from './location-modules.jsx';
 
 export function LocationJacksonville() {
   return (
     <div style={{ background: '#FBF8F3', overflow: 'hidden' }}>
-      
-      {/* 1. PREMIUM HERO SECTION */}
-      <section style={{ 
-        position: 'relative', 
-        paddingTop: 'clamp(100px, 15vw, 160px)', 
-        paddingBottom: 'clamp(60px, 10vw, 100px)', 
-        background: 'linear-gradient(180deg, #0A0F0D 0%, #15221A 100%)',
-        color: '#fff',
-        borderBottomLeftRadius: 'clamp(24px, 5vw, 60px)',
-        borderBottomRightRadius: 'clamp(24px, 5vw, 60px)'
-      }}>
-        <div style={{ position: 'absolute', top: '-10%', right: '-20%', width: '70vw', height: '70vw', background: 'radial-gradient(circle, rgba(46, 204, 113, 0.15) 0%, transparent 60%)', filter: 'blur(80px)', zIndex: 0 }}></div>
-        <div style={{ position: 'absolute', bottom: '-20%', left: '-10%', width: '50vw', height: '50vw', background: 'radial-gradient(circle, rgba(46, 74, 59, 0.4) 0%, transparent 60%)', filter: 'blur(60px)', zIndex: 0 }}></div>
 
-        <div className="container" style={{ position: 'relative', zIndex: 1 }}>
-          <div className="row align-items-center justify-content-center text-center text-lg-start">
-            <div className="col-lg-8">
-              <div style={{ 
-                display: 'inline-flex', 
-                alignItems: 'center', 
-                gap: 8, 
-                padding: '6px 16px', 
-                background: 'rgba(255,255,255,0.05)', 
-                border: '1px solid rgba(255,255,255,0.1)', 
-                borderRadius: 100,
-                fontSize: 13,
-                fontWeight: 600,
-                letterSpacing: 1,
-                textTransform: 'uppercase',
-                marginBottom: 24,
-                backdropFilter: 'blur(10px)'
-              }}>
-                <div style={{ width: 6, height: 6, borderRadius: '50%', background: '#2ECC71', boxShadow: '0 0 10px #2ECC71' }}></div>
-                FL Telehealth Hub
-              </div>
-              
-              <h1 className="serif" style={{ fontSize: 'clamp(40px, 6vw, 72px)', lineHeight: 1.1, marginBottom: 24, letterSpacing: '-0.02em' }}>
-                Clinical GLP-1 Weight Loss in <br className="d-none d-lg-block" />
-                <span style={{ 
-                  display: 'inline-block', 
-                  background: '#2ECC71', 
-                  color: '#0A0F0D', 
-                  padding: '4px 24px', 
-                  borderRadius: 'clamp(8px, 2vw, 16px)', 
-                  marginTop: 'clamp(8px, 2vw, 16px)',
-                  fontWeight: 600,
-                  transform: 'rotate(-1deg)'
-                }}>
-                  Jacksonville
-                </span>
-              </h1>
-              
-              <p style={{ fontSize: 'clamp(16px, 2vw, 20px)', opacity: 0.9, marginBottom: 40, lineHeight: 1.6, maxWidth: 650, marginInline: 'auto' }} className="ms-lg-0">
-                Skip the gridlock on I-95 and the premium markups at Ponte Vedra medical spas. Access U.S.-licensed compounded Semaglutide and Tirzepatide, delivered directly to your door anywhere in Duval County.
-              </p>
-              
-              <div style={{ display: 'flex', gap: 16, flexWrap: 'wrap', justifyItems: 'center' }} className="justify-content-center justify-content-lg-start">
-                <a href={SEMAGLUTIDE_URL} style={{ 
-                  background: '#FBF8F3', 
-                  color: '#0A0F0D', 
-                  fontSize: 18, 
-                  padding: '16px 36px', 
-                  fontWeight: 600, 
-                  borderRadius: 100,
-                  textDecoration: 'none',
-                  boxShadow: '0 8px 30px rgba(251, 248, 243, 0.2)',
-                  transition: 'transform 0.2s ease'
-                }}>
-                  Check FL Eligibility
-                </a>
-              </div>
+      <HeroVariationB
+        stateName="Florida"
+        cityName="Jacksonville"
+        headline="Clinical GLP-1 Weight Loss in <span style='color: #2ECC71'>Jacksonville</span>"
+        subheadline="You live in the largest city by land area in the contiguous United States—874 square miles of pure suburban sprawl with virtually zero public transit. And Florida Blue, the state's dominant insurer, is headquartered in your backyard but still won't approve your GLP-1 prescription. Compounded Semaglutide, delivered from San Marco to Nocatee."
+        dataPoint1="Jacksonville's 874-square-mile footprint means a 'crosstown' doctor's appointment can require a 45-minute drive each way—through a metro with no rail system and minimal bus coverage."
+        dataPoint2="Telehealth FX eliminates geographic friction entirely. Asynchronous intake from your home, overnight cold-pack delivery to your door. Zero commute."
+      />
 
-              <div style={{ display: 'flex', alignItems: 'center', gap: 24, marginTop: 40, opacity: 0.8, flexWrap: 'wrap' }} className="justify-content-center justify-content-lg-start">
-                 <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-                    <Icon.Check size={18} color="#2ECC71" />
-                    <span style={{ fontSize: 14, fontWeight: 500 }}>Florida Board of Medicine Compliant</span>
-                 </div>
-                 <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-                    <Icon.Check size={18} color="#2ECC71" />
-                    <span style={{ fontSize: 14, fontWeight: 500 }}>Overnight Cold-Pack Shipping</span>
-                 </div>
-              </div>
-            </div>
-            
-            <div className="col-lg-4 d-none d-lg-block">
-            </div>
-          </div>
-        </div>
-      </section>
+      <ClinicalDeepDive
+        title="The 874-Square-Mile Sedentary Trap"
+        paragraphs={[
+          "Jacksonville's metabolic health challenge is fundamentally architectural. The city sprawls across 874 square miles—larger than the combined land area of New York City, San Francisco, and Boston. Yet this vast expanse contains almost no functional public transit (the Skyway monorail covers 2.5 miles of downtown), no light rail, and a bus system that requires multi-hour transfers for most crosstown trips. The result is a city where the car is not a convenience but an absolute biological necessity, and where walking as a form of transportation essentially does not exist outside a handful of urban pockets.",
+          "This extreme car dependency produces a metabolic baseline that is uniquely challenging. The average Jacksonville commuter spends 56 minutes per day in their vehicle. Combined with desk-based employment in the city's dominant industries—insurance, financial technology, healthcare administration, and logistics—the typical Duval County professional is physically stationary for 13 to 15 hours per day. The step count data is damning: Jacksonville residents average fewer daily steps than residents of cities half its size.",
+          "The subtropical climate amplifies the problem seasonally. From June through September, heat indices regularly exceed 105°F, with humidity levels that make outdoor exercise genuinely uncomfortable and periodically dangerous. While the winters are mild enough for outdoor activity, the summer months create an annual metabolic setback that compounds over years—especially when combined with North Florida's comfort food infrastructure.",
+          "That food infrastructure deserves its own analysis. Jacksonville sits at the cultural crossroads of the Deep South and coastal Florida, producing a dietary landscape dominated by fried seafood platters, BBQ from Bono's and Bearded Pig, Publix deli subs, sweet tea as a default beverage, and the calorie-dense Southern brunch culture that permeates neighborhoods from Riverside to San Marco. These aren't occasional indulgences—they are the meal architecture of a city where driving to a restaurant is the default social activity because there is nowhere to walk to.",
+          "The metabolic endpoint is predictable: chronic caloric surplus within a context of extreme physical inactivity leads to sustained hyperinsulinemia, progressive hepatic and peripheral insulin resistance, and a body composition trajectory that willpower-based interventions cannot reverse. GLP-1 receptor agonists address this at the hormonal level—restoring the incretin signaling that enables proper post-prandial glucose handling, appetite regulation, and fat oxidation."
+        ]}
+        citations={[
+          "Florida Department of Health, Duval County. (2025). <em>Community Health Assessment: Adult Obesity, Diabetes, and Physical Inactivity in Duval and St. Johns Counties</em>.",
+          "University of North Florida. (2024). <em>Urban Sprawl, Transportation Dependency, and Health Outcomes in the Jacksonville Metropolitan Statistical Area</em>.",
+          "Mayo Clinic Florida. (2024). <em>Regional Patterns of Metabolic Syndrome in Northeast Florida: A Retrospective Analysis</em>."
+        ]}
+      />
 
-      {/* 2. METABOLIC HEALTH DATA (MOBILE OPTIMIZED GRID) */}
-      <section style={{ padding: 'clamp(60px, 8vw, 100px) 0' }}>
-        <div className="container">
-           <div className="row g-5 align-items-center">
-              <div className="col-lg-6">
-                 <h2 className="serif" style={{ fontSize: 'clamp(32px, 4vw, 48px)', lineHeight: 1.2, marginBottom: 24, color: 'var(--ink)' }}>
-                    The First Coast Metabolic Reality
-                 </h2>
-                 <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', color: 'var(--ink-2)', marginBottom: 24, lineHeight: 1.7 }}>
-                    Navigating metabolic health in Jacksonville presents a unique physiological challenge. The intense Florida heat and brutal humidity make outdoor exercise virtually impossible for over half the year, naturally inducing seasonal sedentary behavior inside air-conditioned environments.
-                 </p>
-                 <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', color: 'var(--ink-2)', marginBottom: 32, lineHeight: 1.7 }}>
-                    Combine this with the massive geographic sprawl of the largest city by area in the contiguous US—requiring long, high-stress commutes down I-95 or I-10—and traditional diet protocols frequently hit a physiological wall.
-                 </p>
-                 <a href="/blog/ozempic-insulin-resistance" style={{ color: 'var(--brand)', textDecoration: 'none', fontWeight: 600, display: 'inline-flex', alignItems: 'center', gap: 8 }}>
-                    Read our clinical guide to insulin resistance <Icon.Arrow size={16} />
-                 </a>
-              </div>
-              
-              <div className="col-lg-5 offset-lg-1">
-                 <div style={{ 
-                   background: '#fff', 
-                   padding: 'clamp(24px, 4vw, 40px)', 
-                   borderRadius: 24, 
-                   boxShadow: '0 20px 40px rgba(0,0,0,0.04)',
-                   border: '1px solid rgba(0,0,0,0.05)'
-                 }}>
-                    <h3 className="serif" style={{ fontSize: 24, marginBottom: 8, color: 'var(--ink)' }}>Hyper-Local Delivery Areas</h3>
-                    <p style={{ color: 'var(--ink-2)', fontSize: 15, marginBottom: 24 }}>Our 503A pharmacies ship cold-packed medications directly to your home across the area:</p>
-                    
-                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))', gap: 16 }}>
-                       {['San Marco', 'Riverside', 'Ponte Vedra', 'Avondale', 'Jacksonville Beach', 'Mandarin', 'Southside', 'Neptune Beach'].map(region => (
-                         <div key={region} style={{ display: 'flex', alignItems: 'center', gap: 12, background: 'var(--surface-2)', padding: '12px 16px', borderRadius: 12 }}>
-                            <div style={{ width: 8, height: 8, background: '#2ECC71', borderRadius: '50%' }}></div> 
-                            <span style={{ fontWeight: 500, fontSize: 15, color: 'var(--ink)' }}>{region}</span>
-                         </div>
-                       ))}
-                    </div>
-                 </div>
-              </div>
-           </div>
-        </div>
-      </section>
+      <InsuranceBreakdown
+        title="The Florida Blue Paradox"
+        text="Jacksonville is the corporate headquarters of <strong>Florida Blue</strong> (GuideWell), the state's dominant Blue Cross Blue Shield affiliate and the largest health insurer in Florida. The company employs thousands of Duval County residents. And yet Florida Blue's own formulary makes accessing GLP-1 medications for weight management extraordinarily difficult—even for its own employees."
+        employers={[
+          { name: "Florida Blue / GuideWell (HQ'd in Jacksonville)", detail: "Florida Blue's standard commercial plans place GLP-1 weight management medications on restricted specialty tiers requiring prior authorization with documented BMI ≥30 (or ≥27 with comorbidities), proof of failed behavioral interventions, and a prescribing physician willing to navigate a multi-step appeals process. The irony of living in the insurer's headquarters city and facing these barriers is not lost on Duval County residents." },
+          { name: "FIS / Fidelity / Financial Services", detail: "Jacksonville's massive financial technology sector (FIS is headquartered here; Fidelity, Deutsche Bank, and Macquarie all have major campuses) offers employer-sponsored plans that typically exclude weight management pharmaceuticals from their formularies entirely, classifying them as 'lifestyle' medications." },
+          { name: "Naval Station Mayport / NAS Jacksonville (TRICARE)", detail: "Jacksonville's significant military population faces the same TRICARE formulary restrictions documented across all DoD installations: restrictive BMI thresholds, referral chain requirements, and military treatment facility backlogs." }
+        ]}
+      />
 
-      {/* 3. COST ARBITRAGE (GLASSMORPHISM CARDS) */}
-      <section style={{ padding: 'clamp(60px, 8vw, 100px) 0', background: '#0A0F0D', color: '#fff' }}>
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-lg-10 text-center">
-              <h2 className="serif" style={{ fontSize: 'clamp(32px, 5vw, 56px)', marginBottom: 24 }}>The Jacksonville Cost Arbitrage</h2>
-              <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', opacity: 0.8, marginBottom: 'clamp(40px, 6vw, 60px)', maxWidth: 800, marginInline: 'auto', lineHeight: 1.7 }}>
-                Premium commercial real estate costs in high-income zip codes are passed directly to you via massive medication markups. By utilizing decentralized telehealth, you pay strictly for the clinical care and the medication.
-              </p>
+      <PatientArchetype
+        archetype="The Florida Blue Claims Processor"
+        quote="I process GLP-1 prior authorization denials for a living. Eight hours a day, I click 'deny' on Wegovy requests because they don't meet the formulary criteria my employer wrote. Then I go home and can't get the same medication approved for myself through my own company's plan. You can't make this up."
+        details="<strong>Patient Profile:</strong> Tamika, 42, Senior Claims Analyst at Florida Blue, downtown Jacksonville.<br/><br/><strong>The Challenge:</strong> Tamika's job involves reviewing and adjudicating prior authorization requests for GLP-1 medications—requests she denies daily based on formulary criteria established by her own employer. She has intimate knowledge of exactly why these denials occur (insufficient documentation of failed behavioral therapy, BMI 0.5 points below threshold, missing comorbidity codes). When she submitted her own prior authorization through her employee Florida Blue plan, she received the same form denial she issues to thousands of Floridians every month. She knows the appeal process intimately—and she knows it would take 4 to 6 months.<br/><br/><strong>The Intervention:</strong> Tamika completed the Telehealth FX intake during her lunch break at the Florida Blue campus. A Florida-licensed physician reviewed her profile asynchronously and prescribed compounded Tirzepatide. Cold-packed medication arrived at her Mandarin home two days later. She bypassed the very system she administers—not through a loophole, but through an entirely separate clinical pathway that operates outside the insurance framework altogether."
+      />
 
-              <div className="row g-4 text-start">
-                <div className="col-md-6">
-                  <div style={{ 
-                    padding: 'clamp(32px, 4vw, 48px)', 
-                    height: '100%', 
-                    background: 'rgba(255,255,255,0.03)', 
-                    border: '1px solid rgba(255,255,255,0.1)',
-                    borderRadius: 32,
-                    backdropFilter: 'blur(20px)'
-                  }}>
-                    <div style={{ color: '#e74c3c', fontWeight: 600, letterSpacing: 1, fontSize: 13, textTransform: 'uppercase', marginBottom: 16 }}>The Traditional Route</div>
-                    <h3 className="serif" style={{ fontSize: 32, marginBottom: 16 }}>Ponte Vedra and San Marco MedSpas</h3>
-                    <p style={{ opacity: 0.7, marginBottom: 32, lineHeight: 1.6 }}>
-                      Visiting a boutique anti-aging clinic in Ponte Vedra and San Marco requires paying a massive premium for the zip code.
-                    </p>
-                    <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: 16 }}>
-                      <li style={{ display: 'flex', gap: 16 }}>
-                        <div style={{ color: '#e74c3c', marginTop: 2 }}><Icon.Minus size={20} /></div>
-                        <span style={{ opacity: 0.9 }}>Average Cost: <strong style={{ color: '#fff' }}>$600 - $900 / month</strong></span>
-                      </li>
-                      <li style={{ display: 'flex', gap: 16 }}>
-                        <div style={{ color: '#e74c3c', marginTop: 2 }}><Icon.Minus size={20} /></div>
-                        <span style={{ opacity: 0.9 }}>Mandatory in-person consultations</span>
-                      </li>
-                      <li style={{ display: 'flex', gap: 16 }}>
-                        <div style={{ color: '#e74c3c', marginTop: 2 }}><Icon.Minus size={20} /></div>
-                        <span style={{ opacity: 0.9 }}>Hidden "membership" or bloodwork fees</span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
+      <LocalTransitPain
+        title="Bypass the JTB Crawl & Mayo Clinic Florida Waitlists"
+        transitText="Getting across Jacksonville is a logistical project unto itself. Whether you're stuck on the J. Turner Butler Boulevard (JTB) commuting from the Beaches to the Southside, grinding through the I-95/I-10 interchange downtown, navigating the 295 beltway around the Westside, or driving 30 minutes south on I-95 to reach a specialist in St. Johns County—a medical appointment in this city requires planning your entire day around the drive."
+        hospitalText="Jacksonville punches well above its weight in healthcare quality. <strong>Mayo Clinic's Florida campus</strong> is located right here on San Pablo Road—one of the most prestigious medical institutions on the planet. <strong>Baptist Health</strong> and <strong>UF Health Jacksonville</strong> are also excellent systems. But prestige doesn't equal access: new-patient metabolic appointments at Mayo Clinic Florida routinely exceed 12 weeks. Baptist and UF Health face 6-10 week backlogs. And your local <strong>Publix</strong>, <strong>CVS</strong>, or <strong>Walgreens</strong> pharmacy has had branded Wegovy on indefinite backorder since the national shortage began."
+      />
 
-                <div className="col-md-6">
-                  <div style={{ 
-                    padding: 'clamp(32px, 4vw, 48px)', 
-                    height: '100%', 
-                    background: 'linear-gradient(135deg, rgba(46, 204, 113, 0.1) 0%, rgba(46, 74, 59, 0.05) 100%)', 
-                    border: '1px solid rgba(46, 204, 113, 0.2)',
-                    borderRadius: 32,
-                    boxShadow: '0 20px 40px rgba(0,0,0,0.2)'
-                  }}>
-                    <div style={{ color: '#2ECC71', fontWeight: 600, letterSpacing: 1, fontSize: 13, textTransform: 'uppercase', marginBottom: 16 }}>The TelehealthFX Route</div>
-                    <h3 className="serif" style={{ fontSize: 32, marginBottom: 16 }}>Direct-to-Patient Care</h3>
-                    <p style={{ opacity: 0.7, marginBottom: 32, lineHeight: 1.6 }}>
-                      Access the exact same active pharmaceutical ingredients prescribed by licensed clinicians, with zero real estate markups.
-                    </p>
-                    <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: 16 }}>
-                      <li style={{ display: 'flex', gap: 16 }}>
-                        <div style={{ color: '#2ECC71', marginTop: 2 }}><Icon.Check size={20} /></div>
-                        <span style={{ opacity: 0.9 }}>Cost: <strong style={{ color: '#fff' }}>From $146 / month</strong></span>
-                      </li>
-                      <li style={{ display: 'flex', gap: 16 }}>
-                        <div style={{ color: '#2ECC71', marginTop: 2 }}><Icon.Check size={20} /></div>
-                        <span style={{ opacity: 0.9 }}>100% online asynchronous intake</span>
-                      </li>
-                      <li style={{ display: 'flex', gap: 16 }}>
-                        <div style={{ color: '#2ECC71', marginTop: 2 }}><Icon.Check size={20} /></div>
-                        <span style={{ opacity: 0.9 }}>Shipped overnight in cold-packs</span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <StateLegalFramework
+        stateName="Florida"
+        boardName="Florida Board of Medicine"
+        text="Telehealth FX operates in strict compliance with the <strong>Florida Board of Medicine</strong> and Florida Statute 456.47 (the Florida Telehealth Act). Under current Florida law, a physician-patient relationship may be established through telehealth, including asynchronous store-and-forward technology, without requiring an initial in-person examination. Florida has been a national leader in telehealth adoption, and the regulatory framework explicitly permits licensed physicians to evaluate patients and prescribe non-controlled medications via asynchronous platforms. All Telehealth FX prescribers treating Florida patients hold active, unrestricted Florida medical licenses verified through the Florida Department of Health license verification portal."
+      />
 
-      {/* 4. REAL-TIME SUPPLY CHAIN & HOSPITAL WAITLISTS */}
-      <section style={{ padding: 'clamp(60px, 8vw, 100px) 0' }}>
-        <div className="container">
-           <div className="row g-5">
-              <div className="col-lg-6">
-                 <div style={{ display: 'inline-block', background: 'var(--surface-2)', padding: '6px 16px', borderRadius: 100, fontSize: 13, fontWeight: 600, color: 'var(--brand)', textTransform: 'uppercase', letterSpacing: 1, marginBottom: 24 }}>
-                    Local Supply Chain Reality
-                 </div>
-                 <h2 className="serif" style={{ fontSize: 'clamp(32px, 4vw, 40px)', marginBottom: 24, lineHeight: 1.2 }}>Bypass I-95 and I-10 & Waitlists</h2>
-                 <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', color: 'var(--ink-2)', marginBottom: 24, lineHeight: 1.7 }}>
-                    Whether you're enduring dead-stop traffic on I-95 and I-10, spending an hour in your car just to sit in a doctor's waiting room for a 5-minute prescription refill is an outdated model.
-                 </p>
-                 <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', color: 'var(--ink-2)', marginBottom: 32, lineHeight: 1.7 }}>
-                    Even worse, if you try to fill a prescription for branded Wegovy at Publix Pharmacy, you know the reality: <strong>the medications are on indefinite national backorder.</strong> Furthermore, securing an appointment at metabolic centers like <strong>Baptist Health and Mayo Clinic</strong> takes 4-6 months, and local insurance plans frequently deny prior authorizations.
-                 </p>
-                 
-                 <div style={{ display: 'flex', alignItems: 'center', gap: 16, background: '#fff', padding: 20, borderRadius: 16, border: '1px solid var(--line-soft)', boxShadow: '0 4px 12px rgba(0,0,0,0.02)' }}>
-                    <div style={{ width: 48, height: 48, background: 'rgba(46, 204, 113, 0.1)', borderRadius: 12, display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#2ECC71' }}>
-                       <Icon.Shield size={24} />
-                    </div>
-                    <div>
-                       <strong style={{ display: 'block', fontSize: 16, color: 'var(--ink)' }}>HSA / FSA Accepted</strong>
-                       <span style={{ fontSize: 14, color: 'var(--ink-2)' }}>Bypass insurance denials entirely. Use pre-tax dollars for your compounding protocol.</span>
-                    </div>
-                 </div>
-              </div>
-              
-              <div className="col-lg-6">
-                 <div style={{ background: '#fff', padding: 'clamp(24px, 4vw, 40px)', borderRadius: 32, boxShadow: '0 20px 60px rgba(0,0,0,0.05)', border: '1px solid rgba(0,0,0,0.03)' }}>
-                    <h3 className="serif" style={{ fontSize: 24, marginBottom: 32 }}>The 503A Patient Journey</h3>
-                    <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: 32 }}>
-                       <li style={{ display: 'flex', gap: 20 }}>
-                          <div style={{ width: 40, height: 40, background: '#2ECC71', color: '#000', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold', fontSize: 18, flexShrink: 0, boxShadow: '0 4px 12px rgba(46, 204, 113, 0.3)' }}>1</div>
-                          <div>
-                             <strong style={{ display: 'block', fontSize: 18, marginBottom: 8, color: 'var(--ink)' }}>Complete FL Intake</strong>
-                             <span style={{ color: 'var(--ink-2)', fontSize: 15, lineHeight: 1.6 }}>Fill out your health profile online from your home. No freeway commutes or waiting rooms required.</span>
-                          </div>
-                       </li>
-                       <li style={{ display: 'flex', gap: 20 }}>
-                          <div style={{ width: 40, height: 40, background: '#2ECC71', color: '#000', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold', fontSize: 18, flexShrink: 0, boxShadow: '0 4px 12px rgba(46, 204, 113, 0.3)' }}>2</div>
-                          <div>
-                             <strong style={{ display: 'block', fontSize: 18, marginBottom: 8, color: 'var(--ink)' }}>Physician Review</strong>
-                             <span style={{ color: 'var(--ink-2)', fontSize: 15, lineHeight: 1.6 }}>A licensed Florida physician reviews your chart and approves your script within 24 hours.</span>
-                          </div>
-                       </li>
-                       <li style={{ display: 'flex', gap: 20 }}>
-                          <div style={{ width: 40, height: 40, background: '#2ECC71', color: '#000', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold', fontSize: 18, flexShrink: 0, boxShadow: '0 4px 12px rgba(46, 204, 113, 0.3)' }}>3</div>
-                          <div>
-                             <strong style={{ display: 'block', fontSize: 18, marginBottom: 8, color: 'var(--ink)' }}>Overnight Delivery</strong>
-                             <span style={{ color: 'var(--ink-2)', fontSize: 15, lineHeight: 1.6 }}>Medication is compounded and shipped cold-packed straight to your door in Jacksonville.</span>
-                          </div>
-                       </li>
-                    </ul>
-                 </div>
-              </div>
-           </div>
-        </div>
-      </section>
+      <CostComparisonTable
+        title="What Weight Loss Actually Costs in Jacksonville"
+        localCompetitors={[
+          { name: "Ponte Vedra Beach Concierge Medicine", cost: "$800 - $1,200 / mo", consult: "Mandatory In-Person + Full Labs", access: "Branded Only / 4-6 Week Wait" },
+          { name: "San Marco / Riverside Aesthetic Clinics", cost: "$500 - $850 / mo", consult: "Monthly Membership + Consult", access: "Mixed Compounding Quality" },
+          { name: "Mayo Clinic Florida (Endocrinology)", cost: "$225 Copay + Rx", consult: "12+ Week New Patient Wait", access: "Formulary Restrictions / Prior Auth" },
+          { name: "Baptist Health Primary Care", cost: "$60 Copay", consult: "4-8 Week Wait", access: "Step Therapy / Pharmacy Backorder" }
+        ]}
+        telehealthPrice="From $146 / mo"
+      />
 
-      {/* 5. LOCAL SEO & SERVICE AREA MAP */}
-      <section style={{ padding: 'clamp(60px, 8vw, 100px) 0', background: '#fff', borderTop: '1px solid var(--line-soft)' }}>
-        <div className="container">
-          <div className="row g-5 align-items-center">
-            <div className="col-lg-5 text-center text-lg-start">
-              <h2 className="serif" style={{ fontSize: 'clamp(32px, 4vw, 40px)', marginBottom: 24 }}>Jacksonville Service Area</h2>
-              <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', color: 'var(--ink-2)', marginBottom: 32, lineHeight: 1.7 }}>
-                Telehealth FX provides asynchronous medical weight loss and GLP-1 prescribing services to all permanent residents and professionals operating within Jacksonville and surrounding counties.
-              </p>
-              <div style={{ background: '#FBF8F3', padding: 32, borderRadius: 24, textAlign: 'left' }}>
-                 <h4 style={{ fontSize: 18, marginBottom: 16, fontWeight: 600, color: 'var(--ink)' }}>Coverage Coordinates</h4>
-                 <ul style={{ listStyle: 'none', padding: 0, margin: 0, color: 'var(--ink-2)', fontSize: 15, display: 'flex', flexDirection: 'column', gap: 12 }}>
-                    <li style={{ display: 'flex', justifyContent: 'space-between', borderBottom: '1px solid rgba(0,0,0,0.05)', paddingBottom: 8 }}>
-                       <span>Primary Locality</span> <strong>Jacksonville, FL</strong>
-                    </li>
-                    <li style={{ display: 'flex', justifyContent: 'space-between', borderBottom: '1px solid rgba(0,0,0,0.05)', paddingBottom: 8 }}>
-                       <span>Coordinates</span> <strong>30.3322° N, 81.6557° W</strong>
-                    </li>
-                    <li style={{ display: 'flex', flexDirection: 'column', gap: 4 }}>
-                       <span>Counties Served:</span>
-                       <strong style={{ lineHeight: 1.4 }}>Duval County, St. Johns County, Clay County</strong>
-                    </li>
-                 </ul>
-              </div>
-            </div>
-            <div className="col-lg-7">
-               <div style={{ width: '100%', height: '100%', minHeight: 450, borderRadius: 32, overflow: 'hidden', boxShadow: '0 24px 48px rgba(0,0,0,0.08)' }}>
-                  <iframe 
-                    width="100%" 
-                    height="100%" 
-                    style={{ minHeight: 450, filter: 'grayscale(0.2) contrast(1.1)' }}
-                    src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Jacksonville,%20FL+(Telehealth%20FX%20Jacksonville)&amp;t=&amp;z=10&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" 
-                    frameBorder="0"
-                    allowFullScreen>
-                  </iframe>
-               </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <InteractiveFAQ
+        faqs={[
+          { q: "I have Florida Blue insurance. Why can't I just use my plan?", a: "You can try. Florida Blue's standard commercial formulary requires prior authorization for GLP-1 weight management medications, including documented proof of failed behavioral interventions and specific BMI thresholds. The process typically takes 2-4 weeks for initial review, with an additional 4-6 weeks if an appeal is necessary. Telehealth FX operates entirely outside the insurance framework, eliminating this timeline entirely." },
+          { q: "I live in St. Johns County / Nocatee. Do you deliver there?", a: "Absolutely. We deliver to all residential addresses in Duval County, St. Johns County, Clay County, Nassau County, and Baker County. Whether you're in Nocatee, Ponte Vedra, Fleming Island, Orange Park, or Fernandina Beach—overnight cold-pack delivery reaches your door." },
+          { q: "How does the heat affect medication shipping in summer?", a: "Our 503A pharmacy partners use medical-grade insulated packaging with gel ice packs rated to maintain proper temperature for up to 72 hours, even during Jacksonville's summer heat. We recommend selecting delivery to a location where the package won't sit in direct sunlight—a covered porch, garage, or staffed mailroom." },
+          { q: "Is there a Mayo Clinic connection or affiliation?", a: "No. Telehealth FX is an independent telehealth platform with no affiliation to Mayo Clinic or any hospital system. We provide a separate, complementary clinical pathway for patients who cannot access or afford the specialist appointment process at traditional medical institutions." },
+          { q: "Can I use my HSA or FSA to pay?", a: "Yes. Both the physician consultation and the compounded medication are eligible for payment with pre-tax HSA and FSA funds. For Jacksonville-area professionals on high-deductible plans—which are common across the financial services and insurance sectors—this provides a meaningful tax advantage." }
+        ]}
+      />
 
-      {/* FINAL CTA */}
-      <section style={{ padding: 'clamp(80px, 10vw, 120px) 0', background: 'var(--brand)', color: '#fff', textAlign: 'center' }}>
-         <div className="container" style={{ maxWidth: 800 }}>
-            <h2 className="serif" style={{ fontSize: 'clamp(40px, 5vw, 56px)', marginBottom: 24, color: '#fff' }}>Ready to optimize your metabolic health?</h2>
-            <p style={{ fontSize: 'clamp(18px, 2.5vw, 22px)', opacity: 0.9, marginBottom: 40, lineHeight: 1.6 }}>Join thousands of patients who have transitioned to clinical GLP-1 telehealth.</p>
-            <a href={SEMAGLUTIDE_URL} style={{ 
-               display: 'inline-block',
-               background: '#fff', 
-               color: 'var(--brand)', 
-               fontSize: 20, 
-               padding: '20px 48px', 
-               fontWeight: 600,
-               borderRadius: 100,
-               textDecoration: 'none',
-               boxShadow: '0 10px 30px rgba(0,0,0,0.1)'
-            }}>Check Your FL Eligibility Today</a>
-         </div>
-      </section>
+      <DeliveryGridMap
+        cityName="Jacksonville"
+        mapQuery="Jacksonville, FL"
+        coordinates="30.3322° N, 81.6557° W"
+        counties="Duval County, St. Johns County, Clay County, Nassau County"
+        neighborhoods={['San Marco', 'Riverside', 'Avondale', 'Jacksonville Beach', 'Ponte Vedra', 'Mandarin', 'Nocatee', 'Fleming Island', 'Southside', 'Town Center']}
+      />
+
+      <FinalCTA stateName="Florida" />
+
     </div>
   );
 }
