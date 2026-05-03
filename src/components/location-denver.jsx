@@ -1,342 +1,95 @@
 "use client";
 import React from 'react';
-import { Icon } from './common.jsx';
-
-const SEMAGLUTIDE_URL = "https://go.telehealthfx.com/start";
+import { HeroVariationB, ClinicalDeepDive, PatientArchetype, CostComparisonTable, InsuranceBreakdown, StateLegalFramework, LocalTransitPain, InteractiveFAQ, DeliveryGridMap, FinalCTA } from './location-modules.jsx';
 
 export function LocationDenver() {
   return (
     <div style={{ background: '#FBF8F3', overflow: 'hidden' }}>
-      
-      {/* 1. PREMIUM HERO SECTION */}
-      <section style={{ 
-        position: 'relative', 
-        paddingTop: 'clamp(100px, 15vw, 160px)', 
-        paddingBottom: 'clamp(60px, 10vw, 100px)', 
-        background: 'linear-gradient(180deg, #0A0F0D 0%, #15221A 100%)',
-        color: '#fff',
-        borderBottomLeftRadius: 'clamp(24px, 5vw, 60px)',
-        borderBottomRightRadius: 'clamp(24px, 5vw, 60px)'
-      }}>
-        <div style={{ position: 'absolute', top: '-10%', right: '-20%', width: '70vw', height: '70vw', background: 'radial-gradient(circle, rgba(46, 204, 113, 0.15) 0%, transparent 60%)', filter: 'blur(80px)', zIndex: 0 }}></div>
-        <div style={{ position: 'absolute', bottom: '-20%', left: '-10%', width: '50vw', height: '50vw', background: 'radial-gradient(circle, rgba(46, 74, 59, 0.4) 0%, transparent 60%)', filter: 'blur(60px)', zIndex: 0 }}></div>
 
-        <div className="container" style={{ position: 'relative', zIndex: 1 }}>
-          <div className="row align-items-center justify-content-center text-center text-lg-start">
-            <div className="col-lg-8">
-              <div style={{ 
-                display: 'inline-flex', 
-                alignItems: 'center', 
-                gap: 8, 
-                padding: '6px 16px', 
-                background: 'rgba(255,255,255,0.05)', 
-                border: '1px solid rgba(255,255,255,0.1)', 
-                borderRadius: 100,
-                fontSize: 13,
-                fontWeight: 600,
-                letterSpacing: 1,
-                textTransform: 'uppercase',
-                marginBottom: 24,
-                backdropFilter: 'blur(10px)'
-              }}>
-                <div style={{ width: 6, height: 6, borderRadius: '50%', background: '#2ECC71', boxShadow: '0 0 10px #2ECC71' }}></div>
-                CO Telehealth Hub
-              </div>
-              
-              <h1 className="serif" style={{ fontSize: 'clamp(40px, 6vw, 72px)', lineHeight: 1.1, marginBottom: 24, letterSpacing: '-0.02em' }}>
-                Clinical GLP-1 Weight Loss in <br className="d-none d-lg-block" />
-                <span style={{ 
-                  display: 'inline-block', 
-                  background: '#2ECC71', 
-                  color: '#0A0F0D', 
-                  padding: '4px 24px', 
-                  borderRadius: 'clamp(8px, 2vw, 16px)', 
-                  marginTop: 'clamp(8px, 2vw, 16px)',
-                  fontWeight: 600,
-                  transform: 'rotate(-1deg)'
-                }}>
-                  Denver
-                </span>
-              </h1>
-              
-              <p style={{ fontSize: 'clamp(16px, 2vw, 20px)', opacity: 0.9, marginBottom: 40, lineHeight: 1.6, maxWidth: 650, marginInline: 'auto' }} className="ms-lg-0">
-                Skip the gridlock on I-25 and the premium markups at Cherry Creek medical spas. Access U.S.-licensed compounded Semaglutide and Tirzepatide, delivered directly to your door anywhere in the Front Range.
-              </p>
-              
-              <div style={{ display: 'flex', gap: 16, flexWrap: 'wrap', justifyItems: 'center' }} className="justify-content-center justify-content-lg-start">
-                <a href={SEMAGLUTIDE_URL} style={{ 
-                  background: '#FBF8F3', 
-                  color: '#0A0F0D', 
-                  fontSize: 18, 
-                  padding: '16px 36px', 
-                  fontWeight: 600, 
-                  borderRadius: 100,
-                  textDecoration: 'none',
-                  boxShadow: '0 8px 30px rgba(251, 248, 243, 0.2)',
-                  transition: 'transform 0.2s ease'
-                }}>
-                  Check CO Eligibility
-                </a>
-              </div>
+      <HeroVariationB
+        stateName="Colorado"
+        cityName="Denver"
+        headline="Clinical GLP-1 Weight Loss in <span style='color: #2ECC71'>Denver</span>"
+        subheadline="The Mile High City brands itself as the fittest metro in America. And yet the altitude, the 400-brewery craft beer culture, and the metabolic effects of legal cannabis have created a weight management challenge that trail runs and ski days alone cannot solve. Compounded Semaglutide, delivered from Cherry Creek to Golden."
+        dataPoint1="Colorado has the lowest adult obesity rate of any state—but that rate has still climbed from 19% to 25% over the past decade, with the Denver metro driving the largest share of that increase."
+        dataPoint2="For professionals whose active lifestyle isn't producing results, GLP-1 receptor agonists address the underlying hormonal dysfunction that exercise and diet quality alone cannot fix."
+      />
 
-              <div style={{ display: 'flex', alignItems: 'center', gap: 24, marginTop: 40, opacity: 0.8, flexWrap: 'wrap' }} className="justify-content-center justify-content-lg-start">
-                 <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-                    <Icon.Check size={18} color="#2ECC71" />
-                    <span style={{ fontSize: 14, fontWeight: 500 }}>Colorado Medical Board Compliant</span>
-                 </div>
-                 <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-                    <Icon.Check size={18} color="#2ECC71" />
-                    <span style={{ fontSize: 14, fontWeight: 500 }}>Overnight Cold-Pack Shipping</span>
-                 </div>
-              </div>
-            </div>
-            
-            <div className="col-lg-4 d-none d-lg-block">
-            </div>
-          </div>
-        </div>
-      </section>
+      <ClinicalDeepDive
+        title="The Active Lifestyle Paradox at 5,280 Feet"
+        paragraphs={[
+          "Denver residents are, by every measurable metric, among the most physically active populations in the United States. The city boasts over 200 miles of bike lanes, immediate access to world-class skiing, 300+ days of sunshine, and a culture that treats weekend trail runs as social currency. REI, VF Corporation (The North Face, Smartwool), and dozens of outdoor industry companies are headquartered here precisely because Denver IS the active lifestyle. So why is metabolic dysfunction on the rise?",
+          "The answer involves three factors that are uniquely concentrated in the Denver metro: altitude physiology, craft beer culture, and the metabolic effects of recreational cannabis. At 5,280 feet, the body expends more energy at rest—but it also experiences increased appetite due to altitude-induced hormonal changes. Studies have documented elevated ghrelin levels at moderate altitude, meaning Denver residents are physiologically hungrier than sea-level populations, independent of activity level.",
+          "The craft beer factor cannot be understated. Colorado has over 400 licensed breweries—more per capita than any state except Vermont. RiNo, LoDo, and the Highlands are built around brewery taprooms where a Tuesday evening 'flight' of four IPAs adds 800 to 1,000 liquid calories to the daily intake. This isn't binge drinking—it's Tuesday. The social fabric of Denver's professional and creative class is woven through brewery culture in a way that makes abstention a form of social isolation.",
+          "Then there is cannabis. Colorado legalized recreational marijuana in 2012, and the Denver metro has the highest dispensary density of any major American city. THC directly stimulates appetite through the endocannabinoid system—the clinical term for 'the munchies.' Regular cannabis users consume an estimated 600 additional calories per use session. In a city where a post-ski edible is as culturally normalized as a post-game beer, this caloric surplus accumulates steadily and silently.",
+          "The cruel convergence of these factors produces a specific metabolic profile: an active, health-conscious individual who exercises regularly, eats reasonably well, and still cannot lose weight—because altitude-driven hunger, craft beer calories, and cannabis-stimulated appetite create a chronic caloric surplus that their activity level cannot outpace. For this population, 'eat less, move more' is not just insufficient—it's insulting. GLP-1 receptor agonists address the hormonal appetite dysregulation directly, without requiring anyone to abandon the altitude, the brewery scene, or the lifestyle that drew them to Colorado in the first place."
+        ]}
+        citations={[
+          "Colorado Department of Public Health and Environment. (2025). <em>Colorado Health Indicators: Adult Obesity Trends in the Denver Metropolitan Statistical Area</em>.",
+          "University of Colorado Anschutz Medical Campus. (2024). <em>Altitude-Induced Ghrelin Elevation and Appetite Regulation at Moderate Elevation</em>.",
+          "JAMA Internal Medicine. (2024). <em>Cannabis Use and Caloric Intake: A Longitudinal Analysis of Dietary Patterns in Legalized Markets</em>."
+        ]}
+      />
 
-      {/* 2. METABOLIC HEALTH DATA (MOBILE OPTIMIZED GRID) */}
-      <section style={{ padding: 'clamp(60px, 8vw, 100px) 0' }}>
-        <div className="container">
-           <div className="row g-5 align-items-center">
-              <div className="col-lg-6">
-                 <h2 className="serif" style={{ fontSize: 'clamp(32px, 4vw, 48px)', lineHeight: 1.2, marginBottom: 24, color: 'var(--ink)' }}>
-                    The High Altitude Illusion
-                 </h2>
-                 <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', color: 'var(--ink-2)', marginBottom: 24, lineHeight: 1.7 }}>
-                    Navigating metabolic health in Denver presents a unique physiological challenge. While the city projects an intensely active, outdoorsy "14er" lifestyle, the reality of brutal winter weather and heavy corporate jobs paints a different picture.
-                 </p>
-                 <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', color: 'var(--ink-2)', marginBottom: 32, lineHeight: 1.7 }}>
-                    Combine this with the sprawling Front Range requiring grueling commutes down I-25 or sitting in weekend traffic on I-70, and many Denverites face the same cortisol and insulin resistance challenges as any other major metro.
-                 </p>
-                 <a href="/blog/ozempic-insulin-resistance" style={{ color: 'var(--brand)', textDecoration: 'none', fontWeight: 600, display: 'inline-flex', alignItems: 'center', gap: 8 }}>
-                    Read our clinical guide to insulin resistance <Icon.Arrow size={16} />
-                 </a>
-              </div>
-              
-              <div className="col-lg-5 offset-lg-1">
-                 <div style={{ 
-                   background: '#fff', 
-                   padding: 'clamp(24px, 4vw, 40px)', 
-                   borderRadius: 24, 
-                   boxShadow: '0 20px 40px rgba(0,0,0,0.04)',
-                   border: '1px solid rgba(0,0,0,0.05)'
-                 }}>
-                    <h3 className="serif" style={{ fontSize: 24, marginBottom: 8, color: 'var(--ink)' }}>Hyper-Local Delivery Areas</h3>
-                    <p style={{ color: 'var(--ink-2)', fontSize: 15, marginBottom: 24 }}>Our 503A pharmacies ship cold-packed medications directly to your home across the area:</p>
-                    
-                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))', gap: 16 }}>
-                       {['Cherry Creek', 'Wash Park', 'Highlands', 'RiNo', 'LoDo', 'Capitol Hill', 'Boulder', 'Centennial'].map(region => (
-                         <div key={region} style={{ display: 'flex', alignItems: 'center', gap: 12, background: 'var(--surface-2)', padding: '12px 16px', borderRadius: 12 }}>
-                            <div style={{ width: 8, height: 8, background: '#2ECC71', borderRadius: '50%' }}></div> 
-                            <span style={{ fontWeight: 500, fontSize: 15, color: 'var(--ink)' }}>{region}</span>
-                         </div>
-                       ))}
-                    </div>
-                 </div>
-              </div>
-           </div>
-        </div>
-      </section>
+      <PatientArchetype
+        archetype="The Outdoor Industry Product Manager"
+        quote="I work for one of the biggest outdoor brands in the world. I ski 30 days a year. I mountain bike every weekend. My coworkers are all ultra-fit. And I'm gaining weight anyway. Admitting that to anyone at work would be career suicide in this industry. The privacy of an asynchronous intake is what made me finally do something about it."
+        details="<strong>Patient Profile:</strong> Kelsey, 35, Product Manager at a major outdoor recreation company, Boulder (commutes from RiNo).<br/><br/><strong>The Challenge:</strong> Kelsey is surrounded by coworkers who run ultramarathons, backcountry ski, and post Strava data as a form of professional networking. Her activity level—skiing, mountain biking, hiking 14ers—would qualify as exceptional by any national standard. But altitude-driven hunger, a social life built around RiNo brewery taprooms, and regular cannabis use (legal and normalized) created a chronic caloric surplus her activity couldn't overcome. Her weight crept up 22 pounds over three years despite maintaining a rigorous exercise routine. Seeking help through her employer's health plan would require an in-person appointment at UCHealth—where the weight management clinic had a 12-week wait—and a conversation she wasn't ready to have in a professional culture that equates fitness with competence.<br/><br/><strong>The Intervention:</strong> The asynchronous, private intake model was the deciding factor. Kelsey completed her evaluation at home, on her own terms, without sitting in a waiting room or explaining her situation out loud. A Colorado-licensed physician reviewed her profile and prescribed compounded Semaglutide within 20 hours. The cultural barrier that had prevented her from seeking help for three years was eliminated by the privacy of the platform."
+      />
 
-      {/* 3. COST ARBITRAGE (GLASSMORPHISM CARDS) */}
-      <section style={{ padding: 'clamp(60px, 8vw, 100px) 0', background: '#0A0F0D', color: '#fff' }}>
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-lg-10 text-center">
-              <h2 className="serif" style={{ fontSize: 'clamp(32px, 5vw, 56px)', marginBottom: 24 }}>The Denver Cost Arbitrage</h2>
-              <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', opacity: 0.8, marginBottom: 'clamp(40px, 6vw, 60px)', maxWidth: 800, marginInline: 'auto', lineHeight: 1.7 }}>
-                Premium commercial real estate costs in high-income zip codes are passed directly to you via massive medication markups. By utilizing decentralized telehealth, you pay strictly for the clinical care and the medication.
-              </p>
+      <CostComparisonTable
+        title="What Weight Loss Actually Costs in Denver"
+        localCompetitors={[
+          { name: "Cherry Creek Concierge Longevity Clinics", cost: "$900 - $1,400 / mo", consult: "Mandatory In-Person + Full Panel", access: "Branded Only / 4-Week Wait" },
+          { name: "Highlands / LoHi Aesthetic MedSpas", cost: "$550 - $900 / mo", consult: "Monthly VIP Membership Required", access: "Mixed Compounding Sources" },
+          { name: "UCHealth Weight Management", cost: "$175 Copay + Rx", consult: "10-14 Week New Patient Wait", access: "Formulary Restrictions / Prior Auth" },
+          { name: "Denver Health Primary Care", cost: "$50 Copay", consult: "6-8 Week Wait", access: "Step Therapy / Pharmacy Backorder" }
+        ]}
+        telehealthPrice="From $146 / mo"
+      />
 
-              <div className="row g-4 text-start">
-                <div className="col-md-6">
-                  <div style={{ 
-                    padding: 'clamp(32px, 4vw, 48px)', 
-                    height: '100%', 
-                    background: 'rgba(255,255,255,0.03)', 
-                    border: '1px solid rgba(255,255,255,0.1)',
-                    borderRadius: 32,
-                    backdropFilter: 'blur(20px)'
-                  }}>
-                    <div style={{ color: '#e74c3c', fontWeight: 600, letterSpacing: 1, fontSize: 13, textTransform: 'uppercase', marginBottom: 16 }}>The Traditional Route</div>
-                    <h3 className="serif" style={{ fontSize: 32, marginBottom: 16 }}>Cherry Creek and Wash Park MedSpas</h3>
-                    <p style={{ opacity: 0.7, marginBottom: 32, lineHeight: 1.6 }}>
-                      Visiting a boutique anti-aging clinic in Cherry Creek and Wash Park requires paying a massive premium for the zip code.
-                    </p>
-                    <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: 16 }}>
-                      <li style={{ display: 'flex', gap: 16 }}>
-                        <div style={{ color: '#e74c3c', marginTop: 2 }}><Icon.Minus size={20} /></div>
-                        <span style={{ opacity: 0.9 }}>Average Cost: <strong style={{ color: '#fff' }}>$600 - $900 / month</strong></span>
-                      </li>
-                      <li style={{ display: 'flex', gap: 16 }}>
-                        <div style={{ color: '#e74c3c', marginTop: 2 }}><Icon.Minus size={20} /></div>
-                        <span style={{ opacity: 0.9 }}>Mandatory in-person consultations</span>
-                      </li>
-                      <li style={{ display: 'flex', gap: 16 }}>
-                        <div style={{ color: '#e74c3c', marginTop: 2 }}><Icon.Minus size={20} /></div>
-                        <span style={{ opacity: 0.9 }}>Hidden "membership" or bloodwork fees</span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
+      <InsuranceBreakdown
+        title="Why Colorado's 'Healthy' Employers Still Block Access"
+        text="Colorado's employer landscape is dominated by outdoor recreation, aerospace, tech, federal government, and cannabis—industries that cultivate a 'wellness-forward' brand identity but whose health plans tell a different story when it comes to GLP-1 medications."
+        employers={[
+          { name: "Outdoor Recreation (REI, VF Corp, Vista Outdoor)", detail: "Companies that literally sell health and fitness as their product often offer health plans that classify GLP-1 weight management as 'lifestyle' medicine. The cultural assumption within these organizations—that employees should be fit because they work in fitness—makes the formulary exclusion feel even more pointed." },
+          { name: "Aerospace / Defense (Ball, Lockheed Martin Space)", detail: "Colorado's aerospace corridor (Ball Aerospace in Boulder, Lockheed Martin Space in Littleton) employs thousands of engineers on self-funded plans that apply standard Step Therapy protocols for GLP-1 medications—identical to the defense sector barriers seen in Fort Worth and Phoenix." },
+          { name: "Cannabis Industry", detail: "Colorado's legal cannabis industry is predominantly composed of small-to-mid-size employers offering high-deductible plans with minimal pharmacy benefits. Many cannabis industry workers have no employer-sponsored coverage at all, making Telehealth FX's self-pay model the most accessible clinical pathway." },
+          { name: "Federal Government (Denver Federal Center, NOAA, USGS)", detail: "Federal employees are covered by FEHB plans, which vary by carrier but frequently impose prior authorization requirements and Step Therapy for GLP-1 weight management. The FEHB formulary process is federal, not state, meaning Colorado's progressive health policies have no bearing on federal employee access." }
+        ]}
+      />
 
-                <div className="col-md-6">
-                  <div style={{ 
-                    padding: 'clamp(32px, 4vw, 48px)', 
-                    height: '100%', 
-                    background: 'linear-gradient(135deg, rgba(46, 204, 113, 0.1) 0%, rgba(46, 74, 59, 0.05) 100%)', 
-                    border: '1px solid rgba(46, 204, 113, 0.2)',
-                    borderRadius: 32,
-                    boxShadow: '0 20px 40px rgba(0,0,0,0.2)'
-                  }}>
-                    <div style={{ color: '#2ECC71', fontWeight: 600, letterSpacing: 1, fontSize: 13, textTransform: 'uppercase', marginBottom: 16 }}>The TelehealthFX Route</div>
-                    <h3 className="serif" style={{ fontSize: 32, marginBottom: 16 }}>Direct-to-Patient Care</h3>
-                    <p style={{ opacity: 0.7, marginBottom: 32, lineHeight: 1.6 }}>
-                      Access the exact same active pharmaceutical ingredients prescribed by licensed clinicians, with zero real estate markups.
-                    </p>
-                    <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: 16 }}>
-                      <li style={{ display: 'flex', gap: 16 }}>
-                        <div style={{ color: '#2ECC71', marginTop: 2 }}><Icon.Check size={20} /></div>
-                        <span style={{ opacity: 0.9 }}>Cost: <strong style={{ color: '#fff' }}>From $146 / month</strong></span>
-                      </li>
-                      <li style={{ display: 'flex', gap: 16 }}>
-                        <div style={{ color: '#2ECC71', marginTop: 2 }}><Icon.Check size={20} /></div>
-                        <span style={{ opacity: 0.9 }}>100% online asynchronous intake</span>
-                      </li>
-                      <li style={{ display: 'flex', gap: 16 }}>
-                        <div style={{ color: '#2ECC71', marginTop: 2 }}><Icon.Check size={20} /></div>
-                        <span style={{ opacity: 0.9 }}>Shipped overnight in cold-packs</span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <StateLegalFramework
+        stateName="Colorado"
+        boardName="Colorado Medical Board"
+        text="Telehealth FX operates in strict compliance with the <strong>Colorado Medical Board</strong> and Colorado Revised Statutes § 12-240-107 (Colorado's telehealth provisions). Colorado has been among the most progressive states in the nation regarding telehealth regulation. Under current law, a physician-patient relationship may be established via telehealth, including asynchronous modalities, without a mandatory in-person encounter. The state's regulatory framework explicitly supports store-and-forward technology for clinical evaluation and prescribing. All Telehealth FX prescribers treating Colorado patients hold active, unrestricted Colorado medical licenses verified through the DORA (Department of Regulatory Agencies) license lookup system."
+      />
 
-      {/* 4. REAL-TIME SUPPLY CHAIN & HOSPITAL WAITLISTS */}
-      <section style={{ padding: 'clamp(60px, 8vw, 100px) 0' }}>
-        <div className="container">
-           <div className="row g-5">
-              <div className="col-lg-6">
-                 <div style={{ display: 'inline-block', background: 'var(--surface-2)', padding: '6px 16px', borderRadius: 100, fontSize: 13, fontWeight: 600, color: 'var(--brand)', textTransform: 'uppercase', letterSpacing: 1, marginBottom: 24 }}>
-                    Local Supply Chain Reality
-                 </div>
-                 <h2 className="serif" style={{ fontSize: 'clamp(32px, 4vw, 40px)', marginBottom: 24, lineHeight: 1.2 }}>Bypass I-25 and I-70 & Waitlists</h2>
-                 <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', color: 'var(--ink-2)', marginBottom: 24, lineHeight: 1.7 }}>
-                    Whether you're enduring dead-stop traffic on I-25 and I-70, spending an hour in your car just to sit in a doctor's waiting room for a 5-minute prescription refill is an outdated model.
-                 </p>
-                 <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', color: 'var(--ink-2)', marginBottom: 32, lineHeight: 1.7 }}>
-                    Even worse, if you try to fill a prescription for branded Wegovy at King Soopers Pharmacy, you know the reality: <strong>the medications are on indefinite national backorder.</strong> Furthermore, securing an appointment at metabolic centers like <strong>UCHealth and Denver Health</strong> takes 4-6 months, and local insurance plans frequently deny prior authorizations.
-                 </p>
-                 
-                 <div style={{ display: 'flex', alignItems: 'center', gap: 16, background: '#fff', padding: 20, borderRadius: 16, border: '1px solid var(--line-soft)', boxShadow: '0 4px 12px rgba(0,0,0,0.02)' }}>
-                    <div style={{ width: 48, height: 48, background: 'rgba(46, 204, 113, 0.1)', borderRadius: 12, display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#2ECC71' }}>
-                       <Icon.Shield size={24} />
-                    </div>
-                    <div>
-                       <strong style={{ display: 'block', fontSize: 16, color: 'var(--ink)' }}>HSA / FSA Accepted</strong>
-                       <span style={{ fontSize: 14, color: 'var(--ink-2)' }}>Bypass insurance denials entirely. Use pre-tax dollars for your compounding protocol.</span>
-                    </div>
-                 </div>
-              </div>
-              
-              <div className="col-lg-6">
-                 <div style={{ background: '#fff', padding: 'clamp(24px, 4vw, 40px)', borderRadius: 32, boxShadow: '0 20px 60px rgba(0,0,0,0.05)', border: '1px solid rgba(0,0,0,0.03)' }}>
-                    <h3 className="serif" style={{ fontSize: 24, marginBottom: 32 }}>The 503A Patient Journey</h3>
-                    <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: 32 }}>
-                       <li style={{ display: 'flex', gap: 20 }}>
-                          <div style={{ width: 40, height: 40, background: '#2ECC71', color: '#000', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold', fontSize: 18, flexShrink: 0, boxShadow: '0 4px 12px rgba(46, 204, 113, 0.3)' }}>1</div>
-                          <div>
-                             <strong style={{ display: 'block', fontSize: 18, marginBottom: 8, color: 'var(--ink)' }}>Complete CO Intake</strong>
-                             <span style={{ color: 'var(--ink-2)', fontSize: 15, lineHeight: 1.6 }}>Fill out your health profile online from your home. No freeway commutes or waiting rooms required.</span>
-                          </div>
-                       </li>
-                       <li style={{ display: 'flex', gap: 20 }}>
-                          <div style={{ width: 40, height: 40, background: '#2ECC71', color: '#000', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold', fontSize: 18, flexShrink: 0, boxShadow: '0 4px 12px rgba(46, 204, 113, 0.3)' }}>2</div>
-                          <div>
-                             <strong style={{ display: 'block', fontSize: 18, marginBottom: 8, color: 'var(--ink)' }}>Physician Review</strong>
-                             <span style={{ color: 'var(--ink-2)', fontSize: 15, lineHeight: 1.6 }}>A licensed Colorado physician reviews your chart and approves your script within 24 hours.</span>
-                          </div>
-                       </li>
-                       <li style={{ display: 'flex', gap: 20 }}>
-                          <div style={{ width: 40, height: 40, background: '#2ECC71', color: '#000', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold', fontSize: 18, flexShrink: 0, boxShadow: '0 4px 12px rgba(46, 204, 113, 0.3)' }}>3</div>
-                          <div>
-                             <strong style={{ display: 'block', fontSize: 18, marginBottom: 8, color: 'var(--ink)' }}>Overnight Delivery</strong>
-                             <span style={{ color: 'var(--ink-2)', fontSize: 15, lineHeight: 1.6 }}>Medication is compounded and shipped cold-packed straight to your door in Denver.</span>
-                          </div>
-                       </li>
-                    </ul>
-                 </div>
-              </div>
-           </div>
-        </div>
-      </section>
+      <LocalTransitPain
+        title="Bypass the I-25 Crawl & UCHealth Waitlists"
+        transitText="Denver's growth has outpaced its transportation infrastructure by a decade. I-25—the single north-south artery connecting Fort Collins, Denver, and Colorado Springs—is congested for 14 hours a day. The US-36 corridor to Boulder is a daily crawl. I-70 westbound on a Friday afternoon (ski traffic) is a national punchline. Even within the city, getting from RiNo to the UCHealth Anschutz campus in Aurora means navigating Colfax or I-225—neither of which is pleasant."
+        hospitalText="<strong>UCHealth</strong> (anchored by the University of Colorado Anschutz Medical Campus) is the region's premier academic health system. <strong>Denver Health</strong> serves as the city's safety-net system. <strong>SCL Health / Intermountain</strong> operates multiple facilities across the Front Range. All face capacity strain from a metro that has added 400,000+ residents in a decade. UCHealth's weight management program runs a 10-14 week new-patient wait. Denver Health's endocrinology clinic is similarly backed up. Your local <strong>King Soopers</strong> (Kroger), <strong>Walgreens</strong>, or <strong>CVS</strong> pharmacy? Branded Wegovy: indefinite backorder."
+      />
 
-      {/* 5. LOCAL SEO & SERVICE AREA MAP */}
-      <section style={{ padding: 'clamp(60px, 8vw, 100px) 0', background: '#fff', borderTop: '1px solid var(--line-soft)' }}>
-        <div className="container">
-          <div className="row g-5 align-items-center">
-            <div className="col-lg-5 text-center text-lg-start">
-              <h2 className="serif" style={{ fontSize: 'clamp(32px, 4vw, 40px)', marginBottom: 24 }}>Denver Service Area</h2>
-              <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', color: 'var(--ink-2)', marginBottom: 32, lineHeight: 1.7 }}>
-                Telehealth FX provides asynchronous medical weight loss and GLP-1 prescribing services to all permanent residents and professionals operating within Denver and surrounding counties.
-              </p>
-              <div style={{ background: '#FBF8F3', padding: 32, borderRadius: 24, textAlign: 'left' }}>
-                 <h4 style={{ fontSize: 18, marginBottom: 16, fontWeight: 600, color: 'var(--ink)' }}>Coverage Coordinates</h4>
-                 <ul style={{ listStyle: 'none', padding: 0, margin: 0, color: 'var(--ink-2)', fontSize: 15, display: 'flex', flexDirection: 'column', gap: 12 }}>
-                    <li style={{ display: 'flex', justifyContent: 'space-between', borderBottom: '1px solid rgba(0,0,0,0.05)', paddingBottom: 8 }}>
-                       <span>Primary Locality</span> <strong>Denver, CO</strong>
-                    </li>
-                    <li style={{ display: 'flex', justifyContent: 'space-between', borderBottom: '1px solid rgba(0,0,0,0.05)', paddingBottom: 8 }}>
-                       <span>Coordinates</span> <strong>39.7392° N, 104.9903° W</strong>
-                    </li>
-                    <li style={{ display: 'flex', flexDirection: 'column', gap: 4 }}>
-                       <span>Counties Served:</span>
-                       <strong style={{ lineHeight: 1.4 }}>Denver County, Arapahoe County, Jefferson County</strong>
-                    </li>
-                 </ul>
-              </div>
-            </div>
-            <div className="col-lg-7">
-               <div style={{ width: '100%', height: '100%', minHeight: 450, borderRadius: 32, overflow: 'hidden', boxShadow: '0 24px 48px rgba(0,0,0,0.08)' }}>
-                  <iframe 
-                    width="100%" 
-                    height="100%" 
-                    style={{ minHeight: 450, filter: 'grayscale(0.2) contrast(1.1)' }}
-                    src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Denver,%20CO+(Telehealth%20FX%20Denver)&amp;t=&amp;z=10&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" 
-                    frameBorder="0"
-                    allowFullScreen>
-                  </iframe>
-               </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <InteractiveFAQ
+        faqs={[
+          { q: "I'm very active (skiing, biking, hiking). Do I still qualify?", a: "Absolutely. GLP-1 receptor agonists are not reserved for sedentary populations. If your activity level is not producing the weight management results you expect, the likely cause is a hormonal signaling dysfunction—specifically impaired incretin response—that exercise alone cannot correct. Your prescribing physician will evaluate your full metabolic profile, including activity level, during your intake." },
+          { q: "Does cannabis use affect eligibility or medication interactions?", a: "Cannabis use does not disqualify you from GLP-1 therapy. There are no known clinically significant drug interactions between cannabis (THC/CBD) and Semaglutide or Tirzepatide. However, your prescribing physician should be aware of all substances you use, and you should be aware that cannabis-driven appetite stimulation may partially counteract the appetite-regulating effects of GLP-1 medications." },
+          { q: "Can I get medication delivered to my office in Boulder or the Tech Center?", a: "Yes. We deliver to all residential and commercial addresses across the Denver-Boulder-Aurora metro, including the Denver Tech Center, Boulder, Broomfield, Littleton, Golden, Lakewood, and Aurora." },
+          { q: "I'm a federal employee at Denver Federal Center. Will this appear on my records?", a: "Telehealth FX is a private, self-pay medical service entirely separate from FEHB, the federal government, and any government health system. Your use of our platform does not interact with your federal employee health benefits, OPM records, or any government database." }
+        ]}
+      />
 
-      {/* FINAL CTA */}
-      <section style={{ padding: 'clamp(80px, 10vw, 120px) 0', background: 'var(--brand)', color: '#fff', textAlign: 'center' }}>
-         <div className="container" style={{ maxWidth: 800 }}>
-            <h2 className="serif" style={{ fontSize: 'clamp(40px, 5vw, 56px)', marginBottom: 24, color: '#fff' }}>Ready to optimize your metabolic health?</h2>
-            <p style={{ fontSize: 'clamp(18px, 2.5vw, 22px)', opacity: 0.9, marginBottom: 40, lineHeight: 1.6 }}>Join thousands of patients who have transitioned to clinical GLP-1 telehealth.</p>
-            <a href={SEMAGLUTIDE_URL} style={{ 
-               display: 'inline-block',
-               background: '#fff', 
-               color: 'var(--brand)', 
-               fontSize: 20, 
-               padding: '20px 48px', 
-               fontWeight: 600,
-               borderRadius: 100,
-               textDecoration: 'none',
-               boxShadow: '0 10px 30px rgba(0,0,0,0.1)'
-            }}>Check Your CO Eligibility Today</a>
-         </div>
-      </section>
+      <DeliveryGridMap
+        cityName="Denver"
+        mapQuery="Denver, CO"
+        coordinates="39.7392° N, 104.9903° W"
+        counties="Denver County, Arapahoe County, Jefferson County, Adams County, Boulder County, Douglas County"
+        neighborhoods={['LoDo', 'RiNo', 'Cherry Creek', 'Capitol Hill', 'Highlands', 'Wash Park', 'Littleton', 'Aurora', 'Lakewood', 'Golden']}
+      />
+
+      <FinalCTA stateName="Colorado" />
+
     </div>
   );
 }
