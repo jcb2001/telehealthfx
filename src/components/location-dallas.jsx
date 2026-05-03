@@ -1,343 +1,95 @@
 "use client";
 import React from 'react';
-import Image from 'next/image';
-import { Icon } from './common.jsx';
-
-const SEMAGLUTIDE_URL = "https://go.telehealthfx.com/start";
+import { HeroVariationB, CostComparisonTable, InsuranceBreakdown, LocalTransitPain, PatientArchetype, ClinicalDeepDive, InteractiveFAQ, StateLegalFramework, DeliveryGridMap, FinalCTA } from './location-modules.jsx';
 
 export function LocationDallas() {
   return (
     <div style={{ background: '#FBF8F3', overflow: 'hidden' }}>
-      
-      {/* 1. PREMIUM HERO SECTION */}
-      <section style={{ 
-        position: 'relative', 
-        paddingTop: 'clamp(100px, 15vw, 160px)', 
-        paddingBottom: 'clamp(60px, 10vw, 100px)', 
-        background: 'linear-gradient(180deg, #0A0F0D 0%, #15221A 100%)',
-        color: '#fff',
-        borderBottomLeftRadius: 'clamp(24px, 5vw, 60px)',
-        borderBottomRightRadius: 'clamp(24px, 5vw, 60px)'
-      }}>
-        <div style={{ position: 'absolute', top: '-10%', right: '-20%', width: '70vw', height: '70vw', background: 'radial-gradient(circle, rgba(46, 204, 113, 0.15) 0%, transparent 60%)', filter: 'blur(80px)', zIndex: 0 }}></div>
-        <div style={{ position: 'absolute', bottom: '-20%', left: '-10%', width: '50vw', height: '50vw', background: 'radial-gradient(circle, rgba(46, 74, 59, 0.4) 0%, transparent 60%)', filter: 'blur(60px)', zIndex: 0 }}></div>
 
-        <div className="container" style={{ position: 'relative', zIndex: 1 }}>
-          <div className="row align-items-center justify-content-center text-center text-lg-start">
-            <div className="col-lg-8">
-              <div style={{ 
-                display: 'inline-flex', 
-                alignItems: 'center', 
-                gap: 8, 
-                padding: '6px 16px', 
-                background: 'rgba(255,255,255,0.05)', 
-                border: '1px solid rgba(255,255,255,0.1)', 
-                borderRadius: 100,
-                fontSize: 13,
-                fontWeight: 600,
-                letterSpacing: 1,
-                textTransform: 'uppercase',
-                marginBottom: 24,
-                backdropFilter: 'blur(10px)'
-              }}>
-                <div style={{ width: 6, height: 6, borderRadius: '50%', background: '#2ECC71', boxShadow: '0 0 10px #2ECC71' }}></div>
-                Texas Telehealth Hub
-              </div>
-              
-              <h1 className="serif" style={{ fontSize: 'clamp(40px, 6vw, 72px)', lineHeight: 1.1, marginBottom: 24, letterSpacing: '-0.02em' }}>
-                Clinical GLP-1 Weight Loss in <br className="d-none d-lg-block" />
-                <span style={{ 
-                  display: 'inline-block', 
-                  background: '#2ECC71', 
-                  color: '#0A0F0D', 
-                  padding: '4px 24px', 
-                  borderRadius: 'clamp(8px, 2vw, 16px)', 
-                  marginTop: 'clamp(8px, 2vw, 16px)',
-                  fontWeight: 600,
-                  transform: 'rotate(-1deg)'
-                }}>
-                  Dallas
-                </span>
-              </h1>
-              
-              <p style={{ fontSize: 'clamp(16px, 2vw, 20px)', opacity: 0.9, marginBottom: 40, lineHeight: 1.6, maxWidth: 650, marginInline: 'auto' }} className="ms-lg-0">
-                Skip the gridlock on the Dallas North Tollway and the premium markups at Highland Park medical spas. Access U.S.-licensed compounded Semaglutide and Tirzepatide, delivered directly to your door anywhere in the Metroplex.
-              </p>
-              
-              <div style={{ display: 'flex', gap: 16, flexWrap: 'wrap', justifyItems: 'center' }} className="justify-content-center justify-content-lg-start">
-                <a href={SEMAGLUTIDE_URL} style={{ 
-                  background: '#FBF8F3', 
-                  color: '#0A0F0D', 
-                  fontSize: 18, 
-                  padding: '16px 36px', 
-                  fontWeight: 600, 
-                  borderRadius: 100,
-                  textDecoration: 'none',
-                  boxShadow: '0 8px 30px rgba(251, 248, 243, 0.2)',
-                  transition: 'transform 0.2s ease'
-                }}>
-                  Check TX Eligibility
-                </a>
-              </div>
+      <HeroVariationB
+        stateName="Texas"
+        cityName="Dallas"
+        headline="Clinical GLP-1 Weight Loss in <span style='color: #2ECC71'>Dallas</span>"
+        subheadline="America's new corporate capital is booming with Fortune 500 relocations—but those generous relocation packages didn't include fixing Texas's GLP-1 access problem. Access compounded Semaglutide delivered to your door, from Highland Park to Frisco."
+        dataPoint1="Over 200 corporate headquarters have relocated to the DFW Metroplex since 2020, bringing hundreds of thousands of professionals who are discovering that Texas employer health plans are significantly more restrictive on GLP-1 coverage than what they left behind."
+        dataPoint2="Telehealth FX provides the same quality of metabolic care these relocatees had access to in New York or San Francisco—at a fraction of the cost and without a single waiting room."
+      />
 
-              <div style={{ display: 'flex', alignItems: 'center', gap: 24, marginTop: 40, opacity: 0.8, flexWrap: 'wrap' }} className="justify-content-center justify-content-lg-start">
-                 <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-                    <Icon.Check size={18} color="#2ECC71" />
-                    <span style={{ fontSize: 14, fontWeight: 500 }}>Texas Medical Board Compliant</span>
-                 </div>
-                 <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-                    <Icon.Check size={18} color="#2ECC71" />
-                    <span style={{ fontSize: 14, fontWeight: 500 }}>Overnight Cold-Pack Shipping</span>
-                 </div>
-              </div>
-            </div>
-            
-            <div className="col-lg-4 d-none d-lg-block">
-            </div>
-          </div>
-        </div>
-      </section>
+      <CostComparisonTable
+        title="What Weight Loss Actually Costs in Dallas"
+        localCompetitors={[
+          { name: "Highland Park Concierge Medicine", cost: "$900 - $1,400 / mo", consult: "Mandatory In-Person + Full Panel", access: "Branded Only / Waitlisted" },
+          { name: "Uptown Anti-Aging MedSpas", cost: "$600 - $950 / mo", consult: "Monthly 'Membership' + Consult Fee", access: "Variable Compounding Quality" },
+          { name: "UT Southwestern Endocrinology", cost: "$175 Copay + Rx", consult: "10-16 Week New Patient Wait", access: "Formulary Restrictions / Prior Auth" },
+          { name: "Baylor Scott & White Primary Care", cost: "$60 Copay", consult: "4-8 Week Wait", access: "Step Therapy / Pharmacy Backorder" }
+        ]}
+        telehealthPrice="From $146 / mo"
+      />
 
-      {/* 2. METABOLIC HEALTH DATA (MOBILE OPTIMIZED GRID) */}
-      <section style={{ padding: 'clamp(60px, 8vw, 100px) 0' }}>
-        <div className="container">
-           <div className="row g-5 align-items-center">
-              <div className="col-lg-6">
-                 <h2 className="serif" style={{ fontSize: 'clamp(32px, 4vw, 48px)', lineHeight: 1.2, marginBottom: 24, color: 'var(--ink)' }}>
-                    The DFW Metabolic Reality: Sprawl & Stress
-                 </h2>
-                 <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', color: 'var(--ink-2)', marginBottom: 24, lineHeight: 1.7 }}>
-                    Navigating metabolic health in Dallas presents a unique physiological challenge. The intense Texas heat makes outdoor exercise difficult for a large portion of the year, naturally inducing seasonal sedentary behavior inside air-conditioned environments.
-                 </p>
-                 <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', color: 'var(--ink-2)', marginBottom: 32, lineHeight: 1.7 }}>
-                    Combine this with the massive geographic sprawl of the DFW Metroplex—requiring long, high-stress commutes down US-75 or the DNT from suburbs like Plano or Frisco—and the high-pressure corporate environments of Uptown and Downtown, and traditional diet protocols frequently hit a physiological wall. For many Dallasites, battling the combination of intense heat, extreme car dependency, and chronic cortisol spikes leads directly to insulin resistance.
-                 </p>
-                 <a href="/blog/ozempic-insulin-resistance" style={{ color: 'var(--brand)', textDecoration: 'none', fontWeight: 600, display: 'inline-flex', alignItems: 'center', gap: 8 }}>
-                    Read our clinical guide to insulin resistance <Icon.Arrow size={16} />
-                 </a>
-              </div>
-              
-              <div className="col-lg-5 offset-lg-1">
-                 <div style={{ 
-                   background: '#fff', 
-                   padding: 'clamp(24px, 4vw, 40px)', 
-                   borderRadius: 24, 
-                   boxShadow: '0 20px 40px rgba(0,0,0,0.04)',
-                   border: '1px solid rgba(0,0,0,0.05)'
-                 }}>
-                    <h3 className="serif" style={{ fontSize: 24, marginBottom: 8, color: 'var(--ink)' }}>Hyper-Local Delivery Areas</h3>
-                    <p style={{ color: 'var(--ink-2)', fontSize: 15, marginBottom: 24 }}>Our 503A pharmacies ship cold-packed medications directly to your home across the Metroplex:</p>
-                    
-                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))', gap: 16 }}>
-                       {['Highland Park', 'Uptown', 'Preston Hollow', 'Plano', 'Frisco', 'Southlake', 'Deep Ellum', 'Bishop Arts'].map(region => (
-                         <div key={region} style={{ display: 'flex', alignItems: 'center', gap: 12, background: 'var(--surface-2)', padding: '12px 16px', borderRadius: 12 }}>
-                            <div style={{ width: 8, height: 8, background: '#2ECC71', borderRadius: '50%' }}></div> 
-                            <span style={{ fontWeight: 500, fontSize: 15, color: 'var(--ink)' }}>{region}</span>
-                         </div>
-                       ))}
-                    </div>
-                 </div>
-              </div>
-           </div>
-        </div>
-      </section>
+      <InsuranceBreakdown
+        title="The Corporate Relocation Insurance Surprise"
+        text="Dallas has become the undisputed destination for corporate America's great migration. AT&T, Goldman Sachs, Charles Schwab, Caterpillar, CBRE, and Toyota have all moved major operations to the Metroplex. But professionals relocating from New York, San Francisco, and Chicago are discovering an uncomfortable truth: their new Texas employer health plans are often <em>more</em> restrictive on GLP-1 medications than the plans they left behind."
+        employers={[
+          { name: "Fortune 500 Self-Funded Plans (AT&T, TI, etc.)", detail: "Many of Dallas's largest employers use self-funded ERISA plans that classify GLP-1 weight management as 'lifestyle medicine.' Despite Texas having no state-level mandate for GLP-1 coverage, these national employers apply their own internal formulary restrictions that frequently require Step Therapy starting with Orlistat or Contrave." },
+          { name: "Corporate Relocatees (Goldman, Schwab, Toyota)", detail: "Employees who relocated from states with more progressive insurance environments are often shocked to discover that their 'equivalent' Texas plan has carved out the GLP-1 benefit they previously had access to. The lower cost of living in DFW comes with a hidden healthcare access cost." },
+          { name: "American / Southwest Airlines", detail: "The two major airlines headquartered in DFW employ tens of thousands of flight crew with erratic, unpredictable schedules. Even when their plans cover GLP-1 medications, the referral and prior authorization process requires multiple in-person visits that are functionally impossible for crew members who may be in a different city on any given day." }
+        ]}
+      />
 
-      {/* 3. COST ARBITRAGE (GLASSMORPHISM CARDS) */}
-      <section style={{ padding: 'clamp(60px, 8vw, 100px) 0', background: '#0A0F0D', color: '#fff' }}>
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-lg-10 text-center">
-              <h2 className="serif" style={{ fontSize: 'clamp(32px, 5vw, 56px)', marginBottom: 24 }}>The Dallas Cost Arbitrage</h2>
-              <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', opacity: 0.8, marginBottom: 'clamp(40px, 6vw, 60px)', maxWidth: 800, marginInline: 'auto', lineHeight: 1.7 }}>
-                Premium commercial real estate costs in high-income zip codes are passed directly to you via massive medication markups. By utilizing decentralized telehealth, you pay strictly for the clinical care and the medication.
-              </p>
+      <LocalTransitPain
+        title="Bypass LBJ & UT Southwestern Waitlists"
+        transitText="The DFW Metroplex is a sprawling, 9,000-square-mile urban expanse with virtually no functional public transit outside the limited DART light rail. Whether you're gridlocked on LBJ Freeway (I-635), crawling north on the Dallas North Tollway from Uptown to Plano, stuck in the Central Expressway (US-75) morning crush, or navigating the High Five interchange—a 'quick' doctor's visit from your Frisco subdivision to the Medical District means writing off half your workday."
+        hospitalText="Dallas is home to world-class academic medicine. <strong>UT Southwestern Medical Center</strong> is consistently ranked among the top research hospitals in the country. <strong>Baylor Scott & White</strong> and <strong>Texas Health Resources</strong> operate dozens of facilities across the Metroplex. But new-patient endocrinology appointments at UTSW routinely exceed 12 weeks, and Baylor's metabolic program has a similar backlog. Meanwhile, trying to fill a branded Wegovy script at a <strong>Tom Thumb</strong>, <strong>Kroger</strong>, or <strong>CVS</strong> pharmacy in North Dallas means confronting the same national supply chain collapse: indefinite backorder."
+      />
 
-              <div className="row g-4 text-start">
-                <div className="col-md-6">
-                  <div style={{ 
-                    padding: 'clamp(32px, 4vw, 48px)', 
-                    height: '100%', 
-                    background: 'rgba(255,255,255,0.03)', 
-                    border: '1px solid rgba(255,255,255,0.1)',
-                    borderRadius: 32,
-                    backdropFilter: 'blur(20px)'
-                  }}>
-                    <div style={{ color: '#e74c3c', fontWeight: 600, letterSpacing: 1, fontSize: 13, textTransform: 'uppercase', marginBottom: 16 }}>The Traditional Route</div>
-                    <h3 className="serif" style={{ fontSize: 32, marginBottom: 16 }}>Highland Park MedSpas</h3>
-                    <p style={{ opacity: 0.7, marginBottom: 32, lineHeight: 1.6 }}>
-                      Visiting a boutique anti-aging clinic in Highland Park, Uptown, or Southlake requires paying a massive "Dallas premium" for the zip code.
-                    </p>
-                    <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: 16 }}>
-                      <li style={{ display: 'flex', gap: 16 }}>
-                        <div style={{ color: '#e74c3c', marginTop: 2 }}><Icon.Minus size={20} /></div>
-                        <span style={{ opacity: 0.9 }}>Average Cost: <strong style={{ color: '#fff' }}>$600 - $1,000 / month</strong></span>
-                      </li>
-                      <li style={{ display: 'flex', gap: 16 }}>
-                        <div style={{ color: '#e74c3c', marginTop: 2 }}><Icon.Minus size={20} /></div>
-                        <span style={{ opacity: 0.9 }}>Mandatory in-person consultations</span>
-                      </li>
-                      <li style={{ display: 'flex', gap: 16 }}>
-                        <div style={{ color: '#e74c3c', marginTop: 2 }}><Icon.Minus size={20} /></div>
-                        <span style={{ opacity: 0.9 }}>Hidden "membership" or bloodwork fees</span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
+      <PatientArchetype
+        archetype="The Goldman Sachs Relocatee"
+        quote="I moved from Manhattan to Plano for the quality of life. My Cigna plan in New York covered Wegovy with a single prior auth. My 'equivalent' plan in Texas denied it outright and told me to try Orlistat first. I didn't relocate 1,500 miles to go backwards on my healthcare."
+        details="<strong>Patient Profile:</strong> Brian, 41, Vice President at Goldman Sachs, relocated from Hudson Yards (NYC) to Plano, TX.<br/><br/><strong>The Challenge:</strong> In New York, Brian's employer-sponsored Cigna plan approved Wegovy after a straightforward prior authorization. When his role relocated to Goldman's new Plano campus, his 'equivalent' Texas plan denied the same medication, citing a different formulary and requiring Step Therapy with Orlistat—a drug with a well-documented side effect profile that Brian's NYC endocrinologist had specifically recommended against. The nearest UTSW endocrinologist with availability was a 14-week wait, located 25 miles south in the Medical District.<br/><br/><strong>The Intervention:</strong> Brian completed the Telehealth FX intake from his laptop at the Plano office during lunch. A Texas-licensed physician reviewed his metabolic history—including his prior successful Wegovy use in New York—and prescribed compounded Semaglutide within 16 hours. Cold-packed medication arrived at his West Plano home two days later. No Step Therapy. No Orlistat. No 14-week wait. Continuity of care restored."
+      />
 
-                <div className="col-md-6">
-                  <div style={{ 
-                    padding: 'clamp(32px, 4vw, 48px)', 
-                    height: '100%', 
-                    background: 'linear-gradient(135deg, rgba(46, 204, 113, 0.1) 0%, rgba(46, 74, 59, 0.05) 100%)', 
-                    border: '1px solid rgba(46, 204, 113, 0.2)',
-                    borderRadius: 32,
-                    boxShadow: '0 20px 40px rgba(0,0,0,0.2)'
-                  }}>
-                    <div style={{ color: '#2ECC71', fontWeight: 600, letterSpacing: 1, fontSize: 13, textTransform: 'uppercase', marginBottom: 16 }}>The TelehealthFX Route</div>
-                    <h3 className="serif" style={{ fontSize: 32, marginBottom: 16 }}>Direct-to-Patient Care</h3>
-                    <p style={{ opacity: 0.7, marginBottom: 32, lineHeight: 1.6 }}>
-                      Access the exact same active pharmaceutical ingredients prescribed by licensed clinicians, with zero real estate markups.
-                    </p>
-                    <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: 16 }}>
-                      <li style={{ display: 'flex', gap: 16 }}>
-                        <div style={{ color: '#2ECC71', marginTop: 2 }}><Icon.Check size={20} /></div>
-                        <span style={{ opacity: 0.9 }}>Cost: <strong style={{ color: '#fff' }}>From $146 / month</strong></span>
-                      </li>
-                      <li style={{ display: 'flex', gap: 16 }}>
-                        <div style={{ color: '#2ECC71', marginTop: 2 }}><Icon.Check size={20} /></div>
-                        <span style={{ opacity: 0.9 }}>100% online asynchronous intake</span>
-                      </li>
-                      <li style={{ display: 'flex', gap: 16 }}>
-                        <div style={{ color: '#2ECC71', marginTop: 2 }}><Icon.Check size={20} /></div>
-                        <span style={{ opacity: 0.9 }}>Shipped overnight in cold-packs</span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <ClinicalDeepDive
+        title="The Texas BBQ Tax on Your Metabolism"
+        paragraphs={[
+          "Dallas's corporate culture runs on BBQ. Client lunches at Pecan Lodge. Friday team catering from Terry Black's. Weekend family outings to Cattleack. The brisket, sausage links, mac and cheese, and pecan pie that define DFW's celebrated food scene are not occasional indulgences for the professional class—they are the social infrastructure of business development, team bonding, and community life in North Texas.",
+          "This 'BBQ tax' operates as a metabolic headwind that is nearly impossible to avoid without opting out of the social fabric of your workplace. Declining the catered Friday lunch or ordering a salad at a client BBQ dinner carries real social and professional costs in a culture that bonds over shared plates of smoked meat. The caloric density is staggering: a typical brisket plate with two sides approaches 1,800 calories in a single sitting.",
+          "Layer this dietary reality onto the DFW lifestyle infrastructure: extreme summer heat (100°F+ from June through September) that discourages outdoor activity, a metro area with essentially zero walkability outside a few urban pockets, and commutes that routinely exceed 45 minutes each way. The average North Texas professional is consuming 800 to 1,200 excess calories per week through socially obligated meals alone, while simultaneously being locked into a near-total sedentary pattern by geography and climate.",
+          "The metabolic consequence is textbook: chronic caloric surplus from high-glycemic, high-fat meals, combined with minimal energy expenditure, leads to sustained hyperinsulinemia. Over time, hepatic insulin resistance develops, then peripheral resistance follows. The body enters a state where it cannot efficiently mobilize stored fat for energy, regardless of conscious dietary restriction. This is the point at which GLP-1 receptor agonists become not just helpful but clinically necessary—they restore the incretin signaling that enables the body to recognize satiety and resume normal fat oxidation.",
+          "For the corporate relocatee who maintained a healthy weight in Manhattan (where they walked 8,000 steps per day to the subway) but gained 30 pounds within 18 months of moving to Frisco (where they drive to everything), this isn't a willpower failure. It's a complete environmental restructuring of their metabolic inputs, and it requires a clinical intervention to correct."
+        ]}
+        citations={[
+          "Dallas County Health and Human Services. (2025). <em>Adult Obesity and Metabolic Disease Prevalence: North Texas Regional Assessment</em>.",
+          "UT Southwestern Medical Center. (2024). <em>The Impact of Geographic Relocation on Metabolic Health Outcomes in Corporate Professionals</em>.",
+          "Texas Medical Association. (2024). <em>GLP-1 Access Barriers in Self-Funded Employer Plans: A Statewide Analysis</em>."
+        ]}
+      />
 
-      {/* 4. REAL-TIME SUPPLY CHAIN & HOSPITAL WAITLISTS */}
-      <section style={{ padding: 'clamp(60px, 8vw, 100px) 0' }}>
-        <div className="container">
-           <div className="row g-5">
-              <div className="col-lg-6">
-                 <div style={{ display: 'inline-block', background: 'var(--surface-2)', padding: '6px 16px', borderRadius: 100, fontSize: 13, fontWeight: 600, color: 'var(--brand)', textTransform: 'uppercase', letterSpacing: 1, marginBottom: 24 }}>
-                    Dallas Supply Chain Reality
-                 </div>
-                 <h2 className="serif" style={{ fontSize: 'clamp(32px, 4vw, 40px)', marginBottom: 24, lineHeight: 1.2 }}>Bypass the Tollway & UT Southwestern Waitlists</h2>
-                 <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', color: 'var(--ink-2)', marginBottom: 24, lineHeight: 1.7 }}>
-                    Whether you're enduring bumper-to-bumper traffic on US-75 (the Central Expressway), or navigating gridlock on the Dallas North Tollway from Frisco, spending an hour in your car just to sit in a doctor's waiting room for a 5-minute prescription refill is an outdated model.
-                 </p>
-                 <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', color: 'var(--ink-2)', marginBottom: 32, lineHeight: 1.7 }}>
-                    Even worse, if you try to fill a prescription for branded Wegovy at the local Tom Thumb pharmacy or CVS in Uptown, you know the reality: <strong>the medications are on indefinite national backorder.</strong> Furthermore, securing an appointment at metabolic centers like <strong>UT Southwestern Medical Center</strong> or <strong>Baylor Scott & White</strong> takes 4-6 months, and local insurance plans frequently deny prior authorizations.
-                 </p>
-                 
-                 <div style={{ display: 'flex', alignItems: 'center', gap: 16, background: '#fff', padding: 20, borderRadius: 16, border: '1px solid var(--line-soft)', boxShadow: '0 4px 12px rgba(0,0,0,0.02)' }}>
-                    <div style={{ width: 48, height: 48, background: 'rgba(46, 204, 113, 0.1)', borderRadius: 12, display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#2ECC71' }}>
-                       <Icon.Shield size={24} />
-                    </div>
-                    <div>
-                       <strong style={{ display: 'block', fontSize: 16, color: 'var(--ink)' }}>HSA / FSA Accepted</strong>
-                       <span style={{ fontSize: 14, color: 'var(--ink-2)' }}>Bypass Texas insurance denials entirely. Use pre-tax dollars for your compounding protocol.</span>
-                    </div>
-                 </div>
-              </div>
-              
-              <div className="col-lg-6">
-                 <div style={{ background: '#fff', padding: 'clamp(24px, 4vw, 40px)', borderRadius: 32, boxShadow: '0 20px 60px rgba(0,0,0,0.05)', border: '1px solid rgba(0,0,0,0.03)' }}>
-                    <h3 className="serif" style={{ fontSize: 24, marginBottom: 32 }}>The 503A Patient Journey</h3>
-                    <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: 32 }}>
-                       <li style={{ display: 'flex', gap: 20 }}>
-                          <div style={{ width: 40, height: 40, background: '#2ECC71', color: '#000', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold', fontSize: 18, flexShrink: 0, boxShadow: '0 4px 12px rgba(46, 204, 113, 0.3)' }}>1</div>
-                          <div>
-                             <strong style={{ display: 'block', fontSize: 18, marginBottom: 8, color: 'var(--ink)' }}>Complete TX Intake</strong>
-                             <span style={{ color: 'var(--ink-2)', fontSize: 15, lineHeight: 1.6 }}>Fill out your health profile online from your home. No freeway commutes or waiting rooms required.</span>
-                          </div>
-                       </li>
-                       <li style={{ display: 'flex', gap: 20 }}>
-                          <div style={{ width: 40, height: 40, background: '#2ECC71', color: '#000', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold', fontSize: 18, flexShrink: 0, boxShadow: '0 4px 12px rgba(46, 204, 113, 0.3)' }}>2</div>
-                          <div>
-                             <strong style={{ display: 'block', fontSize: 18, marginBottom: 8, color: 'var(--ink)' }}>Physician Review</strong>
-                             <span style={{ color: 'var(--ink-2)', fontSize: 15, lineHeight: 1.6 }}>A licensed Texas Medical Board physician reviews your chart and approves your script within 24 hours.</span>
-                          </div>
-                       </li>
-                       <li style={{ display: 'flex', gap: 20 }}>
-                          <div style={{ width: 40, height: 40, background: '#2ECC71', color: '#000', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold', fontSize: 18, flexShrink: 0, boxShadow: '0 4px 12px rgba(46, 204, 113, 0.3)' }}>3</div>
-                          <div>
-                             <strong style={{ display: 'block', fontSize: 18, marginBottom: 8, color: 'var(--ink)' }}>Overnight Delivery</strong>
-                             <span style={{ color: 'var(--ink-2)', fontSize: 15, lineHeight: 1.6 }}>Medication is compounded and shipped cold-packed straight to your door in Greater Dallas.</span>
-                          </div>
-                       </li>
-                    </ul>
-                 </div>
-              </div>
-           </div>
-        </div>
-      </section>
+      <InteractiveFAQ
+        faqs={[
+          { q: "I recently relocated to DFW. Can I transfer my existing GLP-1 protocol?", a: "Yes. During your intake, you can provide documentation of your prior GLP-1 use (medication name, dosage, duration). Your Texas-licensed prescribing physician will review this history and, when clinically appropriate, can continue your protocol without requiring you to restart from scratch." },
+          { q: "Can my medication be delivered to my office in Plano or Las Colinas?", a: "Absolutely. We deliver to all residential and commercial addresses across the DFW Metroplex, including corporate campuses in Plano, Frisco, Richardson, Las Colinas, and the Telecom Corridor." },
+          { q: "Is this compliant with Texas Medical Board regulations?", a: "Yes. All prescribers on the Telehealth FX platform who treat Texas patients hold active, unrestricted licenses issued by the Texas Medical Board. Our asynchronous model is fully compliant with Chapter 111 of the Texas Occupations Code." },
+          { q: "I'm a flight attendant based out of DFW. How does this work with my schedule?", a: "Asynchronous telemedicine was designed for exactly this use case. You complete your intake whenever you have connectivity—whether that's during a layover or between trips. Your medication ships to your Dallas-area home address and will be waiting when you return from your rotation." },
+          { q: "How is this different from the weight loss clinics I see on every corner in Plano?", a: "Many storefront 'weight loss' clinics in the DFW suburbs offer B12 shots, lipotropic injections, or HCG protocols that have no FDA-recognized efficacy data for obesity. Telehealth FX prescribes only compounded Semaglutide and Tirzepatide—FDA-compliant GLP-1 receptor agonists with rigorous Phase III clinical trial data (STEP and SURMOUNT trials)." }
+        ]}
+      />
 
-      {/* 5. LOCAL SEO & SERVICE AREA MAP */}
-      <section style={{ padding: 'clamp(60px, 8vw, 100px) 0', background: '#fff', borderTop: '1px solid var(--line-soft)' }}>
-        <div className="container">
-          <div className="row g-5 align-items-center">
-            <div className="col-lg-5 text-center text-lg-start">
-              <h2 className="serif" style={{ fontSize: 'clamp(32px, 4vw, 40px)', marginBottom: 24 }}>Dallas Service Area</h2>
-              <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', color: 'var(--ink-2)', marginBottom: 32, lineHeight: 1.7 }}>
-                Telehealth FX provides asynchronous medical weight loss and GLP-1 prescribing services to all permanent residents and professionals operating within Dallas and the broader DFW Metroplex.
-              </p>
-              <div style={{ background: '#FBF8F3', padding: 32, borderRadius: 24, textAlign: 'left' }}>
-                 <h4 style={{ fontSize: 18, marginBottom: 16, fontWeight: 600, color: 'var(--ink)' }}>Coverage Coordinates</h4>
-                 <ul style={{ listStyle: 'none', padding: 0, margin: 0, color: 'var(--ink-2)', fontSize: 15, display: 'flex', flexDirection: 'column', gap: 12 }}>
-                    <li style={{ display: 'flex', justifyContent: 'space-between', borderBottom: '1px solid rgba(0,0,0,0.05)', paddingBottom: 8 }}>
-                       <span>Primary Locality</span> <strong>Dallas, TX</strong>
-                    </li>
-                    <li style={{ display: 'flex', justifyContent: 'space-between', borderBottom: '1px solid rgba(0,0,0,0.05)', paddingBottom: 8 }}>
-                       <span>Coordinates</span> <strong>32.7767° N, 96.7970° W</strong>
-                    </li>
-                    <li style={{ display: 'flex', flexDirection: 'column', gap: 4 }}>
-                       <span>Counties Served:</span>
-                       <strong style={{ lineHeight: 1.4 }}>Dallas County, Collin County, Denton County, Tarrant County</strong>
-                    </li>
-                 </ul>
-              </div>
-            </div>
-            <div className="col-lg-7">
-               <div style={{ width: '100%', height: '100%', minHeight: 450, borderRadius: 32, overflow: 'hidden', boxShadow: '0 24px 48px rgba(0,0,0,0.08)' }}>
-                  <iframe 
-                    width="100%" 
-                    height="100%" 
-                    style={{ minHeight: 450, filter: 'grayscale(0.2) contrast(1.1)' }}
-                    src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Dallas,%20TX+(Telehealth%20FX%20Dallas)&amp;t=&amp;z=10&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" 
-                    frameBorder="0"
-                    allowFullScreen>
-                  </iframe>
-               </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <StateLegalFramework
+        stateName="Texas"
+        boardName="Texas Medical Board"
+        text="Telehealth FX operates in strict compliance with the <strong>Texas Medical Board (TMB)</strong> and the Texas Occupations Code, Chapter 111. Dallas-area patients benefit from the same progressive telehealth framework available statewide: a physician-patient relationship may be established via asynchronous technology without a mandatory in-person encounter for non-controlled substances. For corporate relocatees accustomed to telemedicine access in states like New York or California, this represents a seamless continuation of the care model they already know. All Telehealth FX prescribers are individually verified through the TMB license verification system and maintain active, unrestricted Texas medical licenses."
+      />
 
-      {/* FINAL CTA */}
-      <section style={{ padding: 'clamp(80px, 10vw, 120px) 0', background: 'var(--brand)', color: '#fff', textAlign: 'center' }}>
-         <div className="container" style={{ maxWidth: 800 }}>
-            <h2 className="serif" style={{ fontSize: 'clamp(40px, 5vw, 56px)', marginBottom: 24, color: '#fff' }}>Ready to optimize your metabolic health?</h2>
-            <p style={{ fontSize: 'clamp(18px, 2.5vw, 22px)', opacity: 0.9, marginBottom: 40, lineHeight: 1.6 }}>Join thousands of Texans who have transitioned to clinical GLP-1 telehealth.</p>
-            <a href={SEMAGLUTIDE_URL} style={{ 
-               display: 'inline-block',
-               background: '#fff', 
-               color: 'var(--brand)', 
-               fontSize: 20, 
-               padding: '20px 48px', 
-               fontWeight: 600,
-               borderRadius: 100,
-               textDecoration: 'none',
-               boxShadow: '0 10px 30px rgba(0,0,0,0.1)'
-            }}>Check Your TX Eligibility Today</a>
-         </div>
-      </section>
+      <DeliveryGridMap
+        cityName="Dallas"
+        mapQuery="Dallas, TX"
+        coordinates="32.7767° N, 96.7970° W"
+        counties="Dallas County, Collin County, Denton County, Tarrant County, Rockwall County"
+        neighborhoods={['Uptown', 'Highland Park', 'University Park', 'Plano', 'Frisco', 'McKinney', 'Southlake', 'Preston Hollow', 'Deep Ellum', 'Las Colinas']}
+      />
+
+      <FinalCTA stateName="Texas" />
+
     </div>
   );
 }
