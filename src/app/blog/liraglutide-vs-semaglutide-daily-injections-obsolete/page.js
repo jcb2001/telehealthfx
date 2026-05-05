@@ -1,6 +1,9 @@
 import { BlogLiraglutideVsSemaglutide } from "../../../components/blog-liraglutide-vs-semaglutide-daily-injections-obsolete.jsx";
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/liraglutide-vs-semaglutide-daily-injections-obsolete/',
+  },
   title: "Liraglutide (Saxenda/Victoza) vs. Semaglutide: Why Daily Injections Are Obsolete in 2026",
   description: "Head-to-head comparison of liraglutide vs semaglutide. STEP 8 trial data, half-life differences, weight loss results, and why daily GLP-1 injections are no longer the clinical standard in 2026.",
   openGraph: {

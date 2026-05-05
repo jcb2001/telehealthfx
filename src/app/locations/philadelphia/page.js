@@ -1,6 +1,9 @@
 import { LocationPhiladelphia } from '../../../components/location-philadelphia';
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/locations/philadelphia/',
+  },
   title: "GLP-1 Weight Loss Prescriptions in Philadelphia | Telehealth FX",
   description: "Bypass the Schuylkill Expressway traffic and waitlists at Penn Medicine. Access FDA-compliant compounded Semaglutide and Tirzepatide prescribed by PA-licensed physicians.",
   openGraph: {

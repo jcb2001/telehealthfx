@@ -1,6 +1,9 @@
 import { BlogTirzepatideVsSemaglutide } from "../../../components/blog-tirzepatide-vs-semaglutide.jsx";
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/tirzepatide-vs-semaglutide-dual-agonist-mechanism/',
+  },
   title: "Tirzepatide vs. Semaglutide: The Dual GIP/GLP-1 Agonist Mechanism",
   description: "A clinical breakdown of Tirzepatide's dual-agonist mechanism. We analyze GIP receptor activation, fat cell remodeling, and the SURMOUNT trial data.",
   openGraph: {

@@ -1,6 +1,9 @@
 import { BlogSemaglutideHairLoss } from "../../../components/blog-semaglutide-hair-loss-thinning-2026.jsx";
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/semaglutide-hair-loss-thinning-2026/',
+  },
   title: "Semaglutide and Hair Loss: Is Your GLP-1 Causing Thinning? What the Data Says",
   description: "Is semaglutide causing your hair to thin? Learn about telogen effluvium, nutritional deficiencies during GLP-1 therapy, and a 7-point protocol to protect your hair during weight loss.",
   openGraph: {

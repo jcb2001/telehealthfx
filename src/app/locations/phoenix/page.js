@@ -1,6 +1,9 @@
 import { LocationPhoenix } from '../../../components/location-phoenix';
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/locations/phoenix/',
+  },
   title: "GLP-1 Weight Loss Prescriptions in Phoenix | Telehealth FX",
   description: "Bypass the Loop 101 traffic and waitlists at Banner Health. Access FDA-compliant compounded Semaglutide and Tirzepatide prescribed by Arizona-licensed physicians.",
   openGraph: {

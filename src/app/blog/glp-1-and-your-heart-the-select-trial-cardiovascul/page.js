@@ -1,6 +1,9 @@
 import { BlogGlp1AndYourHeartTheSelectTrialCardiovascul } from "../../../components/blog-glp-1-and-your-heart-the-select-trial-cardiovascul.jsx";
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/glp-1-and-your-heart-the-select-trial-cardiovascul/',
+  },
   title: "GLP-1 and Your Heart: The SELECT Trial & Cardiovascular Protection (2026 Clinical Guide)",
   description: "Comprehensive clinical breakdown of glp-1 and your heart: the select trial & cardiovascular protection (2026 clinical guide).",
   openGraph: {

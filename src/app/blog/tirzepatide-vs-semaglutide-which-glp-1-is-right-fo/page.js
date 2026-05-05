@@ -1,6 +1,9 @@
 import { BlogTirzepatideVsSemaglutideWhichGlp1IsRightFo } from "../../../components/blog-tirzepatide-vs-semaglutide-which-glp-1-is-right-fo.jsx";
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/tirzepatide-vs-semaglutide-which-glp-1-is-right-fo/',
+  },
   title: "Tirzepatide vs. Semaglutide: Which GLP-1 is Right for You?",
   description: "A definitive clinical breakdown of the SURMOUNT-5 head-to-head trial. Compare side effects, cost-to-efficacy ratios, and the patient decision matrix.",
   openGraph: {

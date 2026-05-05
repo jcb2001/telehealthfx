@@ -1,6 +1,9 @@
 import { LocationNashville } from '../../../components/location-nashville';
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/locations/nashville/',
+  },
   title: "GLP-1 Weight Loss Prescriptions in Nashville | Telehealth FX",
   description: "Access FDA-compliant compounded Semaglutide and Tirzepatide prescribed by Tennessee-licensed physicians.",
   openGraph: {

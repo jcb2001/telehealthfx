@@ -1,6 +1,9 @@
 import { LocationBaltimore } from '../../../components/location-baltimore';
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/locations/baltimore/',
+  },
   title: "GLP-1 Weight Loss Prescriptions in Baltimore | Telehealth FX",
   description: "Bypass the I-695 Beltway traffic and waitlists at Johns Hopkins. Access FDA-compliant compounded Semaglutide and Tirzepatide prescribed by MD-licensed physicians.",
   openGraph: {

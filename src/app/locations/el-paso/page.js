@@ -1,6 +1,9 @@
 import { LocationElPaso } from '../../../components/location-el-paso';
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/locations/el-paso/',
+  },
   title: "GLP-1 Weight Loss Prescriptions in El Paso | Telehealth FX",
   description: "Bypass the I-10 traffic and waitlists at University Medical Center. Access FDA-compliant compounded Semaglutide and Tirzepatide prescribed by Texas-licensed physicians.",
   openGraph: {

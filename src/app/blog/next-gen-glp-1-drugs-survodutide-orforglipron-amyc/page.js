@@ -1,6 +1,9 @@
 import { BlogNextGenGlp1DrugsSurvodutideOrforglipronAmyc } from "../../../components/blog-next-gen-glp-1-drugs-survodutide-orforglipron-amyc.jsx";
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/next-gen-glp-1-drugs-survodutide-orforglipron-amyc/',
+  },
   title: "Next-Gen GLP-1 Drugs: Survodutide, Orforglipron & Amycretin (2026 Pipeline) (2026 Clinical Guide)",
   description: "Comprehensive clinical breakdown of next-gen glp-1 drugs: survodutide, orforglipron & amycretin (2026 pipeline) (2026 clinical guide).",
   openGraph: {

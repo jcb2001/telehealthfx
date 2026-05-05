@@ -1,6 +1,9 @@
 import { LocationSanJose } from '../../../components/location-san-jose';
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/locations/san-jose/',
+  },
   title: "GLP-1 Weight Loss Prescriptions in San Jose | Telehealth FX",
   description: "Bypass the Highway 101 traffic and waitlists at Stanford Health. Access FDA-compliant compounded Semaglutide and Tirzepatide prescribed by California-licensed physicians.",
   openGraph: {

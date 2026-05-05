@@ -1,6 +1,9 @@
 import { BlogHowToChooseATelehealthWeightLossProgramAnd } from "../../../components/blog-how-to-choose-a-telehealth-weight-loss-program-and.jsx";
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/how-to-choose-a-telehealth-weight-loss-program-and/',
+  },
   title: "How to Choose a Telehealth Weight Loss Program (And Avoid the Scams) (2026 Clinical Guide)",
   description: "Comprehensive clinical breakdown of how to choose a telehealth weight loss program (and avoid the scams) (2026 clinical guide).",
   openGraph: {

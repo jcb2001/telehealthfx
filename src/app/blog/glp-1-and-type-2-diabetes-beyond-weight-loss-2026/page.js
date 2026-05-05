@@ -1,6 +1,9 @@
 import { BlogGlp1AndType2DiabetesBeyondWeightLoss2026 } from "../../../components/blog-glp-1-and-type-2-diabetes-beyond-weight-loss-2026.jsx";
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/glp-1-and-type-2-diabetes-beyond-weight-loss-2026/',
+  },
   title: "GLP-1 and Type 2 Diabetes: Beyond Weight Loss (2026 Clinical Guide)",
   description: "Comprehensive clinical breakdown of glp-1 and type 2 diabetes: beyond weight loss (2026 clinical guide).",
   openGraph: {

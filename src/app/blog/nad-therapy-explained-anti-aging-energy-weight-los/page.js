@@ -1,6 +1,9 @@
 import { BlogNadTherapyExplainedAntiAgingEnergyWeightLos } from "../../../components/blog-nad-therapy-explained-anti-aging-energy-weight-los.jsx";
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/nad-therapy-explained-anti-aging-energy-weight-los/',
+  },
   title: "NAD+ Therapy Explained: Anti-Aging, Energy & Weight Loss",
   description: "Discover how NAD+ powers your 'longevity genes' (sirtuins) and why it's the ultimate cellular complement to combat the fatigue of GLP-1 weight loss.",
   openGraph: {

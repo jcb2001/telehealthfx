@@ -1,6 +1,9 @@
 import { LocationAlbuquerque } from '../../../components/location-albuquerque';
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/locations/albuquerque/',
+  },
   title: "GLP-1 Weight Loss Prescriptions in Albuquerque | Telehealth FX",
   description: "Bypass the Big I traffic and waitlists at UNM Hospital. Access FDA-compliant compounded Semaglutide and Tirzepatide prescribed by NM-licensed physicians.",
   openGraph: {

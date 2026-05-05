@@ -1,6 +1,9 @@
 import { LocationOklahomaCity } from '../../../components/location-oklahoma-city';
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/locations/oklahoma-city/',
+  },
   title: "GLP-1 Weight Loss Prescriptions in Oklahoma City | Telehealth FX",
   description: "Access FDA-compliant compounded Semaglutide and Tirzepatide prescribed by Oklahoma-licensed physicians.",
   openGraph: {

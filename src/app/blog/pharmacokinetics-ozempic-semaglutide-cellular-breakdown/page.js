@@ -1,6 +1,9 @@
 import { BlogOzempicPharmacokinetics } from "../../../components/blog-ozempic-pharmacokinetics.jsx";
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/pharmacokinetics-ozempic-semaglutide-cellular-breakdown/',
+  },
   title: "The Pharmacokinetics of Ozempic (Semaglutide): A Cellular Breakdown",
   description: "A clinical breakdown of Semaglutide pharmacokinetics. We analyze the DPP-4 enzyme, aminoisobutyric acid substitution, and the albumin transport mechanism.",
   openGraph: {

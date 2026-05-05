@@ -1,5 +1,8 @@
 import { BlogIsTelehealthFXLegit } from "../../../components/blog-is-telehealthfx-legit-2026.jsx";
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/is-telehealthfx-legit-2026/',
+  },
   title: "Is TelehealthFX Legit? Provider Verification, Pharmacy Licensing & What to Expect",
   description: "Is TelehealthFX legitimate? Verifiable provider licensing, 503A pharmacy credentials, transparent pricing, and a step-by-step patient experience walkthrough.",
   openGraph: { title: "Is TelehealthFX Legit? Full Verification Guide", description: "Licensed clinicians, verified pharmacy, transparent pricing. See for yourself.", images: [{ url: "https://telehealthfx.com/assets/is-telehealthfx-legit-featured.png", width: 1200, height: 630, alt: "Is TelehealthFX Legit" }] },

@@ -1,6 +1,9 @@
 import { BlogOralSemaglutideIsHereIsTheGlp1PillAsGood } from "../../../components/blog-oral-semaglutide-is-here-is-the-glp-1-pill-as-good.jsx";
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/oral-semaglutide-is-here-is-the-glp-1-pill-as-good/',
+  },
   title: "Oral Semaglutide Is Here: Is the GLP-1 Pill as Good as the Injection?",
   description: "We compare oral semaglutide to the weekly injection, analyzing SNAC absorption technology, the OASIS 4 trial, and the brutal daily fasting requirements.",
   openGraph: {

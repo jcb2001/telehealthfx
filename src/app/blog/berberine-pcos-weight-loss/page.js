@@ -3,6 +3,9 @@ import { BlogBerberinePcosWeightLoss } from "../../../components/blog-berberine-
 export const metadata = {
   title: "Berberine for PCOS Weight Loss: Clinical Data | Telehealth FX",
   description: "Are you considering berberine for pcos weight loss? Explore the clinical data on how transdermal berberine manages insulin resistance and supports healthy hormone balance.",
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/berberine-pcos-weight-loss/',
+  },
 };
 
 export default function Page() {

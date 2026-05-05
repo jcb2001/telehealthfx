@@ -1,6 +1,9 @@
 import { BlogCoptisChinensis } from "../../../components/blog-coptis-chinensis.jsx";
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/coptis-chinensis-vs-berberis-vulgaris-botanical-sources/',
+  },
   title: "Coptis Chinensis & Berberis Vulgaris: The Botanical Sources of Nature's Ozempic",
   description: "A clinical breakdown of Coptis Chinensis and Berberis Vulgaris. We analyze the isoquinoline alkaloids and the synergy of full-spectrum extracts.",
   openGraph: {

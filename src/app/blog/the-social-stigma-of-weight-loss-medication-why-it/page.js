@@ -1,6 +1,9 @@
 import { BlogTheSocialStigmaOfWeightLossMedicationWhyIt } from "../../../components/blog-the-social-stigma-of-weight-loss-medication-why-it.jsx";
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/the-social-stigma-of-weight-loss-medication-why-it/',
+  },
   title: "The Social Stigma of Weight Loss Medication: Why It's Nobody's Business (2026 Clinical Guide)",
   description: "Clinical analysis of effort moralization, the biology of the 'defended state,' and why GLP-1 medication stigma is scientifically unfounded. Includes adaptive thermogenesis research, HIPAA privacy framework, and practical strategies for navigating social judgment.",
   openGraph: {

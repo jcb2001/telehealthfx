@@ -1,6 +1,9 @@
 import { LocationFortWorth } from '../../../components/location-fort-worth';
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/locations/fort-worth/',
+  },
   title: "GLP-1 Weight Loss Prescriptions in Fort Worth | Telehealth FX",
   description: "Bypass the I-35W traffic and waitlists at Texas Health Resources. Access FDA-compliant compounded Semaglutide and Tirzepatide prescribed by Texas-licensed physicians.",
   openGraph: {

@@ -1,6 +1,9 @@
 import { BlogGLP1FoodGuide } from "../../../components/blog-glp-1-food-guide-what-to-eat.jsx";
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/glp-1-food-guide-what-to-eat/',
+  },
   title: "The Complete GLP-1 Food Guide: What to Eat (and Avoid) on Semaglutide and Tirzepatide",
   description: "Evidence-based nutrition guide for GLP-1 therapy. Best foods, protein targets, GI-friendly meals, foods to avoid, and meal frameworks for semaglutide and tirzepatide patients.",
   openGraph: {

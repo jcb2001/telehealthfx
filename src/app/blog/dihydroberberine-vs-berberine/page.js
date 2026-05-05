@@ -1,6 +1,9 @@
 import { BlogDihydroberberineVsBerberine } from "../../../components/blog-dihydroberberine-vs-berberine.jsx";
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/dihydroberberine-vs-berberine/',
+  },
   title: "Dihydroberberine (DHB) vs. Standard Berberine: The 5x Bioavailability Myth Explained",
   description: "A clinical breakdown of Dihydroberberine (DHB) vs standard Berberine. We analyze the pharmacokinetics and the 5x bioavailability marketing claims.",
   openGraph: {

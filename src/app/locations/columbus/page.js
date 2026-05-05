@@ -1,6 +1,9 @@
 import { LocationColumbus } from '../../../components/location-columbus';
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/locations/columbus/',
+  },
   title: "GLP-1 Weight Loss Prescriptions in Columbus | Telehealth FX",
   description: "Bypass the I-270 traffic and waitlists at OSU Wexner. Access FDA-compliant compounded Semaglutide and Tirzepatide prescribed by Ohio-licensed physicians.",
   openGraph: {

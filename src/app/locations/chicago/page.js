@@ -1,6 +1,9 @@
 import { LocationChicago } from '../../../components/location-chicago';
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/locations/chicago/',
+  },
   title: "GLP-1 Weight Loss Prescriptions in Chicago | Telehealth FX",
   description: "Bypass the Kennedy Expressway traffic and waitlists at Northwestern Medicine. Access FDA-compliant compounded Semaglutide and Tirzepatide prescribed by Illinois-licensed physicians.",
   openGraph: {

@@ -1,6 +1,9 @@
 import { LocationPortland } from '../../../components/location-portland';
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/locations/portland/',
+  },
   title: "GLP-1 Weight Loss Prescriptions in Portland | Telehealth FX",
   description: "Bypass the I-5 traffic and waitlists at OHSU. Access FDA-compliant compounded Semaglutide and Tirzepatide prescribed by Oregon-licensed physicians.",
   openGraph: {

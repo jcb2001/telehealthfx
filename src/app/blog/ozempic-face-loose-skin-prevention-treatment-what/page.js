@@ -1,6 +1,9 @@
 import { BlogOzempicFaceLooseSkinPreventionTreatmentWhat } from "../../../components/blog-ozempic-face-loose-skin-prevention-treatment-what.jsx";
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/ozempic-face-loose-skin-prevention-treatment-what/',
+  },
   title: "Ozempic Face & Loose Skin: Prevention and Treatment",
   description: "A rigid 7-step clinical framework to protect your collagen elasticity, and a realistic overview of post-weight-loss treatment options.",
   openGraph: {

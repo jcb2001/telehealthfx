@@ -1,6 +1,9 @@
 import { LocationDenver } from '../../../components/location-denver';
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/locations/denver/',
+  },
   title: "GLP-1 Weight Loss Prescriptions in Denver | Telehealth FX",
   description: "Bypass the I-25 traffic and waitlists at UCHealth. Access FDA-compliant compounded Semaglutide and Tirzepatide prescribed by Colorado-licensed physicians.",
   openGraph: {

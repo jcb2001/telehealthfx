@@ -1,6 +1,9 @@
 import { BlogBerberineExtraction } from "../../../components/blog-berberine-extraction.jsx";
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/berberine-extraction-process-purity-test/',
+  },
   title: "The Berberine Extraction Process: Why 90% of Supplements Fail the Purity Test",
   description: "A clinical breakdown of the Berberine extraction process. We analyze solvent residues, heavy metal contamination, and the limits of botanical purity.",
   openGraph: {

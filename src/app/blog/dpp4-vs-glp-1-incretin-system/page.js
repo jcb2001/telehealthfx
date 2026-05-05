@@ -1,6 +1,9 @@
 import { BlogDPP4VsGLP1 } from "../../../components/blog-dpp4-vs-glp-1-incretin-system.jsx";
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/dpp4-vs-glp-1-incretin-system/',
+  },
   title: "DPP-4 Inhibitors vs. GLP-1 Agonists: Understanding the Incretin System (2026 Guide)",
   description: "DPP-4 inhibitors vs GLP-1 agonists explained. How Januvia differs from Ozempic at the molecular level, why GLP-1 agonists produce superior weight loss and cardiovascular benefits.",
   openGraph: {

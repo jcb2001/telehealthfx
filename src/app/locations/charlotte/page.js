@@ -1,6 +1,9 @@
 import { LocationCharlotte } from '../../../components/location-charlotte';
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/locations/charlotte/',
+  },
   title: "GLP-1 Weight Loss Prescriptions in Charlotte | Telehealth FX",
   description: "Bypass the I-77 traffic and waitlists at Atrium Health. Access FDA-compliant compounded Semaglutide and Tirzepatide prescribed by NC-licensed physicians.",
   openGraph: {

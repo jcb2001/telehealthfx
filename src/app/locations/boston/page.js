@@ -1,6 +1,9 @@
 import { LocationBoston } from '../../../components/location-boston';
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/locations/boston/',
+  },
   title: "GLP-1 Weight Loss Prescriptions in Boston | Telehealth FX",
   description: "Bypass the Mass Pike traffic and waitlists at Mass General. Access FDA-compliant compounded Semaglutide and Tirzepatide prescribed by MA-licensed physicians.",
   openGraph: {

@@ -1,6 +1,9 @@
 import { BlogGlp1AndMentalHealthAnxietyDepressionFoodNo } from "../../../components/blog-glp-1-and-mental-health-anxiety-depression-food-no.jsx";
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/glp-1-and-mental-health-anxiety-depression-food-no/',
+  },
   title: "GLP-1 and Mental Health: Anxiety, Depression & Food Noise",
   description: "Explore the bidirectional link between obesity and depression, and how silencing 'food noise' creates profound shifts in psychological wellness.",
   openGraph: {

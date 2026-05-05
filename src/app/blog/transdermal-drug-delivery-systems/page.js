@@ -3,6 +3,9 @@ import { BlogTransdermalSystems } from "../../../components/blog-transdermal-dru
 export const metadata = {
   title: "Transdermal Drug Delivery Systems: Academic Overview | Telehealth FX",
   description: "A complete academic overview of transdermal drug delivery systems (TDDS), explaining formulation, permeation enhancers, and matrix patch technology.",
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/transdermal-drug-delivery-systems/',
+  },
 };
 
 export default function Page() {

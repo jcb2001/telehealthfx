@@ -1,6 +1,9 @@
 import { LocationSanDiego } from '../../../components/location-san-diego';
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/locations/san-diego/',
+  },
   title: "GLP-1 Weight Loss Prescriptions in San Diego | Telehealth FX",
   description: "Bypass the I-5 traffic and waitlists at Scripps Health. Access FDA-compliant compounded Semaglutide and Tirzepatide prescribed by California-licensed physicians.",
   openGraph: {

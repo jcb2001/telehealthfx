@@ -1,6 +1,9 @@
 import { LocationMilwaukee } from '../../../components/location-milwaukee';
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/locations/milwaukee/',
+  },
   title: "GLP-1 Weight Loss Prescriptions in Milwaukee | Telehealth FX",
   description: "Bypass the Marquette Interchange traffic and waitlists at Froedtert. Access FDA-compliant compounded Semaglutide and Tirzepatide prescribed by WI-licensed physicians.",
   openGraph: {

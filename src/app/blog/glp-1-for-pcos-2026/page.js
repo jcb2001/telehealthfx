@@ -1,6 +1,9 @@
 import { BlogGLP1ForPCOS } from "../../../components/blog-glp-1-for-pcos-2026.jsx";
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/glp-1-for-pcos-2026/',
+  },
   title: "GLP-1 for PCOS: How Semaglutide and Tirzepatide Are Changing Polycystic Ovary Syndrome Treatment",
   description: "How GLP-1 medications treat PCOS at the root cause. Insulin resistance, androgen reduction, fertility restoration, and GLP-1 vs metformin comparison for polycystic ovary syndrome.",
   openGraph: {

@@ -1,6 +1,9 @@
 import { LocationSeattle } from '../../../components/location-seattle';
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/locations/seattle/',
+  },
   title: "GLP-1 Weight Loss Prescriptions in Seattle | Telehealth FX",
   description: "Bypass the I-5 traffic and waitlists at UW Medicine. Access FDA-compliant compounded Semaglutide and Tirzepatide prescribed by Washington-licensed physicians.",
   openGraph: {

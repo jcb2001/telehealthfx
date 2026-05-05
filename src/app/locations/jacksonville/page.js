@@ -1,6 +1,9 @@
 import { LocationJacksonville } from '../../../components/location-jacksonville';
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/locations/jacksonville/',
+  },
   title: "GLP-1 Weight Loss Prescriptions in Jacksonville | Telehealth FX",
   description: "Bypass the I-95 traffic and waitlists at Baptist Health. Access FDA-compliant compounded Semaglutide and Tirzepatide prescribed by Florida-licensed physicians.",
   openGraph: {

@@ -1,6 +1,9 @@
 import { BlogCheapestCompoundedSemaglutide } from "../../../components/blog-cheapest-compounded-semaglutide-2026.jsx";
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/cheapest-compounded-semaglutide-2026/',
+  },
   title: "Cheapest Compounded Semaglutide Online in 2026: Real Prices Compared",
   description: "Real pricing comparison of compounded semaglutide providers in 2026. Hidden fees exposed, true monthly costs calculated, and safety checklist for choosing a provider.",
   openGraph: {

@@ -3,6 +3,12 @@ import { PressStrip, HowItWorks, Medications } from "../components/sections-1.js
 import { Results, Science, Pricing } from "../components/sections-2.jsx";
 import { FAQ } from "../components/sections-3.jsx";
 
+export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/',
+  },
+};
+
 export default function Home() {
   return (
     <>

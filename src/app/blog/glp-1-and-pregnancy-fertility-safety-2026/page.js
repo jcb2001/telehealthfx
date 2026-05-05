@@ -1,6 +1,9 @@
 import { BlogGLP1AndPregnancy } from "../../../components/blog-glp-1-and-pregnancy-fertility-safety-2026.jsx";
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/glp-1-and-pregnancy-fertility-safety-2026/',
+  },
   title: "GLP-1 Medications and Pregnancy: Fertility, the Ozempic Baby Phenomenon, and When to Stop",
   description: "GLP-1 and pregnancy safety guide. Ozempic babies explained, washout periods for semaglutide and tirzepatide, contraception interactions, and pre-conception planning strategies.",
   openGraph: {

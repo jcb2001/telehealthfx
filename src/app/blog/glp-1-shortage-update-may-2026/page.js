@@ -1,6 +1,9 @@
 import { BlogGLP1ShortageUpdate2026 } from "../../../components/blog-glp-1-shortage-update-may-2026.jsx";
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/glp-1-shortage-update-may-2026/',
+  },
   title: "The GLP-1 Shortage Update (May 2026): Which Medications Are Available Right Now?",
   description: "Real-time GLP-1 medication availability tracker for May 2026. Ozempic, Wegovy, Mounjaro, Zepbound shortage status, pharmacy tips, and alternative access pathways.",
   openGraph: {

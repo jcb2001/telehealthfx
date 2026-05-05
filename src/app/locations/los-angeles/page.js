@@ -1,6 +1,9 @@
 import { LocationLA } from '../../../components/location-la';
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/locations/los-angeles/',
+  },
   title: "GLP-1 Weight Loss Prescriptions in Los Angeles | Telehealth FX",
   description: "Bypass the 405 traffic and waitlists at Cedars-Sinai. Access FDA-compliant compounded Semaglutide and Tirzepatide prescribed by California-licensed physicians and shipped overnight anywhere in Los Angeles.",
   openGraph: {

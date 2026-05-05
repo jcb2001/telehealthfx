@@ -3,6 +3,9 @@ import { BlogBerberineTransdermalPatch } from "../../../components/blog-berberin
 export const metadata = {
   title: "The Berberine Transdermal Patch: Why Oral Pills Are Obsolete | Telehealth FX",
   description: "Learn how the berberine transdermal patch bypasses the liver and GI tract to deliver steady-state AMPK activation without the Berberine Belly.",
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/berberine-transdermal-patch/',
+  },
 };
 
 export default function Page() {

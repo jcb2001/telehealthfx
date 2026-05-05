@@ -1,6 +1,9 @@
 import { BlogBerberineVsOzempic } from "../../../components/blog-berberine-vs-ozempic.jsx";
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/berberine-vs-ozempic/',
+  },
   title: "Berberine vs Ozempic: The Complete Clinical Comparison & Weight Loss Guide",
   description: "Berberine vs Ozempic: Discover the clinical differences between AMPK activation and GLP-1 weight loss, and why transdermal and compounded delivery are better.",
   openGraph: {

@@ -1,6 +1,9 @@
 import { LocationMemphis } from '../../../components/location-memphis';
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/locations/memphis/',
+  },
   title: "GLP-1 Weight Loss Prescriptions in Memphis | Telehealth FX",
   description: "Bypass the I-240 traffic and waitlists at Baptist Memorial. Access FDA-compliant compounded Semaglutide and Tirzepatide prescribed by TN-licensed physicians.",
   openGraph: {

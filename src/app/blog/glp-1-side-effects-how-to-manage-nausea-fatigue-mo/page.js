@@ -1,6 +1,9 @@
 import { BlogGlp1SideEffectsHowToManageNauseaFatigueMo } from "../../../components/blog-glp-1-side-effects-how-to-manage-nausea-fatigue-mo.jsx";
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/glp-1-side-effects-how-to-manage-nausea-fatigue-mo/',
+  },
   title: "GLP-1 Side Effects: How to Manage Nausea, Fatigue & More",
   description: "The definitive clinical playbook for surviving the adaptation phase. Learn the 'Go Low and Slow' protocol, how to mitigate GI distress, and combat fatigue.",
   openGraph: {

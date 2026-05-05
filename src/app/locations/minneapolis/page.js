@@ -1,6 +1,9 @@
 import { LocationMinneapolis } from '../../../components/location-minneapolis';
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/locations/minneapolis/',
+  },
   title: "GLP-1 Weight Loss Prescriptions in Minneapolis | Telehealth FX",
   description: "Bypass winter waitlists and UnitedHealth Group formulary barriers. Access FDA-compliant compounded Semaglutide and Tirzepatide prescribed by Minnesota-licensed physicians.",
   openGraph: {

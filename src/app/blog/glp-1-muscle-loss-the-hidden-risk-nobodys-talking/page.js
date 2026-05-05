@@ -1,6 +1,9 @@
 import { BlogGlp1MuscleLossTheHiddenRiskNobodysTalking } from "../../../components/blog-glp-1-muscle-loss-the-hidden-risk-nobodys-talking.jsx";
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/glp-1-muscle-loss-the-hidden-risk-nobodys-talking/',
+  },
   title: "GLP-1 Muscle Loss: The Hidden Risk Nobody's Talking About (2026 Clinical Guide)",
   description: "Comprehensive clinical breakdown of glp-1 muscle loss: the hidden risk nobody's talking about (2026 clinical guide).",
   openGraph: {

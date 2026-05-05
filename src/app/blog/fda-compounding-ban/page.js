@@ -1,6 +1,9 @@
 import { BlogFDACompoundingBan } from "../../../components/blog-fda-compounding-ban.jsx";
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/fda-compounding-ban/',
+  },
   title: "FDA Proposes Banning Compounded Semaglutide: What It Means for Your GLP-1 Options in 2026",
   description: "The FDA has proposed banning compounded semaglutide from 503B facilities. Learn what this means for your GLP-1 options and how to navigate the 2026 telehealth landscape safely.",
   openGraph: {

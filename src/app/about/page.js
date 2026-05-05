@@ -1,6 +1,9 @@
 import About from '../../components/about.jsx';
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/about/',
+  },
   title: 'About TelehealthFX | Clinical Leadership & Mission',
   description: 'Meet Julian Mercer, Lead Bio-Systems Analyst, and learn about TelehealthFX\'s mission to provide safe, transparent, FDA-compliant clinical weight loss interventions.',
   openGraph: {

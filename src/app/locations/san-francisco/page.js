@@ -1,6 +1,9 @@
 import { LocationSanFrancisco } from '../../../components/location-san-francisco';
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/locations/san-francisco/',
+  },
   title: "GLP-1 Weight Loss Prescriptions in San Francisco | Telehealth FX",
   description: "Bypass the US-101 traffic and waitlists at UCSF. Access FDA-compliant compounded Semaglutide and Tirzepatide prescribed by California-licensed physicians.",
   openGraph: {

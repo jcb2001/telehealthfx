@@ -1,6 +1,9 @@
 import { BlogGlp1AndExerciseHowToCombineMedicationWith } from "../../../components/blog-glp-1-and-exercise-how-to-combine-medication-with.jsx";
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/glp-1-and-exercise-how-to-combine-medication-with/',
+  },
   title: "GLP-1 and Exercise: How to Combine Medication with Fitness (2026 Clinical Guide)",
   description: "Comprehensive clinical breakdown of glp-1 and exercise: how to combine medication with fitness (2026 clinical guide).",
   openGraph: {

@@ -1,6 +1,9 @@
 import { BlogTirzepatideWithoutDiabetes } from "../../../components/blog-tirzepatide-without-diabetes-2026.jsx";
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/tirzepatide-without-diabetes-2026/',
+  },
   title: "Can I Get Tirzepatide Without a Diabetes Diagnosis? (2026 Eligibility Guide)",
   description: "Yes — tirzepatide is available for weight loss without diabetes via Zepbound or compounded options. Full eligibility criteria, BMI requirements, and access pathways explained.",
   openGraph: {

@@ -1,6 +1,9 @@
 import { BlogSameDayGLP1 } from "../../../components/blog-same-day-glp-1-prescription-2026.jsx";
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/same-day-glp-1-prescription-2026/',
+  },
   title: "Same-Day GLP-1 Prescription Online: How Fast Can You Actually Start? (2026)",
   description: "How fast can you start GLP-1 therapy? Realistic timelines for telehealth vs traditional doctor visits. Same-day evaluations, 3-7 day delivery, no prior authorization.",
   openGraph: {

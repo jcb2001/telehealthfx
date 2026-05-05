@@ -1,6 +1,9 @@
 import { BlogWeightLossForWomenOver40HowGlp1CanHelp2 } from "../../../components/blog-weight-loss-for-women-over-40-how-glp-1-can-help-2.jsx";
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/weight-loss-for-women-over-40-how-glp-1-can-help-2/',
+  },
   title: "Weight Loss for Women Over 40: How GLP-1 Changes the Game",
   description: "Discover why 'eat less, move more' stops working after 40, and how modern GLP-1 therapy addresses the biological drivers of midlife weight gain.",
   openGraph: {

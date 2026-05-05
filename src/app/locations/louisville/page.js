@@ -1,6 +1,9 @@
 import { LocationLouisville } from '../../../components/location-louisville';
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/locations/louisville/',
+  },
   title: "GLP-1 Weight Loss Prescriptions in Louisville | Telehealth FX",
   description: "Bypass the Watterson Expressway traffic and waitlists at Norton Healthcare. Access FDA-compliant compounded Semaglutide and Tirzepatide prescribed by KY-licensed physicians.",
   openGraph: {

@@ -1,6 +1,9 @@
 import { LocationDallas } from '../../../components/location-dallas';
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/locations/dallas/',
+  },
   title: "GLP-1 Weight Loss Prescriptions in Dallas | Telehealth FX",
   description: "Bypass the US-75 traffic and waitlists at UT Southwestern. Access FDA-compliant compounded Semaglutide and Tirzepatide prescribed by Texas-licensed physicians.",
   openGraph: {

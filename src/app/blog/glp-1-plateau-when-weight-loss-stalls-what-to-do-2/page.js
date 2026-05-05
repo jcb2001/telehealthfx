@@ -1,6 +1,9 @@
 import { BlogGlp1PlateauWhenWeightLossStallsWhatToDo2 } from "../../../components/blog-glp-1-plateau-when-weight-loss-stalls-what-to-do-2.jsx";
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/glp-1-plateau-when-weight-loss-stalls-what-to-do-2/',
+  },
   title: "The GLP-1 Plateau: When Weight Loss Stalls & What to Do",
   description: "Break through your weight loss stall with a rigid 7-strategy framework targeting metabolic adaptation and behavioral drift.",
   openGraph: {

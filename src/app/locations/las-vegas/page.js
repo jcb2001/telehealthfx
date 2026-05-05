@@ -1,6 +1,9 @@
 import { LocationLasVegas } from '../../../components/location-las-vegas';
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/locations/las-vegas/',
+  },
   title: "GLP-1 Weight Loss Prescriptions in Las Vegas | Telehealth FX",
   description: "Bypass the I-15 traffic and waitlists at UMC. Access FDA-compliant compounded Semaglutide and Tirzepatide prescribed by Nevada-licensed physicians.",
   openGraph: {

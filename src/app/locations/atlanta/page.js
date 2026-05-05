@@ -1,6 +1,9 @@
 import { LocationAtlanta } from '../../../components/location-atlanta';
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/locations/atlanta/',
+  },
   title: "GLP-1 Weight Loss Prescriptions in Atlanta | Telehealth FX",
   description: "Access FDA-compliant compounded Semaglutide and Tirzepatide prescribed by Georgia-licensed physicians.",
   openGraph: {

@@ -1,6 +1,9 @@
 import { LocationTampa } from '../../../components/location-tampa';
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/locations/tampa/',
+  },
   title: "GLP-1 Weight Loss Prescriptions in Tampa | Telehealth FX",
   description: "Bypass snowbird-season waitlists and MacDill AFB TRICARE delays. Access FDA-compliant compounded Semaglutide and Tirzepatide prescribed by Florida-licensed physicians.",
   openGraph: {

@@ -1,6 +1,9 @@
 import { BlogYourFirst90DaysOnGlp1WeekByWeekWhatToE } from "../../../components/blog-your-first-90-days-on-glp-1-week-by-week-what-to-e.jsx";
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/your-first-90-days-on-glp-1-week-by-week-what-to-e/',
+  },
   title: "Your First 90 Days on GLP-1: Week-by-Week What to Expect (2026 Clinical Guide)",
   description: "Comprehensive clinical breakdown of your first 90 days on glp-1: week-by-week what to expect (2026 clinical guide).",
   openGraph: {

@@ -1,6 +1,9 @@
 import { LocationDetroit } from '../../../components/location-detroit';
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/locations/detroit/',
+  },
   title: "GLP-1 Weight Loss Prescriptions in Detroit | Telehealth FX",
   description: "Bypass the I-75 traffic and waitlists at Henry Ford Health. Access FDA-compliant compounded Semaglutide and Tirzepatide prescribed by MI-licensed physicians.",
   openGraph: {

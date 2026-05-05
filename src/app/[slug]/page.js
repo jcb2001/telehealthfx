@@ -30,7 +30,10 @@ export async function generateMetadata({ params }) {
 
   return {
     title: seoData.title,
-    description: seoData.desc
+    description: seoData.desc,
+    alternates: {
+      canonical: `https://telehealthfx.com/${slug}/`,
+    }
   };
 }
 

@@ -1,6 +1,9 @@
 import { BlogBerberineForPcosWhatTheResearchActuallySays } from "../../../components/blog-berberine-for-pcos-what-the-research-actually-says.jsx";
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/berberine-for-pcos-what-the-research-actually-says/',
+  },
   title: "Berberine for PCOS: What the Clinical Research Actually Says",
   description: "A clinical review of how Berberine addresses the root cause of PCOS: severe insulin resistance. Discover how AMPK activation compares to Metformin.",
   openGraph: {

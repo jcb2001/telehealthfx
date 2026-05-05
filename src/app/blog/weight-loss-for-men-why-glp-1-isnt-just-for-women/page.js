@@ -1,6 +1,9 @@
 import { BlogWeightLossForMenWhyGlp1IsntJustForWomen } from "../../../components/blog-weight-loss-for-men-why-glp-1-isnt-just-for-women.jsx";
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/weight-loss-for-men-why-glp-1-isnt-just-for-women/',
+  },
   title: "Weight Loss for Men: Why GLP-1 Isn't Just for Women",
   description: "A clinical guide explaining how visceral fat destroys male testosterone, and why GLP-1 is a targeted intervention for men's cardiovascular health.",
   openGraph: {

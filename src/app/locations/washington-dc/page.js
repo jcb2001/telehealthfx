@@ -1,6 +1,9 @@
 import { LocationWashingtonDC } from '../../../components/location-washington-dc';
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/locations/washington-dc/',
+  },
   title: "GLP-1 Weight Loss Prescriptions in Washington D.C. | Telehealth FX",
   description: "Bypass the Beltway traffic and waitlists at MedStar Health. Access FDA-compliant compounded Semaglutide and Tirzepatide prescribed by licensed physicians.",
   openGraph: {

@@ -1,5 +1,8 @@
 import { BlogCompoundedVsWegovy } from "../../../components/blog-compounded-semaglutide-vs-wegovy-2026.jsx";
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/compounded-semaglutide-vs-wegovy-2026/',
+  },
   title: "Compounded Semaglutide vs Wegovy Self-Pay: Which Saves You More in 2026?",
   description: "Head-to-head comparison of compounded semaglutide vs branded Wegovy self-pay. Cost breakdown, 12-month savings analysis, pros/cons, and when each option makes sense.",
   openGraph: { title: "Compounded Semaglutide vs Wegovy: 2026 Cost Comparison", description: "Same molecule, up to 90% savings. Complete side-by-side analysis.", images: [{ url: "https://telehealthfx.com/assets/compounded-semaglutide-vs-wegovy-featured.png", width: 1200, height: 630, alt: "Compounded vs Wegovy" }] },

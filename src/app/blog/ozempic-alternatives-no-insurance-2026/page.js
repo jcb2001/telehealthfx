@@ -1,6 +1,9 @@
 import { BlogOzempicAlternativesNoInsurance } from "../../../components/blog-ozempic-alternatives-no-insurance-2026.jsx";
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/ozempic-alternatives-no-insurance-2026/',
+  },
   title: "Ozempic Alternatives That Don't Require Insurance: Every Option Ranked (2026)",
   description: "Every Ozempic alternative available without insurance in 2026, ranked by efficacy and cost. Compounded semaglutide, tirzepatide, Zepbound vials, oral options, and more.",
   openGraph: {

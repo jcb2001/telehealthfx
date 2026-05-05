@@ -1,6 +1,9 @@
 import { LocationMiami } from '../../../components/location-miami';
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/locations/miami/',
+  },
   title: "GLP-1 Weight Loss Prescriptions in Miami | Telehealth FX",
   description: "Access FDA-compliant compounded Semaglutide and Tirzepatide prescribed by Florida-licensed physicians.",
   openGraph: {

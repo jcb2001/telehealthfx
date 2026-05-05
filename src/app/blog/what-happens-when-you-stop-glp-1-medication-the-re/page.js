@@ -1,6 +1,9 @@
 import { BlogWhatHappensWhenYouStopGlp1MedicationTheRe } from "../../../components/blog-what-happens-when-you-stop-glp-1-medication-the-re.jsx";
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/what-happens-when-you-stop-glp-1-medication-the-re/',
+  },
   title: "What Happens When You Stop GLP-1 Medication? The Rebound Effect",
   description: "Explore the biological mechanisms of the GLP-1 rebound effect, the return of food noise, and the clinical playbook for long-term weight maintenance.",
   openGraph: {

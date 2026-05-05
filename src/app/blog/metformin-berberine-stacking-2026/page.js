@@ -1,6 +1,9 @@
 import { BlogMetforminBerberineStacking } from "../../../components/blog-metformin-berberine-stacking-2026.jsx";
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/metformin-berberine-stacking-2026/',
+  },
   title: "Metformin + Berberine Stacking: Synergy or Dangerous Overlap? (2026 Clinical Review)",
   description: "Can you safely combine metformin and berberine? AMPK pathway analysis, lactic acidosis risk, drug interactions, and the safer GLP-1 alternative stack for metabolic optimization.",
   openGraph: {

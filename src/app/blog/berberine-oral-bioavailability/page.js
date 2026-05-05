@@ -3,6 +3,9 @@ import { BlogBerberineOralBioavailability } from "../../../components/blog-berbe
 export const metadata = {
   title: "Berberine Oral Bioavailability: Evidence Against Oral Pills | Telehealth FX",
   description: "A complete evidence review on why berberine oral bioavailability is less than 1% and why transdermal patches are the clinical standard.",
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/berberine-oral-bioavailability/',
+  },
 };
 
 export default function Page() {

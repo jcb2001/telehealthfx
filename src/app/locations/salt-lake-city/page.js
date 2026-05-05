@@ -1,6 +1,9 @@
 import { LocationSaltLakeCity } from '../../../components/location-salt-lake-city';
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/locations/salt-lake-city/',
+  },
   title: "GLP-1 Weight Loss Prescriptions in Salt Lake City | Telehealth FX",
   description: "Access FDA-compliant compounded Semaglutide and Tirzepatide prescribed by Utah-licensed physicians.",
   openGraph: {

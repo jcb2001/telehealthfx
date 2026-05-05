@@ -1,6 +1,9 @@
 import { LocationCincinnati } from '../../../components/location-cincinnati';
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/locations/cincinnati/',
+  },
   title: "GLP-1 Weight Loss Prescriptions in Cincinnati | Telehealth FX",
   description: "Access FDA-compliant compounded Semaglutide and Tirzepatide prescribed by Ohio-licensed physicians.",
   openGraph: {

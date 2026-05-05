@@ -1,6 +1,9 @@
 import { LocationIndianapolis } from '../../../components/location-indianapolis';
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/locations/indianapolis/',
+  },
   title: "GLP-1 Weight Loss Prescriptions in Indianapolis | Telehealth FX",
   description: "Bypass the I-465 traffic and waitlists at IU Health. Access FDA-compliant compounded Semaglutide and Tirzepatide prescribed by Indiana-licensed physicians.",
   openGraph: {

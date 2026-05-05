@@ -1,6 +1,9 @@
 import { BlogIntermittentFastingGlp1DoTheyWorkTogether2 } from "../../../components/blog-intermittent-fasting-glp-1-do-they-work-together-2.jsx";
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/intermittent-fasting-glp-1-do-they-work-together-2/',
+  },
   title: "Intermittent Fasting + GLP-1: Do They Work Together? (2026 Clinical Guide)",
   description: "Comprehensive clinical breakdown of intermittent fasting + glp-1: do they work together? (2026 clinical guide).",
   openGraph: {

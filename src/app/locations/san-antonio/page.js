@@ -1,6 +1,9 @@
 import { LocationSanAntonio } from '../../../components/location-san-antonio';
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/locations/san-antonio/',
+  },
   title: "GLP-1 Weight Loss Prescriptions in San Antonio | Telehealth FX",
   description: "Bypass the Loop 1604 traffic and waitlists at UT Health San Antonio. Access FDA-compliant compounded Semaglutide and Tirzepatide prescribed by Texas-licensed physicians.",
   openGraph: {

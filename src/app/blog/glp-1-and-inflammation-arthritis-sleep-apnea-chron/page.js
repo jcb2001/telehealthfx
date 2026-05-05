@@ -1,6 +1,9 @@
 import { BlogGlp1AndInflammationArthritisSleepApneaChron } from "../../../components/blog-glp-1-and-inflammation-arthritis-sleep-apnea-chron.jsx";
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/glp-1-and-inflammation-arthritis-sleep-apnea-chron/',
+  },
   title: "GLP-1 and Inflammation: Arthritis, Sleep Apnea & Chronic Pain (2026 Clinical Guide)",
   description: "Comprehensive clinical breakdown of glp-1 and inflammation: arthritis, sleep apnea & chronic pain (2026 clinical guide).",
   openGraph: {

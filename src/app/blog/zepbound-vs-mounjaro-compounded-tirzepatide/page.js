@@ -1,6 +1,9 @@
 import { BlogZepboundVsMounjaroCompounded } from "../../../components/blog-zepbound-vs-mounjaro-compounded-tirzepatide.jsx";
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/zepbound-vs-mounjaro-compounded-tirzepatide/',
+  },
   title: "Zepbound vs. Mounjaro vs. Compounded Tirzepatide: Brand vs. Generic in 2026",
   description: "Compare Zepbound, Mounjaro, and compounded tirzepatide in 2026. Pricing, insurance, FDA status, and which tirzepatide pathway is right for your weight loss or diabetes goals.",
   openGraph: {

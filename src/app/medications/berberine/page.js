@@ -3,6 +3,9 @@ import { BerberineMedicinePage } from "../../../components/medicine-berberine.js
 export const metadata = {
   title: "Berberine Transdermal Patches | 24-Hour Metabolic Support | Telehealth FX",
   description: "Medical-grade Berberine transdermal patches for 24-hour AMPK activation. Bypass oral bioavailability issues, zero stomach side effects. Evidence-based metabolic support for weight loss, insulin resistance, and PCOS.",
+  alternates: {
+    canonical: 'https://telehealthfx.com/medications/berberine/',
+  },
 };
 
 export default function Page() {

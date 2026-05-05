@@ -1,6 +1,9 @@
 import { BlogIsCompoundedSemaglutideSafeWhatYouNeedToKn } from "../../../components/blog-is-compounded-semaglutide-safe-what-you-need-to-kn.jsx";
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/is-compounded-semaglutide-safe-what-you-need-to-kn/',
+  },
   title: "Is Compounded Semaglutide Safe? What You Need to Know",
   description: "A clinical review of the FDA regulations on compounding pharmacies. Understand the severe risks of unverified 'salt forms' and research peptides.",
   openGraph: {

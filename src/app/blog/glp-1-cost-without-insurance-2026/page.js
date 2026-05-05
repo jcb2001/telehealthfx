@@ -1,6 +1,9 @@
 import { BlogGLP1CostWithoutInsurance } from "../../../components/blog-glp-1-cost-without-insurance-2026.jsx";
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/glp-1-cost-without-insurance-2026/',
+  },
   title: "How Much Does GLP-1 Cost Without Insurance in 2026? The Real Price Breakdown",
   description: "Compare GLP-1 medication costs without insurance in 2026. Ozempic, Wegovy, Mounjaro, Zepbound, and compounded alternatives—real prices, hidden fees exposed, and savings strategies.",
   openGraph: {

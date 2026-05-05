@@ -1,6 +1,9 @@
 import { LocationHouston } from '../../../components/location-houston';
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/locations/houston/',
+  },
   title: "GLP-1 Weight Loss Prescriptions in Houston | Telehealth FX",
   description: "Bypass the I-10 traffic and waitlists at Houston Methodist. Access FDA-compliant compounded Semaglutide and Tirzepatide prescribed by Texas-licensed physicians.",
   openGraph: {

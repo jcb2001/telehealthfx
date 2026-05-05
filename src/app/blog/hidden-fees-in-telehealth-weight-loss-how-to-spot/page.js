@@ -1,6 +1,9 @@
 import { BlogHiddenFeesInTelehealthWeightLossHowToSpot } from "../../../components/blog-hidden-fees-in-telehealth-weight-loss-how-to-spot.jsx";
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot/',
+  },
   title: "Hidden Fees in Telehealth Weight Loss: How to Spot Them (2026 Clinical Guide)",
   description: "Comprehensive clinical breakdown of hidden fees in telehealth weight loss: how to spot them (2026 clinical guide).",
   openGraph: {

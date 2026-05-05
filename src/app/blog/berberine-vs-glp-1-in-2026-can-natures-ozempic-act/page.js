@@ -1,6 +1,9 @@
 import { BlogBerberineVsGlp1In2026CanNaturesOzempicAct } from "../../../components/blog-berberine-vs-glp-1-in-2026-can-natures-ozempic-act.jsx";
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/berberine-vs-glp-1-in-2026-can-natures-ozempic-act/',
+  },
   title: "Berberine vs. GLP-1 in 2026: Can 'Nature's Ozempic' Actually Compete?",
   description: "We deconstruct the 'Nature's Ozempic' hype, analyzing the AMPK metabolic master switch, bioavailability, and head-to-head clinical efficacy against Semaglutide.",
   openGraph: {

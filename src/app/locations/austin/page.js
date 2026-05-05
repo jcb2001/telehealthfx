@@ -1,6 +1,9 @@
 import { LocationAustin } from '../../../components/location-austin';
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/locations/austin/',
+  },
   title: "GLP-1 Weight Loss Prescriptions in Austin | Telehealth FX",
   description: "Bypass the I-35 traffic and waitlists at Ascension Seton. Access FDA-compliant compounded Semaglutide and Tirzepatide prescribed by Texas-licensed physicians.",
   openGraph: {

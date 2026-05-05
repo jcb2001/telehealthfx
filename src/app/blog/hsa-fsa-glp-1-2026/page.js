@@ -1,6 +1,9 @@
 import { BlogHSAFSAGLP1 } from "../../../components/blog-hsa-fsa-glp-1-2026.jsx";
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/hsa-fsa-glp-1-2026/',
+  },
   title: "Telehealth Weight Loss Programs That Accept HSA/FSA in 2026",
   description: "How to pay for GLP-1 medication with HSA or FSA pre-tax dollars. Eligible expenses, tax savings calculator, and FSA deadline strategies for semaglutide and tirzepatide.",
   openGraph: {

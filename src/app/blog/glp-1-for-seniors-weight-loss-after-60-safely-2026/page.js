@@ -1,6 +1,9 @@
 import { BlogGlp1ForSeniorsWeightLossAfter60Safely2026 } from "../../../components/blog-glp-1-for-seniors-weight-loss-after-60-safely-2026.jsx";
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/glp-1-for-seniors-weight-loss-after-60-safely-2026/',
+  },
   title: "GLP-1 for Seniors: Weight Loss After 60 Safely",
   description: "Understand the hidden dangers of 'sarcopenic obesity' and the strict clinical framework required to protect your bone density during weight loss.",
   openGraph: {

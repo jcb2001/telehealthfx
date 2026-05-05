@@ -1,6 +1,9 @@
 import { LocationNewYork } from '../../../components/location-new-york';
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/locations/new-york/',
+  },
   title: "GLP-1 Weight Loss Prescriptions in New York | Telehealth FX",
   description: "Access FDA-compliant compounded Semaglutide and Tirzepatide prescribed by New York-licensed physicians.",
   openGraph: {

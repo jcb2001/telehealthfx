@@ -1,6 +1,9 @@
 import { BlogGetSemaglutideOnline } from "../../../components/blog-get-semaglutide-online-2026.jsx";
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/get-semaglutide-online-2026/',
+  },
   title: "How to Get Semaglutide Online Without Seeing a Doctor in Person (2026 Guide)",
   description: "Step-by-step guide to getting semaglutide online in 2026. Telehealth process, red flags to avoid, branded vs compounded options, and how to start GLP-1 therapy from home.",
   openGraph: {
