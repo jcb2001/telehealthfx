@@ -1,0 +1,42 @@
+"use client";
+import React from 'react';
+import { HeroVariationA, PatientArchetype, ClinicalDeepDive, InsuranceBreakdown, CostComparisonTable, LocalTransitPain, InteractiveFAQ, StateLegalFramework, DeliveryGridMap, FinalCTA } from './location-modules.jsx';
+export function LocationAnchorage() {
+  return (
+    <div style={{ background: '#FBF8F3', overflow: 'hidden' }}>
+      <HeroVariationA stateName="Alaska" cityName="Anchorage" headline="Clinical GLP-1 Weight Loss in <br/><span style='color: #2ECC71'>Anchorage</span>" subheadline="Anchorage is the most geographically isolated major city in the United States. The nearest specialist outside Alaska is in Seattle—2,400 miles away. Winter darkness lasts 18 hours. The food supply chain adds 30% to grocery costs. If telehealth was designed for any city, it was designed for Anchorage." ctaText="Check Alaska Eligibility" />
+      <PatientArchetype archetype="The JBER Air Force Civil Engineer" quote="I'm stationed at Joint Base Elmendorf-Richardson maintaining runway infrastructure in -30°F. My body burns calories just staying warm, but I replace them with whatever's hot and fast at the DFAC. TRICARE wants me to see a specialist—but JBER's clinic has a 20-week wait, and the civilian options in Anchorage aren't much better. My only alternative is a medevac-style flight to Seattle. For weight management. That's insane." details="<strong>Patient Profile:</strong> SSgt Davis, 31, Civil Engineer, JBER (Joint Base Elmendorf-Richardson).<br/><br/><strong>The Challenge:</strong> SSgt Davis maintains critical runway infrastructure in extreme Arctic conditions. The physical demands are intense but the caloric replacement pattern is metabolically hostile—high-carb, high-fat DFAC food consumed in massive quantities to compensate for cold-exposure energy expenditure. TRICARE specialist access at JBER is severely limited, and civilian alternatives in Anchorage have comparable waitlists. The 'alternative' is a flight to Seattle.<br/><br/><strong>The Intervention:</strong> SSgt Davis completed the Telehealth FX intake from his apartment on base. An Alaska-licensed physician prescribed compounded Semaglutide within 24 hours. Medication shipped with cold-chain-rated insulated packaging rated for -40°F delivery conditions." />
+      <ClinicalDeepDive title="The Last Frontier's Metabolic Isolation" paragraphs={[
+        "Anchorage is not just geographically isolated—it is metabolically isolated. The city experiences 18+ hours of darkness during winter solstice, driving Seasonal Affective Disorder at rates that dwarf even Minneapolis. The SAD-carbohydrate craving cycle is amplified by a food environment where fresh produce costs 30-50% more than the Lower 48 due to supply chain logistics, and where the cultural food traditions lean heavily on wild game, preserved foods, and the high-calorie fare that sustained Alaska's frontier communities.",
+        "The healthcare system reflects the isolation. Providence Alaska Medical Center is the state's largest hospital, supplemented by the Alaska Native Medical Center. Together they serve not just Anchorage but much of the state, including medevac patients from remote villages. The result is specialist capacity that is chronically overwhelmed. Endocrinology waitlists in Anchorage average 16-24 weeks—among the longest in the nation.",
+        "The military presence at JBER (Joint Base Elmendorf-Richardson) adds 13,000+ service members and their families to the healthcare demand. TRICARE referrals compete with civilian patients for the same limited specialist pool. Some military families are referred to specialists in Seattle—requiring a 3.5-hour flight.",
+        "The extreme cold creates a unique physiological dimension. Cold exposure increases basal metabolic rate, but the compensatory caloric intake typically exceeds the additional burn. Combined with the near-total elimination of outdoor exercise from October through April and the psychological effects of extended darkness, Anchorage's metabolic environment is the most extreme in this network.",
+        "GLP-1 medications are arguably more necessary in Anchorage than in any other American city. They provide clinical metabolic intervention in a place where the environment, the food supply chain, the darkness, and the healthcare isolation all conspire against metabolic health."
+      ]} citations={[
+        "Alaska Department of Health. (2025). <em>Alaska Health Assessment: Obesity, Mental Health, and Healthcare Access</em>.",
+        "Providence Alaska Medical Center. (2024). <em>Specialist Capacity and Patient Access in the Anchorage Service Area</em>.",
+        "Arctic Journal of Medicine. (2024). <em>Extended Photoperiod Deprivation, Cold Exposure, and Metabolic Adaptation in Subarctic Urban Populations</em>."
+      ]} />
+      <InsuranceBreakdown title="TRICARE, JBER, and the Alaska Premium" text="Anchorage's insurance landscape is shaped by military TRICARE, Alaska-specific premium costs, and limited provider networks." employers={[
+        { name: "JBER (TRICARE Prime/Select)", detail: "13,000+ service members and families compete for JBER clinic appointments and civilian specialist referrals. The alternative is a flight to Seattle for specialist care—a 'solution' that is logistically absurd for routine metabolic management." },
+        { name: "ConocoPhillips / BP / Hilcorp (Oil Industry)", detail: "Alaska's oil industry offers corporate plans, but the limited Anchorage specialist network creates the same access bottleneck regardless of insurance quality." },
+        { name: "Providence Alaska / Alaska Native Medical Center", detail: "The state's two major hospitals serve as both employers and the primary specialist source, with capacity stretched thin by statewide referrals." }
+      ]} />
+      <CostComparisonTable title="What Weight Loss Actually Costs in Anchorage" localCompetitors={[
+        { name: "Hillside / South Anchorage Concierge", cost: "$900 - $1,400 / mo", consult: "Mandatory In-Person", access: "Branded Only / Supply Limited" },
+        { name: "Midtown MedSpas", cost: "$500 - $800 / mo", consult: "Monthly Membership", access: "Variable Compounding" },
+        { name: "Providence Endocrinology", cost: "$150 Copay + Rx", consult: "16-24 Week Wait", access: "Formulary Restrictions" }
+      ]} telehealthPrice="From $146 / mo" />
+      <LocalTransitPain title="There Is No Alternative Hospital" transitText="Anchorage has no freeway congestion problem—because there's nowhere else to go. The Glenn Highway connects to the Mat-Su Valley. The Seward Highway connects to the Kenai Peninsula. There is no neighboring city with a competing medical system. Providence Alaska Medical Center is it." hospitalText="<strong>Providence Alaska Medical Center</strong> and <strong>Alaska Native Medical Center</strong> are the only major hospitals. The nearest alternative is in <strong>Seattle—2,400 miles and a 3.5-hour flight away</strong>." />
+      <InteractiveFAQ faqs={[
+        { q: "Will the medication survive shipping to Alaska in winter?", a: "Yes. Our compounding pharmacy partners use insulated, temperature-controlled packaging rated for extreme cold (-40°F). We recommend retrieving packages promptly upon delivery." },
+        { q: "I'm stationed at JBER. Will this affect my readiness status?", a: "No. GLP-1 medications are not controlled substances. Telehealth FX is independent of TRICARE and your military medical record." },
+        { q: "Is there an additional shipping cost for Alaska?", a: "No. Delivery to all Alaska addresses is included in the standard program cost." },
+        { q: "Do you serve the Mat-Su Valley and Kenai Peninsula?", a: "Yes. We deliver to all Alaska addresses including Wasilla, Palmer, Soldotna, Kenai, and Fairbanks." }
+      ]} />
+      <StateLegalFramework stateName="Alaska" boardName="Alaska State Medical Board" text="Telehealth FX operates in strict compliance with the <strong>Alaska State Medical Board</strong> and Alaska Statute § 08.64. All prescribers treating Alaska patients hold active, unrestricted Alaska medical licenses." />
+      <DeliveryGridMap cityName="Anchorage" mapQuery="Anchorage, AK" coordinates="61.2181° N, 149.9003° W" counties="Municipality of Anchorage, Matanuska-Susitna Borough" neighborhoods={['Hillside', 'Midtown', 'South Anchorage', 'Eagle River', 'Wasilla', 'Palmer', 'JBER']} />
+      <FinalCTA stateName="Alaska" />
+    </div>
+  );
+}
