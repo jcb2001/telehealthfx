@@ -14,8 +14,8 @@ function Nav() {
   }, []);
   return (
     <nav style={{
-      position: 'sticky', top: 0, zIndex: 50,
-      background: scrolled ? 'rgba(245, 241, 234, 0.85)' : 'transparent',
+      position: 'relative', zIndex: 50,
+      background: scrolled ? 'rgba(245, 241, 234, 0.85)' : 'rgba(245, 241, 234, 1)',
       backdropFilter: scrolled ? 'blur(12px)' : 'none',
       borderBottom: scrolled ? '1px solid var(--line-soft)' : '1px solid transparent',
       transition: 'all .3s ease',
