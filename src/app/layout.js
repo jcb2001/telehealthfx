@@ -1,6 +1,7 @@
 import "./globals.css";
 import { Nav } from "../components/hero.jsx";
 import { Footer } from "../components/sections-3.jsx";
+import { AnnouncementBar } from "../components/announcement-bar.jsx";
 
 export const metadata = {
   title: "Telehealth FX — GLP-1 clinical weight loss, delivered.",
@@ -215,6 +216,7 @@ export default function RootLayout({ children }) {
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(masterSchema) }} />
       </head>
       <body>
+        <AnnouncementBar />
         <Nav />
         <main>{children}</main>
         <Footer />
