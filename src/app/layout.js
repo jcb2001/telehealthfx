@@ -216,10 +216,11 @@ export default function RootLayout({ children }) {
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(masterSchema) }} />
       </head>
       <body>
-        <div style={{ position: 'sticky', top: 0, zIndex: 50 }}>
+        <div style={{ position: 'fixed', top: 0, left: 0, right: 0, zIndex: 50 }}>
           <AnnouncementBar />
           <Nav />
         </div>
+        <div style={{ height: 112 }} />
         <main>{children}</main>
         <Footer />
       </body>
