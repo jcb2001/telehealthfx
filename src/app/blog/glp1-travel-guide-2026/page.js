@@ -1,0 +1,3 @@
+import { BlogGLP1TravelGuide } from "../../../components/blog-glp1-travel-guide-2026.jsx";
+export const metadata = { title: "Traveling with GLP-1: Flying, Storage & Staying on Protocol Abroad", description: "Complete guide to traveling with semaglutide and tirzepatide — TSA rules, temperature storage, international travel, and essential travel kit checklist." };
+export default function Page() { const j = { "@context": "https://schema.org", "@type": "MedicalWebPage", "headline": "GLP-1 Travel Guide", "author": { "@type": "Person", "name": "Julian Mercer, M.S." }, "publisher": { "@type": "Organization", "name": "Telehealth FX" } }; return (<><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(j) }} /><BlogGLP1TravelGuide /></>); }

@@ -1,0 +1,3 @@
+import { BlogSemaglutideFaceAging } from "../../../components/blog-semaglutide-face-aging-2026.jsx";
+export const metadata = { title: "Ozempic Face: Why GLP-1 Ages Your Face & 8-Step Prevention Protocol", description: "Ozempic Face explained — why rapid GLP-1 weight loss causes facial volume loss and the 8-step prevention protocol with treatment options." };
+export default function Page() { const j = { "@context": "https://schema.org", "@type": "MedicalWebPage", "headline": "Ozempic Face Prevention", "author": { "@type": "Person", "name": "Julian Mercer, M.S." }, "publisher": { "@type": "Organization", "name": "Telehealth FX" } }; return (<><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(j) }} /><BlogSemaglutideFaceAging /></>); }
