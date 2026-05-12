@@ -189,6 +189,23 @@ function Medications() {
       ],
     },
     {
+      name: 'Metformin',
+      tag: 'Longevity',
+      tagType: 'brand',
+      price: '39',
+      intro: 'The world\'s most studied anti-aging medication — prescribed online for metabolic optimization, insulin sensitivity, and healthy aging.',
+      avg: 'Metabolic Health',
+      avgSub: 'Primary Benefit',
+      ctaUrl: 'https://go.telehealthfx.com/metformin',
+      ctaLabel: 'Learn More',
+      features: [
+        'AMPK activation & mTOR suppression',
+        'Physician-guided 500mg protocol',
+        'Free discreet shipping',
+        '60+ years of clinical safety data',
+      ],
+    },
+    {
       name: 'Berberine',
       tag: 'Natural AMPK',
       tagType: 'brand',
