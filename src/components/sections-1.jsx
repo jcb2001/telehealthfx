@@ -155,6 +155,23 @@ function Medications() {
       ],
     },
     {
+      name: 'Enclomiphene',
+      tag: 'Oral TRT',
+      tagType: 'accent',
+      price: '89',
+      intro: 'Boost your body\'s own testosterone up to 2.5x — no injections, no creams, no fertility suppression. The future of TRT.',
+      avg: 'Natural T Boost',
+      avgSub: 'Primary Benefit',
+      ctaUrl: 'https://go.telehealthfx.com/enclomiphene',
+      ctaLabel: 'Learn More',
+      features: [
+        'Up to 2.5x natural testosterone increase',
+        'Preserves fertility & testicular function',
+        'Daily oral capsule — no injections',
+        'Free discreet shipping',
+      ],
+    },
+    {
       name: 'ED Treatment',
       tag: 'Sexual Wellness',
       tagType: 'accent',
