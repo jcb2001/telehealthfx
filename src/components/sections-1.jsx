@@ -155,6 +155,23 @@ function Medications() {
       ],
     },
     {
+      name: 'ED Treatment',
+      tag: 'Sexual Wellness',
+      tagType: 'accent',
+      price: '19',
+      intro: 'Discreet, affordable ED medication — Sildenafil, Tadalafil, and custom compounds prescribed online and shipped in plain packaging.',
+      avg: 'Sexual Performance',
+      avgSub: 'Primary Benefit',
+      ctaUrl: 'https://go.telehealthfx.com/ed',
+      ctaLabel: 'Learn More',
+      features: [
+        'Sildenafil, Tadalafil, or custom compound',
+        '100% online & discreet',
+        'Free shipping in plain packaging',
+        '24-hour clinician approval',
+      ],
+    },
+    {
       name: 'Berberine',
       tag: 'Natural AMPK',
       tagType: 'brand',
