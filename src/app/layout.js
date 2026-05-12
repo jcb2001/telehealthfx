@@ -218,11 +218,11 @@ export default function RootLayout({ children }) {
       </head>
       <body>
         <GoogleAnalytics gaId="G-Z7XPF8WRQ8" />
-        <div style={{ position: 'fixed', top: 0, left: 0, right: 0, zIndex: 50 }}>
+        <div id="root-header" style={{ position: 'fixed', top: 0, left: 0, right: 0, zIndex: 50 }}>
           <AnnouncementBar />
           <Nav />
         </div>
-        <div style={{ height: 112 }} />
+        <div id="root-header-spacer" style={{ height: 112 }} />
         <main>{children}</main>
         <Footer />
       </body>

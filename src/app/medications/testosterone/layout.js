@@ -3,10 +3,10 @@ import { TestosteroneNav } from "../../../components/medicine-testosterone.jsx";
 export default function TestosteroneLayout({ children }) {
   return (
     <>
-      {/* Override the fixed header from root layout: hide the GLP-1 bar + default nav */}
+      {/* Hide the root GLP-1 header + spacer, replace with TRT nav */}
       <style>{`
-        body > div:first-of-type { display: none !important; }
-        body > div:nth-of-type(2) { height: 0 !important; }
+        #root-header { display: none !important; }
+        #root-header-spacer { display: none !important; }
       `}</style>
 
       {/* Standalone TRT header — no announcement bar */}
