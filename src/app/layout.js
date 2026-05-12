@@ -7,6 +7,17 @@ import { GoogleAnalytics } from "@next/third-parties/google";
 export const metadata = {
   title: "Telehealth FX — GLP-1 clinical weight loss, delivered.",
   description: "GLP-1 clinical weight loss, delivered to your door. Get Semaglutide and Tirzepatide prescribed with 24-hour approval and transparent pricing.",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
 };
 
 export default function RootLayout({ children }) {
