@@ -185,6 +185,15 @@ function TestosteronePage() {
           </a>
         </div>
 
+        {/* Featured Image */}
+        <div style={{ marginBottom: 48, borderRadius: 20, overflow: 'hidden', aspectRatio: '16/9' }}>
+          <img
+            src="/assets/trt-hero.png"
+            alt="Athletic confident man after workout — testosterone replacement therapy restores energy, strength, and vitality"
+            style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center top' }}
+          />
+        </div>
+
         {/* Trust Strip */}
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 24, marginBottom: 80 }}>
           {[
