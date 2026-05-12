@@ -1,8 +1,46 @@
 "use client";
-import React from 'react';
-import { Icon } from './common.jsx';
+import React, { useState, useEffect } from 'react';
+import { Icon, Logo } from './common.jsx';
 
 const CTA_URL = "https://go.telehealthfx.com/testosterone";
+
+// ============================================================================
+// STANDALONE NAV — No GLP-1 banner, TRT-specific CTA
+// ============================================================================
+function TestosteroneNav() {
+  const [scrolled, setScrolled] = useState(false);
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 20);
+    window.addEventListener('scroll', onScroll);
+    return () => window.removeEventListener('scroll', onScroll);
+  }, []);
+  return (
+    <nav style={{
+      position: 'relative', zIndex: 50,
+      background: scrolled ? 'rgba(245, 241, 234, 0.85)' : 'rgba(245, 241, 234, 1)',
+      backdropFilter: scrolled ? 'blur(12px)' : 'none',
+      borderBottom: scrolled ? '1px solid var(--line-soft)' : '1px solid transparent',
+      transition: 'all .3s ease',
+    }}>
+      <div className="container" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', height: 72 }}>
+        <a href="/" style={{ textDecoration: 'none', color: 'inherit' }}><Logo /></a>
+        <div className="nav-links" style={{ display: 'flex', gap: 32, fontSize: 14, color: 'var(--ink-2)' }}>
+          <a href="/#treatments">Treatments</a>
+          <a href="/medications/semaglutide">Semaglutide</a>
+          <a href="/medications/tirzepatide">Tirzepatide</a>
+          <a href="/blog">Articles</a>
+          <a href="/#faq">FAQ</a>
+        </div>
+        <div className="flex-row nav-actions" style={{ gap: 12, alignItems: 'center' }}>
+          <a className="btn btn-primary" href={CTA_URL} target="_blank" rel="noopener noreferrer">
+            Learn More <Icon.Arrow />
+          </a>
+        </div>
+      </div>
+    </nav>
+  );
+}
+
 
 function TestosteronePage() {
   const schema = {
@@ -364,4 +402,4 @@ function TestosteronePage() {
   );
 }
 
-export { TestosteronePage };
+export { TestosteronePage, TestosteroneNav };
