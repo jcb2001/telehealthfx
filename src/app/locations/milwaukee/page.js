@@ -1,90 +1,23 @@
-import { LocationMilwaukee } from '../../../components/location-milwaukee';
-
+import { LocationMilwaukee } from "../../../components/location-milwaukee";
 export const metadata = {
-  alternates: {
-    canonical: 'https://telehealthfx.com/locations/milwaukee/',
-  },
-  title: "GLP-1 Weight Loss Prescriptions in Milwaukee | Telehealth FX",
-  description: "Bypass the Marquette Interchange traffic and waitlists at Froedtert. Access FDA-compliant compounded Semaglutide and Tirzepatide prescribed by WI-licensed physicians.",
+  title: "GLP-1 Weight Loss in Milwaukee | Telehealth FX",
+  description: "FDA-compliant compounded Semaglutide prescribed by Wisconsin-licensed physicians in Milwaukee. From $146/mo with overnight cold-pack delivery.",
   openGraph: {
-    title: "GLP-1 Weight Loss Prescriptions in Milwaukee | Telehealth FX",
-    description: "Access U.S.-licensed compounded Semaglutide, delivered directly to your home in Brew City.",
-    url: 'https://telehealthfx.com/locations/milwaukee',
-    siteName: 'Telehealth FX',
-    type: 'website',
+    title: "GLP-1 Weight Loss in Milwaukee | Telehealth FX",
+    description: "Clinical GLP-1 telehealth for Milwaukee, Wisconsin residents. Wisconsin-licensed physicians. From $146/mo.",
+    url: "https://telehealthfx.com/locations/milwaukee",
+    siteName: "Telehealth FX",
+    type: "website"
+  },
+  alternates: {
+    canonical: "https://telehealthfx.com/locations/milwaukee"
   }
 };
-
 export default function MilwaukeePage() {
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "MedicalClinic",
-        "@id": "https://telehealthfx.com/locations/milwaukee#clinic",
-        "name": "Telehealth FX - Milwaukee GLP-1 Prescribing",
-        "url": "https://telehealthfx.com/locations/milwaukee",
-        "logo": "https://telehealthfx.com/logo.png",
-        "description": "Asynchronous medical weight loss clinic providing Wisconsin-licensed physician evaluations and GLP-1 prescriptions for residents of Milwaukee County and surrounding suburbs.",
-        "areaServed": {
-          "@type": "City",
-          "name": "Milwaukee",
-          "containedInPlace": {
-            "@type": "State",
-            "name": "Wisconsin"
-          }
-        },
-        "availableService": [
-          {
-            "@type": "MedicalTest",
-            "name": "Asynchronous Metabolic Health Intake"
-          },
-          {
-            "@type": "MedicalTherapy",
-            "name": "GLP-1 Agonist Prescription"
-          }
-        ],
-        "medicalSpecialty": "Endocrine",
-        "isAcceptingNewPatients": true
-      },
-      {
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Do I need to visit a physical clinic in Milwaukee to get a prescription?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "No. Under State of Wisconsin Medical Examining Board telehealth regulations, you can complete your entire medical intake asynchronously online. If approved by a Wisconsin-licensed physician, your compounded Semaglutide or Tirzepatide is shipped directly to your home anywhere in Greater Milwaukee."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Is Telehealth FX legally authorized to operate in Wisconsin?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes. We partner exclusively with physicians licensed by the State of Wisconsin Medical Examining Board, and our network utilizes FDA-registered 503A/503B pharmacies authorized to ship to all Wisconsin addresses."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Are there waitlists like at Froedtert or Aurora Health Care?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "No. By utilizing 503A compounding pharmacies, we completely bypass the retail shortages affecting local Pick 'n Save pharmacies and the multi-month waitlists typical of major hospital metabolic centers in Brew City."
-            }
-          }
-        ]
-      }
-    ]
-  };
-
+  const jsonLd = {"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://telehealthfx.com/#organization", "name": "Telehealth FX", "url": "https://telehealthfx.com", "logo": {"@type": "ImageObject", "url": "https://telehealthfx.com/logo.png"}, "sameAs": []}, {"@type": "WebSite", "@id": "https://telehealthfx.com/#website", "url": "https://telehealthfx.com", "name": "Telehealth FX", "publisher": {"@id": "https://telehealthfx.com/#organization"}}, {"@type": "BreadcrumbList", "@id": "https://telehealthfx.com/locations/milwaukee#breadcrumb", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://telehealthfx.com"}, {"@type": "ListItem", "position": 2, "name": "Locations", "item": "https://telehealthfx.com/locations"}, {"@type": "ListItem", "position": 3, "name": "Milwaukee", "item": "https://telehealthfx.com/locations/milwaukee"}]}, {"@type": "MedicalWebPage", "@id": "https://telehealthfx.com/locations/milwaukee#webpage", "url": "https://telehealthfx.com/locations/milwaukee", "name": "GLP-1 Weight Loss in Milwaukee | Telehealth FX", "description": "FDA-compliant compounded Semaglutide and Tirzepatide prescribed by Wisconsin-licensed physicians in Milwaukee. From $146/mo with overnight delivery.", "isPartOf": {"@id": "https://telehealthfx.com/#website"}, "breadcrumb": {"@id": "https://telehealthfx.com/locations/milwaukee#breadcrumb"}, "inLanguage": "en-US", "medicalAudience": {"@type": "MedicalAudience", "audienceType": "Patient"}, "lastReviewed": "2026-05-01", "reviewedBy": {"@type": "Organization", "name": "Telehealth FX Clinical Team"}}, {"@type": "MedicalClinic", "@id": "https://telehealthfx.com/locations/milwaukee#clinic", "name": "Telehealth FX - Milwaukee", "url": "https://telehealthfx.com/locations/milwaukee", "telephone": "+1-800-TELEHEALTH", "areaServed": {"@type": "City", "name": "Milwaukee", "containedInPlace": {"@type": "State", "name": "Wisconsin"}}, "medicalSpecialty": "Endocrine", "isAcceptingNewPatients": true, "availableService": {"@type": "MedicalTherapy", "name": "GLP-1 Receptor Agonist Therapy", "alternateName": "Compounded Semaglutide / Tirzepatide", "medicineSystem": "WesternConventional", "relevantSpecialty": "Endocrine"}, "currenciesAccepted": "USD", "paymentAccepted": "Credit Card, HSA, FSA", "priceRange": "$146-$349/mo"}, {"@type": "Service", "@id": "https://telehealthfx.com/locations/milwaukee#service", "name": "GLP-1 Weight Loss Program - Milwaukee", "description": "Clinical telehealth weight loss program delivering compounded Semaglutide and Tirzepatide to Milwaukee, Wisconsin residents. Includes physician evaluation, prescription, and cold-shipped medication.", "provider": {"@id": "https://telehealthfx.com/locations/milwaukee#clinic"}, "areaServed": {"@type": "City", "name": "Milwaukee", "containedInPlace": {"@type": "State", "name": "Wisconsin"}}, "serviceType": "Telehealth Weight Management", "offers": {"@type": "Offer", "price": "146", "priceCurrency": "USD", "priceValidUntil": "2026-12-31", "availability": "https://schema.org/InStock", "url": "https://go.telehealthfx.com/start", "description": "Monthly compounded GLP-1 program with physician oversight"}}]};
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <LocationMilwaukee />
     </>
   );

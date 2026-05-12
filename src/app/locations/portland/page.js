@@ -1,90 +1,23 @@
-import { LocationPortland } from '../../../components/location-portland';
-
+import { LocationPortland } from "../../../components/location-portland";
 export const metadata = {
-  alternates: {
-    canonical: 'https://telehealthfx.com/locations/portland/',
-  },
-  title: "GLP-1 Weight Loss Prescriptions in Portland | Telehealth FX",
-  description: "Bypass the I-5 traffic and waitlists at OHSU. Access FDA-compliant compounded Semaglutide and Tirzepatide prescribed by Oregon-licensed physicians.",
+  title: "GLP-1 Weight Loss in Portland | Telehealth FX",
+  description: "FDA-compliant compounded Semaglutide prescribed by Oregon-licensed physicians in Portland. From $146/mo with overnight cold-pack delivery.",
   openGraph: {
-    title: "GLP-1 Weight Loss Prescriptions in Portland | Telehealth FX",
-    description: "Access U.S.-licensed compounded Semaglutide, delivered directly to your home in the Rose City.",
-    url: 'https://telehealthfx.com/locations/portland',
-    siteName: 'Telehealth FX',
-    type: 'website',
+    title: "GLP-1 Weight Loss in Portland | Telehealth FX",
+    description: "Clinical GLP-1 telehealth for Portland, Oregon residents. Oregon-licensed physicians. From $146/mo.",
+    url: "https://telehealthfx.com/locations/portland",
+    siteName: "Telehealth FX",
+    type: "website"
+  },
+  alternates: {
+    canonical: "https://telehealthfx.com/locations/portland"
   }
 };
-
 export default function PortlandPage() {
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "MedicalClinic",
-        "@id": "https://telehealthfx.com/locations/portland#clinic",
-        "name": "Telehealth FX - Portland GLP-1 Prescribing",
-        "url": "https://telehealthfx.com/locations/portland",
-        "logo": "https://telehealthfx.com/logo.png",
-        "description": "Asynchronous medical weight loss clinic providing Oregon-licensed physician evaluations and GLP-1 prescriptions for residents of Multnomah County and Greater Portland.",
-        "areaServed": {
-          "@type": "City",
-          "name": "Portland",
-          "containedInPlace": {
-            "@type": "State",
-            "name": "Oregon"
-          }
-        },
-        "availableService": [
-          {
-            "@type": "MedicalTest",
-            "name": "Asynchronous Metabolic Health Intake"
-          },
-          {
-            "@type": "MedicalTherapy",
-            "name": "GLP-1 Agonist Prescription"
-          }
-        ],
-        "medicalSpecialty": "Endocrine",
-        "isAcceptingNewPatients": true
-      },
-      {
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Do I need to visit a physical clinic in Portland to get a prescription?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "No. Under Oregon Medical Board telehealth regulations, you can complete your entire medical intake asynchronously online. If approved by an Oregon-licensed physician, your compounded Semaglutide or Tirzepatide is shipped directly to your home anywhere in Greater Portland."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Is Telehealth FX legally authorized to operate in Oregon?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes. We partner exclusively with physicians licensed by the Oregon Medical Board, and our network utilizes FDA-registered 503A/503B pharmacies authorized to ship to all Oregon addresses."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Are there waitlists like at OHSU or Providence?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "No. By utilizing 503A compounding pharmacies, we completely bypass the retail shortages affecting local Fred Meyer pharmacies and the multi-month waitlists typical of major hospital metabolic centers in the Pacific Northwest."
-            }
-          }
-        ]
-      }
-    ]
-  };
-
+  const jsonLd = {"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://telehealthfx.com/#organization", "name": "Telehealth FX", "url": "https://telehealthfx.com", "logo": {"@type": "ImageObject", "url": "https://telehealthfx.com/logo.png"}, "sameAs": []}, {"@type": "WebSite", "@id": "https://telehealthfx.com/#website", "url": "https://telehealthfx.com", "name": "Telehealth FX", "publisher": {"@id": "https://telehealthfx.com/#organization"}}, {"@type": "BreadcrumbList", "@id": "https://telehealthfx.com/locations/portland#breadcrumb", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://telehealthfx.com"}, {"@type": "ListItem", "position": 2, "name": "Locations", "item": "https://telehealthfx.com/locations"}, {"@type": "ListItem", "position": 3, "name": "Portland", "item": "https://telehealthfx.com/locations/portland"}]}, {"@type": "MedicalWebPage", "@id": "https://telehealthfx.com/locations/portland#webpage", "url": "https://telehealthfx.com/locations/portland", "name": "GLP-1 Weight Loss in Portland | Telehealth FX", "description": "FDA-compliant compounded Semaglutide and Tirzepatide prescribed by Oregon-licensed physicians in Portland. From $146/mo with overnight delivery.", "isPartOf": {"@id": "https://telehealthfx.com/#website"}, "breadcrumb": {"@id": "https://telehealthfx.com/locations/portland#breadcrumb"}, "inLanguage": "en-US", "medicalAudience": {"@type": "MedicalAudience", "audienceType": "Patient"}, "lastReviewed": "2026-05-01", "reviewedBy": {"@type": "Organization", "name": "Telehealth FX Clinical Team"}}, {"@type": "MedicalClinic", "@id": "https://telehealthfx.com/locations/portland#clinic", "name": "Telehealth FX - Portland", "url": "https://telehealthfx.com/locations/portland", "telephone": "+1-800-TELEHEALTH", "areaServed": {"@type": "City", "name": "Portland", "containedInPlace": {"@type": "State", "name": "Oregon"}}, "medicalSpecialty": "Endocrine", "isAcceptingNewPatients": true, "availableService": {"@type": "MedicalTherapy", "name": "GLP-1 Receptor Agonist Therapy", "alternateName": "Compounded Semaglutide / Tirzepatide", "medicineSystem": "WesternConventional", "relevantSpecialty": "Endocrine"}, "currenciesAccepted": "USD", "paymentAccepted": "Credit Card, HSA, FSA", "priceRange": "$146-$349/mo", "geo": {"@type": "GeoCoordinates", "latitude": 45.5152, "longitude": -122.6784}}, {"@type": "Service", "@id": "https://telehealthfx.com/locations/portland#service", "name": "GLP-1 Weight Loss Program - Portland", "description": "Clinical telehealth weight loss program delivering compounded Semaglutide and Tirzepatide to Portland, Oregon residents. Includes physician evaluation, prescription, and cold-shipped medication.", "provider": {"@id": "https://telehealthfx.com/locations/portland#clinic"}, "areaServed": {"@type": "City", "name": "Portland", "containedInPlace": {"@type": "State", "name": "Oregon"}}, "serviceType": "Telehealth Weight Management", "offers": {"@type": "Offer", "price": "146", "priceCurrency": "USD", "priceValidUntil": "2026-12-31", "availability": "https://schema.org/InStock", "url": "https://go.telehealthfx.com/start", "description": "Monthly compounded GLP-1 program with physician oversight"}}]};
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <LocationPortland />
     </>
   );

@@ -1,61 +1,23 @@
-import { LocationNashville } from '../../../components/location-nashville';
-
+import { LocationNashville } from "../../../components/location-nashville";
 export const metadata = {
-  alternates: {
-    canonical: 'https://telehealthfx.com/locations/nashville/',
-  },
-  title: "GLP-1 Weight Loss Prescriptions in Nashville | Telehealth FX",
-  description: "Access FDA-compliant compounded Semaglutide and Tirzepatide prescribed by Tennessee-licensed physicians.",
+  title: "GLP-1 Weight Loss in Nashville | Telehealth FX",
+  description: "FDA-compliant compounded Semaglutide prescribed by Tennessee-licensed physicians in Nashville. From $146/mo with overnight cold-pack delivery.",
   openGraph: {
-    title: "GLP-1 Weight Loss Prescriptions in Nashville | Telehealth FX",
-    description: "Access U.S.-licensed compounded Semaglutide, delivered directly to your home in Nashville.",
-    url: 'https://telehealthfx.com/locations/nashville',
-    siteName: 'Telehealth FX',
-    type: 'website',
+    title: "GLP-1 Weight Loss in Nashville | Telehealth FX",
+    description: "Clinical GLP-1 telehealth for Nashville, Tennessee residents. Tennessee-licensed physicians. From $146/mo.",
+    url: "https://telehealthfx.com/locations/nashville",
+    siteName: "Telehealth FX",
+    type: "website"
+  },
+  alternates: {
+    canonical: "https://telehealthfx.com/locations/nashville"
   }
 };
-
 export default function NashvillePage() {
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "MedicalClinic",
-        "@id": "https://telehealthfx.com/locations/nashville#clinic",
-        "name": "Telehealth FX - Nashville GLP-1 Prescribing",
-        "url": "https://telehealthfx.com/locations/nashville",
-        "logo": "https://telehealthfx.com/logo.png",
-        "description": "Asynchronous medical weight loss clinic providing Tennessee-licensed physician evaluations and GLP-1 prescriptions for residents of Nashville.",
-        "areaServed": {
-          "@type": "City",
-          "name": "Nashville",
-          "containedInPlace": {
-            "@type": "State",
-            "name": "Tennessee"
-          }
-        },
-        "availableService": [
-          {
-            "@type": "MedicalTest",
-            "name": "Asynchronous Metabolic Health Intake"
-          },
-          {
-            "@type": "MedicalTherapy",
-            "name": "GLP-1 Agonist Prescription"
-          }
-        ],
-        "medicalSpecialty": "Endocrine",
-        "isAcceptingNewPatients": true
-      }
-    ]
-  };
-
+  const jsonLd = {"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://telehealthfx.com/#organization", "name": "Telehealth FX", "url": "https://telehealthfx.com", "logo": {"@type": "ImageObject", "url": "https://telehealthfx.com/logo.png"}, "sameAs": []}, {"@type": "WebSite", "@id": "https://telehealthfx.com/#website", "url": "https://telehealthfx.com", "name": "Telehealth FX", "publisher": {"@id": "https://telehealthfx.com/#organization"}}, {"@type": "BreadcrumbList", "@id": "https://telehealthfx.com/locations/nashville#breadcrumb", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://telehealthfx.com"}, {"@type": "ListItem", "position": 2, "name": "Locations", "item": "https://telehealthfx.com/locations"}, {"@type": "ListItem", "position": 3, "name": "Nashville", "item": "https://telehealthfx.com/locations/nashville"}]}, {"@type": "MedicalWebPage", "@id": "https://telehealthfx.com/locations/nashville#webpage", "url": "https://telehealthfx.com/locations/nashville", "name": "GLP-1 Weight Loss in Nashville | Telehealth FX", "description": "FDA-compliant compounded Semaglutide and Tirzepatide prescribed by Tennessee-licensed physicians in Nashville. From $146/mo with overnight delivery.", "isPartOf": {"@id": "https://telehealthfx.com/#website"}, "breadcrumb": {"@id": "https://telehealthfx.com/locations/nashville#breadcrumb"}, "inLanguage": "en-US", "medicalAudience": {"@type": "MedicalAudience", "audienceType": "Patient"}, "lastReviewed": "2026-05-01", "reviewedBy": {"@type": "Organization", "name": "Telehealth FX Clinical Team"}}, {"@type": "MedicalClinic", "@id": "https://telehealthfx.com/locations/nashville#clinic", "name": "Telehealth FX - Nashville", "url": "https://telehealthfx.com/locations/nashville", "telephone": "+1-800-TELEHEALTH", "areaServed": {"@type": "City", "name": "Nashville", "containedInPlace": {"@type": "State", "name": "Tennessee"}}, "medicalSpecialty": "Endocrine", "isAcceptingNewPatients": true, "availableService": {"@type": "MedicalTherapy", "name": "GLP-1 Receptor Agonist Therapy", "alternateName": "Compounded Semaglutide / Tirzepatide", "medicineSystem": "WesternConventional", "relevantSpecialty": "Endocrine"}, "currenciesAccepted": "USD", "paymentAccepted": "Credit Card, HSA, FSA", "priceRange": "$146-$349/mo", "geo": {"@type": "GeoCoordinates", "latitude": 36.1627, "longitude": -86.7816}}, {"@type": "Service", "@id": "https://telehealthfx.com/locations/nashville#service", "name": "GLP-1 Weight Loss Program - Nashville", "description": "Clinical telehealth weight loss program delivering compounded Semaglutide and Tirzepatide to Nashville, Tennessee residents. Includes physician evaluation, prescription, and cold-shipped medication.", "provider": {"@id": "https://telehealthfx.com/locations/nashville#clinic"}, "areaServed": {"@type": "City", "name": "Nashville", "containedInPlace": {"@type": "State", "name": "Tennessee"}}, "serviceType": "Telehealth Weight Management", "offers": {"@type": "Offer", "price": "146", "priceCurrency": "USD", "priceValidUntil": "2026-12-31", "availability": "https://schema.org/InStock", "url": "https://go.telehealthfx.com/start", "description": "Monthly compounded GLP-1 program with physician oversight"}}]};
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <LocationNashville />
     </>
   );

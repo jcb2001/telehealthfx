@@ -1,90 +1,23 @@
-import { LocationElPaso } from '../../../components/location-el-paso';
-
+import { LocationElPaso } from "../../../components/location-el-paso";
 export const metadata = {
-  alternates: {
-    canonical: 'https://telehealthfx.com/locations/el-paso/',
-  },
-  title: "GLP-1 Weight Loss Prescriptions in El Paso | Telehealth FX",
-  description: "Bypass the I-10 traffic and waitlists at University Medical Center. Access FDA-compliant compounded Semaglutide and Tirzepatide prescribed by Texas-licensed physicians.",
+  title: "GLP-1 Weight Loss in El Paso | Telehealth FX",
+  description: "FDA-compliant compounded Semaglutide prescribed by Texas-licensed physicians in El Paso. From $146/mo with overnight cold-pack delivery.",
   openGraph: {
-    title: "GLP-1 Weight Loss Prescriptions in El Paso | Telehealth FX",
-    description: "Access U.S.-licensed compounded Semaglutide, delivered directly to your home in the Sun City.",
-    url: 'https://telehealthfx.com/locations/el-paso',
-    siteName: 'Telehealth FX',
-    type: 'website',
+    title: "GLP-1 Weight Loss in El Paso | Telehealth FX",
+    description: "Clinical GLP-1 telehealth for El Paso, Texas residents. Texas-licensed physicians. From $146/mo.",
+    url: "https://telehealthfx.com/locations/el-paso",
+    siteName: "Telehealth FX",
+    type: "website"
+  },
+  alternates: {
+    canonical: "https://telehealthfx.com/locations/el-paso"
   }
 };
-
 export default function ElPasoPage() {
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "MedicalClinic",
-        "@id": "https://telehealthfx.com/locations/el-paso#clinic",
-        "name": "Telehealth FX - El Paso GLP-1 Prescribing",
-        "url": "https://telehealthfx.com/locations/el-paso",
-        "logo": "https://telehealthfx.com/logo.png",
-        "description": "Asynchronous medical weight loss clinic providing Texas-licensed physician evaluations and GLP-1 prescriptions for residents of El Paso County and the Borderplex region.",
-        "areaServed": {
-          "@type": "City",
-          "name": "El Paso",
-          "containedInPlace": {
-            "@type": "State",
-            "name": "Texas"
-          }
-        },
-        "availableService": [
-          {
-            "@type": "MedicalTest",
-            "name": "Asynchronous Metabolic Health Intake"
-          },
-          {
-            "@type": "MedicalTherapy",
-            "name": "GLP-1 Agonist Prescription"
-          }
-        ],
-        "medicalSpecialty": "Endocrine",
-        "isAcceptingNewPatients": true
-      },
-      {
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Do I need to visit a physical clinic in El Paso to get a prescription?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "No. Under Texas Medical Board telehealth regulations, you can complete your entire medical intake asynchronously online. If approved by a Texas-licensed physician, your compounded Semaglutide or Tirzepatide is shipped directly to your home anywhere in El Paso County."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Is Telehealth FX legally authorized to operate in Texas?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes. We partner exclusively with physicians licensed by the Texas Medical Board, and our network utilizes FDA-registered 503A/503B pharmacies authorized to ship to all Texas addresses."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Are there waitlists like at The Hospitals of Providence?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "No. By utilizing 503A compounding pharmacies, we completely bypass the retail shortages affecting local pharmacies and the 6-month waitlists typical of major hospital metabolic centers in the Sun City."
-            }
-          }
-        ]
-      }
-    ]
-  };
-
+  const jsonLd = {"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://telehealthfx.com/#organization", "name": "Telehealth FX", "url": "https://telehealthfx.com", "logo": {"@type": "ImageObject", "url": "https://telehealthfx.com/logo.png"}, "sameAs": []}, {"@type": "WebSite", "@id": "https://telehealthfx.com/#website", "url": "https://telehealthfx.com", "name": "Telehealth FX", "publisher": {"@id": "https://telehealthfx.com/#organization"}}, {"@type": "BreadcrumbList", "@id": "https://telehealthfx.com/locations/el-paso#breadcrumb", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://telehealthfx.com"}, {"@type": "ListItem", "position": 2, "name": "Locations", "item": "https://telehealthfx.com/locations"}, {"@type": "ListItem", "position": 3, "name": "El Paso", "item": "https://telehealthfx.com/locations/el-paso"}]}, {"@type": "MedicalWebPage", "@id": "https://telehealthfx.com/locations/el-paso#webpage", "url": "https://telehealthfx.com/locations/el-paso", "name": "GLP-1 Weight Loss in El Paso | Telehealth FX", "description": "FDA-compliant compounded Semaglutide and Tirzepatide prescribed by Texas-licensed physicians in El Paso. From $146/mo with overnight delivery.", "isPartOf": {"@id": "https://telehealthfx.com/#website"}, "breadcrumb": {"@id": "https://telehealthfx.com/locations/el-paso#breadcrumb"}, "inLanguage": "en-US", "medicalAudience": {"@type": "MedicalAudience", "audienceType": "Patient"}, "lastReviewed": "2026-05-01", "reviewedBy": {"@type": "Organization", "name": "Telehealth FX Clinical Team"}}, {"@type": "MedicalClinic", "@id": "https://telehealthfx.com/locations/el-paso#clinic", "name": "Telehealth FX - El Paso", "url": "https://telehealthfx.com/locations/el-paso", "telephone": "+1-800-TELEHEALTH", "areaServed": {"@type": "City", "name": "El Paso", "containedInPlace": {"@type": "State", "name": "Texas"}}, "medicalSpecialty": "Endocrine", "isAcceptingNewPatients": true, "availableService": {"@type": "MedicalTherapy", "name": "GLP-1 Receptor Agonist Therapy", "alternateName": "Compounded Semaglutide / Tirzepatide", "medicineSystem": "WesternConventional", "relevantSpecialty": "Endocrine"}, "currenciesAccepted": "USD", "paymentAccepted": "Credit Card, HSA, FSA", "priceRange": "$146-$349/mo", "geo": {"@type": "GeoCoordinates", "latitude": 31.7619, "longitude": -106.485}}, {"@type": "Service", "@id": "https://telehealthfx.com/locations/el-paso#service", "name": "GLP-1 Weight Loss Program - El Paso", "description": "Clinical telehealth weight loss program delivering compounded Semaglutide and Tirzepatide to El Paso, Texas residents. Includes physician evaluation, prescription, and cold-shipped medication.", "provider": {"@id": "https://telehealthfx.com/locations/el-paso#clinic"}, "areaServed": {"@type": "City", "name": "El Paso", "containedInPlace": {"@type": "State", "name": "Texas"}}, "serviceType": "Telehealth Weight Management", "offers": {"@type": "Offer", "price": "146", "priceCurrency": "USD", "priceValidUntil": "2026-12-31", "availability": "https://schema.org/InStock", "url": "https://go.telehealthfx.com/start", "description": "Monthly compounded GLP-1 program with physician oversight"}}]};
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <LocationElPaso />
     </>
   );

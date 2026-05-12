@@ -1,90 +1,23 @@
-import { LocationSanDiego } from '../../../components/location-san-diego';
-
+import { LocationSanDiego } from "../../../components/location-san-diego";
 export const metadata = {
-  alternates: {
-    canonical: 'https://telehealthfx.com/locations/san-diego/',
-  },
-  title: "GLP-1 Weight Loss Prescriptions in San Diego | Telehealth FX",
-  description: "Bypass the I-5 traffic and waitlists at Scripps Health. Access FDA-compliant compounded Semaglutide and Tirzepatide prescribed by California-licensed physicians.",
+  title: "GLP-1 Weight Loss in San Diego | Telehealth FX",
+  description: "FDA-compliant compounded Semaglutide prescribed by California-licensed physicians in San Diego. From $146/mo with overnight cold-pack delivery.",
   openGraph: {
-    title: "GLP-1 Weight Loss Prescriptions in San Diego | Telehealth FX",
-    description: "Access U.S.-licensed compounded Semaglutide, delivered directly to your home in San Diego.",
-    url: 'https://telehealthfx.com/locations/san-diego',
-    siteName: 'Telehealth FX',
-    type: 'website',
+    title: "GLP-1 Weight Loss in San Diego | Telehealth FX",
+    description: "Clinical GLP-1 telehealth for San Diego, California residents. California-licensed physicians. From $146/mo.",
+    url: "https://telehealthfx.com/locations/san-diego",
+    siteName: "Telehealth FX",
+    type: "website"
+  },
+  alternates: {
+    canonical: "https://telehealthfx.com/locations/san-diego"
   }
 };
-
 export default function SanDiegoPage() {
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "MedicalClinic",
-        "@id": "https://telehealthfx.com/locations/san-diego#clinic",
-        "name": "Telehealth FX - San Diego GLP-1 Prescribing",
-        "url": "https://telehealthfx.com/locations/san-diego",
-        "logo": "https://telehealthfx.com/logo.png",
-        "description": "Asynchronous medical weight loss clinic providing California-licensed physician evaluations and GLP-1 prescriptions for residents of San Diego County and Southern California.",
-        "areaServed": {
-          "@type": "City",
-          "name": "San Diego",
-          "containedInPlace": {
-            "@type": "State",
-            "name": "California"
-          }
-        },
-        "availableService": [
-          {
-            "@type": "MedicalTest",
-            "name": "Asynchronous Metabolic Health Intake"
-          },
-          {
-            "@type": "MedicalTherapy",
-            "name": "GLP-1 Agonist Prescription"
-          }
-        ],
-        "medicalSpecialty": "Endocrine",
-        "isAcceptingNewPatients": true
-      },
-      {
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Do I need to visit a physical clinic in San Diego to get a prescription?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "No. Under Medical Board of California telehealth regulations, you can complete your entire medical intake asynchronously online. If approved by a California-licensed physician, your compounded Semaglutide or Tirzepatide is shipped directly to your home in San Diego."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Is Telehealth FX legally authorized to operate in California?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes. We partner exclusively with physicians licensed by the Medical Board of California, and our network utilizes FDA-registered 503A/503B pharmacies authorized to ship to all California addresses."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Are there waitlists like at UC San Diego Health or Scripps?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "No. By utilizing 503A compounding pharmacies, we completely bypass the retail shortages affecting local Ralphs pharmacies and the 6-month waitlists typical of major hospital metabolic centers in San Diego."
-            }
-          }
-        ]
-      }
-    ]
-  };
-
+  const jsonLd = {"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://telehealthfx.com/#organization", "name": "Telehealth FX", "url": "https://telehealthfx.com", "logo": {"@type": "ImageObject", "url": "https://telehealthfx.com/logo.png"}, "sameAs": []}, {"@type": "WebSite", "@id": "https://telehealthfx.com/#website", "url": "https://telehealthfx.com", "name": "Telehealth FX", "publisher": {"@id": "https://telehealthfx.com/#organization"}}, {"@type": "BreadcrumbList", "@id": "https://telehealthfx.com/locations/san-diego#breadcrumb", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://telehealthfx.com"}, {"@type": "ListItem", "position": 2, "name": "Locations", "item": "https://telehealthfx.com/locations"}, {"@type": "ListItem", "position": 3, "name": "San Diego", "item": "https://telehealthfx.com/locations/san-diego"}]}, {"@type": "MedicalWebPage", "@id": "https://telehealthfx.com/locations/san-diego#webpage", "url": "https://telehealthfx.com/locations/san-diego", "name": "GLP-1 Weight Loss in San Diego | Telehealth FX", "description": "FDA-compliant compounded Semaglutide and Tirzepatide prescribed by California-licensed physicians in San Diego. From $146/mo with overnight delivery.", "isPartOf": {"@id": "https://telehealthfx.com/#website"}, "breadcrumb": {"@id": "https://telehealthfx.com/locations/san-diego#breadcrumb"}, "inLanguage": "en-US", "medicalAudience": {"@type": "MedicalAudience", "audienceType": "Patient"}, "lastReviewed": "2026-05-01", "reviewedBy": {"@type": "Organization", "name": "Telehealth FX Clinical Team"}}, {"@type": "MedicalClinic", "@id": "https://telehealthfx.com/locations/san-diego#clinic", "name": "Telehealth FX - San Diego", "url": "https://telehealthfx.com/locations/san-diego", "telephone": "+1-800-TELEHEALTH", "areaServed": {"@type": "City", "name": "San Diego", "containedInPlace": {"@type": "State", "name": "California"}}, "medicalSpecialty": "Endocrine", "isAcceptingNewPatients": true, "availableService": {"@type": "MedicalTherapy", "name": "GLP-1 Receptor Agonist Therapy", "alternateName": "Compounded Semaglutide / Tirzepatide", "medicineSystem": "WesternConventional", "relevantSpecialty": "Endocrine"}, "currenciesAccepted": "USD", "paymentAccepted": "Credit Card, HSA, FSA", "priceRange": "$146-$349/mo", "geo": {"@type": "GeoCoordinates", "latitude": 32.7157, "longitude": -117.1611}}, {"@type": "Service", "@id": "https://telehealthfx.com/locations/san-diego#service", "name": "GLP-1 Weight Loss Program - San Diego", "description": "Clinical telehealth weight loss program delivering compounded Semaglutide and Tirzepatide to San Diego, California residents. Includes physician evaluation, prescription, and cold-shipped medication.", "provider": {"@id": "https://telehealthfx.com/locations/san-diego#clinic"}, "areaServed": {"@type": "City", "name": "San Diego", "containedInPlace": {"@type": "State", "name": "California"}}, "serviceType": "Telehealth Weight Management", "offers": {"@type": "Offer", "price": "146", "priceCurrency": "USD", "priceValidUntil": "2026-12-31", "availability": "https://schema.org/InStock", "url": "https://go.telehealthfx.com/start", "description": "Monthly compounded GLP-1 program with physician oversight"}}]};
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <LocationSanDiego />
     </>
   );

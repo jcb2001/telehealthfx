@@ -1,90 +1,23 @@
-import { LocationBaltimore } from '../../../components/location-baltimore';
-
+import { LocationBaltimore } from "../../../components/location-baltimore";
 export const metadata = {
-  alternates: {
-    canonical: 'https://telehealthfx.com/locations/baltimore/',
-  },
-  title: "GLP-1 Weight Loss Prescriptions in Baltimore | Telehealth FX",
-  description: "Bypass the I-695 Beltway traffic and waitlists at Johns Hopkins. Access FDA-compliant compounded Semaglutide and Tirzepatide prescribed by MD-licensed physicians.",
+  title: "GLP-1 Weight Loss in Baltimore | Telehealth FX",
+  description: "FDA-compliant compounded Semaglutide prescribed by Maryland-licensed physicians in Baltimore. From $146/mo with overnight cold-pack delivery.",
   openGraph: {
-    title: "GLP-1 Weight Loss Prescriptions in Baltimore | Telehealth FX",
-    description: "Access U.S.-licensed compounded Semaglutide, delivered directly to your home in Charm City.",
-    url: 'https://telehealthfx.com/locations/baltimore',
-    siteName: 'Telehealth FX',
-    type: 'website',
+    title: "GLP-1 Weight Loss in Baltimore | Telehealth FX",
+    description: "Clinical GLP-1 telehealth for Baltimore, Maryland residents. Maryland-licensed physicians. From $146/mo.",
+    url: "https://telehealthfx.com/locations/baltimore",
+    siteName: "Telehealth FX",
+    type: "website"
+  },
+  alternates: {
+    canonical: "https://telehealthfx.com/locations/baltimore"
   }
 };
-
 export default function BaltimorePage() {
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "MedicalClinic",
-        "@id": "https://telehealthfx.com/locations/baltimore#clinic",
-        "name": "Telehealth FX - Baltimore GLP-1 Prescribing",
-        "url": "https://telehealthfx.com/locations/baltimore",
-        "logo": "https://telehealthfx.com/logo.png",
-        "description": "Asynchronous medical weight loss clinic providing Maryland-licensed physician evaluations and GLP-1 prescriptions for residents of Baltimore City and surrounding counties.",
-        "areaServed": {
-          "@type": "City",
-          "name": "Baltimore",
-          "containedInPlace": {
-            "@type": "State",
-            "name": "Maryland"
-          }
-        },
-        "availableService": [
-          {
-            "@type": "MedicalTest",
-            "name": "Asynchronous Metabolic Health Intake"
-          },
-          {
-            "@type": "MedicalTherapy",
-            "name": "GLP-1 Agonist Prescription"
-          }
-        ],
-        "medicalSpecialty": "Endocrine",
-        "isAcceptingNewPatients": true
-      },
-      {
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Do I need to visit a physical clinic in Baltimore to get a prescription?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "No. Under Maryland Board of Physicians telehealth regulations, you can complete your entire medical intake asynchronously online. If approved by a Maryland-licensed physician, your compounded Semaglutide or Tirzepatide is shipped directly to your home anywhere in the Baltimore Metro area."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Is Telehealth FX legally authorized to operate in Maryland?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes. We partner exclusively with physicians licensed by the Maryland Board of Physicians, and our network utilizes FDA-registered 503A/503B pharmacies authorized to ship to all Maryland addresses."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Are there waitlists like at Johns Hopkins or MedStar?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "No. By utilizing 503A compounding pharmacies, we completely bypass the retail shortages affecting local Giant pharmacies and the multi-month waitlists typical of major hospital metabolic centers in Charm City."
-            }
-          }
-        ]
-      }
-    ]
-  };
-
+  const jsonLd = {"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://telehealthfx.com/#organization", "name": "Telehealth FX", "url": "https://telehealthfx.com", "logo": {"@type": "ImageObject", "url": "https://telehealthfx.com/logo.png"}, "sameAs": []}, {"@type": "WebSite", "@id": "https://telehealthfx.com/#website", "url": "https://telehealthfx.com", "name": "Telehealth FX", "publisher": {"@id": "https://telehealthfx.com/#organization"}}, {"@type": "BreadcrumbList", "@id": "https://telehealthfx.com/locations/baltimore#breadcrumb", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://telehealthfx.com"}, {"@type": "ListItem", "position": 2, "name": "Locations", "item": "https://telehealthfx.com/locations"}, {"@type": "ListItem", "position": 3, "name": "Baltimore", "item": "https://telehealthfx.com/locations/baltimore"}]}, {"@type": "MedicalWebPage", "@id": "https://telehealthfx.com/locations/baltimore#webpage", "url": "https://telehealthfx.com/locations/baltimore", "name": "GLP-1 Weight Loss in Baltimore | Telehealth FX", "description": "FDA-compliant compounded Semaglutide and Tirzepatide prescribed by Maryland-licensed physicians in Baltimore. From $146/mo with overnight delivery.", "isPartOf": {"@id": "https://telehealthfx.com/#website"}, "breadcrumb": {"@id": "https://telehealthfx.com/locations/baltimore#breadcrumb"}, "inLanguage": "en-US", "medicalAudience": {"@type": "MedicalAudience", "audienceType": "Patient"}, "lastReviewed": "2026-05-01", "reviewedBy": {"@type": "Organization", "name": "Telehealth FX Clinical Team"}}, {"@type": "MedicalClinic", "@id": "https://telehealthfx.com/locations/baltimore#clinic", "name": "Telehealth FX - Baltimore", "url": "https://telehealthfx.com/locations/baltimore", "telephone": "+1-800-TELEHEALTH", "areaServed": {"@type": "City", "name": "Baltimore", "containedInPlace": {"@type": "State", "name": "Maryland"}}, "medicalSpecialty": "Endocrine", "isAcceptingNewPatients": true, "availableService": {"@type": "MedicalTherapy", "name": "GLP-1 Receptor Agonist Therapy", "alternateName": "Compounded Semaglutide / Tirzepatide", "medicineSystem": "WesternConventional", "relevantSpecialty": "Endocrine"}, "currenciesAccepted": "USD", "paymentAccepted": "Credit Card, HSA, FSA", "priceRange": "$146-$349/mo"}, {"@type": "Service", "@id": "https://telehealthfx.com/locations/baltimore#service", "name": "GLP-1 Weight Loss Program - Baltimore", "description": "Clinical telehealth weight loss program delivering compounded Semaglutide and Tirzepatide to Baltimore, Maryland residents. Includes physician evaluation, prescription, and cold-shipped medication.", "provider": {"@id": "https://telehealthfx.com/locations/baltimore#clinic"}, "areaServed": {"@type": "City", "name": "Baltimore", "containedInPlace": {"@type": "State", "name": "Maryland"}}, "serviceType": "Telehealth Weight Management", "offers": {"@type": "Offer", "price": "146", "priceCurrency": "USD", "priceValidUntil": "2026-12-31", "availability": "https://schema.org/InStock", "url": "https://go.telehealthfx.com/start", "description": "Monthly compounded GLP-1 program with physician oversight"}}]};
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <LocationBaltimore />
     </>
   );

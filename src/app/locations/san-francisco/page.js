@@ -1,90 +1,23 @@
-import { LocationSanFrancisco } from '../../../components/location-san-francisco';
-
+import { LocationSanFrancisco } from "../../../components/location-san-francisco";
 export const metadata = {
-  alternates: {
-    canonical: 'https://telehealthfx.com/locations/san-francisco/',
-  },
-  title: "GLP-1 Weight Loss Prescriptions in San Francisco | Telehealth FX",
-  description: "Bypass the US-101 traffic and waitlists at UCSF. Access FDA-compliant compounded Semaglutide and Tirzepatide prescribed by California-licensed physicians.",
+  title: "GLP-1 Weight Loss in San Francisco | Telehealth FX",
+  description: "FDA-compliant compounded Semaglutide prescribed by California-licensed physicians in San Francisco. From $146/mo with overnight cold-pack delivery.",
   openGraph: {
-    title: "GLP-1 Weight Loss Prescriptions in San Francisco | Telehealth FX",
-    description: "Access U.S.-licensed compounded Semaglutide, delivered directly to your home in San Francisco.",
-    url: 'https://telehealthfx.com/locations/san-francisco',
-    siteName: 'Telehealth FX',
-    type: 'website',
+    title: "GLP-1 Weight Loss in San Francisco | Telehealth FX",
+    description: "Clinical GLP-1 telehealth for San Francisco, California residents. California-licensed physicians. From $146/mo.",
+    url: "https://telehealthfx.com/locations/san-francisco",
+    siteName: "Telehealth FX",
+    type: "website"
+  },
+  alternates: {
+    canonical: "https://telehealthfx.com/locations/san-francisco"
   }
 };
-
 export default function SanFranciscoPage() {
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "MedicalClinic",
-        "@id": "https://telehealthfx.com/locations/san-francisco#clinic",
-        "name": "Telehealth FX - San Francisco GLP-1 Prescribing",
-        "url": "https://telehealthfx.com/locations/san-francisco",
-        "logo": "https://telehealthfx.com/logo.png",
-        "description": "Asynchronous medical weight loss clinic providing California-licensed physician evaluations and GLP-1 prescriptions for residents of San Francisco County, Marin County.",
-        "areaServed": {
-          "@type": "City",
-          "name": "San Francisco",
-          "containedInPlace": {
-            "@type": "State",
-            "name": "California"
-          }
-        },
-        "availableService": [
-          {
-            "@type": "MedicalTest",
-            "name": "Asynchronous Metabolic Health Intake"
-          },
-          {
-            "@type": "MedicalTherapy",
-            "name": "GLP-1 Agonist Prescription"
-          }
-        ],
-        "medicalSpecialty": "Endocrine",
-        "isAcceptingNewPatients": true
-      },
-      {
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Do I need to visit a physical clinic in San Francisco to get a prescription?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "No. Under Medical Board of California telehealth regulations, you can complete your entire medical intake asynchronously online. If approved by a California-licensed physician, your compounded Semaglutide or Tirzepatide is shipped directly to your home in San Francisco."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Is Telehealth FX legally authorized to operate in California?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes. We partner exclusively with physicians licensed by the Medical Board of California, and our network utilizes FDA-registered 503A/503B pharmacies authorized to ship to all CA addresses."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Are there waitlists like at UCSF Health and CPMC?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "No. By utilizing 503A compounding pharmacies, we completely bypass the retail shortages affecting local Walgreens pharmacies and the 6-month waitlists typical of major hospital metabolic centers in the area."
-            }
-          }
-        ]
-      }
-    ]
-  };
-
+  const jsonLd = {"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://telehealthfx.com/#organization", "name": "Telehealth FX", "url": "https://telehealthfx.com", "logo": {"@type": "ImageObject", "url": "https://telehealthfx.com/logo.png"}, "sameAs": []}, {"@type": "WebSite", "@id": "https://telehealthfx.com/#website", "url": "https://telehealthfx.com", "name": "Telehealth FX", "publisher": {"@id": "https://telehealthfx.com/#organization"}}, {"@type": "BreadcrumbList", "@id": "https://telehealthfx.com/locations/san-francisco#breadcrumb", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://telehealthfx.com"}, {"@type": "ListItem", "position": 2, "name": "Locations", "item": "https://telehealthfx.com/locations"}, {"@type": "ListItem", "position": 3, "name": "San Francisco", "item": "https://telehealthfx.com/locations/san-francisco"}]}, {"@type": "MedicalWebPage", "@id": "https://telehealthfx.com/locations/san-francisco#webpage", "url": "https://telehealthfx.com/locations/san-francisco", "name": "GLP-1 Weight Loss in San Francisco | Telehealth FX", "description": "FDA-compliant compounded Semaglutide and Tirzepatide prescribed by California-licensed physicians in San Francisco. From $146/mo with overnight delivery.", "isPartOf": {"@id": "https://telehealthfx.com/#website"}, "breadcrumb": {"@id": "https://telehealthfx.com/locations/san-francisco#breadcrumb"}, "inLanguage": "en-US", "medicalAudience": {"@type": "MedicalAudience", "audienceType": "Patient"}, "lastReviewed": "2026-05-01", "reviewedBy": {"@type": "Organization", "name": "Telehealth FX Clinical Team"}}, {"@type": "MedicalClinic", "@id": "https://telehealthfx.com/locations/san-francisco#clinic", "name": "Telehealth FX - San Francisco", "url": "https://telehealthfx.com/locations/san-francisco", "telephone": "+1-800-TELEHEALTH", "areaServed": {"@type": "City", "name": "San Francisco", "containedInPlace": {"@type": "State", "name": "California"}}, "medicalSpecialty": "Endocrine", "isAcceptingNewPatients": true, "availableService": {"@type": "MedicalTherapy", "name": "GLP-1 Receptor Agonist Therapy", "alternateName": "Compounded Semaglutide / Tirzepatide", "medicineSystem": "WesternConventional", "relevantSpecialty": "Endocrine"}, "currenciesAccepted": "USD", "paymentAccepted": "Credit Card, HSA, FSA", "priceRange": "$146-$349/mo", "geo": {"@type": "GeoCoordinates", "latitude": 37.7749, "longitude": -122.4194}}, {"@type": "Service", "@id": "https://telehealthfx.com/locations/san-francisco#service", "name": "GLP-1 Weight Loss Program - San Francisco", "description": "Clinical telehealth weight loss program delivering compounded Semaglutide and Tirzepatide to San Francisco, California residents. Includes physician evaluation, prescription, and cold-shipped medication.", "provider": {"@id": "https://telehealthfx.com/locations/san-francisco#clinic"}, "areaServed": {"@type": "City", "name": "San Francisco", "containedInPlace": {"@type": "State", "name": "California"}}, "serviceType": "Telehealth Weight Management", "offers": {"@type": "Offer", "price": "146", "priceCurrency": "USD", "priceValidUntil": "2026-12-31", "availability": "https://schema.org/InStock", "url": "https://go.telehealthfx.com/start", "description": "Monthly compounded GLP-1 program with physician oversight"}}]};
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <LocationSanFrancisco />
     </>
   );

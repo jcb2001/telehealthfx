@@ -1,90 +1,23 @@
-import { LocationDallas } from '../../../components/location-dallas';
-
+import { LocationDallas } from "../../../components/location-dallas";
 export const metadata = {
-  alternates: {
-    canonical: 'https://telehealthfx.com/locations/dallas/',
-  },
-  title: "GLP-1 Weight Loss Prescriptions in Dallas | Telehealth FX",
-  description: "Bypass the US-75 traffic and waitlists at UT Southwestern. Access FDA-compliant compounded Semaglutide and Tirzepatide prescribed by Texas-licensed physicians.",
+  title: "GLP-1 Weight Loss in Dallas | Telehealth FX",
+  description: "FDA-compliant compounded Semaglutide prescribed by Texas-licensed physicians in Dallas. From $146/mo with overnight cold-pack delivery.",
   openGraph: {
-    title: "GLP-1 Weight Loss Prescriptions in Dallas | Telehealth FX",
-    description: "Access U.S.-licensed compounded Semaglutide, delivered directly to your home in Dallas.",
-    url: 'https://telehealthfx.com/locations/dallas',
-    siteName: 'Telehealth FX',
-    type: 'website',
+    title: "GLP-1 Weight Loss in Dallas | Telehealth FX",
+    description: "Clinical GLP-1 telehealth for Dallas, Texas residents. Texas-licensed physicians. From $146/mo.",
+    url: "https://telehealthfx.com/locations/dallas",
+    siteName: "Telehealth FX",
+    type: "website"
+  },
+  alternates: {
+    canonical: "https://telehealthfx.com/locations/dallas"
   }
 };
-
 export default function DallasPage() {
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "MedicalClinic",
-        "@id": "https://telehealthfx.com/locations/dallas#clinic",
-        "name": "Telehealth FX - Dallas GLP-1 Prescribing",
-        "url": "https://telehealthfx.com/locations/dallas",
-        "logo": "https://telehealthfx.com/logo.png",
-        "description": "Asynchronous medical weight loss clinic providing Texas-licensed physician evaluations and GLP-1 prescriptions for residents of Dallas County, Collin County, and the DFW Metroplex.",
-        "areaServed": {
-          "@type": "City",
-          "name": "Dallas",
-          "containedInPlace": {
-            "@type": "State",
-            "name": "Texas"
-          }
-        },
-        "availableService": [
-          {
-            "@type": "MedicalTest",
-            "name": "Asynchronous Metabolic Health Intake"
-          },
-          {
-            "@type": "MedicalTherapy",
-            "name": "GLP-1 Agonist Prescription"
-          }
-        ],
-        "medicalSpecialty": "Endocrine",
-        "isAcceptingNewPatients": true
-      },
-      {
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Do I need to visit a physical clinic in Dallas to get a prescription?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "No. Under Texas Medical Board telehealth regulations, you can complete your entire medical intake asynchronously online. If approved by a Texas-licensed physician, your compounded Semaglutide or Tirzepatide is shipped directly to your home in Dallas."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Is Telehealth FX legally authorized to operate in Texas?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes. We partner exclusively with physicians licensed by the Texas Medical Board, and our network utilizes FDA-registered 503A/503B pharmacies authorized to ship to all Texas addresses."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Are there waitlists like at UT Southwestern or Baylor Scott & White?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "No. By utilizing 503A compounding pharmacies, we completely bypass the retail shortages affecting local Tom Thumb pharmacies and the 6-month waitlists typical of major hospital metabolic centers in the Metroplex."
-            }
-          }
-        ]
-      }
-    ]
-  };
-
+  const jsonLd = {"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://telehealthfx.com/#organization", "name": "Telehealth FX", "url": "https://telehealthfx.com", "logo": {"@type": "ImageObject", "url": "https://telehealthfx.com/logo.png"}, "sameAs": []}, {"@type": "WebSite", "@id": "https://telehealthfx.com/#website", "url": "https://telehealthfx.com", "name": "Telehealth FX", "publisher": {"@id": "https://telehealthfx.com/#organization"}}, {"@type": "BreadcrumbList", "@id": "https://telehealthfx.com/locations/dallas#breadcrumb", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://telehealthfx.com"}, {"@type": "ListItem", "position": 2, "name": "Locations", "item": "https://telehealthfx.com/locations"}, {"@type": "ListItem", "position": 3, "name": "Dallas", "item": "https://telehealthfx.com/locations/dallas"}]}, {"@type": "MedicalWebPage", "@id": "https://telehealthfx.com/locations/dallas#webpage", "url": "https://telehealthfx.com/locations/dallas", "name": "GLP-1 Weight Loss in Dallas | Telehealth FX", "description": "FDA-compliant compounded Semaglutide and Tirzepatide prescribed by Texas-licensed physicians in Dallas. From $146/mo with overnight delivery.", "isPartOf": {"@id": "https://telehealthfx.com/#website"}, "breadcrumb": {"@id": "https://telehealthfx.com/locations/dallas#breadcrumb"}, "inLanguage": "en-US", "medicalAudience": {"@type": "MedicalAudience", "audienceType": "Patient"}, "lastReviewed": "2026-05-01", "reviewedBy": {"@type": "Organization", "name": "Telehealth FX Clinical Team"}}, {"@type": "MedicalClinic", "@id": "https://telehealthfx.com/locations/dallas#clinic", "name": "Telehealth FX - Dallas", "url": "https://telehealthfx.com/locations/dallas", "telephone": "+1-800-TELEHEALTH", "areaServed": {"@type": "City", "name": "Dallas", "containedInPlace": {"@type": "State", "name": "Texas"}}, "medicalSpecialty": "Endocrine", "isAcceptingNewPatients": true, "availableService": {"@type": "MedicalTherapy", "name": "GLP-1 Receptor Agonist Therapy", "alternateName": "Compounded Semaglutide / Tirzepatide", "medicineSystem": "WesternConventional", "relevantSpecialty": "Endocrine"}, "currenciesAccepted": "USD", "paymentAccepted": "Credit Card, HSA, FSA", "priceRange": "$146-$349/mo", "geo": {"@type": "GeoCoordinates", "latitude": 32.7767, "longitude": -96.797}}, {"@type": "Service", "@id": "https://telehealthfx.com/locations/dallas#service", "name": "GLP-1 Weight Loss Program - Dallas", "description": "Clinical telehealth weight loss program delivering compounded Semaglutide and Tirzepatide to Dallas, Texas residents. Includes physician evaluation, prescription, and cold-shipped medication.", "provider": {"@id": "https://telehealthfx.com/locations/dallas#clinic"}, "areaServed": {"@type": "City", "name": "Dallas", "containedInPlace": {"@type": "State", "name": "Texas"}}, "serviceType": "Telehealth Weight Management", "offers": {"@type": "Offer", "price": "146", "priceCurrency": "USD", "priceValidUntil": "2026-12-31", "availability": "https://schema.org/InStock", "url": "https://go.telehealthfx.com/start", "description": "Monthly compounded GLP-1 program with physician oversight"}}]};
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <LocationDallas />
     </>
   );

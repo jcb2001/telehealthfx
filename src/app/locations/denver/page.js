@@ -1,90 +1,23 @@
-import { LocationDenver } from '../../../components/location-denver';
-
+import { LocationDenver } from "../../../components/location-denver";
 export const metadata = {
-  alternates: {
-    canonical: 'https://telehealthfx.com/locations/denver/',
-  },
-  title: "GLP-1 Weight Loss Prescriptions in Denver | Telehealth FX",
-  description: "Bypass the I-25 traffic and waitlists at UCHealth. Access FDA-compliant compounded Semaglutide and Tirzepatide prescribed by Colorado-licensed physicians.",
+  title: "GLP-1 Weight Loss in Denver | Telehealth FX",
+  description: "FDA-compliant compounded Semaglutide prescribed by Colorado-licensed physicians in Denver. From $146/mo with overnight cold-pack delivery.",
   openGraph: {
-    title: "GLP-1 Weight Loss Prescriptions in Denver | Telehealth FX",
-    description: "Access U.S.-licensed compounded Semaglutide, delivered directly to your home in Denver.",
-    url: 'https://telehealthfx.com/locations/denver',
-    siteName: 'Telehealth FX',
-    type: 'website',
+    title: "GLP-1 Weight Loss in Denver | Telehealth FX",
+    description: "Clinical GLP-1 telehealth for Denver, Colorado residents. Colorado-licensed physicians. From $146/mo.",
+    url: "https://telehealthfx.com/locations/denver",
+    siteName: "Telehealth FX",
+    type: "website"
+  },
+  alternates: {
+    canonical: "https://telehealthfx.com/locations/denver"
   }
 };
-
 export default function DenverPage() {
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "MedicalClinic",
-        "@id": "https://telehealthfx.com/locations/denver#clinic",
-        "name": "Telehealth FX - Denver GLP-1 Prescribing",
-        "url": "https://telehealthfx.com/locations/denver",
-        "logo": "https://telehealthfx.com/logo.png",
-        "description": "Asynchronous medical weight loss clinic providing Colorado-licensed physician evaluations and GLP-1 prescriptions for residents of Denver County, Arapahoe County, Jefferson County.",
-        "areaServed": {
-          "@type": "City",
-          "name": "Denver",
-          "containedInPlace": {
-            "@type": "State",
-            "name": "Colorado"
-          }
-        },
-        "availableService": [
-          {
-            "@type": "MedicalTest",
-            "name": "Asynchronous Metabolic Health Intake"
-          },
-          {
-            "@type": "MedicalTherapy",
-            "name": "GLP-1 Agonist Prescription"
-          }
-        ],
-        "medicalSpecialty": "Endocrine",
-        "isAcceptingNewPatients": true
-      },
-      {
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Do I need to visit a physical clinic in Denver to get a prescription?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "No. Under Colorado Medical Board telehealth regulations, you can complete your entire medical intake asynchronously online. If approved by a Colorado-licensed physician, your compounded Semaglutide or Tirzepatide is shipped directly to your home in Denver."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Is Telehealth FX legally authorized to operate in Colorado?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes. We partner exclusively with physicians licensed by the Colorado Medical Board, and our network utilizes FDA-registered 503A/503B pharmacies authorized to ship to all CO addresses."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Are there waitlists like at UCHealth and Denver Health?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "No. By utilizing 503A compounding pharmacies, we completely bypass the retail shortages affecting local King Soopers Pharmacy pharmacies and the 6-month waitlists typical of major hospital metabolic centers in the area."
-            }
-          }
-        ]
-      }
-    ]
-  };
-
+  const jsonLd = {"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://telehealthfx.com/#organization", "name": "Telehealth FX", "url": "https://telehealthfx.com", "logo": {"@type": "ImageObject", "url": "https://telehealthfx.com/logo.png"}, "sameAs": []}, {"@type": "WebSite", "@id": "https://telehealthfx.com/#website", "url": "https://telehealthfx.com", "name": "Telehealth FX", "publisher": {"@id": "https://telehealthfx.com/#organization"}}, {"@type": "BreadcrumbList", "@id": "https://telehealthfx.com/locations/denver#breadcrumb", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://telehealthfx.com"}, {"@type": "ListItem", "position": 2, "name": "Locations", "item": "https://telehealthfx.com/locations"}, {"@type": "ListItem", "position": 3, "name": "Denver", "item": "https://telehealthfx.com/locations/denver"}]}, {"@type": "MedicalWebPage", "@id": "https://telehealthfx.com/locations/denver#webpage", "url": "https://telehealthfx.com/locations/denver", "name": "GLP-1 Weight Loss in Denver | Telehealth FX", "description": "FDA-compliant compounded Semaglutide and Tirzepatide prescribed by Colorado-licensed physicians in Denver. From $146/mo with overnight delivery.", "isPartOf": {"@id": "https://telehealthfx.com/#website"}, "breadcrumb": {"@id": "https://telehealthfx.com/locations/denver#breadcrumb"}, "inLanguage": "en-US", "medicalAudience": {"@type": "MedicalAudience", "audienceType": "Patient"}, "lastReviewed": "2026-05-01", "reviewedBy": {"@type": "Organization", "name": "Telehealth FX Clinical Team"}}, {"@type": "MedicalClinic", "@id": "https://telehealthfx.com/locations/denver#clinic", "name": "Telehealth FX - Denver", "url": "https://telehealthfx.com/locations/denver", "telephone": "+1-800-TELEHEALTH", "areaServed": {"@type": "City", "name": "Denver", "containedInPlace": {"@type": "State", "name": "Colorado"}}, "medicalSpecialty": "Endocrine", "isAcceptingNewPatients": true, "availableService": {"@type": "MedicalTherapy", "name": "GLP-1 Receptor Agonist Therapy", "alternateName": "Compounded Semaglutide / Tirzepatide", "medicineSystem": "WesternConventional", "relevantSpecialty": "Endocrine"}, "currenciesAccepted": "USD", "paymentAccepted": "Credit Card, HSA, FSA", "priceRange": "$146-$349/mo", "geo": {"@type": "GeoCoordinates", "latitude": 39.7392, "longitude": -104.9903}}, {"@type": "Service", "@id": "https://telehealthfx.com/locations/denver#service", "name": "GLP-1 Weight Loss Program - Denver", "description": "Clinical telehealth weight loss program delivering compounded Semaglutide and Tirzepatide to Denver, Colorado residents. Includes physician evaluation, prescription, and cold-shipped medication.", "provider": {"@id": "https://telehealthfx.com/locations/denver#clinic"}, "areaServed": {"@type": "City", "name": "Denver", "containedInPlace": {"@type": "State", "name": "Colorado"}}, "serviceType": "Telehealth Weight Management", "offers": {"@type": "Offer", "price": "146", "priceCurrency": "USD", "priceValidUntil": "2026-12-31", "availability": "https://schema.org/InStock", "url": "https://go.telehealthfx.com/start", "description": "Monthly compounded GLP-1 program with physician oversight"}}]};
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <LocationDenver />
     </>
   );
