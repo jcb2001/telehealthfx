@@ -87,18 +87,8 @@ function EDPage() {
         "activeIngredient": "Sildenafil Citrate",
         "prescriptionStatus": "PrescriptionOnly",
         "availableStrength": ["25mg", "50mg", "100mg"],
-        "indication": {
-          "@type": "ApprovedIndication",
-          "name": "Treatment of erectile dysfunction"
-        },
-        "warning": [
-          { "@type": "MedicalEntity", "name": "Headache" },
-          { "@type": "MedicalEntity", "name": "Flushing" },
-          { "@type": "MedicalEntity", "name": "Nasal congestion" },
-          { "@type": "MedicalEntity", "name": "Dyspepsia" },
-          { "@type": "MedicalEntity", "name": "Visual disturbances (blue tint)" }
-        ],
-        "contraindication": "Concurrent use of nitrates, severe hepatic impairment, recent stroke or MI, hypotension"
+        "description": "Treatment of erectile dysfunction",
+        "warning": "Possible side effects include headache, flushing, nasal congestion, dyspepsia, and visual disturbances (blue tint). Do not use with nitrates, in severe hepatic impairment, recent stroke or MI, or hypotension."
       },
       {
         "@type": "Drug",

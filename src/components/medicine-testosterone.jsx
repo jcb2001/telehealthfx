@@ -87,18 +87,8 @@ function TestosteronePage() {
         "prescriptionStatus": "PrescriptionOnly",
         "isAvailableGenerically": true,
         "clinicalPharmacology": "Testosterone Cypionate is a long-acting esterified form of testosterone administered via injection. It provides sustained release of testosterone over 7–14 days, restoring physiological androgen levels and promoting anabolic effects on muscle, bone, and metabolism.",
-        "indication": {
-          "@type": "ApprovedIndication",
-          "name": "Testosterone replacement therapy for conditions associated with deficiency or absence of endogenous testosterone (male hypogonadism)"
-        },
-        "warning": [
-          { "@type": "MedicalEntity", "name": "Acne or oily skin" },
-          { "@type": "MedicalEntity", "name": "Injection site reactions" },
-          { "@type": "MedicalEntity", "name": "Increased red blood cell count (erythrocytosis)" },
-          { "@type": "MedicalEntity", "name": "Fluid retention" },
-          { "@type": "MedicalEntity", "name": "Potential suppression of spermatogenesis" }
-        ],
-        "contraindication": "Prostate cancer, breast cancer in men, women who are or may become pregnant, polycythemia, untreated severe sleep apnea",
+        "description": "Testosterone replacement therapy for conditions associated with deficiency or absence of endogenous testosterone (male hypogonadism)",
+        "warning": "Possible side effects include acne or oily skin, injection site reactions, increased red blood cell count (erythrocytosis), fluid retention, and potential suppression of spermatogenesis. Contraindicated in prostate cancer, breast cancer in men, women who are or may become pregnant, polycythemia, and untreated severe sleep apnea.",
         "interactingDrug": "Insulin, anticoagulants (warfarin), corticosteroids"
       },
       {
