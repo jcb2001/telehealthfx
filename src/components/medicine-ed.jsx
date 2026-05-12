@@ -91,7 +91,7 @@ function EDPage() {
           "@type": "ApprovedIndication",
           "name": "Treatment of erectile dysfunction"
         },
-        "adverseOutcome": [
+        "warning": [
           { "@type": "MedicalEntity", "name": "Headache" },
           { "@type": "MedicalEntity", "name": "Flushing" },
           { "@type": "MedicalEntity", "name": "Nasal congestion" },
@@ -118,7 +118,7 @@ function EDPage() {
         "@id": "https://telehealthfx.com/#organization",
         "name": "Telehealth FX",
         "url": "https://telehealthfx.com",
-        "medicalSpecialty": ["Urology", "Men's Health", "Sexual Wellness"]
+        "medicalSpecialty": ["http://schema.org/Urologic", "http://schema.org/PrimaryCare"]
       },
       {
         "@type": "FAQPage",

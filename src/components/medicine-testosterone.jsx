@@ -91,7 +91,7 @@ function TestosteronePage() {
           "@type": "ApprovedIndication",
           "name": "Testosterone replacement therapy for conditions associated with deficiency or absence of endogenous testosterone (male hypogonadism)"
         },
-        "adverseOutcome": [
+        "warning": [
           { "@type": "MedicalEntity", "name": "Acne or oily skin" },
           { "@type": "MedicalEntity", "name": "Injection site reactions" },
           { "@type": "MedicalEntity", "name": "Increased red blood cell count (erythrocytosis)" },
@@ -106,7 +106,7 @@ function TestosteronePage() {
         "@id": "https://telehealthfx.com/#organization",
         "name": "Telehealth FX",
         "url": "https://telehealthfx.com",
-        "medicalSpecialty": ["Endocrinology", "Men's Health", "Hormone Optimization"]
+        "medicalSpecialty": ["http://schema.org/Endocrine", "http://schema.org/Urologic"]
       },
       {
         "@type": "FAQPage",

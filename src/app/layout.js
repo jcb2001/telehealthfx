@@ -40,13 +40,11 @@ export default function RootLayout({ children }) {
         "contactPoint": { "@type": "ContactPoint", "contactType": "customer support" },
         "areaServed": [{ "@type": "Country", "name": "United States" }],
         "medicalSpecialty": [
-          "Weight Loss & Bariatrics",
-          "Telehealth",
-          "Endocrinology",
-          "Men's Health",
-          "Sexual Wellness",
-          "Dermatology & Hair Restoration",
-          "Longevity & Preventive Medicine"
+          "http://schema.org/DietNutrition",
+          "http://schema.org/Endocrine",
+          "http://schema.org/Urologic",
+          "http://schema.org/Dermatology",
+          "http://schema.org/PrimaryCare"
         ],
         "alternateName": [
           "TelehealthFX",
@@ -81,7 +79,7 @@ export default function RootLayout({ children }) {
         "name": "Telehealth Weight Loss & Men's Health Programs — Telehealth FX",
         "provider": { "@id": "https://telehealthfx.com/#organization" },
         "areaServed": { "@type": "Country", "name": "United States" },
-        "serviceType": "Medical Weight Management, Hormone Optimization, Sexual Wellness, Hair Restoration, Longevity Medicine"
+        "serviceType": "Telehealth Medical Services"
       },
       // ── Product: Semaglutide ──
       {
