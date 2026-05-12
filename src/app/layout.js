@@ -2,6 +2,7 @@ import "./globals.css";
 import { Nav } from "../components/hero.jsx";
 import { Footer } from "../components/sections-3.jsx";
 import { AnnouncementBar } from "../components/announcement-bar.jsx";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 export const metadata = {
   title: "Telehealth FX — GLP-1 clinical weight loss, delivered.",
@@ -216,6 +217,7 @@ export default function RootLayout({ children }) {
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(masterSchema) }} />
       </head>
       <body>
+        <GoogleAnalytics gaId="G-Z7XPF8WRQ8" />
         <div style={{ position: 'fixed', top: 0, left: 0, right: 0, zIndex: 50 }}>
           <AnnouncementBar />
           <Nav />
