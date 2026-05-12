@@ -25,11 +25,11 @@ function EDNav() {
       <div className="container" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', height: 72 }}>
         <a href="/" style={{ textDecoration: 'none', color: 'inherit' }}><Logo /></a>
         <div className="nav-links" style={{ display: 'flex', gap: 32, fontSize: 14, color: 'var(--ink-2)' }}>
-          <a href="/#treatments">Treatments</a>
-          <a href="/medications/testosterone">Testosterone</a>
-          <a href="/medications/semaglutide">Semaglutide</a>
-          <a href="/blog">Articles</a>
-          <a href="/#faq">FAQ</a>
+          <a href="#what-is-ed">What is ED</a>
+          <a href="#treatments">Treatment Options</a>
+          <a href="#how-it-works">How It Works</a>
+          <a href="#safety">Safety</a>
+          <a href="#faq">FAQ</a>
         </div>
         <div className="flex-row nav-actions" style={{ gap: 12, alignItems: 'center' }}>
           <a className="btn btn-primary" href={CTA_URL} target="_blank" rel="noopener noreferrer">
@@ -223,7 +223,7 @@ function EDPage() {
         {/* Content */}
         <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
 
-          <h2 className="serif" style={{ fontSize: 40, marginTop: 0, marginBottom: 24, color: 'var(--ink)' }}>What Is Erectile Dysfunction?</h2>
+          <h2 id="what-is-ed" className="serif" style={{ fontSize: 40, marginTop: 0, marginBottom: 24, color: 'var(--ink)' }}>What Is Erectile Dysfunction?</h2>
           <p>Erectile dysfunction (ED) is the <strong>persistent inability to achieve or maintain an erection firm enough for satisfactory sexual intercourse</strong>. While occasional difficulty is normal, ongoing ED affects over <strong>50% of men over 40</strong> in some form — and its prevalence increases with age, stress, and underlying health conditions.</p>
           <p>ED is <strong>not something you have to accept</strong>. It's a treatable medical condition, and modern oral medications work for the vast majority of men. What many don't realize is that ED is often an early warning sign of deeper cardiovascular or metabolic issues — making evaluation and treatment even more important.</p>
 
@@ -247,7 +247,7 @@ function EDPage() {
           </div>
 
           {/* Treatment Options */}
-          <h2 className="serif" style={{ fontSize: 40, marginTop: 64, marginBottom: 24, color: 'var(--ink)' }}>Treatment Options</h2>
+          <h2 id="treatments" className="serif" style={{ fontSize: 40, marginTop: 64, marginBottom: 24, color: 'var(--ink)' }}>Treatment Options</h2>
           <p>Oral PDE5 inhibitors are the first-line treatment for erectile dysfunction. Your clinician will recommend the best option based on your lifestyle, frequency of use, and health profile:</p>
 
           <div style={{ margin: '32px 0', overflowX: 'auto' }}>
@@ -311,7 +311,7 @@ function EDPage() {
           </div>
 
           {/* How It Works */}
-          <h2 className="serif" style={{ fontSize: 40, marginTop: 64, marginBottom: 24, color: 'var(--ink)' }}>How It Works — 3 Simple Steps</h2>
+          <h2 id="how-it-works" className="serif" style={{ fontSize: 40, marginTop: 64, marginBottom: 24, color: 'var(--ink)' }}>How It Works — 3 Simple Steps</h2>
           <div style={{ display: 'grid', gridTemplateColumns: '48px 1fr', gap: '20px 16px', margin: '32px 0' }}>
             {[
               { step: '1', title: 'Private Health Assessment', desc: 'Complete a quick online questionnaire about your symptoms, medical history, and current medications. Everything is HIPAA-protected and confidential.' },
@@ -329,7 +329,7 @@ function EDPage() {
           </div>
 
           {/* Side Effects */}
-          <h2 className="serif" style={{ fontSize: 40, marginTop: 64, marginBottom: 24, color: 'var(--ink)' }}>Side Effects & Safety</h2>
+          <h2 id="safety" className="serif" style={{ fontSize: 40, marginTop: 64, marginBottom: 24, color: 'var(--ink)' }}>Side Effects & Safety</h2>
           <p>PDE5 inhibitors are well-studied and generally well-tolerated. Common side effects are usually mild and temporary:</p>
           <ul style={{ marginBottom: 24, paddingLeft: 20 }}>
             <li style={{ marginBottom: 8 }}><strong>Headache</strong> (most common)</li>
@@ -342,7 +342,7 @@ function EDPage() {
           <p><strong>Important:</strong> PDE5 inhibitors must <strong>not</strong> be taken with nitrate medications (nitroglycerin, isosorbide) due to the risk of severe hypotension. Your clinician will screen for contraindications and drug interactions during your assessment.</p>
 
           {/* FAQ */}
-          <h2 className="serif" style={{ fontSize: 40, marginTop: 64, marginBottom: 24, color: 'var(--ink)' }}>Frequently Asked Questions</h2>
+          <h2 id="faq" className="serif" style={{ fontSize: 40, marginTop: 64, marginBottom: 24, color: 'var(--ink)' }}>Frequently Asked Questions</h2>
 
           {[
             { q: 'What is erectile dysfunction?', a: 'Erectile dysfunction (ED) is the persistent inability to achieve or maintain an erection firm enough for satisfactory sexual intercourse. It affects over 50% of men over 40 in some form and can be caused by vascular, hormonal, neurological, or psychological factors.' },

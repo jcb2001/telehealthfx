@@ -25,11 +25,11 @@ function TestosteroneNav() {
       <div className="container" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', height: 72 }}>
         <a href="/" style={{ textDecoration: 'none', color: 'inherit' }}><Logo /></a>
         <div className="nav-links" style={{ display: 'flex', gap: 32, fontSize: 14, color: 'var(--ink-2)' }}>
-          <a href="/#treatments">Treatments</a>
-          <a href="/medications/semaglutide">Semaglutide</a>
-          <a href="/medications/tirzepatide">Tirzepatide</a>
-          <a href="/blog">Articles</a>
-          <a href="/#faq">FAQ</a>
+          <a href="#what-is-trt">What is TRT</a>
+          <a href="#treatments">Treatment Options</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#how-it-works">How It Works</a>
+          <a href="#faq">FAQ</a>
         </div>
         <div className="flex-row nav-actions" style={{ gap: 12, alignItems: 'center' }}>
           <a className="btn btn-primary" href={CTA_URL} target="_blank" rel="noopener noreferrer">
@@ -227,7 +227,7 @@ function TestosteronePage() {
         {/* Content */}
         <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
 
-          <h2 className="serif" style={{ fontSize: 40, marginTop: 0, marginBottom: 24, color: 'var(--ink)' }}>What Is Testosterone Replacement Therapy (TRT)?</h2>
+          <h2 id="what-is-trt" className="serif" style={{ fontSize: 40, marginTop: 0, marginBottom: 24, color: 'var(--ink)' }}>What Is Testosterone Replacement Therapy (TRT)?</h2>
           <p>Testosterone Replacement Therapy (TRT) is a <strong>medically supervised hormone treatment</strong> that restores testosterone to optimal physiological levels in men diagnosed with hypogonadism — clinically low testosterone. After age 30, men lose roughly <strong>1–2% of their testosterone per year</strong>, and by their 40s and 50s, many experience symptoms severe enough to impact daily life, relationships, and long-term health.</p>
           <p>TRT works by supplementing exogenous testosterone (most commonly <strong>Testosterone Cypionate</strong>) via injection, oral medication, or topical cream. Once serum testosterone is restored to the <strong>600–1,100 ng/dL optimal range</strong>, patients typically report dramatic improvements in energy, body composition, mood, cognitive clarity, and sexual function — often within the first 4–8 weeks.</p>
 
@@ -251,7 +251,7 @@ function TestosteronePage() {
           </div>
 
           {/* Treatment Options */}
-          <h2 className="serif" style={{ fontSize: 40, marginTop: 64, marginBottom: 24, color: 'var(--ink)' }}>Treatment Options</h2>
+          <h2 id="treatments" className="serif" style={{ fontSize: 40, marginTop: 64, marginBottom: 24, color: 'var(--ink)' }}>Treatment Options</h2>
           <p>Your clinician will recommend the delivery method that best fits your goals, lifestyle, and medical history:</p>
 
           <div style={{ margin: '32px 0', overflowX: 'auto' }}>
@@ -280,7 +280,7 @@ function TestosteronePage() {
           </div>
 
           {/* Pricing */}
-          <h2 className="serif" style={{ fontSize: 40, marginTop: 64, marginBottom: 24, color: 'var(--ink)' }}>Transparent Pricing</h2>
+          <h2 id="pricing" className="serif" style={{ fontSize: 40, marginTop: 64, marginBottom: 24, color: 'var(--ink)' }}>Transparent Pricing</h2>
           <p>All plans include licensed clinician oversight, medication, and free discreet shipping. No hidden fees.</p>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 20, margin: '32px 0' }}>
             {[
@@ -316,7 +316,7 @@ function TestosteronePage() {
           </div>
 
           {/* How It Works */}
-          <h2 className="serif" style={{ fontSize: 40, marginTop: 64, marginBottom: 24, color: 'var(--ink)' }}>How It Works — 3 Simple Steps</h2>
+          <h2 id="how-it-works" className="serif" style={{ fontSize: 40, marginTop: 64, marginBottom: 24, color: 'var(--ink)' }}>How It Works — 3 Simple Steps</h2>
           <div style={{ display: 'grid', gridTemplateColumns: '48px 1fr', gap: '20px 16px', margin: '32px 0' }}>
             {[
               { step: '1', title: 'Health Assessment', desc: 'Complete a quick online questionnaire about your symptoms, medical history, and goals. Already have recent blood work? Upload it to fast-track your review.' },
@@ -369,7 +369,7 @@ function TestosteronePage() {
           <p>Your care team will monitor your labs regularly (including hematocrit, PSA, and lipid panels) to ensure safe, optimized treatment. TRT is <strong>not appropriate</strong> for men actively trying to conceive without adjunctive therapy, or those with untreated prostate cancer or severe sleep apnea.</p>
 
           {/* FAQ */}
-          <h2 className="serif" style={{ fontSize: 40, marginTop: 64, marginBottom: 24, color: 'var(--ink)' }}>Frequently Asked Questions</h2>
+          <h2 id="faq" className="serif" style={{ fontSize: 40, marginTop: 64, marginBottom: 24, color: 'var(--ink)' }}>Frequently Asked Questions</h2>
 
           {[
             { q: 'What is TRT?', a: 'Testosterone Replacement Therapy (TRT) is a medically supervised treatment that restores testosterone levels in men with clinically low testosterone (hypogonadism). It uses exogenous testosterone — typically Testosterone Cypionate — to bring serum levels back into the optimal 600–1,100 ng/dL range.' },
