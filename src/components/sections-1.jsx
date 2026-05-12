@@ -138,6 +138,23 @@ function Medications() {
       ],
     },
     {
+      name: 'Testosterone',
+      tag: 'Men\u2019s Health',
+      tagType: 'brand',
+      price: '79',
+      intro: 'Personalized TRT prescribed by licensed clinicians — injectable, oral, or topical. Restore energy, strength, and drive.',
+      avg: 'Hormone Optimization',
+      avgSub: 'Primary Benefit',
+      ctaUrl: 'https://go.telehealthfx.com/testosterone',
+      ctaLabel: 'Learn More',
+      features: [
+        'Injectable, oral, or topical options',
+        'Licensed clinician oversight included',
+        'Free discreet shipping',
+        'Price match guarantee',
+      ],
+    },
+    {
       name: 'Berberine',
       tag: 'Natural AMPK',
       tagType: 'brand',
