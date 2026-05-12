@@ -172,6 +172,23 @@ function Medications() {
       ],
     },
     {
+      name: 'Hair Loss',
+      tag: 'Hair Restoration',
+      tagType: 'brand',
+      price: '29',
+      intro: 'Clinician-prescribed Finasteride, Minoxidil, and custom compounds to slow, stop, and reverse hair loss — shipped discreetly.',
+      avg: 'Hair Regrowth',
+      avgSub: 'Primary Benefit',
+      ctaUrl: 'https://go.telehealthfx.com/hair',
+      ctaLabel: 'Learn More',
+      features: [
+        'Finasteride, Minoxidil, or custom compound',
+        '100% online & discreet',
+        'Free shipping in plain packaging',
+        '24-hour clinician approval',
+      ],
+    },
+    {
       name: 'Berberine',
       tag: 'Natural AMPK',
       tagType: 'brand',
