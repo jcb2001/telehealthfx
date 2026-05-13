@@ -1,4 +1,4 @@
-import { BlogGlp1DementiaAlzheimersResearch2026 } from '../../components/blog-glp1-dementia-alzheimers-research-2026';
+import { BlogGlp1DementiaAlzheimersResearch2026 } from '../../../components/blog-glp1-dementia-alzheimers-research-2026';
 
 export const metadata = {
   title: "GLP-1s and Alzheimer's: Can Weight Loss Drugs Protect the Brain?",

@@ -1,4 +1,4 @@
-import { BlogGlp1MuscleBuildingHypertrophy2026 } from '../../components/blog-glp1-muscle-building-hypertrophy-2026';
+import { BlogGlp1MuscleBuildingHypertrophy2026 } from '../../../components/blog-glp1-muscle-building-hypertrophy-2026';
 
 export const metadata = {
   title: "Building Muscle on GLP-1s: The Hypertrophy Protocol (2026)",

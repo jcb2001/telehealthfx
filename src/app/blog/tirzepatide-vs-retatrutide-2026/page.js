@@ -1,4 +1,4 @@
-import { BlogTirzepatideVsRetatrutide2026 } from '../../components/blog-tirzepatide-vs-retatrutide-2026';
+import { BlogTirzepatideVsRetatrutide2026 } from '../../../components/blog-tirzepatide-vs-retatrutide-2026';
 
 export const metadata = {
   title: "Tirzepatide vs. Retatrutide: Dual vs. Triple Agonist (2026)",

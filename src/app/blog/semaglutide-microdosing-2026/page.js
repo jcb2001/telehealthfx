@@ -1,4 +1,4 @@
-import { BlogSemaglutideMicrodosing2026 } from '../../components/blog-semaglutide-microdosing-2026';
+import { BlogSemaglutideMicrodosing2026 } from '../../../components/blog-semaglutide-microdosing-2026';
 
 export const metadata = {
   title: "Semaglutide Microdosing: Split Doses & Zero Side Effects (2026)",

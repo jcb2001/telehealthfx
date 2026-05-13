@@ -1,4 +1,4 @@
-import { BlogGlp1HydrationElectrolytes2026 } from '../../components/blog-glp1-hydration-electrolytes-2026';
+import { BlogGlp1HydrationElectrolytes2026 } from '../../../components/blog-glp1-hydration-electrolytes-2026';
 
 export const metadata = {
   title: "The GLP-1 Hydration Crisis: Why Water Isn't Enough (2026)",

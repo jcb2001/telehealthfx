@@ -1,4 +1,4 @@
-import { BlogCompoundedSemaglutideRedFlags2026 } from '../../components/blog-compounded-semaglutide-red-flags-2026';
+import { BlogCompoundedSemaglutideRedFlags2026 } from '../../../components/blog-compounded-semaglutide-red-flags-2026';
 
 export const metadata = {
   title: "7 Red Flags When Buying Compounded Semaglutide (2026)",
