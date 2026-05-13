@@ -1,4 +1,4 @@
-import { BlogTirzepatideMaintenanceDosing2026 } from '../../components/blog-tirzepatide-maintenance-dosing-2026';
+import { BlogTirzepatideMaintenanceDosing2026 } from '../../../components/blog-tirzepatide-maintenance-dosing-2026';
 
 export const metadata = {
   title: "Tirzepatide Maintenance Dosing: Prevent Weight Regain (2026) | Telehealth FX",

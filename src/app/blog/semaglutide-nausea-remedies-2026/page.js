@@ -1,4 +1,4 @@
-import { BlogSemaglutideNauseaRemedies2026 } from '../../components/blog-semaglutide-nausea-remedies-2026';
+import { BlogSemaglutideNauseaRemedies2026 } from '../../../components/blog-semaglutide-nausea-remedies-2026';
 
 export const metadata = {
   title: "10 Cures for Semaglutide Nausea: Stop GLP-1 Sickness (2026) | Telehealth FX",

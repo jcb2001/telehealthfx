@@ -1,4 +1,4 @@
-import { BlogCompoundedTirzepatideLegality2026 } from '../../components/blog-compounded-tirzepatide-legality-2026';
+import { BlogCompoundedTirzepatideLegality2026 } from '../../../components/blog-compounded-tirzepatide-legality-2026';
 
 export const metadata = {
   title: "Is Compounded Tirzepatide Legal? FDA Guidelines (2026) | Telehealth FX",
