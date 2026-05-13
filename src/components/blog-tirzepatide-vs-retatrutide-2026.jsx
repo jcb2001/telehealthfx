@@ -1,128 +1,75 @@
 "use client";
 import React from 'react';
-import Link from 'next/link';
+import Image from 'next/image';
+import { Icon } from './common.jsx';
+const S = "https://go.telehealthfx.com/start";
 
-export function BlogTirzepatideVsRetatrutide2026() {
-  return (
-    <div className="bg-white min-h-screen font-sans text-gray-900">
-      {/* Article Header */}
-      <header className="bg-gray-50 py-16 sm:py-24 border-b border-gray-200">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-sm font-semibold text-blue-600 tracking-wide uppercase mb-3">Next-Gen Medications</p>
-          <h1 className="text-4xl sm:text-5xl font-extrabold text-gray-900 tracking-tight mb-6">
-            Tirzepatide vs. Retatrutide: The Dual vs. Triple Agonist Showdown
-          </h1>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-8">
-            As Eli Lilly's "Triple G" moves through Phase 3 clinical trials, how does retatrutide compare to the current king of weight loss, tirzepatide?
-          </p>
-          <div className="flex items-center justify-center space-x-4 text-sm text-gray-500">
-            <span>By The Telehealth FX Clinical Team</span>
-            <span>•</span>
-            <span>May 2026</span>
-            <span>•</span>
-            <span>9 min read</span>
-          </div>
-        </div>
-      </header>
+function BlogTirzepatideVsRetatrutide2026() {
+  return (<><section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}><div className="container" style={{ maxWidth: 800 }}>
+    <div className="eyebrow" style={{ marginBottom: 20 }}>Next-Gen Medications</div>
+    <h1 className="serif" style={{ fontSize: 52, marginBottom: 24, lineHeight: 1.08 }}>Tirzepatide vs. Retatrutide: <span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>The Dual vs. Triple Agonist Showdown</span></h1>
+    <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}><div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)' }}><Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%', height: "auto"}} priority={true} /></div><div><div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div><div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 15 min read</div></div></div>
+    
+    <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
+      <Image src="/assets/tirzepatide-vs-retatrutide-featured.png" alt="Clinical comparison of Tirzepatide and Retatrutide molecules" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', height: "auto"}} priority={true} />
+      
+      <p>The weight loss pharmaceutical landscape is moving at breakneck speed. Just as the public became familiar with tirzepatide (Zepbound/Mounjaro) as the supreme "dual agonist" that dethroned semaglutide, Eli Lilly has released phase 2 trial data for a new molecule that shatters all previous records: <strong>retatrutide</strong>.</p>
+      
+      <p>While tirzepatide targets two hormonal receptors (GLP-1 and GIP), retatrutide targets three (GLP-1, GIP, and Glucagon). This addition of glucagon receptor activation has shifted the goalposts from simple "weight loss" to aggressive "fat oxidation and metabolic overhaul."</p>
 
-      {/* Main Content */}
-      <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <article className="prose prose-lg prose-blue mx-auto max-w-none">
-          <img 
-            src="/assets/tirzepatide-vs-retatrutide-featured.png" 
-            alt="Abstract 3D render of three interacting molecules" 
-            className="w-full rounded-xl shadow-lg mb-12"
-          />
+      <p>If you are exploring the highest-efficacy treatments available today, you can <a href={S} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)', fontWeight: 500 }}>speak to a Telehealth FX clinician</a> about dual-agonist tirzepatide therapy, which remains the most powerful FDA-approved option on the market.</p>
 
-          <h2>The Evolution of Incretin Therapy</h2>
-          <p>
-            First came <strong>Semaglutide</strong> (Wegovy), a single agonist targeting only the GLP-1 receptor. Then came <strong>Tirzepatide</strong> (Zepbound), a dual agonist targeting both GLP-1 and GIP receptors. 
-          </p>
-          <p>
-            Now, Eli Lilly has developed <strong>Retatrutide</strong>, dubbed the "Triple G." It is a single molecule that binds to three different receptors simultaneously: GLP-1, GIP, and Glucagon (GCG). This addition of the glucagon receptor agonism fundamentally changes how the drug burns fat.
-          </p>
+      <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The Receptor Mechanisms Explained</h2>
+      <p>To understand why retatrutide is so much more powerful, you must look at what the individual receptors do:</p>
+      <ul>
+        <li style={{ marginBottom: 16 }}><strong>GLP-1 (Semaglutide/Wegovy):</strong> Suppresses appetite centrally in the brain and slows gastric emptying.</li>
+        <li style={{ marginBottom: 16 }}><strong>GLP-1 + GIP (Tirzepatide/Zepbound):</strong> Adds GIP, which significantly improves fat cell insulin sensitivity, reducing fat storage and easing the nausea associated with GLP-1.</li>
+        <li style={{ marginBottom: 16 }}><strong>GLP-1 + GIP + Glucagon (Retatrutide):</strong> Adds the glucagon receptor. Glucagon directly signals the liver to break down stored fat (lipolysis) and increases the body's baseline metabolic rate. It forces the body to burn calories faster.</li>
+      </ul>
 
-          <div className="bg-blue-50 border-l-4 border-blue-600 p-6 my-8 rounded-r-lg">
-            <h3 className="text-xl font-bold text-blue-900 mt-0 mb-2">The Glucagon Difference</h3>
-            <p className="text-blue-800 mb-0">
-              While GLP-1 and GIP primarily work by suppressing appetite and increasing insulin secretion, the glucagon (GCG) receptor directly stimulates the liver to burn stored fat for energy. Retatrutide doesn't just stop you from eating; it actively forces your body to burn its existing lipid stores.
-            </p>
-          </div>
+      <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The Clinical Trial Data: Head-to-Head</h2>
+      <p>The numbers from the phase 2 clinical trials are staggering. While we do not have a direct 1-to-1 head-to-head trial yet, we can compare the 48-week trial data for both molecules at their maximum doses.</p>
+      
+      <div style={{ overflowX: 'auto', margin: '24px 0' }}>
+        <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: 15 }}>
+          <thead><tr style={{ borderBottom: '2px solid var(--ink)' }}><th style={{ textAlign: 'left', padding: '12px 16px', fontWeight: 600 }}>Metric</th><th style={{ textAlign: 'left', padding: '12px 16px', fontWeight: 600 }}>Tirzepatide (15mg)</th><th style={{ textAlign: 'left', padding: '12px 16px', fontWeight: 600 }}>Retatrutide (12mg)</th></tr></thead>
+          <tbody>
+            <tr style={{ borderBottom: '1px solid var(--line-soft)' }}><td style={{ padding: '12px 16px', fontWeight: 500 }}>Total Weight Loss (48 Wks)</td><td style={{ padding: '12px 16px' }}>15 - 18%</td><td style={{ padding: '12px 16px', color: '#2e7d32', fontWeight: 600 }}>24.2%</td></tr>
+            <tr style={{ borderBottom: '1px solid var(--line-soft)' }}><td style={{ padding: '12px 16px', fontWeight: 500 }}>Patients losing &gt;20%</td><td style={{ padding: '12px 16px' }}>32%</td><td style={{ padding: '12px 16px', color: '#2e7d32', fontWeight: 600 }}>60%</td></tr>
+            <tr style={{ borderBottom: '1px solid var(--line-soft)' }}><td style={{ padding: '12px 16px', fontWeight: 500 }}>Liver Fat Reduction</td><td style={{ padding: '12px 16px' }}>42%</td><td style={{ padding: '12px 16px', color: '#2e7d32', fontWeight: 600 }}>86% (effectively curing NAFLD)</td></tr>
+            <tr><td style={{ padding: '12px 16px', fontWeight: 500 }}>Mechanism</td><td style={{ padding: '12px 16px' }}>Appetite Control + Insulin</td><td style={{ padding: '12px 16px' }}>Appetite Control + Insulin + Fat Burning</td></tr>
+          </tbody>
+        </table>
+      </div>
 
-          <h2>Clinical Trial Efficacy: A New Standard</h2>
-          <p>
-            In Phase 2 clinical trials, Retatrutide shattered all previous records for pharmacological weight loss.
-          </p>
-          <ul>
-            <li><strong>Semaglutide (Wegovy):</strong> ~15% body weight loss at 68 weeks.</li>
-            <li><strong>Tirzepatide (Zepbound):</strong> ~22% body weight loss at 72 weeks.</li>
-            <li><strong>Retatrutide (Phase 2):</strong> <strong>24.2% body weight loss at just 48 weeks.</strong></li>
-          </ul>
-          <p>
-            Researchers extrapolate that when the Phase 3 trials conclude at the 72-week mark, retatrutide patients may achieve nearly 30% total body weight loss, rivaling the efficacy of bariatric surgery without the scalpel.
-          </p>
+      <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)', border: '1px solid var(--brand)', borderRadius: 16 }}>
+        <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Access the Best Available Treatment</h3>
+        <p style={{ marginBottom: 24, fontSize: 16 }}>While Retatrutide is still in trials, Tirzepatide is FDA-approved and available now. TelehealthFX provides compounded tirzepatide shipped directly from U.S. pharmacies.</p>
+        <a href={S} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center', background: 'var(--brand)', color: 'white', padding: '12px 24px', borderRadius: 30, textDecoration: 'none', fontWeight: 600 }}>Check Eligibility <Icon.Arrow /></a>
+      </div>
 
-          <h3>The Liver Fat Miracle</h3>
-          <p>
-            Perhaps the most astounding finding in the retatrutide trials was its effect on Non-Alcoholic Fatty Liver Disease (NAFLD). Within 48 weeks, <strong>9 out of 10 patients on the highest dose of retatrutide completely cleared the excess fat from their liver</strong>. Tirzepatide is highly effective for fatty liver, but the glucagon agonism in retatrutide makes it uniquely powerful for hepatic clearance.
-          </p>
+      <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The Glucagon Paradox</h2>
+      <p>Historically, drug developers avoided adding glucagon to weight loss drugs. Glucagon typically raises blood sugar, which is dangerous for diabetics. However, Eli Lilly discovered that by balancing it perfectly with GLP-1 and GIP (which lower blood sugar), the blood sugar remains stable while the fat-burning benefits of glucagon are amplified.</p>
 
-          <table className="min-w-full divide-y divide-gray-200 my-8 shadow-sm rounded-lg overflow-hidden">
-            <thead className="bg-gray-50">
-              <tr>
-                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Feature</th>
-                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Tirzepatide (Mounjaro/Zepbound)</th>
-                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Retatrutide (In Trials)</th>
-              </tr>
-            </thead>
-            <tbody className="bg-white divide-y divide-gray-200">
-              <tr>
-                <td className="px-6 py-4 text-sm font-medium text-gray-900">Receptors Targeted</td>
-                <td className="px-6 py-4 text-sm text-gray-500">GLP-1 & GIP (Dual)</td>
-                <td className="px-6 py-4 text-sm text-blue-600 font-semibold">GLP-1, GIP, & Glucagon (Triple)</td>
-              </tr>
-              <tr>
-                <td className="px-6 py-4 text-sm font-medium text-gray-900">Max Weight Loss</td>
-                <td className="px-6 py-4 text-sm text-gray-500">~22% (at 72 weeks)</td>
-                <td className="px-6 py-4 text-sm text-blue-600 font-semibold">24.2% (at 48 weeks)</td>
-              </tr>
-              <tr>
-                <td className="px-6 py-4 text-sm font-medium text-gray-900">Mechanism</td>
-                <td className="px-6 py-4 text-sm text-gray-500">Appetite suppression + insulin regulation</td>
-                <td className="px-6 py-4 text-sm text-gray-500">Appetite suppression + direct fat oxidation</td>
-              </tr>
-              <tr>
-                <td className="px-6 py-4 text-sm font-medium text-gray-900">Availability</td>
-                <td className="px-6 py-4 text-sm text-green-600 font-semibold">FDA Approved & Available Now</td>
-                <td className="px-6 py-4 text-sm text-red-600 font-semibold">Phase 3 Trials (Expected 2027)</td>
-              </tr>
-            </tbody>
-          </table>
+      <div className="bg-blue-50 border-l-4 border-blue-600 p-6 my-8 rounded-r-lg" style={{ background: '#f0f7ff', borderLeft: '4px solid #0066cc', padding: 24, borderRadius: '0 8px 8px 0', margin: '32px 0' }}>
+        <h3 className="text-xl font-bold text-blue-900 mt-0 mb-2" style={{ color: '#003366', marginTop: 0, marginBottom: 8, fontSize: 20 }}>Heart Rate Side Effects</h3>
+        <p className="text-blue-800 mb-0" style={{ margin: 0, color: '#004080' }}>
+          Because retatrutide increases resting metabolic rate, one of the notable side effects in early trials is an increased resting heart rate and mild cardiac arrhythmias in some patients. Tirzepatide has a much milder cardiovascular profile, making it potentially safer for patients with pre-existing heart conditions.
+        </p>
+      </div>
 
-          <h2>Side Effects: The Trade-Off</h2>
-          <p>
-            Because retatrutide hits three receptors, its side effect profile is slightly different. While gastrointestinal issues (nausea, diarrhea) are similar to tirzepatide, retatrutide patients in early trials reported a higher incidence of <strong>cardiac arrhythmias (elevated heart rate)</strong> and hyperesthesia (skin sensitivity).
-          </p>
-          <p>
-            The glucagon receptor increases metabolic expenditure, which naturally elevates the resting heart rate. The FDA will closely monitor this cardiovascular data during Phase 3 trials.
-          </p>
+      <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>When Will Retatrutide Be Available?</h2>
+      <p>Retatrutide is currently deep into Phase 3 clinical trials (the TRIUMPH programs). Based on the standard FDA approval timeline, analysts expect Eli Lilly to submit for FDA approval in late 2025 or early 2026, meaning it will likely hit pharmacy shelves commercially in <strong>mid-to-late 2026</strong> or early 2027.</p>
+      <p>Until then, tirzepatide remains the undisputed king of weight loss medications. For patients looking to lose 15-20% of their body weight, tirzepatide is more than sufficient and has a much longer track record of safety.</p>
 
-          <h2>Should You Wait for Retatrutide?</h2>
-          <p>
-            No. Retatrutide is not expected to hit pharmacy shelves until 2027 at the earliest. Obesity is a progressive disease. Waiting years for a "better" drug allows metabolic damage to accumulate. Tirzepatide is currently the most powerful, FDA-approved weight loss medication on the planet, and it is available right now.
-          </p>
-
-          <div className="bg-gray-50 p-8 rounded-xl mt-12 border border-gray-200 text-center">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4 mt-0">Don't Wait to Change Your Health</h3>
-            <p className="text-gray-600 mb-6">
-              Tirzepatide is the gold standard of current obesity medicine, available immediately. Telehealth FX provides access to both brand-name and compounded Tirzepatide at transparent prices.
-            </p>
-            <Link href="https://go.telehealthfx.com/start" className="inline-block bg-blue-600 text-white font-bold py-3 px-8 rounded-full hover:bg-blue-700 transition duration-300">
-              Start Tirzepatide Today
-            </Link>
-          </div>
-        </article>
-      </main>
+      <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
+        <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Don't Wait for Tomorrow's Drugs.</h2>
+        <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 500, margin: '0 auto 32px' }}>Tirzepatide is the most effective medication available today, producing up to 22.5% weight loss. TelehealthFX can get you started on a prescribed protocol immediately.</p>
+        <a href={S} target="_blank" rel="noopener noreferrer" className="btn btn-lg" style={{ background: '#FBF8F3', color: 'var(--ink)', display: 'inline-flex', justifyContent: 'center', width: '100%', maxWidth: 250, padding: '16px 24px', borderRadius: 30, textDecoration: 'none', fontWeight: 600 }}>Start Tirzepatide <Icon.Arrow /></a>
+      </div>
+      
     </div>
-  );
+  </div></section></>);
 }
+
+export { BlogTirzepatideVsRetatrutide2026 };

@@ -1,132 +1,67 @@
 "use client";
 import React from 'react';
-import Link from 'next/link';
+import Image from 'next/image';
+import { Icon } from './common.jsx';
+const S = "https://go.telehealthfx.com/start";
 
-export function BlogGlp1MuscleBuildingHypertrophy2026() {
-  return (
-    <div className="bg-white min-h-screen font-sans text-gray-900">
-      {/* Article Header */}
-      <header className="bg-gray-50 py-16 sm:py-24 border-b border-gray-200">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-sm font-semibold text-blue-600 tracking-wide uppercase mb-3">Fitness & Body Composition</p>
-          <h1 className="text-4xl sm:text-5xl font-extrabold text-gray-900 tracking-tight mb-6">
-            Building Muscle on GLP-1s: The Hypertrophy Protocol
-          </h1>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-8">
-            Can you build muscle while taking semaglutide? Yes. Here is the exact clinical and nutritional protocol to trigger hypertrophy in a severe caloric deficit.
-          </p>
-          <div className="flex items-center justify-center space-x-4 text-sm text-gray-500">
-            <span>By The Telehealth FX Clinical Team</span>
-            <span>•</span>
-            <span>May 2026</span>
-            <span>•</span>
-            <span>9 min read</span>
-          </div>
-        </div>
-      </header>
+function BlogGlp1MuscleBuildingHypertrophy2026() {
+  return (<><section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}><div className="container" style={{ maxWidth: 800 }}>
+    <div className="eyebrow" style={{ marginBottom: 20 }}>Fitness & Body Composition</div>
+    <h1 className="serif" style={{ fontSize: 52, marginBottom: 24, lineHeight: 1.08 }}>Building Muscle on GLP-1s: <span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>The Hypertrophy Protocol</span></h1>
+    <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}><div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)' }}><Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%', height: "auto"}} priority={true} /></div><div><div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div><div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 17 min read</div></div></div>
+    
+    <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
+      <Image src="/assets/glp1-muscle-building-hypertrophy-featured.png" alt="Muscle building protocols and resistance training on GLP-1 medications" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', height: "auto"}} priority={true} />
+      
+      <p>The single greatest criticism of GLP-1 weight loss medications is the loss of lean muscle mass. Clinical trials show that upwards of 25% to 40% of the total weight lost on semaglutide and tirzepatide is lean mass (muscle and bone density) rather than fat. This leads to a lower resting metabolic rate, making it incredibly easy to regain fat once the medication is stopped.</p>
+      
+      <p>However, this muscle loss is not an unavoidable side effect of the drug itself. It is the result of extreme, unmanaged caloric restriction combined with inadequate protein intake. You absolutely can build—or at least preserve—muscle while taking a GLP-1. This is known as "body recomposition."</p>
 
-      {/* Main Content */}
-      <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <article className="prose prose-lg prose-blue mx-auto max-w-none">
-          <img 
-            src="/assets/glp1-muscle-building-hypertrophy-featured.png" 
-            alt="Protein shake, dumbbell, and GLP-1 vial" 
-            className="w-full rounded-xl shadow-lg mb-12"
-          />
+      <p>If you want to optimize your body composition, you can <a href={S} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)', fontWeight: 500 }}>join a clinical program</a> that pairs GLP-1 medications with muscle-preserving peptides like Sermorelin.</p>
 
-          <h2>The Sarcopenia Threat</h2>
-          <p>
-            When you lose weight rapidly on a GLP-1 medication like tirzepatide or semaglutide, up to <strong>40% of the weight lost can be lean muscle mass</strong>. This condition, known as sarcopenia, drastically lowers your resting metabolic rate (BMR), making it virtually impossible to keep the weight off once you stop the medication.
-          </p>
-          <p>
-            However, muscle loss is not caused by the drug itself; it is caused by the profound caloric and protein deficit the drug induces. By implementing a specific hypertrophy protocol, you can not only preserve your existing muscle but actively build new muscle tissue while burning fat.
-          </p>
+      <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The Biological Challenge of Hypertrophy</h2>
+      <p>Building muscle (hypertrophy) requires two things: a stimulus (resistance training) and building blocks (amino acids/protein). Usually, it also requires a caloric surplus. Because GLP-1s put you in a severe caloric deficit, your body prefers to break down muscle tissue for energy rather than synthesize new muscle.</p>
+      <p>To overcome this, you have to send an overwhelming signal to your body that your muscles are essential for survival, forcing it to burn fat stores instead.</p>
 
-          <div className="bg-blue-50 border-l-4 border-blue-600 p-6 my-8 rounded-r-lg">
-            <h3 className="text-xl font-bold text-blue-900 mt-0 mb-2">The Golden Rule of Recomposition</h3>
-            <p className="text-blue-800 mb-0">
-              To build muscle while losing fat on a GLP-1, you must provide the two non-negotiable biological triggers for muscle synthesis: adequate amino acids (protein) and mechanical tension (resistance training).
-            </p>
-          </div>
+      <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The 3-Part Recomposition Protocol</h2>
 
-          <h2>The 3 Pillars of GLP-1 Hypertrophy</h2>
+      <h3>1. The Protein Threshold</h3>
+      <p>When you are eating only 1,200 calories a day, standard protein recommendations are useless. You must practice <em>protein-sparing</em> nutrition. You need a minimum of 1.2 to 1.6 grams of protein per kilogram of your <em>target</em> body weight.</p>
+      <p>Because GLP-1s slow digestion, eating massive steaks will cause severe nausea. You must rely on highly bioavailable, fast-digesting protein sources like Whey Protein Isolate. Drink a 30g protein shake immediately upon waking, and another immediately after training. This ensures your blood amino acid pool is always topped off.</p>
 
-          <h3>1. The 1.2g Protein Threshold</h3>
-          <p>
-            The standard RDA for protein is 0.8 grams per kilogram of body weight. When you are in a severe caloric deficit induced by semaglutide, this is woefully inadequate. To trigger Muscle Protein Synthesis (MPS), you need a minimum of <strong>1.2 to 1.6 grams of protein per kilogram of your <em>target</em> body weight</strong>.
-          </p>
-          <ul>
-            <li><strong>The Challenge:</strong> GLP-1s delay gastric emptying, making large chicken breasts or heavy steaks incredibly nauseating.</li>
-            <li><strong>The Solution:</strong> Liquid aminos. Isolate whey protein shakes, clear whey waters, and essential amino acid (EAA) supplements bypass the delayed gastric emptying, delivering leucine directly to the muscles without causing stomach bloat.</li>
-          </ul>
+      <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)', border: '1px solid var(--brand)', borderRadius: 16 }}>
+        <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Accelerate Recomposition with Peptides</h3>
+        <p style={{ marginBottom: 24, fontSize: 16 }}>TelehealthFX offers Sermorelin (a Growth Hormone Releasing Peptide) as an add-on therapy. When paired with a GLP-1, Sermorelin signals the body to preserve lean muscle tissue and accelerate fat oxidation.</p>
+        <a href={S} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center', background: 'var(--brand)', color: 'white', padding: '12px 24px', borderRadius: 30, textDecoration: 'none', fontWeight: 600 }}>Explore Peptide Therapies <Icon.Arrow /></a>
+      </div>
 
-          <h3>2. High-Intensity, Low-Volume Resistance Training</h3>
-          <p>
-            You cannot build muscle by walking on a treadmill. You must lift heavy weights. However, because your overall energy (calories) is low, your recovery capacity is diminished. 
-          </p>
-          <p>
-            Do not follow a 6-day-a-week bodybuilder split. Instead, follow a <strong>High-Intensity Training (HIT) protocol</strong>:
-          </p>
-          <ul>
-            <li>3 days a week, full body.</li>
-            <li>Focus entirely on compound movements: Squats, deadlifts, chest presses, and rows.</li>
-            <li>Perform only 2 working sets per exercise, but take them to absolute mechanical failure.</li>
-          </ul>
+      <h3>2. Heavy Progressive Overload</h3>
+      <p>Cardio burns calories, but it does not tell your body to save muscle. To preserve muscle in a deficit, you must lift heavy weights. "Toning" with 5-pound dumbbells is insufficient. You need to perform compound movements (squats, deadlifts, presses, rows) in the 5-to-8 repetition range, leaving only 1 or 2 reps in the tank.</p>
+      <p>Train 3 to 4 days a week. The mechanical tension on the muscle fibers is the exact biological signal required to halt muscle catabolism.</p>
 
-          <h3>3. Strategic Carbohydrate Timing</h3>
-          <p>
-            Carbohydrates are protein-sparing. If you eat zero carbs, your body will convert your dietary protein into glucose for energy (gluconeogenesis), leaving none left to build muscle. 
-          </p>
-          <p>
-            On a GLP-1, time your limited carbohydrate intake exactly 60 minutes before your workout. A small piece of fruit or a rice cake will fill your intramuscular glycogen stores, allowing you to lift heavier weights and trigger a larger hypertrophic response.
-          </p>
+      <h3>3. The Role of Creatine Monohydrate</h3>
+      <p>Creatine is the most researched sports supplement in history. It pulls water into the muscle cells (intracellular hydration) and increases ATP energy production. For GLP-1 patients, creatine serves a dual purpose: it provides the explosive energy needed to lift heavy weights despite being in a caloric deficit, and it prevents the "flat, depleted" look that rapid weight loss causes.</p>
+      <p>Take 5 grams of creatine monohydrate daily. No "loading phase" is necessary.</p>
 
-          <table className="min-w-full divide-y divide-gray-200 my-8 shadow-sm rounded-lg overflow-hidden">
-            <thead className="bg-gray-50">
-              <tr>
-                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Macronutrient</th>
-                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">GLP-1 Target</th>
-                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Best Sources (Gastric Friendly)</th>
-              </tr>
-            </thead>
-            <tbody className="bg-white divide-y divide-gray-200">
-              <tr>
-                <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Protein</td>
-                <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">1.2g - 1.6g per kg of goal weight</td>
-                <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Whey Isolate, Greek Yogurt, Egg Whites</td>
-              </tr>
-              <tr>
-                <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Carbohydrates</td>
-                <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">75g - 100g (Peri-workout)</td>
-                <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Berries, Rice Cakes, Sweet Potato</td>
-              </tr>
-              <tr>
-                <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Fats</td>
-                <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">40g - 50g</td>
-                <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Avocado, Olive Oil (Avoid deep fried)</td>
-              </tr>
-            </tbody>
-          </table>
+      <div className="bg-blue-50 border-l-4 border-blue-600 p-6 my-8 rounded-r-lg" style={{ background: '#f0f7ff', borderLeft: '4px solid #0066cc', padding: 24, borderRadius: '0 8px 8px 0', margin: '32px 0' }}>
+        <h3 className="text-xl font-bold text-blue-900 mt-0 mb-2" style={{ color: '#003366', marginTop: 0, marginBottom: 8, fontSize: 20 }}>Beware of GLP-1 Fatigue</h3>
+        <p className="text-blue-800 mb-0" style={{ margin: 0, color: '#004080' }}>
+          GLP-1 medications can cause profound fatigue, making workouts feel impossible. This is almost always caused by electrolyte dumping. Drink 16oz of water mixed with 1,000mg of sodium 30 minutes before your workout to restore blood volume and eliminate lethargy.
+        </p>
+      </div>
 
-          <h2>The Sermorelin Stack</h2>
-          <p>
-            For patients strictly focused on body recomposition (burning fat while building muscle), clinical providers are increasingly prescribing <strong>Sermorelin</strong> alongside a GLP-1.
-          </p>
-          <p>
-            Sermorelin is a peptide that stimulates your pituitary gland to produce more of your own natural human growth hormone (HGH). Elevated HGH accelerates lipolysis (fat burning) while aggressively defending and building lean muscle tissue. When stacked with tirzepatide or semaglutide, the recomposition effects are highly synergistic.
-          </p>
+      <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Setting Realistic Expectations</h2>
+      <p>If you are actively losing 2 pounds of scale weight per week on tirzepatide, you are <em>not</em> going to build massive new biceps. The biological math does not allow for massive muscle synthesis in a deep deficit.</p>
+      <p>The goal of the Hypertrophy Protocol during the active weight loss phase is <strong>preservation</strong>. If you lose 40 pounds of pure fat and 0 pounds of muscle, your body fat percentage drops dramatically, your metabolic rate stays high, and you will look incredibly toned and athletic. True muscle building begins during the maintenance phase when you bring your calories back to a maintenance level.</p>
 
-          <div className="bg-gray-50 p-8 rounded-xl mt-12 border border-gray-200 text-center">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4 mt-0">Optimize Your Body Composition</h3>
-            <p className="text-gray-600 mb-6">
-              Don't just lose weight—build a metabolic engine. Telehealth FX offers GLP-1 therapies alongside muscle-preserving peptides like Sermorelin to ensure you keep the muscle and lose the fat.
-            </p>
-            <Link href="https://go.telehealthfx.com/start" className="inline-block bg-blue-600 text-white font-bold py-3 px-8 rounded-full hover:bg-blue-700 transition duration-300">
-              Explore the Recomposition Stack
-            </Link>
-          </div>
-        </article>
-      </main>
+      <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
+        <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Lose the Fat. Keep the Muscle.</h2>
+        <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 500, margin: '0 auto 32px' }}>Don't destroy your metabolism to get thin. TelehealthFX programs include specific nutritional protocols and peptide combinations designed to protect your lean mass.</p>
+        <a href={S} target="_blank" rel="noopener noreferrer" className="btn btn-lg" style={{ background: '#FBF8F3', color: 'var(--ink)', display: 'inline-flex', justifyContent: 'center', width: '100%', maxWidth: 250, padding: '16px 24px', borderRadius: 30, textDecoration: 'none', fontWeight: 600 }}>Start Your Protocol <Icon.Arrow /></a>
+      </div>
+      
     </div>
-  );
+  </div></section></>);
 }
+
+export { BlogGlp1MuscleBuildingHypertrophy2026 };

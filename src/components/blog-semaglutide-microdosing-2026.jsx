@@ -1,127 +1,78 @@
 "use client";
 import React from 'react';
-import Link from 'next/link';
+import Image from 'next/image';
+import { Icon } from './common.jsx';
+const S = "https://go.telehealthfx.com/start";
 
-export function BlogSemaglutideMicrodosing2026() {
-  return (
-    <div className="bg-white min-h-screen font-sans text-gray-900">
-      {/* Article Header */}
-      <header className="bg-gray-50 py-16 sm:py-24 border-b border-gray-200">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-sm font-semibold text-blue-600 tracking-wide uppercase mb-3">Clinical Protocols</p>
-          <h1 className="text-4xl sm:text-5xl font-extrabold text-gray-900 tracking-tight mb-6">
-            Semaglutide Microdosing: The Secret to Zero Side Effects?
-          </h1>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-8">
-            How splitting doses and utilizing fractional increments of compounded GLP-1s is helping highly sensitive patients lose weight without the severe nausea.
-          </p>
-          <div className="flex items-center justify-center space-x-4 text-sm text-gray-500">
-            <span>By The Telehealth FX Clinical Team</span>
-            <span>•</span>
-            <span>May 2026</span>
-            <span>•</span>
-            <span>9 min read</span>
-          </div>
-        </div>
-      </header>
+function BlogSemaglutideMicrodosing2026() {
+  return (<><section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}><div className="container" style={{ maxWidth: 800 }}>
+    <div className="eyebrow" style={{ marginBottom: 20 }}>Clinical Protocols</div>
+    <h1 className="serif" style={{ fontSize: 52, marginBottom: 24, lineHeight: 1.08 }}>Semaglutide Microdosing: <span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>The Secret to Zero Side Effects?</span></h1>
+    <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}><div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)' }}><Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%', height: "auto"}} priority={true} /></div><div><div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div><div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 15 min read</div></div></div>
+    
+    <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
+      <Image src="/assets/semaglutide-microdosing-featured.png" alt="Microdosing and split dosing charts for semaglutide" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', height: "auto"}} priority={true} />
+      
+      <p>For some patients, the standard 0.25mg starting dose of Wegovy or Ozempic is perfectly fine. For others, it triggers days of debilitating nausea, vomiting, and fatigue. The reality is that the human body does not always conform to the rigid, one-size-fits-all dosing schedules printed on commercial pharmaceutical boxes.</p>
+      
+      <p>Enter the clinical practice of <strong>microdosing</strong> and <strong>split-dosing</strong>. By breaking away from the standard once-weekly injection model, patients can flatten the medication's half-life curve in their bloodstream, drastically reducing side effects while maintaining steady, continuous weight loss.</p>
 
-      {/* Main Content */}
-      <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <article className="prose prose-lg prose-blue mx-auto max-w-none">
-          <img 
-            src="/assets/semaglutide-microdosing-featured.png" 
-            alt="Macro shot of an insulin syringe measuring a micro-dose" 
-            className="w-full rounded-xl shadow-lg mb-12"
-          />
+      <p>If you are highly sensitive to medications or have previously quit a GLP-1 due to side effects, you can <a href={S} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)', fontWeight: 500 }}>consult with a Telehealth FX clinician</a> to build a customized, fractional dosing protocol.</p>
 
-          <h2>The Problem with "One Size Fits All" Auto-Injectors</h2>
-          <p>
-            The standard FDA titration schedule for Wegovy® requires patients to double their dose every 4 weeks: 0.25mg → 0.5mg → 1.0mg → 1.7mg → 2.4mg. For many patients, jumping from 0.5mg to 1.0mg is a biological shock, resulting in debilitating nausea, vomiting, and fatigue.
-          </p>
-          <p>
-            Because brand-name medications use single-use, pre-filled auto-injectors, patients cannot manually adjust their dose. If 1.0mg is too strong, but 0.5mg is no longer suppressing your appetite, you are stuck in a clinical dead zone. Enter <strong>microdosing</strong>.
-          </p>
+      <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The Problem with the "Once Weekly" Spike</h2>
+      <p>Semaglutide has a half-life of approximately 7 days. When you inject a full dose on a Sunday, the concentration of the drug in your blood spikes rapidly on Monday and Tuesday. This "peak" is when patients experience intense nausea and extreme fatigue.</p>
+      <p>By Friday and Saturday, the drug concentration has dropped significantly (the "trough"). This is when patients report that the "food noise" comes roaring back, leading to weekend binge eating that ruins the caloric deficit they built during the week.</p>
+      <p><strong>The goal of microdosing (split-dosing) is to eliminate the peak and raise the trough.</strong></p>
 
-          <div className="bg-blue-50 border-l-4 border-blue-600 p-6 my-8 rounded-r-lg">
-            <h3 className="text-xl font-bold text-blue-900 mt-0 mb-2">What is GLP-1 Microdosing?</h3>
-            <p className="text-blue-800 mb-0">
-              Microdosing involves using compounded semaglutide in a standard vial and drawing it with an insulin syringe, allowing the patient to inject fractional doses (e.g., 0.35mg instead of 0.5mg) or split their dose twice a week to maintain steady blood levels.
-            </p>
-          </div>
+      <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>How Split-Dosing Works</h2>
+      <p>Instead of taking one large dose every 7 days, you divide that exact same dose in half and inject it every 3.5 to 4 days. You are not taking <em>more</em> medication; you are simply changing the delivery schedule.</p>
+      
+      <div style={{ overflowX: 'auto', margin: '24px 0' }}>
+        <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: 15 }}>
+          <thead><tr style={{ borderBottom: '2px solid var(--ink)' }}><th style={{ textAlign: 'left', padding: '12px 16px', fontWeight: 600 }}>Standard Protocol</th><th style={{ textAlign: 'left', padding: '12px 16px', fontWeight: 600 }}>Split-Dose Alternative</th><th style={{ textAlign: 'left', padding: '12px 16px', fontWeight: 600 }}>Clinical Benefit</th></tr></thead>
+          <tbody>
+            <tr style={{ borderBottom: '1px solid var(--line-soft)' }}><td style={{ padding: '12px 16px', fontWeight: 500 }}>0.25mg on Sunday</td><td style={{ padding: '12px 16px' }}>0.125mg on Sun & Wed</td><td style={{ padding: '12px 16px', fontSize: 14 }}>Eliminates initial starting nausea</td></tr>
+            <tr style={{ borderBottom: '1px solid var(--line-soft)' }}><td style={{ padding: '12px 16px', fontWeight: 500 }}>0.50mg on Sunday</td><td style={{ padding: '12px 16px' }}>0.25mg on Sun & Wed</td><td style={{ padding: '12px 16px', fontSize: 14 }}>Eases the first dose titration jump</td></tr>
+            <tr style={{ borderBottom: '1px solid var(--line-soft)' }}><td style={{ padding: '12px 16px', fontWeight: 500 }}>1.0mg on Sunday</td><td style={{ padding: '12px 16px' }}>0.5mg on Sun & Wed</td><td style={{ padding: '12px 16px', fontSize: 14 }}>Prevents weekend hunger return</td></tr>
+          </tbody>
+        </table>
+      </div>
 
-          <h2>The Two Microdosing Strategies</h2>
+      <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)', border: '1px solid var(--brand)', borderRadius: 16 }}>
+        <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Unlock Custom Dosing</h3>
+        <p style={{ marginBottom: 24, fontSize: 16 }}>Brand-name pens cannot be split. TelehealthFX provides compounded semaglutide in vials with precision insulin syringes, allowing you and your clinician to dial in the exact microdose your body needs.</p>
+        <a href={S} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center', background: 'var(--brand)', color: 'white', padding: '12px 24px', borderRadius: 30, textDecoration: 'none', fontWeight: 600 }}>Start Your Custom Plan <Icon.Arrow /></a>
+      </div>
 
-          <h3>Strategy 1: The Fractional Titration</h3>
-          <p>
-            Instead of doubling the dose, fractional titration allows for gentle, incremental increases.
-          </p>
-          <ul>
-            <li><strong>The Standard Jump:</strong> 0.5mg to 1.0mg (100% increase)</li>
-            <li><strong>The Microdose Jump:</strong> 0.5mg → 0.65mg → 0.8mg → 1.0mg</li>
-          </ul>
-          <p>
-            By increasing the dose by only 25-30% each month, the body's gastric emptying rate adjusts slowly. This virtually eliminates the "Day Two Nausea" phenomenon that forces many patients to abandon the medication.
-          </p>
+      <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Fractional Titration (Micro-Stepping)</h2>
+      <p>The standard titration schedule for semaglutide is aggressive: 0.25mg → 0.5mg → 1.0mg → 1.7mg → 2.4mg. The jump from 0.5mg to 1.0mg is a 100% increase in medication. This specific jump is where the majority of patients experience severe gastrointestinal distress.</p>
+      
+      <p>With compounded medication, you do not have to double your dose. You can practice "fractional titration." Instead of jumping from 0.5mg to 1.0mg, your clinician can instruct you to move to 0.75mg for four weeks. This allows your body to acclimate to the drug much more gently, entirely bypassing the "shock" of the standard commercial pen schedule.</p>
 
-          <h3>Strategy 2: Dose Splitting (Half-Life Optimization)</h3>
-          <p>
-            The half-life of semaglutide is approximately 7 days. When you take a full dose on Sunday, you experience a sharp peak in your bloodstream on Tuesday (causing nausea) and a steep trough by Saturday (causing a surge in food noise).
-          </p>
-          <p>
-            Dose splitting involves taking half your weekly dose on Sunday and the other half on Thursday.
-          </p>
-          <ul>
-            <li><strong>The Result:</strong> A completely flat pharmacokinetic curve. You avoid the high peaks that cause sickness and the low troughs that cause hunger.</li>
-          </ul>
+      <div className="bg-blue-50 border-l-4 border-blue-600 p-6 my-8 rounded-r-lg" style={{ background: '#f0f7ff', borderLeft: '4px solid #0066cc', padding: 24, borderRadius: '0 8px 8px 0', margin: '32px 0' }}>
+        <h3 className="text-xl font-bold text-blue-900 mt-0 mb-2" style={{ color: '#003366', marginTop: 0, marginBottom: 8, fontSize: 20 }}>The Commercial Pen Limitation</h3>
+        <p className="text-blue-800 mb-0" style={{ margin: 0, color: '#004080' }}>
+          It is impossible to safely split-dose or microdose with a Wegovy autoinjector pen. Once you press the button, the entire pre-measured dose is injected. Only compounded GLP-1s drawn from a sterile vial with a standard insulin syringe offer the mechanical flexibility required for microdosing protocols.
+        </p>
+      </div>
 
-          <table className="min-w-full divide-y divide-gray-200 my-8 shadow-sm rounded-lg overflow-hidden">
-            <thead className="bg-gray-50">
-              <tr>
-                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Method</th>
-                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Blood Concentration</th>
-                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Side Effect Profile</th>
-              </tr>
-            </thead>
-            <tbody className="bg-white divide-y divide-gray-200">
-              <tr>
-                <td className="px-6 py-4 text-sm font-medium text-gray-900">Standard 1x Weekly</td>
-                <td className="px-6 py-4 text-sm text-gray-500">High peak, low trough</td>
-                <td className="px-6 py-4 text-sm text-red-600 font-semibold">High nausea on days 2-3</td>
-              </tr>
-              <tr>
-                <td className="px-6 py-4 text-sm font-medium text-gray-900">Split Dose (2x Weekly)</td>
-                <td className="px-6 py-4 text-sm text-gray-500">Steady, flat state</td>
-                <td className="px-6 py-4 text-sm text-green-600 font-semibold">Minimal to zero nausea</td>
-              </tr>
-            </tbody>
-          </table>
+      <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Is Microdosing Right For You?</h2>
+      <p>Microdosing is not necessary for everyone. Many patients tolerate the standard once-weekly injection perfectly well. However, you should discuss a split-dose or fractional titration protocol with your clinician if:</p>
+      <ul>
+        <li style={{ marginBottom: 16 }}>You experienced vomiting or severe nausea on the starting 0.25mg dose.</li>
+        <li style={{ marginBottom: 16 }}>Your appetite suppression wears off completely by day 5 or 6, leading to weekend binge eating.</li>
+        <li style={{ marginBottom: 16 }}>You are in the "maintenance phase" and want to take a tiny dose (e.g., 0.2mg) purely to silence food noise without losing more weight.</li>
+        <li style={{ marginBottom: 16 }}>You are highly sensitive to pharmaceuticals or have a history of severe acid reflux/GERD.</li>
+      </ul>
 
-          <h2>Who Should Consider Microdosing?</h2>
-          <p>
-            Microdosing is not for everyone. It requires comfort with drawing medication from a vial using an insulin syringe, as opposed to clicking a button on an auto-injector. However, it is highly recommended for:
-          </p>
-          <ol>
-            <li><strong>Super Responders:</strong> Patients who lose weight rapidly even on the lowest 0.25mg dose and find standard doses overwhelmingly strong.</li>
-            <li><strong>The "Nauseous 10%":</strong> Patients who experience severe gastrointestinal distress every time they titrate up.</li>
-            <li><strong>Maintenance Patients:</strong> Those who have reached their goal weight and are looking to find the absolute minimum dose required to keep the weight off (e.g., 0.15mg every 5 days).</li>
-          </ol>
-
-          <h2>The Safety of Vials vs. Auto-Injectors</h2>
-          <p>
-            When utilizing compounded semaglutide from a PCAB-accredited 503A pharmacy, drawing from a sterile vial with a fresh, single-use insulin syringe is standard clinical practice. Your provider will give you precise instructions on how to read the "units" on the syringe to match your exact microdose in milligrams.
-          </p>
-
-          <div className="bg-gray-50 p-8 rounded-xl mt-12 border border-gray-200 text-center">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4 mt-0">Customize Your Titration</h3>
-            <p className="text-gray-600 mb-6">
-              Telehealth FX provides access to compounded medications in vials, allowing our medical providers to design a custom, fractional micro-dosing schedule that fits your exact biology.
-            </p>
-            <Link href="https://go.telehealthfx.com/start" className="inline-block bg-blue-600 text-white font-bold py-3 px-8 rounded-full hover:bg-blue-700 transition duration-300">
-              Start Your Custom Plan
-            </Link>
-          </div>
-        </article>
-      </main>
+      <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
+        <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Precision Medicine, Not One-Size-Fits-All.</h2>
+        <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 500, margin: '0 auto 32px' }}>Your body is unique. Your dosing schedule should be too. Connect with a TelehealthFX clinician to build a custom GLP-1 microdosing protocol designed for your tolerance.</p>
+        <a href={S} target="_blank" rel="noopener noreferrer" className="btn btn-lg" style={{ background: '#FBF8F3', color: 'var(--ink)', display: 'inline-flex', justifyContent: 'center', width: '100%', maxWidth: 250, padding: '16px 24px', borderRadius: 30, textDecoration: 'none', fontWeight: 600 }}>Get Evaluated <Icon.Arrow /></a>
+      </div>
+      
     </div>
-  );
+  </div></section></>);
 }
+
+export { BlogSemaglutideMicrodosing2026 };

@@ -1,136 +1,91 @@
 "use client";
 import React from 'react';
-import Link from 'next/link';
+import Image from 'next/image';
+import { Icon } from './common.jsx';
+const S = "https://go.telehealthfx.com/start";
 
-export function BlogTirzepatideMaintenanceDosing2026() {
-  return (
-    <div className="bg-white min-h-screen font-sans text-gray-900">
-      {/* Article Header */}
-      <header className="bg-gray-50 py-16 sm:py-24 border-b border-gray-200">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-sm font-semibold text-blue-600 tracking-wide uppercase mb-3">Clinical Protocols</p>
-          <h1 className="text-4xl sm:text-5xl font-extrabold text-gray-900 tracking-tight mb-6">
-            Tirzepatide Maintenance Dosing: How to Keep the Weight Off Forever
-          </h1>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-8">
-            You've reached your goal weight. Now what? The clinical protocols for stepping down tirzepatide without experiencing the metabolic rebound.
-          </p>
-          <div className="flex items-center justify-center space-x-4 text-sm text-gray-500">
-            <span>By The Telehealth FX Clinical Team</span>
-            <span>•</span>
-            <span>May 2026</span>
-            <span>•</span>
-            <span>11 min read</span>
-          </div>
-        </div>
-      </header>
+function BlogTirzepatideMaintenanceDosing2026() {
+  return (<><section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}><div className="container" style={{ maxWidth: 800 }}>
+    <div className="eyebrow" style={{ marginBottom: 20 }}>Clinical Protocols</div>
+    <h1 className="serif" style={{ fontSize: 52, marginBottom: 24, lineHeight: 1.08 }}>Tirzepatide Maintenance Dosing: <span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>How to Keep the Weight Off Forever</span></h1>
+    <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}><div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)' }}><Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%', height: "auto"}} priority={true} /></div><div><div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div><div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 15 min read</div></div></div>
+    
+    <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
+      <Image src="/assets/tirzepatide-maintenance-dosing-featured.png" alt="Tirzepatide maintenance phase dosing and charts" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', height: "auto"}} priority={true} />
+      
+      <p>Hitting your goal weight on tirzepatide (Zepbound or Mounjaro) is a massive victory, but it is not the finish line. The SURMOUNT-4 clinical trial delivered a sobering reality check: patients who abruptly stopped tirzepatide regained 14% of their body weight within a year. The metabolic changes that drive obesity do not permanently disappear just because the weight is gone.</p>
+      
+      <p>This raises the most common question in modern obesity medicine: <em>"Do I have to take this forever?"</em></p>
+      
+      <p>The answer is nuanced. While obesity is a chronic condition requiring long-term management, you do not necessarily need to stay on the maximum dose. By implementing a strategic <strong>maintenance dosing protocol</strong>, patients can preserve their metabolic health, prevent weight regain, and dramatically reduce their monthly medication costs. If you need help structuring a step-down plan, you can <a href={S} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)', fontWeight: 500 }}>consult with a specialized telehealth provider</a> to create a personalized maintenance schedule.</p>
 
-      {/* Main Content */}
-      <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <article className="prose prose-lg prose-blue mx-auto max-w-none">
-          <img 
-            src="/assets/tirzepatide-maintenance-dosing-featured.png" 
-            alt="Balanced scale representing weight maintenance with tirzepatide" 
-            className="w-full rounded-xl shadow-lg mb-12"
-          />
+      <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The Biology of Weight Regain</h2>
+      <p>To understand why maintenance dosing is necessary, you must understand what happens when tirzepatide leaves your system. Tirzepatide is a dual agonist that mimics two hormones: GLP-1 and GIP. These hormones regulate insulin, suppress the hunger hormone (ghrelin), and slow gastric emptying.</p>
+      <p>When you abruptly discontinue the medication, the sudden drop in receptor activation causes a "rebound effect":</p>
+      <ul>
+        <li style={{ marginBottom: 16 }}><strong>Ghrelin surges:</strong> The brain's hunger signals return with a vengeance, often stronger than before.</li>
+        <li style={{ marginBottom: 16 }}><strong>Metabolic rate slows:</strong> The body, sensing massive weight loss, attempts to conserve energy to prevent perceived starvation.</li>
+        <li style={{ marginBottom: 16 }}><strong>Insulin resistance creeps back:</strong> Without the dual-hormone support, the pancreas and liver return to their baseline metabolic dysfunction.</li>
+      </ul>
 
-          <h2>The SURMOUNT-4 Reality Check</h2>
-          <p>
-            The SURMOUNT-4 clinical trial delivered a sobering reality to the medical community: when patients stop taking tirzepatide, they regain roughly <strong>14% of their body weight within a year</strong>. Obesity is a chronic, relapsing metabolic disease, and GLP-1/GIP receptor agonists are treatments, not cures.
-          </p>
-          <p>
-            However, staying on the maximum 15mg weekly dose forever isn't necessary—or desirable—for most patients. Enter <strong>maintenance dosing</strong>.
-          </p>
+      <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The 3 Pillars of Tirzepatide Maintenance</h2>
+      <p>Successful maintenance is not just about taking less medication. It requires a highly structured, three-pillar approach to trick the body into accepting its new "set point" weight.</p>
 
-          <div className="bg-blue-50 border-l-4 border-blue-600 p-6 my-8 rounded-r-lg">
-            <h3 className="text-xl font-bold text-blue-900 mt-0 mb-2">What is a Maintenance Dose?</h3>
-            <p className="text-blue-800 mb-0">
-              A maintenance dose is the lowest possible dose of tirzepatide required to maintain the newly established biological "set point," preventing weight regain while minimizing side effects and long-term costs.
-            </p>
-          </div>
+      <h3>1. Dose Titration (Stepping Down)</h3>
+      <p>Never quit "cold turkey." The clinical standard for maintenance is a slow, methodical step-down process. If your peak weight-loss dose was 10mg, your body is habituated to that level. Stepping down too quickly will trigger the rebound effect.</p>
+      <p>The protocol involves reducing the dose by 2.5mg every 4 to 6 weeks. For example:</p>
+      <div style={{ overflowX: 'auto', margin: '24px 0' }}>
+        <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: 15 }}>
+          <thead><tr style={{ borderBottom: '2px solid var(--ink)' }}><th style={{ textAlign: 'left', padding: '12px 16px', fontWeight: 600 }}>Phase</th><th style={{ textAlign: 'left', padding: '12px 16px', fontWeight: 600 }}>Tirzepatide Dose</th><th style={{ textAlign: 'left', padding: '12px 16px', fontWeight: 600 }}>Duration</th><th style={{ textAlign: 'left', padding: '12px 16px', fontWeight: 600 }}>Goal</th></tr></thead>
+          <tbody>
+            <tr style={{ borderBottom: '1px solid var(--line-soft)' }}><td style={{ padding: '12px 16px', fontWeight: 500 }}>Peak Loss</td><td style={{ padding: '12px 16px' }}>10.0 mg weekly</td><td style={{ padding: '12px 16px' }}>Target Hit</td><td style={{ padding: '12px 16px', fontSize: 14 }}>Achieve goal weight</td></tr>
+            <tr style={{ borderBottom: '1px solid var(--line-soft)' }}><td style={{ padding: '12px 16px', fontWeight: 500 }}>Step Down 1</td><td style={{ padding: '12px 16px' }}>7.5 mg weekly</td><td style={{ padding: '12px 16px' }}>4-6 Weeks</td><td style={{ padding: '12px 16px', fontSize: 14 }}>Monitor for hunger rebound</td></tr>
+            <tr style={{ borderBottom: '1px solid var(--line-soft)' }}><td style={{ padding: '12px 16px', fontWeight: 500 }}>Step Down 2</td><td style={{ padding: '12px 16px' }}>5.0 mg weekly</td><td style={{ padding: '12px 16px' }}>4-6 Weeks</td><td style={{ padding: '12px 16px', fontSize: 14 }}>Stabilize weight fluctuations</td></tr>
+            <tr><td style={{ padding: '12px 16px', fontWeight: 500 }}>Maintenance</td><td style={{ padding: '12px 16px', color: '#2e7d32', fontWeight: 600 }}>2.5 mg - 5.0 mg</td><td style={{ padding: '12px 16px', color: '#2e7d32', fontWeight: 600 }}>Ongoing</td><td style={{ padding: '12px 16px', fontSize: 14, color: '#2e7d32', fontWeight: 600 }}>Long-term preservation</td></tr>
+          </tbody>
+        </table>
+      </div>
 
-          <h2>The 3 Proven Maintenance Protocols</h2>
-          <p>
-            Providers currently utilize three primary strategies to transition patients from active weight loss to lifelong maintenance. The right protocol depends on your unique metabolic response.
-          </p>
+      <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)', border: '1px solid var(--brand)', borderRadius: 16 }}>
+        <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Need a Custom Maintenance Plan?</h3>
+        <p style={{ marginBottom: 24, fontSize: 16 }}>TelehealthFX clinicians specialize in tapering and maintenance protocols. We offer fractional dosing via compounded tirzepatide to help you perfectly dial in your long-term dose without paying for full-strength pens.</p>
+        <a href={S} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center', background: 'var(--brand)', color: 'white', padding: '12px 24px', borderRadius: 30, textDecoration: 'none', fontWeight: 600 }}>Design Your Protocol <Icon.Arrow /></a>
+      </div>
 
-          <h3>1. The Step-Down Protocol (Dose Titration)</h3>
-          <p>
-            This is the most common and widely tolerated method. Instead of injecting less frequently, the patient continues injecting every 7 days but gradually reduces the dosage strength.
-          </p>
-          <ul>
-            <li><strong>How it works:</strong> If you achieved goal weight on 10mg weekly, your provider steps you down to 7.5mg for 4 weeks. If weight remains stable, you step down to 5.0mg, then 2.5mg.</li>
-            <li><strong>The Goal:</strong> Find the "floor" dose where hunger noise returns slightly, but weight remains static.</li>
-            <li><strong>Best for:</strong> Patients who prefer a steady routine and want to avoid the "rollercoaster" blood sugar effects of spreading out doses.</li>
-          </ul>
+      <h3>2. Spacing the Injections</h3>
+      <p>Another popular and highly effective maintenance strategy is extending the time between injections. Instead of stepping down the <em>dose</em>, you step down the <em>frequency</em>.</p>
+      <p>Because tirzepatide has a half-life of approximately 5 days, taking a dose every 7 days leads to compound accumulation in the blood. For maintenance, many patients find success by injecting their preferred dose every <strong>10 to 14 days</strong>. This not only keeps the metabolic benefits active but effectively cuts the monthly cost of the medication in half.</p>
 
-          <h3>2. The Stretch Protocol (Interval Extension)</h3>
-          <p>
-            Instead of lowering the dose, the provider maintains the current dose (e.g., 7.5mg) but extends the time between injections.
-          </p>
-          <ul>
-            <li><strong>How it works:</strong> Injecting every 10 days, then every 14 days, and occasionally every 21 days.</li>
-            <li><strong>The Benefit:</strong> Lower monthly cost (a 4-pen box lasts two months instead of one).</li>
-            <li><strong>The Risk:</strong> Because the half-life of tirzepatide is 5 days, stretching to 14 days means the medication almost entirely clears the system before the next dose, potentially causing a surge in food noise on days 10-14, and nausea upon the next injection.</li>
-          </ul>
+      <h3>3. The Muscle-Preservation Imperative</h3>
+      <p>The single biggest predictor of weight regain is a loss of lean muscle mass. Muscle is metabolically active tissue; it burns calories around the clock. If you lost 50 pounds on tirzepatide, but 15 pounds of that was muscle, your resting metabolic rate is now significantly lower than it should be.</p>
+      <p>During the maintenance phase, your primary physiological goal shifts from fat burning to muscle hypertrophy. This requires consuming 1.2 to 1.6 grams of protein per kilogram of body weight and engaging in progressive resistance training 3 to 4 times a week. Without rebuilding muscle, maintaining your new weight is a biological uphill battle.</p>
 
-          <h3>3. The Hybrid Protocol (Micro-Dosing)</h3>
-          <p>
-            This requires compounded tirzepatide, as brand-name auto-injectors cannot be adjusted. Patients inject a very small dose (e.g., 1.5mg to 2.5mg) more frequently, such as every 5 days.
-          </p>
-          <ul>
-            <li><strong>How it works:</strong> Matches the medication's half-life perfectly, providing a completely flat, steady state of the drug in the bloodstream.</li>
-            <li><strong>Best for:</strong> Highly sensitive patients who experienced severe side effects during standard titration.</li>
-          </ul>
+      <div className="bg-blue-50 border-l-4 border-blue-600 p-6 my-8 rounded-r-lg" style={{ background: '#f0f7ff', borderLeft: '4px solid #0066cc', padding: 24, borderRadius: '0 8px 8px 0', margin: '32px 0' }}>
+        <h3 className="text-xl font-bold text-blue-900 mt-0 mb-2" style={{ color: '#003366', marginTop: 0, marginBottom: 8, fontSize: 20 }}>The Advantage of Compounded Tirzepatide</h3>
+        <p className="text-blue-800 mb-0" style={{ margin: 0, color: '#004080' }}>
+          Brand-name Zepbound pens come in fixed, pre-filled, single-use doses (2.5mg, 5.0mg, etc.). Compounded tirzepatide is delivered in a vial with insulin syringes. This allows patients to "microdose" or dial in hyper-specific maintenance doses (like 3.5mg or 4.0mg) that perfectly balance their appetite without completely eliminating their hunger drive.
+        </p>
+      </div>
 
-          <h2>Metabolic Signs Your Maintenance Dose is Too Low</h2>
-          <p>
-            When stepping down, you must monitor biological feedback closely. Weight gain is actually a lagging indicator. Look for these leading indicators that your dose is too low:
-          </p>
-          <ol>
-            <li><strong>Return of "Food Noise":</strong> Obsessive, intrusive thoughts about food, especially sugary or high-carb items.</li>
-            <li><strong>Loss of Satiety:</strong> Eating a normal-sized meal but not feeling the "stop" signal in your brain.</li>
-            <li><strong>Fasting Blood Sugar Creep:</strong> If your fasting glucose rises consistently above 95 mg/dL.</li>
-          </ol>
+      <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Knowing When to Adjust</h2>
+      <p>Maintenance is not set-and-forget. It requires biofeedback. You should weigh yourself twice a week to calculate a rolling average. A fluctuation of 3 to 5 pounds is normal water weight and glycogen storage (especially as you begin eating more carbohydrates in maintenance).</p>
+      <p>However, if your rolling average increases by more than 7 pounds from your goal weight, it is a signal that your maintenance dose is too low or your injection intervals are too far apart. Do not wait to gain 15 pounds before adjusting the protocol.</p>
 
-          <table className="min-w-full divide-y divide-gray-200 my-8 shadow-sm rounded-lg overflow-hidden">
-            <thead className="bg-gray-50">
-              <tr>
-                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Phase</th>
-                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Goal</th>
-                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Typical Dose Range</th>
-              </tr>
-            </thead>
-            <tbody className="bg-white divide-y divide-gray-200">
-              <tr>
-                <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Active Loss</td>
-                <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Maximum fat oxidation</td>
-                <td className="px-6 py-4 whitespace-nowrap text-sm text-blue-600 font-semibold">5.0mg - 15.0mg weekly</td>
-              </tr>
-              <tr>
-                <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Transition</td>
-                <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Stabilize new biological set point</td>
-                <td className="px-6 py-4 whitespace-nowrap text-sm text-blue-600 font-semibold">Step down 2.5mg per month</td>
-              </tr>
-              <tr>
-                <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Lifelong Maintenance</td>
-                <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Prevent relapse, minimize cost</td>
-                <td className="px-6 py-4 whitespace-nowrap text-sm text-blue-600 font-semibold">2.5mg - 5.0mg weekly/bi-weekly</td>
-              </tr>
-            </tbody>
-          </table>
-
-          <div className="bg-gray-50 p-8 rounded-xl mt-12 border border-gray-200 text-center">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4 mt-0">Secure Your Long-Term Health</h3>
-            <p className="text-gray-600 mb-6">
-              Transitioning to maintenance requires medical supervision. The Telehealth FX clinical team specializes in creating sustainable, affordable step-down protocols so you keep the weight off forever.
-            </p>
-            <Link href="https://go.telehealthfx.com/start" className="inline-block bg-blue-600 text-white font-bold py-3 px-8 rounded-full hover:bg-blue-700 transition duration-300">
-              Design Your Maintenance Plan
-            </Link>
-          </div>
-        </article>
-      </main>
+      <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
+        <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Keep the Weight Off. Cut the Cost.</h2>
+        <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 500, margin: '0 auto 32px' }}>Transitioning to maintenance should lower your monthly expenses. TelehealthFX offers custom, low-dose compounded tirzepatide plans designed specifically for long-term weight preservation.</p>
+        <a href={S} target="_blank" rel="noopener noreferrer" className="btn btn-lg" style={{ background: '#FBF8F3', color: 'var(--ink)', display: 'inline-flex', justifyContent: 'center', width: '100%', maxWidth: 250, padding: '16px 24px', borderRadius: 30, textDecoration: 'none', fontWeight: 600 }}>Start Maintenance Plan <Icon.Arrow /></a>
+      </div>
+      
+      <div style={{ marginTop: 80, paddingTop: 40, borderTop: '1px solid var(--line-soft)', fontSize: 14, color: 'var(--ink-3)' }}>
+        <h3 className="serif" style={{ fontSize: 24, marginBottom: 24, color: 'var(--ink)' }}>References</h3>
+        <ol style={{ paddingLeft: 20, display: 'flex', flexDirection: 'column', gap: 16 }}>
+          <li>Aronne, L. J., et al. (2024). Continued Treatment With Tirzepatide for Maintenance of Weight Reduction in Adults With Obesity: The SURMOUNT-4 Randomized Clinical Trial. <em>JAMA</em>, 331(1), 38-48.</li>
+          <li>Wilding, J. P. H., et al. (2022). Weight regain and cardiometabolic effects after withdrawal of semaglutide: The STEP 1 trial extension. <em>Diabetes, Obesity and Metabolism</em>, 24(8), 1553-1564.</li>
+        </ol>
+      </div>
     </div>
-  );
+  </div></section></>);
 }
+
+export { BlogTirzepatideMaintenanceDosing2026 };
