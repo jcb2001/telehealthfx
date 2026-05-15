@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 
-const CTA_URL = "https://track.revoffers.com/aff_c?offer_id=1460&aff_id=12322&source=youtube&url_id=12167";
+const CTA_URL = "https://go.telehealthfx.com/yt";
 
 function trackAndGo(e) {
   e.preventDefault();
