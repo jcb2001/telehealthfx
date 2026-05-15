@@ -40,10 +40,19 @@ function CtaBtn({ label = "Take the Health Quiz", id, large }) {
   );
 }
 
+const ICONS = {
+  medical: <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M6.5 2v4.5H2v3h4.5V14h3V9.5H14v-3H9.5V2h-3z" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/></svg>,
+  mapPin: <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 1.5A4.5 4.5 0 0 0 3.5 6C3.5 9.5 8 14.5 8 14.5s4.5-5 4.5-8.5A4.5 4.5 0 0 0 8 1.5z" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/><circle cx="8" cy="6" r="1.5" stroke="currentColor" strokeWidth="1.5"/></svg>,
+  clock: <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="6.5" stroke="currentColor" strokeWidth="1.5"/><path d="M8 4.5V8l2.5 1.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/></svg>,
+  lock: <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><rect x="3" y="7" width="10" height="7" rx="1.5" stroke="currentColor" strokeWidth="1.5"/><path d="M5 7V5a3 3 0 0 1 6 0v2" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/></svg>,
+  card: <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><rect x="1.5" y="3.5" width="13" height="9" rx="1.5" stroke="currentColor" strokeWidth="1.5"/><path d="M1.5 7h13" stroke="currentColor" strokeWidth="1.5"/></svg>,
+  ship: <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><rect x="3" y="4" width="10" height="7" rx="1" stroke="currentColor" strokeWidth="1.5"/><path d="M6 7h4M6 9.5h2" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/></svg>,
+};
+
 function TrustBadge({ icon, text }) {
   return (
     <div style={{ display: "flex", alignItems: "center", gap: 8, fontSize: 13, color: "#6B7068" }}>
-      <span style={{ fontSize: 16 }}>{icon}</span>
+      {ICONS[icon] || null}
       {text}
     </div>
   );
@@ -135,6 +144,16 @@ export default function GetStartedPage() {
   return (
     <div style={{ background: "#F5F1EA", color: "#1A1F1C", fontFamily: "'Inter', -apple-system, sans-serif", WebkitFontSmoothing: "antialiased" }}>
 
+      {/* ── Neutral trust strip (replaces global promo banner) ── */}
+      <div style={{
+        background: "#EDE7DC", borderBottom: "1px solid #E5DFD2",
+        padding: "8px 24px", textAlign: "center",
+        fontFamily: MONO, fontSize: 11, letterSpacing: "0.06em",
+        color: "#6B7068",
+      }}>
+        24-hour clinician review &nbsp;·&nbsp; Licensed in all 50 states &nbsp;·&nbsp; HIPAA-compliant care
+      </div>
+
       {/* ── Slim sticky header ── */}
       <header style={{
         position: "sticky", top: 0, zIndex: 50,
@@ -143,7 +162,7 @@ export default function GetStartedPage() {
       }}>
         <div style={{ maxWidth: 1100, margin: "0 auto", padding: "0 24px", display: "flex", alignItems: "center", justifyContent: "space-between", height: 64 }}>
           <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
-            <a href="https://telehealthfx.com" style={{ display: "flex", alignItems: "center", gap: 10, textDecoration: "none" }}>
+            <a href="#top" style={{ display: "flex", alignItems: "center", gap: 10, textDecoration: "none" }}>
               <div style={{ width: 28, height: 28, borderRadius: 8, background: "#2E4A3B", display: "flex", alignItems: "center", justifyContent: "center" }}>
                 <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M7 1.5L1.5 5.5V12.5H5.5V8.5H8.5V12.5H12.5V5.5L7 1.5Z" fill="#FBF8F3"/></svg>
               </div>
@@ -174,7 +193,7 @@ export default function GetStartedPage() {
             fontWeight: 400, letterSpacing: "-0.025em", lineHeight: 1.06,
             marginBottom: 24,
           }}>
-            Sustainable weight care,<br />
+            Sustainable metabolic health,<br />
             <em style={{ color: "#2E4A3B" }}>designed around your body.</em>
           </h1>
 
@@ -188,9 +207,9 @@ export default function GetStartedPage() {
               This site contains affiliate links. If you enroll through a link on this page, Telehealth FX may earn a commission at no extra cost to you. <a href="https://telehealthfx.com/affiliate-disclosure" style={{ color: "#6B7068", textDecoration: "underline", textUnderlineOffset: 2 }}>Full disclosure</a>
             </p>
             <div style={{ display: "flex", flexWrap: "wrap", gap: 20, justifyContent: "center" }}>
-              <TrustBadge icon="🩺" text="Licensed clinicians" />
-              <TrustBadge icon="🗺️" text="50 states" />
-              <TrustBadge icon="⚡" text="24-hour review" />
+              <TrustBadge icon="medical" text="Licensed clinicians" />
+              <TrustBadge icon="mapPin" text="50 states" />
+              <TrustBadge icon="clock" text="24-hour review" />
             </div>
           </div>
 
@@ -258,8 +277,8 @@ export default function GetStartedPage() {
           </div>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))", gap: 20 }}>
             <BenefitCard icon="💳" title="Transparent pricing" body="No membership fees, no hidden costs. Payment plans available. You see the full cost before committing." />
-            <BenefitCard icon="🗺️" title="Licensed in all 50 states" body="Care from a clinician licensed where you live. We accept patients nationwide." />
-            <BenefitCard icon="⚡" title="Fast 24-hour review" body="Most members hear back within a day of submitting their assessment." />
+            <BenefitCard icon="📍" title="Licensed in all 50 states" body="Care from a clinician licensed where you live. We accept patients nationwide." />
+            <BenefitCard icon="⏱" title="Fast 24-hour review" body="Most members hear back within a day of submitting their assessment." />
             <BenefitCard icon="📦" title="Discreet 2-day shipping" body="All program materials delivered in plain packaging via UPS, right to your door." />
           </div>
         </div>
@@ -344,9 +363,9 @@ export default function GetStartedPage() {
           </p>
           <CtaBtn label="Start My Health Quiz" id="final-cta" large />
           <div style={{ display: "flex", flexWrap: "wrap", gap: 20, justifyContent: "center", marginTop: 28 }}>
-            <TrustBadge icon="🔒" text="HIPAA compliant" />
-            <TrustBadge icon="🩺" text="Licensed clinicians" />
-            <TrustBadge icon="💳" text="No hidden fees" />
+            <TrustBadge icon="lock" text="HIPAA compliant" />
+            <TrustBadge icon="medical" text="Licensed clinicians" />
+            <TrustBadge icon="card" text="No hidden fees" />
           </div>
         </div>
       </section>
@@ -354,6 +373,12 @@ export default function GetStartedPage() {
       {/* ── Footer / Disclaimers ── */}
       <footer style={{ background: "#EAE5DC", borderTop: "1px solid #D9D3C6", padding: "60px 24px 40px" }}>
         <div style={{ maxWidth: 960, margin: "0 auto" }}>
+
+          {/* Footer tagline */}
+          <p style={{ fontSize: 15, color: "#3A423D", lineHeight: 1.6, marginBottom: 40, textAlign: "center" }}>
+            Personalized telehealth programs. Licensed clinicians in all 50 states.
+          </p>
+
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(360px, 1fr))", gap: "32px 48px", marginBottom: 36 }}>
             <DisclaimerBlock title="Medical Disclaimer">
               Telehealth FX is an informational platform that connects users with licensed healthcare providers and US-based compounding pharmacies. We are not a medical provider, pharmacy, or insurance company. The information on this site is for educational purposes only and is not a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition. Never disregard professional medical advice or delay in seeking it because of something you have read on this website. If you think you may have a medical emergency, call your doctor or 911 immediately.
