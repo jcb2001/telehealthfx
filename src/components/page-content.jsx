@@ -97,12 +97,41 @@ const PAGE_CONTENT = {
   'terms': { title: 'Terms of Service', component: TermsOfService },
   'telehealth-consent': { title: 'Telehealth Consent', component: TelehealthConsent },
   'hipaa': { title: 'HIPAA Notice', component: HIPAA },
-  'accessibility': { title: 'Accessibility Statement', component: () => <Placeholder title="Accessibility" /> },
+  'accessibility': { title: 'Accessibility Statement', component: () => (
+    <>
+      <p><strong>Last Updated: May 2026</strong></p>
+      <p>Telehealth FX is committed to ensuring digital accessibility for people with disabilities. We continually improve the user experience for everyone and apply the relevant accessibility standards.</p>
+      <h3>Conformance Status</h3>
+      <p>We aim to conform to the Web Content Accessibility Guidelines (WCAG) 2.1 at Level AA. These guidelines explain how to make web content more accessible to people with a wide array of disabilities. Conforming to these guidelines helps ensure that the website is accessible to the broadest possible audience, including those who are blind, have low vision, cognitive disabilities, motor impairments, or other disabilities.</p>
+      <h3>Measures We Take</h3>
+      <p>Telehealth FX takes the following measures to ensure accessibility: (1) We include accessibility as part of our development workflow. (2) We use sufficient color contrast ratios that meet WCAG AA standards. (3) We provide text alternatives for non-text content. (4) We ensure the site is navigable via keyboard. (5) We use semantic HTML and ARIA attributes where appropriate. (6) We design for responsive viewing across devices and screen sizes.</p>
+      <h3>Feedback</h3>
+      <p>We welcome your feedback on the accessibility of this website. If you encounter any accessibility barriers, please contact us at accessibility@telehealthfx.com. We will make reasonable efforts to address the issue and accommodate your needs.</p>
+      <h3>Limitations</h3>
+      <p>Despite our best efforts to ensure accessibility, there may be some limitations. If you identify an issue, please contact us so we can address it promptly.</p>
+    </>
+  ) },
   'about': { title: 'About Us', component: () => <Placeholder title="About Us" /> },
   'careers': { title: 'Careers', component: () => <Placeholder title="Careers" /> },
   'press': { title: 'Press', component: () => <Placeholder title="Press" /> },
   'partners': { title: 'Partners', component: () => <Placeholder title="Partners" /> },
-  'contact': { title: 'Contact', component: () => <Placeholder title="Contact" /> },
+  'contact': { title: 'Contact Us', component: () => (
+    <>
+      <p><strong>Last Updated: May 2026</strong></p>
+      <p>Telehealth FX is a digital health information platform. We are not a medical provider and cannot answer medical questions or modify prescriptions. For clinical questions, please contact your prescribing provider directly through their patient portal.</p>
+      <h3>General Inquiries</h3>
+      <p>For questions about our website, content, or affiliate partnerships, please email us at <strong>support@telehealthfx.com</strong>. We typically respond within 1–2 business days.</p>
+      <h3>Privacy & Data Requests</h3>
+      <p>For privacy-related inquiries, data access requests, or CCPA/CPRA opt-out requests, please email <strong>privacy@telehealthfx.com</strong> with the subject line "Privacy Request."</p>
+      <h3>Accessibility Concerns</h3>
+      <p>If you encounter any accessibility barriers on our site, please email <strong>accessibility@telehealthfx.com</strong> with a description of the issue and the page URL. We will make reasonable efforts to address the concern.</p>
+      <h3>Advertising & Partnership Inquiries</h3>
+      <p>For advertising, affiliate, or business development inquiries, please email <strong>partners@telehealthfx.com</strong>.</p>
+      <h3>Mailing Address</h3>
+      <p>Telehealth FX<br/>Attn: Compliance Department<br/>United States</p>
+      <p><em>Please note: Telehealth FX is an online informational platform and does not maintain a physical office for walk-in visits.</em></p>
+    </>
+  ) },
   'help-center': { title: 'Help Center', component: () => <Placeholder title="Help Center" /> },
   'shipping': { title: 'Shipping Policy', component: () => <Placeholder title="Shipping Policy" /> },
   'returns': { title: 'Returns & Refunds', component: () => <Placeholder title="Returns & Refunds" /> },

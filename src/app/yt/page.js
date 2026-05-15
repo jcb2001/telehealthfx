@@ -142,12 +142,15 @@ export default function GetStartedPage() {
         borderBottom: "1px solid #E5DFD2",
       }}>
         <div style={{ maxWidth: 1100, margin: "0 auto", padding: "0 24px", display: "flex", alignItems: "center", justifyContent: "space-between", height: 64 }}>
-          <a href="https://telehealthfx.com" style={{ display: "flex", alignItems: "center", gap: 10, textDecoration: "none" }}>
-            <div style={{ width: 28, height: 28, borderRadius: 8, background: "#2E4A3B", display: "flex", alignItems: "center", justifyContent: "center" }}>
-              <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M7 1.5L1.5 5.5V12.5H5.5V8.5H8.5V12.5H12.5V5.5L7 1.5Z" fill="#FBF8F3"/></svg>
-            </div>
-            <span style={{ fontWeight: 600, fontSize: 15 }}>Telehealth FX</span>
-          </a>
+          <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
+            <a href="https://telehealthfx.com" style={{ display: "flex", alignItems: "center", gap: 10, textDecoration: "none" }}>
+              <div style={{ width: 28, height: 28, borderRadius: 8, background: "#2E4A3B", display: "flex", alignItems: "center", justifyContent: "center" }}>
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M7 1.5L1.5 5.5V12.5H5.5V8.5H8.5V12.5H12.5V5.5L7 1.5Z" fill="#FBF8F3"/></svg>
+              </div>
+              <span style={{ fontWeight: 600, fontSize: 15 }}>Telehealth FX</span>
+            </a>
+            <span style={{ fontSize: 10, fontFamily: MONO, letterSpacing: "0.1em", textTransform: "uppercase", color: "#A4A69E", borderLeft: "1px solid #D9D3C6", paddingLeft: 12 }}>Advertisement</span>
+          </div>
           <CtaBtn label="Take the Health Quiz" id="header-cta" />
         </div>
       </header>
@@ -181,6 +184,9 @@ export default function GetStartedPage() {
 
           <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 20 }}>
             <CtaBtn label="Take the Health Quiz" id="hero-cta" large />
+            <p style={{ fontSize: 11, color: "#A4A69E", maxWidth: 480, textAlign: "center", lineHeight: 1.5 }}>
+              This site contains affiliate links. If you enroll through a link on this page, Telehealth FX may earn a commission at no extra cost to you. <a href="https://telehealthfx.com/affiliate-disclosure" style={{ color: "#6B7068", textDecoration: "underline", textUnderlineOffset: 2 }}>Full disclosure</a>
+            </p>
             <div style={{ display: "flex", flexWrap: "wrap", gap: 20, justifyContent: "center" }}>
               <TrustBadge icon="🩺" text="Licensed clinicians" />
               <TrustBadge icon="🗺️" text="50 states" />
@@ -234,6 +240,9 @@ export default function GetStartedPage() {
           </div>
           <div style={{ textAlign: "center", marginTop: 52 }}>
             <CtaBtn label="See If You Qualify" id="how-cta" large />
+            <p style={{ fontSize: 11, color: "#A4A69E", marginTop: 12, maxWidth: 400, marginLeft: "auto", marginRight: "auto", lineHeight: 1.5 }}>
+              Affiliate link — we may earn a commission if you enroll. This does not affect the price you pay.
+            </p>
           </div>
         </div>
       </section>
@@ -345,18 +354,35 @@ export default function GetStartedPage() {
       {/* ── Footer / Disclaimers ── */}
       <footer style={{ background: "#EAE5DC", borderTop: "1px solid #D9D3C6", padding: "60px 24px 40px" }}>
         <div style={{ maxWidth: 960, margin: "0 auto" }}>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(360px, 1fr))", gap: "32px 48px", marginBottom: 48 }}>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(360px, 1fr))", gap: "32px 48px", marginBottom: 36 }}>
             <DisclaimerBlock title="Medical Disclaimer">
-              Telehealth FX is an informational platform that connects users with licensed healthcare providers and US-based compounding pharmacies. We are not a medical provider, pharmacy, or insurance company. The information on this site is for educational purposes only and is not a substitute for professional medical advice, diagnosis, or treatment. Always consult your physician before starting any medication or weight loss program.
+              Telehealth FX is an informational platform that connects users with licensed healthcare providers and US-based compounding pharmacies. We are not a medical provider, pharmacy, or insurance company. The information on this site is for educational purposes only and is not a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition. Never disregard professional medical advice or delay in seeking it because of something you have read on this website. If you think you may have a medical emergency, call your doctor or 911 immediately.
             </DisclaimerBlock>
             <DisclaimerBlock title="Results Disclaimer">
-              Individual outcomes vary based on starting weight, health history, adherence to the program, diet, exercise, and other factors. Testimonials reflect individual experiences and do not guarantee results. The program is not appropriate for everyone, and eligibility is determined by a licensed clinician.
+              Individual outcomes vary based on starting weight, health history, adherence to the program, diet, exercise, and other factors. Testimonials on this page reflect individual experiences and are not representative of typical results. No guarantee of specific outcomes is made or implied. The program is not appropriate for everyone, and eligibility is determined by a licensed clinician after clinical review.
             </DisclaimerBlock>
             <DisclaimerBlock title="FDA & Compounding Disclaimer">
-              Some treatments offered through partner pharmacies are compounded medications. Compounded medications are not FDA-approved, meaning the FDA does not evaluate them for safety, efficacy, or quality. They are custom preparations made by state-licensed compounding pharmacies. Telehealth FX does not sell, distribute, or claim equivalence to commercially available branded products. Certain medications may cause serious side effects. Do not use GLP-1 medications if you have a personal or family history of medullary thyroid carcinoma (MTC) or Multiple Endocrine Neoplasia syndrome type 2 (MEN 2). Discuss all risks with your prescribing clinician.
+              Some treatments offered through partner pharmacies are compounded medications. Compounded medications are not FDA-approved, meaning the FDA has not evaluated them for safety, efficacy, or quality. They are custom preparations made by state-licensed 503A and 503B compounding pharmacies pursuant to a valid prescription. Telehealth FX does not sell, distribute, manufacture, or claim equivalence to any commercially available branded or generic FDA-approved products including Ozempic®, Wegovy®, Mounjaro®, or Zepbound®. All trademarks are the property of their respective owners.
             </DisclaimerBlock>
-            <DisclaimerBlock title="Affiliate Disclosure">
-              Telehealth FX may receive compensation when users sign up with partner clinical programs through links on this site. This does not affect the price you pay or the clinical care you receive.
+            <DisclaimerBlock title="FTC Affiliate & Advertising Disclosure">
+              In compliance with the Federal Trade Commission (FTC) guidelines: This page contains affiliate links. Telehealth FX earns a referral commission when visitors click links on this page and enroll with a partner clinical program. This financial relationship does not affect the price you pay, the care you receive, or our editorial content. Assume all links on this page are affiliate links from which we receive compensation. For complete details, see our <a href="https://telehealthfx.com/affiliate-disclosure" style={{ color: "#1A1F1C", textDecoration: "underline", textUnderlineOffset: 3 }}>full Affiliate Disclosure</a>.
+            </DisclaimerBlock>
+          </div>
+
+          {/* Black Box Warning — prominent per FDA guidance */}
+          <div style={{ background: "#1A1F1C", color: "#FBF8F3", borderRadius: 12, padding: "24px 28px", marginBottom: 36, border: "2px solid #1A1F1C" }}>
+            <div style={{ fontWeight: 700, fontSize: 14, marginBottom: 10, textTransform: "uppercase", letterSpacing: "0.05em" }}>⚠ Important Safety Information</div>
+            <p style={{ fontSize: 13, lineHeight: 1.7, margin: 0, color: "rgba(251,248,243,0.9)" }}>
+              GLP-1 receptor agonist medications may cause serious side effects including, but not limited to: pancreatitis, gallbladder problems, kidney injury, serious allergic reactions, increased heart rate, and hypoglycemia. <strong>Do not use GLP-1 medications if you have a personal or family history of medullary thyroid carcinoma (MTC) or Multiple Endocrine Neoplasia syndrome type 2 (MEN 2).</strong> Tell your healthcare provider about all medical conditions, including if you are pregnant, plan to become pregnant, or are breastfeeding. This is not a complete list of possible side effects. Discuss all risks and benefits with your prescribing clinician before starting any treatment.
+            </p>
+          </div>
+
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(360px, 1fr))", gap: "32px 48px", marginBottom: 36 }}>
+            <DisclaimerBlock title="Platform & Third-Party Disclaimer">
+              This website is not a part of the YouTube, Google, or Facebook websites, nor is it endorsed by YouTube, Google, Facebook, or any of their subsidiaries. YouTube is a trademark of Google LLC. Facebook is a trademark of Meta Platforms, Inc. When you click a link on this page and are directed to a third-party telehealth provider, you are leaving Telehealth FX. Any medical consultations, prescribing decisions, and fulfillment of medications are strictly between you and the licensed medical professionals on that platform. Telehealth FX assumes no liability for any outcomes arising from your relationship with third-party providers.
+            </DisclaimerBlock>
+            <DisclaimerBlock title="Data Privacy & Tracking">
+              Telehealth FX does not collect, store, or process Protected Health Information (PHI). We use standard web analytics tools (Google Analytics, Google Tag Manager) on this informational page for traffic measurement only. No health data from your assessment or clinical interactions is accessible to or stored by Telehealth FX. Once you leave this page and enter a partner provider's platform, your information is governed by their HIPAA-compliant privacy practices.
             </DisclaimerBlock>
           </div>
 
@@ -365,6 +391,7 @@ export default function GetStartedPage() {
           <div style={{ display: "flex", flexWrap: "wrap", gap: "10px 24px", fontSize: 13, color: "#6B7068", justifyContent: "center", marginBottom: 20 }}>
             {[
               ["Privacy Policy", "/privacy"], ["Terms of Service", "/terms"],
+              ["Affiliate Disclosure", "/affiliate-disclosure"],
               ["Telehealth Consent", "/telehealth-consent"], ["HIPAA Notice", "/hipaa"],
               ["Accessibility", "/accessibility"], ["Contact", "/contact"],
             ].map(([label, href]) => (
