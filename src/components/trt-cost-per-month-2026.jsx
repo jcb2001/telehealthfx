@@ -84,10 +84,10 @@ function BlogTrtCostPerMonth2026() {
       <div style={{ marginTop: 80, paddingTop: 40, borderTop: '1px solid var(--line-soft)', fontSize: 14, color: 'var(--ink-3)' }}>
         <h3 className="serif" style={{ fontSize: 24, marginBottom: 24, color: 'var(--ink)' }}>References</h3>
         <ol style={{ paddingLeft: 20, display: 'flex', flexDirection: 'column', gap: 16 }}>
-          <li>GoodRx. (2026). Testosterone Cypionate pricing — average retail and coupon prices.</li>
-          <li>Mulhall, J. P., et al. (2018). Evaluation and management of testosterone deficiency: AUA guideline. <em>J Urol</em>, 200(2), 423–432.</li>
-          <li>IRS Publication 502. (2025). Medical and Dental Expenses — Qualified HSA/FSA expenses.</li>
-          <li>Bhasin, S., et al. (2018). Testosterone therapy in men with hypogonadism: Endocrine Society clinical practice guideline. <em>JCEM</em>, 103(5), 1715–1744.</li>
+          <li>GoodRx. (2026). Testosterone Cypionate pricing — average retail and coupon prices. <a href="https://www.goodrx.com/testosterone-cypionate" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)' }}>goodrx.com</a></li>
+          <li>Mulhall, J. P., et al. (2018). Evaluation and management of testosterone deficiency: AUA guideline. <em>J Urol</em>, 200(2), 423–432. <a href="https://www.auanet.org/guidelines-and-quality/guidelines/testosterone-deficiency-guideline" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)' }}>auanet.org</a></li>
+          <li>IRS Publication 502. (2025). Medical and Dental Expenses — Qualified HSA/FSA expenses. <a href="https://www.irs.gov/publications/p502" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)' }}>irs.gov</a></li>
+          <li>Bhasin, S., et al. (2018). Testosterone therapy in men with hypogonadism: Endocrine Society clinical practice guideline. <em>JCEM</em>, 103(5), 1715–1744. <a href="https://academic.oup.com/jcem/article/103/5/1715/4939465" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)' }}>academic.oup.com</a></li>
         </ol>
       </div>
     </div>

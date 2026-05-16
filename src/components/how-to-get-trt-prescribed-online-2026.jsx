@@ -87,10 +87,10 @@ function BlogHowToGetTrtPrescribedOnline2026() {
       <div style={{ marginTop: 80, paddingTop: 40, borderTop: '1px solid var(--line-soft)', fontSize: 14, color: 'var(--ink-3)' }}>
         <h3 className="serif" style={{ fontSize: 24, marginBottom: 24, color: 'var(--ink)' }}>References</h3>
         <ol style={{ paddingLeft: 20, display: 'flex', flexDirection: 'column', gap: 16 }}>
-          <li>DEA. (2026). Interim final rule on telemedicine prescribing of controlled substances.</li>
-          <li>Bhasin, S., et al. (2018). Testosterone therapy in men with hypogonadism. <em>JCEM</em>, 103(5), 1715–1744.</li>
-          <li>Mulhall, J. P., et al. (2018). AUA guideline on testosterone deficiency. <em>J Urol</em>, 200(2), 423–432.</li>
-          <li>FDA. (2025). Updated labeling for testosterone products — cardiovascular safety data.</li>
+          <li>DEA. (2026). Interim final rule on telemedicine prescribing of controlled substances. <a href="https://www.deadiversion.usdoj.gov/fed_regs/rules/2023/fr1119.htm" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)' }}>deadiversion.usdoj.gov</a></li>
+          <li>Bhasin, S., et al. (2018). Testosterone therapy in men with hypogonadism. <em>JCEM</em>, 103(5), 1715–1744. <a href="https://academic.oup.com/jcem/article/103/5/1715/4939465" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)' }}>academic.oup.com</a></li>
+          <li>Mulhall, J. P., et al. (2018). AUA guideline on testosterone deficiency. <em>J Urol</em>, 200(2), 423–432. <a href="https://www.auanet.org/guidelines-and-quality/guidelines/testosterone-deficiency-guideline" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)' }}>auanet.org</a></li>
+          <li>FDA. (2025). Updated labeling for testosterone products — cardiovascular safety data. <a href="https://www.fda.gov/drugs/drug-safety-and-availability/fda-drug-safety-communication-fda-cautions-about-using-testosterone-products" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)' }}>fda.gov</a></li>
         </ol>
       </div>
     </div>

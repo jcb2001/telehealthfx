@@ -81,10 +81,10 @@ function BlogTrtDosageGuide2026() {
       <div style={{ marginTop: 80, paddingTop: 40, borderTop: '1px solid var(--line-soft)', fontSize: 14, color: 'var(--ink-3)' }}>
         <h3 className="serif" style={{ fontSize: 24, marginBottom: 24, color: 'var(--ink)' }}>References</h3>
         <ol style={{ paddingLeft: 20, display: 'flex', flexDirection: 'column', gap: 16 }}>
-          <li>Bhasin, S., et al. (2018). Testosterone therapy guidelines. <em>JCEM</em>, 103(5), 1715–1744.</li>
-          <li>Wittert, G., et al. (2021). Testosterone dose-response relationships. <em>JCEM</em>, 106(8), e3058–e3072.</li>
-          <li>Mulhall, J. P., et al. (2018). AUA guideline on testosterone deficiency. <em>J Urol</em>, 200(2), 423–432.</li>
-          <li>Morgentaler, A., et al. (2016). Testosterone therapy and cardiovascular risk. <em>Mayo Clin Proc</em>, 91(9), 1280–1291.</li>
+          <li>Bhasin, S., et al. (2018). Testosterone therapy guidelines. <em>JCEM</em>, 103(5), 1715–1744. <a href="https://academic.oup.com/jcem/article/103/5/1715/4939465" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)' }}>academic.oup.com</a></li>
+          <li>Wittert, G., et al. (2021). Testosterone dose-response relationships. <em>JCEM</em>, 106(8), e3058–e3072. <a href="https://pubmed.ncbi.nlm.nih.gov/33791781/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)' }}>pubmed.ncbi.nlm.nih.gov</a></li>
+          <li>Mulhall, J. P., et al. (2018). AUA guideline on testosterone deficiency. <em>J Urol</em>, 200(2), 423–432. <a href="https://www.auanet.org/guidelines-and-quality/guidelines/testosterone-deficiency-guideline" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)' }}>auanet.org</a></li>
+          <li>Morgentaler, A., et al. (2016). Testosterone therapy and cardiovascular risk. <em>Mayo Clin Proc</em>, 91(9), 1280–1291. <a href="https://pubmed.ncbi.nlm.nih.gov/27475194/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)' }}>pubmed.ncbi.nlm.nih.gov</a></li>
         </ol>
       </div>
     </div>

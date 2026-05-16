@@ -79,10 +79,10 @@ function BlogBestOnlineTrtClinics2026() {
       <div style={{ marginTop: 80, paddingTop: 40, borderTop: '1px solid var(--line-soft)', fontSize: 14, color: 'var(--ink-3)' }}>
         <h3 className="serif" style={{ fontSize: 24, marginBottom: 24, color: 'var(--ink)' }}>References</h3>
         <ol style={{ paddingLeft: 20, display: 'flex', flexDirection: 'column', gap: 16 }}>
-          <li>Bhasin, S., et al. (2018). Testosterone therapy in men with hypogonadism. <em>JCEM</em>, 103(5), 1715–1744.</li>
-          <li>AUA. (2018). Evaluation and management of testosterone deficiency. <em>J Urol</em>, 200(2), 423–432.</li>
-          <li>DEA. (2026). Telehealth prescribing flexibilities for controlled substances — Interim final rule.</li>
-          <li>Mulhall, J. P., et al. (2018). AUA guideline on testosterone deficiency. <em>J Urol</em>, 200(2), 423–432.</li>
+          <li>Bhasin, S., et al. (2018). Testosterone therapy in men with hypogonadism. <em>JCEM</em>, 103(5), 1715–1744. <a href="https://academic.oup.com/jcem/article/103/5/1715/4939465" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)' }}>academic.oup.com</a></li>
+          <li>AUA. (2018). Evaluation and management of testosterone deficiency. <em>J Urol</em>, 200(2), 423–432. <a href="https://www.auanet.org/guidelines-and-quality/guidelines/testosterone-deficiency-guideline" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)' }}>auanet.org</a></li>
+          <li>DEA. (2026). Telehealth prescribing flexibilities for controlled substances — Interim final rule. <a href="https://www.deadiversion.usdoj.gov/fed_regs/rules/2023/fr1119.htm" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)' }}>deadiversion.usdoj.gov</a></li>
+          <li>Mulhall, J. P., et al. (2018). AUA guideline on testosterone deficiency. <em>J Urol</em>, 200(2), 423–432. <a href="https://pubmed.ncbi.nlm.nih.gov/29601935/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)' }}>pubmed.ncbi.nlm.nih.gov</a></li>
         </ol>
       </div>
     </div>

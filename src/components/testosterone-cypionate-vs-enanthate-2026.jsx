@@ -61,10 +61,10 @@ function BlogTestosteroneCypionateVsEnanthate2026() {
       <div style={{ marginTop: 80, paddingTop: 40, borderTop: '1px solid var(--line-soft)', fontSize: 14, color: 'var(--ink-3)' }}>
         <h3 className="serif" style={{ fontSize: 24, marginBottom: 24, color: 'var(--ink)' }}>References</h3>
         <ol style={{ paddingLeft: 20, display: 'flex', flexDirection: 'column', gap: 16 }}>
-          <li>Bhasin, S., et al. (2018). Testosterone therapy guidelines. <em>JCEM</em>, 103(5), 1715–1744.</li>
-          <li>Nieschlag, E. (2006). Testosterone treatment comes of age. <em>Clin Endocrinol</em>, 65(3), 275–281.</li>
-          <li>FDA. (2024). Approved drug products — Testosterone Cypionate and Enanthate monographs.</li>
-          <li>Edelstein, D., et al. (2007). Pharmacokinetics of injectable testosterone preparations. <em>Eur J Endocrinol</em>, 157(5), 593–598.</li>
+          <li>Bhasin, S., et al. (2018). Testosterone therapy guidelines. <em>JCEM</em>, 103(5), 1715–1744. <a href="https://academic.oup.com/jcem/article/103/5/1715/4939465" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)' }}>academic.oup.com</a></li>
+          <li>Nieschlag, E. (2006). Testosterone treatment comes of age. <em>Clin Endocrinol</em>, 65(3), 275–281. <a href="https://pubmed.ncbi.nlm.nih.gov/16918944/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)' }}>pubmed.ncbi.nlm.nih.gov</a></li>
+          <li>FDA. (2024). Approved drug products — Testosterone Cypionate and Enanthate monographs. <a href="https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)' }}>accessdata.fda.gov</a></li>
+          <li>Edelstein, D., et al. (2007). Pharmacokinetics of injectable testosterone preparations. <em>Eur J Endocrinol</em>, 157(5), 593–598. <a href="https://pubmed.ncbi.nlm.nih.gov/17984237/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)' }}>pubmed.ncbi.nlm.nih.gov</a></li>
         </ol>
       </div>
     </div>

@@ -82,10 +82,10 @@ function BlogTrtSideEffectsCompleteGuide2026() {
       <div style={{ marginTop: 80, paddingTop: 40, borderTop: '1px solid var(--line-soft)', fontSize: 14, color: 'var(--ink-3)' }}>
         <h3 className="serif" style={{ fontSize: 24, marginBottom: 24, color: 'var(--ink)' }}>References</h3>
         <ol style={{ paddingLeft: 20, display: 'flex', flexDirection: 'column', gap: 16 }}>
-          <li>Lincoff, A. M., et al. (2023). Cardiovascular safety of testosterone replacement therapy (TRAVERSE). <em>NEJM</em>, 389(2), 107–117.</li>
-          <li>FDA. (2025). Updated labeling for testosterone products — removal of cardiovascular boxed warning.</li>
-          <li>Bhasin, S., et al. (2018). Testosterone therapy in men with hypogonadism. <em>JCEM</em>, 103(5), 1715–1744.</li>
-          <li>Morgentaler, A. (2013). Testosterone, cardiovascular risk, and hormonal therapy. <em>JAMA Int Med</em>, 173(15), 1471–1472.</li>
+          <li>Lincoff, A. M., et al. (2023). Cardiovascular safety of testosterone replacement therapy (TRAVERSE). <em>NEJM</em>, 389(2), 107–117. <a href="https://www.nejm.org/doi/full/10.1056/NEJMoa2215025" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)' }}>nejm.org</a></li>
+          <li>FDA. (2025). Updated labeling for testosterone products — removal of cardiovascular boxed warning. <a href="https://www.fda.gov/drugs/drug-safety-and-availability/fda-drug-safety-communication-fda-cautions-about-using-testosterone-products" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)' }}>fda.gov</a></li>
+          <li>Bhasin, S., et al. (2018). Testosterone therapy in men with hypogonadism. <em>JCEM</em>, 103(5), 1715–1744. <a href="https://academic.oup.com/jcem/article/103/5/1715/4939465" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)' }}>academic.oup.com</a></li>
+          <li>Morgentaler, A. (2013). Testosterone, cardiovascular risk, and hormonal therapy. <em>JAMA Int Med</em>, 173(15), 1471–1472. <a href="https://pubmed.ncbi.nlm.nih.gov/23939517/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)' }}>pubmed.ncbi.nlm.nih.gov</a></li>
         </ol>
       </div>
     </div>

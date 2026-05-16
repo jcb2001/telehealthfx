@@ -77,10 +77,10 @@ function BlogHcgWithTrt2026() {
       <div style={{ marginTop: 80, paddingTop: 40, borderTop: '1px solid var(--line-soft)', fontSize: 14, color: 'var(--ink-3)' }}>
         <h3 className="serif" style={{ fontSize: 24, marginBottom: 24, color: 'var(--ink)' }}>References</h3>
         <ol style={{ paddingLeft: 20, display: 'flex', flexDirection: 'column', gap: 16 }}>
-          <li>Hsieh, T. C., et al. (2013). Concomitant intramuscular HCG preserves spermatogenesis in men on TRT. <em>J Urol</em>, 189(2), 647–650.</li>
-          <li>FDA. (2020). Biologics Price Competition and Innovation Act — HCG reclassification.</li>
-          <li>Coviello, A. D., et al. (2005). Low-dose HCG maintains intratesticular testosterone. <em>JCEM</em>, 90(9), 5105–5109.</li>
-          <li>AUA. (2021). Male infertility best practice policy — adjunctive therapy during TRT.</li>
+          <li>Hsieh, T. C., et al. (2013). Concomitant intramuscular HCG preserves spermatogenesis in men on TRT. <em>J Urol</em>, 189(2), 647–650. <a href="https://pubmed.ncbi.nlm.nih.gov/23085059/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)' }}>pubmed.ncbi.nlm.nih.gov</a></li>
+          <li>FDA. (2020). Biologics Price Competition and Innovation Act — HCG reclassification. <a href="https://www.fda.gov/drugs/biosimilars/transition-biological-products" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)' }}>fda.gov</a></li>
+          <li>Coviello, A. D., et al. (2005). Low-dose HCG maintains intratesticular testosterone. <em>JCEM</em>, 90(9), 5105–5109. <a href="https://pubmed.ncbi.nlm.nih.gov/15998770/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)' }}>pubmed.ncbi.nlm.nih.gov</a></li>
+          <li>AUA. (2021). Male infertility best practice policy — adjunctive therapy during TRT. <a href="https://www.auanet.org/guidelines-and-quality/guidelines/male-infertility" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)' }}>auanet.org</a></li>
         </ol>
       </div>
     </div>

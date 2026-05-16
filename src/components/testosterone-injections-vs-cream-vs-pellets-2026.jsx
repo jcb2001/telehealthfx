@@ -78,10 +78,10 @@ function BlogTestosteroneInjectionsVsCreamVsPellets2026() {
       <div style={{ marginTop: 80, paddingTop: 40, borderTop: '1px solid var(--line-soft)', fontSize: 14, color: 'var(--ink-3)' }}>
         <h3 className="serif" style={{ fontSize: 24, marginBottom: 24, color: 'var(--ink)' }}>References</h3>
         <ol style={{ paddingLeft: 20, display: 'flex', flexDirection: 'column', gap: 16 }}>
-          <li>Bhasin, S., et al. (2018). Testosterone therapy in men with hypogonadism. <em>JCEM</em>, 103(5), 1715–1744.</li>
-          <li>Kaminetsky, J. C., et al. (2017). Pharmacokinetics of testosterone pellets. <em>J Sex Med</em>, 14(12), 1627–1633.</li>
-          <li>Swerdloff, R. S., et al. (2000). Transdermal testosterone gel pharmacokinetics. <em>JCEM</em>, 85(12), 4500–4510.</li>
-          <li>FDA. (2015). Testosterone safety labeling changes — transdermal transfer risk.</li>
+          <li>Bhasin, S., et al. (2018). Testosterone therapy in men with hypogonadism. <em>JCEM</em>, 103(5), 1715–1744. <a href="https://academic.oup.com/jcem/article/103/5/1715/4939465" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)' }}>academic.oup.com</a></li>
+          <li>Kaminetsky, J. C., et al. (2017). Pharmacokinetics of testosterone pellets. <em>J Sex Med</em>, 14(12), 1627–1633. <a href="https://pubmed.ncbi.nlm.nih.gov/29198510/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)' }}>pubmed.ncbi.nlm.nih.gov</a></li>
+          <li>Swerdloff, R. S., et al. (2000). Transdermal testosterone gel pharmacokinetics. <em>JCEM</em>, 85(12), 4500–4510. <a href="https://academic.oup.com/jcem/article/85/12/4500/2851529" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)' }}>academic.oup.com</a></li>
+          <li>FDA. (2015). Testosterone safety labeling changes — transdermal transfer risk. <a href="https://www.fda.gov/drugs/drug-safety-and-availability/fda-drug-safety-communication-fda-cautions-about-using-testosterone-products" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)' }}>fda.gov</a></li>
         </ol>
       </div>
     </div>

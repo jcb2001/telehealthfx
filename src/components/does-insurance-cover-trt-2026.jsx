@@ -85,10 +85,10 @@ function BlogDoesInsuranceCoverTrt2026() {
       <div style={{ marginTop: 80, paddingTop: 40, borderTop: '1px solid var(--line-soft)', fontSize: 14, color: 'var(--ink-3)' }}>
         <h3 className="serif" style={{ fontSize: 24, marginBottom: 24, color: 'var(--ink)' }}>References</h3>
         <ol style={{ paddingLeft: 20, display: 'flex', flexDirection: 'column', gap: 16 }}>
-          <li>Bhasin, S., et al. (2018). Testosterone therapy in men with hypogonadism. <em>JCEM</em>, 103(5), 1715–1744.</li>
-          <li>CMS. (2025). Medicare Part D formulary guidance — Androgens. Centers for Medicare & Medicaid Services.</li>
-          <li>AUA. (2018). Evaluation and management of testosterone deficiency. <em>J Urol</em>, 200(2), 423–432.</li>
-          <li>IRS Publication 502. (2025). Medical and dental expenses — HSA/FSA qualified expenses.</li>
+          <li>Bhasin, S., et al. (2018). Testosterone therapy in men with hypogonadism. <em>JCEM</em>, 103(5), 1715–1744. <a href="https://academic.oup.com/jcem/article/103/5/1715/4939465" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)' }}>academic.oup.com</a></li>
+          <li>CMS. (2025). Medicare Part D formulary guidance — Androgens. Centers for Medicare & Medicaid Services. <a href="https://www.cms.gov/medicare/prescription-drug-coverage/prescriptiondrugcovgenin" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)' }}>cms.gov</a></li>
+          <li>AUA. (2018). Evaluation and management of testosterone deficiency. <em>J Urol</em>, 200(2), 423–432. <a href="https://www.auanet.org/guidelines-and-quality/guidelines/testosterone-deficiency-guideline" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)' }}>auanet.org</a></li>
+          <li>IRS Publication 502. (2025). Medical and dental expenses — HSA/FSA qualified expenses. <a href="https://www.irs.gov/publications/p502" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)' }}>irs.gov</a></li>
         </ol>
       </div>
     </div>
