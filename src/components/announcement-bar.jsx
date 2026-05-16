@@ -1,7 +1,13 @@
 "use client";
 import React from 'react';
+import { usePathname } from 'next/navigation';
+
+const TRT_ROUTES = ['/blog/trt-', '/blog/does-insurance-cover-trt', '/blog/best-online-trt', '/blog/how-to-get-trt', '/blog/testosterone-', '/blog/enclomiphene-vs-trt', '/blog/hcg-with-trt', '/blog/does-trt-', '/blog/low-testosterone-', '/medications/testosterone', '/medications/enclomiphene', '/trt/'];
 
 function AnnouncementBar() {
+  const pathname = usePathname();
+  const isTrt = TRT_ROUTES.some(r => pathname?.startsWith(r));
+  if (isTrt) return null;
   return (
     <>
       <style>{`

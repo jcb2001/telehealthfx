@@ -1,12 +1,19 @@
 "use client";
 import React, { useState, useEffect } from 'react';
+import { usePathname } from 'next/navigation';
 import { Icon } from './common.jsx';
 import { Logo } from './common.jsx';
 
 const { useState: useStateNav, useEffect: useEffectNav } = React;
 
+const TRT_ROUTES = ['/blog/trt-', '/blog/does-insurance-cover-trt', '/blog/best-online-trt', '/blog/how-to-get-trt', '/blog/testosterone-', '/blog/enclomiphene-vs-trt', '/blog/hcg-with-trt', '/blog/does-trt-', '/blog/low-testosterone-', '/medications/testosterone', '/medications/enclomiphene', '/trt/'];
+function isTrtPage(path) { return TRT_ROUTES.some(r => path?.startsWith(r)); }
+
 function Nav() {
   const [scrolled, setScrolled] = useStateNav(false);
+  const pathname = usePathname();
+  const trt = isTrtPage(pathname);
+  const ctaUrl = trt ? 'https://go.telehealthfx.com/testosterone' : 'https://go.telehealthfx.com/start';
   useEffectNav(() => {
     const onScroll = () => setScrolled(window.scrollY > 20);
     window.addEventListener('scroll', onScroll);
@@ -30,7 +37,7 @@ function Nav() {
           <a href="/#faq">FAQ</a>
         </div>
         <div className="flex-row nav-actions" style={{ gap: 12, alignItems: 'center' }}>
-          <a className="btn btn-primary" href="https://go.telehealthfx.com/start">
+          <a className="btn btn-primary" href={ctaUrl}>
             See If You Qualify <Icon.Arrow />
           </a>
         </div>
