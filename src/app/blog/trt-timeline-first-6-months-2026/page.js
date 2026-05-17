@@ -1,0 +1,26 @@
+import { BlogTrtTimeline2026 } from "../../../components/blog-trt-timeline-first-6-months-2026.jsx";
+
+export const metadata = {
+  title: "TRT Timeline: What to Expect in Your First 6 Months | Telehealth FX",
+  description: "A month-by-month breakdown of physical and mental changes on testosterone replacement therapy. Learn how long it takes for TRT to work.",
+  alternates: { canonical: "https://telehealthfx.com/blog/trt-timeline-first-6-months-2026" },
+  openGraph: {
+    title: "TRT Timeline: What to Expect in Your First 6 Months",
+    description: "A month-by-month breakdown of physical and mental changes on testosterone replacement therapy. Learn how long it takes for TRT to work.",
+    url: "https://telehealthfx.com/blog/trt-timeline-first-6-months-2026",
+    siteName: "Telehealth FX",
+    type: "article",
+  },
+};
+
+export default function Page() {
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@graph":[{"@type":"MedicalWebPage","@id":"https://telehealthfx.com/blog/trt-timeline-first-6-months-2026/#webpage","name":"TRT Timeline: What to Expect in Your First 6 Months","description":"A month-by-month breakdown of physical and mental changes on testosterone replacement therapy. Learn how long it takes for TRT to work.","url":"https://telehealthfx.com/blog/trt-timeline-first-6-months-2026","lastReviewed":"2026-05-17","medicalAudience":{"@type":"MedicalAudience","audienceType":"Patient","healthCondition":{"@type":"MedicalCondition","name":"Hypogonadism (Low Testosterone)"}},"about":{"@id":"https://telehealthfx.com/blog/trt-timeline-first-6-months-2026/#article"},"publisher":{"@id":"https://telehealthfx.com/#organization"}},{"@type":"Article","@id":"https://telehealthfx.com/blog/trt-timeline-first-6-months-2026/#article","headline":"TRT Timeline: What to Expect in Your First 6 Months","description":"A month-by-month breakdown of physical and mental changes on testosterone replacement therapy. Learn how long it takes for TRT to work.","author":{"@type":"Person","name":"Julian Mercer, M.S.","jobTitle":"Lead Bio-Systems Analyst","url":"https://telehealthfx.com/about"},"publisher":{"@id":"https://telehealthfx.com/#organization"},"datePublished":"2026-05-17","dateModified":"2026-05-17","mainEntityOfPage":{"@id":"https://telehealthfx.com/blog/trt-timeline-first-6-months-2026/#webpage"}},{"@type":"FAQPage","@id":"https://telehealthfx.com/blog/trt-timeline-first-6-months-2026/#faq","mainEntity":[]},{"@type":"Product","@id":"https://telehealthfx.com/blog/trt-timeline-first-6-months-2026/#product","name":"Telehealth FX — TRT Program","brand":{"@type":"Brand","name":"Telehealth FX"},"offers":{"@type":"Offer","price":"79","priceCurrency":"USD","availability":"https://schema.org/InStock","url":"https://telehealthfx.com/medications/testosterone/"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.9","reviewCount":"2847","bestRating":"5"}},{"@type":"BreadcrumbList","@id":"https://telehealthfx.com/blog/trt-timeline-first-6-months-2026/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://telehealthfx.com"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://telehealthfx.com/blog"},{"@type":"ListItem","position":3,"name":"TRT Timeline: What to Expect in Your First 6 Months"}]},{"@type":"MedicalOrganization","@id":"https://telehealthfx.com/#organization","name":"Telehealth FX","url":"https://telehealthfx.com","medicalSpecialty":["http://schema.org/Endocrine","http://schema.org/Urologic"]}]}) }}
+      />
+      <BlogTrtTimeline2026 />
+    </>
+  );
+}
