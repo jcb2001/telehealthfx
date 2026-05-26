@@ -1,0 +1,81 @@
+# Telehealth FX
+
+> Telehealth FX is a comprehensive telehealth and clinical weight loss platform providing transparent, affordable, and personalized access to compounded medications, hormone optimization therapies, and wellness treatments. Through a network of state-licensed US pharmacies and licensed medical providers, the platform facilitates 24-hour review and direct delivery of customized treatment plans, including GLP-1 weight loss, testosterone replacement therapy (TRT), enclomiphene, sexual wellness, hair restoration, and metabolic therapies.
+
+Telehealth FX operates as an end-to-end digital clinic connecting patients with US-licensed medical professionals and specialized compounding pharmacies. The platform is designed to eliminate the barriers of traditional insurance and pharmacy queues, offering predictable monthly pricing, free shipping, and ongoing clinical support.
+
+### The Patient Journey
+1. **Intake Evaluation:** Patients complete an online diagnostic quiz detailing their health history, weight management journey, and biological goals (taking approximately 2 minutes).
+2. **Provider Consultation:** A licensed medical provider reviews the intake information within 24 hours to check for contraindications and determine eligibility.
+3. **Pharmacy Dispensing:** Approved medications are formulated by licensed US 503A or 503B compounding pharmacies.
+4. **UPS Delivery:** Medications, needles, alcohol wipes, and dosage instructions are shipped directly to the patient's home in temperature-controlled or discreet packaging via 2-Day UPS Shipping.
+5. **Continuous Care:** Patients have 1-on-1 welcome onboarding calls and ongoing portal messaging with their clinical care team.
+
+---
+
+## Medications & Treatments
+
+### 1. Weight Loss & Metabolic Support
+*   **Semaglutide:** Once-weekly GLP-1 receptor agonist injection. Acts by signaling satiety to the brain, slowing digestion, and stabilizing blood sugar. Designed for sustainable weight management. Starting at **$146/month** (medication, supplies, and shipping included).
+*   **Tirzepatide:** Once-weekly dual GIP/GLP-1 receptor agonist injection. Dual-action mechanism offers enhanced weight loss outcomes compared to single-hormone mimics. Starting at **$258/month**.
+*   **Berberine Patches:** Sustained 24-hour transdermal patches targeting AMPK activation. Designed for insulin sensitivity and metabolic support without the gastrointestinal side effects common to oral berberine supplements. Available over-the-counter starting at **$30**.
+*   **Metformin:** Longevity and metabolic optimization oral medication. Promotes insulin sensitivity, activates AMPK, and suppresses mTOR for healthy metabolic aging. Starting at **$39/month**.
+
+### 2. Hormone Optimization & Peptides
+*   **Testosterone (TRT):** Clinician-prescribed testosterone replacement therapy available in injectable, oral, and topical formats. Formulated to restore energy, muscle mass, strength, and drive in men experiencing low testosterone. Starting at **$79/month**.
+*   **Enclomiphene:** An oral daily capsule that acts as a selective estrogen receptor modulator (SERM). Boosts natural testosterone production by up to 2.5x while fully preserving fertility and testicular function, bypassing the suppressive side effects of traditional TRT. Starting at **$89/month**.
+*   **Sermorelin:** Once-daily peptide injection designed to stimulate the pituitary gland to naturally produce and secrete growth hormone. Prescribed to support muscle recovery, sleep quality, and body composition. Starting at **$199/month**.
+*   **NAD+:** Once-weekly subcutaneous injection designed to restore cellular levels of Nicotinamide Adenine Dinucleotide. Promotes mitochondrial health, energy production, cognitive focus, and longevity. Starting at **$199/month**.
+
+### 3. Sexual Wellness & Restoration
+*   **ED Treatment:** Clinician-prescribed custom erectile dysfunction compounds, Sildenafil, and Tadalafil. Shipped in 100% plain, discreet packaging. Starting at **$19/month**.
+*   **Hair Loss:** Clinician-prescribed custom topical and oral compounds containing Finasteride, Minoxidil, and synergistic ingredients to prevent, arrest, and reverse male pattern hair loss. Starting at **$29/month**.
+
+---
+
+## Core Program Information
+
+*   [How It Works](/how/): Step-by-step description of the intake, medical review, compounding pharmacy fulfillment, shipping, and ongoing clinical portal support.
+*   [Pricing](/pricing/): Detailed list of treatment program costs, explaining the cash-pay model, starting dose pricing, and multi-month subscription options.
+*   [Real Results](/results/): Verified customer weight loss metrics, testimonial quotes, average weight reduction milestones, and clinical outcome statistics.
+*   [The Science](/science/): Explainer on the biochemical pathways of GLP-1 (glucagon-like peptide-1), GIP (gastric inhibitory polypeptide), AMPK (AMP-activated protein kinase) activation, and the physiology of appetite regulation.
+*   [Frequently Asked Questions](/faq/): Comprehensive answers regarding compounded medication safety, side effects titration, eligibility rules, and subscription pause/cancellation steps.
+*   [About Us](/about/): Mission statement, clinical safety standards, and information regarding our US pharmacy network.
+
+---
+
+## Support & Legal Pages
+
+*   [Help Center](/help-center/): Patient dashboard for billing updates, shipping tracking, subscription management, and direct support tickets.
+*   [Shipping Policy](/shipping/): Operational guidelines for temperature-controlled cold-chain packaging (required for GLP-1 injections) and UPS transit windows.
+*   [Returns & Guarantees](/returns/): Details on the platform's 30-day onboarding satisfaction guarantee.
+*   [Insurance Policy](/insurance/): Information explaining the platform's cash-pay model and how avoiding insurance billing keeps patient pricing consistent and transparent.
+*   [Service Status](/status/): Real-time queue status of clinical reviews, pharmacy processing, and shipping carriers.
+*   [Contact Us](/contact/): Direct lines of communication for patient support and the medical operations team.
+*   [Privacy Policy](/privacy/): Strict data handling protocols, server encryption standards, and data protection practices.
+*   [Terms of Service](/terms/): Subscription agreement, automatic renewal clauses, and account guidelines.
+*   [Telehealth Consent](/telehealth-consent/): Medical consent form regarding virtual consultations, electronic communications, and clinician reviews.
+*   [HIPAA Rights](/hipaa/): Details on how protected health information (PHI) is isolated, protected, and processed in compliance with federal healthcare privacy law.
+*   [Accessibility](/accessibility/): Web accessibility statement outlining conformance to WCAG guidelines.
+
+---
+
+## Key Clinical Articles & Guides
+
+### Weight Loss & GLP-1 Guides
+*   [GLP-1 Side Effects & Nausea Management](/blog/glp-1-side-effects-how-to-manage-nausea-fatigue-mo/): Clinical tips on titrating dose, dietary choices, and hydration to manage initial nausea, fatigue, and constipation.
+*   [Compounded Semaglutide vs. Branded Ozempic & Wegovy](/blog/compounded-semaglutide-vs-branded-ozempic-2026/): Structural comparison of the active ingredient (semaglutide), explanations of patent law, FDA compounding allowances during shortages, and cost differences.
+*   [Tirzepatide Without Diabetes](/blog/tirzepatide-without-diabetes-2026/): Analysis of weight-loss indications for non-diabetic adults, average BMI requirements, and metabolic benefits.
+*   [Ozempic Face & Muscle Loss Prevention](/blog/semaglutide-ozempic-face-prevention-2026/): Strategies for preserving lean muscle mass and facial volume during rapid fat loss through high protein intake and resistance training.
+*   [HSA/FSA Eligibility for Weight Loss Treatments](/blog/hsa-fsa-glp-1-2026/): Step-by-step instructions on utilizing Health Savings Accounts and Flexible Spending Accounts for medical weight loss programs.
+
+### Hormone Optimization & TRT Guides
+*   [Testosterone Injections vs. Creams vs. Pellets](/blog/testosterone-injections-vs-cream-vs-pellets-2026/): Comparative review of pharmacokinetic delivery curves, ease of use, side effect profiles, and dosing precision.
+*   [How to Get TRT Prescribed Online](/blog/how-to-get-trt-prescribed-online-2026/): Explanation of blood work requirements, remote clinical consultation protocols, and telehealth laws governing testosterone replacement therapy.
+*   [TRT Side Effects: Complete Guide](/blog/trt-side-effects-complete-guide-2026/): Managing estrogen levels, hematocrit levels, skin health, and preserving fertility during male hormone therapy.
+*   [Enclomiphene vs. Traditional TRT](/blog/enclomiphene-vs-trt-2026/): The clinical rationale for using enclomiphene to raise endogenous testosterone levels without shutting down natural luteinizing hormone (LH) and follicle-stimulating hormone (FSH) production.
+
+### Metabolic & Longevity Sciences
+*   [Berberine Bioavailability & Transdermal Mechanics](/blog/berberine-oral-bioavailability/): Scientific analysis of oral berberine's poor absorption rates and how skin-permeable transdermal patches bypass the digestive tract for direct blood absorption.
+*   [Metformin and Berberine Stacking Protocols](/blog/metformin-berberine-stacking-2026/): Synergy between pharmaceutical Metformin and botanical Berberine for metabolic regulation, AMPK activation, and lifespan research.
+*   [NAD+ Therapy Explained](/blog/nad-therapy-explained-anti-aging-energy-weight-los/): The biological role of NAD+ in sirtuin activation, DNA repair, and mitigation of age-related cellular decline.
