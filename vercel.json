@@ -1,0 +1,8 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": true,
+  "routes": [
+    { "handle": "filesystem" },
+    { "src": "/(.*)", "status": 302, "headers": { "Location": "/" } }
+  ]
+}

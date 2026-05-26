@@ -1,15 +1,2 @@
-# Blog redirects (old slugs → new slugs)
-/blog/natures-ozempic-exposed /blog/berberine-vs-ozempic/ 301
-/blog/berberine-bioavailability /blog/berberine-oral-bioavailability/ 301
-/blog/glp1-ultimate-guide /blog/what-is-a-glp-1-medication/ 301
-/blog/72-hour-myth /blog/72-hour-berberine-patch/ 301
-/blog/berberine /blog/berberine-transdermal-patch/ 301
-
-# Location alias redirects (old aliases → canonical slugs)
-/locations/la /locations/los-angeles/ 301
-/locations/la/ /locations/los-angeles/ 301
-/locations/nyc /locations/new-york/ 301
-/locations/nyc/ /locations/new-york/ 301
-
-# SPA catch-all (must be last)
-/* /index.html 200
+# Fallback redirect for non-existent paths (handles 404s)
+/* / 302
