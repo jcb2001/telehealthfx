@@ -7,4 +7,5 @@ This version has breaking changes — APIs, conventions, and file structure may 
 ## Project Infrastructure & Hosting
 *   **Platform:** Cloudflare Pages
 *   **Build Output:** Static HTML export (`output: 'export'`)
-*   **Routing & 404 redirects:** Managed via the `public/_redirects` file (`/* / 302` to redirect non-existent routes back to the home page).
+*   **Routing & 404 redirects:** Managed via the custom `src/app/not-found.js` file which builds to `404.html` on static export. Cloudflare Pages serves this file automatically on 404 errors, and client-side JavaScript performs the redirect back to `/` (avoiding server-side redirect loops on `_redirects`).
+
