@@ -1,2 +1,0 @@
-# Fallback redirect for non-existent paths (handles 404s)
-/* / 302
