@@ -7,134 +7,183 @@ export const metadata = {
 
 export default function Page() {
   const schema = {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "MedicalWebPage",
-        "@id": "https://telehealthfx.com/blog/semaglutide-nausea-remedies-2026/#webpage",
-        "url": "https://telehealthfx.com/blog/semaglutide-nausea-remedies-2026/",
-        "name": "10 Evidence-Based Remedies for Semaglutide Nausea",
-        "description": "Clinical and holistic protocols for managing nausea caused by GLP-1 receptor agonists.",
-        "publisher": { "@id": "https://telehealthfx.com/#organization" },
-        "inLanguage": "en-US",
-        "audience": {
-          "@type": "MedicalAudience",
-          "audienceType": "Patients"
-        }
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://telehealthfx.com/blog/semaglutide-nausea-remedies-2026/#webpage",
+      "url": "https://telehealthfx.com/blog/semaglutide-nausea-remedies-2026/",
+      "name": "10 Evidence-Based Remedies for Semaglutide Nausea",
+      "description": "Clinical and holistic protocols for managing nausea caused by GLP-1 receptor agonists.",
+      "publisher": {
+        "@id": "https://telehealthfx.com/#organization"
       },
-      {
-        "@type": "Article",
-        "@id": "https://telehealthfx.com/blog/semaglutide-nausea-remedies-2026/#article",
-        "isPartOf": { "@id": "https://telehealthfx.com/blog/semaglutide-nausea-remedies-2026/#webpage" },
-        "headline": "10 Evidence-Based Remedies for Semaglutide Nausea",
-        "datePublished": "2026-05-13T08:00:00+00:00",
-        "dateModified": "2026-05-13T08:00:00+00:00",
-        "mainEntityOfPage": { "@id": "https://telehealthfx.com/blog/semaglutide-nausea-remedies-2026/#webpage" },
-        "author": {
-          "@type": "Organization",
-          "name": "Telehealth FX Clinical Team",
-          "url": "https://telehealthfx.com/"
+      "inLanguage": "en-US",
+      "audience": {
+        "@type": "MedicalAudience",
+        "audienceType": "Patients"
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://telehealthfx.com/blog/semaglutide-nausea-remedies-2026/#article",
+      "isPartOf": {
+        "@id": "https://telehealthfx.com/blog/semaglutide-nausea-remedies-2026/#webpage"
+      },
+      "headline": "10 Evidence-Based Remedies for Semaglutide Nausea",
+      "datePublished": "2026-05-13T08:00:00+00:00",
+      "dateModified": "2026-05-13T08:00:00+00:00",
+      "mainEntityOfPage": {
+        "@id": "https://telehealthfx.com/blog/semaglutide-nausea-remedies-2026/#webpage"
+      },
+      "author": {
+        "@type": "Organization",
+        "name": "Telehealth FX Clinical Team",
+        "url": "https://telehealthfx.com/"
+      },
+      "image": "https://telehealthfx.com/assets/semaglutide-nausea-remedies-featured.png"
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://telehealthfx.com/blog/semaglutide-nausea-remedies-2026/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why does semaglutide cause nausea?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Semaglutide delays gastric emptying, meaning food sits in your stomach longer. If you eat a large or high-fat meal, this delay triggers the nausea center in your brain."
+          }
         },
-        "image": "https://telehealthfx.com/assets/semaglutide-nausea-remedies-featured.png"
+        {
+          "@type": "Question",
+          "name": "How long does semaglutide nausea last?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nausea typically peaks on day 2 or 3 after your injection and usually subsides within a few weeks as your body builds a tolerance to the medication."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does injecting semaglutide in the thigh reduce nausea?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Many patients report anecdotally that injecting into the fatty tissue of the thigh rather than the stomach significantly reduces nausea symptoms."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Product",
+      "@id": "https://telehealthfx.com/blog/semaglutide-nausea-remedies-2026/#product",
+      "name": "Telehealth FX Medical Weight Loss",
+      "description": "Provider-managed GLP-1 weight loss programs with included side-effect management and anti-nausea prescriptions when necessary.",
+      "brand": {
+        "@type": "Brand",
+        "name": "Telehealth FX"
       },
-      {
-        "@type": "FAQPage",
-        "@id": "https://telehealthfx.com/blog/semaglutide-nausea-remedies-2026/#faq",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Why does semaglutide cause nausea?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Semaglutide delays gastric emptying, meaning food sits in your stomach longer. If you eat a large or high-fat meal, this delay triggers the nausea center in your brain."
-            }
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "1910"
+      },
+      "sku": "GLP1-PROG",
+      "review": [
+        {
+          "@type": "Review",
+          "@id": "https://telehealthfx.com/blog/semaglutide-nausea-remedies-2026/#review",
+          "author": {
+            "@type": "Person",
+            "name": "Laura K."
           },
-          {
-            "@type": "Question",
-            "name": "How long does semaglutide nausea last?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Nausea typically peaks on day 2 or 3 after your injection and usually subsides within a few weeks as your body builds a tolerance to the medication."
-            }
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
           },
-          {
-            "@type": "Question",
-            "name": "Does injecting semaglutide in the thigh reduce nausea?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Many patients report anecdotally that injecting into the fatty tissue of the thigh rather than the stomach significantly reduces nausea symptoms."
+          "reviewBody": "I almost quit Semaglutide because of the nausea. My Telehealth FX provider prescribed Zofran and taught me the alcohol pad trick, and it completely saved my journey."
+        }
+      ],
+      "offers": {
+        "@type": "Offer",
+        "price": "199.00",
+        "priceCurrency": "USD",
+        "priceValidUntil": "2026-12-31",
+        "availability": "https://schema.org/InStock",
+        "url": "https://go.telehealthfx.com/start",
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "0.00",
+            "currency": "USD"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "US"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 0,
+              "maxValue": 1,
+              "unitCode": "d"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 3,
+              "unitCode": "d"
             }
           }
-        ]
-      },
-      {
-        "@type": "Product",
-        "@id": "https://telehealthfx.com/blog/semaglutide-nausea-remedies-2026/#product",
-        "name": "Telehealth FX Medical Weight Loss",
-        "description": "Provider-managed GLP-1 weight loss programs with included side-effect management and anti-nausea prescriptions when necessary.",
-        "brand": {
-          "@type": "Brand",
-          "name": "Telehealth FX"
         },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.9",
-          "reviewCount": "1910"
-        }
-      },
-      {
-        "@type": "Review",
-        "@id": "https://telehealthfx.com/blog/semaglutide-nausea-remedies-2026/#review",
-        "itemReviewed": { "@id": "https://telehealthfx.com/blog/semaglutide-nausea-remedies-2026/#product" },
-        "author": {
-          "@type": "Person",
-          "name": "Laura K."
-        },
-        "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": "5",
-          "bestRating": "5"
-        },
-        "reviewBody": "I almost quit Semaglutide because of the nausea. My Telehealth FX provider prescribed Zofran and taught me the alcohol pad trick, and it completely saved my journey."
-      },
-      {
-        "@type": "BreadcrumbList",
-        "@id": "https://telehealthfx.com/blog/semaglutide-nausea-remedies-2026/#breadcrumb",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Home",
-            "item": "https://telehealthfx.com/"
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Blog",
-            "item": "https://telehealthfx.com/blog/"
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "name": "Semaglutide Nausea Remedies",
-            "item": "https://telehealthfx.com/blog/semaglutide-nausea-remedies-2026/"
-          }
-        ]
-      },
-      {
-        "@type": "MedicalOrganization",
-        "@id": "https://telehealthfx.com/#organization",
-        "name": "Telehealth FX",
-        "url": "https://telehealthfx.com/",
-        "logo": "https://telehealthfx.com/logo.png",
-        "contactPoint": {
-          "@type": "ContactPoint",
-          "contactType": "customer service",
-          "availableLanguage": "English"
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "US",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted",
+          "merchantReturnLink": "https://telehealthfx.com/returns/"
         }
       }
-    ]
-  };
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://telehealthfx.com/blog/semaglutide-nausea-remedies-2026/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://telehealthfx.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://telehealthfx.com/blog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Semaglutide Nausea Remedies",
+          "item": "https://telehealthfx.com/blog/semaglutide-nausea-remedies-2026/"
+        }
+      ]
+    },
+    {
+      "@type": "MedicalOrganization",
+      "@id": "https://telehealthfx.com/#organization",
+      "name": "Telehealth FX",
+      "url": "https://telehealthfx.com/",
+      "logo": "https://telehealthfx.com/logo.png",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer service",
+        "availableLanguage": "English"
+      }
+    }
+  ]
+};
 
   return (
     <>

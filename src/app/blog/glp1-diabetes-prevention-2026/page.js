@@ -12,7 +12,9 @@ export const metadata = {
 };
 
 export default function Page() {
-  const jsonLd = { "@context": "https://schema.org", "@graph": [
+  const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
     {
       "@type": "MedicalWebPage",
       "@id": "https://telehealthfx.com/blog/glp1-diabetes-prevention-2026/#article",
@@ -22,10 +24,27 @@ export default function Page() {
       "datePublished": "2026-05-12",
       "dateModified": "2026-05-12",
       "wordCount": 3400,
-      "author": { "@type": "Person", "name": "Julian Mercer, M.S.", "url": "https://telehealthfx.com/about", "jobTitle": "Lead Bio-Systems Analyst" },
-      "publisher": { "@id": "https://telehealthfx.com/#organization" },
-      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://telehealthfx.com/blog/glp1-diabetes-prevention-2026/" },
-      "about": { "@type": "MedicalCondition", "name": "Prediabetes Prevention", "associatedAnatomy": { "@type": "AnatomicalStructure", "name": "Pancreas" } }
+      "author": {
+        "@type": "Person",
+        "name": "Julian Mercer, M.S.",
+        "url": "https://telehealthfx.com/about",
+        "jobTitle": "Lead Bio-Systems Analyst"
+      },
+      "publisher": {
+        "@id": "https://telehealthfx.com/#organization"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://telehealthfx.com/blog/glp1-diabetes-prevention-2026/"
+      },
+      "about": {
+        "@type": "MedicalCondition",
+        "name": "Prediabetes Prevention",
+        "associatedAnatomy": {
+          "@type": "AnatomicalStructure",
+          "name": "Pancreas"
+        }
+      }
     },
     {
       "@type": "Article",
@@ -34,38 +53,156 @@ export default function Page() {
       "image": "https://telehealthfx.com/assets/glp1-diabetes-prevention-featured.png",
       "datePublished": "2026-05-12",
       "dateModified": "2026-05-12",
-      "author": { "@type": "Person", "name": "Julian Mercer, M.S." },
-      "publisher": { "@id": "https://telehealthfx.com/#organization" }
+      "author": {
+        "@type": "Person",
+        "name": "Julian Mercer, M.S."
+      },
+      "publisher": {
+        "@id": "https://telehealthfx.com/#organization"
+      }
     },
     {
       "@type": "FAQPage",
       "@id": "https://telehealthfx.com/blog/glp1-diabetes-prevention-2026/#faq",
       "mainEntity": [
-        { "@type": "Question", "name": "Can I take GLP-1 if I only have prediabetes, not diabetes?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. GLP-1 medications are FDA-approved for weight management in patients with BMI ≥ 27 plus at least one weight-related comorbidity — and prediabetes qualifies as a comorbidity." } },
-        { "@type": "Question", "name": "Is GLP-1 better than metformin for diabetes prevention?", "acceptedAnswer": { "@type": "Answer", "text": "Indirect comparison shows semaglutide reduces diabetes incidence by 84% vs. metformin's 31% in the DPP. GLP-1 also produces dramatically more weight loss (15% vs. 2–3%)." } },
-        { "@type": "Question", "name": "How long do I need to take GLP-1 for diabetes prevention?", "acceptedAnswer": { "@type": "Answer", "text": "There is no established endpoint. Current evidence supports continued therapy for as long as diabetes risk factors persist. Some patients transition to lower maintenance doses." } }
+        {
+          "@type": "Question",
+          "name": "Can I take GLP-1 if I only have prediabetes, not diabetes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. GLP-1 medications are FDA-approved for weight management in patients with BMI ≥ 27 plus at least one weight-related comorbidity — and prediabetes qualifies as a comorbidity."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is GLP-1 better than metformin for diabetes prevention?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Indirect comparison shows semaglutide reduces diabetes incidence by 84% vs. metformin's 31% in the DPP. GLP-1 also produces dramatically more weight loss (15% vs. 2–3%)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long do I need to take GLP-1 for diabetes prevention?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "There is no established endpoint. Current evidence supports continued therapy for as long as diabetes risk factors persist. Some patients transition to lower maintenance doses."
+          }
+        }
       ]
     },
     {
       "@type": "Product",
       "name": "TelehealthFX GLP-1 Weight Loss Program",
       "description": "Clinician-guided GLP-1 weight loss protocol including compounded semaglutide, lifestyle counseling, and ongoing monitoring.",
-      "brand": { "@type": "Brand", "name": "TelehealthFX" },
+      "brand": {
+        "@type": "Brand",
+        "name": "TelehealthFX"
+      },
       "url": "https://go.telehealthfx.com/start",
       "image": "https://telehealthfx.com/assets/Site%20Icon-modified.png",
-      "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "2847", "bestRating": "5", "worstRating": "1" },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "2847",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
       "review": [
-        { "@type": "Review", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "author": { "@type": "Person", "name": "Michael T." }, "reviewBody": "My HbA1c dropped from 6.2 to 5.4 in four months. My doctor was shocked. TelehealthFX made the whole process seamless." },
-        { "@type": "Review", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "author": { "@type": "Person", "name": "Linda K." }, "reviewBody": "Prediabetic for 3 years, now completely normal. Lost 38 lbs and my metabolic panel is perfect." }
+        {
+          "@type": "Review",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Michael T."
+          },
+          "reviewBody": "My HbA1c dropped from 6.2 to 5.4 in four months. My doctor was shocked. TelehealthFX made the whole process seamless."
+        },
+        {
+          "@type": "Review",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Linda K."
+          },
+          "reviewBody": "Prediabetic for 3 years, now completely normal. Lost 38 lbs and my metabolic panel is perfect."
+        }
       ],
-      "offers": { "@type": "Offer", "price": "199", "priceCurrency": "USD", "priceValidUntil": "2026-12-31", "availability": "https://schema.org/InStock", "url": "https://go.telehealthfx.com/start", "seller": { "@id": "https://telehealthfx.com/#organization" } }
+      "offers": {
+        "@type": "Offer",
+        "price": "199",
+        "priceCurrency": "USD",
+        "priceValidUntil": "2026-12-31",
+        "availability": "https://schema.org/InStock",
+        "url": "https://go.telehealthfx.com/start",
+        "seller": {
+          "@id": "https://telehealthfx.com/#organization"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "0.00",
+            "currency": "USD"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "US"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 0,
+              "maxValue": 1,
+              "unitCode": "d"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 3,
+              "unitCode": "d"
+            }
+          }
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "US",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted",
+          "merchantReturnLink": "https://telehealthfx.com/returns/"
+        }
+      },
+      "sku": "GLP1-PROG"
     },
     {
       "@type": "BreadcrumbList",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://telehealthfx.com/" },
-        { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://telehealthfx.com/blog/" },
-        { "@type": "ListItem", "position": 3, "name": "GLP-1 Diabetes Prevention", "item": "https://telehealthfx.com/blog/glp1-diabetes-prevention-2026/" }
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://telehealthfx.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://telehealthfx.com/blog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "GLP-1 Diabetes Prevention",
+          "item": "https://telehealthfx.com/blog/glp1-diabetes-prevention-2026/"
+        }
       ]
     },
     {
@@ -73,11 +210,21 @@ export default function Page() {
       "@id": "https://telehealthfx.com/#organization",
       "name": "Telehealth FX",
       "url": "https://telehealthfx.com",
-      "logo": { "@type": "ImageObject", "url": "https://telehealthfx.com/assets/Site%20Icon-modified.png" },
-      "sameAs": ["https://www.youtube.com/@TelehealthFX"],
-      "contactPoint": { "@type": "ContactPoint", "contactType": "customer service", "url": "https://go.telehealthfx.com/start" },
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://telehealthfx.com/assets/Site%20Icon-modified.png"
+      },
+      "sameAs": [
+        "https://www.youtube.com/@TelehealthFX"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer service",
+        "url": "https://go.telehealthfx.com/start"
+      },
       "medicalSpecialty": "Endocrine"
     }
-  ]};
+  ]
+};
   return (<><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} /><BlogGLP1DiabetesPrevention /></>);
 }

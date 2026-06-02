@@ -6,17 +6,195 @@ export const metadata = {
   openGraph: { title: "GLP-1 and Thyroid Safety: Understanding the Black Box Warning and Monitoring Protocol", description: "The GLP-1 thyroid cancer warning comes from rodent studies at 10-100x human doses. No causal link established in 500000+ patient-years of human data.", images: [{ url: "https://telehealthfx.com/assets/glp1-thyroid-safety-featured.png", width: 1200, height: 630, alt: "GLP-1 Thyroid Safety" }] },
 };
 export default function Page() {
-  const jsonLd = { "@context": "https://schema.org", "@graph": [
-    { "@type": "MedicalWebPage", "@id": "https://telehealthfx.com/blog/glp1-thyroid-safety-2026/#article", "headline": "GLP-1 and Thyroid Safety: Understanding the Black Box Warning and Monitoring Protocol", "description": "The GLP-1 thyroid cancer warning comes from rodent studies at 10-100x human doses. No causal link established in 500000+ patient-years of human data.", "image": "https://telehealthfx.com/assets/glp1-thyroid-safety-featured.png", "datePublished": "2026-05-12", "dateModified": "2026-05-12", "wordCount": 3200, "author": { "@type": "Person", "name": "Julian Mercer, M.S.", "url": "https://telehealthfx.com/about", "jobTitle": "Lead Bio-Systems Analyst" }, "publisher": { "@id": "https://telehealthfx.com/#organization" }, "mainEntityOfPage": { "@type": "WebPage", "@id": "https://telehealthfx.com/blog/glp1-thyroid-safety-2026/" } },
-    { "@type": "Article", "@id": "https://telehealthfx.com/blog/glp1-thyroid-safety-2026/#newsarticle", "headline": "GLP-1 and Thyroid Safety: Understanding the Black Box Warning and Monitoring Protocol", "image": "https://telehealthfx.com/assets/glp1-thyroid-safety-featured.png", "datePublished": "2026-05-12", "dateModified": "2026-05-12", "author": { "@type": "Person", "name": "Julian Mercer, M.S." }, "publisher": { "@id": "https://telehealthfx.com/#organization" } },
-    { "@type": "FAQPage", "@id": "https://telehealthfx.com/blog/glp1-thyroid-safety-2026/#faq", "mainEntity": [
-      { "@type": "Question", "name": "Should I get a calcitonin test before starting GLP-1?", "acceptedAnswer": { "@type": "Answer", "text": "The American Thyroid Association does not recommend routine calcitonin screening before GLP-1 therapy due to high false-positive rates." } },
-      { "@type": "Question", "name": "Can I take GLP-1 if I have thyroid nodules?", "acceptedAnswer": { "@type": "Answer", "text": "Yes benign thyroid nodules are extremely common and are NOT a contraindication. Only medullary thyroid carcinoma history is an absolute contraindication." } },
-      { "@type": "Question", "name": "Is one GLP-1 medication safer for the thyroid?", "acceptedAnswer": { "@type": "Answer", "text": "All GLP-1 receptor agonists carry the same black box warning. There is no evidence they differ meaningfully in thyroid risk." } }
-    ]},
-    { "@type": "Product", "name": "TelehealthFX GLP-1 Weight Loss Program", "description": "Clinician-guided GLP-1 weight loss protocol including compounded semaglutide.", "brand": { "@type": "Brand", "name": "TelehealthFX" }, "url": "https://go.telehealthfx.com/start", "image": "https://telehealthfx.com/assets/Site%20Icon-modified.png", "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "2847", "bestRating": "5", "worstRating": "1" }, "review": [{ "@type": "Review", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "author": { "@type": "Person", "name": "Karen S." }, "reviewBody": "I was terrified of the thyroid warning but my endocrinologist confirmed it was safe for my Hashimotos. Great results." }], "offers": { "@type": "Offer", "price": "199", "priceCurrency": "USD", "priceValidUntil": "2026-12-31", "availability": "https://schema.org/InStock", "url": "https://go.telehealthfx.com/start" } },
-    { "@type": "BreadcrumbList", "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Home", "item": "https://telehealthfx.com/" }, { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://telehealthfx.com/blog/" }, { "@type": "ListItem", "position": 3, "name": "GLP-1 Thyroid Safety", "item": "https://telehealthfx.com/blog/glp1-thyroid-safety-2026/" }] },
-    { "@type": "MedicalOrganization", "@id": "https://telehealthfx.com/#organization", "name": "Telehealth FX", "url": "https://telehealthfx.com", "logo": { "@type": "ImageObject", "url": "https://telehealthfx.com/assets/Site%20Icon-modified.png" }, "sameAs": ["https://www.youtube.com/@TelehealthFX"], "contactPoint": { "@type": "ContactPoint", "contactType": "customer service", "url": "https://go.telehealthfx.com/start" }, "medicalSpecialty": "Endocrine" }
-  ]};
+  const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://telehealthfx.com/blog/glp1-thyroid-safety-2026/#article",
+      "headline": "GLP-1 and Thyroid Safety: Understanding the Black Box Warning and Monitoring Protocol",
+      "description": "The GLP-1 thyroid cancer warning comes from rodent studies at 10-100x human doses. No causal link established in 500000+ patient-years of human data.",
+      "image": "https://telehealthfx.com/assets/glp1-thyroid-safety-featured.png",
+      "datePublished": "2026-05-12",
+      "dateModified": "2026-05-12",
+      "wordCount": 3200,
+      "author": {
+        "@type": "Person",
+        "name": "Julian Mercer, M.S.",
+        "url": "https://telehealthfx.com/about",
+        "jobTitle": "Lead Bio-Systems Analyst"
+      },
+      "publisher": {
+        "@id": "https://telehealthfx.com/#organization"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://telehealthfx.com/blog/glp1-thyroid-safety-2026/"
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://telehealthfx.com/blog/glp1-thyroid-safety-2026/#newsarticle",
+      "headline": "GLP-1 and Thyroid Safety: Understanding the Black Box Warning and Monitoring Protocol",
+      "image": "https://telehealthfx.com/assets/glp1-thyroid-safety-featured.png",
+      "datePublished": "2026-05-12",
+      "dateModified": "2026-05-12",
+      "author": {
+        "@type": "Person",
+        "name": "Julian Mercer, M.S."
+      },
+      "publisher": {
+        "@id": "https://telehealthfx.com/#organization"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://telehealthfx.com/blog/glp1-thyroid-safety-2026/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Should I get a calcitonin test before starting GLP-1?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The American Thyroid Association does not recommend routine calcitonin screening before GLP-1 therapy due to high false-positive rates."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I take GLP-1 if I have thyroid nodules?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes benign thyroid nodules are extremely common and are NOT a contraindication. Only medullary thyroid carcinoma history is an absolute contraindication."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is one GLP-1 medication safer for the thyroid?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "All GLP-1 receptor agonists carry the same black box warning. There is no evidence they differ meaningfully in thyroid risk."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Product",
+      "name": "TelehealthFX GLP-1 Weight Loss Program",
+      "description": "Clinician-guided GLP-1 weight loss protocol including compounded semaglutide.",
+      "brand": {
+        "@type": "Brand",
+        "name": "TelehealthFX"
+      },
+      "url": "https://go.telehealthfx.com/start",
+      "image": "https://telehealthfx.com/assets/Site%20Icon-modified.png",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "2847",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Karen S."
+          },
+          "reviewBody": "I was terrified of the thyroid warning but my endocrinologist confirmed it was safe for my Hashimotos. Great results."
+        }
+      ],
+      "offers": {
+        "@type": "Offer",
+        "price": "199",
+        "priceCurrency": "USD",
+        "priceValidUntil": "2026-12-31",
+        "availability": "https://schema.org/InStock",
+        "url": "https://go.telehealthfx.com/start",
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "0.00",
+            "currency": "USD"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "US"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 0,
+              "maxValue": 1,
+              "unitCode": "d"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 3,
+              "unitCode": "d"
+            }
+          }
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "US",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted",
+          "merchantReturnLink": "https://telehealthfx.com/returns/"
+        }
+      },
+      "sku": "GLP1-PROG"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://telehealthfx.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://telehealthfx.com/blog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "GLP-1 Thyroid Safety",
+          "item": "https://telehealthfx.com/blog/glp1-thyroid-safety-2026/"
+        }
+      ]
+    },
+    {
+      "@type": "MedicalOrganization",
+      "@id": "https://telehealthfx.com/#organization",
+      "name": "Telehealth FX",
+      "url": "https://telehealthfx.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://telehealthfx.com/assets/Site%20Icon-modified.png"
+      },
+      "sameAs": [
+        "https://www.youtube.com/@TelehealthFX"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer service",
+        "url": "https://go.telehealthfx.com/start"
+      },
+      "medicalSpecialty": "Endocrine"
+    }
+  ]
+};
   return (<><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} /><BlogGLP1ThyroidSafety /></>);
 }
