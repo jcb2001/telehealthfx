@@ -31,7 +31,134 @@ function HairNav() {
 }
 
 function HairPage() {
-  const schema = {"@context":"https://schema.org","@graph":[{"@type":"MedicalWebPage","@id":"https://telehealthfx.com/medications/hair-loss/#webpage","name":"Hair Loss Treatment Online | Telehealth FX","description":"Clinician-prescribed hair loss treatment online — Finasteride, Minoxidil, and custom compounded formulas. Free discreet shipping.","url":"https://telehealthfx.com/medications/hair-loss/","lastReviewed":"2026-05-12","medicalAudience":{"@type":"MedicalAudience","audienceType":"Patient","healthCondition":{"@type":"MedicalCondition","name":"Androgenetic Alopecia","alternateName":"Male Pattern Baldness","code":{"@type":"MedicalCode","code":"L64.9","codingSystem":"ICD-10"},"associatedAnatomy":{"@type":"AnatomicalStructure","name":"Hair follicles (scalp)"},"signOrSymptom":[{"@type":"MedicalSymptom","name":"Receding hairline"},{"@type":"MedicalSymptom","name":"Thinning crown"},{"@type":"MedicalSymptom","name":"Increased hair shedding"},{"@type":"MedicalSymptom","name":"Widening part line"},{"@type":"MedicalSymptom","name":"Visible scalp through hair"}]}},"about":{"@id":"https://telehealthfx.com/medications/hair-loss/#drug"},"publisher":{"@id":"https://telehealthfx.com/#organization"}},{"@type":"Drug","@id":"https://telehealthfx.com/medications/hair-loss/#drug","name":"Finasteride","nonProprietaryName":"Finasteride","drugClass":"5-alpha Reductase Inhibitor","mechanismOfAction":"Inhibits type II 5-alpha reductase, blocking conversion of testosterone to dihydrotestosterone (DHT) — the primary androgen responsible for miniaturizing hair follicles in androgenetic alopecia.","administrationRoute":"Oral","dosageForm":"Tablet","activeIngredient":"Finasteride","prescriptionStatus":"PrescriptionOnly","availableStrength":["1mg"],"description":"Treatment of male pattern hair loss (androgenetic alopecia)","warning":"Possible side effects include decreased libido (uncommon, typically reversible), erectile changes (rare), and breast tenderness (rare). Contraindicated in women who are or may become pregnant and those with known hypersensitivity to finasteride."},{"@type":"Drug","@id":"https://telehealthfx.com/medications/hair-loss/#drug-minoxidil","name":"Minoxidil","nonProprietaryName":"Minoxidil","drugClass":"Vasodilator / Hair Growth Stimulant","mechanismOfAction":"Widens blood vessels in the scalp, increasing blood flow and nutrient delivery to hair follicles. Prolongs the anagen (growth) phase of the hair cycle.","administrationRoute":"Topical","dosageForm":"Solution / Foam","activeIngredient":"Minoxidil","prescriptionStatus":"OTC / Prescription (compounded)"},{"@type":"MedicalOrganization","@id":"https://telehealthfx.com/#organization","name":"Telehealth FX","url":"https://telehealthfx.com","medicalSpecialty":["http://schema.org/Dermatology","http://schema.org/Urologic"]},{"@type":"FAQPage","@id":"https://telehealthfx.com/medications/hair-loss/#faq","mainEntity":[{"@type":"Question","name":"What causes male pattern hair loss?","acceptedAnswer":{"@type":"Answer","text":"Male pattern baldness (androgenetic alopecia) is caused by a genetic sensitivity to DHT (dihydrotestosterone), a hormone derived from testosterone. DHT miniaturizes hair follicles over time, causing progressively thinner, shorter hairs until the follicle stops producing visible hair entirely."}},{"@type":"Question","name":"How does Finasteride work?","acceptedAnswer":{"@type":"Answer","text":"Finasteride blocks the enzyme 5-alpha reductase, which converts testosterone into DHT. By reducing DHT levels by approximately 70%, Finasteride slows hair loss and, in many men, promotes regrowth of thinning hair — particularly at the crown and mid-scalp."}},{"@type":"Question","name":"When will I see results?","acceptedAnswer":{"@type":"Answer","text":"Most men notice reduced shedding within 3 months. Visible regrowth and thickening typically appear between 6–12 months of consistent use. Hair loss treatment requires ongoing use to maintain results."}},{"@type":"Question","name":"Are there side effects?","acceptedAnswer":{"@type":"Answer","text":"Side effects are uncommon. Approximately 2–4% of men report decreased libido or mild sexual side effects, which are typically reversible upon discontinuation. Your clinician will discuss your individual risk profile."}},{"@type":"Question","name":"Can I use Finasteride and Minoxidil together?","acceptedAnswer":{"@type":"Answer","text":"Yes. Finasteride and Minoxidil work through different mechanisms and are often used together for maximum results. Finasteride reduces DHT systemically while Minoxidil stimulates follicular blood flow topically."}},{"@type":"Question","name":"Will my order be discreet?","acceptedAnswer":{"@type":"Answer","text":"Absolutely. All medications ship in plain, unmarked packaging with no indication of the contents."}}]}]};
+  const schema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "MedicalWebPage",
+        "@id": "https://telehealthfx.com/medications/hair-loss/#webpage",
+        "name": "Hair Loss Treatment Online | Telehealth FX",
+        "description": "Clinician-prescribed hair loss treatment online — Finasteride, Minoxidil, and custom compounded formulas. Free discreet shipping.",
+        "url": "https://telehealthfx.com/medications/hair-loss/",
+        "lastReviewed": "2026-05-12",
+        "medicalAudience": {
+          "@type": "MedicalAudience",
+          "audienceType": "Patient",
+          "healthCondition": {
+            "@type": "MedicalCondition",
+            "name": "Androgenetic Alopecia",
+            "alternateName": "Male Pattern Baldness",
+            "code": {
+              "@type": "MedicalCode",
+              "code": "L64.9",
+              "codingSystem": "ICD-10"
+            },
+            "associatedAnatomy": {
+              "@type": "AnatomicalStructure",
+              "name": "Hair follicles (scalp)"
+            },
+            "signOrSymptom": [
+              { "@type": "MedicalSymptom", "name": "Receding hairline" },
+              { "@type": "MedicalSymptom", "name": "Thinning crown" },
+              { "@type": "MedicalSymptom", "name": "Increased hair shedding" },
+              { "@type": "MedicalSymptom", "name": "Widening part line" },
+              { "@type": "MedicalSymptom", "name": "Visible scalp through hair" }
+            ]
+          }
+        },
+        "about": [
+          {
+            "@type": "Drug",
+            "name": "Finasteride",
+            "nonProprietaryName": "Finasteride",
+            "drugClass": "5-alpha Reductase Inhibitor",
+            "mechanismOfAction": "Inhibits type II 5-alpha reductase, blocking conversion of testosterone to dihydrotestosterone (DHT) — the primary androgen responsible for miniaturizing hair follicles in androgenetic alopecia.",
+            "administrationRoute": "Oral",
+            "dosageForm": "Tablet",
+            "activeIngredient": "Finasteride",
+            "prescriptionStatus": "PrescriptionOnly",
+            "availableStrength": ["1mg"],
+            "description": "Treatment of male pattern hair loss (androgenetic alopecia)",
+            "warning": "Possible side effects include decreased libido (uncommon, typically reversible), erectile changes (rare), and breast tenderness (rare). Contraindicated in women who are or may become pregnant and those with known hypersensitivity to finasteride."
+          },
+          {
+            "@type": "Drug",
+            "name": "Minoxidil",
+            "nonProprietaryName": "Minoxidil",
+            "drugClass": "Vasodilator / Hair Growth Stimulant",
+            "mechanismOfAction": "Widens blood vessels in the scalp, increasing blood flow and nutrient delivery to hair follicles. Prolongs the anagen (growth) phase of the hair cycle.",
+            "administrationRoute": "Topical",
+            "dosageForm": "Solution / Foam",
+            "activeIngredient": "Minoxidil",
+            "prescriptionStatus": "OTC / Prescription (compounded)"
+          }
+        ],
+        "publisher": {
+          "@type": "MedicalOrganization",
+          "name": "Telehealth FX",
+          "url": "https://telehealthfx.com",
+          "medicalSpecialty": [
+            "http://schema.org/Dermatology",
+            "http://schema.org/Urologic"
+          ]
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://telehealthfx.com/medications/hair-loss/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What causes male pattern hair loss?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Male pattern baldness (androgenetic alopecia) is caused by a genetic sensitivity to DHT (dihydrotestosterone), a hormone derived from testosterone. DHT miniaturizes hair follicles over time, causing progressively thinner, shorter hairs until the follicle stops producing visible hair entirely."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How does Finasteride work?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Finasteride blocks the enzyme 5-alpha reductase, which converts testosterone into DHT. By reducing DHT levels by approximately 70%, Finasteride slows hair loss and, in many men, promotes regrowth of thinning hair — particularly at the crown and mid-scalp."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "When will I see results?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Most men notice reduced shedding within 3 months. Visible regrowth and thickening typically appear between 6–12 months of consistent use. Hair loss treatment requires ongoing use to maintain results."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are there side effects?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Side effects are uncommon. Approximately 2–4% of men report decreased libido or mild sexual side effects, which are typically reversible upon discontinuation. Your clinician will discuss your individual risk profile."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I use Finasteride and Minoxidil together?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Finasteride and Minoxidil work through different mechanisms and are often used together for maximum results. Finasteride reduces DHT systemically while Minoxidil stimulates follicular blood flow topically."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Will my order be discreet?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Absolutely. All medications ship in plain, unmarked packaging with no indication of the contents."
+            }
+          }
+        ]
+      }
+    ]
+  };
 
   return (
     <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>

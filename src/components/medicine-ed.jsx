@@ -45,7 +45,134 @@ function EDNav() {
 // ED PAGE
 // ============================================================================
 function EDPage() {
-  const schema = {"@context":"https://schema.org","@graph":[{"@type":"MedicalWebPage","@id":"https://telehealthfx.com/medications/ed/#webpage","name":"Erectile Dysfunction Treatment Online | Telehealth FX","description":"Discreet, affordable erectile dysfunction treatment prescribed online by licensed clinicians. Sildenafil, Tadalafil, and custom compounded options shipped free to your door.","url":"https://telehealthfx.com/medications/ed/","lastReviewed":"2026-05-12","medicalAudience":{"@type":"MedicalAudience","audienceType":"Patient","healthCondition":{"@type":"MedicalCondition","name":"Erectile Dysfunction","alternateName":"ED","code":{"@type":"MedicalCode","code":"N52","codingSystem":"ICD-10"},"associatedAnatomy":{"@type":"AnatomicalStructure","name":"Penile vasculature and corpora cavernosa"},"signOrSymptom":[{"@type":"MedicalSymptom","name":"Difficulty achieving erection"},{"@type":"MedicalSymptom","name":"Difficulty maintaining erection during intercourse"},{"@type":"MedicalSymptom","name":"Reduced sexual desire"},{"@type":"MedicalSymptom","name":"Performance anxiety"}]}},"about":{"@id":"https://telehealthfx.com/medications/ed/#drug-sildenafil"},"publisher":{"@id":"https://telehealthfx.com/#organization"}},{"@type":"Drug","@id":"https://telehealthfx.com/medications/ed/#drug-sildenafil","name":"Sildenafil","nonProprietaryName":"Sildenafil Citrate","drugClass":"PDE5 Inhibitor","mechanismOfAction":"Inhibits phosphodiesterase type 5 (PDE5) in the corpus cavernosum, enhancing nitric oxide-mediated vasodilation and increasing blood flow to the penis during sexual stimulation.","administrationRoute":"Oral","dosageForm":"Tablet","activeIngredient":"Sildenafil Citrate","prescriptionStatus":"PrescriptionOnly","availableStrength":["25mg","50mg","100mg"],"description":"Treatment of erectile dysfunction","warning":"Possible side effects include headache, flushing, nasal congestion, dyspepsia, and visual disturbances (blue tint). Do not use with nitrates, in severe hepatic impairment, recent stroke or MI, or hypotension."},{"@type":"Drug","@id":"https://telehealthfx.com/medications/ed/#drug-tadalafil","name":"Tadalafil","nonProprietaryName":"Tadalafil","drugClass":"PDE5 Inhibitor","mechanismOfAction":"Long-acting PDE5 inhibitor that enhances erectile response to sexual stimulation by increasing cGMP-mediated smooth muscle relaxation and blood flow to the corpus cavernosum.","administrationRoute":"Oral","dosageForm":"Tablet","activeIngredient":"Tadalafil","prescriptionStatus":"PrescriptionOnly","availableStrength":["5mg","10mg","20mg"]},{"@type":"MedicalOrganization","@id":"https://telehealthfx.com/#organization","name":"Telehealth FX","url":"https://telehealthfx.com","medicalSpecialty":["http://schema.org/Urologic","http://schema.org/PrimaryCare"]},{"@type":"FAQPage","@id":"https://telehealthfx.com/medications/ed/#faq","mainEntity":[{"@type":"Question","name":"What is erectile dysfunction?","acceptedAnswer":{"@type":"Answer","text":"Erectile dysfunction (ED) is the inability to achieve or maintain an erection firm enough for satisfactory sexual intercourse. It affects over 50% of men over 40 in some form and can be caused by vascular, hormonal, neurological, or psychological factors."}},{"@type":"Question","name":"What is the difference between Sildenafil and Tadalafil?","acceptedAnswer":{"@type":"Answer","text":"Both are PDE5 inhibitors that increase blood flow to the penis. Sildenafil (Viagra) works for 4–6 hours and is taken as-needed. Tadalafil (Cialis) lasts up to 36 hours and can also be taken as a low daily dose for continuous coverage."}},{"@type":"Question","name":"How quickly do ED medications work?","acceptedAnswer":{"@type":"Answer","text":"Sildenafil typically takes effect within 30–60 minutes. Tadalafil can take 30 minutes to 2 hours but lasts significantly longer. Both require sexual stimulation to work."}},{"@type":"Question","name":"Is it safe to get ED medication prescribed online?","acceptedAnswer":{"@type":"Answer","text":"Yes. Telehealth prescribing of ED medications is fully legal in most U.S. states when conducted by a licensed clinician after a proper medical evaluation. All prescriptions are reviewed for safety and drug interactions."}},{"@type":"Question","name":"Can ED be a sign of other health problems?","acceptedAnswer":{"@type":"Answer","text":"Yes. ED is often an early indicator of cardiovascular disease, diabetes, hormonal imbalances, or psychological conditions like anxiety and depression. Treating ED and its underlying causes together produces the best outcomes."}},{"@type":"Question","name":"Will my order be discreet?","acceptedAnswer":{"@type":"Answer","text":"Absolutely. All medications are shipped in plain, unmarked packaging with no indication of the contents. Your privacy is protected at every step."}}]}]};
+  const schema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "MedicalWebPage",
+        "@id": "https://telehealthfx.com/medications/ed/#webpage",
+        "name": "Erectile Dysfunction Treatment Online | Telehealth FX",
+        "description": "Discreet, affordable erectile dysfunction treatment prescribed online by licensed clinicians. Sildenafil, Tadalafil, and custom compounded options shipped free to your door.",
+        "url": "https://telehealthfx.com/medications/ed/",
+        "lastReviewed": "2026-05-12",
+        "medicalAudience": {
+          "@type": "MedicalAudience",
+          "audienceType": "Patient",
+          "healthCondition": {
+            "@type": "MedicalCondition",
+            "name": "Erectile Dysfunction",
+            "alternateName": "ED",
+            "code": {
+              "@type": "MedicalCode",
+              "code": "N52",
+              "codingSystem": "ICD-10"
+            },
+            "associatedAnatomy": {
+              "@type": "AnatomicalStructure",
+              "name": "Penile vasculature and corpora cavernosa"
+            },
+            "signOrSymptom": [
+              { "@type": "MedicalSymptom", "name": "Difficulty achieving erection" },
+              { "@type": "MedicalSymptom", "name": "Difficulty maintaining erection during intercourse" },
+              { "@type": "MedicalSymptom", "name": "Reduced sexual desire" },
+              { "@type": "MedicalSymptom", "name": "Performance anxiety" }
+            ]
+          }
+        },
+        "about": [
+          {
+            "@type": "Drug",
+            "name": "Sildenafil",
+            "nonProprietaryName": "Sildenafil Citrate",
+            "drugClass": "PDE5 Inhibitor",
+            "mechanismOfAction": "Inhibits phosphodiesterase type 5 (PDE5) in the corpus cavernosum, enhancing nitric oxide-mediated vasodilation and increasing blood flow to the penis during sexual stimulation.",
+            "administrationRoute": "Oral",
+            "dosageForm": "Tablet",
+            "activeIngredient": "Sildenafil Citrate",
+            "prescriptionStatus": "PrescriptionOnly",
+            "availableStrength": ["25mg", "50mg", "100mg"],
+            "description": "Treatment of erectile dysfunction",
+            "warning": "Possible side effects include headache, flushing, nasal congestion, dyspepsia, and visual disturbances (blue tint). Do not use with nitrates, in severe hepatic impairment, recent stroke or MI, or hypotension."
+          },
+          {
+            "@type": "Drug",
+            "name": "Tadalafil",
+            "nonProprietaryName": "Tadalafil",
+            "drugClass": "PDE5 Inhibitor",
+            "mechanismOfAction": "Long-acting PDE5 inhibitor that enhances erectile response to sexual stimulation by increasing cGMP-mediated smooth muscle relaxation and blood flow to the corpus cavernosum.",
+            "administrationRoute": "Oral",
+            "dosageForm": "Tablet",
+            "activeIngredient": "Tadalafil",
+            "prescriptionStatus": "PrescriptionOnly",
+            "availableStrength": ["5mg", "10mg", "20mg"]
+          }
+        ],
+        "publisher": {
+          "@type": "MedicalOrganization",
+          "name": "Telehealth FX",
+          "url": "https://telehealthfx.com",
+          "medicalSpecialty": [
+            "http://schema.org/Urologic",
+            "http://schema.org/PrimaryCare"
+          ]
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://telehealthfx.com/medications/ed/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is erectile dysfunction?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Erectile dysfunction (ED) is the inability to achieve or maintain an erection firm enough for satisfactory sexual intercourse. It affects over 50% of men over 40 in some form and can be caused by vascular, hormonal, neurological, or psychological factors."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the difference between Sildenafil and Tadalafil?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Both are PDE5 inhibitors that increase blood flow to the penis. Sildenafil (Viagra) works for 4–6 hours and is taken as-needed. Tadalafil (Cialis) lasts up to 36 hours and can also be taken as a low daily dose for continuous coverage."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How quickly do ED medications work?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sildenafil typically takes effect within 30–60 minutes. Tadalafil can take 30 minutes to 2 hours but lasts significantly longer. Both require sexual stimulation to work."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is it safe to get ED medication prescribed online?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Telehealth prescribing of ED medications is fully legal in most U.S. states when conducted by a licensed clinician after a proper medical evaluation. All prescriptions are reviewed for safety and drug interactions."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can ED be a sign of other health problems?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. ED is often an early indicator of cardiovascular disease, diabetes, hormonal imbalances, or psychological conditions like anxiety and depression. Treating ED and its underlying causes together produces the best outcomes."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Will my order be discreet?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Absolutely. All medications are shipped in plain, unmarked packaging with no indication of the contents. Your privacy is protected at every step."
+            }
+          }
+        ]
+      }
+    ]
+  };
 
   return (
     <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
