@@ -3,7 +3,7 @@ import React from 'react';
 import Image from 'next/image';
 import { Icon } from './common.jsx';
 
-const S = "https://go.telehealthfx.com/weight-loss";
+const S = "https://go.telehealthfx.com/start";
 
 function Glp1ShortageTracker2026() {
   return (
