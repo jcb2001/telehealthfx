@@ -23,10 +23,10 @@ export default function Page() {
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Is the FDA Semaglutide shortage resolved?",
+        "name": "Is the FDA Semaglutide shortage actually resolved?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes. Officially, the FDA removed Semaglutide (Wegovy and Ozempic) from the national drug shortage list in late 2025/early 2026. However, regional supply chain issues and backorders at local pharmacies persist, making the drug practically unavailable for many patients."
+          "text": "Officially, yes. The FDA removed Semaglutide (Wegovy and Ozempic) from the national drug shortage list due to abundant API supply. However, regional supply chain issues and backorders at local pharmacies persist due to the auto-injector pen manufacturing bottleneck, making the drug practically unavailable for many patients."
         }
       },
       {
@@ -34,15 +34,23 @@ export default function Page() {
         "name": "Are compounded GLP-1s illegal now?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "No. While pharmacies can no longer mass-produce exact copies of commercial GLP-1s under the shortage exemption, 503A compounding pharmacies can still legally formulate patient-specific prescriptions. These often include beneficial additions like Vitamin B12 to reduce nausea, making them distinct from the commercial brand and legally compliant."
+          "text": "No. While bulk-manufacturing 503B facilities are facing strict regulatory clampdowns, 503A compounding pharmacies can still legally formulate patient-specific prescriptions. By adding beneficial ingredients like Vitamin B12 to reduce nausea, the medication becomes distinct from the commercial brand and remains legally compliant."
         }
       },
       {
         "@type": "Question",
-        "name": "When will local pharmacies have Zepbound and Wegovy consistently in stock?",
+        "name": "How will Medicare coverage affect the shortage?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Industry analysts predict that the auto-injector pen bottleneck will not be fully resolved until new manufacturing facilities come online in late 2026 or early 2027. Until then, local availability will remain highly unpredictable."
+          "text": "Starting July 1, 2026, Medicare's expansion of coverage for weight-loss drugs will drastically increase demand. Supply chain experts predict this will exacerbate the Ghost Shortage at local pharmacies, particularly for injectable starter doses, as millions of new patients gain access to prescriptions."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Are the new oral GLP-1s easier to find?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Oral options like the Wegovy pill and Eli Lilly's Foundayo bypass the auto-injector bottleneck, making their manufacturing process faster. However, early demand in 2026 has been so high that they are currently experiencing intermittent, regional stockouts similar to the injectables."
         }
       }
     ]
