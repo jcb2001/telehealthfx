@@ -1,5 +1,5 @@
 import React from 'react';
-import Glp1ShortageTracker2026 from '../../components/glp-1-shortage-tracker-2026.jsx';
+import { Glp1ShortageTracker2026 } from '../../components/glp-1-shortage-tracker-2026.jsx';
 
 export const metadata = {
   title: "2026 GLP-1 Shortage Tracker: Ozempic, Wegovy, Mounjaro Updates | Telehealth FX",

@@ -8,183 +8,137 @@ const S = "https://go.telehealthfx.com/weight-loss";
 function Glp1ShortageTracker2026() {
   return (
     <>
-      <section className="section section-lg bg-dark pt-5">
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-lg-10">
-              <div className="text-center mb-5">
-                <span className="badge badge-primary badge-pill mb-3">Live Update: 2026</span>
-                <h1 className="display-3 text-white mb-4">
-                  The 2026 GLP-1 Shortage Tracker: <span className="text-primary">Why You Still Can't Find Your Medication</span>
-                </h1>
-                <p className="lead text-light mb-4">
-                  The FDA has officially declared the Semaglutide and Tirzepatide shortages "resolved." So why is your local pharmacy still out of stock? Welcome to the 2026 Ghost Shortage.
-                </p>
-                <div className="d-flex justify-content-center align-items-center mb-5">
-                  <Image src="/assets/julian_mercer.jpg" alt="Julian Mercer" width={40} height={40} className="rounded-circle mr-3" />
-                  <div className="text-left">
-                    <h6 className="text-white mb-0">Julian Mercer</h6>
-                    <small className="text-muted">Lead Bio-Systems Analyst | Medically Reviewed</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+      <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
+        <div className="container" style={{ maxWidth: 800 }}>
+          <div className="eyebrow" style={{ marginBottom: 20 }}>Live Supply Chain Data</div>
+          <h1 className="serif" style={{ fontSize: 52, marginBottom: 24, lineHeight: 1.08 }}>
+            The 2026 GLP-1 Shortage Tracker: <span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>The "Ghost Shortage" Explained</span>
+          </h1>
           
-          <div className="row justify-content-center">
-            <div className="col-lg-10">
-              <div className="card bg-darker border-primary mb-5 shadow-lg">
-                <div className="card-body p-0">
-                  <Image 
-                    src="/assets/glp1_shortage_tracker.png" 
-                    alt="2026 GLP-1 Pharmaceutical Supply Chain Tracker Dashboard showing resolved status vs low local availability" 
-                    width={1200} 
-                    height={675} 
-                    className="img-fluid rounded"
-                  />
-                </div>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}>
+            <div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)' }}>
+              <Image 
+                src="/assets/jm-profile.jpg" 
+                alt="Julian Mercer" 
+                width={1024} 
+                height={1024} 
+                style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' }} 
+                priority={true} 
+              />
+            </div>
+            <div>
+              <div style={{ fontWeight: 500, fontSize: 14 }}>
+                <a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a>
               </div>
+              <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated June 2026 · 14 min read</div>
             </div>
           </div>
-        </div>
-      </section>
 
-      <section className="section bg-dark pb-5">
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-lg-8">
-              <div className="content-block text-light text-lg">
+          <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
+            <Image 
+              src="/assets/glp1_shortage_tracker.png" 
+              alt="2026 GLP-1 Pharmaceutical Supply Chain Tracker Dashboard showing resolved status vs low local availability" 
+              width={1200} 
+              height={675} 
+              style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111', height: "auto" }} 
+              priority={true} 
+            />
+
+            <p>If you're trying to fill a prescription for Wegovy, Ozempic, or Zepbound in 2026, you're likely facing a deeply frustrating paradox. According to the FDA's official Drug Shortages database, the monumental, multi-year supply crises for Semaglutide and Tirzepatide have been officially declared "Resolved."</p>
+            <p>Yet, millions of patients are discovering that "resolved on paper" does not equate to medication in hand. Call any ten local pharmacies today, and eight of them will likely tell you they are entirely out of stock, with no precise ETA on the next delivery.</p>
+            <p>Welcome to the <strong>2026 Ghost Shortage</strong>.</p>
+            <p>This tracker breaks down the exact regulatory and supply chain mechanics driving this paradox, the difference between API production and fill-finish bottlenecks, and the legal 503A compounding pathways that elite telehealth clinics are utilizing to guarantee patient supply.</p>
+
+            <div style={{ background: '#F8FAFC', border: '1px solid var(--line-soft)', borderRadius: 16, padding: 32, margin: '48px 0' }}>
+              <h3 className="serif" style={{ fontSize: 24, marginBottom: 20, color: 'var(--ink)' }}>
+                <span style={{ display: 'inline-flex', alignItems: 'center', marginRight: 12, color: 'var(--brand)' }}>
+                  <Icon.Syringe size={24} />
+                </span>
+                Live FDA Status (As of Q2 2026)
+              </h3>
+              
+              <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingBottom: 16, borderBottom: '1px solid var(--line-soft)' }}>
+                  <div style={{ fontWeight: 500, color: 'var(--ink)' }}>Semaglutide (Ozempic/Wegovy)</div>
+                  <div style={{ padding: '6px 12px', background: '#DCFCE7', color: '#166534', borderRadius: 20, fontSize: 14, fontWeight: 600 }}>FDA: RESOLVED</div>
+                </div>
                 
-                <h2 className="text-white mb-4">The "Ghost Shortage" Explained</h2>
-                <p>
-                  If you're trying to fill a prescription for Wegovy, Ozempic, or Zepbound in 2026, you're likely facing a frustrating paradox. According to the FDA's official drug shortage database, the monumental shortages of Semaglutide (the active ingredient in Wegovy and Ozempic) and Tirzepatide (Zepbound and Mounjaro) have been officially resolved.
-                </p>
-                <p>
-                  However, millions of patients are discovering that "resolved on paper" does not mean "available at the pharmacy counter."
-                </p>
-                <p>
-                  We call this the <strong>Ghost Shortage</strong>. While the primary manufacturers (Novo Nordisk and Eli Lilly) are producing enough active pharmaceutical ingredients (API) to satisfy the FDA's macro-level supply requirements, severe bottlenecks in the final stages of manufacturing—specifically, the glass injector pens—continue to cripple local supply chains.
-                </p>
-
-                <div className="alert alert-primary bg-darker border-primary text-light mt-5 mb-5 p-4 rounded shadow">
-                  <h4 className="text-white d-flex align-items-center">
-                    <span className="text-primary mr-2" style={{ display: 'inline-flex', alignItems: 'center' }}>
-                      <Icon.Syringe size={24} />
-                    </span>
-                    Live FDA Status (As of Q2 2026)
-                  </h4>
-                  <ul className="list-unstyled mb-0 mt-3">
-                    <li className="mb-2 d-flex justify-content-between align-items-center border-bottom border-secondary pb-2">
-                      <strong>Semaglutide (Ozempic/Wegovy):</strong>
-                      <span className="badge badge-success px-3 py-2">FDA Status: RESOLVED</span>
-                    </li>
-                    <li className="mb-2 d-flex justify-content-between align-items-center border-bottom border-secondary pb-2">
-                      <strong>Tirzepatide (Mounjaro/Zepbound):</strong>
-                      <span className="badge badge-success px-3 py-2">FDA Status: RESOLVED</span>
-                    </li>
-                    <li className="mb-2 d-flex justify-content-between align-items-center border-bottom border-secondary pb-2">
-                      <strong>Liraglutide (Victoza/Saxenda):</strong>
-                      <span className="badge badge-warning px-3 py-2 text-dark">FDA Status: LIMITED AVAILABILITY</span>
-                    </li>
-                    <li className="d-flex justify-content-between align-items-center pt-2">
-                      <strong>Local Pharmacy Stock (All GLP-1s):</strong>
-                      <span className="badge badge-danger px-3 py-2">Status: SEVERE BACKORDERS</span>
-                    </li>
-                  </ul>
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingBottom: 16, borderBottom: '1px solid var(--line-soft)' }}>
+                  <div style={{ fontWeight: 500, color: 'var(--ink)' }}>Tirzepatide (Mounjaro/Zepbound)</div>
+                  <div style={{ padding: '6px 12px', background: '#DCFCE7', color: '#166534', borderRadius: 20, fontSize: 14, fontWeight: 600 }}>FDA: RESOLVED</div>
                 </div>
 
-                <h3 className="text-white mb-4">Why Local Pharmacies Are Still Out of Stock</h3>
-                <p>
-                  There are three primary reasons why you can't get your medication, despite the FDA's optimistic reporting:
-                </p>
-                <ol className="pl-4 mb-5">
-                  <li className="mb-3"><strong>The Injector Pen Bottleneck:</strong> The medication itself exists in vast vats, but assembling the complex, single-use auto-injector pens is a slow, highly specialized process. The global supply of medical-grade glass and assembly capacity cannot meet the explosive demand.</li>
-                  <li className="mb-3"><strong>Uneven Distribution:</strong> Mega-pharmacy chains and massive metropolitan hospitals receive priority distribution, leaving independent pharmacies, suburban clinics, and rural areas completely dry.</li>
-                  <li className="mb-3"><strong>The Hoarding Effect:</strong> Because patients have experienced traumatic supply disruptions in the past, they are filling prescriptions immediately when due, and in some cases, stockpiling via multiple providers, further straining the fragile local supply.</li>
-                </ol>
-
-                <h2 className="text-white mb-4">The 503A Compounding Solution</h2>
-                <p>
-                  When the FDA officially resolved the shortage, it sent shockwaves through the compounding industry. Under federal law, 503A and 503B compounding pharmacies are generally prohibited from making "essentially copies" of commercially available, FDA-approved drugs unless the drug is on the official FDA shortage list.
-                </p>
-                <p>
-                  Many patients panicked, assuming they would instantly lose access to their affordable compounded Semaglutide and Tirzepatide.
-                </p>
-                
-                <h4 className="text-white mt-4 mb-3">Why You Can Still Get Compounded GLP-1s</h4>
-                <p>
-                  The reality is far more nuanced. While the "shortage loophole" has closed, 503A compounding pharmacies are legally permitted to compound medications if they produce a <strong>patient-specific formulation</strong> that offers a clinical difference not available in the commercial product.
-                </p>
-                <p>
-                  This is why elite telehealth providers continue to offer compounded GLP-1s legally and safely. By compounding pure, pharmaceutical-grade Semaglutide or Tirzepatide with essential additives—like <strong>Vitamin B12 (Cyanocobalamin) or L-Carnitine</strong>—the medication is clinically altered to reduce side effects like nausea and fatigue. 
-                </p>
-                <p>
-                  Because Novo Nordisk and Eli Lilly do not offer a commercial GLP-1 combined with Vitamin B12, this patient-specific formulation is completely legal, highly effective, and entirely immune to the auto-injector pen shortage (as it is provided in sterile vials with ultra-fine insulin syringes).
-                </p>
-
-                <div className="card bg-primary text-white border-0 mt-5 mb-5 shadow-lg transform-hover">
-                  <div className="card-body p-5 text-center">
-                    <h3 className="text-white mb-3">Tired of Calling Every Pharmacy in Town?</h3>
-                    <p className="lead mb-4">
-                      Bypass the Ghost Shortage completely. Telehealth FX connects you with premium 503A pharmacies providing patient-specific compounded GLP-1s—shipped directly to your door, reliably, every month.
-                    </p>
-                    <a href={S} className="btn btn-white btn-lg text-primary font-weight-bold px-5 py-3 rounded-pill">
-                      Check Availability & See If You Qualify
-                    </a>
-                  </div>
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingBottom: 16, borderBottom: '1px solid var(--line-soft)' }}>
+                  <div style={{ fontWeight: 500, color: 'var(--ink)' }}>Liraglutide (Victoza/Saxenda)</div>
+                  <div style={{ padding: '6px 12px', background: '#FEF9C3', color: '#854D0E', borderRadius: 20, fontSize: 14, fontWeight: 600 }}>FDA: LIMITED AVAILABILITY</div>
                 </div>
 
-                <h2 className="text-white mb-4">Frequently Asked Questions (2026 Shortage Update)</h2>
-                
-                <div className="accordion mt-4" id="faqAccordion">
-                  <div className="card bg-darker border-secondary mb-3">
-                    <div className="card-header border-0" id="headingOne">
-                      <h5 className="mb-0">
-                        <button className="btn btn-link text-white text-left font-weight-bold w-100 text-decoration-none" type="button" data-toggle="collapse" data-target="#collapseOne">
-                          Is the FDA Semaglutide shortage resolved?
-                        </button>
-                      </h5>
-                    </div>
-                    <div id="collapseOne" className="collapse show" data-parent="#faqAccordion">
-                      <div className="card-body text-light pt-0">
-                        Yes. Officially, the FDA removed Semaglutide (Wegovy and Ozempic) from the national drug shortage list in late 2025/early 2026. However, regional supply chain issues and backorders at local pharmacies persist, making the drug practically unavailable for many patients.
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="card bg-darker border-secondary mb-3">
-                    <div className="card-header border-0" id="headingTwo">
-                      <h5 className="mb-0">
-                        <button className="btn btn-link text-white text-left font-weight-bold w-100 text-decoration-none collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo">
-                          Are compounded GLP-1s illegal now?
-                        </button>
-                      </h5>
-                    </div>
-                    <div id="collapseTwo" className="collapse" data-parent="#faqAccordion">
-                      <div className="card-body text-light pt-0">
-                        No. While pharmacies can no longer mass-produce exact copies of commercial GLP-1s under the "shortage exemption," 503A compounding pharmacies can still legally formulate patient-specific prescriptions. These often include beneficial additions like Vitamin B12 to reduce nausea, making them distinct from the commercial brand and legally compliant.
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="card bg-darker border-secondary mb-3">
-                    <div className="card-header border-0" id="headingThree">
-                      <h5 className="mb-0">
-                        <button className="btn btn-link text-white text-left font-weight-bold w-100 text-decoration-none collapsed" type="button" data-toggle="collapse" data-target="#collapseThree">
-                          When will local pharmacies have Zepbound and Wegovy consistently in stock?
-                        </button>
-                      </h5>
-                    </div>
-                    <div id="collapseThree" className="collapse" data-parent="#faqAccordion">
-                      <div className="card-body text-light pt-0">
-                        Industry analysts predict that the auto-injector pen bottleneck will not be fully resolved until new manufacturing facilities come online in late 2026 or early 2027. Until then, local availability will remain highly unpredictable.
-                      </div>
-                    </div>
-                  </div>
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginTop: 8 }}>
+                  <div style={{ fontWeight: 600, color: 'var(--ink)' }}>Local Pharmacy Stock (All GLP-1s)</div>
+                  <div style={{ padding: '6px 12px', background: '#FEE2E2', color: '#991B1B', borderRadius: 20, fontSize: 14, fontWeight: 600 }}>SEVERE BACKORDERS</div>
                 </div>
-
               </div>
             </div>
+
+            <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The API vs. Fill-Finish Bottleneck</h2>
+            
+            <p>To understand the Ghost Shortage, we must dissect how a GLP-1 medication is actually manufactured. The process is bifurcated into two entirely distinct industrial phases:</p>
+
+            <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 12, color: 'var(--ink)' }}>1. Active Pharmaceutical Ingredient (API) Synthesis</h3>
+            <p>The pharmaceutical giants (Novo Nordisk and Eli Lilly) have invested tens of billions of dollars over the last three years to rapidly scale the peptide synthesis of Semaglutide and Tirzepatide. Today, the world is swimming in GLP-1 API. There is no shortage of the actual liquid medication.</p>
+            <p>Because the API is now abundant, the FDA's algorithmic metrics for defining a national shortage—which heavily weight total volumetric drug availability—triggered the administrative removal of these drugs from the shortage list.</p>
+
+            <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 12, color: 'var(--ink)' }}>2. The "Fill-Finish" Auto-Injector Crisis</h3>
+            <p>The medication cannot simply be shipped in vats. It must undergo "fill-finish"—the highly complex, sterile process of loading the exact micro-dose of the peptide into single-use, mechanical glass auto-injector pens.</p>
+            <p>This is the true bottleneck. The global supply of specialized medical glass (Type 1 borosilicate) and the ultra-precise robotic assembly lines required to build the pens cannot scale quickly enough. The medication is trapped in holding tanks, waiting for plastic and glass housings that don't yet exist.</p>
+
+            <div style={{ background: 'linear-gradient(135deg, #F0FDF4, #ECFDF5)', border: '2px solid #16A34A', borderRadius: 16, padding: 32, margin: '48px 0' }}>
+              <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Bypass the Auto-Injector Shortage</h3>
+              <p style={{ fontSize: 16, marginBottom: 24 }}>Stop calling pharmacies for pens that don't exist. Telehealth FX connects you with 503A compounding pharmacies that deliver pure, patient-specific GLP-1 medications in sterile vials—completely immune to the pen shortage.</p>
+              <a href={S} target="_blank" rel="noopener noreferrer" className="btn" style={{ background: 'var(--brand)', color: 'white', display: 'inline-flex', alignItems: 'center', gap: 8 }}>
+                Check Availability in Your State <Icon.Arrow />
+              </a>
+            </div>
+
+            <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>How Compounders Survived the "Resolution"</h2>
+            
+            <p>When the FDA officially removed Semaglutide and Tirzepatide from the shortage list, it sent shockwaves through the telehealth industry. Under Section 503A and 503B of the Food, Drug, and Cosmetic Act, compounding pharmacies are prohibited from making "essentially copies" of commercially available, FDA-approved drugs <em>unless</em> the drug is currently on the official FDA shortage list.</p>
+            <p>Many assumed this would instantly end the availability of affordable, compounded GLP-1s. They were wrong.</p>
+
+            <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 12, color: 'var(--ink)' }}>The Patient-Specific Formulation Loophole</h3>
+            <p>While the temporary "shortage exemption" closed, a permanent legal pathway remained wide open. 503A compounding pharmacies are legally permitted to compound medications indefinitely if they produce a <strong>patient-specific formulation</strong> that offers a clinical difference from the commercial product.</p>
+            <p>Elite telehealth providers and their pharmacy partners adapted immediately. By compounding pure, pharmaceutical-grade Semaglutide or Tirzepatide with targeted, clinically beneficial additives—most notably <strong>Cyanocobalamin (Vitamin B12)</strong> or <strong>L-Carnitine</strong>—the medication is fundamentally altered to mitigate common GLP-1 side effects like severe nausea, fatigue, and muscle catabolism.</p>
+            <p>Because Novo Nordisk and Eli Lilly do not manufacture a commercial GLP-1 combined with Vitamin B12, this compounded formulation is completely legal, highly effective, and entirely immune to both FDA clampdowns and the global auto-injector shortage.</p>
+
+            <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Frequently Asked Questions</h2>
+            
+            <div style={{ marginTop: 32 }}>
+              <h4 style={{ fontSize: 20, color: 'var(--ink)', marginBottom: 8 }}>Are compounded GLP-1s safe?</h4>
+              <p style={{ marginBottom: 24 }}>Yes, provided they are formulated by a state-licensed, FDA-registered 503A or 503B compounding pharmacy that sources its active pharmaceutical ingredients (API) from FDA-registered facilities. Always ensure your telehealth provider requires rigorous third-party batch testing for sterility and potency.</p>
+
+              <h4 style={{ fontSize: 20, color: 'var(--ink)', marginBottom: 8 }}>When will local pharmacies have consistent stock?</h4>
+              <p style={{ marginBottom: 24 }}>Industry supply chain analysts and pharmaceutical logistics experts project that the global auto-injector assembly capacity will not fully equalize with consumer demand until late 2026 or Q1 2027, when several massive new fill-finish manufacturing plants in the US and Europe finally come online.</p>
+              
+              <h4 style={{ fontSize: 20, color: 'var(--ink)', marginBottom: 8 }}>Is it legal to buy GLP-1s online?</h4>
+              <p style={{ marginBottom: 24 }}>It is entirely legal to obtain GLP-1 medications online if you complete a legitimate telehealth consultation with a licensed medical provider who writes a valid prescription, and the medication is fulfilled by a licensed US pharmacy. Purchasing "research peptides" without a prescription is unregulated and dangerous.</p>
+            </div>
+
+            <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
+              <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>The Shortage Doesn't Have to Affect You</h2>
+              <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 500, margin: '0 auto 32px' }}>Secure your GLP-1 medication with guaranteed monthly delivery through our network of elite 503A compounding pharmacies.</p>
+              <a href={S} target="_blank" rel="noopener noreferrer" className="btn btn-lg" style={{ background: '#FBF8F3', color: 'var(--ink)', display: 'inline-flex', justifyContent: 'center', width: '100%', maxWidth: 280 }}>
+                Start Your Medical Intake <Icon.Arrow />
+              </a>
+            </div>
+
+            <div style={{ marginTop: 80, paddingTop: 40, borderTop: '1px solid var(--line-soft)', fontSize: 14, color: 'var(--ink-3)' }}>
+              <h3 className="serif" style={{ fontSize: 24, marginBottom: 24, color: 'var(--ink)' }}>References & Regulatory Data</h3>
+              <ol style={{ paddingLeft: 20, display: 'flex', flexDirection: 'column', gap: 16 }}>
+                <li>U.S. Food and Drug Administration. (2026). <em>FDA Drug Shortages Database</em>. <a href="https://www.accessdata.fda.gov/scripts/drugshortages/default.cfm" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)', textDecoration: 'underline' }}>accessdata.fda.gov</a></li>
+                <li>U.S. Food and Drug Administration. (2024). <em>Compounding and the FDA: Questions and Answers</em>. <a href="https://www.fda.gov/drugs/human-drug-compounding/compounding-and-fda-questions-and-answers" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)', textDecoration: 'underline' }}>fda.gov</a></li>
+              </ol>
+            </div>
+
           </div>
         </div>
       </section>
@@ -192,4 +146,4 @@ function Glp1ShortageTracker2026() {
   );
 }
 
-export default Glp1ShortageTracker2026;
+export { Glp1ShortageTracker2026 };
