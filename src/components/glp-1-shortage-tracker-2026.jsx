@@ -36,7 +36,7 @@ function Glp1ShortageTracker2026() {
 
           <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
             <Image 
-              src="/assets/glp1_shortage_tracker.png" 
+              src="/assets/glp1_shortage_tracker_v2.png" 
               alt="2026 GLP-1 Pharmaceutical Supply Chain Tracker Dashboard showing resolved status vs low local availability" 
               width={1200} 
               height={675} 
