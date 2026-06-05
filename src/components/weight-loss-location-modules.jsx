@@ -126,7 +126,7 @@ export function InsuranceBreakdown({ title, text }) {
         <div className="row justify-content-center text-center">
           <div className="col-lg-8">
             <div style={{ width: 64, height: 64, background: 'rgba(255,255,255,0.1)', borderRadius: '50%', display: 'inline-flex', alignItems: 'center', justifyContent: 'center', marginBottom: 24 }}>
-              <Icon.CreditCard size={32} color="#fff" />
+              <Icon.Shield size={32} color="#fff" />
             </div>
             <h2 className="serif" style={{ fontSize: 'clamp(32px, 4vw, 40px)', marginBottom: 24 }}>{title}</h2>
             <div style={{ fontSize: 18, opacity: 0.8, lineHeight: 1.7 }} dangerouslySetInnerHTML={{ __html: text }} />
@@ -148,7 +148,7 @@ export function PatientArchetype({ title, archetype, quote, details }) {
           <div className="row g-5 align-items-center">
             <div className="col-lg-5 text-center text-lg-start">
               <div style={{ width: 80, height: 80, background: 'var(--surface-2)', borderRadius: '50%', display: 'inline-flex', alignItems: 'center', justifyContent: 'center', marginBottom: 24, color: 'var(--brand)' }}>
-                <Icon.Heart size={32} />
+                <Icon.Star size={32} />
               </div>
               <div style={{ color: 'var(--brand)', textTransform: 'uppercase', letterSpacing: 1, fontSize: 13, fontWeight: 600, marginBottom: 12 }}>Patient Profile</div>
               <h3 className="serif" style={{ fontSize: 32, color: 'var(--ink)', marginBottom: 16 }}>{archetype}</h3>

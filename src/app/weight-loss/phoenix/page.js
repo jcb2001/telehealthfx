@@ -1,6 +1,5 @@
 import React from 'react';
 import { WeightLossPhoenix } from '../../../components/weight-loss-phoenix.jsx';
-import { GenericPage } from '../../../components/generic-page.jsx';
 
 export const metadata = {
   title: "Medical Weight Loss Clinic Phoenix | Semaglutide & GLP-1 | Telehealth FX",
@@ -41,9 +40,9 @@ export default function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <GenericPage hideHero={true}>
+      
         <WeightLossPhoenix />
-      </GenericPage>
+      
     </>
   );
 }
