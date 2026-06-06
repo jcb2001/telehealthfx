@@ -191,17 +191,8 @@ export function BlogGlp1RealCost2026() {
             <p>This is the route that reshaped affordability for people without coverage. Both major manufacturers now sell directly to cash-paying patients at far below retail. Novo Nordisk offers self-pay Wegovy through its NovoCare pharmacy at around $499 per month for self-paying patients, and Eli Lilly sells single-dose Zepbound vials through LillyDirect at roughly $349–$499 per month depending on the dose. These programs are aimed squarely at people whose insurance won{"'"}t cover weight-loss treatment, and they{"'"}ve effectively replaced the role <a href="/blog/compounded-semaglutide-vs-wegovy-2026" style={linkStyle}>compounded versions</a> used to play.</p>
 
             <h3 className="serif" style={{ fontSize: 24, marginTop: 40, marginBottom: 16, color: 'var(--ink)' }}>4. Compounded semaglutide and tirzepatide</h3>
-            <p>During the 2023–2024 shortages, compounded versions were widely available through telehealth platforms for roughly $150–$300 a month, and for a while they were the cheapest path by a wide margin. That <a href="/glp-1-shortage-tracker-2026" style={linkStyle}>changed in 2025</a>. Once the shortages officially resolved and both drugs came off the <a href="/blog/fda-compounding-ban" style={linkStyle}>FDA shortage list</a>, the exemption that allowed large-scale compounding expired. Routine compounding of these medications purely as a budget alternative is no longer permitted, though limited prescriber-driven compounding for a documented individual clinical need can still exist in specific cases.</p>
-
-            <div style={{
-              background: 'rgba(199,125,92,0.08)', padding: '20px 24px', borderRadius: 12,
-              borderLeft: '4px solid var(--accent)', margin: '28px 0',
-            }}>
-              <div style={{ fontWeight: 600, fontSize: 15, color: 'var(--ink)', marginBottom: 6 }}>⚠️ Important</div>
-              <div style={{ fontSize: 15, color: 'var(--ink-2)', lineHeight: 1.6 }}>
-                Compounded medications are not FDA-approved. The FDA does not evaluate compounded drugs for safety, effectiveness, or quality, even when they contain the same active ingredient as an approved product. Learn more about <a href="/blog/compounded-semaglutide-safety-fda-2026" style={linkStyle}>compounded semaglutide safety</a>.
-              </div>
-            </div>
+            <p>During the 2023–2024 shortages, compounded versions were widely available through telehealth platforms for roughly $150–$300 a month, and for a while they were the cheapest path by a wide margin. That <a href="/glp-1-shortage-tracker-2026" style={linkStyle}>changed in 2025</a>. Once the shortages officially resolved and both drugs came off the FDA shortage list, the exemption that allowed large-scale compounding expired. Routine compounding of these medications purely as a budget alternative is no longer permitted, though limited prescriber-driven compounding for a documented individual clinical need can still exist in specific cases.</p>
+            <p>It{"'"}s also worth knowing what compounded products are: they are not FDA-approved, and the FDA does not evaluate them for safety, effectiveness, or quality.</p>
 
 
             {/* ─── CTA 2: Middle ─── */}
@@ -225,13 +216,13 @@ export function BlogGlp1RealCost2026() {
             <h2 className="serif" style={{ fontSize: 32, marginTop: 56, marginBottom: 24, color: 'var(--ink)' }}>What does it cost without insurance?</h2>
             <SectionImage src="/assets/glp1-cost-telehealth.png" alt="A person using a laptop at a bright kitchen table for a telehealth consultation, viewed from behind, representing reviewing GLP-1 cost options online" />
             <p>This is the most common question, and the answer in 2026 is more encouraging than it was a year ago. Without insurance, you{"'"}re choosing mainly between brand-name retail (the full ~$1,000+ price, which you should almost never have to pay) and the manufacturer self-pay programs (~$349–$499/month). For a cash payer, those direct programs are the headline number to focus on — they brought a real, FDA-approved GLP-1 within reach for people whose insurance offers no help at all.</p>
-            <p>You can also use your <a href="/blog/hsa-fsa-glp-1-2026" style={linkStyle}>HSA or FSA</a> to pay for GLP-1 treatment, which adds another layer of savings. And if you{"'"}re not sure whether you meet the medical criteria, our <a href="/wegovy-eligibility" style={linkStyle}>Wegovy eligibility guide</a> walks through every requirement.</p>
 
 
             {/* ─── Find Your Lowest Cost ─── */}
             <h2 className="serif" style={{ fontSize: 32, marginTop: 56, marginBottom: 24, color: 'var(--ink)' }}>Find your lowest-cost option</h2>
             <p>The fastest way to land on your actual price — not a range — is to have a licensed provider review your situation, your coverage, and your eligibility, then identify the most affordable route available to you. A short online eligibility check connects you with a licensed provider who can do exactly that and determine whether a <a href="/blog/what-is-a-glp-1-medication" style={linkStyle}>GLP-1 treatment</a> plan is appropriate for you.</p>
-            <p>Looking for a comparison of the medications themselves? See <a href="/blog/semaglutide-vs-tirzepatide-decision-2026" style={linkStyle}>semaglutide vs. tirzepatide</a> or <a href="/blog/oral-vs-injectable-semaglutide-2026" style={linkStyle}>oral vs. injectable semaglutide</a>. Concerned about side effects? Our <a href="/blog/glp-1-side-effects-how-to-manage-nausea-fatigue-mo" style={linkStyle}>side effects management guide</a> covers what to expect.</p>
+            <p><strong>Check your eligibility and pricing — takes about 2 minutes</strong></p>
+            <p>There{"'"}s no obligation, and you only move forward if a provider determines you{"'"}re a candidate.</p>
 
 
             {/* ─── FAQ ─── */}
