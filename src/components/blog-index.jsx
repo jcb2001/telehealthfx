@@ -6,6 +6,41 @@ import { Icon } from './common.jsx';
 function BlogIndex() {
   const articles = [
     {
+      title: "7 Top GLP-1 Benefits You Need to Know",
+      description: "Discover the top 7 GLP-1 benefits backed by major clinical trials. Learn about cardiovascular protection, weight loss, food noise reduction, kidney preservation, liver health, and anti-inflammation.",
+      slug: "/blog/7-top-glp1-benefits-you-need-to-know-2026",
+      image: "/assets/glp1-longevity-anti-aging-featured.png",
+      tag: "Clinical Education"
+    },
+    {
+      title: "5 Leading GLP-1 Therapies Compared: The 2026 Guide",
+      description: "Compare the top GLP-1 weight loss therapies: Telehealth FX Medical Program, Tirzepatide, Semaglutide, Liraglutide, and Retatrutide. Discover efficacy, cost, and muscle-preservation strategies.",
+      slug: "/blog/5-leading-glp1-therapies-compared-2026",
+      image: "/assets/weight-loss-medications-ranked-featured.png",
+      tag: "Treatment Comparison"
+    },
+    {
+      title: "10 Key Facts About GLP-1 and Its Impact on Health (2026)",
+      description: "A comprehensive clinical guide explaining 10 key facts about GLP-1 receptors, gastric emptying, blood-brain barrier passage, muscle preservation, and cardioprotection.",
+      slug: "/blog/10-key-facts-about-glp1-health-impact-2026",
+      image: "/assets/ozempic-pharmacokinetics-featured.png",
+      tag: "General Health"
+    },
+    {
+      title: "8 GLP-1 Innovations Transforming Health Care (2026)",
+      description: "A comprehensive look at the latest clinical advancements in incretin therapy, including multi-receptor agonists, oral small molecules, continuous patches, and neuro-inflammatory research.",
+      slug: "/blog/8-glp1-innovations-transforming-healthcare-2026",
+      image: "/assets/next-gen-glp1-featured.png",
+      tag: "Healthcare Innovation"
+    },
+    {
+      title: "6 Most Common Questions About GLP-1 Answered (2026 FAQ)",
+      description: "Get clinical, evidence-backed answers to the most common questions about GLP-1 therapy: maintenance, compounded vs branded, TRT synergy, preventing muscle loss, nutrition, and results timeline.",
+      slug: "/blog/6-common-questions-about-glp1-answered-2026",
+      image: "/assets/glp1_side_effects_featured.png",
+      tag: "Patient FAQ"
+    },
+    {
       title: "Tirzepatide vs. Semaglutide: The Dual GIP/GLP-1 Agonist Mechanism",
       description: "A clinical breakdown of Tirzepatide's dual-agonist mechanism. We analyze GIP receptor activation, fat cell remodeling, and the SURMOUNT trial data.",
       slug: "/blog/tirzepatide-vs-semaglutide-dual-agonist-mechanism",
