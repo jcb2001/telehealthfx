@@ -6,6 +6,41 @@ import { Icon } from './common.jsx';
 function BlogIndex() {
   const articles = [
     {
+      title: "7 Effective Ways Semaglutide Aids Weight Loss (2026)",
+      description: "Discover the 7 key physiological pathways through which semaglutide drives weight loss: brain receptor stimulation, digestion regulation, hormone balance, and cellular health.",
+      slug: "/blog/7-effective-ways-semaglutide-aids-weight-loss-2026",
+      image: "/assets/ozempic-pharmacokinetics-featured.png",
+      tag: "Clinical Physiology"
+    },
+    {
+      title: "5 Leading Semaglutide Weight Loss Comparisons: The 2026 Guide",
+      description: "Compare Semaglutide against other weight loss options: Telehealth FX Program, branded Wegovy, Tirzepatide, Phentermine, Liraglutide, and Bariatric Surgery.",
+      slug: "/blog/5-leading-semaglutide-weight-loss-comparisons-2026",
+      image: "/assets/weight-loss-medications-ranked-featured.png",
+      tag: "Treatment Comparison"
+    },
+    {
+      title: "10 Proven Semaglutide Weight Loss Results You Need to Know (2026)",
+      description: "Explore the clinical results of semaglutide derived from the STEP and SELECT trials: 14.9% average weight loss, cardiovascular event risk reductions, inflammation decreases, and how Telehealth FX prevents muscle loss.",
+      slug: "/blog/10-proven-semaglutide-weight-loss-results-2026",
+      image: "/assets/semaglutide-weight-loss-timeline-featured.png",
+      tag: "Clinical Data"
+    },
+    {
+      title: "8 Essential Semaglutide Weight Loss Tips for Beginners (2026 Guide)",
+      description: "Learn the 8 essential tips for semaglutide beginners, including titration schedules, hydration targets, protein consumption, resistance training, and clinical oversight to preserve muscle.",
+      slug: "/blog/8-essential-semaglutide-weight-loss-tips-for-beginners-2026",
+      image: "/assets/first-week-semaglutide-featured.png",
+      tag: "Patient Guidelines"
+    },
+    {
+      title: "6 Key Semaglutide Weight Loss Benefits Over Alternatives (2026)",
+      description: "Discover the 6 key clinical benefits of semaglutide for weight loss over alternatives like oral stimulants, gastric bypass surgery, dieting, and supplements.",
+      slug: "/blog/6-key-semaglutide-weight-loss-benefits-over-alternatives-2026",
+      image: "/assets/weight-loss-medications-ranked-featured.png",
+      tag: "Treatment Selection"
+    },
+    {
       title: "7 Top GLP-1 Benefits You Need to Know",
       description: "Discover the top 7 GLP-1 benefits backed by major clinical trials. Learn about cardiovascular protection, weight loss, food noise reduction, kidney preservation, liver health, and anti-inflammation.",
       slug: "/blog/7-top-glp1-benefits-you-need-to-know-2026",
