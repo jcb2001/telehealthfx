@@ -6,6 +6,41 @@ import { Icon } from './common.jsx';
 function BlogIndex() {
   const articles = [
     {
+      title: "7 Top Places for Tirzepatide Weight Loss Near Me",
+      description: "Compare the top local and digital places to get tirzepatide weight loss near you. Reviews of endocrinologists, MedSpas, clinics, and flat-rate telemedicine.",
+      slug: "/blog/7-top-places-for-tirzepatide-weight-loss-near-me-2026",
+      image: "/assets/compounded-tirzepatide-online-featured.png",
+      tag: "Treatment Comparison"
+    },
+    {
+      title: "5 Leading Clinics Offering Tirzepatide Weight Loss Near Me",
+      description: "Compare the top 5 clinics offering tirzepatide weight loss near you. Detailed reviews of Telehealth FX, Henry Meds, Mochi Health, PlushCare, and local wellness MedSpas.",
+      slug: "/blog/5-leading-clinics-offering-tirzepatide-weight-loss-near-me-2026",
+      image: "/assets/tirzepatide-without-diabetes-featured.png",
+      tag: "Clinic Reviews"
+    },
+    {
+      title: "10 Best Tirzepatide Weight Loss Programs Near Me: A Comparison",
+      description: "Compare the 10 best tirzepatide weight loss programs. Learn about pricing, dosage tiers, safety, and why Telehealth FX stands as the #1 flat-rate choice.",
+      slug: "/blog/10-best-tirzepatide-weight-loss-programs-near-me-2026",
+      image: "/assets/tirzepatide-vs-semaglutide-side-effects-comparison-2026-featured.png",
+      tag: "Program Comparison"
+    },
+    {
+      title: "6 Effective Tirzepatide Weight Loss Solutions Near Me",
+      description: "Explore the 6 main routes to obtain tirzepatide weight loss solutions. Learn about compounded options, brand insurance navigation, hormone co-management, and why Telehealth FX is #1.",
+      slug: "/blog/6-effective-tirzepatide-weight-loss-solutions-near-me-2026",
+      image: "/assets/tirzepatide-maintenance-dosing-featured.png",
+      tag: "Solutions Guide"
+    },
+    {
+      title: "8 Expert-Recommended Tirzepatide Weight Loss Options Near Me",
+      description: "Explore the top 8 expert-approved options for starting Tirzepatide treatment, comparing monthly costs, clinical oversight, and compounding pharmacy safety.",
+      slug: "/blog/8-expert-recommended-tirzepatide-weight-loss-options-near-me-2026",
+      image: "/assets/best-semaglutide-providers-2026-featured.png",
+      tag: "Patient Resources"
+    },
+    {
       title: "7 Effective Ways Semaglutide Aids Weight Loss (2026)",
       description: "Discover the 7 key physiological pathways through which semaglutide drives weight loss: brain receptor stimulation, digestion regulation, hormone balance, and cellular health.",
       slug: "/blog/7-effective-ways-semaglutide-aids-weight-loss-2026",
