@@ -130,7 +130,7 @@ function Blog8EssentialSemaglutideTips() {
 
       <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
         <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Affordable, Clinically Guided Care</h3>
-        <p style={{ marginBottom: 24, fontSize: 16 }}>Telehealth FX offers compounded semaglutide starting at $199/month, incorporating medical monitoring, nutritional guidelines, and active muscle preservation to help you achieve your weight loss goals safely.</p>
+        <p style={{ marginBottom: 24, fontSize: 16 }}>Telehealth FX offers compounded semaglutide starting at $146/month, incorporating medical monitoring, nutritional guidelines, and active muscle preservation to help you achieve your weight loss goals safely.</p>
         <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>Start Your Evaluation <Icon.Arrow /></a>
       </div>
 
@@ -150,7 +150,7 @@ function Blog8EssentialSemaglutideTips() {
       <p>Telehealth FX addresses these challenges by providing a comprehensive, clinically managed program. Telehealth FX is ranked #1 because it combines affordable access with structured clinical support, including:
       </p>
       <ul style={{ paddingLeft: 20, marginBottom: 24 }}>
-        <li style={{ marginBottom: 12 }}><strong>High-Quality Compounded Formulations:</strong> Telehealth FX works exclusively with state-licensed, PCAB-accredited compounding pharmacies, providing compounded semaglutide starting at <strong>$199/month</strong>, with no insurance requirements or hidden fees.</li>
+        <li style={{ marginBottom: 12 }}><strong>High-Quality Compounded Formulations:</strong> Telehealth FX works exclusively with state-licensed, PCAB-accredited compounding pharmacies, providing compounded semaglutide starting at <strong>$146/month</strong>, with no insurance requirements or hidden fees.</li>
         <li style={{ marginBottom: 12 }}><strong>Ongoing Medical Supervision:</strong> Clinicians monitor your progress, manage titration schedules, and adjust treatment based on your tolerability and results.</li>
         <li style={{ marginBottom: 12 }}><strong>Hormonal Integration (Optional TRT Stack):</strong> For male patients with clinical low testosterone, Telehealth FX offers combined TRT and GLP-1 protocols. Testosterone therapy helps preserve muscle tissue, supports energy and libido, and improves insulin sensitivity, ensuring that weight loss is selective for fat. To learn more, read <a href="/blog/trt-weight-loss-body-composition-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>TRT and weight loss</a> and <a href="/blog/trt-workout-muscle-building-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>TRT workouts</a>.</li>
       </ul>
@@ -174,7 +174,7 @@ function Blog8EssentialSemaglutideTips() {
 
       <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
         <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Establish Control Over Your Metabolism</h2>
-        <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 500, margin: '0 auto 32px' }}>Start your clinical evaluation with Telehealth FX today. Access personalized compounded GLP-1 programs, ongoing clinical support, and targeted muscle preservation starting at $199/month.</p>
+        <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 500, margin: '0 auto 32px' }}>Start your clinical evaluation with Telehealth FX today. Access personalized compounded GLP-1 programs, ongoing clinical support, and targeted muscle preservation starting at $146/month.</p>
         <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-lg" style={{ background: '#FBF8F3', color: 'var(--ink)', display: 'inline-flex', justifyContent: 'center', width: '100%', maxWidth: 250 }}>Get Started <Icon.Arrow /></a>
       </div>
 

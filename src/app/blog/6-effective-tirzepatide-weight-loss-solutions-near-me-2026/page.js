@@ -62,7 +62,7 @@ export default function Page() {
         "review": [{ "@type": "Review", "author": { "@type": "Person", "name": "Verified Patient" }, "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "reviewBody": "Outstanding clinical oversight and seamless experience." }],
         "offers": {
           "@type": "Offer",
-          "price": "399.00",
+          "price": "258.00",
           "priceCurrency": "USD",
           "priceValidUntil": "2026-12-31",
           "availability": "https://schema.org/InStock",

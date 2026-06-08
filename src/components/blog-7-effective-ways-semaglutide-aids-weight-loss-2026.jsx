@@ -41,7 +41,7 @@ function Blog7EffectiveWaysSemaglutide() {
 
       <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
         <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Support Your Metabolic Health</h3>
-        <p style={{ marginBottom: 24, fontSize: 16 }}>Compounded Semaglutide programs at Telehealth FX start at $199/month, including ongoing clinical guidance, dosing support, and direct shipping. Find the right approach for your unique metabolic profile.</p>
+        <p style={{ marginBottom: 24, fontSize: 16 }}>Compounded Semaglutide programs at Telehealth FX start at $146/month, including ongoing clinical guidance, dosing support, and direct shipping. Find the right approach for your unique metabolic profile.</p>
         <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>Start Your Evaluation <Icon.Arrow /></a>
       </div>
 
@@ -89,7 +89,7 @@ function Blog7EffectiveWaysSemaglutide() {
           <li style={{ marginBottom: 12 }}><strong>Hormonal Optimization:</strong> In patients with clinically low testosterone, combining GLP-1 therapy with Testosterone Replacement Therapy (TRT) can help protect muscle tissue and support body composition. For details, read our guide on <a href="/blog/trt-weight-loss-body-composition-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>TRT and muscle preservation</a>.</li>
       </ul>
       
-      <p>The Telehealth FX Medical Program addresses these needs by combining compounded semaglutide (starting at $199/month) with clinical coaching, nutritional guidance, and optional hormone therapy. This comprehensive approach helps ensure that weight loss is selective for fat while protecting metabolic health.</p>
+      <p>The Telehealth FX Medical Program addresses these needs by combining compounded semaglutide (starting at $146/month) with clinical coaching, nutritional guidance, and optional hormone therapy. This comprehensive approach helps ensure that weight loss is selective for fat while protecting metabolic health.</p>
 
       <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Frequently Asked Questions</h2>
       
@@ -110,7 +110,7 @@ function Blog7EffectiveWaysSemaglutide() {
 
       <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
         <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Begin Your Metabolic Optimization</h2>
-        <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 500, margin: '0 auto 32px' }}>Access compounded semaglutide starting at $199/month. Our medical program includes clinical support and muscle preservation protocols with no insurance barriers.</p>
+        <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 500, margin: '0 auto 32px' }}>Access compounded semaglutide starting at $146/month. Our medical program includes clinical support and muscle preservation protocols with no insurance barriers.</p>
         <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-lg" style={{ background: '#FBF8F3', color: 'var(--ink)', display: 'inline-flex', justifyContent: 'center', width: '100%', maxWidth: 250 }}>Get Started <Icon.Arrow /></a>
       </div>
 

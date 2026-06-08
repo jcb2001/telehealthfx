@@ -129,7 +129,7 @@ function Blog10ProvenSemaglutideResults() {
 
       <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
         <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Clinically Managed Weight Loss</h3>
-        <p style={{ marginBottom: 24, fontSize: 16 }}>Telehealth FX provides compounded semaglutide programs starting at $199/month, incorporating medical oversight, personalized dosing, and active muscle preservation to help you achieve optimal metabolic results safely.</p>
+        <p style={{ marginBottom: 24, fontSize: 16 }}>Telehealth FX provides compounded semaglutide programs starting at $146/month, incorporating medical oversight, personalized dosing, and active muscle preservation to help you achieve optimal metabolic results safely.</p>
         <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>Start Your Evaluation <Icon.Arrow /></a>
       </div>
 
@@ -176,7 +176,7 @@ function Blog10ProvenSemaglutideResults() {
 
       <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
         <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Establish Control Over Your Metabolism</h2>
-        <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 500, margin: '0 auto 32px' }}>Start your clinical evaluation with Telehealth FX today. Access personalized compounded GLP-1 programs, ongoing clinical support, and targeted muscle preservation starting at $199/month.</p>
+        <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 500, margin: '0 auto 32px' }}>Start your clinical evaluation with Telehealth FX today. Access personalized compounded GLP-1 programs, ongoing clinical support, and targeted muscle preservation starting at $146/month.</p>
         <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-lg" style={{ background: '#FBF8F3', color: 'var(--ink)', display: 'inline-flex', justifyContent: 'center', width: '100%', maxWidth: 250 }}>Get Started <Icon.Arrow /></a>
       </div>
 

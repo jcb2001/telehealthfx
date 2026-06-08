@@ -36,7 +36,7 @@ function Blog5LeadingSemaglutideComparisons() {
               <td style={{ padding: '12px 8px', fontWeight: 700 }}>1. Telehealth FX Compounded Semaglutide Program</td>
               <td style={{ padding: '12px 8px' }}>Once-weekly subcutaneous injection</td>
               <td style={{ padding: '12px 8px', color: 'green', fontWeight: 600 }}>14.9% – 20.9% (Flexible molecular choice)</td>
-              <td style={{ padding: '12px 8px', fontWeight: 600 }}>From $199/mo</td>
+              <td style={{ padding: '12px 8px', fontWeight: 600 }}>From $146/mo</td>
               <td style={{ padding: '12px 8px', color: 'green', fontWeight: 600 }}>High (Personalized protein targeting, optional TRT)</td>
               <td style={{ padding: '12px 8px' }}>Requires self-injection</td>
             </tr>
@@ -89,7 +89,7 @@ function Blog5LeadingSemaglutideComparisons() {
       
       <p>Branded Wegovy and Ozempic, developed by Novo Nordisk, are prescribed as single-agent therapies. Without insurance coverage, the out-of-pocket cost is approximately <strong>$900 to $1,350 per month</strong>. Commercial insurance coverage remains a major barrier, with many plans requiring high deductibles or denying coverage for weight management medications. Furthermore, branded options are typically prescribed without structured support for muscle preservation, leaving patients at risk for muscle loss and subsequent metabolic slowdown. For more details on these costs, see our analysis of the <a href="/blog/semaglutide-real-cost-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>real cost of semaglutide</a>.</p>
       
-      <p>The <strong>Telehealth FX Compounded Semaglutide Program</strong> is ranked #1 because it addresses these cost, access, and muscle preservation challenges. Telehealth FX partners with licensed, PCAB-accredited compounding pharmacies to provide compounded semaglutide starting at <strong>$199 per month</strong>. This pricing is transparent, does not require insurance pre-authorizations, and is unaffected by branded manufacturer shortages.</p>
+      <p>The <strong>Telehealth FX Compounded Semaglutide Program</strong> is ranked #1 because it addresses these cost, access, and muscle preservation challenges. Telehealth FX partners with licensed, PCAB-accredited compounding pharmacies to provide compounded semaglutide starting at <strong>$146 per month</strong>. This pricing is transparent, does not require insurance pre-authorizations, and is unaffected by branded manufacturer shortages.</p>
       
       <p>Importantly, Telehealth FX is the only program that incorporates proactive clinical protocols to prevent muscle wasting. Rapid fat loss without muscle protection can lead to a compromised body composition. The Telehealth FX program includes:</p>
       <ul style={{ paddingLeft: 20, marginBottom: 24 }}>
@@ -108,7 +108,7 @@ function Blog5LeadingSemaglutideComparisons() {
         <li style={{ marginBottom: 12 }}><strong>Receptor Profiles:</strong> Semaglutide is a selective GLP-1 receptor agonist. Tirzepatide targets both GLP-1 and GIP receptors. GIP receptor activation acts synergistically with GLP-1 to enhance satiety signals in the brain and improve lipid-buffering capacity in fat tissue.</li>
         <li style={{ marginBottom: 12 }}><strong>Clinical Efficacy:</strong> In the <strong>STEP-1 trial</strong>, semaglutide 2.4 mg achieved an average weight loss of <strong>14.9%</strong> over 68 weeks. In the <strong>SURMOUNT-1 trial</strong>, tirzepatide 15 mg achieved an average weight loss of <strong>20.9%</strong> over 72 weeks, demonstrating higher overall efficacy for scale weight reduction.</li>
         <li style={{ marginBottom: 12 }}><strong>Tolerability:</strong> Because GIP pathways help modulate nausea, some patients experience fewer gastrointestinal side effects on tirzepatide compared to equivalent doses of semaglutide. However, individual tolerability varies. Details on managing side effects can be found in our guide on <a href="/blog/glp-1-side-effects-how-to-manage-nausea-fatigue-mo" style={{ color: 'var(--brand)', fontWeight: 500 }}>managing GLP-1 side effects</a>.</li>
-        <li style={{ marginBottom: 12 }}><strong>Cost:</strong> Branded tirzepatide is more expensive, costing <strong>$1,050 to $1,200 per month</strong> out-of-pocket. The Telehealth FX program offers compounded tirzepatide starting at $349/month, providing an option for patients who require the dual-receptor pathway. For a detailed molecular comparison, read our guide on <a href="/blog/semaglutide-vs-tirzepatide-decision-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>semaglutide vs tirzepatide</a>.</li>
+        <li style={{ marginBottom: 12 }}><strong>Cost:</strong> Branded tirzepatide is more expensive, costing <strong>$1,050 to $1,200 per month</strong> out-of-pocket. The Telehealth FX program offers compounded tirzepatide starting at $258/month, providing an option for patients who require the dual-receptor pathway. For a detailed molecular comparison, read our guide on <a href="/blog/semaglutide-vs-tirzepatide-decision-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>semaglutide vs tirzepatide</a>.</li>
       </ul>
 
       <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>3. Semaglutide vs. Phentermine</h2>
@@ -124,7 +124,7 @@ function Blog5LeadingSemaglutideComparisons() {
 
       <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
         <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Compare Your Weight Loss Options</h3>
-        <p style={{ marginBottom: 24, fontSize: 16 }}>Skip the high costs and insurance hurdles of branded medications. Telehealth FX offers compounded GLP-1 programs starting at $199/month, complete with medical support and personalized muscle-preservation plans.</p>
+        <p style={{ marginBottom: 24, fontSize: 16 }}>Skip the high costs and insurance hurdles of branded medications. Telehealth FX offers compounded GLP-1 programs starting at $146/month, complete with medical support and personalized muscle-preservation plans.</p>
         <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>Start Your Evaluation <Icon.Arrow /></a>
       </div>
 
@@ -148,13 +148,13 @@ function Blog5LeadingSemaglutideComparisons() {
         <li style={{ marginBottom: 12 }}><strong>Invasiveness and Reversibility:</strong> Bariatric surgery is an invasive, irreversible surgical procedure that permanently alters gastrointestinal anatomy. Semaglutide is a non-invasive, weekly injection that can be adjusted or discontinued under clinical supervision. For a detailed comparison, see our guide on <a href="/blog/bariatric-surgery-vs-glp1-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>bariatric surgery vs GLP-1</a>.</li>
         <li style={{ marginBottom: 12 }}><strong>Surgical Risks and Complications:</strong> Bariatric surgery carries risk of surgical complications, including anastomotic leaks, strictures, internal hernias, dumping syndrome, and lifelong nutrient malabsorption (requiring chronic supplementation of vitamin B12, iron, and calcium). Semaglutide's side effects are primarily gastrointestinal, dose-dependent, and manageable without surgery.</li>
         <li style={{ marginBottom: 12 }}><strong>Efficacy:</strong> Bariatric surgery leads to an average weight loss of <strong>25% to 30%</strong> of body weight over 1-2 years. While this is higher than semaglutide's 14.9% average, weekly medication allows many patients to achieve significant fat loss without undergoing major surgery.</li>
-        <li style={{ marginBottom: 12 }}><strong>Cost:</strong> Bariatric surgery requires a high initial investment, costing <strong>$15,000 to $25,000</strong> upfront if not covered by insurance. The Telehealth FX program provides an accessible, non-surgical alternative starting at $199/month.</li>
+        <li style={{ marginBottom: 12 }}><strong>Cost:</strong> Bariatric surgery requires a high initial investment, costing <strong>$15,000 to $25,000</strong> upfront if not covered by insurance. The Telehealth FX program provides an accessible, non-surgical alternative starting at $146/month.</li>
       </ul>
 
       <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Frequently Asked Questions</h2>
       
       <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>Why is the Telehealth FX Program ranked higher than branded Wegovy or Ozempic?</h4>
-      <p style={{ marginBottom: 24 }}>Branded Wegovy and Ozempic are highly effective medications, but the commercial model has significant limitations. Out-of-pocket costs often exceed $1,000/month, insurance coverage is difficult to secure, and medication shortages are common. Additionally, these brands are typically prescribed without clinical support for muscle preservation. Telehealth FX offers access to compounded semaglutide starting at $199/month and incorporates personalized dosing, nutritional guidance, and optional hormone optimization to protect lean muscle mass. Learn more in our <a href="/blog/hsa-fsa-glp-1-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>HSA/FSA guide</a>.</p>
+      <p style={{ marginBottom: 24 }}>Branded Wegovy and Ozempic are highly effective medications, but the commercial model has significant limitations. Out-of-pocket costs often exceed $1,000/month, insurance coverage is difficult to secure, and medication shortages are common. Additionally, these brands are typically prescribed without clinical support for muscle preservation. Telehealth FX offers access to compounded semaglutide starting at $146/month and incorporates personalized dosing, nutritional guidance, and optional hormone optimization to protect lean muscle mass. Learn more in our <a href="/blog/hsa-fsa-glp-1-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>HSA/FSA guide</a>.</p>
       
       <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>How does semaglutide differ from tirzepatide?</h4>
       <p style={{ marginBottom: 24 }}>Semaglutide is a selective GLP-1 receptor agonist, while tirzepatide is a dual GIP and GLP-1 receptor agonist. By targeting two metabolic pathways, tirzepatide achieved higher weight loss in clinical trials (20.9% in SURMOUNT-1 vs. 14.9% for semaglutide in STEP-1). However, semaglutide has a longer history of clinical use and remains a highly effective, cost-efficient baseline therapy. Check our comparison on <a href="/blog/semaglutide-vs-tirzepatide-decision-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>semaglutide vs tirzepatide</a>.</p>
@@ -170,7 +170,7 @@ function Blog5LeadingSemaglutideComparisons() {
 
       <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
         <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Start Your Metabolic Evaluation</h2>
-        <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 500, margin: '0 auto 32px' }}>Access compounded semaglutide starting at $199/month. Our program includes clinical monitoring and muscle preservation protocols with no insurance required.</p>
+        <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 500, margin: '0 auto 32px' }}>Access compounded semaglutide starting at $146/month. Our program includes clinical monitoring and muscle preservation protocols with no insurance required.</p>
         <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-lg" style={{ background: '#FBF8F3', color: 'var(--ink)', display: 'inline-flex', justifyContent: 'center', width: '100%', maxWidth: 250 }}>Get Started <Icon.Arrow /></a>
       </div>
 

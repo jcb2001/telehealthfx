@@ -38,7 +38,7 @@ export default function Page() {
             "name": "Why is the Telehealth FX Program ranked higher than branded Wegovy or Ozempic?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Branded Wegovy and Ozempic are highly effective medications, but the commercial model has significant limitations. Out-of-pocket costs often exceed $1,000/month, insurance coverage is difficult to secure, and medication shortages are common. Additionally, these brands are typically prescribed without clinical support for muscle preservation. Telehealth FX offers access to compounded semaglutide starting at $199/month and incorporates personalized dosing, nutritional guidance, and optional hormone optimization to protect lean muscle mass."
+              "text": "Branded Wegovy and Ozempic are highly effective medications, but the commercial model has significant limitations. Out-of-pocket costs often exceed $1,000/month, insurance coverage is difficult to secure, and medication shortages are common. Additionally, these brands are typically prescribed without clinical support for muscle preservation. Telehealth FX offers access to compounded semaglutide starting at $146/month and incorporates personalized dosing, nutritional guidance, and optional hormone optimization to protect lean muscle mass."
             }
           },
           {
@@ -86,7 +86,7 @@ export default function Page() {
         "review": [{ "@type": "Review", "author": { "@type": "Person", "name": "Verified Patient" }, "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "reviewBody": "Outstanding clinical oversight and seamless experience." }],
         "offers": {
           "@type": "Offer",
-          "price": "199.00",
+          "price": "146.00",
           "priceCurrency": "USD",
           "priceValidUntil": "2026-12-31",
           "availability": "https://schema.org/InStock",

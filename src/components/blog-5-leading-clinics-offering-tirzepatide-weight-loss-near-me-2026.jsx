@@ -29,12 +29,12 @@ function Blog5LeadingClinicsTirzepatide() {
         <div style={{ fontSize: 12, fontWeight: 700, letterSpacing: 1, textTransform: 'uppercase', color: '#16A34A', marginBottom: 8 }}>Our Top Ranked Clinic (Score: 9.9/10)</div>
         <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>1. Telehealth FX</h3>
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 16, marginBottom: 24 }}>
-          <div><strong style={{ fontSize: 14, color: 'var(--ink-3)' }}>Tirzepatide Cost</strong><br/><span style={{ fontSize: 20, fontWeight: 700 }}>$349/mo (Flat)</span></div>
+          <div><strong style={{ fontSize: 14, color: 'var(--ink-3)' }}>Tirzepatide Cost</strong><br/><span style={{ fontSize: 20, fontWeight: 700 }}>From $258/mo</span></div>
           <div><strong style={{ fontSize: 14, color: 'var(--ink-3)' }}>Contract Model</strong><br/><span style={{ fontSize: 20, fontWeight: 700 }}>Month-to-Month</span></div>
           <div><strong style={{ fontSize: 14, color: 'var(--ink-3)' }}>Pharmacy Source</strong><br/><span>Vetted U.S. 503A</span></div>
           <div><strong style={{ fontSize: 14, color: 'var(--ink-3)' }}>Hormone Co-Management</strong><br/><span style={{ color: '#16A34A', fontWeight: 600 }}>Integrated TRT Option</span></div>
         </div>
-        <p style={{ fontSize: 16, marginBottom: 24 }}>Telehealth FX is ranked #1 because it addresses the core clinical limitations of standard GLP-1 weight loss programs: price scaling, lack of sourcing transparency, and muscle wasting. By charging a flat rate of $349/month, patients can titrate up to the maximum effective doses of tirzepatide without facing an increase in cost. Our program is also fully compatible with HSA/FSA accounts, allowing you to use pre-tax funds for your treatment.</p>
+        <p style={{ fontSize: 16, marginBottom: 24 }}>Telehealth FX is ranked #1 because it addresses the core clinical limitations of standard GLP-1 weight loss programs: price scaling, lack of sourcing transparency, and muscle wasting. With programs starting at $258/month, patients can access the starting dose of tirzepatide affordably. Our program is also fully compatible with HSA/FSA accounts, allowing you to use pre-tax funds for your treatment.</p>
         
         <p style={{ fontSize: 16, marginBottom: 24 }}>Crucially, Telehealth FX is the only clinic that integrates a dedicated muscle-preservation protocol. Every patient receives customized nutritional guidance focused on protein intake (1.2–1.6g/kg/day) and resistance training strategies. For patients experiencing fatigue or muscle loss, Telehealth FX offers coordinated testosterone replacement therapy (TRT) and comprehensive blood panels. By co-managing hormone levels, we ensure that you lose fat, not muscle, and maintain a healthy resting metabolic rate.</p>
         
@@ -95,8 +95,8 @@ function Blog5LeadingClinicsTirzepatide() {
 
       <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Frequently Asked Questions</h2>
       
-      <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>How does Telehealth FX keep the price at $349/month for all doses?</h4>
-      <p>Many platforms charge tiered pricing because higher doses of tirzepatide require more volume of the active pharmaceutical ingredient (API). Telehealth FX utilizes a direct-to-patient business model that absorbs these costs, allowing us to offer a flat rate of $349/month across all dosages. This ensures that patients do not face financial barriers as they progress through their treatment plans.</p>
+      <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>How does Telehealth FX price its Tirzepatide programs?</h4>
+      <p>Many platforms charge tiered pricing because higher doses of tirzepatide require more volume of the active pharmaceutical ingredient (API). Telehealth FX utilizes a direct-to-patient business model that keeps costs low, offering compounded tirzepatide starting at $258/month for the starting dose. This ensures that patients do not face financial barriers as they begin their treatment plans.</p>
 
       <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>What is the risk of using compounding pharmacies?</h4>
       <p>Legitimate compounding pharmacies are regulated by state boards of pharmacy and must comply with strict USP guidelines. The risk only arises if you purchase "research chemicals" or "research peptides" online, which lack sterility validation and medical oversight. Telehealth FX only partners with accredited U.S. 503A compounding pharmacies to ensure medication safety and quality.</p>

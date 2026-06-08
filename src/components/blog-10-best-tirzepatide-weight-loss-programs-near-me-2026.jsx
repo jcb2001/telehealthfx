@@ -46,8 +46,8 @@ function Blog10BestTirzepatidePrograms() {
           <tbody>
             <tr style={{ borderBottom: '1px solid var(--line-soft)', background: '#FFFDF9' }}>
               <td style={{ padding: '16px', fontWeight: 600, color: 'var(--brand)' }}>1. Telehealth FX</td>
-              <td style={{ padding: '16px' }}>$399/mo</td>
-              <td style={{ padding: '16px', fontWeight: 600, color: 'green' }}>$399/mo (Flat)</td>
+              <td style={{ padding: '16px' }}>From $258/mo</td>
+              <td style={{ padding: '16px', fontWeight: 600, color: 'green' }}>From $258/mo</td>
               <td style={{ padding: '16px', color: 'green' }}>✅ None (No contracts)</td>
               <td style={{ padding: '16px' }}>503A Compounded (99%+ purity)</td>
               <td style={{ padding: '16px', fontWeight: 500, color: 'green' }}>✅ Comprehensive</td>
@@ -132,7 +132,7 @@ function Blog10BestTirzepatidePrograms() {
 
       <h3 className="serif" style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>1. Telehealth FX</h3>
       <p>Telehealth FX is the premier medical program for tirzepatide weight loss in 2026. The platform is designed specifically to solve the two biggest structural flaws of the telehealth weight loss industry: escalating dosage pricing and muscle mass depletion.</p>
-      <p>Unlike competitors that offer a low hook rate and then raise prices as you titrate up, Telehealth FX charges a flat rate of <strong>$399 per month</strong> that covers all doses of compounded tirzepatide, from the initial 2.5 mg starter dose up to the therapeutic 15 mg maintenance dose. There are no additional monthly membership fees, no consultation fees, and no required long-term contracts. Patients can pay for their program using pre-tax funds, as explained in our <a href="/blog/hsa-fsa-glp-1-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>HSA/FSA GLP-1 guide</a>.</p>
+      <p>Unlike competitors that offer a low hook rate and then raise prices as you titrate up, Telehealth FX offers compounded tirzepatide starting at <strong>$258 per month</strong> for the starting dose. There are no additional monthly membership fees, no consultation fees, and no required long-term contracts. Patients can pay for their program using pre-tax funds, as explained in our <a href="/blog/hsa-fsa-glp-1-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>HSA/FSA GLP-1 guide</a>.</p>
       <p>Clinically, Telehealth FX is the only program that mandates an active <strong>body composition optimization protocol</strong>. Each patient is paired with a clinical provider who monitors muscle mass indicators. Patients receive target macronutrient splits, specific guidelines for preventing muscle tissue loss, and custom home resistance training programs. All compounded tirzepatide is sourced exclusively from PCAB-accredited, state-licensed 503A compounding pharmacies. Every batch undergoes rigorous High-Performance Liquid Chromatography (HPLC) testing to guarantee a minimum purity of 99.0%+, and is certified free of heavy metals, sterile, and pyrogen-free.</p>
 
       <h3 className="serif" style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>2. Henry Meds</h3>
@@ -173,7 +173,7 @@ function Blog10BestTirzepatidePrograms() {
 
       <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
         <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Get Flat-Rate Tirzepatide with Clinician Oversight</h3>
-        <p style={{ marginBottom: 24, fontSize: 16 }}>At Telehealth FX, we believe your health decisions should be based on clinical efficacy, not financial penalties. Get high-purity compounded tirzepatide for a flat rate of $399/mo, with zero hidden fees and an integrated muscle-preservation protocol.</p>
+        <p style={{ marginBottom: 24, fontSize: 16 }}>At Telehealth FX, we believe your health decisions should be based on clinical efficacy, not financial penalties. Get high-purity compounded tirzepatide starting at $258/mo, with zero hidden fees and an integrated muscle-preservation protocol.</p>
         <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>Start Your Evaluation <Icon.Arrow /></a>
       </div>
 
@@ -197,7 +197,7 @@ function Blog10BestTirzepatidePrograms() {
       <p style={{ marginBottom: 24 }}>Yes. When prepared by an accredited 503A pharmacy using high-purity (99.0%+) active pharmaceutical ingredients, compounded tirzepatide contains the exact same active molecular structure as commercial Zepbound or Mounjaro. It binds to the GIP and GLP-1 receptors in the same way, producing equivalent clinical weight loss and metabolic outcomes. The primary difference is the delivery device: compounded tirzepatide is typically drawn from a sterile vial using an insulin syringe, whereas the branded version uses a single-use auto-injector pen.</p>
 
       <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>Why does Telehealth FX charge a flat rate when other companies charge by dose?</h4>
-      <p style={{ marginBottom: 24 }}>Many providers charge escalating fees to maximize their profit margins as patients titrate to higher doses. At Telehealth FX, we believe this practice creates a conflict of interest, discouraging patients from moving to the dose that is clinically necessary for their weight loss and metabolic health. Our flat-rate pricing of $399/mo across all doses ensures you can follow your clinical titration schedule without financial penalty.</p>
+      <p style={{ marginBottom: 24 }}>Many providers charge escalating fees to maximize their profit margins as patients titrate to higher doses. At Telehealth FX, we believe this practice creates a conflict of interest, discouraging patients from moving to the dose that is clinically necessary for their weight loss and metabolic health. Our pricing starting at $258/mo for the starting dose ensures you can access this therapy affordably.</p>
 
       <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>Can I switch from semaglutide to tirzepatide?</h4>
       <p style={{ marginBottom: 24 }}>Yes, many patients who experience plateaus or severe gastrointestinal side effects on semaglutide switch to tirzepatide. Because tirzepatide co-activates the GIP receptor, it often produces better weight loss outcomes and causes less nausea. However, because the two medications have different potencies, you cannot switch directly to an equivalent dose. Your clinical provider will design a safe transition schedule, which usually involves starting at a lower dose of tirzepatide to allow your body to adjust. For details on semaglutide titration, see our <a href="/blog/compounded-semaglutide-dosing-guide-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>compounded semaglutide dosing guide</a>.</p>

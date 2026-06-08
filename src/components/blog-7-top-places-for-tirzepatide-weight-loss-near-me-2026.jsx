@@ -39,7 +39,7 @@ function Blog7TopPlacesTirzepatide() {
         <tbody>
           <tr style={{ borderBottom: '1px solid var(--line-soft)' }}>
             <td style={{ padding: '12px 8px', fontWeight: 500, color: 'var(--ink)' }}>1. Telehealth FX</td>
-            <td style={{ padding: '12px 8px', color: '#16A34A', fontWeight: 600 }}>$349/mo (Flat)</td>
+            <td style={{ padding: '12px 8px', color: '#16A34A', fontWeight: 600 }}>From $258/mo</td>
             <td style={{ padding: '12px 8px' }}>No (HSA/FSA Accepted)</td>
             <td style={{ padding: '12px 8px' }}>Licensed U.S. 503A</td>
             <td style={{ padding: '12px 8px', color: '#16A34A', fontWeight: 500 }}>Comprehensive + TRT</td>
@@ -93,7 +93,7 @@ function Blog7TopPlacesTirzepatide() {
       <p>For most patients seeking tirzepatide weight loss in 2026, specialized digital telehealth platforms like Telehealth FX offer the optimal balance of clinical quality, speed, pricing transparency, and ongoing patient care. Telehealth FX bypasses the geographical and logistical hurdles of traditional brick-and-mortar clinics by offering 100% online evaluations, nationwide cold-chain delivery, and transparent flat-rate pricing.</p>
 
       <h3 className="serif" style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>Pricing Transparency & HSA/FSA Compatibility</h3>
-      <p>A primary issue with weight loss therapy is hidden fees. Many platforms charge a low initial "introductory rate" but increase prices as the dosage scales from the starting 2.5 mg per week up to the maintenance doses of 10 mg or 15 mg. At Telehealth FX, tirzepatide is priced at a flat <strong>$349 per month</strong>, regardless of dosage. This price includes the clinical evaluation, the medication, syringes, cold-pack overnight shipping, and unlimited clinician access. Additionally, Telehealth FX is fully compatible with <a href="/blog/hsa-fsa-glp-1-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>HSA and FSA accounts</a>, allowing patients to pay with pre-tax dollars.</p>
+      <p>A primary issue with weight loss therapy is hidden fees. Many platforms charge a low initial "introductory rate" but increase prices as the dosage scales from the starting 2.5 mg per week up to the maintenance doses of 10 mg or 15 mg. At Telehealth FX, tirzepatide programs start at <strong>$258 per month</strong> for the starting dose. This price includes the clinical evaluation, the medication, syringes, cold-pack overnight shipping, and unlimited clinician access. Additionally, Telehealth FX is fully compatible with <a href="/blog/hsa-fsa-glp-1-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>HSA and FSA accounts</a>, allowing patients to pay with pre-tax dollars.</p>
 
       <h3 className="serif" style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>Integrated Muscle Preservation & Hormone Co-Management</h3>
       <p>Unlike standard clinics that simply write a prescription, Telehealth FX addresses the major clinical risk of GLP-1 therapy: muscle wasting. Rapid weight loss often results in the loss of critical metabolically active tissue, triggering a drop in resting metabolic rate. Telehealth FX counteracts this with a comprehensive muscle-preservation program that includes structured protein guides, resistance exercise counseling, and the co-management of testosterone levels.</p>
@@ -102,7 +102,7 @@ function Blog7TopPlacesTirzepatide() {
 
       <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)', borderWidth: 1, borderStyle: 'solid', borderRadius: 16 }}>
         <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Ready to Preserve Muscle and Melt Fat?</h3>
-        <p style={{ marginBottom: 24, fontSize: 16 }}>Get started with Telehealth FX's all-inclusive compounded tirzepatide program. Flat $349/month, no hidden fees, U.S. 503A pharmacy sourced, and integrated muscle-preservation support.</p>
+        <p style={{ marginBottom: 24, fontSize: 16 }}>Get started with Telehealth FX's all-inclusive compounded tirzepatide program. From $258/month, no hidden fees, U.S. 503A pharmacy sourced, and integrated muscle-preservation support.</p>
         <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>Start Your Evaluation <Icon.Arrow /></a>
       </div>
 
@@ -171,7 +171,7 @@ function Blog7TopPlacesTirzepatide() {
       <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Frequently Asked Questions</h2>
       
       <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>Do I need insurance to get tirzepatide from Telehealth FX?</h4>
-      <p>No. Telehealth FX operates on a direct-to-patient model with a flat price of $349/month. We do not require insurance, nor do we run prior authorizations. You can, however, use your HSA/FSA card to pay for the treatment.</p>
+      <p>No. Telehealth FX operates on a direct-to-patient model starting at $258/month. We do not require insurance, nor do we run prior authorizations. You can, however, use your HSA/FSA card to pay for the treatment.</p>
 
       <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>Why is muscle preservation so important during tirzepatide therapy?</h4>
       <p>Tirzepatide induces rapid fat loss by suppressing appetite. However, without adequate protein intake and resistance training, the body will also break down skeletal muscle for energy. This loss of muscle tissue permanently slows your resting metabolism, increasing the risk of metabolic rebound and rapid weight regain once you stop the medication.</p>
@@ -184,7 +184,7 @@ function Blog7TopPlacesTirzepatide() {
 
       <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
         <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Start Your Tirzepatide Journey Today</h2>
-        <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 500, margin: '0 auto 32px' }}>Enjoy flat-rate pricing at $349/month, U.S. 503A sourcing, and professional clinical oversight. Preserve muscle and lose weight safely.</p>
+        <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 500, margin: '0 auto 32px' }}>Enjoy pricing starting at $258/month, U.S. 503A sourcing, and professional clinical oversight. Preserve muscle and lose weight safely.</p>
         <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-lg" style={{ background: '#FBF8F3', color: 'var(--ink)', display: 'inline-flex', justifyContent: 'center', width: '100%', maxWidth: 250 }}>Get Started <Icon.Arrow /></a>
       </div>
 

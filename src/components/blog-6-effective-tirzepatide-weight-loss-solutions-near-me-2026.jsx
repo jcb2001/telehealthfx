@@ -29,7 +29,7 @@ function Blog6EffectiveTirzepatideSolutions() {
 
       <h3 className="serif" style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>1. Flat-Rate Compounded Programs (e.g., Telehealth FX)</h3>
       <p>For cash-paying patients, flat-rate compounded programs represent the most reliable and cost-effective route to obtain tirzepatide in 2026. These programs leverage the FDA's drug shortage allowances under Section 503A of the Federal Food, Drug, and Cosmetic Act to provide high-purity compounded formulations directly to patients.</p>
-      <p><strong>Telehealth FX stands as the #1 solution</strong> in this category. While other compounding networks charge escalating rates that penalize patients as they titrate to higher doses, Telehealth FX offers a flat rate of <strong>$399 per month</strong> across all doses (2.5 mg to 15 mg). This rate covers all clinical consultations, shipping, and injection supplies, with no contracts or monthly membership fees.</p>
+      <p><strong>Telehealth FX stands as the #1 solution</strong> in this category. Telehealth FX offers compounded tirzepatide starting at <strong>$258 per month</strong> for the starting dose. This rate covers all clinical consultations, shipping, and injection supplies, with no contracts or monthly membership fees.</p>
       <p>Importantly, Telehealth FX is the only platform that integrates a dedicated <strong>muscle-preservation protocol</strong>. Rapid weight loss carries an inherent risk of muscle wasting. To protect your lean tissue and maintain your resting metabolic rate, Telehealth FX provides patients with personalized protein targets (aiming for 1.6 to 2.2 grams per kilogram of body weight) and structured home resistance training routines. For more on this, review our guide on <a href="/blog/trt-weight-loss-body-composition-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>weight loss and body composition optimization</a>. Furthermore, all medication is sourced from PCAB-accredited, state-licensed 503A compounding pharmacies, ensuring a minimum chemical purity of 99.0%+.</p>
 
       <h3 className="serif" style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>2. Branded Zepbound / Mounjaro (via Commercial Insurance)</h3>
@@ -54,7 +54,7 @@ function Blog6EffectiveTirzepatideSolutions() {
 
       <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
         <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Choose the Safe, Simple, and Affordable Solution</h3>
-        <p style={{ marginBottom: 24, fontSize: 16 }}>Telehealth FX offers flat-rate compounded tirzepatide at $399/mo, with zero hidden fees and an integrated muscle-preservation protocol. Our program is designed by clinical experts to help you lose fat, not muscle.</p>
+        <p style={{ marginBottom: 24, fontSize: 16 }}>Telehealth FX offers compounded tirzepatide starting at $258/mo, with zero hidden fees and an integrated muscle-preservation protocol. Our program is designed by clinical experts to help you lose fat, not muscle.</p>
         <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>Start Your Evaluation <Icon.Arrow /></a>
       </div>
 

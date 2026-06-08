@@ -33,7 +33,7 @@ function Blog8ExpertRecommendedTirzepatideOptions() {
       <ul>
         <li style={{ marginBottom: 12 }}><strong>Medication Sourcing:</strong> Compounded tirzepatide sourced exclusively from state-licensed, FDA-regulated 503A or 503B compounding pharmacies. Every batch is verified by an independent third-party laboratory with a Certificate of Analysis (COA) confirming API (Active Pharmaceutical Ingredient) purity above 99% and absolute sterility.</li>
         <li style={{ marginBottom: 12 }}><strong>Clinical Care Model:</strong> Fully virtual onboarding with asynchronous medical evaluations and ongoing clinical support from board-certified medical providers. Providers customize your titration curves based on active bio-feedback to minimize side effects, avoiding the rigid, automated step schedules of lower-end services. Review our detailed guide on <a href="/blog/compounded-semaglutide-dosing-guide-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>compounded peptide dosing and titration</a> to understand the pacing of clinical adjustments.</li>
-        <li style={{ marginBottom: 12 }}><strong>Cost Structure:</strong> Transparent, flat-rate pricing starting at <strong>$349/month</strong>. There are no hidden subscription membership fees, no consultation fees, and no long-term contract lock-ins.</li>
+        <li style={{ marginBottom: 12 }}><strong>Cost Structure:</strong> Transparent, flat-rate pricing starting at <strong>$258/month</strong>. There are no hidden subscription membership fees, no consultation fees, and no long-term contract lock-ins.</li>
         <li style={{ marginBottom: 12 }}><strong>HSA/FSA Compatibility:</strong> Fully compatible. Telehealth FX accepts Health Savings Account (HSA) and Flexible Spending Account (FSA) cards, allowing patients to pay with pre-tax dollars. Learn more about saving money on your therapy in our <a href="/blog/hsa-fsa-glp-1-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>HSA/FSA GLP-1 guide</a>.</li>
       </ul>
 
@@ -52,7 +52,7 @@ function Blog8ExpertRecommendedTirzepatideOptions() {
       {/* MID-ARTICLE CTA */}
       <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
         <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Skip the Waitlists &amp; High Retail Markup</h3>
-        <p style={{ marginBottom: 24, fontSize: 16 }}>Access genuine compounded tirzepatide from state-licensed, 503A sterile compounding pharmacies. Flat-rate pricing starting at $349/month. Includes physician oversight and direct-to-door temperature-controlled shipping.</p>
+        <p style={{ marginBottom: 24, fontSize: 16 }}>Access genuine compounded tirzepatide from state-licensed, 503A sterile compounding pharmacies. Flat-rate pricing starting at $258/month. Includes physician oversight and direct-to-door temperature-controlled shipping.</p>
         <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>Start Your Evaluation <Icon.Arrow /></a>
       </div>
 
@@ -136,7 +136,7 @@ function Blog8ExpertRecommendedTirzepatideOptions() {
           <tbody>
             <tr style={{ background: '#F0FDF4', borderBottom: '1px solid var(--line-soft)' }}>
               <td style={{ padding: '12px 16px', fontWeight: 700 }}>1. Telehealth FX Program</td>
-              <td style={{ padding: '12px 16px', color: 'green', fontWeight: 700 }}>$349 - $399 (Flat)</td>
+              <td style={{ padding: '12px 16px', color: 'green', fontWeight: 700 }}>From $258/mo</td>
               <td style={{ padding: '12px 16px', fontWeight: 500 }}>Immediate (2-3 days)</td>
               <td style={{ padding: '12px 16px' }}>High (Endocrine/Hormone focus)</td>
               <td style={{ padding: '12px 16px', color: 'green', fontWeight: 600 }}>Yes (Hormone/TRT stacks)</td>
@@ -226,7 +226,7 @@ function Blog8ExpertRecommendedTirzepatideOptions() {
       {/* FINAL CTA */}
       <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
         <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Clinical Weight Loss. Sourced with Integrity.</h2>
-        <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 500, margin: '0 auto 32px' }}>Start your medical evaluation today. Receive compounded tirzepatide from premier 503A pharmacies, flat-rate pricing from $349/month, and ongoing physician support.</p>
+        <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 500, margin: '0 auto 32px' }}>Start your medical evaluation today. Receive compounded tirzepatide from premier 503A pharmacies, flat-rate pricing from $258/month, and ongoing physician support.</p>
         <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-lg" style={{ background: '#FBF8F3', color: 'var(--ink)', display: 'inline-flex', justifyContent: 'center', width: '100%', maxWidth: 250 }}>Get Started <Icon.Arrow /></a>
       </div>
 
