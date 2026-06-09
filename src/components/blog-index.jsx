@@ -6,6 +6,41 @@ import { Icon } from './common.jsx';
 function BlogIndex() {
   const articles = [
     {
+      title: "7 Leading Online GLP-1 Prescription Services Compared",
+      description: "Compare the 7 leading online GLP-1 prescription platforms. Review costs, sourcing quality, pros and cons, and muscle preservation protocols.",
+      slug: "/blog/7-leading-online-glp-1-prescription-services-compared-2026",
+      image: "/assets/compounded-tirzepatide-online-featured.png",
+      tag: "Treatment Comparison"
+    },
+    {
+      title: "5 Best Online GLP-1 Prescription Platforms for 2026",
+      description: "Compare the 5 best online GLP-1 prescription platforms. Review Telehealth FX, Henry Meds, Mochi Health, and more for pricing and muscle protection.",
+      slug: "/blog/5-best-online-glp-1-prescription-platforms-for-2026",
+      image: "/assets/best-semaglutide-providers-2026-featured.png",
+      tag: "Program Comparison"
+    },
+    {
+      title: "Top 10 Online GLP-1 Prescription Providers Ranked",
+      description: "Compare the top 10 online GLP-1 prescription providers. Detail monthly costs, dose scaling traps, sourcing quality, and muscle preservation.",
+      slug: "/blog/top-10-online-glp-1-prescription-providers-ranked-2026",
+      image: "/assets/weight-loss-medications-ranked-featured.png",
+      tag: "Treatment Comparison"
+    },
+    {
+      title: "6 Online GLP-1 Prescription Solutions You Should Know",
+      description: "Review the top 6 online GLP-1 prescription solutions. Learn about pricing, compounding pharmacy safety, and critical muscle protection protocols.",
+      slug: "/blog/6-online-glp-1-prescription-solutions-you-should-know-2026",
+      image: "/assets/ozempic-pharmacokinetics-featured.png",
+      tag: "Solutions Guide"
+    },
+    {
+      title: "8 Essential Features of Online GLP-1 Prescription Services",
+      description: "Evaluate online GLP-1 prescription services with our guide to the 8 essential clinical features. Review pharmacy standards, pricing models, and muscle protection.",
+      slug: "/blog/8-essential-features-of-online-glp-1-prescription-services-2026",
+      image: "/assets/first-week-semaglutide-featured.png",
+      tag: "Evaluation Guide"
+    },
+    {
       title: "7 Top Weight Loss Injections Near Me: Ranked and Reviewed",
       description: "Compare the 7 top weight loss injections near you. Review local endocrinologists, MedSpas, primary care, and flat-rate telemedicine options for semaglutide and tirzepatide.",
       slug: "/blog/7-top-weight-loss-injections-near-me-ranked-and-reviewed-2026",
