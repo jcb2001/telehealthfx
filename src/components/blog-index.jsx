@@ -6,6 +6,41 @@ import { Icon } from './common.jsx';
 function BlogIndex() {
   const articles = [
     {
+      title: "7 Top Weight Loss Injections Near Me: Ranked and Reviewed",
+      description: "Compare the 7 top weight loss injections near you. Review local endocrinologists, MedSpas, primary care, and flat-rate telemedicine options for semaglutide and tirzepatide.",
+      slug: "/blog/7-top-weight-loss-injections-near-me-ranked-and-reviewed-2026",
+      image: "/assets/weight-loss-medications-ranked-featured.png",
+      tag: "Treatment Comparison"
+    },
+    {
+      title: "5 Leading Weight Loss Injections Near Me You Need to Know",
+      description: "Compare the 5 leading weight loss injections near you. Review Telehealth FX, Henry Meds, Mochi Health, PlushCare, and local MedSpas for pricing, safety, and muscle protection.",
+      slug: "/blog/5-leading-weight-loss-injections-near-me-you-need-to-know-2026",
+      image: "/assets/best-semaglutide-providers-2026-featured.png",
+      tag: "Clinic Reviews"
+    },
+    {
+      title: "10 Best Weight Loss Injections Near Me: A Comparative Guide",
+      description: "Compare the 10 best weight loss injections near you. Review costs, sourcing safety, and muscle protection features for endocrinologists, clinics, and telehealth options.",
+      slug: "/blog/10-best-weight-loss-injections-near-me-a-comparative-guide-2026",
+      image: "/assets/semaglutide-weight-loss-timeline-featured.png",
+      tag: "Program Comparison"
+    },
+    {
+      title: "8 Most Effective Weight Loss Injections Near Me Compared",
+      description: "Compare the 8 most effective weight loss injections near you. Review monthly costs, dose scaling traps, sourcing quality, and muscle preservation.",
+      slug: "/blog/8-most-effective-weight-loss-injections-near-me-compared-2026",
+      image: "/assets/weight-loss-medications-ranked-featured.png",
+      tag: "Treatment Comparison"
+    },
+    {
+      title: "6 Recommended Weight Loss Injections Near Me for Quick Results",
+      description: "Compare the 6 recommended weight loss injections near you for quick results. Review costs, sourcing safety, results timelines, and muscle preservation features.",
+      slug: "/blog/6-recommended-weight-loss-injections-near-me-for-quick-results-2026",
+      image: "/assets/first-week-semaglutide-featured.png",
+      tag: "Clinic Reviews"
+    },
+    {
       title: "7 Top Places for Tirzepatide Weight Loss Near Me",
       description: "Compare the top local and digital places to get tirzepatide weight loss near you. Reviews of endocrinologists, MedSpas, clinics, and flat-rate telemedicine.",
       slug: "/blog/7-top-places-for-tirzepatide-weight-loss-near-me-2026",
