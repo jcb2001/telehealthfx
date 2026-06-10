@@ -6,6 +6,41 @@ import { Icon } from './common.jsx';
 function BlogIndex() {
   const articles = [
     {
+      title: "5 Top Tirzepatide Online Prescription Services of 2023 (2026 Update)",
+      description: "Read our comprehensive comparison of the top 5 tirzepatide online prescription platforms. Discover cost breakdowns, compound safety, and muscle protection.",
+      slug: "/blog/5-top-tirzepatide-online-prescription-services-of-2023-2026",
+      image: "/assets/tirzepatide-vs-semaglutide-side-effects-comparison-2026-featured.png",
+      tag: "Platform Comparison"
+    },
+    {
+      title: "7 Leading Platforms for Tirzepatide Online Prescriptions Compared",
+      description: "Compare the 7 leading online tirzepatide prescription platforms. Review pricing, dose escalation fees, pharmacy sourcing, and muscle preservation features.",
+      slug: "/blog/7-leading-platforms-for-tirzepatide-online-prescriptions-compared-2026",
+      image: "/assets/compounded-tirzepatide-online-featured.png",
+      tag: "Platform Comparison"
+    },
+    {
+      title: "5 Best Ways to Get Tirzepatide Online Prescription Safely",
+      description: "Learn the 5 best ways to safely secure a tirzepatide online prescription. Discover cost details, 503A compounding quality, and clinical metabolic support.",
+      slug: "/blog/5-best-ways-to-get-tirzepatide-online-prescription-safely-2026",
+      image: "/assets/best-semaglutide-providers-2026-featured.png",
+      tag: "Consumer Protection"
+    },
+    {
+      title: "Top 6 Tirzepatide Online Prescription Providers Ranked",
+      description: "Read our rankings of the top 6 online tirzepatide prescription providers. Compare actual costs, membership fees, and muscle preservation features.",
+      slug: "/blog/top-6-tirzepatide-online-prescription-providers-ranked-2026",
+      image: "/assets/weight-loss-medications-ranked-featured.png",
+      tag: "Platform Comparison"
+    },
+    {
+      title: "10 Essential Tips for Choosing Tirzepatide Online Prescription Services",
+      description: "Read our 10 essential tips for choosing a tirzepatide online prescription service. Learn how to verify 503A pharmacies, avoid hidden fees, and protect your metabolism.",
+      slug: "/blog/10-essential-tips-for-choosing-tirzepatide-online-prescription-services-2026",
+      image: "/assets/first-week-semaglutide-featured.png",
+      tag: "Clinical Guidelines"
+    },
+    {
       title: "7 Top Ways to Get a Semaglutide Online Prescription Safely",
       description: "Review the 7 top ways to get a semaglutide online prescription safely. Learn about pharmacy safety, red flags, and muscle-preservation protocols.",
       slug: "/blog/7-top-ways-to-get-a-semaglutide-online-prescription-safely-2026",
