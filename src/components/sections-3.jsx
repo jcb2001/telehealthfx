@@ -140,7 +140,7 @@ function Footer() {
               { label: 'About', slug: 'about' }, 
               { label: 'Careers', slug: 'careers' }, 
               { label: 'Blog', slug: 'blog' },
-              { label: 'Press', slug: 'press' }, 
+              { label: 'Press', slug: 'press', url: 'https://pressranger.com/media-rooms/telehealth-fx' }, 
               { label: 'Partners', slug: 'partners' }, 
               { label: 'Contact', slug: 'contact' }
             ] },
@@ -165,7 +165,7 @@ function Footer() {
               <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: 10 }}>
                 {col.l.map(item => (
                   <li key={item.slug} style={{ fontSize: 14, color: 'var(--ink-2)' }}>
-                    <a href={`/${item.slug}`} style={{ color: 'inherit', textDecoration: 'none' }}>{item.label}</a>
+                    <a href={item.url || `/${item.slug}`} style={{ color: 'inherit', textDecoration: 'none' }}>{item.label}</a>
                   </li>
                 ))}
               </ul>
