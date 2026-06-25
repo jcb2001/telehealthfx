@@ -10,7 +10,7 @@ export const metadata = {
     type: "website"
   },
   alternates: {
-    canonical: "https://telehealthfx.com/locations/oklahoma-city"
+    canonical: 'https://telehealthfx.com/locations/oklahoma-city/'
   }
 };
 export default function OklahomaCityPage() {

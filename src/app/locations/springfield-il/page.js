@@ -10,7 +10,7 @@ export const metadata = {
     type: "website"
   },
   alternates: {
-    canonical: "https://telehealthfx.com/locations/springfield-il"
+    canonical: 'https://telehealthfx.com/locations/springfield-il/'
   }
 };
 export default function SpringfieldILPage() {

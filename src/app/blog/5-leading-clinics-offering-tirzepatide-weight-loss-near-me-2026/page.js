@@ -1,6 +1,9 @@
 import { Blog5LeadingClinicsTirzepatide } from "../../../components/blog-5-leading-clinics-offering-tirzepatide-weight-loss-near-me-2026.jsx";
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/5-leading-clinics-offering-tirzepatide-weight-loss-near-me-2026/',
+  },
   title: "5 Leading Clinics Offering Tirzepatide Weight Loss Near Me | Telehealth FX",
   description: "Compare the top 5 clinics offering tirzepatide weight loss near you. Detailed reviews of Telehealth FX, Henry Meds, Mochi Health, PlushCare, and local wellness MedSpas.",
   openGraph: {

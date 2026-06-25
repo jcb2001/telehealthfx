@@ -3,6 +3,9 @@ import { BlogGlp1CortisolStressWeightGain2026 } from '../../../components/glp1-c
 export const metadata = {
   title: "GLP-1s and Cortisol: Reversing Stress-Induced Weight Gain",
   description: "How chronic stress and high cortisol block fat burning, and how GLP-1 medications bypass the cortisol trap.",
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/glp1-cortisol-stress-weight-gain-2026/',
+  },
 };
 
 export default function Page() {

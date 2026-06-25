@@ -3,7 +3,7 @@ import { BlogHowToGetTrtPrescribedOnline2026 } from "../../../components/how-to-
 export const metadata = {
   title: "How to Get TRT Prescribed Online: Step-by-Step Guide (2026) | Telehealth FX",
   description: "Step-by-step walkthrough of getting testosterone replacement therapy prescribed through a telehealth platform — from intake to first injection in 2026.",
-  alternates: { canonical: "https://telehealthfx.com/blog/how-to-get-trt-prescribed-online-2026" },
+  alternates: { canonical: 'https://telehealthfx.com/blog/how-to-get-trt-prescribed-online-2026/' },
   openGraph: {
     title: "How to Get TRT Prescribed Online: Step-by-Step Guide (2026)",
     description: "Step-by-step walkthrough of getting testosterone replacement therapy prescribed through a telehealth platform — from intake to first injection in 2026.",

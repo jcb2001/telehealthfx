@@ -10,7 +10,7 @@ export const metadata = {
     type: "website"
   },
   alternates: {
-    canonical: "https://telehealthfx.com/locations/peoria"
+    canonical: 'https://telehealthfx.com/locations/peoria/'
   }
 };
 export default function PeoriaPage() {

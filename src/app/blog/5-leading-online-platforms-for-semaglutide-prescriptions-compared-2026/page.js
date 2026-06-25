@@ -1,6 +1,9 @@
 import { Blog5LeadingOnlinePlatforms } from "../../../components/blog-5-leading-online-platforms-for-semaglutide-prescriptions-compared-2026.jsx";
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/5-leading-online-platforms-for-semaglutide-prescriptions-compared-2026/',
+  },
   title: "5 Leading Online Platforms for Semaglutide Prescriptions Compared | Telehealth FX",
   description: "Compare the 5 leading online platforms for semaglutide prescriptions. Review costs, safety standards, pros and cons, and muscle protection features.",
   openGraph: {

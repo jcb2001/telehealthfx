@@ -3,7 +3,7 @@ import { BlogTrtDiabetesMetabolicSyndrome2026 } from "../../../components/blog-t
 export const metadata = {
   title: "TRT for Men With Type 2 Diabetes & Metabolic Syndrome: 2026 Research | Telehealth FX",
   description: "New 2026 research shows TRT can improve insulin sensitivity and HbA1c in hypogonadal men with type 2 diabetes. Learn about the T4DM trial, FDA safety updates, and combined TRT + weight loss protocols.",
-  alternates: { canonical: "https://telehealthfx.com/blog/trt-diabetes-metabolic-syndrome-2026" },
+  alternates: { canonical: 'https://telehealthfx.com/blog/trt-diabetes-metabolic-syndrome-2026/' },
   openGraph: {
     title: "TRT for Men With Type 2 Diabetes & Metabolic Syndrome: What the 2026 Research Says",
     description: "New 2026 research shows TRT can improve insulin sensitivity and HbA1c in hypogonadal men with type 2 diabetes. Learn about the T4DM trial, FDA safety updates, and combined TRT + weight loss protocols.",

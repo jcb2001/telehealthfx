@@ -10,7 +10,7 @@ export const metadata = {
     type: "website"
   },
   alternates: {
-    canonical: "https://telehealthfx.com/locations/lubbock"
+    canonical: 'https://telehealthfx.com/locations/lubbock/'
   }
 };
 export default function LubbockPage() {

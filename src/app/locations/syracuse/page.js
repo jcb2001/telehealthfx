@@ -10,7 +10,7 @@ export const metadata = {
     type: "website"
   },
   alternates: {
-    canonical: "https://telehealthfx.com/locations/syracuse"
+    canonical: 'https://telehealthfx.com/locations/syracuse/'
   }
 };
 export default function SyracusePage() {

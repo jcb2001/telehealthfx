@@ -1,6 +1,9 @@
 import { Blog6OnlineGLP1PrescriptionSolutions } from "../../../components/blog-6-online-glp-1-prescription-solutions-you-should-know-2026.jsx";
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/6-online-glp-1-prescription-solutions-you-should-know-2026/',
+  },
   title: "6 Online GLP-1 Prescription Solutions You Should Know | Telehealth FX",
   description: "Review the top 6 online GLP-1 prescription solutions. Learn about pricing, compounding pharmacy safety, and critical muscle protection protocols.",
   openGraph: {

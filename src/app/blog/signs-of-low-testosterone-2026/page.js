@@ -3,6 +3,9 @@ import { BlogSignsOfLowTestosterone2026 } from '@/components/blog-signs-of-low-t
 export const metadata = {
   title: "12 Signs of Low Testosterone Most Men Ignore (2026) | Telehealth FX",
   description: "Discover the 12 most common signs of clinically low testosterone (hypogonadism) that men often ignore, from brain fog to persistent fatigue.",
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/signs-of-low-testosterone-2026/',
+  },
 };
 
 export default function Page() {

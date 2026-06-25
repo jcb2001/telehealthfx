@@ -1,6 +1,9 @@
 import { Blog8EssentialFeatures } from "../../../components/blog-8-essential-features-of-online-glp-1-prescription-services-2026.jsx";
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/8-essential-features-of-online-glp-1-prescription-services-2026/',
+  },
   title: "8 Essential Features of Online GLP-1 Prescription Services | Telehealth FX",
   description: "Evaluate online GLP-1 prescription services with our guide to the 8 essential clinical features. Review pharmacy standards, pricing models, and muscle protection.",
   openGraph: {

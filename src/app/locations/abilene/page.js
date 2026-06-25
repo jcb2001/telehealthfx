@@ -10,7 +10,7 @@ export const metadata = {
     type: "website"
   },
   alternates: {
-    canonical: "https://telehealthfx.com/locations/abilene"
+    canonical: 'https://telehealthfx.com/locations/abilene/'
   }
 };
 export default function AbilenePage() {

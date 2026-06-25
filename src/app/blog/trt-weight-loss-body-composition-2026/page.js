@@ -3,7 +3,7 @@ import { BlogTrtWeightLossBodyComposition2026 } from "../../../components/blog-t
 export const metadata = {
   title: "TRT for Weight Loss & Body Composition | Telehealth FX",
   description: "Can TRT help you lose weight? Learn the metabolic science behind testosterone therapy, fat loss, and muscle recomposition.",
-  alternates: { canonical: "https://telehealthfx.com/blog/trt-weight-loss-body-composition-2026" },
+  alternates: { canonical: 'https://telehealthfx.com/blog/trt-weight-loss-body-composition-2026/' },
   openGraph: {
     title: "TRT for Weight Loss & Body Composition",
     description: "Can TRT help you lose weight? Learn the metabolic science behind testosterone therapy, fat loss, and muscle recomposition.",

@@ -10,7 +10,7 @@ export const metadata = {
     type: "website"
   },
   alternates: {
-    canonical: "https://telehealthfx.com/locations/wichita-falls"
+    canonical: 'https://telehealthfx.com/locations/wichita-falls/'
   }
 };
 export default function WichitaFallsPage() {

@@ -3,7 +3,7 @@ import { BlogTrtDosageGuide2026 } from "../../../components/trt-dosage-guide-202
 export const metadata = {
   title: "TRT Dosage Guide: Finding Your Optimal Testosterone Protocol | Telehealth FX",
   description: "Complete clinical guide to testosterone replacement therapy dosing — starting doses, adjustment timelines, injection frequency optimization, and common dosing mistakes to avoid.",
-  alternates: { canonical: "https://telehealthfx.com/blog/trt-dosage-guide-2026" },
+  alternates: { canonical: 'https://telehealthfx.com/blog/trt-dosage-guide-2026/' },
   openGraph: {
     title: "TRT Dosage Guide: Finding Your Optimal Testosterone Protocol",
     description: "Complete clinical guide to testosterone replacement therapy dosing — starting doses, adjustment timelines, injection frequency optimization, and common dosing mistakes to avoid.",

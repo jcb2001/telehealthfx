@@ -10,7 +10,7 @@ export const metadata = {
     type: "website"
   },
   alternates: {
-    canonical: "https://telehealthfx.com/locations/colorado-springs"
+    canonical: 'https://telehealthfx.com/locations/colorado-springs/'
   }
 };
 export default function ColoradoSpringsPage() {

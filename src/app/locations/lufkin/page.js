@@ -10,7 +10,7 @@ export const metadata = {
     type: "website"
   },
   alternates: {
-    canonical: "https://telehealthfx.com/locations/lufkin"
+    canonical: 'https://telehealthfx.com/locations/lufkin/'
   }
 };
 export default function LufkinPage() {

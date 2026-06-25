@@ -3,6 +3,9 @@ import { BlogGlp1FastingIntermittentFasting2026 } from '../../../components/glp1
 export const metadata = {
   title: "Should You Practice Intermittent Fasting on GLP-1s?",
   description: "The pros and cons of stacking intermittent fasting with semaglutide. Does it accelerate fat loss or increase muscle loss?",
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/glp1-fasting-intermittent-fasting-2026/',
+  },
 };
 
 export default function Page() {

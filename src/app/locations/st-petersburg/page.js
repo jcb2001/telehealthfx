@@ -10,7 +10,7 @@ export const metadata = {
     type: "website"
   },
   alternates: {
-    canonical: "https://telehealthfx.com/locations/st-petersburg"
+    canonical: 'https://telehealthfx.com/locations/st-petersburg/'
   }
 };
 export default function StPetersburgPage() {

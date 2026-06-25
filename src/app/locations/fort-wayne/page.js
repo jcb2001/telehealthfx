@@ -10,7 +10,7 @@ export const metadata = {
     type: "website"
   },
   alternates: {
-    canonical: "https://telehealthfx.com/locations/fort-wayne"
+    canonical: 'https://telehealthfx.com/locations/fort-wayne/'
   }
 };
 export default function FortWaynePage() {

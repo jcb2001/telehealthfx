@@ -10,7 +10,7 @@ export const metadata = {
     type: "website"
   },
   alternates: {
-    canonical: "https://telehealthfx.com/locations/lake-charles"
+    canonical: 'https://telehealthfx.com/locations/lake-charles/'
   }
 };
 export default function LakeCharlesPage() {

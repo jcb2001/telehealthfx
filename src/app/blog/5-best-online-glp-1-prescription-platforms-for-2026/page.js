@@ -1,6 +1,9 @@
 import { Blog5BestOnlineGLP1Platforms } from "../../../components/blog-5-best-online-glp-1-prescription-platforms-for-2026.jsx";
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/5-best-online-glp-1-prescription-platforms-for-2026/',
+  },
   title: "5 Best Online GLP-1 Prescription Platforms for 2026 | Telehealth FX",
   description: "Compare the 5 best online GLP-1 prescription platforms. Review Telehealth FX, Henry Meds, Mochi Health, PlushCare, and local MedSpas for pricing, safety, and muscle protection.",
   openGraph: {

@@ -10,7 +10,7 @@ export const metadata = {
     type: "website"
   },
   alternates: {
-    canonical: "https://telehealthfx.com/locations/flint"
+    canonical: 'https://telehealthfx.com/locations/flint/'
   }
 };
 export default function FlintPage() {

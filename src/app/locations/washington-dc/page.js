@@ -10,7 +10,7 @@ export const metadata = {
     type: "website"
   },
   alternates: {
-    canonical: "https://telehealthfx.com/locations/washington-dc"
+    canonical: 'https://telehealthfx.com/locations/washington-dc/'
   }
 };
 export default function WashingtonDCPage() {

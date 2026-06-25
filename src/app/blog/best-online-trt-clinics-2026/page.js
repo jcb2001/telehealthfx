@@ -3,7 +3,7 @@ import { BlogBestOnlineTrtClinics2026 } from "../../../components/best-online-tr
 export const metadata = {
   title: "7 Best Online TRT Clinics in 2026 (Ranked by Cost, Care & Labs) | Telehealth FX",
   description: "Independent ranking of the top online testosterone therapy clinics in 2026 — comparing pricing, lab testing, clinical oversight, and medication quality.",
-  alternates: { canonical: "https://telehealthfx.com/blog/best-online-trt-clinics-2026" },
+  alternates: { canonical: 'https://telehealthfx.com/blog/best-online-trt-clinics-2026/' },
   openGraph: {
     title: "7 Best Online TRT Clinics in 2026 (Ranked by Cost, Care & Labs)",
     description: "Independent ranking of the top online testosterone therapy clinics in 2026 — comparing pricing, lab testing, clinical oversight, and medication quality.",

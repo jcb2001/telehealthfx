@@ -3,6 +3,9 @@ import { BlogGlp1EmotionalEating2026 } from '../../../components/glp1-emotional-
 export const metadata = {
   title: "GLP-1s and Emotional Eating: Breaking the Psychological Cycle",
   description: "How semaglutide breaks the cycle of stress eating by regulating dopamine pathways and reward-seeking behaviors.",
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/glp1-emotional-eating-2026/',
+  },
 };
 
 export default function Page() {

@@ -10,7 +10,7 @@ export const metadata = {
     type: "website"
   },
   alternates: {
-    canonical: "https://telehealthfx.com/locations/clovis"
+    canonical: 'https://telehealthfx.com/locations/clovis/'
   }
 };
 export default function ClovisPage() {

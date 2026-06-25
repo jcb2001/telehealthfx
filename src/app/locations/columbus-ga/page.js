@@ -10,7 +10,7 @@ export const metadata = {
     type: "website"
   },
   alternates: {
-    canonical: "https://telehealthfx.com/locations/columbus-ga"
+    canonical: 'https://telehealthfx.com/locations/columbus-ga/'
   }
 };
 export default function ColumbusGAPage() {

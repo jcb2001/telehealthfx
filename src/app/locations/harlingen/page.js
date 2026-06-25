@@ -10,7 +10,7 @@ export const metadata = {
     type: "website"
   },
   alternates: {
-    canonical: "https://telehealthfx.com/locations/harlingen"
+    canonical: 'https://telehealthfx.com/locations/harlingen/'
   }
 };
 export default function HarlingenPage() {

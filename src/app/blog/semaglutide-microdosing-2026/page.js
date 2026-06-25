@@ -3,6 +3,9 @@ import { BlogSemaglutideMicrodosing2026 } from '../../../components/blog-semaglu
 export const metadata = {
   title: "Semaglutide Microdosing: Split Doses & Zero Side Effects (2026)",
   description: "Learn how microdosing and splitting your GLP-1 dose can eliminate nausea, stabilize blood sugar, and provide a custom titration schedule.",
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/semaglutide-microdosing-2026/',
+  },
 };
 
 export default function Page() {

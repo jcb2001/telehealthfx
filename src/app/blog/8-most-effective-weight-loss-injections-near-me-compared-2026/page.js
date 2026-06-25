@@ -1,6 +1,9 @@
 import { Blog8MostEffectiveWeightLossInjections } from "../../../components/blog-8-most-effective-weight-loss-injections-near-me-compared-2026.jsx";
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/8-most-effective-weight-loss-injections-near-me-compared-2026/',
+  },
   title: "8 Most Effective Weight Loss Injections Near Me Compared | Telehealth FX",
   description: "Compare the 8 most effective weight loss injections near you. Review monthly costs, dose scaling traps, sourcing quality, and muscle preservation.",
   openGraph: {

@@ -3,6 +3,9 @@ import { BlogSemaglutideAlcoholIntolerance2026 } from '../../../components/semag
 export const metadata = {
   title: "Semaglutide and Alcohol Intolerance: Why You Can't Drink Anymore",
   description: "Why drinking wine or beer on a GLP-1 causes severe nausea, rapid intoxication, and why researchers are studying it for addiction.",
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/semaglutide-alcohol-intolerance-2026/',
+  },
 };
 
 export default function Page() {

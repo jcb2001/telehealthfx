@@ -10,7 +10,7 @@ export const metadata = {
     type: "website"
   },
   alternates: {
-    canonical: "https://telehealthfx.com/locations/san-antonio"
+    canonical: 'https://telehealthfx.com/locations/san-antonio/'
   }
 };
 export default function SanAntonioPage() {

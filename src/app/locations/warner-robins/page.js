@@ -10,7 +10,7 @@ export const metadata = {
     type: "website"
   },
   alternates: {
-    canonical: "https://telehealthfx.com/locations/warner-robins"
+    canonical: 'https://telehealthfx.com/locations/warner-robins/'
   }
 };
 export default function WarnerRobinsPage() {

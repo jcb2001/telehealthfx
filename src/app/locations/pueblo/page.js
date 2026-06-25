@@ -10,7 +10,7 @@ export const metadata = {
     type: "website"
   },
   alternates: {
-    canonical: "https://telehealthfx.com/locations/pueblo"
+    canonical: 'https://telehealthfx.com/locations/pueblo/'
   }
 };
 export default function PuebloPage() {

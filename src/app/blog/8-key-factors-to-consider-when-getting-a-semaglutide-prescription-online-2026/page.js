@@ -1,6 +1,9 @@
 import { Blog8KeyFactorsConsider } from "../../../components/blog-8-key-factors-to-consider-when-getting-a-semaglutide-prescription-online-2026.jsx";
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/8-key-factors-to-consider-when-getting-a-semaglutide-prescription-online-2026/',
+  },
   title: "8 Key Factors to Consider When Getting a Semaglutide Prescription Online | Telehealth FX",
   description: "Evaluate online semaglutide platforms with our guide to the 8 key factors to consider. Review pharmacy standards, pricing structures, and muscle protection.",
   openGraph: {

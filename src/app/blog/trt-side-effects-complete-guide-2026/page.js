@@ -3,7 +3,7 @@ import { BlogTrtSideEffectsCompleteGuide2026 } from "../../../components/trt-sid
 export const metadata = {
   title: "TRT Side Effects: The Complete Evidence-Based Guide (Real vs Myth) | Telehealth FX",
   description: "Every TRT side effect ranked by evidence — the TRAVERSE trial on heart safety, hematocrit management, hair loss reality, fertility impacts, and myths debunked.",
-  alternates: { canonical: "https://telehealthfx.com/blog/trt-side-effects-complete-guide-2026" },
+  alternates: { canonical: 'https://telehealthfx.com/blog/trt-side-effects-complete-guide-2026/' },
   openGraph: {
     title: "TRT Side Effects: The Complete Evidence-Based Guide (Real vs Myth)",
     description: "Every TRT side effect ranked by evidence — the TRAVERSE trial on heart safety, hematocrit management, hair loss reality, fertility impacts, and myths debunked.",

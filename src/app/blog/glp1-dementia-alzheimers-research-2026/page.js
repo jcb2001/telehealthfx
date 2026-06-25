@@ -3,6 +3,9 @@ import { BlogGlp1DementiaAlzheimersResearch2026 } from '../../../components/blog
 export const metadata = {
   title: "GLP-1s and Alzheimer's: Can Weight Loss Drugs Protect the Brain?",
   description: "Explore the clinical research on how semaglutide and tirzepatide may reduce neuroinflammation, reverse insulin resistance in the brain, and prevent dementia.",
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/glp1-dementia-alzheimers-research-2026/',
+  },
 };
 
 export default function Page() {

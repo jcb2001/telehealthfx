@@ -3,7 +3,7 @@ import { BlogTrtHeartHealthSafety2026 } from "../../../components/blog-trt-heart
 export const metadata = {
   title: "TRT and Heart Health: The New Safety Guidelines | Telehealth FX",
   description: "Does TRT cause heart attacks? Read the definitive results of the TRAVERSE Trial and learn why modern cardiology says testosterone therapy is safe for the heart.",
-  alternates: { canonical: "https://telehealthfx.com/blog/trt-heart-health-safety-2026" },
+  alternates: { canonical: 'https://telehealthfx.com/blog/trt-heart-health-safety-2026/' },
   openGraph: {
     title: "TRT and Heart Health: The New Safety Guidelines",
     description: "Does TRT cause heart attacks? Read the definitive results of the TRAVERSE Trial and learn why modern cardiology says testosterone therapy is safe for the heart.",

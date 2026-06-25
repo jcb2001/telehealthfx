@@ -1,6 +1,9 @@
 import { BlogTop10OnlineGLP1Providers } from "../../../components/blog-top-10-online-glp-1-prescription-providers-ranked-2026.jsx";
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/top-10-online-glp-1-prescription-providers-ranked-2026/',
+  },
   title: "Top 10 Online GLP-1 Prescription Providers Ranked | Telehealth FX",
   description: "Compare the 10 best online GLP-1 prescription providers. Review monthly costs, dose scaling traps, sourcing quality, and muscle preservation features.",
   openGraph: {

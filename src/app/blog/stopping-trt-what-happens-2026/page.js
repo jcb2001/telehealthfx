@@ -3,7 +3,7 @@ import { BlogStoppingTrtWhatHappens2026 } from "../../../components/blog-stoppin
 export const metadata = {
   title: "The Testosterone Trap: What Happens When You Stop TRT? | Telehealth FX",
   description: "Learn what happens when you stop testosterone replacement therapy, why the crash happens, and the clinical PCT protocols used to restart natural production.",
-  alternates: { canonical: "https://telehealthfx.com/blog/stopping-trt-what-happens-2026" },
+  alternates: { canonical: 'https://telehealthfx.com/blog/stopping-trt-what-happens-2026/' },
   openGraph: {
     title: "The Testosterone Trap: What Happens When You Stop TRT?",
     description: "Learn what happens when you stop testosterone replacement therapy, why the crash happens, and the clinical PCT protocols used to restart natural production.",

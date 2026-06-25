@@ -3,7 +3,7 @@ import { BlogTrtVsNaturalTestosteroneBoosters2026 } from "../../../components/bl
 export const metadata = {
   title: "TRT vs. Natural Testosterone Boosters: Do Supplements Work? | Telehealth FX",
   description: "Learn the clinical difference between over-the-counter testosterone boosters and medical TRT. Why herbs fail to treat hypogonadism, and when to use Enclomiphene.",
-  alternates: { canonical: "https://telehealthfx.com/blog/trt-vs-natural-testosterone-boosters-2026" },
+  alternates: { canonical: 'https://telehealthfx.com/blog/trt-vs-natural-testosterone-boosters-2026/' },
   openGraph: {
     title: "TRT vs. Natural Testosterone Boosters: Do Supplements Work?",
     description: "Learn the clinical difference between over-the-counter testosterone boosters and medical TRT. Why herbs fail to treat hypogonadism, and when to use Enclomiphene.",

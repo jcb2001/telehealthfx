@@ -1,6 +1,9 @@
 import { Blog7TopPlacesTirzepatide } from "../../../components/blog-7-top-places-for-tirzepatide-weight-loss-near-me-2026.jsx";
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/7-top-places-for-tirzepatide-weight-loss-near-me-2026/',
+  },
   title: "7 Top Places for Tirzepatide Weight Loss Near Me | Telehealth FX",
   description: "Compare the top local and digital places to get tirzepatide weight loss near you. Reviews of endocrinologists, MedSpas, clinics, and flat-rate telemedicine.",
   openGraph: {

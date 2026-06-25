@@ -3,6 +3,9 @@ import { BlogTirzepatideSleepApnea2026 } from '../../../components/tirzepatide-s
 export const metadata = {
   title: "Tirzepatide for Sleep Apnea: New Clinical Breakthroughs (2026)",
   description: "Clinical trial data showing how tirzepatide effectively resolves obstructive sleep apnea (OSA) independent of CPAP therapy.",
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/tirzepatide-sleep-apnea-2026/',
+  },
 };
 
 export default function Page() {

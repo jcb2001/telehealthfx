@@ -1,6 +1,9 @@
 import { BlogGlp1DoseCyclingBreaksSemaglutide2026 } from '../../../components/blog-glp1-dose-cycling-breaks-semaglutide-2026';
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/glp1-dose-cycling-breaks-semaglutide-2026/',
+  },
   title: "GLP-1 Dose Cycling: Should You Take Breaks from Semaglutide or Tirzepatide? | Telehealth FX",
   description: "Should you cycle on and off semaglutide or tirzepatide? The clinical evidence says no. STEP 4 data shows rapid rebound weight gain. Learn why maintenance dosing beats drug holidays.",
   openGraph: {

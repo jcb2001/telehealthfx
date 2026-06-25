@@ -10,7 +10,7 @@ export const metadata = {
     type: "website"
   },
   alternates: {
-    canonical: "https://telehealthfx.com/locations/elizabethtown"
+    canonical: 'https://telehealthfx.com/locations/elizabethtown/'
   }
 };
 export default function ElizabethtownPage() {

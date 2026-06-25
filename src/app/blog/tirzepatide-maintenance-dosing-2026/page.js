@@ -3,6 +3,9 @@ import { BlogTirzepatideMaintenanceDosing2026 } from '../../../components/blog-t
 export const metadata = {
   title: "Tirzepatide Maintenance Dosing: Prevent Weight Regain (2026) | Telehealth FX",
   description: "Clinical protocols for stepping down tirzepatide. Learn about dose titration, interval extension, and micro-dosing to keep the weight off forever.",
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/tirzepatide-maintenance-dosing-2026/',
+  },
 };
 
 export default function Page() {

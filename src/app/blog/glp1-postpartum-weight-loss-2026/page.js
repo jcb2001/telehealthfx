@@ -3,6 +3,9 @@ import { BlogGlp1PostpartumWeightLoss2026 } from '../../../components/glp1-postp
 export const metadata = {
   title: "GLP-1s for Postpartum Weight Loss: Timelines and Safety",
   description: "When is it safe to start a GLP-1 after giving birth? A guide to postpartum metabolic recovery and medication safety.",
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/glp1-postpartum-weight-loss-2026/',
+  },
 };
 
 export default function Page() {

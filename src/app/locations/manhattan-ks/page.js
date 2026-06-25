@@ -10,7 +10,7 @@ export const metadata = {
     type: "website"
   },
   alternates: {
-    canonical: "https://telehealthfx.com/locations/manhattan-ks"
+    canonical: 'https://telehealthfx.com/locations/manhattan-ks/'
   }
 };
 export default function ManhattanKSPage() {

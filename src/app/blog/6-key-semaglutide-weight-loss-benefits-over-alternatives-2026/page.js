@@ -3,6 +3,9 @@ import { Blog6KeySemaglutideBenefits } from '../../../components/blog-6-key-sema
 export const metadata = {
   title: "6 Key Semaglutide Weight Loss Benefits Over Alternatives (2026) | Telehealth FX",
   description: "Discover the 6 key clinical benefits of semaglutide for weight loss over alternatives like oral stimulants, gastric bypass surgery, dieting, and supplements.",
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/6-key-semaglutide-weight-loss-benefits-over-alternatives-2026/',
+  },
 };
 
 export default function Page() {

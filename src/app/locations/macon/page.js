@@ -10,7 +10,7 @@ export const metadata = {
     type: "website"
   },
   alternates: {
-    canonical: "https://telehealthfx.com/locations/macon"
+    canonical: 'https://telehealthfx.com/locations/macon/'
   }
 };
 export default function MaconPage() {

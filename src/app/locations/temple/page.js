@@ -10,7 +10,7 @@ export const metadata = {
     type: "website"
   },
   alternates: {
-    canonical: "https://telehealthfx.com/locations/temple"
+    canonical: 'https://telehealthfx.com/locations/temple/'
   }
 };
 export default function TemplePage() {

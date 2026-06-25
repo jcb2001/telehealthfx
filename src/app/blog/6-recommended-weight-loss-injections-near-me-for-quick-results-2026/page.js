@@ -1,6 +1,9 @@
 import { Blog6RecommendedWeightLossInjections } from "../../../components/blog-6-recommended-weight-loss-injections-near-me-for-quick-results-2026.jsx";
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/6-recommended-weight-loss-injections-near-me-for-quick-results-2026/',
+  },
   title: "6 Recommended Weight Loss Injections Near Me for Quick Results | Telehealth FX",
   description: "Compare the 6 recommended weight loss injections near you for quick results. Review costs, sourcing safety, results timelines, and muscle preservation features.",
   openGraph: {

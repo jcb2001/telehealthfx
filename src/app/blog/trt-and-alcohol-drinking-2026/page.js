@@ -3,7 +3,7 @@ import { BlogTrtAndAlcoholDrinking2026 } from "../../../components/blog-trt-and-
 export const metadata = {
   title: "TRT and Alcohol: Can You Drink on Testosterone Therapy? | Telehealth FX",
   description: "Learn how alcohol impacts testosterone replacement therapy. Discover why binge drinking spikes estrogen and the clinical guidelines for moderate alcohol consumption on TRT.",
-  alternates: { canonical: "https://telehealthfx.com/blog/trt-and-alcohol-drinking-2026" },
+  alternates: { canonical: 'https://telehealthfx.com/blog/trt-and-alcohol-drinking-2026/' },
   openGraph: {
     title: "TRT and Alcohol: Can You Drink on Testosterone Therapy?",
     description: "Learn how alcohol impacts testosterone replacement therapy. Discover why binge drinking spikes estrogen and the clinical guidelines for moderate alcohol consumption on TRT.",

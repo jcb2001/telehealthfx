@@ -3,6 +3,9 @@ import { Blog8EssentialSemaglutideTips } from '../../../components/blog-8-essent
 export const metadata = {
   title: "8 Essential Semaglutide Weight Loss Tips for Beginners (2026 Guide) | Telehealth FX",
   description: "Learn the 8 essential tips for semaglutide beginners, including titration schedules, hydration targets, protein consumption, resistance training, and clinical oversight to preserve muscle.",
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/8-essential-semaglutide-weight-loss-tips-for-beginners-2026/',
+  },
 };
 
 export default function Page() {

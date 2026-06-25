@@ -10,7 +10,7 @@ export const metadata = {
     type: "website"
   },
   alternates: {
-    canonical: "https://telehealthfx.com/locations/louisville"
+    canonical: 'https://telehealthfx.com/locations/louisville/'
   }
 };
 export default function LouisvillePage() {

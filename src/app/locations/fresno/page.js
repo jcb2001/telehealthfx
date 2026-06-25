@@ -10,7 +10,7 @@ export const metadata = {
     type: "website"
   },
   alternates: {
-    canonical: "https://telehealthfx.com/locations/fresno"
+    canonical: 'https://telehealthfx.com/locations/fresno/'
   }
 };
 export default function FresnoPage() {

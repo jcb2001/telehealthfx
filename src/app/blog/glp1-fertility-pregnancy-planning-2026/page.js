@@ -3,6 +3,9 @@ import { BlogGlp1FertilityPregnancyPlanning2026 } from '../../../components/glp1
 export const metadata = {
   title: "GLP-1s and Fertility: What to Know Before Getting Pregnant (2026)",
   description: "Clinical guidelines on taking semaglutide or tirzepatide while trying to conceive, PCOS fertility improvements, and pregnancy safety.",
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/glp1-fertility-pregnancy-planning-2026/',
+  },
 };
 
 export default function Page() {

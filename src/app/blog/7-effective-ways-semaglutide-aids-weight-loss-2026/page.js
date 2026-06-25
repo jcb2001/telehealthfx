@@ -3,6 +3,9 @@ import { Blog7EffectiveWaysSemaglutide } from '../../../components/blog-7-effect
 export const metadata = {
   title: "7 Effective Ways Semaglutide Aids Weight Loss (2026) | Telehealth FX",
   description: "Discover the 7 key physiological pathways through which semaglutide drives weight loss: brain receptor stimulation, digestion regulation, hormone balance, and cellular health.",
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/7-effective-ways-semaglutide-aids-weight-loss-2026/',
+  },
 };
 
 export default function Page() {

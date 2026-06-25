@@ -3,6 +3,9 @@ import { BlogTrtVsPeptides2026 } from '@/components/blog-trt-vs-peptides-2026';
 export const metadata = {
   title: "TRT vs. Peptides (Sermorelin/Ipamorelin): Which is Better? | Telehealth FX",
   description: "Understand the biological differences between Testosterone Replacement Therapy (TRT) and Growth Hormone Secretagogues (Peptides). Which do you need?",
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/trt-vs-peptides-2026/',
+  },
 };
 
 export default function Page() {

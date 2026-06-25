@@ -10,7 +10,7 @@ export const metadata = {
     type: "website"
   },
   alternates: {
-    canonical: "https://telehealthfx.com/locations/biloxi"
+    canonical: 'https://telehealthfx.com/locations/biloxi/'
   }
 };
 export default function BiloxiPage() {

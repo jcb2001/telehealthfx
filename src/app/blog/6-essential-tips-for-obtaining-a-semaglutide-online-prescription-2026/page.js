@@ -1,6 +1,9 @@
 import { Blog6EssentialTipsObtaining } from "../../../components/blog-6-essential-tips-for-obtaining-a-semaglutide-online-prescription-2026.jsx";
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/6-essential-tips-for-obtaining-a-semaglutide-online-prescription-2026/',
+  },
   title: "6 Essential Tips for Obtaining a Semaglutide Online Prescription | Telehealth FX",
   description: "Learn the 6 essential tips for obtaining a semaglutide online prescription safely. Discover pricing strategies, sourcing quality, and muscle preservation.",
   openGraph: {

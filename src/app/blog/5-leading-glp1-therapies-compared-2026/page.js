@@ -3,6 +3,9 @@ import { Blog5LeadingGLP1Therapies } from '../../../components/blog-5-leading-gl
 export const metadata = {
   title: "5 Leading GLP-1 Therapies Compared: The 2026 Guide | Telehealth FX",
   description: "Compare the top GLP-1 weight loss therapies: Telehealth FX Medical Program, Tirzepatide, Semaglutide, Liraglutide, and Retatrutide. Discover efficacy, cost, and muscle-preservation strategies.",
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/5-leading-glp1-therapies-compared-2026/',
+  },
 };
 
 export default function Page() {

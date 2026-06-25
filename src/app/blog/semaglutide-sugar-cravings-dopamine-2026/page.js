@@ -3,6 +3,9 @@ import { BlogSemaglutideSugarCravingsDopamine2026 } from '../../../components/se
 export const metadata = {
   title: "Why Semaglutide Kills Sugar Cravings: The Dopamine Connection",
   description: "The biological reason why GLP-1 medications instantly eliminate sugar cravings and change flavor preferences.",
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/semaglutide-sugar-cravings-dopamine-2026/',
+  },
 };
 
 export default function Page() {

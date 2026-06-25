@@ -10,7 +10,7 @@ export const metadata = {
     type: "website"
   },
   alternates: {
-    canonical: "https://telehealthfx.com/locations/beaumont"
+    canonical: 'https://telehealthfx.com/locations/beaumont/'
   }
 };
 export default function BeaumontPage() {

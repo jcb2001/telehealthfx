@@ -3,7 +3,7 @@ import { BlogTestosteroneCypionateVsEnanthate2026 } from "../../../components/te
 export const metadata = {
   title: "Testosterone Cypionate vs Enanthate: Does It Matter Which You Use? | Telehealth FX",
   description: "Clinical comparison of testosterone cypionate and enanthate esters — half-life, injection frequency, side effects, cost, and switching protocols.",
-  alternates: { canonical: "https://telehealthfx.com/blog/testosterone-cypionate-vs-enanthate-2026" },
+  alternates: { canonical: 'https://telehealthfx.com/blog/testosterone-cypionate-vs-enanthate-2026/' },
   openGraph: {
     title: "Testosterone Cypionate vs Enanthate: Does It Matter Which You Use?",
     description: "Clinical comparison of testosterone cypionate and enanthate esters — half-life, injection frequency, side effects, cost, and switching protocols.",

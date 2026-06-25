@@ -10,7 +10,7 @@ export const metadata = {
     type: "website"
   },
   alternates: {
-    canonical: "https://telehealthfx.com/locations/shreveport"
+    canonical: 'https://telehealthfx.com/locations/shreveport/'
   }
 };
 export default function ShreveportPage() {

@@ -10,7 +10,7 @@ export const metadata = {
     type: "website"
   },
   alternates: {
-    canonical: "https://telehealthfx.com/locations/el-paso"
+    canonical: 'https://telehealthfx.com/locations/el-paso/'
   }
 };
 export default function ElPasoPage() {

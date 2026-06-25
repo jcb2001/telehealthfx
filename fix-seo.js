@@ -104,8 +104,24 @@ function generateSitemap(pages) {
 function injectCanonical(filePath, canonicalUrl) {
   let content = fs.readFileSync(filePath, 'utf-8');
 
-  // Skip if canonical is already set
+  // Check if canonical is already set
   if (content.includes('alternates') && content.includes('canonical')) {
+    if (canonicalUrl === 'dynamic') {
+      if (content.includes('canonical: `https://telehealthfx.com/${slug}/`')) {
+        return false;
+      }
+    } else {
+      const canonicalMatch = content.match(/canonical:\s*['"`]([^'"`]+)['"`]/);
+      if (canonicalMatch) {
+        if (canonicalMatch[1] === canonicalUrl) {
+          return false;
+        }
+        // Update existing mismatched canonical
+        content = content.replace(canonicalMatch[0], `canonical: '${canonicalUrl}'`);
+        fs.writeFileSync(filePath, content, 'utf-8');
+        return true;
+      }
+    }
     console.log(`  ⏭  Already has canonical: ${filePath}`);
     return false;
   }

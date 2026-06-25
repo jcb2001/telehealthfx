@@ -3,7 +3,7 @@ import { BlogWeddingWeightLossGlp1Timeline2026 } from "../../../components/blog-
 export const metadata = {
   title: "Wedding Weight Loss With GLP-1: A Realistic 3–6 Month Timeline | Telehealth FX",
   description: "Month-by-month GLP-1 weight loss timeline for brides and grooms. When to start semaglutide or tirzepatide, how to time dose titration around wedding events, and how to manage dress and suit alterations.",
-  alternates: { canonical: "https://telehealthfx.com/blog/wedding-weight-loss-glp1-timeline-2026" },
+  alternates: { canonical: 'https://telehealthfx.com/blog/wedding-weight-loss-glp1-timeline-2026/' },
   openGraph: {
     title: "Wedding Weight Loss With GLP-1: A Realistic 3–6 Month Timeline",
     description: "Month-by-month GLP-1 weight loss timeline for brides and grooms. When to start, how to time dose titration, and how to manage alterations.",

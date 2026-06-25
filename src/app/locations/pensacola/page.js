@@ -10,7 +10,7 @@ export const metadata = {
     type: "website"
   },
   alternates: {
-    canonical: "https://telehealthfx.com/locations/pensacola"
+    canonical: 'https://telehealthfx.com/locations/pensacola/'
   }
 };
 export default function PensacolaPage() {

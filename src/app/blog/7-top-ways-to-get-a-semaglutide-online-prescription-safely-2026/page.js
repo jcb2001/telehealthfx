@@ -1,6 +1,9 @@
 import { Blog7TopWaysGetSemaglutideOnline } from "../../../components/blog-7-top-ways-to-get-a-semaglutide-online-prescription-safely-2026.jsx";
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/7-top-ways-to-get-a-semaglutide-online-prescription-safely-2026/',
+  },
   title: "7 Top Ways to Get a Semaglutide Online Prescription Safely | Telehealth FX",
   description: "Review the 7 top ways to get a semaglutide online prescription safely. Learn about pharmacy safety, red flags, and muscle-preservation protocols.",
   openGraph: {

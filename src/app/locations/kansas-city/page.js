@@ -10,7 +10,7 @@ export const metadata = {
     type: "website"
   },
   alternates: {
-    canonical: "https://telehealthfx.com/locations/kansas-city"
+    canonical: 'https://telehealthfx.com/locations/kansas-city/'
   }
 };
 export default function KansasCityPage() {

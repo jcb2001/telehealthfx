@@ -1,6 +1,9 @@
 import { BlogSummerBodyGlp18WeekProtocol2026 } from '../../../components/blog-summer-body-glp1-8-week-protocol-2026';
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/summer-body-glp1-8-week-protocol-2026/',
+  },
   title: "Summer Body Reset: 8-Week GLP-1 Protocol for Beach Season 2026 | Telehealth FX",
   description: "An aggressive but safe 8-week semaglutide protocol combining GLP-1 with resistance training and high-protein nutrition. Week-by-week breakdown for 10-15 lbs of fat loss by August 2026.",
   openGraph: {

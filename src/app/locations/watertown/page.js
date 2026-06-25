@@ -10,7 +10,7 @@ export const metadata = {
     type: "website"
   },
   alternates: {
-    canonical: "https://telehealthfx.com/locations/watertown"
+    canonical: 'https://telehealthfx.com/locations/watertown/'
   }
 };
 export default function WatertownPage() {

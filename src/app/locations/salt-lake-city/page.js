@@ -10,7 +10,7 @@ export const metadata = {
     type: "website"
   },
   alternates: {
-    canonical: "https://telehealthfx.com/locations/salt-lake-city"
+    canonical: 'https://telehealthfx.com/locations/salt-lake-city/'
   }
 };
 export default function SaltLakeCityPage() {

@@ -10,7 +10,7 @@ export const metadata = {
     type: "website"
   },
   alternates: {
-    canonical: "https://telehealthfx.com/locations/grand-rapids"
+    canonical: 'https://telehealthfx.com/locations/grand-rapids/'
   }
 };
 export default function GrandRapidsPage() {

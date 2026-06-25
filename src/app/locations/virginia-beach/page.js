@@ -10,7 +10,7 @@ export const metadata = {
     type: "website"
   },
   alternates: {
-    canonical: "https://telehealthfx.com/locations/virginia-beach"
+    canonical: 'https://telehealthfx.com/locations/virginia-beach/'
   }
 };
 export default function VirginiaBeachPage() {

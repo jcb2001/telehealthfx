@@ -10,7 +10,7 @@ export const metadata = {
     type: "website"
   },
   alternates: {
-    canonical: "https://telehealthfx.com/locations/richmond"
+    canonical: 'https://telehealthfx.com/locations/richmond/'
   }
 };
 export default function RichmondPage() {

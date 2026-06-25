@@ -3,6 +3,9 @@ import { BlogCompoundedTirzepatideLegality2026 } from '../../../components/blog-
 export const metadata = {
   title: "Is Compounded Tirzepatide Legal? FDA Guidelines (2026) | Telehealth FX",
   description: "Complete guide to the legality of compounded tirzepatide, FDA shortage lists, section 503A/B pharmacies, and the difference between base vs. salt forms.",
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/compounded-tirzepatide-legality-2026/',
+  },
 };
 
 export default function Page() {

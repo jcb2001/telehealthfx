@@ -10,7 +10,7 @@ export const metadata = {
     type: "website"
   },
   alternates: {
-    canonical: "https://telehealthfx.com/locations/college-station"
+    canonical: 'https://telehealthfx.com/locations/college-station/'
   }
 };
 export default function CollegeStationPage() {

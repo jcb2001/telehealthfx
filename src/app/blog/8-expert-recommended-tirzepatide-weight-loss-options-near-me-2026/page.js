@@ -3,6 +3,9 @@ import { Blog8ExpertRecommendedTirzepatideOptions } from '../../../components/bl
 export const metadata = {
   title: "8 Expert-Recommended Tirzepatide Weight Loss Options Near Me",
   description: "Explore the top 8 expert-approved options for starting Tirzepatide treatment, comparing monthly costs, clinical oversight, and compounding pharmacy safety.",
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/8-expert-recommended-tirzepatide-weight-loss-options-near-me-2026/',
+  },
 };
 
 export default function Page() {

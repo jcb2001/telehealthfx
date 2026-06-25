@@ -10,7 +10,7 @@ export const metadata = {
     type: "website"
   },
   alternates: {
-    canonical: "https://telehealthfx.com/locations/st-louis"
+    canonical: 'https://telehealthfx.com/locations/st-louis/'
   }
 };
 export default function StLouisPage() {

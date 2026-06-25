@@ -3,7 +3,7 @@ import { BlogTrtTimeline2026 } from "../../../components/blog-trt-timeline-first
 export const metadata = {
   title: "TRT Timeline: What to Expect in Your First 6 Months | Telehealth FX",
   description: "A month-by-month breakdown of physical and mental changes on testosterone replacement therapy. Learn how long it takes for TRT to work.",
-  alternates: { canonical: "https://telehealthfx.com/blog/trt-timeline-first-6-months-2026" },
+  alternates: { canonical: 'https://telehealthfx.com/blog/trt-timeline-first-6-months-2026/' },
   openGraph: {
     title: "TRT Timeline: What to Expect in Your First 6 Months",
     description: "A month-by-month breakdown of physical and mental changes on testosterone replacement therapy. Learn how long it takes for TRT to work.",

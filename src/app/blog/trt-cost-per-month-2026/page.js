@@ -3,7 +3,7 @@ import { BlogTrtCostPerMonth2026 } from "../../../components/trt-cost-per-month-
 export const metadata = {
   title: "How Much Does TRT Cost Per Month in 2026? Complete Pricing Breakdown | Telehealth FX",
   description: "Complete cost breakdown of testosterone replacement therapy in 2026 — comparing telehealth vs clinic pricing, insurance coverage, HSA/FSA eligibility, and how to get TRT from $79/mo.",
-  alternates: { canonical: "https://telehealthfx.com/blog/trt-cost-per-month-2026" },
+  alternates: { canonical: 'https://telehealthfx.com/blog/trt-cost-per-month-2026/' },
   openGraph: {
     title: "How Much Does TRT Cost Per Month in 2026? Complete Pricing Breakdown",
     description: "Complete cost breakdown of testosterone replacement therapy in 2026 — comparing telehealth vs clinic pricing, insurance coverage, HSA/FSA eligibility, and how to get TRT from $79/mo.",

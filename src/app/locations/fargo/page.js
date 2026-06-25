@@ -10,7 +10,7 @@ export const metadata = {
     type: "website"
   },
   alternates: {
-    canonical: "https://telehealthfx.com/locations/fargo"
+    canonical: 'https://telehealthfx.com/locations/fargo/'
   }
 };
 export default function FargoPage() {

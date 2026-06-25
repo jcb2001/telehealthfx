@@ -3,6 +3,9 @@ import { BlogCompoundedSemaglutideRedFlags2026 } from '../../../components/blog-
 export const metadata = {
   title: "7 Red Flags When Buying Compounded Semaglutide (2026)",
   description: "How to spot unsafe telehealth providers, illegal semaglutide sodium, and fake pharmacies. A consumer protection guide for GLP-1 weight loss.",
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/compounded-semaglutide-red-flags-2026/',
+  },
 };
 
 export default function Page() {

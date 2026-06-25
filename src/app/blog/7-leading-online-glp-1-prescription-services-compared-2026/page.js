@@ -1,6 +1,9 @@
 import { Blog7LeadingOnlineGLP1Prescriptions } from "../../../components/blog-7-leading-online-glp-1-prescription-services-compared-2026.jsx";
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/7-leading-online-glp-1-prescription-services-compared-2026/',
+  },
   title: "7 Leading Online GLP-1 Prescription Services Compared | Telehealth FX",
   description: "Compare the 7 leading online GLP-1 prescription platforms. Review costs, sourcing quality, pros and cons, and muscle preservation protocols.",
   openGraph: {

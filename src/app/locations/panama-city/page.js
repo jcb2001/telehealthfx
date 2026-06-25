@@ -10,7 +10,7 @@ export const metadata = {
     type: "website"
   },
   alternates: {
-    canonical: "https://telehealthfx.com/locations/panama-city"
+    canonical: 'https://telehealthfx.com/locations/panama-city/'
   }
 };
 export default function PanamaCityPage() {

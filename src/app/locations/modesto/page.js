@@ -10,7 +10,7 @@ export const metadata = {
     type: "website"
   },
   alternates: {
-    canonical: "https://telehealthfx.com/locations/modesto"
+    canonical: 'https://telehealthfx.com/locations/modesto/'
   }
 };
 export default function ModestoPage() {

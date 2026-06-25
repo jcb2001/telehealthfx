@@ -10,7 +10,7 @@ export const metadata = {
     type: "website"
   },
   alternates: {
-    canonical: "https://telehealthfx.com/locations/brownsville"
+    canonical: 'https://telehealthfx.com/locations/brownsville/'
   }
 };
 export default function BrownsvillePage() {

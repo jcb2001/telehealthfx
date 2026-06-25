@@ -10,7 +10,7 @@ export const metadata = {
     type: "website"
   },
   alternates: {
-    canonical: "https://telehealthfx.com/locations/erie"
+    canonical: 'https://telehealthfx.com/locations/erie/'
   }
 };
 export default function EriePage() {

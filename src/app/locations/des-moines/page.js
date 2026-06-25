@@ -10,7 +10,7 @@ export const metadata = {
     type: "website"
   },
   alternates: {
-    canonical: "https://telehealthfx.com/locations/des-moines"
+    canonical: 'https://telehealthfx.com/locations/des-moines/'
   }
 };
 export default function DesMoinesPage() {

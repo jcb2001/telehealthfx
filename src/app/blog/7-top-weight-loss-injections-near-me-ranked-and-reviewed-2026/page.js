@@ -1,6 +1,9 @@
 import { Blog7TopWeightLossInjections } from "../../../components/blog-7-top-weight-loss-injections-near-me-ranked-and-reviewed-2026.jsx";
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/7-top-weight-loss-injections-near-me-ranked-and-reviewed-2026/',
+  },
   title: "7 Top Weight Loss Injections Near Me: Ranked and Reviewed | Telehealth FX",
   description: "Compare the 7 top weight loss injections near you. Review local endocrinologists, MedSpas, primary care, and flat-rate telemedicine options for semaglutide and tirzepatide.",
   openGraph: {

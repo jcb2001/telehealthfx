@@ -3,6 +3,9 @@ import { BlogTrtInjectionPainSubqVsIm2026 } from '@/components/blog-trt-injectio
 export const metadata = {
   title: "TRT Needle Anxiety: Pain-Free SubQ vs. IM Injections | Telehealth FX",
   description: "Overcome needle anxiety with modern clinical TRT protocols. Learn why Subcutaneous (SubQ) micro-injections are replacing deep Intramuscular (IM) shots.",
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/trt-injection-pain-subq-vs-im-2026/',
+  },
 };
 
 export default function Page() {

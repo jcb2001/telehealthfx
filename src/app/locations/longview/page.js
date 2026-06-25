@@ -10,7 +10,7 @@ export const metadata = {
     type: "website"
   },
   alternates: {
-    canonical: "https://telehealthfx.com/locations/longview"
+    canonical: 'https://telehealthfx.com/locations/longview/'
   }
 };
 export default function LongviewPage() {

@@ -1,6 +1,9 @@
 import { Blog5LeadingWeightLossInjections } from "../../../components/blog-5-leading-weight-loss-injections-near-me-you-need-to-know-2026.jsx";
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/5-leading-weight-loss-injections-near-me-you-need-to-know-2026/',
+  },
   title: "5 Leading Weight Loss Injections Near Me You Need to Know | Telehealth FX",
   description: "Compare the 5 leading weight loss injections near you. Review Telehealth FX, Henry Meds, Mochi Health, PlushCare, and local MedSpas for pricing, safety, and muscle protection.",
   openGraph: {

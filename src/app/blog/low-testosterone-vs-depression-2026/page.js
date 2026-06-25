@@ -3,7 +3,7 @@ import { BlogLowTestosteroneVsDepression2026 } from "../../../components/blog-lo
 export const metadata = {
   title: "Low Testosterone vs. Depression: Are You Misdiagnosed? | Telehealth FX",
   description: "Learn why low testosterone is often misdiagnosed as depression, the dangers of SSRIs, and how hormone optimization can restore your mood and motivation.",
-  alternates: { canonical: "https://telehealthfx.com/blog/low-testosterone-vs-depression-2026" },
+  alternates: { canonical: 'https://telehealthfx.com/blog/low-testosterone-vs-depression-2026/' },
   openGraph: {
     title: "Low Testosterone vs. Depression: Are You Misdiagnosed?",
     description: "Learn why low testosterone is often misdiagnosed as depression, the dangers of SSRIs, and how hormone optimization can restore your mood and motivation.",

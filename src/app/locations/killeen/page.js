@@ -10,7 +10,7 @@ export const metadata = {
     type: "website"
   },
   alternates: {
-    canonical: "https://telehealthfx.com/locations/killeen"
+    canonical: 'https://telehealthfx.com/locations/killeen/'
   }
 };
 export default function KilleenPage() {

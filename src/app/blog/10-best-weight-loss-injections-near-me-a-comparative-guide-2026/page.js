@@ -1,6 +1,9 @@
 import { Blog10BestWeightLossInjections } from "../../../components/blog-10-best-weight-loss-injections-near-me-a-comparative-guide-2026.jsx";
 
 export const metadata = {
+  alternates: {
+    canonical: 'https://telehealthfx.com/blog/10-best-weight-loss-injections-near-me-a-comparative-guide-2026/',
+  },
   title: "10 Best Weight Loss Injections Near Me: A Comparative Guide | Telehealth FX",
   description: "Compare the 10 best weight loss injections near you. Review costs, sourcing safety, and muscle protection features for endocrinologists, clinics, and telehealth options.",
   openGraph: {

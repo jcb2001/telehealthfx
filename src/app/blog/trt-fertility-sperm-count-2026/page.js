@@ -3,7 +3,7 @@ import { BlogTrtFertilitySpermCount2026 } from "../../../components/blog-trt-fer
 export const metadata = {
   title: "TRT and Male Fertility: How to Preserve Sperm Count | Telehealth FX",
   description: "Does TRT cause infertility? Learn how exogenous testosterone affects sperm count, and how protocols like HCG and Enclomiphene preserve male fertility.",
-  alternates: { canonical: "https://telehealthfx.com/blog/trt-fertility-sperm-count-2026" },
+  alternates: { canonical: 'https://telehealthfx.com/blog/trt-fertility-sperm-count-2026/' },
   openGraph: {
     title: "TRT and Male Fertility: How to Preserve Sperm Count",
     description: "Does TRT cause infertility? Learn how exogenous testosterone affects sperm count, and how protocols like HCG and Enclomiphene preserve male fertility.",

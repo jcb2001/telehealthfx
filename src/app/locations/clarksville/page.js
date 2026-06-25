@@ -10,7 +10,7 @@ export const metadata = {
     type: "website"
   },
   alternates: {
-    canonical: "https://telehealthfx.com/locations/clarksville"
+    canonical: 'https://telehealthfx.com/locations/clarksville/'
   }
 };
 export default function ClarksvillePage() {
