@@ -108,6 +108,60 @@ function Medications() {
       ],
     },
     {
+      name: 'Sublingual Semaglutide',
+      tag: 'Needle-Free Drops',
+      tagType: 'brand',
+      price: '199',
+      intro: 'A once-daily sublingual Semaglutide liquid (oral drops) designed to dissolve under the tongue — the perfect needle-free alternative.',
+      avg: 'Appetite Control',
+      avgSub: 'Primary Benefit',
+      icon: 'pill',
+      ctaUrl: '/medications/sublingual-semaglutide',
+      ctaLabel: 'Learn More',
+      features: [
+        'No weekly needles or injections',
+        'Dissolves daily under the tongue',
+        'Zero hidden membership fees',
+        'Free 2-Day UPS Shipping included',
+      ],
+    },
+    {
+      name: 'Semaglutide Tablets',
+      tag: 'Once-Daily Tablet',
+      tagType: 'accent',
+      price: '249',
+      intro: 'A convenient daily sublingual tablet containing compounded Semaglutide. Dissolves under the tongue with zero needles.',
+      avg: 'Sustained Satiety',
+      avgSub: 'Primary Benefit',
+      icon: 'pill',
+      ctaUrl: '/medications/semaglutide-tablets',
+      ctaLabel: 'Learn More',
+      features: [
+        'Easy once-daily dissolving tablet',
+        'Same active molecule as Wegovy®',
+        'Zero weekly injections or pain',
+        'Free 2-Day UPS Shipping included',
+      ],
+    },
+    {
+      name: 'Tirzepatide Tablets',
+      tag: 'Dual-Action Oral',
+      tagType: 'accent',
+      price: '299',
+      intro: 'The ultimate daily sublingual tablet with dual GIP/GLP-1 action. A needle-free alternative to Mounjaro® for maximum weight management.',
+      avg: 'Dual-Action Loss',
+      avgSub: 'Primary Benefit',
+      icon: 'pill',
+      ctaUrl: '/medications/tirzepatide-tablets',
+      ctaLabel: 'Learn More',
+      features: [
+        'Dual GIP/GLP-1 receptor activation',
+        'Powerful needle-free daily tablet',
+        'Zero hidden membership fees',
+        'Free 2-Day UPS Shipping included',
+      ],
+    },
+    {
       name: 'NAD+',
       tag: 'Cellular Energy',
       tagType: 'brand',
@@ -285,7 +339,7 @@ function MedCard({ med, selected, onSelect }) {
             {med.tag}
           </div>
         </div>
-        {med.icon === 'patch' ? <Icon.Shield size={22} /> : <Icon.Syringe size={22} />}
+        {med.icon === 'patch' ? <Icon.Shield size={22} /> : med.icon === 'pill' ? <Icon.Pill size={22} /> : <Icon.Syringe size={22} />}
       </div>
 
       <h3 className="serif" style={{ fontSize: 48, marginBottom: 16 }}>{med.name}</h3>

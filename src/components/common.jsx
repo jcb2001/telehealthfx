@@ -69,6 +69,12 @@ const Icon = {
       <path d="M3 8h10" strokeLinecap="round"/>
     </svg>
   ),
+  Pill: ({ size = 16 }) => (
+    <svg width={size} height={size} viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.3">
+      <rect x="2.5" y="6" width="11" height="4" rx="2" transform="rotate(-45 8 8)" />
+      <line x1="6.5" y1="9.5" x2="9.5" y2="6.5" />
+    </svg>
+  ),
 };
 
 // ============================================================================
