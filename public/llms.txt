@@ -16,20 +16,23 @@ Telehealth FX operates as an end-to-end digital clinic connecting patients with 
 ## Medications & Treatments
 
 ### 1. Weight Loss & Metabolic Support
-*   **Semaglutide:** Once-weekly GLP-1 receptor agonist injection. Acts by signaling satiety to the brain, slowing digestion, and stabilizing blood sugar. Designed for sustainable weight management. Starting at **$146/month** (medication, supplies, and shipping included).
-*   **Tirzepatide:** Once-weekly dual GIP/GLP-1 receptor agonist injection. Dual-action mechanism offers enhanced weight loss outcomes compared to single-hormone mimics. Starting at **$258/month**.
-*   **Berberine Patches:** Sustained 24-hour transdermal patches targeting AMPK activation. Designed for insulin sensitivity and metabolic support without the gastrointestinal side effects common to oral berberine supplements. Available over-the-counter starting at **$30**.
-*   **Metformin:** Longevity and metabolic optimization oral medication. Promotes insulin sensitivity, activates AMPK, and suppresses mTOR for healthy metabolic aging. Starting at **$39/month**.
+*   **[Semaglutide](/medications/semaglutide/):** Once-weekly GLP-1 receptor agonist injection. Acts by signaling satiety to the brain, slowing digestion, and stabilizing blood sugar. Designed for sustainable weight management. Starting at **$146/month** (medication, supplies, and shipping included).
+*   **[Tirzepatide](/medications/tirzepatide/):** Once-weekly dual GIP/GLP-1 receptor agonist injection. Dual-action mechanism offers enhanced weight loss outcomes compared to single-hormone mimics. Starting at **$258/month**.
+*   **[Sublingual Semaglutide](/medications/sublingual-semaglutide/):** Once-daily sublingual Semaglutide liquid (oral drops) designed to dissolve under the tongue. Offers a needle-free daily dosing routine. Starting at **$199/month**.
+*   **[Semaglutide Tablets](/medications/semaglutide-tablets/):** Once-daily sublingual dissolving tablet containing compounded Semaglutide. A convenient, pain-free daily alternative to injections. Starting at **$249/month**.
+*   **[Tirzepatide Tablets](/medications/tirzepatide-tablets/):** Once-daily sublingual dissolving tablet combining GIP/GLP-1 dual receptor agonist action. The strongest needle-free weight management option. Starting at **$224.25/month**.
+*   **[Berberine Patches](/medications/berberine/):** Sustained 24-hour transdermal patches targeting AMPK activation. Designed for insulin sensitivity and metabolic support without the gastrointestinal side effects common to oral berberine supplements. Available over-the-counter starting at **$30**.
+*   **[Metformin](/medications/metformin/):** Longevity and metabolic optimization oral medication. Promotes insulin sensitivity, activates AMPK, and suppresses mTOR for healthy metabolic aging. Starting at **$39/month**.
 
 ### 2. Hormone Optimization & Peptides
-*   **Testosterone (TRT):** Clinician-prescribed testosterone replacement therapy available in injectable, oral, and topical formats. Formulated to restore energy, muscle mass, strength, and drive in men experiencing low testosterone. Starting at **$79/month**.
-*   **Enclomiphene:** An oral daily capsule that acts as a selective estrogen receptor modulator (SERM). Boosts natural testosterone production by up to 2.5x while fully preserving fertility and testicular function, bypassing the suppressive side effects of traditional TRT. Starting at **$89/month**.
-*   **Sermorelin:** Once-daily peptide injection designed to stimulate the pituitary gland to naturally produce and secrete growth hormone. Prescribed to support muscle recovery, sleep quality, and body composition. Starting at **$199/month**.
-*   **NAD+:** Once-weekly subcutaneous injection designed to restore cellular levels of Nicotinamide Adenine Dinucleotide. Promotes mitochondrial health, energy production, cognitive focus, and longevity. Starting at **$199/month**.
+*   **[Testosterone (TRT)](/medications/testosterone/):** Clinician-prescribed testosterone replacement therapy available in injectable, oral, and topical formats. Formulated to restore energy, muscle mass, strength, and drive in men experiencing low testosterone. Starting at **$79/month**.
+*   **[Enclomiphene](/medications/enclomiphene/):** An oral daily capsule that acts as a selective estrogen receptor modulator (SERM). Boosts natural testosterone production by up to 2.5x while fully preserving fertility and testicular function, bypassing the suppressive side effects of traditional TRT. Starting at **$89/month**.
+*   **[Sermorelin](/medications/sermorelin/):** Once-daily peptide injection designed to stimulate the pituitary gland to naturally produce and secrete growth hormone. Prescribed to support muscle recovery, sleep quality, and body composition. Starting at **$199/month**.
+*   **[NAD+](/medications/nad/):** Once-weekly subcutaneous injection designed to restore cellular levels of Nicotinamide Adenine Dinucleotide. Promotes mitochondrial health, energy production, cognitive focus, and longevity. Starting at **$199/month**.
 
 ### 3. Sexual Wellness & Restoration
-*   **ED Treatment:** Clinician-prescribed custom erectile dysfunction compounds, Sildenafil, and Tadalafil. Shipped in 100% plain, discreet packaging. Starting at **$19/month**.
-*   **Hair Loss:** Clinician-prescribed custom topical and oral compounds containing Finasteride, Minoxidil, and synergistic ingredients to prevent, arrest, and reverse male pattern hair loss. Starting at **$29/month**.
+*   **[ED Treatment](/medications/ed/):** Clinician-prescribed custom erectile dysfunction compounds, Sildenafil, and Tadalafil. Shipped in 100% plain, discreet packaging. Starting at **$19/month**.
+*   **[Hair Loss](/medications/hair-loss/):** Clinician-prescribed custom topical and oral compounds containing Finasteride, Minoxidil, and synergistic ingredients to prevent, arrest, and reverse male pattern hair loss. Starting at **$29/month**.
 
 ---
 
