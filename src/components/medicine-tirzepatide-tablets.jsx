@@ -7,17 +7,25 @@ const CTA_URL = "https://go.telehealthfx.com/tirzepatide-tablets";
 function TirzepatideTabletsPage() {
   const schema = {
     "@context": "https://schema.org",
-    "@type": "MedicalWebPage",
-    "name": "Tirzepatide Tablets Weight Loss Program | Telehealth FX",
-    "about": {
-      "@type": "Drug",
-      "name": "Compounded Tirzepatide Tablets",
-      "nonProprietaryName": "Tirzepatide",
-      "drugClass": "Dual GIP/GLP-1 receptor agonist",
-      "mechanismOfAction": "Dual agonist targeting both GIP and GLP-1 receptors for enhanced appetite regulation, fat metabolism, and insulin sensitivity",
-      "administrationRoute": "Sublingual (dissolving tablet under the tongue)"
-    },
-    "publisher": { "@type": "MedicalOrganization", "name": "Telehealth FX" }
+    "@graph": [
+      {
+        "@type": "MedicalWebPage",
+        "@id": "https://telehealthfx.com/medications/tirzepatide-tablets/#webpage",
+        "url": "https://telehealthfx.com/medications/tirzepatide-tablets",
+        "name": "Tirzepatide Tablets Weight Loss Program | Telehealth FX",
+        "description": "Get prescribed compounded sublingual Tirzepatide tablets from $224.25/mo. 24-hour clinician approval, zero weekly needles, free shipping.",
+        "about": {
+          "@type": "Drug",
+          "@id": "https://telehealthfx.com/medications/tirzepatide-tablets/#drug",
+          "name": "Compounded Tirzepatide Tablets",
+          "nonProprietaryName": "Tirzepatide",
+          "drugClass": "Dual GIP/GLP-1 receptor agonist",
+          "mechanismOfAction": "Dual agonist targeting both GIP and GLP-1 receptors for enhanced appetite regulation, fat metabolism, and insulin sensitivity",
+          "administrationRoute": "Sublingual (dissolving tablet under the tongue)"
+        },
+        "publisher": { "@type": "MedicalOrganization", "name": "Telehealth FX" }
+      }
+    ]
   };
 
   return (

@@ -7,17 +7,25 @@ const CTA_URL = "https://go.telehealthfx.com/sublingual-semaglutide";
 function SublingualSemaglutidePage() {
   const schema = {
     "@context": "https://schema.org",
-    "@type": "MedicalWebPage",
-    "name": "Sublingual Semaglutide Weight Loss Program | Telehealth FX",
-    "about": {
-      "@type": "Drug",
-      "name": "Compounded Sublingual Semaglutide",
-      "nonProprietaryName": "Semaglutide",
-      "drugClass": "GLP-1 receptor agonist",
-      "mechanismOfAction": "Mimics GLP-1 hormone to regulate appetite, slow gastric emptying, and improve insulin sensitivity",
-      "administrationRoute": "Sublingual (under the tongue)"
-    },
-    "publisher": { "@type": "MedicalOrganization", "name": "Telehealth FX" }
+    "@graph": [
+      {
+        "@type": "MedicalWebPage",
+        "@id": "https://telehealthfx.com/medications/sublingual-semaglutide/#webpage",
+        "url": "https://telehealthfx.com/medications/sublingual-semaglutide",
+        "name": "Sublingual Semaglutide Weight Loss Program | Telehealth FX",
+        "description": "Get prescribed compounded sublingual Semaglutide drops from $199/mo. 24-hour clinician approval, zero weekly needles, free shipping.",
+        "about": {
+          "@type": "Drug",
+          "@id": "https://telehealthfx.com/medications/sublingual-semaglutide/#drug",
+          "name": "Compounded Sublingual Semaglutide",
+          "nonProprietaryName": "Semaglutide",
+          "drugClass": "GLP-1 receptor agonist",
+          "mechanismOfAction": "Mimics GLP-1 hormone to regulate appetite, slow gastric emptying, and improve insulin sensitivity",
+          "administrationRoute": "Sublingual (under the tongue)"
+        },
+        "publisher": { "@type": "MedicalOrganization", "name": "Telehealth FX" }
+      }
+    ]
   };
 
   return (

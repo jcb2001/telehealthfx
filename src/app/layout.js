@@ -217,6 +217,57 @@ export default function RootLayout({ children }) {
         ],
         "offers": { "@type": "Offer", "price": "39.00", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "url": "https://telehealthfx.com/medications/metformin", "shippingDetails": shippingDetails, "hasMerchantReturnPolicy": returnPolicy }
       },
+      // ── Product: Sublingual Semaglutide ──
+      {
+        "@type": "Product",
+        "@id": "https://telehealthfx.com/#product-sublingual-semaglutide",
+        "name": "Compounded Sublingual Semaglutide Program",
+        "brand": { "@type": "Brand", "name": "Telehealth FX" },
+        "description": "Compounded sublingual Semaglutide drops weight loss program including clinician consultation and prescription medication.",
+        "image": "https://telehealthfx.com/assets/Site%20Icon-modified.png",
+        "sku": "SUB-SEM-01",
+        "url": "https://telehealthfx.com/medications/sublingual-semaglutide",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.8", "bestRating": "5", "worstRating": "1", "reviewCount": "74", "ratingCount": "74" },
+        "review": [
+          { "@type": "Review", "author": { "@type": "Person", "name": "Michael S." }, "datePublished": "2026-04-12", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "reviewBody": "I hate needles, so sublingual drops are a lifesaver. Approved quickly, and the weight is dropping off. Down 18 lbs so far." },
+          { "@type": "Review", "author": { "@type": "Person", "name": "Jessica M." }, "datePublished": "2026-03-24", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "reviewBody": "Super convenient to take in the morning. No side effects except some dry mouth right after taking it. Lost 22 lbs in 2 months!" }
+        ],
+        "offers": { "@type": "Offer", "price": "199.00", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "url": "https://telehealthfx.com/medications/sublingual-semaglutide", "shippingDetails": shippingDetails, "hasMerchantReturnPolicy": returnPolicy }
+      },
+      // ── Product: Semaglutide Tablets ──
+      {
+        "@type": "Product",
+        "@id": "https://telehealthfx.com/#product-semaglutide-tablets",
+        "name": "Compounded Semaglutide Tablets Program",
+        "brand": { "@type": "Brand", "name": "Telehealth FX" },
+        "description": "Compounded sublingual Semaglutide tablets weight loss program including clinician consultation and prescription medication.",
+        "image": "https://telehealthfx.com/assets/Site%20Icon-modified.png",
+        "sku": "TAB-SEM-01",
+        "url": "https://telehealthfx.com/medications/semaglutide-tablets",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "bestRating": "5", "worstRating": "1", "reviewCount": "68", "ratingCount": "68" },
+        "review": [
+          { "@type": "Review", "author": { "@type": "Person", "name": "Robert E." }, "datePublished": "2026-04-05", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "reviewBody": "The sublingual tablets dissolve quickly. Zero needles, and down 15 lbs. The shipping was incredibly fast." },
+          { "@type": "Review", "author": { "@type": "Person", "name": "Sarah L." }, "datePublished": "2026-03-10", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "reviewBody": "Very happy with the tablets. The daily schedule helps me stay consistent. Approaching my goal weight, down 25 lbs." }
+        ],
+        "offers": { "@type": "Offer", "price": "249.00", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "url": "https://telehealthfx.com/medications/semaglutide-tablets", "shippingDetails": shippingDetails, "hasMerchantReturnPolicy": returnPolicy }
+      },
+      // ── Product: Tirzepatide Tablets ──
+      {
+        "@type": "Product",
+        "@id": "https://telehealthfx.com/#product-tirzepatide-tablets",
+        "name": "Compounded Tirzepatide Tablets Program",
+        "brand": { "@type": "Brand", "name": "Telehealth FX" },
+        "description": "Compounded sublingual Tirzepatide tablets weight loss program including clinician consultation and prescription medication.",
+        "image": "https://telehealthfx.com/assets/Site%20Icon-modified.png",
+        "sku": "TAB-TIR-01",
+        "url": "https://telehealthfx.com/medications/tirzepatide-tablets",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.8", "bestRating": "5", "worstRating": "1", "reviewCount": "82", "ratingCount": "82" },
+        "review": [
+          { "@type": "Review", "author": { "@type": "Person", "name": "Daniel K." }, "datePublished": "2026-04-18", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "reviewBody": "Switched to these dissolving tirzepatide tablets and my results have been great. Lost 29 lbs. Appetite control is exceptional." },
+          { "@type": "Review", "author": { "@type": "Person", "name": "Emily B." }, "datePublished": "2026-03-30", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "reviewBody": "Needle-free option is exactly what I wanted. Down 31 lbs and feeling much more energetic. Easy online consultation." }
+        ],
+        "offers": { "@type": "Offer", "price": "224.25", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "url": "https://telehealthfx.com/medications/tirzepatide-tablets", "shippingDetails": shippingDetails, "hasMerchantReturnPolicy": returnPolicy }
+      },
       // ── BreadcrumbList ──
       {
         "@type": "BreadcrumbList",
