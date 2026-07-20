@@ -1,5 +1,6 @@
 import { LocationFortWayne } from "../../../components/location-fort-wayne";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in Fort Wayne | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by Indiana-licensed physicians in Fort Wayne. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

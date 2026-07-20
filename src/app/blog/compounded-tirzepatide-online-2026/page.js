@@ -1,5 +1,6 @@
 import { BlogCompoundedTirzepatideOnline } from "../../../components/blog-compounded-tirzepatide-online-2026.jsx";
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/compounded-tirzepatide-online-2026/',
   }, title: "Compounded Tirzepatide: Where to Get It Online, Cost & Safety (2026)", description: "Compounded tirzepatide from $349/month. Where to buy it, how it compares to Zepbound/Mounjaro, safety standards, and 503A pharmacy verification.", openGraph: { title: "Compounded Tirzepatide Online: Access, Cost & Safety Guide", description: "The most effective GLP-1, now accessible. $349/month vs $1,060 brand-name.", images: [{ url: "https://telehealthfx.com/assets/compounded-tirzepatide-online-featured.png", width: 1200, height: 630 }] } };

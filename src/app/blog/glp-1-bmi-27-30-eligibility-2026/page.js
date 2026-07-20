@@ -1,5 +1,6 @@
 import { BlogGLP1BMI2730 } from "../../../components/blog-glp-1-bmi-27-30-eligibility-2026.jsx";
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/glp-1-bmi-27-30-eligibility-2026/',
   },

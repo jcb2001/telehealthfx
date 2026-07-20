@@ -1,6 +1,7 @@
 import { BlogGlp1AndAlcoholWhatYouNeedToKnow2026Clini } from "../../../components/blog-glp-1-and-alcohol-what-you-need-to-know-2026-clini.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/glp-1-and-alcohol-what-you-need-to-know-2026-clini/',
   },

@@ -1,5 +1,6 @@
 import { LocationAtlanta } from "../../../components/location-atlanta";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in Atlanta | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by Georgia-licensed physicians in Atlanta. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

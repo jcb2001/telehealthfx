@@ -1,6 +1,7 @@
 import { Blog6OnlineGLP1PrescriptionSolutions } from "../../../components/blog-6-online-glp-1-prescription-solutions-you-should-know-2026.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/6-online-glp-1-prescription-solutions-you-should-know-2026/',
   },

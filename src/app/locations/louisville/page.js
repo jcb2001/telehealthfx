@@ -1,5 +1,6 @@
 import { LocationLouisville } from "../../../components/location-louisville";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in Louisville | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by Kentucky-licensed physicians in Louisville. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

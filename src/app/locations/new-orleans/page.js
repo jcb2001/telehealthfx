@@ -1,5 +1,6 @@
 import { LocationNewOrleans } from "../../../components/location-new-orleans";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in New Orleans | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by Louisiana-licensed physicians in New Orleans. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

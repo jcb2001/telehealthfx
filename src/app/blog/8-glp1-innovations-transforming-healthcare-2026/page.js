@@ -1,6 +1,7 @@
 import { Blog8GLP1Innovations } from '../../../components/blog-8-glp1-innovations-transforming-healthcare-2026.jsx';
 
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "8 GLP-1 Innovations Transforming Health Care (2026) | Telehealth FX",
   description: "A comprehensive look at the latest clinical advancements in incretin therapy, including multi-receptor agonists, oral small molecules, continuous patches, and neuro-inflammatory research.",
   alternates: {

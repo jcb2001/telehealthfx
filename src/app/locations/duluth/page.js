@@ -1,5 +1,6 @@
 import { LocationDuluth } from "../../../components/location-duluth";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in Duluth | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by Minnesota-licensed physicians in Duluth. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

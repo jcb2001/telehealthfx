@@ -1,5 +1,6 @@
 import { LocationStockton } from "../../../components/location-stockton";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in Stockton | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by California-licensed physicians in Stockton. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

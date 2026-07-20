@@ -1,5 +1,6 @@
 import { LocationBrownsville } from "../../../components/location-brownsville";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in Brownsville | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by Texas-licensed physicians in Brownsville. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

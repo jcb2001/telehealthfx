@@ -1,6 +1,7 @@
 import { BlogTrtWeightLossBodyComposition2026 } from "../../../components/blog-trt-weight-loss-body-composition-2026.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "TRT for Weight Loss & Body Composition | Telehealth FX",
   description: "Can TRT help you lose weight? Learn the metabolic science behind testosterone therapy, fat loss, and muscle recomposition.",
   alternates: { canonical: 'https://telehealthfx.com/blog/trt-weight-loss-body-composition-2026/' },

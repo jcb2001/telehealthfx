@@ -1,6 +1,7 @@
 import { BlogGetSemaglutideOnline } from "../../../components/blog-get-semaglutide-online-2026.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/get-semaglutide-online-2026/',
   },

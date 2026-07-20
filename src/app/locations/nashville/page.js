@@ -1,5 +1,6 @@
 import { LocationNashville } from "../../../components/location-nashville";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in Nashville | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by Tennessee-licensed physicians in Nashville. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

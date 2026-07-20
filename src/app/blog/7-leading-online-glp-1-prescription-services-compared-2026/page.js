@@ -1,6 +1,7 @@
 import { Blog7LeadingOnlineGLP1Prescriptions } from "../../../components/blog-7-leading-online-glp-1-prescription-services-compared-2026.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/7-leading-online-glp-1-prescription-services-compared-2026/',
   },

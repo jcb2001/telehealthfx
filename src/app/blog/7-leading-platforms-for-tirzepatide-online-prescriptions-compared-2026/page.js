@@ -1,6 +1,7 @@
 import { Blog7LeadingPlatformsCompared } from "../../../components/blog-7-leading-platforms-for-tirzepatide-online-prescriptions-compared-2026.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: { canonical: 'https://telehealthfx.com/blog/7-leading-platforms-for-tirzepatide-online-prescriptions-compared-2026/' },
   title: "7 Leading Platforms for Tirzepatide Online Prescriptions Compared | Telehealth FX",
   description: "Compare the 7 leading online tirzepatide prescription platforms. Review pricing, dose escalation fees, pharmacy sourcing, and muscle preservation features.",

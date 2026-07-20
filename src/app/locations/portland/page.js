@@ -1,5 +1,6 @@
 import { LocationPortland } from "../../../components/location-portland";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in Portland | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by Oregon-licensed physicians in Portland. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

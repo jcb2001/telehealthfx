@@ -1,5 +1,6 @@
 import { LocationSiouxFalls } from "../../../components/location-sioux-falls";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in Sioux Falls | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by South Dakota-licensed physicians in Sioux Falls. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

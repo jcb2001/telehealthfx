@@ -1,5 +1,6 @@
 import { LocationYuma } from "../../../components/location-yuma";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in Yuma | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by Arizona-licensed physicians in Yuma. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

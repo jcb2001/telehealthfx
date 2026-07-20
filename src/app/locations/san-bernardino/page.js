@@ -1,5 +1,6 @@
 import { LocationSanBernardino } from "../../../components/location-san-bernardino";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in San Bernardino | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by California-licensed physicians in San Bernardino. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

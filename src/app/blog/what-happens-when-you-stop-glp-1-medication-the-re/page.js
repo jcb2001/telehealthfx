@@ -1,6 +1,7 @@
 import { BlogWhatHappensWhenYouStopGlp1MedicationTheRe } from "../../../components/blog-what-happens-when-you-stop-glp-1-medication-the-re.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/what-happens-when-you-stop-glp-1-medication-the-re/',
   },

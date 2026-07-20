@@ -1,6 +1,7 @@
 import { BlogHiddenFeesInTelehealthWeightLossHowToSpot } from "../../../components/blog-hidden-fees-in-telehealth-weight-loss-how-to-spot.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot/',
   },

@@ -1,6 +1,7 @@
 import { BlogGlp1PostpartumWeightLoss2026 } from '../../../components/glp1-postpartum-weight-loss-2026';
 
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1s for Postpartum Weight Loss: Timelines and Safety",
   description: "When is it safe to start a GLP-1 after giving birth? A guide to postpartum metabolic recovery and medication safety.",
   alternates: {

@@ -1,6 +1,7 @@
 import { BlogSemaglutideNauseaRemedies2026 } from '../../../components/blog-semaglutide-nausea-remedies-2026';
 
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "10 Cures for Semaglutide Nausea: Stop GLP-1 Sickness (2026) | Telehealth FX",
   description: "Evidence-based remedies to stop semaglutide and Ozempic nausea. From alcohol pad sniffing and ginger to Zofran and injection site changes.",
   alternates: {

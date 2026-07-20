@@ -1,6 +1,7 @@
 import { BlogGlp1AndYourHeartTheSelectTrialCardiovascul } from "../../../components/blog-glp-1-and-your-heart-the-select-trial-cardiovascul.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/glp-1-and-your-heart-the-select-trial-cardiovascul/',
   },

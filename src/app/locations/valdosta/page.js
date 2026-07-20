@@ -1,5 +1,6 @@
 import { LocationValdosta } from "../../../components/location-valdosta";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in Valdosta | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by Georgia-licensed physicians in Valdosta. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

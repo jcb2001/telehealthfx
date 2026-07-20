@@ -1,6 +1,7 @@
 import { BlogGlp1AndMentalHealthAnxietyDepressionFoodNo } from "../../../components/blog-glp-1-and-mental-health-anxiety-depression-food-no.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/glp-1-and-mental-health-anxiety-depression-food-no/',
   },

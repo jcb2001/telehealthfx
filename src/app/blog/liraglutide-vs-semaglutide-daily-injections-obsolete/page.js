@@ -1,6 +1,7 @@
 import { BlogLiraglutideVsSemaglutide } from "../../../components/blog-liraglutide-vs-semaglutide-daily-injections-obsolete.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/liraglutide-vs-semaglutide-daily-injections-obsolete/',
   },

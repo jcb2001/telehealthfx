@@ -1,5 +1,6 @@
 import { LocationRaleigh } from "../../../components/location-raleigh";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in Raleigh | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by North Carolina-licensed physicians in Raleigh. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

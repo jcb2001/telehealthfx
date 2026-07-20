@@ -1,0 +1,45 @@
+# Losing Weight RX - Weight Wellness Quiz
+
+> A short eligibility quiz to help adults explore whether a doctor-supervised weight wellness program could be a fit.
+
+## About
+
+Losing Weight RX is an educational resource that helps people connect with independent, licensed healthcare providers offering doctor-supervised weight wellness programs. We are not a medical provider, pharmacy, or clinic.
+
+This quiz is hosted at https://medquiz.viralfavorite.com/ and takes approximately 60 seconds to complete.
+
+## What This Quiz Does
+
+- Asks 5 quick questions about age, goals, history, body metrics, and readiness
+- Segments users by intent level (high, moderate, exploratory)
+- Connects qualified users to a licensed provider assessment via affiliate partnership
+- Captures email for personalized follow-up
+
+## What This Quiz Does NOT Do
+
+- Provide medical advice, diagnosis, or treatment
+- Guarantee eligibility for any program
+- Prescribe medications or recommend specific drugs
+- Store or process protected health information (PHI)
+
+## Quiz Questions
+
+1. Age confirmation (18+ required)
+2. Primary wellness goal
+3. Prior weight wellness program experience
+4. Height and weight (optional, skippable)
+5. Readiness to start a program
+
+## Compliance
+
+- No drug, brand, or molecule names are used (e.g., no Ozempic, Wegovy, semaglutide)
+- All advertising disclosures for Google Ads and Meta/Facebook are included
+- FTC affiliate compensation disclosure is present
+- CAN-SPAM compliant email consent
+- Adults 18+ only
+
+## Contact
+
+- Website: https://losingweightrx.com
+- Email: support@losingweightrx.com
+- Privacy: privacy@losingweightrx.com

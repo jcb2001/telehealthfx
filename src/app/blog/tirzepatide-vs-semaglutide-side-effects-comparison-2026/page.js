@@ -1,6 +1,7 @@
 import { BlogTirzepatideVsSemaglutideSideEffects2026 } from "../../../components/tirzepatide-vs-semaglutide-side-effects-comparison-2026.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: { canonical: 'https://telehealthfx.com/blog/tirzepatide-vs-semaglutide-side-effects-comparison-2026/' },
   title: "Tirzepatide vs Semaglutide Side Effects: Which Has Fewer?",
   description: "Head-to-head side effect comparison of tirzepatide and semaglutide — GI tolerability, nausea rates, injection site reactions, and which patients tolerate each better.",

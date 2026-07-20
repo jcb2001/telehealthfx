@@ -1,6 +1,7 @@
 import { BlogSameDayGLP1 } from "../../../components/blog-same-day-glp-1-prescription-2026.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/same-day-glp-1-prescription-2026/',
   },

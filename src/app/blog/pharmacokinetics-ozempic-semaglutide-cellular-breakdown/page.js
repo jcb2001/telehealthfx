@@ -1,6 +1,7 @@
 import { BlogOzempicPharmacokinetics } from "../../../components/blog-ozempic-pharmacokinetics.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/pharmacokinetics-ozempic-semaglutide-cellular-breakdown/',
   },

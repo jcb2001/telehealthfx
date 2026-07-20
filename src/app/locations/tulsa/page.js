@@ -1,5 +1,6 @@
 import { LocationTulsa } from "../../../components/location-tulsa";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in Tulsa | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by Oklahoma-licensed physicians in Tulsa. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

@@ -1,6 +1,7 @@
 import { BlogTrtHairLossMyth2026 } from "../../../components/blog-trt-hair-loss-myth-2026.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "TRT and Hair Loss: Will Testosterone Make You Bald? | Telehealth FX",
   description: "Does TRT cause hair loss? Learn the science behind DHT conversion, male pattern baldness, and the clinical protocols used to protect your hair.",
   alternates: { canonical: 'https://telehealthfx.com/blog/trt-hair-loss-myth-2026/' },

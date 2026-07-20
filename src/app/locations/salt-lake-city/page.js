@@ -1,5 +1,6 @@
 import { LocationSaltLakeCity } from "../../../components/location-salt-lake-city";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in Salt Lake City | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by Utah-licensed physicians in Salt Lake City. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

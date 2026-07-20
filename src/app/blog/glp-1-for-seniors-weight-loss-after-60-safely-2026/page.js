@@ -1,6 +1,7 @@
 import { BlogGlp1ForSeniorsWeightLossAfter60Safely2026 } from "../../../components/blog-glp-1-for-seniors-weight-loss-after-60-safely-2026.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/glp-1-for-seniors-weight-loss-after-60-safely-2026/',
   },

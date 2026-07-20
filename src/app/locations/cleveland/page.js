@@ -1,5 +1,6 @@
 import { LocationCleveland } from "../../../components/location-cleveland";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in Cleveland | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by Ohio-licensed physicians in Cleveland. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

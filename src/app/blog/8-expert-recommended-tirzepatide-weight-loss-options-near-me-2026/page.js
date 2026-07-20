@@ -1,6 +1,7 @@
 import { Blog8ExpertRecommendedTirzepatideOptions } from '../../../components/blog-8-expert-recommended-tirzepatide-weight-loss-options-near-me-2026.jsx';
 
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "8 Expert-Recommended Tirzepatide Weight Loss Options Near Me",
   description: "Explore the top 8 expert-approved options for starting Tirzepatide treatment, comparing monthly costs, clinical oversight, and compounding pharmacy safety.",
   alternates: {

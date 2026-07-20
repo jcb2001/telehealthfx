@@ -1,6 +1,7 @@
 import { BlogSemaglutideHairLoss } from "../../../components/blog-semaglutide-hair-loss-thinning-2026.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/semaglutide-hair-loss-thinning-2026/',
   },

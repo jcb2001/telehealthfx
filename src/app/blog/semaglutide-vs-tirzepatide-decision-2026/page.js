@@ -1,5 +1,6 @@
 import { BlogSemaglutideVsTirzepatideDecision } from "../../../components/blog-semaglutide-vs-tirzepatide-decision-2026.jsx";
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/semaglutide-vs-tirzepatide-decision-2026/',
   }, title: "Semaglutide vs Tirzepatide: Which GLP-1 Should You Choose? (Decision Guide 2026)", description: "Semaglutide or tirzepatide? Decision matrix based on budget, weight loss goals, insulin resistance, and tolerability. Clinical data + real pricing.", openGraph: { title: "Semaglutide vs Tirzepatide: The Buyer's Decision Guide", description: "Which GLP-1 is right for YOUR situation? Data-driven framework.", images: [{ url: "https://telehealthfx.com/assets/semaglutide-vs-tirzepatide-decision-featured.png", width: 1200, height: 630 }] } };

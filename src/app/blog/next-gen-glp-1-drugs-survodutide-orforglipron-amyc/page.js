@@ -1,6 +1,7 @@
 import { BlogNextGenGlp1DrugsSurvodutideOrforglipronAmyc } from "../../../components/blog-next-gen-glp-1-drugs-survodutide-orforglipron-amyc.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/next-gen-glp-1-drugs-survodutide-orforglipron-amyc/',
   },

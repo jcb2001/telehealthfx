@@ -1,5 +1,6 @@
 import { LocationPhiladelphia } from "../../../components/location-philadelphia";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in Philadelphia | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by Pennsylvania-licensed physicians in Philadelphia. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

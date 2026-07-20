@@ -1,5 +1,6 @@
 import { LocationSeattle } from "../../../components/location-seattle";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in Seattle | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by Washington-licensed physicians in Seattle. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

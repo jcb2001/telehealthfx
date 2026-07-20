@@ -1,6 +1,7 @@
 import { BlogGlp1HeartHealthSelectTrial2026 } from "../../../components/glp1-heart-health-select-trial-2026.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: { canonical: 'https://telehealthfx.com/blog/glp1-heart-health-select-trial-2026/' },
   title: "GLP-1 and Heart Disease: The SELECT Trial Changed Everything",
   description: "The landmark SELECT trial proved semaglutide reduces cardiovascular events by 20% — independent of diabetes status. What this means for every patient considering GLP-1 therapy.",

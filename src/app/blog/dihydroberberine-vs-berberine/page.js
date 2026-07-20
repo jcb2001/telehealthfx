@@ -1,6 +1,7 @@
 import { BlogDihydroberberineVsBerberine } from "../../../components/blog-dihydroberberine-vs-berberine.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/dihydroberberine-vs-berberine/',
   },

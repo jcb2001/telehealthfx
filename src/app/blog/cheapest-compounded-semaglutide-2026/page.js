@@ -1,6 +1,7 @@
 import { BlogCheapestCompoundedSemaglutide } from "../../../components/blog-cheapest-compounded-semaglutide-2026.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/cheapest-compounded-semaglutide-2026/',
   },

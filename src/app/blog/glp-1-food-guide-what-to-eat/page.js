@@ -1,6 +1,7 @@
 import { BlogGLP1FoodGuide } from "../../../components/blog-glp-1-food-guide-what-to-eat.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/glp-1-food-guide-what-to-eat/',
   },

@@ -1,6 +1,7 @@
 import { BlogBerberineVsOzempic } from "../../../components/blog-berberine-vs-ozempic.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/berberine-vs-ozempic/',
   },

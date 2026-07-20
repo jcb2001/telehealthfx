@@ -1,6 +1,7 @@
 import { BlogGlp1AndType2DiabetesBeyondWeightLoss2026 } from "../../../components/blog-glp-1-and-type-2-diabetes-beyond-weight-loss-2026.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/glp-1-and-type-2-diabetes-beyond-weight-loss-2026/',
   },

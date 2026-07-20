@@ -1,5 +1,6 @@
 import { LocationTucson } from "../../../components/location-tucson";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in Tucson | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by Arizona-licensed physicians in Tucson. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

@@ -1,6 +1,7 @@
 import { BlogOzempicFaceLooseSkinPreventionTreatmentWhat } from "../../../components/blog-ozempic-face-loose-skin-prevention-treatment-what.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/ozempic-face-loose-skin-prevention-treatment-what/',
   },

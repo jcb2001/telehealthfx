@@ -1,5 +1,6 @@
 import { BlogSemaglutideVsPhentermine } from "../../../components/blog-semaglutide-vs-phentermine-2026.jsx";
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: { canonical: 'https://telehealthfx.com/blog/semaglutide-vs-phentermine-2026/' },
   title: "Semaglutide vs Phentermine: The Old Guard vs the New Standard 2026",
   description: "Semaglutide produces 15-17% weight loss vs phentermine 5-7%. Complete clinical comparison of mechanisms safety and long-term outcomes.",

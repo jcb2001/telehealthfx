@@ -1,5 +1,6 @@
 import { BlogOzempicVsWegovy } from "../../../components/blog-ozempic-vs-wegovy-2026.jsx";
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/ozempic-vs-wegovy-2026/',
   }, title: "Ozempic vs Wegovy: Same Drug, Different Price — Which Should You Get? (2026)", description: "Ozempic and Wegovy are the same molecule (semaglutide). Compare doses, pricing, insurance coverage, and why compounded semaglutide bypasses both.", openGraph: { title: "Ozempic vs Wegovy: Same Drug, Different Price", description: "Complete comparison of doses, pricing, insurance, and the compounded alternative.", images: [{ url: "https://telehealthfx.com/assets/ozempic-vs-wegovy-featured.png", width: 1200, height: 630, alt: "Ozempic vs Wegovy" }] } };

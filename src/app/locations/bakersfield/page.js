@@ -1,5 +1,6 @@
 import { LocationBakersfield } from "../../../components/location-bakersfield";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in Bakersfield | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by California-licensed physicians in Bakersfield. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

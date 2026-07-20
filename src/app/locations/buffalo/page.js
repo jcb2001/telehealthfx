@@ -1,5 +1,6 @@
 import { LocationBuffalo } from "../../../components/location-buffalo";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in Buffalo | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by New York-licensed physicians in Buffalo. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

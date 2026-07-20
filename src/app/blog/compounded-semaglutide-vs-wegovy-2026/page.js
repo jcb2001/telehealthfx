@@ -1,5 +1,6 @@
 import { BlogCompoundedVsWegovy } from "../../../components/blog-compounded-semaglutide-vs-wegovy-2026.jsx";
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/compounded-semaglutide-vs-wegovy-2026/',
   },

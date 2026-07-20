@@ -1,6 +1,7 @@
 import { BlogTirzepatideVsSemaglutide } from "../../../components/blog-tirzepatide-vs-semaglutide.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/tirzepatide-vs-semaglutide-dual-agonist-mechanism/',
   },

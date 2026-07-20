@@ -1,5 +1,6 @@
 import { BlogGLP1EmotionalEating } from "../../../components/blog-glp1-emotional-eating-food-addiction-2026.jsx";
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/glp1-emotional-eating-food-addiction-2026/',
   }, title: "GLP-1 for Emotional Eating and Food Addiction: How Semaglutide Changes Your Brain (2026)", description: "How GLP-1 medications like semaglutide silence 'food noise' by modulating your brain's dopamine reward system. Neuroscience of emotional eating explained.", openGraph: { title: "GLP-1 for Emotional Eating: How Semaglutide Rewires Your Brain", description: "The neuroscience of food noise, binge eating, and why GLP-1 works when willpower fails.", images: [{ url: "https://telehealthfx.com/assets/glp1-emotional-eating-featured.png", width: 1200, height: 630, alt: "GLP-1 Emotional Eating" }] } };

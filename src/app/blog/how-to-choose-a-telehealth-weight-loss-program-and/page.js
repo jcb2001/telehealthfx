@@ -1,6 +1,7 @@
 import { BlogHowToChooseATelehealthWeightLossProgramAnd } from "../../../components/blog-how-to-choose-a-telehealth-weight-loss-program-and.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/how-to-choose-a-telehealth-weight-loss-program-and/',
   },

@@ -1,5 +1,6 @@
 import { LocationHonolulu } from "../../../components/location-honolulu";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in Honolulu | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by Hawaii-licensed physicians in Honolulu. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

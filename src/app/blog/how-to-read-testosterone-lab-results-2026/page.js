@@ -1,6 +1,7 @@
 import { BlogHowToReadTestosteroneLabResults2026 } from "../../../components/blog-how-to-read-testosterone-lab-results-2026.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "How to Read Your Testosterone Lab Results: Total T, Free T, SHBG & Hematocrit Explained | Telehealth FX",
   description: "Learn how to interpret your testosterone lab results — Total T, Free T, SHBG, estradiol, hematocrit, and PSA. Includes age-decade reference ranges and TRT monitoring schedules.",
   alternates: { canonical: 'https://telehealthfx.com/blog/how-to-read-testosterone-lab-results-2026/' },

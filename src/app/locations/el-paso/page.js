@@ -1,5 +1,6 @@
 import { LocationElPaso } from "../../../components/location-el-paso";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in El Paso | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by Texas-licensed physicians in El Paso. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

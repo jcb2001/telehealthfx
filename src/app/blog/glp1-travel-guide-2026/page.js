@@ -1,6 +1,7 @@
 import { BlogGLP1TravelGuide } from "../../../components/blog-glp1-travel-guide-2026.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: { canonical: 'https://telehealthfx.com/blog/glp1-travel-guide-2026/' },
   title: "Traveling with GLP-1: Flying, Storage & Staying on Protocol Abroad",
   description: "Complete guide to traveling with semaglutide and tirzepatide — TSA rules, temperature storage, international travel, and essential travel kit checklist.",

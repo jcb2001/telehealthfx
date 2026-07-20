@@ -1,6 +1,7 @@
 import { Blog7TopGLP1Benefits } from '../../../components/blog-7-top-glp1-benefits-you-need-to-know-2026.jsx';
 
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "7 Top GLP-1 Benefits You Need to Know (2026) | Telehealth FX",
   description: "Discover the top 7 GLP-1 benefits backed by major clinical trials. Learn about cardiovascular protection, weight loss, food noise reduction, kidney preservation, liver health, and anti-inflammation.",
   alternates: {

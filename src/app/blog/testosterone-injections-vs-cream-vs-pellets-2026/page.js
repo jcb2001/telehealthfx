@@ -1,6 +1,7 @@
 import { BlogTestosteroneInjectionsVsCreamVsPellets2026 } from "../../../components/testosterone-injections-vs-cream-vs-pellets-2026.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "TRT Injections vs Cream vs Pellets: Which Delivery Method Is Best? | Telehealth FX",
   description: "Head-to-head comparison of testosterone delivery methods — injections, topical cream, and pellets. Efficacy, cost, convenience, and side effect profiles compared.",
   alternates: { canonical: 'https://telehealthfx.com/blog/testosterone-injections-vs-cream-vs-pellets-2026/' },

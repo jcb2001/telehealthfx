@@ -1,6 +1,7 @@
 import { BlogBerberineExtraction } from "../../../components/blog-berberine-extraction.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/berberine-extraction-process-purity-test/',
   },

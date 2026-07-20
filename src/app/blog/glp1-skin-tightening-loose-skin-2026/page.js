@@ -1,6 +1,7 @@
 import { BlogGlp1SkinTighteningLooseSkin2026 } from "../../../components/glp1-skin-tightening-loose-skin-2026.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: { canonical: 'https://telehealthfx.com/blog/glp1-skin-tightening-loose-skin-2026/' },
   title: "GLP-1 and Loose Skin: How to Tighten Skin After Rapid Weight Loss",
   description: "Preventing and treating loose skin after major weight loss on semaglutide or tirzepatide — collagen support, red light therapy, surgical options, and timeline expectations.",

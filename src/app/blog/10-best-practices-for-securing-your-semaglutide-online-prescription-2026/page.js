@@ -1,6 +1,7 @@
 import { Blog10BestPractices } from "../../../components/blog-10-best-practices-for-securing-your-semaglutide-online-prescription-2026.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/10-best-practices-for-securing-your-semaglutide-online-prescription-2026/',
   },

@@ -1,5 +1,6 @@
 import { BlogGLP1BingeEatingDisorder } from "../../../components/blog-glp1-binge-eating-disorder-2026.jsx";
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: { canonical: 'https://telehealthfx.com/blog/glp1-binge-eating-disorder-2026/' },
   title: "GLP-1 for Binge Eating Disorder: How Semaglutide Quiets the Compulsion to Eat",
   description: "Semaglutide reduced binge episodes by 74%. The complete neuroscience of GLP-1 for binge eating disorder.",

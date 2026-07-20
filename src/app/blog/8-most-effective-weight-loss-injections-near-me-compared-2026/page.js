@@ -1,6 +1,7 @@
 import { Blog8MostEffectiveWeightLossInjections } from "../../../components/blog-8-most-effective-weight-loss-injections-near-me-compared-2026.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/8-most-effective-weight-loss-injections-near-me-compared-2026/',
   },

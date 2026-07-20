@@ -1,5 +1,6 @@
 import { LocationLexington } from "../../../components/location-lexington";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in Lexington | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by Kentucky-licensed physicians in Lexington. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

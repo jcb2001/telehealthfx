@@ -1,5 +1,6 @@
 import { LocationChattanooga } from "../../../components/location-chattanooga";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in Chattanooga | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by Tennessee-licensed physicians in Chattanooga. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

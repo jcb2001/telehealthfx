@@ -1,6 +1,7 @@
 import { BlogTrtProstateHealthPsaSafety2026 } from "../../../components/blog-trt-prostate-health-psa-safety-2026.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "TRT and Prostate Health: Does Testosterone Cause Prostate Cancer? (2026 Evidence Review) | Telehealth FX",
   description: "Modern evidence disproves the myth that TRT causes prostate cancer. Learn about the saturation model, PSA monitoring protocols, and what 2026 urology guidelines actually say about testosterone and prostate safety.",
   alternates: { canonical: 'https://telehealthfx.com/blog/trt-prostate-health-psa-safety-2026/' },

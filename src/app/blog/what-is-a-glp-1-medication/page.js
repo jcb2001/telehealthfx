@@ -1,6 +1,7 @@
 import { BlogWhatIsAGlp1Medication } from "../../../components/blog-what-is-a-glp-1-medication.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "What is a GLP-1 Medication? The Ultimate Guide | Telehealth FX",
   description: "What is a GLP-1 medication? Discover how Semaglutide and Tirzepatide work, the clinical science behind them, and how to access affordable compounding.",
   alternates: {

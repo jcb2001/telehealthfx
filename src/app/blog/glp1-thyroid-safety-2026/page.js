@@ -1,5 +1,6 @@
 import { BlogGLP1ThyroidSafety } from "../../../components/blog-glp1-thyroid-safety-2026.jsx";
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: { canonical: 'https://telehealthfx.com/blog/glp1-thyroid-safety-2026/' },
   title: "GLP-1 and Thyroid Safety: Understanding the Black Box Warning and Monitoring Protocol",
   description: "The GLP-1 thyroid cancer warning comes from rodent studies at 10-100x human doses. No causal link established in 500000+ patient-years of human data.",

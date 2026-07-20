@@ -1,6 +1,7 @@
 import { Blog8KeyFactorsConsider } from "../../../components/blog-8-key-factors-to-consider-when-getting-a-semaglutide-prescription-online-2026.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/8-key-factors-to-consider-when-getting-a-semaglutide-prescription-online-2026/',
   },

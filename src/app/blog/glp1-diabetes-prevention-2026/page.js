@@ -1,6 +1,7 @@
 import { BlogGLP1DiabetesPrevention } from "../../../components/blog-glp1-diabetes-prevention-2026.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: { canonical: 'https://telehealthfx.com/blog/glp1-diabetes-prevention-2026/' },
   title: "GLP-1 for Diabetes Prevention: Can Semaglutide Stop Prediabetes From Becoming Type 2?",
   description: "Semaglutide reduces diabetes incidence by 84% in prediabetic patients. The complete evidence on GLP-1 for diabetes prevention — mechanisms, eligibility, and cost-effectiveness.",

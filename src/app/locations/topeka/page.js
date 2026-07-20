@@ -1,5 +1,6 @@
 import { LocationTopeka } from "../../../components/location-topeka";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in Topeka | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by Kansas-licensed physicians in Topeka. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

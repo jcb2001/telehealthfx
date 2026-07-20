@@ -1,6 +1,7 @@
 import { BlogTirzepatideVsSemaglutideWhichGlp1IsRightFo } from "../../../components/blog-tirzepatide-vs-semaglutide-which-glp-1-is-right-fo.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/tirzepatide-vs-semaglutide-which-glp-1-is-right-fo/',
   },

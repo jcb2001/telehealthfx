@@ -1,6 +1,7 @@
 import { BlogTrtVsNaturalTestosteroneBoosters2026 } from "../../../components/blog-trt-vs-natural-testosterone-boosters-2026.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "TRT vs. Natural Testosterone Boosters: Do Supplements Work? | Telehealth FX",
   description: "Learn the clinical difference between over-the-counter testosterone boosters and medical TRT. Why herbs fail to treat hypogonadism, and when to use Enclomiphene.",
   alternates: { canonical: 'https://telehealthfx.com/blog/trt-vs-natural-testosterone-boosters-2026/' },

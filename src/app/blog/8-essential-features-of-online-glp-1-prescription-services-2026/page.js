@@ -1,6 +1,7 @@
 import { Blog8EssentialFeatures } from "../../../components/blog-8-essential-features-of-online-glp-1-prescription-services-2026.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/8-essential-features-of-online-glp-1-prescription-services-2026/',
   },

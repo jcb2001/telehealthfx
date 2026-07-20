@@ -1,6 +1,7 @@
 import { BlogHcgWithTrt2026 } from "../../../components/hcg-with-trt-2026.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "HCG with TRT: Why Your Protocol Might Need It (And When It Doesn't) | Telehealth FX",
   description: "Clinical guide to using HCG alongside testosterone therapy — fertility preservation, testicular atrophy prevention, dosing protocols, and the Enclomiphene alternative.",
   alternates: { canonical: 'https://telehealthfx.com/blog/hcg-with-trt-2026/' },

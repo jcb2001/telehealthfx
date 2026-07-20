@@ -1,6 +1,7 @@
 import { Blog10ProvenSemaglutideResults } from '../../../components/blog-10-proven-semaglutide-weight-loss-results-2026.jsx';
 
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "10 Proven Semaglutide Weight Loss Results You Need to Know (2026) | Telehealth FX",
   description: "Explore the clinical results of semaglutide derived from the STEP and SELECT trials: 14.9% average weight loss, cardiovascular event risk reductions, inflammation decreases, and how Telehealth FX prevents muscle loss.",
   alternates: {

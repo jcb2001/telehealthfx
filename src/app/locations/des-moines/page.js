@@ -1,5 +1,6 @@
 import { LocationDesMoines } from "../../../components/location-des-moines";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in Des Moines | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by Iowa-licensed physicians in Des Moines. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

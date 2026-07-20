@@ -1,6 +1,7 @@
 import { BlogTrtPolycythemiaHematocritManagement2026 } from "../../../components/blog-trt-polycythemia-hematocrit-management-2026.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "TRT and Polycythemia: How to Manage High Hematocrit Without Stopping Treatment | Telehealth FX",
   description: "Evidence-based guide to managing TRT-induced polycythemia. Hematocrit thresholds, hydration protocols, dose adjustments, transdermal switching, phlebotomy, naringin research, and when to stop.",
   alternates: { canonical: 'https://telehealthfx.com/blog/trt-polycythemia-hematocrit-management-2026/' },

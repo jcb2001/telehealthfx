@@ -1,5 +1,6 @@
 import { LocationMemphis } from "../../../components/location-memphis";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in Memphis | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by Tennessee-licensed physicians in Memphis. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

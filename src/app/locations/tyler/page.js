@@ -1,5 +1,6 @@
 import { LocationTyler } from "../../../components/location-tyler";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in Tyler | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by Texas-licensed physicians in Tyler. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

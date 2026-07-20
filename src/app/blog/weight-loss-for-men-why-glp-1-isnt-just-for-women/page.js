@@ -1,6 +1,7 @@
 import { BlogWeightLossForMenWhyGlp1IsntJustForWomen } from "../../../components/blog-weight-loss-for-men-why-glp-1-isnt-just-for-women.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/weight-loss-for-men-why-glp-1-isnt-just-for-women/',
   },

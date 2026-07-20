@@ -1,5 +1,6 @@
 import { LocationDayton } from "../../../components/location-dayton";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in Dayton | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by Ohio-licensed physicians in Dayton. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

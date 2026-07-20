@@ -1,5 +1,6 @@
 import { BlogSwitchGLP1Providers } from "../../../components/blog-switch-glp-1-providers-2026.jsx";
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/switch-glp-1-providers-2026/',
   },

@@ -1,6 +1,7 @@
 import { BlogMetforminBerberineStacking } from "../../../components/blog-metformin-berberine-stacking-2026.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/metformin-berberine-stacking-2026/',
   },

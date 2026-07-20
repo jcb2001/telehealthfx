@@ -1,6 +1,7 @@
 import { Blog10KeyFactsGLP1Health } from '../../../components/blog-10-key-facts-about-glp1-health-impact-2026.jsx';
 
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "10 Key Facts About GLP-1 and Its Impact on Health (2026) | Telehealth FX",
   description: "A comprehensive clinical guide explaining 10 key facts about GLP-1 receptors, gastric emptying, blood-brain barrier passage, muscle preservation, and cardioprotection.",
   alternates: {

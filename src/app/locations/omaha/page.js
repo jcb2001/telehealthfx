@@ -1,5 +1,6 @@
 import { LocationOmaha } from "../../../components/location-omaha";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in Omaha | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by Nebraska-licensed physicians in Omaha. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

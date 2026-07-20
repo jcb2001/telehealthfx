@@ -1,6 +1,7 @@
 import { BlogTrtAndBrainFog2026 } from '@/components/blog-trt-and-brain-fog-2026';
 
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "TRT and Brain Fog: The Cognitive Benefits of Optimized Hormones | Telehealth FX",
   description: "How low testosterone degrades cognitive function and how TRT restores mental clarity, executive function, and dopamine signaling in the brain.",
   alternates: {

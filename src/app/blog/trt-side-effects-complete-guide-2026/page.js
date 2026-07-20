@@ -1,6 +1,7 @@
 import { BlogTrtSideEffectsCompleteGuide2026 } from "../../../components/trt-side-effects-complete-guide-2026.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "TRT Side Effects: The Complete Evidence-Based Guide (Real vs Myth) | Telehealth FX",
   description: "Every TRT side effect ranked by evidence — the TRAVERSE trial on heart safety, hematocrit management, hair loss reality, fertility impacts, and myths debunked.",
   alternates: { canonical: 'https://telehealthfx.com/blog/trt-side-effects-complete-guide-2026/' },

@@ -1,6 +1,7 @@
 import { BlogGlp1FoodNoisePsychology2026 } from '../../../components/glp1-food-noise-psychology-2026';
 
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "The Psychology of Food Noise: How GLP-1s Rewire Your Brain (2026)",
   description: "Understanding the neuroscience of \"food noise\" and how GLP-1 receptor agonists silence intrusive thoughts about eating.",
   alternates: {

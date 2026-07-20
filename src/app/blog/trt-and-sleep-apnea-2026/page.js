@@ -1,6 +1,7 @@
 import { BlogTrtAndSleepApnea2026 } from '@/components/blog-trt-and-sleep-apnea-2026';
 
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "TRT and Sleep Apnea: Risk, Management, and Evidence | Telehealth FX",
   description: "Does TRT cause sleep apnea? Discover the modern clinical evidence, how weight loss on TRT can improve OSA, and safe management protocols.",
   alternates: {

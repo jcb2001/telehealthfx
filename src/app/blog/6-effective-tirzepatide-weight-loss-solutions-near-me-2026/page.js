@@ -1,6 +1,7 @@
 import { Blog6EffectiveTirzepatideSolutions } from '../../../components/blog-6-effective-tirzepatide-weight-loss-solutions-near-me-2026.jsx';
 
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "6 Effective Tirzepatide Weight Loss Solutions Near Me | Telehealth FX",
   description: "Explore the 6 main routes to obtain tirzepatide weight loss solutions. Learn about compounded options, brand insurance navigation, hormone co-management, and why Telehealth FX is #1.",
   alternates: {

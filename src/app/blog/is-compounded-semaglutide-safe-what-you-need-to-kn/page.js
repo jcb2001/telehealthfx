@@ -1,6 +1,7 @@
 import { BlogIsCompoundedSemaglutideSafeWhatYouNeedToKn } from "../../../components/blog-is-compounded-semaglutide-safe-what-you-need-to-kn.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/is-compounded-semaglutide-safe-what-you-need-to-kn/',
   },

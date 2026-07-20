@@ -1,5 +1,6 @@
 import { LocationIndianapolis } from "../../../components/location-indianapolis";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in Indianapolis | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by Indiana-licensed physicians in Indianapolis. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

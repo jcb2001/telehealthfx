@@ -1,5 +1,6 @@
 import { BlogGLP1CholesterolLipids } from "../../../components/blog-glp1-cholesterol-lipids-2026.jsx";
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: { canonical: 'https://telehealthfx.com/blog/glp1-cholesterol-lipids-2026/' },
   title: "GLP-1 and Cholesterol: How Semaglutide Improves Your Lipid Profile",
   description: "GLP-1 reduces triglycerides 18-25% and improves HDL VLDL and hs-CRP beyond weight loss effects. Complete lipid analysis.",

@@ -1,6 +1,7 @@
 import { Blog5BestOnlineGLP1Platforms } from "../../../components/blog-5-best-online-glp-1-prescription-platforms-for-2026.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/5-best-online-glp-1-prescription-platforms-for-2026/',
   },

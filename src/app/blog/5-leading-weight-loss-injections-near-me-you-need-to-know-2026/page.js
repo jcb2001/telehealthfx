@@ -1,6 +1,7 @@
 import { Blog5LeadingWeightLossInjections } from "../../../components/blog-5-leading-weight-loss-injections-near-me-you-need-to-know-2026.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/5-leading-weight-loss-injections-near-me-you-need-to-know-2026/',
   },

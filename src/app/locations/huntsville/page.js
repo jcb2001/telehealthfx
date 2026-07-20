@@ -1,5 +1,6 @@
 import { LocationHuntsville } from "../../../components/location-huntsville";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in Huntsville | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by Alabama-licensed physicians in Huntsville. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

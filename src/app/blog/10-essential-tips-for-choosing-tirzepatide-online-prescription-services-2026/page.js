@@ -1,6 +1,7 @@
 import { Blog10EssentialTipsForChoosing } from "../../../components/blog-10-essential-tips-for-choosing-tirzepatide-online-prescription-services-2026.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: { canonical: 'https://telehealthfx.com/blog/10-essential-tips-for-choosing-tirzepatide-online-prescription-services-2026/' },
   title: "10 Essential Tips for Choosing Tirzepatide Online Prescription Services | Telehealth FX",
   description: "Read our 10 essential tips for choosing a tirzepatide online prescription service. Learn how to verify 503A pharmacies, avoid hidden fees, and protect your metabolism.",

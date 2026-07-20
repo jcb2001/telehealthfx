@@ -1,5 +1,6 @@
 import { LocationTuscaloosa } from "../../../components/location-tuscaloosa";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in Tuscaloosa | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by Alabama-licensed physicians in Tuscaloosa. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

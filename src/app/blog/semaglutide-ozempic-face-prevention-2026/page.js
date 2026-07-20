@@ -1,6 +1,7 @@
 import { BlogSemaglutideOzempicFacePrevention2026 } from "../../../components/semaglutide-ozempic-face-prevention-2026.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: { canonical: 'https://telehealthfx.com/blog/semaglutide-ozempic-face-prevention-2026/' },
   title: "Ozempic Face Prevention: How to Lose Weight Without Looking Gaunt",
   description: "Clinical strategies to prevent facial volume loss on semaglutide — collagen protocols, fat grafting, and why tirzepatide may be safer for your face.",

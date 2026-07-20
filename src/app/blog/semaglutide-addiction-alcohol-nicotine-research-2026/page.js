@@ -1,6 +1,7 @@
 import { BlogSemaglutideAddictionAlcoholNicotineResearch2026 } from "../../../components/blog-semaglutide-addiction-alcohol-nicotine-research-2026.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "Semaglutide and Addiction: The Surprising Research on Alcohol, Nicotine & Compulsive Behavior | Telehealth FX",
   description: "How GLP-1 receptors in the brain's reward pathway reduce cravings for alcohol, nicotine, and compulsive behaviors. Clinical trials, neuroscience, and what it means for patients on semaglutide.",
   alternates: { canonical: 'https://telehealthfx.com/blog/semaglutide-addiction-alcohol-nicotine-research-2026/' },

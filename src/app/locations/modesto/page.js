@@ -1,5 +1,6 @@
 import { LocationModesto } from "../../../components/location-modesto";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in Modesto | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by California-licensed physicians in Modesto. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

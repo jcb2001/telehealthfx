@@ -1,5 +1,6 @@
 import { BlogGLP1GutMicrobiome } from "../../../components/blog-glp1-gut-microbiome-2026.jsx";
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: { canonical: 'https://telehealthfx.com/blog/glp1-gut-microbiome-2026/' },
   title: "GLP-1 and Your Gut Microbiome: How Semaglutide Reshapes Your Gut Bacteria",
   description: "Semaglutide reshapes gut bacteria within 8 weeks — increasing Akkermansia, improving diversity, and shifting toward lean-associated species. The complete microbiome guide.",

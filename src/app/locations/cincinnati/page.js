@@ -1,5 +1,6 @@
 import { LocationCincinnati } from "../../../components/location-cincinnati";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in Cincinnati | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by Ohio-licensed physicians in Cincinnati. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

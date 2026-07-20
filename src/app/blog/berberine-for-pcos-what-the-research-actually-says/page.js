@@ -1,6 +1,7 @@
 import { BlogBerberineForPcosWhatTheResearchActuallySays } from "../../../components/blog-berberine-for-pcos-what-the-research-actually-says.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/berberine-for-pcos-what-the-research-actually-says/',
   },

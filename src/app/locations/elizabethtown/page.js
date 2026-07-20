@@ -1,5 +1,6 @@
 import { LocationElizabethtown } from "../../../components/location-elizabethtown";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in Elizabethtown | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by Kentucky-licensed physicians in Elizabethtown. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

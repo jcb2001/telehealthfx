@@ -1,6 +1,7 @@
 import { BlogCompoundedSemaglutideStorage } from "../../../components/blog-compounded-semaglutide-storage-2026.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: { canonical: 'https://telehealthfx.com/blog/compounded-semaglutide-storage-2026/' },
   title: "Compounded Semaglutide Storage: How to Store & Signs It's Gone Bad",
   description: "Complete compounded semaglutide storage guide — refrigeration rules, travel storage, signs of degradation, sterile injection technique, and beyond-use dates.",

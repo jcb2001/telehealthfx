@@ -1,6 +1,7 @@
 import { BlogOralSemaglutideIsHereIsTheGlp1PillAsGood } from "../../../components/blog-oral-semaglutide-is-here-is-the-glp-1-pill-as-good.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/oral-semaglutide-is-here-is-the-glp-1-pill-as-good/',
   },

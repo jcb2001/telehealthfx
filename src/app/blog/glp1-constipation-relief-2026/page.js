@@ -1,6 +1,7 @@
 import { BlogGLP1ConstipationRelief } from "../../../components/blog-glp1-constipation-relief-2026.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: { canonical: 'https://telehealthfx.com/blog/glp1-constipation-relief-2026/' },
   title: "GLP-1 and Constipation: The #1 Side Effect Nobody Warns You About (And How to Fix It)",
   description: "Constipation affects 24% of GLP-1 patients. The complete evidence-based relief protocol — fiber, hydration, magnesium, and when to contact your clinician.",

@@ -1,6 +1,7 @@
 import { Blog5LeadingClinicsTirzepatide } from "../../../components/blog-5-leading-clinics-offering-tirzepatide-weight-loss-near-me-2026.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/5-leading-clinics-offering-tirzepatide-weight-loss-near-me-2026/',
   },

@@ -1,6 +1,7 @@
 import { BlogGlp1AndInflammationArthritisSleepApneaChron } from "../../../components/blog-glp-1-and-inflammation-arthritis-sleep-apnea-chron.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/glp-1-and-inflammation-arthritis-sleep-apnea-chron/',
   },

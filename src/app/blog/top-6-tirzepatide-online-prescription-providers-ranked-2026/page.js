@@ -1,6 +1,7 @@
 import { BlogTop6TirzepatideProvidersRanked } from "../../../components/blog-top-6-tirzepatide-online-prescription-providers-ranked-2026.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: { canonical: 'https://telehealthfx.com/blog/top-6-tirzepatide-online-prescription-providers-ranked-2026/' },
   title: "Top 6 Tirzepatide Online Prescription Providers Ranked | Telehealth FX",
   description: "Read our rankings of the top 6 online tirzepatide prescription providers. Compare actual costs, membership fees, and muscle preservation features.",

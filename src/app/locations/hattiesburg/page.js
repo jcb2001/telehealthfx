@@ -1,5 +1,6 @@
 import { LocationHattiesburg } from "../../../components/location-hattiesburg";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in Hattiesburg | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by Mississippi-licensed physicians in Hattiesburg. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

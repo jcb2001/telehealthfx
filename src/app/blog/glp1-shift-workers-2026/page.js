@@ -1,5 +1,6 @@
 import { BlogGLP1ShiftWorkers } from "../../../components/blog-glp1-shift-workers-2026.jsx";
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/glp1-shift-workers-2026/',
   }, title: "GLP-1 for Nurses, Teachers & Shift Workers: Managing Medication on Irregular Schedules", description: "Shift workers have 29% higher obesity rates. GLP-1 telehealth solves the schedule problem: once-weekly injection, no appointments, no meal timing restrictions.", openGraph: { title: "GLP-1 for Nurses, Teachers & Shift Workers", description: "Irregular schedule? Once-weekly injection. No appointments. Telehealth." } };

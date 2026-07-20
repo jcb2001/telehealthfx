@@ -1,6 +1,7 @@
 import { BlogIntermittentFastingGlp1DoTheyWorkTogether2 } from "../../../components/blog-intermittent-fasting-glp-1-do-they-work-together-2.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/intermittent-fasting-glp-1-do-they-work-together-2/',
   },

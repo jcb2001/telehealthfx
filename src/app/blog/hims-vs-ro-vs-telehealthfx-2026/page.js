@@ -1,5 +1,6 @@
 import { BlogHimsVsRoVsTelehealthFX } from "../../../components/blog-hims-vs-ro-vs-telehealthfx-2026.jsx";
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/hims-vs-ro-vs-telehealthfx-2026/',
   }, title: "Hims vs Ro vs TelehealthFX: Best GLP-1 Telehealth Provider 2026 (Honest Comparison)", description: "Hims and Ro stopped compounded semaglutide. Full comparison of pricing, medication access, insurance, and what each telehealth GLP-1 provider offers in 2026.", openGraph: { title: "Hims vs Ro vs TelehealthFX: GLP-1 Provider Comparison", description: "The honest comparison. Who still offers compounded semaglutide in 2026?", images: [{ url: "https://telehealthfx.com/assets/hims-vs-ro-vs-telehealthfx-featured.png", width: 1200, height: 630 }] } };

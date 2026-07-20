@@ -1,6 +1,7 @@
 import { BlogGlp1AndExerciseHowToCombineMedicationWith } from "../../../components/blog-glp-1-and-exercise-how-to-combine-medication-with.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/glp-1-and-exercise-how-to-combine-medication-with/',
   },

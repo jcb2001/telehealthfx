@@ -1,6 +1,7 @@
 import { BlogDoesInsuranceCoverTrt2026 } from "../../../components/does-insurance-cover-trt-2026.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "Does Insurance Cover Testosterone Therapy? Your 2026 Coverage Guide | Telehealth FX",
   description: "Complete guide to insurance coverage for TRT in 2026 — which plans cover it, prior authorization codes, appeal strategies, and cash-pay alternatives that beat copays.",
   alternates: { canonical: 'https://telehealthfx.com/blog/does-insurance-cover-trt-2026/' },

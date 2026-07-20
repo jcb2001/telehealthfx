@@ -1,5 +1,6 @@
 import { LocationFortWorth } from "../../../components/location-fort-worth";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in Fort Worth | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by Texas-licensed physicians in Fort Worth. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

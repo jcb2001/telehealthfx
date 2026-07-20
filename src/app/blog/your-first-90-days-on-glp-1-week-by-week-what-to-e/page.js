@@ -1,6 +1,7 @@
 import { BlogYourFirst90DaysOnGlp1WeekByWeekWhatToE } from "../../../components/blog-your-first-90-days-on-glp-1-week-by-week-what-to-e.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/your-first-90-days-on-glp-1-week-by-week-what-to-e/',
   },

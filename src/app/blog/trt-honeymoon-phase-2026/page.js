@@ -1,6 +1,7 @@
 import { BlogTrtHoneymoonPhase2026 } from '@/components/blog-trt-honeymoon-phase-2026';
 
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "The TRT Honeymoon Phase: What It Is and How to Maintain It | Telehealth FX",
   description: "What causes the euphoric 'honeymoon phase' during the first few weeks of TRT? Learn how to optimize your protocol for long-term stability.",
   alternates: {

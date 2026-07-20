@@ -1,6 +1,7 @@
 import { BlogTrtForMenOver502026 } from "../../../components/blog-trt-for-men-over-50-2026.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "TRT for Men Over 50: Risks, Benefits, and Protocols | Telehealth FX",
   description: "Learn how TRT impacts men over 50. Discover the clinical benefits for bone density and muscle mass, the truth about prostate cancer risks, and age-optimized dosing.",
   alternates: { canonical: 'https://telehealthfx.com/blog/trt-for-men-over-50-2026/' },

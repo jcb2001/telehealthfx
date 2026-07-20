@@ -1,5 +1,6 @@
 import { LocationColumbia } from "../../../components/location-columbia";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in Columbia | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by South Carolina-licensed physicians in Columbia. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

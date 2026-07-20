@@ -1,6 +1,7 @@
 import { BlogGLP1AndPregnancy } from "../../../components/blog-glp-1-and-pregnancy-fertility-safety-2026.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/glp-1-and-pregnancy-fertility-safety-2026/',
   },

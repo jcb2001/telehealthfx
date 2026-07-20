@@ -1,6 +1,7 @@
 import { BlogSemaglutideVsContrave } from "../../../components/blog-semaglutide-vs-contrave-2026.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: { canonical: 'https://telehealthfx.com/blog/semaglutide-vs-contrave-2026/' },
   title: "Semaglutide vs. Contrave: The Complete Clinical Comparison (2026)",
   description: "Semaglutide vs Contrave head-to-head — efficacy (15% vs 5%), cost, side effects, cardiovascular data, and when each medication is the right choice.",

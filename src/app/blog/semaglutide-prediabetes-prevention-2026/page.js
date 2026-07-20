@@ -1,5 +1,6 @@
 import { BlogSemaglutidePrediabetes } from "../../../components/blog-semaglutide-prediabetes-prevention-2026.jsx";
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/semaglutide-prediabetes-prevention-2026/',
   }, title: "Semaglutide for Pre-Diabetes: Can GLP-1 Prevent Type 2 Diabetes? (2026)", description: "84% of prediabetic patients on semaglutide returned to normal glucose. Prevention data, financial case, and eligibility guide.", openGraph: { title: "Semaglutide for Pre-Diabetes Prevention", description: "84% reversal rate. The clinical case for early GLP-1 intervention.", images: [{ url: "https://telehealthfx.com/assets/semaglutide-prediabetes-featured.png", width: 1200, height: 630 }] } };

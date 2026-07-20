@@ -1,6 +1,7 @@
 import { BlogSignsOfLowTestosterone2026 } from '@/components/blog-signs-of-low-testosterone-2026';
 
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "12 Signs of Low Testosterone Most Men Ignore (2026) | Telehealth FX",
   description: "Discover the 12 most common signs of clinically low testosterone (hypogonadism) that men often ignore, from brain fog to persistent fatigue.",
   alternates: {

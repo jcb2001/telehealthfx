@@ -1,5 +1,6 @@
 import { LocationVirginiaBeach } from "../../../components/location-virginia-beach";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in Virginia Beach | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by Virginia-licensed physicians in Virginia Beach. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

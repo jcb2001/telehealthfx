@@ -1,5 +1,6 @@
 import { LocationTwinFalls } from "../../../components/location-twin-falls";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in Twin Falls | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by Idaho-licensed physicians in Twin Falls. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

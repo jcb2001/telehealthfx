@@ -1,5 +1,6 @@
 import { BlogIsTelehealthFXLegit } from "../../../components/blog-is-telehealthfx-legit-2026.jsx";
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/is-telehealthfx-legit-2026/',
   },

@@ -1,6 +1,7 @@
 import { BlogTirzepatideWithoutDiabetes } from "../../../components/blog-tirzepatide-without-diabetes-2026.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/tirzepatide-without-diabetes-2026/',
   },

@@ -1,5 +1,6 @@
 import { BlogGLP1VitaminDeficiency } from "../../../components/blog-glp1-vitamin-deficiency-2026.jsx";
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: { canonical: 'https://telehealthfx.com/blog/glp1-vitamin-deficiency-2026/' },
   title: "GLP-1 and Vitamin Deficiency: The 7 Nutritional Gaps That Sabotage Your Weight Loss",
   description: "62% of GLP-1 patients have at least one vitamin deficiency by month 6. The complete supplement stack and prevention protocol.",

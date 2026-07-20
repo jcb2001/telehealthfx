@@ -1,6 +1,7 @@
 import { BlogSermorelinGrowthHormoneTheWeightLossAccelera } from "../../../components/blog-sermorelin-growth-hormone-the-weight-loss-accelera.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/sermorelin-growth-hormone-the-weight-loss-accelera/',
   },

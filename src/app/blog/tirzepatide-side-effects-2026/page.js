@@ -1,5 +1,6 @@
 import { BlogTirzepatideSideEffects } from "../../../components/blog-tirzepatide-side-effects-2026.jsx";
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/tirzepatide-side-effects-2026/',
   }, title: "Tirzepatide Side Effects: Complete Guide (vs Semaglutide Comparison) 2026", description: "Tirzepatide side effects from SURMOUNT trial data. Nausea, GI symptoms, timeline, management protocol. Head-to-head comparison with semaglutide rates.", openGraph: { title: "Tirzepatide Side Effects: What Semaglutide Patients Don't Expect", description: "30-40% less nausea than semaglutide. Full side effect profile + management.", images: [{ url: "https://telehealthfx.com/assets/tirzepatide-side-effects-featured.png", width: 1200, height: 630 }] } };

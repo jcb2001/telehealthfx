@@ -1,6 +1,7 @@
 import { Blog6RecommendedWeightLossInjections } from "../../../components/blog-6-recommended-weight-loss-injections-near-me-for-quick-results-2026.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/6-recommended-weight-loss-injections-near-me-for-quick-results-2026/',
   },

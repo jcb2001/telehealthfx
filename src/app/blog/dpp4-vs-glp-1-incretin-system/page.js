@@ -1,6 +1,7 @@
 import { BlogDPP4VsGLP1 } from "../../../components/blog-dpp4-vs-glp-1-incretin-system.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/dpp4-vs-glp-1-incretin-system/',
   },

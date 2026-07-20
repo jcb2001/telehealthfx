@@ -1,5 +1,6 @@
 import { LocationBatonRouge } from "../../../components/location-baton-rouge";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in Baton Rouge | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by Louisiana-licensed physicians in Baton Rouge. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

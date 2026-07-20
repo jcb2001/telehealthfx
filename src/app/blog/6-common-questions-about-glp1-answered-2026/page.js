@@ -1,6 +1,7 @@
 import { Blog6CommonQuestionsGLP1 } from '../../../components/blog-6-common-questions-about-glp1-answered-2026.jsx';
 
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "6 Most Common Questions About GLP-1 Answered (2026 FAQ) | Telehealth FX",
   description: "Get clinical, evidence-backed answers to the most common questions about GLP-1 therapy: maintenance, compounded vs branded, TRT synergy, preventing muscle loss, nutrition, and results timeline.",
   alternates: {

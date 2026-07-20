@@ -1,6 +1,7 @@
 import { BlogGLP1PancreatitisRisk } from "../../../components/blog-glp1-pancreatitis-risk-2026.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: { canonical: 'https://telehealthfx.com/blog/glp1-pancreatitis-risk-2026/' },
   title: "GLP-1 and Pancreatitis: Separating Real Risk From Media Panic",
   description: "GLP-1 pancreatitis risk analyzed — what 200,000+ trial patients tell us about absolute risk, confounders, warning signs, and when to seek urgent care.",

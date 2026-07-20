@@ -1,6 +1,7 @@
 import { BlogTirzepatideAutoimmuneInflammation2026 } from '../../../components/tirzepatide-autoimmune-inflammation-2026';
 
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "Tirzepatide and Autoimmune Disease: Lowering Systemic Inflammation",
   description: "How GLP-1/GIP agonists drastically lower C-reactive protein (CRP) and provide relief for patients with autoimmune conditions.",
   alternates: {

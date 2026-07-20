@@ -1,5 +1,6 @@
 import { LocationLeavenworth } from "../../../components/location-leavenworth";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in Leavenworth | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by Kansas-licensed physicians in Leavenworth. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

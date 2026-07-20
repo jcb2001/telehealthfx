@@ -1,6 +1,7 @@
 import { BlogGLP1After40Metabolism } from "../../../components/blog-glp1-after-40-metabolism-2026.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: { canonical: 'https://telehealthfx.com/blog/glp1-after-40-metabolism-2026/' },
   title: "GLP-1 After 40: Why Your Metabolism Changed & How Semaglutide Resets It",
   description: "Your metabolism after 40 — the 5 biological changes that defeat every diet and how GLP-1 medications address each one. Age-specific protocol included.",

@@ -1,5 +1,6 @@
 import { LocationKilleen } from "../../../components/location-killeen";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in Killeen | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by Texas-licensed physicians in Killeen. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

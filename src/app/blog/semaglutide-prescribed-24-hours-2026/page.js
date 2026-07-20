@@ -1,5 +1,6 @@
 import { BlogPrescribed24Hours } from "../../../components/blog-semaglutide-prescribed-24-hours-2026.jsx";
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/semaglutide-prescribed-24-hours-2026/',
   }, title: "How to Get Semaglutide Prescribed Online in 24 Hours — Step-by-Step (2026)", description: "The exact 4-step process to get semaglutide prescribed online. From intake form to medication at your door in under a week. No insurance, no appointment, no wait.", openGraph: { title: "Get Semaglutide Prescribed Online in 24 Hours", description: "5-minute intake → same-day review → prescription → shipped. Here's how.", images: [{ url: "https://telehealthfx.com/assets/semaglutide-prescribed-24-hours-featured.png", width: 1200, height: 630 }] } };

@@ -1,6 +1,7 @@
 import { Blog5BestWaysToGetTirzepatideOnline } from "../../../components/blog-5-best-ways-to-get-tirzepatide-online-prescription-safely-2026.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: { canonical: 'https://telehealthfx.com/blog/5-best-ways-to-get-tirzepatide-online-prescription-safely-2026/' },
   title: "5 Best Ways to Get Tirzepatide Online Prescription Safely | Telehealth FX",
   description: "Learn the 5 best ways to safely secure a tirzepatide online prescription. Discover cost details, 503A compounding quality, and clinical metabolic support.",

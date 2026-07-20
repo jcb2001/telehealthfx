@@ -1,6 +1,7 @@
 import { BlogGlp1RealCost2026 } from "../../../components/blog-glp1-real-cost-2026.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: { canonical: 'https://telehealthfx.com/blog/semaglutide-real-cost-2026/' },
   title: "How Much Does Semaglutide & Tirzepatide Cost in 2026? The Real Price Breakdown | Telehealth FX",
   description: "Semaglutide costs $349–$1,300/mo and tirzepatide $349–$1,050/mo in 2026 depending on how you pay. See exact brand retail, manufacturer self-pay, insurance, and compounded pricing side by side.",

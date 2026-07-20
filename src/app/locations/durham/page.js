@@ -1,5 +1,6 @@
 import { LocationDurham } from "../../../components/location-durham";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in Durham | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by North Carolina-licensed physicians in Durham. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

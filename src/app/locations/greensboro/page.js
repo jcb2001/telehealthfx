@@ -1,5 +1,6 @@
 import { LocationGreensboro } from "../../../components/location-greensboro";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in Greensboro | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by North Carolina-licensed physicians in Greensboro. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

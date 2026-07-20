@@ -1,6 +1,7 @@
 import { BlogBerberineVsGlp1In2026CanNaturesOzempicAct } from "../../../components/blog-berberine-vs-glp-1-in-2026-can-natures-ozempic-act.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/berberine-vs-glp-1-in-2026-can-natures-ozempic-act/',
   },

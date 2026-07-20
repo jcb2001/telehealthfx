@@ -1,5 +1,6 @@
 import { LocationFresno } from "../../../components/location-fresno";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in Fresno | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by California-licensed physicians in Fresno. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

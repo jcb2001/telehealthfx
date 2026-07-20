@@ -1,5 +1,6 @@
 import { LocationSierraVista } from "../../../components/location-sierra-vista";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in Sierra Vista | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by Arizona-licensed physicians in Sierra Vista. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

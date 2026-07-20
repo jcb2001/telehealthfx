@@ -1,6 +1,7 @@
 import { BlogGlp1MuscleBuildingHypertrophy2026 } from '../../../components/blog-glp1-muscle-building-hypertrophy-2026';
 
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "Building Muscle on GLP-1s: The Hypertrophy Protocol (2026)",
   description: "Learn how to build muscle and prevent sarcopenia while taking semaglutide. The exact protein, lifting, and Sermorelin protocol for body recomposition.",
   alternates: {

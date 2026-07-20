@@ -1,5 +1,6 @@
 import { LocationSanAntonio } from "../../../components/location-san-antonio";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in San Antonio | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by Texas-licensed physicians in San Antonio. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

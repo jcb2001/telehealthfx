@@ -1,6 +1,7 @@
 import { BlogTirzepatideVsRetatrutide2026 } from '../../../components/blog-tirzepatide-vs-retatrutide-2026';
 
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "Tirzepatide vs. Retatrutide: Dual vs. Triple Agonist (2026)",
   description: "Compare Tirzepatide (Zepbound) against Eli Lilly's experimental 'Triple G' Retatrutide. Understand the differences in weight loss, mechanism, and liver fat clearance.",
   alternates: {

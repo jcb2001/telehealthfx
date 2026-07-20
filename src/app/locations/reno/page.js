@@ -1,5 +1,6 @@
 import { LocationReno } from "../../../components/location-reno";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in Reno | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by Nevada-licensed physicians in Reno. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

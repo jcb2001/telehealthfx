@@ -1,6 +1,7 @@
 import { BlogTrtPlusGlp1ComboTherapy2026 } from "../../../components/blog-trt-plus-glp1-combo-therapy-2026.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "TRT + GLP-1 Together: The Complete Dual Therapy Guide for Men (2026) | Telehealth FX",
   description: "Learn how combining testosterone replacement therapy with GLP-1 medications like semaglutide creates a synergistic fat-loss and muscle-preservation protocol. Candidacy, safety monitoring, dosing timeline, and why one provider matters.",
   alternates: { canonical: 'https://telehealthfx.com/blog/trt-plus-glp1-combo-therapy-2026/' },

@@ -1,6 +1,7 @@
 import { BlogSummerBodyGlp18WeekProtocol2026 } from '../../../components/blog-summer-body-glp1-8-week-protocol-2026';
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/summer-body-glp1-8-week-protocol-2026/',
   },

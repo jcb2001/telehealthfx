@@ -1,6 +1,7 @@
 import { BlogGLP1BirthControl } from "../../../components/blog-glp1-and-birth-control-2026.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: { canonical: 'https://telehealthfx.com/blog/glp1-and-birth-control-2026/' },
   title: "GLP-1 and Birth Control: Does Semaglutide Affect Oral Contraceptives?",
   description: "Does semaglutide affect birth control pills? The Ozempic baby phenomenon, OCP absorption interactions, and contraception recommendations for GLP-1 patients.",

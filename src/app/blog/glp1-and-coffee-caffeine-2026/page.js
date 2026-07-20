@@ -1,6 +1,7 @@
 import { BlogGLP1CoffeeCaffeine } from "../../../components/blog-glp1-and-coffee-caffeine-2026.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: { canonical: 'https://telehealthfx.com/blog/glp1-and-coffee-caffeine-2026/' },
   title: "GLP-1 and Coffee: Can You Drink Caffeine on Semaglutide? The Complete Interaction Guide",
   description: "Can you drink coffee on Ozempic? The complete caffeine-GLP-1 interaction guide — timing, quantity, acid reflux, and how coffee helps constipation.",

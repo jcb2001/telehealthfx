@@ -1,5 +1,6 @@
 import { LocationManhattanKS } from "../../../components/location-manhattan-ks";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in Manhattan | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by Kansas-licensed physicians in Manhattan. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

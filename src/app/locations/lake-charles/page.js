@@ -1,5 +1,6 @@
 import { LocationLakeCharles } from "../../../components/location-lake-charles";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in Lake Charles | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by Louisiana-licensed physicians in Lake Charles. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

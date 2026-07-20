@@ -1,5 +1,6 @@
 import { BlogGLP1BreastfeedingSafety } from "../../../components/blog-glp1-breastfeeding-safety-2026.jsx";
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: { canonical: 'https://telehealthfx.com/blog/glp1-breastfeeding-safety-2026/' },
   title: "GLP-1 and Breastfeeding: Can You Take Semaglutide While Nursing? Complete Safety Analysis",
   description: "GLP-1 medications are not recommended during breastfeeding due to insufficient safety data. Safe alternatives and when to start after weaning.",

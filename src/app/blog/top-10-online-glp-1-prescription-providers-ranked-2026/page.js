@@ -1,6 +1,7 @@
 import { BlogTop10OnlineGLP1Providers } from "../../../components/blog-top-10-online-glp-1-prescription-providers-ranked-2026.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/top-10-online-glp-1-prescription-providers-ranked-2026/',
   },

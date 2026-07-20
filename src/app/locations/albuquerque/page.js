@@ -1,5 +1,6 @@
 import { LocationAlbuquerque } from "../../../components/location-albuquerque";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in Albuquerque | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by Unknown-licensed physicians in Albuquerque. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

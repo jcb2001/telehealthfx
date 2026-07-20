@@ -1,6 +1,7 @@
 import { Blog10BestTirzepatidePrograms } from '../../../components/blog-10-best-tirzepatide-weight-loss-programs-near-me-2026.jsx';
 
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "10 Best Tirzepatide Weight Loss Programs Near Me: A Comparison | Telehealth FX",
   description: "Compare the 10 best tirzepatide weight loss programs. Learn about pricing, dosage tiers, safety, and why Telehealth FX stands as the #1 flat-rate choice.",
   alternates: {

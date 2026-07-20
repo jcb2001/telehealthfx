@@ -1,6 +1,7 @@
 import { BlogGLP1ShortageUpdate2026 } from "../../../components/blog-glp-1-shortage-update-may-2026.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/glp-1-shortage-update-may-2026/',
   },

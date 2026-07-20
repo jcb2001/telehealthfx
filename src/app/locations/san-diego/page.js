@@ -1,5 +1,6 @@
 import { LocationSanDiego } from "../../../components/location-san-diego";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in San Diego | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by California-licensed physicians in San Diego. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

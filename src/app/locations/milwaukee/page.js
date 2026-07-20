@@ -1,5 +1,6 @@
 import { LocationMilwaukee } from "../../../components/location-milwaukee";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in Milwaukee | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by Unknown-licensed physicians in Milwaukee. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

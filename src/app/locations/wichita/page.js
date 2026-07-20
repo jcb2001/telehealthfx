@@ -1,5 +1,6 @@
 import { LocationWichita } from "../../../components/location-wichita";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in Wichita | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by Kansas-licensed physicians in Wichita. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

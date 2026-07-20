@@ -1,5 +1,6 @@
 import { BlogGLP1ThyroidCancerRisk } from "../../../components/blog-glp1-thyroid-cancer-risk-2026.jsx";
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/glp1-thyroid-cancer-risk-2026/',
   }, title: "GLP-1 and Thyroid Cancer Risk: What the Black Box Warning Actually Means (2026)", description: "The GLP-1 thyroid cancer black box warning explained. Rodent vs human data, 20 years of clinical evidence, who should avoid GLP-1, and putting risk in perspective.", openGraph: { title: "GLP-1 Thyroid Cancer Risk: What the Warning Really Means", description: "20 years of human data. Rodent vs human biology. The facts behind the black box warning.", images: [{ url: "https://telehealthfx.com/assets/glp1-thyroid-cancer-risk-featured.png", width: 1200, height: 630, alt: "GLP-1 Thyroid Risk" }] } };

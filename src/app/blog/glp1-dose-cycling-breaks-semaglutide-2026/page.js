@@ -1,6 +1,7 @@
 import { BlogGlp1DoseCyclingBreaksSemaglutide2026 } from '../../../components/blog-glp1-dose-cycling-breaks-semaglutide-2026';
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/glp1-dose-cycling-breaks-semaglutide-2026/',
   },

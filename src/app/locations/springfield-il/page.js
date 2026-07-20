@@ -1,5 +1,6 @@
 import { LocationSpringfieldIL } from "../../../components/location-springfield-il";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in Springfield | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by Illinois-licensed physicians in Springfield. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

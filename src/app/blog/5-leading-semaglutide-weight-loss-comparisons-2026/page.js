@@ -1,6 +1,7 @@
 import { Blog5LeadingSemaglutideComparisons } from '../../../components/blog-5-leading-semaglutide-weight-loss-comparisons-2026.jsx';
 
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "5 Leading Semaglutide Weight Loss Comparisons: The 2026 Guide | Telehealth FX",
   description: "Compare Semaglutide against other weight loss options: Telehealth FX Program, branded Wegovy, Tirzepatide, Phentermine, Liraglutide, and Bariatric Surgery.",
   alternates: {

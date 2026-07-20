@@ -1,6 +1,7 @@
 import { BlogTestosteroneAndErectileDysfunction2026 } from '@/components/blog-testosterone-and-erectile-dysfunction-2026';
 
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "Testosterone and Erectile Dysfunction: When Low T is the Cause | Telehealth FX",
   description: "Understand the clinical difference between vascular and hormonal ED, and why a combination of TRT and Tadalafil is often the most effective protocol.",
   alternates: {

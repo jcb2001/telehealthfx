@@ -1,6 +1,7 @@
 import { Blog6EssentialTipsObtaining } from "../../../components/blog-6-essential-tips-for-obtaining-a-semaglutide-online-prescription-2026.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/6-essential-tips-for-obtaining-a-semaglutide-online-prescription-2026/',
   },

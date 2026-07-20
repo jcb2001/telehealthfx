@@ -1,6 +1,7 @@
 import { BlogGlp1SideEffectsHowToManageNauseaFatigueMo } from "../../../components/blog-glp-1-side-effects-how-to-manage-nausea-fatigue-mo.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/glp-1-side-effects-how-to-manage-nausea-fatigue-mo/',
   },

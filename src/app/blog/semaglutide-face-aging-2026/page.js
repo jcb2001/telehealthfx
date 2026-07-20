@@ -1,6 +1,7 @@
 import { BlogSemaglutideFaceAging } from "../../../components/blog-semaglutide-face-aging-2026.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: { canonical: 'https://telehealthfx.com/blog/semaglutide-face-aging-2026/' },
   title: "Ozempic Face: Why GLP-1 Ages Your Face & the 8-Step Prevention Protocol",
   description: "Ozempic Face explained — why rapid GLP-1 weight loss causes facial volume loss and the 8-step prevention protocol with treatment options.",

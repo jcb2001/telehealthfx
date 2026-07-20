@@ -1,6 +1,7 @@
 import { BlogGlp1InsuranceAppealGuide2026 } from '../../../components/blog-glp1-insurance-appeal-guide-2026';
 
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Insurance Appeal Guide: Overturn PA Denials (2026)",
   description: "Insurance denied your Wegovy or Zepbound? Learn how to draft a Letter of Medical Necessity, beat Step Therapy, and win your prior authorization appeal.",
   alternates: {

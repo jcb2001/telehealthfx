@@ -1,6 +1,7 @@
 import { BlogTrtWorkoutMuscleBuilding2026 } from '@/components/blog-trt-workout-muscle-building-2026';
 
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "Working Out on TRT: Maximizing Muscle Growth and Recovery | Telehealth FX",
   description: "How to optimize your training frequency, volume, and nutrition to maximize muscle growth and take advantage of your new hormonal baseline on TRT.",
   alternates: {

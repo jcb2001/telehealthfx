@@ -1,6 +1,7 @@
 import { BlogTravelingWithTestosterone2026 } from '@/components/blog-traveling-with-testosterone-2026';
 
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "Traveling with Testosterone: TSA Rules and International Guidelines | Telehealth FX",
   description: "A definitive guide to flying domestically and internationally with TRT medication. Learn TSA rules for needles, vials, and medical freezer packs.",
   alternates: {

@@ -1,6 +1,7 @@
 import { BlogOzempicAlternativesNoInsurance } from "../../../components/blog-ozempic-alternatives-no-insurance-2026.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/ozempic-alternatives-no-insurance-2026/',
   },

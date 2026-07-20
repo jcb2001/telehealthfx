@@ -1,6 +1,7 @@
 import { BlogWeightLossForWomenOver40HowGlp1CanHelp2 } from "../../../components/blog-weight-loss-for-women-over-40-how-glp-1-can-help-2.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/weight-loss-for-women-over-40-how-glp-1-can-help-2/',
   },

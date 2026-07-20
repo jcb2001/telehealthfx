@@ -1,6 +1,7 @@
 import { BlogLowTestosteroneUnder402026 } from '@/components/blog-low-testosterone-under-40-2026';
 
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "Low Testosterone Under 40: Why It's Happening & What To Do | Telehealth FX",
   description: "Why are men in their 20s and 30s experiencing historically low testosterone? Learn the causes and how Enclomiphene preserves fertility.",
   alternates: {

@@ -1,6 +1,7 @@
 import { BlogGlp1PlateauWhenWeightLossStallsWhatToDo2 } from "../../../components/blog-glp-1-plateau-when-weight-loss-stalls-what-to-do-2.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/glp-1-plateau-when-weight-loss-stalls-what-to-do-2/',
   },

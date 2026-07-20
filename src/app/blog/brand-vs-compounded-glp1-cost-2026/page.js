@@ -1,6 +1,7 @@
 import { BlogBrandVsCompoundedGlp1Cost2026 } from "../../../components/blog-brand-vs-compounded-glp1-cost-2026.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "Brand-Name vs. Compounded GLP-1 in 2026: LillyDirect, NovoCare & Telehealth Options Compared | Telehealth FX",
   description: "Transparent side-by-side cost comparison of LillyDirect Zepbound vials, NovoCare Wegovy savings, Hims, Ro, Henry Meds, and Telehealth FX. Hidden fees, annual totals, and decision framework.",
   alternates: { canonical: 'https://telehealthfx.com/blog/brand-vs-compounded-glp1-cost-2026/' },

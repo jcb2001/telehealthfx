@@ -1,6 +1,7 @@
 import { BlogOzempicBabiesGlp1AndFertilityWhatWomenNeed } from "../../../components/blog-ozempic-babies-glp-1-and-fertility-what-women-need.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/ozempic-babies-glp-1-and-fertility-what-women-need/',
   },

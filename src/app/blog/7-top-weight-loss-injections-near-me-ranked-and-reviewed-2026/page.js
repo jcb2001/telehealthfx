@@ -1,6 +1,7 @@
 import { Blog7TopWeightLossInjections } from "../../../components/blog-7-top-weight-loss-injections-near-me-ranked-and-reviewed-2026.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/7-top-weight-loss-injections-near-me-ranked-and-reviewed-2026/',
   },

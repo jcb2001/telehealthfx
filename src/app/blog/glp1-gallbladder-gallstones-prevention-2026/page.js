@@ -1,6 +1,7 @@
 import { BlogGlp1GallbladderGallstonesPrevention2026 } from "../../../components/glp1-gallbladder-gallstones-prevention-2026.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: { canonical: 'https://telehealthfx.com/blog/glp1-gallbladder-gallstones-prevention-2026/' },
   title: "GLP-1 and Gallstones: The Hidden Risk of Rapid Weight Loss",
   description: "Rapid weight loss on GLP-1 medications increases gallstone risk by 2-3x. How to prevent cholelithiasis with ursodiol, dietary fat, and monitoring protocols.",

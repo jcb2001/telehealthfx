@@ -1,6 +1,7 @@
 import { BlogGlp1TestosteroneMenHormones2026 } from "../../../components/glp1-testosterone-men-hormones-2026.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: { canonical: 'https://telehealthfx.com/blog/glp1-testosterone-men-hormones-2026/' },
   title: "GLP-1 and Testosterone: How Weight Loss Medications Affect Male Hormones",
   description: "How semaglutide and tirzepatide impact testosterone levels in men — visceral fat reduction, aromatase activity, and why many men see T levels rise on GLP-1 therapy.",

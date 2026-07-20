@@ -1,6 +1,7 @@
 import { BlogTheSocialStigmaOfWeightLossMedicationWhyIt } from "../../../components/blog-the-social-stigma-of-weight-loss-medication-why-it.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/the-social-stigma-of-weight-loss-medication-why-it/',
   },

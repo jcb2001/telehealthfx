@@ -1,5 +1,6 @@
 import { LocationRapidCity } from "../../../components/location-rapid-city";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in Rapid City | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by South Dakota-licensed physicians in Rapid City. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

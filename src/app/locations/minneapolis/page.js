@@ -1,5 +1,6 @@
 import { LocationMinneapolis } from "../../../components/location-minneapolis";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in Minneapolis | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by Minnesota-licensed physicians in Minneapolis. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

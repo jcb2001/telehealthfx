@@ -1,5 +1,6 @@
 import { BlogInsuranceCoverageGLP1 } from "../../../components/blog-insurance-coverage-glp1-2026.jsx";
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/insurance-coverage-glp1-2026/',
   }, title: "Does Insurance Cover GLP-1? Anthem, BCBS, UnitedHealth, GEHA & Tricare Guide (2026)", description: "Insurer-by-insurer breakdown of GLP-1 weight loss coverage. Anthem, BCBS, UnitedHealthcare, GEHA, Tricare, and Medicare policies explained with appeal process steps.", openGraph: { title: "Insurance Coverage for GLP-1 Weight Loss: Complete 2026 Guide", description: "Which insurers cover Wegovy and Zepbound? Full breakdown + what to do when denied.", images: [{ url: "https://telehealthfx.com/assets/insurance-coverage-glp1-featured.png", width: 1200, height: 630 }] } };

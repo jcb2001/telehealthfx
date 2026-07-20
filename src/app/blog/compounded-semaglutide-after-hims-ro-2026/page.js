@@ -1,5 +1,6 @@
 import { BlogCompoundedAfterHimsRo } from "../../../components/blog-compounded-semaglutide-after-hims-ro-2026.jsx";
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/compounded-semaglutide-after-hims-ro-2026/',
   }, title: "Hims and Ro Stopped Selling Compounded Semaglutide — Where to Get It Now (2026)", description: "Hims and Ro discontinued compounded semaglutide after FDA enforcement. Here is what happened, the 503A vs 503B difference, and where to continue your treatment without a gap.", openGraph: { title: "Compounded Semaglutide After Hims & Ro Stopped Selling It", description: "Your provider stopped. Your treatment doesn't have to. Where to get compounded semaglutide now.", images: [{ url: "https://telehealthfx.com/assets/compounded-semaglutide-after-hims-ro-featured.png", width: 1200, height: 630 }] } };

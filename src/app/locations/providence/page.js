@@ -1,5 +1,6 @@
 import { LocationProvidence } from "../../../components/location-providence";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in Providence | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by Rhode Island-licensed physicians in Providence. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

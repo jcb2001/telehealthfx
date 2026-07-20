@@ -1,5 +1,6 @@
 import { LocationChicago } from "../../../components/location-chicago";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in Chicago | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by Illinois-licensed physicians in Chicago. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

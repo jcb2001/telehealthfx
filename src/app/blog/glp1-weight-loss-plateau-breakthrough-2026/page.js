@@ -1,6 +1,7 @@
 import { BlogGlp1WeightLossPlateauBreakthrough2026 } from "../../../components/glp1-weight-loss-plateau-breakthrough-2026.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: { canonical: 'https://telehealthfx.com/blog/glp1-weight-loss-plateau-breakthrough-2026/' },
   title: "GLP-1 Weight Loss Plateau: 7 Clinician-Proven Strategies to Break Through",
   description: "Hit a wall on Ozempic or Mounjaro? The 7 evidence-based strategies that restart weight loss — dose titration, metabolic cycling, and stacking protocols.",

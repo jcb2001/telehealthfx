@@ -1,5 +1,6 @@
 import { LocationClarksville } from "../../../components/location-clarksville";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in Clarksville | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by Tennessee-licensed physicians in Clarksville. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

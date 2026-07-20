@@ -1,6 +1,7 @@
 import { BlogGlp1MuscleLossTheHiddenRiskNobodysTalking } from "../../../components/blog-glp-1-muscle-loss-the-hidden-risk-nobodys-talking.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/glp-1-muscle-loss-the-hidden-risk-nobodys-talking/',
   },

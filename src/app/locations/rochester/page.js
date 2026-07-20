@@ -1,5 +1,6 @@
 import { LocationRochester } from "../../../components/location-rochester";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in Rochester | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by New York-licensed physicians in Rochester. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

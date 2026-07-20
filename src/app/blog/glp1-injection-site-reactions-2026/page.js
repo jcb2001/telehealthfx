@@ -1,5 +1,6 @@
 import { BlogGLP1InjectionSiteReactions } from "../../../components/blog-glp1-injection-site-reactions-2026.jsx";
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: { canonical: 'https://telehealthfx.com/blog/glp1-injection-site-reactions-2026/' },
   title: "GLP-1 Injection Site Reactions: Lumps Bruising Pain and the Complete Prevention Guide",
   description: "Injection site reactions affect 5-10% of GLP-1 patients. The complete 8-point technique protocol for prevention and management.",

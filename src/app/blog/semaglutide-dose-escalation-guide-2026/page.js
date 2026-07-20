@@ -1,6 +1,7 @@
 import { BlogSemaglutideDoseEscalationGuide2026 } from "../../../components/semaglutide-dose-escalation-guide-2026.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: { canonical: 'https://telehealthfx.com/blog/semaglutide-dose-escalation-guide-2026/' },
   title: "Semaglutide Dose Escalation: The Complete Clinical Titration Guide",
   description: "The exact weekly dose escalation schedule for semaglutide — from 0.25mg to 2.4mg, how to manage side effects at each tier, when to hold, and maintenance dosing strategies.",

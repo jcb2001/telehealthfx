@@ -1,5 +1,6 @@
 import { LocationHarlingen } from "../../../components/location-harlingen";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in Harlingen | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by Texas-licensed physicians in Harlingen. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

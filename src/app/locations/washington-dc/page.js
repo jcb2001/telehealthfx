@@ -1,5 +1,6 @@
 import { LocationWashingtonDC } from "../../../components/location-washington-dc";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in Washington, D.C. | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by Washington, D.C.-licensed physicians in Washington, D.C.. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

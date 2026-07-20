@@ -1,5 +1,6 @@
 import { BlogGLP1NightShiftWorkers } from "../../../components/blog-glp1-night-shift-workers-2026.jsx";
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: { canonical: 'https://telehealthfx.com/blog/glp1-night-shift-workers-2026/' },
   title: "GLP-1 for Night Shift Workers: Injection Timing Meal Planning and Circadian Protocols",
   description: "Night shift workers are 29% more likely to develop obesity. GLP-1 addresses circadian metabolic disruption with adapted protocols.",

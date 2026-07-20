@@ -1,6 +1,7 @@
 import { Blog7TopPlacesTirzepatide } from "../../../components/blog-7-top-places-for-tirzepatide-weight-loss-near-me-2026.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/7-top-places-for-tirzepatide-weight-loss-near-me-2026/',
   },

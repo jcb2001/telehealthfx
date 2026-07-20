@@ -1,6 +1,7 @@
 import { BlogCompoundedSemaglutideVsBrandedOzempic2026 } from "../../../components/compounded-semaglutide-vs-branded-ozempic-2026.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: { canonical: 'https://telehealthfx.com/blog/compounded-semaglutide-vs-branded-ozempic-2026/' },
   title: "Compounded Semaglutide vs Branded Ozempic: Is There a Difference?",
   description: "A clinical deep dive comparing compounded semaglutide to brand-name Ozempic — bioequivalence, purity, FDA oversight, cost savings, and how to verify your source.",

@@ -1,5 +1,6 @@
 import { LocationHinesville } from "../../../components/location-hinesville";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in Hinesville | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by Georgia-licensed physicians in Hinesville. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

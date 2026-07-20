@@ -1,6 +1,7 @@
 import { BlogZepboundVsMounjaroCompounded } from "../../../components/blog-zepbound-vs-mounjaro-compounded-tirzepatide.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/zepbound-vs-mounjaro-compounded-tirzepatide/',
   },

@@ -1,5 +1,6 @@
 import { LocationSanJose } from "../../../components/location-san-jose";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in San Jose | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by California-licensed physicians in San Jose. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

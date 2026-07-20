@@ -1,5 +1,6 @@
 import { LocationTallahassee } from "../../../components/location-tallahassee";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in Tallahassee | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by Florida-licensed physicians in Tallahassee. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

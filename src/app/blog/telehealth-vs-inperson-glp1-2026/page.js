@@ -1,5 +1,6 @@
 import { BlogTelehealthVsInPerson } from "../../../components/blog-telehealth-vs-inperson-glp1-2026.jsx";
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/telehealth-vs-inperson-glp1-2026/',
   }, title: "Telehealth vs In-Person Doctor for GLP-1: Pros, Cons & What Patients Choose (2026)", description: "Full comparison of telehealth vs in-person for GLP-1. Cost, wait times, privacy, ongoing support, and when each option is better.", openGraph: { title: "Telehealth vs In-Person for GLP-1", description: "Same licensed clinicians. Lower cost. No waiting rooms. Complete comparison.", images: [{ url: "https://telehealthfx.com/assets/telehealth-vs-inperson-glp1-featured.png", width: 1200, height: 630 }] } };

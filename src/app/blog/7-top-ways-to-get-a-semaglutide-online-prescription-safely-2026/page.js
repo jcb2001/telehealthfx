@@ -1,6 +1,7 @@
 import { Blog7TopWaysGetSemaglutideOnline } from "../../../components/blog-7-top-ways-to-get-a-semaglutide-online-prescription-safely-2026.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/7-top-ways-to-get-a-semaglutide-online-prescription-safely-2026/',
   },

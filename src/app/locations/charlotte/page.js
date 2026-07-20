@@ -1,5 +1,6 @@
 import { LocationCharlotte } from "../../../components/location-charlotte";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in Charlotte | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by North Carolina-licensed physicians in Charlotte. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

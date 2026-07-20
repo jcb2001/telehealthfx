@@ -1,5 +1,6 @@
 import { BlogCalibrateVsFoundVsHenryMeds } from "../../../components/blog-calibrate-vs-found-vs-henry-meds-2026.jsx";
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/calibrate-vs-found-vs-henry-meds-2026/',
   }, title: "Calibrate vs Found vs Henry Meds: Honest Telehealth GLP-1 Comparison (2026)", description: "Calibrate ($1,499/yr program), Found (holistic coaching), Henry Meds (direct prescription) — full breakdown of pricing, medication access, pros and cons.", openGraph: { title: "Calibrate vs Found vs Henry Meds: GLP-1 Provider Comparison", description: "Three different approaches to telehealth weight loss. Which one fits your situation?", images: [{ url: "https://telehealthfx.com/assets/calibrate-vs-found-vs-henry-meds-featured.png", width: 1200, height: 630 }] } };

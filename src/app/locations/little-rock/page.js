@@ -1,5 +1,6 @@
 import { LocationLittleRock } from "../../../components/location-little-rock";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in Little Rock | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by Arkansas-licensed physicians in Little Rock. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

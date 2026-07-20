@@ -1,5 +1,6 @@
 import { LocationNewYork } from "../../../components/location-new-york";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in New York City | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by New York-licensed physicians in New York City. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

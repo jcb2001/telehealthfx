@@ -1,6 +1,7 @@
 import { Blog5TopTirzepatideOnline } from "../../../components/blog-5-top-tirzepatide-online-prescription-services-of-2023-2026.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: { canonical: 'https://telehealthfx.com/blog/5-top-tirzepatide-online-prescription-services-of-2023-2026/' },
   title: "5 Top Tirzepatide Online Prescription Services of 2023 (2026 Update) | Telehealth FX",
   description: "Read our comprehensive comparison of the top 5 tirzepatide online prescription platforms. Discover cost breakdowns, compound safety, and muscle protection.",

@@ -1,5 +1,6 @@
 import { LocationStLouis } from "../../../components/location-st-louis";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in St. Louis | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by Missouri-licensed physicians in St. Louis. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

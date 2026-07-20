@@ -1,6 +1,7 @@
 import { BlogHSAFSAGLP1 } from "../../../components/blog-hsa-fsa-glp-1-2026.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/hsa-fsa-glp-1-2026/',
   },

@@ -1,6 +1,7 @@
 import { BlogSemaglutideAnxietyDepressionMentalHealth2026 } from "../../../components/semaglutide-anxiety-depression-mental-health-2026.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: { canonical: 'https://telehealthfx.com/blog/semaglutide-anxiety-depression-mental-health-2026/' },
   title: "GLP-1 and Mental Health: Can Semaglutide Help Anxiety and Depression?",
   description: "The emerging neuropsychiatric effects of GLP-1 medications — dopamine modulation, neuroinflammation reduction, and why patients report improved mood.",

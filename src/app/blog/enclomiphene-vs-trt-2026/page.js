@@ -1,6 +1,7 @@
 import { BlogEnclomipheneVsTrt2026 } from "../../../components/enclomiphene-vs-trt-2026.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "Enclomiphene vs Traditional TRT: The Fertility-Preserving Alternative | Telehealth FX",
   description: "Comprehensive comparison of enclomiphene citrate and traditional testosterone replacement therapy — fertility preservation, mechanism differences, efficacy data, and which is right for you.",
   alternates: { canonical: 'https://telehealthfx.com/blog/enclomiphene-vs-trt-2026/' },

@@ -1,5 +1,6 @@
 import { LocationPanamaCity } from "../../../components/location-panama-city";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in Panama City | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by Florida-licensed physicians in Panama City. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

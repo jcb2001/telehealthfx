@@ -1,6 +1,7 @@
 import { BlogCoptisChinensis } from "../../../components/blog-coptis-chinensis.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/coptis-chinensis-vs-berberis-vulgaris-botanical-sources/',
   },

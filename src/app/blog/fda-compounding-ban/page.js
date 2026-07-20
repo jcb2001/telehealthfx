@@ -1,6 +1,7 @@
 import { BlogFDACompoundingBan } from "../../../components/blog-fda-compounding-ban.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/fda-compounding-ban/',
   },

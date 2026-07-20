@@ -1,5 +1,6 @@
 import { LocationClovis } from "../../../components/location-clovis";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in Clovis | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by New Mexico-licensed physicians in Clovis. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

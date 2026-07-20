@@ -1,6 +1,7 @@
 import { BlogGLP1ProteinShakeRecipes } from "../../../components/blog-glp1-protein-shake-recipes-2026.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: { canonical: 'https://telehealthfx.com/blog/glp1-protein-shake-recipes-2026/' },
   title: "12 GLP-1 Protein Shake Recipes for Semaglutide & Tirzepatide Patients",
   description: "12 high-protein shake recipes engineered for GLP-1 patients — muscle preservation, collagen support, constipation relief, and travel-friendly options.",

@@ -1,6 +1,7 @@
 import { Blog10BestWeightLossInjections } from "../../../components/blog-10-best-weight-loss-injections-near-me-a-comparative-guide-2026.jsx";
 
 export const metadata = {
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/10-best-weight-loss-injections-near-me-a-comparative-guide-2026/',
   },

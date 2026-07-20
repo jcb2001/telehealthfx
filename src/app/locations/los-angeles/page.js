@@ -1,5 +1,6 @@
 import { LocationLosAngeles } from "../../../components/location-los-angeles";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in Los Angeles | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by California-licensed physicians in Los Angeles. From $146/mo with overnight cold-pack delivery.",
   openGraph: {

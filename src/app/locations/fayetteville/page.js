@@ -1,5 +1,6 @@
 import { LocationFayetteville } from "../../../components/location-fayetteville";
 export const metadata = {
+  robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss in Fayetteville | Telehealth FX",
   description: "FDA-compliant compounded Semaglutide prescribed by North Carolina-licensed physicians in Fayetteville. From $146/mo with overnight cold-pack delivery.",
   openGraph: {
