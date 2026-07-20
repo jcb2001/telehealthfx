@@ -10,6 +10,10 @@ export const metadata = {
     url: 'https://telehealthfx.com/weight-loss/philadelphia',
     type: 'article',
   }
+,
+  alternates: {
+    canonical: 'https://telehealthfx.com/weight-loss/philadelphia/'
+  }
 };
 
 export default function Page() {

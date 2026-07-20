@@ -10,6 +10,10 @@ export const metadata = {
     url: 'https://telehealthfx.com/weight-loss/miami',
     type: 'article',
   }
+,
+  alternates: {
+    canonical: 'https://telehealthfx.com/weight-loss/miami/'
+  }
 };
 
 export default function Page() {

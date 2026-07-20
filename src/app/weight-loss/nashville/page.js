@@ -10,6 +10,10 @@ export const metadata = {
     url: 'https://telehealthfx.com/weight-loss/nashville',
     type: 'article',
   }
+,
+  alternates: {
+    canonical: 'https://telehealthfx.com/weight-loss/nashville/'
+  }
 };
 
 export default function Page() {

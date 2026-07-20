@@ -8,6 +8,10 @@ export const metadata = {
     siteName: "Telehealth FX",
     type: "website"
   }
+,
+  alternates: {
+    canonical: 'https://telehealthfx.com/trt/detroit/'
+  }
 };
 export default function Page() {
   const jsonLd = {

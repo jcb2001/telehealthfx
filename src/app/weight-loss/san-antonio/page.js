@@ -10,6 +10,10 @@ export const metadata = {
     url: 'https://telehealthfx.com/weight-loss/san-antonio',
     type: 'article',
   }
+,
+  alternates: {
+    canonical: 'https://telehealthfx.com/weight-loss/san-antonio/'
+  }
 };
 
 export default function Page() {

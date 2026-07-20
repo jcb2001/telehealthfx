@@ -10,6 +10,10 @@ export const metadata = {
     url: 'https://telehealthfx.com/weight-loss/san-francisco',
     type: 'article',
   }
+,
+  alternates: {
+    canonical: 'https://telehealthfx.com/weight-loss/san-francisco/'
+  }
 };
 
 export default function Page() {
