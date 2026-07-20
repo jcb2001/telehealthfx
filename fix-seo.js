@@ -15,9 +15,32 @@ const SRC_APP = path.join(__dirname, 'src', 'app');
 const SITEMAP_PATH = path.join(__dirname, 'public', 'sitemap.xml');
 const NOW = new Date().toISOString();
 
+// Pages to exclude from sitemap (e.g. noindex pages)
+const EXCLUDED_SLUGS = ['skinnyrx'];
+
 // ============================================================
 // PART 1: Regenerate sitemap.xml with trailing slashes
 // ============================================================
+
+function getFileMtime(pagePath) {
+  // Resolve the source page.js file for a given URL path
+  let srcFile;
+  if (pagePath === '/') {
+    srcFile = path.join(SRC_APP, 'page.js');
+  } else {
+    // Strip leading/trailing slashes and resolve
+    const segments = pagePath.replace(/^\/|\/$$/g, '');
+    srcFile = path.join(SRC_APP, segments, 'page.js');
+  }
+  // Also check [slug] route as fallback
+  if (!fs.existsSync(srcFile)) {
+    srcFile = path.join(SRC_APP, '[slug]', 'page.js');
+  }
+  if (fs.existsSync(srcFile)) {
+    return fs.statSync(srcFile).mtime.toISOString();
+  }
+  return NOW; // fallback
+}
 
 function getAllPages() {
   const pages = [];
@@ -77,7 +100,46 @@ function getAllPages() {
     });
   }
 
-  return pages;
+  // TRT city pages
+  const trtDir = path.join(SRC_APP, 'trt');
+  if (fs.existsSync(trtDir)) {
+    fs.readdirSync(trtDir).forEach(entry => {
+      const fullPath = path.join(trtDir, entry);
+      if (fs.statSync(fullPath).isDirectory()) {
+        pages.push({ path: `/trt/${entry}/`, priority: '0.9', changefreq: 'weekly' });
+      }
+    });
+  }
+
+  // Weight-loss city pages
+  const wlDir = path.join(SRC_APP, 'weight-loss');
+  if (fs.existsSync(wlDir)) {
+    fs.readdirSync(wlDir).forEach(entry => {
+      const fullPath = path.join(wlDir, entry);
+      if (fs.statSync(fullPath).isDirectory()) {
+        pages.push({ path: `/weight-loss/${entry}/`, priority: '0.9', changefreq: 'weekly' });
+      }
+    });
+  }
+
+  // Wegovy eligibility page (single page)
+  const wegovyDir = path.join(SRC_APP, 'wegovy-eligibility');
+  if (fs.existsSync(wegovyDir) && fs.existsSync(path.join(wegovyDir, 'page.js'))) {
+    pages.push({ path: '/wegovy-eligibility/', priority: '0.8', changefreq: 'weekly' });
+  }
+
+  // GLP-1 shortage tracker page (single page)
+  const glpDir = path.join(SRC_APP, 'glp-1-shortage-tracker-2026');
+  if (fs.existsSync(glpDir) && fs.existsSync(path.join(glpDir, 'page.js'))) {
+    pages.push({ path: '/glp-1-shortage-tracker-2026/', priority: '0.8', changefreq: 'weekly' });
+  }
+
+  // Filter out excluded pages (e.g. noindex pages like skinnyrx)
+  return pages.filter(page => {
+    const slug = page.path.replace(/^\/|\/$$/g, '');
+    const segments = slug.split('/');
+    return !segments.some(s => EXCLUDED_SLUGS.includes(s));
+  });
 }
 
 function generateSitemap(pages) {
@@ -87,7 +149,8 @@ function generateSitemap(pages) {
   pages.forEach(page => {
     xml += `\t<url>\n`;
     xml += `\t\t<loc>${SITE_ROOT}${page.path}</loc>\n`;
-    xml += `\t\t<lastmod>${NOW}</lastmod>\n`;
+    const lastmod = getFileMtime(page.path);
+    xml += `\t\t<lastmod>${lastmod}</lastmod>\n`;
     xml += `\t\t<changefreq>${page.changefreq}</changefreq>\n`;
     xml += `\t\t<priority>${page.priority}</priority>\n`;
     xml += `\t</url>\n`;

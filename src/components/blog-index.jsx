@@ -764,6 +764,16 @@ function BlogIndex() {
     }
   };
 
+  const ARTICLES_PER_PAGE = 18;
+  const [currentPage, setCurrentPage] = useState(1);
+  const totalPages = Math.ceil(articles.length / ARTICLES_PER_PAGE);
+  const startIdx = (currentPage - 1) * ARTICLES_PER_PAGE;
+  const visibleArticles = articles.slice(startIdx, startIdx + ARTICLES_PER_PAGE);
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, [currentPage]);
+
   return (
     <section className="section" style={{ minHeight: '80vh', paddingTop: 140, paddingBottom: 100 }}>
       <div className="container">
@@ -779,12 +789,15 @@ function BlogIndex() {
         </div>
 
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(340px, 1fr))', gap: 40 }}>
-          {articles.map((article, idx) => (
-            <a key={idx} href={article.slug} style={{ textDecoration: 'none', color: 'inherit', display: 'flex', flexDirection: 'column', group: 'true' }}>
+          {visibleArticles.map((article, idx) => {
+            const globalIdx = startIdx + idx;
+            return (
+            <a key={globalIdx} href={article.slug} style={{ textDecoration: 'none', color: 'inherit', display: 'flex', flexDirection: 'column', group: 'true' }}>
               <div style={{ width: '100%', aspectRatio: '16/10', borderRadius: 16, overflow: 'hidden', marginBottom: 24, border: '1px solid var(--line-soft)' }}>
                 <img 
                   src={article.image} 
                   alt={article.title} 
+                  loading={globalIdx < 6 ? 'eager' : 'lazy'}
                   style={{ width: '100%', height: '100%', objectFit: 'cover', transition: 'transform 0.4s ease' }} 
                   onMouseOver={e => e.currentTarget.style.transform = 'scale(1.03)'}
                   onMouseOut={e => e.currentTarget.style.transform = 'scale(1)'}
@@ -803,8 +816,64 @@ function BlogIndex() {
                 Read Article <Icon.Arrow size={16}/>
               </div>
             </a>
-          ))}
+            );
+          })}
         </div>
+
+        {/* Pagination */}
+        {totalPages > 1 && (
+          <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: 8, marginTop: 72 }}>
+            <button
+              onClick={() => setCurrentPage(p => Math.max(1, p - 1))}
+              disabled={currentPage === 1}
+              style={{
+                padding: '10px 20px', borderRadius: 8, border: '1px solid var(--line)',
+                background: currentPage === 1 ? 'var(--bg-alt)' : 'var(--bg-card)',
+                color: currentPage === 1 ? 'var(--ink-3)' : 'var(--ink)',
+                cursor: currentPage === 1 ? 'not-allowed' : 'pointer',
+                fontSize: 14, fontWeight: 500, transition: 'all 0.2s ease'
+              }}
+            >
+              ← Previous
+            </button>
+            {Array.from({ length: totalPages }, (_, i) => i + 1).map(page => (
+              <button
+                key={page}
+                onClick={() => setCurrentPage(page)}
+                style={{
+                  width: 40, height: 40, borderRadius: 8,
+                  border: page === currentPage ? '2px solid var(--brand)' : '1px solid var(--line)',
+                  background: page === currentPage ? 'var(--brand-soft)' : 'var(--bg-card)',
+                  color: page === currentPage ? 'var(--brand)' : 'var(--ink-2)',
+                  cursor: 'pointer', fontSize: 14, fontWeight: page === currentPage ? 600 : 400,
+                  transition: 'all 0.2s ease'
+                }}
+              >
+                {page}
+              </button>
+            ))}
+            <button
+              onClick={() => setCurrentPage(p => Math.min(totalPages, p + 1))}
+              disabled={currentPage === totalPages}
+              style={{
+                padding: '10px 20px', borderRadius: 8, border: '1px solid var(--line)',
+                background: currentPage === totalPages ? 'var(--bg-alt)' : 'var(--bg-card)',
+                color: currentPage === totalPages ? 'var(--ink-3)' : 'var(--ink)',
+                cursor: currentPage === totalPages ? 'not-allowed' : 'pointer',
+                fontSize: 14, fontWeight: 500, transition: 'all 0.2s ease'
+              }}
+            >
+              Next →
+            </button>
+          </div>
+        )}
+
+        {/* Hidden links for crawlability — ensures Google can discover ALL article URLs even on paginated pages */}
+        <nav aria-label="All articles" style={{ position: 'absolute', width: 1, height: 1, overflow: 'hidden', clip: 'rect(0, 0, 0, 0)', whiteSpace: 'nowrap' }}>
+          {articles.map((article, idx) => (
+            <a key={idx} href={article.slug}>{article.title}</a>
+          ))}
+        </nav>
 
       </div>
     </section>
