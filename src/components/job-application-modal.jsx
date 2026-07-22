@@ -259,43 +259,139 @@ export function JobApplicationModal({ isOpen, onClose, onApplied, jobTitle = "GL
     handleCloseModal();
   };
 
+  // Direct Inline Styles for Maximum Cross-Platform Stability & Production Reliability
+  const modalOverlayStyle = {
+    position: 'fixed',
+    top: 0, left: 0, right: 0, bottom: 0,
+    backgroundColor: 'rgba(26, 31, 28, 0.75)',
+    backdropFilter: 'blur(8px)',
+    WebkitBackdropFilter: 'blur(8px)',
+    zIndex: 9999,
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    padding: '20px'
+  };
+
+  const modalContainerStyle = {
+    backgroundColor: '#FBF8F3',
+    border: '1px solid #D9D3C6',
+    borderRadius: '20px',
+    maxWidth: '680px',
+    width: '100%',
+    maxHeight: '90vh',
+    display: 'flex',
+    flexDirection: 'column',
+    boxShadow: '0 24px 48px rgba(0, 0, 0, 0.25)',
+    overflow: 'hidden'
+  };
+
+  const modalHeaderStyle = {
+    padding: '24px 32px 18px',
+    borderBottom: '1px solid #E5DFD2',
+    display: 'flex',
+    justifyContent: 'space-between',
+    alignItems: 'flex-start',
+    backgroundColor: '#FAF6F0'
+  };
+
+  const modalBodyStyle = {
+    padding: '24px 32px 32px',
+    overflowY: 'auto'
+  };
+
+  const inputStyle = {
+    width: '100%',
+    padding: '10px 14px',
+    borderRadius: '8px',
+    border: '1px solid #D9D3C6',
+    backgroundColor: '#FFFFFF',
+    fontFamily: 'Inter, sans-serif',
+    fontSize: '14px',
+    color: '#1A1F1C'
+  };
+
+  const dropzoneStyle = {
+    border: '2px dashed #D9D3C6',
+    borderRadius: '12px',
+    padding: '20px',
+    textAlign: 'center',
+    backgroundColor: uploadedFile ? 'rgba(46, 74, 59, 0.05)' : '#F4EFE6',
+    cursor: 'pointer',
+    display: 'flex',
+    alignItems: 'center',
+    gap: '16px',
+    marginBottom: '16px',
+    borderColor: uploadedFile ? '#2E4A3B' : '#D9D3C6'
+  };
+
   return (
-    <div className="modal-overlay" onClick={onClose}>
-      <div className="modal-container" onClick={(e) => e.stopPropagation()}>
+    <div style={modalOverlayStyle} onClick={onClose}>
+      <div style={modalContainerStyle} onClick={(e) => e.stopPropagation()}>
         {/* Modal Header */}
-        <div className="modal-header">
+        <div style={modalHeaderStyle}>
           <div>
-            <div className="modal-badge">
-              <span className="badge-dot"></span>
+            <div style={{
+              display: 'inline-flex', alignItems: 'center', gap: '6px',
+              fontFamily: 'JetBrains Mono, monospace', fontSize: '11px',
+              letterSpacing: '0.1em', textTransform: 'uppercase', color: '#2E4A3B',
+              backgroundColor: 'rgba(46, 74, 59, 0.08)', padding: '4px 10px',
+              borderRadius: '999px', marginBottom: '8px'
+            }}>
+              <span style={{ width: '6px', height: '6px', borderRadius: '50%', backgroundColor: '#2E4A3B' }}></span>
               <span>Telehealth FX Careers</span>
             </div>
-            <h2 className="modal-title">Apply for {jobTitle}</h2>
-            <p className="modal-subtitle">Remote Position • Full-Time • OTE $65,000 - $140,000</p>
+            <h2 className="serif" style={{ fontSize: '26px', color: '#1A1F1C', marginBottom: '4px' }}>
+              Apply for {jobTitle}
+            </h2>
+            <p style={{ fontSize: '13px', color: '#6B7068' }}>
+              Remote Position • Full-Time • OTE $65,000 - $140,000
+            </p>
           </div>
-          <button className="modal-close-btn" onClick={onClose} aria-label="Close modal">
+          <button 
+            onClick={onClose} 
+            aria-label="Close modal"
+            style={{
+              width: '36px', height: '36px', borderRadius: '50%',
+              display: 'flex', alignItems: 'center', justifyContent: 'center',
+              fontSize: '16px', color: '#6B7068', backgroundColor: 'transparent',
+              border: '1px solid #D9D3C6', cursor: 'pointer'
+            }}
+          >
             ✕
           </button>
         </div>
 
         {/* Modal Body */}
-        <div className="modal-body">
+        <div style={modalBodyStyle}>
           {step === 'parsing' && (
-            <div className="parsing-state">
-              <div className="parsing-spinner-container">
-                <div className="parsing-spinner"></div>
-                <div className="parsing-icon">📄</div>
-              </div>
-              <h3 className="parsing-title">Parsing Resume Document</h3>
-              <p className="parsing-desc">Extracting contact details, sales history & GLP-1 qualifications...</p>
+            <div style={{ padding: '32px 16px', textAlign: 'center' }}>
+              <div style={{ fontSize: '32px', marginBottom: '16px' }}>📄</div>
+              <h3 className="serif" style={{ fontSize: '24px', color: '#1A1F1C', marginBottom: '8px' }}>
+                Parsing Resume Document
+              </h3>
+              <p style={{ fontSize: '14px', color: '#6B7068', marginBottom: '24px' }}>
+                Extracting contact details, sales history & GLP-1 qualifications...
+              </p>
               
-              <div className="progress-bar-container">
-                <div className="progress-bar-fill" style={{ width: `${parsingProgress}%` }}></div>
+              <div style={{
+                height: '8px', backgroundColor: '#E5DFD2', borderRadius: '999px',
+                overflow: 'hidden', maxWidth: '400px', margin: '0 auto 24px'
+              }}>
+                <div style={{
+                  height: '100%', backgroundColor: '#2E4A3B', width: `${parsingProgress}%`,
+                  transition: 'width 0.4s ease'
+                }}></div>
               </div>
 
-              <div className="parsing-logs-box">
+              <div style={{
+                backgroundColor: '#1A1F1C', color: '#A4A69E', fontFamily: 'JetBrains Mono, monospace',
+                fontSize: '12px', padding: '16px', borderRadius: '8px', textAlign: 'left',
+                maxWidth: '480px', margin: '0 auto', lineHeight: '1.6'
+              }}>
                 {parsingLogs.map((log, index) => (
-                  <div key={index} className="log-line">
-                    <span className="log-arrow">›</span> {log}
+                  <div key={index}>
+                    <span style={{ color: '#C77D5C', fontWeight: 'bold' }}>›</span> {log}
                   </div>
                 ))}
               </div>
@@ -303,10 +399,10 @@ export function JobApplicationModal({ isOpen, onClose, onApplied, jobTitle = "GL
           )}
 
           {step === 'form' && (
-            <form onSubmit={handleSubmit} className="application-form">
+            <form onSubmit={handleSubmit}>
               {/* Resume Upload / Drag and Drop Box */}
               <div 
-                className={`resume-dropzone ${uploadedFile ? 'has-file' : ''}`}
+                style={dropzoneStyle}
                 onDragOver={handleDragOver}
                 onDrop={handleDrop}
                 onClick={() => fileInputRef.current?.click()}
@@ -319,83 +415,102 @@ export function JobApplicationModal({ isOpen, onClose, onApplied, jobTitle = "GL
                   style={{ display: 'none' }}
                 />
                 
-                <div className="dropzone-icon">
+                <div style={{
+                  fontSize: '24px', width: '44px', height: '44px', backgroundColor: '#FFFFFF',
+                  borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center',
+                  boxShadow: '0 2px 6px rgba(0,0,0,0.06)', flexShrink: 0
+                }}>
                   {uploadedFile ? '✅' : '⚡'}
                 </div>
                 
-                <div className="dropzone-text">
+                <div style={{ textAlign: 'left', flex: 1 }}>
                   {uploadedFile ? (
                     <>
-                      <div className="dropzone-title">Resume Attached: <strong>{uploadedFile.name}</strong></div>
-                      <div className="dropzone-sub">Click or drag a new file to re-parse and update fields.</div>
+                      <div style={{ fontSize: '14px', fontWeight: 600, color: '#1A1F1C' }}>
+                        Resume Attached: <strong>{uploadedFile.name}</strong>
+                      </div>
+                      <div style={{ fontSize: '12px', color: '#6B7068' }}>
+                        Click or drag a new file to re-parse and update fields.
+                      </div>
                     </>
                   ) : (
                     <>
-                      <div className="dropzone-title">Auto-fill form with Resume Parser</div>
-                      <div className="dropzone-sub">Drop your resume (.pdf, .docx, .txt) here or <span>browse files</span></div>
+                      <div style={{ fontSize: '14px', fontWeight: 600, color: '#1A1F1C' }}>
+                        Auto-fill form with Resume Parser
+                      </div>
+                      <div style={{ fontSize: '12px', color: '#6B7068' }}>
+                        Drop your resume (.pdf, .docx, .txt) here or <span style={{ color: '#2E4A3B', textDecoration: 'underline' }}>browse files</span>
+                      </div>
                     </>
                   )}
                 </div>
 
                 {!uploadedFile && (
-                  <button type="button" className="dropzone-btn">
+                  <button type="button" className="btn btn-primary" style={{ fontSize: '12px', padding: '8px 16px' }}>
                     Upload & Auto-Fill
                   </button>
                 )}
               </div>
 
               {uploadedFile && (
-                <div className="parsed-notice">
+                <div style={{
+                  backgroundColor: 'rgba(46, 74, 59, 0.08)', border: '1px solid rgba(46, 74, 59, 0.2)',
+                  borderRadius: '8px', padding: '10px 14px', fontSize: '12px', color: '#1F3529',
+                  marginBottom: '20px'
+                }}>
                   ✨ <strong>AI Resume Parser Active:</strong> Information extracted and populated below. You can refine any field before submitting.
                 </div>
               )}
 
-              <div className="form-section-title">1. Candidate Information</div>
+              <div style={{
+                fontFamily: 'JetBrains Mono, monospace', fontSize: '11px', letterSpacing: '0.12em',
+                textTransform: 'uppercase', color: '#6B7068', margin: '20px 0 12px',
+                paddingBottom: '4px', borderBottom: '1px dashed #E5DFD2'
+              }}>
+                1. Candidate Information
+              </div>
 
-              <div className="form-grid-2">
-                <div className="form-group">
-                  <label className="form-label">Full Name *</label>
+              <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px', marginBottom: '16px' }}>
+                <div>
+                  <label style={{ display: 'block', fontSize: '12px', fontWeight: 600, color: '#3A423D', marginBottom: '6px' }}>Full Name *</label>
                   <input 
                     type="text" 
-                    className={`form-input ${errors.fullName ? 'is-error' : ''}`}
+                    style={inputStyle}
                     placeholder="e.g. Sarah Jenkins"
                     value={formData.fullName}
                     onChange={(e) => handleChange('fullName', e.target.value)}
                   />
-                  {errors.fullName && <span className="error-text">{errors.fullName}</span>}
                 </div>
 
-                <div className="form-group">
-                  <label className="form-label">Email Address *</label>
+                <div>
+                  <label style={{ display: 'block', fontSize: '12px', fontWeight: 600, color: '#3A423D', marginBottom: '6px' }}>Email Address *</label>
                   <input 
                     type="email" 
-                    className={`form-input ${errors.email ? 'is-error' : ''}`}
+                    style={inputStyle}
                     placeholder="s.jenkins@example.com"
                     value={formData.email}
                     onChange={(e) => handleChange('email', e.target.value)}
                   />
-                  {errors.email && <span className="error-text">{errors.email}</span>}
                 </div>
               </div>
 
-              <div className="form-grid-2">
-                <div className="form-group">
-                  <label className="form-label">Phone Number *</label>
+              <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px', marginBottom: '16px' }}>
+                <div>
+                  <label style={{ display: 'block', fontSize: '12px', fontWeight: 600, color: '#3A423D', marginBottom: '6px' }}>Phone Number *</label>
                   <input 
                     type="tel" 
-                    className={`form-input ${errors.phone ? 'is-error' : ''}`}
+                    style={inputStyle}
                     placeholder="(555) 000-0000"
                     value={formData.phone}
                     onChange={(e) => handleChange('phone', e.target.value)}
                   />
-                  {errors.phone && <span className="error-text">{errors.phone}</span>}
                 </div>
 
-                <div className="form-group">
-                  <label className="form-label">LinkedIn Profile / Portfolio URL</label>
+                <div>
+                  <label style={{ display: 'block', fontSize: '12px', fontWeight: 600, color: '#3A423D', marginBottom: '6px' }}>LinkedIn Profile / Portfolio URL</label>
                   <input 
                     type="url" 
-                    className="form-input"
+                    style={inputStyle}
                     placeholder="https://linkedin.com/in/yourprofile"
                     value={formData.linkedin}
                     onChange={(e) => handleChange('linkedin', e.target.value)}
@@ -403,13 +518,19 @@ export function JobApplicationModal({ isOpen, onClose, onApplied, jobTitle = "GL
                 </div>
               </div>
 
-              <div className="form-section-title">2. Sales & Telehealth Background</div>
+              <div style={{
+                fontFamily: 'JetBrains Mono, monospace', fontSize: '11px', letterSpacing: '0.12em',
+                textTransform: 'uppercase', color: '#6B7068', margin: '20px 0 12px',
+                paddingBottom: '4px', borderBottom: '1px dashed #E5DFD2'
+              }}>
+                2. Sales & Telehealth Background
+              </div>
 
-              <div className="form-grid-2">
-                <div className="form-group">
-                  <label className="form-label">Years of Sales Experience</label>
+              <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px', marginBottom: '16px' }}>
+                <div>
+                  <label style={{ display: 'block', fontSize: '12px', fontWeight: 600, color: '#3A423D', marginBottom: '6px' }}>Years of Sales Experience</label>
                   <select 
-                    className="form-select"
+                    style={inputStyle}
                     value={formData.experienceYears}
                     onChange={(e) => handleChange('experienceYears', e.target.value)}
                   >
@@ -420,10 +541,10 @@ export function JobApplicationModal({ isOpen, onClose, onApplied, jobTitle = "GL
                   </select>
                 </div>
 
-                <div className="form-group">
-                  <label className="form-label">Primary Industry Background</label>
+                <div>
+                  <label style={{ display: 'block', fontSize: '12px', fontWeight: 600, color: '#3A423D', marginBottom: '6px' }}>Primary Industry Background</label>
                   <select 
-                    className="form-select"
+                    style={inputStyle}
                     value={formData.salesBackground}
                     onChange={(e) => handleChange('salesBackground', e.target.value)}
                   >
@@ -436,21 +557,21 @@ export function JobApplicationModal({ isOpen, onClose, onApplied, jobTitle = "GL
                 </div>
               </div>
 
-              <div className="form-group">
-                <label className="form-label">Key Competencies & Sales Skills</label>
+              <div style={{ marginBottom: '16px' }}>
+                <label style={{ display: 'block', fontSize: '12px', fontWeight: 600, color: '#3A423D', marginBottom: '6px' }}>Key Competencies & Sales Skills</label>
                 <input 
                   type="text" 
-                  className="form-input"
+                  style={inputStyle}
                   placeholder="e.g. Inbound Closing, GLP-1 Patient Consultations, CRM Pipeline, Objection Handling"
                   value={formData.keySkills}
                   onChange={(e) => handleChange('keySkills', e.target.value)}
                 />
               </div>
 
-              <div className="form-group">
-                <label className="form-label">Brief Candidate Summary / Why You're a Great Fit</label>
+              <div style={{ marginBottom: '16px' }}>
+                <label style={{ display: 'block', fontSize: '12px', fontWeight: 600, color: '#3A423D', marginBottom: '6px' }}>Brief Candidate Summary / Why You're a Great Fit</label>
                 <textarea 
-                  className="form-textarea"
+                  style={{ ...inputStyle, minHeight: '80px', resize: 'vertical' }}
                   rows={3}
                   placeholder="Highlight your relevant closing history, familiarity with GLP-1 metabolic health, or why you excel in fast-paced telehealth consultation sales..."
                   value={formData.coverNote}
@@ -458,16 +579,16 @@ export function JobApplicationModal({ isOpen, onClose, onApplied, jobTitle = "GL
                 ></textarea>
               </div>
 
-              <div className="form-footer">
-                <div className="privacy-note">
+              <div style={{ marginTop: '24px', paddingTop: '16px', borderTop: '1px solid #E5DFD2' }}>
+                <div style={{ fontSize: '11px', color: '#6B7068', marginBottom: '16px' }}>
                   🔒 Telehealth FX respects your privacy. Candidate data is processed strictly for employment screening.
                 </div>
                 
-                <div className="footer-actions">
+                <div style={{ display: 'flex', justifyContent: 'flex-end', gap: '12px' }}>
                   <button type="button" className="btn btn-secondary" onClick={onClose}>
                     Cancel
                   </button>
-                  <button type="submit" className="btn btn-primary btn-submit" onClick={handleSubmit}>
+                  <button type="submit" className="btn btn-primary" onClick={handleSubmit}>
                     Submit Application ➔
                   </button>
                 </div>
@@ -476,42 +597,58 @@ export function JobApplicationModal({ isOpen, onClose, onApplied, jobTitle = "GL
           )}
 
           {step === 'success' && (
-            <div className="success-state">
-              <div className="success-icon-badge">🎉</div>
-              <h3 className="success-title">Application Submitted Successfully!</h3>
-              <p className="success-subtitle">
+            <div style={{ textAlign: 'center', padding: '16px 8px' }}>
+              <div style={{ fontSize: '48px', marginBottom: '12px' }}>🎉</div>
+              <h3 className="serif" style={{ fontSize: '28px', color: '#1A1F1C', marginBottom: '8px' }}>
+                Application Submitted Successfully!
+              </h3>
+              <p style={{ fontSize: '14px', color: '#3A423D', marginBottom: '24px' }}>
                 Thank you for applying to join Telehealth FX as a <strong>GLP-1 Weight Loss Salesperson</strong>.
               </p>
 
-              <div className="success-card">
-                <div className="success-card-header">
-                  <span className="card-lbl">APPLICATION RECEIPT</span>
-                  <span className="card-ref">{refNumber}</span>
+              <div style={{
+                backgroundColor: '#FFFFFF', border: '1px solid #D9D3C6', borderRadius: '12px',
+                padding: '20px', textAlign: 'left', marginBottom: '24px', boxShadow: '0 4px 12px rgba(0,0,0,0.03)'
+              }}>
+                <div style={{
+                  display: 'flex', justifyContent: 'space-between', alignItems: 'center',
+                  paddingBottom: '12px', borderBottom: '1px dashed #E5DFD2', marginBottom: '14px'
+                }}>
+                  <span style={{ fontFamily: 'JetBrains Mono, monospace', fontSize: '10px', letterSpacing: '0.1em', color: '#6B7068' }}>APPLICATION RECEIPT</span>
+                  <span style={{ fontFamily: 'JetBrains Mono, monospace', fontSize: '13px', fontWeight: 700, color: '#2E4A3B' }}>{refNumber}</span>
                 </div>
                 
-                <div className="success-details-grid">
+                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px', fontSize: '13px' }}>
                   <div>
-                    <span className="detail-lbl">Candidate Name:</span>
-                    <span className="detail-val">{formData.fullName}</span>
+                    <span style={{ display: 'block', color: '#6B7068', fontSize: '11px' }}>Candidate Name:</span>
+                    <span style={{ fontWeight: 600, color: '#1A1F1C' }}>{formData.fullName}</span>
                   </div>
                   <div>
-                    <span className="detail-lbl">Email Address:</span>
-                    <span className="detail-val">{formData.email}</span>
+                    <span style={{ display: 'block', color: '#6B7068', fontSize: '11px' }}>Email Address:</span>
+                    <span style={{ fontWeight: 600, color: '#1A1F1C' }}>{formData.email}</span>
                   </div>
                   <div>
-                    <span className="detail-lbl">Sales Experience:</span>
-                    <span className="detail-val">{formData.experienceYears} Years</span>
+                    <span style={{ display: 'block', color: '#6B7068', fontSize: '11px' }}>Sales Experience:</span>
+                    <span style={{ fontWeight: 600, color: '#1A1F1C' }}>{formData.experienceYears} Years</span>
                   </div>
                   <div>
-                    <span className="detail-lbl">Resume File:</span>
-                    <span className="detail-val">{uploadedFile ? uploadedFile.name : 'Standard Profile Submitted'}</span>
+                    <span style={{ display: 'block', color: '#6B7068', fontSize: '11px' }}>Resume File:</span>
+                    <span style={{ fontWeight: 600, color: '#1A1F1C' }}>{uploadedFile ? uploadedFile.name : 'Standard Profile Submitted'}</span>
                   </div>
                 </div>
               </div>
 
-              <div className="next-steps-box">
-                <h4>What Happens Next?</h4>
-                <ul>
+              <div style={{
+                backgroundColor: '#FAF6F0', border: '1px solid #E5DFD2', borderRadius: '12px',
+                padding: '18px', textAlign: 'left', marginBottom: '24px'
+              }}>
+                <h4 style={{
+                  fontSize: '13px', fontFamily: 'JetBrains Mono, monospace', letterSpacing: '0.08em',
+                  textTransform: 'uppercase', color: '#2E4A3B', marginBottom: '10px'
+                }}>
+                  What Happens Next?
+                </h4>
+                <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '8px', fontSize: '13px', color: '#3A423D' }}>
                   <li><strong>1. Profile Review:</strong> Our Clinical Sales Talent team will review your application within 24-48 business hours.</li>
                   <li><strong>2. Recruiter Intro Call:</strong> Qualified candidates will receive an invitation for a 20-minute video screening.</li>
                   <li><strong>3. Sales Roleplay & Offer:</strong> Top performers participate in an interactive consultation roleplay and offer discussion.</li>
@@ -525,481 +662,6 @@ export function JobApplicationModal({ isOpen, onClose, onApplied, jobTitle = "GL
           )}
         </div>
       </div>
-
-      <style jsx>{`
-        .modal-overlay {
-          position: fixed;
-          top: 0;
-          left: 0;
-          right: 0;
-          bottom: 0;
-          background: rgba(26, 31, 28, 0.7);
-          backdrop-filter: blur(6px);
-          z-index: 9999;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          padding: 20px;
-          animation: modalFadeIn 0.25s ease-out;
-        }
-
-        @keyframes modalFadeIn {
-          from { opacity: 0; }
-          to { opacity: 1; }
-        }
-
-        .modal-container {
-          background: var(--bg-card, #FBF8F3);
-          border: 1px solid var(--line, #D9D3C6);
-          border-radius: var(--radius-xl, 20px);
-          max-width: 680px;
-          width: 100%;
-          max-height: 90vh;
-          display: flex;
-          flex-direction: column;
-          box-shadow: 0 24px 48px rgba(0, 0, 0, 0.2);
-          overflow: hidden;
-          animation: modalSlideUp 0.3s cubic-bezier(0.16, 1, 0.3, 1);
-        }
-
-        @keyframes modalSlideUp {
-          from { transform: translateY(20px) scale(0.97); }
-          to { transform: translateY(0) scale(1); }
-        }
-
-        .modal-header {
-          padding: 24px 32px 18px;
-          border-bottom: 1px solid var(--line-soft, #E5DFD2);
-          display: flex;
-          justify-content: space-between;
-          align-items: flex-start;
-          background: #FAF6F0;
-        }
-
-        .modal-badge {
-          display: inline-flex;
-          align-items: center;
-          gap: 6px;
-          font-family: var(--mono);
-          font-size: 11px;
-          letter-spacing: 0.1em;
-          text-transform: uppercase;
-          color: var(--brand, #2E4A3B);
-          background: rgba(46, 74, 59, 0.08);
-          padding: 4px 10px;
-          border-radius: 999px;
-          margin-bottom: 8px;
-        }
-
-        .badge-dot {
-          width: 6px;
-          height: 6px;
-          border-radius: 50%;
-          background: var(--brand, #2E4A3B);
-        }
-
-        .modal-title {
-          font-family: var(--serif);
-          font-size: 26px;
-          font-weight: 500;
-          color: var(--ink, #1A1F1C);
-          margin-bottom: 4px;
-        }
-
-        .modal-subtitle {
-          font-size: 13px;
-          color: var(--ink-3, #6B7068);
-        }
-
-        .modal-close-btn {
-          width: 36px;
-          height: 36px;
-          border-radius: 50%;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          font-size: 16px;
-          color: var(--ink-3);
-          background: transparent;
-          border: 1px solid var(--line);
-          transition: all 0.2s;
-        }
-
-        .modal-close-btn:hover {
-          background: var(--bg-alt);
-          color: var(--ink);
-        }
-
-        .modal-body {
-          padding: 24px 32px 32px;
-          overflow-y: auto;
-        }
-
-        /* Resume dropzone */
-        .resume-dropzone {
-          border: 2px dashed var(--line);
-          border-radius: var(--radius-lg, 12px);
-          padding: 20px;
-          text-align: center;
-          background: #F4EFE6;
-          cursor: pointer;
-          transition: all 0.2s ease;
-          display: flex;
-          align-items: center;
-          gap: 16px;
-          margin-bottom: 16px;
-        }
-
-        .resume-dropzone:hover {
-          border-color: var(--brand);
-          background: #EFE9DD;
-        }
-
-        .resume-dropzone.has-file {
-          border-color: var(--brand);
-          background: rgba(46, 74, 59, 0.04);
-          border-style: solid;
-        }
-
-        .dropzone-icon {
-          font-size: 24px;
-          width: 44px;
-          height: 44px;
-          background: white;
-          border-radius: 50%;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          box-shadow: 0 2px 6px rgba(0,0,0,0.06);
-          flex-shrink: 0;
-        }
-
-        .dropzone-text {
-          text-align: left;
-          flex: 1;
-        }
-
-        .dropzone-title {
-          font-size: 14px;
-          font-weight: 600;
-          color: var(--ink);
-        }
-
-        .dropzone-sub {
-          font-size: 12px;
-          color: var(--ink-3);
-        }
-
-        .dropzone-sub span {
-          color: var(--brand);
-          text-decoration: underline;
-          font-weight: 500;
-        }
-
-        .dropzone-btn {
-          font-size: 12px;
-          font-weight: 600;
-          padding: 8px 14px;
-          background: var(--brand);
-          color: white;
-          border-radius: 999px;
-          transition: background 0.2s;
-        }
-
-        .dropzone-btn:hover {
-          background: var(--brand-deep);
-        }
-
-        .parsed-notice {
-          background: rgba(46, 74, 59, 0.08);
-          border: 1px solid rgba(46, 74, 59, 0.2);
-          border-radius: 8px;
-          padding: 10px 14px;
-          font-size: 12px;
-          color: var(--brand-deep);
-          margin-bottom: 20px;
-        }
-
-        .form-section-title {
-          font-family: var(--mono);
-          font-size: 11px;
-          letter-spacing: 0.12em;
-          text-transform: uppercase;
-          color: var(--ink-3);
-          margin: 20px 0 12px;
-          padding-bottom: 4px;
-          border-bottom: 1px dashed var(--line-soft);
-        }
-
-        .form-grid-2 {
-          display: grid;
-          grid-template-columns: 1fr 1fr;
-          gap: 16px;
-          margin-bottom: 16px;
-        }
-
-        .form-group {
-          margin-bottom: 16px;
-          display: flex;
-          flex-direction: column;
-        }
-
-        .form-label {
-          font-size: 12px;
-          font-weight: 600;
-          color: var(--ink-2);
-          margin-bottom: 6px;
-        }
-
-        .form-input, .form-select, .form-textarea {
-          width: 100%;
-          padding: 10px 14px;
-          border-radius: 8px;
-          border: 1px solid var(--line);
-          background: white;
-          font-family: var(--sans);
-          font-size: 14px;
-          color: var(--ink);
-          transition: border-color 0.2s, box-shadow 0.2s;
-        }
-
-        .form-input:focus, .form-select:focus, .form-textarea:focus {
-          outline: none;
-          border-color: var(--brand);
-          box-shadow: 0 0 0 3px rgba(46, 74, 59, 0.12);
-        }
-
-        .form-input.is-error {
-          border-color: #D9381E;
-          background: #FFF5F5;
-        }
-
-        .error-text {
-          font-size: 11px;
-          color: #D9381E;
-          margin-top: 4px;
-        }
-
-        .form-footer {
-          margin-top: 24px;
-          padding-top: 16px;
-          border-top: 1px solid var(--line-soft);
-        }
-
-        .privacy-note {
-          font-size: 11px;
-          color: var(--ink-3);
-          margin-bottom: 16px;
-        }
-
-        .footer-actions {
-          display: flex;
-          justify-content: flex-end;
-          gap: 12px;
-        }
-
-        .btn-submit {
-          padding: 12px 24px;
-        }
-
-        /* Parsing state */
-        .parsing-state {
-          padding: 32px 16px;
-          text-align: center;
-        }
-
-        .parsing-spinner-container {
-          position: relative;
-          width: 64px;
-          height: 64px;
-          margin: 0 auto 20px;
-        }
-
-        .parsing-spinner {
-          width: 100%;
-          height: 100%;
-          border: 4px solid var(--line-soft);
-          border-top-color: var(--brand);
-          border-radius: 50%;
-          animation: spin 1s infinite linear;
-        }
-
-        @keyframes spin {
-          to { transform: rotate(360deg); }
-        }
-
-        .parsing-icon {
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          font-size: 24px;
-        }
-
-        .parsing-title {
-          font-family: var(--serif);
-          font-size: 22px;
-          color: var(--ink);
-          margin-bottom: 6px;
-        }
-
-        .parsing-desc {
-          font-size: 13px;
-          color: var(--ink-3);
-          margin-bottom: 24px;
-        }
-
-        .progress-bar-container {
-          height: 6px;
-          background: var(--line-soft);
-          border-radius: 999px;
-          overflow: hidden;
-          max-width: 400px;
-          margin: 0 auto 24px;
-        }
-
-        .progress-bar-fill {
-          height: 100%;
-          background: var(--brand);
-          transition: width 0.4s ease;
-        }
-
-        .parsing-logs-box {
-          background: #1A1F1C;
-          color: #A4A69E;
-          font-family: var(--mono);
-          font-size: 12px;
-          padding: 16px;
-          border-radius: 8px;
-          text-align: left;
-          max-width: 480px;
-          margin: 0 auto;
-          line-height: 1.6;
-        }
-
-        .log-arrow {
-          color: var(--accent);
-          font-weight: bold;
-        }
-
-        /* Success state */
-        .success-state {
-          text-align: center;
-          padding: 16px 8px;
-        }
-
-        .success-icon-badge {
-          font-size: 48px;
-          margin-bottom: 12px;
-        }
-
-        .success-title {
-          font-family: var(--serif);
-          font-size: 28px;
-          color: var(--ink);
-          margin-bottom: 8px;
-        }
-
-        .success-subtitle {
-          font-size: 14px;
-          color: var(--ink-2);
-          margin-bottom: 24px;
-        }
-
-        .success-card {
-          background: white;
-          border: 1px solid var(--line);
-          border-radius: var(--radius-lg);
-          padding: 20px;
-          text-align: left;
-          margin-bottom: 24px;
-          box-shadow: 0 4px 12px rgba(0,0,0,0.03);
-        }
-
-        .success-card-header {
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          padding-bottom: 12px;
-          border-bottom: 1px dashed var(--line-soft);
-          margin-bottom: 14px;
-        }
-
-        .card-lbl {
-          font-family: var(--mono);
-          font-size: 10px;
-          letter-spacing: 0.1em;
-          color: var(--ink-3);
-        }
-
-        .card-ref {
-          font-family: var(--mono);
-          font-size: 13px;
-          font-weight: 700;
-          color: var(--brand);
-        }
-
-        .success-details-grid {
-          display: grid;
-          grid-template-columns: 1fr 1fr;
-          gap: 12px;
-          font-size: 13px;
-        }
-
-        .detail-lbl {
-          display: block;
-          color: var(--ink-3);
-          font-size: 11px;
-        }
-
-        .detail-val {
-          font-weight: 600;
-          color: var(--ink);
-        }
-
-        .next-steps-box {
-          background: #FAF6F0;
-          border: 1px solid var(--line-soft);
-          border-radius: var(--radius-lg);
-          padding: 18px;
-          text-align: left;
-          margin-bottom: 24px;
-        }
-
-        .next-steps-box h4 {
-          font-size: 13px;
-          font-family: var(--mono);
-          letter-spacing: 0.08em;
-          text-transform: uppercase;
-          color: var(--brand);
-          margin-bottom: 10px;
-        }
-
-        .next-steps-box ul {
-          list-style: none;
-          display: flex;
-          flex-direction: column;
-          gap: 8px;
-          font-size: 13px;
-          color: var(--ink-2);
-        }
-
-        @media (max-width: 640px) {
-          .form-grid-2, .success-details-grid {
-            grid-template-columns: 1fr;
-          }
-          .modal-header, .modal-body {
-            padding: 16px 20px;
-          }
-          .resume-dropzone {
-            flex-direction: column;
-            text-align: center;
-          }
-          .dropzone-text {
-            text-align: center;
-          }
-        }
-      `}</style>
     </div>
   );
 }
