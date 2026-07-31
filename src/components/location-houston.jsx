@@ -10,7 +10,7 @@ export function LocationHouston() {
         stateName="Texas"
         cityName="Houston"
         headline="Clinical GLP-1 Weight Loss in <br/><span style='color: #2ECC71'>Houston</span>"
-        subheadline="The world's largest medical center is in your backyard—and yet getting a GLP-1 prescription there takes months. Access FDA-compliant compounded Semaglutide and Tirzepatide, cold-shipped to your door from River Oaks to The Woodlands."
+        subheadline="The world's largest medical center is in your backyard—and yet getting a GLP-1 prescription there takes months. Access quality-verified compounded Semaglutide and Tirzepatide, cold-shipped to your door from River Oaks to The Woodlands."
         ctaText="Check Texas Eligibility"
       />
 

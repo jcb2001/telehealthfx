@@ -61,7 +61,7 @@ export function BlogBerberineExtraction() {
               <div className="card" style={{ background: '#FFFDF9', borderColor: 'var(--brand)', padding: 32, textAlign: 'center' }}>
                 <h3 className="serif" style={{ fontSize: 28, marginBottom: 12 }}>Tired of Playing Supplement Roulette?</h3>
                 <p style={{ fontSize: 16, color: 'var(--ink-2)', marginBottom: 24, maxWidth: 500, margin: '0 auto 24px' }}>
-                  Stop guessing with unregulated botanical extracts. Access U.S.-licensed, FDA-compliant compounded Semaglutide directly from clinical providers.
+                  Stop guessing with unregulated botanical extracts. Access U.S.-licensed, quality-verified compounded Semaglutide directly from clinical providers.
                 </p>
                 <div style={{ display: 'flex', gap: 16, justifyContent: 'center' }}>
                   <a href="https://go.telehealthfx.com/start" className="btn btn-primary" style={{ fontSize: 16, padding: '0 24px' }}>
@@ -155,7 +155,7 @@ export function BlogBerberineExtraction() {
               At that price point, you are crossing a critical financial threshold. You are no longer engaging in cheap over-the-counter supplementation; you are paying clinical prices for botanical interventions that still suffer from a rigid physiological ceiling. Berberine, even at its absolute highest purity, cannot agonize the GLP-1 receptors in the brain to eliminate "food noise." It cannot significantly delay gastric emptying. It cannot force the profound, 15%+ total body weight loss seen in modern clinical trials. We explain exactly how pharmaceutical interventions surpass botanical limits in our guide: <a href="/blog/ozempic-insulin-resistance" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Ozempic for Insulin Resistance: Beyond Weight Loss</a>.
             </p>
             <p>
-              Furthermore, with the rise of highly regulated telehealth clinics, the cost of actual, FDA-compliant compounded Semaglutide and Tirzepatide has plummeted. You can now receive genuine peptide therapy—which bypasses the gut entirely via subcutaneous injection for near 100% bioavailability—for nearly the exact same monthly cost as premium, "biohacker-tier" botanical stacks.
+              Furthermore, with the rise of highly regulated telehealth clinics, the cost of actual, quality-verified compounded Semaglutide and Tirzepatide has plummeted. You can now receive genuine peptide therapy—which bypasses the gut entirely via subcutaneous injection for near 100% bioavailability—for nearly the exact same monthly cost as premium, "biohacker-tier" botanical stacks.
             </p>
             <p>
               (Note: Regardless of whether you use premium Berberine or prescription Semaglutide, you must actively protect your lean tissue during caloric deficits. Read our clinical playbook on <a href="/blog/glp-1-muscle-loss-the-hidden-risk-nobodys-talking" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>GLP-1 Muscle Loss Prevention</a> to ensure you aren't destroying your metabolism while losing weight.)
@@ -169,7 +169,7 @@ export function BlogBerberineExtraction() {
                   Stop worrying about heavy metal contamination, harsh acid extraction methods, and bioavailability failures. 
                 </p>
                 <p style={{ fontSize: 16, color: 'var(--ink-2)', marginBottom: 32, maxWidth: 600, margin: '0 auto 32px' }}>
-                  TelehealthFX provides U.S.-licensed, FDA-compliant compounded Semaglutide and Tirzepatide with direct clinician oversight. No extreme markups. No hidden membership fees. Just real, physiological results. Learn how to identify safe providers in our guide to spotting <a href="/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Hidden Fees in Telehealth Weight Loss</a>.
+                  TelehealthFX provides U.S.-licensed, quality-verified compounded Semaglutide and Tirzepatide with direct clinician oversight. No extreme markups. No hidden membership fees. Just real, physiological results. Learn how to identify safe providers in our guide to spotting <a href="/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Hidden Fees in Telehealth Weight Loss</a>.
                 </p>
                 <div style={{ display: 'flex', gap: 16, justifyContent: 'center' }}>
                   <a href="https://go.telehealthfx.com/start" className="btn btn-primary" style={{ fontSize: 18, padding: '0 32px' }}>
@@ -213,7 +213,8 @@ export function BlogBerberineExtraction() {
             </div>
           </div>
         </div>
-      </section>
+        <p style={{ fontSize: 13, color: 'var(--ink-3)', marginTop: 32, paddingTop: 20, borderTop: '1px solid var(--line-soft)' }}>Disclaimer: Mounjaro®, Zepbound®, Ozempic®, and Wegovy® are registered trademarks of their respective owners (Eli Lilly and Company, Novo Nordisk). Telehealth FX is an independent telehealth platform and is not affiliated with, endorsed by, or sponsored by these trademark owners. Compounded medications are prepared by state-licensed compounding pharmacies pursuant to a patient-specific prescription and are not reviewed or approved by the FDA for safety or efficacy.</p>
+    </section>
     </>
   );
 }

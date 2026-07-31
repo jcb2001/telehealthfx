@@ -58,7 +58,7 @@ export function BlogCoptisChinensis() {
               <div className="card" style={{ background: '#FFFDF9', borderColor: 'var(--brand)', padding: 32, textAlign: 'center' }}>
                 <h3 className="serif" style={{ fontSize: 28, marginBottom: 12 }}>Ready to Skip the Supplements?</h3>
                 <p style={{ fontSize: 16, color: 'var(--ink-2)', marginBottom: 24, maxWidth: 500, margin: '0 auto 24px' }}>
-                  Get access to FDA-compliant, compounded Semaglutide directly from licensed medical providers. Start your clinical protocol today.
+                  Get access to quality-verified, compounded Semaglutide directly from licensed medical providers. Start your clinical protocol today.
                 </p>
                 <div style={{ display: 'flex', gap: 16, justifyContent: 'center' }}>
                   <a href="https://go.telehealthfx.com/start" className="btn btn-primary" style={{ fontSize: 16, padding: '0 24px' }}>
@@ -163,7 +163,7 @@ export function BlogCoptisChinensis() {
               If your goal is to lose 5 pounds and optimize your fasting glucose, a high-quality Berberine supplement sourced from <em>Coptis Chinensis</em> is an excellent, cost-effective tool. However, if your goal is profound metabolic transformation, you must evaluate the ROI of your interventions.
             </p>
             <p>
-              Patients often spend $60 to $90 a month stacking premium full-spectrum Coptis extracts, Dihydroberberine, and Inositol in a desperate attempt to mimic the effects of Ozempic. This is clinically inefficient. With the advent of highly regulated telehealth clinics, the cost barrier to actual, FDA-compliant compounded Semaglutide has dropped dramatically. You can now access state-licensed clinical care and actual peptide therapy for marginally more than what you are spending on unproven botanical stacks.
+              Patients often spend $60 to $90 a month stacking premium full-spectrum Coptis extracts, Dihydroberberine, and Inositol in a desperate attempt to mimic the effects of Ozempic. This is clinically inefficient. With the advent of highly regulated telehealth clinics, the cost barrier to actual, quality-verified compounded Semaglutide has dropped dramatically. You can now access state-licensed clinical care and actual peptide therapy for marginally more than what you are spending on unproven botanical stacks.
             </p>
             <p>
               Furthermore, whether you choose botanicals or GLP-1s, you must aggressively protect your lean muscle mass during weight loss to prevent metabolic damage. We highly recommend reading our clinical playbook on <a href="/blog/glp-1-muscle-loss-the-hidden-risk-nobodys-talking" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>GLP-1 Muscle Loss Prevention</a>.
@@ -177,7 +177,7 @@ export function BlogCoptisChinensis() {
                   If you have exhausted the limits of Berberine and botanical AMPK activators, it is time to upgrade to clinical pharmacology. 
                 </p>
                 <p style={{ fontSize: 16, color: 'var(--ink-2)', marginBottom: 32, maxWidth: 600, margin: '0 auto 32px' }}>
-                  TelehealthFX provides U.S.-licensed, FDA-compliant compounded Semaglutide and Tirzepatide with direct clinician oversight. No extreme markups. No hidden membership fees. Just real, physiological results. Learn how to identify safe providers in our guide to spotting <a href="/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Hidden Fees in Telehealth Weight Loss</a>.
+                  TelehealthFX provides U.S.-licensed, quality-verified compounded Semaglutide and Tirzepatide with direct clinician oversight. No extreme markups. No hidden membership fees. Just real, physiological results. Learn how to identify safe providers in our guide to spotting <a href="/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Hidden Fees in Telehealth Weight Loss</a>.
                 </p>
                 <div style={{ display: 'flex', gap: 16, justifyContent: 'center' }}>
                   <a href="https://go.telehealthfx.com/start" className="btn btn-primary" style={{ fontSize: 18, padding: '0 32px' }}>
@@ -221,7 +221,8 @@ export function BlogCoptisChinensis() {
             </div>
           </div>
         </div>
-      </section>
+        <p style={{ fontSize: 13, color: 'var(--ink-3)', marginTop: 32, paddingTop: 20, borderTop: '1px solid var(--line-soft)' }}>Disclaimer: Mounjaro®, Zepbound®, Ozempic®, and Wegovy® are registered trademarks of their respective owners (Eli Lilly and Company, Novo Nordisk). Telehealth FX is an independent telehealth platform and is not affiliated with, endorsed by, or sponsored by these trademark owners. Compounded medications are prepared by state-licensed compounding pharmacies pursuant to a patient-specific prescription and are not reviewed or approved by the FDA for safety or efficacy.</p>
+    </section>
     </>
   );
 }

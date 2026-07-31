@@ -64,7 +64,7 @@ export default function About() {
                 TelehealthFX was founded to disrupt the chaotic, predatory landscape of online medical weight loss. As the demand for GLP-1 medications skyrocketed, patients were abandoned by traditional healthcare and preyed upon by illicit compounding mills.
               </p>
               <p style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)', marginBottom: 20 }}>
-                Our mission is absolute clinical transparency. We partner exclusively with fully verified, U.S.-licensed 503A pharmacies to provide safe, FDA-compliant medications. We do not utilize dangerous salt formulations (like semaglutide sodium) or unverified research chemicals. Every patient undergoes a rigorous medical evaluation and receives 1-on-1 clinician onboarding.
+                Our mission is absolute clinical transparency. We partner exclusively with fully verified, U.S.-licensed 503A pharmacies to provide safe, quality-verified medications. We do not utilize dangerous salt formulations (like semaglutide sodium) or unverified research chemicals. Every patient undergoes a rigorous medical evaluation and receives 1-on-1 clinician onboarding.
               </p>
 
               <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: 24, marginTop: 40 }}>

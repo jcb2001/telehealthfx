@@ -9,7 +9,7 @@ export function LocationAtlanta() {
         stateName="Georgia"
         cityName="Atlanta"
         headline="Clinical GLP-1 Weight Loss in <br/><span style='color: #2ECC71'>Atlanta</span>"
-        subheadline="Atlanta is the public health capital of the world, home to the CDC. Yet navigating the perimeter traffic to see a specialist at Emory or Piedmont takes months. We deliver FDA-compliant compounded Semaglutide directly to your door, anywhere in the Metro."
+        subheadline="Atlanta is the public health capital of the world, home to the CDC. Yet navigating the perimeter traffic to see a specialist at Emory or Piedmont takes months. We deliver quality-verified compounded Semaglutide directly to your door, anywhere in the Metro."
         ctaText="Check Georgia Eligibility"
       />
       <PatientArchetype

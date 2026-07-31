@@ -10,7 +10,7 @@ export function LocationChicago() {
         stateName="Illinois"
         cityName="Chicago"
         headline="Clinical GLP-1 Weight Loss in <span style='color: #2ECC71'>Chicago</span>"
-        subheadline="Skip the Gold Coast clinic markups and the months-long waitlists at Northwestern Memorial. Access FDA-compliant compounded Semaglutide and Tirzepatide, cold-shipped to your door anywhere from the Loop to the North Shore."
+        subheadline="Skip the Gold Coast clinic markups and the months-long waitlists at Northwestern Memorial. Access quality-verified compounded Semaglutide and Tirzepatide, cold-shipped to your door anywhere from the Loop to the North Shore."
         dataPoint1="Walgreens is headquartered 25 miles north in Deerfield, yet its own Chicago-area locations cannot reliably stock branded Wegovy or Zepbound due to national supply chain failures."
         dataPoint2="Our decentralized 503A compounding pharmacy network bypasses this irony entirely, ensuring uninterrupted medication access for Cook County residents."
       />

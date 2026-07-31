@@ -10,7 +10,7 @@ export function LocationPhoenix() {
         stateName="Arizona"
         cityName="Phoenix"
         headline="Clinical GLP-1 Weight Loss in <span style='color: #2ECC71'>Phoenix</span>"
-        subheadline="Bypass the extreme markups of Scottsdale wellness clinics and the months-long waitlists at Mayo Clinic Arizona. Access FDA-compliant compounded Semaglutide and Tirzepatide, cold-shipped to your door from Arcadia to Ahwatukee."
+        subheadline="Bypass the extreme markups of Scottsdale wellness clinics and the months-long waitlists at Mayo Clinic Arizona. Access quality-verified compounded Semaglutide and Tirzepatide, cold-shipped to your door from Arcadia to Ahwatukee."
         dataPoint1="Phoenix averages 110+ days per year with temperatures exceeding 100°F—making sustained outdoor exercise medically inadvisable for nearly a third of the calendar year."
         dataPoint2="Telehealth FX provides asynchronous, climate-proof metabolic care that doesn't require you to leave your air-conditioned home during a heat advisory."
       />
@@ -82,7 +82,7 @@ export function LocationPhoenix() {
         faqs={[
           { q: "How does cold-pack shipping work in Arizona's extreme heat?", a: "Our 503A pharmacy partners use medical-grade insulated packaging with gel ice packs designed to maintain proper temperature for up to 72 hours, even in extreme ambient heat. We also recommend selecting a delivery option that avoids extended exposure on a doorstep—such as delivery to a covered porch, a package locker, or a staffed mailroom." },
           { q: "I'm a snowbird who splits time between Phoenix and the Midwest. Can I still use Telehealth FX?", a: "Yes, but your prescribing state is determined by your physical location at the time of the consultation. If you complete your intake while physically in Arizona, you'll be evaluated by an AZ-licensed physician. If your primary residence is in another state, we can coordinate care accordingly. Medication can be shipped to your Arizona address." },
-          { q: "Is this the same as the IV drip clinics and weight loss shots I see advertised on Scottsdale Road?", a: "No. Many storefront 'weight loss shot' clinics offer B12 injections, lipotropic blends, or other non-FDA-regulated concoctions marketed as weight loss aids. Telehealth FX prescribes only FDA-compliant compounded Semaglutide and Tirzepatide—true GLP-1 receptor agonists with extensive Phase III clinical trial data supporting their efficacy." },
+          { q: "Is this the same as the IV drip clinics and weight loss shots I see advertised on Scottsdale Road?", a: "No. Many storefront 'weight loss shot' clinics offer B12 injections, lipotropic blends, or other non-FDA-regulated concoctions marketed as weight loss aids. Telehealth FX prescribes only quality-verified compounded Semaglutide and Tirzepatide—true GLP-1 receptor agonists with extensive Phase III clinical trial data supporting their efficacy." },
           { q: "Can my medication be delivered to my office in Tempe or the Chandler Airpark?", a: "Absolutely. We deliver to all residential and commercial addresses across the entire Phoenix metropolitan area, including East Valley tech corridors, Sky Harbor-adjacent offices, and North Scottsdale." }
         ]}
       />

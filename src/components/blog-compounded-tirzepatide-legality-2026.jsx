@@ -73,7 +73,7 @@ function BlogCompoundedTirzepatideLegality2026() {
 
       <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
         <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Legal, Safe, and Monitored.</h2>
-        <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 500, margin: '0 auto 32px' }}>Stop guessing about your medication's origin. Connect with a licensed clinician and access guaranteed pure, compounded tirzepatide from FDA-compliant pharmacies.</p>
+        <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 500, margin: '0 auto 32px' }}>Stop guessing about your medication's origin. Connect with a licensed clinician and access guaranteed pure, compounded tirzepatide from state-licensed 503A/503B pharmacies.</p>
         <a href={S} target="_blank" rel="noopener noreferrer" className="btn btn-lg" style={{ background: '#FBF8F3', color: 'var(--ink)', display: 'inline-flex', justifyContent: 'center', width: '100%', maxWidth: 250, padding: '16px 24px', borderRadius: 30, textDecoration: 'none', fontWeight: 600 }}>Start Your Intake <Icon.Arrow /></a>
       </div>
       
@@ -87,7 +87,8 @@ function BlogCompoundedTirzepatideLegality2026() {
         </ol>
       </div>
     </div>
-  </div></section></>);
+  </div>  <p style={{ fontSize: 13, color: 'var(--ink-3)', marginTop: 32, paddingTop: 20, borderTop: '1px solid var(--line-soft)' }}>Disclaimer: Mounjaro®, Zepbound®, Ozempic®, and Wegovy® are registered trademarks of their respective owners (Eli Lilly and Company, Novo Nordisk). Telehealth FX is an independent telehealth platform and is not affiliated with, endorsed by, or sponsored by these trademark owners. Compounded medications are prepared by state-licensed compounding pharmacies pursuant to a patient-specific prescription and are not reviewed or approved by the FDA for safety or efficacy.</p>
+    </section></>);
 }
 
 export { BlogCompoundedTirzepatideLegality2026 };

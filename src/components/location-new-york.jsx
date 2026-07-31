@@ -10,7 +10,7 @@ export function LocationNewYork() {
         stateName="New York"
         cityName="New York City"
         headline="Clinical GLP-1 Weight Loss in <span style='color: #2ECC71'>New York City</span>"
-        subheadline="Bypass the extreme markups of Upper East Side MedSpas and the multi-month waitlists at NYU Langone. Access FDA-compliant compounded Semaglutide and Tirzepatide, delivered cold-packed to your door anywhere in the Five Boroughs."
+        subheadline="Bypass the extreme markups of Upper East Side MedSpas and the multi-month waitlists at NYU Langone. Access quality-verified compounded Semaglutide and Tirzepatide, delivered cold-packed to your door anywhere in the Five Boroughs."
         dataPoint1="Due to unprecedented demand, retail pharmacies across Manhattan and Brooklyn (including Duane Reade and CVS) are experiencing indefinite backorders of branded Wegovy and Zepbound."
         dataPoint2="Telehealth FX utilizes a decentralized network of 503A compounding pharmacies, ensuring uninterrupted access to the exact same active pharmaceutical ingredients."
       />

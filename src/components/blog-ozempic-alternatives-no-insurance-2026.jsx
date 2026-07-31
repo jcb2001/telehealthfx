@@ -117,7 +117,7 @@ function BlogOzempicAlternativesNoInsurance() {
 
           <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Frequently Asked Questions</h2>
 
-          <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>What is the cheapest alternative to Ozempic?</h4>
+          <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>What is the cheapest oral semaglutide option?</h4>
           <p style={{ marginBottom: 24 }}>Compounded semaglutide through an all-inclusive telehealth provider ($150–$399/month) offers the same active molecule at a fraction of branded Ozempic's price. If you want a non-injectable option, generic metformin ($4–$30/month) is the most affordable, though it produces significantly less weight loss.</p>
 
           <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>Is compounded semaglutide the same as Ozempic?</h4>
@@ -145,6 +145,7 @@ function BlogOzempicAlternativesNoInsurance() {
           </div>
         </div>
       </div>
+      <p style={{ fontSize: 13, color: 'var(--ink-3)', marginTop: 32, paddingTop: 20, borderTop: '1px solid var(--line-soft)' }}>Disclaimer: Mounjaro®, Zepbound®, Ozempic®, and Wegovy® are registered trademarks of their respective owners (Eli Lilly and Company, Novo Nordisk). Telehealth FX is an independent telehealth platform and is not affiliated with, endorsed by, or sponsored by these trademark owners. Compounded medications are prepared by state-licensed compounding pharmacies pursuant to a patient-specific prescription and are not reviewed or approved by the FDA for safety or efficacy.</p>
     </section>
     </>
   );

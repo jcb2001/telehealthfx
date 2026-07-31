@@ -10,7 +10,7 @@ export function LocationLosAngeles() {
         stateName="California"
         cityName="Los Angeles"
         headline="Clinical GLP-1 Weight Loss in <br/> <span style='color: #2ECC71'>Los Angeles</span>"
-        subheadline="Bypass the gridlock on the 405 and the extreme markups of Beverly Hills concierge clinics. Access FDA-compliant compounded Semaglutide, delivered directly to your home anywhere in Southern California."
+        subheadline="Bypass the gridlock on the 405 and the extreme markups of Beverly Hills concierge clinics. Access quality-verified compounded Semaglutide, delivered directly to your home anywhere in Southern California."
         ctaText="Check California Eligibility"
       />
 

@@ -34,7 +34,7 @@ function SemaglutidePage() {
             Semaglutide<br/><span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>from $146/mo.</span>
           </h1>
           <p style={{ fontSize: 20, color: 'var(--ink-2)', maxWidth: 600, margin: '0 auto 40px', lineHeight: 1.6 }}>
-            The same active ingredient as Ozempic® and Wegovy® — compounded by licensed US pharmacies. 24-hour clinician approval. Zero hidden fees. 2-day UPS shipping.
+            a GLP-1 receptor agonist formulation — compounded by licensed US pharmacies. 24-hour clinician approval. Zero hidden fees. 2-day UPS shipping.
           </p>
           <a href={CTA_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex' }}>
             See If You Qualify <Icon.Arrow />
@@ -243,6 +243,7 @@ function SemaglutidePage() {
 
         </div>
       </div>
+      <p style={{ fontSize: 13, color: 'var(--ink-3)', marginTop: 32, paddingTop: 20, borderTop: '1px solid var(--line-soft)' }}>Disclaimer: Mounjaro®, Zepbound®, Ozempic®, and Wegovy® are registered trademarks of their respective owners (Eli Lilly and Company, Novo Nordisk). Telehealth FX is an independent telehealth platform and is not affiliated with, endorsed by, or sponsored by these trademark owners. Compounded medications are prepared by state-licensed compounding pharmacies pursuant to a patient-specific prescription and are not reviewed or approved by the FDA for safety or efficacy.</p>
     </section>
   );
 }

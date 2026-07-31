@@ -58,7 +58,7 @@ export function BlogDihydroberberineVsBerberine() {
               <div className="card" style={{ background: '#FFFDF9', borderColor: 'var(--brand)', padding: 32, textAlign: 'center' }}>
                 <h3 className="serif" style={{ fontSize: 28, marginBottom: 12 }}>Ready to Skip the Supplements?</h3>
                 <p style={{ fontSize: 16, color: 'var(--ink-2)', marginBottom: 24, maxWidth: 500, margin: '0 auto 24px' }}>
-                  Get access to FDA-compliant, compounded Semaglutide directly from licensed medical providers. Start your clinical protocol today.
+                  Get access to quality-verified, compounded Semaglutide directly from licensed medical providers. Start your clinical protocol today.
                 </p>
                 <div style={{ display: 'flex', gap: 16, justifyContent: 'center' }}>
                   <a href="https://go.telehealthfx.com/start" className="btn btn-primary" style={{ fontSize: 16, padding: '0 24px' }}>
@@ -196,7 +196,7 @@ export function BlogDihydroberberineVsBerberine() {
                   If you are investing $80+ a month into Dihydroberberine or complex botanical stacks with minimal results, it is time to upgrade to clinical pharmacology. 
                 </p>
                 <p style={{ fontSize: 16, color: 'var(--ink-2)', marginBottom: 32, maxWidth: 600, margin: '0 auto 32px' }}>
-                  TelehealthFX provides U.S.-licensed, FDA-compliant compounded Semaglutide with direct clinician oversight. No extreme price markups. No hidden membership fees. Just real science. Learn how to identify safe providers in our guide to spotting <a href="/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Hidden Fees in Telehealth Weight Loss</a>.
+                  TelehealthFX provides U.S.-licensed, quality-verified compounded Semaglutide with direct clinician oversight. No extreme price markups. No hidden membership fees. Just real science. Learn how to identify safe providers in our guide to spotting <a href="/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Hidden Fees in Telehealth Weight Loss</a>.
                 </p>
                 <div style={{ display: 'flex', gap: 16, justifyContent: 'center' }}>
                   <a href="https://go.telehealthfx.com/start" className="btn btn-primary" style={{ fontSize: 18, padding: '0 32px' }}>
@@ -243,7 +243,8 @@ export function BlogDihydroberberineVsBerberine() {
             </div>
           </div>
         </div>
-      </section>
+        <p style={{ fontSize: 13, color: 'var(--ink-3)', marginTop: 32, paddingTop: 20, borderTop: '1px solid var(--line-soft)' }}>Disclaimer: Mounjaro®, Zepbound®, Ozempic®, and Wegovy® are registered trademarks of their respective owners (Eli Lilly and Company, Novo Nordisk). Telehealth FX is an independent telehealth platform and is not affiliated with, endorsed by, or sponsored by these trademark owners. Compounded medications are prepared by state-licensed compounding pharmacies pursuant to a patient-specific prescription and are not reviewed or approved by the FDA for safety or efficacy.</p>
+    </section>
     </>
   );
 }

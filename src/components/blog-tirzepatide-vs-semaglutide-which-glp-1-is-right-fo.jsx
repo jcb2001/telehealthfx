@@ -125,7 +125,7 @@ export function BlogTirzepatideVsSemaglutideWhichGlp1IsRightFo() {
               <div className="card" style={{ background: '#FFFDF9', borderColor: 'var(--brand)', padding: 32, textAlign: 'center' }}>
                 <h3 className="serif" style={{ fontSize: 28, marginBottom: 12 }}>Access Premium Compounded Peptides</h3>
                 <p style={{ fontSize: 16, color: 'var(--ink-2)', marginBottom: 24, maxWidth: 500, margin: '0 auto 24px' }}>
-                  TelehealthFX provides both FDA-compliant compounded Semaglutide and Tirzepatide at transparent, highly competitive price points with zero hidden fees.
+                  TelehealthFX provides both quality-verified compounded Semaglutide and Tirzepatide at transparent, highly competitive price points with zero hidden fees.
                 </p>
                 <div style={{ display: 'flex', gap: 16, justifyContent: 'center' }}>
                   <a href={START_URL} className="btn btn-primary" style={{ fontSize: 16, padding: '0 24px' }}>
@@ -162,7 +162,7 @@ export function BlogTirzepatideVsSemaglutideWhichGlp1IsRightFo() {
                   Your metabolism is unique. Do not rely on social media to choose your medication. Work with elite providers to design a protocol tailored to your body.
                 </p>
                 <p style={{ fontSize: 16, color: 'var(--ink-2)', marginBottom: 32, maxWidth: 600, margin: '0 auto 32px' }}>
-                  TelehealthFX provides U.S.-licensed, FDA-compliant compounded Semaglutide and Tirzepatide with strict physician oversight, anti-nausea management, and custom titration schedules. Learn how to identify safe providers in our guide to spotting <a href="/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Hidden Fees in Telehealth</a>.
+                  TelehealthFX provides U.S.-licensed, quality-verified compounded Semaglutide and Tirzepatide with strict physician oversight, anti-nausea management, and custom titration schedules. Learn how to identify safe providers in our guide to spotting <a href="/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Hidden Fees in Telehealth</a>.
                 </p>
                 <div style={{ display: 'flex', gap: 16, justifyContent: 'center' }}>
                   <a href={START_URL} className="btn btn-primary" style={{ fontSize: 18, padding: '0 32px' }}>
@@ -194,7 +194,8 @@ export function BlogTirzepatideVsSemaglutideWhichGlp1IsRightFo() {
             </div>
           </div>
         </div>
-      </section>
+        <p style={{ fontSize: 13, color: 'var(--ink-3)', marginTop: 32, paddingTop: 20, borderTop: '1px solid var(--line-soft)' }}>Disclaimer: Mounjaro®, Zepbound®, Ozempic®, and Wegovy® are registered trademarks of their respective owners (Eli Lilly and Company, Novo Nordisk). Telehealth FX is an independent telehealth platform and is not affiliated with, endorsed by, or sponsored by these trademark owners. Compounded medications are prepared by state-licensed compounding pharmacies pursuant to a patient-specific prescription and are not reviewed or approved by the FDA for safety or efficacy.</p>
+    </section>
     </>
   );
 }

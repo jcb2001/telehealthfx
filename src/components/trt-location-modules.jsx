@@ -265,7 +265,7 @@ export function LocalTransitPain({ title, transitText, hospitalText }) {
                   <div style={{ width: 40, height: 40, background: '#2ECC71', color: '#000', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold', fontSize: 18, flexShrink: 0, boxShadow: '0 4px 12px rgba(46, 204, 113, 0.3)' }}>2</div>
                   <div>
                     <strong style={{ display: 'block', fontSize: 18, marginBottom: 8, color: 'var(--ink)' }}>Clinical Authorization</strong>
-                    <span style={{ color: 'var(--ink-2)', fontSize: 15, lineHeight: 1.6 }}>A state-licensed provider reviews your data and writes an FDA-compliant TRT prescription.</span>
+                    <span style={{ color: 'var(--ink-2)', fontSize: 15, lineHeight: 1.6 }}>A state-licensed provider reviews your data and writes an quality-verified TRT prescription.</span>
                   </div>
                 </li>
                 <li style={{ display: 'flex', gap: 20 }}>
