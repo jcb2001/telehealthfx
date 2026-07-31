@@ -258,7 +258,7 @@ function BlogBrandVsCompoundedGlp1Cost2026() {
 
           <h3 className="serif" style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>Efficacy and Formulation</h3>
 
-          <p>Both brand-name and compounded GLP-1 medications use the same active pharmaceutical ingredients. Compounded semaglutide uses USP-grade semaglutide base identical to the molecule in Wegovy. However, brand-name formulations have the advantage of extensive clinical trial data behind their specific pen-delivery format. Our <a href="/blog/compounded-semaglutide-vs-wegovy-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>compounded semaglutide vs. Wegovy comparison</a> explores these nuances in detail.</p>
+          <p>Both brand-name and compounded GLP-1 medications contain GLP-1 receptor agonists. Compounded semaglutide uses USP-grade semaglutide base. Compounded medications are not FDA-approved and are not equivalent to branded products. However, brand-name formulations have the advantage of extensive clinical trial data behind their specific pen-delivery format. Our <a href="/blog/compounded-semaglutide-vs-wegovy-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>compounded semaglutide vs. Wegovy comparison</a> explores these nuances in detail.</p>
 
           <p>A 2024 retrospective cohort analysis published in <em>Obesity</em> (n=3,012) found that patients on compounded semaglutide achieved comparable 12-month weight loss outcomes (13.2% vs. 14.1% mean body weight reduction) to those on brand-name Wegovy when titration protocols and clinical supervision quality were equivalent. The modest difference was not statistically significant (p=0.18).</p>
 

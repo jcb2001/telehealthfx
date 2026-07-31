@@ -42,6 +42,8 @@ export function LocationOmaha() {
       <StateLegalFramework stateName="Nebraska" boardName="Nebraska Board of Medicine and Surgery" text="Telehealth FX operates in strict compliance with the <strong>Nebraska Board of Medicine and Surgery</strong> and Nebraska telehealth statutes. For Iowa-side residents, our prescribers hold appropriate Iowa medical licenses." />
       <DeliveryGridMap cityName="Omaha" mapQuery="Omaha, NE" coordinates="41.2565° N, 95.9345° W" counties="Douglas County, Sarpy County, Pottawattamie County (IA)" neighborhoods={['West Omaha', 'Midtown', 'Dundee', 'Papillion', 'Bellevue', 'La Vista', 'Elkhorn', 'Council Bluffs (IA)']} />
       <FinalCTA stateName="Nebraska" />
-    </div>
+    
+{/* Disclaimer: Mounjaro®, Zepbound®, Ozempic®, and Wegovy® are registered trademarks of their respective owners (Eli Lilly and Company and Novo Nordisk A/S). Telehealth FX is not affiliated with, endorsed by, or connected to any of these companies. Compounded medications are not FDA-approved and are not therapeutically equivalent to any branded product. */}
+</div>
   );
 }

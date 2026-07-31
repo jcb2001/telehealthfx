@@ -64,7 +64,7 @@ export function LocationChicago() {
           { q: "How is this different from the GLP-1 programs advertised on the CTA?", a: "Many advertisements you see on CTA trains and buses are from telemedicine companies that use generic questionnaires and offer little to no physician oversight. Telehealth FX provides a comprehensive, asynchronous clinical intake reviewed by an individually credentialed, Illinois-licensed physician—not an algorithm. Your prescriber is a real doctor, verified through IDFPR." },
           { q: "Can I get my medication delivered to my office in the Loop?", a: "Yes. Our 503A pharmacy partners ship via overnight courier with insulated cold-packs. You can have your medication delivered to any residential or commercial address in Cook County, including Loop office buildings with mailrooms." },
           { q: "What if I'm currently on a Northwestern or Rush waitlist?", a: "You can begin your Telehealth FX evaluation immediately, without needing to cancel your existing referral. Many patients use our service to bridge the gap while waiting for a specialist appointment, and some choose to continue with us permanently due to the convenience and cost savings." },
-          { q: "Is compounded Semaglutide the same as branded Ozempic?", a: "Compounded Semaglutide contains the same active pharmaceutical ingredient as Ozempic and Wegovy. It is prepared by FDA-registered 503A compounding pharmacies using USP-grade ingredients. The key difference is that it is not manufactured by Novo Nordisk, which allows us to bypass the brand-name supply shortage entirely." },
+          { q: "What is compounded semaglutide?", a: "Compounded Semaglutide contains the a compounded GLP-1 medication prepared by state-licensed pharmacies. It is prepared by state-licensed 503A compounding pharmacies using USP-grade ingredients. The key difference is that it is not manufactured by Novo Nordisk, which allows us to bypass the brand-name supply shortage entirely." },
           { q: "Do you accept insurance?", a: "We do not bill insurance directly, which is actually the key advantage. By operating outside the insurance framework, we eliminate prior authorization delays, step therapy requirements, and formulary restrictions. However, your Telehealth FX costs are fully eligible for payment via FSA or HSA pre-tax funds." }
         ]}
       />
@@ -79,6 +79,8 @@ export function LocationChicago() {
 
       <FinalCTA stateName="Illinois" />
 
-    </div>
+    
+{/* Disclaimer: Mounjaro®, Zepbound®, Ozempic®, and Wegovy® are registered trademarks of their respective owners (Eli Lilly and Company and Novo Nordisk A/S). Telehealth FX is not affiliated with, endorsed by, or connected to any of these companies. Compounded medications are not FDA-approved and are not therapeutically equivalent to any branded product. */}
+</div>
   );
 }

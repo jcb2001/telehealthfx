@@ -59,7 +59,7 @@ export function LocationMiami() {
 
       <InteractiveFAQ
         faqs={[
-          { q: "How are you different from the MedSpas in my neighborhood?", a: "Telehealth FX is a medical practice, not a cosmetic clinic. We do not sell IV drips, Botox, or B12 shots. You are evaluated by a licensed physician specializing in metabolic health. Most importantly, our medications are sourced exclusively from FDA-registered 503A compounding pharmacies operating under USP guidelines, ensuring safety and efficacy that strip-mall clinics often cannot verify." },
+          { q: "How are you different from the MedSpas in my neighborhood?", a: "Telehealth FX is a medical practice, not a cosmetic clinic. We do not sell IV drips, Botox, or B12 shots. You are evaluated by a licensed physician specializing in metabolic health. Most importantly, our medications are sourced exclusively from state-licensed 503A compounding pharmacies operating under USP guidelines, ensuring safety and efficacy that strip-mall clinics often cannot verify." },
           { q: "I drink 3-4 Cafecitos a day. Do I need to stop for this to work?", a: "GLP-1 medications work by restoring proper hormonal signaling, regardless of your diet. However, the concentrated sugar in a traditional Colada causes severe glucose spikes. As the medication recalibrates your appetite and insulin response, you will likely find your craving for that much sugar naturally diminishes. You don't have to force yourself to stop; the medication helps change your physiological desire for it." },
           { q: "Is this legal in Florida?", a: "Yes. Telehealth FX operates in strict compliance with the Florida Board of Medicine and Florida telehealth statutes (F.S. § 456.47). All prescribers treating Florida patients hold active, unrestricted Florida medical licenses. The dispensing of compounded medications from 503A pharmacies is fully permitted under state and federal law." },
           { q: "Do you deliver to Fort Lauderdale or West Palm Beach?", a: "Yes. We deliver to all residential and commercial addresses in Miami-Dade, Broward, and Palm Beach counties—covering the entire South Florida tri-county area." },
@@ -89,6 +89,8 @@ export function LocationMiami() {
 
       <FinalCTA stateName="Florida" />
 
-    </div>
+    
+{/* Disclaimer: Mounjaro®, Zepbound®, Ozempic®, and Wegovy® are registered trademarks of their respective owners (Eli Lilly and Company and Novo Nordisk A/S). Telehealth FX is not affiliated with, endorsed by, or connected to any of these companies. Compounded medications are not FDA-approved and are not therapeutically equivalent to any branded product. */}
+</div>
   );
 }

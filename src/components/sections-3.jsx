@@ -125,7 +125,7 @@ function Footer() {
           <div>
             <Logo size={22}/>
             <p style={{ marginTop: 20, fontSize: 13, color: 'var(--ink-3)', lineHeight: 1.6, maxWidth: 280 }}>
-              Clinical weight loss, delivered. Licensed in all 50 states. Medications compounded in FDA-regulated US pharmacies.
+              Clinical weight loss, delivered. Licensed in all 50 states. Medications compounded in state-licensed US pharmacies.
             </p>
           </div>
           {[

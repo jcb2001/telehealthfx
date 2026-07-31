@@ -64,7 +64,7 @@ export function LocationDetroit() {
           { q: "I work rotating shifts at a plant. When can I do the intake?", a: "Anytime. Asynchronous telemedicine has no scheduled appointment. Complete the intake at 3 AM after a night shift, at noon on your day off, or during a lunch break at the plant. Your physician reviews your profile independently within 24 hours." },
           { q: "Can I get medication delivered to my home in Warren, Sterling Heights, or Dearborn?", a: "Yes. We deliver to all residential addresses in Wayne, Oakland, Macomb, and Washtenaw counties—covering the entire Metro Detroit region, including Warren, Sterling Heights, Dearborn, Troy, Royal Oak, Ann Arbor, and all communities in between." },
           { q: "I drive past the Michigan Medicine campus every day on my commute. Why shouldn't I just go there?", a: "Michigan Medicine (U-M Health) in Ann Arbor is a world-class institution. But new-patient endocrinology appointments currently average 12-16 weeks. If you live in Wayne or Macomb County, the drive to Ann Arbor adds 45-60 minutes each way. Telehealth FX provides the clinical evaluation and medication access in 24-48 hours, from your home." },
-          { q: "Is compounded Semaglutide safe?", a: "Compounded Semaglutide is prepared by FDA-registered 503A compounding pharmacies using USP-grade ingredients. It contains the same active pharmaceutical ingredient as Ozempic and Wegovy. The key difference is the manufacturer (a licensed compounding pharmacy rather than Novo Nordisk), which allows us to bypass the national branded supply shortage." }
+          { q: "Is compounded Semaglutide safe?", a: "Compounded Semaglutide is prepared by state-licensed 503A compounding pharmacies using USP-grade ingredients. It contains the a compounded GLP-1 medication prepared by state-licensed pharmacies. The key difference is the manufacturer (a licensed compounding pharmacy rather than Novo Nordisk), which allows us to bypass the national branded supply shortage." }
         ]}
       />
 
@@ -90,6 +90,8 @@ export function LocationDetroit() {
 
       <FinalCTA stateName="Michigan" />
 
-    </div>
+    
+{/* Disclaimer: Mounjaro®, Zepbound®, Ozempic®, and Wegovy® are registered trademarks of their respective owners (Eli Lilly and Company and Novo Nordisk A/S). Telehealth FX is not affiliated with, endorsed by, or connected to any of these companies. Compounded medications are not FDA-approved and are not therapeutically equivalent to any branded product. */}
+</div>
   );
 }

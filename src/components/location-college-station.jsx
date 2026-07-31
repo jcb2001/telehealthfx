@@ -14,6 +14,8 @@ export function LocationCollegeStation() {
       <StateLegalFramework stateName="Texas" boardName="Texas Medical Board" text="Telehealth FX operates in full compliance with the <strong>Texas Medical Board</strong> (TMB) and Texas Occupations Code Title 3, Subtitle B. All prescribing physicians are Texas-licensed and maintain active, unrestricted licenses verified through the TMB's license lookup system." />
       <DeliveryGridMap cityName="College Station" mapQuery="College Station, TX" coordinates="30.6280° N, 96.3344° W" counties="Brazos County, Burleson County, Robertson County" neighborhoods={['Pebble Creek','South College Station','Northgate','University Park','Bryan','Wellborn','Millican','Kurten','Benchley','Snook','Caldwell','Hearne','Navasota']} />
       <FinalCTA stateName="Texas" />
-    </div>
+    
+{/* Disclaimer: Mounjaro®, Zepbound®, Ozempic®, and Wegovy® are registered trademarks of their respective owners (Eli Lilly and Company and Novo Nordisk A/S). Telehealth FX is not affiliated with, endorsed by, or connected to any of these companies. Compounded medications are not FDA-approved and are not therapeutically equivalent to any branded product. */}
+</div>
   );
 }

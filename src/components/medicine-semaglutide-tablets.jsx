@@ -42,7 +42,7 @@ function SemaglutideTabletsPage() {
             Semaglutide Tablets<br/><span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>from $249/mo.</span>
           </h1>
           <p style={{ fontSize: 20, color: 'var(--ink-2)', maxWidth: 600, margin: '0 auto 40px', lineHeight: 1.6 }}>
-            A convenient once-daily dissolving tablet form of Semaglutide. The same active ingredient as Wegovy® and Ozempic® — compounded by U.S. state-licensed pharmacies. Zero injections, zero pain.
+            A convenient once-daily dissolving tablet form of Semaglutide. Compounded semaglutide tablets — prepared by U.S. state-licensed pharmacies. Zero injections, zero pain.
           </p>
           <a href={CTA_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex' }}>
             See If You Qualify <Icon.Arrow />
@@ -67,7 +67,7 @@ function SemaglutideTabletsPage() {
         <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
 
           <h2 className="serif" style={{ fontSize: 40, marginTop: 0, marginBottom: 24, color: 'var(--ink)' }}>What Are Semaglutide Tablets?</h2>
-          <p>Compounded semaglutide tablets are an oral form of the exact same weight loss medication used in weekly GLP-1 injections. Taken daily, these sublingual tablets are designed to dissolve completely under the tongue. This allows the active semaglutide molecule to be absorbed directly into the blood via the sublingual mucosa, bypassing the destructive acids of the stomach.</p>
+          <p>Compounded semaglutide tablets are an oral form of the GLP-1 receptor agonist semaglutide. Taken daily, these sublingual tablets are designed to dissolve completely under the tongue. This allows the active semaglutide molecule to be absorbed directly into the blood via the sublingual mucosa, bypassing the destructive acids of the stomach.</p>
           <p>This tablet format provides a highly convenient, comfortable, and needle-free alternative for individuals who want the clinical efficacy of semaglutide without the pain and storage hassles associated with refrigerated weekly injections.</p>
           <p>Our compounded semaglutide tablets are prescribed by licensed providers and formulated in certified U.S. compounding pharmacies, starting at <strong>$249/month</strong>.</p>
 

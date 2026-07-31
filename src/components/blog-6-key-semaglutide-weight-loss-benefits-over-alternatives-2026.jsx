@@ -124,7 +124,7 @@ function Blog6KeySemaglutideBenefits() {
       <p>For male patients with clinical hypogonadism (low testosterone), rapid weight loss can exacerbate muscle loss and fatigue. Telehealth FX offers concurrent screening for TRT. Co-optimizing testosterone levels alongside GLP-1 therapy helps male patients selectively burn adipose tissue, maintain muscle mass, and sustain energy levels.</p>
 
       <h3 className="serif" style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>Reliable Medication Supply</h3>
-      <p>We work with leading, FDA-regulated compounding pharmacies to ensure a reliable supply of compounded semaglutide, helping patients avoid commercial shortages and insurance denials at an affordable monthly rate.</p>
+      <p>We work with leading, state-licensed compounding pharmacies to ensure a reliable supply of compounded semaglutide, helping patients avoid commercial shortages and insurance denials at an affordable monthly rate.</p>
 
       <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Comparing Weight Loss Modalities</h2>
       <div style={{ overflowX: 'auto', margin: '24px 0' }}>

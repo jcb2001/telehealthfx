@@ -67,7 +67,7 @@ function TirzepatideTabletsPage() {
         <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
 
           <h2 className="serif" style={{ fontSize: 40, marginTop: 0, marginBottom: 24, color: 'var(--ink)' }}>What Are Tirzepatide Tablets?</h2>
-          <p>Compounded tirzepatide tablets are a cutting-edge, sublingual oral weight loss option that activates two main metabolic pathways in the body. Containing the <strong>same active ingredient as Mounjaro® and Zepbound®</strong>, these daily dissolving tablets are placed under the tongue. They are absorbed directly through the sublingual mucosal lining into the blood, bypassing stomach acids and enzymes.</p>
+          <p>Compounded tirzepatide tablets are a cutting-edge, sublingual oral weight loss option that activates two main metabolic pathways in the body. Formulated with <strong>compounded tirzepatide</strong>, these daily dissolving tablets are placed under the tongue. They are absorbed directly through the sublingual mucosal lining into the blood, bypassing stomach acids and enzymes.</p>
           <p>Tirzepatide is a <strong>dual GIP/GLP-1 receptor agonist</strong>. By targeting both hormones, it provides a synergistic effect that results in the highest average weight loss of any FDA-approved medication class to date — now available in a daily needle-free tablet starting at <strong>$224.25/month</strong> (on a 10-month plan) or <strong>$299/month</strong> (on a standard 4-month subscription).</p>
 
           <h2 className="serif" style={{ fontSize: 40, marginTop: 64, marginBottom: 24, color: 'var(--ink)' }}>How Tirzepatide Tablets Work: The Dual Agonist Advantage</h2>

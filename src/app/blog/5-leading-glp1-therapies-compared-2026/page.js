@@ -42,7 +42,7 @@ export default function Page() {
             "name": "Why is the Telehealth FX Program ranked higher than branded Tirzepatide or Semaglutide?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "While branded tirzepatide and semaglutide are highly effective molecules, the commercial delivery model has significant limitations. Out-of-pocket costs often exceed $1,000/month, and insurance coverage can be difficult to secure. Additionally, these brands are typically prescribed without clinical support for muscle preservation. Telehealth FX offers access to the same active ingredients starting at $199/month, and incorporates personalized dosing, nutritional guidance, and optional hormone optimization to protect lean muscle mass."
+              "text": "While branded tirzepatide and semaglutide are highly effective molecules, the commercial delivery model has significant limitations. Out-of-pocket costs often exceed $1,000/month, and insurance coverage can be difficult to secure. Additionally, these brands are typically prescribed without clinical support for muscle preservation. Telehealth FX offers access to compounded GLP-1 medications starting at $199/month, and incorporates personalized dosing, nutritional guidance, and optional hormone optimization to protect lean muscle mass."
             }
           },
           {

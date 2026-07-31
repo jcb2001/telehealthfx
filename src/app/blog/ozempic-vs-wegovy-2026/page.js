@@ -3,7 +3,7 @@ export const metadata = {
   robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/blog/ozempic-vs-wegovy-2026/',
-  }, title: "Ozempic vs Wegovy: Same Drug, Different Price — Which Should You Get? (2026)", description: "Ozempic and Wegovy are the same molecule (semaglutide). Compare doses, pricing, insurance coverage, and why compounded semaglutide bypasses both.", openGraph: { title: "Ozempic vs Wegovy: Same Drug, Different Price", description: "Complete comparison of doses, pricing, insurance, and the compounded alternative.", images: [{ url: "https://telehealthfx.com/assets/ozempic-vs-wegovy-featured.png", width: 1200, height: 630, alt: "Ozempic vs Wegovy" }] } };
+  }, title: "Ozempic vs Wegovy: Understanding the Differences (2026)", description: "Compare Ozempic and Wegovy — doses, pricing, and insurance coverage. Learn about compounded semaglutide as an alternative option.", openGraph: { title: "Ozempic vs Wegovy: Same Drug, Different Price", description: "Complete comparison of doses, pricing, insurance, and the compounded alternative.", images: [{ url: "https://telehealthfx.com/assets/ozempic-vs-wegovy-featured.png", width: 1200, height: 630, alt: "Ozempic vs Wegovy" }] } };
 export default function Page() {
   const jsonLd = { "@context": "https://schema.org", "@graph": [
     { "@type": "MedicalWebPage", "headline": "Ozempic vs Wegovy: Same Drug, Different Price", "image": "https://telehealthfx.com/assets/ozempic-vs-wegovy-featured.png", "author": { "@type": "Person", "name": "Julian Mercer, M.S.", "url": "https://telehealthfx.com/about" }, "publisher": { "@type": "Organization", "name": "Telehealth FX" } },

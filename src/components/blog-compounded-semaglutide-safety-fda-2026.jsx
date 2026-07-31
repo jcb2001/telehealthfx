@@ -21,7 +21,7 @@ function BlogCompoundedSemaglutideSafety() {
           <thead><tr style={{ borderBottom: '2px solid var(--ink)' }}><th style={{ textAlign: 'left', padding: '12px 16px', fontWeight: 600 }}>Claim</th><th style={{ textAlign: 'left', padding: '12px 16px', fontWeight: 600 }}>Reality</th></tr></thead>
           <tbody>
             <tr style={{ borderBottom: '1px solid var(--line-soft)' }}><td style={{ padding: '12px 16px' }}>{'"'}FDA banned compounded semaglutide{'"'}</td><td style={{ padding: '12px 16px' }}>FDA restricted <strong>503B mass-compounding</strong>. 503A patient-specific compounding continues legally.</td></tr>
-            <tr style={{ borderBottom: '1px solid var(--line-soft)' }}><td style={{ padding: '12px 16px' }}>{'"'}Compounded semaglutide is counterfeit{'"'}</td><td style={{ padding: '12px 16px' }}>Licensed 503A pharmacies use pharmaceutical-grade semaglutide. It is the same molecule, not a counterfeit.</td></tr>
+            <tr style={{ borderBottom: '1px solid var(--line-soft)' }}><td style={{ padding: '12px 16px' }}>{'"'}Compounded semaglutide is counterfeit{'"'}</td><td style={{ padding: '12px 16px' }}>Licensed 503A pharmacies use pharmaceutical-grade semaglutide. It is a compounded preparation, not a counterfeit.</td></tr>
             <tr style={{ borderBottom: '1px solid var(--line-soft)' }}><td style={{ padding: '12px 16px' }}>{'"'}Compounded versions are less effective{'"'}</td><td style={{ padding: '12px 16px' }}>Same molecular structure (C187H291N45O59). Same mechanism. No clinical evidence of reduced efficacy from licensed compounders.</td></tr>
             <tr><td style={{ padding: '12px 16px' }}>{'"'}All compounded semaglutide is dangerous{'"'}</td><td style={{ padding: '12px 16px' }}>Risk exists with <em>unlicensed</em> compounders. Licensed, inspected 503A pharmacies follow USP 797 sterile compounding standards.</td></tr>
           </tbody>
@@ -60,12 +60,12 @@ function BlogCompoundedSemaglutideSafety() {
         <li style={{ marginBottom: 12 }}>❌ Price below $150/month (unsustainably low for legitimate compounding)</li>
         <li style={{ marginBottom: 12 }}>❌ Medication arrives without cold-chain packaging</li>
         <li style={{ marginBottom: 12 }}>❌ No certificate of analysis available upon request</li>
-        <li style={{ marginBottom: 12 }}>❌ Provider claims their product is {"'"}FDA-approved{"'"} (compounded medications are not FDA-approved; they are FDA-regulated)</li>
+        <li style={{ marginBottom: 12 }}>❌ Provider claims their product is {"'"}FDA-approved{"'"} (compounded medications are not FDA-approved; they are overseen by state boards of pharmacy)</li>
       </ul>
 
       <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Frequently Asked Questions</h2>
       <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>Is compounded semaglutide FDA-approved?</h4>
-      <p style={{ marginBottom: 24 }}>No. Compounded medications are not FDA-approved — they are FDA-regulated through the FD&C Act Section 503A. This is the same framework used for compounded thyroid medications, hormone replacement therapy, and hundreds of other compounded drugs used safely every day.</p>
+      <p style={{ marginBottom: 24 }}>No. Compounded medications are not FDA-approved — they operate under Section 503A of the FD&C Act and are overseen by state boards of pharmacy. This is the same framework used for compounded thyroid medications, hormone replacement therapy, and hundreds of other compounded drugs used safely every day.</p>
       <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>What is the difference between semaglutide base and semaglutide sodium?</h4>
       <p style={{ marginBottom: 24 }}>Semaglutide sodium is a salt form that behaves slightly differently in solution. The FDA has raised concerns about dosing equivalence between the two forms. Ask your provider which form their pharmacy uses and ensure proper dosing is maintained.</p>
 

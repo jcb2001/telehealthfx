@@ -57,7 +57,7 @@ function BlogCompoundedVsWegovy() {
         <p>For a deeper dive into compounded medication safety, read our <a href="/blog/is-compounded-semaglutide-safe-what-you-need-to-kn" style={{ color: 'var(--brand)', fontWeight: 500 }}>compounded semaglutide safety guide</a> and understand the <a href="/blog/fda-compounding-ban" style={{ color: 'var(--brand)', fontWeight: 500 }}>current FDA regulatory landscape</a>. For cost optimization strategies, see our <a href="/blog/glp-1-cost-without-insurance-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>cost without insurance guide</a> and <a href="/blog/hsa-fsa-glp-1-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>HSA/FSA payment guide</a>.</p>
 
         <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
-          <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Same Molecule. Fraction of the Price.</h3>
+          <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Compounded Semaglutide. Fraction of the Price.</h3>
           <p style={{ marginBottom: 24, fontSize: 16 }}>TelehealthFX provides compounded semaglutide from licensed 503A pharmacies at all-inclusive pricing. No membership fees, no hidden charges.</p>
           <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>See Your Pricing <Icon.Arrow /></a>
         </div>
@@ -86,16 +86,16 @@ function BlogCompoundedVsWegovy() {
         </div>
 
         <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Frequently Asked Questions</h2>
-        <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>Is compounded semaglutide as effective as Wegovy?</h4>
-        <p style={{ marginBottom: 24 }}>When sourced from a licensed 503A pharmacy using pure semaglutide base at equivalent doses, the clinical effect is the same — they are the same molecule. The difference is manufacturing oversight, not molecular chemistry.</p>
+        <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>How does compounded semaglutide differ from branded options?</h4>
+        <p style={{ marginBottom: 24 }}>When sourced from a licensed 503A pharmacy using pure semaglutide base at equivalent doses, both contain semaglutide, though compounded versions are not FDA-approved and are not therapeutically equivalent to branded products. The difference is manufacturing oversight, not molecular chemistry.</p>
         <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>Why is compounded so much cheaper?</h4>
-        <p style={{ marginBottom: 24 }}>Branded Wegovy's price includes Novo Nordisk's R&D recovery, FDA approval costs, marketing budget, and profit margin. Compounded semaglutide uses the same active ingredient but bypasses brand-name markups while still requiring legitimate pharmacy licensing and clinician oversight.</p>
+        <p style={{ marginBottom: 24 }}>Branded Wegovy's price includes Novo Nordisk's R&D recovery, FDA approval costs, marketing budget, and profit margin. Compounded semaglutide is formulated with semaglutide but bypasses brand-name markups while still requiring legitimate pharmacy licensing and clinician oversight.</p>
         <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>Can I switch from Wegovy to compounded?</h4>
         <p style={{ marginBottom: 24 }}>Yes. Your new clinician will prescribe compounded semaglutide at your current established dose. No re-titration needed. See our <a href="/blog/switch-glp-1-providers-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>provider switching guide</a> for a seamless transition process.</p>
 
         <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
           <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Save Thousands Without Sacrificing Quality</h2>
-          <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 500, margin: '0 auto 32px' }}>Licensed pharmacy. Same molecule. All-inclusive pricing from $199/month.</p>
+          <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 500, margin: '0 auto 32px' }}>Licensed pharmacy. Compounded semaglutide is not FDA-approved. All-inclusive pricing from $199/month.</p>
           <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-lg" style={{ background: '#FBF8F3', color: 'var(--ink)', display: 'inline-flex', justifyContent: 'center', width: '100%', maxWidth: 250 }}>Get Started <Icon.Arrow /></a>
         </div>
 

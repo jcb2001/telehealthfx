@@ -66,7 +66,7 @@ function Blog10BestPractices() {
             {/* Practice 2 */}
             <h3 style={{ fontSize: 22, marginTop: 24, marginBottom: 12, color: '#1A3024' }}>2. Avoid Salt Formulations (Semaglutide Sodium or Acetate)</h3>
             <p style={{ color: '#2E4A3B', marginBottom: 20 }}>
-              The FDA has explicitly warned that salt forms of semaglutide are not approved and have not been tested for safety or efficacy in humans. Legitimate compounding pharmacies use only the pure base molecule (identical to branded Wegovy and Ozempic). Always ask your provider to confirm the exact chemical form of the medication.
+              The FDA has explicitly warned that salt forms of semaglutide are not approved and have not been tested for safety or efficacy in humans. Legitimate compounding pharmacies use only the pure base molecule . Always ask your provider to confirm the exact chemical form of the medication.
             </p>
 
             {/* Practice 3 */}

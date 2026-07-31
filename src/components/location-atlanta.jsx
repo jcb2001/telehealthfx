@@ -48,7 +48,7 @@ export function LocationAtlanta() {
       <StateLegalFramework
         stateName="Georgia"
         boardName="Georgia Composite Medical Board"
-        text="Telehealth FX operates in full compliance with the Georgia Composite Medical Board and state telehealth laws, utilizing only Georgia-licensed physicians and FDA-registered 503A compounding pharmacies."
+        text="Telehealth FX operates in full compliance with the Georgia Composite Medical Board and state telehealth laws, utilizing only Georgia-licensed physicians and state-licensed 503A compounding pharmacies."
       />
       <DeliveryGridMap
         cityName="Atlanta"

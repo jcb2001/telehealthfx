@@ -120,8 +120,8 @@ function BlogCheapestCompoundedSemaglutide() {
           <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>Why do some providers charge less than $100/month?</h4>
           <p style={{ marginBottom: 24 }}>Providers advertising sub-$100 semaglutide almost always have a separate mandatory membership fee ($49–$149/month), charge extra for consultations, use starting-dose-only pricing, or source from unverified pharmacies. Calculate total cost before committing.</p>
 
-          <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>Does compounded semaglutide work as well as branded Wegovy?</h4>
-          <p style={{ marginBottom: 24 }}>When sourced from a licensed 503A pharmacy using pure semaglutide base, the active molecule is identical to what is in Wegovy. However, compounded versions have not undergone the same FDA manufacturing review. Quality depends entirely on the compounding pharmacy.</p>
+          <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>What is compounded semaglutide?</h4>
+          <p style={{ marginBottom: 24 }}>When sourced from a licensed 503A pharmacy using pure semaglutide base, compounded semaglutide is a custom-prepared medication and is not equivalent to any branded product. However, compounded versions have not undergone the same FDA manufacturing review. Quality depends entirely on the compounding pharmacy.</p>
 
           <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
             <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Stop Overpaying for GLP-1 Therapy</h2>

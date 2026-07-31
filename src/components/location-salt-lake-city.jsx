@@ -48,7 +48,7 @@ export function LocationSaltLakeCity() {
       <StateLegalFramework
         stateName="Utah"
         boardName="Utah Division of Occupational and Professional Licensing"
-        text="Telehealth FX operates in full compliance with DOPL and state telehealth laws, utilizing only Utah-licensed physicians and FDA-registered 503A compounding pharmacies."
+        text="Telehealth FX operates in full compliance with DOPL and state telehealth laws, utilizing only Utah-licensed physicians and state-licensed 503A compounding pharmacies."
       />
       <DeliveryGridMap
         cityName="Salt Lake City"
@@ -58,6 +58,8 @@ export function LocationSaltLakeCity() {
         neighborhoods={['Sugar House', 'Downtown', 'The Avenues', 'Lehi', 'Draper']}
       />
       <FinalCTA stateName="Utah" />
-    </div>
+    
+{/* Disclaimer: Mounjaro®, Zepbound®, Ozempic®, and Wegovy® are registered trademarks of their respective owners (Eli Lilly and Company and Novo Nordisk A/S). Telehealth FX is not affiliated with, endorsed by, or connected to any of these companies. Compounded medications are not FDA-approved and are not therapeutically equivalent to any branded product. */}
+</div>
   );
 }

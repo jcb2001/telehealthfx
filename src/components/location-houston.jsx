@@ -71,7 +71,7 @@ export function LocationHouston() {
         faqs={[
           { q: "Is Telehealth FX compliant with Texas Medical Board regulations?", a: "Yes. All prescribers on the Telehealth FX platform who treat Texas patients hold active, unrestricted licenses issued by the Texas Medical Board. Our asynchronous model is fully compliant with Chapter 111 of the Texas Occupations Code (the Texas Telehealth Act)." },
           { q: "Can I use this service while I'm offshore or on a rotation?", a: "Absolutely. This is one of the primary advantages of asynchronous telemedicine. You can complete your intake from any location with internet access. As long as your shipping address is a Texas residence, your medication will be cold-packed and delivered to your door, timed to your rotation schedule." },
-          { q: "How is compounded Semaglutide different from the Ozempic I see advertised?", a: "Compounded Semaglutide uses the exact same active pharmaceutical ingredient as Ozempic (semaglutide). It is prepared by FDA-registered 503A compounding pharmacies from USP-grade ingredients. The critical difference: it is not manufactured by Novo Nordisk, so it is not subject to the branded supply shortage that has left H-E-B and CVS shelves empty for over a year." },
+          { q: "How is compounded Semaglutide different from the Ozempic I see advertised?", a: "Compounded Semaglutide uses the exact same active pharmaceutical ingredient as Ozempic (semaglutide). It is prepared by state-licensed 503A compounding pharmacies from USP-grade ingredients. The critical difference: it is not manufactured by Novo Nordisk, so it is not subject to the branded supply shortage that has left H-E-B and CVS shelves empty for over a year." },
           { q: "Why is this so much cheaper than the clinics in River Oaks?", a: "When you visit a concierge clinic on Westheimer or in the River Oaks area, a significant portion of your bill covers their commercial lease, front-desk staff, interior design, and overhead. Telehealth FX eliminates all of that. You pay for the physician's clinical evaluation and the compounded medication—nothing else." },
           { q: "Do you deliver to The Woodlands, Sugar Land, and Katy?", a: "Yes. We deliver to all residential addresses in Harris County and the surrounding metro, including The Woodlands (Montgomery County), Sugar Land (Fort Bend County), Katy, Pearland, League City, and Galveston." }
         ]}
@@ -87,6 +87,8 @@ export function LocationHouston() {
 
       <FinalCTA stateName="Texas" />
 
-    </div>
+    
+{/* Disclaimer: Mounjaro®, Zepbound®, Ozempic®, and Wegovy® are registered trademarks of their respective owners (Eli Lilly and Company and Novo Nordisk A/S). Telehealth FX is not affiliated with, endorsed by, or connected to any of these companies. Compounded medications are not FDA-approved and are not therapeutically equivalent to any branded product. */}
+</div>
   );
 }

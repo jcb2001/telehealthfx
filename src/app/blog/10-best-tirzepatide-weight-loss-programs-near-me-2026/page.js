@@ -42,7 +42,7 @@ export default function Page() {
             "name": "Is compounded tirzepatide as effective as branded Zepbound?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes. When prepared by an accredited 503A pharmacy using high-purity (99.0%+) active pharmaceutical ingredients, compounded tirzepatide contains the exact same active molecular structure as commercial Zepbound or Mounjaro. It binds to the GIP and GLP-1 receptors in the same way, producing equivalent clinical weight loss and metabolic outcomes."
+              "text": "Yes. When prepared by an accredited 503A pharmacy using high-purity (99.0%+) active pharmaceutical ingredients, Compounded tirzepatide is a custom-prepared medication made by state-licensed compounding pharmacies. It is not equivalent to or a substitute for any FDA-approved branded medication."
             }
           },
           {

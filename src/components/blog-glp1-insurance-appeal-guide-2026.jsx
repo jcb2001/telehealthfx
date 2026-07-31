@@ -68,7 +68,7 @@ function BlogGlp1InsuranceAppealGuide2026() {
       <p>If your internal appeal is denied, you have the right to request an <strong>External Review</strong> by an independent, third-party medical board. Because third parties rely purely on clinical evidence rather than corporate cost-saving mandates, external reviews overturn insurance denials approximately 40% of the time.</p>
       <p>If all appeals are exhausted, or if your plan has a hard exclusion, you have two remaining options:</p>
       <p>1. <strong>Manufacturer Savings Cards:</strong> Eli Lilly and Novo Nordisk offer savings cards that can bring the cash price down to roughly $550–$650 per month, though this is still prohibitively expensive for many.</p>
-      <p>2. <strong>Compounded GLP-1s:</strong> This is why the telehealth industry has exploded. By using state-licensed compounding pharmacies, patients can access the exact same active ingredients (semaglutide or tirzepatide) for $199 to $399 a month, entirely out-of-pocket, with no insurance required.</p>
+      <p>2. <strong>Compounded GLP-1s:</strong> This is why the telehealth industry has exploded. By using state-licensed compounding pharmacies, patients can access the compounded formulations of semaglutide or tirzepatide for $199 to $399 a month, entirely out-of-pocket, with no insurance required.</p>
 
       <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
         <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>We Take the Fight Out of Weight Loss.</h2>

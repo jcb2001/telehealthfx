@@ -124,7 +124,7 @@ function SemaglutidePage() {
           </ul>
 
           <h2 className="serif" style={{ fontSize: 40, marginTop: 64, marginBottom: 24, color: 'var(--ink)' }}>What Is Compounded Semaglutide?</h2>
-          <p>Compounded semaglutide contains the <strong>same active ingredient</strong> as branded Ozempic and Wegovy, but is produced by <strong>licensed 503A and 503B compounding pharmacies</strong> in the United States. These pharmacies operate under FDA oversight and follow Current Good Manufacturing Practices (cGMP).</p>
+          <p>Compounded semaglutide is formulated with the active pharmaceutical ingredient <strong>semaglutide</strong>, and is produced by <strong>licensed 503A and 503B compounding pharmacies</strong> in the United States. These pharmacies operate under state board oversight and follow Current Good Manufacturing Practices (cGMP).</p>
           <p>The key difference? <strong>Price.</strong> Branded Wegovy costs $1,300+/month without insurance. Compounded semaglutide through Telehealth FX starts at <strong>$146/month</strong> — making this clinically proven treatment accessible to people who would otherwise be priced out of the most effective weight loss medication available.</p>
           <p>Every compounded prescription is:</p>
           <ul style={{ marginBottom: 24, paddingLeft: 20 }}>
@@ -139,7 +139,7 @@ function SemaglutidePage() {
             <div style={{ width: 48, height: 48, borderRadius: '50%', background: 'var(--brand-soft)', color: 'var(--brand)', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 20px' }}>
               <Icon.Check size={24} />
             </div>
-            <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Same Molecule. Fraction of the Cost.</h3>
+            <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Compounded Semaglutide. Fraction of the Cost.</h3>
             <p style={{ marginBottom: 24, fontSize: 16 }}>Compounded Semaglutide from $146/mo. Licensed clinicians, transparent pricing, no insurance needed.</p>
             <a href={CTA_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>
               Start Your Assessment <Icon.Arrow />
@@ -217,7 +217,7 @@ function SemaglutidePage() {
           <h2 className="serif" style={{ fontSize: 40, marginTop: 64, marginBottom: 24, color: 'var(--ink)' }}>Frequently Asked Questions</h2>
 
           {[
-            { q: 'Is compounded semaglutide the same as Ozempic?', a: 'It contains the same active ingredient (semaglutide) but is produced by licensed compounding pharmacies rather than Novo Nordisk. The molecular structure and mechanism of action are identical.' },
+            { q: 'What is compounded semaglutide?', a: 'Compounded semaglutide is a custom-prepared medication made by licensed compounding pharmacies. It is not manufactured by Novo Nordisk and is not equivalent to or a substitute for any FDA-approved branded medication.' },
             { q: 'How quickly will I see results?', a: 'Most patients notice reduced appetite and food noise within the first 1-2 weeks. Measurable weight loss typically begins by weeks 4-8, with the most significant results occurring during months 3-6 as you reach therapeutic doses.' },
             { q: 'Do I need to diet and exercise while on semaglutide?', a: 'While semaglutide produces significant weight loss on its own, combining it with a protein-rich diet and regular exercise (especially resistance training) maximizes fat loss while preserving lean muscle mass.' },
             { q: 'What happens if I stop taking semaglutide?', a: 'Research shows that some weight regain is common after discontinuation, as the appetite-suppressing effects diminish. Your clinician will work with you on a sustainable transition plan, which may include lifestyle modifications and a gradual dose taper.' },

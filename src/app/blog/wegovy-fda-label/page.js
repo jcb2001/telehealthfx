@@ -3,7 +3,7 @@ import { BlogWegovyFdaLabel } from "../../../components/blog-wegovy-fda-label.js
 export const metadata = {
   robots: { index: true, follow: true },
   title: "Wegovy FDA Label Decoded: Criteria & Off-Label Access | Telehealth FX",
-  description: "We break down the exact Wegovy FDA label criteria for weight loss, the clinical trial data, and how to access compounded semaglutide if your insurance denies you.",
+  description: "We break down the exact Wegovy FDA label criteria for weight loss, the clinical trial data, and what to know about alternative treatment options.",
   alternates: {
     canonical: 'https://telehealthfx.com/blog/wegovy-fda-label/',
   },
@@ -17,7 +17,7 @@ export default function Page() {
       "@type": "MedicalWebPage",
       "@id": "https://telehealthfx.com/blog/wegovy-fda-label/#article",
       "headline": "Wegovy FDA Label Decoded: Criteria & Off-Label Access",
-      "description": "We break down the exact Wegovy FDA label criteria for weight loss, the clinical trial data, and how to access compounded semaglutide if your insurance denies you.",
+      "description": "We break down the exact Wegovy FDA label criteria for weight loss, the clinical trial data, and what to know about alternative treatment options.",
       "image": "https://telehealthfx.com/assets/wegovy-featured.png",
       "author": {
         "@type": "Person",

@@ -69,7 +69,7 @@ export function LocationPortland() {
           { q: "I work at Nike/Adidas. Can I use Telehealth FX privately?", a: "Absolutely. Telehealth FX is entirely separate from your employer and your employer-sponsored health plan. Your health data, intake, and prescription are protected by HIPAA and will never be shared with your employer or your corporate wellness program." },
           { q: "Do you deliver to the Silicon Forest (Hillsboro/Beaverton)?", a: "Yes. We deliver to all residential and commercial addresses in the Portland Tri-County area (Multnomah, Washington, Clackamas), including Portland, Beaverton, Hillsboro, Lake Oswego, Tigard, and Gresham. We also deliver across the river to Clark County, Washington (Vancouver)." },
           { q: "I live in Vancouver, WA but work in Portland. Which state applies?", a: "Telehealth regulations are based on your physical location at the time of care. If you live in Vancouver, you will be evaluated by a Washington-licensed physician. Telehealth FX serves both Oregon and Washington residents, so you are covered seamlessly across the entire metro area." },
-          { q: "Is compounded Semaglutide safe?", a: "Yes. Our compounded medications are sourced exclusively from FDA-registered 503A compounding pharmacies operating under rigorous USP guidelines. The active pharmaceutical ingredient is the same as in branded medications, but the compounding process allows us to bypass the national shortages affecting retail pharmacies." }
+          { q: "Is compounded Semaglutide safe?", a: "Yes. Our compounded medications are sourced exclusively from state-licensed 503A compounding pharmacies operating under rigorous USP guidelines. The active pharmaceutical ingredient is the same as in branded medications, but the compounding process allows us to bypass the national shortages affecting retail pharmacies." }
         ]}
       />
 
@@ -89,6 +89,8 @@ export function LocationPortland() {
 
       <FinalCTA stateName="Oregon" />
 
-    </div>
+    
+{/* Disclaimer: Mounjaro®, Zepbound®, Ozempic®, and Wegovy® are registered trademarks of their respective owners (Eli Lilly and Company and Novo Nordisk A/S). Telehealth FX is not affiliated with, endorsed by, or connected to any of these companies. Compounded medications are not FDA-approved and are not therapeutically equivalent to any branded product. */}
+</div>
   );
 }

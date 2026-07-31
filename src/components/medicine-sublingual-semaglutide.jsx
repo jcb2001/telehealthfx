@@ -42,7 +42,7 @@ function SublingualSemaglutidePage() {
             Sublingual Semaglutide<br/><span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>from $199/mo.</span>
           </h1>
           <p style={{ fontSize: 20, color: 'var(--ink-2)', maxWidth: 600, margin: '0 auto 40px', lineHeight: 1.6 }}>
-            A daily sublingual liquid drop version of Semaglutide. The same active ingredient as Wegovy® and Ozempic® — compounded by U.S. state-licensed pharmacies. No needles required.
+            A daily sublingual liquid drop version of Semaglutide. Compounded sublingual semaglutide — prepared by U.S. state-licensed pharmacies. No needles required.
           </p>
           <a href={CTA_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex' }}>
             See If You Qualify <Icon.Arrow />
@@ -68,7 +68,7 @@ function SublingualSemaglutidePage() {
 
           <h2 className="serif" style={{ fontSize: 40, marginTop: 0, marginBottom: 24, color: 'var(--ink)' }}>What Is Sublingual Semaglutide?</h2>
           <p>Sublingual semaglutide is an innovative, needle-free oral formulation of the popular weight management medication, <strong>semaglutide</strong>. Rather than using weekly subcutaneous injections, this compounded liquid suspension is administered daily under the tongue, allowing it to be absorbed directly into the bloodstream through the sublingual mucosal tissue.</p>
-          <p>By dissolving the medication under the tongue, it bypasses the digestive system and stomach acids, which typically break down peptide hormones and make conventional swallowing ineffective. This provides an excellent, non-invasive alternative for individuals who want the clinically proven benefits of semaglutide (the active ingredient in Wegovy® and Ozempic®) but have a aversion to needles.</p>
+          <p>By dissolving the medication under the tongue, it bypasses the digestive system and stomach acids, which typically break down peptide hormones and make conventional swallowing ineffective. This provides an excellent, non-invasive alternative for individuals who want the clinically proven benefits of semaglutide (semaglutide) but have a aversion to needles.</p>
           <p>Compounded sublingual semaglutide is prescribed by licensed providers and dispensed by U.S. state-licensed compounding pharmacies, starting at just <strong>$199/month</strong>.</p>
 
           <h2 className="serif" style={{ fontSize: 40, marginTop: 64, marginBottom: 24, color: 'var(--ink)' }}>How Sublingual Semaglutide Works</h2>

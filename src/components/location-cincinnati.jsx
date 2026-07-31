@@ -48,7 +48,7 @@ export function LocationCincinnati() {
       <StateLegalFramework
         stateName="Ohio"
         boardName="State Medical Board of Ohio"
-        text="Telehealth FX operates in full compliance with the State Medical Board of Ohio and state telehealth laws, utilizing only Ohio-licensed physicians and FDA-registered 503A compounding pharmacies."
+        text="Telehealth FX operates in full compliance with the State Medical Board of Ohio and state telehealth laws, utilizing only Ohio-licensed physicians and state-licensed 503A compounding pharmacies."
       />
       <DeliveryGridMap
         cityName="Cincinnati"
