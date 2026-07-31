@@ -33,7 +33,7 @@ function TirzepatidePage() {
             Tirzepatide<br/><span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>from $258/mo.</span>
           </h1>
           <p style={{ fontSize: 20, color: 'var(--ink-2)', maxWidth: 600, margin: '0 auto 40px', lineHeight: 1.6 }}>
-            The same active ingredient as Mounjaro® and Zepbound® — the most powerful GLP-1 class available. Dual GIP/GLP-1 action for maximum weight loss.
+            Dual GIP/GLP-1 receptor agonist formulation — the most powerful class available for maximum weight loss.
           </p>
           <a href={CTA_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex' }}>
             See If You Qualify <Icon.Arrow />
@@ -56,7 +56,7 @@ function TirzepatidePage() {
         <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
 
           <h2 className="serif" style={{ fontSize: 40, marginTop: 0, marginBottom: 24, color: 'var(--ink)' }}>What Is Tirzepatide?</h2>
-          <p>Tirzepatide is a <strong>dual GIP/GLP-1 receptor agonist</strong> developed by Eli Lilly. It is the active ingredient in <strong>Mounjaro®</strong> (approved for Type 2 Diabetes) and <strong>Zepbound®</strong> (approved for chronic weight management). It represents the next generation of incretin-based therapies because it targets <em>two</em> hormonal pathways simultaneously.</p>
+          <p>Tirzepatide is a <strong>dual GIP/GLP-1 receptor agonist</strong>. It represents the next generation of incretin-based therapies because it targets <em>two</em> hormonal pathways simultaneously.</p>
           <p>While semaglutide activates only GLP-1 receptors, tirzepatide activates both <strong>GLP-1</strong> and <strong>GIP (glucose-dependent insulinotropic polypeptide)</strong> receptors. This dual mechanism produces more pronounced effects on appetite, insulin sensitivity, and fat metabolism — resulting in the <strong>highest average weight loss of any FDA-approved medication to date</strong>.</p>
           <p>In the SURMOUNT-1 trial, participants on tirzepatide 15mg lost an average of <strong>22.5% of body weight</strong> over 72 weeks — more than any previously tested anti-obesity medication.</p>
 
@@ -140,6 +140,10 @@ function TirzepatidePage() {
               See If You Qualify <Icon.Arrow />
             </a>
           </div>
+
+          <p style={{ fontSize: 13, color: 'var(--ink-3)', marginTop: 40, borderTop: '1px solid var(--line-soft)', paddingTop: 20 }}>
+            Disclaimer: Compounded medications are prepared by state-licensed 503A and 503B compounding pharmacies pursuant to a patient-specific prescription. Compounded medications are not reviewed or approved by the FDA for safety, efficacy, or quality. Mounjaro® and Zepbound® are registered trademarks of Eli Lilly and Company. Telehealth FX is an independent telehealth platform and is not affiliated with or endorsed by Eli Lilly and Company.
+          </p>
 
         </div>
       </div>

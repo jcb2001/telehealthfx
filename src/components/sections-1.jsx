@@ -138,7 +138,7 @@ function Medications() {
       ctaLabel: 'Learn More',
       features: [
         'Easy once-daily dissolving tablet',
-        'Same active molecule as Wegovy®',
+        'Daily oral semaglutide formulation',
         'Zero weekly injections or pain',
         'Free 2-Day UPS Shipping included',
       ],
@@ -148,7 +148,7 @@ function Medications() {
       tag: 'Dual-Action Oral',
       tagType: 'accent',
       price: '299',
-      intro: 'The ultimate daily sublingual tablet with dual GIP/GLP-1 action. A needle-free alternative to Mounjaro® for maximum weight management.',
+      intro: 'The ultimate daily sublingual tablet with dual GIP/GLP-1 action for maximum weight management.',
       avg: 'Dual-Action Loss',
       avgSub: 'Primary Benefit',
       icon: 'pill',

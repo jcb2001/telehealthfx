@@ -71,7 +71,7 @@ function BlogTirzepatideSleepApnea2026() {
 
       <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
         <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Reclaim Your Sleep. From $349/mo.</h2>
-        <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 500, margin: '0 auto 32px' }}>Board-certified clinicians. <a href="/blog/compounded-tirzepatide-legality-2026" style={{ color: '#FBF8F3', textDecoration: 'underline' }}>Legal, FDA-compliant pharmacies</a>. <a href="/blog/compounded-semaglutide-red-flags-2026" style={{ color: '#FBF8F3', textDecoration: 'underline' }}>Safety verified</a>.</p>
+        <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 500, margin: '0 auto 32px' }}>Board-certified clinicians. Licensed 503A/503B pharmacies. <a href="/blog/compounded-semaglutide-red-flags-2026" style={{ color: '#FBF8F3', textDecoration: 'underline' }}>Safety verified</a>.</p>
         <a href={S} target="_blank" rel="noopener noreferrer" className="btn btn-lg" style={{ background: '#FBF8F3', color: 'var(--ink)', display: 'inline-flex', justifyContent: 'center', width: '100%', maxWidth: 250 }}>Start Your Evaluation <Icon.Arrow /></a>
       </div>
       <div style={{ marginTop: 80, paddingTop: 40, borderTop: '1px solid var(--line-soft)', fontSize: 14, color: 'var(--ink-3)' }}>

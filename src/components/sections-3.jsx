@@ -9,7 +9,7 @@ import { Logo } from './common.jsx';
 // ============================================================================
 function FAQ() {
   const faqs = [
-    { q: 'Is compounded semaglutide or tirzepatide safe?', a: 'Our medications are compounded at state-licensed, FDA-regulated 503A and 503B pharmacies in the United States. The active ingredient is the same as the branded versions. All compounded formulations are overseen by licensed pharmacists and dispensed only by prescription from a licensed clinician.' },
+    { q: 'Is compounded semaglutide or tirzepatide safe?', a: 'Our medications are prepared by state-licensed 503A and 503B compounding pharmacies in the United States. All compounded formulations are overseen by licensed pharmacists, evaluated for quality, and dispensed strictly pursuant to a prescription from a licensed clinician. Compounded drugs are not reviewed or approved by the FDA.' },
     { q: 'Who is eligible for the program?', a: 'Most adults 18+ with a BMI of 27 or higher, or 25+ with a weight-related condition, are eligible. Our clinicians will review your health history in full to determine whether GLP-1 therapy is appropriate for you.' },
     { q: 'How much weight will I lose?', a: 'Results vary. In clinical studies, patients on tirzepatide lost an average of 21% of their body weight at 72 weeks, and patients on semaglutide lost an average of 15%. Your results depend on dose, duration, and lifestyle.' },
     { q: 'What are the side effects?', a: 'The most common side effects are mild nausea, constipation, and fatigue, especially in the first few weeks. These typically resolve as your body adjusts. Your clinician will work with you to titrate doses comfortably.' },
