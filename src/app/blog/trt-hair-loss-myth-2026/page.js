@@ -8,7 +8,7 @@ export const metadata = {
   openGraph: {
     title: "TRT and Hair Loss: Will Testosterone Make You Bald?",
     description: "Does TRT cause hair loss? Learn the science behind DHT conversion, male pattern baldness, and the clinical protocols used to protect your hair.",
-    url: "https://telehealthfx.com/blog/trt-hair-loss-myth-2026",
+    url: "https://telehealthfx.com/blog/trt-hair-loss-myth-2026/",
     siteName: "Telehealth FX",
     type: "article",
   },

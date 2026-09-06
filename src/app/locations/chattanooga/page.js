@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Chattanooga | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Chattanooga, Tennessee residents. Tennessee-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/chattanooga",
+    url: "https://telehealthfx.com/locations/chattanooga/",
     siteName: "Telehealth FX",
     type: "website"
   },

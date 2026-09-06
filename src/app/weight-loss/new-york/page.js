@@ -7,7 +7,7 @@ export const metadata = {
   openGraph: {
     title: "Medical Weight Loss Clinic New York City | Semaglutide & GLP-1",
     description: "Looking for a medical weight loss clinic in New York City? Skip the traffic and 300% medspa markups. Get Semaglutide delivered overnight via Telehealth FX.",
-    url: 'https://telehealthfx.com/weight-loss/new-york',
+    url: 'https://telehealthfx.com/weight-loss/new-york/',
     type: 'article',
   }
 ,

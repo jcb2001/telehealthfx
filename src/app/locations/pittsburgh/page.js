@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Pittsburgh | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Pittsburgh, Pennsylvania residents. Pennsylvania-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/pittsburgh",
+    url: "https://telehealthfx.com/locations/pittsburgh/",
     siteName: "Telehealth FX",
     type: "website"
   },

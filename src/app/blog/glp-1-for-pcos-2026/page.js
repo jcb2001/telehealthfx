@@ -16,7 +16,8 @@ export const metadata = {
 
 export default function Page() {
   const jsonLd = { "@context": "https://schema.org", "@graph": [
-    { "@type": "MedicalWebPage", "@id": "https://telehealthfx.com/blog/glp-1-for-pcos-2026/#article", "headline": "GLP-1 for PCOS: How Semaglutide and Tirzepatide Are Changing PCOS Treatment", "image": "https://telehealthfx.com/assets/glp1-pcos-featured.png", "author": { "@type": "Person", "name": "Julian Mercer, M.S.", "url": "https://telehealthfx.com/about" }, "publisher": { "@type": "Organization", "name": "Telehealth FX" }, "mainEntityOfPage": { "@type": "WebPage", "@id": "https://telehealthfx.com/blog/glp-1-for-pcos-2026/" } },
+    { "@type": "MedicalWebPage",
+    "description": metadata.description, "@id": "https://telehealthfx.com/blog/glp-1-for-pcos-2026/#article", "headline": "GLP-1 for PCOS: How Semaglutide and Tirzepatide Are Changing PCOS Treatment", "image": "https://telehealthfx.com/assets/glp1-pcos-featured.png", "author": { "@type": "Person", "name": "Julian Mercer, M.S.", "url": "https://telehealthfx.com/about" }, "publisher": { "@type": "Organization", "name": "Telehealth FX" }, "mainEntityOfPage": { "@type": "WebPage", "@id": "https://telehealthfx.com/blog/glp-1-for-pcos-2026/" } },
     { "@type": "FAQPage", "@id": "https://telehealthfx.com/blog/glp-1-for-pcos-2026/#faq", "mainEntity": [
       { "@type": "Question", "name": "Can semaglutide help with PCOS-related infertility?", "acceptedAnswer": { "@type": "Answer", "text": "GLP-1 therapy can restore ovulatory cycles in many women with anovulatory PCOS through weight loss and insulin sensitization. However, GLP-1 medications must be discontinued before conception." } },
       { "@type": "Question", "name": "Is GLP-1 therapy FDA-approved for PCOS?", "acceptedAnswer": { "@type": "Answer", "text": "No. Use in PCOS is off-label. However, many specialists prescribe GLP-1 agonists for PCOS patients who meet BMI criteria." } },

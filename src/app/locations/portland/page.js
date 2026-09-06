@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Portland | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Portland, Oregon residents. Oregon-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/portland",
+    url: "https://telehealthfx.com/locations/portland/",
     siteName: "Telehealth FX",
     type: "website"
   },

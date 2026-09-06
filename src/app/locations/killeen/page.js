@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Killeen | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Killeen, Texas residents. Texas-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/killeen",
+    url: "https://telehealthfx.com/locations/killeen/",
     siteName: "Telehealth FX",
     type: "website"
   },

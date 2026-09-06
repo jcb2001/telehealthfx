@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Topeka | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Topeka, Kansas residents. Kansas-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/topeka",
+    url: "https://telehealthfx.com/locations/topeka/",
     siteName: "Telehealth FX",
     type: "website"
   },

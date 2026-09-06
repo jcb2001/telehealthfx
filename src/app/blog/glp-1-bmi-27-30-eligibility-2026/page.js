@@ -10,7 +10,8 @@ export const metadata = {
 };
 export default function Page() {
   const jsonLd = { "@context": "https://schema.org", "@graph": [
-    { "@type": "MedicalWebPage", "@id": "https://telehealthfx.com/blog/glp-1-bmi-27-30-eligibility-2026/#article", "headline": "GLP-1 for BMI 27–30: Do You Qualify?", "image": "https://telehealthfx.com/assets/glp1-bmi-27-30-featured.png", "author": { "@type": "Person", "name": "Julian Mercer, M.S.", "url": "https://telehealthfx.com/about" }, "publisher": { "@type": "Organization", "name": "Telehealth FX" } },
+    { "@type": "MedicalWebPage",
+    "description": metadata.description, "@id": "https://telehealthfx.com/blog/glp-1-bmi-27-30-eligibility-2026/#article", "headline": "GLP-1 for BMI 27–30: Do You Qualify?", "image": "https://telehealthfx.com/assets/glp1-bmi-27-30-featured.png", "author": { "@type": "Person", "name": "Julian Mercer, M.S.", "url": "https://telehealthfx.com/about" }, "publisher": { "@type": "Organization", "name": "Telehealth FX" } },
     { "@type": "FAQPage", "@id": "https://telehealthfx.com/blog/glp-1-bmi-27-30-eligibility-2026/#faq", "mainEntity": [
       { "@type": "Question", "name": "Can I get Ozempic with a BMI of 28?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, with at least one weight-related comorbidity such as hypertension, prediabetes, high cholesterol, sleep apnea, or PCOS." } },
       { "@type": "Question", "name": "Is GLP-1 worth it for only 20-30 pounds?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. A 10-15% weight reduction produces clinically significant improvements in blood pressure, blood sugar, cholesterol, and cardiovascular risk." } }

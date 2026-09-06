@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Twin Falls | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Twin Falls, Idaho residents. Idaho-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/twin-falls",
+    url: "https://telehealthfx.com/locations/twin-falls/",
     siteName: "Telehealth FX",
     type: "website"
   },

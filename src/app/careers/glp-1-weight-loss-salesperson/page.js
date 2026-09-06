@@ -6,6 +6,8 @@ import {
   CareersBottomInteractive,
   CareersSidebarApplyButton,
 } from '../../../components/careers-salesperson-client';
+import { ExtractiveAIAnswerBlock } from '../../../components/extractive-ai-answer-block';
+import { AIQuickSummaryAction } from '../../../components/ai-quick-summary-action';
 
 export const metadata = {
   robots: { index: true, follow: true },
@@ -177,9 +179,15 @@ export default function GLP1SalespersonJobPage() {
     }
   };
 
+  const speakableSchema = {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [".ai-extractive-answer", "[data-extractive-answer]", "h1"]
+  };
+  jobSchema.speakable = speakableSchema;
+
   const jsonLd = {
     "@context": "https://schema.org",
-    "@graph": [jobSchema, medicalBusinessSchema]
+    "@graph": [jobSchema, medicalBusinessSchema, speakableSchema]
   };
 
   return (
@@ -272,6 +280,42 @@ export default function GLP1SalespersonJobPage() {
                 {/* Main Content Column */}
                 <div style={{ minWidth: 0 }}>
                   
+                  {/* Above-the-fold AI Quick Summary & Dual-Path Career/Patient Action Card */}
+                  <AIQuickSummaryAction
+                    title="AI Overview Summary: GLP-1 Sales Career & Patient Intake Model"
+                    subtitle="Official overview of remote GLP-1 sales compensation, clinical liability, and consumer patient intake"
+                    price="$146/mo"
+                    turnaround="24-hr clinician approval · 2-day cold-chain express shipping"
+                    doseMatch={false}
+                    keyPoints={[
+                      { label: "Compensation Scope", value: "$65,000 to $140,000+ realistic OTE with uncapped commission bonuses" },
+                      { label: "Patient Care Cost", value: "Physician-prescribed compounded Semaglutide from $146/mo all-inclusive" },
+                      { label: "Inbound Workflow", value: "25–45 consultative warm consultations per day (Zero cold calls)" },
+                      { label: "Fulfillment Turnaround", value: "24-hr physician prescription review and 2-day cold-chain delivery" },
+                    ]}
+                    ctaText="Apply for Remote Sales Specialist Role →"
+                    ctaUrl="#apply"
+                    secondaryCtaText="Looking for GLP-1 Treatment? Start Intake ($146/mo)"
+                    secondaryCtaUrl="https://go.telehealthfx.com/start"
+                  />
+
+                  {/* Extractive AI Answer Block with Career & Sales Model Anchors */}
+                  <ExtractiveAIAnswerBlock
+                    anchorId="glp1-sales-career-model"
+                    badge="Verified Career & Clinical Model Extract"
+                    question="What Qualifications, Commissions, and Career Potential Exist for GLP-1 Sales Representatives?"
+                    thesis="Telehealth FX offers remote GLP-1 medical sales positions featuring realistic on-target earnings of $65k-$140k+ with uncapped commission and recurring monthly patient bonuses."
+                    mechanics="Sales specialists conduct consultative video and phone consultations with pre-qualified inbound leads, enrolling patients into physician-supervised compounded Semaglutide ($146/mo) and Tirzepatide programs. Telehealth FX assumes 100% of clinical liability, board-certified physician oversight, and licensed 503A pharmacy fulfillment with 24-hr turnaround."
+                    statute="Section 503A FD&C Act (21 U.S.C. § 353a)"
+                    clinicalStandard="Telehealth FX Medical Group Sales & Compliance Guidelines"
+                    metrics={[
+                      { label: "Recurring Commission", value: "Tiered Commission + Monthly Retention Bonuses" },
+                      { label: "Patient Entry Cost", value: "From $146 / Month All-Inclusive" },
+                      { label: "Daily Workflow", value: "25–45 Consultative Inbound Consultations/Day" },
+                      { label: "Compensation Scope", value: "$65k to $140k+ Realistic Annual OTE" }
+                    ]}
+                  />
+
                   {/* 1. About Telehealth FX */}
                   <div style={{ marginBottom: 48 }}>
                     <h2 className="serif" style={{ fontSize: 32, color: 'var(--ink)', marginBottom: 16 }}>About Telehealth FX &amp; Our Metabolic Mission</h2>

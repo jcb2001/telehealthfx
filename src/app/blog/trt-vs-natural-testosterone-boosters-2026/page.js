@@ -8,7 +8,7 @@ export const metadata = {
   openGraph: {
     title: "TRT vs. Natural Testosterone Boosters: Do Supplements Work?",
     description: "Learn the clinical difference between over-the-counter testosterone boosters and medical TRT. Why herbs fail to treat hypogonadism, and when to use Enclomiphene.",
-    url: "https://telehealthfx.com/blog/trt-vs-natural-testosterone-boosters-2026",
+    url: "https://telehealthfx.com/blog/trt-vs-natural-testosterone-boosters-2026/",
     siteName: "Telehealth FX",
     type: "article",
   },

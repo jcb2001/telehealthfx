@@ -8,7 +8,7 @@ export const metadata = {
   openGraph: {
     title: "TRT Timeline: What to Expect in Your First 6 Months",
     description: "A month-by-month breakdown of physical and mental changes on testosterone replacement therapy. Learn how long it takes for TRT to work.",
-    url: "https://telehealthfx.com/blog/trt-timeline-first-6-months-2026",
+    url: "https://telehealthfx.com/blog/trt-timeline-first-6-months-2026/",
     siteName: "Telehealth FX",
     type: "article",
   },

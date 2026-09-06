@@ -8,7 +8,7 @@ export const metadata = {
   openGraph: {
     title: "TRT + GLP-1 Together: The Complete Dual Therapy Guide for Men (2026)",
     description: "Learn how combining testosterone replacement therapy with GLP-1 medications like semaglutide creates a synergistic fat-loss and muscle-preservation protocol.",
-    url: "https://telehealthfx.com/blog/trt-plus-glp1-combo-therapy-2026",
+    url: "https://telehealthfx.com/blog/trt-plus-glp1-combo-therapy-2026/",
     siteName: "Telehealth FX",
     type: "article",
   },

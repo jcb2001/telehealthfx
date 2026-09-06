@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Tuscaloosa | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Tuscaloosa, Alabama residents. Alabama-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/tuscaloosa",
+    url: "https://telehealthfx.com/locations/tuscaloosa/",
     siteName: "Telehealth FX",
     type: "website"
   },

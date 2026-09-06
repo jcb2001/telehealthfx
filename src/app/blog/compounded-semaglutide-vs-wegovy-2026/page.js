@@ -10,7 +10,8 @@ export const metadata = {
 };
 export default function Page() {
   const jsonLd = { "@context": "https://schema.org", "@graph": [
-    { "@type": "MedicalWebPage", "@id": "https://telehealthfx.com/blog/compounded-semaglutide-vs-wegovy-2026/#article", "headline": "Compounded Semaglutide vs Wegovy Self-Pay: Which Saves You More?", "image": "https://telehealthfx.com/assets/compounded-semaglutide-vs-wegovy-featured.png", "author": { "@type": "Person", "name": "Julian Mercer, M.S.", "url": "https://telehealthfx.com/about" }, "publisher": { "@type": "Organization", "name": "Telehealth FX" } },
+    { "@type": "MedicalWebPage",
+    "description": metadata.description, "@id": "https://telehealthfx.com/blog/compounded-semaglutide-vs-wegovy-2026/#article", "headline": "Compounded Semaglutide vs Wegovy Self-Pay: Which Saves You More?", "image": "https://telehealthfx.com/assets/compounded-semaglutide-vs-wegovy-featured.png", "author": { "@type": "Person", "name": "Julian Mercer, M.S.", "url": "https://telehealthfx.com/about" }, "publisher": { "@type": "Organization", "name": "Telehealth FX" } },
     { "@type": "FAQPage", "@id": "https://telehealthfx.com/blog/compounded-semaglutide-vs-wegovy-2026/#faq", "mainEntity": [
       { "@type": "Question", "name": "Is compounded semaglutide as effective as Wegovy?", "acceptedAnswer": { "@type": "Answer", "text": "Compounded semaglutide is prepared by state-licensed pharmacies. It is not FDA-approved and is not equivalent to branded medications." } },
       { "@type": "Question", "name": "Why is compounded so much cheaper?", "acceptedAnswer": { "@type": "Answer", "text": "Branded Wegovy includes R&D recovery, FDA approval costs, and marketing. Compounded uses same ingredient without brand-name markup." } }

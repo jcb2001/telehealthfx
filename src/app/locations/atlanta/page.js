@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Atlanta | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Atlanta, Georgia residents. Georgia-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/atlanta",
+    url: "https://telehealthfx.com/locations/atlanta/",
     siteName: "Telehealth FX",
     type: "website"
   },

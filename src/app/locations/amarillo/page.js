@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Amarillo | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Amarillo, Texas residents. Texas-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/amarillo",
+    url: "https://telehealthfx.com/locations/amarillo/",
     siteName: "Telehealth FX",
     type: "website"
   },

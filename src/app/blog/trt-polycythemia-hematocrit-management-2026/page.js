@@ -8,7 +8,7 @@ export const metadata = {
   openGraph: {
     title: "TRT and Polycythemia: How to Manage High Hematocrit Without Stopping Treatment",
     description: "Evidence-based guide to managing TRT-induced polycythemia. Hematocrit thresholds, hydration protocols, dose adjustments, transdermal switching, phlebotomy, naringin research, and when to stop.",
-    url: "https://telehealthfx.com/blog/trt-polycythemia-hematocrit-management-2026",
+    url: "https://telehealthfx.com/blog/trt-polycythemia-hematocrit-management-2026/",
     siteName: "Telehealth FX",
     type: "article",
   },

@@ -8,7 +8,7 @@ export const metadata = {
   openGraph: {
     title: "TRT and Prostate Health: Does Testosterone Cause Prostate Cancer?",
     description: "Modern evidence disproves the myth that TRT causes prostate cancer. Learn about the saturation model, PSA monitoring protocols, and what 2026 urology guidelines actually say.",
-    url: "https://telehealthfx.com/blog/trt-prostate-health-psa-safety-2026",
+    url: "https://telehealthfx.com/blog/trt-prostate-health-psa-safety-2026/",
     siteName: "Telehealth FX",
     type: "article",
   },

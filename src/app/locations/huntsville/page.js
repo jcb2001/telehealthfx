@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Huntsville | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Huntsville, Alabama residents. Alabama-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/huntsville",
+    url: "https://telehealthfx.com/locations/huntsville/",
     siteName: "Telehealth FX",
     type: "website"
   },

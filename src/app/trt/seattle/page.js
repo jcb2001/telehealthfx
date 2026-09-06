@@ -4,7 +4,7 @@ export const metadata = {
   description: "Testosterone Replacement Therapy prescribed by Washington-licensed physicians. From $79/mo with $95 comprehensive bloodwork. Injectable, oral, or topical TRT delivered to Seattle.",
   openGraph: {
     title: "TRT & Testosterone Therapy in Seattle | Telehealth FX",
-    url: "https://telehealthfx.com/trt/seattle",
+    url: "https://telehealthfx.com/trt/seattle/",
     siteName: "Telehealth FX",
     type: "website"
   }

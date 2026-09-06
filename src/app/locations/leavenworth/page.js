@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Leavenworth | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Leavenworth, Kansas residents. Kansas-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/leavenworth",
+    url: "https://telehealthfx.com/locations/leavenworth/",
     siteName: "Telehealth FX",
     type: "website"
   },

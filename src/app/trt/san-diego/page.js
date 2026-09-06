@@ -4,7 +4,7 @@ export const metadata = {
   description: "Testosterone Replacement Therapy prescribed by California-licensed physicians. From $79/mo with $95 comprehensive bloodwork. Injectable, oral, or topical TRT delivered to San Diego.",
   openGraph: {
     title: "TRT & Testosterone Therapy in San Diego | Telehealth FX",
-    url: "https://telehealthfx.com/trt/san-diego",
+    url: "https://telehealthfx.com/trt/san-diego/",
     siteName: "Telehealth FX",
     type: "website"
   }

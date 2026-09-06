@@ -4,7 +4,7 @@ export const metadata = {
   description: "Testosterone Replacement Therapy prescribed by Arizona-licensed physicians. From $79/mo with $95 comprehensive bloodwork. Injectable, oral, or topical TRT delivered to Phoenix.",
   openGraph: {
     title: "TRT & Testosterone Therapy in Phoenix | Telehealth FX",
-    url: "https://telehealthfx.com/trt/phoenix",
+    url: "https://telehealthfx.com/trt/phoenix/",
     siteName: "Telehealth FX",
     type: "website"
   }

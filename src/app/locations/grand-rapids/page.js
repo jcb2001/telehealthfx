@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Grand Rapids | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Grand Rapids, Michigan residents. Michigan-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/grand-rapids",
+    url: "https://telehealthfx.com/locations/grand-rapids/",
     siteName: "Telehealth FX",
     type: "website"
   },

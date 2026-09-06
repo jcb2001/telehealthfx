@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Tulsa | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Tulsa, Oklahoma residents. Oklahoma-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/tulsa",
+    url: "https://telehealthfx.com/locations/tulsa/",
     siteName: "Telehealth FX",
     type: "website"
   },

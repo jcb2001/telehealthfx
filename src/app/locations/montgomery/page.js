@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Montgomery | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Montgomery, Alabama residents. Alabama-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/montgomery",
+    url: "https://telehealthfx.com/locations/montgomery/",
     siteName: "Telehealth FX",
     type: "website"
   },

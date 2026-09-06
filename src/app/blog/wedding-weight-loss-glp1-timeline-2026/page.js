@@ -8,7 +8,7 @@ export const metadata = {
   openGraph: {
     title: "Wedding Weight Loss With GLP-1: A Realistic 3–6 Month Timeline",
     description: "Month-by-month GLP-1 weight loss timeline for brides and grooms. When to start, how to time dose titration, and how to manage alterations.",
-    url: "https://telehealthfx.com/blog/wedding-weight-loss-glp1-timeline-2026",
+    url: "https://telehealthfx.com/blog/wedding-weight-loss-glp1-timeline-2026/",
     siteName: "Telehealth FX",
     type: "article",
   },

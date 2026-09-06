@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Rochester | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Rochester, New York residents. New York-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/rochester",
+    url: "https://telehealthfx.com/locations/rochester/",
     siteName: "Telehealth FX",
     type: "website"
   },

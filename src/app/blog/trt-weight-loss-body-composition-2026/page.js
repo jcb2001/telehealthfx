@@ -8,7 +8,7 @@ export const metadata = {
   openGraph: {
     title: "TRT for Weight Loss & Body Composition",
     description: "Can TRT help you lose weight? Learn the metabolic science behind testosterone therapy, fat loss, and muscle recomposition.",
-    url: "https://telehealthfx.com/blog/trt-weight-loss-body-composition-2026",
+    url: "https://telehealthfx.com/blog/trt-weight-loss-body-composition-2026/",
     siteName: "Telehealth FX",
     type: "article",
   },

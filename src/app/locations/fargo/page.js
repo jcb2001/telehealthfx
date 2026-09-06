@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Fargo | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Fargo, North Dakota residents. North Dakota-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/fargo",
+    url: "https://telehealthfx.com/locations/fargo/",
     siteName: "Telehealth FX",
     type: "website"
   },

@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in St. Petersburg | Telehealth FX",
     description: "Clinical GLP-1 telehealth for St. Petersburg, Florida residents. Florida-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/st-petersburg",
+    url: "https://telehealthfx.com/locations/st-petersburg/",
     siteName: "Telehealth FX",
     type: "website"
   },

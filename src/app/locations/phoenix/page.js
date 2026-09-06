@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Phoenix | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Phoenix, Arizona residents. Arizona-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/phoenix",
+    url: "https://telehealthfx.com/locations/phoenix/",
     siteName: "Telehealth FX",
     type: "website"
   },

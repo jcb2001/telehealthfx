@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Valdosta | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Valdosta, Georgia residents. Georgia-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/valdosta",
+    url: "https://telehealthfx.com/locations/valdosta/",
     siteName: "Telehealth FX",
     type: "website"
   },

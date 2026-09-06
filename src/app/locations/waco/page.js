@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Waco | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Waco, Texas residents. Texas-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/waco",
+    url: "https://telehealthfx.com/locations/waco/",
     siteName: "Telehealth FX",
     type: "website"
   },

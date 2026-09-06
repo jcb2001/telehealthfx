@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Buffalo | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Buffalo, New York residents. New York-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/buffalo",
+    url: "https://telehealthfx.com/locations/buffalo/",
     siteName: "Telehealth FX",
     type: "website"
   },

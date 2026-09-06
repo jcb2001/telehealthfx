@@ -4,7 +4,7 @@ export const metadata = {
   description: "Testosterone Replacement Therapy prescribed by Texas-licensed physicians. From $79/mo with $95 comprehensive bloodwork. Injectable, oral, or topical TRT delivered to Austin.",
   openGraph: {
     title: "TRT & Testosterone Therapy in Austin | Telehealth FX",
-    url: "https://telehealthfx.com/trt/austin",
+    url: "https://telehealthfx.com/trt/austin/",
     siteName: "Telehealth FX",
     type: "website"
   }

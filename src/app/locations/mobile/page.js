@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Mobile | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Mobile, Alabama residents. Alabama-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/mobile",
+    url: "https://telehealthfx.com/locations/mobile/",
     siteName: "Telehealth FX",
     type: "website"
   },

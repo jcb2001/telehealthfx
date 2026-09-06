@@ -4,7 +4,7 @@ export const metadata = {
   description: "Testosterone Replacement Therapy prescribed by Indiana-licensed physicians. From $79/mo with $95 comprehensive bloodwork. Injectable, oral, or topical TRT delivered to Indianapolis.",
   openGraph: {
     title: "TRT & Testosterone Therapy in Indianapolis | Telehealth FX",
-    url: "https://telehealthfx.com/trt/indianapolis",
+    url: "https://telehealthfx.com/trt/indianapolis/",
     siteName: "Telehealth FX",
     type: "website"
   }

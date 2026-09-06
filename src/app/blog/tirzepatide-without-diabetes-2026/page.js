@@ -16,7 +16,8 @@ export const metadata = {
 
 export default function Page() {
   const jsonLd = { "@context": "https://schema.org", "@graph": [
-    { "@type": "MedicalWebPage", "@id": "https://telehealthfx.com/blog/tirzepatide-without-diabetes-2026/#article", "headline": "Can I Get Tirzepatide Without a Diabetes Diagnosis?", "image": "https://telehealthfx.com/assets/tirzepatide-without-diabetes-featured.png", "author": { "@type": "Person", "name": "Julian Mercer, M.S.", "url": "https://telehealthfx.com/about" }, "publisher": { "@type": "Organization", "name": "Telehealth FX" }, "mainEntityOfPage": { "@type": "WebPage", "@id": "https://telehealthfx.com/blog/tirzepatide-without-diabetes-2026/" } },
+    { "@type": "MedicalWebPage",
+    "description": metadata.description, "@id": "https://telehealthfx.com/blog/tirzepatide-without-diabetes-2026/#article", "headline": "Can I Get Tirzepatide Without a Diabetes Diagnosis?", "image": "https://telehealthfx.com/assets/tirzepatide-without-diabetes-featured.png", "author": { "@type": "Person", "name": "Julian Mercer, M.S.", "url": "https://telehealthfx.com/about" }, "publisher": { "@type": "Organization", "name": "Telehealth FX" }, "mainEntityOfPage": { "@type": "WebPage", "@id": "https://telehealthfx.com/blog/tirzepatide-without-diabetes-2026/" } },
     { "@type": "FAQPage", "@id": "https://telehealthfx.com/blog/tirzepatide-without-diabetes-2026/#faq", "mainEntity": [
       { "@type": "Question", "name": "Do I need to be diabetic to get Mounjaro?", "acceptedAnswer": { "@type": "Answer", "text": "Mounjaro requires a T2D diagnosis. Zepbound  is approved for weight loss without diabetes. Compounded tirzepatide can also be prescribed for weight loss." } },
       { "@type": "Question", "name": "What BMI do I need for tirzepatide?", "acceptedAnswer": { "@type": "Answer", "text": "BMI ≥30 or BMI ≥27 with at least one weight-related comorbidity for branded Zepbound." } },

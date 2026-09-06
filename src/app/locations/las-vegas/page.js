@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Las Vegas | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Las Vegas, Nevada residents. Nevada-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/las-vegas",
+    url: "https://telehealthfx.com/locations/las-vegas/",
     siteName: "Telehealth FX",
     type: "website"
   },

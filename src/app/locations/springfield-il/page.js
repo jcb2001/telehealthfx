@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Springfield | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Springfield, Illinois residents. Illinois-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/springfield-il",
+    url: "https://telehealthfx.com/locations/springfield-il/",
     siteName: "Telehealth FX",
     type: "website"
   },

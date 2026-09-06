@@ -1,7 +1,19 @@
-'use client';
-
 import React from 'react';
 import Link from 'next/link';
+
+export const metadata = {
+  title: "Careers at Telehealth FX | Remote Healthcare Positions",
+  description: "Join Telehealth FX and help transform metabolic healthcare nationwide. Explore open remote clinical sales and telemedicine career opportunities today.",
+  alternates: {
+    canonical: 'https://telehealthfx.com/careers/',
+  },
+  openGraph: {
+    title: "Careers at Telehealth FX | Remote Healthcare Positions",
+    description: "Join Telehealth FX and help transform metabolic healthcare nationwide. Explore open remote clinical sales and telemedicine career opportunities today.",
+    url: 'https://telehealthfx.com/careers/',
+    siteName: 'Telehealth FX',
+  },
+};
 
 export default function CareersPage() {
   return (

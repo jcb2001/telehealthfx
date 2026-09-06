@@ -8,7 +8,7 @@ export const metadata = {
   openGraph: {
     title: "Low Testosterone vs. Depression: Are You Misdiagnosed?",
     description: "Learn why low testosterone is often misdiagnosed as depression, the dangers of SSRIs, and how hormone optimization can restore your mood and motivation.",
-    url: "https://telehealthfx.com/blog/low-testosterone-vs-depression-2026",
+    url: "https://telehealthfx.com/blog/low-testosterone-vs-depression-2026/",
     siteName: "Telehealth FX",
     type: "article",
   },

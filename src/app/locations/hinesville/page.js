@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Hinesville | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Hinesville, Georgia residents. Georgia-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/hinesville",
+    url: "https://telehealthfx.com/locations/hinesville/",
     siteName: "Telehealth FX",
     type: "website"
   },

@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Louisville | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Louisville, Kentucky residents. Kentucky-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/louisville",
+    url: "https://telehealthfx.com/locations/louisville/",
     siteName: "Telehealth FX",
     type: "website"
   },

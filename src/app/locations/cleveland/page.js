@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Cleveland | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Cleveland, Ohio residents. Ohio-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/cleveland",
+    url: "https://telehealthfx.com/locations/cleveland/",
     siteName: "Telehealth FX",
     type: "website"
   },

@@ -4,7 +4,7 @@ export const metadata = {
   description: "Testosterone Replacement Therapy prescribed by New York-licensed physicians. From $79/mo with $95 comprehensive bloodwork. Injectable, oral, or topical TRT delivered to NYC.",
   openGraph: {
     title: "TRT & Testosterone Therapy in New York City | Telehealth FX",
-    url: "https://telehealthfx.com/trt/new-york",
+    url: "https://telehealthfx.com/trt/new-york/",
     siteName: "Telehealth FX",
     type: "website"
   }

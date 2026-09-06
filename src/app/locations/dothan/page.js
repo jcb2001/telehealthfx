@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Dothan | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Dothan, Alabama residents. Alabama-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/dothan",
+    url: "https://telehealthfx.com/locations/dothan/",
     siteName: "Telehealth FX",
     type: "website"
   },

@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Wilmington | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Wilmington, North Carolina residents. North Carolina-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/wilmington",
+    url: "https://telehealthfx.com/locations/wilmington/",
     siteName: "Telehealth FX",
     type: "website"
   },

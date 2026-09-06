@@ -42,6 +42,40 @@ export default function Page() {
           "url": "https://telehealthfx.com/about",
           "jobTitle": "Lead Bio-Systems Analyst"
         },
+        "speakable": {
+          "@type": "SpeakableSpecification",
+          "cssSelector": [".ai-extractive-answer", "[data-extractive-answer]", "h1"]
+        },
+        "about": [
+          {
+            "@type": "Drug",
+            "name": "Berberine",
+            "code": {
+              "@type": "MedicalCode",
+              "code": "1419",
+              "codingSystem": "RxNorm"
+            }
+          },
+          {
+            "@type": "Drug",
+            "name": "Semaglutide",
+            "code": {
+              "@type": "MedicalCode",
+              "code": "1991302",
+              "codingSystem": "RxNorm"
+            },
+            "sameAs": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=1991302"
+          },
+          {
+            "@type": "MedicalCondition",
+            "name": "Metabolic Syndrome",
+            "code": {
+              "@type": "MedicalCode",
+              "code": "E88.81",
+              "codingSystem": "ICD-10"
+            }
+          }
+        ],
         "publisher": {
           "@type": "Organization",
           "name": "Telehealth FX",
@@ -54,6 +88,10 @@ export default function Page() {
           "@type": "WebPage",
           "@id": "https://telehealthfx.com/blog/coptis-chinensis-vs-berberis-vulgaris-botanical-sources/"
         }
+      },
+      {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [".ai-extractive-answer", "[data-extractive-answer]", "h1"]
       },
       {
         "@type": "FAQPage",

@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Worcester | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Worcester, Massachusetts residents. Massachusetts-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/worcester",
+    url: "https://telehealthfx.com/locations/worcester/",
     siteName: "Telehealth FX",
     type: "website"
   },

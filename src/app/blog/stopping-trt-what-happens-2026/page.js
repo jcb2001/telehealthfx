@@ -8,7 +8,7 @@ export const metadata = {
   openGraph: {
     title: "The Testosterone Trap: What Happens When You Stop TRT?",
     description: "Learn what happens when you stop testosterone replacement therapy, why the crash happens, and the clinical PCT protocols used to restart natural production.",
-    url: "https://telehealthfx.com/blog/stopping-trt-what-happens-2026",
+    url: "https://telehealthfx.com/blog/stopping-trt-what-happens-2026/",
     siteName: "Telehealth FX",
     type: "article",
   },

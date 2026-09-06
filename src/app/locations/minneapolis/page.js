@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Minneapolis | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Minneapolis, Minnesota residents. Minnesota-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/minneapolis",
+    url: "https://telehealthfx.com/locations/minneapolis/",
     siteName: "Telehealth FX",
     type: "website"
   },

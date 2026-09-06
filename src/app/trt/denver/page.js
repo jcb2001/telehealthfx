@@ -4,7 +4,7 @@ export const metadata = {
   description: "Testosterone Replacement Therapy prescribed by Colorado-licensed physicians. From $79/mo with $95 comprehensive bloodwork. Injectable, oral, or topical TRT delivered to Denver.",
   openGraph: {
     title: "TRT & Testosterone Therapy in Denver | Telehealth FX",
-    url: "https://telehealthfx.com/trt/denver",
+    url: "https://telehealthfx.com/trt/denver/",
     siteName: "Telehealth FX",
     type: "website"
   }

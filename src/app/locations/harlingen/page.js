@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Harlingen | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Harlingen, Texas residents. Texas-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/harlingen",
+    url: "https://telehealthfx.com/locations/harlingen/",
     siteName: "Telehealth FX",
     type: "website"
   },

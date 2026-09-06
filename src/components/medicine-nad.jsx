@@ -9,6 +9,7 @@ function NadPage() {
     "@context": "https://schema.org",
     "@type": "MedicalWebPage",
     "name": "NAD+ Therapy Program | Telehealth FX",
+    "description": "Restore cellular energy, DNA repair, and cognitive vitality with pharmaceutical-grade subcutaneous NAD+ injections from Telehealth FX.",
     "about": { "@type": "Drug", "name": "NAD+", "nonProprietaryName": "Nicotinamide Adenine Dinucleotide", "drugClass": "Coenzyme supplement", "mechanismOfAction": "Essential coenzyme for cellular energy production, DNA repair, and sirtuin activation" },
     "publisher": { "@type": "MedicalOrganization", "name": "Telehealth FX" }
   };

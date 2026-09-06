@@ -4,7 +4,7 @@ export const metadata = {
   description: "Testosterone Replacement Therapy prescribed by Texas-licensed physicians. From $79/mo with $95 comprehensive bloodwork. Injectable, oral, or topical TRT delivered to San Antonio.",
   openGraph: {
     title: "TRT & Testosterone Therapy in San Antonio | Telehealth FX",
-    url: "https://telehealthfx.com/trt/san-antonio",
+    url: "https://telehealthfx.com/trt/san-antonio/",
     siteName: "Telehealth FX",
     type: "website"
   }

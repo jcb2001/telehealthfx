@@ -33,6 +33,31 @@ export default function Page() {
         "url": "https://telehealthfx.com/about",
         "jobTitle": "Lead Bio-Systems Analyst"
       },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [".ai-extractive-answer", "[data-extractive-answer]", "h1"]
+      },
+      "about": [
+        {
+          "@type": "Drug",
+          "name": "Semaglutide",
+          "code": {
+            "@type": "MedicalCode",
+            "code": "1991302",
+            "codingSystem": "RxNorm"
+          },
+          "sameAs": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=1991302"
+        },
+        {
+          "@type": "MedicalCondition",
+          "name": "Gastroesophageal Reflux Disease (GERD)",
+          "code": {
+            "@type": "MedicalCode",
+            "code": "K21.9",
+            "codingSystem": "ICD-10"
+          }
+        }
+      ],
       "publisher": {
         "@id": "https://telehealthfx.com/#organization"
       },
@@ -40,6 +65,10 @@ export default function Page() {
         "@type": "WebPage",
         "@id": "https://telehealthfx.com/blog/glp1-and-coffee-caffeine-2026/"
       }
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "cssSelector": [".ai-extractive-answer", "[data-extractive-answer]", "h1"]
     },
     {
       "@type": "Article",

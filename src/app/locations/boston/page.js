@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Boston | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Boston, Massachusetts residents. Massachusetts-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/boston",
+    url: "https://telehealthfx.com/locations/boston/",
     siteName: "Telehealth FX",
     type: "website"
   },

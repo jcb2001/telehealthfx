@@ -7,7 +7,7 @@ export const metadata = {
   openGraph: {
     title: "Medical Weight Loss Clinic San Diego | Semaglutide & GLP-1",
     description: "Looking for a medical weight loss clinic in San Diego? Skip the traffic and 300% medspa markups. Get Semaglutide delivered overnight via Telehealth FX.",
-    url: 'https://telehealthfx.com/weight-loss/san-diego',
+    url: 'https://telehealthfx.com/weight-loss/san-diego/',
     type: 'article',
   }
 ,

@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Beaumont | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Beaumont, Texas residents. Texas-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/beaumont",
+    url: "https://telehealthfx.com/locations/beaumont/",
     siteName: "Telehealth FX",
     type: "website"
   },

@@ -4,7 +4,7 @@ export const metadata = {
   description: "Testosterone Replacement Therapy prescribed by Illinois-licensed physicians. From $79/mo with $95 comprehensive bloodwork. Injectable, oral, or topical TRT delivered to Chicago.",
   openGraph: {
     title: "TRT & Testosterone Therapy in Chicago | Telehealth FX",
-    url: "https://telehealthfx.com/trt/chicago",
+    url: "https://telehealthfx.com/trt/chicago/",
     siteName: "Telehealth FX",
     type: "website"
   }

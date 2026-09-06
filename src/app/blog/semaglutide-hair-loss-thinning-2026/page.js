@@ -19,7 +19,8 @@ export default function Page() {
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": "MedicalWebPage", "@id": "https://telehealthfx.com/blog/semaglutide-hair-loss-thinning-2026/#article",
+        "@type": "MedicalWebPage",
+    "description": metadata.description, "@id": "https://telehealthfx.com/blog/semaglutide-hair-loss-thinning-2026/#article",
         "headline": "Semaglutide and Hair Loss: Is Your GLP-1 Causing Thinning? What the Data Says",
         "image": "https://telehealthfx.com/assets/semaglutide-hair-loss-featured.png",
         "author": { "@type": "Person", "name": "Julian Mercer, M.S.", "url": "https://telehealthfx.com/about" },

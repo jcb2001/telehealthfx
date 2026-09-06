@@ -8,7 +8,7 @@ export const metadata = {
   openGraph: {
     title: "TRT Dosage Guide: Finding Your Optimal Testosterone Protocol",
     description: "Complete clinical guide to testosterone replacement therapy dosing — starting doses, adjustment timelines, injection frequency optimization, and common dosing mistakes to avoid.",
-    url: "https://telehealthfx.com/blog/trt-dosage-guide-2026",
+    url: "https://telehealthfx.com/blog/trt-dosage-guide-2026/",
     siteName: "Telehealth FX",
     type: "article",
   },

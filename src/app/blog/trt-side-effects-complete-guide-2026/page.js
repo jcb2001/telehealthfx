@@ -8,7 +8,7 @@ export const metadata = {
   openGraph: {
     title: "TRT Side Effects: The Complete Evidence-Based Guide (Real vs Myth)",
     description: "Every TRT side effect ranked by evidence — the TRAVERSE trial on heart safety, hematocrit management, hair loss reality, fertility impacts, and myths debunked.",
-    url: "https://telehealthfx.com/blog/trt-side-effects-complete-guide-2026",
+    url: "https://telehealthfx.com/blog/trt-side-effects-complete-guide-2026/",
     siteName: "Telehealth FX",
     type: "article",
   },

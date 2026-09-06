@@ -743,11 +743,11 @@ function BlogIndex() {
     "@type": "CollectionPage",
     "name": "Insights for Metabolic Health | Telehealth FX Journal",
     "description": "Clinical analyses, pharmacokinetic reviews, and evidence-based breakdowns from the Telehealth FX Bio-Systems team.",
-    "url": "https://www.telehealthfx.com/blog",
+    "url": "https://telehealthfx.com/blog/",
     "publisher": {
       "@type": "MedicalOrganization",
       "name": "Telehealth FX",
-      "url": "https://www.telehealthfx.com",
+      "url": "https://telehealthfx.com/",
       "logo": {
         "@type": "ImageObject",
         "url": "https://telehealthfx.com/assets/Site%20Icon-modified.png"
@@ -758,7 +758,7 @@ function BlogIndex() {
       "itemListElement": articles.map((article, index) => ({
         "@type": "ListItem",
         "position": index + 1,
-        "url": `https://www.telehealthfx.com${article.slug}`
+        "url": `https://telehealthfx.com${article.slug.endsWith('/') ? article.slug : article.slug + '/'}`
       }))
     }
   };

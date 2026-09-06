@@ -8,7 +8,7 @@ export const metadata = {
   openGraph: {
     title: "Does Insurance Cover Testosterone Therapy? Your 2026 Coverage Guide",
     description: "Complete guide to insurance coverage for TRT in 2026 — which plans cover it, prior authorization codes, appeal strategies, and cash-pay alternatives that beat copays.",
-    url: "https://telehealthfx.com/blog/does-insurance-cover-trt-2026",
+    url: "https://telehealthfx.com/blog/does-insurance-cover-trt-2026/",
     siteName: "Telehealth FX",
     type: "article",
   },

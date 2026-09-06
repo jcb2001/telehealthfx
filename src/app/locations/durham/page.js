@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Durham | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Durham, North Carolina residents. North Carolina-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/durham",
+    url: "https://telehealthfx.com/locations/durham/",
     siteName: "Telehealth FX",
     type: "website"
   },

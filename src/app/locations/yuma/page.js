@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Yuma | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Yuma, Arizona residents. Arizona-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/yuma",
+    url: "https://telehealthfx.com/locations/yuma/",
     siteName: "Telehealth FX",
     type: "website"
   },

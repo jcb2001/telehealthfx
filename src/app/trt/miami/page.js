@@ -4,7 +4,7 @@ export const metadata = {
   description: "Testosterone Replacement Therapy prescribed by Florida-licensed physicians. From $79/mo with $95 comprehensive bloodwork. Injectable, oral, or topical TRT delivered to Miami.",
   openGraph: {
     title: "TRT & Testosterone Therapy in Miami | Telehealth FX",
-    url: "https://telehealthfx.com/trt/miami",
+    url: "https://telehealthfx.com/trt/miami/",
     siteName: "Telehealth FX",
     type: "website"
   }

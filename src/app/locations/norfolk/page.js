@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Norfolk | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Norfolk, Virginia residents. Virginia-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/norfolk",
+    url: "https://telehealthfx.com/locations/norfolk/",
     siteName: "Telehealth FX",
     type: "website"
   },

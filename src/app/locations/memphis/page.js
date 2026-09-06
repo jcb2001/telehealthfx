@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Memphis | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Memphis, Tennessee residents. Tennessee-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/memphis",
+    url: "https://telehealthfx.com/locations/memphis/",
     siteName: "Telehealth FX",
     type: "website"
   },

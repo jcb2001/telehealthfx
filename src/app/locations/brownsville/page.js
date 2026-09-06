@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Brownsville | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Brownsville, Texas residents. Texas-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/brownsville",
+    url: "https://telehealthfx.com/locations/brownsville/",
     siteName: "Telehealth FX",
     type: "website"
   },

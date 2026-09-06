@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Jacksonville | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Jacksonville, Florida residents. Florida-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/jacksonville",
+    url: "https://telehealthfx.com/locations/jacksonville/",
     siteName: "Telehealth FX",
     type: "website"
   },

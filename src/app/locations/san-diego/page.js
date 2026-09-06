@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in San Diego | Telehealth FX",
     description: "Clinical GLP-1 telehealth for San Diego, California residents. California-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/san-diego",
+    url: "https://telehealthfx.com/locations/san-diego/",
     siteName: "Telehealth FX",
     type: "website"
   },

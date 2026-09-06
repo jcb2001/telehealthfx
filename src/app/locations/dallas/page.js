@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Dallas | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Dallas, Texas residents. Texas-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/dallas",
+    url: "https://telehealthfx.com/locations/dallas/",
     siteName: "Telehealth FX",
     type: "website"
   },

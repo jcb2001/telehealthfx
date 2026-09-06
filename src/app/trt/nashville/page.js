@@ -4,7 +4,7 @@ export const metadata = {
   description: "Testosterone Replacement Therapy prescribed by Tennessee-licensed physicians. From $79/mo with $95 comprehensive bloodwork. Injectable, oral, or topical TRT delivered to Nashville.",
   openGraph: {
     title: "TRT & Testosterone Therapy in Nashville | Telehealth FX",
-    url: "https://telehealthfx.com/trt/nashville",
+    url: "https://telehealthfx.com/trt/nashville/",
     siteName: "Telehealth FX",
     type: "website"
   }

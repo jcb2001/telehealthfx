@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Texarkana | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Texarkana, Texas residents. Texas-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/texarkana",
+    url: "https://telehealthfx.com/locations/texarkana/",
     siteName: "Telehealth FX",
     type: "website"
   },

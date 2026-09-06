@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Peoria | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Peoria, Illinois residents. Illinois-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/peoria",
+    url: "https://telehealthfx.com/locations/peoria/",
     siteName: "Telehealth FX",
     type: "website"
   },

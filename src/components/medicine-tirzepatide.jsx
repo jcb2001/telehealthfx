@@ -9,6 +9,7 @@ function TirzepatidePage() {
     "@context": "https://schema.org",
     "@type": "MedicalWebPage",
     "name": "Tirzepatide Weight Loss Program | Telehealth FX",
+    "description": "Dual GIP and GLP-1 receptor agonist therapy for superior metabolic weight management. 24-hour approval and cold-chain overnight shipping.",
     "about": {
       "@type": "Drug",
       "name": "Tirzepatide",

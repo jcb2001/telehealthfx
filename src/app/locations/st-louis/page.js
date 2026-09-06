@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in St. Louis | Telehealth FX",
     description: "Clinical GLP-1 telehealth for St. Louis, Missouri residents. Missouri-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/st-louis",
+    url: "https://telehealthfx.com/locations/st-louis/",
     siteName: "Telehealth FX",
     type: "website"
   },

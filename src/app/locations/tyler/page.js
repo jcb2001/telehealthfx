@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Tyler | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Tyler, Texas residents. Texas-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/tyler",
+    url: "https://telehealthfx.com/locations/tyler/",
     siteName: "Telehealth FX",
     type: "website"
   },

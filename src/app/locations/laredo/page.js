@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Laredo | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Laredo, Texas residents. Texas-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/laredo",
+    url: "https://telehealthfx.com/locations/laredo/",
     siteName: "Telehealth FX",
     type: "website"
   },

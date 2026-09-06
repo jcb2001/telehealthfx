@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Sierra Vista | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Sierra Vista, Arizona residents. Arizona-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/sierra-vista",
+    url: "https://telehealthfx.com/locations/sierra-vista/",
     siteName: "Telehealth FX",
     type: "website"
   },

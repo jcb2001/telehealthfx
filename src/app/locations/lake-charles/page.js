@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Lake Charles | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Lake Charles, Louisiana residents. Louisiana-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/lake-charles",
+    url: "https://telehealthfx.com/locations/lake-charles/",
     siteName: "Telehealth FX",
     type: "website"
   },

@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in McAllen | Telehealth FX",
     description: "Clinical GLP-1 telehealth for McAllen, Texas residents. Texas-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/mcallen",
+    url: "https://telehealthfx.com/locations/mcallen/",
     siteName: "Telehealth FX",
     type: "website"
   },

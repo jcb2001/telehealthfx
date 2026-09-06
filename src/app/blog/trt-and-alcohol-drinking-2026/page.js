@@ -8,7 +8,7 @@ export const metadata = {
   openGraph: {
     title: "TRT and Alcohol: Can You Drink on Testosterone Therapy?",
     description: "Learn how alcohol impacts testosterone replacement therapy. Discover why binge drinking spikes estrogen and the clinical guidelines for moderate alcohol consumption on TRT.",
-    url: "https://telehealthfx.com/blog/trt-and-alcohol-drinking-2026",
+    url: "https://telehealthfx.com/blog/trt-and-alcohol-drinking-2026/",
     siteName: "Telehealth FX",
     type: "article",
   },

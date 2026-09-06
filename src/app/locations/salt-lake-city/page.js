@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Salt Lake City | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Salt Lake City, Utah residents. Utah-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/salt-lake-city",
+    url: "https://telehealthfx.com/locations/salt-lake-city/",
     siteName: "Telehealth FX",
     type: "website"
   },

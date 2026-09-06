@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Dayton | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Dayton, Ohio residents. Ohio-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/dayton",
+    url: "https://telehealthfx.com/locations/dayton/",
     siteName: "Telehealth FX",
     type: "website"
   },

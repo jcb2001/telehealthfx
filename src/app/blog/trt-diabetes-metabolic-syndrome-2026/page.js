@@ -8,7 +8,7 @@ export const metadata = {
   openGraph: {
     title: "TRT for Men With Type 2 Diabetes & Metabolic Syndrome: What the 2026 Research Says",
     description: "New 2026 research shows TRT can improve insulin sensitivity and HbA1c in hypogonadal men with type 2 diabetes. Learn about the T4DM trial, FDA safety updates, and combined TRT + weight loss protocols.",
-    url: "https://telehealthfx.com/blog/trt-diabetes-metabolic-syndrome-2026",
+    url: "https://telehealthfx.com/blog/trt-diabetes-metabolic-syndrome-2026/",
     siteName: "Telehealth FX",
     type: "article",
   },

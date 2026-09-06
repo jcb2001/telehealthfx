@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Tacoma | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Tacoma, Washington residents. Washington-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/tacoma",
+    url: "https://telehealthfx.com/locations/tacoma/",
     siteName: "Telehealth FX",
     type: "website"
   },

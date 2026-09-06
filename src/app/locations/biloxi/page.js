@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Biloxi | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Biloxi, Mississippi residents. Mississippi-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/biloxi",
+    url: "https://telehealthfx.com/locations/biloxi/",
     siteName: "Telehealth FX",
     type: "website"
   },

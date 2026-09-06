@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Baton Rouge | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Baton Rouge, Louisiana residents. Louisiana-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/baton-rouge",
+    url: "https://telehealthfx.com/locations/baton-rouge/",
     siteName: "Telehealth FX",
     type: "website"
   },

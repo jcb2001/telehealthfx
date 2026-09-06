@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Chicago | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Chicago, Illinois residents. Illinois-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/chicago",
+    url: "https://telehealthfx.com/locations/chicago/",
     siteName: "Telehealth FX",
     type: "website"
   },

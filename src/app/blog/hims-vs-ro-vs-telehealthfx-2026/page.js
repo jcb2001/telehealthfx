@@ -32,10 +32,47 @@ export default function Page() {
           "jobTitle": "Lead Bio-Systems Analyst",
           "url": "https://telehealthfx.com/about"
         },
+        "speakable": {
+          "@type": "SpeakableSpecification",
+          "cssSelector": [".ai-extractive-answer", "[data-extractive-answer]", "h1"]
+        },
+        "about": [
+          {
+            "@type": "Drug",
+            "name": "Semaglutide",
+            "code": {
+              "@type": "MedicalCode",
+              "code": "1991302",
+              "codingSystem": "RxNorm"
+            },
+            "sameAs": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=1991302"
+          },
+          {
+            "@type": "MedicalCondition",
+            "name": "Obesity",
+            "code": {
+              "@type": "MedicalCode",
+              "code": "E66.9",
+              "codingSystem": "ICD-10"
+            },
+            "sameAs": "https://icd.who.int/browse10/2019/en#/E66.9"
+          }
+        ],
+        "mentions": [
+          {
+            "@type": "Legislation",
+            "name": "Section 503A of the Federal Food, Drug, and Cosmetic Act",
+            "legislationIdentifier": "21 U.S.C. § 353a"
+          }
+        ],
         "publisher": {
           "@type": "Organization",
           "name": "Telehealth FX"
         }
+      },
+      {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [".ai-extractive-answer", "[data-extractive-answer]", "h1"]
       },
       {
         "@type": "FAQPage",

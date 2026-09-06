@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Fort Wayne | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Fort Wayne, Indiana residents. Indiana-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/fort-wayne",
+    url: "https://telehealthfx.com/locations/fort-wayne/",
     siteName: "Telehealth FX",
     type: "website"
   },

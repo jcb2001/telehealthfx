@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Lawton | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Lawton, Oklahoma residents. Oklahoma-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/lawton",
+    url: "https://telehealthfx.com/locations/lawton/",
     siteName: "Telehealth FX",
     type: "website"
   },

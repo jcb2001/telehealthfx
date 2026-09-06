@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Little Rock | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Little Rock, Arkansas residents. Arkansas-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/little-rock",
+    url: "https://telehealthfx.com/locations/little-rock/",
     siteName: "Telehealth FX",
     type: "website"
   },

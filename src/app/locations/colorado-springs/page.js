@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Colorado Springs | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Colorado Springs, Colorado residents. Colorado-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/colorado-springs",
+    url: "https://telehealthfx.com/locations/colorado-springs/",
     siteName: "Telehealth FX",
     type: "website"
   },

@@ -4,7 +4,7 @@ export const metadata = {
   description: "Testosterone Replacement Therapy prescribed by Michigan-licensed physicians. From $79/mo with $95 comprehensive bloodwork. Injectable, oral, or topical TRT delivered to Detroit.",
   openGraph: {
     title: "TRT & Testosterone Therapy in Detroit | Telehealth FX",
-    url: "https://telehealthfx.com/trt/detroit",
+    url: "https://telehealthfx.com/trt/detroit/",
     siteName: "Telehealth FX",
     type: "website"
   }

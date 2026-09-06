@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Manhattan | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Manhattan, Kansas residents. Kansas-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/manhattan-ks",
+    url: "https://telehealthfx.com/locations/manhattan-ks/",
     siteName: "Telehealth FX",
     type: "website"
   },

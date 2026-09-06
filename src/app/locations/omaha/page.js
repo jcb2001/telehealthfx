@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Omaha | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Omaha, Nebraska residents. Nebraska-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/omaha",
+    url: "https://telehealthfx.com/locations/omaha/",
     siteName: "Telehealth FX",
     type: "website"
   },

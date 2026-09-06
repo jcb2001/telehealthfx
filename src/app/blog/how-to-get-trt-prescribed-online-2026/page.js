@@ -8,7 +8,7 @@ export const metadata = {
   openGraph: {
     title: "How to Get TRT Prescribed Online: Step-by-Step Guide (2026)",
     description: "Step-by-step walkthrough of getting testosterone replacement therapy prescribed through a telehealth platform — from intake to first injection in 2026.",
-    url: "https://telehealthfx.com/blog/how-to-get-trt-prescribed-online-2026",
+    url: "https://telehealthfx.com/blog/how-to-get-trt-prescribed-online-2026/",
     siteName: "Telehealth FX",
     type: "article",
   },

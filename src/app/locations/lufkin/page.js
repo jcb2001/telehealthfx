@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Lufkin | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Lufkin, Texas residents. Texas-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/lufkin",
+    url: "https://telehealthfx.com/locations/lufkin/",
     siteName: "Telehealth FX",
     type: "website"
   },

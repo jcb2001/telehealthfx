@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in New Orleans | Telehealth FX",
     description: "Clinical GLP-1 telehealth for New Orleans, Louisiana residents. Louisiana-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/new-orleans",
+    url: "https://telehealthfx.com/locations/new-orleans/",
     siteName: "Telehealth FX",
     type: "website"
   },

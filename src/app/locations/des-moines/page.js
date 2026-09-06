@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Des Moines | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Des Moines, Iowa residents. Iowa-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/des-moines",
+    url: "https://telehealthfx.com/locations/des-moines/",
     siteName: "Telehealth FX",
     type: "website"
   },

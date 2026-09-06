@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Charlotte | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Charlotte, North Carolina residents. North Carolina-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/charlotte",
+    url: "https://telehealthfx.com/locations/charlotte/",
     siteName: "Telehealth FX",
     type: "website"
   },

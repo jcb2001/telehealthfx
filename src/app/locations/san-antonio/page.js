@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in San Antonio | Telehealth FX",
     description: "Clinical GLP-1 telehealth for San Antonio, Texas residents. Texas-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/san-antonio",
+    url: "https://telehealthfx.com/locations/san-antonio/",
     siteName: "Telehealth FX",
     type: "website"
   },

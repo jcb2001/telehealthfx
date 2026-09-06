@@ -9,6 +9,7 @@ function SermorelinPage() {
     "@context": "https://schema.org",
     "@type": "MedicalWebPage",
     "name": "Sermorelin Therapy Program | Telehealth FX",
+    "description": "Stimulate natural human growth hormone production with Sermorelin peptide therapy. Improve deep sleep, recovery, and body composition.",
     "about": { "@type": "Drug", "name": "Sermorelin", "nonProprietaryName": "Sermorelin Acetate", "drugClass": "Growth Hormone-Releasing Hormone (GHRH) analog", "mechanismOfAction": "Stimulates the pituitary gland to naturally produce and release growth hormone", "administrationRoute": "Subcutaneous injection" },
     "publisher": { "@type": "MedicalOrganization", "name": "Telehealth FX" }
   };

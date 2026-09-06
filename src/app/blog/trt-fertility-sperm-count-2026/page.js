@@ -8,7 +8,7 @@ export const metadata = {
   openGraph: {
     title: "TRT and Male Fertility: How to Preserve Sperm Count",
     description: "Does TRT cause infertility? Learn how exogenous testosterone affects sperm count, and how protocols like HCG and Enclomiphene preserve male fertility.",
-    url: "https://telehealthfx.com/blog/trt-fertility-sperm-count-2026",
+    url: "https://telehealthfx.com/blog/trt-fertility-sperm-count-2026/",
     siteName: "Telehealth FX",
     type: "article",
   },

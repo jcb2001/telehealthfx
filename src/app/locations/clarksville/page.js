@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Clarksville | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Clarksville, Tennessee residents. Tennessee-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/clarksville",
+    url: "https://telehealthfx.com/locations/clarksville/",
     siteName: "Telehealth FX",
     type: "website"
   },

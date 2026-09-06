@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Providence | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Providence, Rhode Island residents. Rhode Island-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/providence",
+    url: "https://telehealthfx.com/locations/providence/",
     siteName: "Telehealth FX",
     type: "website"
   },

@@ -8,7 +8,7 @@ export const metadata = {
   openGraph: {
     title: "TRT Injections vs Cream vs Pellets: Which Delivery Method Is Best?",
     description: "Head-to-head comparison of testosterone delivery methods — injections, topical cream, and pellets. Efficacy, cost, convenience, and side effect profiles compared.",
-    url: "https://telehealthfx.com/blog/testosterone-injections-vs-cream-vs-pellets-2026",
+    url: "https://telehealthfx.com/blog/testosterone-injections-vs-cream-vs-pellets-2026/",
     siteName: "Telehealth FX",
     type: "article",
   },

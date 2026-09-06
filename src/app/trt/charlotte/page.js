@@ -4,7 +4,7 @@ export const metadata = {
   description: "Testosterone Replacement Therapy prescribed by North Carolina-licensed physicians. From $79/mo with $95 comprehensive bloodwork. Injectable, oral, or topical TRT delivered to Charlotte.",
   openGraph: {
     title: "TRT & Testosterone Therapy in Charlotte | Telehealth FX",
-    url: "https://telehealthfx.com/trt/charlotte",
+    url: "https://telehealthfx.com/trt/charlotte/",
     siteName: "Telehealth FX",
     type: "website"
   }

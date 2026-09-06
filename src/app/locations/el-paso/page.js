@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in El Paso | Telehealth FX",
     description: "Clinical GLP-1 telehealth for El Paso, Texas residents. Texas-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/el-paso",
+    url: "https://telehealthfx.com/locations/el-paso/",
     siteName: "Telehealth FX",
     type: "website"
   },

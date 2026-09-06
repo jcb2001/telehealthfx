@@ -8,7 +8,7 @@ export const metadata = {
   openGraph: {
     title: "TRT and Heart Health: The New Safety Guidelines",
     description: "Does TRT cause heart attacks? Read the definitive results of the TRAVERSE Trial and learn why modern cardiology says testosterone therapy is safe for the heart.",
-    url: "https://telehealthfx.com/blog/trt-heart-health-safety-2026",
+    url: "https://telehealthfx.com/blog/trt-heart-health-safety-2026/",
     siteName: "Telehealth FX",
     type: "article",
   },

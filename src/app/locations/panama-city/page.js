@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Panama City | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Panama City, Florida residents. Florida-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/panama-city",
+    url: "https://telehealthfx.com/locations/panama-city/",
     siteName: "Telehealth FX",
     type: "website"
   },

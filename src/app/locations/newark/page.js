@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Newark | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Newark, New Jersey residents. New Jersey-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/newark",
+    url: "https://telehealthfx.com/locations/newark/",
     siteName: "Telehealth FX",
     type: "website"
   },

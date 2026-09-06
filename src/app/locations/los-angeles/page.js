@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Los Angeles | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Los Angeles, California residents. California-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/los-angeles",
+    url: "https://telehealthfx.com/locations/los-angeles/",
     siteName: "Telehealth FX",
     type: "website"
   },

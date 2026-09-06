@@ -8,7 +8,7 @@ export const metadata = {
   openGraph: {
     title: "Testosterone Cypionate vs Enanthate: Does It Matter Which You Use?",
     description: "Clinical comparison of testosterone cypionate and enanthate esters — half-life, injection frequency, side effects, cost, and switching protocols.",
-    url: "https://telehealthfx.com/blog/testosterone-cypionate-vs-enanthate-2026",
+    url: "https://telehealthfx.com/blog/testosterone-cypionate-vs-enanthate-2026/",
     siteName: "Telehealth FX",
     type: "article",
   },

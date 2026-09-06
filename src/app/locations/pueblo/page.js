@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Pueblo | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Pueblo, Colorado residents. Colorado-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/pueblo",
+    url: "https://telehealthfx.com/locations/pueblo/",
     siteName: "Telehealth FX",
     type: "website"
   },

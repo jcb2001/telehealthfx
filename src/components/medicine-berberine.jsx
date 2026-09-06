@@ -9,6 +9,7 @@ function BerberineMedicinePage() {
     "@context": "https://schema.org",
     "@type": "MedicalWebPage",
     "name": "Berberine Transdermal Patches | Telehealth FX",
+    "description": "Overcome poor oral bioavailability with 24-hour transdermal berberine patches. Doctor-supervised metabolic support from Telehealth FX.",
     "about": { "@type": "Drug", "name": "Berberine", "nonProprietaryName": "Berberine Hydrochloride", "drugClass": "Isoquinoline alkaloid / AMPK activator", "mechanismOfAction": "Activates AMPK enzyme to regulate glucose metabolism, lipid metabolism, and cellular energy homeostasis", "administrationRoute": "Transdermal" },
     "publisher": { "@type": "MedicalOrganization", "name": "Telehealth FX" }
   };

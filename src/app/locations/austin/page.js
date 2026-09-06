@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Austin | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Austin, Texas residents. Texas-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/austin",
+    url: "https://telehealthfx.com/locations/austin/",
     siteName: "Telehealth FX",
     type: "website"
   },

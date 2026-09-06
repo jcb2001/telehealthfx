@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Wichita | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Wichita, Kansas residents. Kansas-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/wichita",
+    url: "https://telehealthfx.com/locations/wichita/",
     siteName: "Telehealth FX",
     type: "website"
   },

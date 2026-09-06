@@ -1,0 +1,10 @@
+# Cloudflare Pages Domain Canonicalization & Redirect Rules
+https://www.telehealthfx.com/* https://telehealthfx.com/:splat 301!
+
+# Legacy path normalization
+/results /results/ 301
+/pricing /pricing/ 301
+/faq /faq/ 301
+/how /how/ 301
+/medications /medications/ 301
+/science /science/ 301

@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in San Bernardino | Telehealth FX",
     description: "Clinical GLP-1 telehealth for San Bernardino, California residents. California-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/san-bernardino",
+    url: "https://telehealthfx.com/locations/san-bernardino/",
     siteName: "Telehealth FX",
     type: "website"
   },

@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Stockton | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Stockton, California residents. California-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/stockton",
+    url: "https://telehealthfx.com/locations/stockton/",
     siteName: "Telehealth FX",
     type: "website"
   },

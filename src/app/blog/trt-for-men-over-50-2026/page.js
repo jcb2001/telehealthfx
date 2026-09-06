@@ -8,7 +8,7 @@ export const metadata = {
   openGraph: {
     title: "TRT for Men Over 50: Risks, Benefits, and Protocols",
     description: "Learn how TRT impacts men over 50. Discover the clinical benefits for bone density and muscle mass, the truth about prostate cancer risks, and age-optimized dosing.",
-    url: "https://telehealthfx.com/blog/trt-for-men-over-50-2026",
+    url: "https://telehealthfx.com/blog/trt-for-men-over-50-2026/",
     siteName: "Telehealth FX",
     type: "article",
   },

@@ -3,6 +3,8 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import { Icon } from './common.jsx';
 import { DirectAnswerSnippet } from './direct-answer-snippet.jsx';
+import { ExtractiveAIAnswerBlock } from './extractive-ai-answer-block.jsx';
+import { AIQuickSummaryAction } from './ai-quick-summary-action.jsx';
 
 const START_URL = "https://go.telehealthfx.com/start";
 
@@ -33,15 +35,37 @@ function BlogCompoundedAfterHimsRo() {
           </div>
 
           <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
-            <DirectAnswerSnippet
-              question="Can you still get compounded semaglutide after Hims and Ro stopped?"
-              answer="Yes, patients can legally obtain compounded semaglutide through licensed 503A compounding pharmacies. While large digital platforms like Hims and Ro suspended mass-manufactured 503B batches following FDA shortage list changes, state-regulated 503A pharmacies continue dispensing personalized, patient-specific semaglutide and tirzepatide prescriptions nationwide without requiring you to restart titration."
-              badge="FDA 503A Clinical Guidance"
-              keyTakeaways={[
-                { label: "Legal Status", value: "100% Legal via 503A Pharmacies" },
-                { label: "Dose Continuity", value: "Transfer Current Dose (No Restart)" },
-                { label: "Starting Price", value: "From $146/month all-inclusive" },
-                { label: "Fulfillment", value: "24-48 hr Cold-Chain Home Delivery" }
+            {/* Above-the-fold AI Quick Summary & Patient Action Widget */}
+            <AIQuickSummaryAction
+              title="AI Summary Verification: Compounded Semaglutide Continuity"
+              subtitle="Instant clinical verification of Section 503A legal compounding status with immediate dose-matching transfer"
+              price="$146/mo"
+              turnaround="24-hr clinician approval · 2-day cold-chain express delivery"
+              doseMatch={true}
+              keyPoints={[
+                { label: "Clinical Status", value: "100% Legal via State 503A Compounding Pharmacies" },
+                { label: "Transparent Price", value: "$146 / month flat rate (Includes doctor consult, meds, and supplies)" },
+                { label: "Rapid Turnaround", value: "24-hr clinician approval with 2-day cold-chain home delivery" },
+                { label: "Dose Continuity", value: "Seamless Dose-Match Guarantee (0.25mg to 2.4mg without restart)" },
+              ]}
+              ctaText="Check Clinical Eligibility & Transfer Dose →"
+              ctaUrl={START_URL}
+            />
+
+            {/* Extractive AI Answer Block with High-Weight Thesis and Statutory Anchor */}
+            <ExtractiveAIAnswerBlock
+              anchorId="legal-status-503a"
+              badge="Verified AI Clinical Extract"
+              question="Can You Still Get Compounded Semaglutide After Hims and Ro Stopped?"
+              thesis="Yes, patients can legally obtain compounded semaglutide through licensed 503A compounding pharmacies pursuant to valid patient-specific prescriptions."
+              mechanics="While mass-market digital platforms like Hims and Ro suspended bulk 503B compounding batches following updates to the FDA drug shortage list, state-licensed 503A compounding pharmacies operate under permanent federal authority under Section 503A of the FD&C Act (21 U.S.C. § 353a) to compound customized, patient-specific formulations. Telehealth FX connects patients directly with accredited 503A compounding pharmacies, honoring established maintenance doses from 0.25mg up to 2.4mg starting from $146/month with 24 to 48-hour cold-chain shipping and zero hidden fees."
+              statute="Section 503A FD&C Act (21 U.S.C. § 353a)"
+              clinicalStandard="FDA Compounding Guidance & Drug Shortage Continuity"
+              metrics={[
+                { label: "Legal Basis", value: "Section 503A FD&C Act (21 U.S.C. § 353a)" },
+                { label: "Monthly Cost", value: "$146 / Month All-Inclusive" },
+                { label: "Titration Range", value: "0.25mg to 2.4mg Dose-Matched" },
+                { label: "National SLA", value: "24-48 Hr Cold-Chain Overnight" }
               ]}
             />
 

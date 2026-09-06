@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Charleston | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Charleston, South Carolina residents. South Carolina-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/charleston",
+    url: "https://telehealthfx.com/locations/charleston/",
     siteName: "Telehealth FX",
     type: "website"
   },

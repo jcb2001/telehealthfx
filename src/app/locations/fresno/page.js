@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Fresno | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Fresno, California residents. California-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/fresno",
+    url: "https://telehealthfx.com/locations/fresno/",
     siteName: "Telehealth FX",
     type: "website"
   },

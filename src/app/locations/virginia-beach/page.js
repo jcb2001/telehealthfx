@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Virginia Beach | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Virginia Beach, Virginia residents. Virginia-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/virginia-beach",
+    url: "https://telehealthfx.com/locations/virginia-beach/",
     siteName: "Telehealth FX",
     type: "website"
   },

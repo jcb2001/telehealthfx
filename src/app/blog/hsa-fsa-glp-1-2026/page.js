@@ -16,7 +16,8 @@ export const metadata = {
 
 export default function Page() {
   const jsonLd = { "@context": "https://schema.org", "@graph": [
-    { "@type": "MedicalWebPage", "@id": "https://telehealthfx.com/blog/hsa-fsa-glp-1-2026/#article", "headline": "Telehealth Weight Loss Programs That Accept HSA/FSA in 2026", "image": "https://telehealthfx.com/assets/hsa-fsa-glp1-featured.png", "author": { "@type": "Person", "name": "Julian Mercer, M.S.", "url": "https://telehealthfx.com/about" }, "publisher": { "@type": "Organization", "name": "Telehealth FX" }, "mainEntityOfPage": { "@type": "WebPage", "@id": "https://telehealthfx.com/blog/hsa-fsa-glp-1-2026/" } },
+    { "@type": "MedicalWebPage",
+    "description": metadata.description, "@id": "https://telehealthfx.com/blog/hsa-fsa-glp-1-2026/#article", "headline": "Telehealth Weight Loss Programs That Accept HSA/FSA in 2026", "image": "https://telehealthfx.com/assets/hsa-fsa-glp1-featured.png", "author": { "@type": "Person", "name": "Julian Mercer, M.S.", "url": "https://telehealthfx.com/about" }, "publisher": { "@type": "Organization", "name": "Telehealth FX" }, "mainEntityOfPage": { "@type": "WebPage", "@id": "https://telehealthfx.com/blog/hsa-fsa-glp-1-2026/" } },
     { "@type": "FAQPage", "@id": "https://telehealthfx.com/blog/hsa-fsa-glp-1-2026/#faq", "mainEntity": [
       { "@type": "Question", "name": "Can I use my HSA to pay for compounded semaglutide?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Compounded medications prescribed by a licensed clinician qualify as eligible medical expenses under IRS Publication 502." } },
       { "@type": "Question", "name": "Do I need a letter of medical necessity?", "acceptedAnswer": { "@type": "Answer", "text": "Most HSA administrators do not require one for prescribed medications. Some FSA plans may request one for weight loss drugs." } }

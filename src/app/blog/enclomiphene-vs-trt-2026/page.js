@@ -8,7 +8,7 @@ export const metadata = {
   openGraph: {
     title: "Enclomiphene vs Traditional TRT: The Fertility-Preserving Alternative",
     description: "Comprehensive comparison of enclomiphene citrate and traditional testosterone replacement therapy — fertility preservation, mechanism differences, efficacy data, and which is right for you.",
-    url: "https://telehealthfx.com/blog/enclomiphene-vs-trt-2026",
+    url: "https://telehealthfx.com/blog/enclomiphene-vs-trt-2026/",
     siteName: "Telehealth FX",
     type: "article",
   },

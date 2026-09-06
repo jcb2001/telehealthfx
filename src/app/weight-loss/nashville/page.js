@@ -7,7 +7,7 @@ export const metadata = {
   openGraph: {
     title: "Medical Weight Loss Clinic Nashville | Semaglutide & GLP-1",
     description: "Looking for a medical weight loss clinic in Nashville? Skip the traffic and 300% medspa markups. Get Semaglutide delivered overnight via Telehealth FX.",
-    url: 'https://telehealthfx.com/weight-loss/nashville',
+    url: 'https://telehealthfx.com/weight-loss/nashville/',
     type: 'article',
   }
 ,

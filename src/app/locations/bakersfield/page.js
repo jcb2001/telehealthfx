@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Bakersfield | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Bakersfield, California residents. California-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/bakersfield",
+    url: "https://telehealthfx.com/locations/bakersfield/",
     siteName: "Telehealth FX",
     type: "website"
   },

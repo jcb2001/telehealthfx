@@ -10,7 +10,8 @@ export const metadata = {
 };
 export default function Page() {
   const jsonLd = { "@context": "https://schema.org", "@graph": [
-    { "@type": "MedicalWebPage", "@id": "https://telehealthfx.com/blog/switch-glp-1-providers-2026/#article", "headline": "How to Switch Telehealth GLP-1 Providers Without Losing Your Prescription", "image": "https://telehealthfx.com/assets/switch-glp1-providers-featured.png", "author": { "@type": "Person", "name": "Julian Mercer, M.S.", "url": "https://telehealthfx.com/about" }, "publisher": { "@type": "Organization", "name": "Telehealth FX" } },
+    { "@type": "MedicalWebPage",
+    "description": metadata.description, "@id": "https://telehealthfx.com/blog/switch-glp-1-providers-2026/#article", "headline": "How to Switch Telehealth GLP-1 Providers Without Losing Your Prescription", "image": "https://telehealthfx.com/assets/switch-glp1-providers-featured.png", "author": { "@type": "Person", "name": "Julian Mercer, M.S.", "url": "https://telehealthfx.com/about" }, "publisher": { "@type": "Organization", "name": "Telehealth FX" } },
     { "@type": "FAQPage", "@id": "https://telehealthfx.com/blog/switch-glp-1-providers-2026/#faq", "mainEntity": [
       { "@type": "Question", "name": "Will I have to start over at the lowest dose?", "acceptedAnswer": { "@type": "Answer", "text": "No. A new provider will continue at your current dose based on documented treatment history." } },
       { "@type": "Question", "name": "Can I transfer my prescription?", "acceptedAnswer": { "@type": "Answer", "text": "Your new provider writes a new prescription based on your history. No transfer from old provider needed." } }

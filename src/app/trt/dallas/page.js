@@ -4,7 +4,7 @@ export const metadata = {
   description: "Testosterone Replacement Therapy prescribed by Texas-licensed physicians. From $79/mo with $95 comprehensive bloodwork. Injectable, oral, or topical TRT delivered to Dallas.",
   openGraph: {
     title: "TRT & Testosterone Therapy in Dallas | Telehealth FX",
-    url: "https://telehealthfx.com/trt/dallas",
+    url: "https://telehealthfx.com/trt/dallas/",
     siteName: "Telehealth FX",
     type: "website"
   }

@@ -4,7 +4,7 @@ export const metadata = {
   description: "Testosterone Replacement Therapy prescribed by Ohio-licensed physicians. From $79/mo with $95 comprehensive bloodwork. Injectable, oral, or topical TRT delivered to Columbus.",
   openGraph: {
     title: "TRT & Testosterone Therapy in Columbus | Telehealth FX",
-    url: "https://telehealthfx.com/trt/columbus-oh",
+    url: "https://telehealthfx.com/trt/columbus-oh/",
     siteName: "Telehealth FX",
     type: "website"
   }

@@ -7,7 +7,7 @@ export const metadata = {
   openGraph: {
     title: "Medical Weight Loss Clinic Phoenix | Semaglutide & GLP-1",
     description: "Looking for a medical weight loss clinic in Phoenix? Skip the traffic and 300% medspa markups. Get Semaglutide delivered overnight via Telehealth FX.",
-    url: 'https://telehealthfx.com/weight-loss/phoenix',
+    url: 'https://telehealthfx.com/weight-loss/phoenix/',
     type: 'article',
   }
 ,

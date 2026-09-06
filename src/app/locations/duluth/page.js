@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Duluth | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Duluth, Minnesota residents. Minnesota-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/duluth",
+    url: "https://telehealthfx.com/locations/duluth/",
     siteName: "Telehealth FX",
     type: "website"
   },

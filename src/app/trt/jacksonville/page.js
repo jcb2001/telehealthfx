@@ -4,7 +4,7 @@ export const metadata = {
   description: "Testosterone Replacement Therapy prescribed by Florida-licensed physicians. From $79/mo with $95 comprehensive bloodwork. Injectable, oral, or topical TRT delivered to Jacksonville.",
   openGraph: {
     title: "TRT & Testosterone Therapy in Jacksonville | Telehealth FX",
-    url: "https://telehealthfx.com/trt/jacksonville",
+    url: "https://telehealthfx.com/trt/jacksonville/",
     siteName: "Telehealth FX",
     type: "website"
   }

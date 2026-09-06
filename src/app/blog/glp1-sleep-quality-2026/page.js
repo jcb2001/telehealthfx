@@ -6,6 +6,7 @@ export const metadata = {
   }
 };
 export default function Page() {
-  const jsonLd = { "@context": "https://schema.org", "@type": "MedicalWebPage", "headline": "GLP-1 and Sleep Quality", "author": { "@type": "Person", "name": "Julian Mercer, M.S." }, "publisher": { "@type": "Organization", "name": "Telehealth FX" } };
+  const jsonLd = { "@context": "https://schema.org", "@type": "MedicalWebPage",
+    "description": metadata.description, "headline": "GLP-1 and Sleep Quality", "author": { "@type": "Person", "name": "Julian Mercer, M.S." }, "publisher": { "@type": "Organization", "name": "Telehealth FX" } };
   return (<><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} /><BlogGLP1Sleep /></>);
 }

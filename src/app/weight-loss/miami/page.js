@@ -7,7 +7,7 @@ export const metadata = {
   openGraph: {
     title: "Medical Weight Loss Clinic Miami | Semaglutide & GLP-1",
     description: "Looking for a medical weight loss clinic in Miami? Skip the Brickell traffic and 300% medspa markups. Get Semaglutide delivered overnight via Telehealth FX.",
-    url: 'https://telehealthfx.com/weight-loss/miami',
+    url: 'https://telehealthfx.com/weight-loss/miami/',
     type: 'article',
   }
 ,

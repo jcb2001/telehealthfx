@@ -16,7 +16,8 @@ export const metadata = {
 
 export default function Page() {
   const jsonLd = { "@context": "https://schema.org", "@graph": [
-    { "@type": "MedicalWebPage", "@id": "https://telehealthfx.com/blog/get-semaglutide-online-2026/#article", "headline": "How to Get Semaglutide Online Without Seeing a Doctor in Person (2026)", "image": "https://telehealthfx.com/assets/get-semaglutide-online-featured.png", "author": { "@type": "Person", "name": "Julian Mercer, M.S.", "url": "https://telehealthfx.com/about" }, "publisher": { "@type": "Organization", "name": "Telehealth FX" }, "mainEntityOfPage": { "@type": "WebPage", "@id": "https://telehealthfx.com/blog/get-semaglutide-online-2026/" } },
+    { "@type": "MedicalWebPage",
+    "description": metadata.description, "@id": "https://telehealthfx.com/blog/get-semaglutide-online-2026/#article", "headline": "How to Get Semaglutide Online Without Seeing a Doctor in Person (2026)", "image": "https://telehealthfx.com/assets/get-semaglutide-online-featured.png", "author": { "@type": "Person", "name": "Julian Mercer, M.S.", "url": "https://telehealthfx.com/about" }, "publisher": { "@type": "Organization", "name": "Telehealth FX" }, "mainEntityOfPage": { "@type": "WebPage", "@id": "https://telehealthfx.com/blog/get-semaglutide-online-2026/" } },
     { "@type": "FAQPage", "@id": "https://telehealthfx.com/blog/get-semaglutide-online-2026/#faq", "mainEntity": [
       { "@type": "Question", "name": "Is it legal to get semaglutide online without an in-person visit?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Telehealth regulations allow licensed prescribers to evaluate and prescribe non-controlled medications via telehealth." } },
       { "@type": "Question", "name": "How fast can I get semaglutide after signing up?", "acceptedAnswer": { "@type": "Answer", "text": "Most providers complete evaluations within 24–48 hours. Total time from signup to first injection: typically 5–10 days." } },

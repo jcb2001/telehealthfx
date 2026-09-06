@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Corpus Christi | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Corpus Christi, Texas residents. Texas-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/corpus-christi",
+    url: "https://telehealthfx.com/locations/corpus-christi/",
     siteName: "Telehealth FX",
     type: "website"
   },

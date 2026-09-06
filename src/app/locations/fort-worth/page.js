@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Fort Worth | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Fort Worth, Texas residents. Texas-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/fort-worth",
+    url: "https://telehealthfx.com/locations/fort-worth/",
     siteName: "Telehealth FX",
     type: "website"
   },

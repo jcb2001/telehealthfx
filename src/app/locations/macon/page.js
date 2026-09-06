@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "GLP-1 Weight Loss in Macon | Telehealth FX",
     description: "Clinical GLP-1 telehealth for Macon, Georgia residents. Georgia-licensed physicians. From $146/mo.",
-    url: "https://telehealthfx.com/locations/macon",
+    url: "https://telehealthfx.com/locations/macon/",
     siteName: "Telehealth FX",
     type: "website"
   },

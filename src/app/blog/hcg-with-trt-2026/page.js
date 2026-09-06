@@ -8,7 +8,7 @@ export const metadata = {
   openGraph: {
     title: "HCG with TRT: Why Your Protocol Might Need It (And When It Doesn't)",
     description: "Clinical guide to using HCG alongside testosterone therapy — fertility preservation, testicular atrophy prevention, dosing protocols, and the Enclomiphene alternative.",
-    url: "https://telehealthfx.com/blog/hcg-with-trt-2026",
+    url: "https://telehealthfx.com/blog/hcg-with-trt-2026/",
     siteName: "Telehealth FX",
     type: "article",
   },

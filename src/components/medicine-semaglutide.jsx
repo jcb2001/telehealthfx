@@ -9,6 +9,7 @@ function SemaglutidePage() {
     "@context": "https://schema.org",
     "@type": "MedicalWebPage",
     "name": "Semaglutide Weight Loss Program | Telehealth FX",
+    "description": "Get prescribed compounded Semaglutide (GLP-1 receptor agonist) from $146/mo. 24-hour clinician approval, zero hidden fees, 2-day UPS shipping. See if you qualify.",
     "about": {
       "@type": "Drug",
       "name": "Semaglutide",
