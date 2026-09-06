@@ -3,11 +3,13 @@ import { BlogGLP1TravelGuide } from "../../../components/blog-glp1-travel-guide-
 export const metadata = {
   robots: { index: true, follow: true },
   alternates: { canonical: 'https://telehealthfx.com/blog/glp1-travel-guide-2026/' },
-  title: "Traveling with GLP-1: Flying, Storage & Staying on Protocol Abroad",
-  description: "Complete guide to traveling with semaglutide and tirzepatide — TSA rules, temperature storage, international travel, and essential travel kit checklist.",
+  title: "Traveling with GLP-1: Flying, TSA Rules & Storage Guide",
+  description: "Complete guide to traveling with Semaglutide & Tirzepatide vials or pens. TSA airport security rules, cold storage temperature limits, and flying abroad.",
   openGraph: {
-    title: "Traveling with GLP-1: The Complete Guide to Flying & Storage",
-    description: "TSA rules, temperature storage, international travel, and essential travel kit checklist for GLP-1 patients.",
+    title: "Traveling with GLP-1: Flying, TSA Rules & Storage Guide",
+    description: "Complete guide to traveling with Semaglutide & Tirzepatide vials or pens. TSA airport security rules, cold storage temperature limits, and flying abroad.",
+    url: 'https://telehealthfx.com/blog/glp1-travel-guide-2026/',
+    siteName: 'Telehealth FX',
     images: [{ url: "https://telehealthfx.com/assets/glp1-travel-guide-featured.png", width: 1200, height: 630, alt: "GLP-1 Travel Guide" }],
   },
 };

@@ -83,7 +83,7 @@ export function LocationBaltimore() {
               <div style={{ display: 'flex', alignItems: 'center', gap: 24, marginTop: 40, opacity: 0.8, flexWrap: 'wrap' }} className="justify-content-center justify-content-lg-start">
                  <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
                     <Icon.Check size={18} color="#2ECC71" />
-                    <span style={{ fontSize: 14, fontWeight: 500 }}>MD Board of Physicians Compliant</span>
+                    <span style={{ fontSize: 14, fontWeight: 500 }}>Maryland Board of Physicians Compliant</span>
                  </div>
                  <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
                     <Icon.Check size={18} color="#2ECC71" />
@@ -112,7 +112,7 @@ export function LocationBaltimore() {
                  <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', color: 'var(--ink-2)', marginBottom: 32, lineHeight: 1.7 }}>
                     Combine this climate with the intense stress of the DC-Baltimore corridor—where high-pressure government, defense contracting, and healthcare roles cause chronic cortisol spikes. Furthermore, the beloved local seafood culture often centers around heavily fried and butter-rich preparations. These environmental stressors lead directly to insulin resistance, causing traditional diet protocols to hit a physiological wall.
                  </p>
-                 <a href="/blog/ozempic-insulin-resistance" style={{ color: 'var(--brand)', textDecoration: 'none', fontWeight: 600, display: 'inline-flex', alignItems: 'center', gap: 8 }}>
+                 <a href="/blog/ozempic-insulin-resistance/" style={{ color: 'var(--brand)', textDecoration: 'none', fontWeight: 600, display: 'inline-flex', alignItems: 'center', gap: 8 }}>
                     Read our clinical guide to insulin resistance <Icon.Arrow size={16} />
                  </a>
               </div>
@@ -233,18 +233,18 @@ export function LocationBaltimore() {
                     Whether you're enduring dead-stop traffic on the Baltimore Beltway (I-695), navigating the Jones Falls Expressway (JFX), or commuting down I-95, spending an hour driving just to sit in a doctor's waiting room for a 5-minute prescription refill is an outdated model.
                  </p>
                  <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', color: 'var(--ink-2)', marginBottom: 32, lineHeight: 1.7 }}>
-                    Even worse, if you try to fill a prescription for branded Wegovy at the local Giant Food, CVS, or Walgreens, you know the reality: <strong>the medications are on indefinite national backorder.</strong> Furthermore, securing an appointment at renowned metabolic centers like <strong>Johns Hopkins Medicine</strong> or <strong>MedStar Health</strong> takes months, and local insurance plans frequently deny prior authorizations.
-                 </p>
-                 
-                 <div style={{ display: 'flex', alignItems: 'center', gap: 16, background: '#fff', padding: 20, borderRadius: 16, border: '1px solid var(--line-soft)', boxShadow: '0 4px 12px rgba(0,0,0,0.02)' }}>
-                    <div style={{ width: 48, height: 48, background: 'rgba(46, 204, 113, 0.1)', borderRadius: 12, display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#2ECC71' }}>
-                       <Icon.Shield size={24} />
-                    </div>
-                    <div>
-                       <strong style={{ display: 'block', fontSize: 16, color: 'var(--ink)' }}>HSA / FSA Accepted</strong>
-                       <span style={{ fontSize: 14, color: 'var(--ink-2)' }}>Bypass Maryland insurance denials entirely. Use pre-tax dollars for your compounding protocol.</span>
-                    </div>
-                 </div>
+                     Even worse, if you try to fill a prescription for branded Wegovy at the local Giant Food, CVS, or Walgreens, you know the reality: <strong>the medications are on indefinite national backorder.</strong> Furthermore, securing an appointment at renowned metabolic centers like <strong>Johns Hopkins Medicine</strong> or <strong>MedStar Health</strong> takes <strong>8 to 14 weeks</strong>, while major regional employers (including Under Armour, T. Rowe Price, and Northrop Grumman) routinely exclude weight loss medications from commercial health plans.
+                  </p>
+                  
+                  <div style={{ display: 'flex', alignItems: 'center', gap: 16, background: '#fff', padding: 20, borderRadius: 16, border: '1px solid var(--line-soft)', boxShadow: '0 4px 12px rgba(0,0,0,0.02)' }}>
+                     <div style={{ width: 48, height: 48, background: 'rgba(46, 204, 113, 0.1)', borderRadius: 12, display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#2ECC71' }}>
+                        <Icon.Shield size={24} />
+                     </div>
+                     <div>
+                        <strong style={{ display: 'block', fontSize: 16, color: 'var(--ink)' }}>HSA / FSA Accepted</strong>
+                        <span style={{ fontSize: 14, color: 'var(--ink-2)' }}>Bypass Maryland employer insurance exclusions entirely. Use pre-tax dollars for your temperature-monitored cold-chain compounding protocol.</span>
+                     </div>
+                  </div>
               </div>
               
               <div className="col-lg-6">

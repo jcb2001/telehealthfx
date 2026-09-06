@@ -63,11 +63,6 @@ export default function Page() {
       }
     },
     {
-      "@type": "FAQPage",
-      "@id": "https://telehealthfx.com/blog/semaglutide-dose-escalation-guide-2026/#faq",
-      "mainEntity": []
-    },
-    {
       "@type": "Product",
       "name": "TelehealthFX GLP-1 Weight Loss Program",
       "description": "Clinician-guided GLP-1 weight loss protocol including compounded semaglutide, lifestyle counseling, and ongoing monitoring.",

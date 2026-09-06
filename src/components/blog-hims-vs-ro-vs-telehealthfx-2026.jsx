@@ -2,14 +2,26 @@
 import React from 'react';
 import Image from 'next/image';
 import { Icon } from './common.jsx';
+import { DirectAnswerSnippet } from './direct-answer-snippet.jsx';
 const START_URL = "https://go.telehealthfx.com/start";
 
 function BlogHimsVsRoVsTelehealthFX() {
   return (<><section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}><div className="container" style={{ maxWidth: 800 }}>
     <div className="eyebrow" style={{ marginBottom: 20 }}>Provider Comparison</div>
     <h1 className="serif" style={{ fontSize: 52, marginBottom: 24, lineHeight: 1.08 }}>Hims vs. Ro vs. TelehealthFX: <span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>Which Telehealth GLP-1 Provider Should You Actually Use in 2026?</span></h1>
-    <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}><div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)' }}><Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%', height: "auto"}} priority={true} /></div><div><div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div><div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 20 min read</div></div></div>
+    <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}><div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)' }}><Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%', height: "auto"}} priority={true} /></div><div><div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about/" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div><div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 20 min read</div></div></div>
     <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
+      <DirectAnswerSnippet
+        question="Which telehealth provider is best for GLP-1 weight loss: Hims, Ro, or Telehealth FX?"
+        answer="While Hims and Ro transitioned primarily to expensive brand-name GLP-1 navigation ($99–$145/month membership fees plus $650–$1,350 medication costs) after discontinuing bulk 503B compounding, Telehealth FX partners with licensed 503A pharmacies to provide patient-specific compounded semaglutide from $146 per month and tirzepatide from $249 per month with $0 membership dues and overnight cold-chain shipping."
+        badge="Comparative Telehealth Audit"
+        keyTakeaways={[
+          { label: "Medication Access", value: "503A compounded available (No brand gaps)" },
+          { label: "Monthly Membership", value: "$0 at Telehealth FX vs $99-$145 at Ro/Hims" },
+          { label: "Starting Price", value: "$146/mo all-inclusive with doctor consult" },
+          { label: "Dose Match", value: "Transfer current titration without restart" }
+        ]}
+      />
       <Image src="/assets/hims-vs-ro-vs-telehealthfx-featured.png" alt="Three telehealth providers compared side by side" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111', height: "auto"}} priority={true} />
 
       <p>The telehealth GLP-1 landscape changed dramatically in 2026. Major providers pivoted, prices shifted, and the options available to patients look completely different than they did 12 months ago. If you are comparing providers right now, this is the only guide you need. No fluff, no affiliate bias — just an honest breakdown of what each platform offers, what they charge, and what they stopped offering.</p>
@@ -44,11 +56,11 @@ function BlogHimsVsRoVsTelehealthFX() {
 
       <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>Choose TelehealthFX if:</h3>
       <ul>
-        <li style={{ marginBottom: 8 }}>You want <a href="/blog/cheapest-compounded-semaglutide-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>compounded semaglutide at all-inclusive pricing</a></li>
-        <li style={{ marginBottom: 8 }}>You do not have insurance that covers GLP-1, or your <a href="/blog/ozempic-alternatives-no-insurance-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>insurance denied you</a></li>
-        <li style={{ marginBottom: 8 }}>You were previously on compounded semaglutide through Hims or Ro and need to <a href="/blog/switch-glp-1-providers-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>switch without a gap</a></li>
-        <li style={{ marginBottom: 8 }}>You want access to compounded <a href="/medications/tirzepatide" style={{ color: 'var(--brand)', fontWeight: 500 }}>tirzepatide</a></li>
-        <li style={{ marginBottom: 8 }}>You want to pay with <a href="/blog/hsa-fsa-glp-1-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>HSA/FSA</a></li>
+        <li style={{ marginBottom: 8 }}>You want <a href="/blog/cheapest-compounded-semaglutide-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>compounded semaglutide at all-inclusive pricing</a></li>
+        <li style={{ marginBottom: 8 }}>You do not have insurance that covers GLP-1, or your <a href="/blog/ozempic-alternatives-no-insurance-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>insurance denied you</a></li>
+        <li style={{ marginBottom: 8 }}>You were previously on compounded semaglutide through Hims or Ro and need to <a href="/blog/switch-glp-1-providers-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>switch without a gap</a></li>
+        <li style={{ marginBottom: 8 }}>You want access to compounded <a href="/medications/tirzepatide/" style={{ color: 'var(--brand)', fontWeight: 500 }}>tirzepatide</a></li>
+        <li style={{ marginBottom: 8 }}>You want to pay with <a href="/blog/hsa-fsa-glp-1-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>HSA/FSA</a></li>
       </ul>
 
       <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
@@ -65,9 +77,9 @@ function BlogHimsVsRoVsTelehealthFX() {
 
       <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Frequently Asked Questions</h2>
       <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>Can I transfer my Hims prescription to TelehealthFX?</h4>
-      <p style={{ marginBottom: 24 }}>You cannot directly transfer a prescription, but your new TelehealthFX clinician will review your treatment history and continue your current dose through a new prescription. The process takes as little as 24 hours. See our <a href="/blog/compounded-semaglutide-after-hims-ro-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>switching guide</a>.</p>
+      <p style={{ marginBottom: 24 }}>You cannot directly transfer a prescription, but your new TelehealthFX clinician will review your treatment history and continue your current dose through a new prescription. The process takes as little as 24 hours. See our <a href="/blog/compounded-semaglutide-after-hims-ro-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>switching guide</a>.</p>
       <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>Is TelehealthFX legitimate?</h4>
-      <p style={{ marginBottom: 24 }}>Yes. All prescriptions are written by licensed clinicians in your state. Medications are dispensed by licensed, inspected 503A compounding pharmacies. Read our full <a href="/blog/is-telehealthfx-legit-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>legitimacy verification guide</a>.</p>
+      <p style={{ marginBottom: 24 }}>Yes. All prescriptions are written by licensed clinicians in your state. Medications are dispensed by licensed, inspected 503A compounding pharmacies. Read our full <a href="/blog/is-telehealthfx-legit-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>legitimacy verification guide</a>.</p>
 
       <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
         <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>The Clear Choice for Compounded GLP-1</h2>

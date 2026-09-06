@@ -2,10 +2,24 @@ import { BlogWegovyFdaLabel } from "../../../components/blog-wegovy-fda-label.js
 
 export const metadata = {
   robots: { index: true, follow: true },
-  title: "Wegovy FDA Label Decoded: Criteria & Off-Label Access | Telehealth FX",
-  description: "We break down the exact Wegovy FDA label criteria for weight loss, the clinical trial data, and what to know about alternative treatment options.",
+  title: "Wegovy FDA Label: Official BMI Criteria & Indications",
+  description: "Official FDA Wegovy prescribing criteria: BMI 30+ or BMI 27+ with comorbidity. Read clinical indications, boxed warnings, and affordable compounded options.",
   alternates: {
     canonical: 'https://telehealthfx.com/blog/wegovy-fda-label/',
+  },
+  openGraph: {
+    title: "Wegovy FDA Label: Official BMI Criteria & Indications",
+    description: "Official FDA Wegovy prescribing criteria: BMI 30+ or BMI 27+ with comorbidity. Read clinical indications, boxed warnings, and affordable compounded options.",
+    url: 'https://telehealthfx.com/blog/wegovy-fda-label/',
+    siteName: 'Telehealth FX',
+    images: [
+      {
+        url: "https://telehealthfx.com/assets/wegovy-featured.png",
+        width: 1200,
+        height: 630,
+        alt: "Wegovy FDA Label Prescribing Information Guide",
+      },
+    ],
   },
 };
 

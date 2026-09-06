@@ -163,11 +163,14 @@ function Footer() {
             <div key={i}>
               <div className="mono" style={{ color: 'var(--ink-3)', marginBottom: 16 }}>{col.h}</div>
               <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: 10 }}>
-                {col.l.map(item => (
-                  <li key={item.slug} style={{ fontSize: 14, color: 'var(--ink-2)' }}>
-                    <a href={item.url || `/${item.slug}`} style={{ color: 'inherit', textDecoration: 'none' }}>{item.label}</a>
-                  </li>
-                ))}
+                {col.l.map(item => {
+                  const href = item.url || (item.href ? (item.href.endsWith('/') ? item.href : `${item.href}/`) : `/${item.slug}/`);
+                  return (
+                    <li key={item.slug || item.label} style={{ fontSize: 14, color: 'var(--ink-2)' }}>
+                      <a href={href} style={{ color: 'inherit', textDecoration: 'none' }}>{item.label}</a>
+                    </li>
+                  );
+                })}
               </ul>
             </div>
           ))}

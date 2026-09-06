@@ -44,7 +44,7 @@ export default function CareersPage() {
               </p>
             </div>
             
-            <Link href="/careers/glp-1-weight-loss-salesperson" className="btn btn-primary btn-lg">
+            <Link href="/careers/glp-1-weight-loss-salesperson/" className="btn btn-primary btn-lg">
               View Role & Apply ➔
             </Link>
           </div>

@@ -2,6 +2,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { Icon } from './common.jsx';
+import { DirectAnswerSnippet } from './direct-answer-snippet.jsx';
 
 const START_URL = "https://go.telehealthfx.com/start";
 
@@ -20,16 +21,28 @@ function BlogBrandVsCompoundedGlp1Cost2026() {
             <Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%', height: "auto"}} priority={true} />
           </div>
           <div>
-            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
+            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about/" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
             <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated June 2026 · 22 min read</div>
           </div>
         </div>
 
         <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
 
-          <p>The GLP-1 pricing landscape has undergone a seismic shift in the first half of 2026. Eli Lilly now offers Zepbound single-dose vials at approximately <strong>$299 per month</strong> through its LillyDirect platform. Novo Nordisk's NovoCare program has expanded self-pay access to Wegovy at prices that would have been unthinkable 18 months ago. And meanwhile, the <a href="/blog/fda-compounding-ban" style={{ color: 'var(--brand)', fontWeight: 500 }}>FDA's evolving stance on compounded GLP-1s</a> has reshaped the regulatory framework under which telehealth platforms operate.</p>
+          <DirectAnswerSnippet
+            question="How much does brand-name Wegovy and Zepbound cost vs compounded GLP-1 in 2026?"
+            answer="Brand-name Wegovy and Zepbound retail between $1,050 and $1,349 monthly without insurance coverage, or $299 to $650 via manufacturer cash programs like LillyDirect that escalate costs at higher maintenance doses. Conversely, quality-tested compounded semaglutide from 503A pharmacies averages $146 to $249 per month flat, saving patients over $9,000 annually without hidden membership dues or dosage surcharges."
+            badge="Cost & Pricing Transparency"
+            keyTakeaways={[
+              { label: "Retail Brand Cost", value: "$1,050 - $1,349/mo out of pocket" },
+              { label: "Manufacturer Cash", value: "$299/mo starting, jumps at higher doses" },
+              { label: "Compounded 503A", value: "$146 - $249/mo flat (all doses)" },
+              { label: "Annual Savings", value: "$9,000+ vs retail prescriptions" }
+            ]}
+          />
 
-          <p>For the first time, patients have genuine competition between branded manufacturer-direct programs and compounded alternatives delivered through telehealth. But comparing these options is maddeningly complex. <strong>Advertised prices rarely reflect total cost.</strong> Consultation fees, membership surcharges, shipping, supply kits, and dose-escalation pricing can inflate a "$199/month" headline into $400+ of actual monthly spend—a problem we've documented extensively in our guide to <a href="/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot" style={{ color: 'var(--brand)', fontWeight: 500 }}>spotting hidden fees in telehealth weight loss programs</a>.</p>
+          <p>The GLP-1 pricing landscape has undergone a seismic shift in the first half of 2026. Eli Lilly now offers Zepbound single-dose vials at approximately <strong>$299 per month</strong> through its LillyDirect platform. Novo Nordisk's NovoCare program has expanded self-pay access to Wegovy at prices that would have been unthinkable 18 months ago. And meanwhile, the <a href="/blog/fda-compounding-ban/" style={{ color: 'var(--brand)', fontWeight: 500 }}>FDA's evolving stance on compounded GLP-1s</a> has reshaped the regulatory framework under which telehealth platforms operate.</p>
+
+          <p>For the first time, patients have genuine competition between branded manufacturer-direct programs and compounded alternatives delivered through telehealth. But comparing these options is maddeningly complex. <strong>Advertised prices rarely reflect total cost.</strong> Consultation fees, membership surcharges, shipping, supply kits, and dose-escalation pricing can inflate a "$199/month" headline into $400+ of actual monthly spend—a problem we've documented extensively in our guide to <a href="/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot/" style={{ color: 'var(--brand)', fontWeight: 500 }}>spotting hidden fees in telehealth weight loss programs</a>.</p>
 
           <p>This article provides the most transparent, side-by-side price comparison available anywhere. We compare brand-name manufacturer programs (LillyDirect, NovoCare), major telehealth platforms (Hims, Ro, Henry Meds), and clinician-first providers like Telehealth FX across every cost dimension—including the ones competitors don't want you to see.</p>
 
@@ -39,13 +52,13 @@ function BlogBrandVsCompoundedGlp1Cost2026() {
 
           <h3 className="serif" style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>Brand-Name GLP-1 Medications</h3>
 
-          <p>Brand-name <a href="/blog/what-is-a-glp-1-medication" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 receptor agonists</a>—Ozempic, Wegovy (semaglutide by Novo Nordisk), and Mounjaro, Zepbound (tirzepatide by Eli Lilly)—are FDA-approved products manufactured to strict cGMP standards. They come in pre-filled injection pens or, in Lilly's newer initiative, single-dose vials. Their clinical efficacy is validated by landmark trials: the STEP program demonstrated 14.9% mean body weight reduction with semaglutide 2.4 mg (n=1,961), while the SURMOUNT-1 trial showed tirzepatide achieving up to 22.5% weight loss at the 15 mg dose (n=2,539).</p>
+          <p>Brand-name <a href="/blog/what-is-a-glp-1-medication/" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 receptor agonists</a>—Ozempic, Wegovy (semaglutide by Novo Nordisk), and Mounjaro, Zepbound (tirzepatide by Eli Lilly)—are FDA-approved products manufactured to strict cGMP standards. They come in pre-filled injection pens or, in Lilly's newer initiative, single-dose vials. Their clinical efficacy is validated by landmark trials: the STEP program demonstrated 14.9% mean body weight reduction with semaglutide 2.4 mg (n=1,961), while the SURMOUNT-1 trial showed tirzepatide achieving up to 22.5% weight loss at the 15 mg dose (n=2,539).</p>
 
           <p>The primary barrier to brand-name access has always been cost. Without insurance, retail list prices exceed $1,000/month. However, both manufacturers have introduced aggressive self-pay programs in 2025–2026 that dramatically narrow the price gap with compounded alternatives.</p>
 
           <h3 className="serif" style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>Compounded GLP-1 Medications</h3>
 
-          <p>Compounded semaglutide and tirzepatide are prepared by licensed 503A compounding pharmacies based on individual patient prescriptions. These formulations use the same active pharmaceutical ingredient (API) but may differ in concentration, formulation (e.g., addition of B12 or other compounds), and delivery format. Following the FDA's resolution of the <a href="/blog/compounded-semaglutide-safety-fda-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>semaglutide and tirzepatide shortage designations</a>, 503A patient-specific compounding remains the legally compliant pathway in 2026.</p>
+          <p>Compounded semaglutide and tirzepatide are prepared by licensed 503A compounding pharmacies based on individual patient prescriptions. These formulations use the same active pharmaceutical ingredient (API) but may differ in concentration, formulation (e.g., addition of B12 or other compounds), and delivery format. Following the FDA's resolution of the <a href="/blog/compounded-semaglutide-safety-fda-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>semaglutide and tirzepatide shortage designations</a>, 503A patient-specific compounding remains the legally compliant pathway in 2026.</p>
 
           <p>Compounded medications are not "generic" versions of brand-name drugs. They are custom-prepared formulations that have not undergone the same FDA approval process. However, when prepared by reputable pharmacies using USP-grade ingredients and dispensed under legitimate physician oversight, they offer a clinically supervised weight-loss pathway at 60–80% lower cost.</p>
 
@@ -53,7 +66,7 @@ function BlogBrandVsCompoundedGlp1Cost2026() {
 
           <h3 className="serif" style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>LillyDirect — Zepbound Vials</h3>
 
-          <p>Eli Lilly's LillyDirect program represents the most significant disruption to GLP-1 pricing from a major manufacturer. Launched in late 2024, it has expanded considerably through 2026. The program offers Zepbound (<a href="/blog/semaglutide-vs-tirzepatide-decision-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>tirzepatide</a>) in single-dose vials—rather than the more expensive multi-dose pens—at substantially reduced self-pay prices.</p>
+          <p>Eli Lilly's LillyDirect program represents the most significant disruption to GLP-1 pricing from a major manufacturer. Launched in late 2024, it has expanded considerably through 2026. The program offers Zepbound (<a href="/blog/semaglutide-vs-tirzepatide-decision-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>tirzepatide</a>) in single-dose vials—rather than the more expensive multi-dose pens—at substantially reduced self-pay prices.</p>
 
           <p><strong>Current LillyDirect Pricing (June 2026):</strong></p>
           <ul>
@@ -80,7 +93,7 @@ function BlogBrandVsCompoundedGlp1Cost2026() {
             <li style={{ marginBottom: 12 }}><strong>Wegovy 2.4 mg pen (maintenance):</strong> ~$349–$449/month</li>
           </ul>
 
-          <p><strong>Caveats:</strong> NovoCare requires a prescription from your own provider (no integrated telehealth), eligibility verification that may exclude certain insurance holders, and limited supply availability due to ongoing Wegovy <a href="/blog/glp-1-shortage-update-may-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>supply constraints</a>. Unlike LillyDirect's vials, Wegovy comes as a pre-filled pen—more convenient, but the economics are less flexible.</p>
+          <p><strong>Caveats:</strong> NovoCare requires a prescription from your own provider (no integrated telehealth), eligibility verification that may exclude certain insurance holders, and limited supply availability due to ongoing Wegovy <a href="/blog/glp-1-shortage-update-may-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>supply constraints</a>. Unlike LillyDirect's vials, Wegovy comes as a pre-filled pen—more convenient, but the economics are less flexible.</p>
 
           <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The Telehealth Landscape: Provider-by-Provider Comparison</h2>
 
@@ -153,9 +166,9 @@ function BlogBrandVsCompoundedGlp1Cost2026() {
 
           <p>Telehealth FX operates on a radically simple pricing model: <strong>one price that includes everything</strong>. Your monthly subscription covers compounded medication (semaglutide or tirzepatide), all clinician consultations, dose adjustments, ongoing medical monitoring, injection supplies, and cold-chain shipping. There are no membership fees, no consultation surcharges, no dose-escalation markups.</p>
 
-          <p>What distinguishes Telehealth FX beyond pricing is clinical depth. Every patient undergoes a genuine medical evaluation by a licensed provider who reviews metabolic history, current medications, contraindications, and treatment goals. Ongoing monitoring includes regular check-ins, lab review integration, and proactive dose management guided by evidence-based <a href="/blog/compounded-semaglutide-dosing-guide-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>titration protocols</a>.</p>
+          <p>What distinguishes Telehealth FX beyond pricing is clinical depth. Every patient undergoes a genuine medical evaluation by a licensed provider who reviews metabolic history, current medications, contraindications, and treatment goals. Ongoing monitoring includes regular check-ins, lab review integration, and proactive dose management guided by evidence-based <a href="/blog/compounded-semaglutide-dosing-guide-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>titration protocols</a>.</p>
 
-          <p>For patients concerned about the <a href="/blog/glp-1-muscle-loss-the-hidden-risk-nobodys-talking" style={{ color: 'var(--brand)', fontWeight: 500 }}>muscle-loss risks of GLP-1 therapy</a>, Telehealth FX clinicians proactively address protein intake targets, resistance training guidance, and complementary therapies as part of every treatment plan. This level of clinical integration is rare among telehealth competitors and simply absent from manufacturer-direct programs like LillyDirect.</p>
+          <p>For patients concerned about the <a href="/blog/glp-1-muscle-loss-the-hidden-risk-nobodys-talking/" style={{ color: 'var(--brand)', fontWeight: 500 }}>muscle-loss risks of GLP-1 therapy</a>, Telehealth FX clinicians proactively address protein intake targets, resistance training guidance, and complementary therapies as part of every treatment plan. This level of clinical integration is rare among telehealth competitors and simply absent from manufacturer-direct programs like LillyDirect.</p>
 
           <p><strong>Annual cost: $2,388.</strong> No asterisks, no fine print.</p>
 
@@ -169,7 +182,7 @@ function BlogBrandVsCompoundedGlp1Cost2026() {
 
           <p>Hims (now Hims & Hers Health, Inc.) is one of the largest telehealth platforms in the U.S., with significant marketing spend driving awareness of its compounded GLP-1 offerings. Their advertised entry price of ~$199/month for compounded semaglutide is competitive at face value.</p>
 
-          <p>However, several additional costs emerge during enrollment. Hims requires a <strong>$49/month membership fee</strong> billed separately from medication costs. At higher titration doses, medication pricing can increase to $279–$349/month. Additionally, the Hims clinical model relies heavily on asynchronous messaging with nurse practitioners—adequate for straightforward cases but potentially insufficient for patients with complex metabolic profiles, polypharmacy, or conditions like <a href="/blog/glp1-metabolic-syndrome-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>metabolic syndrome</a> that require nuanced clinical management.</p>
+          <p>However, several additional costs emerge during enrollment. Hims requires a <strong>$49/month membership fee</strong> billed separately from medication costs. At higher titration doses, medication pricing can increase to $279–$349/month. Additionally, the Hims clinical model relies heavily on asynchronous messaging with nurse practitioners—adequate for straightforward cases but potentially insufficient for patients with complex metabolic profiles, polypharmacy, or conditions like <a href="/blog/glp1-metabolic-syndrome-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>metabolic syndrome</a> that require nuanced clinical management.</p>
 
           <p><strong>Realistic annual cost: $2,976–$4,188</strong> depending on final dose.</p>
 
@@ -177,7 +190,7 @@ function BlogBrandVsCompoundedGlp1Cost2026() {
 
           <p>Ro (Roman/Rory parent company) has positioned itself in the weight-loss telehealth space with its "Body Program," which bundles GLP-1 medication access with metabolic coaching. The medication itself is advertised from ~$149/month for compounded semaglutide—one of the lowest headline figures in the market.</p>
 
-          <p>But the Body Program carries a <strong>mandatory $99/month program fee</strong>, bringing the base to $248/month before medication dose increases. Ro also charges separate consultation fees for provider interactions beyond the initial evaluation and requires patients to purchase their own supplies. At maintenance doses, total monthly costs routinely reach $350–$399. For patients on compounded tirzepatide, costs can exceed $400/month. We cover this pricing pattern in our <a href="/blog/hims-vs-ro-vs-telehealthfx-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>Hims vs. Ro vs. Telehealth FX comparison</a>.</p>
+          <p>But the Body Program carries a <strong>mandatory $99/month program fee</strong>, bringing the base to $248/month before medication dose increases. Ro also charges separate consultation fees for provider interactions beyond the initial evaluation and requires patients to purchase their own supplies. At maintenance doses, total monthly costs routinely reach $350–$399. For patients on compounded tirzepatide, costs can exceed $400/month. We cover this pricing pattern in our <a href="/blog/hims-vs-ro-vs-telehealthfx-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>Hims vs. Ro vs. Telehealth FX comparison</a>.</p>
 
           <p><strong>Realistic annual cost: $3,156–$4,788.</strong></p>
 
@@ -248,7 +261,7 @@ function BlogBrandVsCompoundedGlp1Cost2026() {
 
           <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>What About HSA and FSA? Tax-Advantaged Savings</h2>
 
-          <p>Regardless of which pathway you choose, GLP-1 medications prescribed for a documented medical condition (obesity with BMI ≥30, or BMI ≥27 with comorbidities) are generally eligible for reimbursement from Health Savings Accounts (HSA) and Flexible Spending Accounts (FSA). This effectively reduces your out-of-pocket cost by your marginal tax rate—typically 22–37% for most earners. We break down the full qualification process in our <a href="/blog/hsa-fsa-glp-1-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>HSA/FSA guide for GLP-1 therapy</a>.</p>
+          <p>Regardless of which pathway you choose, GLP-1 medications prescribed for a documented medical condition (obesity with BMI ≥30, or BMI ≥27 with comorbidities) are generally eligible for reimbursement from Health Savings Accounts (HSA) and Flexible Spending Accounts (FSA). This effectively reduces your out-of-pocket cost by your marginal tax rate—typically 22–37% for most earners. We break down the full qualification process in our <a href="/blog/hsa-fsa-glp-1-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>HSA/FSA guide for GLP-1 therapy</a>.</p>
 
           <p>For Telehealth FX patients at $2,388/year, an HSA deduction at a 24% marginal rate yields an effective annual cost of approximately <strong>$1,815</strong>—under $152/month for physician-supervised GLP-1 therapy.</p>
 
@@ -258,19 +271,19 @@ function BlogBrandVsCompoundedGlp1Cost2026() {
 
           <h3 className="serif" style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>Efficacy and Formulation</h3>
 
-          <p>Both brand-name and compounded GLP-1 medications contain GLP-1 receptor agonists. Compounded semaglutide uses USP-grade semaglutide base. Compounded medications are not FDA-approved and are not equivalent to branded products. However, brand-name formulations have the advantage of extensive clinical trial data behind their specific pen-delivery format. Our <a href="/blog/compounded-semaglutide-vs-wegovy-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>compounded semaglutide vs. Wegovy comparison</a> explores these nuances in detail.</p>
+          <p>Both brand-name and compounded GLP-1 medications contain GLP-1 receptor agonists. Compounded semaglutide uses USP-grade semaglutide base. Compounded medications are not FDA-approved and are not equivalent to branded products. However, brand-name formulations have the advantage of extensive clinical trial data behind their specific pen-delivery format. Our <a href="/blog/compounded-semaglutide-vs-wegovy-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>compounded semaglutide vs. Wegovy comparison</a> explores these nuances in detail.</p>
 
           <p>A 2024 retrospective cohort analysis published in <em>Obesity</em> (n=3,012) found that patients on compounded semaglutide achieved comparable 12-month weight loss outcomes (13.2% vs. 14.1% mean body weight reduction) to those on brand-name Wegovy when titration protocols and clinical supervision quality were equivalent. The modest difference was not statistically significant (p=0.18).</p>
 
           <h3 className="serif" style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>Safety and Quality Assurance</h3>
 
-          <p>Brand-name products undergo rigorous FDA review of manufacturing processes. Compounded medications are overseen by state pharmacy boards and must adhere to USP 797 (sterile compounding) and USP 800 standards. The key differentiator is <em>which pharmacy</em> compounds your medication. Reputable platforms like Telehealth FX partner exclusively with licensed, inspected 503A pharmacies that maintain certificates of analysis (COA) for every batch. Our guide on <a href="/blog/compounded-semaglutide-red-flags-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>compounded semaglutide red flags</a> can help you distinguish legitimate pharmacies from risky operators.</p>
+          <p>Brand-name products undergo rigorous FDA review of manufacturing processes. Compounded medications are overseen by state pharmacy boards and must adhere to USP 797 (sterile compounding) and USP 800 standards. The key differentiator is <em>which pharmacy</em> compounds your medication. Reputable platforms like Telehealth FX partner exclusively with licensed, inspected 503A pharmacies that maintain certificates of analysis (COA) for every batch. Our guide on <a href="/blog/compounded-semaglutide-red-flags-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>compounded semaglutide red flags</a> can help you distinguish legitimate pharmacies from risky operators.</p>
 
           <h3 className="serif" style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>Clinical Oversight</h3>
 
-          <p>This is where the biggest gaps emerge. <strong>Manufacturer-direct programs like LillyDirect and NovoCare provide medication but not integrated clinical management.</strong> You need to source your own prescriber, manage your own dose titration, monitor your own side effects, and troubleshoot issues like <a href="/blog/glp-1-side-effects-how-to-manage-nausea-fatigue-mo" style={{ color: 'var(--brand)', fontWeight: 500 }}>nausea and fatigue management</a> on your own.</p>
+          <p>This is where the biggest gaps emerge. <strong>Manufacturer-direct programs like LillyDirect and NovoCare provide medication but not integrated clinical management.</strong> You need to source your own prescriber, manage your own dose titration, monitor your own side effects, and troubleshoot issues like <a href="/blog/glp-1-side-effects-how-to-manage-nausea-fatigue-mo/" style={{ color: 'var(--brand)', fontWeight: 500 }}>nausea and fatigue management</a> on your own.</p>
 
-          <p>Telehealth platforms vary dramatically in clinical depth. Volume-oriented platforms may process hundreds of patients per provider per day with minimal interaction. Clinician-first platforms like Telehealth FX limit provider panels to ensure each patient receives genuine medical attention—including nutritional guidance aligned with our <a href="/blog/glp-1-food-guide-what-to-eat" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 food guide</a> and exercise protocols from our <a href="/blog/glp-1-and-exercise-how-to-combine-medication-with" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 and exercise guide</a>.</p>
+          <p>Telehealth platforms vary dramatically in clinical depth. Volume-oriented platforms may process hundreds of patients per provider per day with minimal interaction. Clinician-first platforms like Telehealth FX limit provider panels to ensure each patient receives genuine medical attention—including nutritional guidance aligned with our <a href="/blog/glp-1-food-guide-what-to-eat/" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 food guide</a> and exercise protocols from our <a href="/blog/glp-1-and-exercise-how-to-combine-medication-with/" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 and exercise guide</a>.</p>
 
           <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>How to Choose: Decision Framework</h2>
 
@@ -321,7 +334,7 @@ function BlogBrandVsCompoundedGlp1Cost2026() {
 
           <p>Meanwhile, Novo Nordisk has signaled that it may introduce authorized generics of Ozempic as early as Q4 2026, which could introduce another pricing tier between branded and compounded options. Lilly has continued to expand LillyDirect's geographic reach and may introduce additional dosage formats. The pricing landscape will continue to shift, making it even more important to work with a provider like Telehealth FX that absorbs these changes rather than passing them through as surprise price increases.</p>
 
-          <p>For a broader view of cost considerations, see our deep dive on <a href="/blog/semaglutide-real-cost-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>the real cost of semaglutide in 2026</a>.</p>
+          <p>For a broader view of cost considerations, see our deep dive on <a href="/blog/semaglutide-real-cost-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>the real cost of semaglutide in 2026</a>.</p>
 
           <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Frequently Asked Questions</h2>
 
@@ -332,13 +345,13 @@ function BlogBrandVsCompoundedGlp1Cost2026() {
           <p style={{ marginBottom: 24 }}>LillyDirect's $299 price reflects only the lowest starting dose (2.5 mg) of tirzepatide. Clinical titration protocols require dose escalation every 4 weeks until reaching a therapeutic maintenance dose, typically 7.5–15 mg. At these doses, medication alone costs $399–$549/month. Adding the prescriber fee (~$49–$99 per visit) and supplies ($10–$15/month) brings true monthly costs to $460–$660.</p>
 
           <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>Can I switch from LillyDirect or Hims to Telehealth FX mid-treatment?</h4>
-          <p style={{ marginBottom: 24 }}>Yes. Telehealth FX accepts transfer patients from any GLP-1 provider. Your clinician will review your current dose, treatment history, and response, then seamlessly continue your titration protocol without interruption. Many patients switch after realizing their true costs at another provider exceed expectations. See our <a href="/blog/switch-glp-1-providers-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>provider switching guide</a> for details.</p>
+          <p style={{ marginBottom: 24 }}>Yes. Telehealth FX accepts transfer patients from any GLP-1 provider. Your clinician will review your current dose, treatment history, and response, then seamlessly continue your titration protocol without interruption. Many patients switch after realizing their true costs at another provider exceed expectations. See our <a href="/blog/switch-glp-1-providers-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>provider switching guide</a> for details.</p>
 
           <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>Does Telehealth FX's price increase as my dose goes up?</h4>
           <p style={{ marginBottom: 24 }}>No. Telehealth FX maintains flat pricing regardless of your titration dose. Whether you're at the starting 0.25 mg or maintenance 2.4 mg of semaglutide, your monthly cost remains $199. This is one of the most important distinctions from competitors who use dose-escalation surcharges.</p>
 
           <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>Is GLP-1 therapy eligible for HSA/FSA reimbursement?</h4>
-          <p style={{ marginBottom: 24 }}>Yes. GLP-1 medications prescribed for medically documented obesity (BMI ≥30, or ≥27 with comorbidities) qualify as eligible medical expenses for HSA and FSA reimbursement. This applies to both brand-name and compounded formulations. See our full <a href="/blog/hsa-fsa-glp-1-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>HSA/FSA eligibility guide</a>.</p>
+          <p style={{ marginBottom: 24 }}>Yes. GLP-1 medications prescribed for medically documented obesity (BMI ≥30, or ≥27 with comorbidities) qualify as eligible medical expenses for HSA and FSA reimbursement. This applies to both brand-name and compounded formulations. See our full <a href="/blog/hsa-fsa-glp-1-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>HSA/FSA eligibility guide</a>.</p>
 
           <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>What happens to compounded GLP-1 pricing if the FDA bans compounding?</h4>
           <p style={{ marginBottom: 24 }}>The FDA's April 2026 actions targeted 503B outsourcing facilities that produce bulk compounded products without patient-specific prescriptions. Patient-specific compounding through 503A pharmacies—the model used by Telehealth FX—remains legal and was explicitly preserved in the FDA's guidance. While future regulatory changes are always possible, the 503A compounding framework has been established law since the Drug Quality and Security Act of 2013.</p>

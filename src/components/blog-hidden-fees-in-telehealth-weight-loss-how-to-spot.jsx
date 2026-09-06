@@ -2,6 +2,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { Icon } from './common.jsx';
+import { DirectAnswerSnippet } from './direct-answer-snippet.jsx';
 
 const START_URL = "https://go.telehealthfx.com/start";
 
@@ -22,19 +23,30 @@ function BlogHiddenFeesInTelehealthWeightLossHowToSpot() {
             <Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' , height: "auto"}} priority={true} />
           </div>
           <div>
-            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
+            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about/" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
             <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 37 min read</div>
           </div>
         </div>
 
         <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
+          <DirectAnswerSnippet
+            question="What hidden fees should you avoid in telehealth weight loss programs?"
+            answer="Many telehealth weight loss platforms advertise teaser rates like '$99/month' that secretly exclude medication costs, charge mandatory recurring membership dues ($49–$199/month), add $25 to $50 shipping fees, or hit patients with $150 dosage escalation penalties. Always look for all-inclusive pricing ($146 to $299/mo) covering clinician oversight, supplies, temperature-controlled delivery, and titration adjustments without contracts."
+            badge="Consumer Protection & Pricing Audit"
+            keyTakeaways={[
+              { label: "Common Traps", value: "Membership dues & dose escalation markups" },
+              { label: "Shipping Fees", value: "Surprise $30-$50 cold-pack shipping fees" },
+              { label: "Delivery Standard", value: "24-48 hr cold chain included" },
+              { label: "All-Inclusive Benchmark", value: "Flat monthly fee ($146-$249) with $0 add-ons" }
+            ]}
+          />
           <Image src="/assets/hidden_fees_featured.png" alt="Glowing neon receipt with exorbitant prices bursting into red warning sparks next to a medical pen" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' , height: "auto"}} priority={true} />
           
-          <p>The advent of accessible, online <a href="/blog/what-is-a-glp-1-medication" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 medications</a> has fundamentally revolutionized the treatment of obesity. However, wherever there is a massive surge in consumer demand, predatory business practices inevitably follow. In 2026, the telehealth weight loss industry is a booming, multi-billion-dollar landscape, but it is also littered with "clinics" that utilize deceptive pricing models, hidden subscription traps, and legally questionable billing practices.</p>
+          <p>The advent of accessible, online <a href="/blog/what-is-a-glp-1-medication/" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 medications</a> has fundamentally revolutionized the treatment of obesity. However, wherever there is a massive surge in consumer demand, predatory business practices inevitably follow. In 2026, the telehealth weight loss industry is a booming, multi-billion-dollar landscape, but it is also littered with "clinics" that utilize deceptive pricing models, hidden subscription traps, and legally questionable billing practices.</p>
           
           <p>The situation became so egregious that in 2025, the Federal Trade Commission (FTC) was forced to step in, filing formal actions against prominent telehealth platforms for deceiving consumers about the true cost of their weight loss programs.</p>
 
-          <p>If you are exploring <a href="/medications/semaglutide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Semaglutide</a> or <a href="/medications/tirzepatide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Tirzepatide</a> online, you must protect yourself. In this comprehensive consumer protection guide, we will break down the exact FTC complaints, identify the 7 major "Red Flags" of deceptive telehealth clinics, and provide you with an uncompromising checklist to ensure you are partnering with a legitimate, transparent medical provider.</p>
+          <p>If you are exploring <a href="/medications/semaglutide/" style={{ color: 'var(--brand)', fontWeight: 500 }}>Semaglutide</a> or <a href="/medications/tirzepatide/" style={{ color: 'var(--brand)', fontWeight: 500 }}>Tirzepatide</a> online, you must protect yourself. In this comprehensive consumer protection guide, we will break down the exact FTC complaints, identify the 7 major "Red Flags" of deceptive telehealth clinics, and provide you with an uncompromising checklist to ensure you are partnering with a legitimate, transparent medical provider.</p>
 
           <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
             <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Experience 100% Transparent Pricing</h3>
@@ -63,13 +75,13 @@ function BlogHiddenFeesInTelehealthWeightLossHowToSpot() {
           <p>Prescribing a powerful metabolic hormone requires a legitimate medical evaluation. If a website approves you for a GLP-1 prescription based solely on a three-question automated chatbot—without reviewing your comprehensive medical history, checking for thyroid cancer contraindications, or offering a genuine clinical evaluation—they are operating a dangerous prescription mill, not a medical clinic.</p>
 
           <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>Red Flag #3: Hidden Long-Term Contracts</h3>
-          <p>Many clinics force you into binding 6-month or 12-month financial commitments. Because GLP-1 medications frequently cause <a href="/blog/glp-1-side-effects-how-to-manage-nausea-fatigue-mo" style={{ color: 'var(--brand)', fontWeight: 500 }}>gastrointestinal side effects</a>, patients may need to pause or stop treatment entirely. If you are financially locked into a year-long contract regardless of your medical tolerance for the drug, the platform is prioritizing their recurring revenue over your physical safety.</p>
+          <p>Many clinics force you into binding 6-month or 12-month financial commitments. Because GLP-1 medications frequently cause <a href="/blog/glp-1-side-effects-how-to-manage-nausea-fatigue-mo/" style={{ color: 'var(--brand)', fontWeight: 500 }}>gastrointestinal side effects</a>, patients may need to pause or stop treatment entirely. If you are financially locked into a year-long contract regardless of your medical tolerance for the drug, the platform is prioritizing their recurring revenue over your physical safety.</p>
 
           <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>Red Flag #4: Obstructed Cancellation (Violating "Click-to-Cancel")</h3>
           <p>The FTC strictly enforces the "Click-to-Cancel" rule, which mandates that cancelling a subscription must be exactly as easy as signing up. If you signed up online in three clicks, you must be able to cancel online in three clicks. If a platform forces you to call a phone number during limited business hours, wait on hold, or fill out complex PDF forms just to stop your billing, they are acting illegally.</p>
 
           <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>Red Flag #5: Mandatory Proprietary Supplements</h3>
-          <p>Watch out for clinics that refuse to ship your GLP-1 medication unless you also agree to purchase their proprietary, expensive "metabolic support" vitamin bundles. Legitimate clinics may recommend complementary therapies like <a href="/medications/nad" style={{ color: 'var(--brand)', fontWeight: 500 }}>NAD+</a> or <a href="/medications/sermorelin" style={{ color: 'var(--brand)', fontWeight: 500 }}>Sermorelin</a>, but they will never hold your primary prescription hostage to force an upsell.</p>
+          <p>Watch out for clinics that refuse to ship your GLP-1 medication unless you also agree to purchase their proprietary, expensive "metabolic support" vitamin bundles. Legitimate clinics may recommend complementary therapies like <a href="/medications/nad/" style={{ color: 'var(--brand)', fontWeight: 500 }}>NAD+</a> or <a href="/medications/sermorelin/" style={{ color: 'var(--brand)', fontWeight: 500 }}>Sermorelin</a>, but they will never hold your primary prescription hostage to force an upsell.</p>
 
           <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>Red Flag #6: Guaranteed Outcomes</h3>
           <p>No legitimate doctor, endocrinologist, or medical platform can ethically guarantee a specific amount of weight loss. Human biology is complex. If a platform promises "Lose 30 pounds in 30 days guaranteed," they are employing illegal, deceptive marketing.</p>

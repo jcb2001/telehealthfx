@@ -3,11 +3,13 @@ import { BlogGLP1CoffeeCaffeine } from "../../../components/blog-glp1-and-coffee
 export const metadata = {
   robots: { index: true, follow: true },
   alternates: { canonical: 'https://telehealthfx.com/blog/glp1-and-coffee-caffeine-2026/' },
-  title: "GLP-1 and Coffee: Can You Drink Caffeine on Semaglutide? The Complete Interaction Guide",
-  description: "Can you drink coffee on Ozempic? The complete caffeine-GLP-1 interaction guide — timing, quantity, acid reflux, and how coffee helps constipation.",
+  title: "Can You Drink Coffee on GLP-1? Caffeine & Ozempic Guide",
+  description: "Can you drink coffee on Ozempic or Mounjaro? Learn clinical rules for caffeine timing, managing acid reflux, hydration protocols, and energy drink warnings.",
   openGraph: {
-    title: "GLP-1 and Coffee: Can You Drink Caffeine on Semaglutide?",
-    description: "The complete caffeine-GLP-1 interaction guide — timing, quantity, acid reflux, and how coffee helps constipation.",
+    title: "Can You Drink Coffee on GLP-1? Caffeine & Ozempic Guide",
+    description: "Can you drink coffee on Ozempic or Mounjaro? Learn clinical rules for caffeine timing, managing acid reflux, hydration protocols, and energy drink warnings.",
+    url: 'https://telehealthfx.com/blog/glp1-and-coffee-caffeine-2026/',
+    siteName: 'Telehealth FX',
     images: [{ url: "https://telehealthfx.com/assets/glp1-coffee-caffeine-featured.png", width: 1200, height: 630, alt: "GLP-1 and Coffee Caffeine Guide" }],
   },
 };

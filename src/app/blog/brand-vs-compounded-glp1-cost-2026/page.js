@@ -2,13 +2,13 @@ import { BlogBrandVsCompoundedGlp1Cost2026 } from "../../../components/blog-bran
 
 export const metadata = {
   robots: { index: true, follow: true },
-  title: "Brand-Name vs. Compounded GLP-1 in 2026: LillyDirect, NovoCare & Telehealth Options Compared | Telehealth FX",
-  description: "Transparent side-by-side cost comparison of LillyDirect Zepbound vials, NovoCare Wegovy savings, Hims, Ro, Henry Meds, and Telehealth FX. Hidden fees, annual totals, and decision framework.",
+  title: "Brand vs Compounded GLP-1 Cost 2026: Full Price Guide",
+  description: "Compare LillyDirect Zepbound, Wegovy savings, and compounded GLP-1 costs. Real monthly prices, dose escalation jumps, hidden fees, and annual expense totals.",
   alternates: { canonical: 'https://telehealthfx.com/blog/brand-vs-compounded-glp1-cost-2026/' },
   openGraph: {
-    title: "Brand-Name vs. Compounded GLP-1 in 2026: LillyDirect, NovoCare & Telehealth Compared",
-    description: "Transparent side-by-side cost comparison of LillyDirect Zepbound vials, NovoCare Wegovy savings, Hims, Ro, Henry Meds, and Telehealth FX. Hidden fees, annual totals, and decision framework.",
-    url: "https://telehealthfx.com/blog/brand-vs-compounded-glp1-cost-2026",
+    title: "Brand vs Compounded GLP-1 Cost 2026: Full Price Guide",
+    description: "Compare LillyDirect Zepbound, Wegovy savings, and compounded GLP-1 costs. Real monthly prices, dose escalation jumps, hidden fees, and annual expense totals.",
+    url: "https://telehealthfx.com/blog/brand-vs-compounded-glp1-cost-2026/",
     siteName: "Telehealth FX",
     type: "article",
   },

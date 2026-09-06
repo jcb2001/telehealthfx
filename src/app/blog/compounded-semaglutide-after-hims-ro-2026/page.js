@@ -1,10 +1,99 @@
 import { BlogCompoundedAfterHimsRo } from "../../../components/blog-compounded-semaglutide-after-hims-ro-2026.jsx";
+
 export const metadata = {
   robots: { index: true, follow: true },
+  title: "Compounded Semaglutide After Hims & Ro: 2026 Guide",
+  description: "Hims and Ro discontinued compounded semaglutide. Learn 503A pharmacy rules, legal access, and how to switch care today without restarting titration.",
   alternates: {
     canonical: 'https://telehealthfx.com/blog/compounded-semaglutide-after-hims-ro-2026/',
-  }, title: "Hims and Ro Stopped Selling Compounded Semaglutide — Where to Get It Now (2026)", description: "Hims and Ro discontinued compounded semaglutide after FDA enforcement. Here is what happened, the 503A vs 503B difference, and where to continue your treatment without a gap.", openGraph: { title: "Compounded Semaglutide After Hims & Ro Stopped Selling It", description: "Your provider stopped. Your treatment doesn't have to. Where to get compounded semaglutide now.", images: [{ url: "https://telehealthfx.com/assets/compounded-semaglutide-after-hims-ro-featured.png", width: 1200, height: 630 }] } };
+  },
+  openGraph: {
+    title: "Compounded Semaglutide After Hims & Ro: 2026 Guide",
+    description: "Hims and Ro discontinued compounded semaglutide. Learn 503A pharmacy rules, legal access, and how to switch care today without restarting titration.",
+    url: 'https://telehealthfx.com/blog/compounded-semaglutide-after-hims-ro-2026/',
+    siteName: 'Telehealth FX',
+    images: [
+      {
+        url: "https://telehealthfx.com/assets/compounded-semaglutide-after-hims-ro-featured.png",
+        width: 1200,
+        height: 630,
+        alt: "Compounded Semaglutide After Hims & Ro Stopped",
+      },
+    ],
+  },
+};
+
 export default function Page() {
-  const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "MedicalWebPage", "headline": "Where to Get Compounded Semaglutide After Hims and Ro Stopped", "datePublished": "2026-05-07", "dateModified": "2026-05-07", "author": { "@type": "Person", "name": "Julian Mercer, M.S." }, "publisher": { "@type": "Organization", "name": "Telehealth FX" } }, { "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": "Is compounded semaglutide still legal?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, through 503A compounding pharmacies that produce patient-specific prescriptions. The FDA restricted 503B mass-production, not all compounding." } }, { "@type": "Question", "name": "Will I have to restart my dose from 0.25mg?", "acceptedAnswer": { "@type": "Answer", "text": "No. When switching providers with an established treatment history, your new clinician continues your current dose." } }] }] };
-  return (<><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} /><BlogCompoundedAfterHimsRo /></>);
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "MedicalWebPage",
+        "@id": "https://telehealthfx.com/blog/compounded-semaglutide-after-hims-ro-2026/#webpage",
+        "url": "https://telehealthfx.com/blog/compounded-semaglutide-after-hims-ro-2026/",
+        "headline": "Compounded Semaglutide After Hims & Ro: 2026 Guide",
+        "description": "Hims and Ro discontinued compounded semaglutide. Learn 503A pharmacy rules, legal access, and how to switch care today without restarting titration.",
+        "datePublished": "2026-05-07",
+        "dateModified": "2026-05-07",
+        "author": {
+          "@type": "Person",
+          "name": "Julian Mercer, M.S.",
+          "jobTitle": "Lead Bio-Systems Analyst",
+          "url": "https://telehealthfx.com/about/"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Telehealth FX"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://telehealthfx.com/blog/compounded-semaglutide-after-hims-ro-2026/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Can you still get compounded semaglutide after Hims and Ro stopped?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. While Hims and Ro phased out bulk 503B compounding, state-licensed 503A compounding pharmacies continue to legally dispense customized, patient-specific semaglutide prescriptions nationwide under Section 503A of the FD&C Act."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why did Hims and Ro stop offering compounded semaglutide?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Hims and Ro relied primarily on mass-manufactured 503B outsourcing batches. When the FDA resolved the official semaglutide shortage list, 503B bulk exemptions expired, forcing these mass-market platforms to pivot toward expensive brand-name medications."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Will I have to restart my dose from 0.25mg if I switch from Ro or Hims?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. Telehealth FX clinicians verify your documented prescription history and seamlessly match your current maintenance dose (such as 0.5mg, 1.0mg, 1.7mg, or 2.4mg) without requiring you to restart titration."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much does compounded semaglutide cost after switching?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Compounded semaglutide through Telehealth FX starts at $146 per month all-inclusive, covering physician consultations, medication, injection supplies, and cold-pack home shipping with zero hidden membership fees."
+            }
+          }
+        ]
+      }
+    ]
+  };
+
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <BlogCompoundedAfterHimsRo />
+    </>
+  );
 }

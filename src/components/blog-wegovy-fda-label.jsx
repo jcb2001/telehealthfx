@@ -2,6 +2,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { Icon } from './common.jsx';
+import { DirectAnswerSnippet } from './direct-answer-snippet.jsx';
 
 const START_URL = "https://go.telehealthfx.com/start";
 
@@ -22,12 +23,23 @@ function BlogWegovyFdaLabel() {
             <Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' , height: "auto"}} priority={true} />
           </div>
           <div>
-            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
+            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about/" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
             <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 26 min read</div>
           </div>
         </div>
 
         <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
+          <DirectAnswerSnippet
+            question="What are the official FDA prescribing criteria and BMI indications for Wegovy?"
+            answer="The FDA approved Wegovy (semaglutide 2.4 mg) for chronic weight management in adults with a baseline Body Mass Index of 30 or greater (obesity), or a BMI of 27 or greater (overweight) with at least one weight-related condition such as hypertension, type 2 diabetes, or dyslipidemia, combined with a reduced-calorie diet and increased physical activity."
+            badge="FDA Prescribing Information (Package Insert)"
+            keyTakeaways={[
+              { label: "General Indication", value: "BMI ≥ 30 kg/m² (Chronic obesity)" },
+              { label: "Comorbidity Indication", value: "BMI ≥ 27 kg/m² with hypertension or T2D" },
+              { label: "Therapeutic Dose", value: "2.4 mg weekly subcutaneous injection" },
+              { label: "Cardiovascular Benefit", value: "20% MACE risk reduction (SELECT trial)" }
+            ]}
+          />
           <Image src="/assets/wegovy-label-featured.png" alt="Understanding the Wegovy FDA label and compounding access" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' , height: "auto"}} priority={true} />
           
           <p>On June 4, 2021, the landscape of obesity medicine changed forever. The U.S. Food and Drug Administration approved Semaglutide 2.4 mg under the brand name Wegovy for chronic weight management. However, understanding the exact <strong>wegovy fda label</strong> is critical, because those specific criteria dictate who gets insurance coverage, who gets denied, and why millions of Americans are turning to compounded alternatives.</p>
@@ -38,7 +50,7 @@ function BlogWegovyFdaLabel() {
 
           <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
             <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Bypass the $1,300 Price Tag</h3>
-            <p style={{ marginBottom: 24, fontSize: 16 }}>If your insurance denied your Wegovy prescription, see if you qualify for <a href="/blog/is-compounded-semaglutide-safe-what-you-need-to-kn" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>compounded semaglutide</a> starting at just $146/mo.</p>
+            <p style={{ marginBottom: 24, fontSize: 16 }}>If your insurance denied your Wegovy prescription, see if you qualify for <a href="/blog/is-compounded-semaglutide-safe-what-you-need-to-kn/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>compounded semaglutide</a> starting at just $146/mo.</p>
             <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>
               Check GLP-1 Eligibility <Icon.Arrow />
             </a>
@@ -60,7 +72,7 @@ function BlogWegovyFdaLabel() {
             <li style={{ marginBottom: 12 }}><strong>Type 2 Diabetes Mellitus</strong></li>
             <li style={{ marginBottom: 12 }}><strong>Dyslipidemia</strong> (High cholesterol or abnormal lipids)</li>
           </ul>
-          <p>This is where the first major hurdle for patients arises. If you are struggling with severe <a href="/blog/ozempic-insulin-resistance" style={{ color: 'var(--brand)', fontWeight: 500 }}>insulin resistance</a> or <a href="/blog/Berberine-pcos-weight-loss" style={{ color: 'var(--brand)', fontWeight: 500 }}>PCOS weight gain</a>, but your BMI is 26.5 and your blood pressure is normal, your insurance will instantly reject a Wegovy claim because it violates the FDA label indications.</p>
+          <p>This is where the first major hurdle for patients arises. If you are struggling with severe <a href="/blog/ozempic-insulin-resistance/" style={{ color: 'var(--brand)', fontWeight: 500 }}>insulin resistance</a> or <a href="/blog/berberine-pcos-weight-loss/" style={{ color: 'var(--brand)', fontWeight: 500 }}>PCOS weight gain</a>, but your BMI is 26.5 and your blood pressure is normal, your insurance will instantly reject a Wegovy claim because it violates the FDA label indications.</p>
 
           <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The Clinical Data: The STEP 1 Trial</h2>
           <p>The FDA does not grant approvals lightly. The Wegovy FDA label is backed by the Semaglutide Treatment Effect in People with Obesity (STEP) clinical trial program. The most famous of these is the STEP 1 trial, published in the <em>New England Journal of Medicine</em>.</p>

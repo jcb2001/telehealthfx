@@ -65,11 +65,6 @@ export default function Page() {
       }
     },
     {
-      "@type": "FAQPage",
-      "@id": "https://telehealthfx.com/blog/does-insurance-cover-trt-2026/#faq",
-      "mainEntity": []
-    },
-    {
       "@type": "Product",
       "@id": "https://telehealthfx.com/blog/does-insurance-cover-trt-2026/#product",
       "name": "Telehealth FX — TRT Program",

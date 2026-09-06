@@ -83,7 +83,7 @@ export function LocationAlbuquerque() {
               <div style={{ display: 'flex', alignItems: 'center', gap: 24, marginTop: 40, opacity: 0.8, flexWrap: 'wrap' }} className="justify-content-center justify-content-lg-start">
                  <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
                     <Icon.Check size={18} color="#2ECC71" />
-                    <span style={{ fontSize: 14, fontWeight: 500 }}>NM Medical Board Compliant</span>
+                    <span style={{ fontSize: 14, fontWeight: 500 }}>New Mexico Medical Board Compliant</span>
                  </div>
                  <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
                     <Icon.Check size={18} color="#2ECC71" />
@@ -112,7 +112,7 @@ export function LocationAlbuquerque() {
                  <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', color: 'var(--ink-2)', marginBottom: 32, lineHeight: 1.7 }}>
                     Combine this climate with a sprawling, car-centric city layout that offers very little walkability, alongside a deeply ingrained, calorie-dense New Mexican culinary culture (think sopapillas and dishes heavily smothered in green chile and cheese). These environmental factors create a perfect storm for chronic insulin resistance, causing traditional diet protocols to hit a physiological wall for many in the Duke City.
                  </p>
-                 <a href="/blog/ozempic-insulin-resistance" style={{ color: 'var(--brand)', textDecoration: 'none', fontWeight: 600, display: 'inline-flex', alignItems: 'center', gap: 8 }}>
+                 <a href="/blog/ozempic-insulin-resistance/" style={{ color: 'var(--brand)', textDecoration: 'none', fontWeight: 600, display: 'inline-flex', alignItems: 'center', gap: 8 }}>
                     Read our clinical guide to insulin resistance <Icon.Arrow size={16} />
                  </a>
               </div>
@@ -233,7 +233,7 @@ export function LocationAlbuquerque() {
                     Whether you're enduring dead-stop traffic at the "Big I" (I-40 and I-25 interchange), or navigating the morning rush on Paseo del Norte, spending an hour commuting just to sit in a doctor's waiting room for a 5-minute prescription refill is an outdated model.
                  </p>
                  <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', color: 'var(--ink-2)', marginBottom: 32, lineHeight: 1.7 }}>
-                    Even worse, if you try to fill a prescription for branded Wegovy at the local Smith's, CVS, or Walgreens, you know the reality: <strong>the medications are on indefinite national backorder.</strong> Furthermore, securing an appointment at renowned metabolic centers like <strong>UNM Hospital</strong> or <strong>Presbyterian</strong> takes months, and local insurance plans frequently deny prior authorizations.
+                     Even worse, if you try to fill a prescription for branded Wegovy at the local Smith's, CVS, or Walgreens, you know the reality: <strong>the medications are on indefinite national backorder.</strong> Furthermore, securing an appointment at renowned metabolic centers like <strong>UNM Hospital</strong> or <strong>Presbyterian</strong> takes <strong>8 to 14 weeks</strong>, while major regional employers (including Sandia National Labs, Intel Rio Rancho, and PNM) routinely exclude weight loss medications from commercial health plans.
                  </p>
                  
                  <div style={{ display: 'flex', alignItems: 'center', gap: 16, background: '#fff', padding: 20, borderRadius: 16, border: '1px solid var(--line-soft)', boxShadow: '0 4px 12px rgba(0,0,0,0.02)' }}>
@@ -242,7 +242,7 @@ export function LocationAlbuquerque() {
                     </div>
                     <div>
                        <strong style={{ display: 'block', fontSize: 16, color: 'var(--ink)' }}>HSA / FSA Accepted</strong>
-                       <span style={{ fontSize: 14, color: 'var(--ink-2)' }}>Bypass New Mexico insurance denials entirely. Use pre-tax dollars for your compounding protocol.</span>
+                       <span style={{ fontSize: 14, color: 'var(--ink-2)' }}>Bypass New Mexico employer insurance exclusions entirely. Use pre-tax dollars for your temperature-monitored cold-chain compounding protocol.</span>
                     </div>
                  </div>
               </div>

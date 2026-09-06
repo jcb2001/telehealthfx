@@ -83,7 +83,7 @@ export function LocationMilwaukee() {
               <div style={{ display: 'flex', alignItems: 'center', gap: 24, marginTop: 40, opacity: 0.8, flexWrap: 'wrap' }} className="justify-content-center justify-content-lg-start">
                  <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
                     <Icon.Check size={18} color="#2ECC71" />
-                    <span style={{ fontSize: 14, fontWeight: 500 }}>WI Medical Examining Board Compliant</span>
+                    <span style={{ fontSize: 14, fontWeight: 500 }}>Wisconsin Medical Examining Board Compliant</span>
                  </div>
                  <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
                     <Icon.Check size={18} color="#2ECC71" />
@@ -112,7 +112,7 @@ export function LocationMilwaukee() {
                  <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', color: 'var(--ink-2)', marginBottom: 32, lineHeight: 1.7 }}>
                     Combine this climate with "Brew City" culture—a deeply ingrained local diet heavily reliant on beer, cheese curds, bratwurst, and Friday fish fries. Furthermore, the region's strong industrial and manufacturing heritage means many residents endure exhausting shift work that completely disrupts circadian rhythms. These environmental stressors lead directly to insulin resistance, causing traditional diet protocols to fail.
                  </p>
-                 <a href="/blog/ozempic-insulin-resistance" style={{ color: 'var(--brand)', textDecoration: 'none', fontWeight: 600, display: 'inline-flex', alignItems: 'center', gap: 8 }}>
+                 <a href="/blog/ozempic-insulin-resistance/" style={{ color: 'var(--brand)', textDecoration: 'none', fontWeight: 600, display: 'inline-flex', alignItems: 'center', gap: 8 }}>
                     Read our clinical guide to insulin resistance <Icon.Arrow size={16} />
                  </a>
               </div>
@@ -233,7 +233,7 @@ export function LocationMilwaukee() {
                     Whether you're enduring dead-stop traffic at the Marquette Interchange, navigating I-94 construction, or commuting down I-43, spending an hour driving just to sit in a doctor's waiting room for a 5-minute prescription refill is an outdated model.
                  </p>
                  <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', color: 'var(--ink-2)', marginBottom: 32, lineHeight: 1.7 }}>
-                    Even worse, if you try to fill a prescription for branded Wegovy at the local Pick 'n Save, CVS, or Walgreens, you know the reality: <strong>the medications are on indefinite national backorder.</strong> Furthermore, securing an appointment at renowned metabolic centers like <strong>Froedtert Hospital</strong> or <strong>Aurora Health Care</strong> takes months, and local insurance plans frequently deny prior authorizations.
+                    Even worse, if you try to fill a prescription for branded Wegovy at the local Pick 'n Save, CVS, or Walgreens, you know the reality: <strong>the medications are on indefinite national backorder.</strong> Furthermore, securing an appointment at renowned metabolic centers like <strong>Froedtert Hospital</strong> or <strong>Aurora Health Care</strong> takes <strong>8 to 14 weeks</strong>, while major regional employers (such as Northwestern Mutual, Rockwell Automation, and Kohl's) frequently carve out weight loss medications from commercial insurance formularies.
                  </p>
                  
                  <div style={{ display: 'flex', alignItems: 'center', gap: 16, background: '#fff', padding: 20, borderRadius: 16, border: '1px solid var(--line-soft)', boxShadow: '0 4px 12px rgba(0,0,0,0.02)' }}>
@@ -242,7 +242,7 @@ export function LocationMilwaukee() {
                     </div>
                     <div>
                        <strong style={{ display: 'block', fontSize: 16, color: 'var(--ink)' }}>HSA / FSA Accepted</strong>
-                       <span style={{ fontSize: 14, color: 'var(--ink-2)' }}>Bypass Wisconsin insurance denials entirely. Use pre-tax dollars for your compounding protocol.</span>
+                       <span style={{ fontSize: 14, color: 'var(--ink-2)' }}>Bypass Wisconsin employer insurance exclusions entirely. Use pre-tax dollars for your temperature-monitored cold-chain compounding protocol.</span>
                     </div>
                  </div>
               </div>
