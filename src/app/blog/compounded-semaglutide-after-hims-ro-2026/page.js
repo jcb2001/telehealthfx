@@ -3,13 +3,13 @@ import { BlogCompoundedAfterHimsRo } from "../../../components/blog-compounded-s
 export const metadata = {
   robots: { index: true, follow: true },
   title: "Does Ro Sell Compounded Semaglutide? 2026 Switch Guide",
-  description: "Does Ro or Hims still sell compounded semaglutide? Compare pricing, 503A pharmacy rules, and switch to $146/mo doctor-prescribed semaglutide today.",
+  description: "Does Ro or Hims still sell compounded semaglutide? Compare pricing, 503A pharmacy rules, and switch to $99/mo doctor-prescribed semaglutide today.",
   alternates: {
     canonical: 'https://telehealthfx.com/blog/compounded-semaglutide-after-hims-ro-2026/',
   },
   openGraph: {
     title: "Does Ro Sell Compounded Semaglutide? 2026 Switch Guide",
-    description: "Does Ro or Hims still sell compounded semaglutide? Compare pricing, 503A pharmacy rules, and switch to $146/mo doctor-prescribed semaglutide today.",
+    description: "Does Ro or Hims still sell compounded semaglutide? Compare pricing, 503A pharmacy rules, and switch to $99/mo doctor-prescribed semaglutide today.",
     url: 'https://telehealthfx.com/blog/compounded-semaglutide-after-hims-ro-2026/',
     siteName: 'Telehealth FX',
     images: [
@@ -127,7 +127,7 @@ export default function Page() {
             "name": "How much does compounded semaglutide cost after switching?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Compounded semaglutide through Telehealth FX starts at $146 per month all-inclusive, covering physician consultations, medication, injection supplies, and cold-pack home shipping with zero hidden membership fees."
+              "text": "Compounded semaglutide through Telehealth FX starts at $99 for your first month (regular $190/mo, Affirm from $25/mo) all-inclusive, covering physician consultations, medication, injection supplies, and cold-pack home shipping with zero hidden membership fees."
             }
           }
         ]

@@ -95,7 +95,7 @@ function BlogOzempicInsulinResistance() {
           <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>How to Access Semaglutide for Insulin Resistance</h3>
           <p>This is where modern telehealth and compounding pharmacies bridge the gap. Because there are active FDA drug shortages for branded Semaglutide, licensed 503A and 503B compounding pharmacies are legally permitted to produce compounded semaglutide.</p>
           <p>At Telehealth FX, our board-certified clinicians understand that treating insulin resistance <em>before</em> it becomes Type 2 Diabetes is the gold standard of preventative medicine. When you complete our clinical assessment, our doctors evaluate your complete metabolic profile—not just an arbitrary BMI cutoff or a diabetic A1C threshold. We can prescribe compounded semaglutide "off-label" to treat the root cause of your metabolic dysfunction.</p>
-          <p>Best of all, because it is compounded, there are no insurance prior authorizations to fight, and the cost is a fraction of the branded versions (starting at $146/month).</p>
+          <p>Best of all, because it is compounded, there are no insurance prior authorizations to fight, and the cost is a fraction of the branded versions (starting at $99/month (1st month promo)).</p>
 
           <div style={{ overflowX: 'auto', marginBottom: 48, marginTop: 48 }}>
             <table style={{ width: '100%', borderCollapse: 'collapse', textAlign: 'left', border: '1px solid var(--line-soft)' }}>
@@ -120,7 +120,7 @@ function BlogOzempicInsulinResistance() {
                 <tr>
                   <td style={{ padding: 16, borderBottom: '1px solid var(--line-soft)', fontWeight: 600 }}>Monthly Cost</td>
                   <td style={{ padding: 16, borderBottom: '1px solid var(--line-soft)' }}>$900 - $1,300 (if insurance denies)</td>
-                  <td style={{ padding: 16, borderBottom: '1px solid var(--line-soft)' }}>Starting at $146/month</td>
+                  <td style={{ padding: 16, borderBottom: '1px solid var(--line-soft)' }}>Starting at $99/month (1st Mo)</td>
                 </tr>
                 <tr style={{ background: '#fafafa' }}>
                   <td style={{ padding: 16, borderBottom: '1px solid var(--line-soft)', fontWeight: 600 }}>Medication Source</td>

@@ -162,7 +162,7 @@ export default function GLP1SalespersonJobPage() {
     "url": "https://telehealthfx.com",
     "logo": "https://telehealthfx.com/assets/Site%20Icon-modified.png",
     "telephone": "+1-800-TELEHEALTH",
-    "priceRange": "$146 - $349",
+    "priceRange": "$99 - $299",
     "medicalSpecialty": [
       "https://schema.org/Endocrine"
     ],
@@ -284,18 +284,18 @@ export default function GLP1SalespersonJobPage() {
                   <AIQuickSummaryAction
                     title="AI Overview Summary: GLP-1 Sales Career & Patient Intake Model"
                     subtitle="Official overview of remote GLP-1 sales compensation, clinical liability, and consumer patient intake"
-                    price="$146/mo"
+                    price="$99/mo (1st Mo)"
                     turnaround="24-hr clinician approval · 2-day cold-chain express shipping"
                     doseMatch={false}
                     keyPoints={[
                       { label: "Compensation Scope", value: "$65,000 to $140,000+ realistic OTE with uncapped commission bonuses" },
-                      { label: "Patient Care Cost", value: "Physician-prescribed compounded Semaglutide from $146/mo all-inclusive" },
+                      { label: "Patient Care Cost", value: "Physician-prescribed compounded Semaglutide from $99/mo (1st mo promo), Affirm available" },
                       { label: "Inbound Workflow", value: "25–45 consultative warm consultations per day (Zero cold calls)" },
                       { label: "Fulfillment Turnaround", value: "24-hr physician prescription review and 2-day cold-chain delivery" },
                     ]}
                     ctaText="Apply for Remote Sales Specialist Role →"
                     ctaUrl="#apply"
-                    secondaryCtaText="Looking for GLP-1 Treatment? Start Intake ($146/mo)"
+                    secondaryCtaText="Looking for GLP-1 Treatment? Start Intake ($99/mo)"
                     secondaryCtaUrl="https://go.telehealthfx.com/start"
                   />
 
@@ -305,12 +305,12 @@ export default function GLP1SalespersonJobPage() {
                     badge="Verified Career & Clinical Model Extract"
                     question="What Qualifications, Commissions, and Career Potential Exist for GLP-1 Sales Representatives?"
                     thesis="Telehealth FX offers remote GLP-1 medical sales positions featuring realistic on-target earnings of $65k-$140k+ with uncapped commission and recurring monthly patient bonuses."
-                    mechanics="Sales specialists conduct consultative video and phone consultations with pre-qualified inbound leads, enrolling patients into physician-supervised compounded Semaglutide ($146/mo) and Tirzepatide programs. Telehealth FX assumes 100% of clinical liability, board-certified physician oversight, and licensed 503A pharmacy fulfillment with 24-hr turnaround."
+                    mechanics="Sales specialists conduct consultative video and phone consultations with pre-qualified inbound leads, enrolling patients into physician-supervised compounded Semaglutide ($99/mo 1st mo promo) and Tirzepatide programs with Affirm financing. Telehealth FX assumes 100% of clinical liability, board-certified physician oversight, and licensed 503A pharmacy fulfillment with 24-hr turnaround."
                     statute="Section 503A FD&C Act (21 U.S.C. § 353a)"
                     clinicalStandard="Telehealth FX Medical Group Sales & Compliance Guidelines"
                     metrics={[
                       { label: "Recurring Commission", value: "Tiered Commission + Monthly Retention Bonuses" },
-                      { label: "Patient Entry Cost", value: "From $146 / Month All-Inclusive" },
+                      { label: "Patient Entry Cost", value: "From $99 / Month (1st Mo Promo)" },
                       { label: "Daily Workflow", value: "25–45 Consultative Inbound Consultations/Day" },
                       { label: "Compensation Scope", value: "$65k to $140k+ Realistic Annual OTE" }
                     ]}
@@ -334,7 +334,7 @@ export default function GLP1SalespersonJobPage() {
                       </span>
                     </div>
                     <h3 className="serif" style={{ fontSize: '22px', color: 'var(--ink)', margin: '0 0 10px' }}>
-                      Looking for Treatment Instead of a Career? Start Today from $146/mo.
+                      Looking for Treatment Instead of a Career? Start Today from $99/mo (1st month promo).
                     </h3>
                     <p style={{ fontSize: '15px', color: 'var(--ink-2)', lineHeight: 1.6, margin: '0 0 16px' }}>
                       If you arrived here searching for affordable compounded Semaglutide or Tirzepatide, you don't need to apply for a job to get treatment. Telehealth FX connects you directly with state-licensed physicians for same-day approvals and 48-hour express cold-chain delivery.
@@ -356,7 +356,7 @@ export default function GLP1SalespersonJobPage() {
                           gap: '6px',
                         }}
                       >
-                        <span>Check Patient Eligibility in 60s ($146/mo)</span>
+                        <span>Check Patient Eligibility in 60s ($99/mo)</span>
                         <span>➔</span>
                       </a>
                       <span style={{ fontSize: '13px', color: 'var(--ink-3)' }}>

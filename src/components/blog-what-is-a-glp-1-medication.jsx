@@ -38,7 +38,7 @@ function BlogWhatIsAGlp1Medication() {
 
           <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
             <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Experience the GLP-1 Revolution</h3>
-            <p style={{ marginBottom: 24, fontSize: 16 }}>Ready to fix your metabolism? See if you qualify for clinician-guided GLP-1 therapy starting at just $146/mo.</p>
+            <p style={{ marginBottom: 24, fontSize: 16 }}>Ready to fix your metabolism? See if you qualify for clinician-guided GLP-1 therapy starting at just $99/mo (1st month promo).</p>
             <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>
               Check GLP-1 Eligibility <Icon.Arrow />
             </a>
@@ -112,7 +112,7 @@ function BlogWhatIsAGlp1Medication() {
 
           <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>The Compounding Pharmacy Solution</h3>
           <p>Because Novo Nordisk and Eli Lilly cannot manufacture these drugs fast enough, both Semaglutide and Tirzepatide are currently on the FDA Drug Shortage List. Under federal law, this allows licensed 503A and 503B compounding pharmacies to produce the exact same active pharmaceutical ingredient.</p>
-          <p>Telehealth platforms like Telehealth FX connect patients with board-certified clinicians who can prescribe these compounded medications off-label. This bypasses the insurance monopoly and brings the cost down to <strong>as low as $146 per month</strong> for Semaglutide. It is the exact same clinical molecule, shipped directly to your door in sterile vials, for a fraction of the cost.</p>
+          <p>Telehealth platforms like Telehealth FX connect patients with board-certified clinicians who can prescribe these compounded medications off-label. This bypasses the insurance monopoly and brings the cost down to <strong>as low as $99 for your first month</strong> for Semaglutide ($190/mo renewal, Affirm from $25/mo). It is the exact same clinical molecule, shipped directly to your door in sterile vials, for a fraction of the cost.</p>
 
           <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
             <div style={{ width: 48, height: 48, borderRadius: '50%', background: 'var(--brand-soft)', color: 'var(--brand)', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 20px' }}>

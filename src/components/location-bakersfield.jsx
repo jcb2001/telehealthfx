@@ -25,7 +25,7 @@ export function LocationBakersfield() {
         { name: "Seven Oaks / Rosedale Concierge", cost: "$600 - $900 / mo", consult: "Mandatory In-Person", access: "Branded Only" },
         { name: "Ming Ave MedSpas", cost: "$300 - $550 / mo", consult: "Monthly Membership", access: "Variable Compounding" },
         { name: "Kern Medical Endocrinology", cost: "$100 Copay + Rx", consult: "14-20 Week Wait", access: "Prior Auth Required" }
-      ]} telehealthPrice="From $146 / mo" />
+      ]} telehealthPrice="From $99 (1st Mo)" />
       <LocalTransitPain title="Bypass the 99 & the Drive to LA" transitText="Bakersfield is car-dependent, stretching along Highway 99 and the Westside Highway (I-5). The drive to Los Angeles for a specialist appointment is 2+ hours through the Grapevine, making it a full-day commitment." hospitalText="<strong>Adventist Health Bakersfield</strong>, <strong>Dignity Health (Mercy)</strong>, and <strong>Kern Medical</strong> provide local care, but specialist capacity is critically insufficient." />
       <InteractiveFAQ faqs={[
         { q: "My doctor said to drive to LA for a specialist. Is there another way?", a: "Yes. Telehealth FX provides California-licensed physician evaluation without any in-person visit. Your medication is delivered directly to your Bakersfield address." },

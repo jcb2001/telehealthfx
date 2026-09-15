@@ -27,7 +27,7 @@ export function WeightLossSeattle() {
       <CostComparisonTable 
         title="Seattle Medspas vs. Telehealth FX"
         localCompetitors={[{"name":"Bellevue Anti-Aging Medspas","cost":"$800 - $1,400/mo","consult":"In-Person Required","access":"Weekly Office Visits"},{"name":"South Lake Union Clinics","cost":"$700 - $1,000/mo","consult":"In-Person Required","access":"In-Office Injections"}]}
-        telehealthPrice="From $297/mo"
+        telehealthPrice="From $99 (1st Mo)"
       />
 
       <ClinicalDeepDive 

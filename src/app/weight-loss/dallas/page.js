@@ -13,10 +13,10 @@ import {
 
 export const metadata = {
   title: "Medical Weight Loss and GLP-1 in Dallas, TX | Telehealth FX",
-  description: "Physician-prescribed GLP-1 weight loss in Dallas, TX. Bypass 8-14 week UT Southwestern waitlists. Compounded Semaglutide from $146/mo with cold-chain delivery.",
+  description: "Physician-prescribed GLP-1 weight loss in Dallas, TX. Bypass 8-14 week UT Southwestern waitlists. Compounded Semaglutide starting at $99 first month promo with cold-chain delivery. Affirm financing available.",
   openGraph: {
     title: "Medical Weight Loss and GLP-1 in Dallas, TX | Telehealth FX",
-    description: "Physician-prescribed GLP-1 weight loss in Dallas, TX. Bypass 8-14 week UT Southwestern waitlists. Compounded Semaglutide from $146/mo with cold-chain delivery.",
+    description: "Physician-prescribed GLP-1 weight loss in Dallas, TX. Bypass 8-14 week UT Southwestern waitlists. Compounded Semaglutide starting at $99 first month promo with cold-chain delivery. Affirm financing available.",
     url: "https://telehealthfx.com/weight-loss/dallas/",
     siteName: "Telehealth FX",
     type: "website"
@@ -46,7 +46,7 @@ export default function WeightLossDallasPage() {
         "@id": "https://telehealthfx.com/weight-loss/dallas/#webpage",
         "url": "https://telehealthfx.com/weight-loss/dallas/",
         "name": "Medical Weight Loss and GLP-1 in Dallas, TX | Telehealth FX",
-        "description": "Physician-prescribed GLP-1 weight loss in Dallas, TX. Bypass 8-14 week UT Southwestern waitlists. Compounded Semaglutide from $146/mo with cold-chain delivery.",
+        "description": "Physician-prescribed GLP-1 weight loss in Dallas, TX. Bypass 8-14 week UT Southwestern waitlists. Compounded Semaglutide starting at $99 first month promo with cold-chain delivery. Affirm financing available.",
         "inLanguage": "en-US",
         "medicalAudience": {
           "@type": "MedicalAudience",
@@ -95,7 +95,7 @@ export default function WeightLossDallasPage() {
         },
         "currenciesAccepted": "USD",
         "paymentAccepted": "Credit Card, Debit Card, HSA, FSA",
-        "priceRange": "$146 - $349 per month"
+        "priceRange": "$99 - $299 per month"
       }
     ]
   };
@@ -116,7 +116,7 @@ export default function WeightLossDallasPage() {
       <LocalTransitPain
         title="Why DFW Professionals Are Bypassing In-Person Weight Loss Clinics"
         transitText="Enduring 60-minute gridlock on Central Expressway (US-75), the Dallas North Tollway, or I-35E just to sit in an exam room for 5 minutes of provider face time is completely incompatible with a demanding executive schedule."
-        hospitalText="Major regional healthcare institutions—including <strong>UT Southwestern Medical Center</strong>, <strong>Baylor Scott & White Health</strong>, and <strong>Texas Health Resources</strong>—face overwhelming specialist backlogs with <strong>8 to 14 week waiting lists</strong> for obesity management. Concurrently, boutique medspas in Uptown and Highland Park charge $650–$1,000 per month. Telehealth FX delivers direct physician care from $146/mo."
+        hospitalText="Major regional healthcare institutions—including <strong>UT Southwestern Medical Center</strong>, <strong>Baylor Scott & White Health</strong>, and <strong>Texas Health Resources</strong>—face overwhelming specialist backlogs with <strong>8 to 14 week waiting lists</strong> for obesity management. Concurrently, boutique medspas in Uptown and Highland Park charge $650–$1,000 per month. Telehealth FX delivers direct physician care starting at $99 first month promo."
       />
       <CostComparisonTable
         title="DFW Medspas vs. Telehealth FX"
@@ -125,7 +125,7 @@ export default function WeightLossDallasPage() {
           { name: "Plano & Frisco Wellness Clinics", cost: "$550 - $850/mo", consult: "Bi-weekly Visits", access: "Clinic Injection Fees" },
           { name: "UT Southwestern Endocrinology", cost: "$140 Copay + Labs", consult: "8-14 Week Wait", access: "Prior Auth Denials" }
         ]}
-        telehealthPrice="From $146/mo"
+        telehealthPrice="From $99 (1st Mo)"
       />
       <ClinicalDeepDive
         title="Incretin Receptor Biology & Reversing Insulin Resistance in DFW"
@@ -148,7 +148,7 @@ export default function WeightLossDallasPage() {
       />
       <InsuranceBreakdown
         title="DFW Corporate Benefit Exclusions & The Pre-Tax HSA/FSA Bypass"
-        text="Major North Texas enterprise employers—including AT&T, American Airlines, Southwest Airlines, Texas Instruments, and ExxonMobil—have carved weight loss medications out of their commercial health plans. Telehealth FX bypasses the insurance maze with transparent cash-pay pricing starting at $146/mo, fully reimbursable through pre-tax HSA and FSA dollars."
+        text="Major North Texas enterprise employers—including AT&T, American Airlines, Southwest Airlines, Texas Instruments, and ExxonMobil—have carved weight loss medications out of their commercial health plans. Telehealth FX bypasses the insurance maze with transparent cash-pay pricing starting at $99/mo (1st month promo), fully reimbursable through pre-tax HSA and FSA dollars."
       />
       <DeliveryGridMap
         cityName="Dallas"
@@ -169,7 +169,7 @@ export default function WeightLossDallasPage() {
           },
           {
             q: "What is the monthly cost for compounded Semaglutide in Dallas?",
-            a: "Telehealth FX offers compounded Semaglutide from $146 per month and compounded Tirzepatide from $249 per month. All pricing includes the physician consultation, prescription, medical supplies, and expedited cold-chain shipping."
+            a: "Telehealth FX offers compounded Semaglutide and Tirzepatide starting at just $99 for your first month promo (regular renewal $190–$199/mo for Semaglutide, $214–$299/mo for Tirzepatide). Affirm financing is also available starting at $25/mo. All pricing includes the physician consultation, prescription, medical supplies, and expedited cold-chain shipping."
           },
           {
             q: "Can I use my HSA or FSA account in Texas?",

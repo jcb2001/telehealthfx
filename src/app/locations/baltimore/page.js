@@ -3,10 +3,10 @@ import { LocationBaltimore } from "../../../components/location-baltimore";
 export const metadata = {
   robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss Clinic in Baltimore, MD | Telehealth FX",
-  description: "Quality compounded Semaglutide prescribed by Maryland-licensed physicians in Baltimore. Fast 24-hour approval and cold-pack delivery directly from $146/mo.",
+  description: "Quality compounded Semaglutide prescribed by Maryland-licensed physicians in Baltimore. Fast 24-hour approval and cold-pack delivery directly from $99/mo (1st month promo, Affirm available).",
   openGraph: {
     title: "GLP-1 Weight Loss Clinic in Baltimore, MD | Telehealth FX",
-    description: "Clinical GLP-1 telehealth for Baltimore, Maryland residents. Maryland-licensed physicians. Overnight cold-pack shipping from $146/mo.",
+    description: "Clinical GLP-1 telehealth for Baltimore, Maryland residents. Maryland-licensed physicians. Overnight cold-pack shipping from $99/mo (1st month promo).",
     url: "https://telehealthfx.com/locations/baltimore/",
     siteName: "Telehealth FX",
     type: "website"
@@ -69,7 +69,7 @@ export default function BaltimorePage() {
         "@id": "https://telehealthfx.com/locations/baltimore#webpage",
         "url": "https://telehealthfx.com/locations/baltimore/",
         "name": "GLP-1 Weight Loss Clinic in Baltimore, MD | Telehealth FX",
-        "description": "Quality compounded Semaglutide prescribed by Maryland-licensed physicians in Baltimore. Fast 24-hour approval and cold-pack delivery directly from $146/mo.",
+        "description": "Quality compounded Semaglutide prescribed by Maryland-licensed physicians in Baltimore. Fast 24-hour approval and cold-pack delivery directly from $99/mo (1st month promo, Affirm available).",
         "isPartOf": {
           "@id": "https://telehealthfx.com/#website"
         },
@@ -124,7 +124,7 @@ export default function BaltimorePage() {
         },
         "currenciesAccepted": "USD",
         "paymentAccepted": "Credit Card, HSA, FSA",
-        "priceRange": "$146-$349/mo"
+        "priceRange": "$99-$299/mo"
       },
       {
         "@type": "Service",
@@ -145,7 +145,7 @@ export default function BaltimorePage() {
         "serviceType": "Telehealth Weight Management",
         "offers": {
           "@type": "Offer",
-          "price": "146",
+          "price": "99",
           "priceCurrency": "USD",
           "priceValidUntil": "2026-12-31",
           "availability": "https://schema.org/InStock",

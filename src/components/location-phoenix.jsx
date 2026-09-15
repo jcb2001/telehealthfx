@@ -45,7 +45,7 @@ export function LocationPhoenix() {
           { name: "Mayo Clinic Arizona (Endocrinology)", cost: "$250 Copay + Rx", consult: "10-16 Week New Patient Wait", access: "Formulary Restrictions / Denials" },
           { name: "Banner Health Primary Care", cost: "$75 Copay", consult: "4-8 Week Wait", access: "Prior Auth Required / Pharmacy Backorder" }
         ]}
-        telehealthPrice="From $146 / mo"
+        telehealthPrice="From $99 (1st Mo)"
       />
 
       <StateLegalFramework

@@ -3,13 +3,13 @@ import { BlogHiddenFeesInTelehealthWeightLossHowToSpot } from "../../../componen
 export const metadata = {
   robots: { index: true, follow: true },
   title: "Telehealth Weight Loss: No Hidden Fees Pricing (2026)",
-  description: "Tired of surprise membership fees? See full transparent price breakdown for Semaglutide ($146/mo) and Tirzepatide ($258/mo) with zero extra costs or traps.",
+  description: "Tired of surprise membership fees? See full transparent price breakdown for Semaglutide (from $99/mo promo) and Tirzepatide (from $99/mo promo) with zero extra costs or traps.",
   alternates: {
     canonical: 'https://telehealthfx.com/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot/',
   },
   openGraph: {
     title: "Telehealth Weight Loss: No Hidden Fees Pricing (2026)",
-    description: "Tired of surprise membership fees? See full transparent price breakdown for Semaglutide ($146/mo) and Tirzepatide ($258/mo) with zero extra costs or traps.",
+    description: "Tired of surprise membership fees? See full transparent price breakdown for Semaglutide (from $99/mo promo) and Tirzepatide (from $99/mo promo) with zero extra costs or traps.",
     url: 'https://telehealthfx.com/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot/',
     siteName: 'Telehealth FX',
     images: [

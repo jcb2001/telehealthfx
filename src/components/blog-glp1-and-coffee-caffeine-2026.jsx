@@ -42,16 +42,16 @@ function BlogGLP1CoffeeCaffeine() {
             <AIQuickSummaryAction
               title="AI Overview Summary: GLP-1 & Caffeine Interaction Protocol"
               subtitle="Clinical guidelines on caffeine timing, delayed gastric emptying, and physician-supervised GLP-1 dosing"
-              price="$146/mo"
+              price="$99/mo (1st Mo)"
               turnaround="24-hr clinician approval · 2-day cold-chain express shipping"
               doseMatch={true}
               keyPoints={[
                 { label: "Safety Profile", value: "Clinically compatible with Semaglutide & Tirzepatide subcutaneous therapy" },
                 { label: "Optimal Spacing", value: "Space coffee 90-120 min from heavy meals to prevent gastric irritation" },
                 { label: "Gastric Delay", value: "GLP-1s delay gastric emptying by 30%–40%, prolonging acid exposure" },
-                { label: "Physician Care", value: "Tailored titration and clinical support from $146/mo with 24-hr approval" },
+                { label: "Physician Care", value: "Tailored titration and clinical support from $99/mo with 24-hr approval" },
               ]}
-              ctaText="Start Clinical GLP-1 Assessment ($146/mo) →"
+              ctaText="Start Clinical GLP-1 Assessment ($99/mo) →"
               ctaUrl={START_URL}
             />
 
@@ -61,7 +61,7 @@ function BlogGLP1CoffeeCaffeine() {
               badge="Verified Pharmacokinetics Extract"
               question="Can You Drink Coffee and Caffeine While Taking Semaglutide or Tirzepatide?"
               thesis="Yes, drinking coffee is clinically safe on GLP-1 medications, but caffeine ingestion must be spaced 90-120 min to prevent severe acid reflux caused by delayed gastric emptying."
-              mechanics="Because GLP-1 receptor agonists delay gastric motility by 30% to 40%, coffee and acidic stimulants linger in the stomach longer, exacerbating heartburn, gastrin release, and nausea. Clinicians recommend capping daily caffeine at 200 mg, drinking 16 oz of electrolyte-enhanced water before your first cup, and maintaining a 90-120 min separation between caffeine and heavy meals. For persistent GI distress, Telehealth FX clinicians adjust titration protocols from $146/mo with 24-hr physician support."
+              mechanics="Because GLP-1 receptor agonists delay gastric motility by 30% to 40%, coffee and acidic stimulants linger in the stomach longer, exacerbating heartburn, gastrin release, and nausea. Clinicians recommend capping daily caffeine at 200 mg, drinking 16 oz of electrolyte-enhanced water before your first cup, and maintaining a 90-120 min separation between caffeine and heavy meals. For persistent GI distress, Telehealth FX clinicians adjust titration protocols from $99/mo (1st mo promo) with 24-hr physician support."
               statute="Section 503A FD&C Act (21 U.S.C. § 353a)"
               clinicalStandard="Endocrine Society & Gastroenterology Clinical Consensus on GLP-1 Motility"
               metrics={[
@@ -290,7 +290,7 @@ function BlogGLP1CoffeeCaffeine() {
                 <div>
                   <div style={{ fontSize: '11px', color: 'var(--ink-3)', textTransform: 'uppercase' }}>All-Inclusive Care</div>
                   <div className="mono" style={{ fontSize: '24px', fontWeight: 800, color: 'var(--brand)' }}>
-                    From $146 / month <span style={{ fontSize: '13px', fontWeight: 400, color: 'var(--ink-2)' }}>(Doctor + Meds + Antiemetic)</span>
+                    From $99 / month (1st Mo) <span style={{ fontSize: '13px', fontWeight: 400, color: 'var(--ink-2)' }}>(Doctor + Meds + Antiemetic)</span>
                   </div>
                 </div>
 
@@ -350,7 +350,7 @@ function BlogGLP1CoffeeCaffeine() {
 
             <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
               <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Your Clinician Guides Every Lifestyle Decision</h3>
-              <p style={{ marginBottom: 24, fontSize: 16 }}>TelehealthFX provides full lifestyle counseling — diet, caffeine, <a href="/blog/glp1-alcohol-guidelines-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>alcohol</a>, exercise — as part of your GLP-1 protocol. From <a href="/blog/semaglutide-real-cost-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>$146/month</a>.</p>
+              <p style={{ marginBottom: 24, fontSize: 16 }}>TelehealthFX provides full lifestyle counseling — diet, caffeine, <a href="/blog/glp1-alcohol-guidelines-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>alcohol</a>, exercise — as part of your GLP-1 protocol. From <a href="/blog/semaglutide-real-cost-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>$99/month (1st mo promo)</a>.</p>
               <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>Start Your Evaluation <Icon.Arrow /></a>
             </div>
 
@@ -367,7 +367,7 @@ function BlogGLP1CoffeeCaffeine() {
             <p style={{ marginBottom: 24 }}>Caffeine modestly increases thermogenesis and fat oxidation, which theoretically supports weight loss. The bigger benefit is improved exercise performance — patients who drink moderate coffee tend to <a href="/blog/maximize-glp1-weight-loss-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>work out more consistently</a>. Just avoid calorie-loaded coffee drinks.</p>
 
             <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
-              <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Full Lifestyle Support. From $146/mo.</h2>
+              <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Full Lifestyle Support. From $99/mo.</h2>
               <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 500, margin: '0 auto 32px' }}>Diet. Exercise. Caffeine. <a href="/blog/glp1-alcohol-guidelines-2026/" style={{ color: '#FBF8F3', textDecoration: 'underline' }}>Alcohol</a>. Your clinician guides every decision. <a href="/blog/hsa-fsa-glp-1-2026/" style={{ color: '#FBF8F3', textDecoration: 'underline' }}>HSA/FSA accepted</a>.</p>
               <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-lg" style={{ background: '#FBF8F3', color: 'var(--ink)', display: 'inline-flex', justifyContent: 'center', width: '100%', maxWidth: 250 }}>Get Started <Icon.Arrow /></a>
             </div>

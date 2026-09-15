@@ -47,7 +47,7 @@ export function LocationKansasCity() {
           { name: "Overland Park MedSpas", cost: "$400 - $700 / mo", consult: "Monthly Membership", access: "Variable Compounding" },
           { name: "Saint Luke's Endocrinology", cost: "$125 Copay + Rx", consult: "10-14 Week Wait", access: "Prior Auth Required" }
         ]}
-        telehealthPrice="From $146 / mo"
+        telehealthPrice="From $99 (1st Mo)"
       />
       <LocalTransitPain
         title="Bypass the State Line & Saint Luke's Waitlists"

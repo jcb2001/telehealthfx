@@ -26,7 +26,7 @@ export function LocationAnchorage() {
         { name: "Hillside / South Anchorage Concierge", cost: "$900 - $1,400 / mo", consult: "Mandatory In-Person", access: "Branded Only / Supply Limited" },
         { name: "Midtown MedSpas", cost: "$500 - $800 / mo", consult: "Monthly Membership", access: "Variable Compounding" },
         { name: "Providence Endocrinology", cost: "$150 Copay + Rx", consult: "16-24 Week Wait", access: "Formulary Restrictions" }
-      ]} telehealthPrice="From $146 / mo" />
+      ]} telehealthPrice="From $99 (1st Mo)" />
       <LocalTransitPain title="There Is No Alternative Hospital" transitText="Anchorage has no freeway congestion problem—because there's nowhere else to go. The Glenn Highway connects to the Mat-Su Valley. The Seward Highway connects to the Kenai Peninsula. There is no neighboring city with a competing medical system. Providence Alaska Medical Center is it." hospitalText="<strong>Providence Alaska Medical Center</strong> and <strong>Alaska Native Medical Center</strong> are the only major hospitals. The nearest alternative is in <strong>Seattle—2,400 miles and a 3.5-hour flight away</strong>." />
       <InteractiveFAQ faqs={[
         { q: "Will the medication survive shipping to Alaska in winter?", a: "Yes. Our compounding pharmacy partners use insulated, temperature-controlled packaging rated for extreme cold (-40°F). We recommend retrieving packages promptly upon delivery." },

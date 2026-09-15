@@ -31,7 +31,7 @@ export function WeightLossMiami() {
           { name: "Coral Gables Weight Loss Clinics", cost: "$600 - $900/mo", consult: "In-Person Required", access: "In-Office Injections" },
           { name: "Primary Care (No Insurance)", cost: "$1,300+/mo (Retail)", consult: "In-Person + Labs", access: "Local Pharmacy Backorders" }
         ]}
-        telehealthPrice="From $297/mo"
+        telehealthPrice="From $99 (1st Mo)"
       />
 
       <ClinicalDeepDive 

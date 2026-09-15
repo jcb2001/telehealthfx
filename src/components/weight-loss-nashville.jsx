@@ -27,7 +27,7 @@ export function WeightLossNashville() {
       <CostComparisonTable 
         title="Nashville Medspas vs. Telehealth FX"
         localCompetitors={[{"name":"Green Hills Anti-Aging Medspas","cost":"$800 - $1,200/mo","consult":"In-Person Required","access":"Weekly Office Visits"},{"name":"Brentwood Weight Loss Clinics","cost":"$600 - $900/mo","consult":"In-Person Required","access":"In-Office Injections"}]}
-        telehealthPrice="From $297/mo"
+        telehealthPrice="From $99 (1st Mo)"
       />
 
       <ClinicalDeepDive 

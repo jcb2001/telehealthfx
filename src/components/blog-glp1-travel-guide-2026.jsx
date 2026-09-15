@@ -70,16 +70,16 @@ contact@telehealthfx.com | 1-800-TELEHEALTH`;
             <AIQuickSummaryAction
               title="AI Overview Summary: GLP-1 Travel & TSA Exemption Verification"
               subtitle="Official verification of TSA Title 49 CFR § 1540.111 carry-on exemption rules with emergency travel refill support"
-              price="$146/mo"
+              price="$99/mo (1st Mo)"
               turnaround="24-hr clinician approval · 2-day cold-chain express shipping"
               doseMatch={true}
               keyPoints={[
                 { label: "TSA Exemption", value: "100% Exempt from 3-1-1 Liquid Restrictions (49 CFR § 1540.111)" },
                 { label: "Storage Rule", value: "Pack in Carry-On Luggage Only (Never in Aircraft Cargo Holds)" },
                 { label: "Temp Stability", value: "36°F to 46°F baseline; room temperature stable up to 86°F (21 days for Tirzepatide, 56 days for Semaglutide)" },
-                { label: "Travel Intake", value: "Physician consultation and travel-ready cold shipping from $146/mo" },
+                { label: "Travel Intake", value: "Physician consultation and travel-ready cold shipping from $99/mo" },
               ]}
-              ctaText="Get Travel Refill & Clinical Evaluation ($146/mo) →"
+              ctaText="Get Travel Refill & Clinical Evaluation ($99/mo) →"
               ctaUrl={S}
             />
 
@@ -173,11 +173,11 @@ contact@telehealthfx.com | 1-800-TELEHEALTH`;
                     gap: '6px',
                   }}
                 >
-                  <span>Request Emergency Travel Refill ($146/mo)</span>
+                  <span>Request Emergency Travel Refill ($99/mo)</span>
                   <span>➔</span>
                 </a>
                 <span style={{ fontSize: '12px', color: 'rgba(251, 248, 243, 0.7)' }}>
-                  From $146/mo all-inclusive · HSA/FSA accepted
+                  From $99/mo (1st mo promo) all-inclusive · Affirm · HSA/FSA accepted
                 </span>
               </div>
             </div>
@@ -355,7 +355,7 @@ contact@telehealthfx.com | 1-800-TELEHEALTH`;
 
             <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
               <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Plan Ahead — Get Extra Medication Before Your Trip</h3>
-              <p style={{ marginBottom: 24, fontSize: 16 }}>TelehealthFX ships medication nationwide. Request an early refill before travel. From <a href="/blog/semaglutide-real-cost-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>$146/month</a>. <a href="/blog/hsa-fsa-glp-1-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>HSA/FSA accepted</a>.</p>
+              <p style={{ marginBottom: 24, fontSize: 16 }}>TelehealthFX ships medication nationwide. Request an early refill before travel. From <a href="/blog/semaglutide-real-cost-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>$99/month (1st mo promo)</a>. <a href="/blog/hsa-fsa-glp-1-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>HSA/FSA accepted</a>.</p>
               <a href={S} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>Start Your Evaluation <Icon.Arrow /></a>
             </div>
 
@@ -373,7 +373,7 @@ contact@telehealthfx.com | 1-800-TELEHEALTH`;
             <p style={{ marginBottom: 24 }}>Yes. Semaglutide and tirzepatide have long half-lives. You can safely shift your injection day by 1–2 days in either direction. If your normal injection day is Wednesday but you are on an international flight, injecting on Tuesday or Thursday is perfectly acceptable. See our <a href="/blog/best-time-inject-semaglutide-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>injection timing guide</a> for detailed scheduling advice.</p>
 
             <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
-              <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Ship Medication Before Your Trip. From $146/mo.</h2>
+              <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Ship Medication Before Your Trip. From $99/mo.</h2>
               <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 500, margin: '0 auto 32px' }}>Nationwide shipping. Early refills available. <a href="/blog/same-day-glp-1-prescription-2026/" style={{ color: '#FBF8F3', textDecoration: 'underline' }}>Same-day evaluations</a>.</p>
               <a href={S} target="_blank" rel="noopener noreferrer" className="btn btn-lg" style={{ background: '#FBF8F3', color: 'var(--ink)', display: 'inline-flex', justifyContent: 'center', width: '100%', maxWidth: 250 }}>Get Started <Icon.Arrow /></a>
             </div>

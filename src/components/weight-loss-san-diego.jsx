@@ -27,7 +27,7 @@ export function WeightLossSanDiego() {
       <CostComparisonTable 
         title="San Diego Medspas vs. Telehealth FX"
         localCompetitors={[{"name":"La Jolla Anti-Aging Medspas","cost":"$900 - $1,500/mo","consult":"In-Person Required","access":"Weekly Office Visits"},{"name":"Del Mar Weight Loss Clinics","cost":"$700 - $1,100/mo","consult":"In-Person Required","access":"In-Office Injections"}]}
-        telehealthPrice="From $297/mo"
+        telehealthPrice="From $99 (1st Mo)"
       />
 
       <ClinicalDeepDive 

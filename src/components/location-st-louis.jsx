@@ -47,7 +47,7 @@ export function LocationStLouis() {
           { name: "Brentwood / Kirkwood MedSpas", cost: "$400 - $700 / mo", consult: "Monthly Membership", access: "Variable Compounding" },
           { name: "Barnes-Jewish Endocrinology", cost: "$150 Copay + Rx", consult: "10-14 Week Wait", access: "Formulary Restrictions" }
         ]}
-        telehealthPrice="From $146 / mo"
+        telehealthPrice="From $99 (1st Mo)"
       />
       <LocalTransitPain
         title="Bypass the Poplar Street Bridge & BJC Waitlists"

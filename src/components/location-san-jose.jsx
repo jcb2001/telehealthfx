@@ -39,7 +39,7 @@ export function LocationSanJose() {
           { name: "Stanford Health Endocrinology", cost: "$200 Copay + Rx", consult: "12-16 Week New Patient Wait", access: "Formulary Restrictions / Prior Auth" },
           { name: "El Camino Health Primary Care", cost: "$75 Copay", consult: "4-6 Week Wait", access: "Step Therapy / Pharmacy Backorder" }
         ]}
-        telehealthPrice="From $146 / mo"
+        telehealthPrice="From $99 (1st Mo)"
       />
 
       <ClinicalDeepDive
@@ -69,7 +69,7 @@ export function LocationSanJose() {
           { q: "I already wear a CGM. Can I share my glucose data with my prescriber?", a: "Yes. During your intake, you can upload screenshots or reports from your CGM platform (Dexcom, Freestyle Libre, Levels, etc.). While not required, this supplemental data gives your prescribing physician additional clinical context that can inform dosage titration and protocol optimization." },
           { q: "My startup offers an HDHP with an HSA. Can I use HSA funds?", a: "Absolutely. Both the physician consultation and the compounded medication are HSA/FSA-eligible expenses. For engineers on high-deductible startup plans, this often makes Telehealth FX the most tax-efficient pathway to GLP-1 access—you're paying with pre-tax dollars for a service your plan won't cover anyway." },
           { q: "Can I get medication shipped to my office on the Apple/Google campus?", a: "We deliver to all residential and commercial addresses in Santa Clara County and the broader South Bay. Many tech workers opt for delivery to a campus mailroom or staffed reception area. Just ensure someone can receive and refrigerate the cold-packed shipment upon arrival." },
-          { q: "I'm a 1099 contractor with no health insurance. Is this affordable?", a: "Telehealth FX starts at $146/month with no membership fee, no consultation fee, and no hidden costs. For independent contractors and gig workers without employer coverage, this represents the most accessible pathway to clinical GLP-1 therapy available in the Bay Area." },
+          { q: "I'm a 1099 contractor with no health insurance. Is this affordable?", a: "Telehealth FX starts at $99 for your first month with Affirm financing from $25/mo, no membership fee, no consultation fee, and no hidden costs. For independent contractors and gig workers without employer coverage, this represents the most accessible pathway to clinical GLP-1 therapy available in the Bay Area." },
           { q: "How does this compare to the 'longevity clinics' in Palo Alto?", a: "Palo Alto longevity clinics charge $1,200-$1,800/month and require mandatory in-person visits and extensive lab panels. Telehealth FX provides the same active pharmaceutical ingredients (compounded Semaglutide or Tirzepatide) prescribed by a CA-licensed physician, without the concierge overhead. The medication is identical; the delivery model is simply more efficient." }
         ]}
       />

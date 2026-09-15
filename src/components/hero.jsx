@@ -103,7 +103,7 @@ function HeroEditorial({ headline, priceAnchor }) {
           )) || "GLP-1 Clinical Weight Loss"}
         </h1>
         <p style={{ fontSize: 19, color: 'var(--ink-2)', maxWidth: 600, margin: '0 auto 40px', lineHeight: 1.5 }}>
-          Personalized GLP-1 care from licensed clinicians. From $146/month, 2-Day shipping to your door.
+          Personalized GLP-1 care from licensed clinicians. From $99 first month promo with Affirm financing, free 2-Day cold shipping to your door.
         </p>
         <a className="btn btn-primary btn-lg" href="https://go.telehealthfx.com/start">
           See If You Qualify <Icon.Arrow />
@@ -127,7 +127,7 @@ function HeroData({ headline, priceAnchor }) {
             )) || "GLP-1 Clinical Weight Loss"}
           </h1>
           <p style={{ fontSize: 17, color: 'var(--ink-2)', maxWidth: 480, marginBottom: 32, lineHeight: 1.55 }}>
-            Personalized GLP-1 care from board-certified clinicians. Transparent pricing from $146/month.
+            Personalized GLP-1 care from board-certified clinicians. Transparent introductory pricing from $99 first month.
           </p>
           <a className="btn btn-primary btn-lg" href="https://go.telehealthfx.com/start">
             See If You Qualify <Icon.Arrow />

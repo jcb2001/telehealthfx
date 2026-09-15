@@ -60,7 +60,7 @@ export function LocationColumbus() {
           { name: "OSU Wexner Endocrinology", cost: "$175 Copay + Rx", consult: "12-16 Week New Patient Wait", access: "Formulary Restrictions / Step Therapy" },
           { name: "OhioHealth Primary Care", cost: "$50 Copay", consult: "6-10 Week Wait", access: "Prior Auth / Pharmacy Backorder" }
         ]}
-        telehealthPrice="From $146 / mo"
+        telehealthPrice="From $99 (1st Mo)"
       />
 
       <StateLegalFramework
@@ -75,7 +75,7 @@ export function LocationColumbus() {
           { q: "I'm relocating to Columbus for the Intel fab. Can I start treatment before I move?", a: "You can begin treatment as soon as you have an Ohio residential address for medication delivery. Complete your intake once you're physically located in Ohio, and an OH-licensed physician will evaluate your profile. If you're transferring an existing GLP-1 protocol from another state, include that documentation in your intake for continuity of care." },
           { q: "Can medication be delivered to my office in the Polaris or Easton area?", a: "Yes. We deliver to all residential and commercial addresses in Franklin County and the surrounding metro, including Dublin, Westerville, New Albany, Upper Arlington, Hilliard, Grove City, Reynoldsburg, and the Polaris/Easton commercial corridors." },
           { q: "How is this different from the weight loss shots advertised on OSU game day?", a: "Many clinics running game-day advertisements offer B12 injections or lipotropic blends with no FDA-recognized efficacy data for obesity. Telehealth FX prescribes only compounded Semaglutide and Tirzepatide—true GLP-1 receptor agonists validated by the most comprehensive Phase III clinical trial programs (STEP and SURMOUNT) in weight management history." },
-          { q: "Do you accept Buckeye Health Plan or CareSource (Medicaid)?", a: "Telehealth FX is a self-pay service and does not bill Medicaid or any insurance plan directly. However, our costs (from $146/month) are often comparable to or less than Medicaid specialty drug copays, and all services are eligible for payment via HSA or FSA pre-tax funds." }
+          { q: "Do you accept Buckeye Health Plan or CareSource (Medicaid)?", a: "Telehealth FX is a self-pay service and does not bill Medicaid or any insurance plan directly. However, our costs (from $99/month 1st-mo promo, with Affirm financing from $25/mo) are often comparable to or less than Medicaid specialty drug copays, and all services are eligible for payment via HSA or FSA pre-tax funds." }
         ]}
       />
 

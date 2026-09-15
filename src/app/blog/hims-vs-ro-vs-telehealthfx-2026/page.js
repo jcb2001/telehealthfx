@@ -83,7 +83,7 @@ export default function Page() {
             "name": "Which telehealth provider is best for GLP-1 weight loss: Hims, Ro, or Telehealth FX?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Telehealth FX offers the lowest all-inclusive price starting at $146/month with 503A compounded semaglutide, zero monthly membership fees, and included cold-chain shipping, whereas Hims and Ro charge separate monthly membership dues ($99-$145) plus high brand-name prescription costs."
+              "text": "Telehealth FX offers the lowest all-inclusive price starting at $99/month (1st month promo) with 503A compounded semaglutide, zero monthly membership fees, and included cold-chain shipping, whereas Hims and Ro charge separate monthly membership dues ($99-$145) plus high brand-name prescription costs."
             }
           },
           {

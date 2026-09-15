@@ -37,7 +37,7 @@ function Blog7TopWeightLossInjections() {
               <ul style={{ paddingLeft: 20, margin: 0, fontSize: 15, color: '#3A423D', display: 'flex', flexDirection: 'column', gap: 8 }}>
                 <li><strong>Top Sourcing Criteria:</strong> Ensure all compounds originate from state-licensed U.S. 503A compounding pharmacies to avoid non-sterile, untested research chemical peptides.</li>
                 <li><strong>The Sarcopenia Risk:</strong> Rapid fat loss without a dedicated protein (1.2–1.6g/kg) and resistance training protocol will result in severe lean muscle wasting, permanently reducing resting metabolic rate.</li>
-                <li><strong>Winner (#1 Rank):</strong> Telehealth FX is ranked #1 due to its transparent, starting-dose pricing (from $146/mo), integrated muscle-preservation support, and optional hormone co-management (TRT).</li>
+                <li><strong>Winner (#1 Rank):</strong> Telehealth FX is ranked #1 due to its transparent, starting-dose pricing (from $99/mo), integrated muscle-preservation support, and optional hormone co-management (TRT).</li>
                 <li><strong>Hidden Fees Alert:</strong> Traditional telehealth platforms frequently implement tiered pricing structures that scale costs exponentially as your dosage increases.</li>
               </ul>
             </div>
@@ -91,7 +91,7 @@ function Blog7TopWeightLossInjections() {
               <tbody>
                 <tr style={{ borderBottom: '1px solid #E5DFD2' }}>
                   <td style={{ padding: '12px 8px', fontWeight: 500, color: '#2E4A3B' }}>1. Telehealth FX</td>
-                  <td style={{ padding: '12px 8px', color: '#16A34A', fontWeight: 600 }}>From $146/mo</td>
+                  <td style={{ padding: '12px 8px', color: '#16A34A', fontWeight: 600 }}>From $99/mo (1st Mo)</td>
                   <td style={{ padding: '12px 8px' }}>No (HSA/FSA Ok)</td>
                   <td style={{ padding: '12px 8px' }}>Licensed U.S. 503A</td>
                   <td style={{ padding: '12px 8px', color: '#16A34A', fontWeight: 500 }}>Comprehensive + TRT</td>
@@ -147,14 +147,14 @@ function Blog7TopWeightLossInjections() {
               <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, marginTop: 0, color: '#1A1F1C' }}>1. Telehealth FX</h3>
               
               <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 16, marginBottom: 24 }}>
-                <div><strong style={{ fontSize: 13, color: '#6B7068' }}>Program Cost</strong><br/><span style={{ fontSize: 18, fontWeight: 700, color: '#1A1F1C' }}>From $146/mo</span></div>
+                <div><strong style={{ fontSize: 13, color: '#6B7068' }}>Program Cost</strong><br/><span style={{ fontSize: 18, fontWeight: 700, color: '#1A1F1C' }}>From $99/mo (1st Mo)</span></div>
                 <div><strong style={{ fontSize: 13, color: '#6B7068' }}>Medication Options</strong><br/><span style={{ fontSize: 18, fontWeight: 700, color: '#1A1F1C' }}>Semaglutide & Tirzepatide</span></div>
                 <div><strong style={{ fontSize: 13, color: '#6B7068' }}>Compounding Pharmacy</strong><br/><span style={{ fontSize: 15, color: '#3A423D' }}>Accredited U.S. 503A Only</span></div>
                 <div><strong style={{ fontSize: 13, color: '#6B7068' }}>Hormone Co-Management</strong><br/><span style={{ fontSize: 15, color: '#2E4A3B', fontWeight: 600 }}>Optional TRT Integration</span></div>
               </div>
 
               <p style={{ fontSize: 16, color: '#3A423D', marginBottom: 20 }}>
-                Telehealth FX stands as the premier online provider of weight loss injections in 2026. The platform bypasses the geographical, financial, and logistical roadblocks associated with traditional clinics by offering a 100% virtual clinical model. Semaglutide programs start at $146 per month, and Tirzepatide programs start at $258 per month, with no membership fees or price scaling as dosages increase. All programs are fully compatible with HSA and FSA cards.
+                Telehealth FX stands as the premier online provider of weight loss injections in 2026. The platform bypasses the geographical, financial, and logistical roadblocks associated with traditional clinics by offering a 100% virtual clinical model. Semaglutide programs start at $99 for your first month (regular $190/mo), and Tirzepatide programs start at $99 for your first month (regular $214/mo), with Affirm financing, no membership fees, and transparent renewal pricing. All programs are fully compatible with HSA and FSA cards.
               </p>
               
               <p style={{ fontSize: 16, color: '#3A423D', marginBottom: 24 }}>
@@ -194,7 +194,7 @@ function Blog7TopWeightLossInjections() {
             <div style={{ background: '#f8fafc', border: '1px solid #E5DFD2', borderRadius: 12, padding: 32, margin: '40px 0', textAlign: 'center' }}>
               <h3 className="serif" style={{ fontSize: 24, marginBottom: 12, marginTop: 0, color: '#1A1F1C' }}>Tired of Insurance Denials & High Costs?</h3>
               <p style={{ fontSize: 16, color: '#3A423D', marginBottom: 20 }}>
-                Telehealth FX offers compounded GLP-1 weight loss programs starting at $146/month. No insurance required, no hidden fees, and licensed U.S. pharmacy sourcing.
+                Telehealth FX offers compounded GLP-1 weight loss programs starting at $99/month (1st month promo). No insurance required, no hidden fees, and licensed U.S. pharmacy sourcing.
               </p>
               <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-secondary" style={{ display: 'inline-flex', justifyContent: 'center' }}>
                 Check Your Eligibility <Icon.Arrow />
@@ -237,7 +237,7 @@ function Blog7TopWeightLossInjections() {
             
             <h3 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: '#1A1F1C' }}>Do I need insurance to work with Telehealth FX?</h3>
             <p style={{ color: '#3A423D', marginBottom: 20 }}>
-              No. Telehealth FX operates on a direct-to-patient business model. We do not require insurance, nor do we run prior authorizations. This allows us to keep our pricing low and transparent, starting at $146/month for semaglutide.
+              No. Telehealth FX operates on a direct-to-patient business model. We do not require insurance, nor do we run prior authorizations. This allows us to keep our pricing low and transparent, starting at $99/month (1st month promo) for semaglutide.
             </p>
 
             <h3 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: '#1A1F1C' }}>What is a 503A compounding pharmacy?</h3>
@@ -259,7 +259,7 @@ function Blog7TopWeightLossInjections() {
             <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: '#2E4A3B', color: '#FBF8F3', textAlign: 'center' }}>
               <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3', marginTop: 0 }}>Start Your Journey Safely Today</h2>
               <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 550, margin: '0 auto 32px' }}>
-                Join Telehealth FX's clinical program. Enjoy compounded weight loss injections starting at $146/month, accredited 503A sourcing, and integrated muscle-preservation support.
+                Join Telehealth FX's clinical program. Enjoy compounded weight loss injections starting at $99 for your first month (with Affirm financing from $25/mo), accredited 503A sourcing, and integrated muscle-preservation support.
               </p>
               <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-lg" style={{ background: '#FBF8F3', color: '#1A1F1C', display: 'inline-flex', justifyContent: 'center', width: '100%', maxWidth: 250 }}>
                 Get Started <Icon.Arrow />

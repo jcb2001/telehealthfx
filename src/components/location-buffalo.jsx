@@ -24,7 +24,7 @@ export function LocationBuffalo() {
         { name: "Elmwood Village / East Aurora Concierge", cost: "$600 - $1,000 / mo", consult: "Mandatory In-Person", access: "Branded Only" },
         { name: "Transit Road MedSpas", cost: "$350 - $600 / mo", consult: "Monthly Membership", access: "Variable Compounding" },
         { name: "Kaleida Endocrinology", cost: "$100 Copay + Rx", consult: "10-16 Week Wait", access: "Prior Auth Required" }
-      ]} telehealthPrice="From $146 / mo" />
+      ]} telehealthPrice="From $99 (1st Mo)" />
       <LocalTransitPain title="Bypass the Lake-Effect & Kaleida Waitlists" transitText="Buffalo's geography along Lake Erie creates weather-dependent commuting that can add hours to any trip during lake-effect events. The I-190/I-90/I-290 system is functional but winter conditions regularly close roads." hospitalText="<strong>Kaleida Health</strong> (Buffalo General), <strong>ECMC</strong>, and <strong>Catholic Health</strong> serve the region. Specialist waits average 10-16 weeks." />
       <InteractiveFAQ faqs={[
         { q: "Will the medication ship safely in Buffalo winter?", a: "Yes. Temperature-controlled, insulated packaging rated for extreme cold. Retrieve packages promptly upon delivery." },

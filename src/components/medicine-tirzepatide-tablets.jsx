@@ -13,7 +13,7 @@ function TirzepatideTabletsPage() {
         "@id": "https://telehealthfx.com/medications/tirzepatide-tablets/#webpage",
         "url": "https://telehealthfx.com/medications/tirzepatide-tablets",
         "name": "Tirzepatide Tablets Weight Loss Program | Telehealth FX",
-        "description": "Get prescribed compounded sublingual Tirzepatide tablets from $224.25/mo. 24-hour clinician approval, zero weekly needles, free shipping.",
+        "description": "Get prescribed compounded sublingual Tirzepatide tablets from $199 first month promo. 24-hour clinician approval, zero weekly needles, free shipping. Affirm financing available.",
         "about": {
           "@type": "Drug",
           "@id": "https://telehealthfx.com/medications/tirzepatide-tablets/#drug",
@@ -36,16 +36,16 @@ function TirzepatideTabletsPage() {
         {/* Hero */}
         <div style={{ textAlign: 'center', marginBottom: 80 }}>
           <div className="pill" style={{ marginBottom: 20, display: 'inline-flex', background: 'rgba(199, 125, 92, 0.12)', borderColor: 'rgba(199, 125, 92, 0.3)', color: 'var(--accent)' }}>
-            <span style={{ width: 6, height: 6, borderRadius: '50%', background: 'var(--accent)' }}/> Strongest Needle-Free Option
+            <span style={{ width: 6, height: 6, borderRadius: '50%', background: 'var(--accent)' }}/> Strongest Needle-Free Option · $199 1st Month Promo
           </div>
           <h1 className="serif" style={{ fontSize: 72, marginBottom: 28, lineHeight: 0.95 }}>
-            Tirzepatide Tablets<br/><span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>from $224.25/mo.</span>
+            Tirzepatide Tablets<br/><span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>from $199/mo.</span>
           </h1>
           <p style={{ fontSize: 20, color: 'var(--ink-2)', maxWidth: 600, margin: '0 auto 40px', lineHeight: 1.6 }}>
-            A powerful once-daily sublingual tablet combining dual GIP & GLP-1 action. a dual GIP/GLP-1 receptor agonist formulation — compounded in U.S. state-licensed pharmacies. Zero weekly needles.
+            A powerful once-daily sublingual tablet combining dual GIP & GLP-1 action. Introductory $199 first month promo (regular $222.85–$299/mo). Affirm financing from $49/mo. Zero weekly needles.
           </p>
           <a href={CTA_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex' }}>
-            See If You Qualify <Icon.Arrow />
+            Claim $199 First Month <Icon.Arrow />
           </a>
         </div>
 
@@ -53,7 +53,7 @@ function TirzepatideTabletsPage() {
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 24, marginBottom: 80 }}>
           {[
             { num: 'Dual', label: 'GIP + GLP-1 Receptors' },
-            { num: '$224.25', label: 'Starting Price/mo' },
+            { num: '$199', label: '1st Month Promo' },
             { num: 'Tablet', label: 'Under-the-Tongue Dissolving' },
           ].map((s, i) => (
             <div key={i} className="card" style={{ padding: 28, textAlign: 'center' }}>
@@ -68,7 +68,7 @@ function TirzepatideTabletsPage() {
 
           <h2 className="serif" style={{ fontSize: 40, marginTop: 0, marginBottom: 24, color: 'var(--ink)' }}>What Are Tirzepatide Tablets?</h2>
           <p>Compounded tirzepatide tablets are a cutting-edge, sublingual oral weight loss option that activates two main metabolic pathways in the body. Formulated with <strong>compounded tirzepatide</strong>, these daily dissolving tablets are placed under the tongue. They are absorbed directly through the sublingual mucosal lining into the blood, bypassing stomach acids and enzymes.</p>
-          <p>Tirzepatide is a <strong>dual GIP/GLP-1 receptor agonist</strong>. By targeting both hormones, it provides a synergistic effect that results in the highest average weight loss of any FDA-approved medication class to date — now available in a daily needle-free tablet starting at <strong>$224.25/month</strong> (on a 10-month plan) or <strong>$299/month</strong> (on a standard 4-month subscription).</p>
+          <p>Tirzepatide is a <strong>dual GIP/GLP-1 receptor agonist</strong>. By targeting both hormones, it provides a synergistic effect that results in the highest average weight loss of any FDA-approved medication class to date — now available in a daily needle-free tablet starting at an introductory promo of <strong>$199 for your first month</strong> (regular renewal $222.85–$299/month, with Affirm financing from $49/mo).</p>
 
           <h2 className="serif" style={{ fontSize: 40, marginTop: 64, marginBottom: 24, color: 'var(--ink)' }}>How Tirzepatide Tablets Work: The Dual Agonist Advantage</h2>
           <p>Unlike semaglutide (which only targets the GLP-1 pathway), tirzepatide works on two key hunger and metabolic hormones simultaneously:</p>
@@ -83,7 +83,7 @@ function TirzepatideTabletsPage() {
             <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Experience Dual-Action Support</h3>
             <p style={{ marginBottom: 24, fontSize: 16 }}>Complete your medical evaluation. A licensed clinician will determine the right dosage plan for you.</p>
             <a href={CTA_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>
-              See If You Qualify <Icon.Arrow />
+              Claim $199 First Month <Icon.Arrow />
             </a>
           </div>
 
@@ -108,10 +108,10 @@ function TirzepatideTabletsPage() {
           <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
             <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Start Your Tirzepatide Tablets Program</h2>
             <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 500, margin: '0 auto 32px' }}>
-              From $224.25/mo. The most powerful weight management class available, now in a daily dissolving tablet.
+              From $199 first month promo (regular $222.85/mo). Affirm financing available from $49/mo. The most powerful weight management class available, now in a daily dissolving tablet.
             </p>
             <a href={CTA_URL} target="_blank" rel="noopener noreferrer" className="btn btn-lg" style={{ background: '#FBF8F3', color: 'var(--ink)', display: 'inline-flex', justifyContent: 'center', width: '100%', maxWidth: 300 }}>
-              See If You Qualify <Icon.Arrow />
+              Claim $199 First Month <Icon.Arrow />
             </a>
           </div>
 

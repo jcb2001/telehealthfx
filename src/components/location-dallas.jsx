@@ -23,7 +23,7 @@ export function LocationDallas() {
           { name: "UT Southwestern Endocrinology", cost: "$175 Copay + Rx", consult: "10-16 Week New Patient Wait", access: "Formulary Restrictions / Prior Auth" },
           { name: "Baylor Scott & White Primary Care", cost: "$60 Copay", consult: "4-8 Week Wait", access: "Step Therapy / Pharmacy Backorder" }
         ]}
-        telehealthPrice="From $146 / mo"
+        telehealthPrice="From $99 (1st Mo)"
       />
 
       <InsuranceBreakdown

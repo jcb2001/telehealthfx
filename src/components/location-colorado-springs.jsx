@@ -33,7 +33,7 @@ export function LocationColoradoSprings() {
         { name: "Broadmoor / Briargate Concierge", cost: "$700 - $1,100 / mo", consult: "Mandatory In-Person", access: "Branded Only" },
         { name: "Powers Blvd MedSpas", cost: "$350 - $650 / mo", consult: "Monthly Membership", access: "Variable Compounding" },
         { name: "UCHealth Endocrinology", cost: "$125 Copay + Rx", consult: "14-18 Week Wait", access: "Prior Auth Required" }
-      ]} telehealthPrice="From $146 / mo" />
+      ]} telehealthPrice="From $99 (1st Mo)" />
       <LocalTransitPain title="Bypass the I-25 Crawl & Base Clinic Referrals" transitText="Colorado Springs stretches north-south along I-25, with Powers Boulevard handling east-side traffic. Getting from Fountain or Security-Widefield (near Fort Carson) to a specialist on the north side is a 45-minute drive minimum." hospitalText="<strong>UCHealth Memorial</strong> and <strong>Centura Health / Penrose-St. Francis</strong> serve the region, but specialist capacity is overwhelmed by combined military and civilian demand." />
       <InteractiveFAQ faqs={[
         { q: "Will this affect my security clearance or fitness assessment?", a: "No. Telehealth FX is a private medical service. GLP-1 medications are not controlled substances and have no relevance to security clearance criteria or military fitness assessment protocols." },

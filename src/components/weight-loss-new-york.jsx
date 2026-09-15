@@ -27,7 +27,7 @@ export function WeightLossNewYorkCity() {
       <CostComparisonTable 
         title="New York City Medspas vs. Telehealth FX"
         localCompetitors={[{"name":"Upper East Side Concierge Clinics","cost":"$1,200 - $2,000/mo","consult":"In-Person Required","access":"Weekly Office Visits"},{"name":"SoHo Wellness Centers","cost":"$800 - $1,200/mo","consult":"In-Person Required","access":"In-Office Injections"}]}
-        telehealthPrice="From $297/mo"
+        telehealthPrice="From $99 (1st Mo)"
       />
 
       <ClinicalDeepDive 

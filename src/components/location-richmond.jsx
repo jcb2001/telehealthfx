@@ -24,7 +24,7 @@ export function LocationRichmond() {
         { name: "Fan District / Short Pump Concierge", cost: "$700 - $1,100 / mo", consult: "Mandatory In-Person", access: "Branded Only" },
         { name: "Carytown / Scott's Addition MedSpas", cost: "$400 - $700 / mo", consult: "Monthly Membership", access: "Variable Compounding" },
         { name: "VCU Health Endocrinology", cost: "$125 Copay + Rx", consult: "10-14 Week Wait", access: "Prior Auth Required" }
-      ]} telehealthPrice="From $146 / mo" />
+      ]} telehealthPrice="From $99 (1st Mo)" />
       <LocalTransitPain title="Bypass I-95/I-64 & VCU Waitlists" transitText="Richmond sits at the junction of I-95 and I-64, with Midlothian Turnpike and Broad Street handling suburban traffic from Short Pump, Midlothian, and Glen Allen." hospitalText="<strong>VCU Health</strong> and <strong>HCA Virginia (Chippenham, Henrico Doctors)</strong> serve the metro. Specialist waits average 10-14 weeks." />
       <InteractiveFAQ faqs={[
         { q: "I work at Altria. Is this confidential?", a: "Yes. Telehealth FX is completely independent of your employer. Your medical records with us are private and separate from any corporate wellness program." },

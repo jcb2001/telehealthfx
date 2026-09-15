@@ -47,7 +47,7 @@ export default function Page() {
             "name": "How does Telehealth FX price its Tirzepatide programs?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Many platforms charge tiered pricing because higher doses of tirzepatide require more volume of the active pharmaceutical ingredient (API). Telehealth FX utilizes a direct-to-patient business model that keeps costs low, offering compounded tirzepatide starting at $258/month for the starting dose. This ensures that patients do not face financial barriers as they begin their treatment plans."
+              "text": "Many platforms charge tiered pricing because higher doses of tirzepatide require more volume of the active pharmaceutical ingredient (API). Telehealth FX utilizes a direct-to-patient business model that keeps costs low, offering compounded tirzepatide starting at $99 for your first month (regular $214/mo, Affirm from $25/mo). This ensures that patients do not face financial barriers as they begin their treatment plans."
             }
           },
           {
@@ -71,7 +71,7 @@ export default function Page() {
         "review": [{ "@type": "Review", "author": { "@type": "Person", "name": "Verified Patient" }, "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "reviewBody": "Outstanding clinical oversight and seamless experience." }],
         "offers": {
           "@type": "Offer",
-          "price": "258.00",
+          "price": "99.00",
           "priceCurrency": "USD",
           "priceValidUntil": "2026-12-31",
           "availability": "https://schema.org/InStock",

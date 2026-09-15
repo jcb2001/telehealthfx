@@ -46,7 +46,7 @@ export function LocationOrlando() {
           { name: "International Drive MedSpas", cost: "$400 - $750 / mo", consult: "Aesthetician Administered", access: "Variable Compounding" },
           { name: "AdventHealth Endocrinology", cost: "$125 Copay + Rx", consult: "10-14 Week Wait", access: "Prior Auth Required" }
         ]}
-        telehealthPrice="From $146 / mo"
+        telehealthPrice="From $99 (1st Mo)"
       />
       <LocalTransitPain
         title="Bypass I-4 and AdventHealth Waitlists"

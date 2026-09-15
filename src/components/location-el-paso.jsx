@@ -44,7 +44,7 @@ export function LocationElPaso() {
           { name: "UMC / Texas Tech Physicians Endo", cost: "$100 Copay + Rx", consult: "8-12 Week New Patient Wait", access: "Formulary Restrictions / Prior Auth" },
           { name: "The Hospitals of Providence PCP", cost: "$40 Copay", consult: "4-6 Week Wait", access: "Step Therapy / Pharmacy Backorder" }
         ]}
-        telehealthPrice="From $146 / mo"
+        telehealthPrice="From $99 (1st Mo)"
       />
 
       <InteractiveFAQ

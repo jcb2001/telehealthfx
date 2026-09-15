@@ -24,7 +24,7 @@ export function LocationMadison() {
         { name: "Maple Bluff / Nakoma Concierge", cost: "$700 - $1,100 / mo", consult: "Mandatory In-Person", access: "Branded Only" },
         { name: "West Side / Fitchburg MedSpas", cost: "$350 - $650 / mo", consult: "Monthly Membership", access: "Variable Compounding" },
         { name: "UW Health Endocrinology", cost: "$125 Copay + Rx", consult: "10-14 Week Wait", access: "Formulary Restrictions" }
-      ]} telehealthPrice="From $146 / mo" />
+      ]} telehealthPrice="From $99 (1st Mo)" />
       <LocalTransitPain title="Bypass the Beltline & UW Health Waitlists" transitText="Madison's traffic concentrates on the Beltline (US-12/14/18/151) and the isthmus bottleneck connecting east and west sides. The John Nolen Drive / Park Street corridor is perpetually congested." hospitalText="<strong>UW Health</strong> and <strong>SSM Health (St. Mary's)</strong> serve the region. Specialist waits average 10-14 weeks." />
       <InteractiveFAQ faqs={[
         { q: "I work at Epic Systems in Verona. Is that covered?", a: "Yes. We deliver to all Dane County addresses including Verona, Middleton, Fitchburg, Sun Prairie, and Waunakee." },

@@ -52,7 +52,7 @@ export function LocationHouston() {
           { name: "Galleria-Area MedSpas", cost: "$600 - $950 / mo", consult: "Monthly 'Membership' Required", access: "Limited Compounding Options" },
           { name: "Texas Medical Center Endocrinology", cost: "$150 Copay + Rx Cost", consult: "8-14 Week New Patient Wait", access: "Insurance Prior Auth / Pharmacy Backorder" }
         ]}
-        telehealthPrice="From $146 / mo"
+        telehealthPrice="From $99 (1st Mo)"
       />
 
       <StateLegalFramework

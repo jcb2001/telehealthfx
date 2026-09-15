@@ -37,7 +37,7 @@ export function LocationNewOrleans() {
         text="New Orleans's healthcare is increasingly consolidated under Ochsner Health, while the city's massive hospitality workforce often lacks coverage entirely."
         employers={[
           { name: "Ochsner Health (Regional Dominant)", detail: "Ochsner has become the dominant health system in the Gulf South. Employee plans apply standard formulary restrictions and require participation in internal wellness programs for GLP-1 authorization—programs that are structurally inaccessible to the night-shift clinical workforce." },
-          { name: "Hospitality / Tourism / Bourbon Street", detail: "New Orleans's hospitality workforce—the backbone of the city's economy—often relies on ACA marketplace plans or remains uninsured. For this population, both the $900/month concierge clinics and the 12-week specialist waits are impossible. Telehealth FX at $146/month is the most accessible clinical pathway." },
+          { name: "Hospitality / Tourism / Bourbon Street", detail: "New Orleans's hospitality workforce—the backbone of the city's economy—often relies on ACA marketplace plans or remains uninsured. For this population, both the $900/month concierge clinics and the 12-week specialist waits are impossible. Telehealth FX starting from $99/month (1st-month promo, Affirm available) is the most accessible clinical pathway." },
           { name: "Entergy / Port of New Orleans / Tulane", detail: "The city's corporate, industrial, and academic employers offer self-funded plans with standard PBM restrictions for GLP-1 weight management." }
         ]}
       />
@@ -48,7 +48,7 @@ export function LocationNewOrleans() {
           { name: "Metairie MedSpas", cost: "$400 - $750 / mo", consult: "Aesthetician Administered", access: "Variable Compounding" },
           { name: "Ochsner Endocrinology", cost: "$125 Copay + Rx", consult: "12-16 Week Wait", access: "Formulary Restrictions" }
         ]}
-        telehealthPrice="From $146 / mo"
+        telehealthPrice="From $99 (1st Mo)"
       />
       <LocalTransitPain
         title="Bypass the Causeway & Ochsner Waitlists"

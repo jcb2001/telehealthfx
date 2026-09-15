@@ -25,7 +25,7 @@ export function LocationStockton() {
         { name: "Lincoln Village / Brookside Clinics", cost: "$500 - $900 / mo", consult: "Mandatory In-Person", access: "Branded Only" },
         { name: "Pacific Ave MedSpas", cost: "$300 - $550 / mo", consult: "Monthly Membership", access: "Variable Compounding" },
         { name: "Kaiser Endocrinology (Sacramento)", cost: "$100 Copay + Rx", consult: "16-20 Week Wait + 90min Drive", access: "Formulary Restrictions" }
-      ]} telehealthPrice="From $146 / mo" />
+      ]} telehealthPrice="From $99 (1st Mo)" />
       <LocalTransitPain title="Bypass I-5 Traffic & Kaiser Sacramento Redirects" transitText="Stockton connects to Sacramento via I-5 and Highway 99—both heavily congested during commute hours. The drive to Kaiser Sacramento for a specialist appointment is 90 minutes each way in traffic." hospitalText="<strong>St. Joseph's Medical Center</strong> and <strong>Dameron Hospital</strong> provide local care. <strong>Kaiser Stockton</strong> has limited specialist capacity, frequently redirecting to Sacramento." />
       <InteractiveFAQ faqs={[
         { q: "Kaiser told me to go to Sacramento. Is there a local option?", a: "Yes. Telehealth FX provides California-licensed physician evaluation entirely online. Your medication ships directly to your Stockton address." },

@@ -47,7 +47,7 @@ export function LocationFresno() {
           { name: "Shaw Ave MedSpas", cost: "$350 - $650 / mo", consult: "Monthly Membership", access: "Variable Compounding" },
           { name: "Community Medical Endocrinology", cost: "$100 Copay + Rx", consult: "12-20 Week Wait", access: "Formulary Restrictions" }
         ]}
-        telehealthPrice="From $146 / mo"
+        telehealthPrice="From $99 (1st Mo)"
       />
       <LocalTransitPain
         title="Bypass the 99 Corridor & Kaiser Redirects"

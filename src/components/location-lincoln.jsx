@@ -24,7 +24,7 @@ export function LocationLincoln() {
         { name: "Near South / Wilderness Hills Concierge", cost: "$600 - $900 / mo", consult: "Mandatory In-Person", access: "Branded Only" },
         { name: "O Street MedSpas", cost: "$300 - $550 / mo", consult: "Monthly Membership", access: "Variable Compounding" },
         { name: "Bryan Health Endocrinology", cost: "$100 Copay + Rx", consult: "10-14 Week Wait", access: "Prior Auth Required" }
-      ]} telehealthPrice="From $146 / mo" />
+      ]} telehealthPrice="From $99 (1st Mo)" />
       <LocalTransitPain title="Bypass the I-80 Drive to Omaha" transitText="Lincoln is connected to Omaha by I-80, a 60-mile drive that takes 50-70 minutes depending on traffic. Specialist referrals to UNMC require a half-day commitment." hospitalText="<strong>Bryan Health</strong> and <strong>CHI St. Elizabeth</strong> serve Lincoln. For specialist metabolic care, patients are often referred to <strong>UNMC in Omaha</strong>." />
       <InteractiveFAQ faqs={[
         { q: "I'm a state employee. Can I use this alongside my state plan?", a: "Yes. Telehealth FX is a private, self-pay service independent of the State of Nebraska employee health plan." },

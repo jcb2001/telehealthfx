@@ -50,7 +50,7 @@ function BlogWegovyFdaLabel() {
 
           <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
             <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Bypass the $1,300 Price Tag</h3>
-            <p style={{ marginBottom: 24, fontSize: 16 }}>If your insurance denied your Wegovy prescription, see if you qualify for <a href="/blog/is-compounded-semaglutide-safe-what-you-need-to-kn/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>compounded semaglutide</a> starting at just $146/mo.</p>
+            <p style={{ marginBottom: 24, fontSize: 16 }}>If your insurance denied your Wegovy prescription, see if you qualify for <a href="/blog/is-compounded-semaglutide-safe-what-you-need-to-kn/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>compounded semaglutide</a> starting at just $99/mo (1st month promo).</p>
             <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>
               Check GLP-1 Eligibility <Icon.Arrow />
             </a>
@@ -143,7 +143,7 @@ function BlogWegovyFdaLabel() {
           <p>When a branded medication is on the FDA Shortage List, federal law permits licensed 503A and 503B compounding pharmacies to produce a compounded version of the drug using the exact same active pharmaceutical ingredient (semaglutide base). This is entirely legal and federally regulated.</p>
 
           <p>This creates a massive opportunity for patients. Telehealth platforms can connect you with board-certified physicians who can evaluate your metabolic profile. If the doctor determines that GLP-1 therapy is medically appropriate for you—even if your BMI is 26 and you don't perfectly fit the strict Wegovy FDA label—they can legally prescribe <strong>compounded semaglutide "off-label"</strong>.</p>
-          <p>Because it is compounded, it skips the insurance prior authorization nightmare and bypasses the pharmaceutical monopoly pricing, bringing the cost down from $1,300/month to as low as $146/month.</p>
+          <p>Because it is compounded, it skips the insurance prior authorization nightmare and bypasses the pharmaceutical monopoly pricing, bringing the cost down from $1,300/month to as low as $99/month (1st month promo).</p>
 
           <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
             <div style={{ width: 48, height: 48, borderRadius: '50%', background: 'var(--brand-soft)', color: 'var(--brand)', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 20px' }}>

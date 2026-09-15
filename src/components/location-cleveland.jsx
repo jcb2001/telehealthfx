@@ -25,7 +25,7 @@ export function LocationCleveland() {
         { name: "Shaker Heights / Chagrin Falls Concierge", cost: "$700 - $1,200 / mo", consult: "Mandatory In-Person", access: "Branded Only" },
         { name: "Tremont / Ohio City MedSpas", cost: "$400 - $700 / mo", consult: "Monthly Membership", access: "Variable Compounding" },
         { name: "Cleveland Clinic Endocrinology", cost: "$150 Copay + Rx", consult: "16-20 Week Wait", access: "Formulary Restrictions" }
-      ]} telehealthPrice="From $146 / mo" />
+      ]} telehealthPrice="From $99 (1st Mo)" />
       <LocalTransitPain title="Bypass the Shoreway & Clinic Waitlists" transitText="Cleveland's geography along Lake Erie and the Cuyahoga River creates natural transportation barriers. I-90, I-77, and I-480 converge downtown, with the Shoreway (Route 2) handling lakefront traffic. Commuting from the west side suburbs to the Clinic's main campus on East 93rd adds significant time." hospitalText="<strong>Cleveland Clinic</strong> (#2 nationally) and <strong>University Hospitals</strong> provide extraordinary care—but endocrinology waitlists at both systems average 16-20 weeks for new patients." />
       <InteractiveFAQ faqs={[
         { q: "I work at Cleveland Clinic. Is this a conflict of interest?", a: "No. Telehealth FX is an independent medical platform. Your use is a private healthcare decision that does not interact with your Clinic employment." },

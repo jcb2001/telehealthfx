@@ -27,7 +27,7 @@ export function WeightLossSanFrancisco() {
       <CostComparisonTable 
         title="San Francisco Medspas vs. Telehealth FX"
         localCompetitors={[{"name":"Pacific Heights Concierge","cost":"$1,000 - $2,000/mo","consult":"In-Person Required","access":"Weekly Office Visits"},{"name":"Marina Medspas","cost":"$800 - $1,200/mo","consult":"In-Person Required","access":"In-Office Injections"}]}
-        telehealthPrice="From $297/mo"
+        telehealthPrice="From $99 (1st Mo)"
       />
 
       <ClinicalDeepDive 

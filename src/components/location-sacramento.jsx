@@ -47,7 +47,7 @@ export function LocationSacramento() {
           { name: "UC Davis Endocrinology", cost: "$150 Copay + Rx", consult: "14-18 Week Wait", access: "Formulary Restrictions" },
           { name: "Sutter Health PCP", cost: "$50 Copay", consult: "6-10 Week Wait", access: "Step Therapy / Backorder" }
         ]}
-        telehealthPrice="From $146 / mo"
+        telehealthPrice="From $99 (1st Mo)"
       />
       <LocalTransitPain
         title="Bypass the I-80/US-50 Merge & UC Davis Waitlists"

@@ -24,7 +24,7 @@ export function LocationGreensboro() {
         { name: "Irving Park / Friendly Center Concierge", cost: "$600 - $1,000 / mo", consult: "Mandatory In-Person", access: "Branded Only" },
         { name: "Battleground Ave MedSpas", cost: "$350 - $600 / mo", consult: "Monthly Membership", access: "Variable Compounding" },
         { name: "Cone Health Endocrinology", cost: "$100 Copay + Rx", consult: "10-16 Week Wait", access: "Prior Auth Required" }
-      ]} telehealthPrice="From $146 / mo" />
+      ]} telehealthPrice="From $99 (1st Mo)" />
       <LocalTransitPain title="Bypass I-40/I-85 & Cone Health Waitlists" transitText="The Triad's three cities are connected by I-40 and I-85, which merge in the region's center. Commuting between Greensboro, Winston-Salem, and High Point for medical appointments adds significant drive time." hospitalText="<strong>Cone Health</strong> and <strong>Atrium Health Wake Forest Baptist</strong> anchor the region. Specialist waits average 10-16 weeks." />
       <InteractiveFAQ faqs={[
         { q: "I live in Winston-Salem. Is that covered?", a: "Yes. We serve the entire Piedmont Triad including Greensboro, Winston-Salem, High Point, Burlington, and Asheboro." },

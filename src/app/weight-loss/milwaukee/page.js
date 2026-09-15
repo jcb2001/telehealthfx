@@ -13,10 +13,10 @@ import {
 
 export const metadata = {
   title: "Medical Weight Loss in Milwaukee, WI | Telehealth FX",
-  description: "Doctor-prescribed GLP-1 weight loss in Milwaukee, WI. Bypass 8-14 week Froedtert wait times. Compounded Semaglutide from $146/mo with cold-chain delivery.",
+  description: "Doctor-prescribed GLP-1 weight loss in Milwaukee, WI. Bypass 8-14 week Froedtert wait times. Compounded Semaglutide starting at $99 first month promo with cold-chain delivery. Affirm financing available.",
   openGraph: {
     title: "Medical Weight Loss in Milwaukee, WI | Telehealth FX",
-    description: "Doctor-prescribed GLP-1 weight loss in Milwaukee, WI. Bypass 8-14 week Froedtert wait times. Compounded Semaglutide from $146/mo with cold-chain delivery.",
+    description: "Doctor-prescribed GLP-1 weight loss in Milwaukee, WI. Bypass 8-14 week Froedtert wait times. Compounded Semaglutide starting at $99 first month promo with cold-chain delivery. Affirm financing available.",
     url: "https://telehealthfx.com/weight-loss/milwaukee/",
     siteName: "Telehealth FX",
     type: "website"
@@ -46,7 +46,7 @@ export default function WeightLossMilwaukeePage() {
         "@id": "https://telehealthfx.com/weight-loss/milwaukee/#webpage",
         "url": "https://telehealthfx.com/weight-loss/milwaukee/",
         "name": "Medical Weight Loss in Milwaukee, WI | Telehealth FX",
-        "description": "Doctor-prescribed GLP-1 weight loss in Milwaukee, WI. Bypass 8-14 week Froedtert wait times. Compounded Semaglutide from $146/mo with cold-chain delivery.",
+        "description": "Doctor-prescribed GLP-1 weight loss in Milwaukee, WI. Bypass 8-14 week Froedtert wait times. Compounded Semaglutide starting at $99 first month promo with cold-chain delivery. Affirm financing available.",
         "inLanguage": "en-US",
         "medicalAudience": {
           "@type": "MedicalAudience",
@@ -95,7 +95,7 @@ export default function WeightLossMilwaukeePage() {
         },
         "currenciesAccepted": "USD",
         "paymentAccepted": "Credit Card, Debit Card, HSA, FSA",
-        "priceRange": "$146 - $349 per month"
+        "priceRange": "$99 - $299 per month"
       }
     ]
   };
@@ -116,7 +116,7 @@ export default function WeightLossMilwaukeePage() {
       <LocalTransitPain
         title="Why Milwaukee Residents Are Bypassing Local Weight Loss Clinics"
         transitText="Navigating dead-stop traffic at the Marquette Interchange, battling I-94 construction, or sliding through sub-zero lake-effect snowstorms just to sit in a clinic waiting room for 45 minutes is completely unnecessary."
-        hospitalText="Premier regional institutions like <strong>Froedtert & Medical College of Wisconsin</strong> and <strong>Aurora Health Care</strong> maintain <strong>8 to 14 week waiting lists</strong> for obesity and endocrine consults. Simultaneously, local Third Ward and Brookfield medspas exploit demand with $500–$800 monthly charges. Telehealth FX eliminates the wait times and the real estate markup with direct doctor care from $146/mo."
+        hospitalText="Premier regional institutions like <strong>Froedtert & Medical College of Wisconsin</strong> and <strong>Aurora Health Care</strong> maintain <strong>8 to 14 week waiting lists</strong> for obesity and endocrine consults. Simultaneously, local Third Ward and Brookfield medspas exploit demand with $500–$800 monthly charges. Telehealth FX eliminates the wait times and the real estate markup with direct doctor care starting at $99 first month promo."
       />
       <CostComparisonTable
         title="Milwaukee Medspas vs. Telehealth FX"
@@ -125,7 +125,7 @@ export default function WeightLossMilwaukeePage() {
           { name: "Wauwatosa Anti-Aging Clinics", cost: "$450 - $700/mo", consult: "Bi-weekly Consults", access: "Mandatory Clinic Fees" },
           { name: "Froedtert / Aurora Clinical Obesity", cost: "$120 Copay + Retail", consult: "8-14 Week Wait", access: "Prior Auth Denials" }
         ]}
-        telehealthPrice="From $146/mo"
+        telehealthPrice="From $99 (1st Mo)"
       />
       <ClinicalDeepDive
         title="The Science of GLP-1 Receptor Agonists & Metabolic Reset"
@@ -148,7 +148,7 @@ export default function WeightLossMilwaukeePage() {
       />
       <InsuranceBreakdown
         title="Wisconsin Employer Exclusions & The Pre-Tax HSA/FSA Bypass"
-        text="Major Wisconsin employers—including Northwestern Mutual, Rockwell Automation, Kohl's Corporate, and Harley-Davidson—have systematically restricted or eliminated commercial insurance coverage for anti-obesity medications. Rather than battling endless prior authorization denials, Telehealth FX offers direct transparent cash pricing from $146/mo, fully reimbursable via pre-tax HSA and FSA dollars."
+        text="Major Wisconsin employers—including Northwestern Mutual, Rockwell Automation, Kohl's Corporate, and Harley-Davidson—have systematically restricted or eliminated commercial insurance coverage for anti-obesity medications. Rather than battling endless prior authorization denials, Telehealth FX offers direct transparent cash pricing from $99/mo (1st month promo), fully reimbursable via pre-tax HSA and FSA dollars."
       />
       <DeliveryGridMap
         cityName="Milwaukee"
@@ -169,7 +169,7 @@ export default function WeightLossMilwaukeePage() {
           },
           {
             q: "What does compounded Semaglutide cost in Milwaukee?",
-            a: "Telehealth FX provides compounded Semaglutide starting from $146 per month and compounded Tirzepatide from $249 per month. This includes medical consultation, prescription, injection supplies, and free refrigerated cold-chain home delivery."
+            a: "Telehealth FX provides compounded Semaglutide and Tirzepatide starting at just $99 for your first month promo (regular renewal $190–$199/mo for Semaglutide, $214–$299/mo for Tirzepatide). Affirm financing is also available starting at $25/mo. This includes medical consultation, prescription, injection supplies, and free refrigerated cold-chain home delivery."
           },
           {
             q: "Can I use pre-tax HSA or FSA funds for weight loss in Milwaukee?",

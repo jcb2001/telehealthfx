@@ -72,8 +72,8 @@ function Blog5LeadingWeightLossInjections() {
               <tbody>
                 <tr style={{ borderBottom: '1px solid #E2E8F0' }}>
                   <td style={{ padding: '12px 8px', fontWeight: 500, color: '#334155' }}>1. Telehealth FX</td>
-                  <td style={{ padding: '12px 8px', color: '#16A34A', fontWeight: 600 }}>From $146/mo</td>
-                  <td style={{ padding: '12px 8px', color: '#16A34A', fontWeight: 600 }}>From $258/mo</td>
+                  <td style={{ padding: '12px 8px', color: '#16A34A', fontWeight: 600 }}>From $99/mo (1st Mo)</td>
+                  <td style={{ padding: '12px 8px', color: '#16A34A', fontWeight: 600 }}>From $99/mo (1st Mo)</td>
                   <td style={{ padding: '12px 8px' }}>Month-to-month</td>
                   <td style={{ padding: '12px 8px', color: '#16A34A', fontWeight: 500 }}>Comprehensive + TRT Option</td>
                 </tr>
@@ -114,14 +114,14 @@ function Blog5LeadingWeightLossInjections() {
               <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, marginTop: 0, color: '#0F172A' }}>1. Telehealth FX</h3>
               
               <p style={{ fontSize: 16, color: '#334155', marginBottom: 20 }}>
-                Telehealth FX is ranked #1 because it resolves the primary clinical and financial limitations of standard weight loss programs: price scaling, lack of sourcing transparency, and lean muscle loss. Compounded semaglutide starts at $146/month, and tirzepatide starts at $258/month, covering consultations, cold-pack express shipping, syringes, and clinical support with no hidden membership fees.
+                Telehealth FX is ranked #1 because it resolves the primary clinical and financial limitations of standard weight loss programs: price scaling, lack of sourcing transparency, and lean muscle loss. Compounded semaglutide starts at $99/month (first month promo, regular $190/mo), and tirzepatide starts at $99/month (first month promo, regular $214/mo), covering consultations, cold-pack express shipping, syringes, Affirm financing, and clinical support with no hidden membership fees.
               </p>
 
               <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 24, marginBottom: 24, fontSize: 15 }}>
                 <div style={{ background: '#F0FDF4', padding: 20, borderRadius: 8, borderLeft: '4px solid #16A34A' }}>
                   <strong style={{ color: '#16A34A', display: 'block', marginBottom: 8 }}>Pros:</strong>
                   <ul style={{ paddingLeft: 16, margin: 0, display: 'flex', flexDirection: 'column', gap: 6, color: '#1E293B' }}>
-                    <li>Transparent starting-dose pricing (from $146/mo for semaglutide).</li>
+                    <li>Transparent starting-dose pricing (from $99/mo 1st-mo promo for semaglutide).</li>
                     <li>Accredited U.S. 503A compounding pharmacies only.</li>
                     <li>Integrated muscle-preservation protein and exercise support.</li>
                     <li>Co-managed hormone replacement therapy (TRT option) available.</li>
@@ -195,7 +195,7 @@ function Blog5LeadingWeightLossInjections() {
             <div style={{ background: '#f8fafc', border: '1px solid #E2E8F0', borderRadius: 12, padding: 32, margin: '40px 0', textAlign: 'center' }}>
               <h3 className="serif" style={{ fontSize: 24, marginBottom: 12, marginTop: 0, color: '#0F172A' }}>Ready to Protect Muscle and Burn Fat?</h3>
               <p style={{ fontSize: 16, color: '#334155', marginBottom: 20 }}>
-                Compounded semaglutide from Telehealth FX starts at $146/month with zero hidden membership fees. 100% online clinical intake.
+                Compounded semaglutide from Telehealth FX starts at $99 for your first month (regular $190/mo, Affirm from $25/mo) with zero hidden membership fees. 100% online clinical intake.
               </p>
               <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-secondary" style={{ display: 'inline-flex', justifyContent: 'center' }}>
                 Get Started Today <Icon.Arrow />
@@ -269,7 +269,7 @@ function Blog5LeadingWeightLossInjections() {
             
             <h3 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: '#0F172A' }}>How does Telehealth FX keep compounded prices low?</h3>
             <p style={{ color: '#334155', marginBottom: 20 }}>
-              We operate on a direct-to-patient telemedicine model, eliminating the brick-and-mortar overhead and insurance billing administration. This allows us to offer compounded semaglutide starting at $146/month for the starting dose with no hidden membership fees.
+              We operate on a direct-to-patient telemedicine model, eliminating the brick-and-mortar overhead and insurance billing administration. This allows us to offer compounded semaglutide starting at $99/month (1st month promo) for the starting dose with no hidden membership fees.
             </p>
 
             <h3 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: '#0F172A' }}>Are compounded weight loss injections safe?</h3>
@@ -286,7 +286,7 @@ function Blog5LeadingWeightLossInjections() {
             <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: '#334155', color: '#FBF8F3', textAlign: 'center' }}>
               <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3', marginTop: 0 }}>Start Your Journey Safely Today</h2>
               <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 550, margin: '0 auto 32px' }}>
-                Join Telehealth FX's clinical program. Enjoy compounded weight loss injections starting at $146/month, accredited 503A sourcing, and integrated muscle-preservation support.
+                Join Telehealth FX's clinical program. Enjoy compounded weight loss injections starting at $99 for your first month (with Affirm financing from $25/mo), accredited 503A sourcing, and integrated muscle-preservation support.
               </p>
               <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-lg" style={{ background: '#FBF8F3', color: '#0F172A', display: 'inline-flex', justifyContent: 'center', width: '100%', maxWidth: 250 }}>
                 Get Started <Icon.Arrow />

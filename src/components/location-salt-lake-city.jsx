@@ -32,7 +32,7 @@ export function LocationSaltLakeCity() {
           { name: "Sugar House MedSpas", cost: "$400 - $700 / mo", consult: "Aesthetician Administered", access: "Variable Sourcing" },
           { name: "U of U Endocrinology", cost: "$150 Copay + Rx", consult: "10-14 Week Wait", access: "Prior Auth Required" }
         ]}
-        telehealthPrice="From $146 / mo"
+        telehealthPrice="From $99 (1st Mo)"
       />
       <LocalTransitPain
         title="Bypass I-15 Traffic and Hospital Waiting Rooms"

@@ -117,7 +117,7 @@ function Blog72HourBerberinePatch() {
               <Icon.Check size={24} />
             </div>
             <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>When Patches Aren't Enough</h3>
-            <p style={{ marginBottom: 24, fontSize: 16 }}>If you need medical-grade metabolic intervention, explore our clinician-guided GLP-1 weight loss programs starting at $146/mo.</p>
+            <p style={{ marginBottom: 24, fontSize: 16 }}>If you need medical-grade metabolic intervention, explore our clinician-guided GLP-1 weight loss programs starting at $99/mo (1st month promo).</p>
             <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>
               Check GLP-1 Eligibility <Icon.Arrow />
             </a>

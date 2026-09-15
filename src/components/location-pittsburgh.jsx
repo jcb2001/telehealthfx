@@ -46,7 +46,7 @@ export function LocationPittsburgh() {
           { name: "South Side / Strip District MedSpas", cost: "$400 - $700 / mo", consult: "Monthly Membership", access: "Variable Compounding" },
           { name: "UPMC Endocrinology", cost: "$125 Copay + Rx", consult: "10-16 Week Wait", access: "UPMC Formulary / Prior Auth" }
         ]}
-        telehealthPrice="From $146 / mo"
+        telehealthPrice="From $99 (1st Mo)"
       />
       <LocalTransitPain
         title="Bypass the Fort Pitt Tunnel & UPMC Waitlists"

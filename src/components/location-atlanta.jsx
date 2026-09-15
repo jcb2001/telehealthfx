@@ -32,7 +32,7 @@ export function LocationAtlanta() {
           { name: "Midtown MedSpas", cost: "$500 - $800 / mo", consult: "Aesthetician Administered", access: "Variable Sourcing" },
           { name: "Emory Endocrinology", cost: "$150 Copay + Rx", consult: "12-16 Week Wait", access: "Prior Auth Required" }
         ]}
-        telehealthPrice="From $146 / mo"
+        telehealthPrice="From $99 (1st Mo)"
       />
       <LocalTransitPain
         title="Bypass the Connector and I-285"

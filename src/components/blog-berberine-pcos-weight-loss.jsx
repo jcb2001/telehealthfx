@@ -143,7 +143,7 @@ function BlogBerberinePcosWeightLoss() {
               <Icon.Check size={24} />
             </div>
             <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Need a Stronger Intervention?</h3>
-            <p style={{ marginBottom: 24, fontSize: 16 }}>If natural options have failed, see if you qualify for clinician-guided GLP-1 therapy starting at $146/mo.</p>
+            <p style={{ marginBottom: 24, fontSize: 16 }}>If natural options have failed, see if you qualify for clinician-guided GLP-1 therapy starting at $99/mo (1st month promo).</p>
             <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>
               Start Medical Assessment <Icon.Arrow />
             </a>

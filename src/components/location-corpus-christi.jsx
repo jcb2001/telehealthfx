@@ -25,7 +25,7 @@ export function LocationCorpusChristi() {
         { name: "Southside / Padre Island Concierge", cost: "$600 - $900 / mo", consult: "Mandatory In-Person", access: "Branded Only" },
         { name: "SPID Corridor MedSpas", cost: "$300 - $550 / mo", consult: "Monthly Membership", access: "Variable Compounding" },
         { name: "CHRISTUS Spohn Endocrinology", cost: "$100 Copay + Rx", consult: "14-20 Week Wait", access: "Prior Auth / Limited Network" }
-      ]} telehealthPrice="From $146 / mo" />
+      ]} telehealthPrice="From $99 (1st Mo)" />
       <LocalTransitPain title="Bypass the SPID Traffic & the Drive to San Antonio" transitText="Corpus Christi's traffic concentrates on South Padre Island Drive (SPID / SH 358) and I-37 north toward San Antonio. The Harbor Bridge replacement project adds years of construction congestion. Getting off the Island or from the Southside to a medical appointment consumes significant time." hospitalText="<strong>CHRISTUS Spohn</strong> is the dominant system, supplemented by <strong>Driscoll Health</strong> (pediatric). Endocrinology waitlists average 14-20 weeks. The alternative is a 3-hour drive to San Antonio." />
       <InteractiveFAQ faqs={[
         { q: "I work rotating shifts at the refinery. How does this work?", a: "The intake is fully asynchronous. Complete it during your days off, before a shift, or after one. No scheduled appointment." },

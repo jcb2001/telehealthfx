@@ -34,7 +34,7 @@ export function LocationSanFrancisco() {
           { name: "VC / Private Equity / Hedge Fund Plans", detail: "Small-firm financial services plans, common in the Sand Hill Road and SoMa corridors, are typically administered by major carriers (Anthem, Aetna, UHC) on standard formularies that don't differentiate between a two-person GP fund and a Fortune 500 company. Prior authorization requirements, Step Therapy, and BMI thresholds apply identically." },
           { name: "Salesforce / Tech Giants (SF-Based)", detail: "While Salesforce and other large SF tech employers offer generous benefits, GLP-1 weight management coverage varies by plan tier and is frequently subject to the same formulary restrictions as smaller employers. The Tower may be iconic, but the benefits portal is the same maze." },
           { name: "UCSF / City & County Employee Plans", detail: "City and County of San Francisco employees and UCSF staff are covered through plans that impose Step Therapy for GLP-1 weight management. In a bitter irony, UCSF clinicians who prescribe these medications to patients face the same formulary barriers when seeking them for their own care." },
-          { name: "Gig Economy / 1099 (Uber, Lyft HQ City)", detail: "San Francisco is the headquarters of the gig economy. Tens of thousands of residents—drivers, freelancers, contract workers—have no employer-sponsored coverage. For this population, Telehealth FX's self-pay model (from $146/month) represents the most accessible clinical pathway available." }
+          { name: "Gig Economy / 1099 (Uber, Lyft HQ City)", detail: "San Francisco is the headquarters of the gig economy. Tens of thousands of residents—drivers, freelancers, contract workers—have no employer-sponsored coverage. For this population, Telehealth FX's self-pay model (from $99/month 1st-mo promo, Affirm available) represents the most accessible clinical pathway available." }
         ]}
       />
 
@@ -46,7 +46,7 @@ export function LocationSanFrancisco() {
           { name: "UCSF Weight Management Program", cost: "$200 Copay + Rx", consult: "14-16 Week New Patient Wait", access: "Formulary Restrictions / Insurance Denials" },
           { name: "Kaiser SF Endocrinology", cost: "$75 Copay", consult: "8-12 Week Referral Wait", access: "HMO Formulary / Step Therapy Required" }
         ]}
-        telehealthPrice="From $146 / mo"
+        telehealthPrice="From $99 (1st Mo)"
       />
 
       <ClinicalDeepDive
@@ -69,7 +69,7 @@ export function LocationSanFrancisco() {
         faqs={[
           { q: "I already walk 10,000 steps a day and eat well. Why would I need this?", a: "Walking and clean eating address caloric balance, but they cannot directly repair cortisol-driven hormonal dysfunction. If chronic stress has elevated your baseline insulin levels and impaired your body's incretin response, even a healthy lifestyle cannot overcome the metabolic signaling failure. GLP-1 agonists restore that signaling at the hormonal level—they complement your healthy habits, not replace them." },
           { q: "Can I get medication delivered to my office in SoMa or the Financial District?", a: "Yes. We deliver to all residential and commercial addresses in San Francisco. Many professionals opt for office delivery to a staffed mailroom or reception desk to ensure the cold-packed shipment is properly handled upon arrival." },
-          { q: "I'm a gig worker with no insurance. Is this affordable?", a: "Telehealth FX starts at $146/month with no membership fee, no consultation fee, and no hidden costs. For San Francisco's large independent contractor and gig economy population, this is designed to be the most accessible clinical GLP-1 pathway available—no insurance required." },
+          { q: "I'm a gig worker with no insurance. Is this affordable?", a: "Telehealth FX starts at $99 for your first month with Affirm financing from $25/mo, no membership fee, no consultation fee, and no hidden costs. For San Francisco's large independent contractor and gig economy population, this is designed to be the most accessible clinical GLP-1 pathway available—no insurance required." },
           { q: "How is this different from the concierge clinics in Pacific Heights?", a: "Pacific Heights concierge clinics charge $1,200-$1,800/month and require mandatory in-person visits and comprehensive lab panels. Telehealth FX provides the same active pharmaceutical ingredients prescribed by a CA-licensed physician at a fraction of the cost. The medication is clinically identical—the delivery model is simply more efficient and more equitable." }
         ]}
       />

@@ -61,7 +61,7 @@ export function LocationMemphis() {
           { name: "Methodist Le Bonheur Endocrinology", cost: "$125 Copay + Rx", consult: "8-12 Week New Patient Wait", access: "Formulary Restrictions / Prior Auth" },
           { name: "Baptist Memorial PCP", cost: "$45 Copay", consult: "4-6 Week Wait", access: "Step Therapy / Pharmacy Backorder" }
         ]}
-        telehealthPrice="From $146 / mo"
+        telehealthPrice="From $99 (1st Mo)"
       />
 
       <InteractiveFAQ
@@ -69,7 +69,7 @@ export function LocationMemphis() {
           { q: "I work overnight at the FedEx hub. When can I do the intake?", a: "Anytime that fits your inverted schedule. The intake is asynchronous—there is no appointment, no phone call, no video chat. Complete it at 2 PM when you wake up, at 5 PM before your shift, or at 5 AM after clocking out. Your physician reviews your profile independently within 24 hours." },
           { q: "I live in Southaven / Olive Branch (Mississippi). Which state applies?", a: "Your prescribing state is determined by your physical residence. If you live in Mississippi, you'll be evaluated by an MS-licensed physician under Mississippi telehealth regulations. We serve both Tennessee and Mississippi residents—just select your correct state during intake." },
           { q: "I live in West Memphis, Arkansas. Can I use this?", a: "Yes. If you reside in Arkansas, you'll be evaluated by an AR-licensed physician under Arkansas telehealth regulations. The Memphis metro spans three states, and Telehealth FX serves patients in all three." },
-          { q: "I can't afford $146/month. Are there any options?", a: "We understand that Memphis's economic reality makes even $146/month a significant commitment for many residents. We encourage patients to explore HSA/FSA funds if available through their employer. At this time, $146/month is our most accessible price point, and it includes the physician consultation, ongoing clinical support, and the compounded medication—with no hidden fees." },
+          { q: "I need an affordable weight loss plan. Are there financing options?", a: "We understand that cost is a critical factor. Telehealth FX starts at just $99 for your first month, with Affirm pay-over-time financing available from $25/month. We also encourage patients to use HSA/FSA funds if available through their employer. Pricing includes the physician consultation, ongoing clinical support, and medication with zero hidden fees." },
           { q: "How is this different from the weight loss shots advertised on Beale Street?", a: "Many clinics advertising on Beale Street and in Midtown offer B12 injections, lipotropic blends, or HCG—none of which have FDA-recognized efficacy data for weight loss. Telehealth FX prescribes only compounded Semaglutide and Tirzepatide: true GLP-1 receptor agonists backed by the STEP and SURMOUNT Phase III clinical programs." }
         ]}
       />

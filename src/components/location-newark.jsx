@@ -25,7 +25,7 @@ export function LocationNewark() {
         { name: "Montclair / Short Hills Concierge", cost: "$800 - $1,300 / mo", consult: "Mandatory In-Person", access: "Branded Only" },
         { name: "Ironbound / Downtown MedSpas", cost: "$400 - $700 / mo", consult: "Monthly Membership", access: "Variable Compounding" },
         { name: "University Hospital Endocrinology", cost: "$100 Copay + Rx", consult: "14-20 Week Wait", access: "Prior Auth Required" }
-      ]} telehealthPrice="From $146 / mo" />
+      ]} telehealthPrice="From $99 (1st Mo)" />
       <LocalTransitPain title="Bypass the Turnpike & University Hospital Waitlists" transitText="Newark's traffic is defined by the NJ Turnpike, the Garden State Parkway, I-280, and I-78 converging in a metro that also serves as the gateway to Newark Liberty Airport. Adding a medical appointment to this commute landscape is a significant time investment." hospitalText="<strong>University Hospital</strong> and <strong>RWJBarnabas (Beth Israel)</strong> serve Newark. Specialist waits average 14-20 weeks in Essex County." />
       <InteractiveFAQ faqs={[
         { q: "Should I just go to a doctor in Manhattan instead?", a: "You could, but Manhattan specialists have their own 10-16 week waitlists and significantly higher costs. Telehealth FX provides the same clinical evaluation from your home in Newark, prescribed by a NJ-licensed physician." },

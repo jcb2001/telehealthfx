@@ -59,10 +59,10 @@ function BlogTop6TirzepatideProvidersRanked() {
                 <tbody>
                   <tr style={{ borderBottom: '1px solid #cbd5e1' }}>
                     <td style={{ padding: '12px 4px', fontWeight: 600, color: '#0d9488' }}>1. Telehealth FX</td>
-                    <td style={{ padding: '12px 4px', fontWeight: 600 }}>From $258/mo</td>
+                    <td style={{ padding: '12px 4px', fontWeight: 600 }}>From $99/mo (1st Mo)</td>
                     <td style={{ padding: '12px 4px', color: '#0f9f90' }}>$0</td>
                     <td style={{ padding: '12px 4px', color: '#0f9f90' }}>$0 (Flat rate)</td>
-                    <td style={{ padding: '12px 4px', color: '#0f9f90', fontWeight: 700 }}>$258 / month</td>
+                    <td style={{ padding: '12px 4px', color: '#0f9f90', fontWeight: 700 }}>$99 / month (1st Mo)</td>
                   </tr>
                   <tr style={{ borderBottom: '1px solid #cbd5e1' }}>
                     <td style={{ padding: '12px 4px' }}>2. Henry Meds</td>
@@ -126,14 +126,14 @@ function BlogTop6TirzepatideProvidersRanked() {
               <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, marginTop: 0, color: '#042f2e' }}>1. Telehealth FX</h3>
               
               <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 16, marginBottom: 24, fontSize: 15 }}>
-                <div><strong style={{ color: '#0d9488' }}>Tirzepatide Cost</strong><br/><span style={{ fontSize: 18, fontWeight: 700, color: '#042f2e' }}>From $258/mo</span></div>
-                <div><strong style={{ color: '#0d9488' }}>Semaglutide Cost</strong><br/><span style={{ fontSize: 18, fontWeight: 700, color: '#042f2e' }}>From $146/mo</span></div>
+                <div><strong style={{ color: '#0d9488' }}>Tirzepatide Cost</strong><br/><span style={{ fontSize: 18, fontWeight: 700, color: '#042f2e' }}>From $99/mo (1st Mo)</span></div>
+                <div><strong style={{ color: '#0d9488' }}>Semaglutide Cost</strong><br/><span style={{ fontSize: 18, fontWeight: 700, color: '#042f2e' }}>From $99/mo (1st Mo)</span></div>
                 <div><strong style={{ color: '#0d9488' }}>Compounding Sourcing</strong><br/><span style={{ fontSize: 15, color: '#0f2f2b' }}>Accredited U.S. 503A Pharmacies Only</span></div>
                 <div><strong style={{ color: '#0d9488' }}>Muscle Protection</strong><br/><span style={{ fontSize: 15, color: '#0d9488', fontWeight: 600 }}>Protein Plans & TRT Options</span></div>
               </div>
 
               <p style={{ fontSize: 16, color: '#0f2f2b', marginBottom: 20 }}>
-                Telehealth FX is ranked #1 because it offers a highly competitive cash-pay price and provides comprehensive clinical support. The flat rate of $258/month covers everything: medical evaluation, compounded tirzepatide, expedited cold-pack shipping, and 24/7 portal support. Unlike other platforms, Telehealth FX actively monitors muscle mass and offers hormonal co-management to help prevent muscle wasting and support your metabolism during weight loss.
+                Telehealth FX is ranked #1 because it offers a highly competitive cash-pay price and provides comprehensive clinical support. The promotional rate of $99 for your first month (regular $214/mo, Affirm from $25/mo) covers everything: medical evaluation, compounded tirzepatide, expedited cold-pack shipping, and 24/7 portal support. Unlike other platforms, Telehealth FX actively monitors muscle mass and offers hormonal co-management to help prevent muscle wasting and support your metabolism during weight loss.
               </p>
               
               <p style={{ fontSize: 16, color: '#0f2f2b', marginBottom: 24 }}>
@@ -161,7 +161,7 @@ function BlogTop6TirzepatideProvidersRanked() {
             <div style={{ background: '#f0fdfa', border: '1px solid #99f6e4', borderRadius: 12, padding: 32, margin: '40px 0', textAlign: 'center' }}>
               <h3 className="serif" style={{ fontSize: 24, marginBottom: 12, marginTop: 0, color: '#042f2e' }}>Tired of Pricing Escalation & Hidden Fees?</h3>
               <p style={{ fontSize: 16, color: '#0f2f2b', marginBottom: 20 }}>
-                Telehealth FX offers compounded semaglutide from $146/month and tirzepatide from $258/month. No membership fees, flat pricing across all doses.
+                Telehealth FX offers compounded semaglutide from $99/month (first month promo, regular $190/mo) and tirzepatide from $99/month (first month promo, regular $214/mo) with Affirm financing. No membership fees, flat transparent pricing.
               </p>
               <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-secondary" style={{ display: 'inline-flex', justifyContent: 'center', borderColor: '#115e59', color: '#115e59' }}>
                 Check Your Eligibility <Icon.Arrow />
@@ -214,7 +214,7 @@ function BlogTop6TirzepatideProvidersRanked() {
             
             <h3 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: '#042f2e' }}>How does Telehealth FX price its weight loss programs?</h3>
             <p style={{ color: '#0f2f2b', marginBottom: 20 }}>
-              We utilize a direct-to-patient business model that keeps costs low. Compounded semaglutide starts at $146/month and tirzepatide starts at $258/month, covering clinical evaluations, medications, cold-pack shipping, and clinical support with no hidden membership fees.
+              We utilize a direct-to-patient business model that keeps costs low. Compounded semaglutide starts at $99/month (first month promo, regular $190/mo) and tirzepatide starts at $99/month (first month promo, regular $214/mo), covering clinical evaluations, medications, cold-pack shipping, and clinical support with Affirm pay-over-time financing and no hidden membership fees.
             </p>
 
             <h3 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: '#042f2e' }}>Are compounding pharmacies regulated?</h3>
@@ -236,7 +236,7 @@ function BlogTop6TirzepatideProvidersRanked() {
             <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: '#115e59', color: '#f0fdfa', textAlign: 'center' }}>
               <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#f0fdfa', marginTop: 0 }}>Start Your Journey Safely Today</h2>
               <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 550, margin: '0 auto 32px' }}>
-                Join Telehealth FX's clinical program. Enjoy compounded weight loss injections starting at $258/month for tirzepatide, accredited 503A sourcing, and integrated muscle-preservation support.
+                Join Telehealth FX's clinical program. Enjoy compounded weight loss injections starting at $99 for your first month (with Affirm from $25/mo) for tirzepatide, accredited 503A sourcing, and integrated muscle-preservation support.
               </p>
               <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-lg" style={{ background: '#f0fdfa', color: '#042f2e', display: 'inline-flex', justifyContent: 'center', width: '100%', maxWidth: 250 }}>
                 Get Started <Icon.Arrow />

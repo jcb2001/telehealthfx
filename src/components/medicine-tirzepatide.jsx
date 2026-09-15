@@ -2,14 +2,14 @@
 import React from 'react';
 import { Icon } from './common.jsx';
 
-const CTA_URL = "https://go.telehealthfx.com/start";
+const CTA_URL = "https://go.telehealthfx.com/start?url_id=11875";
 
 function TirzepatidePage() {
   const schema = {
     "@context": "https://schema.org",
     "@type": "MedicalWebPage",
     "name": "Tirzepatide Weight Loss Program | Telehealth FX",
-    "description": "Dual GIP and GLP-1 receptor agonist therapy for superior metabolic weight management. 24-hour approval and cold-chain overnight shipping.",
+    "description": "Dual GIP and GLP-1 receptor agonist therapy for superior metabolic weight management. Introductory promo from $99 first month with Affirm financing. 24-hour approval and cold-chain overnight shipping.",
     "about": {
       "@type": "Drug",
       "name": "Tirzepatide",
@@ -28,23 +28,23 @@ function TirzepatidePage() {
 
         <div style={{ textAlign: 'center', marginBottom: 80 }}>
           <div className="pill" style={{ marginBottom: 20, display: 'inline-flex', background: 'rgba(199, 125, 92, 0.12)', borderColor: 'rgba(199, 125, 92, 0.3)', color: 'var(--accent)' }}>
-            <span style={{ width: 6, height: 6, borderRadius: '50%', background: 'var(--accent)' }}/> Strongest Results
+            <span style={{ width: 6, height: 6, borderRadius: '50%', background: 'var(--accent)' }}/> Strongest Results · $99 1st Month Promo
           </div>
           <h1 className="serif" style={{ fontSize: 72, marginBottom: 28, lineHeight: 0.95 }}>
-            Tirzepatide<br/><span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>from $258/mo.</span>
+            Tirzepatide<br/><span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>from $99/mo.</span>
           </h1>
           <p style={{ fontSize: 20, color: 'var(--ink-2)', maxWidth: 600, margin: '0 auto 40px', lineHeight: 1.6 }}>
-            Dual GIP/GLP-1 receptor agonist formulation — the most powerful class available for maximum weight loss.
+            Dual GIP/GLP-1 receptor agonist formulation — the most powerful class available for maximum weight loss. Introductory promo from $99 first month (regular $214–$299/mo). Affirm financing from $25/mo.
           </p>
           <a href={CTA_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex' }}>
-            See If You Qualify <Icon.Arrow />
+            Claim $99 First Month <Icon.Arrow />
           </a>
         </div>
 
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 24, marginBottom: 80 }}>
           {[
             { num: '~22%', label: 'Average Body Weight Loss' },
-            { num: '$258', label: 'Starting Price/mo' },
+            { num: '$99', label: '1st Month Promo' },
             { num: 'Dual', label: 'GIP + GLP-1 Action' },
           ].map((s, i) => (
             <div key={i} className="card" style={{ padding: 28, textAlign: 'center' }}>
@@ -71,9 +71,9 @@ function TirzepatidePage() {
 
           <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
             <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>The Most Powerful GLP-1 Class Available</h3>
-            <p style={{ marginBottom: 24, fontSize: 16 }}>Tirzepatide from $258/mo. Dual-action GIP/GLP-1. Licensed clinicians. 24-hour approval.</p>
+            <p style={{ marginBottom: 24, fontSize: 16 }}>Compounded Tirzepatide starting at $99 first month promo. Affirm financing from $25/mo. Dual-action GIP/GLP-1. Licensed clinicians. 24-hour approval.</p>
             <a href={CTA_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>
-              See If You Qualify <Icon.Arrow />
+              Claim $99 First Month <Icon.Arrow />
             </a>
           </div>
 
@@ -135,10 +135,10 @@ function TirzepatidePage() {
           <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
             <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Start Your Tirzepatide Program</h2>
             <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 500, margin: '0 auto 32px' }}>
-              From $258/mo. The most effective weight loss medication available. 24-hour approval. 2-day shipping.
+              From $99 first month promo. Regular renewal from $214/mo. Affirm financing available from $25/mo. 24-hour approval. Free cold shipping.
             </p>
             <a href={CTA_URL} target="_blank" rel="noopener noreferrer" className="btn btn-lg" style={{ background: '#FBF8F3', color: 'var(--ink)', display: 'inline-flex', justifyContent: 'center', width: '100%', maxWidth: 300 }}>
-              See If You Qualify <Icon.Arrow />
+              Claim $99 First Month <Icon.Arrow />
             </a>
           </div>
 

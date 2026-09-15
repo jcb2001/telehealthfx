@@ -22,7 +22,7 @@ export function LocationPhiladelphia() {
           { name: "Penn Medicine Endocrinology", cost: "$175 Copay + Rx", consult: "10-14 Week New Patient Wait", access: "Formulary Restrictions / Prior Auth Maze" },
           { name: "Jefferson Health Primary Care", cost: "$60 Copay", consult: "6-8 Week Wait", access: "Step Therapy Required / Pharmacy Backorder" }
         ]}
-        telehealthPrice="From $146 / mo"
+        telehealthPrice="From $99 (1st Mo)"
       />
 
       <PatientArchetype

@@ -101,7 +101,7 @@ export function BotanicalGLP1Comparison({ activeMedication = 'semaglutide' }) {
         status: 'warning',
       },
       semaglutide: {
-        value: 'From $146 / month (All-Inclusive)',
+        value: 'From $99 / month (1st Mo Promo)',
         detail: 'Physician evaluation, ongoing prescription, quality-tested medication, injection supplies, and insulated overnight cold-chain shipping included with zero hidden fees.',
         status: 'success',
       },
@@ -234,7 +234,7 @@ export function BotanicalGLP1Comparison({ activeMedication = 'semaglutide' }) {
                 transition: 'all 0.2s ease',
               }}
             >
-              Semaglutide ($146/mo)
+              Semaglutide ($99/mo)
             </button>
             <button
               type="button"
@@ -530,7 +530,7 @@ export function BotanicalGLP1Comparison({ activeMedication = 'semaglutide' }) {
             </div>
             <div className="mono" style={{ fontSize: '20px', fontWeight: 700, color: 'var(--brand, #2E4A3B)' }}>
               ~{glp1PredictedWeightLoss} lbs reduction
-              <span style={{ fontSize: '12px', fontWeight: 400, color: 'var(--ink-2, #555E58)' }}> (From $146/mo)</span>
+              <span style={{ fontSize: '12px', fontWeight: 400, color: 'var(--ink-2, #555E58)' }}> (From $99/mo)</span>
             </div>
           </div>
         </div>
@@ -604,7 +604,7 @@ export function BotanicalGLP1Comparison({ activeMedication = 'semaglutide' }) {
               boxShadow: '0 4px 14px rgba(78, 190, 123, 0.4)',
             }}
           >
-            <span>Start Free 2-Min Medical Intake ($146/mo)</span>
+            <span>Start Free 2-Min Medical Intake ($99/mo)</span>
             <span>➔</span>
           </a>
         </div>

@@ -27,7 +27,7 @@ export function WeightLossPhoenix() {
       <CostComparisonTable 
         title="Phoenix Medspas vs. Telehealth FX"
         localCompetitors={[{"name":"Scottsdale Anti-Aging Medspas","cost":"$800 - $1,500/mo","consult":"In-Person Required","access":"Weekly Office Visits"},{"name":"Paradise Valley Wellness Clinics","cost":"$700 - $1,000/mo","consult":"In-Person Required","access":"In-Office Injections"}]}
-        telehealthPrice="From $297/mo"
+        telehealthPrice="From $99 (1st Mo)"
       />
 
       <ClinicalDeepDive 

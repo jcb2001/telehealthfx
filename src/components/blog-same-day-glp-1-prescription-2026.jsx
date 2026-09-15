@@ -84,7 +84,7 @@ function BlogSameDayGLP1() {
                 gap: '6px',
               }}
             >
-              <span>Start Same-Day Evaluation ($146/mo)</span>
+              <span>Start Same-Day Evaluation ($99/mo)</span>
               <span>➔</span>
             </a>
           </div>

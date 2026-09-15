@@ -24,7 +24,7 @@ export function LocationLaredo() {
         { name: "North Laredo Concierge", cost: "$500 - $800 / mo", consult: "Mandatory In-Person", access: "Limited Supply" },
         { name: "San Bernardo MedSpas", cost: "$300 - $500 / mo", consult: "Monthly Membership", access: "Variable Compounding" },
         { name: "Laredo Medical Endocrinology", cost: "$100 Copay + Rx", consult: "20-26 Week Wait", access: "1 Provider in City" }
-      ]} telehealthPrice="From $146 / mo" />
+      ]} telehealthPrice="From $99 (1st Mo)" />
       <LocalTransitPain title="There Is No Alternative" transitText="Laredo is 150 miles from San Antonio on I-35. There is no nearby alternative city for healthcare. The specialist you need is either in Laredo (6-month wait) or in San Antonio (2.5-hour drive)." hospitalText="<strong>Laredo Medical Center</strong> and <strong>Doctors Hospital of Laredo</strong> are the only options. Specialist metabolic care has a 20-26 week waitlist due to critical physician shortage." />
       <InteractiveFAQ faqs={[
         { q: "I'm a federal employee. Is this separate from my FEHB?", a: "Yes. Telehealth FX is a private, self-pay service completely independent of FEHB. It does not affect your federal employment or health benefits." },

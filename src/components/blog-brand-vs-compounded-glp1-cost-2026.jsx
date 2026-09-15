@@ -30,12 +30,12 @@ function BlogBrandVsCompoundedGlp1Cost2026() {
 
           <DirectAnswerSnippet
             question="How much does brand-name Wegovy and Zepbound cost vs compounded GLP-1 in 2026?"
-            answer="Brand-name Wegovy and Zepbound retail between $1,050 and $1,349 monthly without insurance coverage, or $299 to $650 via manufacturer cash programs like LillyDirect that escalate costs at higher maintenance doses. Conversely, quality-tested compounded semaglutide from 503A pharmacies averages $146 to $249 per month flat, saving patients over $9,000 annually without hidden membership dues or dosage surcharges."
+            answer="Brand-name Wegovy and Zepbound retail between $1,050 and $1,349 monthly without insurance coverage, or $299 to $650 via manufacturer cash programs like LillyDirect that escalate costs at higher maintenance doses. Conversely, quality-tested compounded semaglutide from 503A pharmacies starts from $99 for your first month (regular $190 to $299/mo, Affirm available), saving patients over $9,000 annually without hidden membership dues or dosage surcharges."
             badge="Cost & Pricing Transparency"
             keyTakeaways={[
               { label: "Retail Brand Cost", value: "$1,050 - $1,349/mo out of pocket" },
               { label: "Manufacturer Cash", value: "$299/mo starting, jumps at higher doses" },
-              { label: "Compounded 503A", value: "$146 - $249/mo flat (all doses)" },
+              { label: "Compounded 503A", value: "From $99/mo (1st Mo Promo, Affirm available)" },
               { label: "Annual Savings", value: "$9,000+ vs retail prescriptions" }
             ]}
           />

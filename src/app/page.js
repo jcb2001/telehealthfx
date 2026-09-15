@@ -44,7 +44,7 @@ function HomePageSchema() {
         "@id": "https://telehealthfx.com/#product-semaglutide",
         "name": "Compounded Semaglutide Program",
         "brand": { "@type": "Brand", "name": "Telehealth FX" },
-        "description": "Comprehensive metabolic health program including clinician consults and compounded Semaglutide medication for weight loss.",
+        "description": "Comprehensive metabolic health program including clinician consults and compounded Semaglutide medication for weight loss. Introductory promo starts at $99 for the first month with Affirm financing.",
         "image": "https://telehealthfx.com/assets/Site%20Icon-modified.png",
         "sku": "SEM-01",
         "url": "https://telehealthfx.com/medications/semaglutide",
@@ -54,7 +54,7 @@ function HomePageSchema() {
           { "@type": "Review", "author": { "@type": "Person", "name": "Sarah K." }, "datePublished": "2026-02-28", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "reviewBody": "Finally a program that actually works. My clinician adjusted my dose perfectly and the results have been incredible. Down 28 lbs and my A1C dropped from 6.1 to 5.4." },
           { "@type": "Review", "author": { "@type": "Person", "name": "David R." }, "datePublished": "2026-04-02", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "reviewBody": "The pricing transparency sold me. No hidden fees, free shipping, and the medication quality is excellent. Better than my previous provider at half the cost." }
         ],
-        "offers": { "@type": "Offer", "price": "146.00", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "url": "https://telehealthfx.com/medications/semaglutide", "shippingDetails": shippingDetails, "hasMerchantReturnPolicy": returnPolicy }
+        "offers": { "@type": "Offer", "price": "99.00", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "url": "https://telehealthfx.com/medications/semaglutide", "shippingDetails": shippingDetails, "hasMerchantReturnPolicy": returnPolicy }
       },
       // ── Product: Tirzepatide ──
       {
@@ -62,7 +62,7 @@ function HomePageSchema() {
         "@id": "https://telehealthfx.com/#product-tirzepatide",
         "name": "Compounded Tirzepatide Program",
         "brand": { "@type": "Brand", "name": "Telehealth FX" },
-        "description": "Dual GIP/GLP-1 receptor agonist program including clinician consults and compounded Tirzepatide medication for enhanced weight loss.",
+        "description": "Dual GIP/GLP-1 receptor agonist program including clinician consults and compounded Tirzepatide medication for enhanced weight loss. Introductory promo starts at $99 for the first month with Affirm financing.",
         "image": "https://telehealthfx.com/assets/Site%20Icon-modified.png",
         "sku": "TIR-01",
         "url": "https://telehealthfx.com",
@@ -71,7 +71,7 @@ function HomePageSchema() {
           { "@type": "Review", "author": { "@type": "Person", "name": "James L." }, "datePublished": "2026-03-22", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "reviewBody": "Switched from Semaglutide to Tirzepatide and the results accelerated dramatically. Down 41 lbs in 4 months with virtually no appetite. Life-changing." },
           { "@type": "Review", "author": { "@type": "Person", "name": "Amanda P." }, "datePublished": "2026-04-10", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "reviewBody": "The dual-action mechanism really works. My blood sugar is better than it's been in years and I've lost 35 lbs. The telehealth process made everything easy." }
         ],
-        "offers": { "@type": "Offer", "price": "258.00", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "url": "https://telehealthfx.com", "shippingDetails": shippingDetails, "hasMerchantReturnPolicy": returnPolicy }
+        "offers": { "@type": "Offer", "price": "99.00", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "url": "https://telehealthfx.com", "shippingDetails": shippingDetails, "hasMerchantReturnPolicy": returnPolicy }
       },
       // ── Product: Testosterone (TRT) ──
       {

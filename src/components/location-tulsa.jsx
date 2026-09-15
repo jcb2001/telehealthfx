@@ -33,7 +33,7 @@ export function LocationTulsa() {
         { name: "South Tulsa / Jenks Concierge", cost: "$600 - $1,000 / mo", consult: "Mandatory In-Person", access: "Branded Only" },
         { name: "Midtown MedSpas", cost: "$350 - $600 / mo", consult: "Monthly Membership", access: "Variable Compounding" },
         { name: "Saint Francis Endocrinology", cost: "$100 Copay + Rx", consult: "10-14 Week Wait", access: "Prior Auth Required" }
-      ]} telehealthPrice="From $146 / mo" />
+      ]} telehealthPrice="From $99 (1st Mo)" />
       <LocalTransitPain title="Bypass the BA Expressway & Saint Francis Waitlists" transitText="Tulsa sprawls along the I-44 / US-169 / BA Expressway corridor. Getting from Broken Arrow or Owasso to a specialist appointment in Midtown Tulsa requires navigating limited freeway capacity." hospitalText="<strong>Saint Francis Health System</strong> and <strong>Ascension St. John</strong> anchor the region. Specialist waits average 10-14 weeks." />
       <InteractiveFAQ faqs={[
         { q: "I work 12-hour shifts. When do I do the intake?", a: "Anytime. The intake is fully asynchronous—no appointment, no phone call. Complete it before, after, or between shifts." },

@@ -31,13 +31,13 @@ function BlogHiddenFeesInTelehealthWeightLossHowToSpot() {
         <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
           <DirectAnswerSnippet
             question="What hidden fees should you avoid in telehealth weight loss programs?"
-            answer="Many telehealth weight loss platforms advertise teaser rates like '$99/month' that secretly exclude medication costs, charge mandatory recurring membership dues ($49–$199/month), add $25 to $50 shipping fees, or hit patients with $150 dosage escalation penalties. Always look for all-inclusive pricing ($146 to $299/mo) covering clinician oversight, supplies, temperature-controlled delivery, and titration adjustments without contracts."
+            answer="Many telehealth weight loss platforms advertise teaser rates like '$99/month' that secretly exclude medication costs, charge mandatory recurring membership dues ($49–$199/month), add $25 to $50 shipping fees, or hit patients with $150 dosage escalation penalties. Always look for all-inclusive pricing ($99 to $299/mo) covering clinician oversight, supplies, temperature-controlled delivery, and titration adjustments without contracts."
             badge="Consumer Protection & Pricing Audit"
             keyTakeaways={[
               { label: "Common Traps", value: "Membership dues & dose escalation markups" },
               { label: "Shipping Fees", value: "Surprise $30-$50 cold-pack shipping fees" },
               { label: "Delivery Standard", value: "24-48 hr cold chain included" },
-              { label: "All-Inclusive Benchmark", value: "Flat monthly fee ($146-$249) with $0 add-ons" }
+              { label: "All-Inclusive Benchmark", value: "Transparent monthly pricing (from $99/mo) with $0 add-ons" }
             ]}
           />
           <Image src="/assets/hidden_fees_featured.png" alt="Glowing neon receipt with exorbitant prices bursting into red warning sparks next to a medical pen" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' , height: "auto"}} priority={true} />

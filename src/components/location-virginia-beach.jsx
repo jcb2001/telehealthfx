@@ -33,7 +33,7 @@ export function LocationVirginiaBeach() {
         { name: "Oceanfront / Town Center Concierge", cost: "$700 - $1,100 / mo", consult: "Mandatory In-Person", access: "Branded Only" },
         { name: "Hilltop / Greenbrier MedSpas", cost: "$350 - $650 / mo", consult: "Monthly Membership", access: "Variable Compounding" },
         { name: "Sentara Endocrinology", cost: "$125 Copay + Rx", consult: "12-20 Week Wait", access: "Prior Auth Required" }
-      ]} telehealthPrice="From $146 / mo" />
+      ]} telehealthPrice="From $99 (1st Mo)" />
       <LocalTransitPain title="Bypass the HRBT & TRICARE Referral Chains" transitText="Hampton Roads is defined by water crossings. The Hampton Roads Bridge-Tunnel (HRBT), the Monitor-Merrimac Memorial Bridge-Tunnel, and the Downtown/Midtown Tunnels create daily bottlenecks that make cross-region medical appointments a logistical nightmare." hospitalText="<strong>Sentara Norfolk General</strong>, <strong>Bon Secours</strong>, and <strong>EVMS</strong> serve the region but are overwhelmed by combined military and civilian specialist demand." />
       <InteractiveFAQ faqs={[
         { q: "I'm active duty. Will this affect my medical readiness?", a: "No. Telehealth FX is a private service independent of TRICARE and your military medical record. GLP-1 medications are not controlled substances." },

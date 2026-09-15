@@ -13,10 +13,10 @@ import {
 
 export const metadata = {
   title: "Medical Weight Loss in Indianapolis, IN | Telehealth FX",
-  description: "GLP-1 weight loss clinic in Indianapolis, IN. Skip 8-14 week IU Health waits. Compounded Semaglutide and Tirzepatide from $146/mo with cold delivery.",
+  description: "GLP-1 weight loss clinic in Indianapolis, IN. Skip 8-14 week IU Health waits. Compounded Semaglutide and Tirzepatide from $99/mo (1st month promo) with cold delivery.",
   openGraph: {
     title: "Medical Weight Loss in Indianapolis, IN | Telehealth FX",
-    description: "GLP-1 weight loss clinic in Indianapolis, IN. Skip 8-14 week IU Health waits. Compounded Semaglutide and Tirzepatide from $146/mo with cold delivery.",
+    description: "GLP-1 weight loss clinic in Indianapolis, IN. Skip 8-14 week IU Health waits. Compounded Semaglutide and Tirzepatide from $99/mo (1st month promo) with cold delivery.",
     url: "https://telehealthfx.com/weight-loss/indianapolis/",
     siteName: "Telehealth FX",
     type: "website"
@@ -46,7 +46,7 @@ export default function WeightLossIndianapolisPage() {
         "@id": "https://telehealthfx.com/weight-loss/indianapolis/#webpage",
         "url": "https://telehealthfx.com/weight-loss/indianapolis/",
         "name": "Medical Weight Loss in Indianapolis, IN | Telehealth FX",
-        "description": "GLP-1 weight loss clinic in Indianapolis, IN. Skip 8-14 week IU Health waits. Compounded Semaglutide and Tirzepatide from $146/mo with cold delivery.",
+        "description": "GLP-1 weight loss clinic in Indianapolis, IN. Skip 8-14 week IU Health waits. Compounded Semaglutide and Tirzepatide from $99/mo (1st month promo) with cold delivery.",
         "inLanguage": "en-US",
         "medicalAudience": {
           "@type": "MedicalAudience",
@@ -95,7 +95,7 @@ export default function WeightLossIndianapolisPage() {
         },
         "currenciesAccepted": "USD",
         "paymentAccepted": "Credit Card, Debit Card, HSA, FSA",
-        "priceRange": "$146 - $349 per month"
+        "priceRange": "$99 - $299 per month"
       }
     ]
   };
@@ -116,7 +116,7 @@ export default function WeightLossIndianapolisPage() {
       <LocalTransitPain
         title="Why Indianapolis Residents Are Bypassing Local Weight Loss Clinics"
         transitText="Commuting through I-465 beltway construction, navigating downtown traffic on Meridian Street, or driving in from Hamilton County just to spend 10 minutes in a medical waiting room is completely inefficient."
-        hospitalText="Major regional healthcare networks—such as <strong>IU Health (Methodist & University)</strong>, <strong>Ascension St. Vincent</strong>, and <strong>Community Health Network</strong>—face severe backlogs with <strong>8 to 14 week waiting lists</strong> for obesity medicine and endocrinology. At the same time, boutique Carmel wellness clinics charge $500–$800 monthly. Telehealth FX provides direct doctor consultations from $146/mo."
+        hospitalText="Major regional healthcare networks—such as <strong>IU Health (Methodist & University)</strong>, <strong>Ascension St. Vincent</strong>, and <strong>Community Health Network</strong>—face severe backlogs with <strong>8 to 14 week waiting lists</strong> for obesity medicine and endocrinology. At the same time, boutique Carmel wellness clinics charge $500–$800 monthly. Telehealth FX provides direct doctor consultations from $99/mo (1st month promo)."
       />
       <CostComparisonTable
         title="Indianapolis Medspas vs. Telehealth FX"
@@ -125,7 +125,7 @@ export default function WeightLossIndianapolisPage() {
           { name: "Fishers Wellness & Hormone Spas", cost: "$475 - $750/mo", consult: "Bi-weekly Visits", access: "In-Office Injection Fees" },
           { name: "IU Health Clinical Weight Center", cost: "$120 Copay + Labs", consult: "8-14 Week Wait", access: "Prior Auth Denials" }
         ]}
-        telehealthPrice="From $146/mo"
+        telehealthPrice="From $99 (1st Mo)"
       />
       <ClinicalDeepDive
         title="Tirzepatide & Semaglutide: The Pharmacology of Dual Incretin Therapy"
@@ -143,12 +143,12 @@ export default function WeightLossIndianapolisPage() {
       <PatientArchetype
         title="Indianapolis Patient Profile"
         archetype="The Global Logistics Operations Manager"
-        quote="Indianapolis is Eli Lilly's home town, yet my employer health insurance flatly refused to cover Zepbound. The local Carmel medspa wanted $700 a month cash. With Telehealth FX, an Indiana doctor reviewed my intake online, and my compounded Tirzepatide was cold-shipped to my home in Fishers for $249/mo. I've lost 38 lbs in 4 months."
+        quote="Indianapolis is Eli Lilly's home town, yet my employer health insurance flatly refused to cover Zepbound. The local Carmel medspa wanted $700 a month cash. With Telehealth FX, an Indiana doctor reviewed my intake online, and my compounded Tirzepatide was cold-shipped to my home in Fishers with the $99 first month promo. I've lost 38 lbs in 4 months."
         details="<p><strong>The Challenge:</strong> Sedentary desk hours, rotational shift stress in manufacturing logistics, and employer prior authorization denials.</p><p><strong>The Telehealth Protocol:</strong> Approved online by an Indiana-licensed physician. Successfully titrated on compounded Tirzepatide without missing work or scheduling in-person visits.</p>"
       />
       <InsuranceBreakdown
         title="The Eli Lilly Backyard Irony & The Pre-Tax HSA/FSA Solution"
-        text="Despite Indianapolis being the global headquarters of Eli Lilly, major regional employer health plans—including Elevance Health (Anthem), Cummins, Roche Diagnostics, and Allison Transmission—frequently deny prior authorizations for anti-obesity GLP-1 medications. Telehealth FX bypasses the insurance gridlock with transparent cash-pay pricing starting at $146/mo, 100% eligible for pre-tax HSA and FSA reimbursement."
+        text="Despite Indianapolis being the global headquarters of Eli Lilly, major regional employer health plans—including Elevance Health (Anthem), Cummins, Roche Diagnostics, and Allison Transmission—frequently deny prior authorizations for anti-obesity GLP-1 medications. Telehealth FX bypasses the insurance gridlock with transparent cash-pay pricing starting at $99/mo (1st month promo), 100% eligible for pre-tax HSA and FSA reimbursement."
       />
       <DeliveryGridMap
         cityName="Indianapolis"
@@ -169,7 +169,7 @@ export default function WeightLossIndianapolisPage() {
           },
           {
             q: "What is the cost of compounded Tirzepatide and Semaglutide in Indianapolis?",
-            a: "Compounded Semaglutide starts from $146 per month and compounded Tirzepatide from $249 per month. Pricing is completely transparent and covers doctor consultations, prescriptions, injection supplies, and cold-pack shipping."
+            a: "Compounded Semaglutide and Tirzepatide start at just $99 for your first month promo (regular renewal $190–$199/mo for Semaglutide, $214–$299/mo for Tirzepatide). Affirm financing is also available starting at $25/mo. Pricing is completely transparent and covers doctor consultations, prescriptions, injection supplies, and cold-pack shipping."
           },
           {
             q: "Can I use my HSA or FSA card for weight loss in Indiana?",

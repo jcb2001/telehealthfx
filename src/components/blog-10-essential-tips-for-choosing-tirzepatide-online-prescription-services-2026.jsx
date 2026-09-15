@@ -49,14 +49,14 @@ function Blog10EssentialTipsForChoosing() {
               <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, marginTop: 0, color: '#1e1b4b' }}>1. Telehealth FX</h3>
               
               <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 16, marginBottom: 24, fontSize: 15 }}>
-                <div><strong style={{ color: '#4f46e5' }}>Tirzepatide Cost</strong><br/><span style={{ fontSize: 18, fontWeight: 700, color: '#1e1b4b' }}>From $258/mo</span></div>
-                <div><strong style={{ color: '#4f46e5' }}>Semaglutide Cost</strong><br/><span style={{ fontSize: 18, fontWeight: 700, color: '#1e1b4b' }}>From $146/mo</span></div>
+                <div><strong style={{ color: '#4f46e5' }}>Tirzepatide Cost</strong><br/><span style={{ fontSize: 18, fontWeight: 700, color: '#1e1b4b' }}>From $99/mo (1st Mo)</span></div>
+                <div><strong style={{ color: '#4f46e5' }}>Semaglutide Cost</strong><br/><span style={{ fontSize: 18, fontWeight: 700, color: '#1e1b4b' }}>From $99/mo (1st Mo)</span></div>
                 <div><strong style={{ color: '#4f46e5' }}>Compounding Sourcing</strong><br/><span style={{ fontSize: 15, color: '#1e1b4f' }}>Accredited U.S. 503A Pharmacies Only</span></div>
                 <div><strong style={{ color: '#4f46e5' }}>Muscle Protection</strong><br/><span style={{ fontSize: 15, color: '#4f46e5', fontWeight: 600 }}>Protein Plans & TRT Options</span></div>
               </div>
 
               <p style={{ fontSize: 16, color: '#1e1b4f', marginBottom: 20 }}>
-                Telehealth FX is ranked as our top provider because it offers competitive, transparent pricing and comprehensive clinical support. Compounded tirzepatide starts at $258/month and semaglutide starts at $146/month, with no hidden membership fees or pricing increases at higher doses. We source exclusively from licensed U.S. 503A compounding pharmacies.
+                Telehealth FX is ranked as our top provider because it offers competitive, transparent pricing and comprehensive clinical support. Compounded tirzepatide starts at $99/month (first month promo, regular $214/mo) and semaglutide starts at $99/month (first month promo, regular $190/mo), with Affirm financing and no hidden membership fees. We source exclusively from licensed U.S. 503A compounding pharmacies.
               </p>
               
               <p style={{ fontSize: 16, color: '#1e1b4f', marginBottom: 24 }}>
@@ -98,7 +98,7 @@ function Blog10EssentialTipsForChoosing() {
               <div style={{ background: '#e0e7ff', border: '1px solid #c7d2fe', borderRadius: 12, padding: 32, margin: '20px 0', textAlign: 'center' }}>
                 <h3 className="serif" style={{ fontSize: 24, marginBottom: 12, marginTop: 0, color: '#1e1b4b' }}>Tired of Pricing Escalation & Hidden Fees?</h3>
                 <p style={{ fontSize: 16, color: '#1e1b4f', marginBottom: 20 }}>
-                  Telehealth FX offers compounded semaglutide from $146/month and tirzepatide from $258/month. No membership fees, flat pricing across all doses.
+                  Telehealth FX offers compounded semaglutide from $99/month (first month promo, regular $190/mo) and tirzepatide from $99/month (first month promo, regular $214/mo) with Affirm financing. No membership fees, flat transparent pricing.
                 </p>
                 <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-secondary" style={{ display: 'inline-flex', justifyContent: 'center', borderColor: '#3730a3', color: '#3730a3' }}>
                   Check Your Eligibility <Icon.Arrow />
@@ -171,7 +171,7 @@ function Blog10EssentialTipsForChoosing() {
             
             <h3 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: '#1e1b4b' }}>How does Telehealth FX price its weight loss programs?</h3>
             <p style={{ color: '#1e1b4f', marginBottom: 20 }}>
-              We utilize a direct-to-patient business model that keeps costs low. Compounded semaglutide starts at $146/month and tirzepatide starts at $258/month, covering clinical evaluations, medications, cold-pack shipping, and clinical support with no hidden membership fees.
+              We utilize a direct-to-patient business model that keeps costs low. Compounded semaglutide starts at $99/month (first month promo, regular $190/mo) and tirzepatide starts at $99/month (first month promo, regular $214/mo), covering clinical evaluations, medications, cold-pack shipping, and clinical support with Affirm pay-over-time financing and no hidden membership fees.
             </p>
 
             <h3 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: '#1e1b4b' }}>Are compounding pharmacies regulated?</h3>
@@ -188,7 +188,7 @@ function Blog10EssentialTipsForChoosing() {
             <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: '#3730a3', color: '#e0e7ff', textAlign: 'center' }}>
               <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#e0e7ff', marginTop: 0 }}>Start Your Journey Safely Today</h2>
               <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 550, margin: '0 auto 32px' }}>
-                Join Telehealth FX's clinical program. Enjoy compounded weight loss injections starting at $258/month for tirzepatide, accredited 503A sourcing, and integrated muscle-preservation support.
+                Join Telehealth FX's clinical program. Enjoy compounded weight loss injections starting at $99 for your first month (with Affirm from $25/mo) for tirzepatide, accredited 503A sourcing, and integrated muscle-preservation support.
               </p>
               <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-lg" style={{ background: '#e0e7ff', color: '#1e1b4b', display: 'inline-flex', justifyContent: 'center', width: '100%', maxWidth: 250 }}>
                 Get Started <Icon.Arrow />

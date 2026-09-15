@@ -24,7 +24,7 @@ export function LocationBoise() {
         { name: "North End / Harris Ranch Concierge", cost: "$700 - $1,100 / mo", consult: "Mandatory In-Person", access: "Branded Only" },
         { name: "Eagle Road MedSpas", cost: "$350 - $650 / mo", consult: "Monthly Membership", access: "Variable Compounding" },
         { name: "St. Luke's Endocrinology", cost: "$125 Copay + Rx", consult: "12-16 Week Wait", access: "Prior Auth Required" }
-      ]} telehealthPrice="From $146 / mo" />
+      ]} telehealthPrice="From $99 (1st Mo)" />
       <LocalTransitPain title="Bypass Eagle Road Traffic & St. Luke's Waitlists" transitText="Boise's growth has turned Eagle Road and the I-84/I-184 connector into daily bottlenecks. Commuting from Meridian, Nampa, or Eagle to a specialist appointment downtown takes 30-45 minutes." hospitalText="<strong>St. Luke's Health System</strong> and <strong>Saint Alphonsus</strong> serve the Treasure Valley. Specialist waits average 12-16 weeks." />
       <InteractiveFAQ faqs={[
         { q: "I moved from California. Can I use my old doctor?", a: "No. Prescribers must be licensed in your state of residence. Telehealth FX provides Idaho-licensed physicians for all Idaho patients." },

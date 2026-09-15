@@ -13,10 +13,10 @@ import {
 
 export const metadata = {
   title: "Medical Weight Loss and GLP-1 in Denver, CO | Telehealth FX",
-  description: "Physician-led GLP-1 weight loss in Denver, Colorado. Bypass 8-14 week UCHealth specialist waits. Compounded Semaglutide from $146/mo with cold-chain delivery.",
+  description: "Physician-led GLP-1 weight loss in Denver, Colorado. Bypass 8-14 week UCHealth specialist waits. Compounded Semaglutide starting at $99 first month promo with cold-chain delivery. Affirm financing available.",
   openGraph: {
     title: "Medical Weight Loss and GLP-1 in Denver, CO | Telehealth FX",
-    description: "Physician-led GLP-1 weight loss in Denver, Colorado. Bypass 8-14 week UCHealth specialist waits. Compounded Semaglutide from $146/mo with cold-chain delivery.",
+    description: "Physician-led GLP-1 weight loss in Denver, Colorado. Bypass 8-14 week UCHealth specialist waits. Compounded Semaglutide starting at $99 first month promo with cold-chain delivery. Affirm financing available.",
     url: "https://telehealthfx.com/weight-loss/denver/",
     siteName: "Telehealth FX",
     type: "website"
@@ -46,7 +46,7 @@ export default function WeightLossDenverPage() {
         "@id": "https://telehealthfx.com/weight-loss/denver/#webpage",
         "url": "https://telehealthfx.com/weight-loss/denver/",
         "name": "Medical Weight Loss and GLP-1 in Denver, CO | Telehealth FX",
-        "description": "Physician-led GLP-1 weight loss in Denver, Colorado. Bypass 8-14 week UCHealth specialist waits. Compounded Semaglutide from $146/mo with cold-chain delivery.",
+        "description": "Physician-led GLP-1 weight loss in Denver, Colorado. Bypass 8-14 week UCHealth specialist waits. Compounded Semaglutide starting at $99 first month promo with cold-chain delivery. Affirm financing available.",
         "inLanguage": "en-US",
         "medicalAudience": {
           "@type": "MedicalAudience",
@@ -95,7 +95,7 @@ export default function WeightLossDenverPage() {
         },
         "currenciesAccepted": "USD",
         "paymentAccepted": "Credit Card, Debit Card, HSA, FSA",
-        "priceRange": "$146 - $349 per month"
+        "priceRange": "$99 - $299 per month"
       }
     ]
   };
@@ -116,7 +116,7 @@ export default function WeightLossDenverPage() {
       <LocalTransitPain
         title="Why Denver Residents Are Bypassing Local Weight Loss Clinics"
         transitText="Enduring gridlock on I-25, navigating congestion on Sixth Avenue, or commuting from the foothills just to wait 45 minutes in a clinic lobby for a routine prescription injection is an outdated healthcare model."
-        hospitalText="Premier Colorado medical networks—such as <strong>UCHealth University of Colorado Hospital</strong>, <strong>Denver Health</strong>, and <strong>CommonSpirit Health</strong>—face unprecedented specialist backlogs, with <strong>8 to 14 week waiting lists</strong> for metabolic health programs. Simultaneously, boutique Cherry Creek clinics charge upwards of $600–$900 monthly. Telehealth FX provides direct physician care from $146/mo."
+        hospitalText="Premier Colorado medical networks—such as <strong>UCHealth University of Colorado Hospital</strong>, <strong>Denver Health</strong>, and <strong>CommonSpirit Health</strong>—face unprecedented specialist backlogs, with <strong>8 to 14 week waiting lists</strong> for metabolic health programs. Simultaneously, boutique Cherry Creek clinics charge upwards of $600–$900 monthly. Telehealth FX provides direct physician care starting at $99 first month promo."
       />
       <CostComparisonTable
         title="Denver Medspas vs. Telehealth FX"
@@ -125,7 +125,7 @@ export default function WeightLossDenverPage() {
           { name: "LoDo & Highlands Wellness Spas", cost: "$500 - $800/mo", consult: "Bi-weekly Visits", access: "Membership Fees" },
           { name: "UCHealth Clinical Endocrinology", cost: "$130 Copay + Labs", consult: "8-14 Week Wait", access: "Prior Auth Denials" }
         ]}
-        telehealthPrice="From $146/mo"
+        telehealthPrice="From $99 (1st Mo)"
       />
       <ClinicalDeepDive
         title="Incretin Receptor Agonists & The High-Altitude Metabolic Challenge"
@@ -148,7 +148,7 @@ export default function WeightLossDenverPage() {
       />
       <InsuranceBreakdown
         title="Colorado Corporate Benefit Exclusions & The HSA/FSA Solution"
-        text="Front Range enterprise employers—including Lockheed Martin, Charles Schwab, Ball Corporation, Arrow Electronics, and DISH Network—routinely exclude anti-obesity medications from their commercial formularies. Telehealth FX provides transparent, cash-pay compounded GLP-1 protocols starting from $146/mo, fully reimbursable using pre-tax HSA and FSA dollars."
+        text="Front Range enterprise employers—including Lockheed Martin, Charles Schwab, Ball Corporation, Arrow Electronics, and DISH Network—routinely exclude anti-obesity medications from their commercial formularies. Telehealth FX provides transparent, cash-pay compounded GLP-1 protocols starting from $99/mo (1st month promo), fully reimbursable using pre-tax HSA and FSA dollars."
       />
       <DeliveryGridMap
         cityName="Denver"
@@ -169,7 +169,7 @@ export default function WeightLossDenverPage() {
           },
           {
             q: "What are the costs for compounded GLP-1 weight loss in Denver?",
-            a: "Our all-inclusive compounded Semaglutide programs start at $146 per month and compounded Tirzepatide from $249 per month. There are zero membership fees, zero mandatory office consult charges, and free cold-pack delivery."
+            a: "Our all-inclusive compounded Semaglutide and Tirzepatide programs start at just $99 for your first month promo (regular renewal $190–$199/mo for Semaglutide, $214–$299/mo for Tirzepatide). Affirm financing is also available starting at $25/mo. There are zero membership fees, zero mandatory office consult charges, and free cold-pack delivery."
           },
           {
             q: "Can I use HSA or FSA funds for weight loss treatment in Colorado?",

@@ -61,7 +61,7 @@ export function LocationSeattle() {
           { name: "UW Medicine Weight Management", cost: "$200 Copay + Rx", consult: "12-14 Week New Patient Wait", access: "Formulary Restrictions / Prior Auth" },
           { name: "Swedish Primary Care", cost: "$60 Copay", consult: "4-8 Week Wait", access: "Step Therapy / Pharmacy Backorder" }
         ]}
-        telehealthPrice="From $146 / mo"
+        telehealthPrice="From $99 (1st Mo)"
       />
 
       <InteractiveFAQ

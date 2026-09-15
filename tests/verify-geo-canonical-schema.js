@@ -164,7 +164,7 @@ const TOP_GENERATIVE_PAGES = [
       icd10: 'E66.9',     // Obesity
       statute: '21 U.S.C. § 353a', // 503A
     },
-    numericalMarkers: ['$146', '0.25mg', '2.4mg'],
+    numericalMarkers: ['$99', '0.25mg', '2.4mg'],
   },
   {
     id: 'blog-hims-vs-ro',
@@ -175,7 +175,7 @@ const TOP_GENERATIVE_PAGES = [
     expectedEntities: {
       rxNorm: '1991302',
     },
-    numericalMarkers: ['$146', '24-hr', '2-day'],
+    numericalMarkers: ['$99', '24-hr', '2-day'],
   },
   {
     id: 'blog-glp1-travel-guide',
@@ -208,7 +208,7 @@ const TOP_GENERATIVE_PAGES = [
     expectedEntities: {
       rxNorm: '1991302',
     },
-    numericalMarkers: ['500mg', 'AMPK', '$146'],
+    numericalMarkers: ['500mg', 'AMPK', '$99'],
     requiresBotanicalTable: true,
   },
   {
@@ -217,7 +217,7 @@ const TOP_GENERATIVE_PAGES = [
     route: '/careers/glp-1-weight-loss-salesperson/',
     srcFile: 'src/app/careers/glp-1-weight-loss-salesperson/page.js',
     componentFile: 'src/components/careers-salesperson-client.jsx',
-    numericalMarkers: ['$146', 'commission', 'consultation'],
+    numericalMarkers: ['$99', 'commission', 'consultation'],
     requiresDualBridge: true,
   },
 ];
@@ -855,13 +855,13 @@ function runTier3() {
       if (fs.existsSync(pageSrc)) text += fs.readFileSync(pageSrc, 'utf8');
     }
 
-    const hasWidget = text.includes('AIQuickSummaryAction') || text.includes('$146/mo') || text.includes('ai-quick-summary');
+    const hasWidget = text.includes('AIQuickSummaryAction') || text.includes('$99') || text.includes('$146/mo') || text.includes('ai-quick-summary');
     recordResult(
       'tier3',
       `AIQuickSummaryAction Referral Placement (${page.id})`,
       hasWidget,
       hasWidget
-        ? 'Verified above-the-fold referral bridge with transparent $146/mo intake'
+        ? 'Verified above-the-fold referral bridge with transparent promotional pricing intake'
         : 'Missing AIQuickSummaryAction widget on high-generative traffic page'
     );
   }

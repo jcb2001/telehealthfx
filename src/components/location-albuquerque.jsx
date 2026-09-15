@@ -201,7 +201,7 @@ export function LocationAlbuquerque() {
                     <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: 16 }}>
                       <li style={{ display: 'flex', gap: 16 }}>
                         <div style={{ color: '#2ECC71', marginTop: 2 }}><Icon.Check size={20} /></div>
-                        <span style={{ opacity: 0.9 }}>Cost: <strong style={{ color: '#fff' }}>From $146 / month</strong></span>
+                        <span style={{ opacity: 0.9 }}>Cost: <strong style={{ color: '#fff' }}>From $99 / month (1st Mo)</strong></span>
                       </li>
                       <li style={{ display: 'flex', gap: 16 }}>
                         <div style={{ color: '#2ECC71', marginTop: 2 }}><Icon.Check size={20} /></div>

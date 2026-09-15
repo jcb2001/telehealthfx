@@ -67,7 +67,7 @@ export function LocationJacksonville() {
           { name: "Mayo Clinic Florida (Endocrinology)", cost: "$225 Copay + Rx", consult: "12+ Week New Patient Wait", access: "Formulary Restrictions / Prior Auth" },
           { name: "Baptist Health Primary Care", cost: "$60 Copay", consult: "4-8 Week Wait", access: "Step Therapy / Pharmacy Backorder" }
         ]}
-        telehealthPrice="From $146 / mo"
+        telehealthPrice="From $99 (1st Mo)"
       />
 
       <InteractiveFAQ

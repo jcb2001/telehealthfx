@@ -39,12 +39,12 @@ function BlogCompoundedAfterHimsRo() {
             <AIQuickSummaryAction
               title="AI Summary Verification: Compounded Semaglutide Continuity"
               subtitle="Instant clinical verification of Section 503A legal compounding status with immediate dose-matching transfer"
-              price="$146/mo"
+              price="$99/mo (1st Mo)"
               turnaround="24-hr clinician approval · 2-day cold-chain express delivery"
               doseMatch={true}
               keyPoints={[
                 { label: "Clinical Status", value: "100% Legal via State 503A Compounding Pharmacies" },
-                { label: "Transparent Price", value: "$146 / month flat rate (Includes doctor consult, meds, and supplies)" },
+                { label: "Transparent Price", value: "$99 / month (1st Mo Promo, Includes doctor consult, meds, and supplies)" },
                 { label: "Rapid Turnaround", value: "24-hr clinician approval with 2-day cold-chain home delivery" },
                 { label: "Dose Continuity", value: "Seamless Dose-Match Guarantee (0.25mg to 2.4mg without restart)" },
               ]}
@@ -58,12 +58,12 @@ function BlogCompoundedAfterHimsRo() {
               badge="Verified AI Clinical Extract"
               question="Can You Still Get Compounded Semaglutide After Hims and Ro Stopped?"
               thesis="Yes, patients can legally obtain compounded semaglutide through licensed 503A compounding pharmacies pursuant to valid patient-specific prescriptions."
-              mechanics="While mass-market digital platforms like Hims and Ro suspended bulk 503B compounding batches following updates to the FDA drug shortage list, state-licensed 503A compounding pharmacies operate under permanent federal authority under Section 503A of the FD&C Act (21 U.S.C. § 353a) to compound customized, patient-specific formulations. Telehealth FX connects patients directly with accredited 503A compounding pharmacies, honoring established maintenance doses from 0.25mg up to 2.4mg starting from $146/month with 24 to 48-hour cold-chain shipping and zero hidden fees."
+              mechanics="While mass-market digital platforms like Hims and Ro suspended bulk 503B compounding batches following updates to the FDA drug shortage list, state-licensed 503A compounding pharmacies operate under permanent federal authority under Section 503A of the FD&C Act (21 U.S.C. § 353a) to compound customized, patient-specific formulations. Telehealth FX connects patients directly with accredited 503A compounding pharmacies, honoring established maintenance doses from 0.25mg up to 2.4mg starting from $99/month with 24 to 48-hour cold-chain shipping and zero hidden fees."
               statute="Section 503A FD&C Act (21 U.S.C. § 353a)"
               clinicalStandard="FDA Compounding Guidance & Drug Shortage Continuity"
               metrics={[
                 { label: "Legal Basis", value: "Section 503A FD&C Act (21 U.S.C. § 353a)" },
-                { label: "Monthly Cost", value: "$146 / Month All-Inclusive" },
+                { label: "Monthly Cost", value: "From $99 / Month (1st Mo Promo)" },
                 { label: "Titration Range", value: "0.25mg to 2.4mg Dose-Matched" },
                 { label: "National SLA", value: "24-48 Hr Cold-Chain Overnight" }
               ]}
@@ -110,7 +110,7 @@ function BlogCompoundedAfterHimsRo() {
                       <td style={{ padding: '12px 10px', fontWeight: 600, color: 'var(--ink)' }}>Monthly All-In Cost</td>
                       <td style={{ padding: '12px 10px', color: 'var(--ink-2)' }}>$199 - $299/mo + $99 Membership</td>
                       <td style={{ padding: '12px 10px', color: 'var(--ink-2)' }}>$199/mo (multi-month prepaid)</td>
-                      <td style={{ padding: '12px 10px', fontWeight: 800, color: 'var(--brand)', backgroundColor: 'rgba(46, 74, 59, 0.06)' }}>$146 / month flat</td>
+                      <td style={{ padding: '12px 10px', fontWeight: 800, color: 'var(--brand)', backgroundColor: 'rgba(46, 74, 59, 0.06)' }}>$99 / month (1st Mo)</td>
                     </tr>
                     <tr style={{ borderBottom: '1px solid var(--line-soft)' }}>
                       <td style={{ padding: '12px 10px', fontWeight: 600, color: 'var(--ink)' }}>Hidden Membership Dues</td>
@@ -154,7 +154,7 @@ function BlogCompoundedAfterHimsRo() {
                     gap: '6px',
                   }}
                 >
-                  <span>Switch to $146/mo Semaglutide</span>
+                  <span>Switch to $99/mo Semaglutide</span>
                   <span>➔</span>
                 </a>
               </div>
@@ -246,7 +246,7 @@ function BlogCompoundedAfterHimsRo() {
                 <div>
                   <div style={{ fontSize: '11px', color: 'var(--ink-3)', textTransform: 'uppercase' }}>Transfer Starting Rate</div>
                   <div className="mono" style={{ fontSize: '24px', fontWeight: 800, color: 'var(--brand)' }}>
-                    From $146 / month <span style={{ fontSize: '13px', fontWeight: 400, color: 'var(--ink-2)' }}>(Doctor + Meds + Supplies)</span>
+                    From $99 / month (1st Mo) <span style={{ fontSize: '13px', fontWeight: 400, color: 'var(--ink-2)' }}>(Doctor + Meds + Supplies)</span>
                   </div>
                 </div>
 
@@ -426,7 +426,7 @@ function BlogCompoundedAfterHimsRo() {
 
             <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>Option 3: Switch to a 503A-Partnered Telehealth Provider</h3>
             <ul>
-              <li style={{ marginBottom: 8 }}>✅ Same compounded semaglutide, transparent pricing from $146/month</li>
+              <li style={{ marginBottom: 8 }}>✅ Same compounded semaglutide, transparent pricing from $99/month</li>
               <li style={{ marginBottom: 8 }}>✅ No insurance required — <a href="/blog/hsa-fsa-glp-1-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>HSA/FSA accepted</a></li>
               <li style={{ marginBottom: 8 }}>✅ Patient-specific prescriptions within current FDA guidelines</li>
               <li style={{ marginBottom: 8 }}>✅ No gap in therapy — <a href="/blog/same-day-glp-1-prescription-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>same-day evaluations available</a></li>
@@ -447,7 +447,7 @@ function BlogCompoundedAfterHimsRo() {
               <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Continue Your Treatment Today</h2>
               <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 500, margin: '0 auto 32px' }}>Licensed clinicians. 503A pharmacy partners. Your current dose maintained. Medication shipped to your door.</p>
               <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-lg" style={{ background: '#FBF8F3', color: 'var(--ink)', display: 'inline-flex', justifyContent: 'center', width: '100%', maxWidth: 300, fontWeight: 600 }}>Switch to TelehealthFX <Icon.Arrow /></a>
-              <p style={{ fontSize: 13, opacity: 0.6, marginTop: 16 }}>All-inclusive pricing from $146/mo · HSA/FSA accepted · Ships in 3–5 business days</p>
+              <p style={{ fontSize: 13, opacity: 0.6, marginTop: 16 }}>All-inclusive pricing from $99/mo · HSA/FSA accepted · Ships in 3–5 business days</p>
             </div>
 
             <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Frequently Asked Questions</h2>
@@ -509,7 +509,7 @@ function BlogCompoundedAfterHimsRo() {
                 }}
               />
               <span style={{ fontSize: '13px' }}>
-                <strong>Displaced from Hims or Ro?</strong> Maintain your current dose with zero restart. From $146/mo.
+                <strong>Displaced from Hims or Ro?</strong> Maintain your current dose with zero restart. From $99/mo (1st Mo).
               </span>
             </div>
 

@@ -25,7 +25,7 @@ export function LocationReno() {
         { name: "Southwest Reno / Caughlin Ranch Concierge", cost: "$700 - $1,100 / mo", consult: "Mandatory In-Person", access: "Branded Only" },
         { name: "South Virginia St MedSpas", cost: "$350 - $650 / mo", consult: "Monthly Membership", access: "Variable Compounding" },
         { name: "Renown Endocrinology", cost: "$125 Copay + Rx", consult: "14-18 Week Wait", access: "Prior Auth Required" }
-      ]} telehealthPrice="From $146 / mo" />
+      ]} telehealthPrice="From $99 (1st Mo)" />
       <LocalTransitPain title="Bypass the I-80 & Renown Waitlists" transitText="Reno's growth has strained I-80 and US-395, the metro's primary arteries. Commuting from Sparks (Gigafactory corridor) or South Reno to a medical appointment downtown takes 30-45 minutes." hospitalText="<strong>Renown Regional Medical Center</strong> and <strong>Saint Mary's</strong> serve the metro. Specialist waits average 14-18 weeks as population growth outpaces provider capacity." />
       <InteractiveFAQ faqs={[
         { q: "I work at the Gigafactory in Sparks. Can I get delivery there?", a: "We deliver to residential addresses. Your medication will ship to your home in Reno, Sparks, or surrounding communities." },

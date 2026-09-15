@@ -168,8 +168,24 @@ function ScienceDiagram() {
 // ============================================================================
 function Pricing() {
   const plans = [
-    { name: 'Semaglutide', price: '146', interval: 'mo', note: 'Based on 6-month plan', best: true, save: 'Most Popular' },
-    { name: 'Tirzepatide', price: '258', interval: 'mo', note: 'Based on 6-month plan', best: false, save: 'Strongest Results' },
+    {
+      name: 'Semaglutide',
+      price: '99',
+      interval: '1st mo',
+      note: '$99 First Month Promo · Then $190–$199/mo · Affirm from $25/mo',
+      best: true,
+      save: 'Most Popular · Save $100+',
+      cta: 'https://go.telehealthfx.com/start?url_id=11878'
+    },
+    {
+      name: 'Tirzepatide',
+      price: '99',
+      interval: '1st mo',
+      note: '$99 First Month Promo · Then $214–$299/mo · Affirm from $25/mo',
+      best: false,
+      save: 'Strongest Results · Save $200+',
+      cta: 'https://go.telehealthfx.com/start?url_id=11875'
+    },
   ];
   return (
     <section id="pricing" className="section">
@@ -179,8 +195,8 @@ function Pricing() {
           <h2 className="serif" style={{ fontSize: 64, marginBottom: 16 }}>
             100% Transparent Pricing.<br/><span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>No hidden fees.</span>
           </h2>
-          <p style={{ maxWidth: 560, margin: '0 auto', color: 'var(--ink-2)', fontSize: 16 }}>
-            Zero membership fees. Flexible 6-month payment plans available. Medication, supplies, and 2-Day UPS shipping included.
+          <p style={{ maxWidth: 620, margin: '0 auto', color: 'var(--ink-2)', fontSize: 16 }}>
+            $0 doctor consultation. Zero membership fees. First month starting at $99. Pay over time with Affirm starting at $25/mo (0% APR available). Medication, supplies, and free 2-Day cold shipping included.
           </p>
         </div>
 
@@ -199,18 +215,19 @@ function Pricing() {
                 transform: p.best ? 'translateY(-8px)' : 'none',
               }}
             >
-              {p.best && (
+              {p.save && (
                 <div style={{
                   position: 'absolute', top: -12, left: '50%', transform: 'translateX(-50%)',
-                  background: 'var(--accent)', color: '#FBF8F3',
+                  background: p.best ? 'var(--accent)' : 'var(--brand)', color: '#FBF8F3',
                   padding: '6px 14px', borderRadius: 999, fontSize: 11, fontWeight: 500, letterSpacing: '0.04em', textTransform: 'uppercase',
+                  whiteSpace: 'nowrap'
                 }}>
                   {p.save}
                 </div>
               )}
-              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 28 }}>
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 28, marginTop: 4 }}>
                 <h3 className="serif" style={{ fontSize: 32 }}>{p.name}</h3>
-                {!p.best && p.save && <span className="pill">{p.save}</span>}
+                <span className="pill" style={{ fontSize: 11 }}>Affirm Available</span>
               </div>
               <div style={{ marginBottom: 28 }}>
                 <div style={{ display: 'flex', alignItems: 'baseline', gap: 6 }}>
@@ -218,10 +235,17 @@ function Pricing() {
                   <span className="serif" style={{ fontSize: 72, lineHeight: 1 }}>${p.price}</span>
                   <span style={{ fontSize: 16, opacity: 0.7 }}>/ {p.interval}</span>
                 </div>
-                <div style={{ fontSize: 13, opacity: 0.7, marginTop: 6 }}>{p.note}</div>
+                <div style={{ fontSize: 13, opacity: 0.85, marginTop: 8, lineHeight: 1.4 }}>{p.note}</div>
               </div>
               <ul style={{ listStyle: 'none', marginBottom: 28, display: 'flex', flexDirection: 'column', gap: 10, fontSize: 14 }}>
-                {['No hidden membership fees', 'Fast 24-Hour Provider Review', '2-Day UPS Shipping', 'Dedicated Onboarding Support', 'Payment plans available'].map((f, j) => (
+                {[
+                  'Introductory $99 first month promotion',
+                  'Zero membership fees & $0 consult fee',
+                  'Fast 24-Hour Provider Review',
+                  'Free Overnight 2-Day Cold Shipping',
+                  'Pay over time with Affirm (from $25/mo)',
+                  'Needle-free daily tablets also available'
+                ].map((f, j) => (
                   <li key={j} style={{ display: 'flex', gap: 10, alignItems: 'center', opacity: p.best ? 0.95 : 0.9 }}>
                     <Icon.Check size={14}/> {f}
                   </li>
@@ -233,16 +257,16 @@ function Pricing() {
                   width: '100%', justifyContent: 'center', display: 'inline-flex',
                   ...(p.best ? { background: '#FBF8F3', color: 'var(--brand)' } : {}),
                 }}
-                href="https://go.telehealthfx.com/start"
+                href={p.cta || 'https://go.telehealthfx.com/start'}
               >
-                See If You Qualify
+                Claim $99 First Month
               </a>
             </div>
           ))}
         </div>
 
-        <div style={{ textAlign: 'center', marginTop: 40, fontSize: 13, color: 'var(--ink-3)' }}>
-          Pricing reflects starting doses. Discounts may apply based on commitments and current promotions.
+        <div style={{ textAlign: 'center', marginTop: 40, fontSize: 13, color: 'var(--ink-3)', maxWidth: 640, margin: '40px auto 0' }}>
+          *Introductory pricing reflects first-month promotional rates. Standard renewal pricing starts at $190.65/mo for Semaglutide and $214.50/mo for Tirzepatide with multi-month commitments. Affirm payment plans subject to credit check and approval.
         </div>
       </div>
     </section>

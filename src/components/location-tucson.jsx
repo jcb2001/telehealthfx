@@ -47,7 +47,7 @@ export function LocationTucson() {
           { name: "Speedway / Oracle Rd MedSpas", cost: "$350 - $650 / mo", consult: "Monthly Membership", access: "Variable Compounding" },
           { name: "Banner UMC Endocrinology", cost: "$125 Copay + Rx", consult: "12-16 Week Wait", access: "Prior Auth Required" }
         ]}
-        telehealthPrice="From $146 / mo"
+        telehealthPrice="From $99 (1st Mo)"
       />
       <LocalTransitPain
         title="Bypass the I-10 Sprawl & Banner Waitlists"

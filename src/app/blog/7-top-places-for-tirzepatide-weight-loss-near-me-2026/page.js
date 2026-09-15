@@ -47,7 +47,7 @@ export default function Page() {
             "name": "Do I need insurance to get tirzepatide from Telehealth FX?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "No. Telehealth FX operates on a direct-to-patient model starting at $258/month. We do not require insurance, nor do we run prior authorizations. You can, however, use your HSA/FSA card to pay for the treatment."
+              "text": "No. Telehealth FX operates on a direct-to-patient model starting at $99 for your first month (regular $214/mo, Affirm from $25/mo). We do not require insurance, nor do we run prior authorizations. You can, however, use your HSA/FSA card to pay for the treatment."
             }
           },
           {
@@ -71,7 +71,7 @@ export default function Page() {
         "review": [{ "@type": "Review", "author": { "@type": "Person", "name": "Verified Patient" }, "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "reviewBody": "Outstanding clinical oversight and seamless experience." }],
         "offers": {
           "@type": "Offer",
-          "price": "258.00",
+          "price": "99.00",
           "priceCurrency": "USD",
           "priceValidUntil": "2026-12-31",
           "availability": "https://schema.org/InStock",

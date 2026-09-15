@@ -56,7 +56,7 @@ export function LocationSanDiego() {
           { name: "Scripps Clinic Endocrinology", cost: "$175 Copay + Rx", consult: "8-12 Week New Patient Wait", access: "Formulary Restrictions / Prior Auth" },
           { name: "UCSD Health Weight Management", cost: "$125 Copay", consult: "10-14 Week Wait + Referral", access: "Limited to BMI 35+ for GLP-1" }
         ]}
-        telehealthPrice="From $146 / mo"
+        telehealthPrice="From $99 (1st Mo)"
       />
 
       <InsuranceBreakdown

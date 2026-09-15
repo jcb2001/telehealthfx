@@ -24,7 +24,7 @@ export function LocationWichita() {
         { name: "East Wichita Concierge", cost: "$600 - $900 / mo", consult: "Mandatory In-Person", access: "Branded Only" },
         { name: "West Side MedSpas", cost: "$300 - $600 / mo", consult: "Monthly Membership", access: "Variable Compounding" },
         { name: "Via Christi Endocrinology", cost: "$100 Copay + Rx", consult: "10-16 Week Wait", access: "Prior Auth Required" }
-      ]} telehealthPrice="From $146 / mo" />
+      ]} telehealthPrice="From $99 (1st Mo)" />
       <LocalTransitPain title="Bypass the Kellogg Corridor & Via Christi Waitlists" transitText="Wichita's traffic flows along Kellogg (US-54/400) and I-135. The city is car-dependent with no meaningful public transit." hospitalText="<strong>Ascension Via Christi</strong> and <strong>Wesley Medical Center</strong> serve the region. KU Medical Center is 3 hours away in Kansas City." />
       <InteractiveFAQ faqs={[
         { q: "I work shifts at the Spirit factory. When do I do the intake?", a: "Anytime. The intake is fully asynchronous—no appointment required." },

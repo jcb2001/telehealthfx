@@ -54,7 +54,7 @@ export function LocationRaleigh() {
           { name: "Duke Endocrinology", cost: "$150 Copay + Rx", consult: "12-16 Week New Patient Wait", access: "Formulary Restrictions / Prior Auth" },
           { name: "UNC Health PCP", cost: "$50 Copay", consult: "6-8 Week Wait", access: "Step Therapy / Pharmacy Backorder" }
         ]}
-        telehealthPrice="From $146 / mo"
+        telehealthPrice="From $99 (1st Mo)"
       />
 
       <LocalTransitPain

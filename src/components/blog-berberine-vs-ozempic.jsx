@@ -84,7 +84,7 @@ function BlogBerberineVsOzempic() {
               <Icon.Check size={24} />
             </div>
             <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Looking for Serious Weight Loss?</h3>
-            <p style={{ marginBottom: 24, fontSize: 16 }}>If you need significant appetite suppression and clinical results, explore clinician-guided GLP-1 therapies starting at just $146/mo.</p>
+            <p style={{ marginBottom: 24, fontSize: 16 }}>If you need significant appetite suppression and clinical results, explore clinician-guided GLP-1 therapies starting at just $99/mo (1st month promo).</p>
             <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>
               Start GLP-1 Assessment <Icon.Arrow />
             </a>
@@ -140,7 +140,7 @@ function BlogBerberineVsOzempic() {
                 </tr>
                 <tr style={{ background: '#fafafa' }}>
                   <td style={{ padding: 16, borderBottom: '1px solid var(--line-soft)', fontWeight: 600 }}>Average Monthly Cost</td>
-                  <td style={{ padding: 16, borderBottom: '1px solid var(--line-soft)' }}>$900–$1,300 (Branded) / $146–$299 (Compounded)</td>
+                  <td style={{ padding: 16, borderBottom: '1px solid var(--line-soft)' }}>$900–$1,300 (Branded) / $99–$299 (Compounded)</td>
                   <td style={{ padding: 16, borderBottom: '1px solid var(--line-soft)' }}>$20–$50 (Oral) / $40–$60 (Transdermal)</td>
                 </tr>
               </tbody>

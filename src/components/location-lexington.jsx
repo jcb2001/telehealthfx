@@ -25,7 +25,7 @@ export function LocationLexington() {
         { name: "Chevy Chase / Hamburg Concierge", cost: "$600 - $1,000 / mo", consult: "Mandatory In-Person", access: "Branded Only" },
         { name: "Beaumont / Tates Creek MedSpas", cost: "$350 - $600 / mo", consult: "Monthly Membership", access: "Variable Compounding" },
         { name: "UK HealthCare Endocrinology", cost: "$125 Copay + Rx", consult: "12-16 Week Wait", access: "Prior Auth Required" }
-      ]} telehealthPrice="From $146 / mo" />
+      ]} telehealthPrice="From $99 (1st Mo)" />
       <LocalTransitPain title="Bypass New Circle Road & UK Waitlists" transitText="Lexington's traffic concentrates on New Circle Road (KY-4) and the I-75/I-64 interchange. The city is car-dependent with no rail transit. Getting from the horse farms south of town to UK Chandler Hospital requires navigating New Circle congestion." hospitalText="<strong>UK HealthCare</strong> is the region's academic anchor, complemented by <strong>Baptist Health Lexington</strong>. Specialist waits average 12-16 weeks." />
       <InteractiveFAQ faqs={[
         { q: "I work on a farm outside Lexington. Can I get delivery?", a: "Yes. We deliver to all addresses in Fayette County and surrounding Bluegrass counties including Woodford, Scott, Jessamine, and Bourbon counties." },

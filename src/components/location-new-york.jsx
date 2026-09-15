@@ -35,7 +35,7 @@ export function LocationNewYork() {
           { name: "Tribeca Boutique MedSpas", cost: "$750 - $1,100 / mo", consult: "Mandatory Bloodwork Fees", access: "Requires 'Membership' Fee" },
           { name: "Traditional Primary Care (Mount Sinai)", cost: "$150 Copay", consult: "3-Month Wait for Appointment", access: "Pharmacy Denials / Out of Stock" }
         ]}
-        telehealthPrice="From $146 / mo"
+        telehealthPrice="From $99 (1st Mo)"
       />
 
       <PatientArchetype 

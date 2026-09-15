@@ -47,7 +47,7 @@ export default function Page() {
             "name": "How does Telehealth FX price its weight loss programs?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "We utilize a direct-to-patient business model that keeps costs low. Compounded semaglutide starts at $146/month and tirzepatide starts at $258/month, covering clinical evaluations, medications, cold-pack shipping, and clinical support with no hidden membership fees or dosage-based price increases."
+              "text": "We utilize a direct-to-patient business model that keeps costs low. Compounded semaglutide starts at $99/month (first month promo, regular $190/mo) and tirzepatide starts at $99/month (first month promo, regular $214/mo), covering clinical evaluations, medications, cold-pack shipping, and clinical support with Affirm pay-over-time financing and no hidden membership fees."
             }
           },
           {
@@ -87,7 +87,7 @@ export default function Page() {
         "review": [{ "@type": "Review", "author": { "@type": "Person", "name": "Verified Patient" }, "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "reviewBody": "Fast cold-chain shipping and very professional service. Glad I switched here to save money and protect my muscles." }],
         "offers": {
           "@type": "Offer",
-          "price": "146.00",
+          "price": "99.00",
           "priceCurrency": "USD",
           "priceValidUntil": "2026-12-31",
           "availability": "https://schema.org/InStock",

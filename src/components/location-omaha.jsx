@@ -33,7 +33,7 @@ export function LocationOmaha() {
         { name: "West Omaha / Regency Concierge", cost: "$600 - $1,000 / mo", consult: "Mandatory In-Person", access: "Branded Only" },
         { name: "Midtown MedSpas", cost: "$350 - $650 / mo", consult: "Monthly Membership", access: "Variable Compounding" },
         { name: "Nebraska Medicine Endocrinology", cost: "$125 Copay + Rx", consult: "10-14 Week Wait", access: "Prior Auth Required" }
-      ]} telehealthPrice="From $146 / mo" />
+      ]} telehealthPrice="From $99 (1st Mo)" />
       <LocalTransitPain title="Bypass the I-80 Sprawl & UNMC Waitlists" transitText="Omaha sprawls west along I-80 and Dodge Street with limited transit options. Commuting from Papillion, Bellevue, or Council Bluffs (Iowa) to a specialist appointment at UNMC can consume significant time." hospitalText="<strong>Nebraska Medicine (UNMC)</strong> and <strong>CHI Health</strong> anchor the region. Specialist waits average 10-14 weeks. Branded Wegovy is on the same national backorder at your local <strong>Hy-Vee</strong> or <strong>CVS</strong>." />
       <InteractiveFAQ faqs={[
         { q: "I live in Council Bluffs (Iowa). Which state applies?", a: "Your prescribing state is determined by your residence. If you live in Iowa, you'll be evaluated by an IA-licensed physician. We serve both Nebraska and Iowa residents across the Omaha metro." },

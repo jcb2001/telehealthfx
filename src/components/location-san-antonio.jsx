@@ -56,7 +56,7 @@ export function LocationSanAntonio() {
           { name: "BAMC Endocrinology (TRICARE)", cost: "$0 Copay", consult: "16+ Week Wait + Referral Chain", access: "Formulary Restricted / BMI 32+ Required" },
           { name: "University Health System", cost: "$100 Copay + Rx", consult: "8-12 Week Wait", access: "Prior Auth / Step Therapy / Backorder" }
         ]}
-        telehealthPrice="From $146 / mo"
+        telehealthPrice="From $99 (1st Mo)"
       />
 
       <InteractiveFAQ

@@ -39,7 +39,7 @@ export function LocationDetroit() {
           { name: "Henry Ford Health Primary Care", cost: "$50 Copay", consult: "6-8 Week Wait", access: "Step Therapy / Pharmacy Backorder" },
           { name: "Corewell Health (Beaumont) PCP", cost: "$50 Copay", consult: "4-6 Week Wait", access: "Prior Auth / Step Therapy" }
         ]}
-        telehealthPrice="From $146 / mo"
+        telehealthPrice="From $99 (1st Mo)"
       />
 
       <InsuranceBreakdown

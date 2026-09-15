@@ -65,7 +65,7 @@ export function LocationIndianapolis() {
           { name: "IU Health Endocrinology (Methodist)", cost: "$150 Copay + Rx", consult: "8-12 Week New Patient Wait", access: "Formulary Restrictions / Step Therapy" },
           { name: "Community Health Network PCP", cost: "$50 Copay", consult: "4-6 Week Wait", access: "Prior Auth / Pharmacy Backorder" }
         ]}
-        telehealthPrice="From $146 / mo"
+        telehealthPrice="From $99 (1st Mo)"
       />
 
       <InteractiveFAQ

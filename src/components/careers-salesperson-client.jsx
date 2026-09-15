@@ -64,7 +64,7 @@ export function CareersTopBanner() {
               }}
             />
             <span>
-              <strong>Looking for GLP-1 weight loss treatment instead of a career?</strong> Get prescribed online in 24 hours from $146/mo.
+              <strong>Looking for GLP-1 weight loss treatment instead of a career?</strong> Get prescribed online in 24 hours from $99/mo (1st month promo).
             </span>
           </div>
           <a
@@ -194,7 +194,7 @@ export function CareersHeroInteractive() {
           Looking for GLP-1 weight loss treatment instead of a career?
         </h3>
         <p style={{ fontSize: '15px', color: '#166534', margin: '0 0 16px', lineHeight: 1.5 }}>
-          Get prescribed online in 24 hours from $146/mo with board-certified doctor oversight, no waiting rooms, and cold-pack home delivery.
+          Get prescribed online in 24 hours from $99/mo (1st month promo) with board-certified doctor oversight, no waiting rooms, and cold-pack home delivery.
         </p>
         <div
           style={{
@@ -210,7 +210,7 @@ export function CareersHeroInteractive() {
             ⚡ 24h Online Prescriptions
           </span>
           <span style={{ backgroundColor: '#DCFCE7', padding: '4px 10px', borderRadius: '6px', fontWeight: 500 }}>
-            💊 Semaglutide ($146/mo) &amp; Tirzepatide ($249/mo)
+            💊 Semaglutide ($99/mo) &amp; Tirzepatide ($99/mo 1st mo)
           </span>
           <span style={{ backgroundColor: '#DCFCE7', padding: '4px 10px', borderRadius: '6px', fontWeight: 500 }}>
             📦 Cold-Chain Shipped
@@ -476,7 +476,7 @@ export function CareersBottomInteractive() {
         }}
       >
         <div style={{ fontSize: '13px', color: 'rgba(255,255,255,0.8)' }}>
-          Looking to start GLP-1 weight loss treatment? Prescriptions from $146/mo.
+          Looking to start GLP-1 weight loss treatment? Prescriptions from $99/mo (1st month promo).
         </div>
         <a
           href="https://go.telehealthfx.com/start"

@@ -24,7 +24,7 @@ export function LocationLubbock() {
         { name: "Southwest Lubbock Concierge", cost: "$500 - $900 / mo", consult: "Mandatory In-Person", access: "Branded Only" },
         { name: "Slide Road MedSpas", cost: "$300 - $550 / mo", consult: "Monthly Membership", access: "Variable Compounding" },
         { name: "UMC Endocrinology", cost: "$100 Copay + Rx", consult: "16-20 Week Wait", access: "Prior Auth Required" }
-      ]} telehealthPrice="From $146 / mo" />
+      ]} telehealthPrice="From $99 (1st Mo)" />
       <LocalTransitPain title="There's Nothing Nearby" transitText="Lubbock's challenge isn't traffic—it's distance. The nearest alternative city for specialist care is 2+ hours away (Amarillo or Midland). Dallas is 5 hours. Lubbock residents depend entirely on local capacity." hospitalText="<strong>UMC Health System</strong> and <strong>Covenant Health</strong> are the only options. TTUHSC provides academic support but specialist waits average 16-20 weeks." />
       <InteractiveFAQ faqs={[
         { q: "I live in a rural area outside Lubbock. Can I get delivery?", a: "Yes. We deliver to all West Texas addresses including Levelland, Plainview, Brownfield, Snyder, and Post." },

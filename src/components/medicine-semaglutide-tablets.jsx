@@ -13,7 +13,7 @@ function SemaglutideTabletsPage() {
         "@id": "https://telehealthfx.com/medications/semaglutide-tablets/#webpage",
         "url": "https://telehealthfx.com/medications/semaglutide-tablets",
         "name": "Semaglutide Tablets Weight Loss Program | Telehealth FX",
-        "description": "Get prescribed compounded sublingual Semaglutide tablets from $249/mo. 24-hour clinician approval, zero weekly needles, free shipping.",
+        "description": "Get prescribed compounded sublingual Semaglutide tablets from $149 first month promo. 24-hour clinician approval, zero weekly needles, free shipping. Affirm financing available.",
         "about": {
           "@type": "Drug",
           "@id": "https://telehealthfx.com/medications/semaglutide-tablets/#drug",
@@ -36,16 +36,16 @@ function SemaglutideTabletsPage() {
         {/* Hero */}
         <div style={{ textAlign: 'center', marginBottom: 80 }}>
           <div className="pill pill-brand" style={{ marginBottom: 20, display: 'inline-flex' }}>
-            <span className="pill-dot" /> Once-Daily Tablet
+            <span className="pill-dot" /> Once-Daily Tablet · $149 1st Month Promo
           </div>
           <h1 className="serif" style={{ fontSize: 72, marginBottom: 28, lineHeight: 0.95 }}>
-            Semaglutide Tablets<br/><span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>from $249/mo.</span>
+            Semaglutide Tablets<br/><span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>from $149/mo.</span>
           </h1>
           <p style={{ fontSize: 20, color: 'var(--ink-2)', maxWidth: 600, margin: '0 auto 40px', lineHeight: 1.6 }}>
-            A convenient once-daily dissolving tablet form of Semaglutide. Compounded semaglutide tablets — prepared by U.S. state-licensed pharmacies. Zero injections, zero pain.
+            A convenient once-daily dissolving tablet form of Semaglutide. Introductory $149 first month promo (regular $217–$249/mo). Affirm financing from $37/mo. Zero weekly injections, zero pain.
           </p>
           <a href={CTA_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex' }}>
-            See If You Qualify <Icon.Arrow />
+            Claim $149 First Month <Icon.Arrow />
           </a>
         </div>
 
@@ -53,7 +53,7 @@ function SemaglutideTabletsPage() {
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 24, marginBottom: 80 }}>
           {[
             { num: 'Tablet', label: 'Easy Dissolving Format' },
-            { num: '$249', label: 'Starting Price/mo' },
+            { num: '$149', label: '1st Month Promo' },
             { num: '0', label: 'Weekly Needles' },
           ].map((s, i) => (
             <div key={i} className="card" style={{ padding: 28, textAlign: 'center' }}>
@@ -69,7 +69,7 @@ function SemaglutideTabletsPage() {
           <h2 className="serif" style={{ fontSize: 40, marginTop: 0, marginBottom: 24, color: 'var(--ink)' }}>What Are Semaglutide Tablets?</h2>
           <p>Compounded semaglutide tablets are an oral form of the GLP-1 receptor agonist semaglutide. Taken daily, these sublingual tablets are designed to dissolve completely under the tongue. This allows the active semaglutide molecule to be absorbed directly into the blood via the sublingual mucosa, bypassing the destructive acids of the stomach.</p>
           <p>This tablet format provides a highly convenient, comfortable, and needle-free alternative for individuals who want the clinical efficacy of semaglutide without the pain and storage hassles associated with refrigerated weekly injections.</p>
-          <p>Our compounded semaglutide tablets are prescribed by licensed providers and formulated in certified U.S. compounding pharmacies, starting at <strong>$249/month</strong>.</p>
+          <p>Our compounded semaglutide tablets are prescribed by licensed providers and formulated in certified U.S. compounding pharmacies, starting at an introductory promo of <strong>$149 for your first month</strong> (regular renewal $217–$249/mo, with Affirm financing available).</p>
 
           <h2 className="serif" style={{ fontSize: 40, marginTop: 64, marginBottom: 24, color: 'var(--ink)' }}>How Semaglutide Tablets Work</h2>
           <p>Semaglutide tablets work by mimicking a natural gut hormone called GLP-1 (Glucagon-Like Peptide-1) to support healthy weight loss:</p>
@@ -84,7 +84,7 @@ function SemaglutideTabletsPage() {
             <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Ditch the Needles</h3>
             <p style={{ marginBottom: 24, fontSize: 16 }}>Complete your medical assessment. If prescribed, your custom compounded semaglutide tablets are shipped directly to your door.</p>
             <a href={CTA_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>
-              See If You Qualify <Icon.Arrow />
+              Claim $149 First Month <Icon.Arrow />
             </a>
           </div>
 
@@ -109,10 +109,10 @@ function SemaglutideTabletsPage() {
           <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
             <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Ready for Daily Semaglutide Tablets?</h2>
             <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 500, margin: '0 auto 32px' }}>
-              From $249/mo. 100% online clinician consult, transparent subscription pricing, and direct-to-door delivery.
+              From $149 first month promo (regular $217/mo). Affirm financing available from $37/mo. 100% online clinician consult and direct-to-door delivery.
             </p>
             <a href={CTA_URL} target="_blank" rel="noopener noreferrer" className="btn btn-lg" style={{ background: '#FBF8F3', color: 'var(--ink)', display: 'inline-flex', justifyContent: 'center', width: '100%', maxWidth: 300 }}>
-              See If You Qualify <Icon.Arrow />
+              Claim $149 First Month <Icon.Arrow />
             </a>
           </div>
 

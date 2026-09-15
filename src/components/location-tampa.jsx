@@ -55,7 +55,7 @@ export function LocationTampa() {
           { name: "Tampa General Endocrinology", cost: "$125 Copay + Rx", consult: "10-18 Week Wait (Seasonal)", access: "Formulary Restrictions / Prior Auth" },
           { name: "BayCare Primary Care", cost: "$45 Copay", consult: "4-8 Week Wait", access: "Step Therapy / Pharmacy Backorder" }
         ]}
-        telehealthPrice="From $146 / mo"
+        telehealthPrice="From $99 (1st Mo)"
       />
 
       <LocalTransitPain

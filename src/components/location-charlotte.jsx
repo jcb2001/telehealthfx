@@ -61,7 +61,7 @@ export function LocationCharlotte() {
           { name: "Atrium Health Endocrinology (CMC)", cost: "$150 Copay + Rx", consult: "8-12 Week New Patient Wait", access: "Formulary Restrictions / Prior Auth" },
           { name: "Novant Health Primary Care", cost: "$50 Copay", consult: "4-6 Week Wait", access: "Step Therapy / Pharmacy Backorder" }
         ]}
-        telehealthPrice="From $146 / mo"
+        telehealthPrice="From $99 (1st Mo)"
       />
 
       <LocalTransitPain

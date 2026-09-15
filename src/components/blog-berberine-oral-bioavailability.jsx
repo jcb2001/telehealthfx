@@ -127,7 +127,7 @@ function BlogBerberineOralBioavailability() {
               <Icon.Check size={24} />
             </div>
             <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Need a Stronger Clinical Solution?</h3>
-            <p style={{ marginBottom: 24, fontSize: 16 }}>If berberine isn't providing the metabolic reset you need, explore our clinician-guided GLP-1 weight loss programs starting at $146/mo.</p>
+            <p style={{ marginBottom: 24, fontSize: 16 }}>If berberine isn't providing the metabolic reset you need, explore our clinician-guided GLP-1 weight loss programs starting at $99/mo (1st month promo).</p>
             <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>
               Check GLP-1 Eligibility <Icon.Arrow />
             </a>

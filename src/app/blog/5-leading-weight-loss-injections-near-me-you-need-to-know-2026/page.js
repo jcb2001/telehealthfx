@@ -47,7 +47,7 @@ export default function Page() {
             "name": "How does Telehealth FX keep compounded prices low?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "We operate on a direct-to-patient telemedicine model, eliminating the brick-and-mortar overhead and insurance billing administration. This allows us to offer compounded semaglutide starting at $146/month for the starting dose with no hidden membership fees."
+              "text": "We operate on a direct-to-patient telemedicine model, eliminating the brick-and-mortar overhead and insurance billing administration. This allows us to offer compounded semaglutide starting at $99/month (1st month promo) for the starting dose with no hidden membership fees."
             }
           },
           {
@@ -79,7 +79,7 @@ export default function Page() {
         "review": [{ "@type": "Review", "author": { "@type": "Person", "name": "Verified Patient" }, "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "reviewBody": "Great results and the monthly rate is extremely competitive and flat-rate." }],
         "offers": {
           "@type": "Offer",
-          "price": "146.00",
+          "price": "99.00",
           "priceCurrency": "USD",
           "priceValidUntil": "2026-12-31",
           "availability": "https://schema.org/InStock",

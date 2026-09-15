@@ -28,7 +28,7 @@ export function LocationFortWorth() {
           { name: "Texas Health Harris Methodist Endo", cost: "$125 Copay + Rx", consult: "8-12 Week New Patient Wait", access: "Formulary Restrictions / Prior Auth" },
           { name: "JPS Health Network PCP", cost: "$25 Sliding Scale", consult: "10-14 Week Wait", access: "Step Therapy / Pharmacy Backorder" }
         ]}
-        telehealthPrice="From $146 / mo"
+        telehealthPrice="From $99 (1st Mo)"
       />
 
       <PatientArchetype

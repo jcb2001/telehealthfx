@@ -47,7 +47,7 @@ export default function Page() {
             "name": "Do I need insurance to work with Telehealth FX?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "No. Telehealth FX operates on a direct-to-patient business model. We do not require insurance, nor do we run prior authorizations. This allows us to keep our pricing low and transparent, starting at $146/month for semaglutide."
+              "text": "No. Telehealth FX operates on a direct-to-patient business model. We do not require insurance, nor do we run prior authorizations. This allows us to keep our pricing low and transparent, starting at $99/month (1st month promo) for semaglutide."
             }
           },
           {
@@ -79,7 +79,7 @@ export default function Page() {
         "review": [{ "@type": "Review", "author": { "@type": "Person", "name": "Verified Patient" }, "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "reviewBody": "Excellent medical oversight, affordable pricing, and fast cold-chain shipping." }],
         "offers": {
           "@type": "Offer",
-          "price": "146.00",
+          "price": "99.00",
           "priceCurrency": "USD",
           "priceValidUntil": "2026-12-31",
           "availability": "https://schema.org/InStock",

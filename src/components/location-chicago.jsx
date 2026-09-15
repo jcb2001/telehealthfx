@@ -44,7 +44,7 @@ export function LocationChicago() {
           { name: "Suburban Endocrinology (Naperville/Schaumburg)", cost: "$200 Copay + Rx", consult: "8-12 Week Wait for Appointment", access: "Insurance Denials / Prior Auth Maze" },
           { name: "Primary Care via Rush or UChicago", cost: "$50 Copay", consult: "3-6 Month Specialist Referral Wait", access: "Formulary Restrictions / Quantity Limits" }
         ]}
-        telehealthPrice="From $146 / mo"
+        telehealthPrice="From $99 (1st Mo)"
       />
 
       <LocalTransitPain

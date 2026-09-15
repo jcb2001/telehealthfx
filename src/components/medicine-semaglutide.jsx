@@ -2,14 +2,14 @@
 import React from 'react';
 import { Icon } from './common.jsx';
 
-const CTA_URL = "https://go.telehealthfx.com/start";
+const CTA_URL = "https://go.telehealthfx.com/start?url_id=11878";
 
 function SemaglutidePage() {
   const schema = {
     "@context": "https://schema.org",
     "@type": "MedicalWebPage",
     "name": "Semaglutide Weight Loss Program | Telehealth FX",
-    "description": "Get prescribed compounded Semaglutide (GLP-1 receptor agonist) from $146/mo. 24-hour clinician approval, zero hidden fees, 2-day UPS shipping. See if you qualify.",
+    "description": "Get prescribed compounded Semaglutide (GLP-1 receptor agonist) from $99 first month promo. 24-hour clinician approval, zero hidden fees, free 2-day cold shipping. Affirm financing from $25/mo.",
     "about": {
       "@type": "Drug",
       "name": "Semaglutide",
@@ -29,16 +29,16 @@ function SemaglutidePage() {
         {/* Hero */}
         <div style={{ textAlign: 'center', marginBottom: 80 }}>
           <div className="pill pill-brand" style={{ marginBottom: 20, display: 'inline-flex' }}>
-            <span className="pill-dot" /> Most Popular GLP-1
+            <span className="pill-dot" /> Most Popular GLP-1 · $99 1st Month Promo
           </div>
           <h1 className="serif" style={{ fontSize: 72, marginBottom: 28, lineHeight: 0.95 }}>
-            Semaglutide<br/><span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>from $146/mo.</span>
+            Semaglutide<br/><span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>from $99/mo.</span>
           </h1>
           <p style={{ fontSize: 20, color: 'var(--ink-2)', maxWidth: 600, margin: '0 auto 40px', lineHeight: 1.6 }}>
-            a GLP-1 receptor agonist formulation — compounded by licensed US pharmacies. 24-hour clinician approval. Zero hidden fees. 2-day UPS shipping.
+            A GLP-1 receptor agonist formulation compounded by licensed US 503A pharmacies. Introductory $99 first month promo (regular $190–$199/mo). Affirm financing available from $25/mo. Free cold shipping.
           </p>
           <a href={CTA_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex' }}>
-            See If You Qualify <Icon.Arrow />
+            Claim $99 First Month <Icon.Arrow />
           </a>
         </div>
 
@@ -46,8 +46,8 @@ function SemaglutidePage() {
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 24, marginBottom: 80 }}>
           {[
             { num: '24h', label: 'Clinician Approval' },
-            { num: '$146', label: 'Starting Price/mo' },
-            { num: '2-Day', label: 'UPS Shipping' },
+            { num: '$99', label: '1st Month Promo' },
+            { num: '2-Day', label: 'UPS Cold Shipping' },
           ].map((s, i) => (
             <div key={i} className="card" style={{ padding: 28, textAlign: 'center' }}>
               <div className="serif" style={{ fontSize: 36, color: 'var(--brand)', marginBottom: 4 }}>{s.num}</div>
@@ -126,7 +126,7 @@ function SemaglutidePage() {
 
           <h2 className="serif" style={{ fontSize: 40, marginTop: 64, marginBottom: 24, color: 'var(--ink)' }}>What Is Compounded Semaglutide?</h2>
           <p>Compounded semaglutide is formulated with the active pharmaceutical ingredient <strong>semaglutide</strong>, and is produced by <strong>licensed 503A and 503B compounding pharmacies</strong> in the United States. These pharmacies operate under state board oversight and follow Current Good Manufacturing Practices (cGMP).</p>
-          <p>The key difference? <strong>Price.</strong> Branded Wegovy costs $1,300+/month without insurance. Compounded semaglutide through Telehealth FX starts at <strong>$146/month</strong> — making this clinically proven treatment accessible to people who would otherwise be priced out of the most effective weight loss medication available.</p>
+          <p>The key difference? <strong>Price.</strong> Branded Wegovy costs $1,300+/month without insurance. Compounded semaglutide through Telehealth FX starts at <strong>$99 for your first month</strong> ($190/mo renewal, Affirm pay-over-time from $25/mo) — making this clinically proven treatment accessible to people who would otherwise be priced out of the most effective weight loss medication available.</p>
           <p>Every compounded prescription is:</p>
           <ul style={{ marginBottom: 24, paddingLeft: 20 }}>
             <li style={{ marginBottom: 8 }}>Prescribed by a licensed, board-certified clinician after medical review</li>
@@ -141,7 +141,7 @@ function SemaglutidePage() {
               <Icon.Check size={24} />
             </div>
             <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Compounded Semaglutide. Fraction of the Cost.</h3>
-            <p style={{ marginBottom: 24, fontSize: 16 }}>Compounded Semaglutide from $146/mo. Licensed clinicians, transparent pricing, no insurance needed.</p>
+            <p style={{ marginBottom: 24, fontSize: 16 }}>Compounded Semaglutide from $99 (1st month promo). Licensed clinicians, transparent renewal ($190/mo), Affirm financing, no insurance needed.</p>
             <a href={CTA_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>
               Start Your Assessment <Icon.Arrow />
             </a>
@@ -182,7 +182,9 @@ function SemaglutidePage() {
                   ['Mechanism', 'GLP-1 single agonist', 'Dual GIP/GLP-1 agonist'],
                   ['Avg. Weight Loss', '~15% body weight', '~20-22% body weight'],
                   ['Dosing', 'Once weekly injection', 'Once weekly injection'],
-                  ['Starting Price', '$146/mo', '$258/mo'],
+                  ['Starting Price', '$99 (1st Mo Promo)', '$99 (1st Mo Promo)'],
+                  ['Regular Renewal', 'From $190/mo', 'From $214/mo'],
+                  ['Financing', 'Affirm from $25/mo', 'Affirm from $25/mo'],
                   ['Best For', 'Proven track record, CV protection', 'Maximum weight loss potential'],
                   ['FDA Approvals', 'Ozempic, Wegovy', 'Mounjaro, Zepbound'],
                 ].map(([factor, sem, tirz], i) => (
@@ -195,7 +197,7 @@ function SemaglutidePage() {
               </tbody>
             </table>
           </div>
-          <p>Both medications are highly effective. Your clinician will recommend the best option based on your medical history, goals, and budget. Many patients start with semaglutide and transition to tirzepatide if additional weight loss is desired.</p>
+          <p>Both medications are highly effective. Your clinician will recommend the best option based on your medical history, goals, and budget. Many patients start with semaglutide and transition to tirzepatide if additional weight loss is desired. Affirm pay-over-time financing is available for both programs.</p>
 
           <h2 className="serif" style={{ fontSize: 40, marginTop: 64, marginBottom: 24, color: 'var(--ink)' }}>How the Telehealth FX Semaglutide Program Works</h2>
           <div style={{ display: 'grid', gridTemplateColumns: '48px 1fr', gap: '20px 16px', margin: '32px 0' }}>
@@ -235,10 +237,10 @@ function SemaglutidePage() {
           <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
             <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Start Your Semaglutide Program</h2>
             <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 500, margin: '0 auto 32px' }}>
-              From $146/mo. Licensed clinicians. 24-hour approval. 2-day UPS shipping. Zero hidden fees.
+              From $99 first month promo. Affirm financing from $25/mo. Licensed clinicians. 24-hour approval. Free cold shipping. Zero hidden fees.
             </p>
             <a href={CTA_URL} target="_blank" rel="noopener noreferrer" className="btn btn-lg" style={{ background: '#FBF8F3', color: 'var(--ink)', display: 'inline-flex', justifyContent: 'center', width: '100%', maxWidth: 300 }}>
-              See If You Qualify <Icon.Arrow />
+              Claim $99 First Month <Icon.Arrow />
             </a>
           </div>
 

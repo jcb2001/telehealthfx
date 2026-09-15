@@ -50,7 +50,7 @@ export default function Page() {
             "name": "Why does Telehealth FX charge a flat rate when other companies charge by dose?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Many providers charge escalating fees to maximize their profit margins as patients titrate to higher doses. At Telehealth FX, we believe this practice creates a conflict of interest, discouraging patients from moving to the dose that is clinically necessary for their weight loss and metabolic health. Our pricing starting at $258/mo for the starting dose ensures you can access this therapy affordably."
+              "text": "Many providers charge escalating fees to maximize their profit margins as patients titrate to higher doses. At Telehealth FX, we believe this practice creates a conflict of interest, discouraging patients from moving to the dose that is clinically necessary for their weight loss and metabolic health. Our promotional pricing starting at $99 for your first month (regular $214/mo, Affirm from $25/mo) ensures you can access this therapy affordably."
             }
           }
         ]
@@ -66,7 +66,7 @@ export default function Page() {
         "review": [{ "@type": "Review", "author": { "@type": "Person", "name": "Verified Patient" }, "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "reviewBody": "Outstanding clinical oversight and seamless experience." }],
         "offers": {
           "@type": "Offer",
-          "price": "258.00",
+          "price": "99.00",
           "priceCurrency": "USD",
           "priceValidUntil": "2026-12-31",
           "availability": "https://schema.org/InStock",

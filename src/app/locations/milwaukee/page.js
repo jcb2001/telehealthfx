@@ -3,10 +3,10 @@ import { LocationMilwaukee } from "../../../components/location-milwaukee";
 export const metadata = {
   robots: { index: true, follow: true },
   title: "GLP-1 Weight Loss Clinic in Milwaukee, WI | Telehealth FX",
-  description: "Quality compounded Semaglutide prescribed by Wisconsin-licensed physicians in Milwaukee. Fast 24-hour approval and cold-pack delivery directly from $146/mo.",
+  description: "Quality compounded Semaglutide prescribed by Wisconsin-licensed physicians in Milwaukee. Fast 24-hour approval and cold-pack delivery directly from $99/mo (1st month promo, Affirm available).",
   openGraph: {
     title: "GLP-1 Weight Loss Clinic in Milwaukee, WI | Telehealth FX",
-    description: "Clinical GLP-1 telehealth for Milwaukee, Wisconsin residents. Wisconsin-licensed physicians. Overnight cold-pack shipping from $146/mo.",
+    description: "Clinical GLP-1 telehealth for Milwaukee, Wisconsin residents. Wisconsin-licensed physicians. Overnight cold-pack shipping from $99/mo (1st month promo).",
     url: "https://telehealthfx.com/locations/milwaukee/",
     siteName: "Telehealth FX",
     type: "website"
@@ -69,7 +69,7 @@ export default function MilwaukeePage() {
         "@id": "https://telehealthfx.com/locations/milwaukee#webpage",
         "url": "https://telehealthfx.com/locations/milwaukee/",
         "name": "GLP-1 Weight Loss Clinic in Milwaukee, WI | Telehealth FX",
-        "description": "Quality compounded Semaglutide prescribed by Wisconsin-licensed physicians in Milwaukee. Fast 24-hour approval and cold-pack delivery directly from $146/mo.",
+        "description": "Quality compounded Semaglutide prescribed by Wisconsin-licensed physicians in Milwaukee. Fast 24-hour approval and cold-pack delivery directly from $99/mo (1st month promo, Affirm available).",
         "isPartOf": {
           "@id": "https://telehealthfx.com/#website"
         },
@@ -124,7 +124,7 @@ export default function MilwaukeePage() {
         },
         "currenciesAccepted": "USD",
         "paymentAccepted": "Credit Card, HSA, FSA",
-        "priceRange": "$146-$349/mo"
+        "priceRange": "$99-$299/mo"
       },
       {
         "@type": "Service",
@@ -145,7 +145,7 @@ export default function MilwaukeePage() {
         "serviceType": "Telehealth Weight Management",
         "offers": {
           "@type": "Offer",
-          "price": "146",
+          "price": "99",
           "priceCurrency": "USD",
           "priceValidUntil": "2026-12-31",
           "availability": "https://schema.org/InStock",
