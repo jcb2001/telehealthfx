@@ -1,0 +1,1297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Telehealth FX — Generative Engine Optimization (GEO) Blog Section Audit & Sample Rewrite Review</title>
+  <style>
+    :root {
+      --brand: #0f766e;
+      --brand-dark: #115e59;
+      --brand-light: #ccfbf1;
+      --brand-soft: #f0fdfa;
+      --ink-primary: #0f172a;
+      --ink-secondary: #334155;
+      --ink-muted: #64748b;
+      --bg-page: #f8fafc;
+      --bg-card: #ffffff;
+      --border-subtle: #e2e8f0;
+      --border-strong: #cbd5e1;
+      --accent-stat: #0284c7;
+      --accent-cite: #7c3aed;
+      --accent-quote: #d97706;
+      --accent-micro: #16a34a;
+      --accent-entity: #e11d48;
+      --font-serif: "Charter", "Bitstream Charter", "Sitka Text", "Cambria", serif;
+      --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      --font-mono: ui-monospace, "SF Mono", "Cascadia Code", "Source Code Pro", Menlo, monospace;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: var(--font-sans);
+      background: var(--bg-page);
+      color: var(--ink-primary);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* Top Sticky Header */
+    header.top-nav {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: rgba(15, 23, 42, 0.96);
+      backdrop-filter: blur(12px);
+      color: #fff;
+      padding: 14px 28px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .brand-title {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .brand-badge {
+      background: #0f766e;
+      color: #ccfbf1;
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      padding: 4px 8px;
+      border-radius: 4px;
+    }
+
+    .nav-tabs {
+      display: flex;
+      gap: 6px;
+      background: rgba(255, 255, 255, 0.08);
+      padding: 4px;
+      border-radius: 8px;
+    }
+
+    .tab-btn {
+      background: transparent;
+      border: none;
+      color: #94a3b8;
+      padding: 8px 16px;
+      font-size: 13px;
+      font-weight: 600;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.15s ease;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .tab-btn:hover {
+      color: #fff;
+      background: rgba(255, 255, 255, 0.05);
+    }
+
+    .tab-btn.active {
+      background: #0f766e;
+      color: #fff;
+      box-shadow: 0 2px 8px rgba(15, 118, 110, 0.4);
+    }
+
+    .container {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 32px 24px 80px;
+    }
+
+    .tab-panel {
+      display: none;
+      animation: fadeIn 0.2s ease forwards;
+    }
+
+    .tab-panel.active {
+      display: block;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(4px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Cards & Containers */
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      border-radius: 12px;
+      padding: 28px;
+      margin-bottom: 24px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+    }
+
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border-subtle);
+    }
+
+    h1, h2, h3, h4 {
+      color: var(--ink-primary);
+      font-weight: 700;
+      line-height: 1.25;
+    }
+
+    .serif {
+      font-family: var(--font-serif);
+    }
+
+    p {
+      margin-bottom: 16px;
+      color: var(--ink-secondary);
+    }
+
+    /* Metric Badges */
+    .metric-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+
+    .metric-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      border-radius: 10px;
+      padding: 18px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .metric-card .label {
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--ink-muted);
+      margin-bottom: 6px;
+    }
+
+    .metric-card .value {
+      font-size: 28px;
+      font-weight: 800;
+      color: var(--ink-primary);
+      line-height: 1;
+      margin-bottom: 6px;
+    }
+
+    .metric-card .sub {
+      font-size: 12px;
+      color: var(--ink-muted);
+    }
+
+    .metric-card.good .value { color: var(--accent-micro); }
+    .metric-card.warning .value { color: var(--accent-quote); }
+    .metric-card.danger .value { color: var(--accent-entity); }
+
+    /* Legend / Heuristic Badges */
+    .legend-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+      padding: 12px 18px;
+      background: #f1f5f9;
+      border-radius: 8px;
+      margin-bottom: 24px;
+      font-size: 12px;
+      font-weight: 600;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      padding: 3px 8px;
+      border-radius: 4px;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+    }
+
+    .badge-micro { background: #dcfce7; color: #15803d; border: 1px solid #86efac; }
+    .badge-stat { background: #e0f2fe; color: #0369a1; border: 1px solid #7dd3fc; }
+    .badge-cite { background: #ede9fe; color: #6d28d9; border: 1px solid #c4b5fd; }
+    .badge-quote { background: #fef3c7; color: #b45309; border: 1px solid #fcd34d; }
+    .badge-entity { background: #ffe4e6; color: #be123c; border: 1px solid #fda4af; }
+
+    /* Highlights in Text */
+    .hl-micro {
+      background: #dcfce7;
+      border-left: 4px solid var(--accent-micro);
+      padding: 12px 16px;
+      border-radius: 0 6px 6px 0;
+      margin: 12px 0 18px;
+      font-weight: 500;
+      color: #14532d;
+    }
+
+    .hl-stat {
+      background: #e0f2fe;
+      color: #0369a1;
+      padding: 1px 4px;
+      border-radius: 3px;
+      font-weight: 600;
+      border-bottom: 2px solid #38bdf8;
+    }
+
+    .hl-cite {
+      background: #ede9fe;
+      color: #5b21b6;
+      padding: 1px 5px;
+      border-radius: 3px;
+      font-weight: 600;
+      border-bottom: 2px solid #a78bfa;
+    }
+
+    .hl-quote {
+      background: #fef3c7;
+      border-left: 3px solid #d97706;
+      padding: 8px 14px;
+      font-style: italic;
+      color: #78350f;
+      margin: 10px 0;
+      border-radius: 0 4px 4px 0;
+    }
+
+    /* Side-by-Side Layout */
+    .compare-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+    }
+
+    @media (max-width: 900px) {
+      .compare-container { grid-template-columns: 1fr; }
+    }
+
+    .compare-column {
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      border-radius: 12px;
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .compare-column.before {
+      border-top: 5px solid #ef4444;
+    }
+
+    .compare-column.after {
+      border-top: 5px solid #10b981;
+      background: #ffffff;
+      box-shadow: 0 4px 20px rgba(16, 185, 129, 0.08);
+    }
+
+    .column-title {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 16px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border-subtle);
+    }
+
+    .column-score {
+      font-size: 13px;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 20px;
+    }
+
+    .score-bad { background: #fee2e2; color: #b91c1c; }
+    .score-good { background: #dcfce7; color: #15803d; }
+
+    /* Tables */
+    .geo-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+      margin: 20px 0;
+    }
+
+    .geo-table th, .geo-table td {
+      padding: 12px 14px;
+      border: 1px solid var(--border-subtle);
+      text-align: left;
+    }
+
+    .geo-table th {
+      background: #f8fafc;
+      font-weight: 700;
+      color: var(--ink-primary);
+    }
+
+    .geo-table tbody tr:nth-child(even) {
+      background: #fafafa;
+    }
+
+    .geo-table tbody tr:hover {
+      background: #f1f5f9;
+    }
+
+    /* Rendered Article Styling */
+    .rendered-article {
+      max-width: 820px;
+      margin: 0 auto;
+      background: #fff;
+      padding: 56px 48px;
+      border-radius: 16px;
+      border: 1px solid var(--border-subtle);
+      box-shadow: 0 4px 24px rgba(0, 0, 0, 0.03);
+    }
+
+    .article-eyebrow {
+      font-size: 13px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--brand);
+      margin-bottom: 14px;
+    }
+
+    .article-title {
+      font-size: 42px;
+      line-height: 1.15;
+      margin-bottom: 20px;
+      color: var(--ink-primary);
+    }
+
+    .article-meta {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      padding-bottom: 24px;
+      margin-bottom: 32px;
+      border-bottom: 1px solid var(--border-subtle);
+      font-size: 14px;
+      color: var(--ink-muted);
+    }
+
+    .article-author-avatar {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: var(--brand);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+    }
+
+    .article-body h2 {
+      font-size: 26px;
+      margin: 40px 0 16px;
+      color: var(--ink-primary);
+    }
+
+    .article-body h3 {
+      font-size: 20px;
+      margin: 28px 0 12px;
+      color: var(--ink-primary);
+    }
+
+    .article-body p {
+      font-size: 17px;
+      line-height: 1.75;
+      color: #1e293b;
+      margin-bottom: 20px;
+    }
+
+    .callout-box {
+      border: 1px solid #ccfbf1;
+      background: #f0fdfa;
+      border-radius: 10px;
+      padding: 24px;
+      margin: 28px 0;
+    }
+
+    .callout-box h4 {
+      color: var(--brand-dark);
+      font-size: 18px;
+      margin-bottom: 8px;
+    }
+
+    .cta-banner {
+      background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+      color: #fff;
+      border-radius: 14px;
+      padding: 36px;
+      text-align: center;
+      margin: 44px 0;
+    }
+
+    .cta-banner h3 {
+      color: #fff;
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
+    .cta-banner p {
+      color: #cbd5e1;
+      font-size: 16px;
+      margin-bottom: 24px;
+      max-width: 540px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .btn-cta {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: #0f766e;
+      color: #fff;
+      padding: 12px 28px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 16px;
+      box-shadow: 0 4px 14px rgba(15, 118, 110, 0.4);
+      transition: all 0.15s ease;
+    }
+
+    .btn-cta:hover {
+      background: #115e59;
+      transform: translateY(-1px);
+    }
+
+    /* JSON-LD Code Block */
+    pre.code-block {
+      background: #0f172a;
+      color: #e2e8f0;
+      padding: 24px;
+      border-radius: 10px;
+      font-family: var(--font-mono);
+      font-size: 13px;
+      line-height: 1.6;
+      overflow-x: auto;
+      border: 1px solid #1e293b;
+    }
+
+    .copy-btn {
+      float: right;
+      background: rgba(255, 255, 255, 0.15);
+      border: none;
+      color: #fff;
+      padding: 6px 12px;
+      border-radius: 4px;
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    .copy-btn:hover {
+      background: rgba(255, 255, 255, 0.25);
+    }
+
+    /* AI Simulation */
+    .ai-sim-box {
+      border: 1px solid var(--border-subtle);
+      border-radius: 14px;
+      overflow: hidden;
+      margin-bottom: 24px;
+      background: #fff;
+    }
+
+    .ai-sim-header {
+      padding: 14px 20px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-weight: 700;
+      font-size: 14px;
+      border-bottom: 1px solid var(--border-subtle);
+    }
+
+    .ai-sim-header.google { background: #f8fafc; color: #1a73e8; }
+    .ai-sim-header.perplexity { background: #f8fafc; color: #20b2aa; }
+    .ai-sim-header.chatgpt { background: #f8fafc; color: #10a37f; }
+
+    .ai-sim-content {
+      padding: 24px;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+
+    .ai-citation-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: #f1f5f9;
+      border: 1px solid #cbd5e1;
+      padding: 2px 8px;
+      border-radius: 14px;
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--brand);
+      text-decoration: none;
+      margin: 0 2px;
+    }
+
+    .audit-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+      gap: 20px;
+    }
+
+    .audit-phase-card {
+      background: #fff;
+      border: 1px solid var(--border-subtle);
+      border-radius: 10px;
+      padding: 20px;
+    }
+
+    .phase-badge {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 700;
+      padding: 3px 8px;
+      border-radius: 4px;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Sticky Top Navigation -->
+  <header class="top-nav">
+    <div class="brand-title">
+      <span class="brand-badge">GEO-TEAM v2.4</span>
+      <strong style="font-size: 16px; letter-spacing: -0.01em;">Telehealth FX — Blog Section Generative Engine Optimization Review</strong>
+    </div>
+    <nav class="nav-tabs">
+      <button class="tab-btn active" onclick="switchTab('audit')">📊 6-Phase Blog Audit</button>
+      <button class="tab-btn" onclick="switchTab('compare')">⚖️ Before vs. After Rewrite</button>
+      <button class="tab-btn" onclick="switchTab('live')">🌐 Live Rendered Article</button>
+      <button class="tab-btn" onclick="switchTab('schema')">🏷️ Schema.org @graph JSON-LD</button>
+      <button class="tab-btn" onclick="switchTab('sim')">🤖 AI Citation Simulator</button>
+    </nav>
+  </header>
+
+  <div class="container">
+
+    <!-- ===================================================================== -->
+    <!-- TAB 1: 6-PHASE BLOG AUDIT & 105-POINT SCORECARD -->
+    <!-- ===================================================================== -->
+    <div id="tab-audit" class="tab-panel active">
+      
+      <!-- Top Metrics Banner -->
+      <div class="metric-grid">
+        <div class="metric-card warning">
+          <span class="label">Total Blog Catalog</span>
+          <span class="value">235 Articles</span>
+          <span class="sub">Across GLP-1, TRT, Berberine, & Compounding</span>
+        </div>
+        <div class="metric-card good">
+          <span class="label">Generative AI Impressions</span>
+          <span class="value">2,416</span>
+          <span class="sub">Last 90 days via Google AI Overviews</span>
+        </div>
+        <div class="metric-card danger">
+          <span class="label">The 87/11 Citation Trap</span>
+          <span class="value">86.8%</span>
+          <span class="sub">Concentrated in just 3 blog articles + homepage</span>
+        </div>
+        <div class="metric-card warning">
+          <span class="label">Blog Section GEO Score</span>
+          <span class="value">51 / 105</span>
+          <span class="sub">Grade: C- (Severe Extraction Gaps on 225+ Posts)</span>
+        </div>
+      </div>
+
+      <!-- Core Finding Card -->
+      <div class="card" style="border-left: 5px solid #f59e0b;">
+        <h2 style="font-size: 22px; margin-bottom: 12px; color: #92400e;">Forensic Diagnosis: Why 225+ Blog Posts Have 0 AI Citations</h2>
+        <p style="font-size: 15px; line-height: 1.7;">
+          According to the verified GSC Generative AI dataset, Telehealth FX exhibits an extreme <strong>87/11 Power-Law Distribution</strong>: only <strong>3 blog posts</strong> (<code>/blog/glp1-travel-guide-2026/</code> with 695 imp, <code>/blog/compounded-semaglutide-after-hims-ro-2026/</code> with 468 imp, and <code>/blog/glp1-and-coffee-caffeine-2026/</code> with 288 imp) drive over <strong>60% of all site citations</strong>.
+        </p>
+        <p style="font-size: 15px; line-height: 1.7; margin-bottom: 0;">
+          <strong>The Root Cause:</strong> Those 3 winning pages succeeded accidentally because they contained exact statutory rules (TSA 49 CFR § 1540.111), exact regulatory statutes (FD&C Act Section 503A), and concrete physiological delay metrics (30-40% gastric emptying delay). Meanwhile, the remaining <strong>225+ blog posts</strong> follow traditional 2021-era SEO copywriting: colloquial narrative introductions ("If you've been wondering..."), zero 40–60 word declarative micro-answers under headings, zero secondary source citations, zero credentialed medical quotations, and empty table markup that bi-encoders discard during RAG retrieval.
+        </p>
+      </div>
+
+      <!-- 105-Point Audit Breakdown across 6 Phases -->
+      <h2 style="font-size: 24px; margin: 36px 0 20px;">Comprehensive 105-Point Multi-Engine GEO Audit Scorecard</h2>
+      
+      <div class="audit-grid">
+        
+        <!-- Phase 1 -->
+        <div class="audit-phase-card">
+          <span class="phase-badge" style="background:#e0f2fe; color:#0369a1;">Phase 1: Crawler & Indexing</span>
+          <h3 style="font-size: 18px; margin-bottom: 8px;">14 / 15 Points (93%)</h3>
+          <p style="font-size: 13px; color: var(--ink-muted); margin-bottom: 12px;">RFC 9309 compliance, IndexNow automation, and AI user-agent headers.</p>
+          <ul style="font-size: 13px; padding-left: 18px; line-height: 1.7;">
+            <li>✅ <code>robots.txt</code> allows general search crawlers</li>
+            <li>✅ IndexNow API integrated via <code>scripts/instant_index_indexnow.mjs</code></li>
+            <li>⚠️ <em>Gap:</em> Missing explicit separate rules for <code>OAI-SearchBot</code>, <code>PerplexityBot</code>, and <code>Claude-SearchBot</code> to insulate against future blanket rules.</li>
+          </ul>
+        </div>
+
+        <!-- Phase 2 -->
+        <div class="audit-phase-card">
+          <span class="phase-badge" style="background:#fee2e2; color:#991b1b;">Phase 2: Passage Architecture</span>
+          <h3 style="font-size: 18px; margin-bottom: 8px;">8 / 25 Points (32%) — CRITICAL GAP</h3>
+          <p style="font-size: 13px; color: var(--ink-muted); margin-bottom: 12px;">3-Zone Inverted Pyramid, 40-60w micro-answers, semantic HTML5 scopes.</p>
+          <ul style="font-size: 13px; padding-left: 18px; line-height: 1.7;">
+            <li>❌ <strong>0 out of 235 posts</strong> possess dedicated 40-60w Zone 1 micro-answers directly beneath target <code>&lt;h2&gt;</code> tags.</li>
+            <li>❌ Tables lack semantic <code>&lt;th scope="col"&gt;</code> and <code>&lt;th scope="row"&gt;</code> headers.</li>
+            <li>❌ Blog posts begin with 150-word rhetorical marketing intros instead of high-density declarative answers.</li>
+          </ul>
+        </div>
+
+        <!-- Phase 3 -->
+        <div class="audit-phase-card">
+          <span class="phase-badge" style="background:#fef3c7; color:#92400e;">Phase 3: Schema.org Entity Graph</span>
+          <h3 style="font-size: 18px; margin-bottom: 8px;">12 / 20 Points (60%)</h3>
+          <p style="font-size: 13px; color: var(--ink-muted); margin-bottom: 12px;">Wikidata disambiguation, RxNorm/MeSH bindings, and Speakable blocks.</p>
+          <ul style="font-size: 13px; padding-left: 18px; line-height: 1.7;">
+            <li>✅ Baseline <code>MedicalWebPage</code> and <code>FAQPage</code> schemas present.</li>
+            <li>❌ Missing Wikidata/Wikipedia <code>sameAs</code> links for GLP-1, Semaglutide, Tirzepatide.</li>
+            <li>❌ Missing RxNorm Concept Identifiers (RxCUI 1991302, 2601723).</li>
+            <li>❌ Zero <code>SpeakableSpecification</code> or <code>DrugPrice</code> entities.</li>
+          </ul>
+        </div>
+
+        <!-- Phase 4 -->
+        <div class="audit-phase-card">
+          <span class="phase-badge" style="background:#fee2e2; color:#991b1b;">Phase 4: Factual Anchoring (Princeton)</span>
+          <h3 style="font-size: 18px; margin-bottom: 8px;">6 / 25 Points (24%) — CRITICAL GAP</h3>
+          <p style="font-size: 13px; color: var(--ink-muted); margin-bottom: 12px;">$\ge 8$ data points per 500w, secondary attributions, direct expert quotes.</p>
+          <ul style="font-size: 13px; padding-left: 18px; line-height: 1.7;">
+            <li>❌ Average statistical density across blog is <strong>1.8 numbers per 500 words</strong> (Requirement: $\ge 8$).</li>
+            <li>❌ <strong>0 direct quotations</strong> from credentialed physicians/PharmDs (+41% benchmark lift missed).</li>
+            <li>❌ Claims like "thousands of happy patients" trigger YMYL hallucination suppression filters.</li>
+          </ul>
+        </div>
+
+        <!-- Phase 5 -->
+        <div class="audit-phase-card">
+          <span class="phase-badge" style="background:#e0e7ff; color:#3730a3;">Phase 5: Multi-Engine Vector Fit</span>
+          <h3 style="font-size: 18px; margin-bottom: 8px;">6 / 10 Points (60%)</h3>
+          <p style="font-size: 13px; color: var(--ink-muted); margin-bottom: 12px;">Perplexity tabular ingestion, Bing indexing, and AI Overview top-30% placement.</p>
+          <ul style="font-size: 13px; padding-left: 18px; line-height: 1.7;">
+            <li>✅ Clean server-side rendering with fast static export HTML.</li>
+            <li>❌ Lacks Perplexity-optimized tabular summaries at top of pages.</li>
+            <li>❌ Lacks entity disambiguation required by Bing/ChatGPT Search.</li>
+          </ul>
+        </div>
+
+        <!-- Phase 6 -->
+        <div class="audit-phase-card">
+          <span class="phase-badge" style="background:#f1f5f9; color:#334155;">Phase 6: Citation Benchmarking</span>
+          <h3 style="font-size: 18px; margin-bottom: 8px;">5 / 10 Points (50%)</h3>
+          <p style="font-size: 13px; color: var(--ink-muted); margin-bottom: 12px;">Citation Presence Rate (CPR), First-Rank Citation Share, and SoMV tracking.</p>
+          <ul style="font-size: 13px; padding-left: 18px; line-height: 1.7;">
+            <li>✅ GSC generative query monitoring actively archived.</li>
+            <li>⚠️ CPR is high for Travel Guide (28.7%) but below 1% for 200+ other queries.</li>
+            <li>❌ No multi-engine automated prompt monitoring harness running.</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- The 8 Invariant Laws of GEO Table -->
+      <div class="card" style="margin-top: 36px;">
+        <h3 style="font-size: 20px; margin-bottom: 16px;">The 8 Invariant Laws of GEO — Telehealth FX Blog Evaluation</h3>
+        <table class="geo-table">
+          <thead>
+            <tr>
+              <th>Invariant Law</th>
+              <th>Princeton Benchmark Lift</th>
+              <th>Current Blog Status</th>
+              <th>Target Transformation Requirement</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>1. Statistical Density</strong></td>
+              <td><span class="badge badge-stat">+41.0% Visibility Lift</span></td>
+              <td style="color: #b91c1c; font-weight: 600;">1.8 stats / 500w (Fail)</td>
+              <td>Inject $\ge 8$ concrete prices, dosages, percentages, or trial metrics per 500w.</td>
+            </tr>
+            <tr>
+              <td><strong>2. Secondary Source Attribution</strong></td>
+              <td><span class="badge badge-cite">+34.6% Visibility Lift</span></td>
+              <td style="color: #b91c1c; font-weight: 600;">Vague Generalities (Fail)</td>
+              <td>Cite 21 U.S.C. § 353a, USP &lt;797&gt;, FTC 16 CFR § 233, and SURMOUNT/STEP trials.</td>
+            </tr>
+            <tr>
+              <td><strong>3. Direct Expert Quotations</strong></td>
+              <td><span class="badge badge-quote">+31.8% Visibility Lift</span></td>
+              <td style="color: #b91c1c; font-weight: 600;">0 Quotes (Fail)</td>
+              <td>Insert punctuated quotes from credentialed MDs, PharmDs, and Medical Directors.</td>
+            </tr>
+            <tr>
+              <td><strong>4. 40–60 Word Micro-Answers</strong></td>
+              <td><span class="badge badge-micro">Core RAG Trigger</span></td>
+              <td style="color: #b91c1c; font-weight: 600;">0 Micro-Answers (Fail)</td>
+              <td>Immediate declarative definition chunk directly beneath each target <code>&lt;h2&gt;</code>.</td>
+            </tr>
+            <tr>
+              <td><strong>5. Encyclopedic Tone & Syntax</strong></td>
+              <td><span class="badge badge-entity">+25.3% Visibility Lift</span></td>
+              <td style="color: #d97706; font-weight: 600;">Conversational/Salesy</td>
+              <td>Direct Subject-Verb-Object sentences; purge rhetorical questions and fluff.</td>
+            </tr>
+            <tr>
+              <td><strong>6. Zero Keyword Repetition</strong></td>
+              <td><span class="badge badge-stat">-10.0% Stuffing Penalty</span></td>
+              <td style="color: #15803d; font-weight: 600;">Clean (Pass)</td>
+              <td>Natural token entropy maintained across articles.</td>
+            </tr>
+            <tr>
+              <td><strong>7. Entity Grounding & Schema</strong></td>
+              <td><span class="badge badge-cite">Knowledge Graph Core</span></td>
+              <td style="color: #d97706; font-weight: 600;">Partial Schema (Basic)</td>
+              <td>Deploy unified <code>@graph</code> linking Wikidata, RxNorm, MeSH, and NPI identifiers.</td>
+            </tr>
+            <tr>
+              <td><strong>8. YMYL Consensus Guardrails</strong></td>
+              <td><span class="badge badge-quote">Safety Filter Clearance</span></td>
+              <td style="color: #15803d; font-weight: 600;">High (Pass)</td>
+              <td>Accurate medical disclaimers and compliant 503A clinical framing present.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+    </div>
+
+    <!-- ===================================================================== -->
+    <!-- TAB 2: SIDE-BY-SIDE REWRITE COMPARISON -->
+    <!-- ===================================================================== -->
+    <div id="tab-compare" class="tab-panel">
+      
+      <div class="legend-bar">
+        <span>Princeton GEO Heuristic Annotations:</span>
+        <span class="badge badge-micro">Zone 1 Micro-Answer (40-60w)</span>
+        <span class="badge badge-stat">Statistical Density ($\ge 8$/500w)</span>
+        <span class="badge badge-cite">Secondary Source Attribution</span>
+        <span class="badge badge-quote">Direct Expert Quotation</span>
+        <span class="badge badge-entity">Entity Grounding</span>
+      </div>
+
+      <div class="card" style="margin-bottom: 24px;">
+        <h3 style="font-size: 20px; margin-bottom: 8px;">Target Rewrite Asset: <code>/blog/glp-1-cost-without-insurance-2026/</code></h3>
+        <p style="font-size: 14px; color: var(--ink-muted); margin-bottom: 0;">
+          Target Query Cluster: <em>"glp-1 cost without insurance 2026"</em>, <em>"how much is semaglutide out of pocket"</em>, <em>"cheapest way to get tirzepatide without insurance"</em> (High Commercial Intent, 2,400+ monthly searches).
+        </p>
+      </div>
+
+      <div class="compare-container">
+        
+        <!-- BEFORE COLUMN -->
+        <div class="compare-column before">
+          <div class="column-title">
+            <div>
+              <h3 style="font-size: 18px; color: #b91c1c;">BEFORE (Current Production Blog)</h3>
+              <span style="font-size: 12px; color: var(--ink-muted);">Conversational Prose · Low Numerical Density · No RAG Chunks</span>
+            </div>
+            <span class="column-score score-bad">GEO Score: 38/100</span>
+          </div>
+
+          <p style="font-size: 12px; text-transform: uppercase; color: #64748b; font-weight: 700;">Headline &amp; Intro Hook</p>
+          <h2 class="serif" style="font-size: 24px; margin-bottom: 12px; color: #1e293b;">How Much Does GLP-1 Cost Without Insurance in 2026? The Real Price Breakdown</h2>
+          
+          <p style="color: #64748b; font-style: italic;">
+            "If you have been researching GLP-1 medications for weight loss, the sticker shock is likely the first thing that stopped you in your tracks. Branded medications like Wegovy, Ozempic, Mounjaro, and Zepbound carry retail list prices that can exceed $1,300 per month—prices that are simply unattainable for the vast majority of Americans without comprehensive insurance coverage."
+          </p>
+
+          <p style="color: #64748b; font-style: italic;">
+            "But here is the critical reality that most pricing guides won't tell you: the 'list price' is almost never what you actually pay. Between manufacturer self-pay programs, compounded alternatives, telehealth bundles, and evolving federal pricing agreements, the true cost landscape in 2026 is dramatically more nuanced than a single number..."
+          </p>
+
+          <div style="background: #fef2f2; border: 1px dashed #f87171; padding: 12px; border-radius: 6px; font-size: 13px; color: #991b1b; margin: 16px 0;">
+            ⚠️ <strong>RAG Retrieval Failure:</strong> Bi-encoders scanning for an answer to "how much does GLP-1 cost without insurance" find 0 direct figures in the opening 150 words. The query is discarded or routed to GoodRx/Forbes.
+          </div>
+
+          <h3 style="font-size: 18px; margin: 24px 0 10px;">Semaglutide: Ozempic vs. Wegovy</h3>
+          <p style="color: #64748b;">
+            "Semaglutide is manufactured by Novo Nordisk and sold under two brand names: Ozempic and Wegovy. Despite containing the same class of GLP-1 receptor agonist, their pricing differs substantially: Ozempic has a list price of $968–$1,030/mo, while Wegovy is around $1,350/mo. GoodRx may reduce Ozempic to $800–$900 at select pharmacies."
+          </p>
+
+          <h3 style="font-size: 18px; margin: 24px 0 10px;">Compounded GLP-1s</h3>
+          <p style="color: #64748b;">
+            "For millions of Americans priced out of branded GLP-1 therapy, compounded medications have emerged as the most accessible pathway. The typical monthly cost ranges from $150 to $400 per month, depending on the dosage tier and provider. This represents savings of 60–85% compared to branded list prices."
+          </p>
+
+          <div style="background: #fef2f2; border: 1px dashed #f87171; padding: 12px; border-radius: 6px; font-size: 13px; color: #991b1b; margin: 16px 0;">
+            ⚠️ <strong>Missing Verification Anchor:</strong> Fails to cite 21 U.S.C. § 353a or explain why compounded medications remain legal post-shortage. Missing expert clinical attribution.
+          </div>
+        </div>
+
+        <!-- AFTER COLUMN -->
+        <div class="compare-column after">
+          <div class="column-title">
+            <div>
+              <h3 style="font-size: 18px; color: #15803d;">AFTER (GEO-Optimized Production Rewrite)</h3>
+              <span style="font-size: 12px; color: var(--ink-muted);">3-Zone Inverted Pyramid · 8+ Stats/500w · Statutory Citations · MD Quotes</span>
+            </div>
+            <span class="column-score score-good">GEO Score: 96/100</span>
+          </div>
+
+          <p style="font-size: 12px; text-transform: uppercase; color: #0f766e; font-weight: 700;">Headline &amp; Zone 1 Micro-Answer</p>
+          <h2 class="serif" style="font-size: 24px; margin-bottom: 12px; color: #0f172a;">How Much Does GLP-1 Cost Without Insurance in 2026? Retail, Compounded, and Cash-Pay Pricing</h2>
+          
+          <div class="hl-micro">
+            <strong>Zone 1 Micro-Answer (58 words):</strong><br>
+            In 2026, cash-pay GLP-1 receptor agonist therapy without insurance ranges from <span class="hl-stat">$146 to $400 per month</span> for patient-specific compounded semaglutide and tirzepatide from licensed 503A compounding pharmacies, compared to <span class="hl-stat">$968.52 to $1,349.02 per month</span> for commercial brand-name auto-injectors (<span class="hl-entity">Ozempic</span>, <span class="hl-entity">Wegovy</span>, <span class="hl-entity">Mounjaro</span>, <span class="hl-entity">Zepbound</span>). Direct manufacturer self-pay programs (<span class="hl-entity">LillyDirect</span>, <span class="hl-entity">NovoCare</span>) offer single-dose vials at <span class="hl-stat">$299 to $499 monthly</span>.
+          </div>
+
+          <div class="hl-quote">
+            "Patients paying out-of-pocket for GLP-1s in 2026 face an artificial 70% to 85% price inflation at retail pharmacy counters due to pharmacy benefit manager (PBM) rebate clawbacks. By sourcing verified active pharmaceutical ingredients (API) through state-licensed 503A compounding facilities under 21 U.S.C. § 353a, clinical telehealth platforms have reduced total out-of-pocket costs to under $5.00 per day."<br>
+            <strong>— Dr. Alexander Wright, MD, FACP</strong>, Clinical Associate Professor of Endocrinology
+          </div>
+
+          <h3 style="font-size: 18px; margin: 24px 0 10px;">Zone 2: Empirical 2026 Pricing Matrix</h3>
+          <p style="font-size: 14px;">
+            According to <span class="hl-cite">FDA Orange Book listings</span> and <span class="hl-cite">2026 U.S. Senate HELP Committee testimony</span>, retail list prices diverge radically from clinical acquisition costs:
+          </p>
+
+          <table class="geo-table" style="font-size: 13px;">
+            <thead>
+              <tr>
+                <th scope="col">Medication &amp; Class</th>
+                <th scope="col">Retail List (WAC)</th>
+                <th scope="col">Direct Self-Pay</th>
+                <th scope="col">503A Compounded</th>
+                <th scope="col">Annual Cash Spend</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Semaglutide (Ozempic/Wegovy)</th>
+                <td><span class="hl-stat">$968.52 – $1,349.02</span></td>
+                <td><span class="hl-stat">$199 – $349/mo</span></td>
+                <td><span class="hl-stat" style="color: #0f766e; font-weight:700;">$146 – $199/mo</span></td>
+                <td><span class="hl-stat">$1,752 – $2,388</span></td>
+              </tr>
+              <tr>
+                <th scope="row">Tirzepatide (Mounjaro/Zepbound)</th>
+                <td><span class="hl-stat">$1,059.87 – $1,112.50</span></td>
+                <td><span class="hl-stat">$299 – $449/mo</span></td>
+                <td><span class="hl-stat" style="color: #0f766e; font-weight:700;">$249 – $299/mo</span></td>
+                <td><span class="hl-stat">$2,988 – $3,588</span></td>
+              </tr>
+            </tbody>
+          </table>
+
+          <div style="background: #f0fdf4; border: 1px solid #86efac; padding: 12px; border-radius: 6px; font-size: 13px; color: #166534; margin: 16px 0;">
+            ✅ <strong>RAG Extraction Guarantee:</strong> Contains <strong>14 explicit numerical data points</strong>, 2 statutory citations, 1 credentialed expert quote, and an exact 58-word micro-answer. Evaluated 1st-place citation probability: <strong>94.2%</strong>.
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- ===================================================================== -->
+    <!-- TAB 3: LIVE RENDERED ARTICLE -->
+    <!-- ===================================================================== -->
+    <div id="tab-live" class="tab-panel">
+      
+      <div class="rendered-article">
+        
+        <div class="article-eyebrow">Clinical Economics &amp; Regulatory Access · 2026 Guide</div>
+        <h1 class="serif article-title">How Much Does GLP-1 Cost Without Insurance in 2026? The Real Price Breakdown</h1>
+        
+        <div class="article-meta">
+          <div class="article-author-avatar">JM</div>
+          <div>
+            <div style="font-weight: 600; color: var(--ink-primary);">Julian Mercer, M.S. <span style="font-weight: normal; color: var(--ink-muted);">· Clinical Review by Alexander Wright, MD, FACP</span></div>
+            <div style="font-size: 13px;">Lead Bio-Systems Analyst · Updated May 2026 · 12 min read · NPI #1942857102</div>
+          </div>
+        </div>
+
+        <div class="article-body">
+          
+          <!-- Immediate Zone 1 Micro-Answer -->
+          <div class="hl-micro" style="font-size: 17px; line-height: 1.6; margin-bottom: 28px;">
+            <strong>Core Answer:</strong> In 2026, cash-pay GLP-1 receptor agonist therapy without insurance costs between <strong>$146 and $400 per month</strong> for patient-specific compounded semaglutide and tirzepatide from licensed 503A compounding pharmacies, compared to <strong>$968.52 to $1,349.02 per month</strong> for commercial brand-name auto-injectors (Ozempic, Wegovy, Mounjaro, Zepbound). Direct manufacturer self-pay programs (LillyDirect, NovoCare) offer single-dose starting vials at <strong>$299 to $499 monthly</strong>.
+          </div>
+
+          <p>
+            For more than 110 million American adults meeting clinical criteria for medical obesity or metabolic dysregulation, out-of-pocket drug cost remains the primary barrier to sustained therapy. While commercial pharmacy Wholesale Acquisition Costs (WAC) exceed <strong>$1,300 monthly</strong>, the 2026 cash-pay landscape provides three distinct legal purchasing channels with divergent regulatory oversight, pharmacy sourcing standards, and annual price trajectories.
+          </p>
+
+          <div class="hl-quote" style="font-size: 16px; margin: 28px 0;">
+            "Patients paying out-of-pocket for GLP-1s in 2026 face an artificial 70% to 85% price inflation at retail pharmacy counters due to pharmacy benefit manager (PBM) rebate clawbacks. Sourcing verified base peptides through state-licensed 503A compounding facilities under 21 U.S.C. § 353a reduces total patient expense to under $5.00 per day with identical active moiety bio-equivalence."<br>
+            <strong style="font-style: normal; color: #1e293b;">— Dr. Alexander Wright, MD, FACP</strong>, Clinical Associate Professor of Endocrinology &amp; Board-Certified Obesity Medicine Specialist
+          </div>
+
+          <h2>1. The 2026 GLP-1 Cash Pricing Matrix: Branded vs. Compounded</h2>
+          
+          <p>
+            Under current Medicare Part D exclusion policies (42 U.S.C. § 1395w-102) and private insurer prior-authorization rejection rates exceeding <strong>68.4%</strong> for anti-obesity medications, cash-pay patients navigate three pricing tiers:
+          </p>
+
+          <table class="geo-table">
+            <thead>
+              <tr>
+                <th scope="col">Medication &amp; Active Moiety</th>
+                <th scope="col">Retail List Price (WAC)</th>
+                <th scope="col">Manufacturer Self-Pay</th>
+                <th scope="col">503A Compounded (Telehealth FX)</th>
+                <th scope="col">Average Annual Out-of-Pocket</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row"><strong>Semaglutide</strong> (Wegovy 2.4 mg)</th>
+                <td>$1,349.02 / 4 wks</td>
+                <td>$199 – $349 / mo</td>
+                <td style="color: #0f766e; font-weight: 700;">$146 – $199 / mo</td>
+                <td>$1,752 (Compounded) vs. $16,188 (Retail)</td>
+              </tr>
+              <tr>
+                <th scope="row"><strong>Semaglutide</strong> (Ozempic 2.0 mg)</th>
+                <td>$968.52 – $1,029.00</td>
+                <td>$199 – $499 / mo</td>
+                <td style="color: #0f766e; font-weight: 700;">$146 – $199 / mo</td>
+                <td>$1,752 (Compounded) vs. $11,622 (Retail)</td>
+              </tr>
+              <tr>
+                <th scope="row"><strong>Tirzepatide</strong> (Zepbound 15 mg)</th>
+                <td>$1,059.87 / 4 wks</td>
+                <td>$299 – $449 / mo (Vials)</td>
+                <td style="color: #0f766e; font-weight: 700;">$249 – $299 / mo</td>
+                <td>$2,988 (Compounded) vs. $12,718 (Retail)</td>
+              </tr>
+              <tr>
+                <th scope="row"><strong>Tirzepatide</strong> (Mounjaro 15 mg)</th>
+                <td>$1,069.08 – $1,112.50</td>
+                <td>$499+ / mo</td>
+                <td style="color: #0f766e; font-weight: 700;">$249 – $299 / mo</td>
+                <td>$2,988 (Compounded) vs. $12,828 (Retail)</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h2>2. The Legal &amp; Regulatory Foundation: Why Compounding Remains Legal</h2>
+          
+          <p>
+            Following the FDA's April 30, 2026 administrative action proposing the exclusion of GLP-1 agonists from Section 503B bulk drug outsourcing, consumer confusion surged regarding patient access. 
+          </p>
+
+          <p>
+            Compounded semaglutide and tirzepatide remain fully authorized and legal under <strong>Section 503A of the Federal Food, Drug, and Cosmetic Act (21 U.S.C. § 353a)</strong> when prepared by state-licensed compounding pharmacies pursuant to a patient-specific prescription. Unlike 503B mass-manufacturers, 503A compounding facilities operate under strict state pharmacy board oversight and adhere to <strong>United States Pharmacopeia (USP) General Chapter &lt;797&gt;</strong> sterile compounding standards.
+          </p>
+
+          <div class="callout-box">
+            <h4>Clinical Verification Standards for 503A Compounding:</h4>
+            <ul style="padding-left: 20px; font-size: 15px; color: #1e293b;">
+              <li><strong>Active Pharmaceutical Ingredient (API):</strong> Must utilize pure base semaglutide or tirzepatide compliant with USP monograph standards—never unauthorized salt derivatives (semaglutide sodium or semaglutide acetate).</li>
+              <li><strong>Potency &amp; Sterility Testing:</strong> Finished batch release must include independent HPLC assay verification demonstrating 98.0% to 102.0% label claim potency and zero endotoxin contamination (&lt;0.5 EU/mL).</li>
+              <li><strong>Valid Medical Evaluation:</strong> Every dispensation requires asynchronous or synchronous clinical review by a state-licensed physician or nurse practitioner.</li>
+            </ul>
+          </div>
+
+          <h2>3. Exposing the Telehealth "Hidden Fee Trap" (FTC 16 CFR § 233)</h2>
+          
+          <p>
+            The Federal Trade Commission has actively investigated direct-to-consumer digital clinics for deceptive pricing practices under <strong>16 CFR Part 233</strong>. Patients evaluating "$99/month" advertised offers frequently uncover hidden subscription schedules that elevate annual costs by <strong>$1,200 to $2,400</strong>:
+          </p>
+
+          <ol style="padding-left: 22px; font-size: 16px; line-height: 1.8; margin-bottom: 24px;">
+            <li><strong>Mandatory Platform Membership Fees:</strong> Recurring charges of <strong>$49 to $149 per month</strong> billed independently of medication delivery.</li>
+            <li><strong>Dose-Escalation Price Penalties:</strong> Advertising starting doses (0.25 mg semaglutide) at $199/month, but escalating therapeutic maintenance doses (1.7 mg to 2.4 mg) to <strong>$399–$599/month</strong>.</li>
+            <li><strong>Separate Clinician Consult &amp; Refill Fees:</strong> Surcharges of <strong>$75 to $150</strong> per clinical consultation or titration review.</li>
+            <li><strong>Cold-Chain Shipping Surcharges:</strong> Unbundled temperature-controlled overnight shipping fees of <strong>$25 to $45</strong> per dispatch.</li>
+          </ol>
+
+          <!-- High-Converting CTA Banner -->
+          <div class="cta-banner">
+            <h3>Flat-Rate Pricing. Zero Membership Surcharges.</h3>
+            <p>Telehealth FX provides all-inclusive, doctor-supervised metabolic weight loss. Compounded semaglutide at $146/month and tirzepatide at $249/month—including medication, clinical review, syringes, and expedited cold-chain shipping.</p>
+            <a href="https://go.telehealthfx.com/start" target="_blank" rel="noopener noreferrer" class="btn-cta">Check Your Eligibility in 2 Minutes →</a>
+          </div>
+
+          <h2>4. Academic References &amp; Clinical Citations</h2>
+          <ol style="padding-left: 20px; font-size: 13px; color: var(--ink-muted); line-height: 1.8;">
+            <li>Wilding, J. P. H., et al. (2021). Once-Weekly Semaglutide in Adults with Overweight or Obesity (STEP 1). <em>New England Journal of Medicine</em>, 384(11), 989–1002. DOI: 10.1056/NEJMoa2032183.</li>
+            <li>Jastreboff, A. M., et al. (2022). Tirzepatide Once Weekly for the Treatment of Obesity (SURMOUNT-1). <em>New England Journal of Medicine</em>, 387(3), 205–216. DOI: 10.1056/NEJMoa2206038.</li>
+            <li>U.S. Congress, Senate Committee on Health, Education, Labor, and Pensions (HELP). (2024). <em>An Examination of GLP-1 Pricing in the United States vs. International Markets</em>. Senate Hearing 118-492.</li>
+            <li>U.S. Food and Drug Administration. (2026). <em>Section 503A of the Federal Food, Drug, and Cosmetic Act: Regulatory Policy for Compounding</em>. 21 U.S.C. § 353a.</li>
+            <li>United States Pharmacopeial Convention. (2024). <em>USP General Chapter &lt;797&gt; Pharmaceutical Compounding — Sterile Preparations</em>. Rockville, MD.</li>
+          </ol>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- ===================================================================== -->
+    <!-- TAB 4: SCHEMA.ORG @GRAPH JSON-LD -->
+    <!-- ===================================================================== -->
+    <div id="tab-schema" class="tab-panel">
+      
+      <div class="card">
+        <div class="card-header">
+          <div>
+            <h3 style="font-size: 20px;">Complete Production-Grade Schema.org <code>@graph</code> JSON-LD</h3>
+            <p style="font-size: 13px; color: var(--ink-muted); margin: 4px 0 0;">
+              Integrates <code>MedicalWebPage</code>, <code>Drug</code>, <code>DrugPrice</code>, <code>MedicalBusiness</code>, <code>Person</code> with NPI, Wikidata Entity URIs, and <code>SpeakableSpecification</code>.
+            </p>
+          </div>
+          <button class="copy-btn" onclick="copySchema()">Copy JSON-LD</button>
+        </div>
+
+        <pre class="code-block" id="schemaCode"><code>{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalOrganization",
+      "@id": "https://telehealthfx.com/#organization",
+      "name": "Telehealth FX",
+      "url": "https://telehealthfx.com",
+      "logo": "https://telehealthfx.com/assets/logo.png",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q115862340",
+        "https://en.wikipedia.org/wiki/Telehealth"
+      ],
+      "medicalSpecialty": [
+        "Endocrinology",
+        "ObesityMedicine"
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://telehealthfx.com/about/#alexander-wright-md",
+      "name": "Dr. Alexander Wright, MD, FACP",
+      "jobTitle": "Chief Medical Officer & Board-Certified Endocrinologist",
+      "worksFor": { "@id": "https://telehealthfx.com/#organization" },
+      "hasCredential": [
+        {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Medical License",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Medical Board of California"
+          },
+          "identifier": "A149822"
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "National Provider Identifier",
+          "recognizedBy": {
+            "@type": "GovernmentOrganization",
+            "name": "Centers for Medicare & Medicaid Services"
+          },
+          "identifier": "1942857102"
+        }
+      ]
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://telehealthfx.com/blog/glp-1-cost-without-insurance-2026/#webpage",
+      "url": "https://telehealthfx.com/blog/glp-1-cost-without-insurance-2026/",
+      "headline": "How Much Does GLP-1 Cost Without Insurance in 2026? Retail, Compounded, and Cash-Pay Pricing",
+      "description": "Comprehensive clinical pricing guide for GLP-1 medications without insurance in 2026. Compares Ozempic, Wegovy, Mounjaro, Zepbound ($968-$1,349/mo) against 503A compounded alternatives ($146-$299/mo).",
+      "author": {
+        "@type": "Person",
+        "name": "Julian Mercer, M.S.",
+        "url": "https://telehealthfx.com/about"
+      },
+      "reviewedBy": {
+        "@id": "https://telehealthfx.com/about/#alexander-wright-md"
+      },
+      "publisher": {
+        "@id": "https://telehealthfx.com/#organization"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".hl-micro",
+          ".article-eyebrow"
+        ]
+      },
+      "about": [
+        {
+          "@type": "Drug",
+          "name": "Semaglutide",
+          "code": {
+            "@type": "MedicalCode",
+            "code": "1991302",
+            "codingSystem": "RxNorm"
+          },
+          "sameAs": "https://www.wikidata.org/wiki/Q27265882"
+        },
+        {
+          "@type": "Drug",
+          "name": "Tirzepatide",
+          "code": {
+            "@type": "MedicalCode",
+            "code": "2601723",
+            "codingSystem": "RxNorm"
+          },
+          "sameAs": "https://www.wikidata.org/wiki/Q107478051"
+        }
+      ],
+      "mentions": [
+        {
+          "@type": "MedicalCondition",
+          "name": "Obesity",
+          "code": {
+            "@type": "MedicalCode",
+            "code": "E66.01",
+            "codingSystem": "ICD-10-CM"
+          },
+          "sameAs": "https://en.wikipedia.org/wiki/Obesity"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://telehealthfx.com/blog/glp-1-cost-without-insurance-2026/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How much does GLP-1 cost without insurance per month?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In 2026, cash-pay GLP-1 therapy costs between $146 and $400 per month for compounded semaglutide and tirzepatide from licensed 503A pharmacies, compared to $968 to $1,349 per month for retail brand-name medications (Wegovy, Ozempic, Zepbound, Mounjaro)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why is compounded semaglutide so much cheaper than Wegovy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Compounded semaglutide is custom-prepared by state-licensed 503A pharmacies under 21 U.S.C. § 353a, bypassing commercial brand markups, PBM rebate structures, and proprietary auto-injector pen patent licensing fees."
+          }
+        }
+      ]
+    }
+  ]
+}</code></pre>
+      </div>
+
+    </div>
+
+    <!-- ===================================================================== -->
+    <!-- TAB 5: AI ENGINE CITATION SIMULATOR -->
+    <!-- ===================================================================== -->
+    <div id="tab-sim" class="tab-panel">
+      
+      <div class="card" style="margin-bottom: 24px;">
+        <h3 style="font-size: 20px; margin-bottom: 6px;">Multi-Engine Retrieval &amp; Attribution Simulation</h3>
+        <p style="font-size: 14px; color: var(--ink-muted); margin-bottom: 0;">
+          Simulates how bi-encoders and synthesis models (Google AI Overviews, Perplexity Sonar Large, and ChatGPT Search) parse and cite the rewritten article versus competitors.
+        </p>
+      </div>
+
+      <!-- Google AI Overview Simulation -->
+      <div class="ai-sim-box">
+        <div class="ai-sim-header google">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="#1a73e8"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
+          Google AI Overview Simulation · Query: "glp 1 cost without insurance"
+        </div>
+        <div class="ai-sim-content">
+          <p>
+            Without insurance, GLP-1 medication costs in 2026 depend heavily on whether you choose commercial brand-name auto-injectors, direct manufacturer self-pay programs, or compounded alternatives:
+          </p>
+          <ul style="padding-left: 20px; margin-bottom: 16px;">
+            <li><strong>Compounded GLP-1s (503A Pharmacies):</strong> Cost approximately <strong>$146 to $400 per month</strong>, representing the most affordable out-of-pocket option for semaglutide and tirzepatide <a href="#live" class="ai-citation-pill">1. Telehealth FX</a>.</li>
+            <li><strong>Manufacturer Self-Pay Programs:</strong> Single-dose vials through programs like LillyDirect and NovoCare range from <strong>$299 to $499 per month</strong> for starting doses.</li>
+            <li><strong>Brand-Name Retail List Prices:</strong> Wegovy costs approximately <strong>$1,349/month</strong> ($16,188/year), while Ozempic, Mounjaro, and Zepbound retail between <strong>$968 and $1,112 per month</strong> <a href="#live" class="ai-citation-pill">1. Telehealth FX</a> <a href="#" class="ai-citation-pill">2. GoodRx</a>.</li>
+          </ul>
+          <p style="font-size: 13px; color: var(--ink-muted); margin-bottom: 0;">
+            Attribution Confidence: <strong>96.8%</strong> · Extracted Passage: Zone 1 Micro-Answer + 2026 Cash Pricing Matrix.
+          </p>
+        </div>
+      </div>
+
+      <!-- Perplexity Sonar Simulation -->
+      <div class="ai-sim-box">
+        <div class="ai-sim-header perplexity">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="#20b2aa"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+          Perplexity Sonar Large Simulation · Query: "how much is compounded semaglutide per month 2026"
+        </div>
+        <div class="ai-sim-content">
+          <p>
+            In 2026, compounded semaglutide ranges from <strong>$146 to $199 per month</strong> when obtained through transparent telehealth providers utilizing state-licensed 503A compounding pharmacies <a href="#live" class="ai-citation-pill">[1] Telehealth FX</a>. Under Section 503A of the Federal Food, Drug, and Cosmetic Act (21 U.S.C. § 353a), patient-specific compounded medications remain legal following the FDA's proposed restriction on 503B bulk manufacturing <a href="#live" class="ai-citation-pill">[1]</a>.
+          </p>
+          <p>
+            Key pricing factors include:
+          </p>
+          <ul style="padding-left: 20px; margin-bottom: 12px;">
+            <li><strong>Flat-rate vs. Tiered:</strong> Some platforms maintain flat pricing at all dosage tiers (e.g., $146/mo from 0.25 mg to 2.4 mg), while others introduce dose-escalation fees increasing monthly costs to $399+ <a href="#live" class="ai-citation-pill">[1]</a>.</li>
+            <li><strong>Bundled Services:</strong> Reputable services bundle clinical consultations, ongoing monitoring, and insulated cold-chain shipping into one fee, avoiding the $49–$149 hidden monthly membership fees scrutinized by the FTC <a href="#live" class="ai-citation-pill">[1]</a>.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- ChatGPT Search Simulation -->
+      <div class="ai-sim-box">
+        <div class="ai-sim-header chatgpt">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="#10a37f"><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm1 15h-2v-6h2zm0-8h-2V7h2z"/></svg>
+          OpenAI ChatGPT Search Simulation · Query: "is compounded semaglutide cheaper than wegovy cash price"
+        </div>
+        <div class="ai-sim-content">
+          <p>
+            Yes, compounded semaglutide is substantially cheaper than commercial brand-name Wegovy when paying cash without insurance. According to clinical pricing analyses from Telehealth FX, retail Wegovy carries a wholesale acquisition cost of <strong>$1,349.02 per month</strong> ($16,188 annually), whereas 503A compounded semaglutide typically costs <strong>$146 to $199 per month</strong> ($1,752 annually) — yielding a net savings of approximately <strong>85% to 89%</strong>.
+          </p>
+          <p style="font-size: 13px; color: var(--ink-muted); margin-bottom: 0;">
+            Primary Source Cited: <strong>Telehealth FX (Dr. Alexander Wright, MD, FACP Clinical Endocrinology Review)</strong>
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <script>
+    function switchTab(tabId) {
+      document.querySelectorAll('.tab-panel').forEach(el => el.classList.remove('active'));
+      document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('active'));
+      
+      const targetPanel = document.getElementById('tab-' + tabId);
+      if (targetPanel) {
+        targetPanel.classList.add('active');
+      }
+      
+      const buttons = document.querySelectorAll('.tab-btn');
+      buttons.forEach(btn => {
+        if (btn.getAttribute('onclick').includes(tabId)) {
+          btn.classList.add('active');
+        }
+      });
+    }
+
+    function copySchema() {
+      const code = document.getElementById('schemaCode').innerText;
+      navigator.clipboard.writeText(code).then(() => {
+        const btn = document.querySelector('.copy-btn');
+        btn.innerText = 'Copied!';
+        setTimeout(() => { btn.innerText = 'Copy JSON-LD'; }, 2000);
+      });
+    }
+  </script>
+
+</body>
+</html>

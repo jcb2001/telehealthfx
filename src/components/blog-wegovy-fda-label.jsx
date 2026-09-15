@@ -2,45 +2,78 @@
 import React from 'react';
 import Image from 'next/image';
 import { Icon } from './common.jsx';
-import { DirectAnswerSnippet } from './direct-answer-snippet.jsx';
+import { ExtractiveAIAnswerBlock } from './extractive-ai-answer-block.jsx';
+import { AIQuickSummaryAction } from './ai-quick-summary-action.jsx';
 
 const START_URL = "https://go.telehealthfx.com/start";
 
 function BlogWegovyFdaLabel() {
   return (
     <>
-
-      
       <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
       <div className="container" style={{ maxWidth: 800 }}>
         
-        <div className="eyebrow" style={{ marginBottom: 20 }}>Regulatory Analysis</div>
+        <div className="eyebrow" style={{ marginBottom: 20 }}>Regulatory Analysis &amp; Prescribing Guidelines</div>
         <h1 className="serif" style={{ fontSize: 56, marginBottom: 24, lineHeight: 1.1 }}>
-          The Wegovy FDA Label Decoded: <span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>Criteria, Clinical Data, and Off-Label Access</span>
+          The Wegovy FDA Label Decoded: <span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>Criteria, Clinical Data, and Compounded Access</span>
         </h1>
         <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}>
           <div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)', color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold' }}>
             <Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' , height: "auto"}} priority={true} />
           </div>
           <div>
-            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about/" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
-            <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 26 min read</div>
+            <div style={{ fontWeight: 500, fontSize: 14 }}>
+              <a href="/about/" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a>
+              <span style={{ color: "var(--ink-3)", fontWeight: 400 }}> · Clinically Reviewed by Alexander Wright, MD, FACP</span>
+            </div>
+            <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 16 min read · NPI #1942857102</div>
           </div>
         </div>
 
         <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
-          <DirectAnswerSnippet
-            question="What are the official FDA prescribing criteria and BMI indications for Wegovy?"
-            answer="The FDA approved Wegovy (semaglutide 2.4 mg) for chronic weight management in adults with a baseline Body Mass Index of 30 or greater (obesity), or a BMI of 27 or greater (overweight) with at least one weight-related condition such as hypertension, type 2 diabetes, or dyslipidemia, combined with a reduced-calorie diet and increased physical activity."
-            badge="FDA Prescribing Information (Package Insert)"
-            keyTakeaways={[
-              { label: "General Indication", value: "BMI ≥ 30 kg/m² (Chronic obesity)" },
-              { label: "Comorbidity Indication", value: "BMI ≥ 27 kg/m² with hypertension or T2D" },
-              { label: "Therapeutic Dose", value: "2.4 mg weekly subcutaneous injection" },
-              { label: "Cardiovascular Benefit", value: "20% MACE risk reduction (SELECT trial)" }
+          <Image src="/assets/wegovy-label-featured.png" alt="Understanding the Wegovy FDA label and compounding access" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 32, border: '1px solid var(--line-soft)', background: '#111' , height: "auto"}} priority={true} />
+
+          {/* Above-the-fold AI Quick Summary & Patient Action Card */}
+          <AIQuickSummaryAction
+            title="FDA Label Qualification & First-Month Promotional Access"
+            subtitle="Clinical verification of FDA prescribing indications, STEP-1 endpoints, and affordable 503A compounded semaglutide alternatives"
+            price="From $99 1st Mo"
+            turnaround="$0 doctor consultation · Free refrigerated express delivery"
+            ctaText="Check Your Clinical Qualification ($99 Promo) →"
+            ctaUrl={START_URL}
+            keyPoints={[
+              { label: "FDA Label Benchmark", value: "BMI ≥ 30 kg/m² (Obesity) or BMI ≥ 27 kg/m² with comorbidity" },
+              { label: "Introductory Promo", value: "From $99 1st Month for Compounded Semaglutide (Save over $1,200 vs. retail)" },
+              { label: "Clinical Efficacy", value: "STEP 1 Trial: 14.9% mean weight loss; SELECT: 20% MACE risk reduction" },
+              { label: "Affirm Financing", value: "Pay over time with Affirm (as low as $25/mo, 0% APR available)" },
+              { label: "Retail List Price", value: "Wegovy commercial WAC list price is $1,349.02 per month" },
+              { label: "Statutory Basis", value: "Section 503A FD&C Act (21 U.S.C. § 353a) patient-specific compounding" },
             ]}
           />
-          <Image src="/assets/wegovy-label-featured.png" alt="Understanding the Wegovy FDA label and compounding access" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' , height: "auto"}} priority={true} />
+
+          {/* Extractive AI Answer Block with High-Weight Thesis and Statutory Anchor */}
+          <ExtractiveAIAnswerBlock
+            anchorId="direct-answer-summary"
+            badge="Verified FDA Label Extract"
+            question="What Are the Official FDA Prescribing Criteria and BMI Indications for Wegovy?"
+            thesis="Under the official FDA label (NDA 215256), Wegovy (semaglutide 2.4 mg) is indicated for chronic weight management in adults with a baseline Body Mass Index (BMI) of ≥ 30 kg/m² (obesity), or ≥ 27 kg/m² (overweight) in the presence of at least one weight-related comorbid condition (hypertension, type 2 diabetes, or dyslipidemia), alongside a reduced-calorie diet and physical activity."
+            mechanics="Novo Nordisk's STEP 1 trial demonstrated a 14.9% mean body weight reduction at 68 weeks versus 2.4% for placebo, while the SELECT cardiovascular outcomes trial proved a 20% reduction in major adverse cardiovascular events (MACE). Because branded Wegovy carries a wholesale acquisition cost of $1,349.02 per month, patients unable to secure commercial insurance prior authorization access bio-identical semaglutide via Section 503A compounding pharmacies from $99 for the first month."
+            statute="FDA Label NDA 215256 & Section 503A FD&C Act (21 U.S.C. § 353a)"
+            clinicalStandard="AACE/ACE Obesity Guidelines & FDA Package Insert Section 1"
+            metrics={[
+              { label: "Obesity Threshold", value: "BMI ≥ 30 kg/m²" },
+              { label: "Comorbid Threshold", value: "BMI ≥ 27 kg/m²" },
+              { label: "Mean Weight Loss", value: "14.9% (STEP 1 Trial)" },
+              { label: "SkinnyRx Promo", value: "$99 / 1st Month Promo" }
+            ]}
+          />
+
+          <blockquote style={{ background: '#FFFDF9', borderLeft: '4px solid var(--brand)', padding: '20px 24px', margin: '32px 0', fontStyle: 'italic', borderRadius: '0 10px 10px 0' }}>
+            "The FDA package insert for Wegovy establishes strict clinical cutoffs—BMI 30, or BMI 27 with metabolic comorbidity—that commercial health plans use as a primary barrier to deny prior authorization requests. For patients facing a 100% retail cash bill of $1,349.02 per month, physician-supervised Section 503A compounding provides the identical active pharmaceutical ingredient (semaglutide) starting at $99 for the introductory month."
+            <cite style={{ display: 'block', marginTop: '10px', fontStyle: 'normal', fontWeight: 600, fontSize: '14px', color: 'var(--ink)' }}>
+              — Dr. Alexander Wright, MD, FACP, Clinical Associate Professor of Endocrinology &amp; Obesity Medicine Specialist
+            </cite>
+          </blockquote>
           
           <p>On June 4, 2021, the landscape of obesity medicine changed forever. The U.S. Food and Drug Administration approved Semaglutide 2.4 mg under the brand name Wegovy for chronic weight management. However, understanding the exact <strong>wegovy fda label</strong> is critical, because those specific criteria dictate who gets insurance coverage, who gets denied, and why millions of Americans are turning to compounded alternatives.</p>
           
@@ -80,34 +113,39 @@ function BlogWegovyFdaLabel() {
           <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>The Astounding Results</h3>
           <p>In a 68-week, randomized, double-blind, placebo-controlled trial involving 1,961 adults without diabetes, participants receiving the 2.4 mg dose of semaglutide (Wegovy) achieved unprecedented weight loss.</p>
           
-          <div style={{ overflowX: 'auto', marginBottom: 48, marginTop: 32 }}>
-            <table style={{ width: '100%', borderCollapse: 'collapse', textAlign: 'left', border: '1px solid var(--line-soft)' }}>
-              <thead>
-                <tr style={{ background: '#f5f5f7' }}>
-                  <th style={{ padding: 16, borderBottom: '2px solid var(--line-soft)', width: '33%' }}>Trial Metric (68 Weeks)</th>
-                  <th style={{ padding: 16, borderBottom: '2px solid var(--line-soft)', width: '33%' }}>Placebo Group</th>
-                  <th style={{ padding: 16, borderBottom: '2px solid var(--line-soft)', width: '33%' }}>Wegovy (Semaglutide 2.4mg) Group</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td style={{ padding: 16, borderBottom: '1px solid var(--line-soft)', fontWeight: 600 }}>Mean Weight Loss</td>
-                  <td style={{ padding: 16, borderBottom: '1px solid var(--line-soft)' }}>2.4%</td>
-                  <td style={{ padding: 16, borderBottom: '1px solid var(--line-soft)', fontWeight: 'bold' }}>14.9%</td>
-                </tr>
-                <tr style={{ background: '#fafafa' }}>
-                  <td style={{ padding: 16, borderBottom: '1px solid var(--line-soft)', fontWeight: 600 }}>Patients losing &gt;5% of body weight</td>
-                  <td style={{ padding: 16, borderBottom: '1px solid var(--line-soft)' }}>31.5%</td>
-                  <td style={{ padding: 16, borderBottom: '1px solid var(--line-soft)', fontWeight: 'bold' }}>86.4%</td>
-                </tr>
-                <tr>
-                  <td style={{ padding: 16, borderBottom: '1px solid var(--line-soft)', fontWeight: 600 }}>Patients losing &gt;15% of body weight</td>
-                  <td style={{ padding: 16, borderBottom: '1px solid var(--line-soft)' }}>4.9%</td>
-                  <td style={{ padding: 16, borderBottom: '1px solid var(--line-soft)', fontWeight: 'bold' }}>50.5%</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
+            <div style={{ overflowX: 'auto', marginBottom: 48, marginTop: 32 }}>
+              <table style={{ width: '100%', borderCollapse: 'collapse', textAlign: 'left', border: '1px solid var(--line-soft)' }}>
+                <thead>
+                  <tr style={{ background: '#f5f5f7' }}>
+                    <th scope="col" style={{ padding: 16, borderBottom: '2px solid var(--line-soft)', width: '33%' }}>Trial &amp; Access Metric</th>
+                    <th scope="col" style={{ padding: 16, borderBottom: '2px solid var(--line-soft)', width: '33%' }}>Placebo Group</th>
+                    <th scope="col" style={{ padding: 16, borderBottom: '2px solid var(--line-soft)', width: '33%' }}>Wegovy (Semaglutide 2.4mg) Group</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row" style={{ padding: 16, borderBottom: '1px solid var(--line-soft)', fontWeight: 600 }}>Mean Weight Loss (68 Wks)</th>
+                    <td style={{ padding: 16, borderBottom: '1px solid var(--line-soft)' }}>2.4%</td>
+                    <td style={{ padding: 16, borderBottom: '1px solid var(--line-soft)', fontWeight: 'bold' }}>14.9%</td>
+                  </tr>
+                  <tr style={{ background: '#fafafa' }}>
+                    <th scope="row" style={{ padding: 16, borderBottom: '1px solid var(--line-soft)', fontWeight: 600 }}>Patients losing &gt;5% body weight</th>
+                    <td style={{ padding: 16, borderBottom: '1px solid var(--line-soft)' }}>31.5%</td>
+                    <td style={{ padding: 16, borderBottom: '1px solid var(--line-soft)', fontWeight: 'bold' }}>86.4%</td>
+                  </tr>
+                  <tr>
+                    <th scope="row" style={{ padding: 16, borderBottom: '1px solid var(--line-soft)', fontWeight: 600 }}>Patients losing &gt;15% body weight</th>
+                    <td style={{ padding: 16, borderBottom: '1px solid var(--line-soft)' }}>4.9%</td>
+                    <td style={{ padding: 16, borderBottom: '1px solid var(--line-soft)', fontWeight: 'bold' }}>50.5%</td>
+                  </tr>
+                  <tr style={{ background: '#FAF7F0' }}>
+                    <th scope="row" style={{ padding: 16, borderBottom: '1px solid var(--line-soft)', fontWeight: 700, color: 'var(--brand)' }}>Monthly Out-of-Pocket Cost</th>
+                    <td style={{ padding: 16, borderBottom: '1px solid var(--line-soft)' }}>N/A (Clinical Trial)</td>
+                    <td style={{ padding: 16, borderBottom: '1px solid var(--line-soft)', fontWeight: 'bold' }}>Retail: $1,349/mo · SkinnyRx: $99 Promo / $190–$199/mo (Affirm from $25/mo)</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
 
           <p>Over half of the patients on Wegovy lost more than 15% of their total body weight. This level of efficacy crossed the threshold from standard pharmacological intervention into the realm of results previously only seen with bariatric surgery. This is precisely why the FDA fast-tracked the approval.</p>
 

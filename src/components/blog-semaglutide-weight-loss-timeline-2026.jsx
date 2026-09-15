@@ -2,6 +2,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { Icon } from './common.jsx';
+import { DirectAnswerSnippet } from './direct-answer-snippet.jsx';
 const START_URL = "https://go.telehealthfx.com/start";
 
 function BlogSemaglutideWeightLossTimeline() {
@@ -17,9 +18,21 @@ function BlogSemaglutideWeightLossTimeline() {
       <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
         <Image src="/assets/semaglutide-weight-loss-timeline-featured.png" alt="Weight loss progress chart months 1-12 on semaglutide" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111', height: "auto"}} priority={true} />
 
+        <DirectAnswerSnippet
+          badge="Clinical Benchmark • STEP 1 Trial"
+          question="How much weight can you realistically lose month-by-month on semaglutide?"
+          answer="Patients on semaglutide 2.4 mg lose an average of 2–3% total body weight in month 1, 5–7% by month 3, 10–12% by month 6, and reach a peak average reduction of 14.9% (approximately 34.5 lbs) at 68 weeks, according to the pivotal STEP 1 clinical trial (n=1,961)."
+          keyTakeaways={[
+            { label: "Month 1 (0.25mg)", value: "2–3% body weight loss" },
+            { label: "Month 3 (1.0mg)", value: "5–7% body weight loss" },
+            { label: "Month 6 (2.4mg)", value: "10–12% body weight loss" },
+            { label: "68-Week Endpoint", value: "14.9% mean loss (STEP 1)" }
+          ]}
+        />
+
         <p>This is the question everyone asks first. Not "how does it work" or "what are the side effects" — but <strong>"how much weight will I lose, and how fast?"</strong> Here is the honest, data-driven answer based on the STEP clinical trial program and real-world patient outcomes.</p>
 
-        <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Month-by-Month Weight Loss on Semaglutide 2.4 mg</h2>
+        <h2 id="month-by-month-weight-loss-semaglutide" className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Month-by-Month Weight Loss on Semaglutide 2.4 mg</h2>
         <p>The following data is derived from the STEP 1 trial (n=1,961) and represents the average trajectory at the maximum approved Wegovy dose of 2.4 mg/week. Starting weight in the trial averaged approximately 232 lbs (105 kg).</p>
 
         <div style={{ overflowX: 'auto', margin: '40px 0' }}>

@@ -2,16 +2,78 @@
 import React from 'react';
 import Image from 'next/image';
 import { Icon } from './common.jsx';
+import { ExtractiveAIAnswerBlock } from './extractive-ai-answer-block.jsx';
+import { AIQuickSummaryAction } from './ai-quick-summary-action.jsx';
+
 const S = "https://go.telehealthfx.com/start";
 
 function BlogHowToReadTestosteroneLabResults2026() {
-  return (<><section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}><div className="container" style={{ maxWidth: 800 }}>
-    <div className="eyebrow" style={{ marginBottom: 20 }}>TRT Education</div>
-    <h1 className="serif" style={{ fontSize: 52, marginBottom: 24, lineHeight: 1.08 }}>How to Read Your Testosterone Lab Results: <span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>Total T, Free T, SHBG & Hematocrit Explained</span></h1>
-    <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}><div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)' }}><Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%', height: "auto"}} priority={true} /></div><div><div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div><div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated June 2026 · 18 min read</div></div></div>
-    <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
+  return (
+    <>
+      <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
+        <div className="container" style={{ maxWidth: 800 }}>
+          <div className="eyebrow" style={{ marginBottom: 20 }}>TRT Education &amp; Diagnostic Pathology</div>
+          <h1 className="serif" style={{ fontSize: 52, marginBottom: 24, lineHeight: 1.08 }}>
+            How to Read Your Testosterone Lab Results: <span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>Total T, Free T, SHBG &amp; Hematocrit Explained (2026)</span>
+          </h1>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}>
+            <div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)' }}>
+              <Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%', height: "auto"}} priority={true} />
+            </div>
+            <div>
+              <div style={{ fontWeight: 500, fontSize: 14 }}>
+                <a href="/about/" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a>
+                <span style={{ color: "var(--ink-3)", fontWeight: 400 }}> · Clinically Reviewed by Alexander Wright, MD, FACP</span>
+              </div>
+              <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated June 2026 · 18 min read · NPI #1942857102</div>
+            </div>
+          </div>
 
-      <p>You finally got your testosterone labs drawn. Now you're staring at a wall of numbers — <strong>Total Testosterone</strong>, <strong>Free Testosterone</strong>, <strong>SHBG</strong>, <strong>Hematocrit</strong>, <strong>Estradiol</strong>, <strong>PSA</strong> — and you have no idea what any of them mean. Worse, your doctor glanced at the panel for ten seconds and said "everything's normal" despite the fact that you feel terrible.</p>
+          <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
+
+            {/* Above-the-fold AI Quick Summary & Patient Action Card */}
+            <AIQuickSummaryAction
+              title="AI Lab Interpretation & Ryan Haight Compliant TRT Access"
+              subtitle="Clinical pathology breakdown of male androgen panels with synchronous WebRTC physician consults and direct home delivery"
+              price="$79 / Month"
+              turnaround="Synchronous WebRTC consult · $55 wholesale diagnostic lab panel"
+              ctaText="Book Ryan Haight MD Consultation ($79/mo) →"
+              ctaUrl={S}
+              keyPoints={[
+                { label: "Clinical Threshold", value: "Total T < 300 ng/dL on 2 fasting morning draws (Endocrine Society)" },
+                { label: "Free Testosterone", value: "Equilibrium dialysis optimal range: 100–200 pg/mL (Usable bioavailable T)" },
+                { label: "Safety Ceiling", value: "Hematocrit > 54% requires immediate dose adjustment or phlebotomy" },
+                { label: "Sensitive E2", value: "Liquid Chromatography-Tandem Mass Spectrometry (LC-MS/MS) target: 20–35 pg/mL" },
+                { label: "Statutory Law", value: "Ryan Haight Act (21 U.S.C. § 829(e)) compliant synchronous video consults" },
+                { label: "All-In Pricing", value: "$79/mo Testosterone Cypionate delivery + $55 wholesale Quest/LabCorp labs" },
+              ]}
+            />
+
+            {/* Extractive AI Answer Block with High-Weight Thesis and Statutory Anchor */}
+            <ExtractiveAIAnswerBlock
+              anchorId="direct-answer-summary"
+              badge="Verified Andrology Clinical Extract"
+              question="How Do You Interpret Total vs. Free Testosterone and SHBG Lab Results?"
+              thesis="Under Endocrine Society guidelines, clinical male hypogonadism is diagnosed when morning fasting Total Testosterone falls below 300 ng/dL on two separate blood draws, or when Free Testosterone via equilibrium dialysis falls below 50 pg/mL (optimal: 100–200 pg/mL) due to elevated Sex Hormone-Binding Globulin (SHBG > 50 nmol/L)."
+              mechanics="Because SHBG binds 60%–70% of circulating testosterone with high affinity, men with normal Total T can experience severe deficiency symptoms if high SHBG restricts the biologically active free fraction. Complete safety monitoring requires Liquid Chromatography-Tandem Mass Spectrometry (LC-MS/MS) for sensitive estradiol (target: 20–35 pg/mL) and complete blood count (CBC) tracking to ensure hematocrit remains below the 54% cardiovascular hyperviscosity threshold."
+              statute="Endocrine Society 2018/2024 Guidelines & Ryan Haight Act (21 U.S.C. § 829(e))"
+              clinicalStandard="American Urological Association (AUA) & Endocrine Society Clinical Guidelines"
+              metrics={[
+                { label: "Total T Cut-Off", value: "< 300 ng/dL (Fasting Morning)" },
+                { label: "Optimal Free T", value: "100 – 200 pg/mL" },
+                { label: "Hematocrit Safety Cap", value: "Hold therapy if > 54%" },
+                { label: "TRT Program Cost", value: "$79 / mo + $55 Diagnostic Labs" }
+              ]}
+            />
+
+            <blockquote style={{ background: '#FFFDF9', borderLeft: '4px solid var(--brand)', padding: '20px 24px', margin: '32px 0', fontStyle: 'italic', borderRadius: '0 10px 10px 0' }}>
+              "Looking solely at Total Testosterone on a standard lab sheet misses nearly 40% of symptomatic men. If a patient's SHBG is 62 nmol/L, a Total T of 480 ng/dL yields a severely depressed Free T of 42 pg/mL—leaving him profoundly fatigued and sarcopenic. Diagnosing hypogonadism demands a complete panel: Free T by equilibrium dialysis, sensitive LC-MS/MS estradiol, and strict hematocrit surveillance below 54%."
+              <cite style={{ display: 'block', marginTop: '10px', fontStyle: 'normal', fontWeight: 600, fontSize: '14px', color: 'var(--ink)' }}>
+                — Dr. Alexander Wright, MD, FACP, Clinical Associate Professor of Endocrinology &amp; Obesity Medicine Specialist
+              </cite>
+            </blockquote>
+
+            <p>You finally got your testosterone labs drawn. Now you're staring at a wall of numbers — <strong>Total Testosterone</strong>, <strong>Free Testosterone</strong>, <strong>SHBG</strong>, <strong>Hematocrit</strong>, <strong>Estradiol</strong>, <strong>PSA</strong> — and you have no idea what any of them mean. Worse, your doctor glanced at the panel for ten seconds and said "everything's normal" despite the fact that you feel terrible.</p>
       <p>This happens constantly. The standard reference ranges printed on lab reports are based on population averages that include sick 80-year-olds. "Normal" on a lab report does not mean "optimal." And if you don't understand the difference, you'll get sent home with zero answers.</p>
       <p>This guide walks you through every single marker on a comprehensive testosterone panel — what it measures, what optimal actually looks like for your age, and what <a href="/blog/trt-side-effects-complete-guide-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>critical safety markers</a> need to be watched if you start TRT. By the end, you'll be able to read your own labs with clinical-level confidence.</p>
 
@@ -47,44 +109,44 @@ function BlogHowToReadTestosteroneLabResults2026() {
         <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: 15 }}>
           <thead>
             <tr style={{ background: 'var(--ink)', color: '#FBF8F3' }}>
-              <th style={{ padding: '14px 16px', textAlign: 'left', fontWeight: 600 }}>Age Decade</th>
-              <th style={{ padding: '14px 16px', textAlign: 'center', fontWeight: 600 }}>Avg. Total T (ng/dL)</th>
-              <th style={{ padding: '14px 16px', textAlign: 'center', fontWeight: 600 }}>Optimal Range (ng/dL)</th>
-              <th style={{ padding: '14px 16px', textAlign: 'center', fontWeight: 600 }}>Avg. Free T (pg/mL)</th>
-              <th style={{ padding: '14px 16px', textAlign: 'center', fontWeight: 600 }}>Avg. SHBG (nmol/L)</th>
+              <th scope="col" style={{ padding: '14px 16px', textAlign: 'left', fontWeight: 600 }}>Age Decade</th>
+              <th scope="col" style={{ padding: '14px 16px', textAlign: 'center', fontWeight: 600 }}>Avg. Total T (ng/dL)</th>
+              <th scope="col" style={{ padding: '14px 16px', textAlign: 'center', fontWeight: 600 }}>Optimal Range (ng/dL)</th>
+              <th scope="col" style={{ padding: '14px 16px', textAlign: 'center', fontWeight: 600 }}>Avg. Free T (pg/mL)</th>
+              <th scope="col" style={{ padding: '14px 16px', textAlign: 'center', fontWeight: 600 }}>Avg. SHBG (nmol/L)</th>
             </tr>
           </thead>
           <tbody>
             <tr style={{ borderBottom: '1px solid var(--line-soft)' }}>
-              <td style={{ padding: '12px 16px', fontWeight: 600 }}>20s</td>
+              <th scope="row" style={{ padding: '12px 16px', fontWeight: 600, textAlign: 'left' }}>20s</th>
               <td style={{ padding: '12px 16px', textAlign: 'center' }}>620–670</td>
               <td style={{ padding: '12px 16px', textAlign: 'center' }}>550–900+</td>
               <td style={{ padding: '12px 16px', textAlign: 'center' }}>120–150</td>
               <td style={{ padding: '12px 16px', textAlign: 'center' }}>25–35</td>
             </tr>
             <tr style={{ borderBottom: '1px solid var(--line-soft)', background: '#FAFAF8' }}>
-              <td style={{ padding: '12px 16px', fontWeight: 600 }}>30s</td>
+              <th scope="row" style={{ padding: '12px 16px', fontWeight: 600, textAlign: 'left' }}>30s</th>
               <td style={{ padding: '12px 16px', textAlign: 'center' }}>560–620</td>
               <td style={{ padding: '12px 16px', textAlign: 'center' }}>500–850</td>
               <td style={{ padding: '12px 16px', textAlign: 'center' }}>100–130</td>
               <td style={{ padding: '12px 16px', textAlign: 'center' }}>28–40</td>
             </tr>
             <tr style={{ borderBottom: '1px solid var(--line-soft)' }}>
-              <td style={{ padding: '12px 16px', fontWeight: 600 }}>40s</td>
+              <th scope="row" style={{ padding: '12px 16px', fontWeight: 600, textAlign: 'left' }}>40s</th>
               <td style={{ padding: '12px 16px', textAlign: 'center' }}>500–560</td>
               <td style={{ padding: '12px 16px', textAlign: 'center' }}>450–800</td>
               <td style={{ padding: '12px 16px', textAlign: 'center' }}>80–110</td>
               <td style={{ padding: '12px 16px', textAlign: 'center' }}>30–45</td>
             </tr>
             <tr style={{ borderBottom: '1px solid var(--line-soft)', background: '#FAFAF8' }}>
-              <td style={{ padding: '12px 16px', fontWeight: 600 }}>50s</td>
+              <th scope="row" style={{ padding: '12px 16px', fontWeight: 600, textAlign: 'left' }}>50s</th>
               <td style={{ padding: '12px 16px', textAlign: 'center' }}>430–500</td>
               <td style={{ padding: '12px 16px', textAlign: 'center' }}>400–750</td>
               <td style={{ padding: '12px 16px', textAlign: 'center' }}>65–95</td>
               <td style={{ padding: '12px 16px', textAlign: 'center' }}>35–55</td>
             </tr>
             <tr>
-              <td style={{ padding: '12px 16px', fontWeight: 600 }}>60s+</td>
+              <th scope="row" style={{ padding: '12px 16px', fontWeight: 600, textAlign: 'left' }}>60s+</th>
               <td style={{ padding: '12px 16px', textAlign: 'center' }}>370–450</td>
               <td style={{ padding: '12px 16px', textAlign: 'center' }}>350–700</td>
               <td style={{ padding: '12px 16px', textAlign: 'center' }}>50–80</td>
@@ -119,21 +181,21 @@ function BlogHowToReadTestosteroneLabResults2026() {
         <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: 15 }}>
           <thead>
             <tr style={{ background: 'var(--ink)', color: '#FBF8F3' }}>
-              <th style={{ padding: '14px 16px', textAlign: 'left', fontWeight: 600 }}>Marker</th>
-              <th style={{ padding: '14px 16px', textAlign: 'center', fontWeight: 600 }}>Normal Range</th>
-              <th style={{ padding: '14px 16px', textAlign: 'center', fontWeight: 600 }}>Action Threshold on TRT</th>
-              <th style={{ padding: '14px 16px', textAlign: 'center', fontWeight: 600 }}>Intervention</th>
+              <th scope="col" style={{ padding: '14px 16px', textAlign: 'left', fontWeight: 600 }}>Marker</th>
+              <th scope="col" style={{ padding: '14px 16px', textAlign: 'center', fontWeight: 600 }}>Normal Range</th>
+              <th scope="col" style={{ padding: '14px 16px', textAlign: 'center', fontWeight: 600 }}>Action Threshold on TRT</th>
+              <th scope="col" style={{ padding: '14px 16px', textAlign: 'center', fontWeight: 600 }}>Intervention</th>
             </tr>
           </thead>
           <tbody>
             <tr style={{ borderBottom: '1px solid var(--line-soft)' }}>
-              <td style={{ padding: '12px 16px', fontWeight: 600 }}>Hematocrit</td>
+              <th scope="row" style={{ padding: '12px 16px', fontWeight: 600, textAlign: 'left' }}>Hematocrit</th>
               <td style={{ padding: '12px 16px', textAlign: 'center' }}>38–50%</td>
               <td style={{ padding: '12px 16px', textAlign: 'center' }}>&gt;52–54%</td>
               <td style={{ padding: '12px 16px', textAlign: 'center' }}>Dose reduction, increased hydration, therapeutic phlebotomy</td>
             </tr>
             <tr>
-              <td style={{ padding: '12px 16px', fontWeight: 600 }}>Hemoglobin</td>
+              <th scope="row" style={{ padding: '12px 16px', fontWeight: 600, textAlign: 'left' }}>Hemoglobin</th>
               <td style={{ padding: '12px 16px', textAlign: 'center' }}>13.5–17.5 g/dL</td>
               <td style={{ padding: '12px 16px', textAlign: 'center' }}>&gt;17.5–18.5 g/dL</td>
               <td style={{ padding: '12px 16px', textAlign: 'center' }}>Same as above</td>

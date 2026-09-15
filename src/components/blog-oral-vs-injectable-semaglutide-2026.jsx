@@ -2,6 +2,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { Icon } from './common.jsx';
+import { DirectAnswerSnippet } from './direct-answer-snippet.jsx';
 const START_URL = "https://go.telehealthfx.com/start";
 
 function BlogOralVsInjectableSemaglutide() {
@@ -11,9 +12,22 @@ function BlogOralVsInjectableSemaglutide() {
     <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}><div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)' }}><Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%', height: "auto"}} priority={true} /></div><div><div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div><div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 18 min read</div></div></div>
     <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
       <Image src="/assets/oral-vs-injectable-semaglutide-featured.png" alt="Semaglutide pill next to injection pen comparison" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', height: "auto"}} priority={true} />
+
+      <DirectAnswerSnippet
+        badge="Pharmacokinetic Analysis • OASIS-1 vs STEP 1"
+        question="Are semaglutide tablets as effective as weekly injections for weight loss?"
+        answer="Oral semaglutide produces comparable 15.1% weight loss at maximum daily dosing (OASIS-1 trial), but possesses under 1% bioavailability compared to 89% for subcutaneous injections. Injectables offer superior adherence with once-weekly administration and cost $199/month through compounding pharmacies versus $935/month for daily brand-name tablets."
+        keyTakeaways={[
+          { label: "Oral Bioavailability", value: "<1% (destroyed by gastric acid)" },
+          { label: "Injectable Bioavailability", value: "~89% (subcutaneous absorption)" },
+          { label: "Clinical Weight Loss", value: "15.1% (OASIS-1) vs 14.9% (STEP 1)" },
+          { label: "Compounded Cost", value: "$199/mo (injectable) vs $935/mo (oral)" }
+        ]}
+      />
+
       <p>If you hate needles, oral semaglutide sounds like the perfect solution: same drug, no injection. But the clinical reality is far more nuanced. Oral semaglutide (Rybelsus) has <strong>less than 1% bioavailability</strong> — meaning 99%+ of the drug you swallow is destroyed by stomach acid and never reaches your bloodstream. Injectable semaglutide has ~89% bioavailability. This fundamental pharmacokinetic difference drives everything: efficacy, cost, convenience, and clinical outcomes.</p>
 
-      <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Head-to-Head Comparison</h2>
+      <h2 id="oral-vs-injectable-semaglutide-comparison" className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Head-to-Head Comparison</h2>
       <div style={{ overflowX: 'auto', margin: '24px 0' }}>
         <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: 15 }}>
           <thead><tr style={{ borderBottom: '2px solid var(--ink)' }}><th style={{ textAlign: 'left', padding: '12px 16px', fontWeight: 600 }}>Factor</th><th style={{ textAlign: 'left', padding: '12px 16px', fontWeight: 600 }}>Oral (Rybelsus)</th><th style={{ textAlign: 'left', padding: '12px 16px', fontWeight: 600 }}>Injectable (Wegovy/Compounded)</th><th style={{ textAlign: 'left', padding: '12px 16px', fontWeight: 600 }}>Winner</th></tr></thead>

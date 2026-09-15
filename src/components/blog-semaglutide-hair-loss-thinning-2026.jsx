@@ -2,6 +2,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { Icon } from './common.jsx';
+import { DirectAnswerSnippet } from './direct-answer-snippet.jsx';
 
 const START_URL = "https://go.telehealthfx.com/start";
 
@@ -27,11 +28,23 @@ function BlogSemaglutideHairLoss() {
         <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
           <Image src="/assets/semaglutide-hair-loss-featured.png" alt="Hair thinning and semaglutide GLP-1 medication" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111', height: "auto"}} priority={true} />
 
+          <DirectAnswerSnippet
+            badge="Dermatological Evidence • STEP 1 & SURMOUNT Trials"
+            question="Does semaglutide cause hair loss, and is the shedding permanent?"
+            answer="Semaglutide does not directly damage hair follicles. Post-GLP-1 thinning is acute telogen effluvium, a temporary shedding response triggered by rapid caloric restriction and metabolic shock that occurs in roughly 3% of semaglutide patients (STEP 1) and resolves spontaneously within 3 to 6 months."
+            keyTakeaways={[
+              { label: "Clinical Cause", value: "Telogen effluvium (rapid caloric deficit)" },
+              { label: "Trial Incidence", value: "3.0% (STEP 1) vs 5.7% (SURMOUNT-1)" },
+              { label: "Recovery Window", value: "Reversible within 3–6 months" },
+              { label: "Prevention Target", value: "1.2–1.6g protein/kg + ferritin check" }
+            ]}
+          />
+
           <p>You started your <a href="/blog/what-is-a-glp-1-medication" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 medication</a> and the weight is coming off—but so is your hair. If you have noticed increased shedding in the shower, thinning at the part, or clumps on your pillowcase since starting semaglutide or tirzepatide, you are not imagining things. And you are far from alone.</p>
 
           <p>Hair loss has emerged as one of the most alarming—and most misunderstood—concerns among GLP-1 users in 2025–2026. Social media is flooded with anecdotal reports, yet the clinical data tells a more nuanced story. The critical distinction: <strong>GLP-1 medications do not directly cause hair loss.</strong> What causes hair loss is the <em>rapid weight loss</em> itself—a well-documented clinical phenomenon called <strong>telogen effluvium</strong>.</p>
 
-          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Understanding Telogen Effluvium: The Hair Cycle Under Stress</h2>
+          <h2 id="understanding-telogen-effluvium-hair-cycle" className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Understanding Telogen Effluvium: The Hair Cycle Under Stress</h2>
 
           <p>Your hair grows in cycles. At any given time, approximately 85–90% of your hair follicles are in the active growth phase (anagen), while 10–15% are in the resting phase (telogen). After 2–3 months in telogen, hairs naturally shed and are replaced by new growth.</p>
 

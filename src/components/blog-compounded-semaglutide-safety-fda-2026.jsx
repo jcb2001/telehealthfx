@@ -2,6 +2,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { Icon } from './common.jsx';
+import { DirectAnswerSnippet } from './direct-answer-snippet.jsx';
 const START_URL = "https://go.telehealthfx.com/start";
 
 function BlogCompoundedSemaglutideSafety() {
@@ -11,9 +12,22 @@ function BlogCompoundedSemaglutideSafety() {
     <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}><div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)' }}><Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%', height: "auto"}} priority={true} /></div><div><div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div><div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 20 min read</div></div></div>
     <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
       <Image src="/assets/compounded-semaglutide-safety-fda-featured.png" alt="Sterile compounding pharmacy lab with quality certification" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111', height: "auto"}} priority={true} />
+
+      <DirectAnswerSnippet
+        badge="Regulatory Compliance • Section 503A FD&C Act"
+        question="Is compounded semaglutide legal and safe to receive from an online pharmacy?"
+        answer="Compounded semaglutide is legal under Section 503A of the Federal Food, Drug, and Cosmetic Act (21 U.S.C. § 353a) when prepared for an individual patient by a state-licensed compounding pharmacy adhering to USP <797> sterile protocols, delivering verified pharmaceutical-grade base active pharmaceutical ingredients directly to patient homes."
+        keyTakeaways={[
+          { label: "Federal Authority", value: "Section 503A FD&C Act (21 U.S.C. § 353a)" },
+          { label: "Sterile Standard", value: "USP <797> cleanroom compliance" },
+          { label: "Active Ingredient", value: "Pure semaglutide base (never sodium salts)" },
+          { label: "Delivery Logistics", value: "Cold-chain 36°F–46°F home shipping" }
+        ]}
+      />
+
       <p>You have heard the headlines: FDA crackdowns, provider shutdowns, safety warnings about compounded GLP-1 medications. Some of these concerns are legitimate. Others are pharmaceutical industry PR designed to eliminate lower-cost competition. This guide separates fact from noise and gives you the exact questions to ask before you take a single dose.</p>
 
-      <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>What the FDA Actually Said (And What It Didn{"'"}t)</h2>
+      <h2 id="what-the-fda-actually-said-503a-503b" className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>What the FDA Actually Said (And What It Didn{"'"}t)</h2>
       <p>The FDA{"'"}s enforcement action targeted <strong>503B outsourcing facilities</strong> — factories that mass-produced compounded semaglutide without individual prescriptions. The FDA has <strong>not</strong> banned 503A compounding pharmacies from preparing patient-specific semaglutide with a valid prescription and documented clinical need.</p>
       <p>The distinction matters:</p>
       <div style={{ overflowX: 'auto', margin: '24px 0' }}>

@@ -104,6 +104,7 @@ export function DirectAnswerSnippet({
 
       {/* 40-60 Word Direct Answer */}
       <p
+        id="direct-answer-summary"
         style={{
           fontSize: '16px',
           lineHeight: 1.65,
@@ -118,6 +119,7 @@ export function DirectAnswerSnippet({
       {/* 2-4 Key Takeaways Pills Grid */}
       {keyTakeaways && keyTakeaways.length > 0 && (
         <div
+          className="key-takeaways-grid"
           style={{
             display: 'grid',
             gridTemplateColumns: 'repeat(auto-fit, minmax(170px, 1fr))',

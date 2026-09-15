@@ -20,19 +20,76 @@ export default function Page() {
     "@graph": [
       {
         "@type": "MedicalWebPage",
-    "description": metadata.description, "@id": "https://telehealthfx.com/blog/semaglutide-hair-loss-thinning-2026/#article",
+        "@id": "https://telehealthfx.com/blog/semaglutide-hair-loss-thinning-2026/#article",
+        "description": metadata.description,
         "headline": "Semaglutide and Hair Loss: Is Your GLP-1 Causing Thinning? What the Data Says",
         "image": "https://telehealthfx.com/assets/semaglutide-hair-loss-featured.png",
-        "author": { "@type": "Person", "name": "Julian Mercer, M.S.", "url": "https://telehealthfx.com/about" },
-        "publisher": { "@type": "Organization", "name": "Telehealth FX", "logo": { "@type": "ImageObject", "url": "https://telehealthfx.com/assets/logo.png" } },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://telehealthfx.com/blog/semaglutide-hair-loss-thinning-2026/" }
+        "author": { "@type": "Person", "name": "Julian Mercer, M.S.", "jobTitle": "Lead Bio-Systems Analyst", "url": "https://telehealthfx.com/about" },
+        "publisher": { "@type": "Organization", "name": "Telehealth FX", "url": "https://telehealthfx.com", "logo": { "@type": "ImageObject", "url": "https://telehealthfx.com/assets/logo.png" } },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://telehealthfx.com/blog/semaglutide-hair-loss-thinning-2026/" },
+        "speakable": {
+          "@type": "SpeakableSpecification",
+          "cssSelector": ["#direct-answer-summary", ".key-takeaways-grid"]
+        },
+        "about": [
+          {
+            "@type": "MedicalCondition",
+            "name": "Telogen effluvium",
+            "sameAs": "https://en.wikipedia.org/wiki/Telogen_effluvium",
+            "code": {
+              "@type": "MedicalCode",
+              "code": "L65.0",
+              "codingSystem": "ICD-10-CM"
+            }
+          },
+          {
+            "@type": "MedicalEntity",
+            "name": "Semaglutide",
+            "sameAs": "https://en.wikipedia.org/wiki/Semaglutide",
+            "code": {
+              "@type": "MedicalCode",
+              "code": "1991302",
+              "codingSystem": "RxNorm"
+            }
+          }
+        ]
       },
       {
-        "@type": "FAQPage", "@id": "https://telehealthfx.com/blog/semaglutide-hair-loss-thinning-2026/#faq",
+        "@type": "FAQPage",
+        "@id": "https://telehealthfx.com/blog/semaglutide-hair-loss-thinning-2026/#faq",
         "mainEntity": [
-          { "@type": "Question", "name": "Does semaglutide directly cause hair loss?", "acceptedAnswer": { "@type": "Answer", "text": "No. The thinning is caused by telogen effluvium—a stress response triggered by rapid weight loss, not the drug itself." } },
-          { "@type": "Question", "name": "Will my hair grow back after GLP-1 hair loss?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Telogen effluvium is almost always temporary. Regrowth typically begins 3–6 months after shedding peaks." } },
-          { "@type": "Question", "name": "Is tirzepatide more likely to cause hair loss than semaglutide?", "acceptedAnswer": { "@type": "Answer", "text": "Clinical trials reported higher rates with tirzepatide (~5.7%) vs semaglutide (~3%), correlating with greater weight loss." } }
+          {
+            "@type": "Question",
+            "name": "Does semaglutide directly cause hair loss?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. Semaglutide does not directly damage hair follicles. The thinning is acute telogen effluvium—a physiological stress response triggered by rapid caloric restriction and metabolic changes during weight loss."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Will hair grow back after GLP-1 related hair loss?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Telogen effluvium is completely reversible. Regrowth typically begins within 3 to 6 months once metabolic stabilization and adequate protein intake (1.2–1.6 g/kg) are achieved."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why is hair thinning more common with tirzepatide than semaglutide?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Clinical trials reported higher rates of alopecia with tirzepatide (~5.7% in SURMOUNT-1) compared to semaglutide (~3.0% in STEP 1) because tirzepatide produces greater mean total weight loss (up to 22.5% vs 14.9%), creating greater acute metabolic demand."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How can I prevent hair loss while losing weight on semaglutide?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Prioritize consuming 80–100 grams of daily dietary protein (or 1.2–1.6 g/kg of target body weight), monitor serum ferritin and zinc levels, avoid crash deficits under 1,200 calories/day, and supplement with methylated B-complex vitamins."
+            }
+          }
         ]
       }
     ]

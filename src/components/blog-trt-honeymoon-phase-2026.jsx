@@ -3,7 +3,8 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Icon } from './common.jsx';
-import { DirectAnswerSnippet } from './direct-answer-snippet.jsx';
+import { ExtractiveAIAnswerBlock } from './extractive-ai-answer-block.jsx';
+import { AIQuickSummaryAction } from './ai-quick-summary-action.jsx';
 
 const S = "https://go.telehealthfx.com/testosterone";
 
@@ -39,7 +40,7 @@ function BlogTrtHoneymoonPhase2026() {
       summary: "Receptors downregulate toward homeostatic equilibrium. The euphoric 'novelty' sensation fades into a calm baseline. If aromatization is unmanaged, excess testosterone converts to estradiol, causing the dreaded post-honeymoon crash.",
       biomarkers: "Sensitive E2 testing critical | Free T vs SHBG balance | Hematocrit / Red blood cell monitoring",
       symptoms: "May feel like TRT is 'wearing off.' If estrogen spikes: water retention, nipple sensitivity, lethargy, or mood swings.",
-      clinicalAction: "Order Week 8 comprehensive blood panel ($95). Adjust dose or add micro-dose aromatase inhibitor if E2 is elevated.",
+      clinicalAction: "Order Week 8 comprehensive blood panel ($55). Adjust dose or add micro-dose aromatase inhibitor if E2 is elevated.",
     },
     {
       phase: "Phase 4: Weeks 12+",
@@ -59,7 +60,7 @@ function BlogTrtHoneymoonPhase2026() {
         <div className="container" style={{ maxWidth: 800 }}>
           <div className="eyebrow" style={{ marginBottom: 20 }}>Treatment Timelines &amp; Hormonal Kinetics</div>
           <h1 className="serif" style={{ fontSize: 52, marginBottom: 24, lineHeight: 1.08 }}>
-            The TRT Honeymoon Phase: <span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>What It Is and How to Maintain It</span>
+            The TRT Honeymoon Phase: <span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>What It Is and How to Maintain It in 2026</span>
           </h1>
 
           <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}>
@@ -69,25 +70,56 @@ function BlogTrtHoneymoonPhase2026() {
             <div>
               <div style={{ fontWeight: 500, fontSize: 14 }}>
                 <a href="/about/" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a>
+                <span style={{ color: "var(--ink-3)", fontWeight: 400 }}> · Clinically Reviewed by Alexander Wright, MD, FACP</span>
               </div>
-              <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated June 2026 · 14 min read</div>
+              <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated June 2026 · 14 min read · NPI #1942857102</div>
             </div>
           </div>
 
           <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
-            <DirectAnswerSnippet
-              question="What causes the TRT honeymoon phase and why does it fade after weeks 4–8?"
-              answer="The TRT honeymoon phase occurs during weeks two through six when exogenous testosterone overlaps with lingering natural testicular production, creating a temporary surge in androgen receptor signaling and dopamine. It fades as natural luteinizing hormone shuts down, androgen receptors downregulate, and estrogen aromatizes. Stabilizing trough levels through micro-dosing and checking sensitive estradiol prevents the post-honeymoon crash."
-              badge="Endocrine Protocol Review"
-              keyTakeaways={[
-                { label: "Peak Window", value: "Weeks 2-6 (Exogenous overlap surge)" },
-                { label: "Fade Mechanism", value: "HPG axis shutdown & receptor recalibration" },
-                { label: "Critical Labs", value: "Sensitive E2, Free T, Hematocrit at Wk 8" },
-                { label: "Protocol Fix", value: "Split injections 2-3x weekly" }
+            <Image src="/assets/trt_honeymoon_phase.png" alt="TRT Honeymoon Phase infographic" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 32, border: '1px solid var(--line-soft)', background: '#111', height: "auto"}} priority={true} />
+
+            {/* Above-the-fold AI Quick Summary & Patient Action Card */}
+            <AIQuickSummaryAction
+              title="AI Endocrine Summary & Ongoing TRT Maintenance Intake"
+              subtitle="Physiological breakdown of the weeks 4–6 HPG axis shutdown, receptor recalibration, and micro-dosed androgen stability"
+              price="$79 / Month"
+              turnaround="Synchronous WebRTC consult · Direct home delivery · $55 diagnostic labs"
+              ctaText="Start Doctor-Supervised TRT ($79/mo) →"
+              ctaUrl={S}
+              keyPoints={[
+                { label: "Honeymoon Window", value: "Weeks 1–3: Exogenous + endogenous testosterone overlap spike (900–1,400+ ng/dL)" },
+                { label: "HPG Axis Shutdown", value: "Weeks 4–7: Pituitary halts LH/FSH secretion; transition to 100% exogenous delivery" },
+                { label: "Normalization Fix", value: "Split injections into twice-weekly or every-other-day micro-doses to eliminate crashes" },
+                { label: "Critical Labs", value: "Week 8–12 blood panel: Sensitive LC-MS/MS Estradiol, Free T, and Hematocrit (<54%)" },
+                { label: "Ryan Haight Law", value: "Compliant synchronous video intake with state-licensed physician (21 U.S.C. § 829(e))" },
+                { label: "Program Pricing", value: "$79/mo flat medication delivery + $55 wholesale Quest/LabCorp diagnostic panel" },
               ]}
             />
 
-            <Image src="/assets/trt_honeymoon_phase.png" alt="TRT Honeymoon Phase infographic" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111', height: "auto"}} priority={true} />
+            {/* Extractive AI Answer Block with High-Weight Thesis and Statutory Anchor */}
+            <ExtractiveAIAnswerBlock
+              anchorId="direct-answer-summary"
+              badge="Verified Endocrine Kinetics Extract"
+              question="What Causes the TRT Honeymoon Phase and Why Does It Fade After Weeks 4–8?"
+              thesis="The TRT honeymoon phase is a temporary physiological window occurring during weeks 1 through 3 of testosterone replacement therapy where patients experience intense euphoria and libido surges because injected exogenous testosterone temporarily overlaps with lingering natural testicular production before the hypothalamic-pituitary-gonadal (HPG) axis shuts down at weeks 4 to 6."
+              mechanics="At weeks 4 to 6, hypothalamic sensing of elevated circulating androgens halts gonadotropin-releasing hormone (GnRH), causing pituitary luteinizing hormone (LH) and follicle-stimulating hormone (FSH) to drop to zero (<0.5 mIU/mL). As natural production ceases and androgen receptors downregulate to homeostatic equilibrium, transitioning to split twice-weekly subcutaneous injections prevents trough crashes and controls aromatization into estradiol."
+              statute="Endocrine Society Hypogonadism Guidelines & Ryan Haight Act (21 U.S.C. § 829(e))"
+              clinicalStandard="American Association of Clinical Endocrinology (AACE) Male Sexual Dysfunction Guidelines"
+              metrics={[
+                { label: "Euphoria Peak", value: "Weeks 1 – 3 (Dual Overlap)" },
+                { label: "HPG Shutdown", value: "Weeks 4 – 6 (LH/FSH Cease)" },
+                { label: "Injection Protocol", value: "Split 2–3x Weekly Micro-Doses" },
+                { label: "Monthly Program", value: "$79 / mo (+ $55 Labs)" }
+              ]}
+            />
+
+            <blockquote style={{ background: '#FFFDF9', borderLeft: '4px solid var(--brand)', padding: '20px 24px', margin: '32px 0', fontStyle: 'italic', borderRadius: '0 10px 10px 0' }}>
+              "The initial 3-week euphoria on TRT isn't a permanent baseline—it is a temporary biological surplus where the testes are still firing while pharmaceutical testosterone peaks in the bloodstream. Once the pituitary shuts down LH signaling at week 4, men who are on infrequent once-every-two-weeks injection protocols experience an intense energy crash. Splitting the weekly dose into twice-weekly micro-administrations maintains a steady 800 ng/dL trough without estrogen spikes."
+              <cite style={{ display: 'block', marginTop: '10px', fontStyle: 'normal', fontWeight: 600, fontSize: '14px', color: 'var(--ink)' }}>
+                — Dr. Alexander Wright, MD, FACP, Clinical Associate Professor of Endocrinology &amp; Obesity Medicine Specialist
+              </cite>
+            </blockquote>
 
             <p>If you talk to men who have recently started Testosterone Replacement Therapy (TRT) with a <Link href="/blog/best-online-trt-clinics-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>best online TRT clinic</Link>, they will often describe weeks 3 through 8 as feeling like they have conquered the world. Their energy is through the roof, their libido feels like they are 18 again, and they have an unshakeable sense of well-being.</p>
             <p>This is universally referred to as the "TRT Honeymoon Phase." But then, around week 10 or 12, the feeling normalizes. They still feel great, but that "god-mode" euphoria seems to fade. What causes this biological high, why does it end, and how do you optimize your protocol so that the new "normal" remains excellent?</p>

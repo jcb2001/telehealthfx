@@ -132,92 +132,40 @@ export default function Page() {
       ]
     },
     {
-      "@type": "Product",
-      "name": "TelehealthFX GLP-1 Weight Loss Program",
-      "description": "Clinician-guided GLP-1 protocol with nationwide shipping and early refill options for travel.",
-      "brand": {
-        "@type": "Brand",
-        "name": "TelehealthFX"
-      },
-      "url": "https://go.telehealthfx.com/start",
-      "image": "https://telehealthfx.com/assets/Site%20Icon-modified.png",
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "reviewCount": "2847",
-        "bestRating": "5",
-        "worstRating": "1"
-      },
-      "review": [
+      "@type": "OfferCatalog",
+      "name": "SkinnyRx Verified Medical Weight Loss Plans",
+      "itemListElement": [
         {
-          "@type": "Review",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5"
-          },
-          "author": {
-            "@type": "Person",
-            "name": "Christina L."
-          },
-          "reviewBody": "Requested an early refill before my Europe trip. Shipped in 2 days with cold packaging. Seamless."
+          "@type": "Offer",
+          "name": "SkinnyRx Compounded Semaglutide (Injectable)",
+          "price": "99.00",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "priceValidUntil": "2027-12-31",
+          "description": "Doctor-prescribed compounded semaglutide weekly injections from 503A pharmacy with free cold-chain delivery. First month promo from $99.",
+          "url": "https://telehealthfx.com/skinnyrx/"
         },
         {
-          "@type": "Review",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5"
-          },
-          "author": {
-            "@type": "Person",
-            "name": "Mark D."
-          },
-          "reviewBody": "Traveled internationally for 3 weeks with no issues. The travel storage guidance was incredibly helpful."
-        }
-      ],
-      "offers": {
-        "@type": "Offer",
-        "price": "199",
-        "priceCurrency": "USD",
-        "priceValidUntil": "2026-12-31",
-        "availability": "https://schema.org/InStock",
-        "url": "https://go.telehealthfx.com/start",
-        "shippingDetails": {
-          "@type": "OfferShippingDetails",
-          "shippingRate": {
-            "@type": "MonetaryAmount",
-            "value": "0.00",
-            "currency": "USD"
-          },
-          "shippingDestination": {
-            "@type": "DefinedRegion",
-            "addressCountry": "US"
-          },
-          "deliveryTime": {
-            "@type": "ShippingDeliveryTime",
-            "handlingTime": {
-              "@type": "QuantitativeValue",
-              "minValue": 0,
-              "maxValue": 1,
-              "unitCode": "d"
-            },
-            "transitTime": {
-              "@type": "QuantitativeValue",
-              "minValue": 1,
-              "maxValue": 3,
-              "unitCode": "d"
-            }
-          }
+          "@type": "Offer",
+          "name": "SkinnyRx Compounded Tirzepatide (Injectable)",
+          "price": "99.00",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "priceValidUntil": "2027-12-31",
+          "description": "Dual GLP-1 and GIP receptor agonist compounded weekly injections from 503A pharmacy with free cold-chain delivery. First month promo from $99.",
+          "url": "https://telehealthfx.com/skinnyrx/"
         },
-        "hasMerchantReturnPolicy": {
-          "@type": "MerchantReturnPolicy",
-          "applicableCountry": "US",
-          "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted",
-          "merchantReturnLink": "https://telehealthfx.com/returns/"
+        {
+          "@type": "Offer",
+          "name": "SkinnyRx Compounded Semaglutide Tablets",
+          "price": "149.00",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "priceValidUntil": "2027-12-31",
+          "description": "Needle-free daily oral dissolving sublingual semaglutide tablets from licensed 503A pharmacy. First month promo from $149.",
+          "url": "https://telehealthfx.com/skinnyrx/"
         }
-      },
-      "sku": "GLP1-PROG"
+      ]
     },
     {
       "@type": "BreadcrumbList",
