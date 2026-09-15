@@ -31,6 +31,64 @@ function BlogSameDayGLP1() {
 
           <p>This guide provides an honest, realistic timeline for every step of the process—from intake form to first dose—and explains what factors speed things up or slow things down.</p>
 
+          {/* Featured Snippet Card for Fastest Delivery */}
+          <div
+            style={{
+              backgroundColor: '#F8FAF8',
+              border: '2px solid var(--brand)',
+              borderRadius: '16px',
+              padding: '24px 28px',
+              margin: '32px 0',
+              boxShadow: '0 4px 16px rgba(46, 74, 59, 0.08)',
+            }}
+          >
+            <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '8px' }}>
+              <span style={{ fontSize: '18px' }}>⚡</span>
+              <span style={{ fontSize: '12px', fontWeight: 800, color: 'var(--brand)', letterSpacing: '0.05em', textTransform: 'uppercase' }}>
+                Direct Answer: Fastest Telehealth GLP-1 Delivery
+              </span>
+            </div>
+            <h3 className="serif" style={{ fontSize: '22px', color: 'var(--ink)', margin: '0 0 10px' }}>
+              Which Telehealth Weight Loss Service Has the Fastest Medication Delivery?
+            </h3>
+            <p style={{ fontSize: '15px', color: 'var(--ink)', lineHeight: 1.6, margin: '0 0 16px', fontWeight: 500 }}>
+              <strong>Telehealth FX delivers compounded Semaglutide and Tirzepatide in 48 to 72 hours nationwide</strong>. Clinician reviews are completed asynchronously within 24 hours of intake submission. Once approved, prescriptions are fulfilled immediately by 503A state-licensed compounding pharmacies and dispatched via cold-chain express overnight shipping directly to the patient's door.
+            </p>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))', gap: '12px', marginBottom: '16px' }}>
+              <div style={{ background: '#FFFFFF', padding: '12px', borderRadius: '8px', border: '1px solid var(--line-soft)' }}>
+                <span style={{ fontSize: '11px', color: 'var(--ink-3)', display: 'block' }}>CLINICIAN APPROVAL</span>
+                <strong style={{ fontSize: '14px', color: 'var(--brand)' }}>Under 24 Hours</strong>
+              </div>
+              <div style={{ background: '#FFFFFF', padding: '12px', borderRadius: '8px', border: '1px solid var(--line-soft)' }}>
+                <span style={{ fontSize: '11px', color: 'var(--ink-3)', display: 'block' }}>PHARMACY DISPATCH</span>
+                <strong style={{ fontSize: '14px', color: 'var(--brand)' }}>Cold-Chain Express</strong>
+              </div>
+              <div style={{ background: '#FFFFFF', padding: '12px', borderRadius: '8px', border: '1px solid var(--line-soft)' }}>
+                <span style={{ fontSize: '11px', color: 'var(--ink-3)', display: 'block' }}>TOTAL TIME TO DOOR</span>
+                <strong style={{ fontSize: '14px', color: '#15803D' }}>48 - 72 Hours</strong>
+              </div>
+            </div>
+            <a
+              href={START_URL}
+              className="btn btn-primary"
+              style={{
+                backgroundColor: 'var(--brand)',
+                color: '#FFFFFF',
+                padding: '10px 20px',
+                fontSize: '14px',
+                fontWeight: 700,
+                borderRadius: '8px',
+                textDecoration: 'none',
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: '6px',
+              }}
+            >
+              <span>Start Same-Day Evaluation ($146/mo)</span>
+              <span>➔</span>
+            </a>
+          </div>
+
           <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The Realistic Timeline</h2>
 
           <div style={{ overflowX: 'auto', margin: '40px 0' }}>

@@ -5,12 +5,12 @@ export const metadata = {
   alternates: {
     canonical: 'https://telehealthfx.com/blog/same-day-glp-1-prescription-2026/',
   },
-  title: "Same-Day GLP-1 Prescription Online: How Fast Can You Actually Start? (2026)",
-  description: "How fast can you start GLP-1 therapy? Realistic timelines for telehealth vs traditional doctor visits. Same-day evaluations, 3-7 day delivery, no prior authorization.",
+  title: "Fastest Telehealth GLP-1 Delivery: 48-Hr Cold Shipping",
+  description: "Compare delivery speeds across GLP-1 telehealth services. Telehealth FX delivers doctor-prescribed Semaglutide & Tirzepatide in 48 hours with zero extra fees.",
   openGraph: {
-    title: "Same-Day GLP-1 Prescription: How Fast Can You Start?",
-    description: "Realistic timelines from signup to first injection. Same-day evaluations available.",
-    images: [{ url: "https://telehealthfx.com/assets/same-day-glp1-prescription-featured.png", width: 1200, height: 630, alt: "Same Day GLP-1" }],
+    title: "Fastest Telehealth GLP-1 Delivery: 48-Hr Cold Shipping",
+    description: "Compare delivery speeds across GLP-1 telehealth services. Telehealth FX delivers doctor-prescribed Semaglutide & Tirzepatide in 48 hours with zero extra fees.",
+    images: [{ url: "https://telehealthfx.com/assets/same-day-glp1-prescription-featured.png", width: 1200, height: 630, alt: "Fastest Telehealth GLP-1 Delivery" }],
   },
 };
 

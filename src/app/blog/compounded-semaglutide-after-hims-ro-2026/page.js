@@ -2,14 +2,14 @@ import { BlogCompoundedAfterHimsRo } from "../../../components/blog-compounded-s
 
 export const metadata = {
   robots: { index: true, follow: true },
-  title: "Compounded Semaglutide After Hims & Ro: 2026 Guide",
-  description: "Hims and Ro discontinued compounded semaglutide. Learn 503A pharmacy rules, legal access, and how to switch care today without restarting titration.",
+  title: "Does Ro Sell Compounded Semaglutide? 2026 Switch Guide",
+  description: "Does Ro or Hims still sell compounded semaglutide? Compare pricing, 503A pharmacy rules, and switch to $146/mo doctor-prescribed semaglutide today.",
   alternates: {
     canonical: 'https://telehealthfx.com/blog/compounded-semaglutide-after-hims-ro-2026/',
   },
   openGraph: {
-    title: "Compounded Semaglutide After Hims & Ro: 2026 Guide",
-    description: "Hims and Ro discontinued compounded semaglutide. Learn 503A pharmacy rules, legal access, and how to switch care today without restarting titration.",
+    title: "Does Ro Sell Compounded Semaglutide? 2026 Switch Guide",
+    description: "Does Ro or Hims still sell compounded semaglutide? Compare pricing, 503A pharmacy rules, and switch to $146/mo doctor-prescribed semaglutide today.",
     url: 'https://telehealthfx.com/blog/compounded-semaglutide-after-hims-ro-2026/',
     siteName: 'Telehealth FX',
     images: [
@@ -17,7 +17,7 @@ export const metadata = {
         url: "https://telehealthfx.com/assets/compounded-semaglutide-after-hims-ro-featured.png",
         width: 1200,
         height: 630,
-        alt: "Compounded Semaglutide After Hims & Ro Stopped",
+        alt: "Does Ro Sell Compounded Semaglutide? 2026 Switch Guide",
       },
     ],
   },

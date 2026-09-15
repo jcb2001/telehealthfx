@@ -69,6 +69,97 @@ function BlogCompoundedAfterHimsRo() {
               ]}
             />
 
+            {/* Direct Ro vs Hims vs Telehealth FX Head-to-Head Comparison Table */}
+            <div
+              style={{
+                backgroundColor: '#FFFFFF',
+                border: '1px solid var(--line)',
+                borderRadius: '16px',
+                padding: '28px 24px',
+                margin: '36px 0',
+                boxShadow: '0 4px 20px rgba(0, 0, 0, 0.05)',
+              }}
+            >
+              <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '8px', marginBottom: '16px' }}>
+                <h3 className="serif" style={{ fontSize: '24px', color: 'var(--ink)', margin: 0 }}>
+                  2026 Telehealth Provider Comparison: Compounded Semaglutide
+                </h3>
+                <span style={{ fontSize: '11px', fontWeight: 700, backgroundColor: '#FEF3C7', color: '#92400E', padding: '4px 10px', borderRadius: '999px' }}>
+                  UPDATED MAY 2026
+                </span>
+              </div>
+
+              <div style={{ overflowX: 'auto' }}>
+                <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '14px', textAlign: 'left' }}>
+                  <thead>
+                    <tr style={{ borderBottom: '2px solid var(--line)' }}>
+                      <th style={{ padding: '12px 10px', color: 'var(--ink-3)', fontWeight: 600 }}>Feature / Service</th>
+                      <th style={{ padding: '12px 10px', color: 'var(--ink-2)', fontWeight: 600 }}>Ro (Ro Body)</th>
+                      <th style={{ padding: '12px 10px', color: 'var(--ink-2)', fontWeight: 600 }}>Hims &amp; Hers</th>
+                      <th style={{ padding: '12px 10px', color: 'var(--brand)', fontWeight: 800, backgroundColor: 'rgba(46, 74, 59, 0.06)', borderRadius: '8px 8px 0 0' }}>Telehealth FX</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr style={{ borderBottom: '1px solid var(--line-soft)' }}>
+                      <td style={{ padding: '12px 10px', fontWeight: 600, color: 'var(--ink)' }}>Compounded GLP-1 Status</td>
+                      <td style={{ padding: '12px 10px', color: '#DC2626' }}>❌ Phased Out / Brand-Name Only</td>
+                      <td style={{ padding: '12px 10px', color: '#DC2626' }}>❌ Bulk Injections Suspended</td>
+                      <td style={{ padding: '12px 10px', fontWeight: 700, color: '#15803D', backgroundColor: 'rgba(46, 74, 59, 0.06)' }}>✅ 100% Available via 503A</td>
+                    </tr>
+                    <tr style={{ borderBottom: '1px solid var(--line-soft)' }}>
+                      <td style={{ padding: '12px 10px', fontWeight: 600, color: 'var(--ink)' }}>Monthly All-In Cost</td>
+                      <td style={{ padding: '12px 10px', color: 'var(--ink-2)' }}>$199 - $299/mo + $99 Membership</td>
+                      <td style={{ padding: '12px 10px', color: 'var(--ink-2)' }}>$199/mo (multi-month prepaid)</td>
+                      <td style={{ padding: '12px 10px', fontWeight: 800, color: 'var(--brand)', backgroundColor: 'rgba(46, 74, 59, 0.06)' }}>$146 / month flat</td>
+                    </tr>
+                    <tr style={{ borderBottom: '1px solid var(--line-soft)' }}>
+                      <td style={{ padding: '12px 10px', fontWeight: 600, color: 'var(--ink)' }}>Hidden Membership Dues</td>
+                      <td style={{ padding: '12px 10px', color: '#DC2626' }}>Yes ($99 - $145/month)</td>
+                      <td style={{ padding: '12px 10px', color: '#DC2626' }}>Bundled commitment requirements</td>
+                      <td style={{ padding: '12px 10px', fontWeight: 700, color: '#15803D', backgroundColor: 'rgba(46, 74, 59, 0.06)' }}>$0 — No Membership Fees</td>
+                    </tr>
+                    <tr style={{ borderBottom: '1px solid var(--line-soft)' }}>
+                      <td style={{ padding: '12px 10px', fontWeight: 600, color: 'var(--ink)' }}>Titration Continuation</td>
+                      <td style={{ padding: '12px 10px', color: 'var(--ink-2)' }}>N/A (Brand Wegovy waitlists)</td>
+                      <td style={{ padding: '12px 10px', color: 'var(--ink-2)' }}>Often requires reset to 0.25mg</td>
+                      <td style={{ padding: '12px 10px', fontWeight: 700, color: '#15803D', backgroundColor: 'rgba(46, 74, 59, 0.06)' }}>Dose-Matched (No Reset)</td>
+                    </tr>
+                    <tr>
+                      <td style={{ padding: '12px 10px', fontWeight: 600, color: 'var(--ink)' }}>Medication Fulfillment</td>
+                      <td style={{ padding: '12px 10px', color: 'var(--ink-2)' }}>5–10 business days</td>
+                      <td style={{ padding: '12px 10px', color: 'var(--ink-2)' }}>5–8 business days</td>
+                      <td style={{ padding: '12px 10px', fontWeight: 700, color: '#15803D', backgroundColor: 'rgba(46, 74, 59, 0.06)', borderRadius: '0 0 8px 8px' }}>48-Hour Cold-Chain Express</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <div style={{ marginTop: '20px', display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '12px' }}>
+                <span style={{ fontSize: '13px', color: 'var(--ink-2)' }}>
+                  Displaced from Ro or Hims? Start your prescription today without missing your next weekly shot.
+                </span>
+                <a
+                  href={START_URL}
+                  className="btn btn-primary"
+                  style={{
+                    backgroundColor: 'var(--brand)',
+                    color: '#FFFFFF',
+                    padding: '10px 20px',
+                    fontSize: '14px',
+                    fontWeight: 700,
+                    borderRadius: '8px',
+                    textDecoration: 'none',
+                    display: 'inline-flex',
+                    alignItems: 'center',
+                    gap: '6px',
+                  }}
+                >
+                  <span>Switch to $146/mo Semaglutide</span>
+                  <span>➔</span>
+                </a>
+              </div>
+            </div>
+
             {/* CRO Enhancement 1: No Gap in Therapy / No Dose Restart Guarantee Card */}
             <div
               style={{

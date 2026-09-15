@@ -316,6 +316,55 @@ export default function GLP1SalespersonJobPage() {
                     ]}
                   />
 
+                  {/* High-Visibility Patient Conversion Notice */}
+                  <div
+                    style={{
+                      backgroundColor: '#F0FDF4',
+                      border: '2px solid #16A34A',
+                      borderRadius: '16px',
+                      padding: '24px 28px',
+                      marginBottom: '40px',
+                      boxShadow: '0 4px 16px rgba(22, 163, 74, 0.08)',
+                    }}
+                  >
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '8px' }}>
+                      <span style={{ fontSize: '20px' }}>🩺</span>
+                      <span style={{ fontSize: '12px', fontWeight: 800, color: '#15803D', letterSpacing: '0.05em', textTransform: 'uppercase' }}>
+                        Are You a Patient Looking for GLP-1 Weight Loss?
+                      </span>
+                    </div>
+                    <h3 className="serif" style={{ fontSize: '22px', color: 'var(--ink)', margin: '0 0 10px' }}>
+                      Looking for Treatment Instead of a Career? Start Today from $146/mo.
+                    </h3>
+                    <p style={{ fontSize: '15px', color: 'var(--ink-2)', lineHeight: 1.6, margin: '0 0 16px' }}>
+                      If you arrived here searching for affordable compounded Semaglutide or Tirzepatide, you don't need to apply for a job to get treatment. Telehealth FX connects you directly with state-licensed physicians for same-day approvals and 48-hour express cold-chain delivery.
+                    </p>
+                    <div style={{ display: 'flex', gap: '12px', alignItems: 'center', flexWrap: 'wrap' }}>
+                      <a
+                        href="https://go.telehealthfx.com/start"
+                        className="btn btn-primary"
+                        style={{
+                          backgroundColor: '#15803D',
+                          color: '#FFFFFF',
+                          padding: '10px 20px',
+                          fontSize: '14px',
+                          fontWeight: 700,
+                          borderRadius: '8px',
+                          textDecoration: 'none',
+                          display: 'inline-flex',
+                          alignItems: 'center',
+                          gap: '6px',
+                        }}
+                      >
+                        <span>Check Patient Eligibility in 60s ($146/mo)</span>
+                        <span>➔</span>
+                      </a>
+                      <span style={{ fontSize: '13px', color: 'var(--ink-3)' }}>
+                        No insurance required · Zero hidden membership fees · Free express delivery
+                      </span>
+                    </div>
+                  </div>
+
                   {/* 1. About Telehealth FX */}
                   <div style={{ marginBottom: 48 }}>
                     <h2 className="serif" style={{ fontSize: 32, color: 'var(--ink)', marginBottom: 16 }}>About Telehealth FX &amp; Our Metabolic Mission</h2>

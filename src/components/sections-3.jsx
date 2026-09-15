@@ -133,6 +133,7 @@ function Footer() {
               { label: 'How it works', slug: 'how' }, 
               { label: 'Medications', slug: 'medications' }, 
               { label: 'Pricing', slug: 'pricing' }, 
+              { label: 'Compare & Switch', slug: 'compare' },
               { label: 'Results', slug: 'results' }, 
               { label: 'Science', slug: 'science' }
             ] },
@@ -174,6 +175,41 @@ function Footer() {
               </ul>
             </div>
           ))}
+        </div>
+
+        {/* Popular Locations & Metro Telehealth Directory */}
+        <div style={{ marginBottom: 48, paddingTop: 32, borderTop: '1px solid var(--line-soft)' }}>
+          <div className="mono" style={{ fontSize: 12, color: 'var(--ink-3)', marginBottom: 12, letterSpacing: '0.05em' }}>
+            POPULAR TELEHEALTH METRO AREAS (DOCTOR-SUPERVISED GLP-1 &amp; TRT)
+          </div>
+          <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px 16px', fontSize: 13, color: 'var(--ink-2)' }}>
+            {[
+              { label: 'Phoenix, AZ', href: '/locations/phoenix/' },
+              { label: 'San Francisco, CA', href: '/locations/san-francisco/' },
+              { label: 'San Diego, CA', href: '/locations/san-diego/' },
+              { label: 'San Antonio, TX', href: '/locations/san-antonio/' },
+              { label: 'Milwaukee, WI', href: '/locations/milwaukee/' },
+              { label: 'Indianapolis, IN', href: '/locations/indianapolis/' },
+              { label: 'Orlando, FL', href: '/locations/orlando/' },
+              { label: 'Dallas, TX (TRT)', href: '/trt/dallas/' },
+              { label: 'Denver, CO (TRT)', href: '/trt/denver/' },
+              { label: 'Seattle, WA (TRT)', href: '/trt/seattle/' },
+              { label: 'Durham, NC', href: '/locations/durham/' },
+              { label: 'Austin, TX', href: '/locations/austin/' },
+              { label: 'Houston, TX', href: '/locations/houston/' },
+              { label: 'Atlanta, GA', href: '/locations/atlanta/' },
+              { label: 'Chicago, IL', href: '/locations/chicago/' },
+              { label: 'All 150+ Locations →', href: '/locations/' },
+            ].map((loc, idx) => (
+              <a
+                key={idx}
+                href={loc.href}
+                style={{ color: 'var(--ink-2)', textDecoration: 'none' }}
+              >
+                {loc.label}
+              </a>
+            ))}
+          </div>
         </div>
 
         <div className="flex-row footer-bottom stack-mobile" style={{ paddingTop: 40, borderTop: '1px solid var(--line)', justifyContent: 'space-between', alignItems: 'flex-start', gap: 40 }}>
