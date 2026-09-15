@@ -160,23 +160,6 @@ function HomePageSchema() {
         ],
         "offers": { "@type": "Offer", "price": "39.00", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "url": "https://telehealthfx.com/medications/metformin", "shippingDetails": shippingDetails, "hasMerchantReturnPolicy": returnPolicy }
       },
-      // ── Product: Sublingual Semaglutide ──
-      {
-        "@type": "Product",
-        "@id": "https://telehealthfx.com/#product-sublingual-semaglutide",
-        "name": "Compounded Sublingual Semaglutide Program",
-        "brand": { "@type": "Brand", "name": "Telehealth FX" },
-        "description": "Compounded sublingual Semaglutide drops weight loss program including clinician consultation and prescription medication.",
-        "image": "https://telehealthfx.com/assets/Site%20Icon-modified.png",
-        "sku": "SUB-SEM-01",
-        "url": "https://telehealthfx.com/medications/sublingual-semaglutide",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.8", "bestRating": "5", "worstRating": "1", "reviewCount": "74", "ratingCount": "74" },
-        "review": [
-          { "@type": "Review", "author": { "@type": "Person", "name": "Michael S." }, "datePublished": "2026-04-12", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "reviewBody": "I hate needles, so sublingual drops are a lifesaver. Approved quickly, and the weight is dropping off. Down 18 lbs so far." },
-          { "@type": "Review", "author": { "@type": "Person", "name": "Jessica M." }, "datePublished": "2026-03-24", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "reviewBody": "Super convenient to take in the morning. No side effects except some dry mouth right after taking it. Lost 22 lbs in 2 months!" }
-        ],
-        "offers": { "@type": "Offer", "price": "199.00", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "url": "https://telehealthfx.com/medications/sublingual-semaglutide", "shippingDetails": shippingDetails, "hasMerchantReturnPolicy": returnPolicy }
-      },
       // ── Product: Semaglutide Tablets ──
       {
         "@type": "Product",
