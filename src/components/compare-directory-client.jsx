@@ -30,7 +30,7 @@ export function CompareDirectoryClient({ magnets }) {
             Treatment, Pricing &amp; Competitor Comparisons
           </h1>
           <p style={{ fontSize: '16px', color: 'var(--ink-2)', maxWidth: '640px', margin: '0 auto', lineHeight: 1.6 }}>
-            Browse our clinical guides and price comparisons for compounded Semaglutide ($146/mo), Tirzepatide ($258/mo), and TRT ($79/mo) with full physician oversight and zero hidden fees.
+            Browse our clinical guides and price comparisons for compounded Semaglutide (from $99 1st mo), Tirzepatide (from $99 1st mo), needle-free tablets, and TRT ($79/mo) with full physician oversight, Affirm financing, and zero hidden fees.
           </p>
         </div>
 

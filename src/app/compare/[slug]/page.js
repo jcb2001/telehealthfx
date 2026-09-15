@@ -90,10 +90,14 @@ export default async function Page({ params }) {
             name: data.medication,
             offers: {
               '@type': 'Offer',
-              price: data.price.replace(/[^0-9]/g, ''),
+              price: data.price.match(/\d+/)?.[0] || '99',
               priceCurrency: 'USD',
               availability: 'https://schema.org/InStock',
               url: data.ctaUrl,
+              seller: {
+                '@type': 'Organization',
+                name: (data.medication === 'Semaglutide' || data.medication === 'Tirzepatide') ? 'SkinnyRx' : 'Telehealth FX',
+              },
             },
           },
         ],

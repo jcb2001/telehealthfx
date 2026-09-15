@@ -70,16 +70,16 @@ export function KeywordMagnetTemplate({ data }) {
           </p>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))', gap: '12px', marginBottom: '18px' }}>
             <div style={{ background: '#FFFFFF', padding: '12px 14px', borderRadius: '10px', border: '1px solid var(--line-soft)' }}>
-              <span style={{ fontSize: '11px', color: 'var(--ink-3)', display: 'block', textTransform: 'uppercase' }}>Flat Starting Price</span>
-              <strong style={{ fontSize: '16px', color: 'var(--brand)' }}>{data.price} Flat Rate</strong>
+              <span style={{ fontSize: '11px', color: 'var(--ink-3)', display: 'block', textTransform: 'uppercase' }}>First Month Promo</span>
+              <strong style={{ fontSize: '16px', color: '#15803D' }}>{data.price}</strong>
             </div>
             <div style={{ background: '#FFFFFF', padding: '12px 14px', borderRadius: '10px', border: '1px solid var(--line-soft)' }}>
-              <span style={{ fontSize: '11px', color: 'var(--ink-3)', display: 'block', textTransform: 'uppercase' }}>Fulfillment SLA</span>
-              <strong style={{ fontSize: '16px', color: 'var(--brand)' }}>48-Hr Cold-Chain</strong>
+              <span style={{ fontSize: '11px', color: 'var(--ink-3)', display: 'block', textTransform: 'uppercase' }}>Payment Flexibility</span>
+              <strong style={{ fontSize: '15px', color: '#4E00FF' }}>{data.financing || 'Affirm Pay Over Time'}</strong>
             </div>
             <div style={{ background: '#FFFFFF', padding: '12px 14px', borderRadius: '10px', border: '1px solid var(--line-soft)' }}>
-              <span style={{ fontSize: '11px', color: 'var(--ink-3)', display: 'block', textTransform: 'uppercase' }}>Titration Continuity</span>
-              <strong style={{ fontSize: '16px', color: '#15803D' }}>Dose-Matched (No Reset)</strong>
+              <span style={{ fontSize: '11px', color: 'var(--ink-3)', display: 'block', textTransform: 'uppercase' }}>Fulfillment &amp; Care</span>
+              <strong style={{ fontSize: '15px', color: 'var(--brand)' }}>$0 Consult + Free Cold Ship</strong>
             </div>
           </div>
           <a
@@ -98,7 +98,7 @@ export function KeywordMagnetTemplate({ data }) {
               gap: '6px',
             }}
           >
-            <span>Start Medical Evaluation ({data.price})</span>
+            <span>Claim First Month Pricing ({data.price})</span>
             <span>➔</span>
           </a>
         </div>
@@ -120,14 +120,19 @@ export function KeywordMagnetTemplate({ data }) {
                 <tr style={{ borderBottom: '2px solid var(--line)' }}>
                   <th style={{ padding: '12px 10px', color: 'var(--ink-3)', fontWeight: 600 }}>Dimension / Feature</th>
                   <th style={{ padding: '12px 10px', color: 'var(--ink-2)', fontWeight: 600 }}>{data.competitorName || 'Standard Clinic / Competitor'}</th>
-                  <th style={{ padding: '12px 10px', color: 'var(--brand)', fontWeight: 800, backgroundColor: 'rgba(46, 74, 59, 0.06)', borderRadius: '8px 8px 0 0' }}>Telehealth FX</th>
+                  <th style={{ padding: '12px 10px', color: 'var(--brand)', fontWeight: 800, backgroundColor: 'rgba(46, 74, 59, 0.06)', borderRadius: '8px 8px 0 0' }}>Telehealth FX Partner</th>
                 </tr>
               </thead>
               <tbody>
                 <tr style={{ borderBottom: '1px solid var(--line-soft)' }}>
-                  <td style={{ padding: '12px 10px', fontWeight: 600, color: 'var(--ink)' }}>Monthly All-In Cost</td>
+                  <td style={{ padding: '12px 10px', fontWeight: 600, color: 'var(--ink)' }}>First Month Cost</td>
                   <td style={{ padding: '12px 10px', color: 'var(--ink-2)' }}>{data.competitorPrice || '$300 - $600 / mo'}</td>
-                  <td style={{ padding: '12px 10px', fontWeight: 800, color: 'var(--brand)', backgroundColor: 'rgba(46, 74, 59, 0.06)' }}>{data.price} Flat Rate</td>
+                  <td style={{ padding: '12px 10px', fontWeight: 800, color: '#15803D', backgroundColor: 'rgba(46, 74, 59, 0.06)' }}>{data.price}</td>
+                </tr>
+                <tr style={{ borderBottom: '1px solid var(--line-soft)' }}>
+                  <td style={{ padding: '12px 10px', fontWeight: 600, color: 'var(--ink)' }}>Payment Options</td>
+                  <td style={{ padding: '12px 10px', color: 'var(--ink-2)' }}>Upfront full charge only</td>
+                  <td style={{ padding: '12px 10px', fontWeight: 700, color: '#4E00FF', backgroundColor: 'rgba(46, 74, 59, 0.06)' }}>Pay over time with Affirm</td>
                 </tr>
                 <tr style={{ borderBottom: '1px solid var(--line-soft)' }}>
                   <td style={{ padding: '12px 10px', fontWeight: 600, color: 'var(--ink)' }}>Platform / Membership Dues</td>
@@ -137,7 +142,7 @@ export function KeywordMagnetTemplate({ data }) {
                 <tr style={{ borderBottom: '1px solid var(--line-soft)' }}>
                   <td style={{ padding: '12px 10px', fontWeight: 600, color: 'var(--ink)' }}>Clinical Oversight &amp; Prescribing</td>
                   <td style={{ padding: '12px 10px', color: 'var(--ink-2)' }}>Billed per visit or restricted messaging</td>
-                  <td style={{ padding: '12px 10px', fontWeight: 700, color: '#15803D', backgroundColor: 'rgba(46, 74, 59, 0.06)' }}>Licensed US Physician (Included)</td>
+                  <td style={{ padding: '12px 10px', fontWeight: 700, color: '#15803D', backgroundColor: 'rgba(46, 74, 59, 0.06)' }}>Licensed US Physician ($0 Fee)</td>
                 </tr>
                 <tr style={{ borderBottom: '1px solid var(--line-soft)' }}>
                   <td style={{ padding: '12px 10px', fontWeight: 600, color: 'var(--ink)' }}>Dose Continuation Policy</td>
@@ -147,7 +152,7 @@ export function KeywordMagnetTemplate({ data }) {
                 <tr>
                   <td style={{ padding: '12px 10px', fontWeight: 600, color: 'var(--ink)' }}>Medication Fulfillment Speed</td>
                   <td style={{ padding: '12px 10px', color: 'var(--ink-2)' }}>5 to 10 business days</td>
-                  <td style={{ padding: '12px 10px', fontWeight: 700, color: '#15803D', backgroundColor: 'rgba(46, 74, 59, 0.06)', borderRadius: '0 0 8px 8px' }}>48-Hour Cold-Chain Express</td>
+                  <td style={{ padding: '12px 10px', fontWeight: 700, color: '#15803D', backgroundColor: 'rgba(46, 74, 59, 0.06)', borderRadius: '0 0 8px 8px' }}>Free Cold-Chain Express Shipping</td>
                 </tr>
               </tbody>
             </table>
@@ -165,7 +170,7 @@ export function KeywordMagnetTemplate({ data }) {
             Transfer Your Dose Without Restarting Titration
           </h3>
           <p style={{ fontSize: '14px', color: 'var(--ink-2)', lineHeight: 1.6, margin: '0 0 16px' }}>
-            If you are currently taking {data.medication} through another clinic or local pharmacy, our clinicians will match your established maintenance dose upon intake verification—saving you weeks of lost progress.
+            If you are currently taking {data.medication} through another clinic or local pharmacy, our partner clinicians will match your established maintenance dose upon intake verification—saving you weeks of lost progress.
           </p>
 
           <div style={{ marginBottom: '16px' }}>
@@ -201,8 +206,8 @@ export function KeywordMagnetTemplate({ data }) {
 
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '12px', paddingTop: '16px', borderTop: '1px solid var(--line-soft)' }}>
             <div>
-              <span style={{ fontSize: '11px', color: 'var(--ink-3)', display: 'block', textTransform: 'uppercase' }}>All-Inclusive Program</span>
-              <strong className="mono" style={{ fontSize: '22px', color: 'var(--brand)' }}>{data.price} Flat Rate</strong>
+              <span style={{ fontSize: '11px', color: 'var(--ink-3)', display: 'block', textTransform: 'uppercase' }}>Introductory Program</span>
+              <strong className="mono" style={{ fontSize: '22px', color: '#15803D' }}>{data.price}</strong>
             </div>
             <a
               href={ctaUrl}
@@ -217,7 +222,7 @@ export function KeywordMagnetTemplate({ data }) {
                 textDecoration: 'none',
               }}
             >
-              Transfer &amp; Order Today ➔
+              Claim First Month Pricing ➔
             </a>
           </div>
         </div>
@@ -325,7 +330,7 @@ export function KeywordMagnetTemplate({ data }) {
             <span>➔</span>
           </a>
           <div style={{ fontSize: '12px', opacity: 0.7, marginTop: '16px' }}>
-            HSA/FSA Accepted · No Insurance Required · Pause or Cancel Anytime
+            HSA/FSA Accepted · Pay Over Time with Affirm · No Insurance Required · Pause or Cancel Anytime
           </div>
         </div>
 

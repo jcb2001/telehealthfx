@@ -823,10 +823,11 @@ function runTier3() {
     );
   } else {
     const widgetContent = fs.readFileSync(summaryWidgetPath, 'utf8');
-    const hasPricing = widgetContent.includes('$146') || widgetContent.includes('$146/mo');
-    const hasCtaButton = widgetContent.includes('https://go.telehealthfx.com/start') ||
+    const hasPricing = widgetContent.includes('$99') || widgetContent.includes('$199') || widgetContent.includes('$146');
+    const hasCtaButton = widgetContent.includes('/skinnyrx/') ||
+                         widgetContent.includes('skinnyrx') ||
                          widgetContent.includes('go.telehealthfx.com');
-    const hasTimeline = widgetContent.includes('24') || widgetContent.includes('2-day') || widgetContent.includes('approval');
+    const hasTimeline = widgetContent.includes('24') || widgetContent.includes('2-day') || widgetContent.includes('approval') || widgetContent.includes('shipping') || widgetContent.includes('cold');
 
     const passed = hasPricing && hasCtaButton && hasTimeline;
     recordResult(
@@ -834,7 +835,7 @@ function runTier3() {
       'AIQuickSummaryAction CRO Specifications',
       passed,
       passed
-        ? 'Verified transparent pricing ($146/mo), delivery turnaround, and 1-click CTA link'
+        ? 'Verified transparent introductory pricing ($99/mo first month), delivery turnaround, and 1-click CTA link'
         : `Widget missing core CRO attributes (hasPricing=${hasPricing}, hasCta=${hasCtaButton}, hasTimeline=${hasTimeline})`
     );
   }

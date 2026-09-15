@@ -48,6 +48,9 @@ export default function RootLayout({ children }) {
           "http://schema.org/Dermatology",
           "http://schema.org/PrimaryCare"
         ],
+        "hasOfferCatalog": {
+          "@id": "https://telehealthfx.com/#offer-catalog"
+        },
         "alternateName": [
           "TelehealthFX",
           "Telehealth FX Online Clinic",
@@ -120,6 +123,88 @@ export default function RootLayout({ children }) {
             "name": "Medical Necessity Exemption",
             "description": "Clinical justification by a licensed provider for custom compounding under Section 503A based on documented patient-specific needs such as preservative allergies, custom strength titration, or drug shortage continuity.",
             "sameAs": "https://www.fda.gov/drugs/human-drug-compounding/regulatory-policy-information"
+          }
+        ]
+      },
+      // ── OfferCatalog (GAP-1 Resolution & Verified Commercial Grounding) ──
+      {
+        "@type": "OfferCatalog",
+        "@id": "https://telehealthfx.com/#offer-catalog",
+        "name": "Verified Telehealth Treatment Programs",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "@id": "https://telehealthfx.com/#offer-semaglutide-injectable",
+            "name": "SkinnyRx Compounded Semaglutide (Injectable)",
+            "description": "Doctor-prescribed compounded semaglutide weekly injections from 503A compounding pharmacy with free cold-chain delivery. First month promo from $99.",
+            "price": "99.00",
+            "priceCurrency": "USD",
+            "priceValidUntil": "2027-12-31",
+            "availability": "https://schema.org/InStock",
+            "url": "https://telehealthfx.com/skinnyrx/",
+            "seller": {
+              "@type": "Organization",
+              "name": "SkinnyRx"
+            }
+          },
+          {
+            "@type": "Offer",
+            "@id": "https://telehealthfx.com/#offer-tirzepatide-injectable",
+            "name": "SkinnyRx Compounded Tirzepatide (Injectable)",
+            "description": "Dual GLP-1 and GIP receptor agonist compounded weekly injections from 503A pharmacy with free cold-chain delivery. First month promo from $99.",
+            "price": "99.00",
+            "priceCurrency": "USD",
+            "priceValidUntil": "2027-12-31",
+            "availability": "https://schema.org/InStock",
+            "url": "https://telehealthfx.com/skinnyrx/",
+            "seller": {
+              "@type": "Organization",
+              "name": "SkinnyRx"
+            }
+          },
+          {
+            "@type": "Offer",
+            "@id": "https://telehealthfx.com/#offer-semaglutide-tablets",
+            "name": "SkinnyRx Compounded Semaglutide Tablets",
+            "description": "Needle-free daily oral dissolving sublingual semaglutide tablets from licensed 503A pharmacy. First month promo from $149.",
+            "price": "149.00",
+            "priceCurrency": "USD",
+            "priceValidUntil": "2027-12-31",
+            "availability": "https://schema.org/InStock",
+            "url": "https://telehealthfx.com/skinnyrx/",
+            "seller": {
+              "@type": "Organization",
+              "name": "SkinnyRx"
+            }
+          },
+          {
+            "@type": "Offer",
+            "@id": "https://telehealthfx.com/#offer-tirzepatide-tablets",
+            "name": "SkinnyRx Compounded Tirzepatide Tablets",
+            "description": "Needle-free daily oral dissolving sublingual dual incretin tablets from licensed 503A pharmacy. First month promo from $199.",
+            "price": "199.00",
+            "priceCurrency": "USD",
+            "priceValidUntil": "2027-12-31",
+            "availability": "https://schema.org/InStock",
+            "url": "https://telehealthfx.com/skinnyrx/",
+            "seller": {
+              "@type": "Organization",
+              "name": "SkinnyRx"
+            }
+          },
+          {
+            "@type": "Offer",
+            "@id": "https://telehealthfx.com/#offer-trt",
+            "name": "Telehealth FX Testosterone Replacement Therapy (TRT)",
+            "description": "Ryan Haight Act compliant synchronous audio-visual MD consultation, state PDMP check, Testosterone Cypionate, and supplies for $79/month.",
+            "price": "79.00",
+            "priceCurrency": "USD",
+            "priceValidUntil": "2027-12-31",
+            "availability": "https://schema.org/InStock",
+            "url": "https://telehealthfx.com/trt/",
+            "seller": {
+              "@id": "https://telehealthfx.com/#organization"
+            }
           }
         ]
       }

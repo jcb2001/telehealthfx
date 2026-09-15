@@ -143,9 +143,8 @@ function AnnouncementBar() {
             lineHeight: 1,
           }}>✦</span>
 
-          {/* Main text with shimmer on $400 */}
+          {/* Main text with shimmer on $99 */}
           <span>
-            Save up to{' '}
             <strong
               className="announcement-save-text"
               style={{
@@ -157,8 +156,8 @@ function AnnouncementBar() {
                 backgroundClip: 'text',
                 animation: 'announcement-shimmer 3s ease-in-out infinite',
               }}
-            >$400</strong>{' '}
-            on your first GLP-1 order
+            >$99</strong>{' '}
+            GLP-1 Injections: While Supplies Last
           </span>
 
           {/* Sparkle right */}

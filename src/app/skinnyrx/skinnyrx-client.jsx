@@ -6,8 +6,20 @@ import React from "react";
    Color palette extracted from skinnyrx.com production CSS
    ──────────────────────────────────────────────────── */
 
-const CTA_URL =
-  "https://track.revoffers.com/aff_c?offer_id=XXXX&aff_id=12322&source=skinnyrx_landing&sub2=tfx_prospecting_glp1&sub4=cpc";
+const BASE_AFF_URL =
+  "https://track.revoffers.com/aff_c?offer_id=1464&aff_id=12322&source=skinnyrx_landing&sub2=tfx_prospecting_glp1&sub4=cpc";
+
+const CTA_URL = `${BASE_AFF_URL}&url_id=11880`;
+
+export const TREATMENT_URLS = {
+  quiz: `${BASE_AFF_URL}&url_id=11880`,
+  tirzepatideInjectable: `${BASE_AFF_URL}&url_id=11875`,
+  tirzepatideTablets: `${BASE_AFF_URL}&url_id=11876`,
+  semaglutideTablets: `${BASE_AFF_URL}&url_id=11877`,
+  semaglutideInjectable: `${BASE_AFF_URL}&url_id=11878`,
+  semaglutideOralDrops: `${BASE_AFF_URL}&url_id=11879`,
+  customGlp1: `${BASE_AFF_URL}&url_id=11893`,
+};
 
 /* ── Brand tokens ── */
 const BRAND = {
@@ -17,6 +29,9 @@ const BRAND = {
   violetHov:  "#5C00FF",   /* button hover */
   yellow:     "#FFE786",   /* CTA accent */
   yellowHov:  "#F5D552",   /* CTA hover */
+  emerald:    "#059669",   /* first month promo tag */
+  emeraldBg:  "#ECFDF5",
+  emeraldBorder: "#A7F3D0",
   white:      "#FFFFFF",
   bg:         "#FAFAFA",   /* subtle off-white for alternating sections */
   bgDark:     "#F5F5F7",   /* light gray sections */
@@ -31,27 +46,27 @@ const BRAND = {
 const FONT = "'Inter', -apple-system, system-ui, sans-serif";
 
 /* ── Helpers ── */
-function trackAndGo(e) {
-  e.preventDefault();
-  const url = new URL(CTA_URL);
+function trackAndGo(e, customUrl = CTA_URL) {
+  if (e && e.preventDefault) e.preventDefault();
+  const target = new URL(customUrl || CTA_URL);
   if (typeof window !== "undefined") {
     const params = new URLSearchParams(window.location.search);
     ["utm_source", "utm_medium", "utm_campaign", "utm_content", "utm_term"].forEach(
-      (k) => { if (params.get(k)) url.searchParams.set(k, params.get(k)); }
+      (k) => { if (params.get(k)) target.searchParams.set(k, params.get(k)); }
     );
-    if (window.dataLayer) window.dataLayer.push({ event: "quiz_start" });
+    if (window.dataLayer) window.dataLayer.push({ event: "quiz_start", url_target: target.toString() });
   }
-  window.location.href = url.toString();
+  window.location.href = target.toString();
 }
 
 /* ── CTA Button ── */
-function CtaBtn({ label = "Get Started", id, large, variant = "yellow" }) {
+function CtaBtn({ label = "Get Started", id, large, variant = "yellow", href = CTA_URL }) {
   const isYellow = variant === "yellow";
   return (
     <a
       id={id || "cta-btn"}
-      href={CTA_URL}
-      onClick={trackAndGo}
+      href={href}
+      onClick={(e) => trackAndGo(e, href)}
       style={{
         display: "inline-flex", alignItems: "center", justifyContent: "center", gap: 10,
         padding: large ? "20px 40px" : "16px 32px",
@@ -212,6 +227,154 @@ function Divider() {
   return <div style={{ height: 1, background: BRAND.border, maxWidth: 1100, margin: "0 auto" }} />;
 }
 
+/* ── Treatment Card ── */
+function TreatmentCard({
+  badge,
+  badgeType = "promo",
+  title,
+  format,
+  promoPrice,
+  promoSub = "First Month Promo",
+  thenPrice,
+  regularPrice,
+  affirmText,
+  inclusions = [],
+  ctaLabel = "Claim First Month Pricing",
+  href,
+  highlight = false,
+}) {
+  return (
+    <div
+      style={{
+        background: BRAND.white,
+        border: highlight ? `2px solid ${BRAND.violet}` : `1px solid ${BRAND.border}`,
+        borderRadius: 20,
+        padding: "32px 24px",
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "space-between",
+        position: "relative",
+        boxShadow: highlight
+          ? "0 12px 36px rgba(78,0,255,0.12)"
+          : "0 4px 20px rgba(25,0,83,0.05)",
+        transition: "all .25s ease",
+      }}
+    >
+      <div>
+        {badge && (
+          <div
+            style={{
+              display: "inline-flex",
+              alignItems: "center",
+              gap: 6,
+              padding: "4px 12px",
+              borderRadius: 999,
+              fontSize: 11,
+              fontWeight: 800,
+              letterSpacing: "0.06em",
+              textTransform: "uppercase",
+              marginBottom: 16,
+              background: badgeType === "promo" ? BRAND.emeraldBg : "rgba(78,0,255,0.08)",
+              color: badgeType === "promo" ? BRAND.emerald : BRAND.violet,
+              border: `1px solid ${badgeType === "promo" ? BRAND.emeraldBorder : "rgba(78,0,255,0.2)"}`,
+            }}
+          >
+            {badge}
+          </div>
+        )}
+
+        <h3 style={{ fontSize: 22, fontWeight: 700, color: BRAND.purple, marginBottom: 4, letterSpacing: "-0.01em" }}>
+          {title}
+        </h3>
+        <p style={{ fontSize: 13, color: BRAND.ink3, marginBottom: 20, fontWeight: 500 }}>
+          {format}
+        </p>
+
+        {/* Price container */}
+        <div style={{
+          background: BRAND.bgDark,
+          borderRadius: 14,
+          padding: "16px 18px",
+          marginBottom: 20,
+          border: `1px solid ${BRAND.borderSoft}`,
+        }}>
+          <div style={{ display: "flex", alignItems: "baseline", gap: 8 }}>
+            <span style={{ fontSize: 36, fontWeight: 800, color: BRAND.purple, lineHeight: 1 }}>
+              {promoPrice}
+            </span>
+            <span style={{ fontSize: 13, fontWeight: 700, color: BRAND.emerald, textTransform: "uppercase" }}>
+              {promoSub}
+            </span>
+            {regularPrice && (
+              <span style={{ fontSize: 14, color: BRAND.ink4, textDecoration: "line-through", marginLeft: "auto" }}>
+                {regularPrice}
+              </span>
+            )}
+          </div>
+          {thenPrice && (
+            <div style={{ fontSize: 12, color: BRAND.ink3, marginTop: 6 }}>
+              {thenPrice}
+            </div>
+          )}
+          {affirmText && (
+            <div style={{
+              marginTop: 10,
+              paddingTop: 8,
+              borderTop: `1px solid ${BRAND.border}`,
+              fontSize: 12,
+              fontWeight: 600,
+              color: BRAND.violet,
+              display: "flex",
+              alignItems: "center",
+              gap: 6,
+            }}>
+              <span>💳</span>
+              <span>{affirmText}</span>
+            </div>
+          )}
+        </div>
+
+        {/* Inclusions */}
+        <ul style={{ listStyle: "none", padding: 0, margin: "0 0 24px 0", display: "flex", flexDirection: "column", gap: 10 }}>
+          {inclusions.map((item, idx) => (
+            <li key={idx} style={{ display: "flex", alignItems: "flex-start", gap: 10, fontSize: 13, color: BRAND.ink2, lineHeight: 1.5 }}>
+              <span style={{ color: BRAND.emerald, fontWeight: 700, flexShrink: 0 }}>✓</span>
+              <span>{item}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <a
+        href={href}
+        onClick={(e) => trackAndGo(e, href)}
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 8,
+          width: "100%",
+          padding: "14px 20px",
+          borderRadius: 999,
+          background: highlight ? BRAND.yellow : BRAND.purple,
+          color: highlight ? BRAND.purple : BRAND.white,
+          fontSize: 14,
+          fontWeight: 700,
+          textDecoration: "none",
+          cursor: "pointer",
+          transition: "all .2s ease",
+          boxShadow: highlight
+            ? "0 4px 14px rgba(255,231,134,0.4)"
+            : "0 4px 14px rgba(25,0,83,0.15)",
+        }}
+      >
+        <span>{ctaLabel}</span>
+        <span>→</span>
+      </a>
+    </div>
+  );
+}
+
 /* ── Stat Pill ── */
 function StatPill({ value, label }) {
   return (
@@ -333,6 +496,188 @@ export function SkinnyRxClient() {
 
       <Divider />
 
+      {/* ── Featured Treatments & First-Month Discounts ── */}
+      <section style={{ padding: "88px 24px", background: BRAND.bg }}>
+        <div style={{ maxWidth: 1160, margin: "0 auto" }}>
+          <div style={{ textAlign: "center", marginBottom: 36 }}>
+            <div style={{
+              display: "inline-flex", alignItems: "center", gap: 6,
+              padding: "6px 14px", borderRadius: 999, marginBottom: 12,
+              background: BRAND.emeraldBg, border: `1px solid ${BRAND.emeraldBorder}`,
+              fontSize: 12, fontWeight: 700, letterSpacing: "0.06em", textTransform: "uppercase",
+              color: BRAND.emerald,
+            }}>
+              🔥 Limited-Time Introductory Pricing
+            </div>
+            <h2 style={{ fontSize: "clamp(32px, 5vw, 48px)", fontWeight: 700, letterSpacing: "-0.02em", color: BRAND.purple, marginBottom: 16 }}>
+              Compare Treatments &amp; First-Month Promos
+            </h2>
+            <p style={{ fontSize: 17, color: BRAND.ink2, maxWidth: 640, margin: "0 auto", lineHeight: 1.6 }}>
+              Doctor-prescribed GLP-1 &amp; GIP treatments delivered cold to your door. Get started from just <strong>$99 for your first month</strong> with zero doctor consultation fees.
+            </p>
+          </div>
+
+          {/* Affirm Banner */}
+          <div style={{
+            background: BRAND.white,
+            border: `1px solid ${BRAND.border}`,
+            borderRadius: 14,
+            padding: "14px 20px",
+            marginBottom: 40,
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            gap: 12,
+            flexWrap: "wrap",
+            boxShadow: "0 2px 10px rgba(0,0,0,0.03)",
+          }}>
+            <span style={{ fontSize: 14, fontWeight: 700, color: BRAND.purple }}>
+              💳 Pay over time with Affirm:
+            </span>
+            <span style={{ fontSize: 14, color: BRAND.ink2 }}>
+              Split your treatment into affordable monthly payments as low as <strong>$25/mo</strong> with 0% APR options available.
+            </span>
+            <span style={{
+              fontSize: 11, fontWeight: 700, color: BRAND.violet, background: "rgba(78,0,255,0.08)",
+              padding: "3px 8px", borderRadius: 6,
+            }}>
+              Available at Checkout
+            </span>
+          </div>
+
+          {/* 4 Treatment Cards Grid */}
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: 24, marginBottom: 40 }}>
+            <TreatmentCard
+              badge="PROMO · SAVE $100+"
+              badgeType="promo"
+              title="Compounded Semaglutide"
+              format="Weekly Subcutaneous Injection"
+              promoPrice="$99"
+              promoSub="1st Month"
+              regularPrice="$199/mo"
+              thenPrice="Then as low as $190.65 – $199/mo"
+              affirmText="From ~$25/mo with Affirm"
+              inclusions={[
+                "Doctor consult & evaluation included ($0 fee)",
+                "Full administration kit (syringes & wipes)",
+                "Free overnight temperature-controlled shipping",
+                "100% money-back guarantee if not approved",
+              ]}
+              ctaLabel="Claim $99 First Month"
+              href={TREATMENT_URLS.semaglutideInjectable}
+              highlight={true}
+            />
+
+            <TreatmentCard
+              badge="MAX RESULTS · DUAL INCRETIN"
+              badgeType="promo"
+              title="Compounded Tirzepatide"
+              format="Weekly Subcutaneous Injection (GLP-1 + GIP)"
+              promoPrice="$99"
+              promoSub="1st Month"
+              regularPrice="$299/mo"
+              thenPrice="Then as low as $214.50 – $224.85/mo"
+              affirmText="From ~$49/mo with Affirm"
+              inclusions={[
+                "Dual GIP/GLP-1 receptor agonist therapy",
+                "Up to 22.5% body weight reduction in trials",
+                "Prescriber review & supplies included",
+                "No contracts — pause or cancel anytime",
+              ]}
+              ctaLabel="Claim $99 First Month"
+              href={TREATMENT_URLS.tirzepatideInjectable}
+              highlight={true}
+            />
+
+            <TreatmentCard
+              badge="100% NEEDLE-FREE"
+              badgeType="custom"
+              title="Semaglutide Tablets"
+              format="Daily Sublingual Oral Dissolving Tablet"
+              promoPrice="$149"
+              promoSub="1st Month"
+              regularPrice="$249/mo"
+              thenPrice="Then as low as $217.40 – $224.75/mo"
+              affirmText="From ~$37/mo with Affirm"
+              inclusions={[
+                "No injections — dissolves under the tongue",
+                "No refrigeration needed (ideal for travel)",
+                "Doctor consultation & ongoing care included",
+                "Free express home delivery",
+              ]}
+              ctaLabel="Claim $149 First Month"
+              href={TREATMENT_URLS.semaglutideTablets}
+              highlight={false}
+            />
+
+            <TreatmentCard
+              badge="NEEDLE-FREE DUAL INCRETIN"
+              badgeType="custom"
+              title="Tirzepatide Tablets"
+              format="Daily Dual GLP-1 + GIP Sublingual Tablet"
+              promoPrice="$199"
+              promoSub="1st Month"
+              regularPrice="$299/mo"
+              thenPrice="Then as low as $222.85 – $241.50/mo"
+              affirmText="From ~$49/mo with Affirm"
+              inclusions={[
+                "Needle-free dual-action incretin formula",
+                "Metabolic acceleration & appetite suppression",
+                "Clinician review & adjustments included",
+                "Cancel anytime with zero penalties",
+              ]}
+              ctaLabel="Claim $199 First Month"
+              href={TREATMENT_URLS.tirzepatideTablets}
+              highlight={false}
+            />
+          </div>
+
+          {/* Sublingual drops callout */}
+          <div style={{
+            background: BRAND.white,
+            border: `1px dashed ${BRAND.border}`,
+            borderRadius: 16,
+            padding: "20px 24px",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "space-between",
+            flexWrap: "wrap",
+            gap: 16,
+          }}>
+            <div>
+              <div style={{ fontWeight: 700, fontSize: 16, color: BRAND.purple }}>
+                Prefer Sublingual Liquid Drops?
+              </div>
+              <div style={{ fontSize: 13, color: BRAND.ink2, marginTop: 4 }}>
+                SkinnyRx also offers needle-free <strong>Compounded Sublingual Oral Semaglutide Drops</strong> from <strong>$199/mo</strong> with flexible micro-titration.
+              </div>
+            </div>
+            <a
+              href={TREATMENT_URLS.semaglutideOralDrops}
+              onClick={(e) => trackAndGo(e, TREATMENT_URLS.semaglutideOralDrops)}
+              style={{
+                padding: "10px 20px",
+                borderRadius: 999,
+                background: BRAND.purple,
+                color: BRAND.white,
+                fontSize: 13,
+                fontWeight: 600,
+                textDecoration: "none",
+                display: "inline-flex",
+                alignItems: "center",
+                gap: 6,
+                cursor: "pointer",
+              }}
+            >
+              <span>Explore Oral Drops ($199/mo)</span>
+              <span>→</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <Divider />
+
       {/* ── How it works ── */}
       <section style={{ padding: "88px 24px" }}>
         <div style={{ maxWidth: 820, margin: "0 auto" }}>
@@ -442,12 +787,13 @@ export function SkinnyRxClient() {
             <div style={{ fontSize: 12, fontWeight: 600, letterSpacing: "0.1em", textTransform: "uppercase", color: BRAND.violet, marginBottom: 14 }}>FAQ</div>
             <h2 style={{ fontSize: "clamp(32px, 5vw, 48px)", fontWeight: 700, letterSpacing: "-0.02em", color: BRAND.purple }}>Common questions</h2>
           </div>
-          <FaqItem q="How does SkinnyRx work?" a="SkinnyRx is a telehealth platform that connects you with U.S. licensed doctors who specialize in weight loss. You complete a free online health assessment, a doctor reviews it and creates a personalized treatment plan, and — if prescribed — medication is shipped to your door." />
-          <FaqItem q="What medications does SkinnyRx prescribe?" a="SkinnyRx physicians may prescribe GLP-1 receptor agonist medications including Semaglutide and Tirzepatide, depending on what's appropriate for your health profile. Both injectable and oral options may be available." />
-          <FaqItem q="How much does SkinnyRx cost?" a="Pricing varies by treatment plan and is shown transparently before you commit. SkinnyRx accepts HSA/FSA cards. There are no hidden fees or surprise charges." />
-          <FaqItem q="Is my information private?" a="Yes. SkinnyRx operates under strict HIPAA-compliant standards. Your medical information is encrypted and protected." />
-          <FaqItem q="What if I don't qualify?" a="If a doctor determines the program isn't right for you, you are not charged. You'll receive a clear explanation and, where appropriate, alternative recommendations." />
-          <FaqItem q="Can I cancel my subscription?" a="Yes. There are no long-term contracts. You can pause or cancel your plan at any time through your SkinnyRx account." />
+          <FaqItem q="How does SkinnyRx work?" a="SkinnyRx is a telehealth platform that connects you with U.S. licensed doctors who specialize in weight loss. You complete a free online health assessment, a doctor reviews it and creates a personalized treatment plan, and — if prescribed — medication is compounded by a licensed pharmacy and shipped cold directly to your door." />
+          <FaqItem q="How much does SkinnyRx cost, and how does the first-month promo work?" a="First-time patients can get started with doctor-prescribed Compounded Semaglutide or Compounded Tirzepatide weekly injections for just $99 for their first month. Ongoing renewal pricing starts as low as $190.65–$199/mo (Semaglutide) and $214.50–$299/mo (Tirzepatide) depending on plan length. Needle-free daily Semaglutide tablets start at $149 for the first month, and Tirzepatide daily tablets start at $199 for the first month. There are never any doctor consultation fees, recurring membership dues, or hidden shipping charges." />
+          <FaqItem q="Can I pay over time with Affirm?" a="Yes! SkinnyRx partners with Affirm so you can divide your treatment payments into flexible, affordable monthly installments—starting as low as $25/month with 0% APR options available for qualified applicants directly at checkout." />
+          <FaqItem q="What medications does SkinnyRx offer?" a="SkinnyRx clinicians prescribe GLP-1 and dual GLP-1/GIP incretin receptor agonist therapies based on your health profile. Options include once-weekly subcutaneous injections (Semaglutide, Tirzepatide), once-daily oral dissolving sublingual tablets, and sublingual liquid oral drops." />
+          <FaqItem q="Is my information private?" a="Yes. SkinnyRx operates under strict HIPAA-compliant standards. Your medical information is encrypted and protected at all times." />
+          <FaqItem q="What if I don't qualify?" a="SkinnyRx offers a 100% money-back guarantee. If a licensed physician determines that GLP-1 or Tirzepatide medication is not clinically safe or appropriate for you, you are refunded completely." />
+          <FaqItem q="Can I cancel my subscription?" a="Yes. There are no long-term contracts or mandatory commitments. You can pause or cancel your plan at any time through your online patient portal." />
         </div>
       </section>
 

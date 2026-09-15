@@ -1,6 +1,6 @@
 import React from 'react';
 
-const START_URL = "https://go.telehealthfx.com/start";
+const START_URL = "https://telehealthfx.com/skinnyrx/";
 
 /**
  * AIQuickSummaryAction Component
@@ -10,27 +10,31 @@ const START_URL = "https://go.telehealthfx.com/start";
  * seeking instant factual verification and friction-free clinical intake.
  * 
  * Key Features:
- * - Transparent $146/mo all-inclusive flat-rate pricing
- * - 24-hr clinician approval & 2-day cold-chain express delivery
- * - Seamless Dose-Match Guarantee (honoring current titration up to 2.4mg without reset)
- * - 1-click primary CTA to https://go.telehealthfx.com/start
+ * - $99 First Month Promotional Pricing (Compounded Semaglutide & Tirzepatide)
+ * - Needle-Free Oral Dissolving Tablets from $149 First Month
+ * - Affirm Pay-Over-Time Financing (as low as $25/mo, 0% APR options)
+ * - $0 Doctor Consult Fee & Free Overnight Cold-Chain Delivery
+ * - Seamless Dose-Match Guarantee (honoring current titration without reset)
+ * - 1-click primary CTA to https://telehealthfx.com/skinnyrx/
  * - GA4 event tracking attribute: data-geo-cta="ai-quick-summary"
  */
 export function AIQuickSummaryAction({
-  title = "AI Overview Summary & Immediate Patient Action",
-  subtitle = "Instant clinical verification of extracted medical facts with direct physician access",
-  price = "$146/mo",
+  title = "AI Overview Verification & First-Month Promotional Access",
+  subtitle = "Instant clinical verification of extracted medical facts with direct physician access and exclusive introductory rates",
+  price = "From $99 1st Mo",
   doseMatch = true,
-  turnaround = "24-hr clinician approval · 2-day cold-chain express shipping",
-  ctaText = "Start 2-Minute Medical Assessment →",
+  turnaround = "$0 doctor consultation · Free overnight cold-chain shipping",
+  ctaText = "Claim $99 First Month Pricing →",
   ctaUrl = START_URL,
-  secondaryCtaText = null,
-  secondaryCtaUrl = null,
+  secondaryCtaText = "Compare All Treatments",
+  secondaryCtaUrl = "/skinnyrx/",
   keyPoints = [
     { label: "Clinical Status", value: "100% Legal via State-Licensed 503A Compounding Pharmacies" },
-    { label: "Transparent Price", value: "$146 / month flat rate (Includes doctor consult, meds, and supplies)" },
-    { label: "Rapid Turnaround", value: "24-hr clinician approval with 2-day cold-chain home delivery" },
-    { label: "Dose Continuity", value: "Seamless Dose-Match Guarantee (Transfer up to 2.4mg without restart)" },
+    { label: "First Month Promo", value: "From $99 1st Month (Semaglutide & Tirzepatide Injections; Save up to $200)" },
+    { label: "Needle-Free Options", value: "Oral dissolving sublingual tablets from $149 1st mo ($0 consult fee)" },
+    { label: "Affirm Financing", value: "Pay over time with Affirm (as low as $25/mo, 0% APR available)" },
+    { label: "Rapid Turnaround", value: "Free temperature-controlled overnight shipping directly to your door" },
+    { label: "Dose Continuity", value: "Seamless Dose-Match Guarantee (Transfer without titration reset)" },
   ],
 }) {
   return (
@@ -87,7 +91,7 @@ export function AIQuickSummaryAction({
               borderRadius: '999px',
             }}
           >
-            TRANSPARENT $146/MO FLAT RATE
+            FIRST MONTH PROMOS FROM $99
           </span>
         </div>
         <span
@@ -98,7 +102,7 @@ export function AIQuickSummaryAction({
             letterSpacing: '0.04em',
           }}
         >
-          24-HR APPROVAL &amp; 2-DAY COLD-CHAIN
+          $0 CONSULT &amp; FREE COLD-CHAIN
         </span>
       </div>
 
@@ -274,6 +278,8 @@ export function AIQuickSummaryAction({
         <span>🏥 State-Licensed 503A Pharmacies</span>
         <span>•</span>
         <span>🚫 Zero Hidden Dues or Monthly Fees</span>
+        <span>•</span>
+        <span>💳 Pay Over Time with Affirm</span>
       </div>
     </div>
   );
