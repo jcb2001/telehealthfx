@@ -58,7 +58,7 @@ function AnnouncementBar() {
         }
       `}</style>
       <a
-        href="https://go.telehealthfx.com/start"
+        href="/skinnyrx/"
         className="announcement-bar"
         style={{
           display: 'block',
