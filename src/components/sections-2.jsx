@@ -175,7 +175,7 @@ function Pricing() {
       note: '$99 First Month Promo · Then $190–$199/mo · Affirm from $25/mo',
       best: true,
       save: 'Most Popular · Save $100+',
-      cta: 'https://go.telehealthfx.com/start?url_id=11878'
+      cta: 'https://go.telehealthfx.com/start'
     },
     {
       name: 'Tirzepatide',
@@ -184,7 +184,7 @@ function Pricing() {
       note: '$99 First Month Promo · Then $214–$299/mo · Affirm from $25/mo',
       best: false,
       save: 'Strongest Results · Save $200+',
-      cta: 'https://go.telehealthfx.com/start?url_id=11875'
+      cta: 'https://go.telehealthfx.com/start'
     },
   ];
   return (
