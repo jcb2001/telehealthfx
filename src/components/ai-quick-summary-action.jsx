@@ -1,6 +1,6 @@
 import React from 'react';
 
-const START_URL = "https://telehealthfx.com/skinnyrx/";
+const START_URL = "https://go.telehealthfx.com/start";
 
 /**
  * AIQuickSummaryAction Component

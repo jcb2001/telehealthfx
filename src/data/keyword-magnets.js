@@ -1,5 +1,4 @@
 // 100 High-Purchase-Intent Programmatic Keyword Magnets Data
-// Aligned with SkinnyRx First-Month Promo Pricing ($99/mo) and Affirm Financing
 export const KEYWORD_MAGNETS = [
   {
     "slug": "ro-compounded-semaglutide-alternative",
@@ -12,7 +11,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Ro discontinued bulk compounded semaglutide following FDA shortage updates. Telehealth FX features SkinnyRx as our recommended partner, offering licensed 503A compounded semaglutide from $99 for your first month (then from $190–$199/mo) with free cold shipping, $0 consult fees, and Affirm financing.",
     "competitorName": "Ro (Ro Body)",
     "competitorPrice": "$199-$299/mo + $99 fee",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$199/mo",
     "financing": "Pay over time with Affirm from $25/mo"
@@ -28,7 +27,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Hims suspended bulk compounded semaglutide injections. Patients can legally switch to SkinnyRx's 503A compounding pharmacy network from $99 for your first month (with Affirm financing) without restarting titration.",
     "competitorName": "Hims & Hers",
     "competitorPrice": "$199/mo multi-month bundle",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$199/mo",
     "financing": "Pay over time with Affirm from $25/mo"
@@ -44,7 +43,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Henry Meds charges $297/mo for semaglutide and $449/mo for tirzepatide. Telehealth FX provides identical 503A clinical quality from $99 for your first month with zero hidden dues and Affirm pay-over-time options. Available through SkinnyRx with $0 doctor consult fees and Affirm financing.",
     "competitorName": "Henry Meds",
     "competitorPrice": "$297 - $449/mo",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$199/mo",
     "financing": "Pay over time with Affirm from $25/mo"
@@ -60,7 +59,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Mochi charges an obligatory $79/mo membership fee on top of medication costs. Telehealth FX features SkinnyRx with $0 membership: Compounded Semaglutide and Tirzepatide start at just $99 for your first month, with Affirm pay-over-time options.",
     "competitorName": "Mochi Health",
     "competitorPrice": "$278 - $404/mo (with fee)",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$299/mo",
     "financing": "Pay over time with Affirm from $49/mo"
@@ -76,7 +75,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Ivim Health bundles monthly membership dues and multi-month prepays. Telehealth FX offers flexible month-to-month clinical care starting at $99 for your first month via SkinnyRx with Affirm financing.",
     "competitorName": "Ivim Health",
     "competitorPrice": "$299/mo + $74.99/mo fee",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$199/mo",
     "financing": "Pay over time with Affirm from $25/mo"
@@ -92,7 +91,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Found predominantly focuses on generic oral medications with complex tiers. Telehealth FX connects you directly to board-certified doctors prescribing pure GLP-1 peptides. Available through SkinnyRx with $0 doctor consult fees and Affirm financing.",
     "competitorName": "Found Health",
     "competitorPrice": "$149 - $399/mo",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$199/mo",
     "financing": "Pay over time with Affirm from $25/mo"
@@ -108,7 +107,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Calibrate requires annual commitments and relies on commercial insurance coverage. Telehealth FX is 100% cash-pay with no insurance hassle, starting at from $99 first month with Affirm financing. Available through SkinnyRx with $0 doctor consult fees and Affirm financing.",
     "competitorName": "Calibrate",
     "competitorPrice": "$1,750+ annual commitment",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$199/mo",
     "financing": "Pay over time with Affirm from $25/mo"
@@ -124,7 +123,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Sequence charges an $84 to $99/mo subscription fee just to access doctor consultations. Telehealth FX includes physician consults and medication from $99 first month with Affirm financing. Available through SkinnyRx with $0 doctor consult fees and Affirm financing.",
     "competitorName": "Sequence (WW)",
     "competitorPrice": "$99/mo fee + medication",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$199/mo",
     "financing": "Pay over time with Affirm from $25/mo"
@@ -140,7 +139,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "PlushCare bills monthly membership plus per-visit copays and relies on insurance prior authorizations. Telehealth FX provides direct-to-door 503A medications from $99 first month promo (then $199/mo). Available through SkinnyRx with $0 doctor consult fees and Affirm financing.",
     "competitorName": "PlushCare",
     "competitorPrice": "$16.99/mo fee + copays",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$199/mo",
     "financing": "Pay over time with Affirm from $25/mo"
@@ -156,7 +155,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Eden offers compounded semaglutide from $196/mo. Telehealth FX provides identical 503A US pharmacy compounding from $99 first month promo (then $199/mo) with seamless dose continuation. Available through SkinnyRx with $0 doctor consult fees and Affirm financing.",
     "competitorName": "Eden (TryEden)",
     "competitorPrice": "$196 - $296/mo",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$199/mo",
     "financing": "Pay over time with Affirm from $25/mo"
@@ -172,7 +171,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Form Health requires frequent video visits and insurance billing. Telehealth FX provides streamlined asynchronous physician evaluation and express cold delivery. Available through SkinnyRx with $0 doctor consult fees and Affirm financing.",
     "competitorName": "Form Health",
     "competitorPrice": "$119/mo fee + copays",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$199/mo",
     "financing": "Pay over time with Affirm from $25/mo"
@@ -188,7 +187,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "LifeMD charges $129/mo membership fees in addition to medication costs. Telehealth FX provides all-inclusive clinical memberships with zero membership fees. Available through SkinnyRx with $0 doctor consult fees and Affirm financing.",
     "competitorName": "LifeMD",
     "competitorPrice": "$129/mo fee + med costs",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$199/mo",
     "financing": "Pay over time with Affirm from $25/mo"
@@ -204,7 +203,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Strut Health provides compounded weight loss options at higher price tiers. Telehealth FX delivers accredited 503A medications starting at $99 for your first month via SkinnyRx with Affirm financing.",
     "competitorName": "Strut Health",
     "competitorPrice": "$289/mo",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$199/mo",
     "financing": "Pay over time with Affirm from $25/mo"
@@ -220,7 +219,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "NextMed has been criticized for billing complexities and customer service bottlenecks. Telehealth FX offers 100% price transparency with no cancellation fees. Available through SkinnyRx with $0 doctor consult fees and Affirm financing.",
     "competitorName": "NextMed",
     "competitorPrice": "$138/mo fee + med costs",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$199/mo",
     "financing": "Pay over time with Affirm from $25/mo"
@@ -236,7 +235,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Trym Health offers weight loss telehealth in select states. Telehealth FX provides nationwide coverage with licensed 503A compounding partners from $99 first month promo (then $199/mo). Available through SkinnyRx with $0 doctor consult fees and Affirm financing.",
     "competitorName": "Trym Health",
     "competitorPrice": "$299 - $399/mo",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$199/mo",
     "financing": "Pay over time with Affirm from $25/mo"
@@ -252,7 +251,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Ro relies on commercial insurance coverage for branded Zepbound ($1,000+/mo cash). Telehealth FX provides 503A compounded Tirzepatide for $99 for your first month (then from $214–$299/mo with Affirm financing) flat rate. Prescribed through SkinnyRx with $0 clinician fees and Affirm pay-over-time options.",
     "competitorName": "Ro (Zepbound)",
     "competitorPrice": "$1,050/mo + $99 fee",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$299/mo",
     "financing": "Pay over time with Affirm from $49/mo"
@@ -268,7 +267,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Mochi's true monthly cost for Tirzepatide is $354 ($275 med + $79 membership). Telehealth FX delivers identical 503A Tirzepatide for $99 for your first month (then from $214–$299/mo with Affirm financing) all-inclusive. Prescribed through SkinnyRx with $0 clinician fees and Affirm pay-over-time options.",
     "competitorName": "Mochi Health",
     "competitorPrice": "$354/mo total ($275 + $79)",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$299/mo",
     "financing": "Pay over time with Affirm from $49/mo"
@@ -284,7 +283,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Ivim charges $399/mo for Tirzepatide plus $74.99 monthly membership. Telehealth FX charges a flat $99 for your first month (then from $214–$299/mo with Affirm financing) with free cold-chain express shipping. Prescribed through SkinnyRx with $0 clinician fees and Affirm pay-over-time options.",
     "competitorName": "Ivim Health",
     "competitorPrice": "$473.99/mo total",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$299/mo",
     "financing": "Pay over time with Affirm from $49/mo"
@@ -300,7 +299,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Henry Meds charges $449/mo for oral or injectable tirzepatide. Telehealth FX delivers doctor-prescribed 503A injectable Tirzepatide for $99 for your first month (then from $214–$299/mo with Affirm financing), saving over $2,200/year. Prescribed through SkinnyRx with $0 clinician fees and Affirm pay-over-time options.",
     "competitorName": "Henry Meds",
     "competitorPrice": "$449/mo",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$299/mo",
     "financing": "Pay over time with Affirm from $49/mo"
@@ -316,7 +315,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Hims does not compound injectable tirzepatide. Telehealth FX provides 503A compounded Tirzepatide (2.5mg up to 15mg) starting at $99 for your first month (then from $214–$299/mo with Affirm financing) with 48-hr delivery. Prescribed through SkinnyRx with $0 clinician fees and Affirm pay-over-time options.",
     "competitorName": "Hims & Hers",
     "competitorPrice": "Not offered / Branded only",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$299/mo",
     "financing": "Pay over time with Affirm from $49/mo"
@@ -332,7 +331,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Hone charges $149/mo for hormone therapy plus separate lab consults. Telehealth FX offers all-inclusive TRT (injections, oral enclomiphene, or creams) from $79/mo.",
     "competitorName": "Hone Health",
     "competitorPrice": "$149/mo + lab fees",
-    "ctaUrl": "https://telehealthfx.com/trt/"
+    "ctaUrl": "https://go.telehealthfx.com/testosterone"
   },
   {
     "slug": "fountain-trt-alternative",
@@ -345,7 +344,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Fountain TRT focuses primarily on creams starting at $199/mo. Telehealth FX delivers complete hormone protocols including cypionate and enclomiphene from $79/mo.",
     "competitorName": "Fountain TRT",
     "competitorPrice": "$199/mo",
-    "ctaUrl": "https://telehealthfx.com/trt/"
+    "ctaUrl": "https://go.telehealthfx.com/testosterone"
   },
   {
     "slug": "peter-md-trt-alternative",
@@ -358,7 +357,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Peter MD requires 6-month or 12-month prepayment commitments. Telehealth FX provides transparent, flexible monthly TRT protocols from $79/mo with clinician messaging.",
     "competitorName": "Peter MD",
     "competitorPrice": "$99 - $179/mo prepay",
-    "ctaUrl": "https://telehealthfx.com/trt/"
+    "ctaUrl": "https://go.telehealthfx.com/testosterone"
   },
   {
     "slug": "marek-health-trt-alternative",
@@ -371,7 +370,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Marek Health is a premium concierge clinic with initial onboarding exceeding $800. Telehealth FX offers evidence-based TRT protocols starting at $79/mo.",
     "competitorName": "Marek Health",
     "competitorPrice": "$250/mo + $450 labs",
-    "ctaUrl": "https://telehealthfx.com/trt/"
+    "ctaUrl": "https://go.telehealthfx.com/testosterone"
   },
   {
     "slug": "trt-nation-alternative",
@@ -384,7 +383,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "TRT Nation charges $99 to $149/mo with basic support. Telehealth FX provides responsive physician oversight, full supply kits, and free shipping from $79/mo.",
     "competitorName": "TRT Nation",
     "competitorPrice": "$99 - $149/mo",
-    "ctaUrl": "https://telehealthfx.com/trt/"
+    "ctaUrl": "https://go.telehealthfx.com/testosterone"
   },
   {
     "slug": "gameday-mens-health-alternative",
@@ -397,7 +396,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Gameday requires regular physical clinic visits costing $195+/mo. Telehealth FX delivers identical clinical efficacy from the comfort of your home for $79/mo.",
     "competitorName": "Gameday Men's Health",
     "competitorPrice": "$195/mo in-clinic",
-    "ctaUrl": "https://telehealthfx.com/trt/"
+    "ctaUrl": "https://go.telehealthfx.com/testosterone"
   },
   {
     "slug": "defy-medical-alternative",
@@ -410,7 +409,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Defy operates on an a-la-carte model that quickly exceeds $200/mo. Telehealth FX provides predictable flat-rate monthly plans starting at $79/mo.",
     "competitorName": "Defy Medical",
     "competitorPrice": "A la carte ($200+/mo)",
-    "ctaUrl": "https://telehealthfx.com/trt/"
+    "ctaUrl": "https://go.telehealthfx.com/testosterone"
   },
   {
     "slug": "viking-alternative-medicine-trt",
@@ -423,7 +422,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Viking Alternative provides traditional TRT telehealth. Telehealth FX pairs certified US clinicians with 48-hr delivery and flat $79/mo pricing.",
     "competitorName": "Viking Alternative",
     "competitorPrice": "$120 - $180/mo",
-    "ctaUrl": "https://telehealthfx.com/trt/"
+    "ctaUrl": "https://go.telehealthfx.com/testosterone"
   },
   {
     "slug": "maximus-tribe-enclomiphene-alternative",
@@ -436,7 +435,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Maximus charges $199/mo for oral testosterone protocol. Telehealth FX provides pure, state-licensed 503A enclomiphene for $89/mo flat with no contract.",
     "competitorName": "Maximus Tribe",
     "competitorPrice": "$199/mo",
-    "ctaUrl": "https://telehealthfx.com/trt/"
+    "ctaUrl": "https://go.telehealthfx.com/enclomiphene"
   },
   {
     "slug": "valhalla-vitality-enclomiphene-alternative",
@@ -449,7 +448,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Valhalla Vitality charges consult fees and variable pharmacy pricing. Telehealth FX offers transparent flat rates: Enclomiphene $89/mo and TRT $79/mo.",
     "competitorName": "Valhalla Vitality",
     "competitorPrice": "$150+/mo + fees",
-    "ctaUrl": "https://telehealthfx.com/trt/"
+    "ctaUrl": "https://go.telehealthfx.com/enclomiphene"
   },
   {
     "slug": "cheapest-compounded-tirzepatide-online",
@@ -462,7 +461,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Telehealth FX offers the lowest verified flat-rate compounded tirzepatide nationwide at $99 for your first month (then from $214–$299/mo with Affirm financing) all-inclusive, bypassing brand-name Zepbound prices ($1,050/mo) and clinic membership fees. Prescribed through SkinnyRx with $0 clinician fees and Affirm pay-over-time options.",
     "competitorName": "Brand Zepbound / Mochi",
     "competitorPrice": "$350 - $1,050/mo",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$299/mo",
     "financing": "Pay over time with Affirm from $49/mo"
@@ -478,7 +477,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "At $99 first month promo (then $199/mo)nth flat, Telehealth FX provides the most affordable doctor-prescribed compounded semaglutide in the United States, including medical consult, medication, and supplies. Available through SkinnyRx with $0 doctor consult fees and Affirm financing.",
     "competitorName": "Brand Wegovy / Ro",
     "competitorPrice": "$299 - $1,350/mo",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$199/mo",
     "financing": "Pay over time with Affirm from $25/mo"
@@ -494,7 +493,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Without insurance, branded tirzepatide (Zepbound/Mounjaro) costs between $1,050 and $1,300 per month. Compounded tirzepatide through Telehealth FX costs $99 for your first month (then from $214–$299/mo with Affirm financing) flat rate. Prescribed through SkinnyRx with $0 clinician fees and Affirm pay-over-time options.",
     "competitorName": "Retail Cash Price",
     "competitorPrice": "$1,050 - $1,300/mo",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$299/mo",
     "financing": "Pay over time with Affirm from $49/mo"
@@ -510,7 +509,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Branded semaglutide (Wegovy/Ozempic) costs $1,349/month without commercial insurance. Telehealth FX provides identical compounded semaglutide therapy for $99 first month promo (then $199/mo)nth. Available through SkinnyRx with $0 doctor consult fees and Affirm financing.",
     "competitorName": "Retail Pharmacy",
     "competitorPrice": "$1,349/mo",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$199/mo",
     "financing": "Pay over time with Affirm from $25/mo"
@@ -526,7 +525,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Many telehealth platforms advertise low drug costs but enforce mandatory $79 to $129/mo membership fees. Telehealth FX has zero membership fees: just $99 first month promo (then $199/mo)nth flat. Available through SkinnyRx with $0 doctor consult fees and Affirm financing.",
     "competitorName": "Subscription Telehealth",
     "competitorPrice": "Med Cost + $99/mo fee",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$199/mo",
     "financing": "Pay over time with Affirm from $25/mo"
@@ -542,7 +541,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Telehealth FX eliminates subscription paywalls. You pay a single flat rate of $99 for your first month (then from $214–$299/mo with Affirm financing) for compounded tirzepatide, doctor evaluations, syringes, and overnight delivery. Prescribed through SkinnyRx with $0 clinician fees and Affirm pay-over-time options.",
     "competitorName": "Membership Clinics",
     "competitorPrice": "$350 - $450/mo total",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$299/mo",
     "financing": "Pay over time with Affirm from $49/mo"
@@ -558,7 +557,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Telehealth FX makes clinical weight loss accessible through a $99 first month promo (then $199/mo)nth flat-rate model, combining board-certified physician care with licensed 503A compounding. Available through SkinnyRx with $0 doctor consult fees and Affirm financing.",
     "competitorName": "Average Clinic Cost",
     "competitorPrice": "$300/mo",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$199/mo",
     "financing": "Pay over time with Affirm from $25/mo"
@@ -574,7 +573,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Tirzepatide is the most potent weight loss medication on the market. Telehealth FX provides affordable access at $99 for your first month (then from $214–$299/mo with Affirm financing) flat, saving patients over $9,000 annually vs retail. Prescribed through SkinnyRx with $0 clinician fees and Affirm pay-over-time options.",
     "competitorName": "Commercial Clinics",
     "competitorPrice": "$400 - $600/mo",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$299/mo",
     "financing": "Pay over time with Affirm from $49/mo"
@@ -590,7 +589,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Telehealth FX provides the nation's most affordable online TRT program at $79/month flat, including testosterone cypionate or oral enclomiphene, physician oversight, and supplies.",
     "competitorName": "In-Person Men's Clinics",
     "competitorPrice": "$200 - $300/mo",
-    "ctaUrl": "https://telehealthfx.com/trt/"
+    "ctaUrl": "https://go.telehealthfx.com/testosterone"
   },
   {
     "slug": "trt-cost-without-insurance-guide",
@@ -603,7 +602,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Without insurance, local men's health clinics charge $200 to $350 monthly for testosterone injections. Telehealth FX delivers physician-managed TRT for $79/month all-inclusive.",
     "competitorName": "Local TRT Clinics",
     "competitorPrice": "$250/mo + visit fees",
-    "ctaUrl": "https://telehealthfx.com/trt/"
+    "ctaUrl": "https://go.telehealthfx.com/testosterone"
   },
   {
     "slug": "affordable-testosterone-replacement-therapy-online",
@@ -616,7 +615,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Telehealth FX delivers affordable, clinically rigorous TRT for $79/month, offering injectable testosterone cypionate, topical creams, and oral enclomiphene options.",
     "competitorName": "Standard Telehealth TRT",
     "competitorPrice": "$150 - $200/mo",
-    "ctaUrl": "https://telehealthfx.com/trt/"
+    "ctaUrl": "https://go.telehealthfx.com/testosterone"
   },
   {
     "slug": "enclomiphene-cost-without-insurance",
@@ -629,7 +628,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Oral enclomiphene citrate costs between $150 and $250 monthly through specialized men's platforms. Telehealth FX offers pure 503A compounded enclomiphene for $89/month flat.",
     "competitorName": "Specialty Men's Health",
     "competitorPrice": "$199/mo",
-    "ctaUrl": "https://telehealthfx.com/trt/"
+    "ctaUrl": "https://go.telehealthfx.com/enclomiphene"
   },
   {
     "slug": "cheapest-enclomiphene-online-prescription",
@@ -642,7 +641,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Telehealth FX offers the most cost-effective enclomiphene online at $89/month, delivering needle-free testosterone support that stimulates natural LH and FSH production.",
     "competitorName": "Competitor Average",
     "competitorPrice": "$180/mo",
-    "ctaUrl": "https://telehealthfx.com/trt/"
+    "ctaUrl": "https://go.telehealthfx.com/enclomiphene"
   },
   {
     "slug": "hsa-fsa-eligible-compounded-semaglutide",
@@ -655,7 +654,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Compounded semaglutide prescribed by a licensed healthcare provider for metabolic weight management is 100% HSA and FSA eligible under IRS guidelines. Available through SkinnyRx with $0 doctor consult fees and Affirm financing.",
     "competitorName": "Full Out-of-Pocket",
     "competitorPrice": "No tax advantage",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$199/mo",
     "financing": "Pay over time with Affirm from $25/mo"
@@ -671,7 +670,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Patients can use Health Savings Accounts (HSA) and Flexible Spending Accounts (FSA) for doctor-prescribed compounded tirzepatide ($99 for your first month (then from $214–$299/mo with Affirm financing)) at Telehealth FX. Prescribed through SkinnyRx with $0 clinician fees and Affirm pay-over-time options.",
     "competitorName": "Standard Cash Pay",
     "competitorPrice": "No tax deduction",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$299/mo",
     "financing": "Pay over time with Affirm from $49/mo"
@@ -687,7 +686,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Telehealth FX is engineered specifically for cash-pay patients, eliminating prior authorizations, copays, and insurance rejections with a transparent from $99 first month with Affirm financing rate. Available through SkinnyRx with $0 doctor consult fees and Affirm financing.",
     "competitorName": "Insurance Deductible",
     "competitorPrice": "$1,000+ deductible",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$199/mo",
     "financing": "Pay over time with Affirm from $25/mo"
@@ -703,7 +702,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Skip the insurance bureaucracy. Telehealth FX provides doctor-supervised compounded tirzepatide for a flat $99 for your first month (then from $214–$299/mo with Affirm financing) cash price with no surprises. Prescribed through SkinnyRx with $0 clinician fees and Affirm pay-over-time options.",
     "competitorName": "Commercial Retail",
     "competitorPrice": "$1,050/mo",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$299/mo",
     "financing": "Pay over time with Affirm from $49/mo"
@@ -719,7 +718,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Telehealth FX makes semaglutide accessible for $99 first month promo (then $199/mo)nth—under the $150 threshold—covering medical intake, clinician prescribing, medication, and cold shipping. Available through SkinnyRx with $0 doctor consult fees and Affirm financing.",
     "competitorName": "Standard Telehealth",
     "competitorPrice": "$250 - $400/mo",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$199/mo",
     "financing": "Pay over time with Affirm from $25/mo"
@@ -735,7 +734,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Telehealth FX guarantees the best value in telehealth weight loss with flat $99 first month promo (then $199/mo)nth semaglutide pricing, verified 503A pharmacy sterile compounding, and 24-hr reviews. Available through SkinnyRx with $0 doctor consult fees and Affirm financing.",
     "competitorName": "Competitor Pricing",
     "competitorPrice": "$199 - $350/mo",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$199/mo",
     "financing": "Pay over time with Affirm from $25/mo"
@@ -751,7 +750,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "At $99 for your first month (then from $214–$299/mo with Affirm financing), Telehealth FX delivers the best price on compounded tirzepatide in the US, offering substantial savings over competitor programs charging $350-$500/mo. Prescribed through SkinnyRx with $0 clinician fees and Affirm pay-over-time options.",
     "competitorName": "Competitor Average",
     "competitorPrice": "$399/mo",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$299/mo",
     "financing": "Pay over time with Affirm from $49/mo"
@@ -767,7 +766,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Unlike platforms that hike prices as you titrate to higher doses, Telehealth FX maintains predictable, flat-rate pricing to support long-term metabolic health. Available through SkinnyRx with $0 doctor consult fees and Affirm financing.",
     "competitorName": "Variable Pricing Clinics",
     "competitorPrice": "$199 jumps to $399/mo",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$199/mo",
     "financing": "Pay over time with Affirm from $25/mo"
@@ -783,7 +782,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Telehealth FX offers flat-rate compounded tirzepatide at $99 for your first month (then from $214–$299/mo with Affirm financing), ensuring patients can titrate smoothly from 2.5mg to higher maintenance doses without financial penalty. Prescribed through SkinnyRx with $0 clinician fees and Affirm pay-over-time options.",
     "competitorName": "Dose-Tiered Clinics",
     "competitorPrice": "$299 jumps to $499/mo",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$299/mo",
     "financing": "Pay over time with Affirm from $49/mo"
@@ -799,7 +798,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Branded Wegovy carries hidden expenses including specialist copays, lab fees, and coverage denial appeals. Compounded semaglutide through Telehealth FX costs $99 first month promo (then $199/mo) total. Available through SkinnyRx with $0 doctor consult fees and Affirm financing.",
     "competitorName": "Branded Wegovy",
     "competitorPrice": "$1,349/mo + copays",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$199/mo",
     "financing": "Pay over time with Affirm from $25/mo"
@@ -815,7 +814,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Patients paying cash for Zepbound spend over $12,000 annually. Compounded tirzepatide at $99 for your first month (then from $214–$299/mo with Affirm financing) saves more than $9,000 while delivering identical therapeutic results. Prescribed through SkinnyRx with $0 clinician fees and Affirm pay-over-time options.",
     "competitorName": "Branded Zepbound",
     "competitorPrice": "$1,050/mo retail",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$299/mo",
     "financing": "Pay over time with Affirm from $49/mo"
@@ -831,7 +830,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Nationwide, compounded GLP-1 costs range from $200 to $500 monthly. Telehealth FX provides direct-from-pharmacy pricing: Semaglutide at $99 first month promo (then $199/mo) and Tirzepatide at from $99/mo. Available through SkinnyRx with $0 doctor consult fees and Affirm financing.",
     "competitorName": "National Average",
     "competitorPrice": "$299 - $450/mo",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$199/mo",
     "financing": "Pay over time with Affirm from $25/mo"
@@ -847,7 +846,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Compounded semaglutide and Wegovy share the exact same active pharmaceutical ingredient (semaglutide). At $99 first month promo (then $199/mo) vs $1,349/mo, compounded offers 90% savings with identical 15% mean weight loss. Available through SkinnyRx with $0 doctor consult fees and Affirm financing.",
     "competitorName": "Brand Wegovy",
     "competitorPrice": "$1,349/mo retail",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$199/mo",
     "financing": "Pay over time with Affirm from $25/mo"
@@ -863,7 +862,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Compounded tirzepatide utilizes the same active dual GIP/GLP-1 receptor agonist as Zepbound. Telehealth FX provides 503A compounded tirzepatide for $99 for your first month (then from $214–$299/mo with Affirm financing) vs $1,050/mo retail. Prescribed through SkinnyRx with $0 clinician fees and Affirm pay-over-time options.",
     "competitorName": "Brand Zepbound",
     "competitorPrice": "$1,050/mo retail",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$299/mo",
     "financing": "Pay over time with Affirm from $49/mo"
@@ -879,7 +878,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Clinical trials show Tirzepatide yields 20.9% weight reduction vs 14.9% for Semaglutide. Telehealth FX offers Semaglutide at from $99/mo for budget efficiency and Tirzepatide at $99 for your first month (then from $214–$299/mo with Affirm financing) for maximum potency. Prescribed through SkinnyRx with $0 clinician fees and Affirm pay-over-time options.",
     "competitorName": "Semaglutide Baseline",
     "competitorPrice": "$199/mo",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$299/mo",
     "financing": "Pay over time with Affirm from $49/mo"
@@ -895,7 +894,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Due to dual GIP/GLP-1 activation, Tirzepatide generally produces faster initial appetite suppression and greater week-4 to week-12 weight reduction than single-action Semaglutide. Prescribed through SkinnyRx with $0 clinician fees and Affirm pay-over-time options.",
     "competitorName": "Single GLP-1",
     "competitorPrice": "Standard rate",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$299/mo",
     "financing": "Pay over time with Affirm from $49/mo"
@@ -911,7 +910,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "In the SURPASS-2 trial, Tirzepatide demonstrated superior weight loss and glycemic control compared to Ozempic (semaglutide 1.0mg). Telehealth FX provides compounded Tirzepatide for $99 for your first month (then from $214–$299/mo with Affirm financing). Prescribed through SkinnyRx with $0 clinician fees and Affirm pay-over-time options.",
     "competitorName": "Branded Ozempic",
     "competitorPrice": "$950 - $1,000/mo",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$299/mo",
     "financing": "Pay over time with Affirm from $49/mo"
@@ -927,7 +926,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Both medications contain the identical active peptide molecule: tirzepatide. 503A compounding pharmacies synthesize patient-specific doses meeting strict USP sterility standards. Prescribed through SkinnyRx with $0 clinician fees and Affirm pay-over-time options.",
     "competitorName": "Branded Zepbound",
     "competitorPrice": "$1,050/mo",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$299/mo",
     "financing": "Pay over time with Affirm from $49/mo"
@@ -943,7 +942,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "State-licensed 503A compounding pharmacies use high-purity semaglutide base verified by HPLC testing to match the chemical structure and biological activity of brand Wegovy. Available through SkinnyRx with $0 doctor consult fees and Affirm financing.",
     "competitorName": "Branded Wegovy",
     "competitorPrice": "$1,349/mo",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$199/mo",
     "financing": "Pay over time with Affirm from $25/mo"
@@ -959,7 +958,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Weekly subcutaneous semaglutide injections achieve significantly higher bioavailability and clinical weight loss (15%) compared to daily oral tablets, which require strict fasting. Available through SkinnyRx with $0 doctor consult fees and Affirm financing.",
     "competitorName": "Oral Tablets",
     "competitorPrice": "Lower bioavailability",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/semaglutide-tablets",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$199/mo",
     "financing": "Pay over time with Affirm from $25/mo"
@@ -975,7 +974,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "While sublingual drops avoid needles, peptide absorption under the tongue is variable. Subcutaneous weekly injections remain the gold standard for proven 15%+ body weight reduction. Available through SkinnyRx with $0 doctor consult fees and Affirm financing.",
     "competitorName": "Sublingual Drops",
     "competitorPrice": "Variable absorption",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$199/mo",
     "financing": "Pay over time with Affirm from $25/mo"
@@ -991,7 +990,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Enclomiphene is an oral selective estrogen receptor modulator that raises testosterone while preserving fertility. Testosterone cypionate delivers higher peak levels via weekly injection.",
     "competitorName": "Testosterone Injections",
     "competitorPrice": "Suppresses LH/FSH",
-    "ctaUrl": "https://telehealthfx.com/trt/"
+    "ctaUrl": "https://go.telehealthfx.com/enclomiphene"
   },
   {
     "slug": "enclomiphene-vs-hcg-fertility-testosterone",
@@ -1004,7 +1003,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Enclomiphene stimulates the pituitary to release endogenous LH and FSH, whereas HCG mimics LH directly. Enclomiphene is taken orally as a tablet and requires no refrigeration.",
     "competitorName": "Injectable HCG",
     "competitorPrice": "$150+/mo + needles",
-    "ctaUrl": "https://telehealthfx.com/trt/"
+    "ctaUrl": "https://go.telehealthfx.com/enclomiphene"
   },
   {
     "slug": "oral-trt-vs-injectable-trt-cost-pros-cons",
@@ -1017,7 +1016,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Traditional oral methyltestosterone was liver toxic, but modern enclomiphene ($89/mo) is liver-safe. Injectable testosterone cypionate ($79/mo) remains the gold standard for peak hormone levels.",
     "competitorName": "Traditional Oral Androgens",
     "competitorPrice": "Liver concerns",
-    "ctaUrl": "https://telehealthfx.com/trt/"
+    "ctaUrl": "https://go.telehealthfx.com/testosterone"
   },
   {
     "slug": "topical-testosterone-cream-vs-injections",
@@ -1030,7 +1029,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Topical testosterone cream avoids needles but carries a risk of accidental transfer to partners and children. Injections provide precise dosing with zero transfer risk.",
     "competitorName": "Commercial AndroGel",
     "competitorPrice": "$300+/mo retail",
-    "ctaUrl": "https://telehealthfx.com/trt/"
+    "ctaUrl": "https://go.telehealthfx.com/testosterone"
   },
   {
     "slug": "semaglutide-vs-phentermine-weight-loss-results",
@@ -1043,7 +1042,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Phentermine is an amphetamine-derivative restricted to short-term use (12 weeks). Semaglutide is a metabolic hormone treatment safe for long-term weight maintenance yielding 15% loss. Available through SkinnyRx with $0 doctor consult fees and Affirm financing.",
     "competitorName": "Generic Phentermine",
     "competitorPrice": "Short-term stimulant only",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$199/mo",
     "financing": "Pay over time with Affirm from $25/mo"
@@ -1059,7 +1058,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Contrave (bupropion/naltrexone) produces an average of 5% weight loss. Compounded semaglutide produces 15% average weight reduction with proven cardiovascular benefits. Available through SkinnyRx with $0 doctor consult fees and Affirm financing.",
     "competitorName": "Branded Contrave",
     "competitorPrice": "$120 - $250/mo",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$199/mo",
     "financing": "Pay over time with Affirm from $25/mo"
@@ -1075,7 +1074,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Qsymia combines phentermine and topiramate, carrying stimulant and cognitive side effects. Compounded semaglutide targets natural satiety pathways with superior tolerability. Available through SkinnyRx with $0 doctor consult fees and Affirm financing.",
     "competitorName": "Branded Qsymia",
     "competitorPrice": "$150 - $220/mo",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$199/mo",
     "financing": "Pay over time with Affirm from $25/mo"
@@ -1091,7 +1090,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "While metformin is an effective glucose-lowering drug, weight loss is modest (2-3%). Compounded semaglutide slows gastric emptying and curbs food noise for 15% weight reduction. Available through SkinnyRx with $0 doctor consult fees and Affirm financing.",
     "competitorName": "Generic Metformin",
     "competitorPrice": "Minimal weight loss",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$199/mo",
     "financing": "Pay over time with Affirm from $25/mo"
@@ -1107,7 +1106,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Berberine has poor oral bioavailability (<1%) and produces 2-4 lbs of weight loss in human trials. Compounded semaglutide produces 15% mean body weight reduction under doctor care. Available through SkinnyRx with $0 doctor consult fees and Affirm financing.",
     "competitorName": "Over-the-Counter Berberine",
     "competitorPrice": "Poor bioavailability",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$199/mo",
     "financing": "Pay over time with Affirm from $25/mo"
@@ -1123,7 +1122,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Sermorelin stimulates natural growth hormone release, while TRT directly restores serum testosterone levels. Both can be combined under physician oversight at Telehealth FX.",
     "competitorName": "Standard Peptide Clinic",
     "competitorPrice": "$200+/mo",
-    "ctaUrl": "https://telehealthfx.com/trt/"
+    "ctaUrl": "https://go.telehealthfx.com/testosterone"
   },
   {
     "slug": "nad-therapy-vs-glp1-metabolic-benefits",
@@ -1136,7 +1135,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "NAD+ optimizes cellular mitochondrial ATP production and cognitive focus. Compounded semaglutide regulates insulin sensitivity and satiety. They work synergistically for vitality. Available through SkinnyRx with $0 doctor consult fees and Affirm financing.",
     "competitorName": "IV Bar NAD+",
     "competitorPrice": "$300 - $600/infusion",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$199/mo",
     "financing": "Pay over time with Affirm from $25/mo"
@@ -1152,7 +1151,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Tirzepatide 2.5mg is a 4-week initiation dose to prepare the GI tract. The 5.0mg dose is the first therapeutic weight loss level where significant fat loss begins. Prescribed through SkinnyRx with $0 clinician fees and Affirm pay-over-time options.",
     "competitorName": "Standard Escalation",
     "competitorPrice": "Included in flat price",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$299/mo",
     "financing": "Pay over time with Affirm from $49/mo"
@@ -1168,7 +1167,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Higher doses of Tirzepatide (10mg-15mg) produced up to 20.9% body weight reduction in the SURMOUNT-1 clinical trial. Telehealth FX maintains flat $99 for your first month (then from $214–$299/mo with Affirm financing) pricing across all doses. Prescribed through SkinnyRx with $0 clinician fees and Affirm pay-over-time options.",
     "competitorName": "Tiered Pricing Platforms",
     "competitorPrice": "$450+/mo at 15mg",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$299/mo",
     "financing": "Pay over time with Affirm from $49/mo"
@@ -1184,7 +1183,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Semaglutide titration begins at 0.25mg for 4 weeks to prevent nausea, progressing to 0.5mg and 1.0mg where steady 1-2 lbs per week fat loss occurs. Available through SkinnyRx with $0 doctor consult fees and Affirm financing.",
     "competitorName": "Standard Titration",
     "competitorPrice": "Full physician oversight",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$199/mo",
     "financing": "Pay over time with Affirm from $25/mo"
@@ -1200,7 +1199,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Patients plateauing on semaglutide can cross-titrate to tirzepatide. For example, 1.0mg semaglutide typically converts to 5.0mg tirzepatide without restarting at 2.5mg. Prescribed through SkinnyRx with $0 clinician fees and Affirm pay-over-time options.",
     "competitorName": "Unmonitored Transition",
     "competitorPrice": "Appetite rebound risk",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$299/mo",
     "financing": "Pay over time with Affirm from $49/mo"
@@ -1216,7 +1215,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Switching from Ozempic to 503A compounded semaglutide requires only verification of your current dose. Telehealth FX continues your established dose seamlessly for $99 first month promo (then $199/mo). Available through SkinnyRx with $0 doctor consult fees and Affirm financing.",
     "competitorName": "Branded Ozempic Shortages",
     "competitorPrice": "Treatment disruption",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$199/mo",
     "financing": "Pay over time with Affirm from $25/mo"
@@ -1232,7 +1231,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Phoenix medspas charge $350-$500/month for in-person injections. Telehealth FX delivers doctor-prescribed compounded Semaglutide ($99 first month promo (then $199/mo)) and Tirzepatide (from $99/mo) directly to Maricopa County residents in 48 hours. Available through SkinnyRx with $0 doctor consult fees and Affirm financing.",
     "competitorName": "Phoenix In-Person Medspas",
     "competitorPrice": "$450/mo + clinic visits",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$199/mo",
     "financing": "Pay over time with Affirm from $25/mo"
@@ -1248,7 +1247,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Telehealth FX connects Phoenix residents directly with Arizona-licensed physicians for same-day semaglutide approvals and express cold-chain home delivery for from $99 first month with Affirm financing. Available through SkinnyRx with $0 doctor consult fees and Affirm financing.",
     "competitorName": "Local Scottsdale/Phoenix Clinics",
     "competitorPrice": "$399/mo",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$199/mo",
     "financing": "Pay over time with Affirm from $25/mo"
@@ -1264,7 +1263,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Skip the insurance denials in Phoenix. Telehealth FX delivers high-purity 503A compounded tirzepatide directly to Phoenix, Scottsdale, and Mesa residents for $99 for your first month (then from $214–$299/mo with Affirm financing). Prescribed through SkinnyRx with $0 clinician fees and Affirm pay-over-time options.",
     "competitorName": "Arizona Weight Clinics",
     "competitorPrice": "$500/mo",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$299/mo",
     "financing": "Pay over time with Affirm from $49/mo"
@@ -1280,7 +1279,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "San Francisco Bay Area clinics charge premium fees of $500 to $750/mo. Telehealth FX provides California-licensed doctor oversight and 48-hr cold shipping from $99 first month with Affirm financing. Available through SkinnyRx with $0 doctor consult fees and Affirm financing.",
     "competitorName": "SF Bay Area Medspas",
     "competitorPrice": "$600+/mo",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$199/mo",
     "financing": "Pay over time with Affirm from $25/mo"
@@ -1296,7 +1295,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Telehealth FX delivers 503A quality-verified compounded semaglutide directly to SF, Oakland, and Silicon Valley doorsteps for $99 first month promo (then $199/mo)nth all-inclusive. Available through SkinnyRx with $0 doctor consult fees and Affirm financing.",
     "competitorName": "Bay Area Telehealth",
     "competitorPrice": "$350+/mo",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$199/mo",
     "financing": "Pay over time with Affirm from $25/mo"
@@ -1312,7 +1311,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "San Francisco residents can access dual-action compounded tirzepatide for $99 for your first month (then from $214–$299/mo with Affirm financing) flat, avoiding brand Zepbound shortages and inflated Northern California clinic fees. Prescribed through SkinnyRx with $0 clinician fees and Affirm pay-over-time options.",
     "competitorName": "SF Medical Clinics",
     "competitorPrice": "$550/mo",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$299/mo",
     "financing": "Pay over time with Affirm from $49/mo"
@@ -1328,7 +1327,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "San Antonio weight loss clinics charge $350-$450 monthly plus membership fees. Telehealth FX provides Texas-licensed doctor reviews and 48-hour delivery from $99 first month promo (then $199/mo). Available through SkinnyRx with $0 doctor consult fees and Affirm financing.",
     "competitorName": "San Antonio Medspas",
     "competitorPrice": "$400/mo",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$199/mo",
     "financing": "Pay over time with Affirm from $25/mo"
@@ -1344,7 +1343,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Telehealth FX provides Bexar County residents with convenient, private access to doctor-prescribed compounded semaglutide for $99 first month promo (then $199/mo)nth with zero membership traps. Available through SkinnyRx with $0 doctor consult fees and Affirm financing.",
     "competitorName": "Texas Clinics",
     "competitorPrice": "$349/mo",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$199/mo",
     "financing": "Pay over time with Affirm from $25/mo"
@@ -1360,7 +1359,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Telehealth FX delivers 503A compounded tirzepatide directly to San Antonio and New Braunfels homes for a flat $99 for your first month (then from $214–$299/mo with Affirm financing), bypassing retail pharmacy shortages. Prescribed through SkinnyRx with $0 clinician fees and Affirm pay-over-time options.",
     "competitorName": "Local Clinics",
     "competitorPrice": "$450/mo",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$299/mo",
     "financing": "Pay over time with Affirm from $49/mo"
@@ -1376,7 +1375,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "San Diego residents can skip expensive coastal medspa visits. Telehealth FX provides California doctor oversight and direct 503A pharmacy shipping for $99 first month promo (then $199/mo)nth flat. Available through SkinnyRx with $0 doctor consult fees and Affirm financing.",
     "competitorName": "San Diego Medspas",
     "competitorPrice": "$475/mo",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$199/mo",
     "financing": "Pay over time with Affirm from $25/mo"
@@ -1392,7 +1391,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Telehealth FX connects San Diego patients with California-licensed clinicians to deliver 503A compounded semaglutide to La Jolla, Chula Vista, and North County for $99 first month promo (then $199/mo). Available through SkinnyRx with $0 doctor consult fees and Affirm financing.",
     "competitorName": "Local California Clinics",
     "competitorPrice": "$350/mo",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$199/mo",
     "financing": "Pay over time with Affirm from $25/mo"
@@ -1408,7 +1407,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Telehealth FX provides San Diego residents with doctor-supervised compounded tirzepatide for $99 for your first month (then from $214–$299/mo with Affirm financing) flat, delivering up to 20.9% weight loss without pharmacy delays. Prescribed through SkinnyRx with $0 clinician fees and Affirm pay-over-time options.",
     "competitorName": "Southern CA Clinics",
     "competitorPrice": "$500/mo",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$299/mo",
     "financing": "Pay over time with Affirm from $49/mo"
@@ -1424,7 +1423,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Milwaukee endocrinology practices face months-long waitlists. Telehealth FX provides Wisconsin-licensed doctor consultations and 48-hour delivery from $99 first month with Affirm financing. Available through SkinnyRx with $0 doctor consult fees and Affirm financing.",
     "competitorName": "Milwaukee Health Clinics",
     "competitorPrice": "$400/mo + waitlists",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$199/mo",
     "financing": "Pay over time with Affirm from $25/mo"
@@ -1440,7 +1439,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Telehealth FX delivers 503A sterile compounded semaglutide directly to Milwaukee and Waukesha County households for $99 first month promo (then $199/mo)nth with complete clinician oversight. Available through SkinnyRx with $0 doctor consult fees and Affirm financing.",
     "competitorName": "Wisconsin Clinics",
     "competitorPrice": "$325/mo",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$199/mo",
     "financing": "Pay over time with Affirm from $25/mo"
@@ -1456,7 +1455,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Skip local pharmacy shortages in Milwaukee. Telehealth FX delivers 503A compounded tirzepatide directly to your doorstep for $99 for your first month (then from $214–$299/mo with Affirm financing) flat with zero hidden fees. Prescribed through SkinnyRx with $0 clinician fees and Affirm pay-over-time options.",
     "competitorName": "Midwest Weight Centers",
     "competitorPrice": "$450/mo",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$299/mo",
     "financing": "Pay over time with Affirm from $49/mo"
@@ -1472,7 +1471,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Indianapolis patients can bypass local clinic lines and access doctor-prescribed compounded Semaglutide ($99 first month promo (then $199/mo)) and Tirzepatide (from $99/mo) delivered cold in 48 hours. Available through SkinnyRx with $0 doctor consult fees and Affirm financing.",
     "competitorName": "Indy Weight Centers",
     "competitorPrice": "$375/mo",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$199/mo",
     "financing": "Pay over time with Affirm from $25/mo"
@@ -1488,7 +1487,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Telehealth FX delivers quality-verified compounded semaglutide across Marion, Hamilton, and Hendricks Counties for $99 first month promo (then $199/mo)nth all-inclusive. Available through SkinnyRx with $0 doctor consult fees and Affirm financing.",
     "competitorName": "Indiana Clinics",
     "competitorPrice": "$300/mo",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$199/mo",
     "financing": "Pay over time with Affirm from $25/mo"
@@ -1504,7 +1503,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Indiana residents can access doctor-prescribed 503A compounded tirzepatide for $99 for your first month (then from $214–$299/mo with Affirm financing) flat, bypassing retail Zepbound stockouts with direct cold-chain shipping. Prescribed through SkinnyRx with $0 clinician fees and Affirm pay-over-time options.",
     "competitorName": "Indy Clinics",
     "competitorPrice": "$450/mo",
-    "ctaUrl": "https://telehealthfx.com/skinnyrx/",
+    "ctaUrl": "https://go.telehealthfx.com/start",
     "firstMonthPrice": "$99/mo",
     "standardPrice": "$299/mo",
     "financing": "Pay over time with Affirm from $49/mo"
@@ -1520,7 +1519,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Dallas men's health clinics charge $200-$300/mo for weekly office visits. Telehealth FX provides Texas doctor oversight and discreet home shipping from $79/month flat.",
     "competitorName": "Dallas In-Person Clinics",
     "competitorPrice": "$250/mo",
-    "ctaUrl": "https://telehealthfx.com/trt/"
+    "ctaUrl": "https://go.telehealthfx.com/testosterone"
   },
   {
     "slug": "best-online-trt-clinic-denver-co",
@@ -1533,7 +1532,7 @@ export const KEYWORD_MAGNETS = [
     "directAnswer": "Denver men can avoid expensive clinic visits and access comprehensive testosterone therapy (injectables, creams, or oral enclomiphene) from $79/mo with Colorado clinician care.",
     "competitorName": "Denver Men's Clinics",
     "competitorPrice": "$225/mo",
-    "ctaUrl": "https://telehealthfx.com/trt/"
+    "ctaUrl": "https://go.telehealthfx.com/testosterone"
   }
 ];
 

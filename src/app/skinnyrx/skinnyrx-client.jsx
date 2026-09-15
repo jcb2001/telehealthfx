@@ -6,19 +6,18 @@ import React from "react";
    Color palette extracted from skinnyrx.com production CSS
    ──────────────────────────────────────────────────── */
 
-const BASE_AFF_URL =
-  "https://track.revoffers.com/aff_c?offer_id=1464&aff_id=12322&source=skinnyrx_landing&sub2=tfx_prospecting_glp1&sub4=cpc";
+const BASE_AFF_URL = "https://go.telehealthfx.com/start";
 
-const CTA_URL = `${BASE_AFF_URL}&url_id=11880`;
+const CTA_URL = "https://go.telehealthfx.com/start";
 
 export const TREATMENT_URLS = {
-  quiz: `${BASE_AFF_URL}&url_id=11880`,
-  tirzepatideInjectable: `${BASE_AFF_URL}&url_id=11875`,
-  tirzepatideTablets: `${BASE_AFF_URL}&url_id=11876`,
-  semaglutideTablets: `${BASE_AFF_URL}&url_id=11877`,
-  semaglutideInjectable: `${BASE_AFF_URL}&url_id=11878`,
-  semaglutideOralDrops: `${BASE_AFF_URL}&url_id=11879`,
-  customGlp1: `${BASE_AFF_URL}&url_id=11893`,
+  quiz: "https://go.telehealthfx.com/start",
+  tirzepatideInjectable: "https://go.telehealthfx.com/start?url_id=11875",
+  tirzepatideTablets: "https://go.telehealthfx.com/tirzepatide-tablets",
+  semaglutideTablets: "https://go.telehealthfx.com/semaglutide-tablets",
+  semaglutideInjectable: "https://go.telehealthfx.com/start?url_id=11878",
+  semaglutideOralDrops: "https://go.telehealthfx.com/sublingual-semaglutide",
+  customGlp1: "https://go.telehealthfx.com/start?url_id=11893",
 };
 
 /* ── Brand tokens ── */
