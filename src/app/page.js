@@ -269,13 +269,15 @@ function HomePageSchema() {
         "itemListElement": [
           { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://telehealthfx.com/" },
           { "@type": "ListItem", "position": 2, "name": "Treatments", "item": "https://telehealthfx.com/#treatments" },
-          { "@type": "ListItem", "position": 3, "name": "Wegovy", "item": "https://telehealthfx.com/medications/wegovy" },
-          { "@type": "ListItem", "position": 4, "name": "Ozempic", "item": "https://telehealthfx.com/medications/ozempic" },
-          { "@type": "ListItem", "position": 5, "name": "Zepbound", "item": "https://telehealthfx.com/medications/zepbound" },
-          { "@type": "ListItem", "position": 6, "name": "Mounjaro", "item": "https://telehealthfx.com/medications/mounjaro" },
-          { "@type": "ListItem", "position": 7, "name": "Testosterone Therapy", "item": "https://telehealthfx.com/medications/testosterone" },
-          { "@type": "ListItem", "position": 8, "name": "Enclomiphene", "item": "https://telehealthfx.com/medications/enclomiphene" },
-          { "@type": "ListItem", "position": 9, "name": "Health Articles", "item": "https://telehealthfx.com/blog" }
+          { "@type": "ListItem", "position": 3, "name": "Semaglutide", "item": "https://telehealthfx.com/medications/semaglutide" },
+          { "@type": "ListItem", "position": 4, "name": "Tirzepatide", "item": "https://telehealthfx.com/medications/tirzepatide" },
+          { "@type": "ListItem", "position": 5, "name": "Semaglutide Tablets", "item": "https://telehealthfx.com/medications/semaglutide-tablets" },
+          { "@type": "ListItem", "position": 6, "name": "Tirzepatide Tablets", "item": "https://telehealthfx.com/medications/tirzepatide-tablets" },
+          { "@type": "ListItem", "position": 7, "name": "Wegovy", "item": "https://telehealthfx.com/medications/wegovy" },
+          { "@type": "ListItem", "position": 8, "name": "Ozempic", "item": "https://telehealthfx.com/medications/ozempic" },
+          { "@type": "ListItem", "position": 9, "name": "Zepbound", "item": "https://telehealthfx.com/medications/zepbound" },
+          { "@type": "ListItem", "position": 10, "name": "Mounjaro", "item": "https://telehealthfx.com/medications/mounjaro" },
+          { "@type": "ListItem", "position": 11, "name": "Health Articles", "item": "https://telehealthfx.com/blog" }
         ]
       }
     ]
