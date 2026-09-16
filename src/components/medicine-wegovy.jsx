@@ -218,9 +218,41 @@ function WegovyPage() {
   };
 
   return (
-    <section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}>
+    <section className="section" style={{ minHeight: '60vh', paddingTop: 40 }}>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
       <div className="container" style={{ maxWidth: 880 }}>
+
+        {/* Top Fast-Action Banner */}
+        <div style={{
+          background: 'linear-gradient(135deg, rgba(199, 125, 92, 0.08) 0%, rgba(199, 125, 92, 0.03) 100%)',
+          border: '1px solid rgba(199, 125, 92, 0.25)',
+          borderRadius: 14,
+          padding: '14px 20px',
+          marginBottom: 32,
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'space-between',
+          flexWrap: 'wrap',
+          gap: 12
+        }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 10, flexWrap: 'wrap' }}>
+            <span style={{ background: 'var(--accent, #C77D5C)', color: '#fff', fontSize: 11, fontWeight: 700, padding: '3px 10px', borderRadius: 999, textTransform: 'uppercase', letterSpacing: '0.04em' }}>
+              Special Promo
+            </span>
+            <span style={{ fontSize: 14, fontWeight: 600, color: 'var(--ink)' }}>
+              Save up to $100 on your first order · Flat $899/mo across all doses
+            </span>
+          </div>
+          <a
+            href={CTA_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-primary"
+            style={{ padding: '10px 22px', fontSize: 14, display: 'inline-flex', alignItems: 'center', gap: 6, textDecoration: 'none', whiteSpace: 'nowrap' }}
+          >
+            Claim $100 Off <Icon.Arrow size={14} />
+          </a>
+        </div>
 
         {/* Hero */}
         <div style={{ textAlign: 'center', marginBottom: 60 }}>
@@ -238,7 +270,7 @@ function WegovyPage() {
             <a href={CTA_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', padding: '18px 36px', fontSize: 18 }}>
               Claim $100 Off First Order <Icon.Arrow />
             </a>
-            <span style={{ fontSize: 13, color: 'var(--ink-3)' }}>Discount auto-applied at checkout · FSA & HSA eligible</span>
+            <span style={{ fontSize: 13, color: 'var(--ink-3)' }}>Discount auto-applied at checkout · FSA & HSA eligible · Free cold shipping</span>
           </div>
         </div>
 
