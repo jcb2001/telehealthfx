@@ -28,7 +28,7 @@ function Blog10KeyFactsGLP1Health() {
             </div>
             <div>
               <div style={{ fontWeight: 500, fontSize: 14 }}>
-                <a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a>
+                <a href="/about/" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a>
               </div>
               <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>
                 Lead Bio-Systems Analyst · Updated June 2026 · 18 min read
@@ -129,7 +129,7 @@ function Blog10KeyFactsGLP1Health() {
               <li style={{ marginBottom: 12 }}>Stabilizes atherosclerotic plaques, lowering the risk of rupture.</li>
             </ul>
             <p>
-              This landmark research, which we discuss in detail in our <a href="/blog/glp-1-and-your-heart-the-select-trial-cardiovascul" style={{ color: 'var(--brand)', fontWeight: 500 }}>heart and SELECT trial analysis</a>, repositioned GLP-1 receptor agonists from weight management tools to primary preventative cardiovascular therapies.
+              This landmark research, which we discuss in detail in our <a href="/blog/glp-1-and-your-heart-the-select-trial-cardiovascul/" style={{ color: 'var(--brand)', fontWeight: 500 }}>heart and SELECT trial analysis</a>, repositioned GLP-1 receptor agonists from weight management tools to primary preventative cardiovascular therapies.
             </p>
 
             <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>
@@ -155,12 +155,12 @@ function Blog10KeyFactsGLP1Health() {
               In clinical settings, these side effects are highly manageable using evidence-based protocols:
             </p>
             <ul>
-              <li style={{ marginBottom: 12 }}><strong>Nausea:</strong> Frequently stems from eating past satiety or consuming high-fat foods. Transitioning to smaller, nutrient-dense meals and staying hydrated usually resolves the issue. For a complete mitigation checklist, read our <a href="/blog/glp-1-side-effects-how-to-manage-nausea-fatigue-mo" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 side effects management guide</a>.</li>
+              <li style={{ marginBottom: 12 }}><strong>Nausea:</strong> Frequently stems from eating past satiety or consuming high-fat foods. Transitioning to smaller, nutrient-dense meals and staying hydrated usually resolves the issue. For a complete mitigation checklist, read our <a href="/blog/glp-1-side-effects-how-to-manage-nausea-fatigue-mo/" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 side effects management guide</a>.</li>
               <li style={{ marginBottom: 12 }}><strong>Fatigue:</strong> Often caused by an accidental, drastic caloric deficit. Consuming adequate electrolytes and maintaining proper carbohydrate intake prevents this "energy crash."</li>
               <li style={{ marginBottom: 12 }}><strong>Constipation:</strong> A direct result of delayed gastric and intestinal motility. Increasing dietary fiber, consuming 100+ ounces of water daily, and utilizing magnesium oxide or citrate can prevent transit delays.</li>
             </ul>
             <p>
-              The golden rule of GLP-1 therapy is conservative titration. By starting at the lowest possible dose (e.g., 0.25 mg of semaglutide or 2.5 mg of tirzepatide) and escalating only after four weeks of stable tolerance, the body is allowed to adapt without severe side effects. Our detailed <a href="/blog/compounded-semaglutide-dosing-guide-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>compounded dosing guide</a> outlines these progressive step-up protocols.
+              The golden rule of GLP-1 therapy is conservative titration. By starting at the lowest possible dose (e.g., 0.25 mg of semaglutide or 2.5 mg of tirzepatide) and escalating only after four weeks of stable tolerance, the body is allowed to adapt without severe side effects. Our detailed <a href="/blog/compounded-semaglutide-dosing-guide-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>compounded dosing guide</a> outlines these progressive step-up protocols.
             </p>
 
             <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>
@@ -181,7 +181,7 @@ function Blog10KeyFactsGLP1Health() {
               </li>
             </ol>
             <p>
-              We explore the pathophysiology of muscle preservation in detail in our analysis of <a href="/blog/glp-1-muscle-loss-the-hidden-risk-nobodys-talking" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 muscle loss risks</a>, and discuss how to implement these training routines in our guide to <a href="/blog/glp-1-and-exercise-how-to-combine-medication-with" style={{ color: 'var(--brand)', fontWeight: 500 }}>combining exercise with GLP-1 therapy</a>.
+              We explore the pathophysiology of muscle preservation in detail in our analysis of <a href="/blog/glp-1-muscle-loss-the-hidden-risk-nobodys-talking/" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 muscle loss risks</a>, and discuss how to implement these training routines in our guide to <a href="/blog/glp-1-and-exercise-how-to-combine-medication-with/" style={{ color: 'var(--brand)', fontWeight: 500 }}>combining exercise with GLP-1 therapy</a>.
             </p>
 
             <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>
@@ -207,7 +207,7 @@ function Blog10KeyFactsGLP1Health() {
               GLP-1 receptor agonists act as direct counter-measures to this cascade. By improving pancreatic beta-cell sensitivity and reducing visceral adiposity, they reverse insulin resistance. In the liver, GLP-1 therapy reduces hepatic de novo lipogenesis (fat production) and increases mitochondrial fatty acid oxidation. 
             </p>
             <p>
-              Clinical trials have demonstrated that 52 weeks of weekly GLP-1 treatment resulted in the complete resolution of steatohepatitis in up to 59% of patients without worsening fibrosis. Furthermore, as visceral fat reserves drain, the systemic release of pro-inflammatory cytokines (like IL-6 and TNF-alpha) declines, resolving the chronic low-grade inflammation that drives metabolic disease. You can review this therapeutic mechanism in our articles on <a href="/blog/glp1-metabolic-syndrome-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>reversing metabolic syndrome</a> and <a href="/blog/glp1-fatty-liver-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 fatty liver research</a>.
+              Clinical trials have demonstrated that 52 weeks of weekly GLP-1 treatment resulted in the complete resolution of steatohepatitis in up to 59% of patients without worsening fibrosis. Furthermore, as visceral fat reserves drain, the systemic release of pro-inflammatory cytokines (like IL-6 and TNF-alpha) declines, resolving the chronic low-grade inflammation that drives metabolic disease. You can review this therapeutic mechanism in our articles on <a href="/blog/glp1-metabolic-syndrome-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>reversing metabolic syndrome</a> and <a href="/blog/glp1-fatty-liver-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 fatty liver research</a>.
             </p>
 
             <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>

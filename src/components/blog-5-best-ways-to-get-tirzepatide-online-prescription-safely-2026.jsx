@@ -21,7 +21,7 @@ function Blog5BestWaysToGetTirzepatideOnline() {
             </div>
             <div>
               <div style={{ fontWeight: 500, fontSize: 14, color: '#0f291e' }}>
-                <a href="/about" style={{ color: "#0f291e", textDecoration: "none" }}>Julian Mercer, M.S.</a>
+                <a href="/about/" style={{ color: "#0f291e", textDecoration: "none" }}>Julian Mercer, M.S.</a>
               </div>
               <div style={{ fontSize: 13, color: '#065f46' }}>
                 Lead Bio-Systems Analyst · Updated June 2026 · 18 min read

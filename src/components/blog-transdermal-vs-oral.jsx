@@ -23,7 +23,7 @@ function BlogTransdermalVsOral() {
             <Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' , height: "auto"}} priority={true} />
           </div>
           <div>
-            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
+            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about/" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
             <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 27 min read</div>
           </div>
         </div>
@@ -53,7 +53,7 @@ function BlogTransdermalVsOral() {
           <p>Oral delivery is the most common, cheapest, and easiest method of administration. It is also, biologically, the most hostile and inefficient path a molecule can take.</p>
 
           <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>The Gauntlet</h3>
-          <p>When you swallow a capsule, the compound must first survive the extreme acidity of the stomach. If it survives, it enters the small intestine, where it must dissolve in intestinal fluids and cross the epithelial lining. As we detailed in our <a href="/blog/berberine-oral-bioavailability" style={{ color: 'var(--brand)', fontWeight: 500 }}>breakdown of berberine oral bioavailability</a>, this is where P-glycoprotein efflux pumps actively push the molecule back into the gut.</p>
+          <p>When you swallow a capsule, the compound must first survive the extreme acidity of the stomach. If it survives, it enters the small intestine, where it must dissolve in intestinal fluids and cross the epithelial lining. As we detailed in our <a href="/blog/berberine-oral-bioavailability/" style={{ color: 'var(--brand)', fontWeight: 500 }}>breakdown of berberine oral bioavailability</a>, this is where P-glycoprotein efflux pumps actively push the molecule back into the gut.</p>
 
           <p>If the molecule manages to cross the intestinal wall, it enters the portal vein, which routes it directly to the liver. This is the ultimate trap: <strong>Hepatic First-Pass Metabolism</strong>. The liver acts as the body's primary filter, utilizing CYP450 enzymes to metabolize and destroy foreign compounds before they can reach the heart and systemic circulation. For compounds like berberine or NAD+, the liver destroys roughly 95-99% of the active ingredient.</p>
 
@@ -67,7 +67,7 @@ function BlogTransdermalVsOral() {
           <p>Because the capillaries in your skin route blood directly to the systemic circulation (bypassing the portal vein), transdermal delivery completely avoids hepatic first-pass metabolism. A 50mg transdermal dose of dihydroberberine can yield higher, more stable plasma levels than a 1,000mg oral capsule.</p>
 
           <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>Zero-Order Kinetics</h3>
-          <p>Unlike the violent spikes and crashes of oral pills, <a href="/blog/transdermal-drug-delivery-systems" style={{ color: 'var(--brand)', fontWeight: 500 }}>transdermal drug delivery systems</a> provide "zero-order release kinetics." The patch acts as an IV drip on your skin, delivering the compound at a continuous, steady rate over 24 hours. You remain constantly in the optimal therapeutic window without experiencing toxic spikes or gastrointestinal distress.</p>
+          <p>Unlike the violent spikes and crashes of oral pills, <a href="/blog/transdermal-drug-delivery-systems/" style={{ color: 'var(--brand)', fontWeight: 500 }}>transdermal drug delivery systems</a> provide "zero-order release kinetics." The patch acts as an IV drip on your skin, delivering the compound at a continuous, steady rate over 24 hours. You remain constantly in the optimal therapeutic window without experiencing toxic spikes or gastrointestinal distress.</p>
 
           <div style={{ overflowX: 'auto', marginBottom: 48, marginTop: 32 }}>
             <table style={{ width: '100%', borderCollapse: 'collapse', textAlign: 'left', border: '1px solid var(--line-soft)' }}>
@@ -108,17 +108,17 @@ function BlogTransdermalVsOral() {
 
           <p>The answer lies in molecular biology. Transdermal patches rely on passive diffusion through the dense, lipid matrix of the skin. To squeeze through this microscopic barrier, a molecule must be incredibly small—typically under 500 Daltons in molecular weight. Berberine (336 Daltons) and Dihydroberberine (339 Daltons) fit perfectly.</p>
 
-          <p>Semaglutide, the active peptide in <a href="/blog/what-is-a-glp-1-medication" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 medications</a>, is a massive macromolecule with a molecular weight of 4,113 Daltons. It is physically impossible for a molecule that large to passively diffuse through the stratum corneum. If you put Semaglutide in a transdermal patch, 0% of it would enter your bloodstream. It would simply sit on top of your skin.</p>
+          <p>Semaglutide, the active peptide in <a href="/blog/what-is-a-glp-1-medication/" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 medications</a>, is a massive macromolecule with a molecular weight of 4,113 Daltons. It is physically impossible for a molecule that large to passively diffuse through the stratum corneum. If you put Semaglutide in a transdermal patch, 0% of it would enter your bloodstream. It would simply sit on top of your skin.</p>
 
           <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>The Subcutaneous Route</h3>
-          <p>To deliver massive peptides like GLP-1s, Tirzepatide, or <a href="/medications/sermorelin" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Sermorelin</a>, we must mechanically bypass the skin barrier using a tiny needle. Subcutaneous injections deliver the peptide directly into the fatty tissue just beneath the skin. From there, it is rapidly absorbed into the capillaries. This provides 100% bioavailability, zero first-pass liver metabolism, and avoids the gastrointestinal tract entirely.</p>
+          <p>To deliver massive peptides like GLP-1s, Tirzepatide, or <a href="/medications/sermorelin/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Sermorelin</a>, we must mechanically bypass the skin barrier using a tiny needle. Subcutaneous injections deliver the peptide directly into the fatty tissue just beneath the skin. From there, it is rapidly absorbed into the capillaries. This provides 100% bioavailability, zero first-pass liver metabolism, and avoids the gastrointestinal tract entirely.</p>
 
           <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
             <div style={{ width: 48, height: 48, borderRadius: '50%', background: 'var(--brand-soft)', color: 'var(--brand)', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 20px' }}>
               <Icon.Check size={24} />
             </div>
             <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Access Clinical-Grade Injections</h3>
-            <p style={{ marginBottom: 24, fontSize: 16 }}>Need the power of GLP-1 peptides? See if you qualify for <a href="/blog/is-compounded-semaglutide-safe-what-you-need-to-kn" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>compounded semaglutide</a> or Tirzepatide prescribed by board-certified physicians.</p>
+            <p style={{ marginBottom: 24, fontSize: 16 }}>Need the power of GLP-1 peptides? See if you qualify for <a href="/blog/is-compounded-semaglutide-safe-what-you-need-to-kn/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>compounded semaglutide</a> or Tirzepatide prescribed by board-certified physicians.</p>
             <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>
               Check GLP-1 Eligibility <Icon.Arrow />
             </a>
@@ -130,10 +130,10 @@ function BlogTransdermalVsOral() {
           <p style={{ marginBottom: 24 }}>Rybelsus is an engineering marvel, but it proves the point. To get the massive Semaglutide molecule through the stomach, they combined it with a chemical absorption enhancer (SNAC). Even with this enhancer, the oral bioavailability of Rybelsus is roughly 1%. Patients must take a massive 14mg pill daily just to get the equivalent effect of a tiny 0.5mg weekly injection.</p>
 
           <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>Do transdermal patches last for 72 hours?</h4>
-          <p style={{ marginBottom: 24 }}>No. While marketers claim this, the Fick's Law of Diffusion dictates that once the concentration gradient drops, delivery stops. The active compound in a standard matrix patch is depleted in 18 to 24 hours. We covered this exhaustively in our <a href="/blog/72-hour-berberine-patch" style={{ color: 'var(--brand)', fontWeight: 500 }}>72-hour patch myth expose</a>.</p>
+          <p style={{ marginBottom: 24 }}>No. While marketers claim this, the Fick's Law of Diffusion dictates that once the concentration gradient drops, delivery stops. The active compound in a standard matrix patch is depleted in 18 to 24 hours. We covered this exhaustively in our <a href="/blog/72-hour-berberine-patch/" style={{ color: 'var(--brand)', fontWeight: 500 }}>72-hour patch myth expose</a>.</p>
 
           <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>Is transdermal Berberine better than Ozempic?</h4>
-          <p style={{ marginBottom: 24 }}>They are two different tools for two different levels of metabolic dysfunction. Berberine (via AMPK activation) is phenomenal for early-stage insulin resistance, while Ozempic (via GLP-1) is a clinical powerhouse for severe obesity. We compare them directly in our <a href="/blog/berberine-vs-ozempic" style={{ color: 'var(--brand)', fontWeight: 500 }}>Berberine vs Ozempic clinical guide</a>.</p>
+          <p style={{ marginBottom: 24 }}>They are two different tools for two different levels of metabolic dysfunction. Berberine (via AMPK activation) is phenomenal for early-stage insulin resistance, while Ozempic (via GLP-1) is a clinical powerhouse for severe obesity. We compare them directly in our <a href="/blog/berberine-vs-ozempic/" style={{ color: 'var(--brand)', fontWeight: 500 }}>Berberine vs Ozempic clinical guide</a>.</p>
 
           <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>Are transdermal patches safe?</h4>
           <p style={{ marginBottom: 24 }}>Yes, they are exceptionally safe because they avoid gastrointestinal damage. The only common side effect is mild contact dermatitis (skin irritation) from the adhesive. This is easily mitigated by rotating the patch application site daily.</p>

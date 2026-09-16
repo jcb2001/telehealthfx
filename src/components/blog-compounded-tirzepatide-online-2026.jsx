@@ -8,7 +8,7 @@ function BlogCompoundedTirzepatideOnline() {
   return (<><section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}><div className="container" style={{ maxWidth: 800 }}>
     <div className="eyebrow" style={{ marginBottom: 20 }}>Tirzepatide Access</div>
     <h1 className="serif" style={{ fontSize: 52, marginBottom: 24, lineHeight: 1.08 }}>Compounded Tirzepatide: <span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>Where to Get It Online, What It Costs &amp; Is It Safe? (2026)</span></h1>
-    <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}><div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)' }}><Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%', height: "auto"}} priority={true} /></div><div><div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div><div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 22 min read</div></div></div>
+    <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}><div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)' }}><Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%', height: "auto"}} priority={true} /></div><div><div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about/" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div><div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 22 min read</div></div></div>
     <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
       <Image src="/assets/compounded-tirzepatide-online-featured.png" alt="Compounded tirzepatide vial next to brand-name pen" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111', height: "auto"}} priority={true} />
       <p>Tirzepatide is the most effective weight loss medication ever developed. The SURMOUNT-1 trial showed <strong>22.5% body weight loss</strong> at the highest dose — 50% more than semaglutide. But brand-name Zepbound costs $1,060/month without insurance, and Mounjaro (same drug, diabetes label) is not much cheaper. Compounded tirzepatide changes the math entirely.</p>
@@ -19,9 +19,9 @@ function BlogCompoundedTirzepatideOnline() {
         <li style={{ marginBottom: 8 }}>22.5% weight loss vs. 14.9% with semaglutide (SURMOUNT vs. STEP data)</li>
         <li style={{ marginBottom: 8 }}>Superior insulin sensitivity improvement</li>
         <li style={{ marginBottom: 8 }}>Potentially better preservation of lean muscle mass</li>
-        <li style={{ marginBottom: 8 }}>Different side effect profile (see our <a href="/blog/tirzepatide-side-effects-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>tirzepatide side effects guide</a>)</li>
+        <li style={{ marginBottom: 8 }}>Different side effect profile (see our <a href="/blog/tirzepatide-side-effects-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>tirzepatide side effects guide</a>)</li>
       </ul>
-      <p>For a detailed mechanism comparison, see our <a href="/blog/tirzepatide-vs-semaglutide-dual-agonist-mechanism" style={{ color: 'var(--brand)', fontWeight: 500 }}>dual-agonist deep dive</a>.</p>
+      <p>For a detailed mechanism comparison, see our <a href="/blog/tirzepatide-vs-semaglutide-dual-agonist-mechanism/" style={{ color: 'var(--brand)', fontWeight: 500 }}>dual-agonist deep dive</a>.</p>
 
       <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Compounded Tirzepatide Pricing</h2>
       <div style={{ overflowX: 'auto', margin: '24px 0' }}>
@@ -34,10 +34,10 @@ function BlogCompoundedTirzepatideOnline() {
           </tbody>
         </table>
       </div>
-      <p>For a complete pricing breakdown, see our <a href="/blog/tirzepatide-cost-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>tirzepatide cost guide</a>.</p>
+      <p>For a complete pricing breakdown, see our <a href="/blog/tirzepatide-cost-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>tirzepatide cost guide</a>.</p>
 
       <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Is Compounded Tirzepatide Safe?</h2>
-      <p>The same safety framework that applies to <a href="/blog/compounded-semaglutide-safety-fda-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>compounded semaglutide</a> applies here. Key points:</p>
+      <p>The same safety framework that applies to <a href="/blog/compounded-semaglutide-safety-fda-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>compounded semaglutide</a> applies here. Key points:</p>
       <ul>
         <li style={{ marginBottom: 12 }}><strong>503A compounding pharmacies</strong> prepare patient-specific prescriptions under state board of pharmacy oversight</li>
         <li style={{ marginBottom: 12 }}><strong>USP 797 sterile compounding standards</strong> govern preparation, testing, and beyond-use dating</li>
@@ -54,14 +54,14 @@ function BlogCompoundedTirzepatideOnline() {
       <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Tirzepatide vs. Semaglutide: Which Should You Choose?</h2>
       <p>If you are deciding between the two, here is the simplified framework:</p>
       <ul>
-        <li style={{ marginBottom: 12 }}><strong>Choose tirzepatide if:</strong> You want maximum weight loss, have not responded adequately to semaglutide, or have significant insulin resistance. The <a href="/blog/tirzepatide-weight-loss-timeline-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>results data</a> is superior.</li>
-        <li style={{ marginBottom: 12 }}><strong>Choose semaglutide if:</strong> You want the <a href="/blog/cheapest-compounded-semaglutide-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>lowest cost option</a>, are already responding well to it, or prefer the larger body of long-term safety data.</li>
-        <li style={{ marginBottom: 12 }}><strong>Not sure?</strong> Your clinician will recommend based on your metabolic profile. Read the full <a href="/blog/semaglutide-vs-tirzepatide-decision-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>decision guide</a>.</li>
+        <li style={{ marginBottom: 12 }}><strong>Choose tirzepatide if:</strong> You want maximum weight loss, have not responded adequately to semaglutide, or have significant insulin resistance. The <a href="/blog/tirzepatide-weight-loss-timeline-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>results data</a> is superior.</li>
+        <li style={{ marginBottom: 12 }}><strong>Choose semaglutide if:</strong> You want the <a href="/blog/cheapest-compounded-semaglutide-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>lowest cost option</a>, are already responding well to it, or prefer the larger body of long-term safety data.</li>
+        <li style={{ marginBottom: 12 }}><strong>Not sure?</strong> Your clinician will recommend based on your metabolic profile. Read the full <a href="/blog/semaglutide-vs-tirzepatide-decision-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>decision guide</a>.</li>
       </ul>
 
       <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Frequently Asked Questions</h2>
       <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>Do I need a diabetes diagnosis to get tirzepatide?</h4>
-      <p style={{ marginBottom: 24 }}>No. Zepbound is FDA-approved specifically for weight loss. Compounded tirzepatide is prescribed based on clinical need, not diagnosis code. See our <a href="/blog/tirzepatide-without-diabetes-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>eligibility guide</a>.</p>
+      <p style={{ marginBottom: 24 }}>No. Zepbound is FDA-approved specifically for weight loss. Compounded tirzepatide is prescribed based on clinical need, not diagnosis code. See our <a href="/blog/tirzepatide-without-diabetes-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>eligibility guide</a>.</p>
       <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>Is compounded tirzepatide the same as Mounjaro?</h4>
       <p style={{ marginBottom: 24 }}>Same active molecule prepared by a licensed compounding pharmacy rather than Eli Lilly. Same mechanism, same receptor targets, same dose range.</p>
 

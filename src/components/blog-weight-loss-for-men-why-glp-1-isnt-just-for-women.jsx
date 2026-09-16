@@ -22,7 +22,7 @@ export function BlogWeightLossForMenWhyGlp1IsntJustForWomen() {
             </div>
             <div>
               <div style={{ fontWeight: 500, color: 'var(--ink)' }}>
-                <a href="/about" style={{ color: 'inherit', textDecoration: 'none' }}>Julian Mercer, M.S.</a>
+                <a href="/about/" style={{ color: 'inherit', textDecoration: 'none' }}>Julian Mercer, M.S.</a>
               </div>
               <div style={{ fontSize: 14, color: 'var(--ink-2)' }}>Lead Bio-Systems Analyst | May 2, 2026</div>
             </div>
@@ -39,7 +39,7 @@ export function BlogWeightLossForMenWhyGlp1IsntJustForWomen() {
 
           <div className="blog-content">
             <p>
-              The mainstream narrative surrounding GLP-1 medications (like Semaglutide and <a href="/blog/tirzepatide-vs-semaglutide-dual-agonist-mechanism" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Tirzepatide</a>) has been overwhelmingly dominated by female aesthetics and Hollywood weight loss trends. This branding is a massive disservice to male health. 
+              The mainstream narrative surrounding GLP-1 medications (like Semaglutide and <a href="/blog/tirzepatide-vs-semaglutide-dual-agonist-mechanism/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Tirzepatide</a>) has been overwhelmingly dominated by female aesthetics and Hollywood weight loss trends. This branding is a massive disservice to male health. 
             </p>
             <p>
               In clinical reality, men are highly susceptible to a very specific, incredibly dangerous type of weight gain: central visceral adiposity (the classic "beer belly"). This deep abdominal fat does not just sit inertly under the skin. It acts as an active, toxic endocrine organ that destroys natural testosterone production, violently spikes blood pressure, and accelerates the timeline to a fatal myocardial infarction (heart attack).
@@ -89,7 +89,7 @@ export function BlogWeightLossForMenWhyGlp1IsntJustForWomen() {
 
             <h3>Eradicating the Visceral Sink</h3>
             <p>
-              By heavily delaying gastric emptying and crossing the blood-brain barrier to eliminate the "food noise" in the hypothalamus, Semaglutide forces the body into a severe, sustainable caloric deficit. Because the medication also restores insulin sensitivity (as detailed in our <a href="/blog/ozempic-insulin-resistance" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>GLP-1 and Insulin Resistance</a> breakdown), the male body is finally able to "unlock" and burn the deep visceral fat for energy.
+              By heavily delaying gastric emptying and crossing the blood-brain barrier to eliminate the "food noise" in the hypothalamus, Semaglutide forces the body into a severe, sustainable caloric deficit. Because the medication also restores insulin sensitivity (as detailed in our <a href="/blog/ozempic-insulin-resistance/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>GLP-1 and Insulin Resistance</a> breakdown), the male body is finally able to "unlock" and burn the deep visceral fat for energy.
             </p>
             <p>
               As the visceral fat melts away, the aromatase enzyme load plummets. With the aromatase gone, the body stops converting testosterone into estrogen. The endocrine system naturally rebalances, and male patients routinely report massive, natural resurgences in their free testosterone levels simply by clearing out the abdominal fat.
@@ -100,7 +100,7 @@ export function BlogWeightLossForMenWhyGlp1IsntJustForWomen() {
               The most critical data point for men regarding GLP-1 therapy is its effect on the heart. Cardiovascular disease remains the number one killer of men globally. 
             </p>
             <p>
-              In 2023, the landmark SELECT Trial proved that Semaglutide reduces the risk of major adverse cardiovascular events (heart attacks, strokes, and cardiovascular death) by a staggering 20% in patients with preexisting cardiovascular disease. It does this not just by causing weight loss, but by directly reducing systemic vascular inflammation. For men with high blood pressure and a family history of heart disease, Semaglutide acts as a powerful cardioprotective shield. We cover the data heavily in our review of <a href="/blog/glp-1-and-your-heart-the-select-trial-cardiovascul" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>The SELECT Trial</a>.
+              In 2023, the landmark SELECT Trial proved that Semaglutide reduces the risk of major adverse cardiovascular events (heart attacks, strokes, and cardiovascular death) by a staggering 20% in patients with preexisting cardiovascular disease. It does this not just by causing weight loss, but by directly reducing systemic vascular inflammation. For men with high blood pressure and a family history of heart disease, Semaglutide acts as a powerful cardioprotective shield. We cover the data heavily in our review of <a href="/blog/glp-1-and-your-heart-the-select-trial-cardiovascul/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>The SELECT Trial</a>.
             </p>
 
             <div className="card" style={{ padding: 32, background: 'var(--surface-2)', marginTop: 40, marginBottom: 40 }}>
@@ -109,7 +109,7 @@ export function BlogWeightLossForMenWhyGlp1IsntJustForWomen() {
                 <div>
                   <h3 className="serif" style={{ fontSize: 24, marginBottom: 12 }}>The Threat of Sarcopenia (Muscle Loss)</h3>
                   <p style={{ margin: 0, color: 'var(--ink-2)', lineHeight: 1.6 }}>
-                    The greatest risk men face on GLP-1 therapy is severe muscle wasting. Because the medication causes rapid, massive weight loss, the body will catabolize (burn) skeletal muscle tissue if you do not intervene. Men MUST combine GLP-1 therapy with a rigid hyper-caloric protein intake (1g per pound of target body weight) and heavy progressive overload resistance training. Failure to do so will result in "skinny fat" syndrome and a crashed basal metabolic rate. Read our strict protocols on <a href="/blog/glp-1-muscle-loss-the-hidden-risk-nobodys-talking" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Preventing GLP-1 Muscle Loss</a>.
+                    The greatest risk men face on GLP-1 therapy is severe muscle wasting. Because the medication causes rapid, massive weight loss, the body will catabolize (burn) skeletal muscle tissue if you do not intervene. Men MUST combine GLP-1 therapy with a rigid hyper-caloric protein intake (1g per pound of target body weight) and heavy progressive overload resistance training. Failure to do so will result in "skinny fat" syndrome and a crashed basal metabolic rate. Read our strict protocols on <a href="/blog/glp-1-muscle-loss-the-hidden-risk-nobodys-talking/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Preventing GLP-1 Muscle Loss</a>.
                   </p>
                 </div>
               </div>
@@ -123,7 +123,7 @@ export function BlogWeightLossForMenWhyGlp1IsntJustForWomen() {
               While Semaglutide aggressively burns off the visceral fat and fixes the insulin resistance, the exogenous testosterone artificially restores the male endocrine baseline. The TRT drastically increases the body's ability to synthesize protein, completely blocking the muscle-wasting effects of the GLP-1 caloric deficit. This dual-protocol allows men to rapidly strip away the toxic visceral fat while maintaining, or even building, dense skeletal muscle mass. 
             </p>
             <p>
-              Furthermore, for men experiencing the severe, crushing fatigue that often accompanies the GLP-1 adaptation phase (due to glucagon suppression), modern clinics will integrate <a href="/blog/nad-therapy-explained-anti-aging-energy-weight-los" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>NAD+ Therapy</a> to restore mitochondrial ATP production.
+              Furthermore, for men experiencing the severe, crushing fatigue that often accompanies the GLP-1 adaptation phase (due to glucagon suppression), modern clinics will integrate <a href="/blog/nad-therapy-explained-anti-aging-energy-weight-los/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>NAD+ Therapy</a> to restore mitochondrial ATP production.
             </p>
 
             {/* CTA 2: Mid Funnel */}
@@ -157,7 +157,7 @@ export function BlogWeightLossForMenWhyGlp1IsntJustForWomen() {
                   A massive visceral fat load is a ticking cardiovascular time bomb. Take control of your metabolic health today.
                 </p>
                 <p style={{ fontSize: 16, color: 'var(--ink-2)', marginBottom: 32, maxWidth: 600, margin: '0 auto 32px' }}>
-                  TelehealthFX provides U.S.-licensed, quality-verified compounded Semaglutide and Tirzepatide with strict physician oversight. Learn how to identify safe providers in our guide to spotting <a href="/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Hidden Fees in Telehealth</a>.
+                  TelehealthFX provides U.S.-licensed, quality-verified compounded Semaglutide and Tirzepatide with strict physician oversight. Learn how to identify safe providers in our guide to spotting <a href="/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Hidden Fees in Telehealth</a>.
                 </p>
                 <div style={{ display: 'flex', gap: 16, justifyContent: 'center' }}>
                   <a href={START_URL} className="btn btn-primary" style={{ fontSize: 18, padding: '0 32px' }}>

@@ -22,7 +22,7 @@ export function BlogTirzepatideVsSemaglutideWhichGlp1IsRightFo() {
             </div>
             <div>
               <div style={{ fontWeight: 500, color: 'var(--ink)' }}>
-                <a href="/about" style={{ color: 'inherit', textDecoration: 'none' }}>Julian Mercer, M.S.</a>
+                <a href="/about/" style={{ color: 'inherit', textDecoration: 'none' }}>Julian Mercer, M.S.</a>
               </div>
               <div style={{ fontSize: 14, color: 'var(--ink-2)' }}>Lead Bio-Systems Analyst | May 2, 2026</div>
             </div>
@@ -55,12 +55,12 @@ export function BlogTirzepatideVsSemaglutideWhichGlp1IsRightFo() {
 
             <h3>Semaglutide: The Pure GLP-1 (Single Agonist)</h3>
             <p>
-              As we detailed in our guide on <a href="/blog/pharmacokinetics-ozempic-semaglutide-cellular-breakdown" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>The Pharmacokinetics of Semaglutide</a>, this molecule is a "single agonist." It binds exclusively to the Glucagon-Like Peptide-1 (GLP-1) receptor. This single pathway is incredibly powerful. By agonizing this specific receptor, Semaglutide violently suppresses the POMC neurons in the hypothalamus, eradicating "food noise" and forcing a severe caloric deficit. It is the gold standard, first-generation blockbuster drug of this class.
+              As we detailed in our guide on <a href="/blog/pharmacokinetics-ozempic-semaglutide-cellular-breakdown/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>The Pharmacokinetics of Semaglutide</a>, this molecule is a "single agonist." It binds exclusively to the Glucagon-Like Peptide-1 (GLP-1) receptor. This single pathway is incredibly powerful. By agonizing this specific receptor, Semaglutide violently suppresses the POMC neurons in the hypothalamus, eradicating "food noise" and forcing a severe caloric deficit. It is the gold standard, first-generation blockbuster drug of this class.
             </p>
 
             <h3>Tirzepatide: The "Twincretin" (Dual Agonist)</h3>
             <p>
-              Tirzepatide represents the second generation of metabolic pharmacology. It is a "dual agonist." As we explored in our deep dive into the <a href="/blog/tirzepatide-vs-semaglutide-dual-agonist-mechanism" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Tirzepatide Dual Mechanism</a>, this molecule binds to the GLP-1 receptor <em>and</em> the GIP (Glucose-Dependent Insulinotropic Polypeptide) receptor simultaneously.
+              Tirzepatide represents the second generation of metabolic pharmacology. It is a "dual agonist." As we explored in our deep dive into the <a href="/blog/tirzepatide-vs-semaglutide-dual-agonist-mechanism/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Tirzepatide Dual Mechanism</a>, this molecule binds to the GLP-1 receptor <em>and</em> the GIP (Glucose-Dependent Insulinotropic Polypeptide) receptor simultaneously.
             </p>
             <p>
               This dual-action creates a profound synergy. While the GLP-1 side handles the appetite suppression, the GIP side actively improves how your body stores and utilizes fat. GIP receptors are densely located on adipose (fat) tissue. By activating them, Tirzepatide enhances white adipose tissue blood flow and drastically improves the body's ability to clear lipids from the blood. 
@@ -103,7 +103,7 @@ export function BlogTirzepatideVsSemaglutideWhichGlp1IsRightFo() {
                 <div>
                   <h3 className="serif" style={{ fontSize: 24, marginBottom: 12 }}>The Side Effect Discrepancy</h3>
                   <p style={{ margin: 0, color: 'var(--ink-2)', lineHeight: 1.6 }}>
-                    Given that Tirzepatide causes vastly more weight loss, logic suggests it would cause vastly more severe side effects. The clinical data reveals the exact opposite. Because Tirzepatide utilizes the GIP receptor to buffer the GLP-1 response, it is generally <strong>better tolerated</strong> than Semaglutide. Patients on Tirzepatide report lower instances of the violent nausea and severe gastrointestinal distress commonly associated with high-dose Semaglutide. We outline exactly how to manage these symptoms in our <a href="/blog/glp-1-side-effects-how-to-manage-nausea-fatigue-mo" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>GLP-1 Side Effect Playbook</a>.
+                    Given that Tirzepatide causes vastly more weight loss, logic suggests it would cause vastly more severe side effects. The clinical data reveals the exact opposite. Because Tirzepatide utilizes the GIP receptor to buffer the GLP-1 response, it is generally <strong>better tolerated</strong> than Semaglutide. Patients on Tirzepatide report lower instances of the violent nausea and severe gastrointestinal distress commonly associated with high-dose Semaglutide. We outline exactly how to manage these symptoms in our <a href="/blog/glp-1-side-effects-how-to-manage-nausea-fatigue-mo/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>GLP-1 Side Effect Playbook</a>.
                   </p>
                 </div>
               </div>
@@ -144,13 +144,13 @@ export function BlogTirzepatideVsSemaglutideWhichGlp1IsRightFo() {
             <ul>
               <li><strong>The Goal:</strong> You need to lose 15% of your body weight (roughly 25 to 40 pounds).</li>
               <li><strong>The Budget:</strong> You require the most cost-effective entry point into medical weight loss.</li>
-              <li><strong>The History:</strong> You have a strong cardiovascular history. Semaglutide has unparalleled, deeply established data proving it reduces major adverse cardiovascular events (strokes and heart attacks) by 20%, as detailed in our analysis of <a href="/blog/glp-1-and-your-heart-the-select-trial-cardiovascul" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>The SELECT Trial</a>.</li>
+              <li><strong>The History:</strong> You have a strong cardiovascular history. Semaglutide has unparalleled, deeply established data proving it reduces major adverse cardiovascular events (strokes and heart attacks) by 20%, as detailed in our analysis of <a href="/blog/glp-1-and-your-heart-the-select-trial-cardiovascul/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>The SELECT Trial</a>.</li>
             </ul>
 
             <h3>When to Choose Tirzepatide:</h3>
             <ul>
               <li><strong>The Goal:</strong> You require a massive, bariatric-level weight reduction of 20% to 25% (roughly 50+ pounds).</li>
-              <li><strong>The Biology:</strong> You suffer from severe, deeply entrenched insulin resistance or <a href="/blog/weight-loss-for-women-over-40-how-glp-1-can-help-2" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Perimenopausal Weight Gain</a> that standard diets cannot penetrate.</li>
+              <li><strong>The Biology:</strong> You suffer from severe, deeply entrenched insulin resistance or <a href="/blog/weight-loss-for-women-over-40-how-glp-1-can-help-2/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Perimenopausal Weight Gain</a> that standard diets cannot penetrate.</li>
               <li><strong>The Tolerance:</strong> You have previously tried Semaglutide but were forced to stop due to unmanageable nausea or severe lethargy.</li>
             </ul>
 
@@ -162,7 +162,7 @@ export function BlogTirzepatideVsSemaglutideWhichGlp1IsRightFo() {
                   Your metabolism is unique. Do not rely on social media to choose your medication. Work with elite providers to design a protocol tailored to your body.
                 </p>
                 <p style={{ fontSize: 16, color: 'var(--ink-2)', marginBottom: 32, maxWidth: 600, margin: '0 auto 32px' }}>
-                  TelehealthFX provides U.S.-licensed, quality-verified compounded Semaglutide and Tirzepatide with strict physician oversight, anti-nausea management, and custom titration schedules. Learn how to identify safe providers in our guide to spotting <a href="/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Hidden Fees in Telehealth</a>.
+                  TelehealthFX provides U.S.-licensed, quality-verified compounded Semaglutide and Tirzepatide with strict physician oversight, anti-nausea management, and custom titration schedules. Learn how to identify safe providers in our guide to spotting <a href="/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Hidden Fees in Telehealth</a>.
                 </p>
                 <div style={{ display: 'flex', gap: 16, justifyContent: 'center' }}>
                   <a href={START_URL} className="btn btn-primary" style={{ fontSize: 18, padding: '0 32px' }}>

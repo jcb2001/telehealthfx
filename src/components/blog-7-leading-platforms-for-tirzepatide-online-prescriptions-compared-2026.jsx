@@ -21,7 +21,7 @@ function Blog7LeadingPlatformsCompared() {
             </div>
             <div>
               <div style={{ fontWeight: 500, fontSize: 14, color: '#0f172a' }}>
-                <a href="/about" style={{ color: "#0f172a", textDecoration: "none" }}>Julian Mercer, M.S.</a>
+                <a href="/about/" style={{ color: "#0f172a", textDecoration: "none" }}>Julian Mercer, M.S.</a>
               </div>
               <div style={{ fontSize: 13, color: '#64748b' }}>
                 Lead Bio-Systems Analyst · Updated June 2026 · 22 min read

@@ -10,6 +10,7 @@ import { BlogBerberineVsOzempic } from './blog-berberine-vs-ozempic.jsx';
 
 
 import { PAGE_CONTENT } from './page-content.jsx';
+import { KnowledgeBaseFAQ } from './knowledge-base-faq.jsx';
 
 function GenericPage({ pageSlug, onStartQuiz, priceAnchor }) {
   React.useEffect(() => {
@@ -24,7 +25,7 @@ function GenericPage({ pageSlug, onStartQuiz, priceAnchor }) {
       case 'results': return <Results />;
       case 'science': return <Science />;
       case 'pricing': return <Pricing priceAnchor={priceAnchor} onStartQuiz={onStartQuiz} />;
-      case 'faq': return <FAQ />;
+      case 'faq': return <KnowledgeBaseFAQ />;
     }
 
     // 2. Check for Legal/Support/Company text pages

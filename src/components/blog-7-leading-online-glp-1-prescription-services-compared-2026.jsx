@@ -21,7 +21,7 @@ function Blog7LeadingOnlineGLP1Prescriptions() {
             </div>
             <div>
               <div style={{ fontWeight: 500, fontSize: 14, color: '#0F172A' }}>
-                <a href="/about" style={{ color: "#0F172A", textDecoration: "none" }}>Julian Mercer, M.S.</a>
+                <a href="/about/" style={{ color: "#0F172A", textDecoration: "none" }}>Julian Mercer, M.S.</a>
               </div>
               <div style={{ fontSize: 13, color: '#64748B' }}>
                 Lead Bio-Systems Analyst · Updated June 2026 · 15 min read

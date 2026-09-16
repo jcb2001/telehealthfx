@@ -21,7 +21,7 @@ function Blog5BestOnlineGLP1Platforms() {
             </div>
             <div>
               <div style={{ fontWeight: 500, fontSize: 14, color: '#451A03' }}>
-                <a href="/about" style={{ color: "#451A03", textDecoration: "none" }}>Julian Mercer, M.S.</a>
+                <a href="/about/" style={{ color: "#451A03", textDecoration: "none" }}>Julian Mercer, M.S.</a>
               </div>
               <div style={{ fontSize: 13, color: '#B45309' }}>
                 Lead Bio-Systems Analyst · Updated June 2026 · 15 min read

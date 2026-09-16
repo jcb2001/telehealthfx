@@ -8,7 +8,7 @@ function BlogSummerBodyGlp18WeekProtocol2026() {
   return (<><section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}><div className="container" style={{ maxWidth: 800 }}>
     <div className="eyebrow" style={{ marginBottom: 20 }}>Weight Loss Plans</div>
     <h1 className="serif" style={{ fontSize: 52, marginBottom: 24, lineHeight: 1.08 }}>Summer Body Reset: <span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>The 8-Week GLP-1 Protocol for Beach Season 2026</span></h1>
-    <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}><div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)' }}><Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%', height: "auto"}} priority={true} /></div><div><div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div><div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated June 2026 · 18 min read</div></div></div>
+    <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}><div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)' }}><Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%', height: "auto"}} priority={true} /></div><div><div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about/" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div><div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated June 2026 · 18 min read</div></div></div>
     <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
 
       <p>Eight weeks. That is what separates you from a measurably different body composition by the time August hits. Not a crash diet. Not a juice cleanse. A clinically structured protocol that pairs GLP-1 receptor agonist pharmacology with precision nutrition and progressive resistance training — designed to maximize fat loss, preserve lean mass, and leave you feeling genuinely strong when summer peaks.</p>
@@ -26,17 +26,17 @@ function BlogSummerBodyGlp18WeekProtocol2026() {
         <li style={{ marginBottom: 12 }}><strong>Body weight</strong> (same scale, same time, fasted)</li>
         <li style={{ marginBottom: 12 }}><strong>Waist circumference</strong> at the navel — the single best proxy for visceral fat reduction</li>
         <li style={{ marginBottom: 12 }}><strong>Progress photos</strong> (front, side, back — same lighting, same clothes)</li>
-        <li style={{ marginBottom: 12 }}><strong>Fasting glucose and HbA1c</strong> if available — GLP-1s improve <a href="/blog/ozempic-insulin-resistance" style={{ color: 'var(--brand)', fontWeight: 500 }}>insulin sensitivity</a> independently of weight loss</li>
-        <li style={{ marginBottom: 12 }}><strong>Blood pressure and lipid panel</strong> — expect measurable improvements by week 8 per the <a href="/blog/glp1-cholesterol-lipids-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>lipid data</a></li>
+        <li style={{ marginBottom: 12 }}><strong>Fasting glucose and HbA1c</strong> if available — GLP-1s improve <a href="/blog/ozempic-insulin-resistance/" style={{ color: 'var(--brand)', fontWeight: 500 }}>insulin sensitivity</a> independently of weight loss</li>
+        <li style={{ marginBottom: 12 }}><strong>Blood pressure and lipid panel</strong> — expect measurable improvements by week 8 per the <a href="/blog/glp1-cholesterol-lipids-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>lipid data</a></li>
       </ul>
 
       <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The 8-Week Protocol: Week-by-Week Breakdown</h2>
 
       <h3 className="serif" style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>Weeks 1–2: Foundation Phase (0.25 mg Semaglutide)</h3>
       <p><strong>Goal:</strong> Acclimate to GLP-1, establish training habits, dial in protein intake.</p>
-      <p>Your starting dose of 0.25 mg is sub-therapeutic — it exists to let your GI tract adjust. About 20% of patients experience mild nausea in this phase. Refer to our <a href="/blog/glp-1-side-effects-how-to-manage-nausea-fatigue-mo" style={{ color: 'var(--brand)', fontWeight: 500 }}>side effects management guide</a> if symptoms arise. Eat smaller, more frequent meals. Prioritize hydration (minimum 80 oz daily).</p>
+      <p>Your starting dose of 0.25 mg is sub-therapeutic — it exists to let your GI tract adjust. About 20% of patients experience mild nausea in this phase. Refer to our <a href="/blog/glp-1-side-effects-how-to-manage-nausea-fatigue-mo/" style={{ color: 'var(--brand)', fontWeight: 500 }}>side effects management guide</a> if symptoms arise. Eat smaller, more frequent meals. Prioritize hydration (minimum 80 oz daily).</p>
       <ul>
-        <li style={{ marginBottom: 12 }}><strong>Nutrition:</strong> Set protein at 0.8–1.0 g per pound of goal body weight. This is non-negotiable. The STEP 1 extension data showed that patients who did not prioritize protein lost up to 39% of total weight as lean mass. You will not make that mistake. Refer to our <a href="/blog/glp-1-food-guide-what-to-eat" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 food guide</a> for meal frameworks.</li>
+        <li style={{ marginBottom: 12 }}><strong>Nutrition:</strong> Set protein at 0.8–1.0 g per pound of goal body weight. This is non-negotiable. The STEP 1 extension data showed that patients who did not prioritize protein lost up to 39% of total weight as lean mass. You will not make that mistake. Refer to our <a href="/blog/glp-1-food-guide-what-to-eat/" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 food guide</a> for meal frameworks.</li>
         <li style={{ marginBottom: 12 }}><strong>Training:</strong> 3x/week full-body resistance training. Compound movements only — squat, hinge, press, pull, carry. Keep intensity moderate (RPE 6–7). You are building the habit, not maxing out.</li>
         <li style={{ marginBottom: 12 }}><strong>Cardio:</strong> 2–3x/week LISS (low-intensity steady state) — 30-minute walks, cycling, or swimming at conversational pace. This oxidizes fatty acids without spiking cortisol or cannibalizing muscle.</li>
         <li style={{ marginBottom: 12 }}><strong>Expected loss:</strong> 1–3 lbs (mostly water weight and initial caloric deficit). Do not panic if the scale barely moves.</li>
@@ -47,8 +47,8 @@ function BlogSummerBodyGlp18WeekProtocol2026() {
       <p>At 0.5 mg, GLP-1 receptor activation reaches the hypothalamic appetite centers more effectively. Most patients report a dramatic reduction in "food noise" — the constant background mental chatter about eating. Gastric emptying slows meaningfully, extending satiety by 2–4 hours post-meal. This is where the protocol starts paying dividends.</p>
       <ul>
         <li style={{ marginBottom: 12 }}><strong>Nutrition:</strong> Total calories will naturally drop 300–500 kcal/day due to appetite suppression. Do not let them drop below 1,200 for women or 1,500 for men. Front-load protein at breakfast and lunch — aim for 30–40 g per meal. Add a casein-based shake before bed if you are struggling to hit targets.</li>
-        <li style={{ marginBottom: 12 }}><strong>Training:</strong> Increase to 4x/week — upper/lower split. Progressive overload begins. Add 5 lbs to compound lifts weekly. This is critical for <a href="/blog/glp-1-muscle-loss-the-hidden-risk-nobodys-talking" style={{ color: 'var(--brand)', fontWeight: 500 }}>preserving lean mass</a> while in a caloric deficit.</li>
-        <li style={{ marginBottom: 12 }}><strong>Cardio:</strong> Maintain 2–3x/week LISS. Add one 20-minute HIIT session if energy permits (hill sprints, rowing intervals, or cycling Tabatas). Read our full <a href="/blog/glp-1-and-exercise-how-to-combine-medication-with" style={{ color: 'var(--brand)', fontWeight: 500 }}>exercise pairing protocol</a>.</li>
+        <li style={{ marginBottom: 12 }}><strong>Training:</strong> Increase to 4x/week — upper/lower split. Progressive overload begins. Add 5 lbs to compound lifts weekly. This is critical for <a href="/blog/glp-1-muscle-loss-the-hidden-risk-nobodys-talking/" style={{ color: 'var(--brand)', fontWeight: 500 }}>preserving lean mass</a> while in a caloric deficit.</li>
+        <li style={{ marginBottom: 12 }}><strong>Cardio:</strong> Maintain 2–3x/week LISS. Add one 20-minute HIIT session if energy permits (hill sprints, rowing intervals, or cycling Tabatas). Read our full <a href="/blog/glp-1-and-exercise-how-to-combine-medication-with/" style={{ color: 'var(--brand)', fontWeight: 500 }}>exercise pairing protocol</a>.</li>
         <li style={{ marginBottom: 12 }}><strong>Expected loss:</strong> 3–5 lbs cumulative. Waist circumference should drop 0.5–1.0 inch.</li>
       </ul>
 
@@ -69,7 +69,7 @@ function BlogSummerBodyGlp18WeekProtocol2026() {
       </ul>
 
       <h3 className="serif" style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>Weeks 7–8: Finishing Phase (1.0 mg Maintained or 1.7 mg if Indicated)</h3>
-      <p><strong>Goal:</strong> Consolidate results. Fine-tune physique. Establish the habits that prevent <a href="/blog/glp1-weight-regain-prevention-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>weight regain</a>.</p>
+      <p><strong>Goal:</strong> Consolidate results. Fine-tune physique. Establish the habits that prevent <a href="/blog/glp1-weight-regain-prevention-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>weight regain</a>.</p>
       <p>By week 7, you are in a metabolic groove. Your body has adapted to the caloric deficit, your training capacity has increased despite eating less, and the GLP-1 is working at full therapeutic effect. This is the finishing push.</p>
       <ul>
         <li style={{ marginBottom: 12 }}><strong>Nutrition:</strong> If weight loss has stalled, implement a 2-day refeed (maintenance calories with emphasis on carbohydrates) to reset leptin signaling, then return to deficit. Continue prioritizing 1.0 g protein per pound of goal body weight.</li>
@@ -171,7 +171,7 @@ function BlogSummerBodyGlp18WeekProtocol2026() {
       <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Exercise Pairing: Why Resistance Training Is Non-Negotiable</h2>
       <p>A 2024 meta-analysis published in <em>The Lancet Diabetes & Endocrinology</em> examined body composition outcomes across seven GLP-1 trials and found that patients who performed resistance training 3+ times per week lost 91% of weight as fat mass, compared to 65% for sedentary patients. The remaining difference? Muscle. Without resistance training, you lose muscle — and with it, metabolic rate, functional strength, and the physique quality that actually makes you <em>look</em> different at the beach.</p>
 
-      <p>The <a href="/blog/glp-1-muscle-loss-the-hidden-risk-nobodys-talking" style={{ color: 'var(--brand)', fontWeight: 500 }}>muscle loss risk</a> is real and quantifiable. In STEP 1, the semaglutide group lost an average of 8.4 kg of lean body mass — roughly 39% of total weight lost. Resistance training and adequate protein intake are the two primary countermeasures, and this protocol addresses both aggressively.</p>
+      <p>The <a href="/blog/glp-1-muscle-loss-the-hidden-risk-nobodys-talking/" style={{ color: 'var(--brand)', fontWeight: 500 }}>muscle loss risk</a> is real and quantifiable. In STEP 1, the semaglutide group lost an average of 8.4 kg of lean body mass — roughly 39% of total weight lost. Resistance training and adequate protein intake are the two primary countermeasures, and this protocol addresses both aggressively.</p>
 
       <p>If you are new to lifting, start with these compound movements and build from there:</p>
       <ol>
@@ -186,22 +186,22 @@ function BlogSummerBodyGlp18WeekProtocol2026() {
       <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Semaglutide vs. Tirzepatide: Which Is Better for a Summer Cut?</h2>
       <p>Both work. The SURMOUNT-1 trial (n = 2,539) showed tirzepatide at the highest dose (15 mg) producing 22.5% total body weight loss over 72 weeks — approximately 5 percentage points more than semaglutide at comparable timeframes. For an 8-week summer protocol, the difference is less dramatic, but tirzepatide{"'"}s dual GIP/GLP-1 mechanism may offer slightly faster onset of appetite suppression.</p>
 
-      <p>Read our full <a href="/blog/semaglutide-vs-tirzepatide-decision-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>semaglutide vs. tirzepatide comparison</a> for clinical details. Your Telehealth FX clinician will recommend the optimal molecule based on your metabolic profile, insurance situation, and personal response patterns. For more on <a href="/blog/compounded-semaglutide-dosing-guide-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>dosing specifics</a>, see our full titration guide.</p>
+      <p>Read our full <a href="/blog/semaglutide-vs-tirzepatide-decision-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>semaglutide vs. tirzepatide comparison</a> for clinical details. Your Telehealth FX clinician will recommend the optimal molecule based on your metabolic profile, insurance situation, and personal response patterns. For more on <a href="/blog/compounded-semaglutide-dosing-guide-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>dosing specifics</a>, see our full titration guide.</p>
 
       <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Realistic Expectations: What 8 Weeks Actually Looks Like</h2>
       <p>Let us be honest about outcomes. Based on aggregate clinical data and real-world patient timelines:</p>
       <ul>
         <li style={{ marginBottom: 12 }}><strong>Conservative responders:</strong> 8–10 lbs lost, 1.0–1.5 inches off waist. Noticeable improvement in energy and clothing fit.</li>
         <li style={{ marginBottom: 12 }}><strong>Average responders:</strong> 12–15 lbs lost, 1.5–2.5 inches off waist. Visible body recomposition. Friends and coworkers notice.</li>
-        <li style={{ marginBottom: 12 }}><strong>Strong responders:</strong> 15–20 lbs lost, 2.5–3.5 inches off waist. Dramatic visual change, especially in men over 40 with significant visceral fat. See our guide on <a href="/blog/glp1-men-over-50-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 for men over 50</a>.</li>
+        <li style={{ marginBottom: 12 }}><strong>Strong responders:</strong> 15–20 lbs lost, 2.5–3.5 inches off waist. Dramatic visual change, especially in men over 40 with significant visceral fat. See our guide on <a href="/blog/glp1-men-over-50-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 for men over 50</a>.</li>
       </ul>
-      <p>Response variability is influenced by starting BMI, insulin resistance status, adherence to the training protocol, and genetic factors affecting GLP-1 receptor sensitivity. The <a href="/blog/glp1-metabolic-syndrome-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>metabolic syndrome</a> population often sees the most dramatic early results due to higher baseline inflammation and insulin levels.</p>
+      <p>Response variability is influenced by starting BMI, insulin resistance status, adherence to the training protocol, and genetic factors affecting GLP-1 receptor sensitivity. The <a href="/blog/glp1-metabolic-syndrome-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>metabolic syndrome</a> population often sees the most dramatic early results due to higher baseline inflammation and insulin levels.</p>
 
       <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Sleep, Stress, and the Cortisol Factor</h2>
       <p>No protocol discussion is complete without addressing recovery. Cortisol — the primary stress hormone — directly antagonizes fat loss by promoting visceral fat storage and impairing insulin signaling. A 2022 study in <em>JAMA Internal Medicine</em> (n = 80) found that extending sleep from 6.5 to 8.5 hours per night resulted in 270 fewer calories consumed daily — comparable to the appetite suppression effect of a low-dose GLP-1.</p>
       <ul>
         <li style={{ marginBottom: 12 }}><strong>Sleep target:</strong> 7–9 hours nightly. Non-negotiable during an aggressive fat-loss phase.</li>
-        <li style={{ marginBottom: 12 }}><strong>Caffeine cutoff:</strong> No caffeine after 2:00 PM. GLP-1 may affect <a href="/blog/glp1-sleep-quality-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>sleep architecture</a> — do not compound the issue.</li>
+        <li style={{ marginBottom: 12 }}><strong>Caffeine cutoff:</strong> No caffeine after 2:00 PM. GLP-1 may affect <a href="/blog/glp1-sleep-quality-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>sleep architecture</a> — do not compound the issue.</li>
         <li style={{ marginBottom: 12 }}><strong>Stress management:</strong> 10 minutes daily of box breathing, meditation, or walking in nature. Chronic stress elevates cortisol, stalls fat loss, and increases GLP-1 side effects.</li>
       </ul>
 
@@ -209,7 +209,7 @@ function BlogSummerBodyGlp18WeekProtocol2026() {
       <ol>
         <li style={{ marginBottom: 12 }}><strong>Under-eating protein.</strong> The number one mistake. Appetite suppression makes it easy to eat 1,200 calories of crackers and fruit. Track protein — everything else is secondary.</li>
         <li style={{ marginBottom: 12 }}><strong>Skipping resistance training.</strong> Cardio alone during a GLP-1 protocol is a recipe for muscle loss. Lift heavy things 3–4 times per week.</li>
-        <li style={{ marginBottom: 12 }}><strong>Alcohol.</strong> Even moderate drinking (2–3 drinks/week) impairs fat oxidation for 24–48 hours post-consumption and amplifies GLP-1 nausea. Read our <a href="/blog/glp1-alcohol-guidelines-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>alcohol guidelines</a>. Consider a full 8-week pause.</li>
+        <li style={{ marginBottom: 12 }}><strong>Alcohol.</strong> Even moderate drinking (2–3 drinks/week) impairs fat oxidation for 24–48 hours post-consumption and amplifies GLP-1 nausea. Read our <a href="/blog/glp1-alcohol-guidelines-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>alcohol guidelines</a>. Consider a full 8-week pause.</li>
         <li style={{ marginBottom: 12 }}><strong>Obsessing over the scale.</strong> Weight fluctuates 2–5 lbs daily from water, glycogen, and bowel content. Measure waist circumference weekly and take photos biweekly. The mirror is a better judge than the scale during recomposition.</li>
         <li style={{ marginBottom: 12 }}><strong>Not adjusting dose with clinical guidance.</strong> If you plateau at 0.5 mg, your clinician may recommend advancing to 1.0 mg earlier. If side effects are severe, they may slow titration. This is why provider-guided protocols outperform DIY approaches every time.</li>
       </ol>
@@ -219,7 +219,7 @@ function BlogSummerBodyGlp18WeekProtocol2026() {
       <ul>
         <li style={{ marginBottom: 12 }}>Continuing at a maintenance dose (often 0.5–1.0 mg) for sustained appetite regulation</li>
         <li style={{ marginBottom: 12 }}>Advancing to higher doses (1.7 mg or 2.4 mg) if further weight loss is clinically indicated</li>
-        <li style={{ marginBottom: 12 }}>Transitioning to a structured off-ramp with metabolic monitoring to prevent <a href="/blog/glp1-weight-regain-prevention-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>rebound weight gain</a></li>
+        <li style={{ marginBottom: 12 }}>Transitioning to a structured off-ramp with metabolic monitoring to prevent <a href="/blog/glp1-weight-regain-prevention-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>rebound weight gain</a></li>
       </ul>
       <p>The STEP 4 extension trial demonstrated that patients who discontinued semaglutide after 20 weeks regained two-thirds of lost weight within 48 weeks. The Telehealth FX protocol is designed to avoid this cliff — your clinician plans the exit strategy from Day 1.</p>
 
@@ -235,7 +235,7 @@ function BlogSummerBodyGlp18WeekProtocol2026() {
       <p style={{ marginBottom: 24 }}>Continue your weekly injection on schedule. Focus on protein intake and walking while traveling. One imperfect week will not ruin six good ones. The appetite suppression effect of GLP-1 makes vacation eating far more controlled than without medication.</p>
 
       <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>How much does this cost?</h4>
-      <p style={{ marginBottom: 24 }}>Telehealth FX programs start at $199/month, which includes the medication, clinician oversight, and ongoing dose management. Many patients use <a href="/blog/hsa-fsa-glp-1-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>HSA/FSA funds</a> to cover the cost. Read our full <a href="/blog/semaglutide-real-cost-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>cost breakdown</a>.</p>
+      <p style={{ marginBottom: 24 }}>Telehealth FX programs start at $199/month, which includes the medication, clinician oversight, and ongoing dose management. Many patients use <a href="/blog/hsa-fsa-glp-1-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>HSA/FSA funds</a> to cover the cost. Read our full <a href="/blog/semaglutide-real-cost-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>cost breakdown</a>.</p>
 
       <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
         <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Eight Weeks. One Decision. A Completely Different Summer.</h2>

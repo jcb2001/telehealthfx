@@ -8,7 +8,7 @@ function BlogEnclomipheneVsTrt2026() {
   return (<><section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}><div className="container" style={{ maxWidth: 800 }}>
     <div className="eyebrow" style={{ marginBottom: 20 }}>Treatment Comparison</div>
     <h1 className="serif" style={{ fontSize: 52, marginBottom: 24, lineHeight: 1.08 }}>Enclomiphene vs Traditional TRT: <span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>The Fertility-Preserving Alternative</span></h1>
-    <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}><div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)' }}><Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%', height: "auto"}} priority={true} /></div><div><div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div><div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 15 min read</div></div></div>
+    <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}><div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)' }}><Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%', height: "auto"}} priority={true} /></div><div><div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about/" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div><div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 15 min read</div></div></div>
     <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
       <Image src="/assets/enclomiphene_featured_1778927329210.png" alt="Enclomiphene vs Traditional TRT infographic" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111', height: "auto"}} priority={true} />
       <p>For men who want higher testosterone but aren't ready to accept the fertility trade-off of traditional TRT, <strong>enclomiphene citrate</strong> has emerged as the most compelling alternative. Unlike exogenous testosterone (which shuts down your body's natural production), enclomiphene <em>stimulates</em> your pituitary gland to produce more LH and FSH — your body makes its own testosterone while maintaining sperm production.</p>
@@ -45,7 +45,7 @@ function BlogEnclomipheneVsTrt2026() {
 
       <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)', border: '1px solid var(--brand)', borderRadius: 16 }}>
         <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Enclomiphene or TRT? Your Clinician Decides.</h3>
-        <p style={{ marginBottom: 24, fontSize: 16 }}>Both available through Telehealth FX. <a href="/blog/trt-cost-per-month-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>From $79/mo</a>. Your labs and fertility goals determine the recommendation.</p>
+        <p style={{ marginBottom: 24, fontSize: 16 }}>Both available through Telehealth FX. <a href="/blog/trt-cost-per-month-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>From $79/mo</a>. Your labs and fertility goals determine the recommendation.</p>
         <a href={S} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>Check Your Eligibility <Icon.Arrow /></a>
       </div>
 
@@ -57,11 +57,11 @@ function BlogEnclomipheneVsTrt2026() {
         <li style={{ marginBottom: 8 }}>Monitor LH, FSH, and total T at 4, 8, and 12 weeks</li>
         <li style={{ marginBottom: 8 }}>Adjust dose based on response — some men maintain on 12.5mg daily long-term</li>
       </ol>
-      <p>This is a far smoother transition than cold-turkey TRT cessation, which can cause weeks of fatigue, depression, and sexual dysfunction. Also see our <a href="/blog/hcg-with-trt-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>HCG protocol guide</a> for an alternative bridging approach.</p>
+      <p>This is a far smoother transition than cold-turkey TRT cessation, which can cause weeks of fatigue, depression, and sexual dysfunction. Also see our <a href="/blog/hcg-with-trt-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>HCG protocol guide</a> for an alternative bridging approach.</p>
 
       <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Side Effects Comparison</h2>
       <p>Enclomiphene side effects are generally milder than TRT: occasional headaches, mild visual disturbances (rare, dose-dependent), and mood changes. It does not cause erythrocytosis (elevated hematocrit), testicular atrophy, or fertility suppression. However, because it increases LH/FSH, estradiol may rise — requiring monitoring but rarely needing an aromatase inhibitor.</p>
-      <p>For a comprehensive look at TRT-specific risks, see our <a href="/blog/trt-side-effects-complete-guide-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>complete side effects guide</a>.</p>
+      <p>For a comprehensive look at TRT-specific risks, see our <a href="/blog/trt-side-effects-complete-guide-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>complete side effects guide</a>.</p>
 
       <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Frequently Asked Questions</h2>
       <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>Is enclomiphene FDA-approved?</h4>
@@ -73,7 +73,7 @@ function BlogEnclomipheneVsTrt2026() {
 
       <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
         <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Boost T Without Sacrificing Fertility. From $79/mo.</h2>
-        <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 500, margin: '0 auto 32px' }}>Enclomiphene and TRT both available. Your clinician recommends. <a href="/medications/testosterone" style={{ color: '#FBF8F3', textDecoration: 'underline' }}>See all plans</a>.</p>
+        <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 500, margin: '0 auto 32px' }}>Enclomiphene and TRT both available. Your clinician recommends. <a href="/medications/testosterone/" style={{ color: '#FBF8F3', textDecoration: 'underline' }}>See all plans</a>.</p>
         <a href={S} target="_blank" rel="noopener noreferrer" className="btn btn-lg" style={{ background: '#FBF8F3', color: 'var(--ink)', display: 'inline-flex', justifyContent: 'center', width: '100%', maxWidth: 250 }}>Start Your Evaluation <Icon.Arrow /></a>
       </div>
       <div style={{ marginTop: 80, paddingTop: 40, borderTop: '1px solid var(--line-soft)', fontSize: 14, color: 'var(--ink-3)' }}>

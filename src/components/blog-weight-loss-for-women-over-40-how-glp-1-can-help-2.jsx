@@ -22,7 +22,7 @@ export function BlogWeightLossForWomenOver40HowGlp1CanHelp2() {
             </div>
             <div>
               <div style={{ fontWeight: 500, color: 'var(--ink)' }}>
-                <a href="/about" style={{ color: 'inherit', textDecoration: 'none' }}>Julian Mercer, M.S.</a>
+                <a href="/about/" style={{ color: 'inherit', textDecoration: 'none' }}>Julian Mercer, M.S.</a>
               </div>
               <div style={{ fontSize: 14, color: 'var(--ink-2)' }}>Lead Bio-Systems Analyst | May 2, 2026</div>
             </div>
@@ -45,7 +45,7 @@ export function BlogWeightLossForWomenOver40HowGlp1CanHelp2() {
               However, modern endocrinology has proven what millions of women have always known: the metabolic rules completely change during perimenopause. As you cross the threshold into your 40s, a cascade of severe hormonal shifts completely rewires your body to store visceral fat. Your body becomes highly insulin-resistant, your cortisol levels decouple, and the standard caloric deficit that kept you lean in your 20s no longer works.
             </p>
             <p>
-              The introduction of GLP-1 receptor agonists (Semaglutide and <a href="/blog/tirzepatide-vs-semaglutide-dual-agonist-mechanism" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Tirzepatide</a>) has shattered this midlife metabolic plateau. In this comprehensive, 5,000-word clinical guide, we dissect the exact physiological drivers of menopausal weight gain. We explore the critical role of estrogen decline, the subsequent explosion of insulin resistance, and precisely how modern incretin therapy bypasses a broken metabolism to force extreme, sustainable fat loss for women over 40.
+              The introduction of GLP-1 receptor agonists (Semaglutide and <a href="/blog/tirzepatide-vs-semaglutide-dual-agonist-mechanism/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Tirzepatide</a>) has shattered this midlife metabolic plateau. In this comprehensive, 5,000-word clinical guide, we dissect the exact physiological drivers of menopausal weight gain. We explore the critical role of estrogen decline, the subsequent explosion of insulin resistance, and precisely how modern incretin therapy bypasses a broken metabolism to force extreme, sustainable fat loss for women over 40.
             </p>
 
             <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>The Biological Shift: Why You Suddenly Can't Lose Weight</h2>
@@ -66,7 +66,7 @@ export function BlogWeightLossForWomenOver40HowGlp1CanHelp2() {
               Estrogen decline directly impairs the body's ability to utilize insulin effectively. When you consume carbohydrates, your pancreas releases insulin to push glucose into your cells for energy. In your 40s, the cells become "deaf" to the insulin signal. 
             </p>
             <p>
-              Because the glucose cannot enter the cell, the pancreas panics and pumps out even more insulin. High levels of circulating insulin completely shut down lipolysis (the breakdown of fat). When your insulin is chronically elevated, it is biologically impossible for your body to burn stored fat, regardless of how much you exercise. We detail this mechanism heavily in our <a href="/blog/ozempic-insulin-resistance" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>GLP-1 and Insulin Resistance</a> breakdown.
+              Because the glucose cannot enter the cell, the pancreas panics and pumps out even more insulin. High levels of circulating insulin completely shut down lipolysis (the breakdown of fat). When your insulin is chronically elevated, it is biologically impossible for your body to burn stored fat, regardless of how much you exercise. We detail this mechanism heavily in our <a href="/blog/ozempic-insulin-resistance/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>GLP-1 and Insulin Resistance</a> breakdown.
             </p>
 
             {/* CTA 1: Early Funnel */}
@@ -108,7 +108,7 @@ export function BlogWeightLossForWomenOver40HowGlp1CanHelp2() {
                 <div>
                   <h3 className="serif" style={{ fontSize: 24, marginBottom: 12 }}>The Critical Sarcopenia Warning</h3>
                   <p style={{ margin: 0, color: 'var(--ink-2)', lineHeight: 1.6 }}>
-                    Women naturally lose 3% to 8% of their muscle mass per decade after the age of 30. This natural muscle loss already depresses your Basal Metabolic Rate (BMR). If you use a GLP-1 to force massive weight loss without executing a rigid resistance training protocol, you will accelerate this muscle loss, guaranteeing severe weight regain the moment you stop the medication. Read our strict clinical playbook on <a href="/blog/glp-1-muscle-loss-the-hidden-risk-nobodys-talking" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Preventing GLP-1 Muscle Loss</a> to ensure you protect your metabolism.
+                    Women naturally lose 3% to 8% of their muscle mass per decade after the age of 30. This natural muscle loss already depresses your Basal Metabolic Rate (BMR). If you use a GLP-1 to force massive weight loss without executing a rigid resistance training protocol, you will accelerate this muscle loss, guaranteeing severe weight regain the moment you stop the medication. Read our strict clinical playbook on <a href="/blog/glp-1-muscle-loss-the-hidden-risk-nobodys-talking/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Preventing GLP-1 Muscle Loss</a> to ensure you protect your metabolism.
                   </p>
                 </div>
               </div>
@@ -145,7 +145,7 @@ export function BlogWeightLossForWomenOver40HowGlp1CanHelp2() {
               Because women over 40 are often dealing with pre-existing fatigue or gastrointestinal sluggishness from hormonal shifts, managing the adaptation phase of a GLP-1 is critical.
             </p>
             <p>
-              As detailed in our <a href="/blog/glp-1-side-effects-how-to-manage-nausea-fatigue-mo" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>GLP-1 Side Effect Mitigation Guide</a>, patients must strictly adhere to the "Go Low and Slow" titration protocol. Initiating the medication at 0.25mg allows the central nervous system to acclimate without triggering violent nausea. Furthermore, because GLP-1s aggressively suppress glucagon (reducing your rapid energy supply), patients must prioritize high-quality protein and consider cellular energy bridges like NAD+ therapy to avoid the crushing fatigue that often causes patients to abandon the treatment prematurely.
+              As detailed in our <a href="/blog/glp-1-side-effects-how-to-manage-nausea-fatigue-mo/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>GLP-1 Side Effect Mitigation Guide</a>, patients must strictly adhere to the "Go Low and Slow" titration protocol. Initiating the medication at 0.25mg allows the central nervous system to acclimate without triggering violent nausea. Furthermore, because GLP-1s aggressively suppress glucagon (reducing your rapid energy supply), patients must prioritize high-quality protein and consider cellular energy bridges like NAD+ therapy to avoid the crushing fatigue that often causes patients to abandon the treatment prematurely.
             </p>
 
             {/* CTA 3: Bottom Funnel */}
@@ -156,7 +156,7 @@ export function BlogWeightLossForWomenOver40HowGlp1CanHelp2() {
                   The science of weight loss has evolved. You no longer have to fight a broken biological system with pure willpower.
                 </p>
                 <p style={{ fontSize: 16, color: 'var(--ink-2)', marginBottom: 32, maxWidth: 600, margin: '0 auto 32px' }}>
-                  TelehealthFX provides U.S.-licensed, quality-verified compounded Semaglutide and Tirzepatide with direct clinician oversight. No hidden membership fees. Just real science. Learn how to identify safe providers in our guide to spotting <a href="/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Hidden Fees in Telehealth</a>.
+                  TelehealthFX provides U.S.-licensed, quality-verified compounded Semaglutide and Tirzepatide with direct clinician oversight. No hidden membership fees. Just real science. Learn how to identify safe providers in our guide to spotting <a href="/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Hidden Fees in Telehealth</a>.
                 </p>
                 <div style={{ display: 'flex', gap: 16, justifyContent: 'center' }}>
                   <a href={START_URL} className="btn btn-primary" style={{ fontSize: 18, padding: '0 32px' }}>

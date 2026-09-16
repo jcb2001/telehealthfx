@@ -19,7 +19,7 @@ function BlogOzempicAlternativesNoInsurance() {
             <Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%', height: "auto"}} priority={true} />
           </div>
           <div>
-            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
+            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about/" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
             <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 30 min read</div>
           </div>
         </div>
@@ -40,14 +40,14 @@ function BlogOzempicAlternativesNoInsurance() {
             <li style={{ marginBottom: 8 }}>📊 Efficacy: Same molecule = same clinical effect at equivalent doses</li>
             <li style={{ marginBottom: 8 }}>⚖️ Tradeoff: Not FDA-approved as a finished product; quality depends on pharmacy</li>
           </ul>
-          <p>Learn more about <a href="/blog/is-compounded-semaglutide-safe-what-you-need-to-kn" style={{ color: 'var(--brand)', fontWeight: 500 }}>compounded semaglutide safety</a> and compare <a href="/blog/cheapest-compounded-semaglutide-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>provider pricing</a>.</p>
+          <p>Learn more about <a href="/blog/is-compounded-semaglutide-safe-what-you-need-to-kn/" style={{ color: 'var(--brand)', fontWeight: 500 }}>compounded semaglutide safety</a> and compare <a href="/blog/cheapest-compounded-semaglutide-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>provider pricing</a>.</p>
 
           <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>2. Wegovy Self-Pay (Savings Program)</h3>
           <p><strong>What it is:</strong> The FDA-approved weight loss formulation of semaglutide. Novo Nordisk offers savings programs that can reduce the price for eligible uninsured patients.</p>
           <ul>
             <li style={{ marginBottom: 8 }}>💰 Cost: ~$500–$1,350/month (savings programs vary)</li>
             <li style={{ marginBottom: 8 }}>📊 Efficacy: Gold standard, STEP trial data</li>
-            <li style={{ marginBottom: 8 }}>⚖️ Tradeoff: Still expensive even with savings; subject to <a href="/blog/glp-1-shortage-update-may-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>availability</a></li>
+            <li style={{ marginBottom: 8 }}>⚖️ Tradeoff: Still expensive even with savings; subject to <a href="/blog/glp-1-shortage-update-may-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>availability</a></li>
           </ul>
 
           <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
@@ -67,7 +67,7 @@ function BlogOzempicAlternativesNoInsurance() {
             <li style={{ marginBottom: 8 }}>📊 Efficacy: 22.5% body weight loss (SURMOUNT-1) vs 14.9% for semaglutide</li>
             <li style={{ marginBottom: 8 }}>⚖️ Tradeoff: Slightly higher cost than compounded semaglutide</li>
           </ul>
-          <p>See our <a href="/blog/zepbound-vs-mounjaro-compounded-tirzepatide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Zepbound vs. Mounjaro vs. Compounded</a> comparison and <a href="/blog/tirzepatide-without-diabetes-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>eligibility guide</a>.</p>
+          <p>See our <a href="/blog/zepbound-vs-mounjaro-compounded-tirzepatide/" style={{ color: 'var(--brand)', fontWeight: 500 }}>Zepbound vs. Mounjaro vs. Compounded</a> comparison and <a href="/blog/tirzepatide-without-diabetes-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>eligibility guide</a>.</p>
 
           <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>4. Zepbound Self-Pay Vials</h3>
           <p><strong>What it is:</strong> Eli Lilly's direct-to-consumer self-pay program for branded tirzepatide vials (not pre-filled pens).</p>
@@ -84,7 +84,7 @@ function BlogOzempicAlternativesNoInsurance() {
             <li style={{ marginBottom: 8 }}>📊 Efficacy: ~7–15% body weight loss (lower than injectable at current doses)</li>
             <li style={{ marginBottom: 8 }}>⚖️ Tradeoff: Lower efficacy, strict fasting requirements, expensive without insurance</li>
           </ul>
-          <p>Read our <a href="/blog/oral-semaglutide-is-here-is-the-glp-1-pill-as-good" style={{ color: 'var(--brand)', fontWeight: 500 }}>oral semaglutide deep dive</a>.</p>
+          <p>Read our <a href="/blog/oral-semaglutide-is-here-is-the-glp-1-pill-as-good/" style={{ color: 'var(--brand)', fontWeight: 500 }}>oral semaglutide deep dive</a>.</p>
 
           <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Tier 3: Non-GLP-1 Alternatives</h2>
 
@@ -95,7 +95,7 @@ function BlogOzempicAlternativesNoInsurance() {
             <li style={{ marginBottom: 8 }}>📊 Efficacy: 2–5% body weight loss; meaningful glucose/lipid improvement</li>
             <li style={{ marginBottom: 8 }}>⚖️ Tradeoff: Much less weight loss than GLP-1; best used as adjunct therapy</li>
           </ul>
-          <p>See our <a href="/blog/berberine-vs-glp-1-in-2026-can-natures-ozempic-act" style={{ color: 'var(--brand)', fontWeight: 500 }}>Berberine vs. GLP-1</a> analysis.</p>
+          <p>See our <a href="/blog/berberine-vs-glp-1-in-2026-can-natures-ozempic-act/" style={{ color: 'var(--brand)', fontWeight: 500 }}>Berberine vs. GLP-1</a> analysis.</p>
 
           <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>7. Metformin (Off-Label for Weight Loss)</h3>
           <p><strong>What it is:</strong> A diabetes drug prescribed off-label for weight management. Very affordable but modest weight loss effect.</p>
@@ -104,7 +104,7 @@ function BlogOzempicAlternativesNoInsurance() {
             <li style={{ marginBottom: 8 }}>📊 Efficacy: 2–5% body weight loss</li>
             <li style={{ marginBottom: 8 }}>⚖️ Tradeoff: GI side effects common; weight loss plateau typical after 6 months</li>
           </ul>
-          <p>Understand the risks of combining metformin with supplements in our <a href="/blog/metformin-berberine-stacking-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>Metformin + Berberine stacking guide</a>.</p>
+          <p>Understand the risks of combining metformin with supplements in our <a href="/blog/metformin-berberine-stacking-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>Metformin + Berberine stacking guide</a>.</p>
 
           <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
             <div style={{ width: 48, height: 48, borderRadius: '50%', background: 'var(--brand-soft)', color: 'var(--brand)', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 20px' }}><Icon.Check size={24} /></div>

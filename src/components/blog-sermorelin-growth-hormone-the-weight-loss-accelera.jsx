@@ -22,7 +22,7 @@ export function BlogSermorelinGrowthHormoneTheWeightLossAccelera() {
             </div>
             <div>
               <div style={{ fontWeight: 500, color: 'var(--ink)' }}>
-                <a href="/about" style={{ color: 'inherit', textDecoration: 'none' }}>Julian Mercer, M.S.</a>
+                <a href="/about/" style={{ color: 'inherit', textDecoration: 'none' }}>Julian Mercer, M.S.</a>
               </div>
               <div style={{ fontSize: 14, color: 'var(--ink-2)' }}>Lead Bio-Systems Analyst | May 2, 2026</div>
             </div>
@@ -111,7 +111,7 @@ export function BlogSermorelinGrowthHormoneTheWeightLossAccelera() {
               <li><strong>The Anabolic Shield (Sermorelin):</strong> Sermorelin stimulates the release of natural HGH and IGF-1 (Insulin-like Growth Factor 1) in the liver. These anabolic hormones aggressively protect and repair the skeletal muscle tissue.</li>
             </ul>
             <p>
-              By combining the two, patients achieve rapid, massive fat oxidation without sacrificing their lean muscle mass. This prevents the severe metabolic crash that guarantees weight regain when the patient eventually tapers off the GLP-1 medication. We detail this specific risk heavily in our guide on <a href="/blog/what-happens-when-you-stop-glp-1-medication-the-re" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>The GLP-1 Rebound Effect</a>.
+              By combining the two, patients achieve rapid, massive fat oxidation without sacrificing their lean muscle mass. This prevents the severe metabolic crash that guarantees weight regain when the patient eventually tapers off the GLP-1 medication. We detail this specific risk heavily in our guide on <a href="/blog/what-happens-when-you-stop-glp-1-medication-the-re/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>The GLP-1 Rebound Effect</a>.
             </p>
 
             {/* CTA 2: Mid Funnel */}
@@ -148,7 +148,7 @@ export function BlogSermorelinGrowthHormoneTheWeightLossAccelera() {
                   The science of longevity requires precision. Combine the fat-burning power of incretin therapy with the restorative shield of Sermorelin.
                 </p>
                 <p style={{ fontSize: 16, color: 'var(--ink-2)', marginBottom: 32, maxWidth: 600, margin: '0 auto 32px' }}>
-                  TelehealthFX provides U.S.-licensed, quality-verified peptide protocols delivered directly to your door. Learn how to spot fake peptide mills in our guide to <a href="/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Telehealth Transparency</a>.
+                  TelehealthFX provides U.S.-licensed, quality-verified peptide protocols delivered directly to your door. Learn how to spot fake peptide mills in our guide to <a href="/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Telehealth Transparency</a>.
                 </p>
                 <div style={{ display: 'flex', gap: 16, justifyContent: 'center' }}>
                   <a href={START_URL} className="btn btn-primary" style={{ fontSize: 18, padding: '0 32px' }}>

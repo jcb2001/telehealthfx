@@ -22,7 +22,7 @@ function BlogIntermittentFastingGlp1DoTheyWorkTogether2() {
             <Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' , height: "auto"}} priority={true} />
           </div>
           <div>
-            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
+            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about/" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
             <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 68 min read</div>
           </div>
         </div>
@@ -32,7 +32,7 @@ function BlogIntermittentFastingGlp1DoTheyWorkTogether2() {
           
           <p>The modern weight loss landscape is littered with extreme dietary dogmas, strict nutritional cults, and punishing lifestyle protocols. For the last twenty years, patients suffering from chronic obesity and insulin resistance have been sold an endless rotation of "biohacks" guaranteed to melt visceral fat. From the severe carbohydrate restrictions of the Ketogenic Diet (Keto) to the punishing chronological constraints of Intermittent Fasting (IF) and One Meal A Day (OMAD), the prevailing philosophy has always been built on deprivation and willpower.</p>
           
-          <p>Then came the <a href="/blog/what-is-a-glp-1-medication" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 revolution</a>. The introduction of <a href="/medications/semaglutide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Semaglutide</a> and <a href="/medications/tirzepatide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Tirzepatide</a> fundamentally altered the metabolic playing field. By pharmacologically silencing the neurological centers that drive hunger and physically slowing the digestive process, GLP-1 medications provided the effortless caloric deficit that diets like Keto and IF had always attempted—and usually failed—to enforce.</p>
+          <p>Then came the <a href="/blog/what-is-a-glp-1-medication/" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 revolution</a>. The introduction of <a href="/medications/semaglutide/" style={{ color: 'var(--brand)', fontWeight: 500 }}>Semaglutide</a> and <a href="/medications/tirzepatide/" style={{ color: 'var(--brand)', fontWeight: 500 }}>Tirzepatide</a> fundamentally altered the metabolic playing field. By pharmacologically silencing the neurological centers that drive hunger and physically slowing the digestive process, GLP-1 medications provided the effortless caloric deficit that diets like Keto and IF had always attempted—and usually failed—to enforce.</p>
 
           <p>However, the collision of these two worlds has created a dangerous new phenomenon. Thousands of highly motivated patients are attempting to "stack" extreme dietary protocols on top of their GLP-1 therapy. They are aggressively fasting while using GLP-1 medications, or eliminating all carbohydrates while titrating up on their prescriptions. The assumption is that combining these extreme methods will result in exponential, synergistic weight loss. The clinical reality, however, is that stacking extreme diets on top of GLP-1 therapy is a metabolic trap that frequently results in devastating muscle wasting, profound nutrient deficiencies, and agonizing gastrointestinal failure.</p>
           
@@ -78,7 +78,7 @@ function BlogIntermittentFastingGlp1DoTheyWorkTogether2() {
           <p>The reality is far darker. The combination of IF and GLP-1 almost universally results in severe clinical malnutrition and catastrophic muscle wasting.</p>
 
           <h3 style={{ fontSize: 28, marginTop: 40, marginBottom: 20, color: 'var(--ink)' }}>The Mathematical Impossibility of Protein Targets</h3>
-          <p>As we detailed in our <a href="/blog/glp-1-plateau-when-weight-loss-stalls-what-to-do-2" style={{ color: 'var(--brand)', fontWeight: 500 }}>Metabolic Plateau guide</a>, preserving skeletal muscle mass is the single most critical objective during medical weight loss. To prevent muscle wasting, a patient must consume a massive amount of high-quality protein daily—typically 100 to 150 grams minimum.</p>
+          <p>As we detailed in our <a href="/blog/glp-1-plateau-when-weight-loss-stalls-what-to-do-2/" style={{ color: 'var(--brand)', fontWeight: 500 }}>Metabolic Plateau guide</a>, preserving skeletal muscle mass is the single most critical objective during medical weight loss. To prevent muscle wasting, a patient must consume a massive amount of high-quality protein daily—typically 100 to 150 grams minimum.</p>
           
           <p>Here lies the trap: GLP-1 medications make you incredibly full after just a few bites of food. If a patient is practicing a strict 4-hour or 6-hour eating window (advanced IF), they must cram 120 grams of protein and all their essential micronutrients into that tiny timeframe while fighting severe, chemically induced nausea and fullness.</p>
           
@@ -92,7 +92,7 @@ function BlogIntermittentFastingGlp1DoTheyWorkTogether2() {
               <Icon.Check size={24} />
             </div>
             <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Defend Your Muscle Mass</h3>
-            <p style={{ marginBottom: 24, fontSize: 16 }}>Never compromise your structural integrity for a lower number on the scale. TelehealthFX protocols deploy advanced peptide therapies like <a href="/medications/sermorelin" style={{ color: 'var(--brand)', fontWeight: 500 }}>Sermorelin</a> to act as a biochemical shield, actively protecting your lean muscle mass during your metabolic transformation.</p>
+            <p style={{ marginBottom: 24, fontSize: 16 }}>Never compromise your structural integrity for a lower number on the scale. TelehealthFX protocols deploy advanced peptide therapies like <a href="/medications/sermorelin/" style={{ color: 'var(--brand)', fontWeight: 500 }}>Sermorelin</a> to act as a biochemical shield, actively protecting your lean muscle mass during your metabolic transformation.</p>
             <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>
               Preserve Your Metabolism <Icon.Arrow />
             </a>
@@ -119,7 +119,7 @@ function BlogIntermittentFastingGlp1DoTheyWorkTogether2() {
           <p>During our extensive 1-on-1 asynchronous onboarding, our board-certified providers do not just write a prescription and disappear. We actively interrogate your dietary history. If you are a devout Keto follower or an aggressive IF biohacker, our clinical team will explicitly guide you away from those extremes, explaining the exact physiological dangers they pose when combined with delayed gastric emptying.</p>
 
           <h3 style={{ fontSize: 28, marginTop: 40, marginBottom: 20, color: 'var(--ink)' }}>Strategic Protocol Design</h3>
-          <p>We build a protocol that works with the medication, not against it. We establish your non-negotiable daily protein targets based on your lean body mass. We integrate crucial adjunctive therapies—like <a href="/medications/berberine" style={{ color: 'var(--brand)', fontWeight: 500 }}>Berberine</a> to enhance insulin sensitivity without starvation, or <a href="/medications/nad" style={{ color: 'var(--brand)', fontWeight: 500 }}>NAD+ Therapy</a> to maintain cellular ATP production and combat the lethargy that often accompanies deep caloric deficits.</p>
+          <p>We build a protocol that works with the medication, not against it. We establish your non-negotiable daily protein targets based on your lean body mass. We integrate crucial adjunctive therapies—like <a href="/medications/berberine/" style={{ color: 'var(--brand)', fontWeight: 500 }}>Berberine</a> to enhance insulin sensitivity without starvation, or <a href="/medications/nad/" style={{ color: 'var(--brand)', fontWeight: 500 }}>NAD+ Therapy</a> to maintain cellular ATP production and combat the lethargy that often accompanies deep caloric deficits.</p>
           
           <p>The goal is not to punish the body into submission. The goal is to utilize the absolute pinnacle of pharmaceutical science to effortlessly correct the underlying metabolic dysfunction, allowing you to nourish your body properly for the first time in decades. Let the GLP-1 do the work. TelehealthFX provides the map to navigate it safely.</p>
 
@@ -147,7 +147,7 @@ function BlogIntermittentFastingGlp1DoTheyWorkTogether2() {
 
           <div style={{ background: 'var(--bg-secondary)', padding: 32, borderRadius: 16, marginBottom: 40 }}>
             <h4 style={{ fontSize: 20, marginBottom: 12, color: 'var(--ink)' }}>3. I literally cannot eat enough protein because I am so full. What do I do?</h4>
-            <p style={{ fontSize: 16, color: 'var(--ink-2)' }}>This is the most common and dangerous side effect of GLP-1 therapy. If you cannot consume solid protein, you must transition immediately to high-quality liquid whey protein isolates or essential amino acid (EAA) supplements. Liquids pass through the delayed stomach much faster than solid food. If you consistently fail to hit your protein targets, you must contact your provider to potentially lower your GLP-1 dose. <a href="/blog/the-muscle-loss-myth-how-to-protect-your-lean-mass" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>muscle loss</a> is unacceptable.</p>
+            <p style={{ fontSize: 16, color: 'var(--ink-2)' }}>This is the most common and dangerous side effect of GLP-1 therapy. If you cannot consume solid protein, you must transition immediately to high-quality liquid whey protein isolates or essential amino acid (EAA) supplements. Liquids pass through the delayed stomach much faster than solid food. If you consistently fail to hit your protein targets, you must contact your provider to potentially lower your GLP-1 dose. <a href="/blog/the-muscle-loss-myth-how-to-protect-your-lean-mass/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>muscle loss</a> is unacceptable.</p>
           </div>
 
           <div style={{ background: 'var(--bg-secondary)', padding: 32, borderRadius: 16, marginBottom: 40 }}>

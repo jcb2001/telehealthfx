@@ -22,7 +22,7 @@ export function BlogNadTherapyExplainedAntiAgingEnergyWeightLos() {
             </div>
             <div>
               <div style={{ fontWeight: 500, color: 'var(--ink)' }}>
-                <a href="/about" style={{ color: 'inherit', textDecoration: 'none' }}>Julian Mercer, M.S.</a>
+                <a href="/about/" style={{ color: 'inherit', textDecoration: 'none' }}>Julian Mercer, M.S.</a>
               </div>
               <div style={{ fontSize: 14, color: 'var(--ink-2)' }}>Lead Bio-Systems Analyst | May 2, 2026</div>
             </div>
@@ -93,7 +93,7 @@ export function BlogNadTherapyExplainedAntiAgingEnergyWeightLos() {
                 <div>
                   <h3 className="serif" style={{ fontSize: 24, marginBottom: 12 }}>NAD+ vs. GLP-1 Lethargy</h3>
                   <p style={{ margin: 0, color: 'var(--ink-2)', lineHeight: 1.6 }}>
-                    As detailed in our <a href="/blog/glp-1-side-effects-how-to-manage-nausea-fatigue-mo" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>GLP-1 Side Effects Protocol</a>, medications like Semaglutide violently suppress glucagon, crashing the body's rapid energy supply and causing severe, debilitating fatigue. NAD+ therapy is the ultimate physiological bridge. By administering subcutaneous NAD+ alongside a GLP-1, patients can artificially force their mitochondria to produce ATP, completely overriding the lethargy caused by the massive caloric deficit. It allows patients to lose weight rapidly without feeling exhausted.
+                    As detailed in our <a href="/blog/glp-1-side-effects-how-to-manage-nausea-fatigue-mo/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>GLP-1 Side Effects Protocol</a>, medications like Semaglutide violently suppress glucagon, crashing the body's rapid energy supply and causing severe, debilitating fatigue. NAD+ therapy is the ultimate physiological bridge. By administering subcutaneous NAD+ alongside a GLP-1, patients can artificially force their mitochondria to produce ATP, completely overriding the lethargy caused by the massive caloric deficit. It allows patients to lose weight rapidly without feeling exhausted.
                   </p>
                 </div>
               </div>
@@ -142,7 +142,7 @@ export function BlogNadTherapyExplainedAntiAgingEnergyWeightLos() {
                   True anti-aging is not cosmetic; it occurs at the mitochondrial level. Give your cells the chemical fuel they need to repair and thrive.
                 </p>
                 <p style={{ fontSize: 16, color: 'var(--ink-2)', marginBottom: 32, maxWidth: 600, margin: '0 auto 32px' }}>
-                  TelehealthFX provides U.S.-licensed, quality-verified subcutaneous NAD+ protocols with strict physician oversight. Learn how to identify safe providers in our guide to spotting <a href="/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Hidden Fees in Telehealth</a>.
+                  TelehealthFX provides U.S.-licensed, quality-verified subcutaneous NAD+ protocols with strict physician oversight. Learn how to identify safe providers in our guide to spotting <a href="/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Hidden Fees in Telehealth</a>.
                 </p>
                 <div style={{ display: 'flex', gap: 16, justifyContent: 'center' }}>
                   <a href={START_URL} className="btn btn-primary" style={{ fontSize: 18, padding: '0 32px' }}>

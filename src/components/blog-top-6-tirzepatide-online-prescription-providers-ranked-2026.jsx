@@ -23,7 +23,7 @@ function BlogTop6TirzepatideProvidersRanked() {
             </div>
             <div>
               <div style={{ fontWeight: 500, fontSize: 14, color: '#042f2e' }}>
-                <a href="/about" style={{ color: "#042f2e", textDecoration: "none" }}>Julian Mercer, M.S.</a>
+                <a href="/about/" style={{ color: "#042f2e", textDecoration: "none" }}>Julian Mercer, M.S.</a>
                 <span style={{ color: "#0d9488", fontWeight: 400 }}> · Clinically Reviewed by Alexander Wright, MD, FACP</span>
               </div>
               <div style={{ fontSize: 13, color: '#0d9488' }}>

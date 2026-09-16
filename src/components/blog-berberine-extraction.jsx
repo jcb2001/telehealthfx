@@ -22,7 +22,7 @@ export function BlogBerberineExtraction() {
             </div>
             <div>
               <div style={{ fontWeight: 500, color: 'var(--ink)' }}>
-                <a href="/about" style={{ color: 'inherit', textDecoration: 'none' }}>Julian Mercer, M.S.</a>
+                <a href="/about/" style={{ color: 'inherit', textDecoration: 'none' }}>Julian Mercer, M.S.</a>
               </div>
               <div style={{ fontSize: 14, color: 'var(--ink-2)' }}>Lead Bio-Systems Analyst | May 2, 2026</div>
             </div>
@@ -42,12 +42,12 @@ export function BlogBerberineExtraction() {
               When a botanical compound goes viral—as Berberine has under the moniker "Nature's Ozempic"—the global supply chain is immediately subjected to intense, unsustainable pressure. To meet the massive surge in consumer demand, dietary supplement manufacturers abandon traditional, slow-extraction methods in favor of highly aggressive, cost-cutting chemical protocols. The result is a market flooded with low-grade, highly adulterated Berberine extracts that fail basic clinical purity standards.
             </p>
             <p>
-              Understanding the Berberine extraction process is no longer just for organic chemists; it is a critical safety requirement for any consumer attempting to use high-dose botanical therapeutics for metabolic syndrome or insulin resistance. In this comprehensive clinical breakdown, we dissect the various industrial extraction methods used to isolate Berberine, explain how solvent residues and heavy metals contaminate the final product, and analyze why attempting to reverse severe obesity with cheap Amazon supplements is clinically inferior to utilizing FDA-regulated <a href="/blog/what-is-a-glp-1-medication" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>GLP-1 receptor agonists</a>.
+              Understanding the Berberine extraction process is no longer just for organic chemists; it is a critical safety requirement for any consumer attempting to use high-dose botanical therapeutics for metabolic syndrome or insulin resistance. In this comprehensive clinical breakdown, we dissect the various industrial extraction methods used to isolate Berberine, explain how solvent residues and heavy metals contaminate the final product, and analyze why attempting to reverse severe obesity with cheap Amazon supplements is clinically inferior to utilizing FDA-regulated <a href="/blog/what-is-a-glp-1-medication/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>GLP-1 receptor agonists</a>.
             </p>
 
             <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>The Raw Material Problem</h2>
             <p>
-              The extraction process begins with the raw botanical material. As we established in our guide on <a href="/blog/coptis-chinensis-vs-berberis-vulgaris-botanical-sources" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Coptis Chinensis vs Berberis Vulgaris</a>, true, high-yield Berberine comes from a very specific subset of plants. <em>Coptis Chinensis</em> (Goldthread) is widely considered the premium source due to its high concentration of synergistic isoquinoline alkaloids (like Coptisine and Palmatine). 
+              The extraction process begins with the raw botanical material. As we established in our guide on <a href="/blog/coptis-chinensis-vs-berberis-vulgaris-botanical-sources/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Coptis Chinensis vs Berberis Vulgaris</a>, true, high-yield Berberine comes from a very specific subset of plants. <em>Coptis Chinensis</em> (Goldthread) is widely considered the premium source due to its high concentration of synergistic isoquinoline alkaloids (like Coptisine and Palmatine). 
             </p>
             <p>
               However, <em>Coptis Chinensis</em> is a slow-growing perennial that requires four to five years of cultivation in specific, cool mountainous regions before its rhizomes are ready for harvest. When TikTok influencers cause a 400% spike in global Berberine demand overnight, it is mathematically impossible for the agricultural supply of <em>Coptis</em> to meet that demand. 
@@ -123,10 +123,10 @@ export function BlogBerberineExtraction() {
               Even if you manage to find a pristine, supercritical CO2 extracted, full-spectrum <em>Coptis Chinensis</em> supplement that is completely free of heavy metals and solvent residue, you still face the ultimate biological roadblock: pharmacokinetics. 
             </p>
             <p>
-              As we detail in our guide on <a href="/blog/berberine-oral-bioavailability" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Berberine Oral Bioavailability</a>, the human body is designed to reject Berberine. The P-glycoprotein (P-gp) efflux pump actively ejects it from the intestinal wall, and hepatic first-pass metabolism destroys the tiny fraction that makes it into the bloodstream. 
+              As we detail in our guide on <a href="/blog/berberine-oral-bioavailability/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Berberine Oral Bioavailability</a>, the human body is designed to reject Berberine. The P-glycoprotein (P-gp) efflux pump actively ejects it from the intestinal wall, and hepatic first-pass metabolism destroys the tiny fraction that makes it into the bloodstream. 
             </p>
             <p>
-              To combat this, the supplement industry has turned to synthetic derivatives, most notably Dihydroberberine (DHB). While DHB technically absorbs better, it is often marketed with highly deceptive claims. We completely deconstruct the marketing behind DHB in our analysis of <a href="/blog/dihydroberberine-vs-berberine" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Dihydroberberine and the 5x Bioavailability Myth</a>.
+              To combat this, the supplement industry has turned to synthetic derivatives, most notably Dihydroberberine (DHB). While DHB technically absorbs better, it is often marketed with highly deceptive claims. We completely deconstruct the marketing behind DHB in our analysis of <a href="/blog/dihydroberberine-vs-berberine/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Dihydroberberine and the 5x Bioavailability Myth</a>.
             </p>
 
             {/* CTA 2: Mid Funnel */}
@@ -152,13 +152,13 @@ export function BlogBerberineExtraction() {
               Here is the clinical reality: If you want to use Berberine safely and effectively, you must purchase a premium, third-party tested, full-spectrum extract. These high-end supplements routinely cost $60 to $80 for a one-month supply. 
             </p>
             <p>
-              At that price point, you are crossing a critical financial threshold. You are no longer engaging in cheap over-the-counter supplementation; you are paying clinical prices for botanical interventions that still suffer from a rigid physiological ceiling. Berberine, even at its absolute highest purity, cannot agonize the GLP-1 receptors in the brain to eliminate "food noise." It cannot significantly delay gastric emptying. It cannot force the profound, 15%+ total body weight loss seen in modern clinical trials. We explain exactly how pharmaceutical interventions surpass botanical limits in our guide: <a href="/blog/ozempic-insulin-resistance" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Ozempic for Insulin Resistance: Beyond Weight Loss</a>.
+              At that price point, you are crossing a critical financial threshold. You are no longer engaging in cheap over-the-counter supplementation; you are paying clinical prices for botanical interventions that still suffer from a rigid physiological ceiling. Berberine, even at its absolute highest purity, cannot agonize the GLP-1 receptors in the brain to eliminate "food noise." It cannot significantly delay gastric emptying. It cannot force the profound, 15%+ total body weight loss seen in modern clinical trials. We explain exactly how pharmaceutical interventions surpass botanical limits in our guide: <a href="/blog/ozempic-insulin-resistance/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Ozempic for Insulin Resistance: Beyond Weight Loss</a>.
             </p>
             <p>
               Furthermore, with the rise of highly regulated telehealth clinics, the cost of actual, quality-verified compounded Semaglutide and Tirzepatide has plummeted. You can now receive genuine peptide therapy—which bypasses the gut entirely via subcutaneous injection for near 100% bioavailability—for nearly the exact same monthly cost as premium, "biohacker-tier" botanical stacks.
             </p>
             <p>
-              (Note: Regardless of whether you use premium Berberine or prescription Semaglutide, you must actively protect your lean tissue during caloric deficits. Read our clinical playbook on <a href="/blog/glp-1-muscle-loss-the-hidden-risk-nobodys-talking" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>GLP-1 Muscle Loss Prevention</a> to ensure you aren't destroying your metabolism while losing weight.)
+              (Note: Regardless of whether you use premium Berberine or prescription Semaglutide, you must actively protect your lean tissue during caloric deficits. Read our clinical playbook on <a href="/blog/glp-1-muscle-loss-the-hidden-risk-nobodys-talking/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>GLP-1 Muscle Loss Prevention</a> to ensure you aren't destroying your metabolism while losing weight.)
             </p>
 
             {/* CTA 3: Bottom Funnel */}
@@ -169,7 +169,7 @@ export function BlogBerberineExtraction() {
                   Stop worrying about heavy metal contamination, harsh acid extraction methods, and bioavailability failures. 
                 </p>
                 <p style={{ fontSize: 16, color: 'var(--ink-2)', marginBottom: 32, maxWidth: 600, margin: '0 auto 32px' }}>
-                  TelehealthFX provides U.S.-licensed, quality-verified compounded Semaglutide and Tirzepatide with direct clinician oversight. No extreme markups. No hidden membership fees. Just real, physiological results. Learn how to identify safe providers in our guide to spotting <a href="/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Hidden Fees in Telehealth Weight Loss</a>.
+                  TelehealthFX provides U.S.-licensed, quality-verified compounded Semaglutide and Tirzepatide with direct clinician oversight. No extreme markups. No hidden membership fees. Just real, physiological results. Learn how to identify safe providers in our guide to spotting <a href="/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Hidden Fees in Telehealth Weight Loss</a>.
                 </p>
                 <div style={{ display: 'flex', gap: 16, justifyContent: 'center' }}>
                   <a href="https://go.telehealthfx.com/start" className="btn btn-primary" style={{ fontSize: 18, padding: '0 32px' }}>

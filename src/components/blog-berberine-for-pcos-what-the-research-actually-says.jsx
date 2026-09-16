@@ -22,7 +22,7 @@ export function BlogBerberineForPcosWhatTheResearchActuallySays() {
             </div>
             <div>
               <div style={{ fontWeight: 500, color: 'var(--ink)' }}>
-                <a href="/about" style={{ color: 'inherit', textDecoration: 'none' }}>Julian Mercer, M.S.</a>
+                <a href="/about/" style={{ color: 'inherit', textDecoration: 'none' }}>Julian Mercer, M.S.</a>
               </div>
               <div style={{ fontSize: 14, color: 'var(--ink-2)' }}>Lead Bio-Systems Analyst | May 2, 2026</div>
             </div>
@@ -42,7 +42,7 @@ export function BlogBerberineForPcosWhatTheResearchActuallySays() {
               Polycystic Ovary Syndrome (PCOS) is the most common endocrine disorder affecting women of reproductive age, yet the standard of care remains frustratingly stagnant. For decades, the default medical response has been a blanket prescription for oral contraceptives to artificially force a bleed, paired with Metformin to manage blood glucose. 
             </p>
             <p>
-              However, millions of women either cannot tolerate the severe gastrointestinal side effects of Metformin or refuse to artificially suppress their natural hormonal cycles with synthetic birth control. This massive clinical void has led to an explosion of interest in botanical alternatives. At the very center of this revolution is Berberine—a golden isoquinoline alkaloid extracted from <a href="/blog/coptis-chinensis-vs-berberis-vulgaris-botanical-sources" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Coptis chinensis</a>.
+              However, millions of women either cannot tolerate the severe gastrointestinal side effects of Metformin or refuse to artificially suppress their natural hormonal cycles with synthetic birth control. This massive clinical void has led to an explosion of interest in botanical alternatives. At the very center of this revolution is Berberine—a golden isoquinoline alkaloid extracted from <a href="/blog/coptis-chinensis-vs-berberis-vulgaris-botanical-sources/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Coptis chinensis</a>.
             </p>
             <p>
               But is Berberine truly a viable alternative for PCOS management, or is it merely internet hype? In this 5,000-word clinical review, we bypass the social media anecdotes and analyze the raw, peer-reviewed data. We deconstruct the root cause of PCOS—severe ovarian insulin resistance—and detail exactly how Berberine's activation of the AMPK metabolic master switch compares head-to-head with pharmaceutical Metformin.
@@ -113,7 +113,7 @@ export function BlogBerberineForPcosWhatTheResearchActuallySays() {
               <li><strong>Waist Circumference:</strong> Berberine demonstrated a superior reduction in visceral abdominal fat compared to Metformin.</li>
             </ul>
             <p>
-              The clinical consensus is clear: Berberine is not a weak, homeopathic placebo. It is a powerful pharmacological agent that meets, and in some lipid markers exceeds, the efficacy of pharmaceutical Metformin for PCOS management. We explore this comparison further in our <a href="/blog/berberine-vs-glp-1-in-2026-can-natures-ozempic-act" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Berberine vs GLP-1 Analysis</a>.
+              The clinical consensus is clear: Berberine is not a weak, homeopathic placebo. It is a powerful pharmacological agent that meets, and in some lipid markers exceeds, the efficacy of pharmaceutical Metformin for PCOS management. We explore this comparison further in our <a href="/blog/berberine-vs-glp-1-in-2026-can-natures-ozempic-act/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Berberine vs GLP-1 Analysis</a>.
             </p>
 
             {/* CTA 2: Mid Funnel */}
@@ -136,7 +136,7 @@ export function BlogBerberineForPcosWhatTheResearchActuallySays() {
               If Berberine is so effective, why do so many women with PCOS try it and see zero results? The answer lies in the pharmacokinetics.
             </p>
             <p>
-              As we established in our deep dive into <a href="/blog/dihydroberberine-vs-berberine" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Dihydroberberine</a>, raw Berberine HCL has an absolute oral bioavailability of less than 1%. When you swallow a standard Berberine capsule from a big-box store, it enters your highly acidic stomach. It then travels to the liver, where it is aggressively targeted as a foreign xenobiotic and destroyed via first-pass metabolism. The tiny fraction that survives is actively pumped back out of the intestinal wall by P-glycoprotein efflux pumps.
+              As we established in our deep dive into <a href="/blog/dihydroberberine-vs-berberine/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Dihydroberberine</a>, raw Berberine HCL has an absolute oral bioavailability of less than 1%. When you swallow a standard Berberine capsule from a big-box store, it enters your highly acidic stomach. It then travels to the liver, where it is aggressively targeted as a foreign xenobiotic and destroyed via first-pass metabolism. The tiny fraction that survives is actively pumped back out of the intestinal wall by P-glycoprotein efflux pumps.
             </p>
             <p>
               To get a clinical dose of Berberine into the bloodstream orally, patients must consume massive amounts (1,500mg daily, split into three 500mg doses). This massive load of raw alkaloids sitting in the gut frequently triggers the exact same violent diarrhea, cramping, and bloating associated with Metformin.

@@ -22,7 +22,7 @@ export function BlogOzempicFaceLooseSkinPreventionTreatmentWhat() {
             </div>
             <div>
               <div style={{ fontWeight: 500, color: 'var(--ink)' }}>
-                <a href="/about" style={{ color: 'inherit', textDecoration: 'none' }}>Julian Mercer, M.S.</a>
+                <a href="/about/" style={{ color: 'inherit', textDecoration: 'none' }}>Julian Mercer, M.S.</a>
               </div>
               <div style={{ fontSize: 14, color: 'var(--ink-2)' }}>Lead Bio-Systems Analyst | May 2, 2026</div>
             </div>
@@ -81,7 +81,7 @@ export function BlogOzempicFaceLooseSkinPreventionTreatmentWhat() {
 
             <h3>1. The Anabolic Peptide Shield (Sermorelin)</h3>
             <p>
-              As we detailed extensively in our guide to <a href="/blog/sermorelin-growth-hormone-the-weight-loss-accelera" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Sermorelin</a>, Human Growth Hormone (HGH) is the master hormone responsible for collagen synthesis. Because GLP-1 therapy naturally depresses HGH levels, your skin cannot repair itself. By injecting a growth hormone secretagogue (like Sermorelin) nightly, you artificially spike your natural HGH levels, commanding your fibroblasts to relentlessly pump out fresh, thick collagen while the fat melts away. This is the single most powerful preventative measure a patient can take.
+              As we detailed extensively in our guide to <a href="/blog/sermorelin-growth-hormone-the-weight-loss-accelera/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Sermorelin</a>, Human Growth Hormone (HGH) is the master hormone responsible for collagen synthesis. Because GLP-1 therapy naturally depresses HGH levels, your skin cannot repair itself. By injecting a growth hormone secretagogue (like Sermorelin) nightly, you artificially spike your natural HGH levels, commanding your fibroblasts to relentlessly pump out fresh, thick collagen while the fat melts away. This is the single most powerful preventative measure a patient can take.
             </p>
 
             <h3>2. Controlled Titration (The Slow Burn)</h3>
@@ -91,7 +91,7 @@ export function BlogOzempicFaceLooseSkinPreventionTreatmentWhat() {
 
             <h3>3. Hyper-Hydration and Cellular Energy</h3>
             <p>
-              GLP-1 medications naturally cause severe systemic dehydration by delaying gastric emptying and suppressing the thirst mechanism. Dehydrated collagen is brittle collagen. You must force-hydrate with a minimum of 100 ounces of electrolyte-infused water daily. Furthermore, your fibroblasts require massive amounts of ATP energy to synthesize new proteins. If you are suffering from the profound fatigue of a caloric deficit, utilizing <a href="/blog/nad-therapy-explained-anti-aging-energy-weight-los" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>NAD+ Therapy</a> will provide the cellular energy required for your skin to actively rebuild.
+              GLP-1 medications naturally cause severe systemic dehydration by delaying gastric emptying and suppressing the thirst mechanism. Dehydrated collagen is brittle collagen. You must force-hydrate with a minimum of 100 ounces of electrolyte-infused water daily. Furthermore, your fibroblasts require massive amounts of ATP energy to synthesize new proteins. If you are suffering from the profound fatigue of a caloric deficit, utilizing <a href="/blog/nad-therapy-explained-anti-aging-energy-weight-los/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>NAD+ Therapy</a> will provide the cellular energy required for your skin to actively rebuild.
             </p>
 
             <div className="card" style={{ padding: 32, background: 'var(--surface-2)', marginTop: 40, marginBottom: 40 }}>
@@ -100,7 +100,7 @@ export function BlogOzempicFaceLooseSkinPreventionTreatmentWhat() {
                 <div>
                   <h3 className="serif" style={{ fontSize: 24, marginBottom: 12 }}>4. Sarcopenia Prevention (The Muscle Scaffold)</h3>
                   <p style={{ margin: 0, color: 'var(--ink-2)', lineHeight: 1.6 }}>
-                    Your skin rests on two layers: fat and muscle. If you burn off the fat <em>and</em> the muscle (sarcopenia), you have completely destroyed the underlying structural scaffold. You will experience severe sagging not just in the face, but specifically the triceps, glutes, and thighs. As outlined in our <a href="/blog/glp-1-muscle-loss-the-hidden-risk-nobodys-talking" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Muscle Preservation Guide</a>, you must consume 1g of protein per pound of target weight and engage in heavy resistance training to build dense muscle tissue that physically fills out the space left behind by the evacuated fat cells.
+                    Your skin rests on two layers: fat and muscle. If you burn off the fat <em>and</em> the muscle (sarcopenia), you have completely destroyed the underlying structural scaffold. You will experience severe sagging not just in the face, but specifically the triceps, glutes, and thighs. As outlined in our <a href="/blog/glp-1-muscle-loss-the-hidden-risk-nobodys-talking/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Muscle Preservation Guide</a>, you must consume 1g of protein per pound of target weight and engage in heavy resistance training to build dense muscle tissue that physically fills out the space left behind by the evacuated fat cells.
                   </p>
                 </div>
               </div>
@@ -157,7 +157,7 @@ export function BlogOzempicFaceLooseSkinPreventionTreatmentWhat() {
                   True medical weight loss requires a comprehensive approach to body composition, not just a lower number on the scale.
                 </p>
                 <p style={{ fontSize: 16, color: 'var(--ink-2)', marginBottom: 32, maxWidth: 600, margin: '0 auto 32px' }}>
-                  TelehealthFX provides U.S.-licensed, quality-verified compounded Semaglutide and Tirzepatide with strict physician oversight. Learn how to identify safe providers in our guide to spotting <a href="/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Hidden Fees in Telehealth</a>.
+                  TelehealthFX provides U.S.-licensed, quality-verified compounded Semaglutide and Tirzepatide with strict physician oversight. Learn how to identify safe providers in our guide to spotting <a href="/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Hidden Fees in Telehealth</a>.
                 </p>
                 <div style={{ display: 'flex', gap: 16, justifyContent: 'center' }}>
                   <a href={START_URL} className="btn btn-primary" style={{ fontSize: 18, padding: '0 32px' }}>

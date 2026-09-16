@@ -22,7 +22,7 @@ export function BlogTirzepatideVsSemaglutide() {
             </div>
             <div>
               <div style={{ fontWeight: 500, color: 'var(--ink)' }}>
-                <a href="/about" style={{ color: 'inherit', textDecoration: 'none' }}>Julian Mercer, M.S.</a>
+                <a href="/about/" style={{ color: 'inherit', textDecoration: 'none' }}>Julian Mercer, M.S.</a>
               </div>
               <div style={{ fontSize: 14, color: 'var(--ink-2)' }}>Lead Bio-Systems Analyst | May 2, 2026</div>
             </div>
@@ -47,7 +47,7 @@ export function BlogTirzepatideVsSemaglutide() {
 
             <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>The Incretin Foundation: Single vs. Dual Agonism</h2>
             <p>
-              To grasp the superiority of Tirzepatide, we must quickly revisit the biological incretin system. As we detailed in our guide on <a href="/blog/pharmacokinetics-ozempic-semaglutide-cellular-breakdown" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>The Pharmacokinetics of Semaglutide</a>, incretins are hormones released by the gastrointestinal tract in response to nutrient intake. Their primary function is to signal the pancreas to secrete insulin, thereby preparing the body to process incoming glucose.
+              To grasp the superiority of Tirzepatide, we must quickly revisit the biological incretin system. As we detailed in our guide on <a href="/blog/pharmacokinetics-ozempic-semaglutide-cellular-breakdown/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>The Pharmacokinetics of Semaglutide</a>, incretins are hormones released by the gastrointestinal tract in response to nutrient intake. Their primary function is to signal the pancreas to secrete insulin, thereby preparing the body to process incoming glucose.
             </p>
             <p>
               Semaglutide is a <strong>mono-agonist</strong>. It is a synthetic analog designed to mimic only one of these incretin hormones: Glucagon-Like Peptide-1 (GLP-1). By agonizing the GLP-1 receptor, Semaglutide violently suppresses appetite in the hypothalamus, delays gastric emptying, and stimulates insulin release. It is highly effective, but it is fundamentally a unilateral assault on metabolic dysfunction.
@@ -97,10 +97,10 @@ export function BlogTirzepatideVsSemaglutide() {
 
             <h3>Neurological Synergy: The Glucagon Buffer</h3>
             <p>
-              As we discussed in our breakdown of <a href="/blog/ozempic-insulin-resistance" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Ozempic and Insulin Resistance</a>, GLP-1 aggressively suppresses glucagon (the hormone that raises blood sugar). However, aggressive glucagon suppression can sometimes lead to mild nausea and severe lethargy, which are the most common reasons patients abandon Semaglutide therapy.
+              As we discussed in our breakdown of <a href="/blog/ozempic-insulin-resistance/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Ozempic and Insulin Resistance</a>, GLP-1 aggressively suppresses glucagon (the hormone that raises blood sugar). However, aggressive glucagon suppression can sometimes lead to mild nausea and severe lethargy, which are the most common reasons patients abandon Semaglutide therapy.
             </p>
             <p>
-              GIP acts as a neurological buffer. While GLP-1 violently suppresses glucagon, GIP actually has a mild glucagonotropic effect (it slightly stimulates glucagon in specific, fasting states). This delicate "push-pull" dynamic prevents blood sugar from dropping too rapidly, resulting in a vastly superior tolerability profile. Clinical data shows that patients on high doses of Tirzepatide experience significantly less nausea and fatigue than patients on equivalent doses of Semaglutide. We cover management strategies for these specific reactions in our guide to <a href="/blog/glp-1-side-effects-how-to-manage-nausea-fatigue-mo" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Managing GLP-1 Side Effects</a>.
+              GIP acts as a neurological buffer. While GLP-1 violently suppresses glucagon, GIP actually has a mild glucagonotropic effect (it slightly stimulates glucagon in specific, fasting states). This delicate "push-pull" dynamic prevents blood sugar from dropping too rapidly, resulting in a vastly superior tolerability profile. Clinical data shows that patients on high doses of Tirzepatide experience significantly less nausea and fatigue than patients on equivalent doses of Semaglutide. We cover management strategies for these specific reactions in our guide to <a href="/blog/glp-1-side-effects-how-to-manage-nausea-fatigue-mo/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Managing GLP-1 Side Effects</a>.
             </p>
 
             {/* CTA 2: Mid Funnel */}
@@ -162,7 +162,7 @@ export function BlogTirzepatideVsSemaglutide() {
               The addition of GIP agonism provides a direct mechanism to remodel stubborn adipose tissue while neurologically buffering the harsh side effects of GLP-1. 
             </p>
             <p>
-              However, the extreme catabolic power of Tirzepatide comes with a dire warning. Rapid, 20%+ body weight loss will indiscriminately strip lean muscle mass alongside adipose tissue if not aggressively managed. Patients transitioning to Tirzepatide must consume massive amounts of bioavailable protein and engage in heavy resistance training to protect their basal metabolic rate. We outline these non-negotiable protocols in our clinical playbook: <a href="/blog/glp-1-muscle-loss-the-hidden-risk-nobodys-talking" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>GLP-1 Muscle Loss Prevention</a>.
+              However, the extreme catabolic power of Tirzepatide comes with a dire warning. Rapid, 20%+ body weight loss will indiscriminately strip lean muscle mass alongside adipose tissue if not aggressively managed. Patients transitioning to Tirzepatide must consume massive amounts of bioavailable protein and engage in heavy resistance training to protect their basal metabolic rate. We outline these non-negotiable protocols in our clinical playbook: <a href="/blog/glp-1-muscle-loss-the-hidden-risk-nobodys-talking/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>GLP-1 Muscle Loss Prevention</a>.
             </p>
 
             {/* CTA 3: Bottom Funnel */}
@@ -173,7 +173,7 @@ export function BlogTirzepatideVsSemaglutide() {
                   If you have stalled on Semaglutide or require the most advanced metabolic intervention available, it is time to upgrade to Tirzepatide.
                 </p>
                 <p style={{ fontSize: 16, color: 'var(--ink-2)', marginBottom: 32, maxWidth: 600, margin: '0 auto 32px' }}>
-                  TelehealthFX provides U.S.-licensed, quality-verified compounded Tirzepatide with strict clinician oversight. No extreme markups. No hidden membership fees. Just real science and physiological results. Ensure you are choosing a safe provider by reading our guide to spotting <a href="/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Hidden Fees in Telehealth</a>.
+                  TelehealthFX provides U.S.-licensed, quality-verified compounded Tirzepatide with strict clinician oversight. No extreme markups. No hidden membership fees. Just real science and physiological results. Ensure you are choosing a safe provider by reading our guide to spotting <a href="/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Hidden Fees in Telehealth</a>.
                 </p>
                 <div style={{ display: 'flex', gap: 16, justifyContent: 'center' }}>
                   <a href={START_URL} className="btn btn-primary" style={{ fontSize: 18, padding: '0 32px' }}>

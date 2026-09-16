@@ -22,7 +22,7 @@ export function BlogGlp1ForSeniorsWeightLossAfter60Safely2026() {
             </div>
             <div>
               <div style={{ fontWeight: 500, color: 'var(--ink)' }}>
-                <a href="/about" style={{ color: 'inherit', textDecoration: 'none' }}>Julian Mercer, M.S.</a>
+                <a href="/about/" style={{ color: 'inherit', textDecoration: 'none' }}>Julian Mercer, M.S.</a>
               </div>
               <div style={{ fontSize: 14, color: 'var(--ink-2)' }}>Lead Bio-Systems Analyst | May 2, 2026</div>
             </div>
@@ -45,7 +45,7 @@ export function BlogGlp1ForSeniorsWeightLossAfter60Safely2026() {
               However, the cardiovascular threat of carrying massive visceral fat loads into old age is equally deadly. Seniors are trapped in a biological Catch-22: they must lose the fat to survive, but they cannot afford to lose the muscle required to carry the weight.
             </p>
             <p>
-              In this exhaustive 5,000-word geriatric health guide, we analyze the use of GLP-1 receptor agonists (like Semaglutide and <a href="/blog/tirzepatide-vs-semaglutide-dual-agonist-mechanism" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Tirzepatide</a>) in the senior population. We deconstruct the silent killer known as "sarcopenic obesity," detail the strict DEXA-scan protocols required during therapy, and provide a rigid nutritional framework to ensure that weight loss over 60 extends lifespan rather than crippling it.
+              In this exhaustive 5,000-word geriatric health guide, we analyze the use of GLP-1 receptor agonists (like Semaglutide and <a href="/blog/tirzepatide-vs-semaglutide-dual-agonist-mechanism/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Tirzepatide</a>) in the senior population. We deconstruct the silent killer known as "sarcopenic obesity," detail the strict DEXA-scan protocols required during therapy, and provide a rigid nutritional framework to ensure that weight loss over 60 extends lifespan rather than crippling it.
             </p>
 
             <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>The Threat of Sarcopenic Obesity</h2>
@@ -81,7 +81,7 @@ export function BlogGlp1ForSeniorsWeightLossAfter60Safely2026() {
               If the risk of muscle loss is so high, why do endocrinologists still prescribe Semaglutide to seniors? Because the cardiovascular benefits are impossible to ignore.
             </p>
             <p>
-              As proven by the landmark SELECT Trial (which we analyze deeply in our <a href="/blog/glp-1-and-your-heart-the-select-trial-cardiovascul" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Cardiovascular GLP-1 Guide</a>), Semaglutide reduces the risk of major adverse cardiovascular events (heart attacks and strokes) by 20% in patients over 45 with preexisting heart disease. Furthermore, GLP-1s rapidly clear visceral fat from the liver and pancreas, reversing Type 2 Diabetes and plummeting blood pressure. 
+              As proven by the landmark SELECT Trial (which we analyze deeply in our <a href="/blog/glp-1-and-your-heart-the-select-trial-cardiovascul/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Cardiovascular GLP-1 Guide</a>), Semaglutide reduces the risk of major adverse cardiovascular events (heart attacks and strokes) by 20% in patients over 45 with preexisting heart disease. Furthermore, GLP-1s rapidly clear visceral fat from the liver and pancreas, reversing Type 2 Diabetes and plummeting blood pressure. 
             </p>
             <p>
               For a 68-year-old on the verge of a fatal myocardial infarction, the GLP-1 is a life-saving intervention. The clinical goal is not to avoid the medication, but to use the medication while deploying an impenetrable anabolic shield to protect the muscle.
@@ -137,7 +137,7 @@ export function BlogGlp1ForSeniorsWeightLossAfter60Safely2026() {
               Elite longevity clinics are increasingly prescribing specific peptide therapies alongside GLP-1s for their senior patients to act as an anabolic safety net.
             </p>
             <p>
-              As we discussed in our deep dive into <a href="/blog/sermorelin-growth-hormone-the-weight-loss-accelera" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Sermorelin</a>, utilizing a growth-hormone secretagogue can safely restore a senior's natural HGH levels while they sleep. This massive spike in natural growth hormone directly protects the skeletal muscle from catabolism, dramatically improves skin elasticity, and accelerates the healing of the micro-tears caused by their resistance training. 
+              As we discussed in our deep dive into <a href="/blog/sermorelin-growth-hormone-the-weight-loss-accelera/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Sermorelin</a>, utilizing a growth-hormone secretagogue can safely restore a senior's natural HGH levels while they sleep. This massive spike in natural growth hormone directly protects the skeletal muscle from catabolism, dramatically improves skin elasticity, and accelerates the healing of the micro-tears caused by their resistance training. 
             </p>
 
             {/* CTA 3: Bottom Funnel */}
@@ -148,7 +148,7 @@ export function BlogGlp1ForSeniorsWeightLossAfter60Safely2026() {
                   Shedding decades of toxic visceral fat is the ultimate longevity strategy, provided you protect your musculoskeletal foundation.
                 </p>
                 <p style={{ fontSize: 16, color: 'var(--ink-2)', marginBottom: 32, maxWidth: 600, margin: '0 auto 32px' }}>
-                  TelehealthFX provides U.S.-licensed, quality-verified compounded Semaglutide and Tirzepatide with strict physician oversight. Learn how to navigate telehealth safely in our guide to spotting <a href="/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Hidden Fees in Telehealth</a>.
+                  TelehealthFX provides U.S.-licensed, quality-verified compounded Semaglutide and Tirzepatide with strict physician oversight. Learn how to navigate telehealth safely in our guide to spotting <a href="/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Hidden Fees in Telehealth</a>.
                 </p>
                 <div style={{ display: 'flex', gap: 16, justifyContent: 'center' }}>
                   <a href={START_URL} className="btn btn-primary" style={{ fontSize: 18, padding: '0 32px' }}>

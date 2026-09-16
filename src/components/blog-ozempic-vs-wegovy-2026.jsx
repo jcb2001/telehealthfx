@@ -12,7 +12,7 @@ function BlogOzempicVsWegovy() {
       <h1 className="serif" style={{ fontSize: 56, marginBottom: 24, lineHeight: 1.1 }}>Ozempic vs. Wegovy: <span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>Same Drug, Different Price — Which Should You Get?</span></h1>
       <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}>
         <div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)' }}><Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%', height: "auto"}} priority={true} /></div>
-        <div><div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div><div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 22 min read</div></div>
+        <div><div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about/" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div><div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 22 min read</div></div>
       </div>
       <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
         <Image src="/assets/ozempic-vs-wegovy-featured.png" alt="Ozempic pen vs Wegovy pen comparison" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111', height: "auto"}} priority={true} />
@@ -37,7 +37,7 @@ function BlogOzempicVsWegovy() {
 
         <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The Key Difference: Dose Ceiling</h2>
         <p>The single most clinically relevant difference is the <strong>maximum dose</strong>. Ozempic tops out at 2.0 mg/week, while Wegovy goes to 2.4 mg/week. The STEP clinical trial data that demonstrated 14.9% body weight loss used the 2.4 mg dose — a dose that is only FDA-approved under the Wegovy label.</p>
-        <p>In practice, many patients achieve excellent results at 1.0–2.0 mg. The additional 0.4 mg provides incremental benefit for patients who need maximum pharmacological support. If your clinician determines you need the full 2.4 mg dose, Wegovy is the technically correct prescription. For most patients at 1.0–2.0 mg, both products deliver identical results. For an even more effective option, explore <a href="/medications/tirzepatide" style={{ color: 'var(--brand)', fontWeight: 500 }}>tirzepatide</a> (dual GLP-1/GIP agonist).</p>
+        <p>In practice, many patients achieve excellent results at 1.0–2.0 mg. The additional 0.4 mg provides incremental benefit for patients who need maximum pharmacological support. If your clinician determines you need the full 2.4 mg dose, Wegovy is the technically correct prescription. For most patients at 1.0–2.0 mg, both products deliver identical results. For an even more effective option, explore <a href="/medications/tirzepatide/" style={{ color: 'var(--brand)', fontWeight: 500 }}>tirzepatide</a> (dual GLP-1/GIP agonist).</p>
 
         <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
           <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Skip the Brand Confusion</h3>
@@ -47,13 +47,13 @@ function BlogOzempicVsWegovy() {
 
         <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The Insurance Hack: Why Doctors Prescribe Ozempic for Weight Loss</h2>
         <p>Here is the open secret: millions of Ozempic prescriptions are written <em>off-label</em> for weight loss because insurance covers Ozempic (diabetes indication) far more readily than Wegovy (weight loss indication). If a patient has prediabetes, insulin resistance, or type 2 diabetes alongside obesity, Ozempic becomes the path of least insurance resistance.</p>
-        <p>This is medically legitimate — the patient genuinely has a condition Ozempic treats. But it contributes to Ozempic <a href="/blog/glp-1-shortage-update-may-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>shortages</a> and leaves patients who need it for diabetes unable to fill their prescriptions.</p>
+        <p>This is medically legitimate — the patient genuinely has a condition Ozempic treats. But it contributes to Ozempic <a href="/blog/glp-1-shortage-update-may-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>shortages</a> and leaves patients who need it for diabetes unable to fill their prescriptions.</p>
 
         <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The Third Option: Compounded Semaglutide</h2>
-        <p>Both Ozempic and Wegovy suffer from the same limitations: high cost, insurance complexity, and chronic supply shortages. <a href="/blog/compounded-semaglutide-vs-wegovy-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>Compounded semaglutide</a> bypasses all three:</p>
+        <p>Both Ozempic and Wegovy suffer from the same limitations: high cost, insurance complexity, and chronic supply shortages. <a href="/blog/compounded-semaglutide-vs-wegovy-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>Compounded semaglutide</a> bypasses all three:</p>
         <ul>
-          <li style={{ marginBottom: 8 }}>Same molecule at <a href="/blog/cheapest-compounded-semaglutide-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>a fraction of the cost</a></li>
-          <li style={{ marginBottom: 8 }}>No insurance required — <a href="/blog/hsa-fsa-glp-1-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>HSA/FSA accepted</a></li>
+          <li style={{ marginBottom: 8 }}>Same molecule at <a href="/blog/cheapest-compounded-semaglutide-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>a fraction of the cost</a></li>
+          <li style={{ marginBottom: 8 }}>No insurance required — <a href="/blog/hsa-fsa-glp-1-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>HSA/FSA accepted</a></li>
           <li style={{ marginBottom: 8 }}>Custom dose flexibility beyond FDA pen increments</li>
           <li style={{ marginBottom: 8 }}>Stable supply from dedicated 503A pharmacies</li>
         </ul>
@@ -62,7 +62,7 @@ function BlogOzempicVsWegovy() {
         <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>Are Ozempic and Wegovy really the same drug?</h4>
         <p style={{ marginBottom: 24 }}>Yes. Both contain semaglutide manufactured by Novo Nordisk. The difference is the FDA-approved indication (diabetes vs. weight management) and the maximum available dose (2.0 mg vs. 2.4 mg).</p>
         <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>Can my doctor prescribe Ozempic for weight loss?</h4>
-        <p style={{ marginBottom: 24 }}>Yes. Off-label prescribing is legal and common. However, if your insurance discovers the prescription is for weight loss rather than diabetes, they may deny coverage. Learn about <a href="/blog/ozempic-alternatives-no-insurance-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>alternatives without insurance</a>.</p>
+        <p style={{ marginBottom: 24 }}>Yes. Off-label prescribing is legal and common. However, if your insurance discovers the prescription is for weight loss rather than diabetes, they may deny coverage. Learn about <a href="/blog/ozempic-alternatives-no-insurance-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>alternatives without insurance</a>.</p>
         <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>Which one produces more weight loss?</h4>
         <p style={{ marginBottom: 24 }}>At equivalent doses, they produce identical weight loss. The 2.4 mg Wegovy dose produces slightly more than the 2.0 mg Ozempic maximum due to the higher dose, not a different molecule.</p>
 

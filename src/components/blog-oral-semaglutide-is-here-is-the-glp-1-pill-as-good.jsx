@@ -22,7 +22,7 @@ export function BlogOralSemaglutideIsHereIsTheGlp1PillAsGood() {
             </div>
             <div>
               <div style={{ fontWeight: 500, color: 'var(--ink)' }}>
-                <a href="/about" style={{ color: 'inherit', textDecoration: 'none' }}>Julian Mercer, M.S.</a>
+                <a href="/about/" style={{ color: 'inherit', textDecoration: 'none' }}>Julian Mercer, M.S.</a>
               </div>
               <div style={{ fontSize: 14, color: 'var(--ink-2)' }}>Lead Bio-Systems Analyst | May 2, 2026</div>
             </div>
@@ -39,7 +39,7 @@ export function BlogOralSemaglutideIsHereIsTheGlp1PillAsGood() {
 
           <div className="blog-content">
             <p>
-              The most significant barrier to the global adoption of GLP-1 receptor agonists has always been the delivery mechanism. Despite the unprecedented weight loss and metabolic regulation offered by Semaglutide (Ozempic/Wegovy) and <a href="/blog/tirzepatide-vs-semaglutide-dual-agonist-mechanism" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Tirzepatide</a>, a massive segment of the population suffers from a paralyzing fear of needles. For decades, pharmaceutical engineers attempted to solve a seemingly impossible biological riddle: how do you deliver a fragile peptide hormone through the brutal, highly acidic environment of the human digestive tract?
+              The most significant barrier to the global adoption of GLP-1 receptor agonists has always been the delivery mechanism. Despite the unprecedented weight loss and metabolic regulation offered by Semaglutide (Ozempic/Wegovy) and <a href="/blog/tirzepatide-vs-semaglutide-dual-agonist-mechanism/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Tirzepatide</a>, a massive segment of the population suffers from a paralyzing fear of needles. For decades, pharmaceutical engineers attempted to solve a seemingly impossible biological riddle: how do you deliver a fragile peptide hormone through the brutal, highly acidic environment of the human digestive tract?
             </p>
             <p>
               That riddle has finally been solved. Oral Semaglutide (marketed primarily under the brand name Rybelsus® for Type 2 Diabetes, and currently advancing through high-dose clinical trials for obesity) represents a staggering achievement in chemical engineering. However, the transition from a once-weekly subcutaneous injection to a daily pill is not a simple 1-to-1 swap. 
@@ -53,7 +53,7 @@ export function BlogOralSemaglutideIsHereIsTheGlp1PillAsGood() {
               To appreciate the engineering behind Oral Semaglutide, you must first understand why swallowing hormones is typically a pharmacological death sentence.
             </p>
             <p>
-              Semaglutide is a peptide—a short chain of amino acids. As we detailed in our guide on <a href="/blog/pharmacokinetics-ozempic-semaglutide-cellular-breakdown" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>The Cellular Breakdown of Semaglutide</a>, the drug is a 94% homologous analog of the human GLP-1 hormone. The human stomach is designed by evolution to be an incredibly hostile environment specifically to break down dietary proteins and peptides. 
+              Semaglutide is a peptide—a short chain of amino acids. As we detailed in our guide on <a href="/blog/pharmacokinetics-ozempic-semaglutide-cellular-breakdown/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>The Cellular Breakdown of Semaglutide</a>, the drug is a 94% homologous analog of the human GLP-1 hormone. The human stomach is designed by evolution to be an incredibly hostile environment specifically to break down dietary proteins and peptides. 
             </p>
             <p>
               If you were to simply swallow raw Semaglutide, the gastric acid (which has a pH of roughly 1.5 to 3.5) would immediately begin denaturing the peptide. Following that, aggressive proteolytic enzymes (like pepsin) would violently cleave the amino acid chain into useless fragments. Even if a tiny fraction of the intact peptide somehow survived and reached the small intestine, it is far too large and highly charged to passively diffuse across the intestinal lipid bilayers into the bloodstream. 
@@ -141,7 +141,7 @@ export function BlogOralSemaglutideIsHereIsTheGlp1PillAsGood() {
               <li><strong>The Waiting Period:</strong> After swallowing the pill, you are strictly forbidden from eating, drinking (even coffee), or taking any other oral medications or supplements for a minimum of 30 minutes. Many clinicians actually advise waiting 60 minutes to ensure maximum absorption.</li>
             </ul>
             <p>
-              This daily routine is highly disruptive. If you accidentally drink your morning coffee before the 30-minute window closes, you have essentially thrown the medication in the trash for the day. For patients who struggle with rigid morning routines, the once-weekly subcutaneous injection is vastly superior purely from a compliance standpoint. We cover how to integrate GLP-1s into an active lifestyle in our guide on <a href="/blog/glp-1-and-exercise-how-to-combine-medication-with" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>GLP-1 and Exercise</a>.
+              This daily routine is highly disruptive. If you accidentally drink your morning coffee before the 30-minute window closes, you have essentially thrown the medication in the trash for the day. For patients who struggle with rigid morning routines, the once-weekly subcutaneous injection is vastly superior purely from a compliance standpoint. We cover how to integrate GLP-1s into an active lifestyle in our guide on <a href="/blog/glp-1-and-exercise-how-to-combine-medication-with/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>GLP-1 and Exercise</a>.
             </p>
 
             <div className="card" style={{ padding: 32, background: 'var(--surface-2)', marginTop: 40, marginBottom: 40 }}>
@@ -161,7 +161,7 @@ export function BlogOralSemaglutideIsHereIsTheGlp1PillAsGood() {
               One of the major arguments for the daily pill was the theoretical mitigation of side effects. Because the drug is administered in daily micro-doses rather than a massive weekly bolus, some hypothesized that the severe nausea associated with GLP-1 therapies would be reduced.
             </p>
             <p>
-              However, clinical data suggests the side effect profile is nearly identical between the oral and injectable forms. The nausea, vomiting, and extreme satiety are driven by the systemic blood plasma levels of the drug binding to the hypothalamus, not the localized delivery method. Furthermore, because the pill must be absorbed through the gastric mucosa, some patients actually report higher instances of localized stomach cramping immediately after ingestion. We highly recommend reviewing our rigid protocols for <a href="/blog/glp-1-side-effects-how-to-manage-nausea-fatigue-mo" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Managing Nausea and Fatigue on GLP-1s</a> regardless of which delivery method you choose.
+              However, clinical data suggests the side effect profile is nearly identical between the oral and injectable forms. The nausea, vomiting, and extreme satiety are driven by the systemic blood plasma levels of the drug binding to the hypothalamus, not the localized delivery method. Furthermore, because the pill must be absorbed through the gastric mucosa, some patients actually report higher instances of localized stomach cramping immediately after ingestion. We highly recommend reviewing our rigid protocols for <a href="/blog/glp-1-side-effects-how-to-manage-nausea-fatigue-mo/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Managing Nausea and Fatigue on GLP-1s</a> regardless of which delivery method you choose.
             </p>
 
             <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>The Clinical Reality: Injection vs. Pill</h2>
@@ -175,7 +175,7 @@ export function BlogOralSemaglutideIsHereIsTheGlp1PillAsGood() {
               Conversely, the subcutaneous injection is foolproof. You administer it once every 7 days. It completely bypasses the gastrointestinal gauntlet, providing a continuous, steady-state release of the peptide into the bloodstream. It allows you to wake up, drink a gallon of water, drink your coffee, and eat your breakfast without having to perfectly time an absorption window. 
             </p>
             <p>
-              Furthermore, the risk of rapid muscle catabolism is identical on both medications. Because the pill induces the same profound caloric deficit as the injection, patients must still aggressively protect their lean tissue. Read our clinical playbook on <a href="/blog/glp-1-muscle-loss-the-hidden-risk-nobodys-talking" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>GLP-1 Muscle Loss Prevention</a> to ensure you aren't destroying your metabolism while dropping weight.
+              Furthermore, the risk of rapid muscle catabolism is identical on both medications. Because the pill induces the same profound caloric deficit as the injection, patients must still aggressively protect their lean tissue. Read our clinical playbook on <a href="/blog/glp-1-muscle-loss-the-hidden-risk-nobodys-talking/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>GLP-1 Muscle Loss Prevention</a> to ensure you aren't destroying your metabolism while dropping weight.
             </p>
 
             {/* CTA 3: Bottom Funnel */}
@@ -186,7 +186,7 @@ export function BlogOralSemaglutideIsHereIsTheGlp1PillAsGood() {
                   Avoid the stress of rigid daily fasting windows. The once-weekly subcutaneous injection remains the most reliable, highly bioavailable method for GLP-1 therapy.
                 </p>
                 <p style={{ fontSize: 16, color: 'var(--ink-2)', marginBottom: 32, maxWidth: 600, margin: '0 auto 32px' }}>
-                  TelehealthFX provides U.S.-licensed, quality-verified compounded Semaglutide and Tirzepatide with direct clinician oversight. No hidden membership fees. Just real science. Learn how to identify safe providers in our guide to spotting <a href="/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Hidden Fees in Telehealth</a>.
+                  TelehealthFX provides U.S.-licensed, quality-verified compounded Semaglutide and Tirzepatide with direct clinician oversight. No hidden membership fees. Just real science. Learn how to identify safe providers in our guide to spotting <a href="/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Hidden Fees in Telehealth</a>.
                 </p>
                 <div style={{ display: 'flex', gap: 16, justifyContent: 'center' }}>
                   <a href={START_URL} className="btn btn-primary" style={{ fontSize: 18, padding: '0 32px' }}>

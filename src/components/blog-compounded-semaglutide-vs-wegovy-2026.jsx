@@ -12,7 +12,7 @@ function BlogCompoundedVsWegovy() {
       <h1 className="serif" style={{ fontSize: 56, marginBottom: 24, lineHeight: 1.1 }}>Compounded Semaglutide vs. Wegovy Self-Pay: <span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>Which Saves You More in 2026?</span></h1>
       <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}>
         <div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)' }}><Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%', height: "auto"}} priority={true} /></div>
-        <div><div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div><div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 24 min read</div></div>
+        <div><div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about/" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div><div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 24 min read</div></div>
       </div>
       <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
         <Image src="/assets/compounded-semaglutide-vs-wegovy-featured.png" alt="Wegovy branded pen vs compounded semaglutide vial comparison" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111', height: "auto"}} priority={true} />
@@ -49,12 +49,12 @@ function BlogCompoundedVsWegovy() {
         <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>When Compounded Semaglutide Makes Sense</h2>
         <ul>
           <li style={{ marginBottom: 12 }}><strong>Cost is a primary factor:</strong> At $1,800–$4,788/year, compounded semaglutide saves $4,200–$11,400 annually compared to Wegovy self-pay.</li>
-          <li style={{ marginBottom: 12 }}><strong>Wegovy is out of stock:</strong> Branded GLP-1 <a href="/blog/glp-1-shortage-update-may-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>shortages</a> have been chronic since 2023. Compounded pharmacies maintain dedicated inventory.</li>
+          <li style={{ marginBottom: 12 }}><strong>Wegovy is out of stock:</strong> Branded GLP-1 <a href="/blog/glp-1-shortage-update-may-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>shortages</a> have been chronic since 2023. Compounded pharmacies maintain dedicated inventory.</li>
           <li style={{ marginBottom: 12 }}><strong>You want dose flexibility:</strong> Compounded semaglutide can be prepared at custom concentrations, enabling more granular dose titration.</li>
           <li style={{ marginBottom: 12 }}><strong>You prefer direct-to-door delivery:</strong> No pharmacy lines, no stock issues, no insurance paperwork.</li>
         </ul>
 
-        <p>For a deeper dive into compounded medication safety, read our <a href="/blog/is-compounded-semaglutide-safe-what-you-need-to-kn" style={{ color: 'var(--brand)', fontWeight: 500 }}>compounded semaglutide safety guide</a> and understand the <a href="/blog/fda-compounding-ban" style={{ color: 'var(--brand)', fontWeight: 500 }}>current FDA regulatory landscape</a>. For cost optimization strategies, see our <a href="/blog/glp-1-cost-without-insurance-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>cost without insurance guide</a> and <a href="/blog/hsa-fsa-glp-1-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>HSA/FSA payment guide</a>.</p>
+        <p>For a deeper dive into compounded medication safety, read our <a href="/blog/is-compounded-semaglutide-safe-what-you-need-to-kn/" style={{ color: 'var(--brand)', fontWeight: 500 }}>compounded semaglutide safety guide</a> and understand the <a href="/blog/fda-compounding-ban/" style={{ color: 'var(--brand)', fontWeight: 500 }}>current FDA regulatory landscape</a>. For cost optimization strategies, see our <a href="/blog/glp-1-cost-without-insurance-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>cost without insurance guide</a> and <a href="/blog/hsa-fsa-glp-1-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>HSA/FSA payment guide</a>.</p>
 
         <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
           <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Compounded Semaglutide. Fraction of the Price.</h3>
@@ -91,7 +91,7 @@ function BlogCompoundedVsWegovy() {
         <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>Why is compounded so much cheaper?</h4>
         <p style={{ marginBottom: 24 }}>Branded Wegovy's price includes Novo Nordisk's R&D recovery, FDA approval costs, marketing budget, and profit margin. Compounded semaglutide is formulated with semaglutide but bypasses brand-name markups while still requiring legitimate pharmacy licensing and clinician oversight.</p>
         <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>Can I switch from Wegovy to compounded?</h4>
-        <p style={{ marginBottom: 24 }}>Yes. Your new clinician will prescribe compounded semaglutide at your current established dose. No re-titration needed. See our <a href="/blog/switch-glp-1-providers-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>provider switching guide</a> for a seamless transition process.</p>
+        <p style={{ marginBottom: 24 }}>Yes. Your new clinician will prescribe compounded semaglutide at your current established dose. No re-titration needed. See our <a href="/blog/switch-glp-1-providers-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>provider switching guide</a> for a seamless transition process.</p>
 
         <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
           <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Save Thousands Without Sacrificing Quality</h2>

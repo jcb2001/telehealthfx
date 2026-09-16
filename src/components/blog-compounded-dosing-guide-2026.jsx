@@ -8,7 +8,7 @@ function BlogCompoundedDosingGuide() {
   return (<><section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}><div className="container" style={{ maxWidth: 800 }}>
     <div className="eyebrow" style={{ marginBottom: 20 }}>Dosing Guide</div>
     <h1 className="serif" style={{ fontSize: 52, marginBottom: 24, lineHeight: 1.08 }}>Compounded Semaglutide Dosing: <span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>How Vials Work, Titration Schedules &amp; What Your Clinician Customizes</span></h1>
-    <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}><div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)' }}><Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%', height: "auto"}} priority={true} /></div><div><div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div><div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 18 min read</div></div></div>
+    <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}><div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)' }}><Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%', height: "auto"}} priority={true} /></div><div><div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about/" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div><div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 18 min read</div></div></div>
     <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
       <Image src="/assets/compounded-glp1-dosing-guide-featured.png" alt="Compounded GLP-1 vial with titration schedule" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', height: "auto"}} priority={true} />
       <p>Compounded semaglutide comes in multi-dose vials, not pre-filled pens. This is not a disadvantage — it is actually a significant clinical advantage. Multi-dose vials give your clinician <strong>more dosing flexibility</strong> than brand-name Ozempic/Wegovy, including custom titration speeds, micro-doses, and maintenance doses that are simply not available in pen format.</p>
@@ -17,9 +17,9 @@ function BlogCompoundedDosingGuide() {
       <p>Ozempic and Wegovy come in pre-filled, fixed-dose pens. You click to a dose marking and inject. Compounded semaglutide comes in a vial — you draw the exact dose your clinician prescribes using an insulin syringe. This matters because:</p>
       <ul>
         <li style={{ marginBottom: 12 }}><strong>Infinite dose precision:</strong> Pens offer fixed increments (0.25, 0.5, 1.0, 1.7, 2.4 mg). Vials allow any dose — 0.125 mg, 0.375 mg, 0.75 mg, 1.25 mg — whatever your clinician determines is optimal.</li>
-        <li style={{ marginBottom: 12 }}><strong>Slower titration for sensitive patients:</strong> If standard dose jumps cause nausea, your clinician can prescribe 0.125 mg increments instead of 0.25 mg jumps. See our <a href="/blog/glp-1-side-effects-how-to-manage-nausea-fatigue-mo" style={{ color: 'var(--brand)', fontWeight: 500 }}>side effects management guide</a>.</li>
-        <li style={{ marginBottom: 12 }}><strong>Custom maintenance doses:</strong> After reaching your goal, a maintenance dose of 0.5 mg or 0.75 mg may sustain results at lower cost. Pens do not allow these doses. See our <a href="/blog/glp1-weight-regain-prevention-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>rebound prevention guide</a>.</li>
-        <li style={{ marginBottom: 12 }}><strong>Cost flexibility:</strong> Lower doses = less active ingredient = potentially lower cost per month. See <a href="/blog/semaglutide-real-cost-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>real cost breakdown</a>.</li>
+        <li style={{ marginBottom: 12 }}><strong>Slower titration for sensitive patients:</strong> If standard dose jumps cause nausea, your clinician can prescribe 0.125 mg increments instead of 0.25 mg jumps. See our <a href="/blog/glp-1-side-effects-how-to-manage-nausea-fatigue-mo/" style={{ color: 'var(--brand)', fontWeight: 500 }}>side effects management guide</a>.</li>
+        <li style={{ marginBottom: 12 }}><strong>Custom maintenance doses:</strong> After reaching your goal, a maintenance dose of 0.5 mg or 0.75 mg may sustain results at lower cost. Pens do not allow these doses. See our <a href="/blog/glp1-weight-regain-prevention-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>rebound prevention guide</a>.</li>
+        <li style={{ marginBottom: 12 }}><strong>Cost flexibility:</strong> Lower doses = less active ingredient = potentially lower cost per month. See <a href="/blog/semaglutide-real-cost-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>real cost breakdown</a>.</li>
       </ul>
 
       <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Standard Titration Schedule</h2>
@@ -36,7 +36,7 @@ function BlogCompoundedDosingGuide() {
           </tbody>
         </table>
       </div>
-      <p>For complete timeline data, see our <a href="/blog/semaglutide-weight-loss-timeline-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>semaglutide weight loss timeline</a> and <a href="/blog/first-week-semaglutide-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>first week guide</a>.</p>
+      <p>For complete timeline data, see our <a href="/blog/semaglutide-weight-loss-timeline-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>semaglutide weight loss timeline</a> and <a href="/blog/first-week-semaglutide-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>first week guide</a>.</p>
 
       <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>How to Draw and Inject from a Vial</h2>
       <p>Your kit includes everything you need: vial, alcohol swabs, 30-gauge insulin syringes, and sharps container. The process takes under 2 minutes:</p>
@@ -47,7 +47,7 @@ function BlogCompoundedDosingGuide() {
         <li style={{ marginBottom: 12 }}><strong>Inject.</strong> Choose an injection site (abdomen, thigh, or upper arm). Clean with alcohol. Pinch skin, insert needle at 90°. Inject slowly. Hold 5 seconds. Remove.</li>
         <li style={{ marginBottom: 12 }}><strong>Rotate sites.</strong> Alternate between left/right abdomen, thighs, and arms. Do not inject in the same spot consecutively.</li>
       </ol>
-      <p>For optimal injection timing, see our <a href="/blog/best-time-inject-semaglutide-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>injection timing guide</a>. The 30-gauge needle is thinner than a human hair — most patients describe it as less painful than a mosquito bite.</p>
+      <p>For optimal injection timing, see our <a href="/blog/best-time-inject-semaglutide-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>injection timing guide</a>. The 30-gauge needle is thinner than a human hair — most patients describe it as less painful than a mosquito bite.</p>
 
       <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
         <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Custom Dosing. Clinician-Guided. Everything Shipped.</h3>
@@ -68,7 +68,7 @@ function BlogCompoundedDosingGuide() {
       <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>What concentration should I expect?</h4>
       <p style={{ marginBottom: 24 }}>Common compounded semaglutide concentrations are 2.5 mg/mL, 5 mg/mL, and 10 mg/mL. Higher concentrations mean smaller injection volumes. Your pharmacy label will specify the concentration and your clinician will provide exact unit markings for your dose.</p>
       <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>Is compounded semaglutide the same as Ozempic?</h4>
-      <p style={{ marginBottom: 24 }}>Same active molecule (semaglutide), different manufacturer. Compounded by a licensed <a href="/blog/compounded-semaglutide-safety-fda-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>503A pharmacy</a> under USP 797 sterile compounding standards. Same mechanism, same receptor, same dose range.</p>
+      <p style={{ marginBottom: 24 }}>Same active molecule (semaglutide), different manufacturer. Compounded by a licensed <a href="/blog/compounded-semaglutide-safety-fda-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>503A pharmacy</a> under USP 797 sterile compounding standards. Same mechanism, same receptor, same dose range.</p>
       <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>Can I adjust my own dose?</h4>
       <p style={{ marginBottom: 24 }}>Never adjust your dose without clinician guidance. If you{"'"}re experiencing persistent side effects, contact your provider to discuss a slower escalation. Self-adjusting can lead to under-dosing (wasted time) or over-escalation (unnecessary side effects).</p>
 

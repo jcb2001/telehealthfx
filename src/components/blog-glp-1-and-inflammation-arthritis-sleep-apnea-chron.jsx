@@ -22,7 +22,7 @@ function BlogGlp1AndInflammationArthritisSleepApneaChron() {
             <Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' , height: "auto"}} priority={true} />
           </div>
           <div>
-            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
+            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about/" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
             <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 65 min read</div>
           </div>
         </div>
@@ -30,7 +30,7 @@ function BlogGlp1AndInflammationArthritisSleepApneaChron() {
         <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
           <Image src="/assets/glp1_inflammation_featured.png" alt="A glowing neon inflamed joint cooling down and repairing, intersecting with a sleek medical weight loss pen" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' , height: "auto"}} priority={true} />
           
-          <p>The global narrative surrounding <a href="/blog/what-is-a-glp-1-medication" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 receptor agonists</a> has been completely monopolized by a single metric: weight loss. The headlines exclusively focus on the staggering reductions in body mass achieved by <a href="/medications/semaglutide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Semaglutide</a> and <a href="/medications/tirzepatide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Tirzepatide</a>. While resolving severe, morbid obesity is undeniably a monumental public health victory, focusing entirely on the scale obscures the far more profound biological revolution occurring beneath the surface.</p>
+          <p>The global narrative surrounding <a href="/blog/what-is-a-glp-1-medication/" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 receptor agonists</a> has been completely monopolized by a single metric: weight loss. The headlines exclusively focus on the staggering reductions in body mass achieved by <a href="/medications/semaglutide/" style={{ color: 'var(--brand)', fontWeight: 500 }}>Semaglutide</a> and <a href="/medications/tirzepatide/" style={{ color: 'var(--brand)', fontWeight: 500 }}>Tirzepatide</a>. While resolving severe, morbid obesity is undeniably a monumental public health victory, focusing entirely on the scale obscures the far more profound biological revolution occurring beneath the surface.</p>
           
           <p>We are not just witnessing the end of the obesity epidemic; we are witnessing the deployment of one of the most potent, systemic anti-inflammatory agents ever introduced to modern medicine. The true, hidden superpower of the GLP-1 molecule is its ability to extinguish the chronic, low-grade inflammatory fires that ravage the human body, silently driving nearly every major chronic disease of the 21st century.</p>
 
@@ -109,7 +109,7 @@ function BlogGlp1AndInflammationArthritisSleepApneaChron() {
               <Icon.Check size={24} />
             </div>
             <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Supercharge Your Recovery</h3>
-            <p style={{ marginBottom: 24, fontSize: 16 }}>If you are using GLP-1 therapy to heal chronic joint pain and systemic inflammation, combining it with <a href="/medications/nad" style={{ color: 'var(--brand)', fontWeight: 500 }}>NAD+ Therapy</a> can massively accelerate cellular repair, restoring mitochondrial function and reducing recovery time.</p>
+            <p style={{ marginBottom: 24, fontSize: 16 }}>If you are using GLP-1 therapy to heal chronic joint pain and systemic inflammation, combining it with <a href="/medications/nad/" style={{ color: 'var(--brand)', fontWeight: 500 }}>NAD+ Therapy</a> can massively accelerate cellular repair, restoring mitochondrial function and reducing recovery time.</p>
             <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>
               Explore NAD+ Optimization <Icon.Arrow />
             </a>
@@ -123,7 +123,7 @@ function BlogGlp1AndInflammationArthritisSleepApneaChron() {
           <p>During your 1-on-1 asynchronous onboarding, we dig deep into your medical history. We don't just ask about your BMI; we ask about your joint mobility, your morning stiffness, your reliance on NSAIDs, and the quality of your sleep. As your GLP-1 protocol progresses, we meticulously track the reduction in these inflammatory symptoms alongside your weight loss.</p>
 
           <h3 style={{ fontSize: 28, marginTop: 40, marginBottom: 20, color: 'var(--ink)' }}>Strategic Adjunctive Layering</h3>
-          <p>Because our clinical team understands the cellular mechanics of inflammation, we frequently layer complementary therapies to accelerate your healing. If you are battling severe fatigue and chronic pain, we may integrate NAD+ therapy to boost cellular ATP production and further suppress inflammatory cytokines. If your goal is to preserve the muscle mass surrounding your newly pain-free joints, we deploy <a href="/medications/sermorelin" style={{ color: 'var(--brand)', fontWeight: 500 }}>Sermorelin</a> to optimize your growth hormone levels and protect your structural integrity.</p>
+          <p>Because our clinical team understands the cellular mechanics of inflammation, we frequently layer complementary therapies to accelerate your healing. If you are battling severe fatigue and chronic pain, we may integrate NAD+ therapy to boost cellular ATP production and further suppress inflammatory cytokines. If your goal is to preserve the muscle mass surrounding your newly pain-free joints, we deploy <a href="/medications/sermorelin/" style={{ color: 'var(--brand)', fontWeight: 500 }}>Sermorelin</a> to optimize your growth hormone levels and protect your structural integrity.</p>
           
           <p>You do not have to live in chronic pain. You do not have to be tethered to a CPAP machine for the rest of your life. The inflammatory fires can be extinguished. TelehealthFX provides the precise, medically supervised protocols required to put the fire out permanently.</p>
 

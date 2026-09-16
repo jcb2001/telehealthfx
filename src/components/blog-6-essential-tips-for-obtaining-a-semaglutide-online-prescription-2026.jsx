@@ -21,7 +21,7 @@ function Blog6EssentialTipsObtaining() {
             </div>
             <div>
               <div style={{ fontWeight: 500, fontSize: 14, color: '#115E59' }}>
-                <a href="/about" style={{ color: "#115E59", textDecoration: "none" }}>Julian Mercer, M.S.</a>
+                <a href="/about/" style={{ color: "#115E59", textDecoration: "none" }}>Julian Mercer, M.S.</a>
               </div>
               <div style={{ fontSize: 13, color: '#0F766E' }}>
                 Lead Bio-Systems Analyst · Updated June 2026 · 17 min read

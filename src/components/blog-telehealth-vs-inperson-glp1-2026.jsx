@@ -7,10 +7,10 @@ function BlogTelehealthVsInPerson() {
   return (<><section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}><div className="container" style={{ maxWidth: 800 }}>
     <div className="eyebrow" style={{ marginBottom: 20 }}>Access &amp; Convenience</div>
     <h1 className="serif" style={{ fontSize: 56, marginBottom: 24, lineHeight: 1.1 }}>Telehealth vs. In-Person Doctor for GLP-1: <span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>Pros, Cons, and What Most Patients Choose</span></h1>
-    <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}><div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)' }}><Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%', height: "auto"}} priority={true} /></div><div><div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div><div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 18 min read</div></div></div>
+    <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}><div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)' }}><Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%', height: "auto"}} priority={true} /></div><div><div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about/" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div><div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 18 min read</div></div></div>
     <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
       <Image src="/assets/telehealth-vs-inperson-glp1-featured.png" alt="Split view of doctor waiting room vs home telehealth consultation" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111', height: "auto"}} priority={true} />
-      <p>You have decided to start <a href="/blog/what-is-a-glp-1-medication" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 therapy</a>. Now the question: <strong>telehealth or in-person?</strong> Both deliver the same medications, both require licensed clinicians, and both involve genuine medical evaluations. But the patient experience — cost, convenience, privacy, and ongoing support — differs significantly.</p>
+      <p>You have decided to start <a href="/blog/what-is-a-glp-1-medication/" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 therapy</a>. Now the question: <strong>telehealth or in-person?</strong> Both deliver the same medications, both require licensed clinicians, and both involve genuine medical evaluations. But the patient experience — cost, convenience, privacy, and ongoing support — differs significantly.</p>
 
       <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The Comparison</h2>
       <div style={{ overflowX: 'auto', margin: '40px 0' }}>
@@ -39,10 +39,10 @@ function BlogTelehealthVsInPerson() {
 
       <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>When Telehealth Is Better</h2>
       <ul>
-        <li style={{ marginBottom: 12 }}>Cost is a primary concern — <a href="/blog/cheapest-compounded-semaglutide-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>all-inclusive pricing</a> vs. stacked fees</li>
+        <li style={{ marginBottom: 12 }}>Cost is a primary concern — <a href="/blog/cheapest-compounded-semaglutide-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>all-inclusive pricing</a> vs. stacked fees</li>
         <li style={{ marginBottom: 12 }}>No nearby obesity medicine specialist</li>
         <li style={{ marginBottom: 12 }}>Privacy concerns about weight loss treatment</li>
-        <li style={{ marginBottom: 12 }}>Busy schedule — <a href="/blog/same-day-glp-1-prescription-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>same-day evaluations</a> without time off work</li>
+        <li style={{ marginBottom: 12 }}>Busy schedule — <a href="/blog/same-day-glp-1-prescription-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>same-day evaluations</a> without time off work</li>
         <li style={{ marginBottom: 12 }}>You want ongoing clinician access without per-visit charges</li>
       </ul>
 
@@ -54,9 +54,9 @@ function BlogTelehealthVsInPerson() {
 
       <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Frequently Asked Questions</h2>
       <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>Is a telehealth GLP-1 prescription legally valid?</h4>
-      <p style={{ marginBottom: 24 }}>Yes. Telehealth prescribing is legal in all 50 states when conducted by a licensed clinician with a valid patient-provider relationship. Learn more about <a href="/blog/is-telehealthfx-legit-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>telehealth legitimacy</a>.</p>
+      <p style={{ marginBottom: 24 }}>Yes. Telehealth prescribing is legal in all 50 states when conducted by a licensed clinician with a valid patient-provider relationship. Learn more about <a href="/blog/is-telehealthfx-legit-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>telehealth legitimacy</a>.</p>
       <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>Can I switch from in-person to telehealth?</h4>
-      <p style={{ marginBottom: 24 }}>Absolutely. Your new telehealth clinician reviews your treatment history and continues your current dose. See our <a href="/blog/switch-glp-1-providers-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>provider switching guide</a>.</p>
+      <p style={{ marginBottom: 24 }}>Absolutely. Your new telehealth clinician reviews your treatment history and continues your current dose. See our <a href="/blog/switch-glp-1-providers-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>provider switching guide</a>.</p>
 
       <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
         <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Skip the Waiting Room</h2>

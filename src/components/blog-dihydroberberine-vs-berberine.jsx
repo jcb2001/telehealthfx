@@ -22,7 +22,7 @@ export function BlogDihydroberberineVsBerberine() {
             </div>
             <div>
               <div style={{ fontWeight: 500, color: 'var(--ink)' }}>
-                <a href="/about" style={{ color: 'inherit', textDecoration: 'none' }}>Julian Mercer, M.S.</a>
+                <a href="/about/" style={{ color: 'inherit', textDecoration: 'none' }}>Julian Mercer, M.S.</a>
               </div>
               <div style={{ fontSize: 14, color: 'var(--ink-2)' }}>Lead Bio-Systems Analyst | May 2, 2026</div>
             </div>
@@ -42,7 +42,7 @@ export function BlogDihydroberberineVsBerberine() {
               In the rapidly evolving landscape of metabolic health, standard Berberine (often dubbed "Nature's Ozempic") has dominated the conversation for the last two years. However, a major point of friction for clinical application has always been its low oral bioavailability. Enter <strong>Dihydroberberine (DHB)</strong>—a hydrogenated derivative synthesized to theoretically bypass the poor intestinal absorption rates of standard Berberine. 
             </p>
             <p>
-              Supplement companies are currently aggressively marketing DHB as having "5x to 10x higher absorption" than regular Berberine, charging an extreme premium (often $60 to $80 per month) for what is fundamentally an unproven metabolic bridge. In this exhaustive, 5,000-word clinical breakdown, we dissect the pharmacokinetics of Dihydroberberine, examine the actual biochemical evidence behind the "5x bioavailability" claim, and explain why pouring money into highly-priced botanical derivatives might be a poor investment when <a href="/blog/what-is-a-glp-1-medication" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>compounded GLP-1 medications</a> are now priced identically.
+              Supplement companies are currently aggressively marketing DHB as having "5x to 10x higher absorption" than regular Berberine, charging an extreme premium (often $60 to $80 per month) for what is fundamentally an unproven metabolic bridge. In this exhaustive, 5,000-word clinical breakdown, we dissect the pharmacokinetics of Dihydroberberine, examine the actual biochemical evidence behind the "5x bioavailability" claim, and explain why pouring money into highly-priced botanical derivatives might be a poor investment when <a href="/blog/what-is-a-glp-1-medication/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>compounded GLP-1 medications</a> are now priced identically.
             </p>
 
             <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>The Biochemical Foundations of Berberine</h2>
@@ -69,12 +69,12 @@ export function BlogDihydroberberineVsBerberine() {
             </div>
 
             <p>
-              This mechanism is strikingly similar to the pharmaceutical drug Metformin. In fact, numerous clinical trials have compared standard Berberine directly against Metformin in patients with type 2 diabetes, often finding comparable reductions in HbA1c and fasting blood glucose levels. You can read more about how this mechanism directly impacts conditions like Polycystic Ovary Syndrome in our definitive guide: <a href="/blog/berberine-for-pcos-what-the-research-actually-says" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Berberine for PCOS: What the Research Actually Says</a>.
+              This mechanism is strikingly similar to the pharmaceutical drug Metformin. In fact, numerous clinical trials have compared standard Berberine directly against Metformin in patients with type 2 diabetes, often finding comparable reductions in HbA1c and fasting blood glucose levels. You can read more about how this mechanism directly impacts conditions like Polycystic Ovary Syndrome in our definitive guide: <a href="/blog/berberine-for-pcos-what-the-research-actually-says/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Berberine for PCOS: What the Research Actually Says</a>.
             </p>
 
             <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>The Pharmacokinetic Roadblock: Why Standard Berberine Fails</h2>
             <p>
-              If standard Berberine is as effective as Metformin in vitro, why is it not the universal gold standard for metabolic dysfunction? The answer lies in its atrocious pharmacokinetic profile. To put it simply, Berberine is exceptionally difficult for the human body to absorb and utilize when taken orally. We explore this extensively in our core pillar on <a href="/blog/berberine-oral-bioavailability" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Berberine Oral Bioavailability</a>.
+              If standard Berberine is as effective as Metformin in vitro, why is it not the universal gold standard for metabolic dysfunction? The answer lies in its atrocious pharmacokinetic profile. To put it simply, Berberine is exceptionally difficult for the human body to absorb and utilize when taken orally. We explore this extensively in our core pillar on <a href="/blog/berberine-oral-bioavailability/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Berberine Oral Bioavailability</a>.
             </p>
             <p>
               When you consume standard Berberine, it must survive a brutal, multi-stage physiological gauntlet:
@@ -180,12 +180,12 @@ export function BlogDihydroberberineVsBerberine() {
               If your goal is profound insulin regulation and aggressive weight loss, spending $80/month to achieve the exact same blood plasma levels as a $15 bottle of standard Berberine is highly inefficient. More importantly, we are no longer living in 2021. With the advent of accessible, state-licensed telehealth platforms, the gap between expensive "biohacker supplements" and FDA-approved GLP-1 medications has entirely closed.
             </p>
             <p>
-              The biological mechanism of a GLP-1 receptor agonist fundamentally dwarfs the AMPK activation provided by Berberine or DHB. GLP-1s directly interface with the pancreas to stimulate glucose-dependent insulin release, while simultaneously suppressing glucagon and agonizing the brain's satiety centers (the hypothalamus) to completely eradicate food noise. We outline the superiority of modern GLP-1 therapy over OTC supplements in our detailed guide: <a href="/blog/ozempic-insulin-resistance" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Ozempic for Insulin Resistance: Beyond Weight Loss</a>.
+              The biological mechanism of a GLP-1 receptor agonist fundamentally dwarfs the AMPK activation provided by Berberine or DHB. GLP-1s directly interface with the pancreas to stimulate glucose-dependent insulin release, while simultaneously suppressing glucagon and agonizing the brain's satiety centers (the hypothalamus) to completely eradicate food noise. We outline the superiority of modern GLP-1 therapy over OTC supplements in our detailed guide: <a href="/blog/ozempic-insulin-resistance/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Ozempic for Insulin Resistance: Beyond Weight Loss</a>.
             </p>
 
             <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>The Clinical Reality of Sarcopenia and Weight Loss Ceilings</h2>
             <p>
-              It is critical to note that whether you are using Berberine, Dihydroberberine, or a prescription GLP-1, you must aggressively manage the risk of sarcopenia (muscle loss). Rapid fat loss via intense caloric deficits invariably leads to the catabolism of lean muscle tissue. This lowers your basal metabolic rate and sets the stage for rapid weight regain. We highly recommend reading our clinical playbook on <a href="/blog/glp-1-muscle-loss-the-hidden-risk-nobodys-talking" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>GLP-1 Muscle Loss Prevention</a> before initiating any advanced metabolic intervention.
+              It is critical to note that whether you are using Berberine, Dihydroberberine, or a prescription GLP-1, you must aggressively manage the risk of sarcopenia (muscle loss). Rapid fat loss via intense caloric deficits invariably leads to the catabolism of lean muscle tissue. This lowers your basal metabolic rate and sets the stage for rapid weight regain. We highly recommend reading our clinical playbook on <a href="/blog/glp-1-muscle-loss-the-hidden-risk-nobodys-talking/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>GLP-1 Muscle Loss Prevention</a> before initiating any advanced metabolic intervention.
             </p>
 
             {/* CTA 3: Bottom Funnel */}
@@ -196,7 +196,7 @@ export function BlogDihydroberberineVsBerberine() {
                   If you are investing $80+ a month into Dihydroberberine or complex botanical stacks with minimal results, it is time to upgrade to clinical pharmacology. 
                 </p>
                 <p style={{ fontSize: 16, color: 'var(--ink-2)', marginBottom: 32, maxWidth: 600, margin: '0 auto 32px' }}>
-                  TelehealthFX provides U.S.-licensed, quality-verified compounded Semaglutide with direct clinician oversight. No extreme price markups. No hidden membership fees. Just real science. Learn how to identify safe providers in our guide to spotting <a href="/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Hidden Fees in Telehealth Weight Loss</a>.
+                  TelehealthFX provides U.S.-licensed, quality-verified compounded Semaglutide with direct clinician oversight. No extreme price markups. No hidden membership fees. Just real science. Learn how to identify safe providers in our guide to spotting <a href="/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Hidden Fees in Telehealth Weight Loss</a>.
                 </p>
                 <div style={{ display: 'flex', gap: 16, justifyContent: 'center' }}>
                   <a href="https://go.telehealthfx.com/start" className="btn btn-primary" style={{ fontSize: 18, padding: '0 32px' }}>

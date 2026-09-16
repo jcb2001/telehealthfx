@@ -25,7 +25,7 @@ function BlogNadTherapy() {
             <Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' , height: "auto"}} priority={true} />
           </div>
           <div>
-            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
+            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about/" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
             <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 24 min read</div>
           </div>
         </div>
@@ -61,7 +61,7 @@ function BlogNadTherapy() {
           <p>Many wellness sites discuss the benefits of NAD+ precursors (like NMN or NR capsules). However, they completely fail to address the massive bioavailability crisis associated with swallowing oral anti-aging supplements.</p>
 
           <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>The First-Pass Liver Trap</h3>
-          <p>As we extensively documented in our guide on <a href="/blog/transdermal-vs-oral" style={{ color: 'var(--brand)', fontWeight: 500 }}>pharmacokinetic delivery methods</a>, the human gastrointestinal tract is incredibly hostile. If you swallow a capsule of pure NAD+, it is immediately subjected to stomach acid and intestinal enzymes. If it survives the gut, it is routed via the portal vein directly to the liver.</p>
+          <p>As we extensively documented in our guide on <a href="/blog/transdermal-vs-oral/" style={{ color: 'var(--brand)', fontWeight: 500 }}>pharmacokinetic delivery methods</a>, the human gastrointestinal tract is incredibly hostile. If you swallow a capsule of pure NAD+, it is immediately subjected to stomach acid and intestinal enzymes. If it survives the gut, it is routed via the portal vein directly to the liver.</p>
           <p>The liver treats high doses of oral NAD+ as an excess metabolic byproduct and rapidly metabolizes it. Less than 5% of the active molecule ever reaches your systemic circulation to actually enter your brain and muscle tissue.</p>
 
           <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>The Subcutaneous Injection Solution</h3>
@@ -110,13 +110,13 @@ function BlogNadTherapy() {
           <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Frequently Asked Questions (FAQ)</h2>
           
           <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>Does NAD+ therapy cause weight loss?</h4>
-          <p style={{ marginBottom: 24 }}>NAD+ is not a dedicated weight loss drug like Semaglutide. However, by repairing mitochondrial function, it heavily upregulates your baseline metabolic rate. Many patients report that as their cellular energy returns, they naturally engage in more physical activity, which leads to organic fat loss. For extreme metabolic repair, it pairs beautifully with <a href="/blog/what-is-a-glp-1-medication" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 medications</a>.</p>
+          <p style={{ marginBottom: 24 }}>NAD+ is not a dedicated weight loss drug like Semaglutide. However, by repairing mitochondrial function, it heavily upregulates your baseline metabolic rate. Many patients report that as their cellular energy returns, they naturally engage in more physical activity, which leads to organic fat loss. For extreme metabolic repair, it pairs beautifully with <a href="/blog/what-is-a-glp-1-medication/" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 medications</a>.</p>
 
           <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>What does an NAD+ injection feel like?</h4>
           <p style={{ marginBottom: 24 }}>Unlike the sudden, jittery spike of caffeine (which merely masks fatigue by blocking adenosine receptors), NAD+ therapy feels like a "clean" restoration of your natural baseline. Patients typically report a lifting of brain fog, sustained physical stamina, and deeper, more restorative sleep within the first few weeks of therapy.</p>
 
           <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>Is this the same as an IV drip?</h4>
-          <p style={{ marginBottom: 24 }}>NAD+ IV drips are excellent, but they require sitting in a clinic for 2-4 hours and can cost upwards of $500 per session. <a href="/medications/nad" style={{ color: 'var(--brand)', fontWeight: 500 }}>Subcutaneous NAD+ injections</a> offer the same systemic bioavailability but can be self-administered at home in 30 seconds for a fraction of the cost, ensuring consistent, daily cellular optimization.</p>
+          <p style={{ marginBottom: 24 }}>NAD+ IV drips are excellent, but they require sitting in a clinic for 2-4 hours and can cost upwards of $500 per session. <a href="/medications/nad/" style={{ color: 'var(--brand)', fontWeight: 500 }}>Subcutaneous NAD+ injections</a> offer the same systemic bioavailability but can be self-administered at home in 30 seconds for a fraction of the cost, ensuring consistent, daily cellular optimization.</p>
 
           <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
             <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Ready to Reverse the Clock?</h2>

@@ -93,7 +93,7 @@ export function BlogShortageTracker() {
             </div>
             <div>
               <div style={{ fontWeight: 500, fontSize: 14 }}>
-                <a href="/about" style={{ color: 'var(--ink)', textDecoration: 'none' }}>Julian Mercer, M.S.</a>
+                <a href="/about/" style={{ color: 'var(--ink)', textDecoration: 'none' }}>Julian Mercer, M.S.</a>
               </div>
               <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated June 2026 · 14 min read</div>
             </div>
@@ -109,12 +109,12 @@ export function BlogShortageTracker() {
               priority={true} />
 
             {/* Intro */}
-            <p>If you{"'"}ve been trying to start or stay on a GLP-1 medication like <a href="/blog/ozempic-vs-wegovy-2026" style={linkStyle}>Ozempic, Wegovy</a>, <a href="/blog/semaglutide-vs-tirzepatide-decision-2026" style={linkStyle}>Mounjaro, or Zepbound</a>, the rules changed in a way that surprised a lot of people. The years-long shortages that defined 2023 and 2024 are over — and that{"'"}s precisely why access to cheaper compounded versions tightened in 2025. This page tracks where things actually stand right now, in plain language.</p>
+            <p>If you{"'"}ve been trying to start or stay on a GLP-1 medication like <a href="/blog/ozempic-vs-wegovy-2026/" style={linkStyle}>Ozempic, Wegovy</a>, <a href="/blog/semaglutide-vs-tirzepatide-decision-2026/" style={linkStyle}>Mounjaro, or Zepbound</a>, the rules changed in a way that surprised a lot of people. The years-long shortages that defined 2023 and 2024 are over — and that{"'"}s precisely why access to cheaper compounded versions tightened in 2025. This page tracks where things actually stand right now, in plain language.</p>
 
 
             {/* ─── Short Answer ─── */}
             <h2 className="serif" style={{ fontSize: 32, marginTop: 56, marginBottom: 24, color: 'var(--ink)' }}>The short answer</h2>
-            <p>As of mid-2026, none of the major GLP-1 medications are on the FDA{"'"}s drug shortage list. <a href="/medications/semaglutide" style={linkStyle}>Semaglutide</a> (the active ingredient in Ozempic and Wegovy) and <a href="/medications/tirzepatide" style={linkStyle}>tirzepatide</a> (Mounjaro and Zepbound) are both listed as available. Because those shortages have resolved, the large-scale compounding that filled the gap during the shortage is no longer permitted. <a href="/blog/compounded-semaglutide-vs-wegovy-2026" style={linkStyle}>Compounded GLP-1 medications</a> haven{"'"}t vanished entirely, but the legal basis for mass-producing them has, and that has reshaped the entire telehealth weight-loss market.</p>
+            <p>As of mid-2026, none of the major GLP-1 medications are on the FDA{"'"}s drug shortage list. <a href="/medications/semaglutide/" style={linkStyle}>Semaglutide</a> (the active ingredient in Ozempic and Wegovy) and <a href="/medications/tirzepatide/" style={linkStyle}>tirzepatide</a> (Mounjaro and Zepbound) are both listed as available. Because those shortages have resolved, the large-scale compounding that filled the gap during the shortage is no longer permitted. <a href="/blog/compounded-semaglutide-vs-wegovy-2026/" style={linkStyle}>Compounded GLP-1 medications</a> haven{"'"}t vanished entirely, but the legal basis for mass-producing them has, and that has reshaped the entire telehealth weight-loss market.</p>
 
 
             {/* ─── CTA 1: Top ─── */}
@@ -172,9 +172,9 @@ export function BlogShortageTracker() {
             {/* ─── Why compounding ban ─── */}
             <h2 className="serif" style={{ fontSize: 32, marginTop: 56, marginBottom: 24, color: 'var(--ink)' }}>Why the end of the shortage triggered a "compounding ban"</h2>
             <p>This is the part that confuses most people, so it{"'"}s worth slowing down.</p>
-            <p>During an official FDA shortage, compounding pharmacies are allowed to make their own versions of a drug that{"'"}s in short supply. That exemption is what made <a href="/blog/cheapest-compounded-semaglutide-2026" style={linkStyle}>low-cost compounded semaglutide</a> and <a href="/blog/compounded-tirzepatide-online-2026" style={linkStyle}>tirzepatide</a> widely available through telehealth platforms — often for a fraction of the <a href="/blog/semaglutide-real-cost-2026" style={linkStyle}>brand-name price</a>. It was legal specifically because the brand-name product was hard to get.</p>
+            <p>During an official FDA shortage, compounding pharmacies are allowed to make their own versions of a drug that{"'"}s in short supply. That exemption is what made <a href="/blog/cheapest-compounded-semaglutide-2026/" style={linkStyle}>low-cost compounded semaglutide</a> and <a href="/blog/compounded-tirzepatide-online-2026/" style={linkStyle}>tirzepatide</a> widely available through telehealth platforms — often for a fraction of the <a href="/blog/semaglutide-real-cost-2026/" style={linkStyle}>brand-name price</a>. It was legal specifically because the brand-name product was hard to get.</p>
             <p>When a drug comes off the shortage list, that exemption goes away. The FDA gave compounders a wind-down period in 2025 to stop producing the shortage-era versions, with separate deadlines for smaller state-licensed (503A) pharmacies and larger outsourcing (503B) facilities. Once those deadlines passed, routinely compounding semaglutide or tirzepatide simply to offer a cheaper alternative was no longer permitted.</p>
-            <p>So there was never a single dramatic "ban" announcement. What happened was quieter and more consequential: the shortages ended, the exemption expired, and the cheap-compounded-GLP-1 business model that had grown up around the shortage lost its legal footing almost overnight. For a deeper look, see our <a href="/blog/fda-compounding-ban" style={linkStyle}>full FDA compounding ban breakdown</a>.</p>
+            <p>So there was never a single dramatic "ban" announcement. What happened was quieter and more consequential: the shortages ended, the exemption expired, and the cheap-compounded-GLP-1 business model that had grown up around the shortage lost its legal footing almost overnight. For a deeper look, see our <a href="/blog/fda-compounding-ban/" style={linkStyle}>full FDA compounding ban breakdown</a>.</p>
 
 
             {/* ─── Is compounded still available? ─── */}
@@ -182,7 +182,7 @@ export function BlogShortageTracker() {
             <SectionImage src="/assets/shortage-compounding.png" alt="Compounding pharmacy technician preparing medication in a sterile lab" />
             <p>In limited circumstances, yes — but not the way it was during the shortage.</p>
             <p>Traditional compounding still exists for situations where a licensed prescriber determines that a specific patient needs something the commercially available, FDA-approved product can{"'"}t provide. A documented clinical need — for example, an ingredient the patient can{"'"}t tolerate in the standard product — can justify a personalized compounded formulation for that individual. That is a narrow, prescriber-driven lane, not a path to mass-market discount injections.</p>
-            <p>What is no longer permitted is producing essentially identical copies of an available FDA-approved drug at scale just because they{"'"}re cheaper. If a telehealth offer is still marketing bulk compounded semaglutide or tirzepatide as a routine budget alternative, that{"'"}s worth <a href="/blog/compounded-semaglutide-red-flags-2026" style={linkStyle}>scrutinizing carefully</a>.</p>
+            <p>What is no longer permitted is producing essentially identical copies of an available FDA-approved drug at scale just because they{"'"}re cheaper. If a telehealth offer is still marketing bulk compounded semaglutide or tirzepatide as a routine budget alternative, that{"'"}s worth <a href="/blog/compounded-semaglutide-red-flags-2026/" style={linkStyle}>scrutinizing carefully</a>.</p>
 
             <div style={{
               background: 'rgba(199,125,92,0.08)', padding: '20px 24px', borderRadius: 12,
@@ -190,7 +190,7 @@ export function BlogShortageTracker() {
             }}>
               <div style={{ fontWeight: 600, fontSize: 15, color: 'var(--ink)', marginBottom: 6 }}>⚠️ Important</div>
               <div style={{ fontSize: 15, color: 'var(--ink-2)', lineHeight: 1.6 }}>
-                Compounded medications are not FDA-approved. The FDA does not review compounded drugs for safety, effectiveness, or quality, even when they contain the same active ingredient as an approved product. Read more about <a href="/blog/compounded-semaglutide-safety-fda-2026" style={linkStyle}>compounded semaglutide safety</a>.
+                Compounded medications are not FDA-approved. The FDA does not review compounded drugs for safety, effectiveness, or quality, even when they contain the same active ingredient as an approved product. Read more about <a href="/blog/compounded-semaglutide-safety-fda-2026/" style={linkStyle}>compounded semaglutide safety</a>.
               </div>
             </div>
 
@@ -207,7 +207,7 @@ export function BlogShortageTracker() {
             {/* ─── Is Hims shutting down? ─── */}
             <h2 className="serif" style={{ fontSize: 32, marginTop: 56, marginBottom: 24, color: 'var(--ink)' }}>Is Hims shutting down in 2026?</h2>
             <p>No — Hims & Hers, the telehealth company, is not shutting down. This search comes up a lot because the headlines around it were genuinely confusing.</p>
-            <p>What actually happened is tied directly to everything above. After the semaglutide shortage resolved in 2025, telehealth companies that had built large <a href="/blog/compounded-semaglutide-after-hims-ro-2026" style={linkStyle}>compounded-GLP-1 businesses had to change course</a>. Novo Nordisk, the maker of Wegovy and Ozempic, publicly ended a short-lived partnership with Hims in 2025 over disagreements about the sale of compounded semaglutide. The result was a major shift in what these platforms could offer — a curtailing of compounded products, not a company shutdown. For a side-by-side comparison, see our <a href="/blog/hims-vs-ro-vs-telehealthfx-2026" style={linkStyle}>Hims vs. Ro vs. Telehealth FX comparison</a>.</p>
+            <p>What actually happened is tied directly to everything above. After the semaglutide shortage resolved in 2025, telehealth companies that had built large <a href="/blog/compounded-semaglutide-after-hims-ro-2026/" style={linkStyle}>compounded-GLP-1 businesses had to change course</a>. Novo Nordisk, the maker of Wegovy and Ozempic, publicly ended a short-lived partnership with Hims in 2025 over disagreements about the sale of compounded semaglutide. The result was a major shift in what these platforms could offer — a curtailing of compounded products, not a company shutdown. For a side-by-side comparison, see our <a href="/blog/hims-vs-ro-vs-telehealthfx-2026/" style={linkStyle}>Hims vs. Ro vs. Telehealth FX comparison</a>.</p>
             <p>If you previously got compounded semaglutide through a telehealth service and suddenly couldn{"'"}t, this is almost always why.</p>
 
 
@@ -216,11 +216,11 @@ export function BlogShortageTracker() {
             <SectionImage src="/assets/shortage-options.png" alt="Auto-injector pen next to a prescription pad and telehealth consultation on a smartphone" />
             <p>A few practical takeaways:</p>
             <ul style={{ paddingLeft: 24, marginBottom: 24 }}>
-              <li style={{ marginBottom: 14 }}>The brand-name medications — <a href="/blog/ozempic-vs-wegovy-2026" style={linkStyle}>Ozempic, Wegovy</a>, Mounjaro, Zepbound — are the stable, FDA-approved options now that supply has recovered. Manufacturers also run their own savings programs and direct-purchase options that have made <a href="/blog/glp-1-cost-without-insurance-2026" style={linkStyle}>cash prices more competitive</a> than they were at the peak of the shortage.</li>
+              <li style={{ marginBottom: 14 }}>The brand-name medications — <a href="/blog/ozempic-vs-wegovy-2026/" style={linkStyle}>Ozempic, Wegovy</a>, Mounjaro, Zepbound — are the stable, FDA-approved options now that supply has recovered. Manufacturers also run their own savings programs and direct-purchase options that have made <a href="/blog/glp-1-cost-without-insurance-2026/" style={linkStyle}>cash prices more competitive</a> than they were at the peak of the shortage.</li>
               <li style={{ marginBottom: 14 }}>If cost is your main concern, the conversation has shifted from "find compounded" to "find the most affordable route to an approved product, and <a href="/wegovy-eligibility" style={linkStyle}>confirm your eligibility</a>." Whether a brand-name GLP-1, or in specific cases a legitimately compounded formulation, is appropriate for you is a clinical decision a licensed provider makes based on your health history.</li>
-              <li style={{ marginBottom: 14 }}>And be cautious with any offer that sounds like the shortage never ended. Deeply discounted "compounded GLP-1" marketed as a routine alternative is exactly the kind of thing the 2025 rule changes were meant to address. Know the <a href="/blog/compounded-semaglutide-red-flags-2026" style={linkStyle}>red flags</a>.</li>
+              <li style={{ marginBottom: 14 }}>And be cautious with any offer that sounds like the shortage never ended. Deeply discounted "compounded GLP-1" marketed as a routine alternative is exactly the kind of thing the 2025 rule changes were meant to address. Know the <a href="/blog/compounded-semaglutide-red-flags-2026/" style={linkStyle}>red flags</a>.</li>
             </ul>
-            <p>Looking at alternatives beyond injectables? Compare <a href="/blog/oral-vs-injectable-semaglutide-2026" style={linkStyle}>oral vs. injectable semaglutide</a> or see how <a href="/blog/semaglutide-vs-tirzepatide-decision-2026" style={linkStyle}>semaglutide compares to tirzepatide</a> to find the right fit.</p>
+            <p>Looking at alternatives beyond injectables? Compare <a href="/blog/oral-vs-injectable-semaglutide-2026/" style={linkStyle}>oral vs. injectable semaglutide</a> or see how <a href="/blog/semaglutide-vs-tirzepatide-decision-2026/" style={linkStyle}>semaglutide compares to tirzepatide</a> to find the right fit.</p>
 
 
             {/* ─── FAQ ─── */}

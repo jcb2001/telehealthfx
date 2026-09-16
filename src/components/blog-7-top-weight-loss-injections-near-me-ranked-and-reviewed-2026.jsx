@@ -21,7 +21,7 @@ function Blog7TopWeightLossInjections() {
             </div>
             <div>
               <div style={{ fontWeight: 500, fontSize: 14, color: '#1A1F1C' }}>
-                <a href="/about" style={{ color: "#1A1F1C", textDecoration: "none" }}>Julian Mercer, M.S.</a>
+                <a href="/about/" style={{ color: "#1A1F1C", textDecoration: "none" }}>Julian Mercer, M.S.</a>
               </div>
               <div style={{ fontSize: 13, color: '#6B7068' }}>
                 Lead Bio-Systems Analyst · Updated June 2026 · 16 min read

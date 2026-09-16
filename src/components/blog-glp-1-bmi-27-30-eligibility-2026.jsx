@@ -12,17 +12,17 @@ function BlogGLP1BMI2730() {
       <h1 className="serif" style={{ fontSize: 56, marginBottom: 24, lineHeight: 1.1 }}>GLP-1 for BMI 27–30: <span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>Do You Qualify If You Are Not Clinically Obese?</span></h1>
       <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}>
         <div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)' }}><Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%', height: "auto"}} priority={true} /></div>
-        <div><div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div><div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 22 min read</div></div>
+        <div><div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about/" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div><div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 22 min read</div></div>
       </div>
       <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
         <Image src="/assets/glp1-bmi-27-30-featured.png" alt="Scale and measuring tape for BMI assessment with GLP-1 pen" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111', height: "auto"}} priority={true} />
 
-        <p>You know you are overweight. You have tried dieting, exercise programs, and lifestyle modifications. You want <a href="/blog/what-is-a-glp-1-medication" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 medication</a> — but your BMI is between 27 and 30, which means you are classified as "overweight," not "obese." <strong>Does that mean you do not qualify?</strong></p>
+        <p>You know you are overweight. You have tried dieting, exercise programs, and lifestyle modifications. You want <a href="/blog/what-is-a-glp-1-medication/" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 medication</a> — but your BMI is between 27 and 30, which means you are classified as "overweight," not "obese." <strong>Does that mean you do not qualify?</strong></p>
 
         <p>The answer is nuanced. The FDA-approved label, the off-label clinical landscape, and the compounded medication pathway each have different eligibility criteria. This guide explains all three — and why more clinicians are prescribing GLP-1 therapy for patients in the BMI 27–30 range than ever before.</p>
 
         <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The Official FDA Eligibility Criteria</h2>
-        <p>The FDA-approved labels for Wegovy (<a href="/medications/semaglutide" style={{ color: 'var(--brand)', fontWeight: 500 }}>semaglutide</a>) and Zepbound (<a href="/medications/tirzepatide" style={{ color: 'var(--brand)', fontWeight: 500 }}>tirzepatide</a>) specify:</p>
+        <p>The FDA-approved labels for Wegovy (<a href="/medications/semaglutide/" style={{ color: 'var(--brand)', fontWeight: 500 }}>semaglutide</a>) and Zepbound (<a href="/medications/tirzepatide/" style={{ color: 'var(--brand)', fontWeight: 500 }}>tirzepatide</a>) specify:</p>
         <ul>
           <li style={{ marginBottom: 12 }}>✅ <strong>BMI ≥ 30</strong> (obesity) — qualifies without additional conditions</li>
           <li style={{ marginBottom: 12 }}>✅ <strong>BMI ≥ 27</strong> (overweight) with at least one weight-related comorbidity</li>
@@ -43,7 +43,7 @@ function BlogGLP1BMI2730() {
             </tbody>
           </table>
         </div>
-        <p>The reality: <strong>the vast majority of adults with a BMI of 27–30 have at least one of these conditions</strong> — many have several. Prediabetes alone affects 96 million American adults, most of whom are unaware they have it. A simple fasting glucose or HbA1c test can confirm eligibility. Learn more about the GLP-1 connection to <a href="/blog/glp-1-and-type-2-diabetes-beyond-weight-loss-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>type 2 diabetes</a>, <a href="/blog/glp-1-and-your-heart-the-select-trial-cardiovascul" style={{ color: 'var(--brand)', fontWeight: 500 }}>cardiovascular health</a>, and <a href="/blog/glp-1-for-pcos-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>PCOS</a>.</p>
+        <p>The reality: <strong>the vast majority of adults with a BMI of 27–30 have at least one of these conditions</strong> — many have several. Prediabetes alone affects 96 million American adults, most of whom are unaware they have it. A simple fasting glucose or HbA1c test can confirm eligibility. Learn more about the GLP-1 connection to <a href="/blog/glp-1-and-type-2-diabetes-beyond-weight-loss-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>type 2 diabetes</a>, <a href="/blog/glp-1-and-your-heart-the-select-trial-cardiovascul/" style={{ color: 'var(--brand)', fontWeight: 500 }}>cardiovascular health</a>, and <a href="/blog/glp-1-for-pcos-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>PCOS</a>.</p>
 
         <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
           <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Not Sure If You Qualify?</h3>
@@ -53,15 +53,15 @@ function BlogGLP1BMI2730() {
 
         <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Beyond BMI: Why the Number Alone Is Insufficient</h2>
         <p>BMI is a screening tool, not a diagnostic one. It does not account for body composition, visceral fat distribution, metabolic health markers, or ethnic variations in cardiometabolic risk. A growing body of evidence — and an increasing number of clinicians — recognize that metabolic dysfunction can exist well below the BMI 30 threshold.</p>
-        <p>Patients with "normal weight obesity" (high body fat percentage despite normal BMI) and patients with insulin resistance, elevated fasting glucose, or inflammatory markers may benefit significantly from GLP-1 therapy even if their BMI does not reach the traditional cutoff. This is particularly relevant for patients with <a href="/blog/glp-1-and-inflammation-arthritis-sleep-apnea-chron" style={{ color: 'var(--brand)', fontWeight: 500 }}>chronic inflammation</a> and <a href="/blog/ozempic-insulin-resistance" style={{ color: 'var(--brand)', fontWeight: 500 }}>insulin resistance</a>.</p>
+        <p>Patients with "normal weight obesity" (high body fat percentage despite normal BMI) and patients with insulin resistance, elevated fasting glucose, or inflammatory markers may benefit significantly from GLP-1 therapy even if their BMI does not reach the traditional cutoff. This is particularly relevant for patients with <a href="/blog/glp-1-and-inflammation-arthritis-sleep-apnea-chron/" style={{ color: 'var(--brand)', fontWeight: 500 }}>chronic inflammation</a> and <a href="/blog/ozempic-insulin-resistance/" style={{ color: 'var(--brand)', fontWeight: 500 }}>insulin resistance</a>.</p>
 
         <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>What Results to Expect at BMI 27–30</h2>
         <p>Clinical trials included patients with BMI ≥27, and the data shows meaningful outcomes at lower BMIs:</p>
         <ul>
           <li style={{ marginBottom: 12 }}><strong>Weight loss:</strong> 12–18% body weight reduction is typical with semaglutide 2.4 mg; 18–22% with tirzepatide at higher doses</li>
-          <li style={{ marginBottom: 12 }}><strong>Timeline:</strong> Most patients see significant results by weeks 12–16. Review our <a href="/blog/your-first-90-days-on-glp-1-week-by-week-what-to-e" style={{ color: 'var(--brand)', fontWeight: 500 }}>first 90 days guide</a></li>
+          <li style={{ marginBottom: 12 }}><strong>Timeline:</strong> Most patients see significant results by weeks 12–16. Review our <a href="/blog/your-first-90-days-on-glp-1-week-by-week-what-to-e/" style={{ color: 'var(--brand)', fontWeight: 500 }}>first 90 days guide</a></li>
           <li style={{ marginBottom: 12 }}><strong>Metabolic improvements:</strong> HbA1c reduction, blood pressure improvement, lipid panel optimization often occur before reaching goal weight</li>
-          <li style={{ marginBottom: 12 }}><strong>Muscle preservation:</strong> Combining GLP-1 with <a href="/blog/glp-1-and-exercise-how-to-combine-medication-with" style={{ color: 'var(--brand)', fontWeight: 500 }}>resistance training</a> is critical to prevent <a href="/blog/glp-1-muscle-loss-the-hidden-risk-nobodys-talking" style={{ color: 'var(--brand)', fontWeight: 500 }}>lean mass loss</a></li>
+          <li style={{ marginBottom: 12 }}><strong>Muscle preservation:</strong> Combining GLP-1 with <a href="/blog/glp-1-and-exercise-how-to-combine-medication-with/" style={{ color: 'var(--brand)', fontWeight: 500 }}>resistance training</a> is critical to prevent <a href="/blog/glp-1-muscle-loss-the-hidden-risk-nobodys-talking/" style={{ color: 'var(--brand)', fontWeight: 500 }}>lean mass loss</a></li>
         </ul>
 
         <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>

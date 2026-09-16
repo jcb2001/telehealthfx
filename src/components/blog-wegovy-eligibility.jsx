@@ -310,7 +310,7 @@ export function BlogWegovyEligibility() {
             </div>
             <div>
               <div style={{ fontWeight: 500, fontSize: 14 }}>
-                <a href="/about" style={{ color: 'var(--ink)', textDecoration: 'none' }}>Julian Mercer, M.S.</a>
+                <a href="/about/" style={{ color: 'var(--ink)', textDecoration: 'none' }}>Julian Mercer, M.S.</a>
               </div>
               <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated June 2026 · 12 min read</div>
             </div>
@@ -329,8 +329,8 @@ export function BlogWegovyEligibility() {
             />
 
             {/* Intro */}
-            <p><a href="/medications/semaglutide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Wegovy (semaglutide 2.4 mg)</a> is FDA-approved for chronic weight management in adults with a body mass index (BMI) of 30 or higher, or a BMI of 27 or higher who also have at least one weight-related medical condition such as high blood pressure, type 2 diabetes, or high cholesterol. It is also approved for children aged 12 and older who have obesity.</p>
-            <p>That{"'"}s the short answer. But "do I qualify" depends on more than a single number — your BMI category, your existing health conditions, your age, and certain safety factors all play a role. This guide walks through every part of the <a href="/blog/wegovy-fda-label" style={{ color: 'var(--brand)', fontWeight: 500 }}>FDA criteria</a> in plain language, shows you exactly what counts as a qualifying condition, and explains how to find out whether a licensed provider considers you a candidate.</p>
+            <p><a href="/medications/semaglutide/" style={{ color: 'var(--brand)', fontWeight: 500 }}>Wegovy (semaglutide 2.4 mg)</a> is FDA-approved for chronic weight management in adults with a body mass index (BMI) of 30 or higher, or a BMI of 27 or higher who also have at least one weight-related medical condition such as high blood pressure, type 2 diabetes, or high cholesterol. It is also approved for children aged 12 and older who have obesity.</p>
+            <p>That{"'"}s the short answer. But "do I qualify" depends on more than a single number — your BMI category, your existing health conditions, your age, and certain safety factors all play a role. This guide walks through every part of the <a href="/blog/wegovy-fda-label/" style={{ color: 'var(--brand)', fontWeight: 500 }}>FDA criteria</a> in plain language, shows you exactly what counts as a qualifying condition, and explains how to find out whether a licensed provider considers you a candidate.</p>
 
             {/* ─── CTA 1: Top ─── */}
             <CtaBlock
@@ -409,7 +409,7 @@ export function BlogWegovyEligibility() {
                 }}>1</div>
                 <h3 style={{ fontSize: 22, fontWeight: 600, color: 'var(--ink)', margin: 0 }}>A BMI of 30 or higher (obesity)</h3>
               </div>
-              <p style={{ marginBottom: 0, paddingLeft: 50 }}>If your BMI is 30 or above, you meet the FDA{"'"}s weight criteria for Wegovy on BMI alone. No additional diagnosis is required. This is the most straightforward path to eligibility, and it covers the majority of adults who are prescribed the medication. For a deeper look at BMI thresholds, see our <a href="/blog/glp-1-bmi-27-30-eligibility-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>BMI 27–30 eligibility breakdown</a>.</p>
+              <p style={{ marginBottom: 0, paddingLeft: 50 }}>If your BMI is 30 or above, you meet the FDA{"'"}s weight criteria for Wegovy on BMI alone. No additional diagnosis is required. This is the most straightforward path to eligibility, and it covers the majority of adults who are prescribed the medication. For a deeper look at BMI thresholds, see our <a href="/blog/glp-1-bmi-27-30-eligibility-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>BMI 27–30 eligibility breakdown</a>.</p>
             </div>
 
             <div className="card" style={{ padding: '28px 32px', marginBottom: 24 }}>
@@ -432,19 +432,19 @@ export function BlogWegovyEligibility() {
             <p>The label points to medical conditions that are commonly caused or worsened by excess weight. The conditions most often cited as qualifying include:</p>
             <ul style={{ paddingLeft: 24, marginBottom: 24 }}>
               <li style={{ marginBottom: 10 }}>High blood pressure (hypertension)</li>
-              <li style={{ marginBottom: 10 }}><a href="/blog/glp-1-and-type-2-diabetes-beyond-weight-loss-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>Type 2 diabetes</a></li>
-              <li style={{ marginBottom: 10 }}>High cholesterol or high triglycerides (<a href="/blog/glp1-cholesterol-lipids-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>dyslipidemia</a>)</li>
+              <li style={{ marginBottom: 10 }}><a href="/blog/glp-1-and-type-2-diabetes-beyond-weight-loss-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>Type 2 diabetes</a></li>
+              <li style={{ marginBottom: 10 }}>High cholesterol or high triglycerides (<a href="/blog/glp1-cholesterol-lipids-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>dyslipidemia</a>)</li>
               <li style={{ marginBottom: 10 }}>Obstructive sleep apnea</li>
-              <li style={{ marginBottom: 10 }}>Cardiovascular disease (such as a <a href="/blog/glp1-heart-health-select-trial-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>history of heart attack or stroke</a>)</li>
+              <li style={{ marginBottom: 10 }}>Cardiovascular disease (such as a <a href="/blog/glp1-heart-health-select-trial-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>history of heart attack or stroke</a>)</li>
             </ul>
             <p>This list is not exhaustive, and a diagnosis on its own doesn{"'"}t guarantee eligibility — only a licensed provider can confirm whether a specific condition satisfies the criteria in your case.</p>
 
             <h3 style={{ fontSize: 24, fontWeight: 600, marginTop: 40, marginBottom: 20, color: 'var(--ink)' }}>"Do I qualify if I have…?"</h3>
             <div style={{ display: 'flex', flexDirection: 'column', gap: 12, marginBottom: 32 }}>
               {[
-                { q: 'Prediabetes?', a: <span>Prediabetes isn{"'"}t the same as type 2 diabetes, but it{"'"}s often part of a broader weight-related risk profile a provider will consider. See our <a href="/blog/semaglutide-prediabetes-prevention-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>prediabetes and semaglutide guide</a>.</span> },
-                { q: 'PCOS?', a: <span>Polycystic ovary syndrome frequently occurs alongside qualifying conditions like insulin resistance or high blood pressure. Learn more in our <a href="/blog/glp-1-for-pcos-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 for PCOS guide</a>.</span> },
-                { q: 'Fatty liver disease?', a: <span>Weight-related liver disease is increasingly relevant to GLP-1 eligibility. See our deep dive on <a href="/blog/glp1-fatty-liver-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 and fatty liver disease</a>.</span> },
+                { q: 'Prediabetes?', a: <span>Prediabetes isn{"'"}t the same as type 2 diabetes, but it{"'"}s often part of a broader weight-related risk profile a provider will consider. See our <a href="/blog/semaglutide-prediabetes-prevention-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>prediabetes and semaglutide guide</a>.</span> },
+                { q: 'PCOS?', a: <span>Polycystic ovary syndrome frequently occurs alongside qualifying conditions like insulin resistance or high blood pressure. Learn more in our <a href="/blog/glp-1-for-pcos-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 for PCOS guide</a>.</span> },
+                { q: 'Fatty liver disease?', a: <span>Weight-related liver disease is increasingly relevant to GLP-1 eligibility. See our deep dive on <a href="/blog/glp1-fatty-liver-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 and fatty liver disease</a>.</span> },
                 { q: 'Only a high BMI, no diagnosed conditions?', a: "If your BMI is 30 or above, you don't need a separate condition at all." },
               ].map((item, i) => (
                 <div key={i} className="card" style={{ padding: '20px 24px' }}>
@@ -474,8 +474,8 @@ export function BlogWegovyEligibility() {
             <SectionImage src="/assets/wegovy-treatment.png" alt="Patient holding an auto-injector pen during a clinical consultation" />
             <p>Wegovy{"'"}s approved uses have broadened over time, and these expansions matter if you have a qualifying condition:</p>
             <ul style={{ paddingLeft: 24, marginBottom: 24 }}>
-              <li style={{ marginBottom: 14 }}><strong>Cardiovascular risk reduction.</strong> Wegovy is FDA-approved to reduce the risk of major cardiovascular events — such as heart attack and stroke — in certain adults who have established cardiovascular disease together with obesity or overweight. This indication followed the <a href="/blog/glp1-heart-health-select-trial-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>SELECT trial</a>, in which semaglutide reduced major adverse cardiovascular events compared with placebo in adults with cardiovascular disease and overweight or obesity (Lincoff et al., 2023).</li>
-              <li style={{ marginBottom: 14 }}><strong>Weight-related liver disease.</strong> The label has continued to expand into certain forms of <a href="/blog/glp1-fatty-liver-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>fatty liver disease</a> associated with metabolic dysfunction, supported by phase 3 trial evidence in metabolic dysfunction–associated steatohepatitis (MASH) (Sanyal et al., 2025).</li>
+              <li style={{ marginBottom: 14 }}><strong>Cardiovascular risk reduction.</strong> Wegovy is FDA-approved to reduce the risk of major cardiovascular events — such as heart attack and stroke — in certain adults who have established cardiovascular disease together with obesity or overweight. This indication followed the <a href="/blog/glp1-heart-health-select-trial-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>SELECT trial</a>, in which semaglutide reduced major adverse cardiovascular events compared with placebo in adults with cardiovascular disease and overweight or obesity (Lincoff et al., 2023).</li>
+              <li style={{ marginBottom: 14 }}><strong>Weight-related liver disease.</strong> The label has continued to expand into certain forms of <a href="/blog/glp1-fatty-liver-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>fatty liver disease</a> associated with metabolic dysfunction, supported by phase 3 trial evidence in metabolic dysfunction–associated steatohepatitis (MASH) (Sanyal et al., 2025).</li>
             </ul>
             <p>In all cases, Wegovy is intended to be used together with a reduced-calorie eating plan and increased physical activity.</p>
 
@@ -484,9 +484,9 @@ export function BlogWegovyEligibility() {
             <h2 className="serif" style={{ fontSize: 32, marginTop: 56, marginBottom: 24, color: 'var(--ink)' }}>Who is not a candidate</h2>
             <p>Meeting the BMI criteria does not override safety. Wegovy is generally not appropriate for people who:</p>
             <ul style={{ paddingLeft: 24, marginBottom: 24 }}>
-              <li style={{ marginBottom: 10 }}>Have a personal or family history of <a href="/blog/glp1-thyroid-safety-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>medullary thyroid carcinoma (MTC)</a>, or have Multiple Endocrine Neoplasia syndrome type 2 (MEN 2)</li>
+              <li style={{ marginBottom: 10 }}>Have a personal or family history of <a href="/blog/glp1-thyroid-safety-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>medullary thyroid carcinoma (MTC)</a>, or have Multiple Endocrine Neoplasia syndrome type 2 (MEN 2)</li>
               <li style={{ marginBottom: 10 }}>Have had a serious allergic reaction to semaglutide or any ingredient in the medication</li>
-              <li style={{ marginBottom: 10 }}>Are pregnant, planning to become pregnant, or <a href="/blog/glp1-breastfeeding-safety-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>breastfeeding</a></li>
+              <li style={{ marginBottom: 10 }}>Are pregnant, planning to become pregnant, or <a href="/blog/glp1-breastfeeding-safety-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>breastfeeding</a></li>
             </ul>
 
             <div style={{
@@ -507,15 +507,15 @@ export function BlogWegovyEligibility() {
             <h2 className="serif" style={{ fontSize: 32, marginTop: 56, marginBottom: 24, color: 'var(--ink)' }}>"Wegovy" vs. compounded semaglutide</h2>
             <p>When people search for Wegovy eligibility, they{"'"}re usually trying to get access to semaglutide for weight management — and they quickly run into two different things:</p>
             <ul style={{ paddingLeft: 24, marginBottom: 24 }}>
-              <li style={{ marginBottom: 14 }}><strong><a href="/blog/ozempic-vs-wegovy-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>Wegovy</a></strong> is the brand-name, FDA-approved product made by Novo Nordisk. Every eligibility criterion on this page is the FDA criteria for that product.</li>
-              <li style={{ marginBottom: 14 }}><strong><a href="/blog/compounded-semaglutide-vs-wegovy-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>Compounded semaglutide</a></strong> is a custom preparation made by licensed compounding pharmacies. It is not the same medication as Wegovy and is not FDA-approved — the FDA does not evaluate compounded drugs for safety, effectiveness, or quality.</li>
+              <li style={{ marginBottom: 14 }}><strong><a href="/blog/ozempic-vs-wegovy-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>Wegovy</a></strong> is the brand-name, FDA-approved product made by Novo Nordisk. Every eligibility criterion on this page is the FDA criteria for that product.</li>
+              <li style={{ marginBottom: 14 }}><strong><a href="/blog/compounded-semaglutide-vs-wegovy-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>Compounded semaglutide</a></strong> is a custom preparation made by licensed compounding pharmacies. It is not the same medication as Wegovy and is not FDA-approved — the FDA does not evaluate compounded drugs for safety, effectiveness, or quality.</li>
             </ul>
-            <p>The clinical eligibility considerations (BMI, conditions, safety history) are similar regardless of which form is discussed, but the products are not interchangeable. For pricing, see our <a href="/blog/semaglutide-real-cost-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>semaglutide cost breakdown</a> and <a href="/blog/insurance-coverage-glp1-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>insurance coverage guide</a>. Whether you may be a candidate for any semaglutide treatment is a decision a licensed medical provider makes based on your individual health.</p>
+            <p>The clinical eligibility considerations (BMI, conditions, safety history) are similar regardless of which form is discussed, but the products are not interchangeable. For pricing, see our <a href="/blog/semaglutide-real-cost-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>semaglutide cost breakdown</a> and <a href="/blog/insurance-coverage-glp1-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>insurance coverage guide</a>. Whether you may be a candidate for any semaglutide treatment is a decision a licensed medical provider makes based on your individual health.</p>
 
 
             {/* ─── After You Qualify ─── */}
             <h2 className="serif" style={{ fontSize: 32, marginTop: 56, marginBottom: 24, color: 'var(--ink)' }}>What happens after you qualify</h2>
-            <p>Qualifying is the first step, not the finish line. If a provider determines you{"'"}re a candidate, treatment typically begins at a low dose and increases gradually over several weeks to reduce side effects — an approach called <a href="/blog/semaglutide-dose-escalation-guide-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>titration</a>. Treatment is ongoing and paired with lifestyle changes, and your provider monitors your progress and adjusts as needed. Here{"'"}s <a href="/blog/first-week-semaglutide-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>what to expect in your first week</a> and a full <a href="/blog/semaglutide-weight-loss-timeline-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>weight loss timeline</a>. In the STEP 1 trial, adults with overweight or obesity (without diabetes) who reached the maintenance dose lost about 15% of their body weight on average over 68 weeks, compared with roughly 2.4% on placebo, alongside lifestyle changes (Wilding et al., 2021). Individual results vary and are never guaranteed.</p>
+            <p>Qualifying is the first step, not the finish line. If a provider determines you{"'"}re a candidate, treatment typically begins at a low dose and increases gradually over several weeks to reduce side effects — an approach called <a href="/blog/semaglutide-dose-escalation-guide-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>titration</a>. Treatment is ongoing and paired with lifestyle changes, and your provider monitors your progress and adjusts as needed. Here{"'"}s <a href="/blog/first-week-semaglutide-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>what to expect in your first week</a> and a full <a href="/blog/semaglutide-weight-loss-timeline-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>weight loss timeline</a>. In the STEP 1 trial, adults with overweight or obesity (without diabetes) who reached the maintenance dose lost about 15% of their body weight on average over 68 weeks, compared with roughly 2.4% on placebo, alongside lifestyle changes (Wilding et al., 2021). Individual results vary and are never guaranteed.</p>
 
 
             {/* ─── FAQ ─── */}

@@ -28,7 +28,7 @@ function Glp1ShortageTracker2026() {
             </div>
             <div>
               <div style={{ fontWeight: 500, fontSize: 14 }}>
-                <a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a>
+                <a href="/about/" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a>
               </div>
               <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated June 2026 · 22 min read</div>
             </div>

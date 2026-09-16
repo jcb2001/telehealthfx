@@ -21,7 +21,7 @@ function Blog10BestPractices() {
             </div>
             <div>
               <div style={{ fontWeight: 500, fontSize: 14, color: '#1A3024' }}>
-                <a href="/about" style={{ color: "#1A3024", textDecoration: "none" }}>Julian Mercer, M.S.</a>
+                <a href="/about/" style={{ color: "#1A3024", textDecoration: "none" }}>Julian Mercer, M.S.</a>
               </div>
               <div style={{ fontSize: 13, color: '#2E4A3B' }}>
                 Lead Bio-Systems Analyst · Updated June 2026 · 18 min read

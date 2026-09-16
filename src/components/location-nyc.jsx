@@ -115,7 +115,7 @@ export function LocationNYC() {
                  <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', color: 'var(--ink-2)', marginBottom: 32, lineHeight: 1.7 }}>
                     While Manhattan offers $300/month Equinox memberships and premium access to Whole Foods, the reality for many New Yorkers is relying on the convenience of bodega sandwiches and late-night Seamless deliveries. According to the NYC Department of Health, this environment has led to skyrocketing insulin resistance across Queens and The Bronx. Traditional diet protocols simply hit a physiological wall in this demanding environment.
                  </p>
-                 <a href="/blog/ozempic-insulin-resistance" style={{ color: 'var(--brand)', textDecoration: 'none', fontWeight: 600, display: 'inline-flex', alignItems: 'center', gap: 8 }}>
+                 <a href="/blog/ozempic-insulin-resistance/" style={{ color: 'var(--brand)', textDecoration: 'none', fontWeight: 600, display: 'inline-flex', alignItems: 'center', gap: 8 }}>
                     Read our clinical guide to insulin resistance <Icon.Arrow size={16} />
                  </a>
               </div>

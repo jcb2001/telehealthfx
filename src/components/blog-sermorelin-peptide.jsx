@@ -25,7 +25,7 @@ function BlogSermorelinPeptide() {
             <Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' , height: "auto"}} priority={true} />
           </div>
           <div>
-            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
+            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about/" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
             <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 26 min read</div>
           </div>
         </div>
@@ -123,10 +123,10 @@ function BlogSermorelinPeptide() {
           <p style={{ marginBottom: 24 }}>No. Steroids (like exogenous testosterone) are androgenic hormones that directly bind to muscle cells. Sermorelin is a peptide (a short chain of amino acids) that simply signals your brain to release its own natural growth hormone. It is completely non-androgenic and does not cause "roid rage," hair loss, or virilization in women.</p>
 
           <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>Does Sermorelin burn fat like Semaglutide?</h4>
-          <p style={{ marginBottom: 24 }}>Sermorelin improves body composition by increasing IGF-1, which promotes lean muscle mass and fat oxidation over time. However, it is not a direct appetite suppressant. If your primary goal is massive weight loss, you should look into <a href="/blog/what-is-a-glp-1-medication" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 therapies like Semaglutide</a>. Sermorelin is best used for anti-aging, sleep, and recovery.</p>
+          <p style={{ marginBottom: 24 }}>Sermorelin improves body composition by increasing IGF-1, which promotes lean muscle mass and fat oxidation over time. However, it is not a direct appetite suppressant. If your primary goal is massive weight loss, you should look into <a href="/blog/what-is-a-glp-1-medication/" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 therapies like Semaglutide</a>. Sermorelin is best used for anti-aging, sleep, and recovery.</p>
 
           <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>How is it administered?</h4>
-          <p style={{ marginBottom: 24 }}>Because sermorelin is a delicate peptide, it cannot survive oral administration. It is injected subcutaneously (into the belly fat) using an ultra-fine, painless insulin needle. The standard <a href="/medications/sermorelin" style={{ color: 'var(--brand)', fontWeight: 500 }}>sermorelin protocol</a> is to inject it five nights a week, just before bed, to mimic the body's natural nocturnal GH pulse.</p>
+          <p style={{ marginBottom: 24 }}>Because sermorelin is a delicate peptide, it cannot survive oral administration. It is injected subcutaneously (into the belly fat) using an ultra-fine, painless insulin needle. The standard <a href="/medications/sermorelin/" style={{ color: 'var(--brand)', fontWeight: 500 }}>sermorelin protocol</a> is to inject it five nights a week, just before bed, to mimic the body's natural nocturnal GH pulse.</p>
 
           <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
             <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Ready to Sleep Like You Did at 20?</h2>

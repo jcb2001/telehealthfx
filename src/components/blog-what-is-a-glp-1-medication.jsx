@@ -22,7 +22,7 @@ function BlogWhatIsAGlp1Medication() {
             <Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' , height: "auto"}} priority={true} />
           </div>
           <div>
-            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
+            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about/" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
             <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 32 min read</div>
           </div>
         </div>
@@ -59,14 +59,14 @@ function BlogWhatIsAGlp1Medication() {
           <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>How Do GLP-1 Medications Cause Weight Loss?</h2>
           <p>While originally developed to lower A1C in Type 2 Diabetics, endocrinologists quickly realized that GLP-1s cause massive, sustained weight loss through three distinct mechanisms.</p>
 
-          <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>1. Neurological Satiety (Crushing "<a href="/blog/glp-1-and-mental-health-anxiety-depression-food-no" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>food noise</a>")</h3>
+          <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>1. Neurological Satiety (Crushing "<a href="/blog/glp-1-and-mental-health-anxiety-depression-food-no/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>food noise</a>")</h3>
           <p>The most profound effect of a GLP-1 medication is psychological. Patients report that the constant, obsessive thoughts about food—what the medical community calls "food noise"—completely disappear. The drug acts directly on the brain's reward centers. You no longer crave high-sugar, high-fat foods. You eat a few bites and feel physically and mentally satisfied.</p>
 
           <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>2. Delayed Gastric Emptying</h3>
           <p>GLP-1 receptors in the gastrointestinal tract physically slow down the rate at which your stomach empties food into your small intestine. A meal that would normally digest in two hours might take four or six hours. Because there is literally still food in your stomach, you remain physically full for the entire day. (Note: this is also the primary mechanism behind the nausea side effect).</p>
 
           <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>3. Reversing Insulin Resistance</h3>
-          <p>As we detailed in our guide on <a href="/blog/ozempic-insulin-resistance" style={{ color: 'var(--brand)', fontWeight: 500 }}>Ozempic for insulin resistance</a>, by enforcing a caloric deficit and reducing visceral fat, the cells regain their sensitivity to insulin. The biological "lock" on fat storage is removed, allowing the body to easily burn stored visceral fat for energy.</p>
+          <p>As we detailed in our guide on <a href="/blog/ozempic-insulin-resistance/" style={{ color: 'var(--brand)', fontWeight: 500 }}>Ozempic for insulin resistance</a>, by enforcing a caloric deficit and reducing visceral fat, the cells regain their sensitivity to insulin. The biological "lock" on fat storage is removed, allowing the body to easily burn stored visceral fat for energy.</p>
 
           <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Semaglutide vs Tirzepatide: The Heavyweights</h2>
           <p>Currently, the market is dominated by two massive players. Understanding the difference between them is critical for selecting the right therapy.</p>
@@ -108,7 +108,7 @@ function BlogWhatIsAGlp1Medication() {
           <p>While Semaglutide is the most famous, Tirzepatide represents the next generation of metabolic drugs. By adding GIP (Glucose-Dependent Insulinotropic Polypeptide) to the molecule, Tirzepatide achieves even greater fat loss while theoretically buffering some of the intense nausea associated with pure GLP-1s.</p>
 
           <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Content Gap: The Truth About Affordability and Access</h2>
-          <p>Major medical sites like WebMD will explain what a GLP-1 medication is, but they will not tell you how to afford it. The pharmaceutical companies price Wegovy at roughly $1,349 per month and Zepbound at $1,059 per month. If your insurance denies your claim because you don't perfectly meet the <a href="/blog/wegovy-fda-label" style={{ color: 'var(--brand)', fontWeight: 500 }}>Wegovy FDA label</a> criteria, you are expected to pay out of pocket.</p>
+          <p>Major medical sites like WebMD will explain what a GLP-1 medication is, but they will not tell you how to afford it. The pharmaceutical companies price Wegovy at roughly $1,349 per month and Zepbound at $1,059 per month. If your insurance denies your claim because you don't perfectly meet the <a href="/blog/wegovy-fda-label/" style={{ color: 'var(--brand)', fontWeight: 500 }}>Wegovy FDA label</a> criteria, you are expected to pay out of pocket.</p>
 
           <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>The Compounding Pharmacy Solution</h3>
           <p>Because Novo Nordisk and Eli Lilly cannot manufacture these drugs fast enough, both Semaglutide and Tirzepatide are currently on the FDA Drug Shortage List. Under federal law, this allows licensed 503A and 503B compounding pharmacies to produce the exact same active pharmaceutical ingredient.</p>
@@ -136,8 +136,8 @@ function BlogWhatIsAGlp1Medication() {
           <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>What happens if I stop taking it?</h4>
           <p style={{ marginBottom: 24 }}>GLP-1 medications do not permanently change your DNA. If you use the drug to lose 50 pounds, but fail to change your underlying relationship with food, the "food noise" will return when you stop the medication, and you will likely regain the weight. It is a powerful tool to enforce a deficit while you build permanent, healthy habits.</p>
 
-          <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>Is <a href="/medications/berberine" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Berberine</a> really "Nature's Ozempic"?</h4>
-          <p style={{ marginBottom: 24 }}>No. Berberine works via AMPK activation, not the GLP-1 receptor. It does not crush your appetite or slow gastric emptying. It is a phenomenal supplement for mild insulin resistance, but it is not in the same universe as Semaglutide. We compare them directly in our <a href="/blog/berberine-vs-ozempic" style={{ color: 'var(--brand)', fontWeight: 500 }}>Berberine vs Ozempic clinical guide</a>.</p>
+          <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>Is <a href="/medications/berberine/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Berberine</a> really "Nature's Ozempic"?</h4>
+          <p style={{ marginBottom: 24 }}>No. Berberine works via AMPK activation, not the GLP-1 receptor. It does not crush your appetite or slow gastric emptying. It is a phenomenal supplement for mild insulin resistance, but it is not in the same universe as Semaglutide. We compare them directly in our <a href="/blog/berberine-vs-ozempic/" style={{ color: 'var(--brand)', fontWeight: 500 }}>Berberine vs Ozempic clinical guide</a>.</p>
 
           <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
             <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Ready to Fix Your Metabolism?</h2>

@@ -22,7 +22,7 @@ function BlogTheSocialStigmaOfWeightLossMedicationWhyIt() {
             </div>
             <div>
               <div style={{ fontWeight: 500, color: 'var(--ink)' }}>
-                <a href="/about" style={{ color: 'inherit', textDecoration: 'none' }}>Julian Mercer, M.S.</a>
+                <a href="/about/" style={{ color: 'inherit', textDecoration: 'none' }}>Julian Mercer, M.S.</a>
               </div>
               <div style={{ fontSize: 14, color: 'var(--ink-2)' }}>Lead Bio-Systems Analyst | May 2, 2026</div>
             </div>
@@ -45,7 +45,7 @@ function BlogTheSocialStigmaOfWeightLossMedicationWhyIt() {
               And yet, when your coworker leans over the lunch table and asks, "So what's your secret?"—you lie. You mumble something about "cutting carbs" or "doing more walks." You hide the medication in the back of your refrigerator. You feel a deep, corrosive shame about the single most effective medical decision you have ever made.
             </p>
             <p>
-              This is the brutal reality of weight-loss medication stigma in 2026. Despite being prescribed by licensed physicians, backed by the largest clinical trials in obesity medicine history, and recognized by the World Health Organization as a legitimate treatment for a chronic disease, GLP-1 receptor agonists like <a href="/blog/tirzepatide-vs-semaglutide-which-glp-1-is-right-fo" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Semaglutide and Tirzepatide</a> remain one of the most stigmatized categories of medication in modern healthcare.
+              This is the brutal reality of weight-loss medication stigma in 2026. Despite being prescribed by licensed physicians, backed by the largest clinical trials in obesity medicine history, and recognized by the World Health Organization as a legitimate treatment for a chronic disease, GLP-1 receptor agonists like <a href="/blog/tirzepatide-vs-semaglutide-which-glp-1-is-right-fo/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Semaglutide and Tirzepatide</a> remain one of the most stigmatized categories of medication in modern healthcare.
             </p>
             <p>
               In this clinical analysis, we dismantle the cultural myths driving that stigma, expose the biological reality that makes willpower-only approaches scientifically futile, and explain why your medical treatment decisions are—and always have been—nobody's business but yours.
@@ -109,7 +109,7 @@ function BlogTheSocialStigmaOfWeightLossMedicationWhyIt() {
               <li><strong>Resting metabolic rate drops.</strong> Your body burns fewer calories at rest through a process called adaptive thermogenesis. A person who dieted down to 180 pounds burns significantly fewer daily calories than a person who was always 180 pounds.</li>
               <li><strong>Hunger hormones skyrocket.</strong> Ghrelin—the primary hunger hormone—surges dramatically, creating an almost unbearable biological drive to eat.</li>
               <li><strong>Satiety signals weaken.</strong> Leptin, the hormone that tells your brain "you are full," becomes progressively less effective. Your brain literally cannot hear the "stop eating" signal.</li>
-              <li><strong>The reward system hijacks your decision-making.</strong> Your brain's mesolimbic dopamine pathway becomes hypersensitive to food cues, making the sight and smell of high-calorie food almost impossible to resist. This is the neurological basis of what patients call <a href="/blog/glp-1-and-mental-health-anxiety-depression-food-no" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>food noise</a>.</li>
+              <li><strong>The reward system hijacks your decision-making.</strong> Your brain's mesolimbic dopamine pathway becomes hypersensitive to food cues, making the sight and smell of high-calorie food almost impossible to resist. This is the neurological basis of what patients call <a href="/blog/glp-1-and-mental-health-anxiety-depression-food-no/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>food noise</a>.</li>
             </ul>
             <p>
               This is the "defended state." Your body has a biological set point—the highest weight it has achieved—and it will deploy every hormonal, neurological, and metabolic tool at its disposal to return to that set point. Telling someone to "just use willpower" against this cascade of biological forces is like telling someone to lower their heart rate through sheer determination.
@@ -121,7 +121,7 @@ function BlogTheSocialStigmaOfWeightLossMedicationWhyIt() {
                 <div>
                   <h3 className="serif" style={{ fontSize: 24, marginBottom: 12 }}>What GLP-1 Medications Actually Do</h3>
                   <p style={{ margin: 0, color: 'var(--ink-2)', lineHeight: 1.6 }}>
-                    GLP-1 receptor agonists do not "replace" willpower. They <em>fix the broken biological signals</em> so that a person's willpower actually has a chance to work. By binding to receptors in the hypothalamus and the gut, these medications restore normal satiety signaling, reduce the dopamine-driven food obsession, and allow the brain to accurately process "I am full" messages for the first time in years—or decades. This is the same mechanism explored in our breakdown of the <a href="/blog/pharmacokinetics-ozempic-semaglutide-cellular-breakdown" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>cellular pharmacokinetics of Semaglutide</a>.
+                    GLP-1 receptor agonists do not "replace" willpower. They <em>fix the broken biological signals</em> so that a person's willpower actually has a chance to work. By binding to receptors in the hypothalamus and the gut, these medications restore normal satiety signaling, reduce the dopamine-driven food obsession, and allow the brain to accurately process "I am full" messages for the first time in years—or decades. This is the same mechanism explored in our breakdown of the <a href="/blog/pharmacokinetics-ozempic-semaglutide-cellular-breakdown/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>cellular pharmacokinetics of Semaglutide</a>.
                   </p>
                 </div>
               </div>
@@ -177,7 +177,7 @@ function BlogTheSocialStigmaOfWeightLossMedicationWhyIt() {
             <ul style={{ paddingLeft: 24, display: 'flex', flexDirection: 'column', gap: 12, marginBottom: 24 }}>
               <li><strong>Acknowledging a medical condition.</strong> The patient must accept that their obesity is a chronic, relapsing disease—not a character flaw—and seek professional treatment.</li>
               <li><strong>Undergoing clinical evaluation.</strong> GLP-1 therapy requires a comprehensive medical intake, lab work, and ongoing physician oversight. This is not a casual decision.</li>
-              <li><strong>Committing to a long-term protocol.</strong> Patients must adhere to a titration schedule, manage side effects (which we detail in our guide to <a href="/blog/glp-1-side-effects-how-to-manage-nausea-fatigue-mo" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>managing GLP-1 side effects</a>), attend follow-up appointments, and integrate lifestyle modifications including exercise and nutrition.</li>
+              <li><strong>Committing to a long-term protocol.</strong> Patients must adhere to a titration schedule, manage side effects (which we detail in our guide to <a href="/blog/glp-1-side-effects-how-to-manage-nausea-fatigue-mo/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>managing GLP-1 side effects</a>), attend follow-up appointments, and integrate lifestyle modifications including exercise and nutrition.</li>
               <li><strong>Investing financially.</strong> Even with telehealth options, weight-loss medication represents a significant monthly commitment—one that speaks to the patient's prioritization of their health.</li>
             </ul>
             <p>
@@ -228,7 +228,7 @@ function BlogTheSocialStigmaOfWeightLossMedicationWhyIt() {
 
             <h3>4. Seek Professional Psychological Support</h3>
             <p>
-              Rapid weight loss on GLP-1 therapy can trigger a profound <a href="/blog/glp-1-and-mental-health-anxiety-depression-food-no" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>identity shift</a>. Many patients benefit from concurrent cognitive behavioral therapy (CBT) to process the psychological adjustment of living in a dramatically different body. This is not a sign of weakness—it is a sign of comprehensive self-care.
+              Rapid weight loss on GLP-1 therapy can trigger a profound <a href="/blog/glp-1-and-mental-health-anxiety-depression-food-no/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>identity shift</a>. Many patients benefit from concurrent cognitive behavioral therapy (CBT) to process the psychological adjustment of living in a dramatically different body. This is not a sign of weakness—it is a sign of comprehensive self-care.
             </p>
 
             {/* CTA 3: Bottom Funnel */}
@@ -239,7 +239,7 @@ function BlogTheSocialStigmaOfWeightLossMedicationWhyIt() {
                   TelehealthFX provides private, fully compliant metabolic programs with U.S.-licensed providers, 1-on-1 clinical support, and discreet medication delivery. No waiting rooms. No explanations required.
                 </p>
                 <p style={{ fontSize: 16, color: 'var(--ink-2)', marginBottom: 32, maxWidth: 600, margin: '0 auto 32px' }}>
-                  Learn how to identify a legitimate provider in our guide to <a href="/blog/how-to-choose-a-telehealth-weight-loss-program-and" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>choosing a telehealth weight loss program</a> and avoid <a href="/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>hidden fees</a>.
+                  Learn how to identify a legitimate provider in our guide to <a href="/blog/how-to-choose-a-telehealth-weight-loss-program-and/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>choosing a telehealth weight loss program</a> and avoid <a href="/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>hidden fees</a>.
                 </p>
                 <div style={{ display: 'flex', gap: 16, justifyContent: 'center' }}>
                   <a href={START_URL} className="btn btn-primary" style={{ fontSize: 18, padding: '0 32px' }}>

@@ -23,7 +23,7 @@ function Blog72HourBerberinePatch() {
             <Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' , height: "auto"}} priority={true} />
           </div>
           <div>
-            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
+            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about/" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
             <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 22 min read</div>
           </div>
         </div>
@@ -52,7 +52,7 @@ function Blog72HourBerberinePatch() {
           <p>A month's supply of daily patches requires 30 individual patches. By telling the consumer to wear each patch for three days, the company only has to manufacture and ship 10 patches per box. They charge you the same premium price for a one-month supply, but their manufacturing costs drop by 66%. It is a masterclass in financial engineering, completely divorced from pharmacological reality.</p>
 
           <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The Science of Patch Depletion: Fick's Law</h2>
-          <p>To prove why a standard transdermal patch cannot work for three days, we have to look at how <a href="/blog/transdermal-drug-delivery-systems" style={{ color: 'var(--brand)', fontWeight: 500 }}>transdermal drug delivery systems</a> function. Modern supplement patches use a "drug-in-adhesive matrix" design. The active alkaloid (berberine or dihydroberberine) is dissolved directly into the acrylic adhesive.</p>
+          <p>To prove why a standard transdermal patch cannot work for three days, we have to look at how <a href="/blog/transdermal-drug-delivery-systems/" style={{ color: 'var(--brand)', fontWeight: 500 }}>transdermal drug delivery systems</a> function. Modern supplement patches use a "drug-in-adhesive matrix" design. The active alkaloid (berberine or dihydroberberine) is dissolved directly into the acrylic adhesive.</p>
 
           <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>The Concentration Gradient</h3>
           <p>The rate at which the drug leaves the patch and enters your skin is governed by <em>Fick's First Law of Diffusion</em>. Simply put, diffusion is driven by a concentration gradient. The drug moves from an area of high concentration (the patch) to an area of low concentration (your skin).</p>
@@ -129,13 +129,13 @@ function Blog72HourBerberinePatch() {
           <p style={{ marginBottom: 24 }}>No. Scent molecules are highly volatile and require only microscopic amounts to be detectable by the human nose. Just because you can smell trace amounts of the alkaloid does not mean there is enough concentration left to drive systemic diffusion across your skin barrier.</p>
 
           <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>Should I take oral pills on the days I don't wear the patch?</h4>
-          <p style={{ marginBottom: 24 }}>No. Mixing an erratic 72-hour patch schedule with oral pills defeats the purpose of transdermal therapy. As we proved in our <a href="/blog/berberine-oral-bioavailability" style={{ color: 'var(--brand)', fontWeight: 500 }}>breakdown of berberine oral bioavailability</a>, swallowing the powder will just destroy your gut and cause Berberine Belly. You must use a daily, 24-hour transdermal patch for consistent results.</p>
+          <p style={{ marginBottom: 24 }}>No. Mixing an erratic 72-hour patch schedule with oral pills defeats the purpose of transdermal therapy. As we proved in our <a href="/blog/berberine-oral-bioavailability/" style={{ color: 'var(--brand)', fontWeight: 500 }}>breakdown of berberine oral bioavailability</a>, swallowing the powder will just destroy your gut and cause Berberine Belly. You must use a daily, 24-hour transdermal patch for consistent results.</p>
 
           <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>What is the difference between Berberine and Dihydroberberine (DHB) in a patch?</h4>
-          <p style={{ marginBottom: 24 }}>Dihydroberberine is the hydrogenated, highly lipophilic form of the molecule. Because it is highly lipophilic, it crosses the skin barrier much more efficiently than standard berberine. We highly recommend DHB over standard berberine for transdermal applications. Read our full <a href="/blog/dihydroberberine-vs-berberine" style={{ color: 'var(--brand)', fontWeight: 500 }}>Dihydroberberine vs Berberine guide here</a>.</p>
+          <p style={{ marginBottom: 24 }}>Dihydroberberine is the hydrogenated, highly lipophilic form of the molecule. Because it is highly lipophilic, it crosses the skin barrier much more efficiently than standard berberine. We highly recommend DHB over standard berberine for transdermal applications. Read our full <a href="/blog/dihydroberberine-vs-berberine/" style={{ color: 'var(--brand)', fontWeight: 500 }}>Dihydroberberine vs Berberine guide here</a>.</p>
 
           <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>Can a patch work as well as Ozempic?</h4>
-          <p style={{ marginBottom: 24 }}>A daily transdermal DHB patch is the absolute peak of non-prescription metabolic optimization. However, it cannot replicate the severe appetite suppression and gastric slowing of a prescription GLP-1 agonist like Semaglutide. For a full breakdown, read our <a href="/blog/berberine-vs-ozempic" style={{ color: 'var(--brand)', fontWeight: 500 }}>Berberine vs Ozempic clinical comparison</a>.</p>
+          <p style={{ marginBottom: 24 }}>A daily transdermal DHB patch is the absolute peak of non-prescription metabolic optimization. However, it cannot replicate the severe appetite suppression and gastric slowing of a prescription GLP-1 agonist like Semaglutide. For a full breakdown, read our <a href="/blog/berberine-vs-ozempic/" style={{ color: 'var(--brand)', fontWeight: 500 }}>Berberine vs Ozempic clinical comparison</a>.</p>
 
           <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
             <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Ready to Do It Right?</h2>

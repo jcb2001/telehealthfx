@@ -20,7 +20,7 @@ function BlogMetforminBerberineStacking() {
             <Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%', height: "auto"}} priority={true} />
           </div>
           <div>
-            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
+            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about/" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
             <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 28 min read</div>
           </div>
         </div>
@@ -28,7 +28,7 @@ function BlogMetforminBerberineStacking() {
         <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
           <Image src="/assets/metformin-berberine-featured.png" alt="Metformin tablets and berberine capsules comparison" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111', height: "auto"}} priority={true} />
 
-          <p>Metformin has been the first-line pharmaceutical treatment for type 2 diabetes for over 60 years. <a href="/medications/berberine" style={{ color: 'var(--brand)', fontWeight: 500 }}>Berberine</a>—a plant alkaloid extracted from Berberis species—has emerged as the most clinically validated natural alternative, earning the moniker "Nature's Metformin" due to their shared AMPK activation pathway. As we explored in our <a href="/blog/berberine-vs-glp-1-in-2026-can-natures-ozempic-act" style={{ color: 'var(--brand)', fontWeight: 500 }}>Berberine vs. GLP-1</a> analysis, berberine produces meaningful metabolic effects for patients seeking non-injectable options.</p>
+          <p>Metformin has been the first-line pharmaceutical treatment for type 2 diabetes for over 60 years. <a href="/medications/berberine/" style={{ color: 'var(--brand)', fontWeight: 500 }}>Berberine</a>—a plant alkaloid extracted from Berberis species—has emerged as the most clinically validated natural alternative, earning the moniker "Nature's Metformin" due to their shared AMPK activation pathway. As we explored in our <a href="/blog/berberine-vs-glp-1-in-2026-can-natures-ozempic-act/" style={{ color: 'var(--brand)', fontWeight: 500 }}>Berberine vs. GLP-1</a> analysis, berberine produces meaningful metabolic effects for patients seeking non-injectable options.</p>
 
           <p>But what happens when you combine them? The "metformin + berberine stack" has exploded in popularity across health optimization communities, biohacking forums, and social media. The logic seems compelling: if both activate AMPK, wouldn't combining them produce superior metabolic effects? The reality is more nuanced—and potentially dangerous if done without clinical supervision.</p>
 
@@ -72,11 +72,11 @@ function BlogMetforminBerberineStacking() {
             <li style={{ marginBottom: 12 }}><strong>Metformin-intolerant patients:</strong> Patients who experience GI intolerance on therapeutic metformin doses (1500–2000mg) may achieve adequate glycemic control by using sub-therapeutic metformin (500–1000mg) plus berberine as an AMPK supplement.</li>
           </ul>
 
-          <p><strong>Critical caveat:</strong> None of these approaches should be attempted without clinical oversight. If you are interested in metabolic optimization beyond single-agent therapy, explore our full compound portfolio including <a href="/medications/semaglutide" style={{ color: 'var(--brand)', fontWeight: 500 }}>semaglutide</a>, <a href="/medications/nad" style={{ color: 'var(--brand)', fontWeight: 500 }}>NAD+</a>, and <a href="/medications/sermorelin" style={{ color: 'var(--brand)', fontWeight: 500 }}>Sermorelin</a>.</p>
+          <p><strong>Critical caveat:</strong> None of these approaches should be attempted without clinical oversight. If you are interested in metabolic optimization beyond single-agent therapy, explore our full compound portfolio including <a href="/medications/semaglutide/" style={{ color: 'var(--brand)', fontWeight: 500 }}>semaglutide</a>, <a href="/medications/nad/" style={{ color: 'var(--brand)', fontWeight: 500 }}>NAD+</a>, and <a href="/medications/sermorelin/" style={{ color: 'var(--brand)', fontWeight: 500 }}>Sermorelin</a>.</p>
 
           <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The GLP-1 Alternative</h2>
 
-          <p>For patients whose goal is significant weight loss alongside glucose optimization, <a href="/blog/what-is-a-glp-1-medication" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 agonist therapy</a> represents a far more effective approach than metformin + berberine stacking. GLP-1 agonists produce 15–22% body weight reduction (vs. 2–5% from metformin alone), superior HbA1c reduction, and proven cardiovascular protection. Berberine can serve as an excellent complementary agent for AMPK support alongside GLP-1 therapy, without the safety concerns of the metformin overlap.</p>
+          <p>For patients whose goal is significant weight loss alongside glucose optimization, <a href="/blog/what-is-a-glp-1-medication/" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 agonist therapy</a> represents a far more effective approach than metformin + berberine stacking. GLP-1 agonists produce 15–22% body weight reduction (vs. 2–5% from metformin alone), superior HbA1c reduction, and proven cardiovascular protection. Berberine can serve as an excellent complementary agent for AMPK support alongside GLP-1 therapy, without the safety concerns of the metformin overlap.</p>
 
           <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
             <div style={{ width: 48, height: 48, borderRadius: '50%', background: 'var(--brand-soft)', color: 'var(--brand)', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 20px' }}><Icon.Check size={24} /></div>

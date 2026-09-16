@@ -23,7 +23,7 @@ function BlogBerberineVsOzempic() {
             <Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' , height: "auto"}} priority={true} />
           </div>
           <div>
-            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
+            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about/" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
             <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 28 min read</div>
           </div>
         </div>
@@ -64,7 +64,7 @@ function BlogBerberineVsOzempic() {
           <p>When you consume food, your intestines naturally release GLP-1. This hormone tells your pancreas to release insulin (to manage blood sugar), tells your liver to stop producing glucose, and signals the hypothalamus in your brain that you are full. However, natural GLP-1 is destroyed by an enzyme called DPP-4 within two minutes.</p>
           <p>Ozempic is a synthetic GLP-1 that resists enzymatic breakdown. It stays active in your system for a full week, providing three massive metabolic interventions:</p>
           <ul style={{ marginBottom: 24, paddingLeft: 20 }}>
-            <li style={{ marginBottom: 12 }}><strong>Central Nervous System Satiety:</strong> It powerfully suppresses appetite at the neurological level. The constant background signaling reduces what clinicians call "<a href="/blog/glp-1-and-mental-health-anxiety-depression-food-no" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>food noise</a>." You simply do not feel hungry.</li>
+            <li style={{ marginBottom: 12 }}><strong>Central Nervous System Satiety:</strong> It powerfully suppresses appetite at the neurological level. The constant background signaling reduces what clinicians call "<a href="/blog/glp-1-and-mental-health-anxiety-depression-food-no/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>food noise</a>." You simply do not feel hungry.</li>
             <li style={{ marginBottom: 12 }}><strong>Gastric Emptying:</strong> It slows the rate at which food leaves your stomach. By delaying digestion, you remain physically full for many hours after a small meal.</li>
             <li style={{ marginBottom: 12 }}><strong>Glucose-Dependent Insulin Secretion:</strong> It forces the pancreas to release insulin only when blood sugar is high, preventing hypoglycemia while rapidly clearing glucose from the bloodstream.</li>
           </ul>
@@ -135,7 +135,7 @@ function BlogBerberineVsOzempic() {
                 </tr>
                 <tr>
                   <td style={{ padding: 16, borderBottom: '1px solid var(--line-soft)', fontWeight: 600 }}>Side Effects Profile</td>
-                  <td style={{ padding: 16, borderBottom: '1px solid var(--line-soft)' }}>Nausea, vomiting, diarrhea, <a href="/blog/the-muscle-loss-myth-how-to-protect-your-lean-mass" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>muscle loss</a> (if protein is low)</td>
+                  <td style={{ padding: 16, borderBottom: '1px solid var(--line-soft)' }}>Nausea, vomiting, diarrhea, <a href="/blog/the-muscle-loss-myth-how-to-protect-your-lean-mass/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>muscle loss</a> (if protein is low)</td>
                   <td style={{ padding: 16, borderBottom: '1px solid var(--line-soft)' }}>Severe GI distress (if oral), zero GI issues (if transdermal)</td>
                 </tr>
                 <tr style={{ background: '#fafafa' }}>
@@ -162,10 +162,10 @@ function BlogBerberineVsOzempic() {
           <p>Most comparisons of berberine vs ozempic stop at efficacy. But what top medical sites fail to address is that the standard delivery methods for both of these compounds are deeply flawed, causing high discontinuation rates among patients. The modern approach to these therapies involves advanced delivery systems and specialized pharmacies.</p>
 
           <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>The Oral Berberine Crisis: "Berberine Belly"</h3>
-          <p>As we detailed in our <a href="/blog/berberine-oral-bioavailability" style={{ color: 'var(--brand)', fontWeight: 500 }}>pharmacokinetic review of berberine oral bioavailability</a>, standard oral berberine is a nightmare for the human digestive tract. It has an absolute oral bioavailability of less than 1%. The liver heavily metabolizes it during first-pass, and P-glycoprotein efflux pumps actively spit it back into the intestines.</p>
+          <p>As we detailed in our <a href="/blog/berberine-oral-bioavailability/" style={{ color: 'var(--brand)', fontWeight: 500 }}>pharmacokinetic review of berberine oral bioavailability</a>, standard oral berberine is a nightmare for the human digestive tract. It has an absolute oral bioavailability of less than 1%. The liver heavily metabolizes it during first-pass, and P-glycoprotein efflux pumps actively spit it back into the intestines.</p>
           <p>To get any clinical effect, you have to swallow massive doses (1,500mg) of this potent antimicrobial yellow powder. It sits in your gut, destroying both good and bad bacteria, irritating the intestinal lining, and triggering what is known as "Berberine Belly." Clinical studies show that up to 34% of users experience severe gastrointestinal adverse events, including explosive diarrhea, painful cramping, and nausea. Most people throw the bottle away within two weeks.</p>
           
-          <p><strong>The Solution: Transdermal Berberine Patches.</strong> By moving the delivery mechanism from the gut to the skin, <a href="/blog/transdermal-drug-delivery-systems" style={{ color: 'var(--brand)', fontWeight: 500 }}>transdermal delivery systems</a> bypass the digestive tract entirely. Medical-grade patches push the compound directly into the bloodstream over a 24-hour period, avoiding first-pass liver metabolism and providing steady-state AMPK activation with absolutely zero stomach cramps.</p>
+          <p><strong>The Solution: Transdermal Berberine Patches.</strong> By moving the delivery mechanism from the gut to the skin, <a href="/blog/transdermal-drug-delivery-systems/" style={{ color: 'var(--brand)', fontWeight: 500 }}>transdermal delivery systems</a> bypass the digestive tract entirely. Medical-grade patches push the compound directly into the bloodstream over a 24-hour period, avoiding first-pass liver metabolism and providing steady-state AMPK activation with absolutely zero stomach cramps.</p>
 
           <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
             <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Upgrade Your Berberine</h3>
@@ -178,14 +178,14 @@ function BlogBerberineVsOzempic() {
           <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>The Ozempic Access Crisis: Cost and Shortages</h3>
           <p>The flaw with Ozempic isn't the delivery (subcutaneous injections are highly effective); the flaw is the pharmaceutical monopoly. Branded Ozempic and Wegovy cost upwards of $1,000 to $1,300 per month out-of-pocket in the US. Insurance companies are increasingly dropping coverage for weight loss medications, demanding exhausting prior authorizations. Furthermore, Novo Nordisk cannot manufacture the pens fast enough, leading to constant national shortages.</p>
           
-          <p><strong>The Solution: <a href="/blog/is-compounded-semaglutide-safe-what-you-need-to-kn" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>compounded semaglutide</a>.</strong> During FDA-declared drug shortages, licensed 503A and 503B compounding pharmacies are legally permitted to compound the exact same active pharmaceutical ingredient (semaglutide base). This allows patients to access clinical GLP-1 therapy for a fraction of the cost—often starting under $150 per month—without dealing with insurance denials or pharmacy stockouts. (Learn more about <a href="/blog/ozempic-insulin-resistance" style={{ color: 'var(--brand)', fontWeight: 500 }}>how semaglutide treats insulin resistance off-label</a>).</p>
+          <p><strong>The Solution: <a href="/blog/is-compounded-semaglutide-safe-what-you-need-to-kn/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>compounded semaglutide</a>.</strong> During FDA-declared drug shortages, licensed 503A and 503B compounding pharmacies are legally permitted to compound the exact same active pharmaceutical ingredient (semaglutide base). This allows patients to access clinical GLP-1 therapy for a fraction of the cost—often starting under $150 per month—without dealing with insurance denials or pharmacy stockouts. (Learn more about <a href="/blog/ozempic-insulin-resistance/" style={{ color: 'var(--brand)', fontWeight: 500 }}>how semaglutide treats insulin resistance off-label</a>).</p>
 
           <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Who Should Choose Which?</h2>
           
           <p><strong>You should choose Berberine (Transdermal) if:</strong></p>
           <ul style={{ marginBottom: 24, paddingLeft: 20 }}>
             <li style={{ marginBottom: 12 }}>You only have 5 to 10 pounds to lose and want gentle, natural metabolic support.</li>
-            <li style={{ marginBottom: 12 }}>You are managing mild insulin resistance or PCOS and want a non-prescription option (see our <a href="/blog/berberine-pcos-weight-loss" style={{ color: 'var(--brand)', fontWeight: 500 }}>Berberine for PCOS guide</a>).</li>
+            <li style={{ marginBottom: 12 }}>You are managing mild insulin resistance or PCOS and want a non-prescription option (see our <a href="/blog/berberine-pcos-weight-loss/" style={{ color: 'var(--brand)', fontWeight: 500 }}>Berberine for PCOS guide</a>).</li>
             <li style={{ marginBottom: 12 }}>You are looking for longevity and anti-aging benefits via cellular AMPK activation.</li>
             <li style={{ marginBottom: 12 }}>You want an affordable, sustainable daily habit under $50/month.</li>
           </ul>

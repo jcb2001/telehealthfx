@@ -22,7 +22,7 @@ export function BlogOzempicPharmacokinetics() {
             </div>
             <div>
               <div style={{ fontWeight: 500, color: 'var(--ink)' }}>
-                <a href="/about" style={{ color: 'inherit', textDecoration: 'none' }}>Julian Mercer, M.S.</a>
+                <a href="/about/" style={{ color: 'inherit', textDecoration: 'none' }}>Julian Mercer, M.S.</a>
               </div>
               <div style={{ fontSize: 14, color: 'var(--ink-2)' }}>Lead Bio-Systems Analyst | May 2, 2026</div>
             </div>
@@ -50,7 +50,7 @@ export function BlogOzempicPharmacokinetics() {
               To understand Semaglutide, you must first understand the biological system it is designed to mimic: the incretin system. When you consume a meal, specialized endocrine cells located in the distal ileum and colon (known as L-cells) detect the presence of nutrients—specifically glucose and dietary fats. In response, these L-cells secrete a hormone called <strong>Glucagon-Like Peptide-1 (GLP-1)</strong> into the bloodstream.
             </p>
             <p>
-              Native GLP-1 is a highly potent metabolic regulator. Once released, it travels to the pancreas and binds to specific GLP-1 receptors on the beta cells. This binding triggers a massive, glucose-dependent release of insulin. Simultaneously, GLP-1 binds to alpha cells in the pancreas to aggressively suppress the secretion of glucagon (the hormone responsible for signaling the liver to dump stored glucose into the blood). We explore this critical insulin-glucagon axis extensively in our guide on <a href="/blog/ozempic-insulin-resistance" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Ozempic for Insulin Resistance</a>.
+              Native GLP-1 is a highly potent metabolic regulator. Once released, it travels to the pancreas and binds to specific GLP-1 receptors on the beta cells. This binding triggers a massive, glucose-dependent release of insulin. Simultaneously, GLP-1 binds to alpha cells in the pancreas to aggressively suppress the secretion of glucagon (the hormone responsible for signaling the liver to dump stored glucose into the blood). We explore this critical insulin-glucagon axis extensively in our guide on <a href="/blog/ozempic-insulin-resistance/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Ozempic for Insulin Resistance</a>.
             </p>
             <p>
               Beyond the pancreas, native GLP-1 travels to the gastrointestinal tract to slow gastric emptying, preventing a massive spike in postprandial (post-meal) blood sugar. Finally, it crosses the blood-brain barrier and binds to receptors in the hypothalamus, signaling profound satiety and eradicating what clinicians refer to as "food noise."
@@ -128,7 +128,7 @@ export function BlogOzempicPharmacokinetics() {
             
             <h3>Subcutaneous Absorption (Tmax)</h3>
             <p>
-              Semaglutide is administered via subcutaneous injection (into the fatty tissue layer just beneath the skin). Unlike intravenous drugs that spike blood levels instantly, Semaglutide relies on a slow, sustained absorption rate from the injection depot. Maximum plasma concentration (Cmax) is typically reached 1 to 3 days post-injection. This slow, steady release is critical for mitigating the severe gastrointestinal side effects (nausea, vomiting) that occur when GLP-1 receptors are violently overwhelmed. We cover exact mitigation strategies in our guide to <a href="/blog/glp-1-side-effects-how-to-manage-nausea-fatigue-mo" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Managing GLP-1 Side Effects</a>.
+              Semaglutide is administered via subcutaneous injection (into the fatty tissue layer just beneath the skin). Unlike intravenous drugs that spike blood levels instantly, Semaglutide relies on a slow, sustained absorption rate from the injection depot. Maximum plasma concentration (Cmax) is typically reached 1 to 3 days post-injection. This slow, steady release is critical for mitigating the severe gastrointestinal side effects (nausea, vomiting) that occur when GLP-1 receptors are violently overwhelmed. We cover exact mitigation strategies in our guide to <a href="/blog/glp-1-side-effects-how-to-manage-nausea-fatigue-mo/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Managing GLP-1 Side Effects</a>.
             </p>
 
             <h3>Steady-State Concentration</h3>
@@ -158,13 +158,13 @@ export function BlogOzempicPharmacokinetics() {
               When we analyze the pharmacokinetics of Semaglutide, the disparity between modern pharmaceutical engineering and botanical supplements becomes glaringly obvious.
             </p>
             <p>
-              Compounds like Berberine (and its derivative Dihydroberberine) suffer from less than 1% oral bioavailability. They are aggressively destroyed by the liver and violently ejected by the intestines. Even when they manage to enter the bloodstream, their half-life is measured in mere hours, requiring massive, multi-dose daily protocols that frequently wreck the gastrointestinal tract. We break down this exact failure in our <a href="/blog/dihydroberberine-vs-berberine" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>DHB Bioavailability Analysis</a>.
+              Compounds like Berberine (and its derivative Dihydroberberine) suffer from less than 1% oral bioavailability. They are aggressively destroyed by the liver and violently ejected by the intestines. Even when they manage to enter the bloodstream, their half-life is measured in mere hours, requiring massive, multi-dose daily protocols that frequently wreck the gastrointestinal tract. We break down this exact failure in our <a href="/blog/dihydroberberine-vs-berberine/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>DHB Bioavailability Analysis</a>.
             </p>
             <p>
               Conversely, Semaglutide achieves near 100% bioavailability via subcutaneous injection. It is structurally armored against enzymatic degradation, securely anchored to circulating blood proteins, and provides a continuous, unbroken 7-day half-life. It is a masterpiece of pharmacokinetic design.
             </p>
             <p>
-              However, this extreme efficacy demands respect. The metabolic suppression is so profound that patients frequently fail to consume enough dietary protein, leading to rapid catabolism of lean muscle tissue. If you are initiating GLP-1 therapy, you must pair it with aggressive resistance training. Read our definitive clinical playbook on <a href="/blog/glp-1-muscle-loss-the-hidden-risk-nobodys-talking" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>GLP-1 Muscle Loss Prevention</a> to understand DXA scan nuances and lean mass protection.
+              However, this extreme efficacy demands respect. The metabolic suppression is so profound that patients frequently fail to consume enough dietary protein, leading to rapid catabolism of lean muscle tissue. If you are initiating GLP-1 therapy, you must pair it with aggressive resistance training. Read our definitive clinical playbook on <a href="/blog/glp-1-muscle-loss-the-hidden-risk-nobodys-talking/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>GLP-1 Muscle Loss Prevention</a> to understand DXA scan nuances and lean mass protection.
             </p>
 
             {/* CTA 3: Bottom Funnel */}
@@ -175,7 +175,7 @@ export function BlogOzempicPharmacokinetics() {
                   If you are ready to utilize the most advanced metabolic therapeutics on the planet, it is time to transition to a medical weight loss protocol. 
                 </p>
                 <p style={{ fontSize: 16, color: 'var(--ink-2)', marginBottom: 32, maxWidth: 600, margin: '0 auto 32px' }}>
-                  TelehealthFX provides U.S.-licensed, quality-verified compounded Semaglutide and Tirzepatide with strict physician oversight. No hidden membership fees. Just real science and physiological results. Ensure you are choosing a safe clinic by reading our guide to spotting <a href="/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Hidden Fees in Telehealth</a>.
+                  TelehealthFX provides U.S.-licensed, quality-verified compounded Semaglutide and Tirzepatide with strict physician oversight. No hidden membership fees. Just real science and physiological results. Ensure you are choosing a safe clinic by reading our guide to spotting <a href="/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Hidden Fees in Telehealth</a>.
                 </p>
                 <div style={{ display: 'flex', gap: 16, justifyContent: 'center' }}>
                   <a href={START_URL} className="btn btn-primary" style={{ fontSize: 18, padding: '0 32px' }}>

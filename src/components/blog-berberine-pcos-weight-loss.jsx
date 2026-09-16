@@ -23,7 +23,7 @@ function BlogBerberinePcosWeightLoss() {
             <Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' , height: "auto"}} priority={true} />
           </div>
           <div>
-            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
+            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about/" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
             <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 24 min read</div>
           </div>
         </div>
@@ -54,7 +54,7 @@ function BlogBerberinePcosWeightLoss() {
           <ol style={{ marginBottom: 24, paddingLeft: 20 }}>
             <li style={{ marginBottom: 12 }}><strong>Ovarian Overstimulation:</strong> High insulin levels directly stimulate the theca cells in the ovaries to overproduce androgens (like testosterone).</li>
             <li style={{ marginBottom: 12 }}><strong>SHBG Suppression:</strong> High insulin signals the liver to drastically reduce the production of Sex Hormone-Binding Globulin (SHBG). SHBG normally binds to testosterone and renders it inactive. Without it, free testosterone runs rampant in the bloodstream, causing hirsutism (facial hair), acne, and hair loss.</li>
-            <li style={{ marginBottom: 12 }}><strong>Fat Storage Lock:</strong> As we explored in our <a href="/blog/ozempic-insulin-resistance" style={{ color: 'var(--brand)', fontWeight: 500 }}>breakdown of insulin resistance</a>, high insulin biologically disables hormone-sensitive lipase (HSL), making it physically impossible to burn stored visceral fat, no matter how hard you diet.</li>
+            <li style={{ marginBottom: 12 }}><strong>Fat Storage Lock:</strong> As we explored in our <a href="/blog/ozempic-insulin-resistance/" style={{ color: 'var(--brand)', fontWeight: 500 }}>breakdown of insulin resistance</a>, high insulin biologically disables hormone-sensitive lipase (HSL), making it physically impossible to burn stored visceral fat, no matter how hard you diet.</li>
           </ol>
 
           <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>How Berberine Intervenes in PCOS</h2>
@@ -123,7 +123,7 @@ function BlogBerberinePcosWeightLoss() {
           <p>Because it is a highly potent antimicrobial, throwing 1,500mg of raw berberine powder into an already compromised PCOS gut is often a disaster. Up to 34% of users experience severe gastrointestinal adverse events—cramping, explosive diarrhea, and nausea—often referred to as "Berberine Belly." Many women are forced to abandon the therapy before they ever see the metabolic benefits.</p>
 
           <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>The Transdermal Solution</h3>
-          <p>In 2026, forcing a compromised gut to process raw alkaloids is outdated medicine. As we detailed in our <a href="/blog/berberine-vs-ozempic" style={{ color: 'var(--brand)', fontWeight: 500 }}>Berberine vs Ozempic comparison guide</a>, the clinical standard has shifted to <strong>transdermal delivery systems</strong>.</p>
+          <p>In 2026, forcing a compromised gut to process raw alkaloids is outdated medicine. As we detailed in our <a href="/blog/berberine-vs-ozempic/" style={{ color: 'var(--brand)', fontWeight: 500 }}>Berberine vs Ozempic comparison guide</a>, the clinical standard has shifted to <strong>transdermal delivery systems</strong>.</p>
           <p>By utilizing medical-grade transdermal patches, berberine (and its highly bioavailable derivative, dihydroberberine) is absorbed directly through the skin barrier and into the microcirculation over a 24-hour period. This completely bypasses the gastrointestinal tract and avoids first-pass liver metabolism. The result? Steady, sustained AMPK activation with absolutely zero stomach cramps, zero diarrhea, and no gut flora destruction.</p>
 
           <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>

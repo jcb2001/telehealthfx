@@ -23,7 +23,7 @@ function BlogTransdermalSystems() {
             <Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' , height: "auto"}} priority={true} />
           </div>
           <div>
-            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
+            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about/" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
             <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 28 min read</div>
           </div>
         </div>
@@ -47,7 +47,7 @@ function BlogTransdermalSystems() {
 
           <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The Problem: Why Oral Delivery Fails</h2>
           
-          <p>To understand the necessity of transdermal drug delivery systems, we must first look at the hostile environment of the human digestive tract. When a patient takes an oral supplement, such as <a href="/blog/berberine-oral-bioavailability" style={{ color: 'var(--brand)', fontWeight: 500 }}>oral berberine</a>, the compound must navigate three devastating biological defenses:</p>
+          <p>To understand the necessity of transdermal drug delivery systems, we must first look at the hostile environment of the human digestive tract. When a patient takes an oral supplement, such as <a href="/blog/berberine-oral-bioavailability/" style={{ color: 'var(--brand)', fontWeight: 500 }}>oral berberine</a>, the compound must navigate three devastating biological defenses:</p>
 
           <ul style={{ marginBottom: 24, paddingLeft: 20 }}>
             <li style={{ marginBottom: 12 }}><strong>Gastric Acid Degradation:</strong> The highly acidic environment of the stomach (pH 1.5 - 3.5) destroys many delicate molecular structures before they ever reach the intestines.</li>
@@ -110,7 +110,7 @@ function BlogTransdermalSystems() {
           <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Content Gap: The Steady-State Advantage</h2>
           <p>Most basic explanations of TDDS focus only on "avoiding the liver." But from a clinical perspective, the most critical advantage of a patch is <strong>plasma concentration kinetics</strong>.</p>
 
-          <p>When you take an oral pill, your blood plasma concentration spikes rapidly within 1-2 hours. This massive spike is when patients experience severe side effects (like the nausea from <a href="/blog/ozempic-insulin-resistance" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 medications</a> or the diarrhea from oral berberine). After the spike, the liver aggressively clears the drug, leading to a massive crash. You spend most of your day oscillating between toxicity and sub-therapeutic levels.</p>
+          <p>When you take an oral pill, your blood plasma concentration spikes rapidly within 1-2 hours. This massive spike is when patients experience severe side effects (like the nausea from <a href="/blog/ozempic-insulin-resistance/" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 medications</a> or the diarrhea from oral berberine). After the spike, the liver aggressively clears the drug, leading to a massive crash. You spend most of your day oscillating between toxicity and sub-therapeutic levels.</p>
 
           <p>Transdermal drug delivery systems provide <strong>zero-order release kinetics</strong>. The patch acts as an IV drip on your skin. It delivers the active compound at a constant, steady rate (e.g., 1mg per hour) over 24 hours. The plasma concentration rises smoothly to the optimal therapeutic window and stays perfectly flat. You never hit the toxic spike (eliminating side effects) and you never crash (maintaining 24/7 metabolic optimization).</p>
 
@@ -137,7 +137,7 @@ function BlogTransdermalSystems() {
           <p style={{ marginBottom: 24 }}>No. Liposomal delivery involves wrapping an oral supplement in a fat bubble to help it cross the intestines. However, a liposomal oral supplement still travels to the liver and suffers from first-pass metabolism. Transdermal delivery goes straight through the skin into the blood.</p>
 
           <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>How long do transdermal patches actually last?</h4>
-          <p style={{ marginBottom: 24 }}>While many supplement companies claim their matrix patches last 72 hours, pharmacokinetic data shows that the active compound is almost entirely depleted within 18 to 24 hours. We break down the mathematics of this in our <a href="/blog/72-hour-berberine-patch" style={{ color: 'var(--brand)', fontWeight: 500 }}>expose on the 72-hour patch myth</a>.</p>
+          <p style={{ marginBottom: 24 }}>While many supplement companies claim their matrix patches last 72 hours, pharmacokinetic data shows that the active compound is almost entirely depleted within 18 to 24 hours. We break down the mathematics of this in our <a href="/blog/72-hour-berberine-patch/" style={{ color: 'var(--brand)', fontWeight: 500 }}>expose on the 72-hour patch myth</a>.</p>
 
           <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
             <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Ready to Optimize Your Metabolism?</h2>

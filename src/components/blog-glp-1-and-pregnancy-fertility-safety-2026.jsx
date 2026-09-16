@@ -19,7 +19,7 @@ function BlogGLP1AndPregnancy() {
             <Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%', height: "auto"}} priority={true} />
           </div>
           <div>
-            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
+            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about/" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
             <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 28 min read</div>
           </div>
         </div>
@@ -27,7 +27,7 @@ function BlogGLP1AndPregnancy() {
         <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
           <Image src="/assets/glp1-pregnancy-featured.png" alt="GLP-1 injection pen beside pregnancy test" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111', height: "auto"}} priority={true} />
 
-          <p>The term "Ozempic babies" has dominated social media and mainstream news throughout 2025–2026. Women who had struggled with infertility for years—many with <a href="/blog/glp-1-for-pcos-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>PCOS</a>—are reporting unexpected pregnancies after starting <a href="/blog/what-is-a-glp-1-medication" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 medications</a>. But alongside these hopeful stories comes a critical clinical question: <strong>are GLP-1 medications safe during pregnancy?</strong></p>
+          <p>The term "Ozempic babies" has dominated social media and mainstream news throughout 2025–2026. Women who had struggled with infertility for years—many with <a href="/blog/glp-1-for-pcos-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>PCOS</a>—are reporting unexpected pregnancies after starting <a href="/blog/what-is-a-glp-1-medication/" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 medications</a>. But alongside these hopeful stories comes a critical clinical question: <strong>are GLP-1 medications safe during pregnancy?</strong></p>
 
           <p>The answer is unequivocal: <strong>No. GLP-1 medications must be discontinued before conception and are contraindicated during pregnancy.</strong> But the full story—why GLP-1s boost fertility, the recommended washout period, and how to plan a safe transition—requires a deeper understanding.</p>
 
@@ -83,11 +83,11 @@ function BlogGLP1AndPregnancy() {
           <p>The most clinically sophisticated approach is to use GLP-1 therapy as a <strong>deliberate pre-conception optimization tool</strong>. The protocol:</p>
           <ol>
             <li style={{ marginBottom: 12 }}><strong>Phase 1 (6–12 months):</strong> Use GLP-1 therapy to achieve 10–15% body weight reduction and restore metabolic health. Monitor ovulatory status.</li>
-            <li style={{ marginBottom: 12 }}><strong>Phase 2 (Washout):</strong> Discontinue GLP-1 medication and maintain the required washout period. Transition to metformin or <a href="/medications/berberine" style={{ color: 'var(--brand)', fontWeight: 500 }}>berberine</a> for continued insulin sensitization.</li>
+            <li style={{ marginBottom: 12 }}><strong>Phase 2 (Washout):</strong> Discontinue GLP-1 medication and maintain the required washout period. Transition to metformin or <a href="/medications/berberine/" style={{ color: 'var(--brand)', fontWeight: 500 }}>berberine</a> for continued insulin sensitization.</li>
             <li style={{ marginBottom: 12 }}><strong>Phase 3 (Conception):</strong> Attempt conception from a healthier metabolic baseline, with improved ovulation, reduced androgen levels, and a healthier BMI.</li>
           </ol>
 
-          <p>Maintaining weight loss after discontinuing GLP-1 is a legitimate concern. Review our <a href="/blog/what-happens-when-you-stop-glp-1-medication-the-re" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 discontinuation guide</a> and the <a href="/blog/glp-1-food-guide-what-to-eat" style={{ color: 'var(--brand)', fontWeight: 500 }}>nutrition framework</a> for strategies to sustain results during the washout period.</p>
+          <p>Maintaining weight loss after discontinuing GLP-1 is a legitimate concern. Review our <a href="/blog/what-happens-when-you-stop-glp-1-medication-the-re/" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 discontinuation guide</a> and the <a href="/blog/glp-1-food-guide-what-to-eat/" style={{ color: 'var(--brand)', fontWeight: 500 }}>nutrition framework</a> for strategies to sustain results during the washout period.</p>
 
           <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
             <div style={{ width: 48, height: 48, borderRadius: '50%', background: 'var(--brand-soft)', color: 'var(--brand)', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 20px' }}><Icon.Check size={24} /></div>

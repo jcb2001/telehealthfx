@@ -8,7 +8,7 @@ function BlogHowToGetTrtPrescribedOnline2026() {
   return (<><section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}><div className="container" style={{ maxWidth: 800 }}>
     <div className="eyebrow" style={{ marginBottom: 20 }}>Getting Started</div>
     <h1 className="serif" style={{ fontSize: 52, marginBottom: 24, lineHeight: 1.08 }}>How to Get TRT Prescribed Online: <span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>Step-by-Step Guide (2026)</span></h1>
-    <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}><div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)' }}><Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%', height: "auto"}} priority={true} /></div><div><div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div><div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 15 min read</div></div></div>
+    <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}><div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)' }}><Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%', height: "auto"}} priority={true} /></div><div><div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about/" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div><div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 15 min read</div></div></div>
     <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
       <Image src="/assets/trt_prescribed_featured_1778927305973.png" alt="How to Get TRT Prescribed Online infographic" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111', height: "auto"}} priority={true} />
       <p>Getting testosterone replacement therapy prescribed online is legal in most US states, clinically appropriate when done correctly, and dramatically more convenient than the traditional route of scheduling a PCP visit, getting a referral to an endocrinologist, waiting 6–12 weeks for an appointment, and then starting a multi-week prior authorization process with your insurer. Online TRT platforms compress this entire journey into <strong>3–5 days</strong>.</p>
@@ -16,7 +16,7 @@ function BlogHowToGetTrtPrescribedOnline2026() {
 
       <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Is Online TRT Legal?</h2>
       <p>Yes. The DEA extended telemedicine prescribing flexibilities for controlled substances through December 2026, allowing licensed clinicians to prescribe Schedule III medications (including testosterone) after a telehealth consultation. This applies in all 50 states, though some states have additional requirements (e.g., initial in-person visit in certain jurisdictions). Your provider handles all compliance — you don't need to worry about the legal details.</p>
-      <p>What is <em>not</em> legal: prescribing testosterone without a proper medical evaluation, without lab confirmation of hypogonadism, or from an unlicensed provider. Our <a href="/blog/best-online-trt-clinics-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>best clinics guide</a> identifies which platforms meet full regulatory standards.</p>
+      <p>What is <em>not</em> legal: prescribing testosterone without a proper medical evaluation, without lab confirmation of hypogonadism, or from an unlicensed provider. Our <a href="/blog/best-online-trt-clinics-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>best clinics guide</a> identifies which platforms meet full regulatory standards.</p>
 
       <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The 3-Step Process</h2>
       <div style={{ display: 'grid', gridTemplateColumns: '48px 1fr', gap: '20px 16px', margin: '32px 0' }}>
@@ -48,11 +48,11 @@ function BlogHowToGetTrtPrescribedOnline2026() {
           </tbody>
         </table>
       </div>
-      <p>All labs must be drawn in the morning (before 10 AM) because testosterone levels peak between 7–10 AM and drop significantly in the afternoon. An afternoon blood draw can show artificially low levels. More on timing in our <a href="/blog/trt-dosage-guide-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>dosage guide</a>.</p>
+      <p>All labs must be drawn in the morning (before 10 AM) because testosterone levels peak between 7–10 AM and drop significantly in the afternoon. An afternoon blood draw can show artificially low levels. More on timing in our <a href="/blog/trt-dosage-guide-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>dosage guide</a>.</p>
 
       <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)', border: '1px solid var(--brand)', borderRadius: 16 }}>
         <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>From Intake to First Injection in 5 Days</h3>
-        <p style={{ marginBottom: 24, fontSize: 16 }}>Complete your assessment now. Upload existing labs to fast-track. <a href="/blog/trt-cost-per-month-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>From $79/mo</a>.</p>
+        <p style={{ marginBottom: 24, fontSize: 16 }}>Complete your assessment now. Upload existing labs to fast-track. <a href="/blog/trt-cost-per-month-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>From $79/mo</a>.</p>
         <a href={S} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>Start Your Evaluation <Icon.Arrow /></a>
       </div>
 
@@ -60,8 +60,8 @@ function BlogHowToGetTrtPrescribedOnline2026() {
       <ul>
         <li style={{ marginBottom: 12 }}><strong>Active prostate cancer or breast cancer in men</strong> — absolute contraindication</li>
         <li style={{ marginBottom: 12 }}><strong>Polycythemia</strong> (hematocrit &gt;54%) — must be resolved before starting</li>
-        <li style={{ marginBottom: 12 }}><strong>Untreated severe sleep apnea</strong> — TRT can worsen it; must be managed with CPAP first. See our <a href="/blog/trt-and-sleep-apnea-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>sleep apnea guide</a></li>
-        <li style={{ marginBottom: 12 }}><strong>Desire for near-term fertility without adjunctive therapy</strong> — exogenous testosterone suppresses sperm. <a href="/blog/enclomiphene-vs-trt-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>Enclomiphene</a> or <a href="/blog/hcg-with-trt-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>HCG co-therapy</a> can preserve fertility.</li>
+        <li style={{ marginBottom: 12 }}><strong>Untreated severe sleep apnea</strong> — TRT can worsen it; must be managed with CPAP first. See our <a href="/blog/trt-and-sleep-apnea-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>sleep apnea guide</a></li>
+        <li style={{ marginBottom: 12 }}><strong>Desire for near-term fertility without adjunctive therapy</strong> — exogenous testosterone suppresses sperm. <a href="/blog/enclomiphene-vs-trt-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>Enclomiphene</a> or <a href="/blog/hcg-with-trt-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>HCG co-therapy</a> can preserve fertility.</li>
       </ul>
 
       <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>What to Expect: The First 30 Days</h2>
@@ -69,7 +69,7 @@ function BlogHowToGetTrtPrescribedOnline2026() {
         <li style={{ marginBottom: 12 }}><strong>Week 1–2:</strong> Most men notice improved energy, motivation, and mental clarity. Sleep quality often improves.</li>
         <li style={{ marginBottom: 12 }}><strong>Week 2–4:</strong> Libido begins returning. Morning erections may increase. Mood stabilizes.</li>
         <li style={{ marginBottom: 12 }}><strong>Week 4–8:</strong> Body composition changes begin — subtle fat loss and improved muscle pump during workouts.</li>
-        <li style={{ marginBottom: 12 }}><strong>Week 8–12:</strong> Full sexual function restoration. Measurable body composition changes. Complete <a href="/blog/trt-side-effects-complete-guide-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>side effect profile</a> has emerged and stabilized.</li>
+        <li style={{ marginBottom: 12 }}><strong>Week 8–12:</strong> Full sexual function restoration. Measurable body composition changes. Complete <a href="/blog/trt-side-effects-complete-guide-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>side effect profile</a> has emerged and stabilized.</li>
       </ul>
 
       <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Frequently Asked Questions</h2>
@@ -82,7 +82,7 @@ function BlogHowToGetTrtPrescribedOnline2026() {
 
       <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
         <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Get Started in 5 Minutes. From $79/mo.</h2>
-        <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 500, margin: '0 auto 32px' }}>100% online. Licensed clinicians. Free discreet shipping. <a href="/medications/testosterone" style={{ color: '#FBF8F3', textDecoration: 'underline' }}>See all plans</a>.</p>
+        <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 500, margin: '0 auto 32px' }}>100% online. Licensed clinicians. Free discreet shipping. <a href="/medications/testosterone/" style={{ color: '#FBF8F3', textDecoration: 'underline' }}>See all plans</a>.</p>
         <a href={S} target="_blank" rel="noopener noreferrer" className="btn btn-lg" style={{ background: '#FBF8F3', color: 'var(--ink)', display: 'inline-flex', justifyContent: 'center', width: '100%', maxWidth: 250 }}>Start Your Evaluation <Icon.Arrow /></a>
       </div>
       <div style={{ marginTop: 80, paddingTop: 40, borderTop: '1px solid var(--line-soft)', fontSize: 14, color: 'var(--ink-3)' }}>

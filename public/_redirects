@@ -1,6 +1,12 @@
 # Cloudflare Pages Domain Canonicalization & Redirect Rules
 https://www.telehealthfx.com/* https://telehealthfx.com/:splat 301!
 
+# Renamed / Legacy Articles & Medications
+/blog/72-hour-myth /blog/72-hour-berberine-patch/ 301
+/blog/72-hour-myth/ /blog/72-hour-berberine-patch/ 301
+/blog/berberine /medications/berberine/ 301
+/blog/berberine/ /medications/berberine/ 301
+
 # Legacy path normalization
 /results /results/ 301
 /pricing /pricing/ 301
@@ -8,6 +14,24 @@ https://www.telehealthfx.com/* https://telehealthfx.com/:splat 301!
 /how /how/ 301
 /medications /medications/ 301
 /science /science/ 301
+/locations /locations/ 301
+/trt /trt/ 301
+/help-center /help-center/ 301
+/shipping /shipping/ 301
+/returns /returns/ 301
+/insurance /insurance/ 301
+/status /status/ 301
+/about /about/ 301
+/careers /careers/ 301
+/press /press/ 301
+/partners /partners/ 301
+/contact /contact/ 301
+/privacy /privacy/ 301
+/terms /terms/ 301
+/telehealth-consent /telehealth-consent/ 301
+/hipaa /hipaa/ 301
+/accessibility /accessibility/ 301
+/affiliate-disclosure /affiliate-disclosure/ 301
 
 # Sitemap fallbacks & aliases
 /sitemap /sitemap.xml 301

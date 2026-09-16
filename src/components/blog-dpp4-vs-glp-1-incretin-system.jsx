@@ -19,7 +19,7 @@ function BlogDPP4VsGLP1() {
             <Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%', height: "auto"}} priority={true} />
           </div>
           <div>
-            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
+            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about/" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
             <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 30 min read</div>
           </div>
         </div>
@@ -29,13 +29,13 @@ function BlogDPP4VsGLP1() {
 
           <p>If you've researched diabetes or weight loss medications, you've encountered two drug classes that sound confusingly similar: <strong>DPP-4 inhibitors</strong> (Januvia, Tradjenta, Onglyza) and <strong>GLP-1 receptor agonists</strong> (Ozempic, Wegovy, Mounjaro). Both target the same hormonal system—the <em>incretin pathway</em>—but they do so in fundamentally different ways, producing dramatically different clinical outcomes.</p>
 
-          <p>Understanding this distinction is not academic trivia. It is the difference between a medication that modestly improves blood sugar and one that produces <strong>15–22% total body weight loss</strong> while simultaneously reducing cardiovascular risk. This guide breaks down the incretin system at a cellular level and explains why <a href="/blog/what-is-a-glp-1-medication" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 agonists</a> have become the dominant force in metabolic medicine.</p>
+          <p>Understanding this distinction is not academic trivia. It is the difference between a medication that modestly improves blood sugar and one that produces <strong>15–22% total body weight loss</strong> while simultaneously reducing cardiovascular risk. This guide breaks down the incretin system at a cellular level and explains why <a href="/blog/what-is-a-glp-1-medication/" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 agonists</a> have become the dominant force in metabolic medicine.</p>
 
           <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The Incretin System: Your Body's Built-In Blood Sugar Regulator</h2>
 
           <p>When you eat, your gut releases two key incretin hormones: <strong>GLP-1</strong> (glucagon-like peptide-1) and <strong>GIP</strong> (glucose-dependent insulinotropic polypeptide). These hormones travel to the pancreas and stimulate insulin release in a glucose-dependent manner—meaning they only trigger insulin when blood sugar is elevated, dramatically reducing the risk of hypoglycemia compared to older diabetes drugs.</p>
 
-          <p>However, native GLP-1 has a critical weakness: it is rapidly degraded by an enzyme called <strong>dipeptidyl peptidase-4 (DPP-4)</strong>. Within 2–3 minutes of release, DPP-4 cleaves GLP-1 into inactive fragments. This is where the two drug classes diverge. For a deeper look at how these molecular mechanisms work at the receptor level, see our <a href="/blog/pharmacokinetics-ozempic-semaglutide-cellular-breakdown" style={{ color: 'var(--brand)', fontWeight: 500 }}>Ozempic pharmacokinetics breakdown</a>.</p>
+          <p>However, native GLP-1 has a critical weakness: it is rapidly degraded by an enzyme called <strong>dipeptidyl peptidase-4 (DPP-4)</strong>. Within 2–3 minutes of release, DPP-4 cleaves GLP-1 into inactive fragments. This is where the two drug classes diverge. For a deeper look at how these molecular mechanisms work at the receptor level, see our <a href="/blog/pharmacokinetics-ozempic-semaglutide-cellular-breakdown/" style={{ color: 'var(--brand)', fontWeight: 500 }}>Ozempic pharmacokinetics breakdown</a>.</p>
 
           <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>DPP-4 Inhibitors: Protecting What Your Body Makes</h2>
 
@@ -45,7 +45,7 @@ function BlogDPP4VsGLP1() {
 
           <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>GLP-1 Receptor Agonists: Flooding the System with Synthetic Hormone</h2>
 
-          <p>GLP-1 receptor agonists (<a href="/medications/semaglutide" style={{ color: 'var(--brand)', fontWeight: 500 }}>semaglutide</a>, <a href="/medications/tirzepatide" style={{ color: 'var(--brand)', fontWeight: 500 }}>tirzepatide</a>, liraglutide) take a completely different approach. Instead of protecting your body's tiny native GLP-1 supply, they inject <strong>massive supraphysiological doses</strong> of a synthetic GLP-1 analog directly into your bloodstream.</p>
+          <p>GLP-1 receptor agonists (<a href="/medications/semaglutide/" style={{ color: 'var(--brand)', fontWeight: 500 }}>semaglutide</a>, <a href="/medications/tirzepatide/" style={{ color: 'var(--brand)', fontWeight: 500 }}>tirzepatide</a>, liraglutide) take a completely different approach. Instead of protecting your body's tiny native GLP-1 supply, they inject <strong>massive supraphysiological doses</strong> of a synthetic GLP-1 analog directly into your bloodstream.</p>
 
           <p>These synthetic analogs are specifically engineered to resist DPP-4 degradation—semaglutide's structural modifications give it a half-life of ~168 hours, compared to native GLP-1's 2–3 minutes. The result: GLP-1 receptor activation at <strong>10–100x physiological levels</strong>, producing powerful appetite suppression, delayed gastric emptying, and dramatically enhanced insulin secretion.</p>
 
@@ -80,20 +80,20 @@ function BlogDPP4VsGLP1() {
 
           <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The Cardiovascular Advantage</h2>
 
-          <p>One of the most clinically significant differences is cardiovascular protection. The landmark <a href="/blog/glp-1-and-your-heart-the-select-trial-cardiovascul" style={{ color: 'var(--brand)', fontWeight: 500 }}>SELECT trial</a> demonstrated that semaglutide reduced major adverse cardiovascular events (MACE) by 20% in patients with obesity—even without diabetes. No DPP-4 inhibitor has ever demonstrated this benefit. In fact, saxagliptin (Onglyza) was associated with a statistically significant <em>increase</em> in heart failure hospitalizations in the SAVOR-TIMI 53 trial.</p>
+          <p>One of the most clinically significant differences is cardiovascular protection. The landmark <a href="/blog/glp-1-and-your-heart-the-select-trial-cardiovascul/" style={{ color: 'var(--brand)', fontWeight: 500 }}>SELECT trial</a> demonstrated that semaglutide reduced major adverse cardiovascular events (MACE) by 20% in patients with obesity—even without diabetes. No DPP-4 inhibitor has ever demonstrated this benefit. In fact, saxagliptin (Onglyza) was associated with a statistically significant <em>increase</em> in heart failure hospitalizations in the SAVOR-TIMI 53 trial.</p>
 
           <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>When DPP-4 Inhibitors Still Make Sense</h2>
 
           <ul>
-            <li style={{ marginBottom: 12 }}><strong>Injection-averse patients:</strong> DPP-4 inhibitors are oral tablets, which some patients strongly prefer over weekly injections (though <a href="/blog/oral-semaglutide-is-here-is-the-glp-1-pill-as-good" style={{ color: 'var(--brand)', fontWeight: 500 }}>oral semaglutide</a> now bridges this gap).</li>
+            <li style={{ marginBottom: 12 }}><strong>Injection-averse patients:</strong> DPP-4 inhibitors are oral tablets, which some patients strongly prefer over weekly injections (though <a href="/blog/oral-semaglutide-is-here-is-the-glp-1-pill-as-good/" style={{ color: 'var(--brand)', fontWeight: 500 }}>oral semaglutide</a> now bridges this gap).</li>
             <li style={{ marginBottom: 12 }}><strong>Mild T2D with good weight:</strong> Patients with mild glucose elevation who are already at a healthy weight may benefit from the modest, well-tolerated glycemic control without the GI side effects.</li>
-            <li style={{ marginBottom: 12 }}><strong>Elderly or frail patients:</strong> The weight-neutral profile and minimal <a href="/blog/glp-1-side-effects-how-to-manage-nausea-fatigue-mo" style={{ color: 'var(--brand)', fontWeight: 500 }}>side effects</a> can be advantageous for <a href="/blog/glp-1-for-seniors-weight-loss-after-60-safely-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>older adults</a> where weight loss is not desirable.</li>
+            <li style={{ marginBottom: 12 }}><strong>Elderly or frail patients:</strong> The weight-neutral profile and minimal <a href="/blog/glp-1-side-effects-how-to-manage-nausea-fatigue-mo/" style={{ color: 'var(--brand)', fontWeight: 500 }}>side effects</a> can be advantageous for <a href="/blog/glp-1-for-seniors-weight-loss-after-60-safely-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>older adults</a> where weight loss is not desirable.</li>
           </ul>
 
           <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
             <div style={{ width: 48, height: 48, borderRadius: '50%', background: 'var(--brand-soft)', color: 'var(--brand)', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 20px' }}><Icon.Check size={24} /></div>
             <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Upgrade Your Metabolic Strategy</h3>
-            <p style={{ marginBottom: 24, fontSize: 16 }}>TelehealthFX offers comprehensive GLP-1 therapy with clinical oversight, transparent pricing, and complementary treatments including <a href="/medications/nad" style={{ color: 'var(--brand)' }}>NAD+</a> and <a href="/medications/sermorelin" style={{ color: 'var(--brand)' }}>Sermorelin</a>.</p>
+            <p style={{ marginBottom: 24, fontSize: 16 }}>TelehealthFX offers comprehensive GLP-1 therapy with clinical oversight, transparent pricing, and complementary treatments including <a href="/medications/nad/" style={{ color: 'var(--brand)' }}>NAD+</a> and <a href="/medications/sermorelin/" style={{ color: 'var(--brand)' }}>Sermorelin</a>.</p>
             <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>
               Check Eligibility <Icon.Arrow />
             </a>

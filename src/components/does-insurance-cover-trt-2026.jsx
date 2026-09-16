@@ -8,11 +8,11 @@ function BlogDoesInsuranceCoverTrt2026() {
   return (<><section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}><div className="container" style={{ maxWidth: 800 }}>
     <div className="eyebrow" style={{ marginBottom: 20 }}>Cost &amp; Access</div>
     <h1 className="serif" style={{ fontSize: 52, marginBottom: 24, lineHeight: 1.08 }}>Does Insurance Cover Testosterone Therapy? <span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>Your 2026 Coverage Guide</span></h1>
-    <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}><div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)' }}><Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%', height: "auto"}} priority={true} /></div><div><div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div><div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 14 min read</div></div></div>
+    <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}><div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)' }}><Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%', height: "auto"}} priority={true} /></div><div><div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about/" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div><div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 14 min read</div></div></div>
     <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
       <Image src="/assets/trt_insurance_featured_1778927272359.png" alt="Does Insurance Cover TRT infographic" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111', height: "auto"}} priority={true} />
       <p>The short answer: <strong>yes, most insurance plans cover testosterone therapy</strong> — but the fine print is where men get frustrated. Coverage requires a documented diagnosis of hypogonadism (ICD-10 E29.1), two confirmatory morning blood draws, prior authorization, and sometimes a trial of "lifestyle modifications" before approval. The process can take 2–6 weeks, during which you're still symptomatic.</p>
-      <p>This guide walks you through coverage by insurer, the diagnostic codes that trigger approval, the prior authorization process, appeal strategies if denied, and why many men ultimately choose <a href="/blog/trt-cost-per-month-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>cash-pay telehealth at $79/month</a> instead. <a href={S} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)', fontWeight: 500 }}>Get started with Telehealth FX</a> — no insurance needed, no paperwork.</p>
+      <p>This guide walks you through coverage by insurer, the diagnostic codes that trigger approval, the prior authorization process, appeal strategies if denied, and why many men ultimately choose <a href="/blog/trt-cost-per-month-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>cash-pay telehealth at $79/month</a> instead. <a href={S} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)', fontWeight: 500 }}>Get started with Telehealth FX</a> — no insurance needed, no paperwork.</p>
 
       <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Coverage by Major Insurer</h2>
       <div style={{ overflowX: 'auto', margin: '24px 0' }}>
@@ -36,7 +36,7 @@ function BlogDoesInsuranceCoverTrt2026() {
         <li style={{ marginBottom: 12 }}><strong>Exclusion of secondary causes:</strong> pituitary imaging, thyroid function, prolactin levels may be required</li>
         <li style={{ marginBottom: 12 }}><strong>ICD-10 code E29.1</strong> (Testicular hypofunction) on the prescription and claim</li>
       </ol>
-      <p>The catch: many men with total testosterone of 350–450 ng/dL experience severe symptoms but don't meet the &lt;300 threshold. These men are "normal" on paper but functionally hypogonadal. Insurance won't cover them — which is exactly why <a href="/blog/how-to-get-trt-prescribed-online-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>online TRT clinics</a> have become so popular. They treat based on symptoms AND labs, not just an arbitrary number.</p>
+      <p>The catch: many men with total testosterone of 350–450 ng/dL experience severe symptoms but don't meet the &lt;300 threshold. These men are "normal" on paper but functionally hypogonadal. Insurance won't cover them — which is exactly why <a href="/blog/how-to-get-trt-prescribed-online-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>online TRT clinics</a> have become so popular. They treat based on symptoms AND labs, not just an arbitrary number.</p>
 
       <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)', border: '1px solid var(--brand)', borderRadius: 16 }}>
         <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Skip the Insurance Hassle. $79/mo All-In.</h3>
@@ -65,7 +65,7 @@ function BlogDoesInsuranceCoverTrt2026() {
       <p>For many men, the math favors cash-pay telehealth over insurance:</p>
       <ul>
         <li style={{ marginBottom: 8 }}>Insurance copay: $30–75/month + $150–400 lab work every 6 months + $75–150/office visit</li>
-        <li style={{ marginBottom: 8 }}>Telehealth FX: <a href="/blog/trt-cost-per-month-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>$79/month all-inclusive</a></li>
+        <li style={{ marginBottom: 8 }}>Telehealth FX: <a href="/blog/trt-cost-per-month-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>$79/month all-inclusive</a></li>
         <li style={{ marginBottom: 8 }}>Factor in 6–8 hours of PA paperwork and phone calls per year, and the "cost" of insurance coverage is often higher than paying out of pocket</li>
       </ul>
       <p>Additionally, cash-pay avoids the insurance paper trail that can affect life insurance and disability insurance underwriting. Some men prefer the privacy of a cash-pay arrangement for this reason.</p>
@@ -80,7 +80,7 @@ function BlogDoesInsuranceCoverTrt2026() {
 
       <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
         <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>No Insurance Required. From $79/mo.</h2>
-        <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 500, margin: '0 auto 32px' }}>Licensed clinicians. Free shipping. Price match guarantee. <a href="/medications/testosterone" style={{ color: '#FBF8F3', textDecoration: 'underline' }}>See all plans</a>.</p>
+        <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 500, margin: '0 auto 32px' }}>Licensed clinicians. Free shipping. Price match guarantee. <a href="/medications/testosterone/" style={{ color: '#FBF8F3', textDecoration: 'underline' }}>See all plans</a>.</p>
         <a href={S} target="_blank" rel="noopener noreferrer" className="btn btn-lg" style={{ background: '#FBF8F3', color: 'var(--ink)', display: 'inline-flex', justifyContent: 'center', width: '100%', maxWidth: 250 }}>Start Your Evaluation <Icon.Arrow /></a>
       </div>
       <div style={{ marginTop: 80, paddingTop: 40, borderTop: '1px solid var(--line-soft)', fontSize: 14, color: 'var(--ink-3)' }}>

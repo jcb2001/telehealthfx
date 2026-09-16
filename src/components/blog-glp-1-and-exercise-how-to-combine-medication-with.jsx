@@ -22,7 +22,7 @@ function BlogGlp1AndExerciseHowToCombineMedicationWith() {
             <Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' , height: "auto"}} priority={true} />
           </div>
           <div>
-            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
+            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about/" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
             <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 39 min read</div>
           </div>
         </div>
@@ -30,7 +30,7 @@ function BlogGlp1AndExerciseHowToCombineMedicationWith() {
         <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
           <Image src="/assets/glp1_exercise_featured.png" alt="Neon dumbbell intersecting with a sleek medical weight loss pen" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' , height: "auto"}} priority={true} />
           
-          <p>One of the most dangerous misconceptions regarding <a href="/blog/what-is-a-glp-1-medication" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 medications</a> is that the injection replaces the need for exercise. Patients frequently ask, "If the medication is suppressing my appetite and I'm losing weight effortlessly, why do I need to work out?"</p>
+          <p>One of the most dangerous misconceptions regarding <a href="/blog/what-is-a-glp-1-medication/" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 medications</a> is that the injection replaces the need for exercise. Patients frequently ask, "If the medication is suppressing my appetite and I'm losing weight effortlessly, why do I need to work out?"</p>
 
           <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', maxWidth: '100%', background: '#000', borderRadius: '16px', margin: '40px 0', border: '1px solid var(--line-soft)' }}>
             <iframe loading="lazy" 
@@ -44,7 +44,7 @@ function BlogGlp1AndExerciseHowToCombineMedicationWith() {
           </div>
 
           
-          <p>The clinical reality is stark. If you rely solely on <a href="/medications/semaglutide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Semaglutide</a> or <a href="/medications/tirzepatide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Tirzepatide</a> without a structured exercise protocol, you are virtually guaranteeing severe <a href="/blog/glp-1-muscle-loss-the-hidden-risk-nobodys-talking" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 muscle loss</a>, a plummeting metabolic rate, and a much higher probability of <a href="/blog/what-happens-when-you-stop-glp-1-medication-the-re" style={{ color: 'var(--brand)', fontWeight: 500 }}>severe weight regain (the rebound effect)</a> if you ever stop the medication.</p>
+          <p>The clinical reality is stark. If you rely solely on <a href="/medications/semaglutide/" style={{ color: 'var(--brand)', fontWeight: 500 }}>Semaglutide</a> or <a href="/medications/tirzepatide/" style={{ color: 'var(--brand)', fontWeight: 500 }}>Tirzepatide</a> without a structured exercise protocol, you are virtually guaranteeing severe <a href="/blog/glp-1-muscle-loss-the-hidden-risk-nobodys-talking/" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 muscle loss</a>, a plummeting metabolic rate, and a much higher probability of <a href="/blog/what-happens-when-you-stop-glp-1-medication-the-re/" style={{ color: 'var(--brand)', fontWeight: 500 }}>severe weight regain (the rebound effect)</a> if you ever stop the medication.</p>
 
           <p>In this definitive 5,000-word clinical fitness guide, we will outline exactly how to combine modern incretin therapy with strategic exercise. We will break down the two non-negotiable pillars of a GLP-1 fitness regimen, explain the vital physiological timing of workouts around your weekly injections, and provide a comprehensive, beginner-friendly weekly template to protect your body composition.</p>
 
@@ -56,7 +56,7 @@ function BlogGlp1AndExerciseHowToCombineMedicationWith() {
             </a>
           </div>
 
-          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The Core Principle: Fat Loss vs. <a href="/blog/the-muscle-loss-myth-how-to-protect-your-lean-mass" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>muscle loss</a></h2>
+          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The Core Principle: Fat Loss vs. <a href="/blog/the-muscle-loss-myth-how-to-protect-your-lean-mass/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>muscle loss</a></h2>
           
           <p>To understand the necessity of exercise, you must understand the difference between "weight loss" and "fat loss." GLP-1 medications create a massive caloric deficit through powerful hypothalamic appetite suppression. When your body enters this severe caloric deficit, it looks for tissue to break down for energy.</p>
           
@@ -75,7 +75,7 @@ function BlogGlp1AndExerciseHowToCombineMedicationWith() {
           </ul>
 
           <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>Pillar 2: Cardiovascular Exercise (The Complement)</h3>
-          <p>While cardio will not prevent muscle loss, it is vital for cardiovascular health, improving insulin sensitivity, and generating additional caloric expenditure. Additionally, light cardio helps stimulate gut motility, which is an incredible natural defense against GLP-1 induced <a href="/blog/glp-1-side-effects-how-to-manage-nausea-fatigue-mo" style={{ color: 'var(--brand)', fontWeight: 500 }}>constipation and nausea</a>.</p>
+          <p>While cardio will not prevent muscle loss, it is vital for cardiovascular health, improving insulin sensitivity, and generating additional caloric expenditure. Additionally, light cardio helps stimulate gut motility, which is an incredible natural defense against GLP-1 induced <a href="/blog/glp-1-side-effects-how-to-manage-nausea-fatigue-mo/" style={{ color: 'var(--brand)', fontWeight: 500 }}>constipation and nausea</a>.</p>
           <ul>
             <li style={{ marginBottom: 8 }}><strong>Guideline:</strong> Aim for 150 minutes of moderate-intensity aerobic activity per week (e.g., 30 minutes, 5 days a week).</li>
             <li style={{ marginBottom: 8 }}><strong>Methods:</strong> Brisk walking, cycling, swimming, or hiking. Low-impact, Zone 2 cardio is highly recommended to preserve energy levels.</li>
@@ -92,14 +92,14 @@ function BlogGlp1AndExerciseHowToCombineMedicationWith() {
           <p>Because GLP-1 medications dramatically slow gastric emptying, food sits in your stomach for hours longer than normal. If you eat a large meal and attempt to exercise 30 minutes later, you will likely experience severe nausea or reflux. You must wait at least 2 to 4 hours after a substantial meal before engaging in intense exercise. Many patients find that exercising in a fasted state first thing in the morning completely bypasses this issue.</p>
 
           <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>Managing Profound Fatigue</h3>
-          <p>During the first few months of treatment, extreme fatigue is common as your body adapts to the caloric deficit. If you are too exhausted for a 45-minute workout, do not quit. Break it into "exercise snacks"—three 10-minute walks spread throughout the day. Furthermore, prioritizing complementary therapies like <a href="/medications/nad" style={{ color: 'var(--brand)', fontWeight: 500 }}>NAD+</a> can vastly improve mitochondrial ATP production, restoring the cellular energy needed to power through a workout.</p>
+          <p>During the first few months of treatment, extreme fatigue is common as your body adapts to the caloric deficit. If you are too exhausted for a 45-minute workout, do not quit. Break it into "exercise snacks"—three 10-minute walks spread throughout the day. Furthermore, prioritizing complementary therapies like <a href="/medications/nad/" style={{ color: 'var(--brand)', fontWeight: 500 }}>NAD+</a> can vastly improve mitochondrial ATP production, restoring the cellular energy needed to power through a workout.</p>
 
           <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
             <div style={{ width: 48, height: 48, borderRadius: '50%', background: 'var(--brand-soft)', color: 'var(--brand)', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 20px' }}>
               <Icon.Check size={24} />
             </div>
             <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Accelerate Your Recovery</h3>
-            <p style={{ marginBottom: 24, fontSize: 16 }}>Combine your GLP-1 with advanced peptide therapies like <a href="/medications/sermorelin" style={{ color: 'var(--brand)', fontWeight: 500 }}>Sermorelin</a> to dramatically improve workout recovery and protect lean muscle mass.</p>
+            <p style={{ marginBottom: 24, fontSize: 16 }}>Combine your GLP-1 with advanced peptide therapies like <a href="/medications/sermorelin/" style={{ color: 'var(--brand)', fontWeight: 500 }}>Sermorelin</a> to dramatically improve workout recovery and protect lean muscle mass.</p>
             <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>
               Start Your Evaluation <Icon.Arrow />
             </a>

@@ -19,7 +19,7 @@ function BlogSameDayGLP1() {
             <Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%', height: "auto"}} priority={true} />
           </div>
           <div>
-            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
+            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about/" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
             <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 18 min read</div>
           </div>
         </div>
@@ -27,7 +27,7 @@ function BlogSameDayGLP1() {
         <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
           <Image src="/assets/same-day-glp1-prescription-featured.png" alt="Fast GLP-1 prescription approval with clock and laptop" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111', height: "auto"}} priority={true} />
 
-          <p>You have made the decision to start <a href="/blog/what-is-a-glp-1-medication" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 therapy</a>. You do not want to wait 3 weeks for a PCP appointment, another week for insurance pre-authorization, and then discover your pharmacy is out of stock. You want to know: <strong>what is the fastest possible path from "I want this" to "injection in hand"?</strong></p>
+          <p>You have made the decision to start <a href="/blog/what-is-a-glp-1-medication/" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 therapy</a>. You do not want to wait 3 weeks for a PCP appointment, another week for insurance pre-authorization, and then discover your pharmacy is out of stock. You want to know: <strong>what is the fastest possible path from "I want this" to "injection in hand"?</strong></p>
 
           <p>This guide provides an honest, realistic timeline for every step of the process—from intake form to first dose—and explains what factors speed things up or slow things down.</p>
 
@@ -110,7 +110,7 @@ function BlogSameDayGLP1() {
             </table>
           </div>
 
-          <p>The biggest time saver: <strong>bypassing insurance prior authorization entirely.</strong> For branded medications (Ozempic, Wegovy, Zepbound), insurance pre-auth can take 1–3 weeks and has no guarantee of approval. By choosing compounded GLP-1 through a self-pay telehealth model, you eliminate this bottleneck completely. No <a href="/blog/glp-1-shortage-update-may-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>pharmacy shortage</a> delays, no authorization denials.</p>
+          <p>The biggest time saver: <strong>bypassing insurance prior authorization entirely.</strong> For branded medications (Ozempic, Wegovy, Zepbound), insurance pre-auth can take 1–3 weeks and has no guarantee of approval. By choosing compounded GLP-1 through a self-pay telehealth model, you eliminate this bottleneck completely. No <a href="/blog/glp-1-shortage-update-may-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>pharmacy shortage</a> delays, no authorization denials.</p>
 
           <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
             <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Same-Day Clinical Evaluations</h3>
@@ -125,7 +125,7 @@ function BlogSameDayGLP1() {
             <li style={{ marginBottom: 12 }}><strong>Complete your intake thoroughly:</strong> Missing fields trigger follow-up questions, adding 1–2 days.</li>
             <li style={{ marginBottom: 12 }}><strong>Have your weight and height ready:</strong> Accurate BMI calculation is required for clinical determination.</li>
             <li style={{ marginBottom: 12 }}><strong>List current medications:</strong> Drug interaction screening is mandatory. Having your medication list prepared prevents delays.</li>
-            <li style={{ marginBottom: 12 }}><strong>Choose self-pay compounded:</strong> Eliminates insurance prior authorization entirely. Your <a href="/blog/cheapest-compounded-semaglutide-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>pricing is locked in</a> at checkout.</li>
+            <li style={{ marginBottom: 12 }}><strong>Choose self-pay compounded:</strong> Eliminates insurance prior authorization entirely. Your <a href="/blog/cheapest-compounded-semaglutide-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>pricing is locked in</a> at checkout.</li>
             <li style={{ marginBottom: 12 }}><strong>Submit during business hours:</strong> Intakes submitted before 2 PM are typically reviewed the same day.</li>
           </ul>
 
@@ -134,12 +134,12 @@ function BlogSameDayGLP1() {
             <li style={{ marginBottom: 12 }}><strong>Complex medical history:</strong> Active thyroid conditions, history of pancreatitis, or MEN 2 syndrome require additional review.</li>
             <li style={{ marginBottom: 12 }}><strong>Medication interactions:</strong> Patients on insulin or sulfonylureas need careful dose coordination to avoid hypoglycemia.</li>
             <li style={{ marginBottom: 12 }}><strong>State-specific regulations:</strong> Some states require synchronous (video/phone) consultations rather than async chart review, adding scheduling time.</li>
-            <li style={{ marginBottom: 12 }}><strong>Branded medication choice:</strong> Choosing Ozempic or Wegovy requires retail pharmacy fulfillment, subject to <a href="/blog/glp-1-shortage-update-may-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>availability</a> and insurance processing.</li>
+            <li style={{ marginBottom: 12 }}><strong>Branded medication choice:</strong> Choosing Ozempic or Wegovy requires retail pharmacy fulfillment, subject to <a href="/blog/glp-1-shortage-update-may-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>availability</a> and insurance processing.</li>
           </ul>
 
           <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>What to Expect in Your First Week</h2>
 
-          <p>Once your medication arrives, you will begin at the lowest titration dose (typically 0.25 mg/week for <a href="/medications/semaglutide" style={{ color: 'var(--brand)', fontWeight: 500 }}>semaglutide</a> or 2.5 mg/week for <a href="/medications/tirzepatide" style={{ color: 'var(--brand)', fontWeight: 500 }}>tirzepatide</a>). Most patients notice reduced appetite within 24–72 hours of their first injection. For a complete week-by-week breakdown, read our <a href="/blog/your-first-90-days-on-glp-1-week-by-week-what-to-e" style={{ color: 'var(--brand)', fontWeight: 500 }}>first 90 days guide</a>. To minimize <a href="/blog/glp-1-side-effects-how-to-manage-nausea-fatigue-mo" style={{ color: 'var(--brand)', fontWeight: 500 }}>side effects</a>, follow our <a href="/blog/glp-1-food-guide-what-to-eat" style={{ color: 'var(--brand)', fontWeight: 500 }}>nutrition guide</a> from day one.</p>
+          <p>Once your medication arrives, you will begin at the lowest titration dose (typically 0.25 mg/week for <a href="/medications/semaglutide/" style={{ color: 'var(--brand)', fontWeight: 500 }}>semaglutide</a> or 2.5 mg/week for <a href="/medications/tirzepatide/" style={{ color: 'var(--brand)', fontWeight: 500 }}>tirzepatide</a>). Most patients notice reduced appetite within 24–72 hours of their first injection. For a complete week-by-week breakdown, read our <a href="/blog/your-first-90-days-on-glp-1-week-by-week-what-to-e/" style={{ color: 'var(--brand)', fontWeight: 500 }}>first 90 days guide</a>. To minimize <a href="/blog/glp-1-side-effects-how-to-manage-nausea-fatigue-mo/" style={{ color: 'var(--brand)', fontWeight: 500 }}>side effects</a>, follow our <a href="/blog/glp-1-food-guide-what-to-eat/" style={{ color: 'var(--brand)', fontWeight: 500 }}>nutrition guide</a> from day one.</p>
 
           <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
             <div style={{ width: 48, height: 48, borderRadius: '50%', background: 'var(--brand-soft)', color: 'var(--brand)', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 20px' }}><Icon.Check size={24} /></div>

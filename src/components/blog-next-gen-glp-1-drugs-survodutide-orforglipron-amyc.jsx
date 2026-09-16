@@ -22,7 +22,7 @@ function BlogNextGenGlp1DrugsSurvodutideOrforglipronAmyc() {
             <Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' , height: "auto"}} priority={true} />
           </div>
           <div>
-            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
+            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about/" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
             <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 66 min read</div>
           </div>
         </div>
@@ -30,7 +30,7 @@ function BlogNextGenGlp1DrugsSurvodutideOrforglipronAmyc() {
         <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
           <Image src="/assets/glp1_future_pipeline_featured.png" alt="A glowing neon DNA helix and complex molecular receptor structures intersecting with a futuristic sleek medical injection vial" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' , height: "auto"}} priority={true} />
           
-          <p>The field of medical weight loss is advancing at a velocity unseen in the history of modern pharmacology. We have completely exited the era of single-agonist therapies. While <a href="/medications/semaglutide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Semaglutide</a> (Wegovy/Ozempic) will forever be immortalized as the molecule that broke the dam—proving that obesity is a treatable biological disease rather than a moral failure—it is already being technologically eclipsed by the staggering innovations erupting from the pharmaceutical pipelines of Eli Lilly, Novo Nordisk, and Boehringer Ingelheim.</p>
+          <p>The field of medical weight loss is advancing at a velocity unseen in the history of modern pharmacology. We have completely exited the era of single-agonist therapies. While <a href="/medications/semaglutide/" style={{ color: 'var(--brand)', fontWeight: 500 }}>Semaglutide</a> (Wegovy/Ozempic) will forever be immortalized as the molecule that broke the dam—proving that obesity is a treatable biological disease rather than a moral failure—it is already being technologically eclipsed by the staggering innovations erupting from the pharmaceutical pipelines of Eli Lilly, Novo Nordisk, and Boehringer Ingelheim.</p>
 
           <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', maxWidth: '100%', background: '#000', borderRadius: '16px', margin: '40px 0', border: '1px solid var(--line-soft)' }}>
             <iframe loading="lazy" 
@@ -44,7 +44,7 @@ function BlogNextGenGlp1DrugsSurvodutideOrforglipronAmyc() {
           </div>
 
           
-          <p>The first evolutionary leap occurred with the introduction of <a href="/medications/tirzepatide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Tirzepatide</a> (Zepbound/Mounjaro), the world's first "dual-agonist." By simultaneously targeting both the GLP-1 and the GIP receptors, Tirzepatide pushed average weight loss boundaries past the 20% mark, an efficacy previously reserved exclusively for irreversible bariatric surgery. But Tirzepatide was merely the prototype for a much larger, far more aggressive multi-receptor strategy.</p>
+          <p>The first evolutionary leap occurred with the introduction of <a href="/medications/tirzepatide/" style={{ color: 'var(--brand)', fontWeight: 500 }}>Tirzepatide</a> (Zepbound/Mounjaro), the world's first "dual-agonist." By simultaneously targeting both the GLP-1 and the GIP receptors, Tirzepatide pushed average weight loss boundaries past the 20% mark, an efficacy previously reserved exclusively for irreversible bariatric surgery. But Tirzepatide was merely the prototype for a much larger, far more aggressive multi-receptor strategy.</p>
 
           <p>As we navigate 2026, the clinical trials for the third generation of metabolic therapies are returning data that defies comprehension. We are witnessing the birth of "Triple-G" agonists that incinerate nearly 30% of total body mass. We are seeing dual-agonists that specifically target and eradicate lethal liver fat. We are evaluating entirely new hormonal pathways, such as Amylin, to break through profound metabolic plateaus. And we are seeing the end of the needle entirely, with highly potent, non-peptide oral pills entering the commercial market.</p>
           
@@ -65,7 +65,7 @@ function BlogNextGenGlp1DrugsSurvodutideOrforglipronAmyc() {
           <h3 style={{ fontSize: 28, marginTop: 40, marginBottom: 20, color: 'var(--ink)' }}>The Glucagon Mechanism: Increasing Energy Expenditure</h3>
           <p>Historically, pharmacologists viewed glucagon as the "enemy" of insulin. While insulin lowers blood sugar by storing energy into fat cells, glucagon raises blood sugar by pulling energy out of storage (specifically the liver). However, when properly balanced with the insulin-stimulating power of GLP-1, glucagon receptor activation becomes a metabolic superpower.</p>
           
-          <p>Activating the glucagon receptor drastically increases energy expenditure. It forces the body's metabolic engine to run hotter and faster, burning through calories even when the patient is sitting perfectly still. This dual action creates the ultimate metabolic vise: the GLP-1 component crushes the patient's appetite (reducing "calories in"), while the Glucagon component massively accelerates the resting metabolic rate (increasing "calories out"). This dual-pronged attack circumvents the metabolic adaptation (the slowing of the metabolism) that often causes patients on single-agonists to hit a <a href="/blog/glp-1-plateau-when-weight-loss-stalls-what-to-do-2" style={{ color: 'var(--brand)', fontWeight: 500 }}>frustrating weight loss plateau</a>.</p>
+          <p>Activating the glucagon receptor drastically increases energy expenditure. It forces the body's metabolic engine to run hotter and faster, burning through calories even when the patient is sitting perfectly still. This dual action creates the ultimate metabolic vise: the GLP-1 component crushes the patient's appetite (reducing "calories in"), while the Glucagon component massively accelerates the resting metabolic rate (increasing "calories out"). This dual-pronged attack circumvents the metabolic adaptation (the slowing of the metabolism) that often causes patients on single-agonists to hit a <a href="/blog/glp-1-plateau-when-weight-loss-stalls-what-to-do-2/" style={{ color: 'var(--brand)', fontWeight: 500 }}>frustrating weight loss plateau</a>.</p>
 
           <h3 style={{ fontSize: 28, marginTop: 40, marginBottom: 20, color: 'var(--ink)' }}>The Eradication of MASH (Metabolic Dysfunction-Associated Steatohepatitis)</h3>
           <p>While the weight loss data for Survodutide is highly impressive (demonstrating nearly 17% weight loss in the SYNCHRONIZE-1 Phase 3 trials in April 2026), its true claim to fame is its unprecedented impact on the liver.</p>
@@ -81,7 +81,7 @@ function BlogNextGenGlp1DrugsSurvodutideOrforglipronAmyc() {
           <h3 style={{ fontSize: 28, marginTop: 40, marginBottom: 20, color: 'var(--ink)' }}>The Trifecta of Metabolic Annihilation</h3>
           <p>Retatrutide leverages every known neuroendocrine pathway to violently reverse obesity:</p>
           <ol>
-            <li style={{ marginBottom: 16 }}><strong>GLP-1 (Satiety):</strong> Severely delays gastric emptying and hits the hypothalamus to crush hunger and silence <a href="/blog/glp-1-and-mental-health-anxiety-depression-food-no" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>food noise</a>.</li>
+            <li style={{ marginBottom: 16 }}><strong>GLP-1 (Satiety):</strong> Severely delays gastric emptying and hits the hypothalamus to crush hunger and silence <a href="/blog/glp-1-and-mental-health-anxiety-depression-food-no/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>food noise</a>.</li>
             <li style={{ marginBottom: 16 }}><strong>GIP (Fat Storage Optimization):</strong> Enhances insulin sensitivity, drastically reduces nausea (counteracting the GLP-1 side effects), and improves how the body clears triglycerides from the blood.</li>
             <li style={{ marginBottom: 16 }}><strong>Glucagon (Energy Expenditure):</strong> Directly attacks liver fat and massively upregulates resting energy expenditure, forcing the body to burn fat at a highly accelerated rate.</li>
           </ol>
@@ -98,7 +98,7 @@ function BlogNextGenGlp1DrugsSurvodutideOrforglipronAmyc() {
               <Icon.Check size={24} />
             </div>
             <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Combating Extreme Weight Loss Side Effects</h3>
-            <p style={{ marginBottom: 24, fontSize: 16 }}>When you lose 30% of your body weight rapidly, you risk severe muscle wasting and skeletal frailty. TelehealthFX protocols integrate <a href="/medications/sermorelin" style={{ color: 'var(--brand)', fontWeight: 500 }}>Sermorelin</a> peptide therapy to act as a biochemical shield, preserving lean muscle mass during extreme caloric deficits.</p>
+            <p style={{ marginBottom: 24, fontSize: 16 }}>When you lose 30% of your body weight rapidly, you risk severe muscle wasting and skeletal frailty. TelehealthFX protocols integrate <a href="/medications/sermorelin/" style={{ color: 'var(--brand)', fontWeight: 500 }}>Sermorelin</a> peptide therapy to act as a biochemical shield, preserving lean muscle mass during extreme caloric deficits.</p>
             <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>
               Protect Your Muscle Mass <Icon.Arrow />
             </a>
@@ -122,7 +122,7 @@ function BlogNextGenGlp1DrugsSurvodutideOrforglipronAmyc() {
           
           <p>While the previously mentioned drugs are still navigating the final phases of clinical trials, one massive pipeline project has already crossed the finish line. On April 1, 2026, the FDA officially approved Eli Lilly’s <strong>Orforglipron</strong> (marketed as Foundayo) for chronic weight management.</p>
           
-          <p>As we detailed extensively in our <a href="/blog/oral-vs-injectable-glp-1-rybelsus-oral-wegovy-orfo" style={{ color: 'var(--brand)', fontWeight: 500 }}>Oral vs. Injectable Guide</a>, Orforglipron represents the holy grail of drug delivery. It is a non-peptide, small molecule GLP-1 agonist. Unlike Oral Wegovy or Rybelsus, which require brutal fasting routines and are 99% destroyed by stomach acid, Orforglipron is completely immune to the digestive process.</p>
+          <p>As we detailed extensively in our <a href="/blog/oral-vs-injectable-glp-1-rybelsus-oral-wegovy-orfo/" style={{ color: 'var(--brand)', fontWeight: 500 }}>Oral vs. Injectable Guide</a>, Orforglipron represents the holy grail of drug delivery. It is a non-peptide, small molecule GLP-1 agonist. Unlike Oral Wegovy or Rybelsus, which require brutal fasting routines and are 99% destroyed by stomach acid, Orforglipron is completely immune to the digestive process.</p>
           
           <p>Patients simply swallow the pill at any time of day, with any amount of food or water, alongside any other medications. This chemical engineering marvel achieved nearly 15% body weight loss in the ATTAIN Phase 3 trials, proving definitively that highly potent metabolic care no longer requires a refrigerator or a syringe.</p>
 
@@ -161,7 +161,7 @@ function BlogNextGenGlp1DrugsSurvodutideOrforglipronAmyc() {
 
           <div style={{ background: 'var(--bg-secondary)', padding: 32, borderRadius: 16, marginBottom: 40 }}>
             <h4 style={{ fontSize: 20, marginBottom: 12, color: 'var(--ink)' }}>3. Are there any pipeline drugs specifically for muscle preservation?</h4>
-            <p style={{ fontSize: 16, color: 'var(--ink-2)' }}>Yes. The pharmaceutical industry is acutely aware that losing 30% of your body weight on Retatrutide will result in catastrophic <a href="/blog/the-muscle-loss-myth-how-to-protect-your-lean-mass" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>muscle loss</a> if left unchecked. Several companies (such as Regeneron) are currently testing "myostatin inhibitors"—drugs that actively force the body to build and retain muscle mass—in combination with GLP-1 therapies. Until those are approved, TelehealthFX utilizes proven peptide therapies like Sermorelin to accomplish this critical structural protection.</p>
+            <p style={{ fontSize: 16, color: 'var(--ink-2)' }}>Yes. The pharmaceutical industry is acutely aware that losing 30% of your body weight on Retatrutide will result in catastrophic <a href="/blog/the-muscle-loss-myth-how-to-protect-your-lean-mass/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>muscle loss</a> if left unchecked. Several companies (such as Regeneron) are currently testing "myostatin inhibitors"—drugs that actively force the body to build and retain muscle mass—in combination with GLP-1 therapies. Until those are approved, TelehealthFX utilizes proven peptide therapies like Sermorelin to accomplish this critical structural protection.</p>
           </div>
 
           <div style={{ background: 'var(--bg-secondary)', padding: 32, borderRadius: 16, marginBottom: 40 }}>

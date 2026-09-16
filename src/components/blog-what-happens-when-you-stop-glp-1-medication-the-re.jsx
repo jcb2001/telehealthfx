@@ -22,7 +22,7 @@ export function BlogWhatHappensWhenYouStopGlp1MedicationTheRe() {
             </div>
             <div>
               <div style={{ fontWeight: 500, color: 'var(--ink)' }}>
-                <a href="/about" style={{ color: 'inherit', textDecoration: 'none' }}>Julian Mercer, M.S.</a>
+                <a href="/about/" style={{ color: 'inherit', textDecoration: 'none' }}>Julian Mercer, M.S.</a>
               </div>
               <div style={{ fontSize: 14, color: 'var(--ink-2)' }}>Lead Bio-Systems Analyst | May 2, 2026</div>
             </div>
@@ -39,7 +39,7 @@ export function BlogWhatHappensWhenYouStopGlp1MedicationTheRe() {
 
           <div className="blog-content">
             <p>
-              The most frequent question asked by patients initiating Semaglutide or <a href="/blog/tirzepatide-vs-semaglutide-dual-agonist-mechanism" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Tirzepatide</a> therapy is not about the side effects or the cost. It is a question of permanence: <em>"Do I have to take this forever?"</em>
+              The most frequent question asked by patients initiating Semaglutide or <a href="/blog/tirzepatide-vs-semaglutide-dual-agonist-mechanism/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Tirzepatide</a> therapy is not about the side effects or the cost. It is a question of permanence: <em>"Do I have to take this forever?"</em>
             </p>
             <p>
               The clinical data surrounding GLP-1 cessation is stark and, for many, deeply concerning. Multiple long-term extension studies, including the seminal STEP 1 extension trial, have demonstrated that when patients discontinue Semaglutide, they regain roughly two-thirds of their lost weight within the first year. This phenomenon is universally referred to as the "GLP-1 Rebound."
@@ -50,7 +50,7 @@ export function BlogWhatHappensWhenYouStopGlp1MedicationTheRe() {
 
             <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>The Pharmacokinetic Clearance</h2>
             <p>
-              As we explored in our guide to <a href="/blog/pharmacokinetics-ozempic-semaglutide-cellular-breakdown" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>The Pharmacokinetics of Semaglutide</a>, modern GLP-1 agonists are engineered with a massive C-18 or C-20 fatty diacid chain that binds to Albumin in the blood. This creates a half-life of roughly 7 days.
+              As we explored in our guide to <a href="/blog/pharmacokinetics-ozempic-semaglutide-cellular-breakdown/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>The Pharmacokinetics of Semaglutide</a>, modern GLP-1 agonists are engineered with a massive C-18 or C-20 fatty diacid chain that binds to Albumin in the blood. This creates a half-life of roughly 7 days.
             </p>
             <p>
               When you skip your weekly injection, the medication does not vanish instantly. It takes approximately 5 half-lives (roughly 5 weeks) for the drug to be entirely eliminated from your systemic circulation. During this clearance window, patients report a gradual, escalating return of two distinct biological signals: the acceleration of gastric emptying and the re-awakening of hypothalamic hunger centers.
@@ -89,7 +89,7 @@ export function BlogWhatHappensWhenYouStopGlp1MedicationTheRe() {
               This is the most critical and dangerous factor in the rebound effect. When you lose massive amounts of weight rapidly (e.g., 50 pounds in 6 months), your body lowers your Basal Metabolic Rate (BMR) to conserve energy. This is known as metabolic adaptation. 
             </p>
             <p>
-              Furthermore, if you failed to follow a rigorous resistance training protocol while on the medication, a significant portion of your weight loss was likely <a href="/blog/glp-1-muscle-loss-the-hidden-risk-nobodys-talking" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Skeletal Muscle Tissue</a>. Muscle is highly metabolically active; it burns calories just existing. If you stripped 15 pounds of muscle off your frame, your BMR has plummeted. 
+              Furthermore, if you failed to follow a rigorous resistance training protocol while on the medication, a significant portion of your weight loss was likely <a href="/blog/glp-1-muscle-loss-the-hidden-risk-nobodys-talking/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Skeletal Muscle Tissue</a>. Muscle is highly metabolically active; it burns calories just existing. If you stripped 15 pounds of muscle off your frame, your BMR has plummeted. 
             </p>
             <p>
               <strong>The Trap:</strong> You now have a ravenous, chemically amplified appetite, but your body requires <em>significantly fewer calories</em> to survive than it did a year ago. If you eat the same amount of food you ate prior to starting Semaglutide, you will gain weight at an incredibly accelerated rate because your metabolic ceiling is vastly lower.
@@ -133,7 +133,7 @@ export function BlogWhatHappensWhenYouStopGlp1MedicationTheRe() {
 
             <h3>Phase 2: Muscle Hyper-Prioritization</h3>
             <p>
-              If your BMR is depressed due to muscle loss, you must rebuild it. During the taper phase, patients must engage in aggressive hypertrophy (muscle-building) protocols. This means consuming 1.2 to 1.6 grams of protein per kilogram of body weight and lifting heavy weights 3 to 4 times a week. We outline these non-negotiable protocols in our <a href="/blog/glp-1-and-exercise-how-to-combine-medication-with" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>GLP-1 and Exercise Guide</a>. By adding muscle mass, you actively raise your BMR, giving yourself a larger caloric buffer when your appetite returns.
+              If your BMR is depressed due to muscle loss, you must rebuild it. During the taper phase, patients must engage in aggressive hypertrophy (muscle-building) protocols. This means consuming 1.2 to 1.6 grams of protein per kilogram of body weight and lifting heavy weights 3 to 4 times a week. We outline these non-negotiable protocols in our <a href="/blog/glp-1-and-exercise-how-to-combine-medication-with/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>GLP-1 and Exercise Guide</a>. By adding muscle mass, you actively raise your BMR, giving yourself a larger caloric buffer when your appetite returns.
             </p>
 
             <div className="card" style={{ padding: 32, background: 'var(--surface-2)', marginTop: 40, marginBottom: 40 }}>
@@ -164,7 +164,7 @@ export function BlogWhatHappensWhenYouStopGlp1MedicationTheRe() {
                   Whether you need a maintenance dose to protect your progress, or a structured titration plan to exit the medication safely, you need a provider who understands chronic care.
                 </p>
                 <p style={{ fontSize: 16, color: 'var(--ink-2)', marginBottom: 32, maxWidth: 600, margin: '0 auto 32px' }}>
-                  TelehealthFX provides U.S.-licensed, quality-verified compounded Semaglutide and Tirzepatide with strict physician oversight. No hidden membership fees. Just real science. Learn how to identify safe providers in our guide to spotting <a href="/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Hidden Fees in Telehealth</a>.
+                  TelehealthFX provides U.S.-licensed, quality-verified compounded Semaglutide and Tirzepatide with strict physician oversight. No hidden membership fees. Just real science. Learn how to identify safe providers in our guide to spotting <a href="/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Hidden Fees in Telehealth</a>.
                 </p>
                 <div style={{ display: 'flex', gap: 16, justifyContent: 'center' }}>
                   <a href={START_URL} className="btn btn-primary" style={{ fontSize: 18, padding: '0 32px' }}>

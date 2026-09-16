@@ -94,7 +94,7 @@ export function BlogGlp1RealCost2026() {
             </div>
             <div>
               <div style={{ fontWeight: 500, fontSize: 14 }}>
-                <a href="/about" style={{ color: 'var(--ink)', textDecoration: 'none' }}>Julian Mercer, M.S.</a>
+                <a href="/about/" style={{ color: 'var(--ink)', textDecoration: 'none' }}>Julian Mercer, M.S.</a>
               </div>
               <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated June 2026 · 12 min read</div>
             </div>
@@ -110,7 +110,7 @@ export function BlogGlp1RealCost2026() {
               priority={true} />
 
             {/* Intro */}
-            <p>GLP-1 pricing is one of the most confusing things about starting treatment, because the same medication can cost anywhere from almost nothing to well over a thousand dollars a month depending entirely on how you pay for it. The good news: the landscape shifted hard in your favor over 2025, and there are now several legitimate routes that didn{"'"}t exist a year or two ago. Here{"'"}s what <a href="/medications/semaglutide" style={linkStyle}>semaglutide</a> and <a href="/medications/tirzepatide" style={linkStyle}>tirzepatide</a> actually cost in 2026, and how to find your lowest-cost option.</p>
+            <p>GLP-1 pricing is one of the most confusing things about starting treatment, because the same medication can cost anywhere from almost nothing to well over a thousand dollars a month depending entirely on how you pay for it. The good news: the landscape shifted hard in your favor over 2025, and there are now several legitimate routes that didn{"'"}t exist a year or two ago. Here{"'"}s what <a href="/medications/semaglutide/" style={linkStyle}>semaglutide</a> and <a href="/medications/tirzepatide/" style={linkStyle}>tirzepatide</a> actually cost in 2026, and how to find your lowest-cost option.</p>
 
 
             {/* ─── Short Answer ─── */}
@@ -181,14 +181,14 @@ export function BlogGlp1RealCost2026() {
             <SectionImage src="/assets/glp1-cost-ways-to-pay.png" alt="Flat-lay of a blank insurance-style card, a calculator, and a smartphone on a clean desk, representing the different ways to pay for GLP-1 medication" />
 
             <h3 className="serif" style={{ fontSize: 24, marginTop: 40, marginBottom: 16, color: 'var(--ink)' }}>1. Through insurance (if it{"'"}s covered)</h3>
-            <p>If your insurance covers a GLP-1 for your situation, this is usually the cheapest route — copays can run anywhere from $0 to a few hundred dollars a month. The catch is coverage itself. Many plans cover these drugs for type 2 diabetes (<a href="/blog/ozempic-vs-wegovy-2026" style={linkStyle}>Ozempic</a>, Mounjaro) but exclude or restrict them for weight management (Wegovy, Zepbound), and most require prior authorization, meaning your provider has to document that you meet specific medical criteria before the plan pays. It{"'"}s worth checking your formulary directly, because two people on the "same" plan tier can have very different out-of-pocket costs.</p>
+            <p>If your insurance covers a GLP-1 for your situation, this is usually the cheapest route — copays can run anywhere from $0 to a few hundred dollars a month. The catch is coverage itself. Many plans cover these drugs for type 2 diabetes (<a href="/blog/ozempic-vs-wegovy-2026/" style={linkStyle}>Ozempic</a>, Mounjaro) but exclude or restrict them for weight management (Wegovy, Zepbound), and most require prior authorization, meaning your provider has to document that you meet specific medical criteria before the plan pays. It{"'"}s worth checking your formulary directly, because two people on the "same" plan tier can have very different out-of-pocket costs.</p>
 
             <h3 className="serif" style={{ fontSize: 24, marginTop: 40, marginBottom: 16, color: 'var(--ink)' }}>2. Manufacturer savings cards</h3>
             <p>If you have commercial (non-government) insurance, the drugmakers offer savings cards that can dramatically lower your copay — in some cases to as little as $0–$25 per month. These cards generally can{"'"}t be used with Medicare, Medicaid, or other government coverage. They{"'"}re one of the most underused cost-savers, and eligibility takes only a few minutes to check on the manufacturer{"'"}s site.</p>
 
             <h3 className="serif" style={{ fontSize: 24, marginTop: 40, marginBottom: 16, color: 'var(--ink)' }}>3. Manufacturer direct self-pay (the big 2025 change)</h3>
             <SectionImage src="/assets/glp1-cost-self-pay.png" alt="A plain white pharmacy bag and a generic medication vial on a clean pharmacy counter, representing affordable manufacturer self-pay options" />
-            <p>This is the route that reshaped affordability for people without coverage. Both major manufacturers now sell directly to cash-paying patients at far below retail. Novo Nordisk offers self-pay Wegovy through its NovoCare pharmacy at around $499 per month for self-paying patients, and Eli Lilly sells single-dose Zepbound vials through LillyDirect at roughly $349–$499 per month depending on the dose. These programs are aimed squarely at people whose insurance won{"'"}t cover weight-loss treatment, and they{"'"}ve effectively replaced the role <a href="/blog/compounded-semaglutide-vs-wegovy-2026" style={linkStyle}>compounded versions</a> used to play.</p>
+            <p>This is the route that reshaped affordability for people without coverage. Both major manufacturers now sell directly to cash-paying patients at far below retail. Novo Nordisk offers self-pay Wegovy through its NovoCare pharmacy at around $499 per month for self-paying patients, and Eli Lilly sells single-dose Zepbound vials through LillyDirect at roughly $349–$499 per month depending on the dose. These programs are aimed squarely at people whose insurance won{"'"}t cover weight-loss treatment, and they{"'"}ve effectively replaced the role <a href="/blog/compounded-semaglutide-vs-wegovy-2026/" style={linkStyle}>compounded versions</a> used to play.</p>
 
             <h3 className="serif" style={{ fontSize: 24, marginTop: 40, marginBottom: 16, color: 'var(--ink)' }}>4. Compounded semaglutide and tirzepatide</h3>
             <p>During the 2023–2024 shortages, compounded versions were widely available through telehealth platforms for roughly $150–$300 a month, and for a while they were the cheapest path by a wide margin. That <a href="/glp-1-shortage-tracker-2026" style={linkStyle}>changed in 2025</a>. Once the shortages officially resolved and both drugs came off the FDA shortage list, the exemption that allowed large-scale compounding expired. Routine compounding of these medications purely as a budget alternative is no longer permitted, though limited prescriber-driven compounding for a documented individual clinical need can still exist in specific cases.</p>
@@ -209,7 +209,7 @@ export function BlogGlp1RealCost2026() {
             <p>For most people, the genuinely cheapest legitimate route now breaks down like this:</p>
             <p><strong>If you have commercial insurance,</strong> start by checking whether your plan covers the medication and stack a manufacturer savings card on top — that combination produces the lowest out-of-pocket cost when it works, sometimes near $0.</p>
             <p><strong>If you don{"'"}t have coverage,</strong> or your plan excludes weight-loss medication, the manufacturer direct self-pay programs (around $349–$499 a month) are now the most affordable reliable option, and they{"'"}re FDA-approved products rather than compounded ones.</p>
-            <p>The "<a href="/blog/cheapest-compounded-semaglutide-2026" style={linkStyle}>cheapest compounded semaglutide</a>" route that dominated 2024 is the one that{"'"}s no longer the simple budget play it used to be. If you find an offer still marketing bulk compounded GLP-1 at shortage-era prices, it{"'"}s worth <a href="/blog/compounded-semaglutide-red-flags-2026" style={linkStyle}>looking closely at whether that{"'"}s actually permitted</a> in 2026.</p>
+            <p>The "<a href="/blog/cheapest-compounded-semaglutide-2026/" style={linkStyle}>cheapest compounded semaglutide</a>" route that dominated 2024 is the one that{"'"}s no longer the simple budget play it used to be. If you find an offer still marketing bulk compounded GLP-1 at shortage-era prices, it{"'"}s worth <a href="/blog/compounded-semaglutide-red-flags-2026/" style={linkStyle}>looking closely at whether that{"'"}s actually permitted</a> in 2026.</p>
 
 
             {/* ─── Without Insurance ─── */}
@@ -220,7 +220,7 @@ export function BlogGlp1RealCost2026() {
 
             {/* ─── Find Your Lowest Cost ─── */}
             <h2 className="serif" style={{ fontSize: 32, marginTop: 56, marginBottom: 24, color: 'var(--ink)' }}>Find your lowest-cost option</h2>
-            <p>The fastest way to land on your actual price — not a range — is to have a licensed provider review your situation, your coverage, and your eligibility, then identify the most affordable route available to you. A short online eligibility check connects you with a licensed provider who can do exactly that and determine whether a <a href="/blog/what-is-a-glp-1-medication" style={linkStyle}>GLP-1 treatment</a> plan is appropriate for you.</p>
+            <p>The fastest way to land on your actual price — not a range — is to have a licensed provider review your situation, your coverage, and your eligibility, then identify the most affordable route available to you. A short online eligibility check connects you with a licensed provider who can do exactly that and determine whether a <a href="/blog/what-is-a-glp-1-medication/" style={linkStyle}>GLP-1 treatment</a> plan is appropriate for you.</p>
             <p><strong>Check your eligibility and pricing — takes about 2 minutes</strong></p>
             <p>There{"'"}s no obligation, and you only move forward if a provider determines you{"'"}re a candidate.</p>
 

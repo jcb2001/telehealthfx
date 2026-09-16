@@ -23,7 +23,7 @@ function BlogBerberineTransdermalPatch() {
             <Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' , height: "auto"}} priority={true} />
           </div>
           <div>
-            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
+            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about/" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
             <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 29 min read</div>
           </div>
         </div>
@@ -53,10 +53,10 @@ function BlogBerberineTransdermalPatch() {
 
           <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>Activating the Master Switch</h3>
           <p>Berberine's primary mechanism of action is the activation of an enzyme called <strong>AMP-activated protein kinase (AMPK)</strong>. You can think of AMPK as your body's "metabolic master switch."</p>
-          <p>When you are sedentary and overfed, AMPK is turned off. Your body stores energy as visceral fat and your cells become resistant to insulin. When you exercise intensely, or when you fast, AMPK turns on. It signals your body that energy is low, forcing cells to pull glucose out of your blood and begin burning stored fat for fuel. Berberine chemically forces this switch "on," even when you are sitting still. This is why it is incredibly effective for treating <a href="/blog/berberine-pcos-weight-loss" style={{ color: 'var(--brand)', fontWeight: 500 }}>insulin resistance and PCOS</a>.</p>
+          <p>When you are sedentary and overfed, AMPK is turned off. Your body stores energy as visceral fat and your cells become resistant to insulin. When you exercise intensely, or when you fast, AMPK turns on. It signals your body that energy is low, forcing cells to pull glucose out of your blood and begin burning stored fat for fuel. Berberine chemically forces this switch "on," even when you are sitting still. This is why it is incredibly effective for treating <a href="/blog/berberine-pcos-weight-loss/" style={{ color: 'var(--brand)', fontWeight: 500 }}>insulin resistance and PCOS</a>.</p>
 
           <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Content Gap: The Oral Bioavailability Disaster</h2>
-          <p>If berberine is so powerful, why do so many people fail to lose weight on it? The answer is <a href="/blog/berberine-oral-bioavailability" style={{ color: 'var(--brand)', fontWeight: 500 }}>oral bioavailability</a>. Most wellness blogs tell you to "take 500mg three times a day." They do not tell you what happens when you swallow those capsules.</p>
+          <p>If berberine is so powerful, why do so many people fail to lose weight on it? The answer is <a href="/blog/berberine-oral-bioavailability/" style={{ color: 'var(--brand)', fontWeight: 500 }}>oral bioavailability</a>. Most wellness blogs tell you to "take 500mg three times a day." They do not tell you what happens when you swallow those capsules.</p>
 
           <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>The Hepatic Massacre</h3>
           <p>Berberine is highly susceptible to hepatic first-pass metabolism. When you swallow an oral capsule, it enters your stomach, moves to your intestines, and is routed via the portal vein directly to your liver. Liver enzymes (CYP450) attack the compound. Clinical studies demonstrate that the absolute oral bioavailability of standard berberine is less than 1%. That means if you take 1,000mg, 990mg is destroyed or excreted before it ever reaches your systemic circulation to activate AMPK.</p>
@@ -101,11 +101,11 @@ function BlogBerberineTransdermalPatch() {
             </table>
           </div>
 
-          <p>By utilizing <a href="/blog/transdermal-vs-oral" style={{ color: 'var(--brand)', fontWeight: 500 }}>transdermal delivery</a>, the alkaloid diffuses through the stratum corneum and directly into the capillary beds in the dermis. This provides a steady, continuous stream of AMPK activation for a full 24 hours.</p>
+          <p>By utilizing <a href="/blog/transdermal-vs-oral/" style={{ color: 'var(--brand)', fontWeight: 500 }}>transdermal delivery</a>, the alkaloid diffuses through the stratum corneum and directly into the capillary beds in the dermis. This provides a steady, continuous stream of AMPK activation for a full 24 hours.</p>
 
           <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Dihydroberberine (DHB): The Ultimate Patch Payload</h2>
           <p>While standard berberine can be delivered via patch, the ultimate clinical protocol uses <strong>Dihydroberberine (DHB)</strong>. DHB is a hydrogenated derivative of berberine. The extra hydrogen bonds make the molecule significantly more lipophilic (fat-soluble).</p>
-          <p>Because the skin's barrier (the stratum corneum) is highly lipid-rich, DHB diffuses through the skin barrier much faster and more efficiently than standard berberine. If you are shopping for a berberine transdermal patch, you should specifically look for one formulating with Dihydroberberine. We explain the chemical difference completely in our <a href="/blog/dihydroberberine-vs-berberine" style={{ color: 'var(--brand)', fontWeight: 500 }}>DHB vs Berberine guide</a>.</p>
+          <p>Because the skin's barrier (the stratum corneum) is highly lipid-rich, DHB diffuses through the skin barrier much faster and more efficiently than standard berberine. If you are shopping for a berberine transdermal patch, you should specifically look for one formulating with Dihydroberberine. We explain the chemical difference completely in our <a href="/blog/dihydroberberine-vs-berberine/" style={{ color: 'var(--brand)', fontWeight: 500 }}>DHB vs Berberine guide</a>.</p>
 
           <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
             <div style={{ width: 48, height: 48, borderRadius: '50%', background: 'var(--brand-soft)', color: 'var(--brand)', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 20px' }}>
@@ -121,10 +121,10 @@ function BlogBerberineTransdermalPatch() {
           <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Frequently Asked Questions (FAQ)</h2>
           
           <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>Are 72-hour berberine patches real?</h4>
-          <p style={{ marginBottom: 24 }}>No. They are a marketing scam. As we proved in our <a href="/blog/72-hour-berberine-patch" style={{ color: 'var(--brand)', fontWeight: 500 }}>expose on the 72-hour patch myth</a>, the active compound in a matrix patch is depleted in 18 to 24 hours. You must apply a fresh patch daily. Do not be fooled by companies selling a 10-pack of patches as a "30-day supply."</p>
+          <p style={{ marginBottom: 24 }}>No. They are a marketing scam. As we proved in our <a href="/blog/72-hour-berberine-patch/" style={{ color: 'var(--brand)', fontWeight: 500 }}>expose on the 72-hour patch myth</a>, the active compound in a matrix patch is depleted in 18 to 24 hours. You must apply a fresh patch daily. Do not be fooled by companies selling a 10-pack of patches as a "30-day supply."</p>
 
           <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>Is a berberine transdermal patch actually "Nature's Ozempic"?</h4>
-          <p style={{ marginBottom: 24 }}>No. This is influencer hype. Berberine works on AMPK, which improves insulin sensitivity. Ozempic works on GLP-1 receptors, which profoundly slows digestion and suppresses the neurological drive to eat. They are entirely different mechanisms. Berberine is excellent for mild metabolic repair; Ozempic is for severe obesity. We compare them head-to-head in our <a href="/blog/berberine-vs-ozempic" style={{ color: 'var(--brand)', fontWeight: 500 }}>Berberine vs Ozempic clinical breakdown</a>.</p>
+          <p style={{ marginBottom: 24 }}>No. This is influencer hype. Berberine works on AMPK, which improves insulin sensitivity. Ozempic works on GLP-1 receptors, which profoundly slows digestion and suppresses the neurological drive to eat. They are entirely different mechanisms. Berberine is excellent for mild metabolic repair; Ozempic is for severe obesity. We compare them head-to-head in our <a href="/blog/berberine-vs-ozempic/" style={{ color: 'var(--brand)', fontWeight: 500 }}>Berberine vs Ozempic clinical breakdown</a>.</p>
 
           <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>Where should I apply the patch?</h4>
           <p style={{ marginBottom: 24 }}>Apply it to a clean, dry, hairless area of skin (like the inner forearm, shoulder, or upper thigh). You must rotate the application site daily to prevent contact dermatitis from the adhesive.</p>

@@ -22,7 +22,7 @@ function BlogFDACompoundingBan() {
             <Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' , height: "auto"}} priority={true} />
           </div>
           <div>
-            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
+            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about/" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
             <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 45 min read</div>
           </div>
         </div>
@@ -30,7 +30,7 @@ function BlogFDACompoundingBan() {
         <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
           <Image src="/assets/fda-compounding-ban-featured.png" alt="FDA building with compounding pharmacy concept" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111' , height: "auto"}} priority={true} />
           
-          <p>On April 30, 2026, the FDA dropped a regulatory bombshell on the medical weight loss industry. In a landmark proposal, the agency announced its intention to exclude semaglutide, tirzepatide, and liraglutide from the 503B bulks list. If finalized, this ruling will fundamentally alter the landscape of medical weight loss, effectively banning large-scale outsourcing facilities from manufacturing these life-changing <a href="/blog/what-is-a-glp-1-medication" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 medications</a> from bulk drug substances.</p>
+          <p>On April 30, 2026, the FDA dropped a regulatory bombshell on the medical weight loss industry. In a landmark proposal, the agency announced its intention to exclude semaglutide, tirzepatide, and liraglutide from the 503B bulks list. If finalized, this ruling will fundamentally alter the landscape of medical weight loss, effectively banning large-scale outsourcing facilities from manufacturing these life-changing <a href="/blog/what-is-a-glp-1-medication/" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 medications</a> from bulk drug substances.</p>
 
           <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', maxWidth: '100%', background: '#000', borderRadius: '16px', margin: '40px 0', border: '1px solid var(--line-soft)' }}>
             <iframe loading="lazy" 
@@ -44,7 +44,7 @@ function BlogFDACompoundingBan() {
           </div>
 
           
-          <p>For millions of Americans who rely on compounded versions of <a href="/medications/semaglutide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Semaglutide</a> and <a href="/medications/tirzepatide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Tirzepatide</a> for metabolic health, this news has triggered panic, confusion, and fear. Will you lose access to your medication? Are you going to be forced back into a retail pharmacy system that charges upwards of $1,300 per month? Is your current medication even legal?</p>
+          <p>For millions of Americans who rely on compounded versions of <a href="/medications/semaglutide/" style={{ color: 'var(--brand)', fontWeight: 500 }}>Semaglutide</a> and <a href="/medications/tirzepatide/" style={{ color: 'var(--brand)', fontWeight: 500 }}>Tirzepatide</a> for metabolic health, this news has triggered panic, confusion, and fear. Will you lose access to your medication? Are you going to be forced back into a retail pharmacy system that charges upwards of $1,300 per month? Is your current medication even legal?</p>
 
           <p>The compounding boom that began in 2023 was driven by unprecedented national shortages of branded drugs like Wegovy and Zepbound. But as supply chains recovered and the FDA formally declared these shortages resolved in February 2025, the legal framework that permitted mass compounding vanished. What followed was a wave of warning letters in March 2026, leading directly to this unprecedented federal proposal.</p>
 
@@ -70,7 +70,7 @@ function BlogFDACompoundingBan() {
           <p>Section 503B created a completely different class of facility: the "outsourcing facility." These are massive, industrial-scale compounding operations designed to manufacture huge batches of sterile drugs to supply hospitals and massive clinical networks. Unlike 503A pharmacies, 503B facilities do not require patient-specific prescriptions. They can mass-produce vials and ship them in bulk.</p>
           <p>Because of their massive scale and the lack of individual prescriptions, 503B facilities bypass state boards and are regulated directly by the FDA. They must comply with Current Good Manufacturing Practice (cGMP) requirements—the exact same rigorous standards required of multi-billion-dollar pharmaceutical titans like Novo Nordisk and Eli Lilly. However, there is a catch: 503B facilities can only compound using bulk drug substances that appear on a specific, FDA-approved "503B bulks list."</p>
           
-          <p>The core of the FDA's April 30, 2026 proposal specifically targets <strong>503B outsourcing facilities</strong>. After evaluating the nomination of GLP-1 receptor agonists, the agency determined there is "no demonstrated clinical need" to compound these medications from bulk substances when FDA-approved, commercially available alternatives like <a href="/blog/wegovy-fda-label" style={{ color: 'var(--brand)', fontWeight: 500 }}>Wegovy and Zepbound</a> exist. This proposal aims to permanently shut down the industrial-scale compounding pipeline of GLP-1s.</p>
+          <p>The core of the FDA's April 30, 2026 proposal specifically targets <strong>503B outsourcing facilities</strong>. After evaluating the nomination of GLP-1 receptor agonists, the agency determined there is "no demonstrated clinical need" to compound these medications from bulk substances when FDA-approved, commercially available alternatives like <a href="/blog/wegovy-fda-label/" style={{ color: 'var(--brand)', fontWeight: 500 }}>Wegovy and Zepbound</a> exist. This proposal aims to permanently shut down the industrial-scale compounding pipeline of GLP-1s.</p>
 
           <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The Shortage Era and the Wild West of Telehealth</h2>
           
@@ -111,7 +111,7 @@ function BlogFDACompoundingBan() {
 
           <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The Consumer Protection Checklist: Spotting the 7 Red Flags</h2>
           
-          <p>With the FTC launching major enforcement actions against several telehealth providers for deceptive practices, hidden fees, and illegal compounding, it is imperative to act as an informed consumer. If you are exploring <a href="/blog/how-to-choose-a-telehealth-weight-loss-program-and" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>telehealth weight loss</a> options in 2026, you must protect your health and your finances. We have developed this 8-point consumer protection checklist to help you identify the red flags of an illicit operation.</p>
+          <p>With the FTC launching major enforcement actions against several telehealth providers for deceptive practices, hidden fees, and illegal compounding, it is imperative to act as an informed consumer. If you are exploring <a href="/blog/how-to-choose-a-telehealth-weight-loss-program-and/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>telehealth weight loss</a> options in 2026, you must protect your health and your finances. We have developed this 8-point consumer protection checklist to help you identify the red flags of an illicit operation.</p>
           
           <ol>
             <li style={{ marginBottom: 16 }}><strong>Hidden Membership Fees:</strong> The most common predatory tactic. Platforms lure patients in with a low advertised medication cost (e.g., "$99/month"), but bury a mandatory, recurring $135+ monthly subscription fee in the fine print. At TelehealthFX, we demand radical transparency: the price of the medication includes the clinical care. There are zero hidden membership fees.</li>
@@ -131,7 +131,7 @@ function BlogFDACompoundingBan() {
           
           <p>The superior alternative is a modernized, compliance-first telehealth ecosystem like TelehealthFX. By operating strictly within the legal bounds of patient-specific prescribing, partnering exclusively with verified U.S. licensed 503A pharmacies, and refusing to engage in hidden subscription fees, TelehealthFX provides concierge-level clinical care. </p>
 
-          <p>TelehealthFX doesn't just offer medication; they offer a comprehensive metabolic strategy. Alongside transparently priced GLP-1 therapies, patients have access to <a href="/medications/nad" style={{ color: 'var(--brand)', fontWeight: 500 }}>NAD+ injections</a> to restore mitochondrial energy and <a href="/medications/sermorelin" style={{ color: 'var(--brand)', fontWeight: 500 }}>Sermorelin peptide therapy</a> to preserve lean muscle mass during extreme fat loss. It is a complete, clinically sound approach to longevity and weight management.</p>
+          <p>TelehealthFX doesn't just offer medication; they offer a comprehensive metabolic strategy. Alongside transparently priced GLP-1 therapies, patients have access to <a href="/medications/nad/" style={{ color: 'var(--brand)', fontWeight: 500 }}>NAD+ injections</a> to restore mitochondrial energy and <a href="/medications/sermorelin/" style={{ color: 'var(--brand)', fontWeight: 500 }}>Sermorelin peptide therapy</a> to preserve lean muscle mass during extreme fat loss. It is a complete, clinically sound approach to longevity and weight management.</p>
 
           <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Frequently Asked Questions (FAQ)</h2>
           
@@ -145,7 +145,7 @@ function BlogFDACompoundingBan() {
           <p style={{ marginBottom: 24 }}>The FDA is prioritizing patient safety. They found 'no demonstrated clinical need' for bulk compounding of these drugs when FDA-approved versions are available. They also issued warning letters to pharmacies using unsafe ingredients like 'semaglutide sodium' instead of the approved base molecule.</p>
 
           <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>Can I just use "Nature's Ozempic" instead?</h4>
-          <p style={{ marginBottom: 24 }}>"Nature's Ozempic" is a marketing term for <a href="/medications/berberine" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Berberine</a>. While <a href="/blog/berberine-vs-ozempic" style={{ color: 'var(--brand)', fontWeight: 500 }}>berberine</a> is a highly effective, natural AMPK activator that improves insulin sensitivity, it does not possess the powerful incretin hormone action of a true GLP-1 medication. It is an excellent supplement, but not a pharmaceutical equivalent for extreme weight loss.</p>
+          <p style={{ marginBottom: 24 }}>"Nature's Ozempic" is a marketing term for <a href="/medications/berberine/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Berberine</a>. While <a href="/blog/berberine-vs-ozempic/" style={{ color: 'var(--brand)', fontWeight: 500 }}>berberine</a> is a highly effective, natural AMPK activator that improves insulin sensitivity, it does not possess the powerful incretin hormone action of a true GLP-1 medication. It is an excellent supplement, but not a pharmaceutical equivalent for extreme weight loss.</p>
 
           <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
             <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Ready for Transparent, Clinical Weight Loss?</h2>

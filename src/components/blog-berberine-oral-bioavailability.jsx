@@ -23,7 +23,7 @@ function BlogBerberineOralBioavailability() {
             <Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' , height: "auto"}} priority={true} />
           </div>
           <div>
-            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
+            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about/" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
             <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 25 min read</div>
           </div>
         </div>
@@ -139,10 +139,10 @@ function BlogBerberineOralBioavailability() {
           <p style={{ marginBottom: 24 }}>Liposomal delivery (wrapping the berberine molecule in a lipid sphere) does improve intestinal permeability, effectively bypassing Barrier 1. However, it still has to travel to the liver where it is subjected to first-pass metabolism (Barrier 3). While better than standard pills, it still causes GI distress in many patients and is inferior to the steady-state plasma levels achieved by transdermal delivery.</p>
 
           <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>What about dihydroberberine?</h4>
-          <p style={{ marginBottom: 24 }}>Dihydroberberine (DHB) is a hydrogenated derivative of berberine. The gut microbes naturally convert berberine into DHB to absorb it. Taking DHB directly improves absorption rates by roughly 5x compared to standard oral berberine. It is a massive improvement, but again, if taken orally, it still passes through the liver. We break this down completely in our <a href="/blog/dihydroberberine-vs-berberine" style={{ color: 'var(--brand)', fontWeight: 500 }}>Dihydroberberine vs Berberine comparison guide</a>.</p>
+          <p style={{ marginBottom: 24 }}>Dihydroberberine (DHB) is a hydrogenated derivative of berberine. The gut microbes naturally convert berberine into DHB to absorb it. Taking DHB directly improves absorption rates by roughly 5x compared to standard oral berberine. It is a massive improvement, but again, if taken orally, it still passes through the liver. We break this down completely in our <a href="/blog/dihydroberberine-vs-berberine/" style={{ color: 'var(--brand)', fontWeight: 500 }}>Dihydroberberine vs Berberine comparison guide</a>.</p>
 
           <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>Do transdermal patches actually last 72 hours?</h4>
-          <p style={{ marginBottom: 24 }}>No. As we proved in our <a href="/blog/72-hour-berberine-patch" style={{ color: 'var(--brand)', fontWeight: 500 }}>laboratory analysis of the 72-hour patch myth</a>, the active compound in almost all standard matrix patches is entirely depleted within 18 to 24 hours. You must apply a new patch daily to maintain steady-state AMPK activation.</p>
+          <p style={{ marginBottom: 24 }}>No. As we proved in our <a href="/blog/72-hour-berberine-patch/" style={{ color: 'var(--brand)', fontWeight: 500 }}>laboratory analysis of the 72-hour patch myth</a>, the active compound in almost all standard matrix patches is entirely depleted within 18 to 24 hours. You must apply a new patch daily to maintain steady-state AMPK activation.</p>
 
           <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>Can I just take a higher dose of oral pills?</h4>
           <p style={{ marginBottom: 24 }}>Increasing the oral dose exponentially increases the gastrointestinal destruction without meaningfully increasing plasma levels, because the liver simply ramps up its CYP450 enzyme production to metabolize the excess. You will hit a ceiling of efficacy while experiencing catastrophic diarrhea. Do not mega-dose oral berberine.</p>

@@ -22,7 +22,7 @@ export function BlogGlp1AndAlcoholWhatYouNeedToKnow2026Clini() {
             </div>
             <div>
               <div style={{ fontWeight: 500, color: 'var(--ink)' }}>
-                <a href="/about" style={{ color: 'inherit', textDecoration: 'none' }}>Julian Mercer, M.S.</a>
+                <a href="/about/" style={{ color: 'inherit', textDecoration: 'none' }}>Julian Mercer, M.S.</a>
               </div>
               <div style={{ fontSize: 14, color: 'var(--ink-2)' }}>Lead Bio-Systems Analyst | May 2, 2026</div>
             </div>
@@ -53,7 +53,7 @@ export function BlogGlp1AndAlcoholWhatYouNeedToKnow2026Clini() {
               To understand why you no longer want to drink, you must understand how your brain processes addiction. When you consume alcohol (or highly palatable, sugary foods), your brain releases massive surges of dopamine in the mesolimbic pathway. This dopamine hit is the neurological reward that drives the craving for the next drink.
             </p>
             <p>
-              As we discussed in our breakdown of <a href="/blog/glp-1-and-mental-health-anxiety-depression-food-no" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>GLP-1 and Mental Health</a>, these medications cross the blood-brain barrier. They bind directly to the GLP-1 receptors located in the very reward centers responsible for dopamine release. 
+              As we discussed in our breakdown of <a href="/blog/glp-1-and-mental-health-anxiety-depression-food-no/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>GLP-1 and Mental Health</a>, these medications cross the blood-brain barrier. They bind directly to the GLP-1 receptors located in the very reward centers responsible for dopamine release. 
             </p>
             <p>
               By agonizing these receptors, the medication artificially "caps" the dopamine spike. When you take a sip of alcohol on Semaglutide, the brain simply does not register the chemical reward. Because the neurological payoff is gone, the craving completely collapses. The behavior (drinking) is neurologically extinguished.
@@ -89,7 +89,7 @@ export function BlogGlp1AndAlcoholWhatYouNeedToKnow2026Clini() {
 
             <h3>2. Violent Gastrointestinal Distress</h3>
             <p>
-              As detailed in our <a href="/blog/glp-1-side-effects-how-to-manage-nausea-fatigue-mo" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>GLP-1 Side Effects Guide</a>, these medications significantly delay gastric emptying. Food and liquid sit in your stomach for hours longer than normal.
+              As detailed in our <a href="/blog/glp-1-side-effects-how-to-manage-nausea-fatigue-mo/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>GLP-1 Side Effects Guide</a>, these medications significantly delay gastric emptying. Food and liquid sit in your stomach for hours longer than normal.
             </p>
             <p>
               Alcohol is an extreme irritant to the gastric mucosal lining. When alcohol is trapped in a paralyzed stomach for an extended period, it rapidly ferments and inflames the lining. This results in severe acid reflux, projectile vomiting, and excruciating stomach cramping. 
@@ -153,7 +153,7 @@ export function BlogGlp1AndAlcoholWhatYouNeedToKnow2026Clini() {
                   Whether your goal is massive weight reduction or breaking the cycle of severe food and alcohol cravings, modern incretin therapy provides the biological override.
                 </p>
                 <p style={{ fontSize: 16, color: 'var(--ink-2)', marginBottom: 32, maxWidth: 600, margin: '0 auto 32px' }}>
-                  TelehealthFX provides U.S.-licensed, quality-verified compounded Semaglutide and Tirzepatide with strict physician oversight. Learn how to identify safe providers in our guide to spotting <a href="/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Hidden Fees in Telehealth</a>.
+                  TelehealthFX provides U.S.-licensed, quality-verified compounded Semaglutide and Tirzepatide with strict physician oversight. Learn how to identify safe providers in our guide to spotting <a href="/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Hidden Fees in Telehealth</a>.
                 </p>
                 <div style={{ display: 'flex', gap: 16, justifyContent: 'center' }}>
                   <a href={START_URL} className="btn btn-primary" style={{ fontSize: 18, padding: '0 32px' }}>

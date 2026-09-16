@@ -8,7 +8,7 @@ function BlogGLP1TaxDeduction() {
   return (<><section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}><div className="container" style={{ maxWidth: 800 }}>
     <div className="eyebrow" style={{ marginBottom: 20 }}>Financial Guide</div>
     <h1 className="serif" style={{ fontSize: 52, marginBottom: 24, lineHeight: 1.08 }}>Is Weight Loss Medication Tax Deductible? <span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>GLP-1 Costs, HSA/FSA &amp; Medical Expense Deductions (2026 Guide)</span></h1>
-    <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}><div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)' }}><Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%', height: "auto"}} priority={true} /></div><div><div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div><div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 16 min read</div></div></div>
+    <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}><div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)' }}><Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%', height: "auto"}} priority={true} /></div><div><div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about/" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div><div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 16 min read</div></div></div>
     <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
       <Image src="/assets/glp1-tax-deduction-featured.png" alt="Medical receipt next to tax form and medication" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', height: "auto"}} priority={true} />
       <p>If you are paying $199–$499/month out-of-pocket for compounded GLP-1 medication, you may be able to recover <strong>20–37% of those costs</strong> through HSA/FSA accounts, medical expense tax deductions, or both. Over a year of treatment, this can save $500–$2,000+. Here is exactly how — and what documentation you need.</p>
@@ -26,7 +26,7 @@ function BlogGLP1TaxDeduction() {
       </div>
 
       <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Method 1: HSA/FSA (Pre-Tax Dollars)</h2>
-      <p>This is the simplest and most impactful way to reduce your GLP-1 cost. We cover this in depth in our <a href="/blog/hsa-fsa-glp-1-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>complete HSA/FSA guide</a>, but here is the summary:</p>
+      <p>This is the simplest and most impactful way to reduce your GLP-1 cost. We cover this in depth in our <a href="/blog/hsa-fsa-glp-1-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>complete HSA/FSA guide</a>, but here is the summary:</p>
       <ul>
         <li style={{ marginBottom: 12 }}><strong>How it works:</strong> HSA and FSA contributions are pre-tax — money goes in before income tax, Social Security tax, and Medicare tax are calculated. When you pay for GLP-1 with these funds, you effectively reduce the cost by your marginal tax rate.</li>
         <li style={{ marginBottom: 12 }}><strong>Is GLP-1 eligible?</strong> Yes. Prescription medication for a diagnosed medical condition (obesity, BMI 30+, or BMI 27+ with comorbidity) is an eligible expense under IRS Publication 502.</li>
@@ -53,7 +53,7 @@ function BlogGLP1TaxDeduction() {
 
       <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
         <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Effective Cost: As Low as $125/Month</h3>
-        <p style={{ marginBottom: 24, fontSize: 16 }}>$199/month compounded semaglutide, paid with HSA at a 37% tax bracket. Even less with tirzepatide at higher brackets. <a href="/blog/hsa-fsa-glp-1-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>Full HSA/FSA guide →</a></p>
+        <p style={{ marginBottom: 24, fontSize: 16 }}>$199/month compounded semaglutide, paid with HSA at a 37% tax bracket. Even less with tirzepatide at higher brackets. <a href="/blog/hsa-fsa-glp-1-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>Full HSA/FSA guide →</a></p>
         <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>Start Your Evaluation <Icon.Arrow /></a>
       </div>
 
@@ -70,15 +70,15 @@ function BlogGLP1TaxDeduction() {
       <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>Can I deduct compounded medication, or only brand-name?</h4>
       <p style={{ marginBottom: 24 }}>Both. The IRS does not distinguish between brand-name and compounded prescriptions. If it is prescribed by a licensed clinician for a medical condition, it is an eligible medical expense.</p>
       <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>What if I am using GLP-1 for {"'"}cosmetic{"'"} weight loss?</h4>
-      <p style={{ marginBottom: 24 }}>GLP-1 is prescribed for medical weight management — obesity (BMI 30+) or overweight with comorbidity (BMI 27+). This is a medical treatment, not cosmetic. The distinction matters for tax purposes. If your clinician prescribed it, it qualifies. See our <a href="/blog/glp-1-bmi-27-30-eligibility-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>eligibility guide</a>.</p>
+      <p style={{ marginBottom: 24 }}>GLP-1 is prescribed for medical weight management — obesity (BMI 30+) or overweight with comorbidity (BMI 27+). This is a medical treatment, not cosmetic. The distinction matters for tax purposes. If your clinician prescribed it, it qualifies. See our <a href="/blog/glp-1-bmi-27-30-eligibility-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>eligibility guide</a>.</p>
       <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>Can I use HSA/FSA to pay for compounded semaglutide?</h4>
-      <p style={{ marginBottom: 24 }}>Yes. Compounded semaglutide prescribed for a medical condition is HSA/FSA eligible. Payment can be made directly from your HSA/FSA debit card. If you pay out-of-pocket, you can reimburse yourself from your HSA. Full details in our <a href="/blog/hsa-fsa-glp-1-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>HSA/FSA guide</a>.</p>
+      <p style={{ marginBottom: 24 }}>Yes. Compounded semaglutide prescribed for a medical condition is HSA/FSA eligible. Payment can be made directly from your HSA/FSA debit card. If you pay out-of-pocket, you can reimburse yourself from your HSA. Full details in our <a href="/blog/hsa-fsa-glp-1-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>HSA/FSA guide</a>.</p>
       <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>Are the telehealth consultation fees also deductible?</h4>
       <p style={{ marginBottom: 24 }}>Yes. Telehealth visits with a licensed clinician are qualified medical expenses for HSA/FSA and Schedule A purposes.</p>
 
       <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
         <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Already Affordable. Now Tax-Advantaged.</h2>
-        <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 500, margin: '0 auto 32px' }}>Compounded semaglutide from $199/mo. <a href="/blog/hsa-fsa-glp-1-2026" style={{ color: '#FBF8F3', textDecoration: 'underline' }}>HSA/FSA accepted</a>. Month-to-month. Cancel anytime.</p>
+        <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 500, margin: '0 auto 32px' }}>Compounded semaglutide from $199/mo. <a href="/blog/hsa-fsa-glp-1-2026/" style={{ color: '#FBF8F3', textDecoration: 'underline' }}>HSA/FSA accepted</a>. Month-to-month. Cancel anytime.</p>
         <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-lg" style={{ background: '#FBF8F3', color: 'var(--ink)', display: 'inline-flex', justifyContent: 'center', width: '100%', maxWidth: 250 }}>Get Started <Icon.Arrow /></a>
       </div>
       <div style={{ marginTop: 80, paddingTop: 40, borderTop: '1px solid var(--line-soft)', fontSize: 14, color: 'var(--ink-3)' }}>

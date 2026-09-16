@@ -22,7 +22,7 @@ export function BlogGlp1PlateauWhenWeightLossStallsWhatToDo2() {
             </div>
             <div>
               <div style={{ fontWeight: 500, color: 'var(--ink)' }}>
-                <a href="/about" style={{ color: 'inherit', textDecoration: 'none' }}>Julian Mercer, M.S.</a>
+                <a href="/about/" style={{ color: 'inherit', textDecoration: 'none' }}>Julian Mercer, M.S.</a>
               </div>
               <div style={{ fontSize: 14, color: 'var(--ink-2)' }}>Lead Bio-Systems Analyst | May 2, 2026</div>
             </div>
@@ -98,7 +98,7 @@ export function BlogGlp1PlateauWhenWeightLossStallsWhatToDo2() {
 
             <h3>3. Switching Molecules (The SURMOUNT Protocol)</h3>
             <p>
-              If you have completely maxed out the highest dose of Semaglutide (2.4mg) and your weight has been stalled for months, the definitive clinical move is to switch from the single-agonist to the dual-agonist. As we break down in our <a href="/blog/tirzepatide-vs-semaglutide-which-glp-1-is-right-fo" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Tirzepatide vs. Semaglutide Guide</a>, Tirzepatide incorporates the GIP receptor, which profoundly enhances lipid clearance in white adipose tissue. Transitioning a stalled Semaglutide patient to Tirzepatide is the most reliable way to shatter a late-stage plateau.
+              If you have completely maxed out the highest dose of Semaglutide (2.4mg) and your weight has been stalled for months, the definitive clinical move is to switch from the single-agonist to the dual-agonist. As we break down in our <a href="/blog/tirzepatide-vs-semaglutide-which-glp-1-is-right-fo/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Tirzepatide vs. Semaglutide Guide</a>, Tirzepatide incorporates the GIP receptor, which profoundly enhances lipid clearance in white adipose tissue. Transitioning a stalled Semaglutide patient to Tirzepatide is the most reliable way to shatter a late-stage plateau.
             </p>
 
             <div className="card" style={{ padding: 32, background: 'var(--surface-2)', marginTop: 40, marginBottom: 40 }}>
@@ -125,7 +125,7 @@ export function BlogGlp1PlateauWhenWeightLossStallsWhatToDo2() {
 
             <h3>7. Sleep and Cortisol Management</h3>
             <p>
-              If you are chronically stressed and sleeping poorly, your body is flooded with cortisol. Cortisol is a highly catabolic stress hormone that actively promotes visceral fat storage and severe water retention. A patient can be in a perfect caloric deficit, but if their cortisol is spiked, their body will hold onto massive amounts of subcutaneous water, masking the fat loss on the scale. As we discussed in our <a href="/blog/nad-therapy-explained-anti-aging-energy-weight-los" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>NAD+ Therapy Guide</a>, optimizing cellular energy and deep sleep is critical for allowing the body to release stored fat.
+              If you are chronically stressed and sleeping poorly, your body is flooded with cortisol. Cortisol is a highly catabolic stress hormone that actively promotes visceral fat storage and severe water retention. A patient can be in a perfect caloric deficit, but if their cortisol is spiked, their body will hold onto massive amounts of subcutaneous water, masking the fat loss on the scale. As we discussed in our <a href="/blog/nad-therapy-explained-anti-aging-energy-weight-los/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>NAD+ Therapy Guide</a>, optimizing cellular energy and deep sleep is critical for allowing the body to release stored fat.
             </p>
 
             {/* CTA 2: Mid Funnel */}
@@ -162,7 +162,7 @@ export function BlogGlp1PlateauWhenWeightLossStallsWhatToDo2() {
                   A stall is a sign of metabolic adaptation, not failure. Partner with clinicians who possess the pharmacological tools to restart your progress.
                 </p>
                 <p style={{ fontSize: 16, color: 'var(--ink-2)', marginBottom: 32, maxWidth: 600, margin: '0 auto 32px' }}>
-                  TelehealthFX provides U.S.-licensed, quality-verified compounded Semaglutide and Tirzepatide with strict physician oversight. Learn how to verify safe providers in our guide to spotting <a href="/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Hidden Fees in Telehealth</a>.
+                  TelehealthFX provides U.S.-licensed, quality-verified compounded Semaglutide and Tirzepatide with strict physician oversight. Learn how to verify safe providers in our guide to spotting <a href="/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Hidden Fees in Telehealth</a>.
                 </p>
                 <div style={{ display: 'flex', gap: 16, justifyContent: 'center' }}>
                   <a href={START_URL} className="btn btn-primary" style={{ fontSize: 18, padding: '0 32px' }}>

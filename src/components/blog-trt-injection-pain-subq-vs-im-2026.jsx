@@ -8,7 +8,7 @@ function BlogTrtInjectionPainSubqVsIm2026() {
   return (<><section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}><div className="container" style={{ maxWidth: 800 }}>
     <div className="eyebrow" style={{ marginBottom: 20 }}>Treatment Protocols</div>
     <h1 className="serif" style={{ fontSize: 52, marginBottom: 24, lineHeight: 1.08 }}>TRT Needle Anxiety: <span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>Pain-Free SubQ vs. IM Injections</span></h1>
-    <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}><div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)' }}><Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%', height: "auto"}} priority={true} /></div><div><div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div><div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated June 2026 · 11 min read</div></div></div>
+    <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}><div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)' }}><Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%', height: "auto"}} priority={true} /></div><div><div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about/" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div><div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated June 2026 · 11 min read</div></div></div>
     <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
       <Image src="/assets/trt_injection_pain.png" alt="TRT SubQ vs IM injection infographic" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111', height: "auto"}} priority={true} />
       <p>Let's address the elephant in the room: nobody likes needles. For many men, the fear of jabbing themselves with a harpoon-sized needle twice a week is the only thing keeping them from starting Testosterone Replacement Therapy.</p>
@@ -37,7 +37,7 @@ function BlogTrtInjectionPainSubqVsIm2026() {
       <p>If the psychological barrier of an injection is still too high, you are not out of luck. Telehealth FX providers offer alternative pathways:</p>
       <ul>
         <li><strong>Compounded Testosterone Creams:</strong> Applied daily to the scrotum or shoulders, providing stable levels without a single needle.</li>
-        <li><strong>Enclomiphene:</strong> An <a href="/blog/enclomiphene-vs-trt-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>oral pill</a> that stimulates your body to produce its own testosterone naturally.</li>
+        <li><strong>Enclomiphene:</strong> An <a href="/blog/enclomiphene-vs-trt-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>oral pill</a> that stimulates your body to produce its own testosterone naturally.</li>
       </ul>
 
       <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>

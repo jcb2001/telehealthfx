@@ -13,7 +13,7 @@ function BlogSemaglutideWeightLossTimeline() {
       <h1 className="serif" style={{ fontSize: 56, marginBottom: 24, lineHeight: 1.1 }}>How Much Weight Will I Lose on Semaglutide? <span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>Realistic Results by Month (With Clinical Data)</span></h1>
       <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}>
         <div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)' }}><Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%', height: "auto"}} priority={true} /></div>
-        <div><div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div><div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 20 min read</div></div>
+        <div><div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about/" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div><div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 20 min read</div></div>
       </div>
       <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
         <Image src="/assets/semaglutide-weight-loss-timeline-featured.png" alt="Weight loss progress chart months 1-12 on semaglutide" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111', height: "auto"}} priority={true} />
@@ -55,12 +55,12 @@ function BlogSemaglutideWeightLossTimeline() {
         </div>
 
         <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Tirzepatide Comparison</h2>
-        <p>For context, <a href="/medications/tirzepatide" style={{ color: 'var(--brand)', fontWeight: 500 }}>tirzepatide</a> (the dual GLP-1/GIP agonist in Mounjaro/Zepbound) produces higher average weight loss at maximum dose:</p>
+        <p>For context, <a href="/medications/tirzepatide/" style={{ color: 'var(--brand)', fontWeight: 500 }}>tirzepatide</a> (the dual GLP-1/GIP agonist in Mounjaro/Zepbound) produces higher average weight loss at maximum dose:</p>
         <ul>
           <li style={{ marginBottom: 8 }}>Tirzepatide 15 mg: <strong>22.5%</strong> body weight loss at 72 weeks (SURMOUNT-1)</li>
           <li style={{ marginBottom: 8 }}>Semaglutide 2.4 mg: <strong>14.9%</strong> body weight loss at 68 weeks (STEP 1)</li>
         </ul>
-        <p>If maximum weight loss is your priority, explore our <a href="/blog/tirzepatide-without-diabetes-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>tirzepatide eligibility guide</a>.</p>
+        <p>If maximum weight loss is your priority, explore our <a href="/blog/tirzepatide-without-diabetes-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>tirzepatide eligibility guide</a>.</p>
 
         <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
           <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>See Your Projected Results</h3>
@@ -70,15 +70,15 @@ function BlogSemaglutideWeightLossTimeline() {
 
         <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Factors That Accelerate Results</h2>
         <ul>
-          <li style={{ marginBottom: 12 }}><strong>Protein-prioritized nutrition:</strong> 0.7–1.0 g protein per pound of goal body weight. See our <a href="/blog/glp-1-food-guide-what-to-eat" style={{ color: 'var(--brand)', fontWeight: 500 }}>nutrition guide</a></li>
-          <li style={{ marginBottom: 12 }}><strong>Resistance training:</strong> Preserves muscle mass, increases metabolic rate, improves body composition. See our <a href="/blog/glp-1-and-exercise-how-to-combine-medication-with" style={{ color: 'var(--brand)', fontWeight: 500 }}>exercise protocol</a></li>
+          <li style={{ marginBottom: 12 }}><strong>Protein-prioritized nutrition:</strong> 0.7–1.0 g protein per pound of goal body weight. See our <a href="/blog/glp-1-food-guide-what-to-eat/" style={{ color: 'var(--brand)', fontWeight: 500 }}>nutrition guide</a></li>
+          <li style={{ marginBottom: 12 }}><strong>Resistance training:</strong> Preserves muscle mass, increases metabolic rate, improves body composition. See our <a href="/blog/glp-1-and-exercise-how-to-combine-medication-with/" style={{ color: 'var(--brand)', fontWeight: 500 }}>exercise protocol</a></li>
           <li style={{ marginBottom: 12 }}><strong>Consistent medication adherence:</strong> Weekly injections on the same day at consistent intervals</li>
           <li style={{ marginBottom: 12 }}><strong>Hydration:</strong> Minimum 64 oz daily; dehydration mimics hunger signals</li>
-          <li style={{ marginBottom: 12 }}><strong>Sleep optimization:</strong> 7–9 hours nightly. Sleep deprivation increases ghrelin and reduces GLP-1 effectiveness. See our <a href="/blog/glp-1-and-sleep-the-surprising-connection-between" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 and sleep guide</a></li>
+          <li style={{ marginBottom: 12 }}><strong>Sleep optimization:</strong> 7–9 hours nightly. Sleep deprivation increases ghrelin and reduces GLP-1 effectiveness. See our <a href="/blog/glp-1-and-sleep-the-surprising-connection-between/" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 and sleep guide</a></li>
         </ul>
 
         <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>When to Expect a Plateau</h2>
-        <p>Most patients experience a weight loss plateau between months 8 and 14. This is normal and expected — it does not mean the medication has stopped working. Your body is recalibrating its metabolic setpoint. Options at this stage include dose optimization, adding <a href="/blog/glp-1-and-exercise-how-to-combine-medication-with" style={{ color: 'var(--brand)', fontWeight: 500 }}>structured exercise</a>, or discussing a <a href="/blog/glp-1-plateau-when-weight-loss-stalls-what-to-do-2" style={{ color: 'var(--brand)', fontWeight: 500 }}>plateau intervention plan</a> with your clinician.</p>
+        <p>Most patients experience a weight loss plateau between months 8 and 14. This is normal and expected — it does not mean the medication has stopped working. Your body is recalibrating its metabolic setpoint. Options at this stage include dose optimization, adding <a href="/blog/glp-1-and-exercise-how-to-combine-medication-with/" style={{ color: 'var(--brand)', fontWeight: 500 }}>structured exercise</a>, or discussing a <a href="/blog/glp-1-plateau-when-weight-loss-stalls-what-to-do-2/" style={{ color: 'var(--brand)', fontWeight: 500 }}>plateau intervention plan</a> with your clinician.</p>
 
         <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Frequently Asked Questions</h2>
         <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>How much weight will I lose in the first month?</h4>
@@ -86,7 +86,7 @@ function BlogSemaglutideWeightLossTimeline() {
         <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>Can I lose 50 pounds on semaglutide?</h4>
         <p style={{ marginBottom: 24 }}>If your starting weight supports it, yes. A patient starting at 280 lbs who achieves the trial average of 15% would lose approximately 42 lbs. Patients who add structured exercise and optimized nutrition frequently exceed the trial average.</p>
         <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>Do I gain the weight back if I stop?</h4>
-        <p style={{ marginBottom: 24 }}>Without behavioral changes, approximately two-thirds of lost weight returns within a year of discontinuation. This is why we emphasize building sustainable habits during the active treatment period. Read our <a href="/blog/what-happens-when-you-stop-glp-1-medication-the-re" style={{ color: 'var(--brand)', fontWeight: 500 }}>discontinuation guide</a>.</p>
+        <p style={{ marginBottom: 24 }}>Without behavioral changes, approximately two-thirds of lost weight returns within a year of discontinuation. This is why we emphasize building sustainable habits during the active treatment period. Read our <a href="/blog/what-happens-when-you-stop-glp-1-medication-the-re/" style={{ color: 'var(--brand)', fontWeight: 500 }}>discontinuation guide</a>.</p>
 
         <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
           <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Your Transformation Starts This Week</h2>

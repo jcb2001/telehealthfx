@@ -28,7 +28,7 @@ function Blog8GLP1Innovations() {
             </div>
             <div>
               <div style={{ fontWeight: 500, fontSize: 14 }}>
-                <a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a>
+                <a href="/about/" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a>
               </div>
               <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>
                 Lead Bio-Systems Analyst · Updated June 2026 · 20 min read
@@ -54,13 +54,13 @@ function Blog8GLP1Innovations() {
               While first-generation therapies target only the GLP-1 receptor, the human endocrine system utilizes multiple overlapping hormones to regulate metabolism. The most significant innovation in peptide engineering is the development of single-molecule multi-receptor agonists that target GLP-1 alongside glucose-dependent insulinotropic polypeptide (GIP) and glucagon (GCG) receptors.
             </p>
             <p>
-              Tirzepatide represented the first wave of this innovation, acting as a dual GLP-1/GIP receptor agonist. GIP receptor activation synergizes with GLP-1 in the brain to suppress appetite while simultaneously buffering the gastrointestinal side effects of pure GLP-1. In the SURMOUNT-1 clinical trial, tirzepatide delivered average weight reductions of up to 20.9% over 72 weeks. You can read our detailed clinical breakdown of this dual-hormone mechanism in our <a href="/blog/semaglutide-vs-tirzepatide-decision-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>Semaglutide vs Tirzepatide comparative guide</a>.
+              Tirzepatide represented the first wave of this innovation, acting as a dual GLP-1/GIP receptor agonist. GIP receptor activation synergizes with GLP-1 in the brain to suppress appetite while simultaneously buffering the gastrointestinal side effects of pure GLP-1. In the SURMOUNT-1 clinical trial, tirzepatide delivered average weight reductions of up to 20.9% over 72 weeks. You can read our detailed clinical breakdown of this dual-hormone mechanism in our <a href="/blog/semaglutide-vs-tirzepatide-decision-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>Semaglutide vs Tirzepatide comparative guide</a>.
             </p>
             <p>
               The cutting edge of 2026 clinical research is <strong>retatrutide</strong>, a triple agonist targeting GLP-1, GIP, and GCG (glucagon) receptors. The addition of glucagon receptor agonism is a massive physiological breakthrough. Glucagon increases energy expenditure by directly stimulating mitochondrial lipolysis in hepatocytes and thermogenesis in brown adipose tissue. 
             </p>
             <p>
-              By combining energy output stimulation (glucagon) with appetite suppression and glycemic control (GLP-1 and GIP), retatrutide has demonstrated unprecedented efficacy. In Phase 2 clinical trials (the TRIUMPH study, n=338), patients taking the highest dose of retatrutide experienced an average weight loss of <strong>24.2% at 48 weeks</strong>. We outline the biochemical differences between these molecules in our <a href="/blog/tirzepatide-vs-retatrutide" style={{ color: 'var(--brand)', fontWeight: 500 }}>tirzepatide vs retatrutide review</a>.
+              By combining energy output stimulation (glucagon) with appetite suppression and glycemic control (GLP-1 and GIP), retatrutide has demonstrated unprecedented efficacy. In Phase 2 clinical trials (the TRIUMPH study, n=338), patients taking the highest dose of retatrutide experienced an average weight loss of <strong>24.2% at 48 weeks</strong>. We outline the biochemical differences between these molecules in our <a href="/blog/tirzepatide-vs-retatrutide/" style={{ color: 'var(--brand)', fontWeight: 500 }}>tirzepatide vs retatrutide review</a>.
             </p>
 
             <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>
@@ -76,7 +76,7 @@ function Blog8GLP1Innovations() {
               The leading candidate in this class is <strong>orforglipron</strong>. Because it is a non-peptide small molecule, orforglipron has high oral bioavailability and a long half-life, allowing for simple once-daily oral dosing without food or water restrictions. 
             </p>
             <p>
-              Phase 2 trial data published in the <em>New England Journal of Medicine</em> showed that oral orforglipron achieved mean weight losses of up to 14.7% at 36 weeks, matching or exceeding the efficacy of weekly subcutaneous liraglutide and early-phase semaglutide injections. We analyze the differences between these delivery methods in our <a href="/blog/oral-vs-injectable-semaglutide-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>oral vs injectable semaglutide clinical comparison</a>.
+              Phase 2 trial data published in the <em>New England Journal of Medicine</em> showed that oral orforglipron achieved mean weight losses of up to 14.7% at 36 weeks, matching or exceeding the efficacy of weekly subcutaneous liraglutide and early-phase semaglutide injections. We analyze the differences between these delivery methods in our <a href="/blog/oral-vs-injectable-semaglutide-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>oral vs injectable semaglutide clinical comparison</a>.
             </p>
 
             <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>
@@ -92,7 +92,7 @@ function Blog8GLP1Innovations() {
               Testosterone is a powerful regulator of muscle protein synthesis, acting through the androgen receptor and the intracellular mTOR pathway to preserve and build lean tissue even during a caloric deficit. By combining the powerful lipolytic and appetite-suppressing actions of a GLP-1 with the muscle-protective, anabolic signaling of optimized testosterone, patients achieve superior body composition shifts. 
             </p>
             <p>
-              Our combined approach ensures that weight loss is derived almost exclusively from visceral fat while preserving skeletal muscle, resulting in a healthier metabolic rate and a sustainable long-term transition. Read the full clinical rationale behind this dual-therapy system in our <a href="/blog/trt-plus-glp1-combo-therapy-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>complete TRT + GLP-1 dual therapy guide</a> and explore the physiological mechanisms in our <a href="/blog/glp-1-muscle-loss-the-hidden-risk-nobodys-talking" style={{ color: 'var(--brand)', fontWeight: 500 }}>skeletal muscle preservation analysis</a>.
+              Our combined approach ensures that weight loss is derived almost exclusively from visceral fat while preserving skeletal muscle, resulting in a healthier metabolic rate and a sustainable long-term transition. Read the full clinical rationale behind this dual-therapy system in our <a href="/blog/trt-plus-glp1-combo-therapy-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>complete TRT + GLP-1 dual therapy guide</a> and explore the physiological mechanisms in our <a href="/blog/glp-1-muscle-loss-the-hidden-risk-nobodys-talking/" style={{ color: 'var(--brand)', fontWeight: 500 }}>skeletal muscle preservation analysis</a>.
             </p>
 
             <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
@@ -141,14 +141,14 @@ function Blog8GLP1Innovations() {
               Neurodegenerative diseases like Alzheimer's and Parkinson's are characterized by chronic, destructive neuroinflammation, mitochondrial dysfunction, and synaptic loss. GLP-1 receptor agonists have been shown to cross the blood-brain barrier, reduce microglial activation, improve neuronal glucose metabolism, and promote synaptic plasticity.
             </p>
             <p>
-              This has led to major Phase 3 clinical trials, such as the <strong>EVOKE and EVOKE+ trials</strong> (enrolling over 1,800 patients), which are evaluating once-weekly semaglutide in patients with early Alzheimer's disease. Results are tracking whether GLP-1 therapy can slow cognitive decline and reduce brain atrophy. We track this promising field of neurology in our <a href="/blog/glp1-dementia-alzheimers-research-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 dementia and Alzheimer's clinical review</a>.
+              This has led to major Phase 3 clinical trials, such as the <strong>EVOKE and EVOKE+ trials</strong> (enrolling over 1,800 patients), which are evaluating once-weekly semaglutide in patients with early Alzheimer's disease. Results are tracking whether GLP-1 therapy can slow cognitive decline and reduce brain atrophy. We track this promising field of neurology in our <a href="/blog/glp1-dementia-alzheimers-research-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 dementia and Alzheimer's clinical review</a>.
             </p>
 
             <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>
               7. Addiction and Compulsive Behavior Mitigation
             </h2>
             <p>
-              As discussed in our scientific review of <a href="/blog/semaglutide-addiction-alcohol-nicotine-research-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 addiction and compulsive behavior research</a>, these peptides modulate the mesolimbic dopamine system. By binding to receptors in the ventral tegmental area (VTA), GLP-1 agonists blunt the release of dopamine in the nucleus accumbens in response to rewarding stimuli.
+              As discussed in our scientific review of <a href="/blog/semaglutide-addiction-alcohol-nicotine-research-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 addiction and compulsive behavior research</a>, these peptides modulate the mesolimbic dopamine system. By binding to receptors in the ventral tegmental area (VTA), GLP-1 agonists blunt the release of dopamine in the nucleus accumbens in response to rewarding stimuli.
             </p>
             <p>
               While this was initially studied to explain why patients lost interest in high-sugar, high-fat foods, researchers quickly realized it applied to other dopaminergic reward loops. 

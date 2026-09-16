@@ -23,7 +23,7 @@ export function BlogBerberineVsGlp1In2026CanNaturesOzempicAct() {
             </div>
             <div>
               <div style={{ fontWeight: 500, color: 'var(--ink)' }}>
-                <a href="/about" style={{ color: 'inherit', textDecoration: 'none' }}>Julian Mercer, M.S.</a>
+                <a href="/about/" style={{ color: 'inherit', textDecoration: 'none' }}>Julian Mercer, M.S.</a>
               </div>
               <div style={{ fontSize: 14, color: 'var(--ink-2)' }}>Lead Bio-Systems Analyst | May 2, 2026</div>
             </div>
@@ -40,7 +40,7 @@ export function BlogBerberineVsGlp1In2026CanNaturesOzempicAct() {
 
           <div className="blog-content">
             <p>
-              In the modern era of metabolic medicine, two diametrically opposed therapies have captured the global consciousness. On one side stands Semaglutide (Ozempic/Wegovy) and <a href="/blog/tirzepatide-vs-semaglutide-dual-agonist-mechanism" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Tirzepatide</a>—highly engineered, injectable synthetic peptides driving unprecedented pharmaceutical profits. On the other side stands Berberine, a golden isoquinoline alkaloid extracted from the roots of <a href="/blog/coptis-chinensis-vs-berberis-vulgaris-botanical-sources" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Coptis chinensis</a>, crowned by social media as "Nature's Ozempic."
+              In the modern era of metabolic medicine, two diametrically opposed therapies have captured the global consciousness. On one side stands Semaglutide (Ozempic/Wegovy) and <a href="/blog/tirzepatide-vs-semaglutide-dual-agonist-mechanism/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Tirzepatide</a>—highly engineered, injectable synthetic peptides driving unprecedented pharmaceutical profits. On the other side stands Berberine, a golden isoquinoline alkaloid extracted from the roots of <a href="/blog/coptis-chinensis-vs-berberis-vulgaris-botanical-sources/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Coptis chinensis</a>, crowned by social media as "Nature's Ozempic."
             </p>
             <p>
               The moniker "Nature's Ozempic" is a stroke of marketing genius, but clinically, it is highly misleading. Berberine and Semaglutide operate through fundamentally different cellular pathways. Treating an over-the-counter botanical extract as a direct 1-to-1 replacement for a subcutaneous incretin hormone sets patients up for massive disappointment. 
@@ -56,7 +56,7 @@ export function BlogBerberineVsGlp1In2026CanNaturesOzempicAct() {
 
             <h3>The GLP-1 Mechanism: Hypothalamic Override</h3>
             <p>
-              As we established in our guide to <a href="/blog/pharmacokinetics-ozempic-semaglutide-cellular-breakdown" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Semaglutide Pharmacokinetics</a>, GLP-1 agonists mimic the natural hormones released by your intestines after a meal. The synthetic peptide travels to the pancreas to stimulate insulin and suppress glucagon, but its true power lies in the brain. 
+              As we established in our guide to <a href="/blog/pharmacokinetics-ozempic-semaglutide-cellular-breakdown/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Semaglutide Pharmacokinetics</a>, GLP-1 agonists mimic the natural hormones released by your intestines after a meal. The synthetic peptide travels to the pancreas to stimulate insulin and suppress glucagon, but its true power lies in the brain. 
             </p>
             <p>
               Semaglutide crosses the blood-brain barrier and violently agonizes the pro-opiomelanocortin (POMC) neurons in the hypothalamus. It chemically eradicates "food noise" and induces profound satiety. It forces a massive caloric deficit because the patient simply loses the biological desire to eat. 
@@ -67,7 +67,7 @@ export function BlogBerberineVsGlp1In2026CanNaturesOzempicAct() {
               Berberine does not meaningfully bind to the GLP-1 receptors in the brain. It does not chemically obliterate your appetite. Instead, Berberine operates almost entirely on the cellular level by activating an enzyme called <strong>AMP-activated protein kinase (AMPK)</strong>.
             </p>
             <p>
-              AMPK is often referred to as the metabolic "master switch." When a cell runs low on energy (such as during intense exercise or fasting), AMPK is activated. It forces the cell to stop storing fat and start burning stored energy (glucose and fatty acids) to survive. Berberine artificially triggers this AMPK switch even when you haven't exercised. It drastically improves cellular insulin sensitivity, making it incredibly effective for managing conditions like <a href="/blog/berberine-for-pcos-what-the-research-actually-says" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>PCOS</a> and mild Type 2 Diabetes. 
+              AMPK is often referred to as the metabolic "master switch." When a cell runs low on energy (such as during intense exercise or fasting), AMPK is activated. It forces the cell to stop storing fat and start burning stored energy (glucose and fatty acids) to survive. Berberine artificially triggers this AMPK switch even when you haven't exercised. It drastically improves cellular insulin sensitivity, making it incredibly effective for managing conditions like <a href="/blog/berberine-for-pcos-what-the-research-actually-says/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>PCOS</a> and mild Type 2 Diabetes. 
             </p>
             <p>
               However, because Berberine does not chemically force you to stop eating, it cannot induce the massive, rapid weight loss seen with GLP-1 injections. If you take Berberine but continue to overeat, the AMPK activation will not save you.
@@ -96,7 +96,7 @@ export function BlogBerberineVsGlp1In2026CanNaturesOzempicAct() {
               <strong>Injectable GLP-1s</strong> possess near 100% bioavailability. Because the medication is injected directly into the subcutaneous tissue, it completely bypasses the destructive environment of the digestive tract. The synthetic peptide binds to Albumin in the blood and circulates continuously for 7 days.
             </p>
             <p>
-              <strong>Oral Berberine</strong> suffers from catastrophic pharmacokinetics. As we detailed in our <a href="/blog/dihydroberberine-vs-berberine" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Dihydroberberine Analysis</a>, raw Berberine HCL has an absolute oral bioavailability of less than 1%. 
+              <strong>Oral Berberine</strong> suffers from catastrophic pharmacokinetics. As we detailed in our <a href="/blog/dihydroberberine-vs-berberine/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Dihydroberberine Analysis</a>, raw Berberine HCL has an absolute oral bioavailability of less than 1%. 
             </p>
             <ul>
               <li>The liver targets Berberine as a foreign xenobiotic and violently destroys it via first-pass metabolism.</li>
@@ -121,7 +121,7 @@ export function BlogBerberineVsGlp1In2026CanNaturesOzempicAct() {
 
             <h2 className="serif" style={{ fontSize: 36, marginTop: 48, marginBottom: 24 }}>The Sarcopenia Advantage: Where Berberine Wins</h2>
             <p>
-              While GLP-1 agonists dominate absolute weight loss, they harbor a dark, hidden risk: <a href="/blog/glp-1-muscle-loss-the-hidden-risk-nobodys-talking" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>GLP-1 Induced Muscle Loss</a>. Because GLP-1s force patients into extreme caloric starvation, the body frequently catabolizes its own skeletal muscle to survive. Up to 40% of the weight lost on Semaglutide can be lean mass, permanently depressing the patient's Basal Metabolic Rate (BMR) and setting them up for a devastating rebound.
+              While GLP-1 agonists dominate absolute weight loss, they harbor a dark, hidden risk: <a href="/blog/glp-1-muscle-loss-the-hidden-risk-nobodys-talking/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>GLP-1 Induced Muscle Loss</a>. Because GLP-1s force patients into extreme caloric starvation, the body frequently catabolizes its own skeletal muscle to survive. Up to 40% of the weight lost on Semaglutide can be lean mass, permanently depressing the patient's Basal Metabolic Rate (BMR) and setting them up for a devastating rebound.
             </p>
             <p>
               Berberine actually holds a distinct clinical advantage here. Because Berberine does not induce starvation-level appetite suppression, the risk of rapid sarcopenia is virtually zero. Furthermore, AMPK activation in skeletal muscle actively promotes glucose uptake and metabolic flexibility. For patients looking to slowly "recomp" their body—losing a few pounds of fat while building strength in the gym—Berberine is structurally vastly superior to GLP-1s.
@@ -147,7 +147,7 @@ export function BlogBerberineVsGlp1In2026CanNaturesOzempicAct() {
               What happens when you stop taking the compound? 
             </p>
             <p>
-              As we discussed in our breakdown of the <a href="/blog/what-happens-when-you-stop-glp-1-medication-the-re" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>GLP-1 Rebound Effect</a>, stopping Semaglutide cold-turkey causes a violent resurgence of "food noise." The body, desperate to return to its original set-point, floods the system with Ghrelin. Patients frequently regain 60% of the lost weight within a year.
+              As we discussed in our breakdown of the <a href="/blog/what-happens-when-you-stop-glp-1-medication-the-re/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>GLP-1 Rebound Effect</a>, stopping Semaglutide cold-turkey causes a violent resurgence of "food noise." The body, desperate to return to its original set-point, floods the system with Ghrelin. Patients frequently regain 60% of the lost weight within a year.
             </p>
             <p>
               Berberine does not cause this hormonal rebound. Because it never artificially suppressed your hypothalamic hunger centers, stopping the supplement does not trigger a binge-eating cascade. In fact, many functional medicine practitioners actually use Berberine as an "exit strategy bridge" to help patients transition off GLP-1 medications and manage mild insulin resistance naturally.
@@ -174,7 +174,7 @@ export function BlogBerberineVsGlp1In2026CanNaturesOzempicAct() {
                   If OTC supplements have failed to move the scale, it is time to access clinical-grade pharmacology.
                 </p>
                 <p style={{ fontSize: 16, color: 'var(--ink-2)', marginBottom: 32, maxWidth: 600, margin: '0 auto 32px' }}>
-                  TelehealthFX provides U.S.-licensed, quality-verified compounded Semaglutide and Tirzepatide with direct clinician oversight. No hidden membership fees. Just real science. Learn how to identify safe providers in our guide to spotting <a href="/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Hidden Fees in Telehealth</a>.
+                  TelehealthFX provides U.S.-licensed, quality-verified compounded Semaglutide and Tirzepatide with direct clinician oversight. No hidden membership fees. Just real science. Learn how to identify safe providers in our guide to spotting <a href="/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Hidden Fees in Telehealth</a>.
                 </p>
                 <div style={{ display: 'flex', gap: 16, justifyContent: 'center' }}>
                   <a href={START_URL} className="btn btn-primary" style={{ fontSize: 18, padding: '0 32px' }}>

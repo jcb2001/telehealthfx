@@ -19,7 +19,7 @@ function BlogCheapestCompoundedSemaglutide() {
             <Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%', height: "auto"}} priority={true} />
           </div>
           <div>
-            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
+            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about/" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
             <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 28 min read</div>
           </div>
         </div>
@@ -27,7 +27,7 @@ function BlogCheapestCompoundedSemaglutide() {
         <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
           <Image src="/assets/cheapest-compounded-semaglutide-featured.png" alt="Compounded semaglutide vials with price comparison" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111', height: "auto"}} priority={true} />
 
-          <p>You have decided on compounded <a href="/medications/semaglutide" style={{ color: 'var(--brand)', fontWeight: 500 }}>semaglutide</a>. You know it is the most affordable pathway to <a href="/blog/what-is-a-glp-1-medication" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 therapy</a>. Now you are comparing providers, and every single one claims to be the "most affordable." The advertised prices range from $99 to $499 per month—and the gap between what is <em>advertised</em> and what you <em>actually pay</em> can be hundreds of dollars.</p>
+          <p>You have decided on compounded <a href="/medications/semaglutide/" style={{ color: 'var(--brand)', fontWeight: 500 }}>semaglutide</a>. You know it is the most affordable pathway to <a href="/blog/what-is-a-glp-1-medication/" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 therapy</a>. Now you are comparing providers, and every single one claims to be the "most affordable." The advertised prices range from $99 to $499 per month—and the gap between what is <em>advertised</em> and what you <em>actually pay</em> can be hundreds of dollars.</p>
 
           <p>This guide cuts through the noise with a transparent pricing methodology. We evaluated the <strong>true all-in monthly cost</strong> across major telehealth compounded semaglutide providers, accounting for hidden membership fees, consultation charges, shipping costs, and dose escalation surcharges. If a price on this page does not include every cost required to receive medication, we flag it.</p>
 
@@ -36,7 +36,7 @@ function BlogCheapestCompoundedSemaglutide() {
           <p>Before comparing providers, understand the four components that determine your real monthly cost:</p>
           <ol>
             <li style={{ marginBottom: 12 }}><strong>Medication Cost:</strong> The base price for compounded semaglutide itself.</li>
-            <li style={{ marginBottom: 12 }}><strong>Platform/Membership Fee:</strong> Many providers charge $49–$149/month on top of medication cost. This is the #1 <a href="/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot" style={{ color: 'var(--brand)', fontWeight: 500 }}>hidden fee</a> in the industry.</li>
+            <li style={{ marginBottom: 12 }}><strong>Platform/Membership Fee:</strong> Many providers charge $49–$149/month on top of medication cost. This is the #1 <a href="/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot/" style={{ color: 'var(--brand)', fontWeight: 500 }}>hidden fee</a> in the industry.</li>
             <li style={{ marginBottom: 12 }}><strong>Consultation Fees:</strong> Some charge $50–$150 per clinician interaction.</li>
             <li style={{ marginBottom: 12 }}><strong>Shipping:</strong> Cold-chain shipping can add $15–$35 per shipment.</li>
           </ol>
@@ -79,7 +79,7 @@ function BlogCheapestCompoundedSemaglutide() {
 
           <p>The second most common pricing deception: <strong>advertising the starting-dose price as "the" price.</strong> Semaglutide therapy begins at 0.25 mg/week and titrates up to a maintenance dose of 1.0–2.4 mg/week. Many providers advertise their 0.25 mg price ($99–$149/month) but charge 50–100% more for maintenance doses.</p>
 
-          <p>Before committing, always ask: <em>"What will my monthly cost be at the maintenance dose?"</em> An ethical provider gives you this information upfront. If they dodge the question, move on. For a complete breakdown of every cost variable, see our <a href="/blog/glp-1-cost-without-insurance-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 cost without insurance guide</a>.</p>
+          <p>Before committing, always ask: <em>"What will my monthly cost be at the maintenance dose?"</em> An ethical provider gives you this information upfront. If they dodge the question, move on. For a complete breakdown of every cost variable, see our <a href="/blog/glp-1-cost-without-insurance-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 cost without insurance guide</a>.</p>
 
           <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Safety Checklist: Cheapest Doesn't Mean Best</h2>
 
@@ -92,14 +92,14 @@ function BlogCheapestCompoundedSemaglutide() {
             <li style={{ marginBottom: 12 }}>✅ Includes <strong>cold-chain shipping</strong> with temperature-controlled packaging</li>
           </ul>
 
-          <p>For a deep dive on compounding safety, read our <a href="/blog/is-compounded-semaglutide-safe-what-you-need-to-kn" style={{ color: 'var(--brand)', fontWeight: 500 }}>compounded semaglutide safety guide</a> and understand the <a href="/blog/fda-compounding-ban" style={{ color: 'var(--brand)', fontWeight: 500 }}>FDA regulatory landscape</a>.</p>
+          <p>For a deep dive on compounding safety, read our <a href="/blog/is-compounded-semaglutide-safe-what-you-need-to-kn/" style={{ color: 'var(--brand)', fontWeight: 500 }}>compounded semaglutide safety guide</a> and understand the <a href="/blog/fda-compounding-ban/" style={{ color: 'var(--brand)', fontWeight: 500 }}>FDA regulatory landscape</a>.</p>
 
           <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Consider the Alternatives</h2>
 
           <p>If compounded semaglutide pricing still stretches your budget, explore these options:</p>
           <ul>
-            <li style={{ marginBottom: 12 }}><strong>Compounded <a href="/medications/tirzepatide" style={{ color: 'var(--brand)', fontWeight: 500 }}>tirzepatide</a>:</strong> Slightly more expensive but produces greater weight loss. See our <a href="/blog/zepbound-vs-mounjaro-compounded-tirzepatide" style={{ color: 'var(--brand)', fontWeight: 500 }}>tirzepatide comparison</a>.</li>
-            <li style={{ marginBottom: 12 }}><strong><a href="/medications/berberine" style={{ color: 'var(--brand)', fontWeight: 500 }}>Berberine</a>:</strong> A natural AMPK activator at a fraction of the cost. Explore our <a href="/blog/berberine-vs-glp-1-in-2026-can-natures-ozempic-act" style={{ color: 'var(--brand)', fontWeight: 500 }}>Berberine vs. GLP-1</a> comparison.</li>
+            <li style={{ marginBottom: 12 }}><strong>Compounded <a href="/medications/tirzepatide/" style={{ color: 'var(--brand)', fontWeight: 500 }}>tirzepatide</a>:</strong> Slightly more expensive but produces greater weight loss. See our <a href="/blog/zepbound-vs-mounjaro-compounded-tirzepatide/" style={{ color: 'var(--brand)', fontWeight: 500 }}>tirzepatide comparison</a>.</li>
+            <li style={{ marginBottom: 12 }}><strong><a href="/medications/berberine/" style={{ color: 'var(--brand)', fontWeight: 500 }}>Berberine</a>:</strong> A natural AMPK activator at a fraction of the cost. Explore our <a href="/blog/berberine-vs-glp-1-in-2026-can-natures-ozempic-act/" style={{ color: 'var(--brand)', fontWeight: 500 }}>Berberine vs. GLP-1</a> comparison.</li>
             <li style={{ marginBottom: 12 }}><strong>Branded self-pay programs:</strong> Eli Lilly's Zepbound vials start at $299/month, competing directly with compounded pricing.</li>
           </ul>
 

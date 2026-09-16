@@ -22,7 +22,7 @@ export function BlogGlp1MuscleLossTheHiddenRiskNobodysTalking() {
             </div>
             <div>
               <div style={{ fontWeight: 500, color: 'var(--ink)' }}>
-                <a href="/about" style={{ color: 'inherit', textDecoration: 'none' }}>Julian Mercer, M.S.</a>
+                <a href="/about/" style={{ color: 'inherit', textDecoration: 'none' }}>Julian Mercer, M.S.</a>
               </div>
               <div style={{ fontSize: 14, color: 'var(--ink-2)' }}>Lead Bio-Systems Analyst | May 2, 2026</div>
             </div>
@@ -39,10 +39,10 @@ export function BlogGlp1MuscleLossTheHiddenRiskNobodysTalking() {
 
           <div className="blog-content">
             <p>
-              The conversation around <a href="/blog/pharmacokinetics-ozempic-semaglutide-cellular-breakdown" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>GLP-1 medications</a> has predominantly focused on a single metric: the number on the scale. When patients step on the scale and see a 20% reduction in total body mass, they assume the medication is an unqualified success. However, endocrinologists and body composition experts are raising an urgent alarm regarding the fastest-growing consumer concern in metabolic medicine: <strong>GLP-1 induced sarcopenia</strong> (severe muscle loss).
+              The conversation around <a href="/blog/pharmacokinetics-ozempic-semaglutide-cellular-breakdown/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>GLP-1 medications</a> has predominantly focused on a single metric: the number on the scale. When patients step on the scale and see a 20% reduction in total body mass, they assume the medication is an unqualified success. However, endocrinologists and body composition experts are raising an urgent alarm regarding the fastest-growing consumer concern in metabolic medicine: <strong>GLP-1 induced sarcopenia</strong> (severe muscle loss).
             </p>
             <p>
-              Phrases like "Ozempic face" and "Ozempic body" have entered the mainstream vocabulary, largely driven by the unintended consequences of rapid lean mass reduction. If you are currently taking Semaglutide or <a href="/blog/tirzepatide-vs-semaglutide-dual-agonist-mechanism" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Tirzepatide</a>, or are considering starting therapy, understanding exactly how these incretin hormones affect your skeletal muscle is paramount to your long-term metabolic baseline.
+              Phrases like "Ozempic face" and "Ozempic body" have entered the mainstream vocabulary, largely driven by the unintended consequences of rapid lean mass reduction. If you are currently taking Semaglutide or <a href="/blog/tirzepatide-vs-semaglutide-dual-agonist-mechanism/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Tirzepatide</a>, or are considering starting therapy, understanding exactly how these incretin hormones affect your skeletal muscle is paramount to your long-term metabolic baseline.
             </p>
             <p>
               In this exhaustive, 5,000-word clinical guide, we dissect the actual science behind GLP-1 induced sarcopenia. We analyze the critical nuance of DXA scan data, explore the physiological concept of "myosteatosis," compare dual-agonists versus mono-agonists regarding lean mass retention, and provide a rigid, non-negotiable Prevention Playbook to protect your muscle tissue while maximizing fat oxidation.
@@ -185,7 +185,7 @@ export function BlogGlp1MuscleLossTheHiddenRiskNobodysTalking() {
                   If you are ready for a complete metabolic overhaul that prioritizes lean mass retention, it is time to upgrade your care.
                 </p>
                 <p style={{ fontSize: 16, color: 'var(--ink-2)', marginBottom: 32, maxWidth: 600, margin: '0 auto 32px' }}>
-                  TelehealthFX provides U.S.-licensed, quality-verified compounded Semaglutide and Tirzepatide with direct clinician oversight. No hidden membership fees. Just real science. Learn how to identify safe providers in our guide to spotting <a href="/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Hidden Fees in Telehealth</a>.
+                  TelehealthFX provides U.S.-licensed, quality-verified compounded Semaglutide and Tirzepatide with direct clinician oversight. No hidden membership fees. Just real science. Learn how to identify safe providers in our guide to spotting <a href="/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Hidden Fees in Telehealth</a>.
                 </p>
                 <div style={{ display: 'flex', gap: 16, justifyContent: 'center' }}>
                   <a href={START_URL} className="btn btn-primary" style={{ fontSize: 18, padding: '0 32px' }}>

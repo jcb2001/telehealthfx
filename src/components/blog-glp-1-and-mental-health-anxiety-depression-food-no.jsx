@@ -22,7 +22,7 @@ export function BlogGlp1AndMentalHealthAnxietyDepressionFoodNo() {
             </div>
             <div>
               <div style={{ fontWeight: 500, color: 'var(--ink)' }}>
-                <a href="/about" style={{ color: 'inherit', textDecoration: 'none' }}>Julian Mercer, M.S.</a>
+                <a href="/about/" style={{ color: 'inherit', textDecoration: 'none' }}>Julian Mercer, M.S.</a>
               </div>
               <div style={{ fontSize: 14, color: 'var(--ink-2)' }}>Lead Bio-Systems Analyst | May 2, 2026</div>
             </div>
@@ -42,7 +42,7 @@ export function BlogGlp1AndMentalHealthAnxietyDepressionFoodNo() {
               For decades, the medical community treated obesity and depression as two separate, isolated conditions. Psychiatrists prescribed SSRIs to manage the mood, while general practitioners prescribed generic diets to manage the weight. The tragedy of this fragmented approach is that it completely ignored the biological reality: the brain and the gut are inextricably linked.
             </p>
             <p>
-              The advent of GLP-1 receptor agonists (Semaglutide and <a href="/blog/tirzepatide-vs-semaglutide-dual-agonist-mechanism" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Tirzepatide</a>) has forcefully reunited psychiatry and endocrinology. While marketed purely as weight-loss drugs, these peptides cross the blood-brain barrier and directly alter the neurological pathways responsible for addiction, anxiety, and depression.
+              The advent of GLP-1 receptor agonists (Semaglutide and <a href="/blog/tirzepatide-vs-semaglutide-dual-agonist-mechanism/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Tirzepatide</a>) has forcefully reunited psychiatry and endocrinology. While marketed purely as weight-loss drugs, these peptides cross the blood-brain barrier and directly alter the neurological pathways responsible for addiction, anxiety, and depression.
             </p>
             <p>
               In this 5,000-word clinical analysis, we explore the profound psychiatric effects of incretin therapy. We dissect the bidirectional link between systemic inflammation and major depressive disorder, analyze the phenomenon of "food noise" eradication, and provide a rigid safety framework for patients navigating the complex intersection of metabolic medication and mental health.
@@ -61,7 +61,7 @@ export function BlogGlp1AndMentalHealthAnxietyDepressionFoodNo() {
               GLP-1 medications physically cross the blood-brain barrier and bind to receptors in the hypothalamus and the ventral tegmental area (VTA). By agonizing these receptors, the medication artificially regulates the dopamine spike. 
             </p>
             <p>
-              Because the brain is no longer experiencing extreme dopamine crashes, the relentless craving for a "hit" of food completely evaporates. The food noise is silenced. For many patients, this is the first time in their adult lives they experience true psychological quiet. This is the exact same mechanism currently being studied to treat Alcohol Use Disorder, which we detail in our analysis of <a href="/blog/glp-1-and-alcohol-what-you-need-to-know-2026-clini" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>GLP-1 and Alcohol Interactions</a>.
+              Because the brain is no longer experiencing extreme dopamine crashes, the relentless craving for a "hit" of food completely evaporates. The food noise is silenced. For many patients, this is the first time in their adult lives they experience true psychological quiet. This is the exact same mechanism currently being studied to treat Alcohol Use Disorder, which we detail in our analysis of <a href="/blog/glp-1-and-alcohol-what-you-need-to-know-2026-clini/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>GLP-1 and Alcohol Interactions</a>.
             </p>
 
             {/* CTA 1: Early Funnel */}
@@ -146,7 +146,7 @@ export function BlogGlp1AndMentalHealthAnxietyDepressionFoodNo() {
                   Stop fighting a chemical imbalance with pure willpower. Address the biological root of your food noise.
                 </p>
                 <p style={{ fontSize: 16, color: 'var(--ink-2)', marginBottom: 32, maxWidth: 600, margin: '0 auto 32px' }}>
-                  TelehealthFX provides U.S.-licensed, quality-verified compounded Semaglutide and Tirzepatide with strict physician oversight. Learn how to identify safe providers in our guide to spotting <a href="/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Hidden Fees in Telehealth</a>.
+                  TelehealthFX provides U.S.-licensed, quality-verified compounded Semaglutide and Tirzepatide with strict physician oversight. Learn how to identify safe providers in our guide to spotting <a href="/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Hidden Fees in Telehealth</a>.
                 </p>
                 <div style={{ display: 'flex', gap: 16, justifyContent: 'center' }}>
                   <a href={START_URL} className="btn btn-primary" style={{ fontSize: 18, padding: '0 32px' }}>

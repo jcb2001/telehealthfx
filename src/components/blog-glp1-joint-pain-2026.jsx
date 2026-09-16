@@ -8,10 +8,10 @@ function BlogGLP1JointPain() {
   return (<><section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}><div className="container" style={{ maxWidth: 800 }}>
     <div className="eyebrow" style={{ marginBottom: 20 }}>Joint Health</div>
     <h1 className="serif" style={{ fontSize: 52, marginBottom: 24, lineHeight: 1.08 }}>GLP-1 and Joint Pain: <span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>How Weight Loss Medication Restores Mobility (Knees, Hips &amp; Back)</span></h1>
-    <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}><div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)' }}><Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%', height: "auto"}} priority={true} /></div><div><div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div><div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 16 min read</div></div></div>
+    <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}><div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)' }}><Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%', height: "auto"}} priority={true} /></div><div><div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about/" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div><div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 16 min read</div></div></div>
     <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
       <Image src="/assets/glp1-joint-pain-mobility-featured.png" alt="Person walking freely with knee X-ray overlay" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', height: "auto"}} priority={true} />
-      <p>Every pound of body weight puts <strong>4 pounds of pressure on your knees</strong> and <strong>6 pounds on your hips</strong> with every step. Losing 50 pounds on tirzepatide removes 200 pounds of force from your knees with every single step you take — thousands of times per day. Add GLP-1{"'"}s direct <a href="/blog/glp-1-and-inflammation-arthritis-sleep-apnea-chron" style={{ color: 'var(--brand)', fontWeight: 500 }}>anti-inflammatory effects</a>, and the impact on joint health is transformative.</p>
+      <p>Every pound of body weight puts <strong>4 pounds of pressure on your knees</strong> and <strong>6 pounds on your hips</strong> with every step. Losing 50 pounds on tirzepatide removes 200 pounds of force from your knees with every single step you take — thousands of times per day. Add GLP-1{"'"}s direct <a href="/blog/glp-1-and-inflammation-arthritis-sleep-apnea-chron/" style={{ color: 'var(--brand)', fontWeight: 500 }}>anti-inflammatory effects</a>, and the impact on joint health is transformative.</p>
 
       <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The Dual Mechanism: Mechanical + Inflammatory</h2>
       <p>GLP-1 medications improve joint health through two independent but synergistic pathways:</p>
@@ -29,7 +29,7 @@ function BlogGLP1JointPain() {
           </tbody>
         </table>
       </div>
-      <p>For weight loss timelines, see our <a href="/blog/semaglutide-weight-loss-timeline-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>semaglutide timeline</a> or <a href="/blog/tirzepatide-weight-loss-timeline-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>tirzepatide timeline</a>.</p>
+      <p>For weight loss timelines, see our <a href="/blog/semaglutide-weight-loss-timeline-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>semaglutide timeline</a> or <a href="/blog/tirzepatide-weight-loss-timeline-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>tirzepatide timeline</a>.</p>
 
       <h3 style={{ fontSize: 22, marginTop: 32, marginBottom: 12, color: 'var(--ink)' }}>2. Anti-Inflammatory Effects</h3>
       <p>GLP-1 reduces systemic inflammation independent of weight loss:</p>
@@ -42,15 +42,15 @@ function BlogGLP1JointPain() {
       <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The Mobility Cascade Effect</h2>
       <p>GLP-1{"'"}s impact on mobility creates a powerful positive feedback loop that patients frequently describe as {"'"}life-changing{"'"}:</p>
       <ul>
-        <li style={{ marginBottom: 12 }}>Weight loss → Less joint pain → More <a href="/blog/glp-1-and-exercise-how-to-combine-medication-with" style={{ color: 'var(--brand)', fontWeight: 500 }}>exercise capacity</a> → More weight loss → Even less pain</li>
+        <li style={{ marginBottom: 12 }}>Weight loss → Less joint pain → More <a href="/blog/glp-1-and-exercise-how-to-combine-medication-with/" style={{ color: 'var(--brand)', fontWeight: 500 }}>exercise capacity</a> → More weight loss → Even less pain</li>
         <li style={{ marginBottom: 12 }}>Reduced inflammation → Better cartilage health → Improved range of motion → Greater activity tolerance</li>
-        <li style={{ marginBottom: 12 }}>Less pain → Better <a href="/blog/glp1-sleep-quality-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>sleep quality</a> → Better recovery → Improved mobility the next day</li>
+        <li style={{ marginBottom: 12 }}>Less pain → Better <a href="/blog/glp1-sleep-quality-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>sleep quality</a> → Better recovery → Improved mobility the next day</li>
       </ul>
       <p>A 2019 study in <em>Arthritis Care &amp; Research</em> showed that 10% body weight loss reduced knee osteoarthritis pain scores by 28% and physical function scores by 37%. On GLP-1, 10% weight loss typically occurs within 3–4 months.</p>
 
       <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
         <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Move Without Pain Again.</h3>
-        <p style={{ marginBottom: 24, fontSize: 16 }}>50 lbs lost = 200 lbs less pressure on your knees with every step. GLP-1 from <a href="/blog/semaglutide-real-cost-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>$199/month</a>.</p>
+        <p style={{ marginBottom: 24, fontSize: 16 }}>50 lbs lost = 200 lbs less pressure on your knees with every step. GLP-1 from <a href="/blog/semaglutide-real-cost-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>$199/month</a>.</p>
         <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>Start Your Evaluation <Icon.Arrow /></a>
       </div>
 
@@ -69,7 +69,7 @@ function BlogGLP1JointPain() {
       <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>My joint pain makes it hard to exercise. Will GLP-1 still work?</h4>
       <p style={{ marginBottom: 24 }}>Yes. GLP-1{"'"}s primary mechanism is appetite suppression, not exercise. Weight loss occurs regardless of exercise capacity. As weight drops and pain decreases, you can gradually add activity. Start with low-impact options: swimming, recumbent cycling, or seated exercises.</p>
       <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>How quickly will I notice joint pain improvement?</h4>
-      <p style={{ marginBottom: 24 }}>Most patients report noticeable pain reduction within 4–8 weeks, corresponding to the first 10–15 lbs of weight loss. For our <a href="/blog/first-week-semaglutide-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>first week guide</a>, see here. Significant improvement (stairs, walking distances) typically occurs by month 3–4.</p>
+      <p style={{ marginBottom: 24 }}>Most patients report noticeable pain reduction within 4–8 weeks, corresponding to the first 10–15 lbs of weight loss. For our <a href="/blog/first-week-semaglutide-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>first week guide</a>, see here. Significant improvement (stairs, walking distances) typically occurs by month 3–4.</p>
 
       <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
         <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Your Knees Will Thank You.</h2>

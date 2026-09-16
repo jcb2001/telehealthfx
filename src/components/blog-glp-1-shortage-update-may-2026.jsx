@@ -19,7 +19,7 @@ function BlogGLP1ShortageUpdate2026() {
             <Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%', height: "auto"}} priority={true} />
           </div>
           <div>
-            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
+            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about/" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
             <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 20 min read</div>
           </div>
         </div>
@@ -29,7 +29,7 @@ function BlogGLP1ShortageUpdate2026() {
 
           <p><em>Last updated: May 4, 2026. This article is updated monthly to reflect the latest FDA shortage data and pharmacy availability reports.</em></p>
 
-          <p>If you have been trying to fill a prescription for Ozempic, Wegovy, Mounjaro, or Zepbound and keep hearing "out of stock," you know how frustrating the <a href="/blog/what-is-a-glp-1-medication" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 medication</a> supply chain can be. While the FDA officially declared the national semaglutide shortage resolved in February 2025, real-world availability at retail pharmacies remains inconsistent—particularly for specific dose strengths and in certain geographic regions.</p>
+          <p>If you have been trying to fill a prescription for Ozempic, Wegovy, Mounjaro, or Zepbound and keep hearing "out of stock," you know how frustrating the <a href="/blog/what-is-a-glp-1-medication/" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 medication</a> supply chain can be. While the FDA officially declared the national semaglutide shortage resolved in February 2025, real-world availability at retail pharmacies remains inconsistent—particularly for specific dose strengths and in certain geographic regions.</p>
 
           <p>This guide provides a real-time snapshot of the current availability status for every major GLP-1 medication, explains why certain doses remain difficult to find, and outlines your best options for uninterrupted access to treatment.</p>
 
@@ -82,13 +82,13 @@ function BlogGLP1ShortageUpdate2026() {
             <li style={{ marginBottom: 16 }}><strong>Switch Pharmacies:</strong> Call multiple pharmacies in your area. Independent pharmacies and specialty pharmacies often have better stock than chain locations.</li>
             <li style={{ marginBottom: 16 }}><strong>Ask About Alternative Dose Packaging:</strong> If your dose strength is out of stock, your prescriber may be able to adjust the prescription to use multiple lower-dose pens to achieve the same weekly dose.</li>
             <li style={{ marginBottom: 16 }}><strong>Consider Telehealth + Direct-Ship:</strong> Telehealth providers like TelehealthFX partner with licensed pharmacies that maintain dedicated inventory, bypassing retail pharmacy distribution bottlenecks entirely.</li>
-            <li style={{ marginBottom: 16 }}><strong>Explore <a href="/blog/oral-semaglutide-is-here-is-the-glp-1-pill-as-good" style={{ color: 'var(--brand)', fontWeight: 500 }}>Oral Semaglutide (Rybelsus)</a>:</strong> If injectable supply is constrained, oral semaglutide tablets have not experienced the same shortage issues.</li>
-            <li style={{ marginBottom: 16 }}><strong>Don't Pause Treatment:</strong> Gaps in GLP-1 therapy can trigger appetite rebound and weight regain. Read about <a href="/blog/what-happens-when-you-stop-glp-1-medication-the-re" style={{ color: 'var(--brand)', fontWeight: 500 }}>what happens when you stop GLP-1 medication</a> to understand the risks.</li>
+            <li style={{ marginBottom: 16 }}><strong>Explore <a href="/blog/oral-semaglutide-is-here-is-the-glp-1-pill-as-good/" style={{ color: 'var(--brand)', fontWeight: 500 }}>Oral Semaglutide (Rybelsus)</a>:</strong> If injectable supply is constrained, oral semaglutide tablets have not experienced the same shortage issues.</li>
+            <li style={{ marginBottom: 16 }}><strong>Don't Pause Treatment:</strong> Gaps in GLP-1 therapy can trigger appetite rebound and weight regain. Read about <a href="/blog/what-happens-when-you-stop-glp-1-medication-the-re/" style={{ color: 'var(--brand)', fontWeight: 500 }}>what happens when you stop GLP-1 medication</a> to understand the risks.</li>
           </ol>
 
           <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The Compounding Landscape Post-FDA Crackdown</h2>
 
-          <p>The <a href="/blog/fda-compounding-ban" style={{ color: 'var(--brand)', fontWeight: 500 }}>FDA's proposed 503B compounding ban</a> has dramatically reshaped the compounded GLP-1 market. While large-scale outsourcing facilities are being shut down, patient-specific compounding through licensed 503A pharmacies remains legally available. For patients who need affordable, reliable access without fighting retail pharmacy shortages, compliant compounded GLP-1 therapy through a verified telehealth provider remains the most practical option.</p>
+          <p>The <a href="/blog/fda-compounding-ban/" style={{ color: 'var(--brand)', fontWeight: 500 }}>FDA's proposed 503B compounding ban</a> has dramatically reshaped the compounded GLP-1 market. While large-scale outsourcing facilities are being shut down, patient-specific compounding through licensed 503A pharmacies remains legally available. For patients who need affordable, reliable access without fighting retail pharmacy shortages, compliant compounded GLP-1 therapy through a verified telehealth provider remains the most practical option.</p>
 
           <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
             <div style={{ width: 48, height: 48, borderRadius: '50%', background: 'var(--brand-soft)', color: 'var(--brand)', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 20px' }}><Icon.Check size={24} /></div>
@@ -108,7 +108,7 @@ function BlogGLP1ShortageUpdate2026() {
           <p style={{ marginBottom: 24 }}>Call multiple pharmacies (including independents), ask your prescriber about alternative dose packaging, and consider telehealth providers with direct-ship pharmacy partnerships. Do not pause treatment—gaps can trigger appetite rebound.</p>
 
           <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>Can I still get compounded semaglutide?</h4>
-          <p style={{ marginBottom: 24 }}>Yes, through licensed 503A pharmacies with a valid patient-specific prescription. The FDA's crackdown targets 503B outsourcing facilities, not traditional patient-specific compounding. Verify your provider is <a href="/blog/is-compounded-semaglutide-safe-what-you-need-to-kn" style={{ color: 'var(--brand)', fontWeight: 500 }}>operating compliantly</a>.</p>
+          <p style={{ marginBottom: 24 }}>Yes, through licensed 503A pharmacies with a valid patient-specific prescription. The FDA's crackdown targets 503B outsourcing facilities, not traditional patient-specific compounding. Verify your provider is <a href="/blog/is-compounded-semaglutide-safe-what-you-need-to-kn/" style={{ color: 'var(--brand)', fontWeight: 500 }}>operating compliantly</a>.</p>
 
           <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
             <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Don't Let Shortages Derail Your Progress</h2>

@@ -8,7 +8,7 @@ function BlogTrtProstateHealthPsaSafety2026() {
   return (<><section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}><div className="container" style={{ maxWidth: 800 }}>
     <div className="eyebrow" style={{ marginBottom: 20 }}>TRT Safety</div>
     <h1 className="serif" style={{ fontSize: 52, marginBottom: 24, lineHeight: 1.08 }}>TRT and Prostate Health: Does Testosterone Cause <span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>Prostate Cancer?</span></h1>
-    <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}><div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)' }}><Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%', height: "auto"}} priority={true} /></div><div><div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div><div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated June 2026 · 18 min read</div></div></div>
+    <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 48, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}><div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--brand)' }}><Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%', height: "auto"}} priority={true} /></div><div><div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about/" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div><div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated June 2026 · 18 min read</div></div></div>
     <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
 
       <p>If there is one fear that stops hypogonadal men from starting testosterone replacement therapy, it is prostate cancer. Ask any primary care physician why they are reluctant to prescribe TRT, and the prostate will dominate the conversation. The logic sounds intuitive: testosterone fuels the prostate, so adding more must accelerate cancer. For decades, this reasoning was treated as settled science.</p>
@@ -21,7 +21,7 @@ function BlogTrtProstateHealthPsaSafety2026() {
 
       <p>The medical community drew what seemed like a logical conclusion: if removing testosterone shrinks prostate tumors, then <em>adding</em> testosterone must cause them. This reasoning became dogma. For the next six decades, TRT was considered absolutely contraindicated in any man with even a remote concern about prostate cancer.</p>
 
-      <p>But there was a critical problem with Huggins' original data. His landmark study included only <strong>three patients</strong> — and one of them had already been castrated. The sample size was vanishingly small, the controls were nonexistent, and the testosterone was administered at supraphysiological doses far exceeding modern <a href="/blog/trt-dosage-guide-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>TRT dosing protocols</a>. Yet this single observation shaped urology practice for over half a century.</p>
+      <p>But there was a critical problem with Huggins' original data. His landmark study included only <strong>three patients</strong> — and one of them had already been castrated. The sample size was vanishingly small, the controls were nonexistent, and the testosterone was administered at supraphysiological doses far exceeding modern <a href="/blog/trt-dosage-guide-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>TRT dosing protocols</a>. Yet this single observation shaped urology practice for over half a century.</p>
 
       <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The Saturation Model: Why Physiology Tells a Different Story</h2>
 
@@ -48,7 +48,7 @@ function BlogTrtProstateHealthPsaSafety2026() {
 
       <h3 className="serif" style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>The TRAVERSE Trial (2023)</h3>
 
-      <p>The <strong>TRAVERSE Trial</strong>, a landmark FDA-mandated study that enrolled over 5,200 hypogonadal men aged 45–80 with cardiovascular risk factors, tracked prostate safety as a key secondary endpoint. Over a mean follow-up of 33 months, there was no statistically significant difference in prostate cancer diagnoses, high-grade prostate events, or PSA velocity between the testosterone and placebo groups. This trial was specifically designed to catch safety signals — and it found none for the prostate. The same trial also resolved the <a href="/blog/trt-heart-health-safety-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>cardiovascular safety question</a> for TRT.</p>
+      <p>The <strong>TRAVERSE Trial</strong>, a landmark FDA-mandated study that enrolled over 5,200 hypogonadal men aged 45–80 with cardiovascular risk factors, tracked prostate safety as a key secondary endpoint. Over a mean follow-up of 33 months, there was no statistically significant difference in prostate cancer diagnoses, high-grade prostate events, or PSA velocity between the testosterone and placebo groups. This trial was specifically designed to catch safety signals — and it found none for the prostate. The same trial also resolved the <a href="/blog/trt-heart-health-safety-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>cardiovascular safety question</a> for TRT.</p>
 
       <h3 className="serif" style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>Observational Cohort Data</h3>
 
@@ -62,7 +62,7 @@ function BlogTrtProstateHealthPsaSafety2026() {
 
       <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>PSA Monitoring on TRT: What You Need to Know</h2>
 
-      <p>Even though TRT does not cause prostate cancer, responsible clinical practice requires monitoring prostate-specific antigen (PSA) levels. PSA is a protein produced by both normal and malignant prostate cells, and it remains the primary screening biomarker for prostate health. Here is the standard monitoring protocol used by <a href="/blog/trt-timeline-first-6-months-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>modern TRT programs</a> like Telehealth FX:</p>
+      <p>Even though TRT does not cause prostate cancer, responsible clinical practice requires monitoring prostate-specific antigen (PSA) levels. PSA is a protein produced by both normal and malignant prostate cells, and it remains the primary screening biomarker for prostate health. Here is the standard monitoring protocol used by <a href="/blog/trt-timeline-first-6-months-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>modern TRT programs</a> like Telehealth FX:</p>
 
       <h3 className="serif" style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>Baseline Assessment (Before Starting TRT)</h3>
       <ul>
@@ -73,7 +73,7 @@ function BlogTrtProstateHealthPsaSafety2026() {
 
       <h3 className="serif" style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>Ongoing Monitoring</h3>
       <ul>
-        <li style={{ marginBottom: 12 }}><strong>3–6 months:</strong> Recheck PSA at the first follow-up labs, along with <a href="/blog/trt-side-effects-complete-guide-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>hematocrit and liver enzymes</a>.</li>
+        <li style={{ marginBottom: 12 }}><strong>3–6 months:</strong> Recheck PSA at the first follow-up labs, along with <a href="/blog/trt-side-effects-complete-guide-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>hematocrit and liver enzymes</a>.</li>
         <li style={{ marginBottom: 12 }}><strong>12 months:</strong> Full panel reassessment including PSA, free testosterone, estradiol, and complete blood count.</li>
         <li style={{ marginBottom: 12 }}><strong>Annually thereafter:</strong> Yearly PSA monitoring continues for the duration of therapy.</li>
       </ul>
@@ -98,7 +98,7 @@ function BlogTrtProstateHealthPsaSafety2026() {
         <li style={{ marginBottom: 12 }}><strong>PSA rise &gt; 1.4 ng/mL above baseline</strong> within the first 12 months, per the Endocrine Society's 2018 Clinical Practice Guideline.</li>
       </ul>
 
-      <p>If any of these red flags appear, the standard practice is to hold TRT temporarily and repeat PSA after 4–6 weeks. If the elevation persists, referral for multiparametric MRI and possible prostate biopsy is appropriate. This is not a reason to avoid TRT — it is a reason to monitor properly, which <a href="/blog/signs-of-low-testosterone-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>responsible TRT programs</a> already do.</p>
+      <p>If any of these red flags appear, the standard practice is to hold TRT temporarily and repeat PSA after 4–6 weeks. If the elevation persists, referral for multiparametric MRI and possible prostate biopsy is appropriate. This is not a reason to avoid TRT — it is a reason to monitor properly, which <a href="/blog/signs-of-low-testosterone-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>responsible TRT programs</a> already do.</p>
 
       <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>TRT After a Prostate Cancer Diagnosis: The Evolving Landscape</h2>
 
@@ -127,7 +127,7 @@ function BlogTrtProstateHealthPsaSafety2026() {
       <ul>
         <li style={{ marginBottom: 12 }}><strong>Mandatory baseline PSA and DRE referral</strong> before prescribing — no exceptions.</li>
         <li style={{ marginBottom: 12 }}><strong>Regular lab monitoring</strong> at 90 days, 6 months, and annually including PSA, free/total testosterone, hematocrit, estradiol, and metabolic panels.</li>
-        <li style={{ marginBottom: 12 }}><strong>Evidence-based dosing</strong> that targets the <a href="/blog/trt-dosage-guide-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>therapeutic range of 600–1,000 ng/dL</a>, avoiding supraphysiological levels that could theoretically pose risk.</li>
+        <li style={{ marginBottom: 12 }}><strong>Evidence-based dosing</strong> that targets the <a href="/blog/trt-dosage-guide-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>therapeutic range of 600–1,000 ng/dL</a>, avoiding supraphysiological levels that could theoretically pose risk.</li>
         <li style={{ marginBottom: 12 }}><strong>PSA velocity tracking</strong> across all draws, with automated alerts for rises &gt; 0.75 ng/mL/year or absolute values requiring urological referral.</li>
         <li style={{ marginBottom: 12 }}><strong>Clinician review of every lab result</strong> — not just an algorithm, but a licensed provider evaluating your individual risk factors, family history, and trending data.</li>
       </ul>
@@ -137,16 +137,16 @@ function BlogTrtProstateHealthPsaSafety2026() {
       <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Frequently Asked Questions</h2>
 
       <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>Does TRT enlarge the prostate?</h4>
-      <p>TRT may modestly increase prostate volume in the first 6–12 months (typically 1–3 cc), consistent with the return to normal androgen stimulation. This is not pathological and does not equate to benign prostatic hyperplasia (BPH). Long-term studies show prostate volume stabilizes and does not progressively enlarge on therapeutic TRT. If you have existing BPH symptoms, discuss this with your provider, as <a href="/blog/trt-side-effects-complete-guide-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>careful monitoring</a> can identify issues early.</p>
+      <p>TRT may modestly increase prostate volume in the first 6–12 months (typically 1–3 cc), consistent with the return to normal androgen stimulation. This is not pathological and does not equate to benign prostatic hyperplasia (BPH). Long-term studies show prostate volume stabilizes and does not progressively enlarge on therapeutic TRT. If you have existing BPH symptoms, discuss this with your provider, as <a href="/blog/trt-side-effects-complete-guide-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>careful monitoring</a> can identify issues early.</p>
 
       <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>Can I take TRT if I have a family history of prostate cancer?</h4>
-      <p>Yes. Family history increases your baseline screening risk but does not contraindicate TRT. The AUA and Endocrine Society both recommend enhanced screening (earlier baseline PSA, more frequent monitoring) rather than avoidance of therapy. In fact, the closer surveillance you receive on a TRT program like <a href="/blog/trt-timeline-first-6-months-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>Telehealth FX's clinical protocol</a> may catch early prostate changes that would otherwise go undetected.</p>
+      <p>Yes. Family history increases your baseline screening risk but does not contraindicate TRT. The AUA and Endocrine Society both recommend enhanced screening (earlier baseline PSA, more frequent monitoring) rather than avoidance of therapy. In fact, the closer surveillance you receive on a TRT program like <a href="/blog/trt-timeline-first-6-months-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>Telehealth FX's clinical protocol</a> may catch early prostate changes that would otherwise go undetected.</p>
 
       <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>What if my PSA rises on TRT?</h4>
       <p>A small PSA increase (0.3–0.5 ng/mL) in the first 3–6 months is expected and benign. What matters is the trend over time (PSA velocity), not a single reading. Your clinician will track velocity across serial measurements. If PSA velocity exceeds 0.75 ng/mL/year or the absolute value crosses concerning thresholds, a workup is initiated — but TRT is not automatically discontinued.</p>
 
       <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>Is finasteride or dutasteride needed on TRT to protect the prostate?</h4>
-      <p>5-alpha reductase inhibitors (5ARIs) like finasteride are not routinely required for prostate protection on TRT. They reduce PSA by approximately 50%, which can confound screening. They are prescribed for specific indications (BPH symptoms, <a href="/blog/trt-weight-loss-body-composition-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>androgenic alopecia</a>), not as blanket prostate cancer prevention on TRT.</p>
+      <p>5-alpha reductase inhibitors (5ARIs) like finasteride are not routinely required for prostate protection on TRT. They reduce PSA by approximately 50%, which can confound screening. They are prescribed for specific indications (BPH symptoms, <a href="/blog/trt-weight-loss-body-composition-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>androgenic alopecia</a>), not as blanket prostate cancer prevention on TRT.</p>
 
       <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>What about men who use testosterone at supraphysiological doses?</h4>
       <p>The safety data applies specifically to <em>physiological</em> replacement (typically 100–200 mg/week testosterone cypionate or enanthate, targeting 600–1,000 ng/dL). Men who use anabolic steroids at bodybuilding doses (500–3,000+ mg/week) are outside the studied population. Supraphysiological testosterone may have different risk profiles. Medical TRT and steroid abuse are completely different clinical scenarios.</p>
@@ -155,7 +155,7 @@ function BlogTrtProstateHealthPsaSafety2026() {
 
       <p>The belief that testosterone causes prostate cancer is a medical myth born from a 1941 paper with three patients. Eighty-five years of subsequent evidence — including massive RCTs, meta-analyses, population cohort studies, and the physiological elegance of the saturation model — have firmly disproven it. Major urology and endocrinology guidelines now state clearly that TRT does not increase prostate cancer risk in hypogonadal men.</p>
 
-      <p>This does not mean monitoring is optional. Responsible TRT always includes baseline PSA, periodic rechecks, and attention to PSA velocity. But the prostate should no longer be the reason men suffer through the metabolic, sexual, cognitive, and emotional consequences of untreated <a href="/blog/signs-of-low-testosterone-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>low testosterone</a>.</p>
+      <p>This does not mean monitoring is optional. Responsible TRT always includes baseline PSA, periodic rechecks, and attention to PSA velocity. But the prostate should no longer be the reason men suffer through the metabolic, sexual, cognitive, and emotional consequences of untreated <a href="/blog/signs-of-low-testosterone-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>low testosterone</a>.</p>
 
       <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
         <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Prostate-Safe, Evidence-Based TRT</h2>

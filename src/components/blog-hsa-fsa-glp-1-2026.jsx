@@ -19,7 +19,7 @@ function BlogHSAFSAGLP1() {
             <Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%', height: "auto"}} priority={true} />
           </div>
           <div>
-            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
+            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about/" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
             <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 20 min read</div>
           </div>
         </div>
@@ -27,7 +27,7 @@ function BlogHSAFSAGLP1() {
         <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
           <Image src="/assets/hsa-fsa-glp1-featured.png" alt="HSA FSA debit card next to GLP-1 injection pen" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111', height: "auto"}} priority={true} />
 
-          <p>If you have an HSA (Health Savings Account) or FSA (Flexible Spending Account), you may be sitting on hundreds—or thousands—of pre-tax dollars that can be used to pay for <a href="/blog/what-is-a-glp-1-medication" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 weight loss medication</a>. Using HSA/FSA funds effectively gives you a <strong>25–37% discount</strong> on your treatment (depending on your tax bracket) compared to paying with post-tax income. This guide explains exactly how to use these accounts for telehealth GLP-1 therapy and which expenses qualify.</p>
+          <p>If you have an HSA (Health Savings Account) or FSA (Flexible Spending Account), you may be sitting on hundreds—or thousands—of pre-tax dollars that can be used to pay for <a href="/blog/what-is-a-glp-1-medication/" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 weight loss medication</a>. Using HSA/FSA funds effectively gives you a <strong>25–37% discount</strong> on your treatment (depending on your tax bracket) compared to paying with post-tax income. This guide explains exactly how to use these accounts for telehealth GLP-1 therapy and which expenses qualify.</p>
 
           <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>HSA vs. FSA: Key Differences for GLP-1 Patients</h2>
 
@@ -60,7 +60,7 @@ function BlogHSAFSAGLP1() {
             <li style={{ marginBottom: 8, color: 'var(--ink-3)' }}>❌ <strong>Not eligible:</strong> General supplements, gym memberships, cosmetic procedures</li>
           </ul>
 
-          <p>The key requirement: <strong>you need a valid prescription from a licensed clinician.</strong> Over-the-counter supplements like <a href="/medications/berberine" style={{ color: 'var(--brand)', fontWeight: 500 }}>berberine</a> may also qualify for HSA/FSA if prescribed by a licensed provider (as opposed to self-purchased as a dietary supplement).</p>
+          <p>The key requirement: <strong>you need a valid prescription from a licensed clinician.</strong> Over-the-counter supplements like <a href="/medications/berberine/" style={{ color: 'var(--brand)', fontWeight: 500 }}>berberine</a> may also qualify for HSA/FSA if prescribed by a licensed provider (as opposed to self-purchased as a dietary supplement).</p>
 
           <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
             <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>TelehealthFX Accepts HSA &amp; FSA</h3>
@@ -92,7 +92,7 @@ function BlogHSAFSAGLP1() {
             </table>
           </div>
 
-          <p>That is $800–$1,150 in annual tax savings on top of already choosing the <a href="/blog/cheapest-compounded-semaglutide-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>most affordable compounded semaglutide</a> option. Combined with the <a href="/blog/glp-1-cost-without-insurance-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>cost strategies in our pricing guide</a>, HSA/FSA payment is the single most impactful financial optimization available.</p>
+          <p>That is $800–$1,150 in annual tax savings on top of already choosing the <a href="/blog/cheapest-compounded-semaglutide-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>most affordable compounded semaglutide</a> option. Combined with the <a href="/blog/glp-1-cost-without-insurance-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>cost strategies in our pricing guide</a>, HSA/FSA payment is the single most impactful financial optimization available.</p>
 
           <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>FSA Deadline Strategy</h2>
 

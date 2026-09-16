@@ -19,7 +19,7 @@ function BlogTirzepatideWithoutDiabetes() {
             <Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%', height: "auto"}} priority={true} />
           </div>
           <div>
-            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
+            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about/" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
             <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 22 min read</div>
           </div>
         </div>
@@ -27,7 +27,7 @@ function BlogTirzepatideWithoutDiabetes() {
         <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
           <Image src="/assets/tirzepatide-without-diabetes-featured.png" alt="Tirzepatide eligibility checklist with Mounjaro pen" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111', height: "auto"}} priority={true} />
 
-          <p><strong>Short answer: yes.</strong> <a href="/medications/tirzepatide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Tirzepatide</a> is available for weight management without a diabetes diagnosis through its FDA-approved weight loss indication (Zepbound) and through compounded formulations prescribed off-label. You do not need to be diabetic. You do need to meet specific clinical criteria. This guide explains every pathway available in 2026.</p>
+          <p><strong>Short answer: yes.</strong> <a href="/medications/tirzepatide/" style={{ color: 'var(--brand)', fontWeight: 500 }}>Tirzepatide</a> is available for weight management without a diabetes diagnosis through its FDA-approved weight loss indication (Zepbound) and through compounded formulations prescribed off-label. You do not need to be diabetic. You do need to meet specific clinical criteria. This guide explains every pathway available in 2026.</p>
 
           <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Understanding the Two FDA Approvals</h2>
 
@@ -36,7 +36,7 @@ function BlogTirzepatideWithoutDiabetes() {
             <li style={{ marginBottom: 16 }}><strong>Mounjaro:</strong> FDA-approved for <em>type 2 diabetes management</em>. Requires a diabetes diagnosis. Doses: 2.5 mg to 15 mg weekly.</li>
             <li style={{ marginBottom: 16 }}><strong>Zepbound:</strong> FDA-approved for <em>chronic weight management</em>. <strong>Does NOT require diabetes.</strong> Same molecule, same manufacturer (Eli Lilly), same doses. Approved for adults with BMI ≥30 or BMI ≥27 with at least one weight-related comorbidity.</li>
           </ul>
-          <p>This dual-approval structure means non-diabetic patients have a clear, FDA-sanctioned pathway to tirzepatide. For a detailed comparison of these brands and their compounded alternatives, see our <a href="/blog/zepbound-vs-mounjaro-compounded-tirzepatide" style={{ color: 'var(--brand)', fontWeight: 500 }}>Zepbound vs. Mounjaro vs. Compounded</a> analysis.</p>
+          <p>This dual-approval structure means non-diabetic patients have a clear, FDA-sanctioned pathway to tirzepatide. For a detailed comparison of these brands and their compounded alternatives, see our <a href="/blog/zepbound-vs-mounjaro-compounded-tirzepatide/" style={{ color: 'var(--brand)', fontWeight: 500 }}>Zepbound vs. Mounjaro vs. Compounded</a> analysis.</p>
 
           <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The Eligibility Criteria</h2>
 
@@ -72,19 +72,19 @@ function BlogTirzepatideWithoutDiabetes() {
 
           <ul>
             <li style={{ marginBottom: 12 }}><strong>Superior weight loss:</strong> The SURMOUNT-1 trial demonstrated 22.5% body weight reduction with tirzepatide 15 mg vs. 14.9% with semaglutide 2.4 mg in the STEP 1 trial.</li>
-            <li style={{ marginBottom: 12 }}><strong>Dual-agonist mechanism:</strong> Tirzepatide activates both GLP-1 and GIP receptors, providing complementary metabolic pathways. Read our <a href="/blog/tirzepatide-vs-semaglutide-dual-agonist-mechanism" style={{ color: 'var(--brand)', fontWeight: 500 }}>dual-agonist deep dive</a> for the full pharmacology.</li>
-            <li style={{ marginBottom: 12 }}><strong>Better GI tolerability (for some):</strong> Some patients who experience persistent nausea on <a href="/medications/semaglutide" style={{ color: 'var(--brand)', fontWeight: 500 }}>semaglutide</a> tolerate tirzepatide better due to the GIP component's gastric protective effects.</li>
+            <li style={{ marginBottom: 12 }}><strong>Dual-agonist mechanism:</strong> Tirzepatide activates both GLP-1 and GIP receptors, providing complementary metabolic pathways. Read our <a href="/blog/tirzepatide-vs-semaglutide-dual-agonist-mechanism/" style={{ color: 'var(--brand)', fontWeight: 500 }}>dual-agonist deep dive</a> for the full pharmacology.</li>
+            <li style={{ marginBottom: 12 }}><strong>Better GI tolerability (for some):</strong> Some patients who experience persistent nausea on <a href="/medications/semaglutide/" style={{ color: 'var(--brand)', fontWeight: 500 }}>semaglutide</a> tolerate tirzepatide better due to the GIP component's gastric protective effects.</li>
             <li style={{ marginBottom: 12 }}><strong>Potential for better glucose control:</strong> The dual-agonist approach provides more comprehensive metabolic improvement, particularly relevant for patients with prediabetes or insulin resistance.</li>
           </ul>
 
-          <p>For a head-to-head comparison, see our <a href="/blog/tirzepatide-vs-semaglutide-which-glp-1-is-right-fo" style={{ color: 'var(--brand)', fontWeight: 500 }}>consumer guide to tirzepatide vs. semaglutide</a>.</p>
+          <p>For a head-to-head comparison, see our <a href="/blog/tirzepatide-vs-semaglutide-which-glp-1-is-right-fo/" style={{ color: 'var(--brand)', fontWeight: 500 }}>consumer guide to tirzepatide vs. semaglutide</a>.</p>
 
           <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>How to Access Tirzepatide in 2026</h2>
 
           <ol>
             <li style={{ marginBottom: 16 }}><strong>Branded Zepbound (self-pay):</strong> LillyDirect vials start at $299/month. Pen injectors at list price (~$1,060/month) but savings programs available.</li>
             <li style={{ marginBottom: 16 }}><strong>Insurance coverage:</strong> Variable. Many insurers cover Mounjaro for T2D but deny Zepbound for weight loss. Prior authorization often required. If denied, see our approach to working through the process.</li>
-            <li style={{ marginBottom: 16 }}><strong>Compounded tirzepatide via telehealth:</strong> $199–$449/month from licensed 503A pharmacies. Same molecule, individual prescription required. Available through providers like TelehealthFX with <a href="/blog/get-semaglutide-online-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>full telehealth access</a>.</li>
+            <li style={{ marginBottom: 16 }}><strong>Compounded tirzepatide via telehealth:</strong> $199–$449/month from licensed 503A pharmacies. Same molecule, individual prescription required. Available through providers like TelehealthFX with <a href="/blog/get-semaglutide-online-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>full telehealth access</a>.</li>
           </ol>
 
           <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>

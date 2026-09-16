@@ -112,7 +112,7 @@ export function LocationLA() {
                  <p style={{ fontSize: 'clamp(16px, 2vw, 18px)', color: 'var(--ink-2)', marginBottom: 32, lineHeight: 1.7 }}>
                     While certain neighborhoods are saturated with $25 Erewhon smoothies and boutique fitness classes, much of the wider Los Angeles basin lacks access to specialized metabolic care. Traditional diet protocols simply hit a physiological wall when battling insulin resistance caused by a sedentary, high-stress lifestyle.
                  </p>
-                 <a href="/blog/ozempic-insulin-resistance" style={{ color: 'var(--brand)', textDecoration: 'none', fontWeight: 600, display: 'inline-flex', alignItems: 'center', gap: 8 }}>
+                 <a href="/blog/ozempic-insulin-resistance/" style={{ color: 'var(--brand)', textDecoration: 'none', fontWeight: 600, display: 'inline-flex', alignItems: 'center', gap: 8 }}>
                     Read our clinical guide to insulin resistance <Icon.Arrow size={16} />
                  </a>
               </div>

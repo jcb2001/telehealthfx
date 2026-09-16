@@ -20,7 +20,7 @@ function BlogSemaglutideHairLoss() {
             <Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%', height: "auto"}} priority={true} />
           </div>
           <div>
-            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
+            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about/" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
             <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 30 min read</div>
           </div>
         </div>
@@ -40,7 +40,7 @@ function BlogSemaglutideHairLoss() {
             ]}
           />
 
-          <p>You started your <a href="/blog/what-is-a-glp-1-medication" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 medication</a> and the weight is coming off—but so is your hair. If you have noticed increased shedding in the shower, thinning at the part, or clumps on your pillowcase since starting semaglutide or tirzepatide, you are not imagining things. And you are far from alone.</p>
+          <p>You started your <a href="/blog/what-is-a-glp-1-medication/" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 medication</a> and the weight is coming off—but so is your hair. If you have noticed increased shedding in the shower, thinning at the part, or clumps on your pillowcase since starting semaglutide or tirzepatide, you are not imagining things. And you are far from alone.</p>
 
           <p>Hair loss has emerged as one of the most alarming—and most misunderstood—concerns among GLP-1 users in 2025–2026. Social media is flooded with anecdotal reports, yet the clinical data tells a more nuanced story. The critical distinction: <strong>GLP-1 medications do not directly cause hair loss.</strong> What causes hair loss is the <em>rapid weight loss</em> itself—a well-documented clinical phenomenon called <strong>telogen effluvium</strong>.</p>
 
@@ -58,10 +58,10 @@ function BlogSemaglutideHairLoss() {
 
           <p>The nutrients most critical for hair growth—and most commonly depleted during GLP-1 therapy—include:</p>
           <ul>
-            <li style={{ marginBottom: 12 }}><strong>Protein:</strong> Hair is made of keratin, a protein. Inadequate protein intake during rapid weight loss starves follicles of their primary building block. This is also directly connected to the <a href="/blog/glp-1-muscle-loss-the-hidden-risk-nobodys-talking" style={{ color: 'var(--brand)', fontWeight: 500 }}>muscle loss risk</a> we discuss extensively.</li>
+            <li style={{ marginBottom: 12 }}><strong>Protein:</strong> Hair is made of keratin, a protein. Inadequate protein intake during rapid weight loss starves follicles of their primary building block. This is also directly connected to the <a href="/blog/glp-1-muscle-loss-the-hidden-risk-nobodys-talking/" style={{ color: 'var(--brand)', fontWeight: 500 }}>muscle loss risk</a> we discuss extensively.</li>
             <li style={{ marginBottom: 12 }}><strong>Iron &amp; Ferritin:</strong> Iron is essential for oxygen delivery to hair follicle cells. Reduced food intake, especially of red meat, can rapidly deplete iron stores. Ferritin levels below 30 ng/mL are strongly associated with increased shedding.</li>
             <li style={{ marginBottom: 12 }}><strong>Biotin (B7):</strong> A key cofactor in keratin production. Deficiency causes brittle, thinning hair.</li>
-            <li style={{ marginBottom: 12 }}><strong>Zinc:</strong> Critical for cell division in the hair follicle matrix. GI <a href="/blog/glp-1-side-effects-how-to-manage-nausea-fatigue-mo" style={{ color: 'var(--brand)', fontWeight: 500 }}>side effects</a> like nausea and reduced appetite can significantly lower zinc intake.</li>
+            <li style={{ marginBottom: 12 }}><strong>Zinc:</strong> Critical for cell division in the hair follicle matrix. GI <a href="/blog/glp-1-side-effects-how-to-manage-nausea-fatigue-mo/" style={{ color: 'var(--brand)', fontWeight: 500 }}>side effects</a> like nausea and reduced appetite can significantly lower zinc intake.</li>
             <li style={{ marginBottom: 12 }}><strong>Vitamin D:</strong> Plays a role in hair follicle cycling. Many overweight patients are already vitamin D-deficient before starting GLP-1 therapy.</li>
           </ul>
 
@@ -82,9 +82,9 @@ function BlogSemaglutideHairLoss() {
             <li style={{ marginBottom: 16 }}><strong>Iron + Ferritin Monitoring:</strong> Request bloodwork to check ferritin levels before and during GLP-1 therapy. Supplement with iron bisglycinate if ferritin drops below 50 ng/mL.</li>
             <li style={{ marginBottom: 16 }}><strong>Biotin Supplementation (2,500–5,000 mcg/day):</strong> A well-tolerated supplement that supports keratin infrastructure. Note: biotin can interfere with certain lab tests—inform your provider.</li>
             <li style={{ marginBottom: 16 }}><strong>Zinc (15–30mg/day):</strong> Zinc picolinate or zinc citrate with food to support follicle cell division.</li>
-            <li style={{ marginBottom: 16 }}><strong>Gradual Titration:</strong> Slow, steady dose escalation—as practiced in the <a href="/blog/your-first-90-days-on-glp-1-week-by-week-what-to-e" style={{ color: 'var(--brand)', fontWeight: 500 }}>first 90 days protocol</a>—reduces the severity of metabolic shock compared to aggressive dosing.</li>
+            <li style={{ marginBottom: 16 }}><strong>Gradual Titration:</strong> Slow, steady dose escalation—as practiced in the <a href="/blog/your-first-90-days-on-glp-1-week-by-week-what-to-e/" style={{ color: 'var(--brand)', fontWeight: 500 }}>first 90 days protocol</a>—reduces the severity of metabolic shock compared to aggressive dosing.</li>
             <li style={{ marginBottom: 16 }}><strong>Collagen Peptide Supplementation:</strong> 10–15g of hydrolyzed collagen peptides daily provides amino acids (glycine, proline, hydroxyproline) that support hair, skin, and nail structure.</li>
-            <li style={{ marginBottom: 16 }}><strong>Sermorelin for Growth Hormone Support:</strong> <a href="/medications/sermorelin" style={{ color: 'var(--brand)', fontWeight: 500 }}>Sermorelin peptide therapy</a> stimulates natural growth hormone release, which plays a direct role in hair follicle regeneration and overall tissue repair during weight loss.</li>
+            <li style={{ marginBottom: 16 }}><strong>Sermorelin for Growth Hormone Support:</strong> <a href="/medications/sermorelin/" style={{ color: 'var(--brand)', fontWeight: 500 }}>Sermorelin peptide therapy</a> stimulates natural growth hormone release, which plays a direct role in hair follicle regeneration and overall tissue repair during weight loss.</li>
           </ol>
 
           <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>When to See a Dermatologist</h2>

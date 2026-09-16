@@ -19,7 +19,7 @@ function BlogGLP1FoodGuide() {
             <Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%', height: "auto"}} priority={true} />
           </div>
           <div>
-            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
+            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about/" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
             <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated May 2026 · 32 min read</div>
           </div>
         </div>
@@ -27,13 +27,13 @@ function BlogGLP1FoodGuide() {
         <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
           <Image src="/assets/glp1-food-guide-featured.png" alt="Healthy meal plate with GLP-1 injection pen" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111', height: "auto"}} priority={true} />
 
-          <p><a href="/blog/what-is-a-glp-1-medication" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 medications</a> dramatically reduce your appetite—but what you eat during that reduced window of intake matters <em>enormously</em>. When your body is consuming significantly fewer calories, every bite needs to deliver maximum nutritional density. The wrong dietary choices don't just slow your results—they can trigger <a href="/blog/glp-1-muscle-loss-the-hidden-risk-nobodys-talking" style={{ color: 'var(--brand)', fontWeight: 500 }}>muscle loss</a>, hair thinning, fatigue, and nutritional deficiencies that undermine your entire treatment.</p>
+          <p><a href="/blog/what-is-a-glp-1-medication/" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 medications</a> dramatically reduce your appetite—but what you eat during that reduced window of intake matters <em>enormously</em>. When your body is consuming significantly fewer calories, every bite needs to deliver maximum nutritional density. The wrong dietary choices don't just slow your results—they can trigger <a href="/blog/glp-1-muscle-loss-the-hidden-risk-nobodys-talking/" style={{ color: 'var(--brand)', fontWeight: 500 }}>muscle loss</a>, hair thinning, fatigue, and nutritional deficiencies that undermine your entire treatment.</p>
 
-          <p>This guide provides a clinician-informed, evidence-based framework for optimizing your nutrition during <a href="/medications/semaglutide" style={{ color: 'var(--brand)', fontWeight: 500 }}>semaglutide</a> or <a href="/medications/tirzepatide" style={{ color: 'var(--brand)', fontWeight: 500 }}>tirzepatide</a> therapy. We will cover the macronutrient priorities, the specific foods that minimize GI <a href="/blog/glp-1-side-effects-how-to-manage-nausea-fatigue-mo" style={{ color: 'var(--brand)', fontWeight: 500 }}>side effects</a>, and the foods you should avoid entirely.</p>
+          <p>This guide provides a clinician-informed, evidence-based framework for optimizing your nutrition during <a href="/medications/semaglutide/" style={{ color: 'var(--brand)', fontWeight: 500 }}>semaglutide</a> or <a href="/medications/tirzepatide/" style={{ color: 'var(--brand)', fontWeight: 500 }}>tirzepatide</a> therapy. We will cover the macronutrient priorities, the specific foods that minimize GI <a href="/blog/glp-1-side-effects-how-to-manage-nausea-fatigue-mo/" style={{ color: 'var(--brand)', fontWeight: 500 }}>side effects</a>, and the foods you should avoid entirely.</p>
 
           <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The GLP-1 Nutrition Hierarchy: Protein First, Always</h2>
 
-          <p>The single most important nutritional rule on GLP-1 therapy is simple: <strong>eat protein first at every meal.</strong> When your total caloric intake drops from 2,000+ calories to 1,000–1,400 calories per day, inadequate protein intake is the fastest path to lean muscle catabolism, metabolic slowdown, and the dreaded <a href="/blog/glp-1-plateau-when-weight-loss-stalls-what-to-do-2" style={{ color: 'var(--brand)', fontWeight: 500 }}>weight loss plateau</a>.</p>
+          <p>The single most important nutritional rule on GLP-1 therapy is simple: <strong>eat protein first at every meal.</strong> When your total caloric intake drops from 2,000+ calories to 1,000–1,400 calories per day, inadequate protein intake is the fastest path to lean muscle catabolism, metabolic slowdown, and the dreaded <a href="/blog/glp-1-plateau-when-weight-loss-stalls-what-to-do-2/" style={{ color: 'var(--brand)', fontWeight: 500 }}>weight loss plateau</a>.</p>
 
           <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>Daily Protein Targets</h3>
           <ul>
@@ -74,7 +74,7 @@ function BlogGLP1FoodGuide() {
 
           <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Foods to Minimize GI Side Effects</h2>
 
-          <p>Nausea, bloating, and constipation are the most common <a href="/blog/glp-1-side-effects-how-to-manage-nausea-fatigue-mo" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 side effects</a>. GLP-1 medications slow gastric emptying (the rate at which food leaves your stomach), which means large, heavy, or greasy meals sit in your stomach much longer—amplifying discomfort.</p>
+          <p>Nausea, bloating, and constipation are the most common <a href="/blog/glp-1-side-effects-how-to-manage-nausea-fatigue-mo/" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 side effects</a>. GLP-1 medications slow gastric emptying (the rate at which food leaves your stomach), which means large, heavy, or greasy meals sit in your stomach much longer—amplifying discomfort.</p>
 
           <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>GI-Friendly Foods</h3>
           <ul>
@@ -93,7 +93,7 @@ function BlogGLP1FoodGuide() {
             <li style={{ marginBottom: 16 }}><strong>Sugary foods and beverages:</strong> Candy, soda, juice. You're on a metabolic medication—don't counteract it with insulin spikes.</li>
             <li style={{ marginBottom: 16 }}><strong>Large meals:</strong> Your stomach empties slower now. Eat 4–5 smaller meals instead of 2–3 large ones.</li>
             <li style={{ marginBottom: 16 }}><strong>Carbonated beverages:</strong> Gas + slowed digestion = painful bloating. Switch to still water or herbal tea.</li>
-            <li style={{ marginBottom: 16 }}><strong>Alcohol:</strong> GLP-1 medications alter alcohol metabolism. Read our full <a href="/blog/glp-1-and-alcohol-what-you-need-to-know-2026-clini" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 and alcohol guide</a>.</li>
+            <li style={{ marginBottom: 16 }}><strong>Alcohol:</strong> GLP-1 medications alter alcohol metabolism. Read our full <a href="/blog/glp-1-and-alcohol-what-you-need-to-know-2026-clini/" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 and alcohol guide</a>.</li>
             <li style={{ marginBottom: 16 }}><strong>Spicy foods:</strong> Can exacerbate acid reflux and nausea, especially during the titration phase.</li>
           </ol>
 
@@ -107,7 +107,7 @@ function BlogGLP1FoodGuide() {
             <li style={{ marginBottom: 8 }}><strong>Healthy fats in small amounts</strong> (avocado, olive oil, nuts)</li>
           </ol>
 
-          <p>This order is not arbitrary—eating protein and fiber before carbohydrates has been clinically shown to reduce post-meal glucose spikes by up to 40%, complementing the glucose-regulating effects of your GLP-1 medication. Pair this framework with the <a href="/blog/intermittent-fasting-glp-1-do-they-work-together-2" style={{ color: 'var(--brand)', fontWeight: 500 }}>intermittent fasting + GLP-1</a> strategy and the <a href="/blog/glp-1-and-exercise-how-to-combine-medication-with" style={{ color: 'var(--brand)', fontWeight: 500 }}>exercise combination guide</a> for maximum results.</p>
+          <p>This order is not arbitrary—eating protein and fiber before carbohydrates has been clinically shown to reduce post-meal glucose spikes by up to 40%, complementing the glucose-regulating effects of your GLP-1 medication. Pair this framework with the <a href="/blog/intermittent-fasting-glp-1-do-they-work-together-2/" style={{ color: 'var(--brand)', fontWeight: 500 }}>intermittent fasting + GLP-1</a> strategy and the <a href="/blog/glp-1-and-exercise-how-to-combine-medication-with/" style={{ color: 'var(--brand)', fontWeight: 500 }}>exercise combination guide</a> for maximum results.</p>
 
           <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
             <div style={{ width: 48, height: 48, borderRadius: '50%', background: 'var(--brand-soft)', color: 'var(--brand)', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 20px' }}><Icon.Check size={24} /></div>

@@ -22,7 +22,7 @@ export function BlogIsCompoundedSemaglutideSafeWhatYouNeedToKn() {
             </div>
             <div>
               <div style={{ fontWeight: 500, color: 'var(--ink)' }}>
-                <a href="/about" style={{ color: 'inherit', textDecoration: 'none' }}>Julian Mercer, M.S.</a>
+                <a href="/about/" style={{ color: 'inherit', textDecoration: 'none' }}>Julian Mercer, M.S.</a>
               </div>
               <div style={{ fontSize: 14, color: 'var(--ink-2)' }}>Lead Bio-Systems Analyst | May 2, 2026</div>
             </div>
@@ -39,7 +39,7 @@ export function BlogIsCompoundedSemaglutideSafeWhatYouNeedToKn() {
 
           <div className="blog-content">
             <p>
-              The meteoric rise of GLP-1 receptor agonists (specifically Semaglutide and <a href="/blog/tirzepatide-vs-semaglutide-dual-agonist-mechanism" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Tirzepatide</a>) created an unprecedented crisis in the pharmaceutical supply chain. As Novo Nordisk and Eli Lilly completely failed to meet global demand, the FDA officially placed these name-brand drugs (Ozempic, Wegovy, Mounjaro) on the national shortage list.
+              The meteoric rise of GLP-1 receptor agonists (specifically Semaglutide and <a href="/blog/tirzepatide-vs-semaglutide-dual-agonist-mechanism/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Tirzepatide</a>) created an unprecedented crisis in the pharmaceutical supply chain. As Novo Nordisk and Eli Lilly completely failed to meet global demand, the FDA officially placed these name-brand drugs (Ozempic, Wegovy, Mounjaro) on the national shortage list.
             </p>
             <p>
               Under federal law, when a life-saving medication is in shortage, highly regulated, state-licensed compounding pharmacies are legally permitted to synthesize the active pharmaceutical ingredient (API) from scratch to ensure patients receive care. This created the massive "compounded peptide" industry.
@@ -134,7 +134,7 @@ export function BlogIsCompoundedSemaglutideSafeWhatYouNeedToKn() {
               This is not a gimmick. Compounding pharmacies will frequently combine the raw Semaglutide peptide with a B-vitamin for two highly specific clinical reasons:
             </p>
             <ol>
-              <li><strong>Nausea Mitigation:</strong> As detailed in our <a href="/blog/glp-1-side-effects-how-to-manage-nausea-fatigue-mo" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>GLP-1 Side Effects Guide</a>, severe nausea is the primary side effect of Semaglutide. B-vitamins (specifically B6) are powerful, natural anti-emetics that drastically buffer the gastrointestinal distress caused by the peptide.</li>
+              <li><strong>Nausea Mitigation:</strong> As detailed in our <a href="/blog/glp-1-side-effects-how-to-manage-nausea-fatigue-mo/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>GLP-1 Side Effects Guide</a>, severe nausea is the primary side effect of Semaglutide. B-vitamins (specifically B6) are powerful, natural anti-emetics that drastically buffer the gastrointestinal distress caused by the peptide.</li>
               <li><strong>Patent Law:</strong> By combining the base molecule with a vitamin, the pharmacy creates a legally distinct formulation that does not directly infringe on the specific patent of the name-brand, isolated drug, ensuring uninterrupted legal supply.</li>
             </ol>
 
@@ -146,7 +146,7 @@ export function BlogIsCompoundedSemaglutideSafeWhatYouNeedToKn() {
                   Your safety is the ultimate priority. Never inject a substance that has not been rigorously tested and verified by U.S. regulatory bodies.
                 </p>
                 <p style={{ fontSize: 16, color: 'var(--ink-2)', marginBottom: 32, maxWidth: 600, margin: '0 auto 32px' }}>
-                  TelehealthFX provides U.S.-licensed, quality-verified compounded Semaglutide and Tirzepatide sourced exclusively from vetted 503A/B pharmacies. Learn how to identify rogue clinics in our guide to spotting <a href="/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Hidden Fees in Telehealth</a>.
+                  TelehealthFX provides U.S.-licensed, quality-verified compounded Semaglutide and Tirzepatide sourced exclusively from vetted 503A/B pharmacies. Learn how to identify rogue clinics in our guide to spotting <a href="/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Hidden Fees in Telehealth</a>.
                 </p>
                 <div style={{ display: 'flex', gap: 16, justifyContent: 'center' }}>
                   <a href={START_URL} className="btn btn-primary" style={{ fontSize: 18, padding: '0 32px' }}>

@@ -22,7 +22,7 @@ export function BlogGlp1SideEffectsHowToManageNauseaFatigueMo() {
             </div>
             <div>
               <div style={{ fontWeight: 500, color: 'var(--ink)' }}>
-                <a href="/about" style={{ color: 'inherit', textDecoration: 'none' }}>Julian Mercer, M.S.</a>
+                <a href="/about/" style={{ color: 'inherit', textDecoration: 'none' }}>Julian Mercer, M.S.</a>
               </div>
               <div style={{ fontSize: 14, color: 'var(--ink-2)' }}>Lead Bio-Systems Analyst | May 2, 2026</div>
             </div>
@@ -39,7 +39,7 @@ export function BlogGlp1SideEffectsHowToManageNauseaFatigueMo() {
 
           <div className="blog-content">
             <p>
-              The unparalleled efficacy of GLP-1 receptor agonists like Semaglutide (Ozempic/Wegovy) and <a href="/blog/tirzepatide-vs-semaglutide-dual-agonist-mechanism" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Tirzepatide</a> has fundamentally transformed obesity medicine. However, this physiological transformation is not passive. Because these medications aggressively manipulate the central nervous system and the gastrointestinal tract, the "adaptation phase" can be incredibly volatile. 
+              The unparalleled efficacy of GLP-1 receptor agonists like Semaglutide (Ozempic/Wegovy) and <a href="/blog/tirzepatide-vs-semaglutide-dual-agonist-mechanism/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Tirzepatide</a> has fundamentally transformed obesity medicine. However, this physiological transformation is not passive. Because these medications aggressively manipulate the central nervous system and the gastrointestinal tract, the "adaptation phase" can be incredibly volatile. 
             </p>
             <p>
               Gastrointestinal distress—specifically nausea, vomiting, and severe lethargy—is the primary reason patients abandon GLP-1 therapy within the first 60 days. In almost all cases, these side effects are entirely preventable. They are the direct result of rapid titration, improper dietary choices, and a fundamental misunderstanding of how the incretin system operates.
@@ -99,7 +99,7 @@ export function BlogGlp1SideEffectsHowToManageNauseaFatigueMo() {
               The second most common reason patients abandon GLP-1 therapy is crushing, inexplicable fatigue. Patients often describe feeling like they are moving underwater, or experiencing severe "brain fog."
             </p>
             <p>
-              As we discussed in our breakdown of <a href="/blog/ozempic-insulin-resistance" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>GLP-1 and Insulin Resistance</a>, these medications aggressively suppress a hormone called glucagon. Glucagon is the "anti-insulin." When your blood sugar drops, glucagon tells your liver to release stored glucose into the blood for immediate energy.
+              As we discussed in our breakdown of <a href="/blog/ozempic-insulin-resistance/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>GLP-1 and Insulin Resistance</a>, these medications aggressively suppress a hormone called glucagon. Glucagon is the "anti-insulin." When your blood sugar drops, glucagon tells your liver to release stored glucose into the blood for immediate energy.
             </p>
             <p>
               Because GLP-1s violently suppress glucagon, your liver's ability to provide rapid energy is blunted. When combined with the massive caloric deficit induced by the medication, the body simply runs out of fuel. The result is systemic, profound lethargy.
@@ -132,7 +132,7 @@ export function BlogGlp1SideEffectsHowToManageNauseaFatigueMo() {
 
             <h3>The NAD+ Cellular Bridge</h3>
             <p>
-              To combat the glucagon-suppression fatigue, modern longevity clinics are heavily utilizing <a href="/blog/nad-therapy-explained-anti-aging-energy-weight-los" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>NAD+ Therapy</a> as a complementary protocol. NAD+ (Nicotinamide Adenine Dinucleotide) is a critical coenzyme that powers the mitochondria (the powerhouses of your cells). By administering subcutaneous NAD+ alongside the GLP-1, patients can artificially boost their cellular ATP production, entirely bypassing the fatigue caused by the caloric deficit.
+              To combat the glucagon-suppression fatigue, modern longevity clinics are heavily utilizing <a href="/blog/nad-therapy-explained-anti-aging-energy-weight-los/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>NAD+ Therapy</a> as a complementary protocol. NAD+ (Nicotinamide Adenine Dinucleotide) is a critical coenzyme that powers the mitochondria (the powerhouses of your cells). By administering subcutaneous NAD+ alongside the GLP-1, patients can artificially boost their cellular ATP production, entirely bypassing the fatigue caused by the caloric deficit.
             </p>
 
             <div className="card" style={{ padding: 32, background: 'var(--surface-2)', marginTop: 40, marginBottom: 40 }}>
@@ -165,7 +165,7 @@ export function BlogGlp1SideEffectsHowToManageNauseaFatigueMo() {
                   Stop accepting subpar medical care. If your current provider ignores your side effects, it is time to switch to a platform built on physiological support.
                 </p>
                 <p style={{ fontSize: 16, color: 'var(--ink-2)', marginBottom: 32, maxWidth: 600, margin: '0 auto 32px' }}>
-                  TelehealthFX provides U.S.-licensed, quality-verified compounded Semaglutide and Tirzepatide with strict physician oversight, anti-nausea management, and peptide integration. Learn how to identify safe providers in our guide to spotting <a href="/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Hidden Fees in Telehealth</a>.
+                  TelehealthFX provides U.S.-licensed, quality-verified compounded Semaglutide and Tirzepatide with strict physician oversight, anti-nausea management, and peptide integration. Learn how to identify safe providers in our guide to spotting <a href="/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot/" style={{ color: 'var(--brand)', textDecoration: 'underline', fontWeight: 500 }}>Hidden Fees in Telehealth</a>.
                 </p>
                 <div style={{ display: 'flex', gap: 16, justifyContent: 'center' }}>
                   <a href={START_URL} className="btn btn-primary" style={{ fontSize: 18, padding: '0 32px' }}>

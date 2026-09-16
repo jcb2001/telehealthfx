@@ -21,7 +21,7 @@ function Blog8EssentialFeatures() {
             </div>
             <div>
               <div style={{ fontWeight: 500, fontSize: 14, color: '#1E1B4B' }}>
-                <a href="/about" style={{ color: "#1E1B4B", textDecoration: "none" }}>Julian Mercer, M.S.</a>
+                <a href="/about/" style={{ color: "#1E1B4B", textDecoration: "none" }}>Julian Mercer, M.S.</a>
               </div>
               <div style={{ fontSize: 13, color: '#3730A3' }}>
                 Lead Bio-Systems Analyst · Updated June 2026 · 19 min read

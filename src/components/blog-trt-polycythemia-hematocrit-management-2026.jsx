@@ -20,7 +20,7 @@ function BlogTrtPolycythemiaHematocritManagement2026() {
             <Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={1024} height={1024} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%', height: "auto"}} priority={true} />
           </div>
           <div>
-            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
+            <div style={{ fontWeight: 500, fontSize: 14 }}><a href="/about/" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
             <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Bio-Systems Analyst · Updated June 2026 · 18 min read</div>
           </div>
         </div>
@@ -44,7 +44,7 @@ function BlogTrtPolycythemiaHematocritManagement2026() {
             <li style={{ marginBottom: 12 }}><strong>Suppression of hepcidin:</strong> Testosterone suppresses hepatic hepcidin production, increasing intestinal iron absorption and mobilization from iron stores. More bioavailable iron means more raw material for hemoglobin synthesis, further amplifying RBC production.</li>
           </ol>
 
-          <p>This erythropoietic effect is dose-dependent. Higher testosterone doses and supraphysiologic serum levels drive proportionally greater increases in hematocrit. The route of administration also matters—injectable testosterone cypionate and enanthate, which produce peak-and-trough pharmacokinetics, tend to cause more pronounced hematocrit elevation compared to transdermal formulations that provide steadier serum levels. For a comparison of delivery methods, see our <a href="/blog/trt-dosage-guide-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>TRT dosage guide</a>.</p>
+          <p>This erythropoietic effect is dose-dependent. Higher testosterone doses and supraphysiologic serum levels drive proportionally greater increases in hematocrit. The route of administration also matters—injectable testosterone cypionate and enanthate, which produce peak-and-trough pharmacokinetics, tend to cause more pronounced hematocrit elevation compared to transdermal formulations that provide steadier serum levels. For a comparison of delivery methods, see our <a href="/blog/trt-dosage-guide-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>TRT dosage guide</a>.</p>
 
           <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>When to Worry: The Real Hematocrit Thresholds</h2>
 
@@ -86,7 +86,7 @@ function BlogTrtPolycythemiaHematocritManagement2026() {
 
           <p>The <strong>54% threshold</strong> is the widely cited "red line" in endocrinology guidelines. The Endocrine Society's 2018 Clinical Practice Guideline recommends withholding testosterone if hematocrit exceeds 54%, based on the theoretical risk of hyperviscosity-related thromboembolic events. However, it's important to note that this threshold was established largely from observational data and expert consensus—the TRAVERSE trial, published in 2023, did not demonstrate increased MACE even in participants who developed erythrocytosis, which has prompted some experts to advocate for a more nuanced, individualized approach.</p>
 
-          <p>For a complete overview of all TRT-related monitoring, see our <a href="/blog/trt-side-effects-complete-guide-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>TRT side effects guide</a>.</p>
+          <p>For a complete overview of all TRT-related monitoring, see our <a href="/blog/trt-side-effects-complete-guide-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>TRT side effects guide</a>.</p>
 
           <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Step 1: Rule Out False Elevations — The Hydration Factor</h2>
 
@@ -123,7 +123,7 @@ function BlogTrtPolycythemiaHematocritManagement2026() {
             <li style={{ marginBottom: 12 }}><strong>Target trough levels:</strong> Work with your provider to target trough testosterone levels in the mid-normal range (500–700 ng/dL) rather than high-normal. Supraphysiologic trough levels (&gt;900 ng/dL) are the primary driver of persistent erythrocytosis.</li>
           </ul>
 
-          <p>These adjustments are detailed in our <a href="/blog/trt-dosage-guide-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>comprehensive TRT dosage guide</a>. In most cases, dose optimization alone resolves hematocrit elevations in the 50–54% range within 6–12 weeks.</p>
+          <p>These adjustments are detailed in our <a href="/blog/trt-dosage-guide-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>comprehensive TRT dosage guide</a>. In most cases, dose optimization alone resolves hematocrit elevations in the 50–54% range within 6–12 weeks.</p>
 
           <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Step 3: Switch Delivery Methods — The Transdermal Option</h2>
 
@@ -133,7 +133,7 @@ function BlogTrtPolycythemiaHematocritManagement2026() {
 
           <p>A 2020 study by Borst et al. in the <em>Journal of Clinical Endocrinology &amp; Metabolism</em> compared hematocrit changes in men switched from injectable to transdermal testosterone (n=98). Mean hematocrit decreased from <strong>51.2% to 47.8%</strong> within 12 weeks of the switch, without any change in testosterone efficacy markers (libido, energy, body composition). For patients whose primary concern is hematocrit management, this conversion is often a definitive solution.</p>
 
-          <p>For a complete comparison of testosterone delivery methods, see our guide on <a href="/blog/trt-side-effects-complete-guide-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>TRT side effects</a> and our <a href="/blog/trt-timeline-first-6-months-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>TRT timeline for the first 6 months</a>.</p>
+          <p>For a complete comparison of testosterone delivery methods, see our guide on <a href="/blog/trt-side-effects-complete-guide-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>TRT side effects</a> and our <a href="/blog/trt-timeline-first-6-months-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>TRT timeline for the first 6 months</a>.</p>
 
           <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Step 4: Therapeutic Phlebotomy — Controlled Blood Removal</h2>
 
@@ -227,14 +227,14 @@ function BlogTrtPolycythemiaHematocritManagement2026() {
             <li style={{ marginBottom: 16 }}><strong>Recurrent thromboembolic events:</strong> A personal history of DVT, PE, or stroke—especially if prior events occurred during testosterone therapy—may make TRT continuation inadvisable even at lower hematocrit thresholds.</li>
           </ol>
 
-          <p>These considerations are part of the broader <a href="/blog/trt-heart-health-safety-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>TRT and heart health safety profile</a> that every patient should understand before starting therapy.</p>
+          <p>These considerations are part of the broader <a href="/blog/trt-heart-health-safety-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>TRT and heart health safety profile</a> that every patient should understand before starting therapy.</p>
 
           <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Other Risk Factors That Compound Hematocrit Elevation</h2>
 
           <p>Hematocrit doesn't exist in isolation. Several common conditions and behaviors can compound the erythrocytotic effect of TRT and should be addressed as part of a comprehensive management plan:</p>
 
           <ul>
-            <li style={{ marginBottom: 12 }}><strong>Obstructive sleep apnea (OSA):</strong> Chronic intermittent hypoxia from untreated OSA independently stimulates EPO production, adding to the testosterone-driven erythropoietic stimulus. If you're on TRT and have undiagnosed or untreated sleep apnea, you're essentially receiving a "double hit" to your hematocrit. We cover this relationship in our <a href="/blog/trt-and-sleep-apnea-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>TRT and sleep apnea guide</a>.</li>
+            <li style={{ marginBottom: 12 }}><strong>Obstructive sleep apnea (OSA):</strong> Chronic intermittent hypoxia from untreated OSA independently stimulates EPO production, adding to the testosterone-driven erythropoietic stimulus. If you're on TRT and have undiagnosed or untreated sleep apnea, you're essentially receiving a "double hit" to your hematocrit. We cover this relationship in our <a href="/blog/trt-and-sleep-apnea-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>TRT and sleep apnea guide</a>.</li>
             <li style={{ marginBottom: 12 }}><strong>Smoking:</strong> Chronic carbon monoxide exposure from smoking increases carboxyhemoglobin levels, which functionally reduces oxygen-carrying capacity and triggers compensatory erythropoiesis. Smoking TRT patients are at substantially higher risk of clinically significant polycythemia.</li>
             <li style={{ marginBottom: 12 }}><strong>Living at altitude:</strong> Residents at elevations above 4,000 feet experience chronic mild hypoxia, which naturally elevates hematocrit. TRT patients in Denver, Salt Lake City, or similar locations may run 2–4% higher than sea-level peers at baseline.</li>
             <li style={{ marginBottom: 12 }}><strong>Chronic lung disease (COPD):</strong> Any condition causing chronic hypoxemia drives compensatory erythropoiesis, compounding the TRT effect.</li>
@@ -254,7 +254,7 @@ function BlogTrtPolycythemiaHematocritManagement2026() {
             <li style={{ marginBottom: 12 }}><strong>After phlebotomy:</strong> Recheck 4–6 weeks post-procedure to confirm sustained reduction.</li>
           </ul>
 
-          <p>Telehealth FX integrates these lab checkpoints into every TRT treatment plan, with proactive clinician review of results and dose modifications as needed. For a detailed look at what to expect at each stage, see our <a href="/blog/trt-timeline-first-6-months-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>TRT timeline for the first 6 months</a>.</p>
+          <p>Telehealth FX integrates these lab checkpoints into every TRT treatment plan, with proactive clinician review of results and dose modifications as needed. For a detailed look at what to expect at each stage, see our <a href="/blog/trt-timeline-first-6-months-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>TRT timeline for the first 6 months</a>.</p>
 
           <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Frequently Asked Questions</h2>
 
@@ -271,7 +271,7 @@ function BlogTrtPolycythemiaHematocritManagement2026() {
           <p style={{ marginBottom: 24 }}>Red blood cells have a lifespan of approximately 120 days, so changes to erythropoietic drive take time to manifest in hematocrit levels. After a dose reduction, you can typically expect to see measurable improvement within 6–12 weeks, with full effect by 16 weeks. Phlebotomy produces immediate results (within 24–48 hours) but is a temporary measure—the underlying erythropoietic drive must also be addressed.</p>
 
           <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>Should I stop TRT if my hematocrit is 52%?</h4>
-          <p style={{ marginBottom: 24 }}>No, a hematocrit of 52% does not typically warrant stopping TRT. The Endocrine Society recommends withholding testosterone only when hematocrit exceeds 54%. At 52%, appropriate interventions include ensuring adequate hydration, confirming the reading on a repeat draw, considering a modest dose reduction (10–15%), and increasing injection frequency. Stopping TRT at 52% would be unnecessarily conservative for most patients and would mean losing the documented benefits of therapy, including improvements in <a href="/blog/trt-weight-loss-body-composition-2026" style={{ color: 'var(--brand)', fontWeight: 500 }}>body composition</a>, energy, mood, and metabolic markers.</p>
+          <p style={{ marginBottom: 24 }}>No, a hematocrit of 52% does not typically warrant stopping TRT. The Endocrine Society recommends withholding testosterone only when hematocrit exceeds 54%. At 52%, appropriate interventions include ensuring adequate hydration, confirming the reading on a repeat draw, considering a modest dose reduction (10–15%), and increasing injection frequency. Stopping TRT at 52% would be unnecessarily conservative for most patients and would mean losing the documented benefits of therapy, including improvements in <a href="/blog/trt-weight-loss-body-composition-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>body composition</a>, energy, mood, and metabolic markers.</p>
 
           <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
             <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>TRT Managed by Clinicians Who Understand the Details</h2>

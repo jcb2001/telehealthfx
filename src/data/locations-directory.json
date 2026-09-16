@@ -1,0 +1,1002 @@
+[
+  {
+    "state": "Alabama",
+    "cities": [
+      {
+        "slug": "birmingham",
+        "city": "Birmingham",
+        "state": "Alabama"
+      },
+      {
+        "slug": "dothan",
+        "city": "Dothan",
+        "state": "Alabama"
+      },
+      {
+        "slug": "huntsville",
+        "city": "Huntsville",
+        "state": "Alabama"
+      },
+      {
+        "slug": "mobile",
+        "city": "Mobile",
+        "state": "Alabama"
+      },
+      {
+        "slug": "montgomery",
+        "city": "Montgomery",
+        "state": "Alabama"
+      },
+      {
+        "slug": "tuscaloosa",
+        "city": "Tuscaloosa",
+        "state": "Alabama"
+      }
+    ]
+  },
+  {
+    "state": "Alaska",
+    "cities": [
+      {
+        "slug": "anchorage",
+        "city": "Anchorage",
+        "state": "Alaska"
+      }
+    ]
+  },
+  {
+    "state": "Arizona",
+    "cities": [
+      {
+        "slug": "phoenix",
+        "city": "Phoenix",
+        "state": "Arizona"
+      },
+      {
+        "slug": "sierra-vista",
+        "city": "Sierra Vista",
+        "state": "Arizona"
+      },
+      {
+        "slug": "tucson",
+        "city": "Tucson",
+        "state": "Arizona"
+      },
+      {
+        "slug": "yuma",
+        "city": "Yuma",
+        "state": "Arizona"
+      }
+    ]
+  },
+  {
+    "state": "Arkansas",
+    "cities": [
+      {
+        "slug": "little-rock",
+        "city": "Little Rock",
+        "state": "Arkansas"
+      }
+    ]
+  },
+  {
+    "state": "California",
+    "cities": [
+      {
+        "slug": "bakersfield",
+        "city": "Bakersfield",
+        "state": "California"
+      },
+      {
+        "slug": "fresno",
+        "city": "Fresno",
+        "state": "California"
+      },
+      {
+        "slug": "los-angeles",
+        "city": "Los Angeles",
+        "state": "California"
+      },
+      {
+        "slug": "modesto",
+        "city": "Modesto",
+        "state": "California"
+      },
+      {
+        "slug": "sacramento",
+        "city": "Sacramento",
+        "state": "California"
+      },
+      {
+        "slug": "san-bernardino",
+        "city": "San Bernardino",
+        "state": "California"
+      },
+      {
+        "slug": "san-diego",
+        "city": "San Diego",
+        "state": "California"
+      },
+      {
+        "slug": "san-francisco",
+        "city": "San Francisco",
+        "state": "California"
+      },
+      {
+        "slug": "san-jose",
+        "city": "San Jose",
+        "state": "California"
+      },
+      {
+        "slug": "stockton",
+        "city": "Stockton",
+        "state": "California"
+      }
+    ]
+  },
+  {
+    "state": "Colorado",
+    "cities": [
+      {
+        "slug": "colorado-springs",
+        "city": "Colorado Springs",
+        "state": "Colorado"
+      },
+      {
+        "slug": "denver",
+        "city": "Denver",
+        "state": "Colorado"
+      },
+      {
+        "slug": "pueblo",
+        "city": "Pueblo",
+        "state": "Colorado"
+      }
+    ]
+  },
+  {
+    "state": "Florida",
+    "cities": [
+      {
+        "slug": "jacksonville",
+        "city": "Jacksonville",
+        "state": "Florida"
+      },
+      {
+        "slug": "miami",
+        "city": "Miami",
+        "state": "Florida"
+      },
+      {
+        "slug": "orlando",
+        "city": "Orlando",
+        "state": "Florida"
+      },
+      {
+        "slug": "panama-city",
+        "city": "Panama City",
+        "state": "Florida"
+      },
+      {
+        "slug": "pensacola",
+        "city": "Pensacola",
+        "state": "Florida"
+      },
+      {
+        "slug": "st-petersburg",
+        "city": "St. Petersburg",
+        "state": "Florida"
+      },
+      {
+        "slug": "tallahassee",
+        "city": "Tallahassee",
+        "state": "Florida"
+      },
+      {
+        "slug": "tampa",
+        "city": "Tampa",
+        "state": "Florida"
+      }
+    ]
+  },
+  {
+    "state": "Georgia",
+    "cities": [
+      {
+        "slug": "atlanta",
+        "city": "Atlanta",
+        "state": "Georgia"
+      },
+      {
+        "slug": "augusta",
+        "city": "Augusta",
+        "state": "Georgia"
+      },
+      {
+        "slug": "columbus-ga",
+        "city": "Columbus",
+        "state": "Georgia"
+      },
+      {
+        "slug": "hinesville",
+        "city": "Hinesville",
+        "state": "Georgia"
+      },
+      {
+        "slug": "macon",
+        "city": "Macon",
+        "state": "Georgia"
+      },
+      {
+        "slug": "savannah",
+        "city": "Savannah",
+        "state": "Georgia"
+      },
+      {
+        "slug": "valdosta",
+        "city": "Valdosta",
+        "state": "Georgia"
+      },
+      {
+        "slug": "warner-robins",
+        "city": "Warner Robins",
+        "state": "Georgia"
+      }
+    ]
+  },
+  {
+    "state": "Hawaii",
+    "cities": [
+      {
+        "slug": "honolulu",
+        "city": "Honolulu",
+        "state": "Hawaii"
+      }
+    ]
+  },
+  {
+    "state": "Idaho",
+    "cities": [
+      {
+        "slug": "boise",
+        "city": "Boise",
+        "state": "Idaho"
+      },
+      {
+        "slug": "twin-falls",
+        "city": "Twin Falls",
+        "state": "Idaho"
+      }
+    ]
+  },
+  {
+    "state": "Illinois",
+    "cities": [
+      {
+        "slug": "chicago",
+        "city": "Chicago",
+        "state": "Illinois"
+      },
+      {
+        "slug": "peoria",
+        "city": "Peoria",
+        "state": "Illinois"
+      },
+      {
+        "slug": "rockford",
+        "city": "Rockford",
+        "state": "Illinois"
+      },
+      {
+        "slug": "springfield-il",
+        "city": "Springfield",
+        "state": "Illinois"
+      }
+    ]
+  },
+  {
+    "state": "Indiana",
+    "cities": [
+      {
+        "slug": "fort-wayne",
+        "city": "Fort Wayne",
+        "state": "Indiana"
+      },
+      {
+        "slug": "indianapolis",
+        "city": "Indianapolis",
+        "state": "Indiana"
+      }
+    ]
+  },
+  {
+    "state": "Iowa",
+    "cities": [
+      {
+        "slug": "des-moines",
+        "city": "Des Moines",
+        "state": "Iowa"
+      }
+    ]
+  },
+  {
+    "state": "Kansas",
+    "cities": [
+      {
+        "slug": "leavenworth",
+        "city": "Leavenworth",
+        "state": "Kansas"
+      },
+      {
+        "slug": "manhattan-ks",
+        "city": "Manhattan",
+        "state": "Kansas"
+      },
+      {
+        "slug": "topeka",
+        "city": "Topeka",
+        "state": "Kansas"
+      },
+      {
+        "slug": "wichita",
+        "city": "Wichita",
+        "state": "Kansas"
+      }
+    ]
+  },
+  {
+    "state": "Kentucky",
+    "cities": [
+      {
+        "slug": "elizabethtown",
+        "city": "Elizabethtown",
+        "state": "Kentucky"
+      },
+      {
+        "slug": "lexington",
+        "city": "Lexington",
+        "state": "Kentucky"
+      },
+      {
+        "slug": "louisville",
+        "city": "Louisville",
+        "state": "Kentucky"
+      }
+    ]
+  },
+  {
+    "state": "Louisiana",
+    "cities": [
+      {
+        "slug": "baton-rouge",
+        "city": "Baton Rouge",
+        "state": "Louisiana"
+      },
+      {
+        "slug": "lake-charles",
+        "city": "Lake Charles",
+        "state": "Louisiana"
+      },
+      {
+        "slug": "new-orleans",
+        "city": "New Orleans",
+        "state": "Louisiana"
+      },
+      {
+        "slug": "shreveport",
+        "city": "Shreveport",
+        "state": "Louisiana"
+      }
+    ]
+  },
+  {
+    "state": "Maryland",
+    "cities": [
+      {
+        "slug": "baltimore",
+        "city": "Baltimore",
+        "state": "Maryland"
+      }
+    ]
+  },
+  {
+    "state": "Massachusetts",
+    "cities": [
+      {
+        "slug": "boston",
+        "city": "Boston",
+        "state": "Massachusetts"
+      },
+      {
+        "slug": "worcester",
+        "city": "Worcester",
+        "state": "Massachusetts"
+      }
+    ]
+  },
+  {
+    "state": "Michigan",
+    "cities": [
+      {
+        "slug": "detroit",
+        "city": "Detroit",
+        "state": "Michigan"
+      },
+      {
+        "slug": "flint",
+        "city": "Flint",
+        "state": "Michigan"
+      },
+      {
+        "slug": "grand-rapids",
+        "city": "Grand Rapids",
+        "state": "Michigan"
+      }
+    ]
+  },
+  {
+    "state": "Minnesota",
+    "cities": [
+      {
+        "slug": "duluth",
+        "city": "Duluth",
+        "state": "Minnesota"
+      },
+      {
+        "slug": "minneapolis",
+        "city": "Minneapolis",
+        "state": "Minnesota"
+      }
+    ]
+  },
+  {
+    "state": "Mississippi",
+    "cities": [
+      {
+        "slug": "biloxi",
+        "city": "Biloxi",
+        "state": "Mississippi"
+      },
+      {
+        "slug": "hattiesburg",
+        "city": "Hattiesburg",
+        "state": "Mississippi"
+      },
+      {
+        "slug": "jackson",
+        "city": "Jackson",
+        "state": "Mississippi"
+      },
+      {
+        "slug": "meridian",
+        "city": "Meridian",
+        "state": "Mississippi"
+      }
+    ]
+  },
+  {
+    "state": "Missouri",
+    "cities": [
+      {
+        "slug": "kansas-city",
+        "city": "Kansas City",
+        "state": "Missouri"
+      },
+      {
+        "slug": "springfield",
+        "city": "Springfield",
+        "state": "Missouri"
+      },
+      {
+        "slug": "st-louis",
+        "city": "St. Louis",
+        "state": "Missouri"
+      }
+    ]
+  },
+  {
+    "state": "Montana",
+    "cities": [
+      {
+        "slug": "billings",
+        "city": "Billings",
+        "state": "Montana"
+      }
+    ]
+  },
+  {
+    "state": "Nebraska",
+    "cities": [
+      {
+        "slug": "lincoln",
+        "city": "Lincoln",
+        "state": "Nebraska"
+      },
+      {
+        "slug": "omaha",
+        "city": "Omaha",
+        "state": "Nebraska"
+      }
+    ]
+  },
+  {
+    "state": "Nevada",
+    "cities": [
+      {
+        "slug": "las-vegas",
+        "city": "Las Vegas",
+        "state": "Nevada"
+      },
+      {
+        "slug": "reno",
+        "city": "Reno",
+        "state": "Nevada"
+      }
+    ]
+  },
+  {
+    "state": "New Jersey",
+    "cities": [
+      {
+        "slug": "newark",
+        "city": "Newark",
+        "state": "New Jersey"
+      }
+    ]
+  },
+  {
+    "state": "New Mexico",
+    "cities": [
+      {
+        "slug": "albuquerque",
+        "city": "Albuquerque",
+        "state": "New Mexico"
+      },
+      {
+        "slug": "clovis",
+        "city": "Clovis",
+        "state": "New Mexico"
+      }
+    ]
+  },
+  {
+    "state": "New York",
+    "cities": [
+      {
+        "slug": "buffalo",
+        "city": "Buffalo",
+        "state": "New York"
+      },
+      {
+        "slug": "new-york",
+        "city": "New York City",
+        "state": "New York"
+      },
+      {
+        "slug": "rochester",
+        "city": "Rochester",
+        "state": "New York"
+      },
+      {
+        "slug": "syracuse",
+        "city": "Syracuse",
+        "state": "New York"
+      },
+      {
+        "slug": "watertown",
+        "city": "Watertown",
+        "state": "New York"
+      }
+    ]
+  },
+  {
+    "state": "North Carolina",
+    "cities": [
+      {
+        "slug": "charlotte",
+        "city": "Charlotte",
+        "state": "North Carolina"
+      },
+      {
+        "slug": "durham",
+        "city": "Durham",
+        "state": "North Carolina"
+      },
+      {
+        "slug": "fayetteville",
+        "city": "Fayetteville",
+        "state": "North Carolina"
+      },
+      {
+        "slug": "greensboro",
+        "city": "Greensboro",
+        "state": "North Carolina"
+      },
+      {
+        "slug": "raleigh",
+        "city": "Raleigh",
+        "state": "North Carolina"
+      },
+      {
+        "slug": "wilmington",
+        "city": "Wilmington",
+        "state": "North Carolina"
+      }
+    ]
+  },
+  {
+    "state": "North Dakota",
+    "cities": [
+      {
+        "slug": "fargo",
+        "city": "Fargo",
+        "state": "North Dakota"
+      }
+    ]
+  },
+  {
+    "state": "Ohio",
+    "cities": [
+      {
+        "slug": "akron",
+        "city": "Akron",
+        "state": "Ohio"
+      },
+      {
+        "slug": "cincinnati",
+        "city": "Cincinnati",
+        "state": "Ohio"
+      },
+      {
+        "slug": "cleveland",
+        "city": "Cleveland",
+        "state": "Ohio"
+      },
+      {
+        "slug": "columbus",
+        "city": "Columbus",
+        "state": "Ohio"
+      },
+      {
+        "slug": "dayton",
+        "city": "Dayton",
+        "state": "Ohio"
+      }
+    ]
+  },
+  {
+    "state": "Oklahoma",
+    "cities": [
+      {
+        "slug": "lawton",
+        "city": "Lawton",
+        "state": "Oklahoma"
+      },
+      {
+        "slug": "oklahoma-city",
+        "city": "Oklahoma City",
+        "state": "Oklahoma"
+      },
+      {
+        "slug": "tulsa",
+        "city": "Tulsa",
+        "state": "Oklahoma"
+      }
+    ]
+  },
+  {
+    "state": "Oregon",
+    "cities": [
+      {
+        "slug": "portland",
+        "city": "Portland",
+        "state": "Oregon"
+      }
+    ]
+  },
+  {
+    "state": "Pennsylvania",
+    "cities": [
+      {
+        "slug": "erie",
+        "city": "Erie",
+        "state": "Pennsylvania"
+      },
+      {
+        "slug": "philadelphia",
+        "city": "Philadelphia",
+        "state": "Pennsylvania"
+      },
+      {
+        "slug": "pittsburgh",
+        "city": "Pittsburgh",
+        "state": "Pennsylvania"
+      }
+    ]
+  },
+  {
+    "state": "Rhode Island",
+    "cities": [
+      {
+        "slug": "providence",
+        "city": "Providence",
+        "state": "Rhode Island"
+      }
+    ]
+  },
+  {
+    "state": "South Carolina",
+    "cities": [
+      {
+        "slug": "charleston",
+        "city": "Charleston",
+        "state": "South Carolina"
+      },
+      {
+        "slug": "columbia",
+        "city": "Columbia",
+        "state": "South Carolina"
+      }
+    ]
+  },
+  {
+    "state": "South Dakota",
+    "cities": [
+      {
+        "slug": "rapid-city",
+        "city": "Rapid City",
+        "state": "South Dakota"
+      },
+      {
+        "slug": "sioux-falls",
+        "city": "Sioux Falls",
+        "state": "South Dakota"
+      }
+    ]
+  },
+  {
+    "state": "Tennessee",
+    "cities": [
+      {
+        "slug": "chattanooga",
+        "city": "Chattanooga",
+        "state": "Tennessee"
+      },
+      {
+        "slug": "clarksville",
+        "city": "Clarksville",
+        "state": "Tennessee"
+      },
+      {
+        "slug": "knoxville",
+        "city": "Knoxville",
+        "state": "Tennessee"
+      },
+      {
+        "slug": "memphis",
+        "city": "Memphis",
+        "state": "Tennessee"
+      },
+      {
+        "slug": "nashville",
+        "city": "Nashville",
+        "state": "Tennessee"
+      }
+    ]
+  },
+  {
+    "state": "Texas",
+    "cities": [
+      {
+        "slug": "abilene",
+        "city": "Abilene",
+        "state": "Texas"
+      },
+      {
+        "slug": "amarillo",
+        "city": "Amarillo",
+        "state": "Texas"
+      },
+      {
+        "slug": "austin",
+        "city": "Austin",
+        "state": "Texas"
+      },
+      {
+        "slug": "beaumont",
+        "city": "Beaumont",
+        "state": "Texas"
+      },
+      {
+        "slug": "brownsville",
+        "city": "Brownsville",
+        "state": "Texas"
+      },
+      {
+        "slug": "college-station",
+        "city": "College Station",
+        "state": "Texas"
+      },
+      {
+        "slug": "corpus-christi",
+        "city": "Corpus Christi",
+        "state": "Texas"
+      },
+      {
+        "slug": "dallas",
+        "city": "Dallas",
+        "state": "Texas"
+      },
+      {
+        "slug": "el-paso",
+        "city": "El Paso",
+        "state": "Texas"
+      },
+      {
+        "slug": "fort-worth",
+        "city": "Fort Worth",
+        "state": "Texas"
+      },
+      {
+        "slug": "harlingen",
+        "city": "Harlingen",
+        "state": "Texas"
+      },
+      {
+        "slug": "houston",
+        "city": "Houston",
+        "state": "Texas"
+      },
+      {
+        "slug": "killeen",
+        "city": "Killeen",
+        "state": "Texas"
+      },
+      {
+        "slug": "laredo",
+        "city": "Laredo",
+        "state": "Texas"
+      },
+      {
+        "slug": "longview",
+        "city": "Longview",
+        "state": "Texas"
+      },
+      {
+        "slug": "lubbock",
+        "city": "Lubbock",
+        "state": "Texas"
+      },
+      {
+        "slug": "lufkin",
+        "city": "Lufkin",
+        "state": "Texas"
+      },
+      {
+        "slug": "mcallen",
+        "city": "McAllen",
+        "state": "Texas"
+      },
+      {
+        "slug": "midland",
+        "city": "Midland",
+        "state": "Texas"
+      },
+      {
+        "slug": "odessa",
+        "city": "Odessa",
+        "state": "Texas"
+      },
+      {
+        "slug": "san-angelo",
+        "city": "San Angelo",
+        "state": "Texas"
+      },
+      {
+        "slug": "san-antonio",
+        "city": "San Antonio",
+        "state": "Texas"
+      },
+      {
+        "slug": "temple",
+        "city": "Temple",
+        "state": "Texas"
+      },
+      {
+        "slug": "texarkana",
+        "city": "Texarkana",
+        "state": "Texas"
+      },
+      {
+        "slug": "tyler",
+        "city": "Tyler",
+        "state": "Texas"
+      },
+      {
+        "slug": "waco",
+        "city": "Waco",
+        "state": "Texas"
+      },
+      {
+        "slug": "wichita-falls",
+        "city": "Wichita Falls",
+        "state": "Texas"
+      }
+    ]
+  },
+  {
+    "state": "Utah",
+    "cities": [
+      {
+        "slug": "salt-lake-city",
+        "city": "Salt Lake City",
+        "state": "Utah"
+      }
+    ]
+  },
+  {
+    "state": "Virginia",
+    "cities": [
+      {
+        "slug": "norfolk",
+        "city": "Norfolk",
+        "state": "Virginia"
+      },
+      {
+        "slug": "richmond",
+        "city": "Richmond",
+        "state": "Virginia"
+      },
+      {
+        "slug": "virginia-beach",
+        "city": "Virginia Beach",
+        "state": "Virginia"
+      }
+    ]
+  },
+  {
+    "state": "Washington",
+    "cities": [
+      {
+        "slug": "seattle",
+        "city": "Seattle",
+        "state": "Washington"
+      },
+      {
+        "slug": "spokane",
+        "city": "Spokane",
+        "state": "Washington"
+      },
+      {
+        "slug": "tacoma",
+        "city": "Tacoma",
+        "state": "Washington"
+      }
+    ]
+  },
+  {
+    "state": "Washington, D.C.",
+    "cities": [
+      {
+        "slug": "washington-dc",
+        "city": "Washington, D.C.",
+        "state": "Washington, D.C."
+      }
+    ]
+  },
+  {
+    "state": "Wisconsin",
+    "cities": [
+      {
+        "slug": "madison",
+        "city": "Madison",
+        "state": "Wisconsin"
+      },
+      {
+        "slug": "milwaukee",
+        "city": "Milwaukee",
+        "state": "Wisconsin"
+      }
+    ]
+  }
+]
