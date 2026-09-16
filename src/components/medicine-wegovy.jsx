@@ -36,8 +36,8 @@ function WegovyPage() {
           "Safety and Adverse Events",
           "Pricing and Access"
         ],
-        "about": { "@id": "https://telehealthfx.com/medications/wegovy/#drug" },
-        "mainEntity": { "@id": "https://telehealthfx.com/medications/wegovy/#drug" },
+        "about": { "@id": "https://telehealthfx.com/medications/wegovy/#substance" },
+        "mainEntity": { "@id": "https://telehealthfx.com/medications/wegovy/#product" },
         "author": { "@id": "https://telehealthfx.com/#julianmercer" },
         "reviewedBy": { "@id": "https://telehealthfx.com/#julianmercer" },
         "publisher": { "@id": "https://telehealthfx.com/#organization" },
@@ -51,7 +51,7 @@ function WegovyPage() {
       },
       {
         "@type": "Substance",
-        "@id": "https://telehealthfx.com/medications/wegovy/#drug",
+        "@id": "https://telehealthfx.com/medications/wegovy/#substance",
         "name": "Wegovy",
         "nonProprietaryName": "Semaglutide",
         "activeIngredient": "Semaglutide",
@@ -110,6 +110,7 @@ function WegovyPage() {
         "@id": "https://telehealthfx.com/medications/wegovy/#product",
         "name": "Wegovy® Clinical Weight Loss Program",
         "brand": { "@type": "Brand", "name": "Telehealth FX" },
+        "isRelatedTo": { "@id": "https://telehealthfx.com/medications/wegovy/#substance" },
         "description": "Authentic Novo Nordisk Wegovy (semaglutide 2.4mg) program with licensed medical provider oversight, flat $899/month across all dose strengths, save up to $100 on first order, and free express cold shipping.",
         "image": "https://telehealthfx.com/assets/Site%20Icon-modified.png",
         "sku": "WEG-01",

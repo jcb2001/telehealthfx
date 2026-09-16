@@ -36,8 +36,8 @@ function MounjaroPage() {
           "Safety and Adverse Events",
           "Pricing and Access"
         ],
-        "about": { "@id": "https://telehealthfx.com/medications/mounjaro/#drug" },
-        "mainEntity": { "@id": "https://telehealthfx.com/medications/mounjaro/#drug" },
+        "about": { "@id": "https://telehealthfx.com/medications/mounjaro/#substance" },
+        "mainEntity": { "@id": "https://telehealthfx.com/medications/mounjaro/#product" },
         "author": { "@id": "https://telehealthfx.com/#julianmercer" },
         "reviewedBy": { "@id": "https://telehealthfx.com/#julianmercer" },
         "publisher": { "@id": "https://telehealthfx.com/#organization" },
@@ -49,7 +49,7 @@ function MounjaroPage() {
       },
       {
         "@type": "Substance",
-        "@id": "https://telehealthfx.com/medications/mounjaro/#drug",
+        "@id": "https://telehealthfx.com/medications/mounjaro/#substance",
         "name": "Mounjaro",
         "nonProprietaryName": "Tirzepatide",
         "activeIngredient": "Tirzepatide",
@@ -104,6 +104,7 @@ function MounjaroPage() {
         "@id": "https://telehealthfx.com/medications/mounjaro/#product",
         "name": "Mounjaro® Dual Incretin Metabolic Program",
         "brand": { "@type": "Brand", "name": "Telehealth FX" },
+        "isRelatedTo": { "@id": "https://telehealthfx.com/medications/mounjaro/#substance" },
         "description": "Authentic Eli Lilly Mounjaro (tirzepatide) weekly injection program for type 2 diabetes and metabolic optimization. Flat $1,399/mo across all dosages with save up to $100 on first order and free cold-chain shipping.",
         "image": "https://telehealthfx.com/assets/Site%20Icon-modified.png",
         "sku": "MOU-01",

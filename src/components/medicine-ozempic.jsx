@@ -36,8 +36,8 @@ function OzempicPage() {
           "Safety and Adverse Events",
           "Pricing and Access"
         ],
-        "about": { "@id": "https://telehealthfx.com/medications/ozempic/#drug" },
-        "mainEntity": { "@id": "https://telehealthfx.com/medications/ozempic/#drug" },
+        "about": { "@id": "https://telehealthfx.com/medications/ozempic/#substance" },
+        "mainEntity": { "@id": "https://telehealthfx.com/medications/ozempic/#product" },
         "author": { "@id": "https://telehealthfx.com/#julianmercer" },
         "reviewedBy": { "@id": "https://telehealthfx.com/#julianmercer" },
         "publisher": { "@id": "https://telehealthfx.com/#organization" },
@@ -49,7 +49,7 @@ function OzempicPage() {
       },
       {
         "@type": "Substance",
-        "@id": "https://telehealthfx.com/medications/ozempic/#drug",
+        "@id": "https://telehealthfx.com/medications/ozempic/#substance",
         "name": "Ozempic",
         "nonProprietaryName": "Semaglutide",
         "activeIngredient": "Semaglutide",
@@ -58,25 +58,26 @@ function OzempicPage() {
         "administrationRoute": "Subcutaneous injection",
         "dosageForm": "Pre-filled multi-dose disposable pen",
         "availableStrength": [
-          { "@type": "DrugStrength", "strengthValue": "2", "strengthUnit": "mg/3 mL (delivers 0.25 mg or 0.5 mg)" },
-          { "@type": "DrugStrength", "strengthValue": "4", "strengthUnit": "mg/3 mL (delivers 1.0 mg)" },
-          { "@type": "DrugStrength", "strengthValue": "8", "strengthUnit": "mg/3 mL (delivers 2.0 mg)" }
+          { "@type": "DrugStrength", "strengthValue": "0.25", "strengthUnit": "mg" },
+          { "@type": "DrugStrength", "strengthValue": "0.5", "strengthUnit": "mg" },
+          { "@type": "DrugStrength", "strengthValue": "1.0", "strengthUnit": "mg" },
+          { "@type": "DrugStrength", "strengthValue": "2.0", "strengthUnit": "mg" }
         ],
         "legalStatus": "https://schema.org/PrescriptionOnly",
         "warning": "Boxed Warning: Risk of Thyroid C-cell Tumors. Contraindicated in patients with a personal or family history of medullary thyroid carcinoma (MTC) or in patients with Multiple Endocrine Neoplasia syndrome type 2 (MEN 2).",
-        "prescribingInfo": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/209637s009lbl.pdf",
+        "prescribingInfo": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2023/209637s020lbl.pdf",
         "manufacturer": {
           "@type": "Organization",
           "name": "Novo Nordisk A/S"
         },
         "sameAs": [
-          "https://www.wikidata.org/wiki/Q111749842",
+          "https://www.wikidata.org/wiki/Q61944816",
           "https://go.drugbank.com/drugs/DB13928"
         ],
         "code": [
           {
             "@type": "MedicalCode",
-            "code": "2054940",
+            "code": "1991302",
             "codingSystem": "RxNorm"
           },
           {
@@ -86,12 +87,12 @@ function OzempicPage() {
           },
           {
             "@type": "MedicalCode",
-            "code": "I25.10",
+            "code": "E11.65",
             "codingSystem": "ICD-10-CM"
           },
           {
             "@type": "MedicalCode",
-            "code": "0169-4132-12",
+            "code": "0169-4130-12",
             "codingSystem": "NDC"
           }
         ]
@@ -101,6 +102,7 @@ function OzempicPage() {
         "@id": "https://telehealthfx.com/medications/ozempic/#product",
         "name": "Ozempic® Telehealth Program",
         "brand": { "@type": "Brand", "name": "Telehealth FX" },
+        "isRelatedTo": { "@id": "https://telehealthfx.com/medications/ozempic/#substance" },
         "description": "Physician-managed Ozempic program including clinical consultation, lab coordination, genuine Novo Nordisk pen, and free cold shipping. Flat $1,199/month with save up to $100 on first order.",
         "image": "https://telehealthfx.com/assets/Site%20Icon-modified.png",
         "sku": "OZE-01",

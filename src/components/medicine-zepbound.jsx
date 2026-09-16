@@ -36,8 +36,8 @@ function ZepboundPage() {
           "Safety and Adverse Events",
           "Pricing and Access"
         ],
-        "about": { "@id": "https://telehealthfx.com/medications/zepbound/#drug" },
-        "mainEntity": { "@id": "https://telehealthfx.com/medications/zepbound/#drug" },
+        "about": { "@id": "https://telehealthfx.com/medications/zepbound/#substance" },
+        "mainEntity": { "@id": "https://telehealthfx.com/medications/zepbound/#product" },
         "author": { "@id": "https://telehealthfx.com/#julianmercer" },
         "reviewedBy": { "@id": "https://telehealthfx.com/#julianmercer" },
         "publisher": { "@id": "https://telehealthfx.com/#organization" },
@@ -49,7 +49,7 @@ function ZepboundPage() {
       },
       {
         "@type": "Substance",
-        "@id": "https://telehealthfx.com/medications/zepbound/#drug",
+        "@id": "https://telehealthfx.com/medications/zepbound/#substance",
         "name": "Zepbound",
         "nonProprietaryName": "Tirzepatide",
         "activeIngredient": "Tirzepatide",
@@ -104,6 +104,7 @@ function ZepboundPage() {
         "@id": "https://telehealthfx.com/medications/zepbound/#product",
         "name": "Zepbound™ Dual Incretin Weight Loss Program",
         "brand": { "@type": "Brand", "name": "Telehealth FX" },
+        "isRelatedTo": { "@id": "https://telehealthfx.com/medications/zepbound/#substance" },
         "description": "Authentic Eli Lilly Zepbound (tirzepatide) program with board-certified physician consultation, flat $1,199/month across all doses, save up to $100 on first order, and temperature-controlled 2-day delivery.",
         "image": "https://telehealthfx.com/assets/Site%20Icon-modified.png",
         "sku": "ZEP-01",
