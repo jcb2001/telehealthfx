@@ -217,6 +217,30 @@
 		<priority>0.8</priority>
 	</url>
 	<url>
+		<loc>https://telehealthfx.com/medications/wegovy/</loc>
+		<lastmod>2026-09-15T19:30:00.000Z</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.9</priority>
+	</url>
+	<url>
+		<loc>https://telehealthfx.com/medications/ozempic/</loc>
+		<lastmod>2026-09-15T19:30:00.000Z</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.9</priority>
+	</url>
+	<url>
+		<loc>https://telehealthfx.com/medications/zepbound/</loc>
+		<lastmod>2026-09-15T19:30:00.000Z</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.9</priority>
+	</url>
+	<url>
+		<loc>https://telehealthfx.com/medications/mounjaro/</loc>
+		<lastmod>2026-09-15T19:30:00.000Z</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.9</priority>
+	</url>
+	<url>
 		<loc>https://telehealthfx.com/blog/</loc>
 		<lastmod>2026-06-25T14:49:00.042Z</lastmod>
 		<changefreq>daily</changefreq>
