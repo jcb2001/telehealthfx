@@ -8,3 +8,7 @@ https://www.telehealthfx.com/* https://telehealthfx.com/:splat 301!
 /how /how/ 301
 /medications /medications/ 301
 /science /science/ 301
+
+# Sitemap fallbacks & aliases
+/sitemap /sitemap.xml 301
+/sitemap_index.xml /sitemap.xml 301
