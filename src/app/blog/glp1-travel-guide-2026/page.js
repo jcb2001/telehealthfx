@@ -39,7 +39,7 @@ export default function Page() {
       },
       "about": [
         {
-          "@type": "Drug",
+          "@type": "Substance",
           "name": "Semaglutide",
           "code": {
             "@type": "MedicalCode",
@@ -49,7 +49,7 @@ export default function Page() {
           "sameAs": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=1991302"
         },
         {
-          "@type": "Drug",
+          "@type": "Substance",
           "name": "Tirzepatide",
           "code": {
             "@type": "MedicalCode",
@@ -141,6 +141,7 @@ export default function Page() {
           "price": "99.00",
           "priceCurrency": "USD",
           "availability": "https://schema.org/InStock",
+          "validFrom": "2026-01-01",
           "priceValidUntil": "2027-12-31",
           "description": "Doctor-prescribed compounded semaglutide weekly injections from 503A pharmacy with free cold-chain delivery. First month promo from $99.",
           "url": "https://telehealthfx.com/skinnyrx/"
@@ -151,6 +152,7 @@ export default function Page() {
           "price": "99.00",
           "priceCurrency": "USD",
           "availability": "https://schema.org/InStock",
+          "validFrom": "2026-01-01",
           "priceValidUntil": "2027-12-31",
           "description": "Dual GLP-1 and GIP receptor agonist compounded weekly injections from 503A pharmacy with free cold-chain delivery. First month promo from $99.",
           "url": "https://telehealthfx.com/skinnyrx/"
@@ -161,6 +163,7 @@ export default function Page() {
           "price": "149.00",
           "priceCurrency": "USD",
           "availability": "https://schema.org/InStock",
+          "validFrom": "2026-01-01",
           "priceValidUntil": "2027-12-31",
           "description": "Needle-free daily oral dissolving sublingual semaglutide tablets from licensed 503A pharmacy. First month promo from $149.",
           "url": "https://telehealthfx.com/skinnyrx/"

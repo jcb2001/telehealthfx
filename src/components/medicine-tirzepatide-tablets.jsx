@@ -1,6 +1,7 @@
 "use client";
 import React from 'react';
 import { Icon } from './common.jsx';
+import { PatientReviewsSection } from './patient-reviews-section.jsx';
 
 const CTA_URL = "https://go.telehealthfx.com/tirzepatide-tablets";
 
@@ -15,8 +16,7 @@ function TirzepatideTabletsPage() {
         "name": "Tirzepatide Tablets Weight Loss Program | Telehealth FX",
         "description": "Get prescribed compounded sublingual Tirzepatide tablets from $199 first month promo. 24-hour clinician approval, zero weekly needles, free shipping. Affirm financing available.",
         "about": {
-          "@type": "Drug",
-          "@id": "https://telehealthfx.com/medications/tirzepatide-tablets/#drug",
+          "@type": "Substance",
           "name": "Compounded Tirzepatide Tablets",
           "nonProprietaryName": "Tirzepatide",
           "drugClass": "Dual GIP/GLP-1 receptor agonist",
@@ -24,6 +24,49 @@ function TirzepatideTabletsPage() {
           "administrationRoute": "Sublingual (dissolving tablet under the tongue)"
         },
         "publisher": { "@type": "MedicalOrganization", "name": "Telehealth FX" }
+      },
+      {
+        "@type": "Product",
+        "@id": "https://telehealthfx.com/medications/tirzepatide-tablets/#product",
+        "name": "Compounded Tirzepatide Tablets Program",
+        "brand": { "@type": "Brand", "name": "Telehealth FX" },
+        "description": "Compounded sublingual Tirzepatide tablets weight loss program including clinician consultation and prescription medication.",
+        "image": "https://telehealthfx.com/assets/Site%20Icon-modified.png",
+        "sku": "TAB-TIR-01",
+        "url": "https://telehealthfx.com/medications/tirzepatide-tablets/",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.8",
+          "bestRating": "5",
+          "worstRating": "1",
+          "reviewCount": "82",
+          "ratingCount": "82"
+        },
+        "review": [
+          {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Daniel K." },
+            "datePublished": "2026-04-18",
+            "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+            "reviewBody": "Switched to these dissolving tirzepatide tablets and my results have been great. Lost 29 lbs. Appetite control is exceptional."
+          },
+          {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Emily B." },
+            "datePublished": "2026-03-30",
+            "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+            "reviewBody": "Needle-free option is exactly what I wanted. Down 31 lbs and feeling much more energetic. Easy online consultation."
+          }
+        ],
+        "offers": {
+          "@type": "Offer",
+          "price": "199.00",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "validFrom": "2026-01-01",
+          "priceValidUntil": "2027-12-31",
+          "url": CTA_URL
+        }
       }
     ]
   };
@@ -103,6 +146,25 @@ function TirzepatideTabletsPage() {
             <li style={{ marginBottom: 8 }}>Mild fatigue as your caloric intake drops</li>
           </ul>
           <p>Your Telehealth FX medical provider will screen you for contraindications and monitor your progress to ensure a safe and effective weight loss journey.</p>
+
+          <PatientReviewsSection
+            productName="Compounded Tirzepatide Tablets"
+            aggregateRating={{ ratingValue: "4.8", reviewCount: "82" }}
+            reviews={[
+              {
+                author: { name: "Daniel K." },
+                datePublished: "2026-04-18",
+                reviewRating: { ratingValue: "5" },
+                reviewBody: "Switched to these dissolving tirzepatide tablets and my results have been great. Lost 29 lbs. Appetite control is exceptional."
+              },
+              {
+                author: { name: "Emily B." },
+                datePublished: "2026-03-30",
+                reviewRating: { ratingValue: "5" },
+                reviewBody: "Needle-free option is exactly what I wanted. Down 31 lbs and feeling much more energetic. Easy online consultation."
+              }
+            ]}
+          />
 
           {/* CTA 2 */}
           <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>

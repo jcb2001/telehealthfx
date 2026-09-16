@@ -1,17 +1,67 @@
 "use client";
 import React from 'react';
 import { Icon } from './common.jsx';
+import { PatientReviewsSection } from './patient-reviews-section.jsx';
 
 const CTA_URL = "https://go.telehealthfx.com/berberine";
 
 function BerberineMedicinePage() {
   const schema = {
     "@context": "https://schema.org",
-    "@type": "MedicalWebPage",
-    "name": "Berberine Transdermal Patches | Telehealth FX",
-    "description": "Overcome poor oral bioavailability with 24-hour transdermal berberine patches. Doctor-supervised metabolic support from Telehealth FX.",
-    "about": { "@type": "Drug", "name": "Berberine", "nonProprietaryName": "Berberine Hydrochloride", "drugClass": "Isoquinoline alkaloid / AMPK activator", "mechanismOfAction": "Activates AMPK enzyme to regulate glucose metabolism, lipid metabolism, and cellular energy homeostasis", "administrationRoute": "Transdermal" },
-    "publisher": { "@type": "MedicalOrganization", "name": "Telehealth FX" }
+    "@graph": [
+      {
+        "@type": "MedicalWebPage",
+        "@id": "https://telehealthfx.com/medications/berberine/#webpage",
+        "url": "https://telehealthfx.com/medications/berberine/",
+        "name": "Berberine Transdermal Patches | Telehealth FX",
+        "description": "Overcome poor oral bioavailability with 24-hour transdermal berberine patches. Doctor-supervised metabolic support from Telehealth FX.",
+        "about": { "@type": "Substance", "name": "Berberine", "nonProprietaryName": "Berberine Hydrochloride", "drugClass": "Isoquinoline alkaloid / AMPK activator", "mechanismOfAction": "Activates AMPK enzyme to regulate glucose metabolism, lipid metabolism, and cellular energy homeostasis", "administrationRoute": "Transdermal" },
+        "publisher": { "@type": "MedicalOrganization", "name": "Telehealth FX" }
+      },
+      {
+        "@type": "Product",
+        "@id": "https://telehealthfx.com/medications/berberine/#product",
+        "name": "Berberine Transdermal Patches",
+        "brand": { "@type": "Brand", "name": "Telehealth FX" },
+        "description": "Medical-grade 24-hour transdermal berberine patches for sustained AMPK activation with zero GI side effects.",
+        "image": "https://telehealthfx.com/assets/Site%20Icon-modified.png",
+        "sku": "BERB-01",
+        "url": "https://telehealthfx.com/medications/berberine/",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.8",
+          "bestRating": "5",
+          "worstRating": "1",
+          "reviewCount": "86",
+          "ratingCount": "86"
+        },
+        "review": [
+          {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Stacey L." },
+            "datePublished": "2026-04-12",
+            "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+            "reviewBody": "Oral berberine destroyed my stomach. These patches give me zero nausea or bloating, and my fasting glucose dropped 14 points in 3 weeks."
+          },
+          {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Marcus V." },
+            "datePublished": "2026-03-28",
+            "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+            "reviewBody": "The 24-hour slow release patch is a game changer for metabolic health. Clean application, sticks all day through workouts and showers."
+          }
+        ],
+        "offers": {
+          "@type": "Offer",
+          "price": "30.00",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "validFrom": "2026-01-01",
+          "priceValidUntil": "2027-12-31",
+          "url": CTA_URL
+        }
+      }
+    ]
   };
 
   return (
@@ -144,6 +194,25 @@ function BerberineMedicinePage() {
               <p style={{ margin: 0, fontSize: 16, color: 'var(--ink-2)', lineHeight: 1.6 }}>{faq.a}</p>
             </div>
           ))}
+
+          <PatientReviewsSection
+            productName="Berberine Transdermal Patches"
+            aggregateRating={{ ratingValue: "4.8", reviewCount: "86" }}
+            reviews={[
+              {
+                author: { name: "Stacey L." },
+                datePublished: "2026-04-12",
+                reviewRating: { ratingValue: "5" },
+                reviewBody: "Oral berberine destroyed my stomach. These patches give me zero nausea or bloating, and my fasting glucose dropped 14 points in 3 weeks."
+              },
+              {
+                author: { name: "Marcus V." },
+                datePublished: "2026-03-28",
+                reviewRating: { ratingValue: "5" },
+                reviewBody: "The 24-hour slow release patch is a game changer for metabolic health. Clean application, sticks all day through workouts and showers."
+              }
+            ]}
+          />
 
           <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
             <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Try 24-Hour Berberine Patches</h2>

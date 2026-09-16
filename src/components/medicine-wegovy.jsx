@@ -2,6 +2,7 @@
 import React from 'react';
 import { Icon } from './common.jsx';
 import { ExtractiveAIAnswerBlock } from './extractive-ai-answer-block.jsx';
+import { PatientReviewsSection } from './patient-reviews-section.jsx';
 
 const CTA_URL = "https://go.telehealthfx.com/wegovy";
 
@@ -49,7 +50,7 @@ function WegovyPage() {
         ]
       },
       {
-        "@type": "Drug",
+        "@type": "Substance",
         "@id": "https://telehealthfx.com/medications/wegovy/#drug",
         "name": "Wegovy",
         "nonProprietaryName": "Semaglutide",
@@ -121,11 +122,28 @@ function WegovyPage() {
           "reviewCount": "246",
           "ratingCount": "246"
         },
+        "review": [
+          {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Jennifer M." },
+            "datePublished": "2026-03-11",
+            "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+            "reviewBody": "Down 38 lbs on authentic Wegovy through Telehealth FX. The flat pricing with zero dose-jump fees made this completely predictable financially. Medication arrived chilled in 48 hours."
+          },
+          {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Robert B." },
+            "datePublished": "2026-04-02",
+            "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+            "reviewBody": "Clinician approval took under 24 hours. The once-weekly injection pen is effortless to use and my food noise completely vanished by week two."
+          }
+        ],
         "offers": {
           "@type": "Offer",
           "price": "899.00",
           "priceCurrency": "USD",
           "availability": "https://schema.org/InStock",
+          "validFrom": "2026-01-01",
           "priceValidUntil": "2027-12-31",
           "url": CTA_URL,
           "shippingDetails": {
@@ -457,6 +475,26 @@ function WegovyPage() {
               <p style={{ margin: 0, fontSize: 16, color: 'var(--ink-2)', lineHeight: 1.65 }}>{faq.a}</p>
             </div>
           ))}
+
+          {/* Patient Reviews Section */}
+          <PatientReviewsSection
+            productName="Wegovy"
+            aggregateRating={{ ratingValue: "4.9", reviewCount: "246" }}
+            reviews={[
+              {
+                author: { name: "Jennifer M." },
+                datePublished: "2026-03-11",
+                reviewRating: { ratingValue: "5" },
+                reviewBody: "Down 38 lbs on authentic Wegovy through Telehealth FX. The flat pricing with zero dose-jump fees made this completely predictable financially. Medication arrived chilled in 48 hours."
+              },
+              {
+                author: { name: "Robert B." },
+                datePublished: "2026-04-02",
+                reviewRating: { ratingValue: "5" },
+                reviewBody: "Clinician approval took under 24 hours. The once-weekly injection pen is effortless to use and my food noise completely vanished by week two."
+              }
+            ]}
+          />
 
           {/* Final CTA Box */}
           <div style={{ padding: 48, marginTop: 64, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>

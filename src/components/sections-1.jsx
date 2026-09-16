@@ -84,6 +84,8 @@ function Medications() {
       price: '99',
       interval: '1st mo',
       priceLabel: 'Promo (Regular $190/mo)',
+      rating: { score: '4.9', count: 218 },
+      reviewSnippet: { quote: 'Lost 32 lbs in 3 months. The process was completely seamless.', author: 'Michael T.' },
       intro: 'A once-weekly compounded GLP-1 injection designed to regulate appetite. $0 doctor fee, free cold-chain shipping. Affirm financing from $25/mo.',
       avg: 'Weight Loss',
       avgSub: 'Primary Benefit',
@@ -104,6 +106,8 @@ function Medications() {
       price: '99',
       interval: '1st mo',
       priceLabel: 'Promo (Regular $214/mo)',
+      rating: { score: '4.8', count: 142 },
+      reviewSnippet: { quote: 'Accelerated my weight loss dramatically. Down 41 lbs in 4 months.', author: 'James L.' },
       intro: 'A dual GIP/GLP-1 receptor agonist — the most effective GLP-1 class available. $0 doctor fee, free cold shipping. Affirm financing from $25/mo.',
       avg: 'Weight Loss',
       avgSub: 'Dual-Action Agonist',
@@ -124,6 +128,8 @@ function Medications() {
       price: '149',
       interval: '1st mo',
       priceLabel: 'Promo (Regular $217/mo)',
+      rating: { score: '4.9', count: 68 },
+      reviewSnippet: { quote: 'Dissolves quickly, zero needles, down 15 lbs already.', author: 'Robert E.' },
       intro: 'A convenient daily sublingual tablet containing compounded Semaglutide. Dissolves under the tongue with zero needles. Affirm from $37/mo.',
       avg: 'Sustained Satiety',
       avgSub: '100% Needle-Free',
@@ -145,6 +151,8 @@ function Medications() {
       price: '199',
       interval: '1st mo',
       priceLabel: 'Promo (Regular $222/mo)',
+      rating: { score: '4.8', count: 82 },
+      reviewSnippet: { quote: 'Needle-free option is exactly what I wanted. Down 31 lbs.', author: 'Emily B.' },
       intro: 'The ultimate daily sublingual tablet with dual GIP/GLP-1 action for maximum weight management. Zero needles. Affirm from $49/mo.',
       avg: 'Dual-Action Loss',
       avgSub: '100% Needle-Free',
@@ -166,6 +174,8 @@ function Medications() {
       price: '899',
       interval: 'mo',
       priceLabel: 'Flat rate across all doses',
+      rating: { score: '4.9', count: 246 },
+      reviewSnippet: { quote: 'Down 38 lbs on authentic Wegovy with flat predictable pricing.', author: 'Jennifer M.' },
       intro: 'FDA-approved once-weekly semaglutide 2.4 mg injection for chronic weight management and cardiovascular risk reduction. 14.9% mean weight loss in STEP-1.',
       avg: '14.9% Weight Loss',
       avgSub: 'STEP-1 Landmark Efficacy',
@@ -186,6 +196,8 @@ function Medications() {
       price: '1,199',
       interval: 'mo',
       priceLabel: 'Flat rate across all doses',
+      rating: { score: '4.9', count: 184 },
+      reviewSnippet: { quote: 'A1C dropped from 7.8% to 5.9% in 5 months. Excellent physician care.', author: 'William K.' },
       intro: 'FDA-approved semaglutide injection for type 2 diabetes glycemic control and cardiovascular protection. Proven 26% MACE risk reduction.',
       avg: 'A1C & CV Protection',
       avgSub: '26% MACE Hazard Reduction',
@@ -206,6 +218,8 @@ function Medications() {
       price: '1,199',
       interval: 'mo',
       priceLabel: 'Flat rate across all doses',
+      rating: { score: '4.9', count: 192 },
+      reviewSnippet: { quote: 'Down 46 lbs on Zepbound with virtually zero nausea.', author: 'Marcus D.' },
       intro: 'FDA-approved dual GIP/GLP-1 receptor agonist injection delivering up to 20.9% (52 lbs) mean weight loss in SURMOUNT-1. Unimolecular dual incretin therapy.',
       avg: '20.9% Weight Loss',
       avgSub: 'SURMOUNT-1 Dual Incretin',
@@ -226,6 +240,8 @@ function Medications() {
       price: '1,399',
       interval: 'mo',
       priceLabel: 'Flat rate across all doses',
+      rating: { score: '4.8', count: 158 },
+      reviewSnippet: { quote: 'SURPASS-2 convinced me. A1C dropped from 8.1% to 5.4%.', author: 'Richard G.' },
       intro: 'FDA-approved once-weekly dual GIP/GLP-1 injectable for superior glycemic control. Demonstrated superiority over semaglutide 1.0 mg in SURPASS-2.',
       avg: '-2.30% HbA1c',
       avgSub: 'SURPASS-2 Head-to-Head',
@@ -244,6 +260,8 @@ function Medications() {
       tag: 'Cellular Energy',
       tagType: 'brand',
       price: '199',
+      rating: { score: '4.9', count: 112 },
+      reviewSnippet: { quote: 'Brain fog cleared up after week 2. Daily energy is rock solid.', author: 'Brandon K.' },
       intro: 'A therapy designed to support cellular energy, focus, metabolism, and healthy aging.',
       avg: 'Longevity',
       avgSub: 'Primary Benefit',
@@ -259,6 +277,8 @@ function Medications() {
       tag: 'Recovery',
       tagType: 'accent',
       price: '199',
+      rating: { score: '4.8', count: 96 },
+      reviewSnippet: { quote: 'Deep sleep improved in 10 days. Workout recovery is night and day.', author: 'Gregory T.' },
       intro: 'A daily peptide injection designed to support natural growth hormone production, sleep quality, and recovery.',
       avg: 'Muscle Recovery',
       avgSub: 'Primary Benefit',
@@ -274,6 +294,8 @@ function Medications() {
       tag: 'Men\u2019s Health',
       tagType: 'brand',
       price: '79',
+      rating: { score: '4.9', count: 187 },
+      reviewSnippet: { quote: 'Total T went from 280 to 850. Energy and sleep completely transformed.', author: 'Robert H.' },
       intro: 'Personalized TRT prescribed by licensed clinicians — injectable, oral, or topical. Restore energy, strength, and drive.',
       avg: 'Hormone Optimization',
       avgSub: 'Primary Benefit',
@@ -291,6 +313,8 @@ function Medications() {
       tag: 'Oral TRT',
       tagType: 'accent',
       price: '89',
+      rating: { score: '4.8', count: 94 },
+      reviewSnippet: { quote: 'T nearly doubled in 8 weeks with no needles and fertility intact.', author: 'Tyler B.' },
       intro: 'Boost your body\'s own testosterone up to 2.5x — no injections, no creams, no fertility suppression. The future of TRT.',
       avg: 'Natural T Boost',
       avgSub: 'Primary Benefit',
@@ -308,6 +332,8 @@ function Medications() {
       tag: 'Sexual Wellness',
       tagType: 'accent',
       price: '19',
+      rating: { score: '4.9', count: 263 },
+      reviewSnippet: { quote: 'Discreet from start to finish. Works perfectly — confidence restored.', author: 'Kevin S.' },
       intro: 'Discreet, affordable ED medication — Sildenafil, Tadalafil, and custom compounds prescribed online and shipped in plain packaging.',
       avg: 'Sexual Performance',
       avgSub: 'Primary Benefit',
@@ -325,6 +351,8 @@ function Medications() {
       tag: 'Hair Restoration',
       tagType: 'brand',
       price: '29',
+      rating: { score: '4.7', count: 156 },
+      reviewSnippet: { quote: 'Noticed hairline filling in around month 4. Combo really works.', author: 'Jason P.' },
       intro: 'Clinician-prescribed Finasteride, Minoxidil, and custom compounds to slow, stop, and reverse hair loss — shipped discreetly.',
       avg: 'Hair Regrowth',
       avgSub: 'Primary Benefit',
@@ -342,6 +370,8 @@ function Medications() {
       tag: 'Longevity',
       tagType: 'brand',
       price: '39',
+      rating: { score: '4.8', count: 108 },
+      reviewSnippet: { quote: 'Fasting glucose dropped from 102 to 87 in 6 weeks. Great care.', author: 'Andrew L.' },
       intro: 'The world\'s most studied anti-aging medication — prescribed online for metabolic optimization, insulin sensitivity, and healthy aging.',
       avg: 'Metabolic Health',
       avgSub: 'Primary Benefit',
@@ -359,6 +389,8 @@ function Medications() {
       tag: 'Natural AMPK',
       tagType: 'brand',
       price: '30',
+      rating: { score: '4.8', count: 86 },
+      reviewSnippet: { quote: 'Zero stomach issues. 24-hr patch is a game changer for metabolic health.', author: 'Stacey L.' },
       intro: 'Medical-grade 24-hour transdermal patches for sustained AMPK activation — zero stomach issues, bypass oral bioavailability problems.',
       avg: 'Metabolic Support',
       avgSub: 'Primary Benefit',
@@ -421,6 +453,17 @@ function MedCard({ med, selected, onSelect }) {
       </div>
 
       <h3 className="serif" style={{ fontSize: 48, marginBottom: 16 }}>{med.name}</h3>
+      {med.rating && (
+        <div style={{ display: 'flex', alignItems: 'center', gap: 6, marginTop: -8, marginBottom: 16 }}>
+          <div style={{ display: 'flex', gap: 2, color: 'var(--accent)' }}>
+            {[...Array(5)].map((_, i) => (
+              <Icon.Star key={i} size={13} />
+            ))}
+          </div>
+          <span style={{ fontSize: 13, fontWeight: 600, color: 'var(--ink)' }}>{med.rating.score}</span>
+          <span style={{ fontSize: 13, color: 'var(--ink-3)' }}>({med.rating.count} reviews)</span>
+        </div>
+      )}
       <p style={{ color: 'var(--ink-2)', marginBottom: 32, fontSize: 15, lineHeight: 1.55 }}>{med.intro}</p>
 
       <div className="flex-row stack-mobile" style={{ gap: 24, marginBottom: 32, paddingBottom: 28, borderBottom: '1px solid var(--line-soft)' }}>
@@ -434,7 +477,7 @@ function MedCard({ med, selected, onSelect }) {
         </div>
       </div>
 
-      <ul style={{ listStyle: 'none', marginBottom: 32, display: 'flex', flexDirection: 'column', gap: 12 }}>
+      <ul style={{ listStyle: 'none', marginBottom: 24, display: 'flex', flexDirection: 'column', gap: 12 }}>
         {med.features.map((f, i) => (
           <li key={i} style={{ display: 'flex', gap: 12, alignItems: 'center', fontSize: 14, color: 'var(--ink-2)' }}>
             <span style={{ color: 'var(--brand)' }}><Icon.Check size={14}/></span>
@@ -442,6 +485,17 @@ function MedCard({ med, selected, onSelect }) {
           </li>
         ))}
       </ul>
+
+      {med.reviewSnippet && (
+        <div style={{ background: '#FAF7F2', borderRadius: 12, padding: '12px 16px', marginBottom: 20, borderLeft: '3px solid var(--accent)' }}>
+          <p style={{ fontSize: 13, fontStyle: 'italic', color: 'var(--ink-2)', margin: 0, lineHeight: 1.45 }}>
+            "{med.reviewSnippet.quote}"
+          </p>
+          <div style={{ fontSize: 11, fontWeight: 600, color: 'var(--ink-3)', marginTop: 4, textAlign: 'right' }}>
+            — {med.reviewSnippet.author} <span style={{ color: 'var(--brand)' }}>✓ Verified Patient</span>
+          </div>
+        </div>
+      )}
 
       <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
         <a

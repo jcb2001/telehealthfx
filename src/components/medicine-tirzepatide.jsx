@@ -1,24 +1,74 @@
 "use client";
 import React from 'react';
 import { Icon } from './common.jsx';
+import { PatientReviewsSection } from './patient-reviews-section.jsx';
 
 const CTA_URL = "https://go.telehealthfx.com/start?url_id=11875";
 
 function TirzepatidePage() {
   const schema = {
     "@context": "https://schema.org",
-    "@type": "MedicalWebPage",
-    "name": "Tirzepatide Weight Loss Program | Telehealth FX",
-    "description": "Dual GIP and GLP-1 receptor agonist therapy for superior metabolic weight management. Introductory promo from $99 first month with Affirm financing. 24-hour approval and cold-chain overnight shipping.",
-    "about": {
-      "@type": "Drug",
-      "name": "Tirzepatide",
-      "nonProprietaryName": "Tirzepatide",
-      "drugClass": "Dual GIP/GLP-1 receptor agonist",
-      "mechanismOfAction": "Dual agonist targeting both GIP and GLP-1 receptors for enhanced appetite regulation and insulin sensitivity",
-      "administrationRoute": "Subcutaneous injection"
-    },
-    "publisher": { "@type": "MedicalOrganization", "name": "Telehealth FX" }
+    "@graph": [
+      {
+        "@type": "MedicalWebPage",
+        "@id": "https://telehealthfx.com/medications/tirzepatide/#webpage",
+        "name": "Tirzepatide Weight Loss Program | Telehealth FX",
+        "description": "Dual GIP and GLP-1 receptor agonist therapy for superior metabolic weight management. Introductory promo from $99 first month with Affirm financing. 24-hour approval and cold-chain overnight shipping.",
+        "url": "https://telehealthfx.com/medications/tirzepatide/",
+        "about": {
+          "@type": "Substance",
+          "name": "Tirzepatide",
+          "nonProprietaryName": "Tirzepatide",
+          "drugClass": "Dual GIP/GLP-1 receptor agonist",
+          "mechanismOfAction": "Dual agonist targeting both GIP and GLP-1 receptors for enhanced appetite regulation and insulin sensitivity",
+          "administrationRoute": "Subcutaneous injection"
+        },
+        "publisher": { "@type": "MedicalOrganization", "name": "Telehealth FX" }
+      },
+      {
+        "@type": "Product",
+        "@id": "https://telehealthfx.com/medications/tirzepatide/#product",
+        "name": "Compounded Tirzepatide Program",
+        "brand": { "@type": "Brand", "name": "Telehealth FX" },
+        "description": "Dual GIP/GLP-1 receptor agonist program including clinician consults and compounded Tirzepatide medication for enhanced weight loss. Introductory promo starts at $99 for the first month with Affirm financing.",
+        "image": "https://telehealthfx.com/assets/Site%20Icon-modified.png",
+        "sku": "TIR-01",
+        "url": "https://telehealthfx.com/medications/tirzepatide/",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.8",
+          "bestRating": "5",
+          "worstRating": "1",
+          "reviewCount": "142",
+          "ratingCount": "142"
+        },
+        "review": [
+          {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "James L." },
+            "datePublished": "2026-03-22",
+            "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+            "reviewBody": "Switched from Semaglutide to Tirzepatide and the results accelerated dramatically. Down 41 lbs in 4 months with virtually no appetite. Life-changing."
+          },
+          {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Amanda P." },
+            "datePublished": "2026-04-10",
+            "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+            "reviewBody": "The dual-action mechanism really works. My blood sugar is better than it's been in years and I've lost 35 lbs. The telehealth process made everything easy."
+          }
+        ],
+        "offers": {
+          "@type": "Offer",
+          "price": "99.00",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "validFrom": "2026-01-01",
+          "priceValidUntil": "2027-12-31",
+          "url": CTA_URL
+        }
+      }
+    ]
   };
 
   return (
@@ -131,6 +181,25 @@ function TirzepatidePage() {
             <li style={{ marginBottom: 8 }}>Individuals with significant insulin resistance or Type 2 Diabetes</li>
             <li style={{ marginBottom: 8 }}>Those willing to invest in the most effective obesity medication available</li>
           </ul>
+
+          <PatientReviewsSection
+            productName="Compounded Tirzepatide"
+            aggregateRating={{ ratingValue: "4.8", reviewCount: "142" }}
+            reviews={[
+              {
+                author: { name: "James L." },
+                datePublished: "2026-03-22",
+                reviewRating: { ratingValue: "5" },
+                reviewBody: "Switched from Semaglutide to Tirzepatide and the results accelerated dramatically. Down 41 lbs in 4 months with virtually no appetite. Life-changing."
+              },
+              {
+                author: { name: "Amanda P." },
+                datePublished: "2026-04-10",
+                reviewRating: { ratingValue: "5" },
+                reviewBody: "The dual-action mechanism really works. My blood sugar is better than it's been in years and I've lost 35 lbs. The telehealth process made everything easy."
+              }
+            ]}
+          />
 
           <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
             <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Start Your Tirzepatide Program</h2>

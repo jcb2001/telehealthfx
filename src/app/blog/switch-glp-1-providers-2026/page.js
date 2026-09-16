@@ -101,6 +101,7 @@ export default function Page() {
             "price": "99.00",
             "priceCurrency": "USD",
             "availability": "https://schema.org/InStock",
+            "validFrom": "2026-01-01",
             "priceValidUntil": "2027-12-31",
             "description": "Doctor-prescribed compounded semaglutide weekly injections with guaranteed dose-matching from 503A pharmacy. First month promo from $99.",
             "url": "https://telehealthfx.com/skinnyrx/"
@@ -111,6 +112,7 @@ export default function Page() {
             "price": "99.00",
             "priceCurrency": "USD",
             "availability": "https://schema.org/InStock",
+            "validFrom": "2026-01-01",
             "priceValidUntil": "2027-12-31",
             "description": "Dual GLP-1 and GIP receptor agonist compounded weekly injections with guaranteed dose-matching from 503A pharmacy. First month promo from $99.",
             "url": "https://telehealthfx.com/skinnyrx/"
@@ -121,6 +123,7 @@ export default function Page() {
             "price": "149.00",
             "priceCurrency": "USD",
             "availability": "https://schema.org/InStock",
+            "validFrom": "2026-01-01",
             "priceValidUntil": "2027-12-31",
             "description": "Needle-free daily oral dissolving sublingual semaglutide tablets from licensed 503A pharmacy. First month promo from $149.",
             "url": "https://telehealthfx.com/skinnyrx/"

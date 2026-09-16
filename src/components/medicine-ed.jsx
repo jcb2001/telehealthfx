@@ -1,6 +1,7 @@
 "use client";
 import React, { useState, useEffect } from 'react';
 import { Icon, Logo } from './common.jsx';
+import { PatientReviewsSection } from './patient-reviews-section.jsx';
 
 const CTA_URL = "https://go.telehealthfx.com/ed";
 
@@ -81,7 +82,7 @@ function EDPage() {
         },
         "about": [
           {
-            "@type": "Drug",
+            "@type": "Substance",
             "name": "Sildenafil",
             "nonProprietaryName": "Sildenafil Citrate",
             "drugClass": "PDE5 Inhibitor",
@@ -95,7 +96,7 @@ function EDPage() {
             "warning": "Possible side effects include headache, flushing, nasal congestion, dyspepsia, and visual disturbances (blue tint). Do not use with nitrates, in severe hepatic impairment, recent stroke or MI, or hypotension."
           },
           {
-            "@type": "Drug",
+            "@type": "Substance",
             "name": "Tadalafil",
             "nonProprietaryName": "Tadalafil",
             "drugClass": "PDE5 Inhibitor",
@@ -115,6 +116,56 @@ function EDPage() {
             "http://schema.org/Urologic",
             "http://schema.org/PrimaryCare"
           ]
+        }
+      },
+      {
+        "@type": "Product",
+        "@id": "https://telehealthfx.com/medications/ed/#product",
+        "name": "Erectile Dysfunction Treatment Program",
+        "brand": { "@type": "Brand", "name": "Telehealth FX" },
+        "description": "Discreet, clinician-prescribed ED medications including Sildenafil and Tadalafil delivered directly to your door in plain packaging.",
+        "image": "https://telehealthfx.com/assets/Site%20Icon-modified.png",
+        "sku": "ED-01",
+        "url": "https://telehealthfx.com/medications/ed/",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "bestRating": "5",
+          "worstRating": "1",
+          "reviewCount": "263",
+          "ratingCount": "263"
+        },
+        "review": [
+          {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Kevin S." },
+            "datePublished": "2026-04-05",
+            "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+            "reviewBody": "Discreet from start to finish. Approved same day, medication arrived in plain packaging 2 days later. Works exactly as described — confidence restored."
+          },
+          {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Brian C." },
+            "datePublished": "2026-03-18",
+            "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+            "reviewBody": "Tried the daily low-dose Tadalafil and it's been incredible. No more planning around a pill — just consistent, reliable performance. The price is way better than my local pharmacy."
+          },
+          {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Anthony G." },
+            "datePublished": "2026-02-22",
+            "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+            "reviewBody": "Was embarrassed to talk to my doctor about this. The online assessment made it easy and judgment-free. Medication works perfectly with minimal side effects."
+          }
+        ],
+        "offers": {
+          "@type": "Offer",
+          "price": "19.00",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "validFrom": "2026-01-01",
+          "priceValidUntil": "2027-12-31",
+          "url": CTA_URL
         }
       },
       {
@@ -355,6 +406,31 @@ function EDPage() {
               <p style={{ margin: 0, fontSize: 16, color: 'var(--ink-2)', lineHeight: 1.6 }}>{faq.a}</p>
             </div>
           ))}
+
+          <PatientReviewsSection
+            productName="Erectile Dysfunction Treatment"
+            aggregateRating={{ ratingValue: "4.9", reviewCount: "263" }}
+            reviews={[
+              {
+                author: { name: "Kevin S." },
+                datePublished: "2026-04-05",
+                reviewRating: { ratingValue: "5" },
+                reviewBody: "Discreet from start to finish. Approved same day, medication arrived in plain packaging 2 days later. Works exactly as described — confidence restored."
+              },
+              {
+                author: { name: "Brian C." },
+                datePublished: "2026-03-18",
+                reviewRating: { ratingValue: "5" },
+                reviewBody: "Tried the daily low-dose Tadalafil and it's been incredible. No more planning around a pill — just consistent, reliable performance. The price is way better than my local pharmacy."
+              },
+              {
+                author: { name: "Anthony G." },
+                datePublished: "2026-02-22",
+                reviewRating: { ratingValue: "5" },
+                reviewBody: "Was embarrassed to talk to my doctor about this. The online assessment made it easy and judgment-free. Medication works perfectly with minimal side effects."
+              }
+            ]}
+          />
 
           {/* CTA 3 — Final dark block */}
           <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>

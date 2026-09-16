@@ -31,7 +31,7 @@ export default function NewYorkTRTPage() {
         "@type": "MedicalTherapy",
         "name": "Testosterone Replacement Therapy (TRT)",
         "drug": {
-          "@type": "Drug",
+          "@type": "Substance",
           "nonProprietaryName": "Testosterone Cypionate"
         }
       },

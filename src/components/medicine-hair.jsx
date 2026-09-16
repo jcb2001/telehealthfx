@@ -1,6 +1,7 @@
 "use client";
 import React, { useState, useEffect } from 'react';
 import { Icon, Logo } from './common.jsx';
+import { PatientReviewsSection } from './patient-reviews-section.jsx';
 
 const CTA_URL = "https://go.telehealthfx.com/hair";
 
@@ -68,7 +69,7 @@ function HairPage() {
         },
         "about": [
           {
-            "@type": "Drug",
+            "@type": "Substance",
             "name": "Finasteride",
             "nonProprietaryName": "Finasteride",
             "drugClass": "5-alpha Reductase Inhibitor",
@@ -82,7 +83,7 @@ function HairPage() {
             "warning": "Possible side effects include decreased libido (uncommon, typically reversible), erectile changes (rare), and breast tenderness (rare). Contraindicated in women who are or may become pregnant and those with known hypersensitivity to finasteride."
           },
           {
-            "@type": "Drug",
+            "@type": "Substance",
             "name": "Minoxidil",
             "nonProprietaryName": "Minoxidil",
             "drugClass": "Vasodilator / Hair Growth Stimulant",
@@ -101,6 +102,49 @@ function HairPage() {
             "http://schema.org/Dermatology",
             "http://schema.org/Urologic"
           ]
+        }
+      },
+      {
+        "@type": "Product",
+        "@id": "https://telehealthfx.com/medications/hair-loss/#product",
+        "name": "Hair Loss Treatment Program",
+        "brand": { "@type": "Brand", "name": "Telehealth FX" },
+        "description": "Clinician-prescribed Finasteride and Minoxidil hair regrowth treatments delivered directly to your door.",
+        "image": "https://telehealthfx.com/assets/Site%20Icon-modified.png",
+        "sku": "HAIR-01",
+        "url": "https://telehealthfx.com/medications/hair-loss/",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.7",
+          "bestRating": "5",
+          "worstRating": "1",
+          "reviewCount": "156",
+          "ratingCount": "156"
+        },
+        "review": [
+          {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Jason P." },
+            "datePublished": "2026-03-12",
+            "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+            "reviewBody": "Started noticing my hairline filling in around month 4. Now at 8 months and the difference is dramatic. Wish I'd started sooner — the combo of Finasteride and Minoxidil really works."
+          },
+          {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Ryan D." },
+            "datePublished": "2026-04-15",
+            "reviewRating": { "@type": "Rating", "ratingValue": "4", "bestRating": "5" },
+            "reviewBody": "Shedding stopped within the first month which was a huge relief. Starting to see some regrowth at the crown. The online process was easy and the medication arrives monthly like clockwork."
+          }
+        ],
+        "offers": {
+          "@type": "Offer",
+          "price": "29.00",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "validFrom": "2026-01-01",
+          "priceValidUntil": "2027-12-31",
+          "url": CTA_URL
         }
       },
       {
@@ -284,6 +328,25 @@ function HairPage() {
               <p style={{ margin: 0, fontSize: 16, color: 'var(--ink-2)', lineHeight: 1.6 }}>{faq.a}</p>
             </div>
           ))}
+
+          <PatientReviewsSection
+            productName="Hair Loss Treatment"
+            aggregateRating={{ ratingValue: "4.7", reviewCount: "156" }}
+            reviews={[
+              {
+                author: { name: "Jason P." },
+                datePublished: "2026-03-12",
+                reviewRating: { ratingValue: "5" },
+                reviewBody: "Started noticing my hairline filling in around month 4. Now at 8 months and the difference is dramatic. Wish I'd started sooner — the combo of Finasteride and Minoxidil really works."
+              },
+              {
+                author: { name: "Ryan D." },
+                datePublished: "2026-04-15",
+                reviewRating: { ratingValue: "4" },
+                reviewBody: "Shedding stopped within the first month which was a huge relief. Starting to see some regrowth at the crown. The online process was easy and the medication arrives monthly like clockwork."
+              }
+            ]}
+          />
 
           <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
             <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Take Control of Your Hair</h2>

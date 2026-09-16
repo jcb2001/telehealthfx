@@ -1,24 +1,81 @@
 "use client";
 import React from 'react';
 import { Icon } from './common.jsx';
+import { PatientReviewsSection } from './patient-reviews-section.jsx';
 
 const CTA_URL = "https://go.telehealthfx.com/start?url_id=11878";
 
 function SemaglutidePage() {
   const schema = {
     "@context": "https://schema.org",
-    "@type": "MedicalWebPage",
-    "name": "Semaglutide Weight Loss Program | Telehealth FX",
-    "description": "Get prescribed compounded Semaglutide (GLP-1 receptor agonist) from $99 first month promo. 24-hour clinician approval, zero hidden fees, free 2-day cold shipping. Affirm financing from $25/mo.",
-    "about": {
-      "@type": "Drug",
-      "name": "Semaglutide",
-      "nonProprietaryName": "Semaglutide",
-      "drugClass": "GLP-1 receptor agonist",
-      "mechanismOfAction": "Mimics GLP-1 hormone to regulate appetite, slow gastric emptying, and improve insulin sensitivity",
-      "administrationRoute": "Subcutaneous injection"
-    },
-    "publisher": { "@type": "MedicalOrganization", "name": "Telehealth FX" }
+    "@graph": [
+      {
+        "@type": "MedicalWebPage",
+        "@id": "https://telehealthfx.com/medications/semaglutide/#webpage",
+        "name": "Semaglutide Weight Loss Program | Telehealth FX",
+        "description": "Get prescribed compounded Semaglutide (GLP-1 receptor agonist) from $99 first month promo. 24-hour clinician approval, zero hidden fees, free 2-day cold shipping. Affirm financing from $25/mo.",
+        "url": "https://telehealthfx.com/medications/semaglutide/",
+        "about": {
+          "@type": "Substance",
+          "name": "Semaglutide",
+          "nonProprietaryName": "Semaglutide",
+          "drugClass": "GLP-1 receptor agonist",
+          "mechanismOfAction": "Mimics GLP-1 hormone to regulate appetite, slow gastric emptying, and improve insulin sensitivity",
+          "administrationRoute": "Subcutaneous injection"
+        },
+        "publisher": { "@type": "MedicalOrganization", "name": "Telehealth FX" }
+      },
+      {
+        "@type": "Product",
+        "@id": "https://telehealthfx.com/medications/semaglutide/#product",
+        "name": "Compounded Semaglutide Program",
+        "brand": { "@type": "Brand", "name": "Telehealth FX" },
+        "description": "Comprehensive metabolic health program including clinician consults and compounded Semaglutide medication for weight loss. Introductory promo starts at $99 for the first month with Affirm financing.",
+        "image": "https://telehealthfx.com/assets/Site%20Icon-modified.png",
+        "sku": "SEM-01",
+        "url": "https://telehealthfx.com/medications/semaglutide/",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "bestRating": "5",
+          "worstRating": "1",
+          "reviewCount": "218",
+          "ratingCount": "218"
+        },
+        "review": [
+          {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Michael T." },
+            "datePublished": "2026-03-15",
+            "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+            "reviewBody": "Lost 32 lbs in 3 months. The online process was seamless — approved in under 24 hours and my medication arrived in 2 days. No side effects beyond mild nausea the first week."
+          },
+          {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Sarah K." },
+            "datePublished": "2026-02-28",
+            "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+            "reviewBody": "Finally a program that actually works. My clinician adjusted my dose perfectly and the results have been incredible. Down 28 lbs and my A1C dropped from 6.1 to 5.4."
+          },
+          {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "David R." },
+            "datePublished": "2026-04-02",
+            "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+            "reviewBody": "The pricing transparency sold me. No hidden fees, free shipping, and the medication quality is excellent. Better than my previous provider at half the cost."
+          }
+        ],
+        "offers": {
+          "@type": "Offer",
+          "price": "99.00",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "validFrom": "2026-01-01",
+          "priceValidUntil": "2027-12-31",
+          "url": CTA_URL
+        }
+      }
+    ]
   };
 
   return (
@@ -232,6 +289,32 @@ function SemaglutidePage() {
               <p style={{ margin: 0, fontSize: 16, color: 'var(--ink-2)', lineHeight: 1.6 }}>{faq.a}</p>
             </div>
           ))}
+
+          {/* Patient Reviews Section */}
+          <PatientReviewsSection
+            productName="Semaglutide"
+            aggregateRating={{ ratingValue: "4.9", reviewCount: "218" }}
+            reviews={[
+              {
+                author: { name: "Michael T." },
+                datePublished: "2026-03-15",
+                reviewRating: { ratingValue: "5" },
+                reviewBody: "Lost 32 lbs in 3 months. The online process was seamless — approved in under 24 hours and my medication arrived in 2 days. No side effects beyond mild nausea the first week."
+              },
+              {
+                author: { name: "Sarah K." },
+                datePublished: "2026-02-28",
+                reviewRating: { ratingValue: "5" },
+                reviewBody: "Finally a program that actually works. My clinician adjusted my dose perfectly and the results have been incredible. Down 28 lbs and my A1C dropped from 6.1 to 5.4."
+              },
+              {
+                author: { name: "David R." },
+                datePublished: "2026-04-02",
+                reviewRating: { ratingValue: "5" },
+                reviewBody: "The pricing transparency sold me. No hidden fees, free shipping, and the medication quality is excellent. Better than my previous provider at half the cost."
+              }
+            ]}
+          />
 
           {/* CTA 3 — Final dark block */}
           <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>

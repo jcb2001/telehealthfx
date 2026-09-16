@@ -39,7 +39,7 @@ export default function Page() {
       },
       "about": [
         {
-          "@type": "Drug",
+          "@type": "Substance",
           "name": "Semaglutide",
           "code": {
             "@type": "MedicalCode",
@@ -164,6 +164,7 @@ export default function Page() {
         "@type": "Offer",
         "price": "199",
         "priceCurrency": "USD",
+        "validFrom": "2026-01-01",
         "priceValidUntil": "2026-12-31",
         "availability": "https://schema.org/InStock",
         "url": "https://go.telehealthfx.com/start",

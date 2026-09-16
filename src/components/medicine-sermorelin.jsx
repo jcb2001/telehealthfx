@@ -1,17 +1,67 @@
 "use client";
 import React from 'react';
 import { Icon } from './common.jsx';
+import { PatientReviewsSection } from './patient-reviews-section.jsx';
 
 const CTA_URL = "https://go.telehealthfx.com/start";
 
 function SermorelinPage() {
   const schema = {
     "@context": "https://schema.org",
-    "@type": "MedicalWebPage",
-    "name": "Sermorelin Therapy Program | Telehealth FX",
-    "description": "Stimulate natural human growth hormone production with Sermorelin peptide therapy. Improve deep sleep, recovery, and body composition.",
-    "about": { "@type": "Drug", "name": "Sermorelin", "nonProprietaryName": "Sermorelin Acetate", "drugClass": "Growth Hormone-Releasing Hormone (GHRH) analog", "mechanismOfAction": "Stimulates the pituitary gland to naturally produce and release growth hormone", "administrationRoute": "Subcutaneous injection" },
-    "publisher": { "@type": "MedicalOrganization", "name": "Telehealth FX" }
+    "@graph": [
+      {
+        "@type": "MedicalWebPage",
+        "@id": "https://telehealthfx.com/medications/sermorelin/#webpage",
+        "url": "https://telehealthfx.com/medications/sermorelin/",
+        "name": "Sermorelin Therapy Program | Telehealth FX",
+        "description": "Stimulate natural human growth hormone production with Sermorelin peptide therapy. Improve deep sleep, recovery, and body composition.",
+        "about": { "@type": "Substance", "name": "Sermorelin", "nonProprietaryName": "Sermorelin Acetate", "drugClass": "Growth Hormone-Releasing Hormone (GHRH) analog", "mechanismOfAction": "Stimulates the pituitary gland to naturally produce and release growth hormone", "administrationRoute": "Subcutaneous injection" },
+        "publisher": { "@type": "MedicalOrganization", "name": "Telehealth FX" }
+      },
+      {
+        "@type": "Product",
+        "@id": "https://telehealthfx.com/medications/sermorelin/#product",
+        "name": "Compounded Sermorelin Therapy Program",
+        "brand": { "@type": "Brand", "name": "Telehealth FX" },
+        "description": "Clinician-prescribed Sermorelin acetate peptide therapy to stimulate natural growth hormone production, deep sleep, and cellular repair.",
+        "image": "https://telehealthfx.com/assets/Site%20Icon-modified.png",
+        "sku": "SERM-01",
+        "url": "https://telehealthfx.com/medications/sermorelin/",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.8",
+          "bestRating": "5",
+          "worstRating": "1",
+          "reviewCount": "96",
+          "ratingCount": "96"
+        },
+        "review": [
+          {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Gregory T." },
+            "datePublished": "2026-04-11",
+            "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+            "reviewBody": "Deep sleep improved within 10 days. Waking up actually feeling refreshed for the first time in years. Body fat around the waist is slowly trimming down."
+          },
+          {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Jessica H." },
+            "datePublished": "2026-03-27",
+            "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+            "reviewBody": "Great legal alternative to synthetic HGH. My recovery after workouts is night and day faster. Telehealth clinician answered all my questions."
+          }
+        ],
+        "offers": {
+          "@type": "Offer",
+          "price": "199.00",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "validFrom": "2026-01-01",
+          "priceValidUntil": "2027-12-31",
+          "url": CTA_URL
+        }
+      }
+    ]
   };
 
   return (
@@ -113,6 +163,25 @@ function SermorelinPage() {
               </React.Fragment>
             ))}
           </div>
+
+          <PatientReviewsSection
+            productName="Compounded Sermorelin"
+            aggregateRating={{ ratingValue: "4.8", reviewCount: "96" }}
+            reviews={[
+              {
+                author: { name: "Gregory T." },
+                datePublished: "2026-04-11",
+                reviewRating: { ratingValue: "5" },
+                reviewBody: "Deep sleep improved within 10 days. Waking up actually feeling refreshed for the first time in years. Body fat around the waist is slowly trimming down."
+              },
+              {
+                author: { name: "Jessica H." },
+                datePublished: "2026-03-27",
+                reviewRating: { ratingValue: "5" },
+                reviewBody: "Great legal alternative to synthetic HGH. My recovery after workouts is night and day faster. Telehealth clinician answered all my questions."
+              }
+            ]}
+          />
 
           <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
             <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Start Your Sermorelin Protocol</h2>

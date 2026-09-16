@@ -38,7 +38,7 @@ export default function Page() {
         },
         "about": [
           {
-            "@type": "Drug",
+            "@type": "Substance",
             "name": "Semaglutide",
             "code": {
               "@type": "MedicalCode",

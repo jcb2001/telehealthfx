@@ -147,6 +147,7 @@ export default function MilwaukeePage() {
           "@type": "Offer",
           "price": "99",
           "priceCurrency": "USD",
+          "validFrom": "2026-01-01",
           "priceValidUntil": "2026-12-31",
           "availability": "https://schema.org/InStock",
           "url": "https://go.telehealthfx.com/start",

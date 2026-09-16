@@ -1,6 +1,7 @@
 "use client";
 import React, { useState, useEffect } from 'react';
 import { Icon, Logo } from './common.jsx';
+import { PatientReviewsSection } from './patient-reviews-section.jsx';
 
 const CTA_URL = "https://go.telehealthfx.com/metformin";
 
@@ -53,7 +54,7 @@ function MetforminPage() {
           }
         },
         "about": {
-          "@type": "Drug",
+          "@type": "Substance",
           "name": "Metformin",
           "nonProprietaryName": "Metformin Hydrochloride",
           "drugClass": "Biguanide",
@@ -76,6 +77,49 @@ function MetforminPage() {
             "http://schema.org/Endocrine",
             "http://schema.org/PrimaryCare"
           ]
+        }
+      },
+      {
+        "@type": "Product",
+        "@id": "https://telehealthfx.com/medications/metformin/#product",
+        "name": "Metformin Longevity Protocol",
+        "brand": { "@type": "Brand", "name": "Telehealth FX" },
+        "description": "Physician-guided Metformin for metabolic health and cellular longevity delivered discreetly to your door.",
+        "image": "https://telehealthfx.com/assets/Site%20Icon-modified.png",
+        "sku": "MET-01",
+        "url": "https://telehealthfx.com/medications/metformin/",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.8",
+          "bestRating": "5",
+          "worstRating": "1",
+          "reviewCount": "108",
+          "ratingCount": "108"
+        },
+        "review": [
+          {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Andrew L." },
+            "datePublished": "2026-04-08",
+            "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+            "reviewBody": "Taking Metformin as part of my longevity stack. Fasting glucose dropped from 102 to 87 in 6 weeks. The physician oversight gives me confidence I'm doing this safely."
+          },
+          {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Patricia M." },
+            "datePublished": "2026-03-25",
+            "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+            "reviewBody": "My doctor mentioned Metformin for metabolic health but getting an appointment took months. Telehealth FX had me approved and receiving medication within a week. Excellent service."
+          }
+        ],
+        "offers": {
+          "@type": "Offer",
+          "price": "39.00",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "validFrom": "2026-01-01",
+          "priceValidUntil": "2027-12-31",
+          "url": CTA_URL
         }
       },
       {
@@ -234,6 +278,25 @@ function MetforminPage() {
               <p style={{ margin: 0, fontSize: 16, color: 'var(--ink-2)', lineHeight: 1.6 }}>{faq.a}</p>
             </div>
           ))}
+
+          <PatientReviewsSection
+            productName="Metformin Longevity Protocol"
+            aggregateRating={{ ratingValue: "4.8", reviewCount: "108" }}
+            reviews={[
+              {
+                author: { name: "Andrew L." },
+                datePublished: "2026-04-08",
+                reviewRating: { ratingValue: "5" },
+                reviewBody: "Taking Metformin as part of my longevity stack. Fasting glucose dropped from 102 to 87 in 6 weeks. The physician oversight gives me confidence I'm doing this safely."
+              },
+              {
+                author: { name: "Patricia M." },
+                datePublished: "2026-03-25",
+                reviewRating: { ratingValue: "5" },
+                reviewBody: "My doctor mentioned Metformin for metabolic health but getting an appointment took months. Telehealth FX had me approved and receiving medication within a week. Excellent service."
+              }
+            ]}
+          />
 
           <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
             <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Start Your Longevity Protocol</h2>

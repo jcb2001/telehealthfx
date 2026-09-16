@@ -2,6 +2,7 @@
 import React from 'react';
 import { Icon } from './common.jsx';
 import { ExtractiveAIAnswerBlock } from './extractive-ai-answer-block.jsx';
+import { PatientReviewsSection } from './patient-reviews-section.jsx';
 
 const CTA_URL = "https://go.telehealthfx.com/zepbound";
 
@@ -47,7 +48,7 @@ function ZepboundPage() {
         ]
       },
       {
-        "@type": "Drug",
+        "@type": "Substance",
         "@id": "https://telehealthfx.com/medications/zepbound/#drug",
         "name": "Zepbound",
         "nonProprietaryName": "Tirzepatide",
@@ -115,11 +116,28 @@ function ZepboundPage() {
           "reviewCount": "192",
           "ratingCount": "192"
         },
+        "review": [
+          {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Marcus D." },
+            "datePublished": "2026-03-24",
+            "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+            "reviewBody": "Dual GIP and GLP-1 targeting is remarkably more effective. Down 46 lbs on Zepbound with virtually zero nausea. Exceptional telehealth coordination."
+          },
+          {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Heather N." },
+            "datePublished": "2026-04-09",
+            "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+            "reviewBody": "The flat price across dose increases made planning simple. Authentic Lilly autoinjector pens arrived in perfect cold-chain insulated packaging."
+          }
+        ],
         "offers": {
           "@type": "Offer",
           "price": "1199.00",
           "priceCurrency": "USD",
           "availability": "https://schema.org/InStock",
+          "validFrom": "2026-01-01",
           "priceValidUntil": "2027-12-31",
           "url": CTA_URL,
           "shippingDetails": {
@@ -449,6 +467,26 @@ function ZepboundPage() {
               <p style={{ margin: 0, fontSize: 16, color: 'var(--ink-2)', lineHeight: 1.65 }}>{faq.a}</p>
             </div>
           ))}
+
+          {/* Patient Reviews Section */}
+          <PatientReviewsSection
+            productName="Zepbound"
+            aggregateRating={{ ratingValue: "4.9", reviewCount: "192" }}
+            reviews={[
+              {
+                author: { name: "Marcus D." },
+                datePublished: "2026-03-24",
+                reviewRating: { ratingValue: "5" },
+                reviewBody: "Dual GIP and GLP-1 targeting is remarkably more effective. Down 46 lbs on Zepbound with virtually zero nausea. Exceptional telehealth coordination."
+              },
+              {
+                author: { name: "Heather N." },
+                datePublished: "2026-04-09",
+                reviewRating: { ratingValue: "5" },
+                reviewBody: "The flat price across dose increases made planning simple. Authentic Lilly autoinjector pens arrived in perfect cold-chain insulated packaging."
+              }
+            ]}
+          />
 
           {/* Final CTA Box */}
           <div style={{ padding: 48, marginTop: 64, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>

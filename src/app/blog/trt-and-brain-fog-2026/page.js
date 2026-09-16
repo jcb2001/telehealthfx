@@ -37,6 +37,8 @@ export default function Page() {
       "url": "https://go.telehealthfx.com/testosterone",
       "priceCurrency": "USD",
       "price": "79.00",
+      "validFrom": "2026-01-01",
+      "priceValidUntil": "2027-12-31",
       "availability": "https://schema.org/InStock",
       "shippingDetails": {
         "@type": "OfferShippingDetails",

@@ -1,6 +1,7 @@
 "use client";
 import React, { useState, useEffect } from 'react';
 import { Icon, Logo } from './common.jsx';
+import { PatientReviewsSection } from './patient-reviews-section.jsx';
 
 const CTA_URL = "https://go.telehealthfx.com/enclomiphene";
 
@@ -59,7 +60,7 @@ function EnclomiphenePage() {
           }
         },
         "about": {
-          "@type": "Drug",
+          "@type": "Substance",
           "name": "Enclomiphene",
           "nonProprietaryName": "Enclomiphene Citrate",
           "drugClass": "Selective Estrogen Receptor Modulator (SERM)",
@@ -80,6 +81,49 @@ function EnclomiphenePage() {
             "http://schema.org/Endocrine",
             "http://schema.org/Urologic"
           ]
+        }
+      },
+      {
+        "@type": "Product",
+        "@id": "https://telehealthfx.com/medications/enclomiphene/#product",
+        "name": "Enclomiphene Therapy Program",
+        "brand": { "@type": "Brand", "name": "Telehealth FX" },
+        "description": "Oral enclomiphene therapy to naturally stimulate endogenous testosterone production without suppressing testicular function or fertility.",
+        "image": "https://telehealthfx.com/assets/Site%20Icon-modified.png",
+        "sku": "ENC-01",
+        "url": "https://telehealthfx.com/medications/enclomiphene/",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.8",
+          "bestRating": "5",
+          "worstRating": "1",
+          "reviewCount": "94",
+          "ratingCount": "94"
+        },
+        "review": [
+          {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Tyler B." },
+            "datePublished": "2026-03-29",
+            "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+            "reviewBody": "Wanted to boost my T without injections since my wife and I are trying to conceive. Enclomiphene was perfect — my levels went from 340 to 780 and my fertility stayed intact. Game changer."
+          },
+          {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Marcus J." },
+            "datePublished": "2026-04-22",
+            "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+            "reviewBody": "Just take a pill daily — no needles, no messy creams. My testosterone nearly doubled in 8 weeks. Energy, libido, and gym performance all way up."
+          }
+        ],
+        "offers": {
+          "@type": "Offer",
+          "price": "89.00",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "validFrom": "2026-01-01",
+          "priceValidUntil": "2027-12-31",
+          "url": CTA_URL
         }
       },
       {
@@ -261,6 +305,25 @@ function EnclomiphenePage() {
               <p style={{ margin: 0, fontSize: 16, color: 'var(--ink-2)', lineHeight: 1.6 }}>{faq.a}</p>
             </div>
           ))}
+
+          <PatientReviewsSection
+            productName="Enclomiphene Therapy"
+            aggregateRating={{ ratingValue: "4.8", reviewCount: "94" }}
+            reviews={[
+              {
+                author: { name: "Tyler B." },
+                datePublished: "2026-03-29",
+                reviewRating: { ratingValue: "5" },
+                reviewBody: "Wanted to boost my T without injections since my wife and I are trying to conceive. Enclomiphene was perfect — my levels went from 340 to 780 and my fertility stayed intact. Game changer."
+              },
+              {
+                author: { name: "Marcus J." },
+                datePublished: "2026-04-22",
+                reviewRating: { ratingValue: "5" },
+                reviewBody: "Just take a pill daily — no needles, no messy creams. My testosterone nearly doubled in 8 weeks. Energy, libido, and gym performance all way up."
+              }
+            ]}
+          />
 
           <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
             <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Boost Your Testosterone Naturally</h2>

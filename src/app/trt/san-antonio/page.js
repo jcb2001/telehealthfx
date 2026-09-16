@@ -30,7 +30,7 @@ export default function Page() {
       "availableService": {
         "@type": "MedicalTherapy",
         "name": "Testosterone Replacement Therapy (TRT)",
-        "drug": { "@type": "Drug", "nonProprietaryName": "Testosterone Cypionate" }
+        "drug": { "@type": "Substance", "nonProprietaryName": "Testosterone Cypionate" }
       },
       "isAcceptingNewPatients": true
     }]

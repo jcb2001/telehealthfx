@@ -37,7 +37,7 @@ export default function Page() {
         "@type": "WebPage",
         "@id": "https://telehealthfx.com/wegovy-eligibility/"
       },
-      "about": { "@type": "Drug", "name": "Wegovy (semaglutide)" },
+      "about": { "@type": "Substance", "name": "Wegovy (semaglutide)" },
       "audience": { "@type": "MedicalAudience", "audienceType": "Patient" },
       "lastReviewed": "2026-06-05",
       "citation": [
@@ -92,6 +92,7 @@ export default function Page() {
         "@type": "Offer",
         "price": "199",
         "priceCurrency": "USD",
+        "validFrom": "2026-01-01",
         "priceValidUntil": "2026-12-31",
         "availability": "https://schema.org/InStock",
         "url": "https://go.telehealthfx.com/start",

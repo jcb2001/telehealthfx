@@ -47,7 +47,7 @@ export default function Page() {
         },
         "about": [
           {
-            "@type": "Drug",
+            "@type": "Substance",
             "name": "Semaglutide",
             "nonProprietaryName": "Semaglutide",
             "drugClass": {

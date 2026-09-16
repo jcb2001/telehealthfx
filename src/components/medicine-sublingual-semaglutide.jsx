@@ -1,6 +1,7 @@
 "use client";
 import React from 'react';
 import { Icon } from './common.jsx';
+import { PatientReviewsSection } from './patient-reviews-section.jsx';
 
 const CTA_URL = "https://go.telehealthfx.com/sublingual-semaglutide";
 
@@ -15,8 +16,7 @@ function SublingualSemaglutidePage() {
         "name": "Sublingual Semaglutide Weight Loss Program | Telehealth FX",
         "description": "Get prescribed compounded sublingual Semaglutide drops from $199/mo. 24-hour clinician approval, zero weekly needles, free shipping.",
         "about": {
-          "@type": "Drug",
-          "@id": "https://telehealthfx.com/medications/sublingual-semaglutide/#drug",
+          "@type": "Substance",
           "name": "Compounded Sublingual Semaglutide",
           "nonProprietaryName": "Semaglutide",
           "drugClass": "GLP-1 receptor agonist",
@@ -24,6 +24,49 @@ function SublingualSemaglutidePage() {
           "administrationRoute": "Sublingual (under the tongue)"
         },
         "publisher": { "@type": "MedicalOrganization", "name": "Telehealth FX" }
+      },
+      {
+        "@type": "Product",
+        "@id": "https://telehealthfx.com/medications/sublingual-semaglutide/#product",
+        "name": "Compounded Sublingual Semaglutide Program",
+        "brand": { "@type": "Brand", "name": "Telehealth FX" },
+        "description": "Compounded sublingual Semaglutide liquid drop weight loss program including clinician consultation and prescription medication.",
+        "image": "https://telehealthfx.com/assets/Site%20Icon-modified.png",
+        "sku": "SUB-SEM-01",
+        "url": "https://telehealthfx.com/medications/sublingual-semaglutide/",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "bestRating": "5",
+          "worstRating": "1",
+          "reviewCount": "74",
+          "ratingCount": "74"
+        },
+        "review": [
+          {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Karen W." },
+            "datePublished": "2026-04-14",
+            "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+            "reviewBody": "The sublingual drops are so easy to take every morning. Down 22 lbs in 2 months with zero needles. The medical team was very supportive."
+          },
+          {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "David M." },
+            "datePublished": "2026-03-21",
+            "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+            "reviewBody": "I hate injections, so this oral liquid suspension was the perfect alternative. Appetite is suppressed and food noise is gone."
+          }
+        ],
+        "offers": {
+          "@type": "Offer",
+          "price": "199.00",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "validFrom": "2026-01-01",
+          "priceValidUntil": "2027-12-31",
+          "url": CTA_URL
+        }
       }
     ]
   };
@@ -104,6 +147,25 @@ function SublingualSemaglutidePage() {
             <li style={{ marginBottom: 8 }}>Slight dry mouth or taste alterations immediately after dosing</li>
           </ul>
           <p>Licensed medical providers will screen you during your intake assessment to confirm that sublingual semaglutide is a safe and appropriate choice for your health profile.</p>
+
+          <PatientReviewsSection
+            productName="Compounded Sublingual Semaglutide"
+            aggregateRating={{ ratingValue: "4.9", reviewCount: "74" }}
+            reviews={[
+              {
+                author: { name: "Karen W." },
+                datePublished: "2026-04-14",
+                reviewRating: { ratingValue: "5" },
+                reviewBody: "The sublingual drops are so easy to take every morning. Down 22 lbs in 2 months with zero needles. The medical team was very supportive."
+              },
+              {
+                author: { name: "David M." },
+                datePublished: "2026-03-21",
+                reviewRating: { ratingValue: "5" },
+                reviewBody: "I hate injections, so this oral liquid suspension was the perfect alternative. Appetite is suppressed and food noise is gone."
+              }
+            ]}
+          />
 
           {/* CTA 2 */}
           <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>

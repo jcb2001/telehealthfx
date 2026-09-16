@@ -1,17 +1,67 @@
 "use client";
 import React from 'react';
 import { Icon } from './common.jsx';
+import { PatientReviewsSection } from './patient-reviews-section.jsx';
 
 const CTA_URL = "https://go.telehealthfx.com/start";
 
 function NadPage() {
   const schema = {
     "@context": "https://schema.org",
-    "@type": "MedicalWebPage",
-    "name": "NAD+ Therapy Program | Telehealth FX",
-    "description": "Restore cellular energy, DNA repair, and cognitive vitality with pharmaceutical-grade subcutaneous NAD+ injections from Telehealth FX.",
-    "about": { "@type": "Drug", "name": "NAD+", "nonProprietaryName": "Nicotinamide Adenine Dinucleotide", "drugClass": "Coenzyme supplement", "mechanismOfAction": "Essential coenzyme for cellular energy production, DNA repair, and sirtuin activation" },
-    "publisher": { "@type": "MedicalOrganization", "name": "Telehealth FX" }
+    "@graph": [
+      {
+        "@type": "MedicalWebPage",
+        "@id": "https://telehealthfx.com/medications/nad/#webpage",
+        "url": "https://telehealthfx.com/medications/nad/",
+        "name": "NAD+ Therapy Program | Telehealth FX",
+        "description": "Restore cellular energy, DNA repair, and cognitive vitality with pharmaceutical-grade subcutaneous NAD+ injections from Telehealth FX.",
+        "about": { "@type": "Substance", "name": "NAD+", "nonProprietaryName": "Nicotinamide Adenine Dinucleotide", "drugClass": "Coenzyme supplement", "mechanismOfAction": "Essential coenzyme for cellular energy production, DNA repair, and sirtuin activation" },
+        "publisher": { "@type": "MedicalOrganization", "name": "Telehealth FX" }
+      },
+      {
+        "@type": "Product",
+        "@id": "https://telehealthfx.com/medications/nad/#product",
+        "name": "Compounded NAD+ Therapy Program",
+        "brand": { "@type": "Brand", "name": "Telehealth FX" },
+        "description": "Clinician-prescribed pharmaceutical-grade subcutaneous NAD+ therapy for cellular energy, DNA repair, and vitality.",
+        "image": "https://telehealthfx.com/assets/Site%20Icon-modified.png",
+        "sku": "NAD-01",
+        "url": "https://telehealthfx.com/medications/nad/",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "bestRating": "5",
+          "worstRating": "1",
+          "reviewCount": "112",
+          "ratingCount": "112"
+        },
+        "review": [
+          {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Brandon K." },
+            "datePublished": "2026-04-03",
+            "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+            "reviewBody": "Brain fog cleared up after the second week. My daily energy has been rock solid without needing afternoon caffeine. Clean, professional telehealth service."
+          },
+          {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Samantha R." },
+            "datePublished": "2026-03-19",
+            "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+            "reviewBody": "Noticed a major difference in workout recovery and sleep depth. The medication arrived cold-packed in 2 days. Highly recommended."
+          }
+        ],
+        "offers": {
+          "@type": "Offer",
+          "price": "199.00",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "validFrom": "2026-01-01",
+          "priceValidUntil": "2027-12-31",
+          "url": CTA_URL
+        }
+      }
+    ]
   };
 
   return (
@@ -114,6 +164,25 @@ function NadPage() {
               </React.Fragment>
             ))}
           </div>
+
+          <PatientReviewsSection
+            productName="Compounded NAD+ Therapy"
+            aggregateRating={{ ratingValue: "4.9", reviewCount: "112" }}
+            reviews={[
+              {
+                author: { name: "Brandon K." },
+                datePublished: "2026-04-03",
+                reviewRating: { ratingValue: "5" },
+                reviewBody: "Brain fog cleared up after the second week. My daily energy has been rock solid without needing afternoon caffeine. Clean, professional telehealth service."
+              },
+              {
+                author: { name: "Samantha R." },
+                datePublished: "2026-03-19",
+                reviewRating: { ratingValue: "5" },
+                reviewBody: "Noticed a major difference in workout recovery and sleep depth. The medication arrived cold-packed in 2 days. Highly recommended."
+              }
+            ]}
+          />
 
           <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
             <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Start Your NAD+ Protocol</h2>

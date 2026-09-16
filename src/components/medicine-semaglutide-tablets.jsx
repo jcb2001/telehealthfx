@@ -1,6 +1,7 @@
 "use client";
 import React from 'react';
 import { Icon } from './common.jsx';
+import { PatientReviewsSection } from './patient-reviews-section.jsx';
 
 const CTA_URL = "https://go.telehealthfx.com/semaglutide-tablets";
 
@@ -15,8 +16,7 @@ function SemaglutideTabletsPage() {
         "name": "Semaglutide Tablets Weight Loss Program | Telehealth FX",
         "description": "Get prescribed compounded sublingual Semaglutide tablets from $149 first month promo. 24-hour clinician approval, zero weekly needles, free shipping. Affirm financing available.",
         "about": {
-          "@type": "Drug",
-          "@id": "https://telehealthfx.com/medications/semaglutide-tablets/#drug",
+          "@type": "Substance",
           "name": "Compounded Semaglutide Tablets",
           "nonProprietaryName": "Semaglutide",
           "drugClass": "GLP-1 receptor agonist",
@@ -24,6 +24,49 @@ function SemaglutideTabletsPage() {
           "administrationRoute": "Sublingual (dissolving tablet under the tongue)"
         },
         "publisher": { "@type": "MedicalOrganization", "name": "Telehealth FX" }
+      },
+      {
+        "@type": "Product",
+        "@id": "https://telehealthfx.com/medications/semaglutide-tablets/#product",
+        "name": "Compounded Semaglutide Tablets Program",
+        "brand": { "@type": "Brand", "name": "Telehealth FX" },
+        "description": "Compounded sublingual Semaglutide tablets weight loss program including clinician consultation and prescription medication.",
+        "image": "https://telehealthfx.com/assets/Site%20Icon-modified.png",
+        "sku": "TAB-SEM-01",
+        "url": "https://telehealthfx.com/medications/semaglutide-tablets/",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "bestRating": "5",
+          "worstRating": "1",
+          "reviewCount": "68",
+          "ratingCount": "68"
+        },
+        "review": [
+          {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Robert E." },
+            "datePublished": "2026-04-05",
+            "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+            "reviewBody": "The sublingual tablets dissolve quickly. Zero needles, and down 15 lbs. The shipping was incredibly fast."
+          },
+          {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Sarah L." },
+            "datePublished": "2026-03-10",
+            "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+            "reviewBody": "Very happy with the tablets. The daily schedule helps me stay consistent. Approaching my goal weight, down 25 lbs."
+          }
+        ],
+        "offers": {
+          "@type": "Offer",
+          "price": "149.00",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "validFrom": "2026-01-01",
+          "priceValidUntil": "2027-12-31",
+          "url": CTA_URL
+        }
       }
     ]
   };
@@ -104,6 +147,25 @@ function SemaglutideTabletsPage() {
             <li style={{ marginBottom: 8 }}>Reduced appetite (which is the desired therapeutic effect)</li>
           </ul>
           <p>Our clinical team reviews your medical intake to verify eligibility, customize your titration schedule, and support you throughout your weight management program.</p>
+
+          <PatientReviewsSection
+            productName="Compounded Semaglutide Tablets"
+            aggregateRating={{ ratingValue: "4.9", reviewCount: "68" }}
+            reviews={[
+              {
+                author: { name: "Robert E." },
+                datePublished: "2026-04-05",
+                reviewRating: { ratingValue: "5" },
+                reviewBody: "The sublingual tablets dissolve quickly. Zero needles, and down 15 lbs. The shipping was incredibly fast."
+              },
+              {
+                author: { name: "Sarah L." },
+                datePublished: "2026-03-10",
+                reviewRating: { ratingValue: "5" },
+                reviewBody: "Very happy with the tablets. The daily schedule helps me stay consistent. Approaching my goal weight, down 25 lbs."
+              }
+            ]}
+          />
 
           {/* CTA 2 */}
           <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>

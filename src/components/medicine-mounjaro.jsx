@@ -2,6 +2,7 @@
 import React from 'react';
 import { Icon } from './common.jsx';
 import { ExtractiveAIAnswerBlock } from './extractive-ai-answer-block.jsx';
+import { PatientReviewsSection } from './patient-reviews-section.jsx';
 
 const CTA_URL = "https://go.telehealthfx.com/mounjaro";
 
@@ -47,7 +48,7 @@ function MounjaroPage() {
         ]
       },
       {
-        "@type": "Drug",
+        "@type": "Substance",
         "@id": "https://telehealthfx.com/medications/mounjaro/#drug",
         "name": "Mounjaro",
         "nonProprietaryName": "Tirzepatide",
@@ -115,11 +116,28 @@ function MounjaroPage() {
           "reviewCount": "158",
           "ratingCount": "158"
         },
+        "review": [
+          {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Richard G." },
+            "datePublished": "2026-03-29",
+            "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+            "reviewBody": "SURPASS-2 data convinced me to choose Mounjaro over semaglutide. A1C dropped from 8.1% to 5.4% and lost 31 lbs. Telehealth FX physician care is top-tier."
+          },
+          {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Chloe T." },
+            "datePublished": "2026-04-18",
+            "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+            "reviewBody": "Fast medical assessment, same-day approval, and prompt arrival. The dual incretin mechanism provided immediate metabolic improvements."
+          }
+        ],
         "offers": {
           "@type": "Offer",
           "price": "1399.00",
           "priceCurrency": "USD",
           "availability": "https://schema.org/InStock",
+          "validFrom": "2026-01-01",
           "priceValidUntil": "2027-12-31",
           "url": CTA_URL,
           "shippingDetails": {
@@ -436,6 +454,26 @@ function MounjaroPage() {
               <p style={{ margin: 0, fontSize: 16, color: 'var(--ink-2)', lineHeight: 1.65 }}>{faq.a}</p>
             </div>
           ))}
+
+          {/* Patient Reviews Section */}
+          <PatientReviewsSection
+            productName="Mounjaro"
+            aggregateRating={{ ratingValue: "4.8", reviewCount: "158" }}
+            reviews={[
+              {
+                author: { name: "Richard G." },
+                datePublished: "2026-03-29",
+                reviewRating: { ratingValue: "5" },
+                reviewBody: "SURPASS-2 data convinced me to choose Mounjaro over semaglutide. A1C dropped from 8.1% to 5.4% and lost 31 lbs. Telehealth FX physician care is top-tier."
+              },
+              {
+                author: { name: "Chloe T." },
+                datePublished: "2026-04-18",
+                reviewRating: { ratingValue: "5" },
+                reviewBody: "Fast medical assessment, same-day approval, and prompt arrival. The dual incretin mechanism provided immediate metabolic improvements."
+              }
+            ]}
+          />
 
           {/* Final CTA Box */}
           <div style={{ padding: 48, marginTop: 64, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>

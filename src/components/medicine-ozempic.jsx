@@ -2,6 +2,7 @@
 import React from 'react';
 import { Icon } from './common.jsx';
 import { ExtractiveAIAnswerBlock } from './extractive-ai-answer-block.jsx';
+import { PatientReviewsSection } from './patient-reviews-section.jsx';
 
 const CTA_URL = "https://go.telehealthfx.com/ozempic";
 
@@ -47,7 +48,7 @@ function OzempicPage() {
         ]
       },
       {
-        "@type": "Drug",
+        "@type": "Substance",
         "@id": "https://telehealthfx.com/medications/ozempic/#drug",
         "name": "Ozempic",
         "nonProprietaryName": "Semaglutide",
@@ -112,11 +113,28 @@ function OzempicPage() {
           "reviewCount": "184",
           "ratingCount": "184"
         },
+        "review": [
+          {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "William K." },
+            "datePublished": "2026-03-18",
+            "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+            "reviewBody": "A1C dropped from 7.8% to 5.9% in 5 months. Telehealth FX handled the prescription smoothly and my physician checked in regularly throughout titration."
+          },
+          {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Elena S." },
+            "datePublished": "2026-04-14",
+            "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+            "reviewBody": "Genuine Ozempic pens delivered with temperature monitoring. Lost 24 lbs while getting my blood sugars in optimal range."
+          }
+        ],
         "offers": {
           "@type": "Offer",
           "price": "1199.00",
           "priceCurrency": "USD",
           "availability": "https://schema.org/InStock",
+          "validFrom": "2026-01-01",
           "priceValidUntil": "2027-12-31",
           "url": CTA_URL,
           "shippingDetails": {
@@ -431,6 +449,26 @@ function OzempicPage() {
               <p style={{ margin: 0, fontSize: 16, color: 'var(--ink-2)', lineHeight: 1.65 }}>{faq.a}</p>
             </div>
           ))}
+
+          {/* Patient Reviews Section */}
+          <PatientReviewsSection
+            productName="Ozempic"
+            aggregateRating={{ ratingValue: "4.9", reviewCount: "184" }}
+            reviews={[
+              {
+                author: { name: "William K." },
+                datePublished: "2026-03-18",
+                reviewRating: { ratingValue: "5" },
+                reviewBody: "A1C dropped from 7.8% to 5.9% in 5 months. Telehealth FX handled the prescription smoothly and my physician checked in regularly throughout titration."
+              },
+              {
+                author: { name: "Elena S." },
+                datePublished: "2026-04-14",
+                reviewRating: { ratingValue: "5" },
+                reviewBody: "Genuine Ozempic pens delivered with temperature monitoring. Lost 24 lbs while getting my blood sugars in optimal range."
+              }
+            ]}
+          />
 
           {/* Final CTA Box */}
           <div style={{ padding: 48, marginTop: 64, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>

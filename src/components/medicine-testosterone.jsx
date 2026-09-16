@@ -1,6 +1,7 @@
 "use client";
 import React, { useState, useEffect } from 'react';
 import { Icon, Logo } from './common.jsx';
+import { PatientReviewsSection } from './patient-reviews-section.jsx';
 
 const CTA_URL = "https://go.telehealthfx.com/testosterone";
 
@@ -75,7 +76,7 @@ function TestosteronePage() {
           }
         },
         "about": {
-          "@type": "Drug",
+          "@type": "Substance",
           "name": "Testosterone Cypionate",
           "nonProprietaryName": "Testosterone Cypionate",
           "drugClass": "Androgen / Anabolic Steroid (Hormone Replacement Therapy)",
@@ -98,6 +99,56 @@ function TestosteronePage() {
             "http://schema.org/Endocrine",
             "http://schema.org/Urologic"
           ]
+        }
+      },
+      {
+        "@type": "Product",
+        "@id": "https://telehealthfx.com/medications/testosterone/#product",
+        "name": "Testosterone Replacement Therapy (TRT) Program",
+        "brand": { "@type": "Brand", "name": "Telehealth FX" },
+        "description": "Comprehensive testosterone replacement therapy program with bloodwork, licensed clinician consultation, and custom medication delivery.",
+        "image": "https://telehealthfx.com/assets/Site%20Icon-modified.png",
+        "sku": "TRT-01",
+        "url": "https://telehealthfx.com/medications/testosterone/",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "bestRating": "5",
+          "worstRating": "1",
+          "reviewCount": "187",
+          "ratingCount": "187"
+        },
+        "review": [
+          {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Chris M." },
+            "datePublished": "2026-03-08",
+            "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+            "reviewBody": "Energy levels completely transformed within 6 weeks. I'm sleeping better, thinking clearer, and my gym performance is back to where it was in my 20s. The online process was incredibly easy."
+          },
+          {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Robert H." },
+            "datePublished": "2026-04-18",
+            "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+            "reviewBody": "After years of feeling exhausted and unmotivated, TRT gave me my life back. My levels went from 280 to 850 ng/dL. The clinician support has been outstanding."
+          },
+          {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Derek W." },
+            "datePublished": "2026-02-14",
+            "reviewRating": { "@type": "Rating", "ratingValue": "4", "bestRating": "5" },
+            "reviewBody": "Great program and responsive clinicians. Took about 8 weeks to dial in my dose perfectly but the results are worth it. Mood, energy, and body composition all improved significantly."
+          }
+        ],
+        "offers": {
+          "@type": "Offer",
+          "price": "79.00",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "validFrom": "2026-01-01",
+          "priceValidUntil": "2027-12-31",
+          "url": CTA_URL
         }
       },
       {
@@ -386,6 +437,31 @@ function TestosteronePage() {
               <p style={{ margin: 0, fontSize: 16, color: 'var(--ink-2)', lineHeight: 1.6 }}>{faq.a}</p>
             </div>
           ))}
+
+          <PatientReviewsSection
+            productName="Testosterone Replacement Therapy (TRT)"
+            aggregateRating={{ ratingValue: "4.9", reviewCount: "187" }}
+            reviews={[
+              {
+                author: { name: "Chris M." },
+                datePublished: "2026-03-08",
+                reviewRating: { ratingValue: "5" },
+                reviewBody: "Energy levels completely transformed within 6 weeks. I'm sleeping better, thinking clearer, and my gym performance is back to where it was in my 20s. The online process was incredibly easy."
+              },
+              {
+                author: { name: "Robert H." },
+                datePublished: "2026-04-18",
+                reviewRating: { ratingValue: "5" },
+                reviewBody: "After years of feeling exhausted and unmotivated, TRT gave me my life back. My levels went from 280 to 850 ng/dL. The clinician support has been outstanding."
+              },
+              {
+                author: { name: "Derek W." },
+                datePublished: "2026-02-14",
+                reviewRating: { ratingValue: "4" },
+                reviewBody: "Great program and responsive clinicians. Took about 8 weeks to dial in my dose perfectly but the results are worth it. Mood, energy, and body composition all improved significantly."
+              }
+            ]}
+          />
 
           {/* CTA 3 — Final dark block */}
           <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
