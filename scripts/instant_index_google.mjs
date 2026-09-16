@@ -89,10 +89,11 @@ async function main() {
 
   const urls = getUrlsToIndex();
   console.log(`📌 Queued EXACTLY ${urls.length} URLs (100% of Google's daily 200 quota).`);
-  console.log(`   ├─ Tier 1: 101 Net-New Programmatic Keyword Magnets + Hub`);
-  console.log(`   ├─ Tier 2: 15 Core Funnel & Medication Conversion Pages`);
-  console.log(`   ├─ Tier 3: 35 High-Impression GSC Blogs & Striking Distance Guides`);
-  console.log(`   └─ Tier 4: 49 High-Commercial Metros (All 20 TRT + Top 29 Population)`);
+  console.log(`   ├─ Tier 1: 13 Net-New Phase 2 Authority Articles + Blog Hub`);
+  console.log(`   ├─ Tier 2: 12 Phase 1 High-Intent Sales Articles`);
+  console.log(`   ├─ Tier 3: 100 Commercial Competitor Comparison & Price Magnets`);
+  console.log(`   ├─ Tier 4: 40 Core Conversion Funnels & High-Impression Guides`);
+  console.log(`   └─ Tier 5: 35 High-Commercial & TRT Metro Landing Pages`);
 
   if (isDryRun) {
     console.log('\n[DRY RUN MODE] The 200 URLs prioritized for Google:');
