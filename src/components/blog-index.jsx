@@ -6,6 +6,90 @@ import { Icon } from './common.jsx';
 function BlogIndex() {
   const articles = [
     {
+      title: "Generic Ozempic Online: Safe 503A Compounded Access Guide",
+      description: "Learn how to get generic Ozempic online safely. Explore 503A compounded semaglutide from $99 first month promo with doctor consultations and free home delivery.",
+      slug: "/blog/generic-ozempic-online-prescription/",
+      image: "/assets/generic_ozempic_guide.jpg",
+      tag: "Direct Acquisition"
+    },
+    {
+      title: "Generic Wegovy Prescription Online: Safe 2026 Access Guide",
+      description: "Compare generic Wegovy prescription alternatives online. Discover affordable compounded semaglutide options from $99 promo with fast digital medical approval.",
+      slug: "/blog/generic-wegovy-prescription-online/",
+      image: "/assets/generic_wegovy_rx.jpg",
+      tag: "Brand Alternatives"
+    },
+    {
+      title: "Generic Mounjaro Tirzepatide Online: Safe Compounded Care",
+      description: "Get generic Mounjaro online through board-certified doctors. Access dual GIP/GLP-1 compounded tirzepatide from $99 first month promo with free cold-chain home delivery.",
+      slug: "/blog/generic-mounjaro-tirzepatide-online/",
+      image: "/assets/generic_mounjaro_guide.jpg",
+      tag: "Dual-Agonist Therapy"
+    },
+    {
+      title: "Wegovy in Stock Online: How to Avoid Backorder Shortages",
+      description: "Find Wegovy in stock online without retail pharmacy backorders. Access licensed 503A compounded semaglutide alternatives ready for immediate cold delivery.",
+      slug: "/blog/wegovy-shortage-backorder-alternatives/",
+      image: "/assets/wegovy_stock_alternatives.jpg",
+      tag: "Shortage Solutions"
+    },
+    {
+      title: "Semaglutide Without Insurance: Pure Cash-Pay Cost Guide",
+      description: "Get semaglutide without insurance from $99 first month promo. Review cash prices, online doctor access, and bypass denied insurance prior authorizations.",
+      slug: "/blog/semaglutide-without-insurance-cash-price/",
+      image: "/assets/semaglutide_cash_price.jpg",
+      tag: "Cash-Pay Access"
+    },
+    {
+      title: "Tirzepatide Without Insurance: Transparent Cash Pricing",
+      description: "Access tirzepatide without insurance through licensed telehealth clinicians. Compare cash pricing from $99 promo, avoid brand markups, and ship direct.",
+      slug: "/blog/tirzepatide-cash-price-telehealth-no-insurance/",
+      image: "/assets/tirzepatide_no_insurance.jpg",
+      tag: "Pricing Transparency"
+    },
+    {
+      title: "Cheapest Way to Get Semaglutide Online: 2026 Cost Audit",
+      description: "Discover the cheapest way to get semaglutide online legally. Compare real cash-pay telehealth options, avoid subscription trap fees, and save up to 89% today.",
+      slug: "/blog/cheapest-way-to-get-semaglutide-online/",
+      image: "/assets/cheapest_semaglutide_guide.jpg",
+      tag: "Cost Comparison"
+    },
+    {
+      title: "Semaglutide No Subscription: Pure Flat-Rate Care in 2026",
+      description: "Buy semaglutide online with no subscription dues. Get compounded semaglutide from $99 first month promo, then $190/mo with doctor care and free shipping.",
+      slug: "/blog/semaglutide-no-subscription-flat-rate/",
+      image: "/assets/semaglutide_no_subscription.jpg",
+      tag: "Transparent Pricing"
+    },
+    {
+      title: "Buy Semaglutide Online: Doctor Prescription & Delivery",
+      description: "Buy semaglutide online with physician consultation included. Get compounded semaglutide delivered to your home from $99 promo, then $190/mo with zero hidden fees.",
+      slug: "/blog/buy-semaglutide-online-prescription/",
+      image: "/assets/buy_semaglutide_online.jpg",
+      tag: "Direct Acquisition"
+    },
+    {
+      title: "Buy Tirzepatide Online: Telehealth Prescription Delivery",
+      description: "Buy tirzepatide online through licensed telehealth doctors. Access dual GIP/GLP-1 therapy from $99 promo, then $214/mo with cold delivery and zero waitlists.",
+      slug: "/blog/buy-tirzepatide-online-telehealth/",
+      image: "/assets/buy_tirzepatide_telehealth.jpg",
+      tag: "Direct Acquisition"
+    },
+    {
+      title: "Same Day Semaglutide Prescription: Fast Online Doctors",
+      description: "Get a same day semaglutide prescription online. Connect with telehealth doctors quickly, qualify digitally, and rush medication fulfillment to your door.",
+      slug: "/blog/same-day-semaglutide-prescription-online/",
+      image: "/assets/same_day_semaglutide.jpg",
+      tag: "Fast-Track Care"
+    },
+    {
+      title: "Start Weight Loss Shots Today: Fast Online GLP-1 Care",
+      description: "Start weight loss shots today online. Complete a simple 3-minute medical intake, receive physician approval, and get your starter kit delivered in days.",
+      slug: "/blog/start-weight-loss-shots-today-online/",
+      image: "/assets/start_shots_today.jpg",
+      tag: "Immediate Onboarding"
+    },
+    {
       title: "5 Top Tirzepatide Online Prescription Services of 2023 (2026 Update)",
       description: "Read our comprehensive comparison of the top 5 tirzepatide online prescription platforms. Discover cost breakdowns, compound safety, and muscle protection.",
       slug: "/blog/5-top-tirzepatide-online-prescription-services-of-2023-2026/",
