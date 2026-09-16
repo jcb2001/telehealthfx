@@ -16,10 +16,15 @@ The direct-to-consumer (DTC) telehealth GLP-1 and incretin landscape has reached
 Telehealth FX captures this disenfranchised, high-intent patient volume by operating a transparent, direct-to-consumer cash-pay medical model that completely bypasses insurance gatekeepers, retail pharmacy counter delays, and subscription markups.
 
 ### 1.2 Uncompromising Commercial Pricing Anchors
-Telehealth FX's customer acquisition engine is built upon three radical price-transparency anchors:
-1. **Compounded Semaglutide (503A)**: Sustained flat rate of **$146 per month** across all dosage strengths (0.25 mg, 0.5 mg, 1.0 mg, 1.7 mg, and 2.4 mg maintenance). Entry promotional pricing is established at **$99 for the first month** (Affirm financing from $25/month). This delivers an **85% to 89% net savings** compared to retail pharmacy brand cash prices ($1,349/mo).
-2. **Compounded Tirzepatide (503A)**: Sustained flat rate of **$258 per month** across all dosage strengths (2.5 mg, 5.0 mg, 7.5 mg, 10.0 mg, 12.5 mg, and 15.0 mg maintenance). Entry promotional pricing is established at **$99 for the first month** (Affirm financing from $25 or $49/month). This delivers a **78% to 82% net savings** compared to retail brand cash prices ($1,059 to $1,199/mo).
-3. **Testosterone Replacement Therapy (TRT)**: Sustained flat rate of **$79 per month** for injectable Testosterone Cypionate/Enanthate with physician supervision and laboratory monitoring, or **$89 per month** for daily oral Enclomiphene. This represents a **65% to 80% savings** compared to brick-and-mortar medspas ($250 to $400/mo).
+Telehealth FX's customer acquisition engine is built upon authoritative, transparent SkinnyRx pricing anchors:
+1. **Compounded Semaglutide (Injectable 503A)**: **$99 First-Month Promotional Rate** (regular renewal $190–$199/month, or as low as $190.65/mo on 3-month plans; Affirm financing from ~$25/month). Zero membership dues, free clinical consult, injection supplies, and free 2-day cold-chain shipping included. Delivers an **85% to 89% net savings** compared to retail pharmacy brand cash prices ($1,349/mo).
+2. **Compounded Tirzepatide (Injectable 503A)**: **$99 First-Month Promotional Rate** (regular renewal $214–$299/month, or as low as $214.50/mo on 3-month plans; Affirm financing from ~$25/month). Zero membership dues, free clinical consult, injection supplies, and free 2-day cold-chain shipping included. Delivers a **78% to 82% net savings** compared to retail brand cash prices ($1,059 to $1,199/mo).
+3. **Oral Dissolving Tablets (Sublingual 503A)**: 
+   - **Semaglutide Tablets**: **$149 First-Month Promotional Rate** (regular renewal $217–$249/month; Affirm financing from $37/month).
+   - **Tirzepatide Tablets**: **$199 First-Month Promotional Rate** (regular renewal $222–$299/month; Affirm financing from $49/month).
+   - *CRITICAL PRICING RULE*: **ONLY** injectable Semaglutide and injectable Tirzepatide qualify for the $99 first-month promotional price! Oral dissolving tablets do NOT qualify for $99.
+4. **Sublingual Oral Drops**: Starting from **$199 per month**.
+5. **Testosterone Replacement Therapy (TRT)**: Sustained flat rate of **$79 per month** for injectable Testosterone Cypionate/Enanthate with physician supervision and laboratory monitoring, or **$89 per month** for daily oral Enclomiphene. This represents a **65% to 80% savings** compared to brick-and-mortar medspas ($250 to $400/mo).
 
 ### 1.3 Eliminating the Competitor Subscription Trap
 Unlike legacy venture-backed telehealth conglomerates (such as Ro, Hims, Noom Med, and Mochi Health), Telehealth FX operates with **zero hidden fees**:
