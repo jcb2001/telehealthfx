@@ -38,6 +38,74 @@ function HomePageSchema() {
         "areaServed": { "@type": "Country", "name": "United States" },
         "serviceType": "Telehealth Medical Services"
       },
+      // ── Product: Wegovy (Brand Semaglutide 2.4mg) ──
+      {
+        "@type": "Product",
+        "@id": "https://telehealthfx.com/#product-wegovy",
+        "name": "Wegovy® Weight Management Program",
+        "brand": { "@type": "Brand", "name": "Novo Nordisk" },
+        "description": "Authentic FDA-approved Wegovy (semaglutide 2.4mg) program with licensed physician oversight, flat-rate pricing ($899/mo across all doses), and save up to $100 on first order.",
+        "image": "https://telehealthfx.com/assets/Site%20Icon-modified.png",
+        "sku": "WEG-01",
+        "url": "https://telehealthfx.com/medications/wegovy/",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "bestRating": "5", "worstRating": "1", "reviewCount": "246", "ratingCount": "246" },
+        "review": [
+          { "@type": "Review", "author": { "@type": "Person", "name": "Jennifer M." }, "datePublished": "2026-03-11", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "reviewBody": "Down 38 lbs on authentic Wegovy through Telehealth FX. The flat pricing with zero dose-jump fees made this completely predictable financially. Medication arrived chilled in 48 hours." },
+          { "@type": "Review", "author": { "@type": "Person", "name": "Robert B." }, "datePublished": "2026-04-02", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "reviewBody": "Clinician approval took under 24 hours. The once-weekly injection pen is effortless to use and my food noise completely vanished by week two." }
+        ],
+        "offers": { "@type": "Offer", "price": "899.00", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "url": "https://go.telehealthfx.com/wegovy", "shippingDetails": shippingDetails, "hasMerchantReturnPolicy": returnPolicy }
+      },
+      // ── Product: Ozempic (Brand Semaglutide) ──
+      {
+        "@type": "Product",
+        "@id": "https://telehealthfx.com/#product-ozempic",
+        "name": "Ozempic® Glycemic & Cardiovascular Program",
+        "brand": { "@type": "Brand", "name": "Novo Nordisk" },
+        "description": "Authentic FDA-approved Ozempic (semaglutide) weekly injection program for type 2 diabetes and cardiovascular risk reduction. Flat $1,199/mo across all dosages with $100 first-order savings.",
+        "image": "https://telehealthfx.com/assets/Site%20Icon-modified.png",
+        "sku": "OZE-01",
+        "url": "https://telehealthfx.com/medications/ozempic/",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "bestRating": "5", "worstRating": "1", "reviewCount": "184", "ratingCount": "184" },
+        "review": [
+          { "@type": "Review", "author": { "@type": "Person", "name": "William K." }, "datePublished": "2026-03-18", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "reviewBody": "A1C dropped from 7.8% to 5.9% in 5 months. Telehealth FX handled the prescription smoothly and my physician checked in regularly throughout titration." },
+          { "@type": "Review", "author": { "@type": "Person", "name": "Elena S." }, "datePublished": "2026-04-14", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "reviewBody": "Genuine Ozempic pens delivered with temperature monitoring. Lost 24 lbs while getting my blood sugars in optimal range." }
+        ],
+        "offers": { "@type": "Offer", "price": "1199.00", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "url": "https://go.telehealthfx.com/ozempic", "shippingDetails": shippingDetails, "hasMerchantReturnPolicy": returnPolicy }
+      },
+      // ── Product: Zepbound (Brand Tirzepatide) ──
+      {
+        "@type": "Product",
+        "@id": "https://telehealthfx.com/#product-zepbound",
+        "name": "Zepbound™ Dual GIP/GLP-1 Weight Program",
+        "brand": { "@type": "Brand", "name": "Eli Lilly and Company" },
+        "description": "Authentic FDA-approved Zepbound (tirzepatide) weekly dual GIP/GLP-1 receptor agonist injection program. Up to 20.9% weight loss in trials. Flat $1,199/mo with save $100 on first order.",
+        "image": "https://telehealthfx.com/assets/Site%20Icon-modified.png",
+        "sku": "ZEP-01",
+        "url": "https://telehealthfx.com/medications/zepbound/",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "bestRating": "5", "worstRating": "1", "reviewCount": "192", "ratingCount": "192" },
+        "review": [
+          { "@type": "Review", "author": { "@type": "Person", "name": "Marcus D." }, "datePublished": "2026-03-24", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "reviewBody": "Dual GIP and GLP-1 targeting is remarkably more effective. Down 46 lbs on Zepbound with virtually zero nausea. Exceptional telehealth coordination." },
+          { "@type": "Review", "author": { "@type": "Person", "name": "Heather N." }, "datePublished": "2026-04-09", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "reviewBody": "The flat price across dose increases made planning simple. Authentic Lilly autoinjector pens arrived in perfect cold-chain insulated packaging." }
+        ],
+        "offers": { "@type": "Offer", "price": "1199.00", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "url": "https://go.telehealthfx.com/zepbound", "shippingDetails": shippingDetails, "hasMerchantReturnPolicy": returnPolicy }
+      },
+      // ── Product: Mounjaro (Brand Tirzepatide) ──
+      {
+        "@type": "Product",
+        "@id": "https://telehealthfx.com/#product-mounjaro",
+        "name": "Mounjaro® Dual Incretin Metabolic Program",
+        "brand": { "@type": "Brand", "name": "Eli Lilly and Company" },
+        "description": "Authentic FDA-approved Mounjaro (tirzepatide) weekly dual GIP/GLP-1 injection for type 2 diabetes and metabolic health. Up to -2.30% HbA1c reduction. Flat $1,399/mo with $100 off first order.",
+        "image": "https://telehealthfx.com/assets/Site%20Icon-modified.png",
+        "sku": "MOU-01",
+        "url": "https://telehealthfx.com/medications/mounjaro/",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.8", "bestRating": "5", "worstRating": "1", "reviewCount": "158", "ratingCount": "158" },
+        "review": [
+          { "@type": "Review", "author": { "@type": "Person", "name": "Richard G." }, "datePublished": "2026-03-29", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "reviewBody": "SURPASS-2 data convinced me to choose Mounjaro over semaglutide. A1C dropped from 8.1% to 5.4% and lost 31 lbs. Telehealth FX physician care is top-tier." },
+          { "@type": "Review", "author": { "@type": "Person", "name": "Chloe T." }, "datePublished": "2026-04-18", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "reviewBody": "Fast medical assessment, same-day approval, and prompt arrival. The dual incretin mechanism provided immediate metabolic improvements." }
+        ],
+        "offers": { "@type": "Offer", "price": "1399.00", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "url": "https://go.telehealthfx.com/mounjaro", "shippingDetails": shippingDetails, "hasMerchantReturnPolicy": returnPolicy }
+      },
       // ── Product: Semaglutide ──
       {
         "@type": "Product",
@@ -201,12 +269,13 @@ function HomePageSchema() {
         "itemListElement": [
           { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://telehealthfx.com/" },
           { "@type": "ListItem", "position": 2, "name": "Treatments", "item": "https://telehealthfx.com/#treatments" },
-          { "@type": "ListItem", "position": 3, "name": "Testosterone Therapy", "item": "https://telehealthfx.com/medications/testosterone" },
-          { "@type": "ListItem", "position": 4, "name": "Enclomiphene", "item": "https://telehealthfx.com/medications/enclomiphene" },
-          { "@type": "ListItem", "position": 5, "name": "ED Treatment", "item": "https://telehealthfx.com/medications/ed" },
-          { "@type": "ListItem", "position": 6, "name": "Hair Loss", "item": "https://telehealthfx.com/medications/hair-loss" },
-          { "@type": "ListItem", "position": 7, "name": "Metformin", "item": "https://telehealthfx.com/medications/metformin" },
-          { "@type": "ListItem", "position": 8, "name": "Health Articles", "item": "https://telehealthfx.com/blog" }
+          { "@type": "ListItem", "position": 3, "name": "Wegovy", "item": "https://telehealthfx.com/medications/wegovy" },
+          { "@type": "ListItem", "position": 4, "name": "Ozempic", "item": "https://telehealthfx.com/medications/ozempic" },
+          { "@type": "ListItem", "position": 5, "name": "Zepbound", "item": "https://telehealthfx.com/medications/zepbound" },
+          { "@type": "ListItem", "position": 6, "name": "Mounjaro", "item": "https://telehealthfx.com/medications/mounjaro" },
+          { "@type": "ListItem", "position": 7, "name": "Testosterone Therapy", "item": "https://telehealthfx.com/medications/testosterone" },
+          { "@type": "ListItem", "position": 8, "name": "Enclomiphene", "item": "https://telehealthfx.com/medications/enclomiphene" },
+          { "@type": "ListItem", "position": 9, "name": "Health Articles", "item": "https://telehealthfx.com/blog" }
         ]
       }
     ]

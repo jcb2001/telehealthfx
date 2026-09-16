@@ -78,6 +78,86 @@ function Medications() {
   const [selected, setSelected] = React.useState(0);
   const meds = [
     {
+      name: 'Wegovy®',
+      tag: 'Brand GLP-1 · Save $100 1st Mo',
+      tagType: 'accent',
+      price: '899',
+      interval: 'mo',
+      priceLabel: 'Flat rate across all doses',
+      intro: 'FDA-approved once-weekly semaglutide 2.4 mg injection for chronic weight management and cardiovascular risk reduction. 14.9% mean weight loss in STEP-1.',
+      avg: '14.9% Weight Loss',
+      avgSub: 'STEP-1 Landmark Efficacy',
+      ctaUrl: 'https://go.telehealthfx.com/wegovy',
+      ctaLabel: 'Claim $100 Off First Order',
+      learnMoreUrl: '/medications/wegovy/',
+      features: [
+        'Save up to $100 on first month order',
+        'FDA-approved for chronic weight management',
+        '20% major adverse CV event reduction (SELECT)',
+        'FSA & HSA eligible · Free cold shipping',
+      ],
+    },
+    {
+      name: 'Ozempic®',
+      tag: 'Brand GLP-1 · Save $100 1st Mo',
+      tagType: 'brand',
+      price: '1,199',
+      interval: 'mo',
+      priceLabel: 'Flat rate across all doses',
+      intro: 'FDA-approved semaglutide injection for type 2 diabetes glycemic control and cardiovascular protection. Proven 26% MACE risk reduction.',
+      avg: 'A1C & CV Protection',
+      avgSub: '26% MACE Hazard Reduction',
+      ctaUrl: 'https://go.telehealthfx.com/ozempic',
+      ctaLabel: 'Claim $100 Off First Order',
+      learnMoreUrl: '/medications/ozempic/',
+      features: [
+        'Save up to $100 on first month order',
+        'FDA-approved for type 2 diabetes & glycemic control',
+        'Proven 26% cardiovascular risk reduction (SUSTAIN-6)',
+        'FSA & HSA eligible · Licensed physician oversight',
+      ],
+    },
+    {
+      name: 'Zepbound™',
+      tag: 'Dual GIP/GLP-1 · Save $100 1st Mo',
+      tagType: 'accent',
+      price: '1,199',
+      interval: 'mo',
+      priceLabel: 'Flat rate across all doses',
+      intro: 'FDA-approved dual GIP/GLP-1 receptor agonist injection delivering up to 20.9% (52 lbs) mean weight loss in SURMOUNT-1. Unimolecular dual incretin therapy.',
+      avg: '20.9% Weight Loss',
+      avgSub: 'SURMOUNT-1 Dual Incretin',
+      ctaUrl: 'https://go.telehealthfx.com/zepbound',
+      ctaLabel: 'Claim $100 Off First Order',
+      learnMoreUrl: '/medications/zepbound/',
+      features: [
+        'Save up to $100 on first month order',
+        'Dual GIP and GLP-1 receptor co-agonist',
+        'Superior weight loss vs single-receptor agonists',
+        'FSA & HSA eligible · 24-hr clinical review',
+      ],
+    },
+    {
+      name: 'Mounjaro®',
+      tag: 'Dual GIP/GLP-1 · Save $100 1st Mo',
+      tagType: 'brand',
+      price: '1,399',
+      interval: 'mo',
+      priceLabel: 'Flat rate across all doses',
+      intro: 'FDA-approved once-weekly dual GIP/GLP-1 injectable for superior glycemic control. Demonstrated superiority over semaglutide 1.0 mg in SURPASS-2.',
+      avg: '-2.30% HbA1c',
+      avgSub: 'SURPASS-2 Head-to-Head',
+      ctaUrl: 'https://go.telehealthfx.com/mounjaro',
+      ctaLabel: 'Claim $100 Off First Order',
+      learnMoreUrl: '/medications/mounjaro/',
+      features: [
+        'Save up to $100 on first month order',
+        'Superior HbA1c reduction vs semaglutide 1.0 mg',
+        'Mean weight reduction of -11.2 kg at 15 mg',
+        'FSA & HSA eligible · Continuous physician care',
+      ],
+    },
+    {
       name: 'Semaglutide',
       tag: '1st Month $99 Promo',
       tagType: 'brand',
@@ -359,16 +439,27 @@ function MedCard({ med, selected, onSelect }) {
         ))}
       </ul>
 
-      <a
-        className="btn btn-primary"
-        href={med.ctaUrl || 'https://go.telehealthfx.com/start'}
-        target="_blank"
-        rel="noopener noreferrer"
-        style={{ width: '100%', justifyContent: 'center', display: 'inline-flex' }}
-        onClick={(e) => e.stopPropagation()}
-      >
-        {med.ctaLabel || 'See If You Qualify'} <Icon.Arrow />
-      </a>
+      <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
+        <a
+          className="btn btn-primary"
+          href={med.ctaUrl || 'https://go.telehealthfx.com/start'}
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ width: '100%', justifyContent: 'center', display: 'inline-flex' }}
+          onClick={(e) => e.stopPropagation()}
+        >
+          {med.ctaLabel || 'See If You Qualify'} <Icon.Arrow />
+        </a>
+        {med.learnMoreUrl && (
+          <a
+            href={med.learnMoreUrl}
+            style={{ textAlign: 'center', fontSize: 13, color: 'var(--brand)', textDecoration: 'none', fontWeight: 600, padding: '4px 0' }}
+            onClick={(e) => e.stopPropagation()}
+          >
+            Clinical Guide & Titration Protocol →
+          </a>
+        )}
+      </div>
     </div>
   );
 }
