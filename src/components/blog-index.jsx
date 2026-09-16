@@ -6,6 +6,90 @@ import { Icon } from './common.jsx';
 function BlogIndex() {
   const articles = [
     {
+      title: "Transfer Wegovy Prescription Online: Telehealth GLP-1 Care",
+      description: "Transfer your Wegovy or Zepbound prescription online to Telehealth FX. Enjoy reliable 503A mail order delivery, flat monthly rates, and no pharmacy backorders.",
+      slug: "/blog/transfer-wegovy-zepbound-prescription-online/",
+      image: "/assets/transfer_wegovy_online.jpg",
+      tag: "Rx Transfer Concierge"
+    },
+    {
+      title: "Switch from Ozempic to Generic: Dose Matching & Titration",
+      description: "How to switch from Ozempic to generic semaglutide seamlessly. Review complete dose conversion charts, maintain appetite suppression, and save over $1,000/month.",
+      slug: "/blog/switch-ozempic-wegovy-to-generic-semaglutide/",
+      image: "/assets/switch_ozempic_to_generic.jpg",
+      tag: "Dose Matching"
+    },
+    {
+      title: "Generic Ozempic Discount: Coupons vs Cash Pay Telehealth",
+      description: "Explore generic Ozempic discounts, coupons, and manufacturer assistance limits. Learn why transparent flat-rate cash telehealth provides the lowest net cost.",
+      slug: "/blog/glp1-patient-assistance-programs-cost-guide/",
+      image: "/assets/generic_ozempic_discount.jpg",
+      tag: "Discounts & Savings"
+    },
+    {
+      title: "Semaglutide Cost Comparison: Total Out of Pocket Breakdown",
+      description: "Complete semaglutide cost comparison across retail, insurance, and telehealth. See how $99/mo promo and transparent cash rates save thousands over brand names.",
+      slug: "/blog/semaglutide-tirzepatide-cost-comparison/",
+      image: "/assets/semaglutide_cost_comparison.jpg",
+      tag: "Cost Breakdown"
+    },
+    {
+      title: "Direct Pay Semaglutide: Transparent Pricing & Fee Audit",
+      description: "Understand direct pay semaglutide. Review complete transparent pricing, zero hidden consultation fees, and simple cash-pay checkout for medical weight loss.",
+      slug: "/blog/direct-pay-semaglutide-pricing-breakdown/",
+      image: "/assets/direct_pay_semaglutide.jpg",
+      tag: "Transparent Pricing"
+    },
+    {
+      title: "Safe Generic Wegovy Online: Compounding Legality & 503A",
+      description: "Is generic Wegovy online safe? Learn how 503A compounding pharmacies legally produce bioequivalent semaglutide under strict federal sterility and potency rules.",
+      slug: "/blog/is-generic-ozempic-safe-compounding-legality/",
+      image: "/assets/safe_generic_wegovy.jpg",
+      tag: "503A Quality"
+    },
+    {
+      title: "Wegovy Starter Dose in Stock: Titration & Dosing Matrix",
+      description: "Find Wegovy starter doses in stock online. Review standard 0.25mg titration schedules, how to avoid severe GI side effects, and transition to maintenance doses.",
+      slug: "/blog/wegovy-starter-dose-titration-schedule/",
+      image: "/assets/wegovy_starter_dose.jpg",
+      tag: "Starter Dose Stock"
+    },
+    {
+      title: "Overnight Shipping Semaglutide: Mail Order Fulfillment",
+      description: "Need overnight shipping for semaglutide? Learn how temperature-controlled cold-chain packaging protects compounded peptide potency during rapid home delivery.",
+      slug: "/blog/overnight-shipping-semaglutide-mail-order/",
+      image: "/assets/overnight_shipping_semaglutide.jpg",
+      tag: "Cold-Chain Shipping"
+    },
+    {
+      title: "Online Clinic for Weight Loss Shots: Top Virtual Care",
+      description: "Choose the best online clinic for weight loss shots. Compare licensed telehealth platforms, physician qualifications, flat-rate pricing, and ongoing support.",
+      slug: "/blog/virtual-medical-weight-loss-telehealth-clinic/",
+      image: "/assets/online_clinic_weight_loss.jpg",
+      tag: "Virtual Clinic"
+    },
+    {
+      title: "Best Alternative to Ozempic: Semaglutide vs Tirzepatide",
+      description: "Compare the best alternatives to Ozempic. Evaluate efficacy, cost, and weight loss percentage differences between compounded semaglutide and tirzepatide.",
+      slug: "/blog/semaglutide-vs-tirzepatide-weight-loss-comparison/",
+      image: "/assets/best_alternative_ozempic.jpg",
+      tag: "Clinical Comparison"
+    },
+    {
+      title: "Pills Like Ozempic Online: Oral Semaglutide vs Shots",
+      description: "Explore pills like Ozempic online. Learn how oral semaglutide compares to weekly subcutaneous injections regarding bioavailability, absorption, and weight loss.",
+      slug: "/blog/glp-1-pills-vs-injections-weight-loss/",
+      image: "/assets/pills_like_ozempic.jpg",
+      tag: "Oral vs Injections"
+    },
+    {
+      title: "Medication Like Ozempic for Weight Loss: GLP-1 vs Metformin",
+      description: "Find medications like Ozempic for weight loss. Compare Metformin with advanced GLP-1 receptor agonists regarding blood sugar control and weight loss results.",
+      slug: "/blog/glp-1-vs-metformin-weight-loss-safety-comparison/",
+      image: "/assets/medication_like_ozempic.jpg",
+      tag: "Metabolic Comparison"
+    },
+    {
       title: "Generic Ozempic Online: Safe 503A Compounded Access Guide",
       description: "Learn how to get generic Ozempic online safely. Explore 503A compounded semaglutide from $99 first month promo with doctor consultations and free home delivery.",
       slug: "/blog/generic-ozempic-online-prescription/",
