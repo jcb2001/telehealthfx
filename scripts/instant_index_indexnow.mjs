@@ -19,7 +19,7 @@ const HOST = 'telehealthfx.com';
 const INDEXNOW_KEY = '9f4c3a7e58b14d2e8b6c0a1f3e7d9b2a';
 const KEY_LOCATION = `https://${HOST}/${INDEXNOW_KEY}.txt`;
 const batchArg = process.argv.find(a => a.startsWith('--batch='));
-const batchNum = batchArg ? batchArg.split('=')[1] : '3';
+const batchNum = batchArg ? batchArg.split('=')[1] : '4';
 
 let PRIORITY_FILE = path.join(projectRoot, 'src', 'data', `priority-200-urls-batch${batchNum}.json`);
 if (!fs.existsSync(PRIORITY_FILE)) {
