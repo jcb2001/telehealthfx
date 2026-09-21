@@ -6,6 +6,62 @@ import { Icon } from './common.jsx';
 function BlogIndex() {
   const articles = [
     {
+      title: "Tirzepatide Reconstitution Calculator: Units to Mg Dosing",
+      description: "Calculate exact tirzepatide reconstitution units, bacteriostatic water ratios, and syringe marks. Or get sterile, pre-mixed compounded tirzepatide for $258/mo.",
+      slug: "/blog/tirzepatide-reconstitution-calculator/",
+      image: "/assets/tirzepatide-reconstitution-calc-featured.jpg",
+      tag: "Clinical Calculator"
+    },
+    {
+      title: "Telehealth FX vs Ro vs Hims: True GLP-1 Cost Comparison",
+      description: "Compare Telehealth FX vs Ro and Hims for GLP-1 weight loss. Compare hidden membership fees, dose escalation charges, and true out-of-pocket costs.",
+      slug: "/compare/telehealth-fx-vs-ro-hims-glp1-cost/",
+      image: "/assets/telehealthfx-vs-ro-hims-cost-featured.jpg",
+      tag: "Cost Comparison"
+    },
+    {
+      title: "Semaglutide vs Tirzepatide: Weight Loss & Switching Guide",
+      description: "Evidence-based comparison of semaglutide vs tirzepatide for weight loss. Compare clinical trial efficacy, side effect profiles, and cross-titration protocols.",
+      slug: "/blog/semaglutide-vs-tirzepatide-weight-loss-switching/",
+      image: "/assets/semaglutide-vs-tirzepatide-featured.jpg",
+      tag: "Molecule Comparison"
+    },
+    {
+      title: "Tirzepatide Dosage Chart: Titration Schedule & Units to Mg",
+      description: "Complete tirzepatide dosage chart from 2.5mg to 15mg. Master 4-week titration steps, units to mg conversion on insulin syringes, and injection safety.",
+      slug: "/blog/tirzepatide-dosage-chart-units-to-mg/",
+      image: "/assets/tirzepatide-dosage-chart-featured.jpg",
+      tag: "Dosing & Titration"
+    },
+    {
+      title: "Telehealth FX vs Mochi Health: True GLP-1 Cost Breakdown",
+      description: "Compare Telehealth FX vs Mochi Health for GLP-1 medications. Expose Mochi's $79/mo subscription fee and see how Telehealth FX saves you $1,311/year.",
+      slug: "/compare/telehealth-fx-vs-mochi-health-cost/",
+      image: "/assets/telehealthfx-vs-mochi-cost-featured.jpg",
+      tag: "Cost Comparison"
+    },
+    {
+      title: "Telehealth FX vs Henry Meds: Compounded GLP-1 Pricing Audit",
+      description: "Compare Telehealth FX vs Henry Meds for compounded GLP-1s. Avoid Henry Meds' $449/mo pricing trap and save $2,292/year with Telehealth FX's $258/mo flat rate.",
+      slug: "/compare/telehealth-fx-vs-henry-meds-cost/",
+      image: "/assets/telehealthfx-vs-henry-meds-featured.jpg",
+      tag: "Price Audit"
+    },
+    {
+      title: "Tirzepatide Side Effects Timeline: Relief & Management Guide",
+      description: "Week-by-week tirzepatide side effects timeline. Learn clinical protocols to prevent sulfur burps, nausea, and GI symptoms while maintaining fat loss.",
+      slug: "/blog/tirzepatide-side-effects-management-timeline/",
+      image: "/assets/tirzepatide-side-effects-relief-featured.jpg",
+      tag: "Clinical Protocol"
+    },
+    {
+      title: "Compounded Semaglutide vs Brand Ozempic: Safety & Cost Guide",
+      description: "Compare compounded semaglutide vs brand-name Ozempic. Learn 503A compounding pharmacy legality, FDA shortage rules, and save $10,000+ per year.",
+      slug: "/blog/compounded-semaglutide-vs-brand-name-ozempic-cost/",
+      image: "/assets/compounded-semaglutide-vs-ozempic-featured.jpg",
+      tag: "Brand vs Generic"
+    },
+    {
       title: "Transfer Wegovy Prescription Online: Telehealth GLP-1 Care",
       description: "Transfer your Wegovy or Zepbound prescription online to Telehealth FX. Enjoy reliable 503A mail order delivery, flat monthly rates, and no pharmacy backorders.",
       slug: "/blog/transfer-wegovy-zepbound-prescription-online/",

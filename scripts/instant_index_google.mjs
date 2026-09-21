@@ -18,7 +18,13 @@ const __dirname = path.dirname(__filename);
 const projectRoot = path.join(__dirname, '..');
 
 const KEY_FILE = path.join(projectRoot, 'service-account-telehealthfx.json');
-const PRIORITY_FILE = path.join(projectRoot, 'src', 'data', 'priority-200-urls.json');
+const batchArg = process.argv.find(a => a.startsWith('--batch='));
+const batchNum = batchArg ? batchArg.split('=')[1] : '3';
+
+let PRIORITY_FILE = path.join(projectRoot, 'src', 'data', `priority-200-urls-batch${batchNum}.json`);
+if (!fs.existsSync(PRIORITY_FILE)) {
+  PRIORITY_FILE = path.join(projectRoot, 'src', 'data', 'priority-200-urls.json');
+}
 const isDryRun = process.argv.includes('--dry-run');
 
 async function getAccessToken(keyData) {
@@ -88,12 +94,23 @@ async function main() {
   console.log(`📁 Project ID:      ${keyData.project_id}`);
 
   const urls = getUrlsToIndex();
-  console.log(`📌 Queued EXACTLY ${urls.length} URLs (100% of Google's daily 200 quota).`);
-  console.log(`   ├─ Tier 1: 13 Net-New Phase 2 Authority Articles + Blog Hub`);
-  console.log(`   ├─ Tier 2: 12 Phase 1 High-Intent Sales Articles`);
-  console.log(`   ├─ Tier 3: 100 Commercial Competitor Comparison & Price Magnets`);
-  console.log(`   ├─ Tier 4: 40 Core Conversion Funnels & High-Impression Guides`);
-  console.log(`   └─ Tier 5: 35 High-Commercial & TRT Metro Landing Pages`);
+  console.log(`📌 Queued EXACTLY ${urls.length} URLs (Batch ${batchNum} — 100% of Google's daily 200 quota).`);
+  if (batchNum === '3') {
+    console.log(`   ├─ Tier 1: 4 Core Authority Hubs, Operational Status & Assessment Funnel`);
+    console.log(`   ├─ Tier 2: 75 Metropolitan Care Centers (/locations/)`);
+    console.log(`   └─ Tier 3: 121 Clinical Protocols, Peptides, & Metabolic Blog Guides`);
+  } else if (batchNum === '2') {
+    console.log(`   ├─ Tier 1: 24 Core Commercial Lines, Medications & Trust Anchors`);
+    console.log(`   ├─ Tier 2: 16 Programmatic Weight-Loss & TRT Metro Hubs`);
+    console.log(`   ├─ Tier 3: 80 Top Metropolitan Local Care Centers (/locations/)`);
+    console.log(`   └─ Tier 4: 80 High-Impression Clinical & Comparison Blog Guides`);
+  } else {
+    console.log(`   ├─ Tier 1: 13 Net-New Phase 2 Authority Articles + Blog Hub`);
+    console.log(`   ├─ Tier 2: 12 Phase 1 High-Intent Sales Articles`);
+    console.log(`   ├─ Tier 3: 100 Commercial Competitor Comparison & Price Magnets`);
+    console.log(`   ├─ Tier 4: 40 Core Conversion Funnels & High-Impression Guides`);
+    console.log(`   └─ Tier 5: 35 High-Commercial & TRT Metro Landing Pages`);
+  }
 
   if (isDryRun) {
     console.log('\n[DRY RUN MODE] The 200 URLs prioritized for Google:');
@@ -143,6 +160,14 @@ async function main() {
         const errMsg = errJson?.error?.message || `HTTP ${res.status}`;
         console.error(`❌ ${indexStr} Failed: ${url} -> ${errMsg}`);
 
+        if (res.status === 429) {
+          console.warn(`⏳ Rate limit encountered on ${url}, backing off 5s...`);
+          failCount--; // do not count retry as failure
+          await sleep(5000);
+          i--; // retry this URL
+          continue;
+        }
+
         if (res.status === 403) {
           console.error('\n⚠️  403 FORBIDDEN PERMISSION ERROR:');
           console.error(`   Google Search Console does not recognize '${keyData.client_email}' as an OWNER.`);
@@ -157,7 +182,7 @@ async function main() {
     }
 
     if (i < urls.length - 1) {
-      await sleep(1200);
+      await sleep(700);
     }
   }
 
