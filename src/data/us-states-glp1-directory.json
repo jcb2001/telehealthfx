@@ -1,0 +1,1270 @@
+[
+  {
+    "name": "Alabama",
+    "slug": "alabama",
+    "abbrev": "AL",
+    "medicalBoard": "Alabama State Board of Medical Examiners",
+    "avgMedSpa": "\u2013/mo",
+    "transit": "2-day cold-chain express",
+    "cities": [
+      {
+        "slug": "birmingham",
+        "city": "Birmingham",
+        "state": "Alabama"
+      },
+      {
+        "slug": "dothan",
+        "city": "Dothan",
+        "state": "Alabama"
+      },
+      {
+        "slug": "huntsville",
+        "city": "Huntsville",
+        "state": "Alabama"
+      },
+      {
+        "slug": "mobile",
+        "city": "Mobile",
+        "state": "Alabama"
+      },
+      {
+        "slug": "montgomery",
+        "city": "Montgomery",
+        "state": "Alabama"
+      },
+      {
+        "slug": "tuscaloosa",
+        "city": "Tuscaloosa",
+        "state": "Alabama"
+      }
+    ]
+  },
+  {
+    "name": "Alaska",
+    "slug": "alaska",
+    "abbrev": "AK",
+    "medicalBoard": "Alaska State Medical Board",
+    "avgMedSpa": "\u2013/mo",
+    "transit": "Priority air cold-chain delivery",
+    "cities": [
+      {
+        "slug": "anchorage",
+        "city": "Anchorage",
+        "state": "Alaska"
+      }
+    ]
+  },
+  {
+    "name": "Arizona",
+    "slug": "arizona",
+    "abbrev": "AZ",
+    "medicalBoard": "Arizona Medical Board",
+    "avgMedSpa": "\u2013/mo",
+    "transit": "2-day cold-chain express",
+    "cities": [
+      {
+        "slug": "phoenix",
+        "city": "Phoenix",
+        "state": "Arizona"
+      },
+      {
+        "slug": "sierra-vista",
+        "city": "Sierra Vista",
+        "state": "Arizona"
+      },
+      {
+        "slug": "tucson",
+        "city": "Tucson",
+        "state": "Arizona"
+      },
+      {
+        "slug": "yuma",
+        "city": "Yuma",
+        "state": "Arizona"
+      }
+    ]
+  },
+  {
+    "name": "Arkansas",
+    "slug": "arkansas",
+    "abbrev": "AR",
+    "medicalBoard": "Arkansas State Medical Board",
+    "avgMedSpa": "\u2013/mo",
+    "transit": "2-day cold-chain express",
+    "cities": [
+      {
+        "slug": "little-rock",
+        "city": "Little Rock",
+        "state": "Arkansas"
+      }
+    ]
+  },
+  {
+    "name": "California",
+    "slug": "california",
+    "abbrev": "CA",
+    "medicalBoard": "Medical Board of California",
+    "avgMedSpa": "\u2013/mo",
+    "transit": "2-day cold-chain express",
+    "cities": [
+      {
+        "slug": "bakersfield",
+        "city": "Bakersfield",
+        "state": "California"
+      },
+      {
+        "slug": "fresno",
+        "city": "Fresno",
+        "state": "California"
+      },
+      {
+        "slug": "los-angeles",
+        "city": "Los Angeles",
+        "state": "California"
+      },
+      {
+        "slug": "modesto",
+        "city": "Modesto",
+        "state": "California"
+      },
+      {
+        "slug": "sacramento",
+        "city": "Sacramento",
+        "state": "California"
+      },
+      {
+        "slug": "san-bernardino",
+        "city": "San Bernardino",
+        "state": "California"
+      },
+      {
+        "slug": "san-diego",
+        "city": "San Diego",
+        "state": "California"
+      },
+      {
+        "slug": "san-francisco",
+        "city": "San Francisco",
+        "state": "California"
+      },
+      {
+        "slug": "san-jose",
+        "city": "San Jose",
+        "state": "California"
+      },
+      {
+        "slug": "stockton",
+        "city": "Stockton",
+        "state": "California"
+      }
+    ]
+  },
+  {
+    "name": "Colorado",
+    "slug": "colorado",
+    "abbrev": "CO",
+    "medicalBoard": "Colorado Medical Board",
+    "avgMedSpa": "\u2013/mo",
+    "transit": "2-day cold-chain express",
+    "cities": [
+      {
+        "slug": "colorado-springs",
+        "city": "Colorado Springs",
+        "state": "Colorado"
+      },
+      {
+        "slug": "denver",
+        "city": "Denver",
+        "state": "Colorado"
+      },
+      {
+        "slug": "pueblo",
+        "city": "Pueblo",
+        "state": "Colorado"
+      }
+    ]
+  },
+  {
+    "name": "Connecticut",
+    "slug": "connecticut",
+    "abbrev": "CT",
+    "medicalBoard": "Connecticut Medical Examining Board",
+    "avgMedSpa": "\u2013/mo",
+    "transit": "2-day cold-chain express",
+    "cities": []
+  },
+  {
+    "name": "Delaware",
+    "slug": "delaware",
+    "abbrev": "DE",
+    "medicalBoard": "Delaware Board of Medical Licensure and Discipline",
+    "avgMedSpa": "\u2013/mo",
+    "transit": "2-day cold-chain express",
+    "cities": []
+  },
+  {
+    "name": "Florida",
+    "slug": "florida",
+    "abbrev": "FL",
+    "medicalBoard": "Florida Board of Medicine",
+    "avgMedSpa": "\u2013/mo",
+    "transit": "2-day cold-chain express",
+    "cities": [
+      {
+        "slug": "jacksonville",
+        "city": "Jacksonville",
+        "state": "Florida"
+      },
+      {
+        "slug": "miami",
+        "city": "Miami",
+        "state": "Florida"
+      },
+      {
+        "slug": "orlando",
+        "city": "Orlando",
+        "state": "Florida"
+      },
+      {
+        "slug": "panama-city",
+        "city": "Panama City",
+        "state": "Florida"
+      },
+      {
+        "slug": "pensacola",
+        "city": "Pensacola",
+        "state": "Florida"
+      },
+      {
+        "slug": "st-petersburg",
+        "city": "St. Petersburg",
+        "state": "Florida"
+      },
+      {
+        "slug": "tallahassee",
+        "city": "Tallahassee",
+        "state": "Florida"
+      },
+      {
+        "slug": "tampa",
+        "city": "Tampa",
+        "state": "Florida"
+      }
+    ]
+  },
+  {
+    "name": "Georgia",
+    "slug": "georgia",
+    "abbrev": "GA",
+    "medicalBoard": "Georgia Composite Medical Board",
+    "avgMedSpa": "\u2013/mo",
+    "transit": "2-day cold-chain express",
+    "cities": [
+      {
+        "slug": "atlanta",
+        "city": "Atlanta",
+        "state": "Georgia"
+      },
+      {
+        "slug": "augusta",
+        "city": "Augusta",
+        "state": "Georgia"
+      },
+      {
+        "slug": "columbus-ga",
+        "city": "Columbus",
+        "state": "Georgia"
+      },
+      {
+        "slug": "hinesville",
+        "city": "Hinesville",
+        "state": "Georgia"
+      },
+      {
+        "slug": "macon",
+        "city": "Macon",
+        "state": "Georgia"
+      },
+      {
+        "slug": "savannah",
+        "city": "Savannah",
+        "state": "Georgia"
+      },
+      {
+        "slug": "valdosta",
+        "city": "Valdosta",
+        "state": "Georgia"
+      },
+      {
+        "slug": "warner-robins",
+        "city": "Warner Robins",
+        "state": "Georgia"
+      }
+    ]
+  },
+  {
+    "name": "Hawaii",
+    "slug": "hawaii",
+    "abbrev": "HI",
+    "medicalBoard": "Hawaii Medical Board",
+    "avgMedSpa": "\u2013/mo",
+    "transit": "Priority air cold-chain delivery",
+    "cities": [
+      {
+        "slug": "honolulu",
+        "city": "Honolulu",
+        "state": "Hawaii"
+      }
+    ]
+  },
+  {
+    "name": "Idaho",
+    "slug": "idaho",
+    "abbrev": "ID",
+    "medicalBoard": "Idaho State Board of Medicine",
+    "avgMedSpa": "\u2013/mo",
+    "transit": "2-day cold-chain express",
+    "cities": [
+      {
+        "slug": "boise",
+        "city": "Boise",
+        "state": "Idaho"
+      },
+      {
+        "slug": "twin-falls",
+        "city": "Twin Falls",
+        "state": "Idaho"
+      }
+    ]
+  },
+  {
+    "name": "Illinois",
+    "slug": "illinois",
+    "abbrev": "IL",
+    "medicalBoard": "Illinois State Medical Board",
+    "avgMedSpa": "\u2013/mo",
+    "transit": "2-day cold-chain express",
+    "cities": [
+      {
+        "slug": "chicago",
+        "city": "Chicago",
+        "state": "Illinois"
+      },
+      {
+        "slug": "peoria",
+        "city": "Peoria",
+        "state": "Illinois"
+      },
+      {
+        "slug": "rockford",
+        "city": "Rockford",
+        "state": "Illinois"
+      },
+      {
+        "slug": "springfield-il",
+        "city": "Springfield",
+        "state": "Illinois"
+      }
+    ]
+  },
+  {
+    "name": "Indiana",
+    "slug": "indiana",
+    "abbrev": "IN",
+    "medicalBoard": "Medical Licensing Board of Indiana",
+    "avgMedSpa": "\u2013/mo",
+    "transit": "2-day cold-chain express",
+    "cities": [
+      {
+        "slug": "fort-wayne",
+        "city": "Fort Wayne",
+        "state": "Indiana"
+      },
+      {
+        "slug": "indianapolis",
+        "city": "Indianapolis",
+        "state": "Indiana"
+      }
+    ]
+  },
+  {
+    "name": "Iowa",
+    "slug": "iowa",
+    "abbrev": "IA",
+    "medicalBoard": "Iowa Board of Medicine",
+    "avgMedSpa": "\u2013/mo",
+    "transit": "2-day cold-chain express",
+    "cities": [
+      {
+        "slug": "des-moines",
+        "city": "Des Moines",
+        "state": "Iowa"
+      }
+    ]
+  },
+  {
+    "name": "Kansas",
+    "slug": "kansas",
+    "abbrev": "KS",
+    "medicalBoard": "Kansas State Board of Healing Arts",
+    "avgMedSpa": "\u2013/mo",
+    "transit": "2-day cold-chain express",
+    "cities": [
+      {
+        "slug": "leavenworth",
+        "city": "Leavenworth",
+        "state": "Kansas"
+      },
+      {
+        "slug": "manhattan-ks",
+        "city": "Manhattan",
+        "state": "Kansas"
+      },
+      {
+        "slug": "topeka",
+        "city": "Topeka",
+        "state": "Kansas"
+      },
+      {
+        "slug": "wichita",
+        "city": "Wichita",
+        "state": "Kansas"
+      }
+    ]
+  },
+  {
+    "name": "Kentucky",
+    "slug": "kentucky",
+    "abbrev": "KY",
+    "medicalBoard": "Kentucky Board of Medical Licensure",
+    "avgMedSpa": "\u2013/mo",
+    "transit": "2-day cold-chain express",
+    "cities": [
+      {
+        "slug": "elizabethtown",
+        "city": "Elizabethtown",
+        "state": "Kentucky"
+      },
+      {
+        "slug": "lexington",
+        "city": "Lexington",
+        "state": "Kentucky"
+      },
+      {
+        "slug": "louisville",
+        "city": "Louisville",
+        "state": "Kentucky"
+      }
+    ]
+  },
+  {
+    "name": "Louisiana",
+    "slug": "louisiana",
+    "abbrev": "LA",
+    "medicalBoard": "Louisiana State Board of Medical Examiners",
+    "avgMedSpa": "\u2013/mo",
+    "transit": "2-day cold-chain express",
+    "cities": [
+      {
+        "slug": "baton-rouge",
+        "city": "Baton Rouge",
+        "state": "Louisiana"
+      },
+      {
+        "slug": "lake-charles",
+        "city": "Lake Charles",
+        "state": "Louisiana"
+      },
+      {
+        "slug": "new-orleans",
+        "city": "New Orleans",
+        "state": "Louisiana"
+      },
+      {
+        "slug": "shreveport",
+        "city": "Shreveport",
+        "state": "Louisiana"
+      }
+    ]
+  },
+  {
+    "name": "Maine",
+    "slug": "maine",
+    "abbrev": "ME",
+    "medicalBoard": "Maine Board of Licensure in Medicine",
+    "avgMedSpa": "\u2013/mo",
+    "transit": "2-day cold-chain express",
+    "cities": []
+  },
+  {
+    "name": "Maryland",
+    "slug": "maryland",
+    "abbrev": "MD",
+    "medicalBoard": "Maryland Board of Physicians",
+    "avgMedSpa": "\u2013/mo",
+    "transit": "2-day cold-chain express",
+    "cities": [
+      {
+        "slug": "baltimore",
+        "city": "Baltimore",
+        "state": "Maryland"
+      }
+    ]
+  },
+  {
+    "name": "Massachusetts",
+    "slug": "massachusetts",
+    "abbrev": "MA",
+    "medicalBoard": "Massachusetts Board of Registration in Medicine",
+    "avgMedSpa": "\u2013/mo",
+    "transit": "2-day cold-chain express",
+    "cities": [
+      {
+        "slug": "boston",
+        "city": "Boston",
+        "state": "Massachusetts"
+      },
+      {
+        "slug": "worcester",
+        "city": "Worcester",
+        "state": "Massachusetts"
+      }
+    ]
+  },
+  {
+    "name": "Michigan",
+    "slug": "michigan",
+    "abbrev": "MI",
+    "medicalBoard": "Michigan Board of Medicine",
+    "avgMedSpa": "\u2013/mo",
+    "transit": "2-day cold-chain express",
+    "cities": [
+      {
+        "slug": "detroit",
+        "city": "Detroit",
+        "state": "Michigan"
+      },
+      {
+        "slug": "flint",
+        "city": "Flint",
+        "state": "Michigan"
+      },
+      {
+        "slug": "grand-rapids",
+        "city": "Grand Rapids",
+        "state": "Michigan"
+      }
+    ]
+  },
+  {
+    "name": "Minnesota",
+    "slug": "minnesota",
+    "abbrev": "MN",
+    "medicalBoard": "Minnesota Board of Medical Practice",
+    "avgMedSpa": "\u2013/mo",
+    "transit": "2-day cold-chain express",
+    "cities": [
+      {
+        "slug": "duluth",
+        "city": "Duluth",
+        "state": "Minnesota"
+      },
+      {
+        "slug": "minneapolis",
+        "city": "Minneapolis",
+        "state": "Minnesota"
+      }
+    ]
+  },
+  {
+    "name": "Mississippi",
+    "slug": "mississippi",
+    "abbrev": "MS",
+    "medicalBoard": "Mississippi State Board of Medical Licensure",
+    "avgMedSpa": "\u2013/mo",
+    "transit": "2-day cold-chain express",
+    "cities": [
+      {
+        "slug": "biloxi",
+        "city": "Biloxi",
+        "state": "Mississippi"
+      },
+      {
+        "slug": "hattiesburg",
+        "city": "Hattiesburg",
+        "state": "Mississippi"
+      },
+      {
+        "slug": "jackson",
+        "city": "Jackson",
+        "state": "Mississippi"
+      },
+      {
+        "slug": "meridian",
+        "city": "Meridian",
+        "state": "Mississippi"
+      }
+    ]
+  },
+  {
+    "name": "Missouri",
+    "slug": "missouri",
+    "abbrev": "MO",
+    "medicalBoard": "Missouri Board of Registration for the Healing Arts",
+    "avgMedSpa": "\u2013/mo",
+    "transit": "2-day cold-chain express",
+    "cities": [
+      {
+        "slug": "kansas-city",
+        "city": "Kansas City",
+        "state": "Missouri"
+      },
+      {
+        "slug": "springfield",
+        "city": "Springfield",
+        "state": "Missouri"
+      },
+      {
+        "slug": "st-louis",
+        "city": "St. Louis",
+        "state": "Missouri"
+      }
+    ]
+  },
+  {
+    "name": "Montana",
+    "slug": "montana",
+    "abbrev": "MT",
+    "medicalBoard": "Montana Board of Medical Examiners",
+    "avgMedSpa": "\u2013/mo",
+    "transit": "2-day cold-chain express",
+    "cities": [
+      {
+        "slug": "billings",
+        "city": "Billings",
+        "state": "Montana"
+      }
+    ]
+  },
+  {
+    "name": "Nebraska",
+    "slug": "nebraska",
+    "abbrev": "NE",
+    "medicalBoard": "Nebraska Board of Medicine and Surgery",
+    "avgMedSpa": "\u2013/mo",
+    "transit": "2-day cold-chain express",
+    "cities": [
+      {
+        "slug": "lincoln",
+        "city": "Lincoln",
+        "state": "Nebraska"
+      },
+      {
+        "slug": "omaha",
+        "city": "Omaha",
+        "state": "Nebraska"
+      }
+    ]
+  },
+  {
+    "name": "Nevada",
+    "slug": "nevada",
+    "abbrev": "NV",
+    "medicalBoard": "Nevada State Board of Medical Examiners",
+    "avgMedSpa": "\u2013/mo",
+    "transit": "2-day cold-chain express",
+    "cities": [
+      {
+        "slug": "las-vegas",
+        "city": "Las Vegas",
+        "state": "Nevada"
+      },
+      {
+        "slug": "reno",
+        "city": "Reno",
+        "state": "Nevada"
+      }
+    ]
+  },
+  {
+    "name": "New Hampshire",
+    "slug": "new-hampshire",
+    "abbrev": "NH",
+    "medicalBoard": "New Hampshire Board of Medicine",
+    "avgMedSpa": "\u2013/mo",
+    "transit": "2-day cold-chain express",
+    "cities": []
+  },
+  {
+    "name": "New Jersey",
+    "slug": "new-jersey",
+    "abbrev": "NJ",
+    "medicalBoard": "New Jersey State Board of Medical Examiners",
+    "avgMedSpa": "\u2013/mo",
+    "transit": "2-day cold-chain express",
+    "cities": [
+      {
+        "slug": "newark",
+        "city": "Newark",
+        "state": "New Jersey"
+      }
+    ]
+  },
+  {
+    "name": "New Mexico",
+    "slug": "new-mexico",
+    "abbrev": "NM",
+    "medicalBoard": "New Mexico Medical Board",
+    "avgMedSpa": "\u2013/mo",
+    "transit": "2-day cold-chain express",
+    "cities": [
+      {
+        "slug": "albuquerque",
+        "city": "Albuquerque",
+        "state": "New Mexico"
+      },
+      {
+        "slug": "clovis",
+        "city": "Clovis",
+        "state": "New Mexico"
+      }
+    ]
+  },
+  {
+    "name": "New York",
+    "slug": "new-york",
+    "abbrev": "NY",
+    "medicalBoard": "New York State Board for Medicine",
+    "avgMedSpa": "\u2013/mo",
+    "transit": "2-day cold-chain express",
+    "cities": [
+      {
+        "slug": "buffalo",
+        "city": "Buffalo",
+        "state": "New York"
+      },
+      {
+        "slug": "new-york",
+        "city": "New York City",
+        "state": "New York"
+      },
+      {
+        "slug": "rochester",
+        "city": "Rochester",
+        "state": "New York"
+      },
+      {
+        "slug": "syracuse",
+        "city": "Syracuse",
+        "state": "New York"
+      },
+      {
+        "slug": "watertown",
+        "city": "Watertown",
+        "state": "New York"
+      }
+    ]
+  },
+  {
+    "name": "North Carolina",
+    "slug": "north-carolina",
+    "abbrev": "NC",
+    "medicalBoard": "North Carolina Medical Board",
+    "avgMedSpa": "\u2013/mo",
+    "transit": "2-day cold-chain express",
+    "cities": [
+      {
+        "slug": "charlotte",
+        "city": "Charlotte",
+        "state": "North Carolina"
+      },
+      {
+        "slug": "durham",
+        "city": "Durham",
+        "state": "North Carolina"
+      },
+      {
+        "slug": "fayetteville",
+        "city": "Fayetteville",
+        "state": "North Carolina"
+      },
+      {
+        "slug": "greensboro",
+        "city": "Greensboro",
+        "state": "North Carolina"
+      },
+      {
+        "slug": "raleigh",
+        "city": "Raleigh",
+        "state": "North Carolina"
+      },
+      {
+        "slug": "wilmington",
+        "city": "Wilmington",
+        "state": "North Carolina"
+      }
+    ]
+  },
+  {
+    "name": "North Dakota",
+    "slug": "north-dakota",
+    "abbrev": "ND",
+    "medicalBoard": "North Dakota Board of Medicine",
+    "avgMedSpa": "\u2013/mo",
+    "transit": "2-day cold-chain express",
+    "cities": [
+      {
+        "slug": "fargo",
+        "city": "Fargo",
+        "state": "North Dakota"
+      }
+    ]
+  },
+  {
+    "name": "Ohio",
+    "slug": "ohio",
+    "abbrev": "OH",
+    "medicalBoard": "State Medical Board of Ohio",
+    "avgMedSpa": "\u2013/mo",
+    "transit": "2-day cold-chain express",
+    "cities": [
+      {
+        "slug": "akron",
+        "city": "Akron",
+        "state": "Ohio"
+      },
+      {
+        "slug": "cincinnati",
+        "city": "Cincinnati",
+        "state": "Ohio"
+      },
+      {
+        "slug": "cleveland",
+        "city": "Cleveland",
+        "state": "Ohio"
+      },
+      {
+        "slug": "columbus",
+        "city": "Columbus",
+        "state": "Ohio"
+      },
+      {
+        "slug": "dayton",
+        "city": "Dayton",
+        "state": "Ohio"
+      }
+    ]
+  },
+  {
+    "name": "Oklahoma",
+    "slug": "oklahoma",
+    "abbrev": "OK",
+    "medicalBoard": "Oklahoma State Board of Medical Licensure",
+    "avgMedSpa": "\u2013/mo",
+    "transit": "2-day cold-chain express",
+    "cities": [
+      {
+        "slug": "lawton",
+        "city": "Lawton",
+        "state": "Oklahoma"
+      },
+      {
+        "slug": "oklahoma-city",
+        "city": "Oklahoma City",
+        "state": "Oklahoma"
+      },
+      {
+        "slug": "tulsa",
+        "city": "Tulsa",
+        "state": "Oklahoma"
+      }
+    ]
+  },
+  {
+    "name": "Oregon",
+    "slug": "oregon",
+    "abbrev": "OR",
+    "medicalBoard": "Oregon Medical Board",
+    "avgMedSpa": "\u2013/mo",
+    "transit": "2-day cold-chain express",
+    "cities": [
+      {
+        "slug": "portland",
+        "city": "Portland",
+        "state": "Oregon"
+      }
+    ]
+  },
+  {
+    "name": "Pennsylvania",
+    "slug": "pennsylvania",
+    "abbrev": "PA",
+    "medicalBoard": "Pennsylvania State Board of Medicine",
+    "avgMedSpa": "\u2013/mo",
+    "transit": "2-day cold-chain express",
+    "cities": [
+      {
+        "slug": "erie",
+        "city": "Erie",
+        "state": "Pennsylvania"
+      },
+      {
+        "slug": "philadelphia",
+        "city": "Philadelphia",
+        "state": "Pennsylvania"
+      },
+      {
+        "slug": "pittsburgh",
+        "city": "Pittsburgh",
+        "state": "Pennsylvania"
+      }
+    ]
+  },
+  {
+    "name": "Rhode Island",
+    "slug": "rhode-island",
+    "abbrev": "RI",
+    "medicalBoard": "Rhode Island Board of Medical Licensure and Discipline",
+    "avgMedSpa": "\u2013/mo",
+    "transit": "2-day cold-chain express",
+    "cities": [
+      {
+        "slug": "providence",
+        "city": "Providence",
+        "state": "Rhode Island"
+      }
+    ]
+  },
+  {
+    "name": "South Carolina",
+    "slug": "south-carolina",
+    "abbrev": "SC",
+    "medicalBoard": "South Carolina Board of Medical Examiners",
+    "avgMedSpa": "\u2013/mo",
+    "transit": "2-day cold-chain express",
+    "cities": [
+      {
+        "slug": "charleston",
+        "city": "Charleston",
+        "state": "South Carolina"
+      },
+      {
+        "slug": "columbia",
+        "city": "Columbia",
+        "state": "South Carolina"
+      }
+    ]
+  },
+  {
+    "name": "South Dakota",
+    "slug": "south-dakota",
+    "abbrev": "SD",
+    "medicalBoard": "South Dakota Board of Medical and Osteopathic Examiners",
+    "avgMedSpa": "\u2013/mo",
+    "transit": "2-day cold-chain express",
+    "cities": [
+      {
+        "slug": "rapid-city",
+        "city": "Rapid City",
+        "state": "South Dakota"
+      },
+      {
+        "slug": "sioux-falls",
+        "city": "Sioux Falls",
+        "state": "South Dakota"
+      }
+    ]
+  },
+  {
+    "name": "Tennessee",
+    "slug": "tennessee",
+    "abbrev": "TN",
+    "medicalBoard": "Tennessee Board of Medical Examiners",
+    "avgMedSpa": "\u2013/mo",
+    "transit": "2-day cold-chain express",
+    "cities": [
+      {
+        "slug": "chattanooga",
+        "city": "Chattanooga",
+        "state": "Tennessee"
+      },
+      {
+        "slug": "clarksville",
+        "city": "Clarksville",
+        "state": "Tennessee"
+      },
+      {
+        "slug": "knoxville",
+        "city": "Knoxville",
+        "state": "Tennessee"
+      },
+      {
+        "slug": "memphis",
+        "city": "Memphis",
+        "state": "Tennessee"
+      },
+      {
+        "slug": "nashville",
+        "city": "Nashville",
+        "state": "Tennessee"
+      }
+    ]
+  },
+  {
+    "name": "Texas",
+    "slug": "texas",
+    "abbrev": "TX",
+    "medicalBoard": "Texas Medical Board",
+    "avgMedSpa": "\u2013/mo",
+    "transit": "2-day cold-chain express",
+    "cities": [
+      {
+        "slug": "abilene",
+        "city": "Abilene",
+        "state": "Texas"
+      },
+      {
+        "slug": "amarillo",
+        "city": "Amarillo",
+        "state": "Texas"
+      },
+      {
+        "slug": "austin",
+        "city": "Austin",
+        "state": "Texas"
+      },
+      {
+        "slug": "beaumont",
+        "city": "Beaumont",
+        "state": "Texas"
+      },
+      {
+        "slug": "brownsville",
+        "city": "Brownsville",
+        "state": "Texas"
+      },
+      {
+        "slug": "college-station",
+        "city": "College Station",
+        "state": "Texas"
+      },
+      {
+        "slug": "corpus-christi",
+        "city": "Corpus Christi",
+        "state": "Texas"
+      },
+      {
+        "slug": "dallas",
+        "city": "Dallas",
+        "state": "Texas"
+      },
+      {
+        "slug": "el-paso",
+        "city": "El Paso",
+        "state": "Texas"
+      },
+      {
+        "slug": "fort-worth",
+        "city": "Fort Worth",
+        "state": "Texas"
+      },
+      {
+        "slug": "harlingen",
+        "city": "Harlingen",
+        "state": "Texas"
+      },
+      {
+        "slug": "houston",
+        "city": "Houston",
+        "state": "Texas"
+      },
+      {
+        "slug": "killeen",
+        "city": "Killeen",
+        "state": "Texas"
+      },
+      {
+        "slug": "laredo",
+        "city": "Laredo",
+        "state": "Texas"
+      },
+      {
+        "slug": "longview",
+        "city": "Longview",
+        "state": "Texas"
+      },
+      {
+        "slug": "lubbock",
+        "city": "Lubbock",
+        "state": "Texas"
+      },
+      {
+        "slug": "lufkin",
+        "city": "Lufkin",
+        "state": "Texas"
+      },
+      {
+        "slug": "mcallen",
+        "city": "McAllen",
+        "state": "Texas"
+      },
+      {
+        "slug": "midland",
+        "city": "Midland",
+        "state": "Texas"
+      },
+      {
+        "slug": "odessa",
+        "city": "Odessa",
+        "state": "Texas"
+      },
+      {
+        "slug": "san-angelo",
+        "city": "San Angelo",
+        "state": "Texas"
+      },
+      {
+        "slug": "san-antonio",
+        "city": "San Antonio",
+        "state": "Texas"
+      },
+      {
+        "slug": "temple",
+        "city": "Temple",
+        "state": "Texas"
+      },
+      {
+        "slug": "texarkana",
+        "city": "Texarkana",
+        "state": "Texas"
+      },
+      {
+        "slug": "tyler",
+        "city": "Tyler",
+        "state": "Texas"
+      },
+      {
+        "slug": "waco",
+        "city": "Waco",
+        "state": "Texas"
+      },
+      {
+        "slug": "wichita-falls",
+        "city": "Wichita Falls",
+        "state": "Texas"
+      }
+    ]
+  },
+  {
+    "name": "Utah",
+    "slug": "utah",
+    "abbrev": "UT",
+    "medicalBoard": "Utah Physicians Licensing Board",
+    "avgMedSpa": "\u2013/mo",
+    "transit": "2-day cold-chain express",
+    "cities": [
+      {
+        "slug": "salt-lake-city",
+        "city": "Salt Lake City",
+        "state": "Utah"
+      }
+    ]
+  },
+  {
+    "name": "Vermont",
+    "slug": "vermont",
+    "abbrev": "VT",
+    "medicalBoard": "Vermont Board of Medical Practice",
+    "avgMedSpa": "\u2013/mo",
+    "transit": "2-day cold-chain express",
+    "cities": []
+  },
+  {
+    "name": "Virginia",
+    "slug": "virginia",
+    "abbrev": "VA",
+    "medicalBoard": "Virginia Board of Medicine",
+    "avgMedSpa": "\u2013/mo",
+    "transit": "2-day cold-chain express",
+    "cities": [
+      {
+        "slug": "norfolk",
+        "city": "Norfolk",
+        "state": "Virginia"
+      },
+      {
+        "slug": "richmond",
+        "city": "Richmond",
+        "state": "Virginia"
+      },
+      {
+        "slug": "virginia-beach",
+        "city": "Virginia Beach",
+        "state": "Virginia"
+      }
+    ]
+  },
+  {
+    "name": "Washington",
+    "slug": "washington",
+    "abbrev": "WA",
+    "medicalBoard": "Washington Medical Commission",
+    "avgMedSpa": "\u2013/mo",
+    "transit": "2-day cold-chain express",
+    "cities": [
+      {
+        "slug": "seattle",
+        "city": "Seattle",
+        "state": "Washington"
+      },
+      {
+        "slug": "spokane",
+        "city": "Spokane",
+        "state": "Washington"
+      },
+      {
+        "slug": "tacoma",
+        "city": "Tacoma",
+        "state": "Washington"
+      }
+    ]
+  },
+  {
+    "name": "West Virginia",
+    "slug": "west-virginia",
+    "abbrev": "WV",
+    "medicalBoard": "West Virginia Board of Medicine",
+    "avgMedSpa": "\u2013/mo",
+    "transit": "2-day cold-chain express",
+    "cities": []
+  },
+  {
+    "name": "Wisconsin",
+    "slug": "wisconsin",
+    "abbrev": "WI",
+    "medicalBoard": "Wisconsin Medical Examining Board",
+    "avgMedSpa": "\u2013/mo",
+    "transit": "2-day cold-chain express",
+    "cities": [
+      {
+        "slug": "madison",
+        "city": "Madison",
+        "state": "Wisconsin"
+      },
+      {
+        "slug": "milwaukee",
+        "city": "Milwaukee",
+        "state": "Wisconsin"
+      }
+    ]
+  },
+  {
+    "name": "Wyoming",
+    "slug": "wyoming",
+    "abbrev": "WY",
+    "medicalBoard": "Wyoming Board of Medicine",
+    "avgMedSpa": "\u2013/mo",
+    "transit": "2-day cold-chain express",
+    "cities": []
+  }
+]

@@ -6,6 +6,34 @@ import { Icon } from './common.jsx';
 function BlogIndex() {
   const articles = [
     {
+      title: "Get Tirzepatide Online: Prescription & Dosing Guide",
+      description: "How to get a tirzepatide prescription online safely. Access 503A compounding pharmacy delivery from $99 first month, $0 consult fees, and no memberships.",
+      slug: "/blog/get-tirzepatide-online-prescription-guide/",
+      image: "/assets/get-tirzepatide-online-featured.jpg",
+      tag: "Online Prescription"
+    },
+    {
+      title: "Cheapest Semaglutide Online: Best Cash-Pay Prices",
+      description: "Find the cheapest semaglutide online. Compare cash-pay prices, expose hidden memberships, and save $1,200/mo with $99 promo and flat $146/mo direct rates.",
+      slug: "/blog/cheapest-semaglutide-online-cash-price-guide/",
+      image: "/assets/cheapest-semaglutide-guide-featured.jpg",
+      tag: "Best Cash Price"
+    },
+    {
+      title: "Oral Semaglutide vs Injections: Dosing & Results Guide",
+      description: "Compare oral semaglutide pills vs subcutaneous injections. Analyze bioabsorption rates, clinical weight loss outcomes, and transparent $99/mo direct pricing.",
+      slug: "/blog/oral-semaglutide-pills-vs-injections-weight-loss/",
+      image: "/assets/oral-vs-injectable-semaglutide-featured.jpg",
+      tag: "Pills vs Injections"
+    },
+    {
+      title: "GLP-1 for Men: Stop Muscle Loss with Dual TRT Therapy",
+      description: "Complete guide to GLP-1 weight loss for men. Discover how combining semaglutide or tirzepatide with TRT preserves lean muscle and boosts fat loss outcomes.",
+      slug: "/blog/glp1-weight-loss-for-men-muscle-preservation-trt/",
+      image: "/assets/glp1-men-trt-preservation-featured.jpg",
+      tag: "Men's Health & TRT"
+    },
+    {
       title: "Tirzepatide Reconstitution Calculator: Units to Mg Dosing",
       description: "Calculate exact tirzepatide reconstitution units, bacteriostatic water ratios, and syringe marks. Or get sterile, pre-mixed compounded tirzepatide for $258/mo.",
       slug: "/blog/tirzepatide-reconstitution-calculator/",
