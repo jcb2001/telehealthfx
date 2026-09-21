@@ -161,6 +161,11 @@ async function main() {
         console.error(`❌ ${indexStr} Failed: ${url} -> ${errMsg}`);
 
         if (res.status === 429) {
+          if (errMsg.includes('Publish requests per day') || errMsg.includes('Quota exceeded')) {
+            console.warn(`🛑 Google Daily Quota (200 requests/day) is exhausted for today.`);
+            console.warn(`   Google will reset the quota at midnight PST. The remaining URLs will be crawled via sitemap.xml.`);
+            break;
+          }
           console.warn(`⏳ Rate limit encountered on ${url}, backing off 5s...`);
           failCount--; // do not count retry as failure
           await sleep(5000);
