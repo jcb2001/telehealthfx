@@ -53,7 +53,7 @@ function SermorelinPage() {
         ],
         "offers": {
           "@type": "Offer",
-          "price": "199.00",
+          "price": "99.00",
           "priceCurrency": "USD",
           "availability": "https://schema.org/InStock",
           "validFrom": "2026-01-01",
@@ -74,7 +74,7 @@ function SermorelinPage() {
             <span style={{ width: 6, height: 6, borderRadius: '50%', background: 'var(--accent)' }}/> Recovery & Anti-Aging
           </div>
           <h1 className="serif" style={{ fontSize: 72, marginBottom: 28, lineHeight: 0.95 }}>
-            Sermorelin<br/><span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>from $199/mo.</span>
+            Sermorelin<br/><span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>flat $99/mo.</span>
           </h1>
           <p style={{ fontSize: 20, color: 'var(--ink-2)', maxWidth: 600, margin: '0 auto 40px', lineHeight: 1.6 }}>
             Clinician-prescribed peptide therapy to support natural growth hormone production, deep sleep, muscle recovery, and anti-aging. A safer, legal alternative to synthetic HGH.
@@ -102,7 +102,7 @@ function SermorelinPage() {
 
           <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
             <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Restore Your Natural Growth Hormone</h3>
-            <p style={{ marginBottom: 24, fontSize: 16 }}>Sermorelin from $199/mo. Works with your body's natural GH production — not against it.</p>
+            <p style={{ marginBottom: 24, fontSize: 16 }}>Sermorelin flat $99/mo. Works with your body's natural GH production — not against it.</p>
             <a href={CTA_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>
               Start Your Assessment <Icon.Arrow />
             </a>
@@ -125,7 +125,7 @@ function SermorelinPage() {
                   ['Pituitary Health', 'Supports natural function', 'Suppresses natural production'],
                   ['Side Effect Risk', 'Low — works within feedback loops', 'Higher — joint pain, edema, insulin resistance'],
                   ['Legal Status', 'Legal with prescription', 'Heavily restricted; often illegal'],
-                  ['Cost', 'From $199/mo', '$1,000–3,000+/mo'],
+                  ['Cost', 'Flat $99/mo', '$1,000–3,000+/mo'],
                 ].map(([factor, serm, hgh], i) => (
                   <tr key={i} style={{ borderBottom: '1px solid var(--line-soft)', background: i % 2 ? 'transparent' : '#FAFAFA' }}>
                     <td style={{ padding: '16px', fontWeight: 500 }}>{factor}</td>
@@ -186,7 +186,7 @@ function SermorelinPage() {
           <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
             <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Start Your Sermorelin Protocol</h2>
             <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 500, margin: '0 auto 32px' }}>
-              From $199/mo. Restore natural growth hormone production. Better sleep. Faster recovery. Sustainable vitality.
+              Flat $99/mo. Restore natural growth hormone production. Better sleep. Faster recovery. Sustainable vitality.
             </p>
             <a href={CTA_URL} target="_blank" rel="noopener noreferrer" className="btn btn-lg" style={{ background: '#FBF8F3', color: 'var(--ink)', display: 'inline-flex', justifyContent: 'center', width: '100%', maxWidth: 300 }}>
               See If You Qualify <Icon.Arrow />

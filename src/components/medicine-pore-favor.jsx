@@ -59,7 +59,7 @@ function PoreFavorPage() {
         ],
         "offers": {
           "@type": "Offer",
-          "price": "69.00",
+          "price": "42.00",
           "priceCurrency": "USD",
           "availability": "https://schema.org/InStock",
           "validFrom": "2026-01-01",
@@ -81,7 +81,7 @@ function PoreFavorPage() {
             <span className="pill-dot" /> Clinical Pore Refinement
           </div>
           <h1 className="serif" style={{ fontSize: 72, marginBottom: 28, lineHeight: 0.95 }}>
-            Pore Favor<br/>Pore Minimizer<br/><span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>from $69/mo.</span>
+            Pore Favor<br/>Pore Minimizer<br/><span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>from $42/mo.</span>
           </h1>
           <p style={{ fontSize: 20, color: 'var(--ink-2)', maxWidth: 620, margin: '0 auto 40px', lineHeight: 1.6 }}>
             Prescription-strength pore refining and sebum balancing therapy. Decongests follicular pores, curbs daytime shine, and re-establishes smooth, glass-like dermal texture.

@@ -53,7 +53,7 @@ function NadPage() {
         ],
         "offers": {
           "@type": "Offer",
-          "price": "199.00",
+          "price": "99.00",
           "priceCurrency": "USD",
           "availability": "https://schema.org/InStock",
           "validFrom": "2026-01-01",
@@ -74,7 +74,7 @@ function NadPage() {
             <span className="pill-dot" /> Cellular Energy
           </div>
           <h1 className="serif" style={{ fontSize: 72, marginBottom: 28, lineHeight: 0.95 }}>
-            NAD+ Therapy<br/><span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>from $199/mo.</span>
+            NAD+ Therapy<br/><span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>from $99/mo.</span>
           </h1>
           <p style={{ fontSize: 20, color: 'var(--ink-2)', maxWidth: 600, margin: '0 auto 40px', lineHeight: 1.6 }}>
             Clinician-prescribed NAD+ therapy to support cellular energy, cognitive clarity, metabolic function, and healthy aging. Compounded by licensed US pharmacies.
@@ -102,7 +102,7 @@ function NadPage() {
 
           <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
             <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Restore Your Cellular Energy</h3>
-            <p style={{ marginBottom: 24, fontSize: 16 }}>Clinician-prescribed NAD+ therapy from $199/mo. Licensed US pharmacies. 2-day UPS shipping.</p>
+            <p style={{ marginBottom: 24, fontSize: 16 }}>Clinician-prescribed NAD+ therapy from $99/mo. Licensed US pharmacies. 2-day UPS shipping.</p>
             <a href={CTA_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>
               Start Your Assessment <Icon.Arrow />
             </a>
@@ -187,7 +187,7 @@ function NadPage() {
           <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
             <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Start Your NAD+ Protocol</h2>
             <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 500, margin: '0 auto 32px' }}>
-              From $199/mo. Clinician-prescribed cellular energy therapy. Licensed US pharmacies. 2-day shipping.
+              From $99/mo. Clinician-prescribed cellular energy therapy. Licensed US pharmacies. 2-day shipping.
             </p>
             <a href={CTA_URL} target="_blank" rel="noopener noreferrer" className="btn btn-lg" style={{ background: '#FBF8F3', color: 'var(--ink)', display: 'inline-flex', justifyContent: 'center', width: '100%', maxWidth: 300 }}>
               See If You Qualify <Icon.Arrow />

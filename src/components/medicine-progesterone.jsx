@@ -60,7 +60,7 @@ function ProgesteronePage() {
         ],
         "offers": {
           "@type": "Offer",
-          "price": "79.00",
+          "price": "64.99",
           "priceCurrency": "USD",
           "availability": "https://schema.org/InStock",
           "validFrom": "2026-01-01",
@@ -82,7 +82,7 @@ function ProgesteronePage() {
             <span className="pill-dot" /> Restorative Sleep &amp; Hormonal Balance
           </div>
           <h1 className="serif" style={{ fontSize: 72, marginBottom: 28, lineHeight: 0.95 }}>
-            Oral Micronized<br/>Progesterone<br/><span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>from $79/mo.</span>
+            Oral Micronized<br/>Progesterone<br/><span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>from $64.99/mo.</span>
           </h1>
           <p style={{ fontSize: 20, color: 'var(--ink-2)', maxWidth: 620, margin: '0 auto 40px', lineHeight: 1.6 }}>
             Bioidentical micronized oral progesterone prescribed online. Supports natural sleep architecture, reduces nocturnal awakenings, calms perimenopausal anxiety, and protects uterine health.

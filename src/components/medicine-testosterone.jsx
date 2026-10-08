@@ -51,7 +51,7 @@ function TestosteronePage() {
         "@type": "MedicalWebPage",
         "@id": "https://telehealthfx.com/medications/testosterone/#webpage",
         "name": "Testosterone Therapy (TRT) Program | Telehealth FX",
-        "description": "Get prescribed Testosterone Replacement Therapy (TRT) online — injectable, oral, or topical. From $79/mo with licensed clinicians, free discreet shipping, and a price match guarantee.",
+        "description": "Get prescribed Testosterone Replacement Therapy (TRT) online — injectable, oral, or topical. From $93/mo with licensed clinicians, free discreet shipping, and a price match guarantee.",
         "url": "https://telehealthfx.com/medications/testosterone/",
         "lastReviewed": "2026-05-12",
         "medicalAudience": {
@@ -143,7 +143,7 @@ function TestosteronePage() {
         ],
         "offers": {
           "@type": "Offer",
-          "price": "79.00",
+          "price": "93.00",
           "priceCurrency": "USD",
           "availability": "https://schema.org/InStock",
           "validFrom": "2026-01-01",
@@ -219,7 +219,7 @@ function TestosteronePage() {
             <span className="pill-dot" /> Men's Hormone Optimization
           </div>
           <h1 className="serif" style={{ fontSize: 72, marginBottom: 28, lineHeight: 0.95 }}>
-            Testosterone<br/>Therapy<br/><span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>from $79/mo.</span>
+            Testosterone<br/>Therapy<br/><span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>from $93/mo.</span>
           </h1>
           <p style={{ fontSize: 20, color: 'var(--ink-2)', maxWidth: 620, margin: '0 auto 40px', lineHeight: 1.6 }}>
             Personalized TRT prescribed by licensed clinicians and delivered to your door. Injectable, oral, and topical options — no waiting rooms, no guesswork.
@@ -241,7 +241,7 @@ function TestosteronePage() {
         {/* Trust Strip */}
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 24, marginBottom: 80 }}>
           {[
-            { num: '$79', label: 'Starting Price/mo' },
+            { num: '$93', label: 'Starting Price/mo' },
             { num: '100%', label: 'Online Care' },
             { num: 'Free', label: 'Discreet Shipping' },
           ].map((s, i) => (
@@ -337,9 +337,9 @@ function TestosteronePage() {
           <p>All plans include licensed clinician oversight, medication, and free discreet shipping. No hidden fees.</p>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 20, margin: '32px 0' }}>
             {[
-              { plan: 'Annual', price: '$79', period: '/mo', note: 'Best Value — save over 40%', highlight: true },
-              { plan: '6-Month', price: '$109', period: '/mo', note: 'Most Popular', highlight: false },
-              { plan: 'Monthly', price: '$139', period: '/mo', note: 'No commitment', highlight: false },
+              { plan: 'Annual', price: '$93', period: '/mo', note: 'Best Value — $93/mo billed annually', highlight: true },
+              { plan: 'Quarterly', price: '$96', period: '/mo', note: 'Popular option', highlight: false },
+              { plan: 'Monthly', price: '$99', period: '/mo', note: 'Standard month-to-month', highlight: false },
             ].map((p, i) => (
               <div key={i} className="card" style={{
                 padding: 32,
@@ -467,7 +467,7 @@ function TestosteronePage() {
           <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
             <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Start Your TRT Program</h2>
             <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 500, margin: '0 auto 32px' }}>
-              From $79/mo. Licensed clinicians. Free shipping. No hidden fees. Price match guarantee.
+              From $93/mo. Licensed clinicians. Free shipping. No hidden fees. Price match guarantee.
             </p>
             <a href={CTA_URL} target="_blank" rel="noopener noreferrer" className="btn btn-lg" style={{ background: '#FBF8F3', color: 'var(--ink)', display: 'inline-flex', justifyContent: 'center', width: '100%', maxWidth: 300 }}>
               Learn More <Icon.Arrow />

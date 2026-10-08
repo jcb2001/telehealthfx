@@ -59,7 +59,7 @@ function SpotOnPage() {
         ],
         "offers": {
           "@type": "Offer",
-          "price": "69.00",
+          "price": "54.99",
           "priceCurrency": "USD",
           "availability": "https://schema.org/InStock",
           "validFrom": "2026-01-01",
@@ -81,7 +81,7 @@ function SpotOnPage() {
             <span className="pill-dot" /> Prescription Pigment Correction
           </div>
           <h1 className="serif" style={{ fontSize: 72, marginBottom: 28, lineHeight: 0.95 }}>
-            Spot On<br/>Dark Spot Eraser<br/><span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>from $69/mo.</span>
+            Spot On<br/>Dark Spot Eraser<br/><span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>from $54.99/mo.</span>
           </h1>
           <p style={{ fontSize: 20, color: 'var(--ink-2)', maxWidth: 620, margin: '0 auto 40px', lineHeight: 1.6 }}>
             Prescription-strength targeted hyperpigmentation therapy. Formulated with clinical tyrosinase inhibitors to dissolve stubborn melasma, sun damage, and age spots at the cellular melanocyte level.

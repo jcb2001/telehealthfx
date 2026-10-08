@@ -58,7 +58,7 @@ function AnnouncementBar() {
         }
       `}</style>
       <a
-        href="/medications/semaglutide/"
+        href="https://go.telehealthfx.com/coreage-glp1"
         className="announcement-bar"
         style={{
           display: 'block',

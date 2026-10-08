@@ -53,7 +53,7 @@ function EDPage() {
         "@type": "MedicalWebPage",
         "@id": "https://telehealthfx.com/medications/ed/#webpage",
         "name": "Erectile Dysfunction Treatment Online | Telehealth FX",
-        "description": "Discreet, affordable erectile dysfunction treatment prescribed online by licensed clinicians. Sildenafil, Tadalafil, and custom compounded options shipped free to your door.",
+        "description": "Discreet, affordable erectile dysfunction treatment prescribed online by licensed clinicians. 4Play custom compounds from $18/dose shipped free to your door.",
         "url": "https://telehealthfx.com/medications/ed/",
         "lastReviewed": "2026-05-12",
         "medicalAudience": {
@@ -160,7 +160,7 @@ function EDPage() {
         ],
         "offers": {
           "@type": "Offer",
-          "price": "19.00",
+          "price": "18.00",
           "priceCurrency": "USD",
           "availability": "https://schema.org/InStock",
           "validFrom": "2026-01-01",
@@ -236,10 +236,10 @@ function EDPage() {
             <span className="pill-dot" /> Sexual Wellness
           </div>
           <h1 className="serif" style={{ fontSize: 72, marginBottom: 28, lineHeight: 0.95 }}>
-            Erectile Dysfunction<br/><span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>Treatment Online</span>
+            Erectile Dysfunction<br/><span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>from $18/dose</span>
           </h1>
           <p style={{ fontSize: 20, color: 'var(--ink-2)', maxWidth: 620, margin: '0 auto 40px', lineHeight: 1.6 }}>
-            Discreet, affordable ED medication prescribed by licensed clinicians. Sildenafil, Tadalafil, and custom compounded formulas — shipped free in plain packaging.
+            Discreet, affordable ED medication prescribed by licensed clinicians. 4Play custom compounds (Tadalafil + Sildenafil + Apomorphine) from $18/dose — shipped free in plain packaging.
           </p>
           <a href={CTA_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex' }}>
             Learn More <Icon.Arrow />
@@ -313,7 +313,7 @@ function EDPage() {
                 {[
                   ['Sildenafil (Viagra)', 'Sildenafil Citrate', '4–6 hours', 'As-needed use; fast onset'],
                   ['Tadalafil (Cialis)', 'Tadalafil', 'Up to 36 hours', '"Weekend pill"; daily low-dose option'],
-                  ['Custom Compound', 'PT-141 + Oxytocin + PDE5i', 'Varies', 'Enhances arousal, bonding, and erection'],
+                  ['4Play Custom Compound', 'Tadalafil + Sildenafil + Apomorphine', '30–60 min onset / 36 hr', 'From $18/dose · Quad-action fast sublingual troche'],
                 ].map(([med, active, duration, best], i) => (
                   <tr key={i} style={{ borderBottom: '1px solid var(--line-soft)', background: i % 2 ? 'transparent' : '#FAFAFA' }}>
                     <td style={{ padding: '16px', fontWeight: 500 }}>{med}</td>
@@ -436,7 +436,7 @@ function EDPage() {
           <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
             <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Take the First Step</h2>
             <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 500, margin: '0 auto 32px' }}>
-              Discreet, affordable ED treatment. Licensed clinicians. Free shipping in plain packaging. Your confidence, restored.
+              From $18/dose. Discreet 4Play custom compounds. Licensed clinicians. Free shipping in plain packaging. Your confidence, restored.
             </p>
             <a href={CTA_URL} target="_blank" rel="noopener noreferrer" className="btn btn-lg" style={{ background: '#FBF8F3', color: 'var(--ink)', display: 'inline-flex', justifyContent: 'center', width: '100%', maxWidth: 300 }}>
               Learn More <Icon.Arrow />

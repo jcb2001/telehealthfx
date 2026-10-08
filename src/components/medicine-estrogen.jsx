@@ -60,7 +60,7 @@ function EstrogenPage() {
         ],
         "offers": {
           "@type": "Offer",
-          "price": "89.00",
+          "price": "42.00",
           "priceCurrency": "USD",
           "availability": "https://schema.org/InStock",
           "validFrom": "2026-01-01",
@@ -82,7 +82,7 @@ function EstrogenPage() {
             <span className="pill-dot" /> Women's Hormone Optimization
           </div>
           <h1 className="serif" style={{ fontSize: 72, marginBottom: 28, lineHeight: 0.95 }}>
-            Bioidentical<br/>Estrogen Therapy<br/><span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>from $89/mo.</span>
+            Bioidentical<br/>Estrogen Therapy<br/><span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>from $42/mo.</span>
           </h1>
           <p style={{ fontSize: 20, color: 'var(--ink-2)', maxWidth: 620, margin: '0 auto 40px', lineHeight: 1.6 }}>
             Doctor-prescribed bioidentical estradiol to relieve hot flashes, night sweats, fatigue, and brain fog while supporting long-term bone and heart health.

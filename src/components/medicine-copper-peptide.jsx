@@ -60,7 +60,7 @@ function CopperPeptidePage() {
         ],
         "offers": {
           "@type": "Offer",
-          "price": "69.00",
+          "price": "64.99",
           "priceCurrency": "USD",
           "availability": "https://schema.org/InStock",
           "validFrom": "2026-01-01",
@@ -82,7 +82,7 @@ function CopperPeptidePage() {
             <span className="pill-dot" /> Clinical Peptide Dermatology
           </div>
           <h1 className="serif" style={{ fontSize: 72, marginBottom: 28, lineHeight: 0.95 }}>
-            Bounce Back<br/>Copper Peptide<br/><span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>from $69/mo.</span>
+            Bounce Back<br/>Copper Peptide<br/><span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>from $64.99/mo.</span>
           </h1>
           <p style={{ fontSize: 20, color: 'var(--ink-2)', maxWidth: 620, margin: '0 auto 40px', lineHeight: 1.6 }}>
             Prescription-strength GHK-Cu copper tripeptide serum. Supercharges collagen and elastin remodeling, restores skin firmness, and reverses micro-wrinkles without irritation.

@@ -59,7 +59,7 @@ function TimeOutPage() {
         ],
         "offers": {
           "@type": "Offer",
-          "price": "69.00",
+          "price": "48.00",
           "priceCurrency": "USD",
           "availability": "https://schema.org/InStock",
           "validFrom": "2026-01-01",
@@ -81,7 +81,7 @@ function TimeOutPage() {
             <span className="pill-dot" /> Advanced Biomimetic Peptides
           </div>
           <h1 className="serif" style={{ fontSize: 72, marginBottom: 28, lineHeight: 0.95 }}>
-            Time Out<br/>Peptide Firming Serum<br/><span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>from $69/mo.</span>
+            Time Out<br/>Peptide Firming Serum<br/><span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>from $48/mo.</span>
           </h1>
           <p style={{ fontSize: 20, color: 'var(--ink-2)', maxWidth: 620, margin: '0 auto 40px', lineHeight: 1.6 }}>
             Topical expression-line relaxing peptide technology. Formulated to calm repetitive facial tension, lift contour sagging, and restore youthful elasticity without injections.

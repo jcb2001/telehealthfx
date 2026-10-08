@@ -60,7 +60,7 @@ function ThyroidPage() {
         ],
         "offers": {
           "@type": "Offer",
-          "price": "99.00",
+          "price": "42.00",
           "priceCurrency": "USD",
           "availability": "https://schema.org/InStock",
           "validFrom": "2026-01-01",
@@ -82,7 +82,7 @@ function ThyroidPage() {
             <span className="pill-dot" /> Metabolic Health &amp; Energy
           </div>
           <h1 className="serif" style={{ fontSize: 72, marginBottom: 28, lineHeight: 0.95 }}>
-            Thyroid<br/>Optimization<br/><span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>from $99/mo.</span>
+            Thyroid<br/>Optimization<br/><span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>from $42/mo.</span>
           </h1>
           <p style={{ fontSize: 20, color: 'var(--ink-2)', maxWidth: 620, margin: '0 auto 40px', lineHeight: 1.6 }}>
             Clinician-prescribed thyroid hormone therapy (customized T3/T4 protocols) to reignite your metabolic engine, clear persistent brain fog, and restore natural daily energy.
