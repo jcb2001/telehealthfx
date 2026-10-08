@@ -3,7 +3,7 @@ import React from 'react';
 import { Icon } from './common.jsx';
 import { PatientReviewsSection } from './patient-reviews-section.jsx';
 
-const CTA_URL = "https://go.telehealthfx.com/start?url_id=11875";
+const CTA_URL = "https://go.telehealthfx.com/coreage-tirzepatide";
 
 function TirzepatidePage() {
   const schema = {
@@ -13,7 +13,7 @@ function TirzepatidePage() {
         "@type": "MedicalWebPage",
         "@id": "https://telehealthfx.com/medications/tirzepatide/#webpage",
         "name": "Tirzepatide Weight Loss Program | Telehealth FX",
-        "description": "Dual GIP and GLP-1 receptor agonist therapy for superior metabolic weight management. Introductory promo from $99 first month with Affirm financing. 24-hour approval and cold-chain overnight shipping.",
+        "description": "Dual GIP and GLP-1 receptor agonist therapy for superior metabolic weight management. Flat rate $129/month across all doses. 24-hour approval and cold-chain overnight shipping.",
         "url": "https://telehealthfx.com/medications/tirzepatide/",
         "about": {
           "@type": "Substance",
@@ -30,7 +30,7 @@ function TirzepatidePage() {
         "@id": "https://telehealthfx.com/medications/tirzepatide/#product",
         "name": "Compounded Tirzepatide Program",
         "brand": { "@type": "Brand", "name": "Telehealth FX" },
-        "description": "Dual GIP/GLP-1 receptor agonist program including clinician consults and compounded Tirzepatide medication for enhanced weight loss. Introductory promo starts at $99 for the first month with Affirm financing.",
+        "description": "Dual GIP/GLP-1 receptor agonist program including clinician consults and compounded Tirzepatide medication for enhanced weight loss. Flat rate $129/month on every dose.",
         "image": "https://telehealthfx.com/assets/Site%20Icon-modified.png",
         "sku": "TIR-01",
         "url": "https://telehealthfx.com/medications/tirzepatide/",
@@ -60,7 +60,7 @@ function TirzepatidePage() {
         ],
         "offers": {
           "@type": "Offer",
-          "price": "99.00",
+          "price": "129.00",
           "priceCurrency": "USD",
           "availability": "https://schema.org/InStock",
           "validFrom": "2026-01-01",
@@ -78,23 +78,23 @@ function TirzepatidePage() {
 
         <div style={{ textAlign: 'center', marginBottom: 80 }}>
           <div className="pill" style={{ marginBottom: 20, display: 'inline-flex', background: 'rgba(199, 125, 92, 0.12)', borderColor: 'rgba(199, 125, 92, 0.3)', color: 'var(--accent)' }}>
-            <span style={{ width: 6, height: 6, borderRadius: '50%', background: 'var(--accent)' }}/> Strongest Results · $99 1st Month Promo
+            <span style={{ width: 6, height: 6, borderRadius: '50%', background: 'var(--accent)' }}/> Strongest Results · $129/mo Flat Rate
           </div>
           <h1 className="serif" style={{ fontSize: 72, marginBottom: 28, lineHeight: 0.95 }}>
-            Tirzepatide<br/><span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>from $99/mo.</span>
+            Tirzepatide<br/><span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>$129/mo flat.</span>
           </h1>
           <p style={{ fontSize: 20, color: 'var(--ink-2)', maxWidth: 600, margin: '0 auto 40px', lineHeight: 1.6 }}>
-            Dual GIP/GLP-1 receptor agonist formulation — the most powerful class available for maximum weight loss. Introductory promo from $99 first month (regular $214–$299/mo). Affirm financing from $25/mo.
+            Dual GIP/GLP-1 receptor agonist formulation — the most powerful class available for maximum weight loss. Flat $129/month across all doses — no dosage price increases, zero membership fees, and free 2-day cold shipping.
           </p>
           <a href={CTA_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex' }}>
-            Claim $99 First Month <Icon.Arrow />
+            Claim $129/mo Flat Rate <Icon.Arrow />
           </a>
         </div>
 
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 24, marginBottom: 80 }}>
           {[
             { num: '~22%', label: 'Average Body Weight Loss' },
-            { num: '$99', label: '1st Month Promo' },
+            { num: '$129', label: 'Flat Monthly Rate' },
             { num: 'Dual', label: 'GIP + GLP-1 Action' },
           ].map((s, i) => (
             <div key={i} className="card" style={{ padding: 28, textAlign: 'center' }}>
@@ -121,9 +121,9 @@ function TirzepatidePage() {
 
           <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
             <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>The Most Powerful GLP-1 Class Available</h3>
-            <p style={{ marginBottom: 24, fontSize: 16 }}>Compounded Tirzepatide starting at $99 first month promo. Affirm financing from $25/mo. Dual-action GIP/GLP-1. Licensed clinicians. 24-hour approval.</p>
+            <p style={{ marginBottom: 24, fontSize: 16 }}>Compounded Tirzepatide flat rate $129/month across all doses. Dual-action GIP/GLP-1. Licensed clinicians. 24-hour approval.</p>
             <a href={CTA_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>
-              Claim $99 First Month <Icon.Arrow />
+              Claim $129/mo Flat Rate <Icon.Arrow />
             </a>
           </div>
 
@@ -204,10 +204,10 @@ function TirzepatidePage() {
           <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
             <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Start Your Tirzepatide Program</h2>
             <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 500, margin: '0 auto 32px' }}>
-              From $99 first month promo. Regular renewal from $214/mo. Affirm financing available from $25/mo. 24-hour approval. Free cold shipping.
+              Flat $129/month across all doses. Licensed clinicians. 24-hour approval. Free cold shipping. Zero hidden fees.
             </p>
             <a href={CTA_URL} target="_blank" rel="noopener noreferrer" className="btn btn-lg" style={{ background: '#FBF8F3', color: 'var(--ink)', display: 'inline-flex', justifyContent: 'center', width: '100%', maxWidth: 300 }}>
-              Claim $99 First Month <Icon.Arrow />
+              Claim $129/mo Flat Rate <Icon.Arrow />
             </a>
           </div>
 

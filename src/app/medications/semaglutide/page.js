@@ -1,8 +1,8 @@
 import { SemaglutidePage } from "../../../components/medicine-semaglutide.jsx";
 
 export const metadata = {
-  title: "Semaglutide Weight Loss Program | From $99/mo | Telehealth FX",
-  description: "Get prescribed compounded Semaglutide (GLP-1 receptor agonist) from $99 first month promo. 24-hour clinician approval, zero hidden fees, free 2-day cold shipping. Affirm financing available.",
+  title: "Compounded Semaglutide Program | $79/mo Flat Rate | Telehealth FX",
+  description: "Get doctor-prescribed compounded Semaglutide for a flat $79/month across all doses. 24-hour clinician approval, zero membership fees, free 2-day cold shipping.",
   alternates: {
     canonical: 'https://telehealthfx.com/medications/semaglutide/',
   },

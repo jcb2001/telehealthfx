@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { DirectAnswerSnippet } from './direct-answer-snippet.jsx';
 import { AIQuickSummaryAction } from './ai-quick-summary-action.jsx';
 
-const START_URL = "https://go.telehealthfx.com/start?url_id=11875";
+const START_URL = "https://go.telehealthfx.com/coreage-tirzepatide";
 
 export function BlogGenericMounjaroTirzepatide() {
   const [selectedDose, setSelectedDose] = useState("Starter 2.5 mg");

@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { Icon, Logo } from './common.jsx';
 import { PatientReviewsSection } from './patient-reviews-section.jsx';
 
-const CTA_URL = "https://go.telehealthfx.com/ed";
+const CTA_URL = "https://go.telehealthfx.com/coreage-ed";
 
 // ============================================================================
 // STANDALONE NAV — No GLP-1 banner, ED-specific CTA

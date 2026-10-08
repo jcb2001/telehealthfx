@@ -58,7 +58,7 @@ function AnnouncementBar() {
         }
       `}</style>
       <a
-        href="/skinnyrx/"
+        href="/medications/semaglutide/"
         className="announcement-bar"
         style={{
           display: 'block',
@@ -133,7 +133,7 @@ function AnnouncementBar() {
                 flexShrink: 0,
               }}
             />
-            Limited Time Offer
+            Flat-Rate Care
           </span>
 
           {/* Sparkle center */}
@@ -143,8 +143,9 @@ function AnnouncementBar() {
             lineHeight: 1,
           }}>✦</span>
 
-          {/* Main text with shimmer on $99 */}
+          {/* Main text with shimmer on $79 / $129 */}
           <span>
+            Doctor-Prescribed GLP-1 Care:{' '}
             <strong
               className="announcement-save-text"
               style={{
@@ -156,8 +157,8 @@ function AnnouncementBar() {
                 backgroundClip: 'text',
                 animation: 'announcement-shimmer 3s ease-in-out infinite',
               }}
-            >$99</strong>{' '}
-            GLP-1 Injections: While Supplies Last
+            >Semaglutide $79 · Tirzepatide $129</strong>{' '}
+            — Same Price on All Doses!
           </span>
 
           {/* Sparkle right */}

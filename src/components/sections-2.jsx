@@ -170,21 +170,21 @@ function Pricing() {
   const plans = [
     {
       name: 'Semaglutide',
-      price: '99',
-      interval: '1st mo',
-      note: '$99 First Month Promo · Then $190–$199/mo · Affirm from $25/mo',
+      price: '79',
+      interval: 'mo',
+      note: '$79/month Flat Rate · Same price on every dose · $0 consult',
       best: true,
-      save: 'Most Popular · Save $100+',
-      cta: 'https://go.telehealthfx.com/start'
+      save: 'Most Popular · All Doses $79/mo',
+      cta: 'https://go.telehealthfx.com/coreage-semaglutide'
     },
     {
       name: 'Tirzepatide',
-      price: '99',
-      interval: '1st mo',
-      note: '$99 First Month Promo · Then $214–$299/mo · Affirm from $25/mo',
+      price: '129',
+      interval: 'mo',
+      note: '$129/month Flat Rate · Same price on every dose · $0 consult',
       best: false,
-      save: 'Strongest Results · Save $200+',
-      cta: 'https://go.telehealthfx.com/start'
+      save: 'Strongest Results · All Doses $129/mo',
+      cta: 'https://go.telehealthfx.com/coreage-tirzepatide'
     },
   ];
   return (
@@ -196,7 +196,7 @@ function Pricing() {
             100% Transparent Pricing.<br/><span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>No hidden fees.</span>
           </h2>
           <p style={{ maxWidth: 620, margin: '0 auto', color: 'var(--ink-2)', fontSize: 16 }}>
-            $0 doctor consultation. Zero membership fees. First month starting at $99. Pay over time with Affirm starting at $25/mo (0% APR available). Medication, supplies, and free 2-Day cold shipping included.
+            $0 doctor consultation. Zero membership fees. Flat-rate pricing starting at $79/mo. Same price on all dosages — no titration price hikes. Medication, supplies, and free 2-Day cold shipping included.
           </p>
         </div>
 
@@ -227,7 +227,7 @@ function Pricing() {
               )}
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 28, marginTop: 4 }}>
                 <h3 className="serif" style={{ fontSize: 32 }}>{p.name}</h3>
-                <span className="pill" style={{ fontSize: 11 }}>Affirm Available</span>
+                <span className="pill" style={{ fontSize: 11 }}>Flat Rate</span>
               </div>
               <div style={{ marginBottom: 28 }}>
                 <div style={{ display: 'flex', alignItems: 'baseline', gap: 6 }}>
@@ -239,12 +239,12 @@ function Pricing() {
               </div>
               <ul style={{ listStyle: 'none', marginBottom: 28, display: 'flex', flexDirection: 'column', gap: 10, fontSize: 14 }}>
                 {[
-                  'Introductory $99 first month promotion',
+                  'Flat rate pricing on all doses (no titration hikes)',
                   'Zero membership fees & $0 consult fee',
                   'Fast 24-Hour Provider Review',
                   'Free Overnight 2-Day Cold Shipping',
-                  'Pay over time with Affirm (from $25/mo)',
-                  'Needle-free daily tablets also available'
+                  'Compounded by licensed US 503A pharmacies',
+                  '1-on-1 clinical care team access included'
                 ].map((f, j) => (
                   <li key={j} style={{ display: 'flex', gap: 10, alignItems: 'center', opacity: p.best ? 0.95 : 0.9 }}>
                     <Icon.Check size={14}/> {f}
@@ -257,16 +257,16 @@ function Pricing() {
                   width: '100%', justifyContent: 'center', display: 'inline-flex',
                   ...(p.best ? { background: '#FBF8F3', color: 'var(--brand)' } : {}),
                 }}
-                href={p.cta || 'https://go.telehealthfx.com/start'}
+                href={p.cta || 'https://go.telehealthfx.com/coreage-glp1'}
               >
-                Claim $99 First Month
+                Get Started for ${p.price}/mo
               </a>
             </div>
           ))}
         </div>
 
         <div style={{ textAlign: 'center', marginTop: 40, fontSize: 13, color: 'var(--ink-3)', maxWidth: 640, margin: '40px auto 0' }}>
-          *Introductory pricing reflects first-month promotional rates. Standard renewal pricing starts at $190.65/mo for Semaglutide and $214.50/mo for Tirzepatide with multi-month commitments. Affirm payment plans subject to credit check and approval.
+          *Transparent flat-rate pricing: Semaglutide is $79/mo and Tirzepatide is $129/mo across all dosages. No hidden memberships, cancellation fees, or dosage markups.
         </div>
       </div>
     </section>

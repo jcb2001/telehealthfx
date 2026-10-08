@@ -3,7 +3,7 @@ import React from 'react';
 import { Icon } from './common.jsx';
 import { PatientReviewsSection } from './patient-reviews-section.jsx';
 
-const CTA_URL = "https://go.telehealthfx.com/start";
+const CTA_URL = "https://go.telehealthfx.com/nad";
 
 function NadPage() {
   const schema = {

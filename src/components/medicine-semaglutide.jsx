@@ -3,7 +3,7 @@ import React from 'react';
 import { Icon } from './common.jsx';
 import { PatientReviewsSection } from './patient-reviews-section.jsx';
 
-const CTA_URL = "https://go.telehealthfx.com/start?url_id=11878";
+const CTA_URL = "https://go.telehealthfx.com/coreage-semaglutide";
 
 function SemaglutidePage() {
   const schema = {
@@ -13,7 +13,7 @@ function SemaglutidePage() {
         "@type": "MedicalWebPage",
         "@id": "https://telehealthfx.com/medications/semaglutide/#webpage",
         "name": "Semaglutide Weight Loss Program | Telehealth FX",
-        "description": "Get prescribed compounded Semaglutide (GLP-1 receptor agonist) from $99 first month promo. 24-hour clinician approval, zero hidden fees, free 2-day cold shipping. Affirm financing from $25/mo.",
+        "description": "Get prescribed compounded Semaglutide (GLP-1 receptor agonist) for a flat $79/month across all doses. 24-hour clinician approval, zero hidden fees, free 2-day cold shipping.",
         "url": "https://telehealthfx.com/medications/semaglutide/",
         "about": {
           "@type": "Substance",
@@ -30,7 +30,7 @@ function SemaglutidePage() {
         "@id": "https://telehealthfx.com/medications/semaglutide/#product",
         "name": "Compounded Semaglutide Program",
         "brand": { "@type": "Brand", "name": "Telehealth FX" },
-        "description": "Comprehensive metabolic health program including clinician consults and compounded Semaglutide medication for weight loss. Introductory promo starts at $99 for the first month with Affirm financing.",
+        "description": "Comprehensive metabolic health program including clinician consults and compounded Semaglutide medication for weight loss. Flat rate $79/month across all dosages.",
         "image": "https://telehealthfx.com/assets/Site%20Icon-modified.png",
         "sku": "SEM-01",
         "url": "https://telehealthfx.com/medications/semaglutide/",
@@ -67,7 +67,7 @@ function SemaglutidePage() {
         ],
         "offers": {
           "@type": "Offer",
-          "price": "99.00",
+          "price": "79.00",
           "priceCurrency": "USD",
           "availability": "https://schema.org/InStock",
           "validFrom": "2026-01-01",
@@ -86,16 +86,16 @@ function SemaglutidePage() {
         {/* Hero */}
         <div style={{ textAlign: 'center', marginBottom: 80 }}>
           <div className="pill pill-brand" style={{ marginBottom: 20, display: 'inline-flex' }}>
-            <span className="pill-dot" /> Most Popular GLP-1 · $99 1st Month Promo
+            <span className="pill-dot" /> Most Popular GLP-1 · $79/mo Flat Rate
           </div>
           <h1 className="serif" style={{ fontSize: 72, marginBottom: 28, lineHeight: 0.95 }}>
-            Semaglutide<br/><span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>from $99/mo.</span>
+            Semaglutide<br/><span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>$79/mo flat.</span>
           </h1>
           <p style={{ fontSize: 20, color: 'var(--ink-2)', maxWidth: 600, margin: '0 auto 40px', lineHeight: 1.6 }}>
-            A GLP-1 receptor agonist formulation compounded by licensed US 503A pharmacies. Introductory $99 first month promo (regular $190–$199/mo). Affirm financing available from $25/mo. Free cold shipping.
+            A GLP-1 receptor agonist formulation compounded by licensed US 503A pharmacies. Flat $79/month across all doses — no dosage price escalation, zero membership fees, and free 2-day cold shipping.
           </p>
           <a href={CTA_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex' }}>
-            Claim $99 First Month <Icon.Arrow />
+            Claim $79/mo Flat Rate <Icon.Arrow />
           </a>
         </div>
 
@@ -103,7 +103,7 @@ function SemaglutidePage() {
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 24, marginBottom: 80 }}>
           {[
             { num: '24h', label: 'Clinician Approval' },
-            { num: '$99', label: '1st Month Promo' },
+            { num: '$79', label: 'Flat Monthly Rate' },
             { num: '2-Day', label: 'UPS Cold Shipping' },
           ].map((s, i) => (
             <div key={i} className="card" style={{ padding: 28, textAlign: 'center' }}>
@@ -183,7 +183,7 @@ function SemaglutidePage() {
 
           <h2 className="serif" style={{ fontSize: 40, marginTop: 64, marginBottom: 24, color: 'var(--ink)' }}>What Is Compounded Semaglutide?</h2>
           <p>Compounded semaglutide is formulated with the active pharmaceutical ingredient <strong>semaglutide</strong>, and is produced by <strong>licensed 503A and 503B compounding pharmacies</strong> in the United States. These pharmacies operate under state board oversight and follow Current Good Manufacturing Practices (cGMP).</p>
-          <p>The key difference? <strong>Price.</strong> Branded Wegovy costs $1,300+/month without insurance. Compounded semaglutide through Telehealth FX starts at <strong>$99 for your first month</strong> ($190/mo renewal, Affirm pay-over-time from $25/mo) — making this clinically proven treatment accessible to people who would otherwise be priced out of the most effective weight loss medication available.</p>
+          <p>The key difference? <strong>Price.</strong> Branded Wegovy costs $1,300+/month without insurance. Compounded semaglutide through Telehealth FX is a flat <strong>$79/month across every dosage</strong> — making this clinically proven treatment accessible to people who would otherwise be priced out of the most effective weight loss medication available.</p>
           <p>Every compounded prescription is:</p>
           <ul style={{ marginBottom: 24, paddingLeft: 20 }}>
             <li style={{ marginBottom: 8 }}>Prescribed by a licensed, board-certified clinician after medical review</li>
@@ -198,7 +198,7 @@ function SemaglutidePage() {
               <Icon.Check size={24} />
             </div>
             <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Compounded Semaglutide. Fraction of the Cost.</h3>
-            <p style={{ marginBottom: 24, fontSize: 16 }}>Compounded Semaglutide from $99 (1st month promo). Licensed clinicians, transparent renewal ($190/mo), Affirm financing, no insurance needed.</p>
+            <p style={{ marginBottom: 24, fontSize: 16 }}>Compounded Semaglutide flat rate $79/month across all doses. Licensed clinicians, transparent renewal, no insurance needed.</p>
             <a href={CTA_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>
               Start Your Assessment <Icon.Arrow />
             </a>
@@ -239,9 +239,9 @@ function SemaglutidePage() {
                   ['Mechanism', 'GLP-1 single agonist', 'Dual GIP/GLP-1 agonist'],
                   ['Avg. Weight Loss', '~15% body weight', '~20-22% body weight'],
                   ['Dosing', 'Once weekly injection', 'Once weekly injection'],
-                  ['Starting Price', '$99 (1st Mo Promo)', '$99 (1st Mo Promo)'],
-                  ['Regular Renewal', 'From $190/mo', 'From $214/mo'],
-                  ['Financing', 'Affirm from $25/mo', 'Affirm from $25/mo'],
+                  ['Monthly Price', '$79/mo Flat Rate', '$129/mo Flat Rate'],
+                  ['Price on Higher Doses', 'Same $79/mo (No increase)', 'Same $129/mo (No increase)'],
+                  ['Membership Fees', '$0 / month', '$0 / month'],
                   ['Best For', 'Proven track record, CV protection', 'Maximum weight loss potential'],
                   ['FDA Approvals', 'Ozempic, Wegovy', 'Mounjaro, Zepbound'],
                 ].map(([factor, sem, tirz], i) => (
@@ -320,10 +320,10 @@ function SemaglutidePage() {
           <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
             <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Start Your Semaglutide Program</h2>
             <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 500, margin: '0 auto 32px' }}>
-              From $99 first month promo. Affirm financing from $25/mo. Licensed clinicians. 24-hour approval. Free cold shipping. Zero hidden fees.
+              Flat $79/month across all doses. Licensed clinicians. 24-hour approval. Free cold shipping. Zero hidden fees.
             </p>
             <a href={CTA_URL} target="_blank" rel="noopener noreferrer" className="btn btn-lg" style={{ background: '#FBF8F3', color: 'var(--ink)', display: 'inline-flex', justifyContent: 'center', width: '100%', maxWidth: 300 }}>
-              Claim $99 First Month <Icon.Arrow />
+              Claim $79/mo Flat Rate <Icon.Arrow />
             </a>
           </div>
 

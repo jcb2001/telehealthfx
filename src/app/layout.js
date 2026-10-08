@@ -135,33 +135,33 @@ export default function RootLayout({ children }) {
           {
             "@type": "Offer",
             "@id": "https://telehealthfx.com/#offer-semaglutide-injectable",
-            "name": "SkinnyRx Compounded Semaglutide (Injectable)",
-            "description": "Doctor-prescribed compounded semaglutide weekly injections from 503A compounding pharmacy with free cold-chain delivery. First month promo from $99.",
-            "price": "99.00",
+            "name": "CoreAge Rx Compounded Semaglutide (Injectable)",
+            "description": "Doctor-prescribed compounded semaglutide weekly injections from 503A compounding pharmacy with free cold-chain delivery. Flat $79/mo across all dosages.",
+            "price": "79.00",
             "priceCurrency": "USD",
             "validFrom": "2026-01-01",
             "priceValidUntil": "2027-12-31",
             "availability": "https://schema.org/InStock",
-            "url": "https://telehealthfx.com/skinnyrx/",
+            "url": "https://telehealthfx.com/medications/semaglutide/",
             "seller": {
               "@type": "Organization",
-              "name": "SkinnyRx"
+              "name": "CoreAge Rx"
             }
           },
           {
             "@type": "Offer",
             "@id": "https://telehealthfx.com/#offer-tirzepatide-injectable",
-            "name": "SkinnyRx Compounded Tirzepatide (Injectable)",
-            "description": "Dual GLP-1 and GIP receptor agonist compounded weekly injections from 503A pharmacy with free cold-chain delivery. First month promo from $99.",
-            "price": "99.00",
+            "name": "CoreAge Rx Compounded Tirzepatide (Injectable)",
+            "description": "Dual GLP-1 and GIP receptor agonist compounded weekly injections from 503A pharmacy with free cold-chain delivery. Flat $129/mo across all dosages.",
+            "price": "129.00",
             "priceCurrency": "USD",
             "validFrom": "2026-01-01",
             "priceValidUntil": "2027-12-31",
             "availability": "https://schema.org/InStock",
-            "url": "https://telehealthfx.com/skinnyrx/",
+            "url": "https://telehealthfx.com/medications/tirzepatide/",
             "seller": {
               "@type": "Organization",
-              "name": "SkinnyRx"
+              "name": "CoreAge Rx"
             }
           },
           {

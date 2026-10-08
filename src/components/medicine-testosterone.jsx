@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { Icon, Logo } from './common.jsx';
 import { PatientReviewsSection } from './patient-reviews-section.jsx';
 
-const CTA_URL = "https://go.telehealthfx.com/testosterone";
+const CTA_URL = "https://go.telehealthfx.com/coreage-trt";
 
 // ============================================================================
 // STANDALONE NAV — No GLP-1 banner, TRT-specific CTA

@@ -13,7 +13,7 @@ function Nav() {
   const [scrolled, setScrolled] = useStateNav(false);
   const pathname = usePathname();
   const trt = isTrtPage(pathname);
-  const ctaUrl = trt ? 'https://go.telehealthfx.com/testosterone' : 'https://go.telehealthfx.com/start';
+  const ctaUrl = trt ? 'https://go.telehealthfx.com/coreage-trt' : 'https://go.telehealthfx.com/coreage-glp1';
   useEffectNav(() => {
     const onScroll = () => setScrolled(window.scrollY > 20);
     window.addEventListener('scroll', onScroll);
@@ -31,7 +31,7 @@ function Nav() {
         <a href="/" style={{ textDecoration: 'none', color: 'inherit' }}><Logo /></a>
         <div className="nav-links" style={{ display: 'flex', gap: 32, fontSize: 14, color: 'var(--ink-2)' }}>
           <a href="/#how">How it works</a>
-          <a href="/#treatments">Treatments</a>
+          <a href="/medications/">Medications</a>
           <a href="/#pricing">Pricing</a>
           <a href="/#results">Results</a>
           <a href="/#faq">FAQ</a>
@@ -72,7 +72,7 @@ function HeroDefault({ headline, priceAnchor }) {
             GLP-1 weight loss medication, delivered. A personalized clinical program with 100% transparent pricing, 6-month payment plans, and 2-Day UPS shipping to your door.
           </p>
           <div className="flex-row stack-mobile" style={{ gap: 12, marginBottom: 40 }}>
-            <a className="btn btn-primary btn-lg" href="https://go.telehealthfx.com/start">
+            <a className="btn btn-primary btn-lg" href="https://go.telehealthfx.com/coreage-glp1">
               See If You Qualify <Icon.Arrow />
             </a>
           </div>

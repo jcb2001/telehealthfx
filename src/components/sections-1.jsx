@@ -79,46 +79,46 @@ function Medications() {
   const meds = [
     {
       name: 'Semaglutide',
-      tag: '1st Month $99 Promo',
+      tag: 'Flat Rate · All Doses',
       tagType: 'brand',
-      price: '99',
-      interval: '1st mo',
-      priceLabel: 'Promo (Regular $190/mo)',
+      price: '79',
+      interval: 'mo',
+      priceLabel: 'Flat Rate (Same Price Any Dose)',
       rating: { score: '4.9', count: 218 },
       reviewSnippet: { quote: 'Lost 32 lbs in 3 months. The process was completely seamless.', author: 'Michael T.' },
-      intro: 'A once-weekly compounded GLP-1 injection designed to regulate appetite. $0 doctor fee, free cold-chain shipping. Affirm financing from $25/mo.',
+      intro: 'A once-weekly compounded GLP-1 injection designed to regulate appetite. $0 doctor fee, free cold-chain shipping. Flat rate across all doses.',
       avg: 'Weight Loss',
       avgSub: 'Primary Benefit',
-      ctaUrl: 'https://go.telehealthfx.com/start?url_id=11878',
-      ctaLabel: 'Claim $99 First Month',
+      ctaUrl: 'https://go.telehealthfx.com/coreage-semaglutide',
+      ctaLabel: 'Get Started for $79/mo',
       learnMoreUrl: '/medications/semaglutide/',
       features: [
-        '$99 First Month promotional rate',
+        '$79/month Flat Rate — Same price on all doses',
         'Compounded by licensed US 503A pharmacies',
         'Free 2-Day cold shipping included',
-        'Pay over time with Affirm (from $25/mo)',
+        'Zero membership fees · $0 clinician consult',
       ],
     },
     {
       name: 'Tirzepatide',
-      tag: '1st Month $99 Promo',
+      tag: 'Flat Rate · All Doses',
       tagType: 'accent',
-      price: '99',
-      interval: '1st mo',
-      priceLabel: 'Promo (Regular $214/mo)',
+      price: '129',
+      interval: 'mo',
+      priceLabel: 'Flat Rate (Same Price Any Dose)',
       rating: { score: '4.8', count: 142 },
       reviewSnippet: { quote: 'Accelerated my weight loss dramatically. Down 41 lbs in 4 months.', author: 'James L.' },
-      intro: 'A dual GIP/GLP-1 receptor agonist — the most effective GLP-1 class available. $0 doctor fee, free cold shipping. Affirm financing from $25/mo.',
+      intro: 'A dual GIP/GLP-1 receptor agonist — the most effective GLP-1 class available. $0 doctor fee, free cold shipping. Flat rate across all doses.',
       avg: 'Weight Loss',
       avgSub: 'Dual-Action Agonist',
-      ctaUrl: 'https://go.telehealthfx.com/start?url_id=11875',
-      ctaLabel: 'Claim $99 First Month',
+      ctaUrl: 'https://go.telehealthfx.com/coreage-tirzepatide',
+      ctaLabel: 'Get Started for $129/mo',
       learnMoreUrl: '/medications/tirzepatide/',
       features: [
-        '$99 First Month promotional rate',
+        '$129/month Flat Rate — Same price on all doses',
+        'Dual GIP + GLP-1 receptor agonist action',
         'Compounded by licensed US 503A pharmacies',
-        'Free 2-Day cold shipping included',
-        'Pay over time with Affirm (from $25/mo)',
+        'Zero membership fees · $0 clinician consult',
       ],
     },
     {
@@ -265,6 +265,9 @@ function Medications() {
       intro: 'A therapy designed to support cellular energy, focus, metabolism, and healthy aging.',
       avg: 'Longevity',
       avgSub: 'Primary Benefit',
+      ctaUrl: 'https://go.telehealthfx.com/nad',
+      ctaLabel: 'Claim NAD+ Therapy',
+      learnMoreUrl: '/medications/nad/',
       features: [
         'Supports natural energy production',
         'Compounded by licensed US pharmacies',
@@ -276,12 +279,15 @@ function Medications() {
       name: 'Sermorelin',
       tag: 'Recovery',
       tagType: 'accent',
-      price: '199',
+      price: '179',
       rating: { score: '4.8', count: 96 },
       reviewSnippet: { quote: 'Deep sleep improved in 10 days. Workout recovery is night and day.', author: 'Gregory T.' },
       intro: 'A daily peptide injection designed to support natural growth hormone production, sleep quality, and recovery.',
       avg: 'Muscle Recovery',
       avgSub: 'Primary Benefit',
+      ctaUrl: 'https://go.telehealthfx.com/sermorelin',
+      ctaLabel: 'Claim Sermorelin',
+      learnMoreUrl: '/medications/sermorelin/',
       features: [
         'Improves sleep and recovery',
         'Compounded by licensed US pharmacies',
@@ -299,8 +305,9 @@ function Medications() {
       intro: 'Personalized TRT prescribed by licensed clinicians — injectable, oral, or topical. Restore energy, strength, and drive.',
       avg: 'Hormone Optimization',
       avgSub: 'Primary Benefit',
-      ctaUrl: 'https://go.telehealthfx.com/testosterone',
-      ctaLabel: 'Learn More',
+      ctaUrl: 'https://go.telehealthfx.com/coreage-trt',
+      ctaLabel: 'Get Started with TRT',
+      learnMoreUrl: '/medications/testosterone/',
       features: [
         'Injectable, oral, or topical options',
         'Licensed clinician oversight included',
@@ -320,6 +327,7 @@ function Medications() {
       avgSub: 'Primary Benefit',
       ctaUrl: 'https://go.telehealthfx.com/enclomiphene',
       ctaLabel: 'Learn More',
+      learnMoreUrl: '/medications/enclomiphene/',
       features: [
         'Up to 2.5x natural testosterone increase',
         'Preserves fertility & testicular function',
@@ -331,14 +339,15 @@ function Medications() {
       name: 'ED Treatment',
       tag: 'Sexual Wellness',
       tagType: 'accent',
-      price: '19',
+      price: '49',
       rating: { score: '4.9', count: 263 },
       reviewSnippet: { quote: 'Discreet from start to finish. Works perfectly — confidence restored.', author: 'Kevin S.' },
-      intro: 'Discreet, affordable ED medication — Sildenafil, Tadalafil, and custom compounds prescribed online and shipped in plain packaging.',
+      intro: 'Discreet, affordable ED medication — Sildenafil, Tadalafil, and custom 4Play compounds prescribed online and shipped in plain packaging.',
       avg: 'Sexual Performance',
       avgSub: 'Primary Benefit',
-      ctaUrl: 'https://go.telehealthfx.com/ed',
-      ctaLabel: 'Learn More',
+      ctaUrl: 'https://go.telehealthfx.com/coreage-ed',
+      ctaLabel: 'Get Started with ED Care',
+      learnMoreUrl: '/medications/ed/',
       features: [
         'Sildenafil, Tadalafil, or custom compound',
         '100% online & discreet',
@@ -422,6 +431,16 @@ function Medications() {
           {meds.map((m, i) => (
             <MedCard key={i} med={m} selected={selected === i} onSelect={() => setSelected(i)} />
           ))}
+        </div>
+
+        <div style={{ textAlign: 'center', marginTop: 48 }}>
+          <a
+            href="/medications/"
+            className="btn btn-outline btn-lg"
+            style={{ display: 'inline-flex', alignItems: 'center', gap: 8, background: '#ffffff' }}
+          >
+            Explore All 20+ Telehealth Medications &amp; Protocols <Icon.Arrow />
+          </a>
         </div>
       </div>
     </section>

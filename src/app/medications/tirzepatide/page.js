@@ -1,8 +1,8 @@
 import { TirzepatidePage } from "../../../components/medicine-tirzepatide.jsx";
 
 export const metadata = {
-  title: "Tirzepatide Weight Loss Program | From $99/mo | Telehealth FX",
-  description: "Get prescribed compounded Tirzepatide from $99 first month promo. Dual GIP/GLP-1 agonist for maximum weight loss. 24-hour approval, free cold-chain shipping. Affirm financing available.",
+  title: "Compounded Tirzepatide Program | $129/mo Flat Rate | Telehealth FX",
+  description: "Get doctor-prescribed compounded Tirzepatide for a flat $129/month across all doses. Dual GIP/GLP-1 agonist for maximum weight loss. 24-hour approval, free cold-chain shipping.",
   alternates: {
     canonical: 'https://telehealthfx.com/medications/tirzepatide/',
   },
