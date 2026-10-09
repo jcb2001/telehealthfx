@@ -8,6 +8,11 @@ function AnnouncementBar() {
   const pathname = usePathname();
   const isTrt = TRT_ROUTES.some(r => pathname?.startsWith(r));
   if (isTrt) return null;
+  const isEs = pathname?.startsWith('/es');
+  const ctaUrl = isEs 
+    ? "https://go.telehealthfx.com/coreage-glp1?sub3=es&sub4=thfx"
+    : "https://go.telehealthfx.com/coreage-glp1";
+
   return (
     <>
       <style>{`
@@ -58,7 +63,7 @@ function AnnouncementBar() {
         }
       `}</style>
       <a
-        href="https://go.telehealthfx.com/coreage-glp1"
+        href={ctaUrl}
         className="announcement-bar"
         style={{
           display: 'block',
@@ -133,7 +138,7 @@ function AnnouncementBar() {
                 flexShrink: 0,
               }}
             />
-            Flat-Rate Care
+            {isEs ? 'Tarifa Plana' : 'Flat-Rate Care'}
           </span>
 
           {/* Sparkle center */}
@@ -145,7 +150,7 @@ function AnnouncementBar() {
 
           {/* Main text with shimmer on $79 / $129 */}
           <span>
-            Doctor-Prescribed GLP-1 Care:{' '}
+            {isEs ? 'Atención GLP-1 Recetada por Médicos: ' : 'Doctor-Prescribed GLP-1 Care: '}
             <strong
               className="announcement-save-text"
               style={{
@@ -157,8 +162,8 @@ function AnnouncementBar() {
                 backgroundClip: 'text',
                 animation: 'announcement-shimmer 3s ease-in-out infinite',
               }}
-            >Semaglutide $79 · Tirzepatide $129</strong>{' '}
-            — Same Price on All Doses!
+            >{isEs ? 'Semaglutida $79 · Tirzepatida $129' : 'Semaglutide $79 · Tirzepatide $129'}</strong>{' '}
+            {isEs ? '— ¡Mismo Precio en Todas las Dosis!' : '— Same Price on All Doses!'}
           </span>
 
           {/* Sparkle right */}

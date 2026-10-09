@@ -6,6 +6,11 @@ import { FAQ } from "../components/sections-3.jsx";
 export const metadata = {
   alternates: {
     canonical: 'https://telehealthfx.com/',
+    languages: {
+      'en-US': 'https://telehealthfx.com/',
+      'es-US': 'https://telehealthfx.com/es/',
+      'x-default': 'https://telehealthfx.com/',
+    },
   },
 };
 

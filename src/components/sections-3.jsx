@@ -1,5 +1,6 @@
 "use client";
 import React, { useState, useEffect } from 'react';
+import { usePathname } from 'next/navigation';
 import { Icon } from './common.jsx';
 import { Logo } from './common.jsx';
 
@@ -118,6 +119,79 @@ function FinalCTA({ priceAnchor, onStartQuiz }) {
 // FOOTER
 // ============================================================================
 function Footer() {
+  const pathname = usePathname();
+  const isEs = pathname?.startsWith('/es');
+
+  const desc = isEs
+    ? "Pérdida de peso médica y longevidad, entregada a tu puerta. Licencia médica en los 50 estados. Medicamentos preparados en farmacias de formulación magistral 503A con licencia en EE. UU."
+    : "Clinical weight loss, delivered. Licensed in all 50 states. Medications compounded in state-licensed US pharmacies.";
+
+  const columns = isEs ? [
+    { h: 'Producto', l: [
+      { label: 'Cómo funciona', href: '/es/#how' }, 
+      { label: 'Semaglutida ($79/mes)', href: '/es/medications/semaglutide/' }, 
+      { label: 'Tirzepatida ($129/mes)', href: '/es/medications/tirzepatide/' }, 
+      { label: 'Precios', href: '/es/#pricing' }, 
+      { label: 'Resultados', href: '/es/#results' }, 
+      { label: 'Preguntas Frecuentes', href: '/es/#faq' }
+    ] },
+    { h: 'Compañía', l: [
+      { label: 'Acerca de', href: '/about/' }, 
+      { label: 'Carreras', href: '/careers/' }, 
+      { label: 'Blog', href: '/blog/' },
+      { label: 'Prensa', url: 'https://pressranger.com/media-rooms/telehealth-fx' }, 
+      { label: 'Socios', href: '/es/#pricing' }, 
+      { label: 'Contacto', href: '/contact/' }
+    ] },
+    { h: 'Soporte', l: [
+      { label: 'Centro de ayuda', href: '/es/#faq' }, 
+      { label: 'Envíos', href: '/shipping/' }, 
+      { label: 'Devoluciones', href: '/returns/' }, 
+      { label: 'Seguros médicos', href: '/es/#faq' }, 
+      { label: 'Estado del servicio', href: '/status/' }
+    ] },
+    { h: 'Legal', l: [
+      { label: 'Privacidad', href: '/privacy/' }, 
+      { label: 'Términos', href: '/terms/' }, 
+      { label: 'Consentimiento Telesalud', href: '/telehealth-consent/' }, 
+      { label: 'HIPAA', href: '/hipaa/' }, 
+      { label: 'Accesibilidad', href: '/accessibility/' },
+      { label: 'Divulgación de Afiliados', href: '/affiliate-disclosure/' }
+    ] },
+  ] : [
+    { h: 'Product', l: [
+      { label: 'How it works', slug: 'how' }, 
+      { label: 'Medications', slug: 'medications' }, 
+      { label: 'Pricing', slug: 'pricing' }, 
+      { label: 'Compare & Switch', slug: 'compare' },
+      { label: 'Results', slug: 'results' }, 
+      { label: 'Science', slug: 'science' }
+    ] },
+    { h: 'Company', l: [
+      { label: 'About', slug: 'about' }, 
+      { label: 'Careers', slug: 'careers' }, 
+      { label: 'Blog', slug: 'blog' },
+      { label: 'Press', slug: 'press', url: 'https://pressranger.com/media-rooms/telehealth-fx' }, 
+      { label: 'Partners', slug: 'partners' }, 
+      { label: 'Contact', slug: 'contact' }
+    ] },
+    { h: 'Support', l: [
+      { label: 'Help center', slug: 'help-center' }, 
+      { label: 'Shipping', slug: 'shipping' }, 
+      { label: 'Returns', slug: 'returns' }, 
+      { label: 'Insurance', slug: 'insurance' }, 
+      { label: 'Status', slug: 'status' }
+    ] },
+    { h: 'Legal', l: [
+      { label: 'Privacy', slug: 'privacy' }, 
+      { label: 'Terms', slug: 'terms' }, 
+      { label: 'Telehealth consent', slug: 'telehealth-consent' }, 
+      { label: 'HIPAA', slug: 'hipaa' }, 
+      { label: 'Accessibility', slug: 'accessibility' },
+      { label: 'Affiliate Disclosure', slug: 'affiliate-disclosure' }
+    ] },
+  ];
+
   return (
     <footer style={{ background: 'var(--bg-alt)', padding: '80px 0 40px', borderTop: '1px solid var(--line-soft)' }}>
       <div className="container">
@@ -125,42 +199,10 @@ function Footer() {
           <div>
             <Logo size={22}/>
             <p style={{ marginTop: 20, fontSize: 13, color: 'var(--ink-3)', lineHeight: 1.6, maxWidth: 280 }}>
-              Clinical weight loss, delivered. Licensed in all 50 states. Medications compounded in state-licensed US pharmacies.
+              {desc}
             </p>
           </div>
-          {[
-            { h: 'Product', l: [
-              { label: 'How it works', slug: 'how' }, 
-              { label: 'Medications', slug: 'medications' }, 
-              { label: 'Pricing', slug: 'pricing' }, 
-              { label: 'Compare & Switch', slug: 'compare' },
-              { label: 'Results', slug: 'results' }, 
-              { label: 'Science', slug: 'science' }
-            ] },
-            { h: 'Company', l: [
-              { label: 'About', slug: 'about' }, 
-              { label: 'Careers', slug: 'careers' }, 
-              { label: 'Blog', slug: 'blog' },
-              { label: 'Press', slug: 'press', url: 'https://pressranger.com/media-rooms/telehealth-fx' }, 
-              { label: 'Partners', slug: 'partners' }, 
-              { label: 'Contact', slug: 'contact' }
-            ] },
-            { h: 'Support', l: [
-              { label: 'Help center', slug: 'help-center' }, 
-              { label: 'Shipping', slug: 'shipping' }, 
-              { label: 'Returns', slug: 'returns' }, 
-              { label: 'Insurance', slug: 'insurance' }, 
-              { label: 'Status', slug: 'status' }
-            ] },
-            { h: 'Legal', l: [
-              { label: 'Privacy', slug: 'privacy' }, 
-              { label: 'Terms', slug: 'terms' }, 
-              { label: 'Telehealth consent', slug: 'telehealth-consent' }, 
-              { label: 'HIPAA', slug: 'hipaa' }, 
-              { label: 'Accessibility', slug: 'accessibility' },
-              { label: 'Affiliate Disclosure', slug: 'affiliate-disclosure' }
-            ] },
-          ].map((col, i) => (
+          {columns.map((col, i) => (
             <div key={i}>
               <div className="mono" style={{ color: 'var(--ink-3)', marginBottom: 16 }}>{col.h}</div>
               <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: 10 }}>
@@ -213,22 +255,39 @@ function Footer() {
         </div>
 
         <div className="flex-row footer-bottom stack-mobile" style={{ paddingTop: 40, borderTop: '1px solid var(--line)', justifyContent: 'space-between', alignItems: 'flex-start', gap: 40 }}>
-          <div style={{ fontSize: 11, color: 'var(--ink-3)', lineHeight: 1.6, flex: 1 }}>
-            <p style={{ marginBottom: 12 }}>
-              <strong>Important Affiliate & Medical Disclaimer:</strong> Telehealth FX is an informational website and affiliate marketing platform. We are not a medical provider or pharmacy, and we do not provide medical advice, diagnosis, or treatment. We may earn a commission when you click on links or sign up for a partner’s service. The information on this website is for informational purposes only and is not a substitute for professional medical advice. Always consult your physician before starting any medication or weight loss program. 
-            </p>
-            <p style={{ marginBottom: 12 }}>
-              <strong>Results May Vary:</strong> Individual weight loss results may vary based on starting weight, diet, exercise, and adherence to the clinical program. Testimonials or data provided do not guarantee that you will achieve the exact same results.
-            </p>
-            <p style={{ marginBottom: 12 }}>
-              <strong>FDA & Compounding Disclaimer:</strong> Compounded medications (including compounded semaglutide and tirzepatide) are not FDA-approved, meaning the FDA does not evaluate them for safety, efficacy, or quality. They are custom preparations made by licensed compounding pharmacies. Telehealth FX does not sell, distribute, or claim equivalence to commercially available branded products such as Ozempic®, Wegovy®, Mounjaro®, or Zepbound®. GLP-1 medications may cause serious side effects. Do not use if you have a personal or family history of medullary thyroid carcinoma (MTC) or Multiple Endocrine Neoplasia syndrome type 2 (MEN 2).
-            </p>
-            <p style={{ marginBottom: 0 }}>
-              <strong>Platform Disclaimer:</strong> This site is not a part of the Facebook website or Facebook Inc. Additionally, this site is NOT endorsed by Facebook in any way. FACEBOOK is a trademark of FACEBOOK, Inc. This site is not a part of Google™ or the Google network of sites.
-            </p>
-          </div>
+          {isEs ? (
+            <div style={{ fontSize: 11, color: 'var(--ink-3)', lineHeight: 1.6, flex: 1 }}>
+              <p style={{ marginBottom: 12 }}>
+                <strong>Aviso Médico y Divulgación Importante:</strong> Telehealth FX es una publicación digital de salud y plataforma informativa. No somos un proveedor médico directo ni una farmacia. No brindamos asesoramiento médico, diagnóstico ni tratamiento directo. Podemos recibir una comisión cuando hace clic en enlaces o se registra en los servicios de nuestros socios clínicos. La información en este sitio es únicamente con fines educativos y no reemplaza la consulta médica profesional. Siempre consulte a su médico antes de comenzar cualquier medicamento o programa de pérdida de peso.
+              </p>
+              <p style={{ marginBottom: 12 }}>
+                <strong>Los Resultados Pueden Variar:</strong> Los resultados individuales de reducción de peso pueden variar según el peso inicial, dieta, ejercicio y adherencia al programa clínico. Los testimonios o datos presentados no garantizan que usted obtendrá los mismos resultados exactos.
+              </p>
+              <p style={{ marginBottom: 12 }}>
+                <strong>Descargo sobre la FDA y Fórmulas Magistrales:</strong> Los medicamentos formulados (incluidas la semaglutida y tirzepatida compuestas) no están aprobados directamente por la FDA, lo que significa que la FDA no evalúa individualmente su seguridad o eficacia previa. Son formulaciones magistrales preparadas para pacientes específicos por farmacias certificadas bajo la sección 503A de la Ley FD&C. Telehealth FX no vende ni reclama equivalencia directa a marcas comerciales como Ozempic®, Wegovy®, Mounjaro® o Zepbound®. Los medicamentos GLP-1 pueden causar efectos secundarios. No los use si tiene antecedentes personales o familiares de carcinoma medular de tiroides (MTC) o síndrome de neoplasia endocrina múltiple tipo 2 (MEN 2).
+              </p>
+              <p style={{ marginBottom: 0 }}>
+                <strong>Descargo de Plataforma:</strong> Este sitio no forma parte de Facebook ni de Facebook Inc. Asimismo, este sitio NO está respaldado por Facebook de ninguna manera. FACEBOOK es una marca registrada de FACEBOOK, Inc. Este sitio no forma parte de Google™ ni de la red de sitios de Google.
+              </p>
+            </div>
+          ) : (
+            <div style={{ fontSize: 11, color: 'var(--ink-3)', lineHeight: 1.6, flex: 1 }}>
+              <p style={{ marginBottom: 12 }}>
+                <strong>Important Affiliate & Medical Disclaimer:</strong> Telehealth FX is an informational website and affiliate marketing platform. We are not a medical provider or pharmacy, and we do not provide medical advice, diagnosis, or treatment. We may earn a commission when you click on links or sign up for a partner’s service. The information on this website is for informational purposes only and is not a substitute for professional medical advice. Always consult your physician before starting any medication or weight loss program. 
+              </p>
+              <p style={{ marginBottom: 12 }}>
+                <strong>Results May Vary:</strong> Individual weight loss results may vary based on starting weight, diet, exercise, and adherence to the clinical program. Testimonials or data provided do not guarantee that you will achieve the exact same results.
+              </p>
+              <p style={{ marginBottom: 12 }}>
+                <strong>FDA & Compounding Disclaimer:</strong> Compounded medications (including compounded semaglutide and tirzepatide) are not FDA-approved, meaning the FDA does not evaluate them for safety, efficacy, or quality. They are custom preparations made by licensed compounding pharmacies. Telehealth FX does not sell, distribute, or claim equivalence to commercially available branded products such as Ozempic®, Wegovy®, Mounjaro®, or Zepbound®. GLP-1 medications may cause serious side effects. Do not use if you have a personal or family history of medullary thyroid carcinoma (MTC) or Multiple Endocrine Neoplasia syndrome type 2 (MEN 2).
+              </p>
+              <p style={{ marginBottom: 0 }}>
+                <strong>Platform Disclaimer:</strong> This site is not a part of the Facebook website or Facebook Inc. Additionally, this site is NOT endorsed by Facebook in any way. FACEBOOK is a trademark of FACEBOOK, Inc. This site is not a part of Google™ or the Google network of sites.
+              </p>
+            </div>
+          )}
           <div style={{ fontSize: 12, color: 'var(--ink-3)', whiteSpace: 'nowrap', paddingTop: 4 }}>
-            © 2026 Telehealth FX, Inc.
+            {isEs ? '© 2026 Telehealth FX, Inc. Todos los derechos reservados.' : '© 2026 Telehealth FX, Inc.'}
           </div>
         </div>
       </div>
