@@ -4,6 +4,11 @@ export const metadata = {
   robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/compare/telehealth-fx-vs-henry-meds-cost/',
+    languages: {
+      'en-US': 'https://telehealthfx.com/compare/telehealth-fx-vs-henry-meds-cost/',
+      'es-US': 'https://telehealthfx.com/es/compare/telehealth-fx-vs-henry-meds-cost/',
+      'x-default': 'https://telehealthfx.com/compare/telehealth-fx-vs-henry-meds-cost/',
+    },
   },
   title: "Telehealth FX vs Henry Meds: 2026 GLP-1 Price Audit",
   description: "Compare Telehealth FX vs Henry Meds pricing. Save up to $191/month on compounded Tirzepatide with flat $258 pricing, zero consult fees, and free shipping.",

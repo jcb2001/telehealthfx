@@ -8,6 +8,11 @@ export const metadata = {
   description: "Compare compounded semaglutide, tirzepatide, and TRT pricing across top telehealth providers. First-month promos from $99, Affirm financing, and 48-hr delivery.",
   alternates: {
     canonical: 'https://telehealthfx.com/compare/',
+    languages: {
+      'en-US': 'https://telehealthfx.com/compare/',
+      'es-US': 'https://telehealthfx.com/es/compare/',
+      'x-default': 'https://telehealthfx.com/compare/',
+    },
   },
   openGraph: {
     title: "Telehealth FX Comparisons & Clinical Guides (2026)",

@@ -12,7 +12,12 @@ export const metadata = {
     type: "website"
   },
   alternates: {
-    canonical: "https://telehealthfx.com/trt/"
+    canonical: "https://telehealthfx.com/trt/",
+    languages: {
+      'en-US': 'https://telehealthfx.com/trt/',
+      'es-US': 'https://telehealthfx.com/es/trt/',
+      'x-default': 'https://telehealthfx.com/trt/',
+    },
   }
 };
 

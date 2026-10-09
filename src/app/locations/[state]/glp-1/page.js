@@ -31,6 +31,11 @@ export async function generateMetadata({ params }) {
     },
     alternates: {
       canonical: `https://telehealthfx.com/locations/${state.slug}/glp-1/`,
+      languages: {
+        'en-US': `https://telehealthfx.com/locations/${state.slug}/glp-1/`,
+        'es-US': `https://telehealthfx.com/es/locations/${state.slug}/glp-1/`,
+        'x-default': `https://telehealthfx.com/locations/${state.slug}/glp-1/`,
+      },
     },
   };
 }

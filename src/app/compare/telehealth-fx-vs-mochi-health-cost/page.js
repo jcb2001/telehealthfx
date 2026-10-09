@@ -4,6 +4,11 @@ export const metadata = {
   robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/compare/telehealth-fx-vs-mochi-health-cost/',
+    languages: {
+      'en-US': 'https://telehealthfx.com/compare/telehealth-fx-vs-mochi-health-cost/',
+      'es-US': 'https://telehealthfx.com/es/compare/telehealth-fx-vs-mochi-health-cost/',
+      'x-default': 'https://telehealthfx.com/compare/telehealth-fx-vs-mochi-health-cost/',
+    },
   },
   title: "Telehealth FX vs Mochi Health: GLP-1 Cost Comparison",
   description: "Compare GLP-1 costs between Telehealth FX and Mochi Health. Learn how zero membership fees and flat $258 tirzepatide save patients $948 annually.",

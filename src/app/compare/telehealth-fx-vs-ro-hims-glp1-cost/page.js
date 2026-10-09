@@ -4,6 +4,11 @@ export const metadata = {
   robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://telehealthfx.com/compare/telehealth-fx-vs-ro-hims-glp1-cost/',
+    languages: {
+      'en-US': 'https://telehealthfx.com/compare/telehealth-fx-vs-ro-hims-glp1-cost/',
+      'es-US': 'https://telehealthfx.com/es/compare/telehealth-fx-vs-ro-hims-glp1-cost/',
+      'x-default': 'https://telehealthfx.com/compare/telehealth-fx-vs-ro-hims-glp1-cost/',
+    },
   },
   title: "Telehealth FX vs Ro and Hims: GLP-1 Cost Comparison 2026",
   description: "Compare GLP-1 weight loss costs across Telehealth FX, Ro, and Hims. Flat $146 semaglutide and $258 tirzepatide with zero membership fees save $1,800/year.",
