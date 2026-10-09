@@ -175,3 +175,161 @@ All medication and blog pages embed comprehensive JSON-LD `@graph` structures:
 - **Katalys Affiliate Portal:** Offer 1632, Affiliate 12322
 - **Switchy Dashboard:** Domain `go.telehealthfx.com`
 - **Google Search Console / Indexing:** Service Account API configured with instant IndexNow and Google Search Indexing engine scripts in `scripts/`.
+- **FeedHive Workspace:** Telehealth FX (`Telehealth FX`)
+  - **API Key:** `fh_dcbd10b1f8dbcdc40f71c7e9a627012e4815becb55dcf5ca`
+  - **Connected Channels:**
+    - YouTube: Telehealth FX (`08e483da-1454-4b3d-9abf-e99cc1a52996`)
+    - Facebook: Telehealth FX (`d1b37bb5-5580-4a5f-9d7b-044b5ecf756e`)
+    - YouTube: Healthy Lifestyle Podcast (`d6dfbb19-ddca-4b70-b204-58de7095f38c`)
+    - Facebook: Luxury Old Money (`874a304e-21a0-4c42-af12-03767ccb26f5`)
+    - YouTube: Quiz Select (`71510b60-03e9-4a38-bb8e-0fd0007440c0`)
+    - Facebook: Quiz Select (`ad553e6d-f293-4be4-9fe6-771b3b0ecc03`)
+
+---
+
+## 8. FeedHive Multi-Workspace Architecture & Isolation Guardrails
+
+> [!CAUTION]
+> **CRITICAL MULTI-WORKSPACE ISOLATION GUARDRAIL**:
+> The operator manages multiple distinct businesses and FeedHive accounts in Antigravity (e.g., **Telehealth FX**, **Schell Insurance**). Cross-posting content or uploading assets to the wrong workspace causes severe brand contamination and privacy breaches.
+
+### 8.1 Multi-Workspace Identity Matrix
+| Business / Brand | Antigravity Directory | FeedHive Workspace | Active API Key |
+| :--- | :--- | :--- | :--- |
+| **Telehealth FX** | `Side Hustles/Telehealth FX` | `Telehealth FX` | `fh_dcbd10b1f8dbcdc40f71c7e9a627012e4815becb55dcf5ca` |
+| **Schell Insurance** | `Clients/Schell Insurance` | `Schell Insurance` | `fh_4f54b0a240164db80ae57231d45add7b90fbeaaa7b1597d0` |
+
+### 8.2 Mandatory Pre-Flight Verification Protocol
+Before any agent or script performs a mutating action in FeedHive (creating posts, updating drafts, deleting items, uploading images/videos, scheduling slots):
+1. **Workspace Verification**: Call `feedhive_status` or execute `node scripts/feedhive_cli.js status`.
+2. **Assert Workspace Identity**: Confirm that the returned username is strictly `"Telehealth FX"`.
+3. **Hard Stop on Mismatch**: If the returned identity does not match `"Telehealth FX"`, or if authentication fails, **HALT ALL OPERATIONS IMMEDIATELY**. Do not attempt fallback posting or generic uploading. Output an alert indicating the workspace mismatch.
+4. **Channel Targeting Whitelist**: Verify that target social platforms use verified Telehealth FX channel IDs:
+   - **Telehealth FX YouTube**: `08e483da-1454-4b3d-9abf-e99cc1a52996`
+   - **Telehealth FX Facebook**: `d1b37bb5-5580-4a5f-9d7b-044b5ecf756e`
+
+### 8.3 Built-In Programmatic Enforcement
+The project CLI at `scripts/feedhive_cli.js` includes automated pre-flight assertion logic. Any mutating command automatically verifies the workspace identity against `"Telehealth FX"` before dispatching the request.
+
+---
+
+## 9. PressRanger Syndication & Media Guardrails (CRITICAL)
+
+> [!CAUTION]
+> **STRICT PHOTO CAPTION & METADATA GUARDRAILS (ZERO PROMPT COPY)**:
+> Under NO circumstances should any photo caption or picture title contain image-generation prompt descriptions, art direction notes, or physical/aesthetic object descriptions. Captions must NEVER describe the scene geometry, lighting, materials, or visual composition.
+
+### 9.1 Mandatory Rules for All Photo Captions
+1. **Brand & Article Grounding**: Every caption must explicitly begin with or prominently feature **Telehealth FX** and directly connect to the press release headline and clinical topic.
+2. **Journalistic Patient & Clinical Benefit**: Captions must read like an editorial photo caption in a national news publication, describing the real-world clinical service, medication access program, or patient health outcome.
+3. **Strict Banned Lexicon (Negative Filter)**:
+   - 🚫 NEVER USE: `still-life`, `composition`, `pedestal`, `symbolizing`, `minimalist`, `photograph of`, `close-up of`, `presentation demonstrating`, `rendering`, `aesthetic`, `artistic`, `amber vial resting on`, `visual metaphor`.
+4. **API Technical Invariant**: In PressRanger's API (`update-press-release`), photo captions (`primary_photo_caption` and `secondary_photo_caption`) are **only saved if their corresponding photo URLs (`primary_photo_url` and `secondary_photo_url`) are explicitly passed in the same payload**. Omitting the URL causes PressRanger to retain the previous caption.
+5. **Programmatic Assertion Requirement**: Every PR batch generation script must include automated assertions verifying:
+   - `caption.startswith("Telehealth FX")`
+   - Zero occurrences of banned prompt words. Any violation MUST throw an exception and halt submission.
+
+### 9.2 Caption Examples: Anti-Patterns vs. Required Standard
+| ❌ STRICTLY FORBIDDEN (Prompt / Aesthetic Description) | ✅ REQUIRED STANDARD (Telehealth FX Journalistic Copy) |
+| :--- | :--- |
+| *"Balanced medical still-life composition symbolizing long-term metabolic homeostasis and sustainable weight maintenance."* | *"Telehealth FX introduces structured compounded tirzepatide maintenance schedules to defend against metabolic adaptation and prevent weight regain."* |
+| *"Sterile pharmaceutical vials on minimalist stone pedestals illustrating transparent flat-rate compounded medication delivery."* | *"Telehealth FX guarantees a flat rate of $129 per month for compounded tirzepatide across all dosage levels, protecting patients from dose-escalation price surges."* |
+| *"Minimalist architectural glass presentation demonstrating direct-pay transparency and pharmaceutical affordability."* | *"Telehealth FX publishes clinical cost data showing patients save over $12,000 annually by choosing 503A compounded tirzepatide over commercial retail brand prices."* |
+| *"Modern clinical workspace illustrating rapid digital health intake and physician chart review workflows."* | *"Telehealth FX connects patients to licensed healthcare providers for comprehensive asynchronous metabolic evaluations completed within 24 hours."* |
+
+### 9.3 Image Generation Negative Constraints
+Strictly **NO people**, **NO human hands or body parts**, **NO visible text/letters/numbers**, and **NO logos/labels** in any generated image.
+
+### 9.4 Content, Pricing & Routing Invariants
+- **Pricing**: Compounded Semaglutide is strictly **$79/mo flat rate across all doses**; Compounded Tirzepatide is strictly **$129/mo flat rate across all doses** (zero titration fee increases).
+- **Affiliate Route**: Primary conversion outbound is strictly **`https://go.telehealthfx.com/coreage-glp1`** (CoreAge Rx / Katalys Offer 1632, Affiliate 12322) — 1x per article.
+- **Internal Canonical**: 2x links to `https://telehealthfx.com/medications/<compound>/`. Exactly 3 links total per article.
+- **Word Count**: Strictly between **1,000 and 1,200 words** per article.
+- **Rapid URL Indexer**: Removed from automated workflows (handled manually by the operator).
+
+---
+
+## 10. Multi-Format Short-Form Video Generation Architecture & Creative Protocols
+
+To diversify social reach, eliminate ad fatigue, and optimize algorithmic delivery across YouTube Shorts, Facebook Reels, TikTok, and Pinterest, Telehealth FX deploys **4 distinct short-form video creative formats** driven by deterministic HTML/CSS motion rendering (Playwright + ffmpeg) and FeedHive scheduling:
+
+### 10.1 Video Format Matrix & Storyboard Architectures
+
+| Format Code | Format Name | Core Mechanism | Psychology & Engagement Driver | Primary Conversion Angle |
+| :--- | :--- | :--- | :--- | :--- |
+| **Format B** | **Quiz & Ring Timer** | 3-Option Question with 3-2-1 timer ring and stat reveal | Curiosity, active participation & knowledge testing | "Test your metabolic baseline with our free quiz" |
+| **Format C** | **"3 Signs" Self-Check** | 3 sequential tactile symptom cards (`SIGN 1`, `2`, `3`) + tally prompt | Personal symptom identification & foot-in-the-door calibration | "If 2+ apply, check clinical eligibility for flat-rate GLP-1" |
+| **Format A & F** | **Myth vs. Fact Teardown** | Crimson Myth ❌ vs Emerald Fact ✅ + 15s scientific mechanism | Cognitive disruption, myth-busting & clinical authority | "Stop overpaying for brand markups: 503A flat rate $79/$129" |
+| **Format D & E** | **Save-This Checklist & Mini-Challenge** | 4-row glass checklist or 10-second interactive timer challenge | High saves/bookmarks (Pinterest #1 factor) & viral comment debates | "Save this titration protocol / check your food noise score" |
+
+---
+
+### 10.2 Format Specifications & Storyboard Blueprints
+
+#### 1. Format C: "3 Signs" Self-Check Motion Format
+- **Core Concept**: 3 visual symptom cards appear one by one. Viewers are prompted to count how many apply to their body/routine.
+- **Storyboard Flow**:
+  1. **Scene 1 (0.0s–3.2s) — Problem Hook**: Glass chip (e.g., `METABOLIC RESET AUDIT`) + 3-line uppercase headline with yellow highlight marker (`*WORD*`) and agitation sub-line (*"3 signs your GLP-1 dose hit a metabolic wall"* or *"3 signs your metabolism is stuck in starvation mode"*).
+  2. **Scene 2 (3.2s–7.8s) — 3 Sequential Symptom Cards**:
+     - Three glass cards slide in sequentially with red/amber gradient badges (`SIGN 1`, `SIGN 2`, `SIGN 3`) and animated tactile checkmarks.
+     - On-screen self-tally indicator at bottom: *"How many did you count? (1, 2, or all 3?)"*.
+  3. **Scene 3 (7.8s–11.2s) — Diagnostic Threshold Reveal**:
+     - Giant high-impact threshold header: `IF 2+ APPLY`.
+     - Clinical diagnosis line + yellow metric badge (e.g., `85% RECEPTOR ADAPTATION RATE` or `CHRONIC CORTISOL SPIKE`).
+     - **Mandatory on-screen peer-reviewed citation**: (e.g., *Source: New England Journal of Medicine* / *ADA Clinical Guidelines*).
+  4. **Scene 4 (11.2s–15.0s / 25.0s) — Multi-Platform CTA**:
+     - Platform-tailored pulsing action button with directional arrows, helper copy, and Telehealth FX brandmark.
+
+#### 2. Format A & F: "Myth vs. Fact & Mechanism Teardown" Format
+- **Core Concept**: High-contrast cognitive disruption exposing costly pharmaceutical misconceptions, followed by an emerald scientific fact and a 15-second physiological mechanism teardown.
+- **Storyboard Flow**:
+  1. **Scene 1 (0.0s–3.5s) — The Myth Shock**: High-contrast Crimson card (`MYTH ❌`) exposing widespread misconceptions:
+     - *"MYTH: Compounded GLP-1s are less potent or lower grade than $1,300 commercial retail pens ❌"*
+     - *"MYTH: Dose escalation is required every 4 weeks to keep burning stubborn fat ❌"*
+     - *"MYTH: Weight regain after stopping GLP-1 therapy is purely a lack of willpower ❌"*
+  2. **Scene 2 (3.5s–8.0s) — The Clinical Fact**: Slide-in Emerald card (`FACT ✅`) revealing published scientific reality:
+     - *"FACT: Licensed 503A compounding pharmacies utilize identical pure active pharmaceutical ingredients (APIs) tested for ≥99% analytical potency ✅"*
+     - Cites peer-reviewed on-screen authority (FDA 503A Guidance, STEP-1 / SURPASS-2 trials, Columbia PNAS).
+  3. **Scene 3 (8.0s–11.5s) — Mechanism Teardown**: Visual clinical explanation of the biological mechanism (delayed gastric emptying, hypothalamic pro-opiomelanocortin activation, GIP/GLP-1 dual receptor synergy, or metabolic adaptation prevention).
+  4. **Scene 4 (11.5s–15.0s / 25.0s) — Value CTA**: Directs viewer to claim physician-supervised flat-rate compounded care ($79/mo Semaglutide or $129/mo Tirzepatide) via `go.telehealthfx.com/coreage-glp1`.
+
+#### 3. Format D & E: "Save-This Checklist & 10-Second Mini-Challenge" Format
+- **Core Concept**: High-utility actionable protocols and interactive on-screen micro-tests designed to maximize bookmarking/saves on Pinterest and heated comment interactions on TikTok and Facebook.
+- **Storyboard Flow**:
+  - **Format D (Actionable Checklist / Protocol)**:
+    - Sleek 4-row glass checklist with animated checkmark badges and countdown pacing:
+      - *"Save this 4-step GLP-1 nausea defense protocol before your next dose"*
+      - *"5 crucial lab markers to verify before starting Testosterone Replacement Therapy"*
+      - *"The 4-step morning oral microbiome restoration routine"*
+  - **Format E (10-Second Micro-Challenge)**:
+    - Interactive on-screen test with a 10-second timer challenge bar:
+      - *"10-Second Satiety Reflex Challenge: How many hours after breakfast does food noise return?"*
+      - *"Retail Markup vs Flat Rate Challenge: Can you spot why retail GLP-1s charge $1,349 while 503A is $129 flat?"*
+  - **Final Scene**: Platform-tailored CTA directing viewers to save/pin the reference guide and access the free clinical intake evaluation.
+
+---
+
+### 10.3 Platform-Differentiated Durations & Delivery Specifications
+
+| Platform | Duration | Audio Fade-Out | CTA Button Copy | Placement Rule |
+| :--- | :--- | :--- | :--- | :--- |
+| **TikTok** | **15.00 s** | 13.0s → 15.0s | `CHECK LINK IN BIO TO QUALIFY` | **Zero URLs anywhere.** End caption with `👉 Link in bio to check clinical eligibility!` |
+| **Pinterest** | **15.00 s** | N/A (Static Pin) | `CLICK HERE TO VIEW CARE OPTIONS` | **Static 9:16 Image Pin Only** (1080×1920). Never attach video reels (Pinterest API v5 rejects videos without native cover uploads). |
+| **Facebook Reels** | **25.00–30.00 s** | 23.0s → 25.0s | `CHECK FIRST COMMENT FOR LINK` | Post starts `👇 Check the first comment for doctor intake…`; tracking link pinned in comment #1. |
+| **YouTube Shorts**| **25.00–30.00 s** | 23.0s → 25.0s | `LINK IN DESCRIPTION TO QUALIFY` | Description Line 1 = `👉 [Switchy URL]`; followed by up to 5,000 chars of clinical SEO copy. |
+
+---
+
+### 10.4 Strict Compliance, Safety & Visual Invariants
+
+1. **Negative Visual Constraints**: Strictly **zero people**, **zero human hands or body parts**, **zero visible text/letters/numbers**, and **zero logos/labels** in all AI-generated background video plates (cinematic low-key medical/biological abstract lighting).
+2. **Authority Citations Mandatory**: Every fact, metric, and diagnostic threshold must be verifiable against published scientific literature (NEJM, JAMA, ADA, FDA, CDC, Endocrine Society) and cited visibly on screen.
+3. **Zero Medical Guarantees**: Never use prohibited phrases (`cure`, `melt fat overnight`, `guaranteed 30 lbs in 30 days`, `bypass your doctor`). Telehealth FX sells access to independent licensed medical consultations and 503A compounding pharmacy delivery.
+4. **Mandatory Pricing Standard**:
+   - Compounded Semaglutide: Strictly **$79/mo flat rate** across all doses.
+   - Compounded Tirzepatide: Strictly **$129/mo flat rate** across all doses.
+5. **Channel Routing Whitelist (FeedHive)**:
+   - **Telehealth FX Channel Set**: YouTube `08e483da-1454-4b3d-9abf-e99cc1a52996`, Facebook `d1b37bb5-5580-4a5f-9d7b-044b5ecf756e` → Destination: `https://go.telehealthfx.com/coreage-glp1`.
+   - **Losing Weight RX Set**: YouTube `71510b60-03e9-4a38-bb8e-0fd0007440c0`, Facebook `ad553e6d-f293-4be4-9fe6-771b3b0ecc03` → Destination: `https://losingweightrx.com`.
+   - **Get Skinny Online Set**: YouTube `d6dfbb19-ddca-4b70-b204-58de7095f38c`, Facebook `874a304e-21a0-4c42-af12-03767ccb26f5` → Destination: `https://getskinnyonline.com`.
+

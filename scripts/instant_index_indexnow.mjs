@@ -15,11 +15,16 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const projectRoot = path.join(__dirname, '..');
 
+if (process.env.NODE_EXTRA_CA_CERTS && process.env.NODE_TLS_REJECT_UNAUTHORIZED === undefined) {
+  process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
+}
+
 const HOST = 'telehealthfx.com';
 const INDEXNOW_KEY = '9f4c3a7e58b14d2e8b6c0a1f3e7d9b2a';
 const KEY_LOCATION = `https://${HOST}/${INDEXNOW_KEY}.txt`;
 const batchArg = process.argv.find(a => a.startsWith('--batch='));
-const batchNum = batchArg ? batchArg.split('=')[1] : '4';
+const batchNum = batchArg ? batchArg.split('=')[1] : '5';
+const isAll = process.argv.includes('--all') || process.argv.includes('--entire-site');
 
 let PRIORITY_FILE = path.join(projectRoot, 'src', 'data', `priority-200-urls-batch${batchNum}.json`);
 if (!fs.existsSync(PRIORITY_FILE)) {
@@ -29,6 +34,16 @@ if (!fs.existsSync(PRIORITY_FILE)) {
 const isDryRun = process.argv.includes('--dry-run');
 
 function getUrlsToIndex() {
+  if (isAll) {
+    const sitemapFile = path.join(projectRoot, 'public', 'sitemap.xml');
+    if (fs.existsSync(sitemapFile)) {
+      const raw = fs.readFileSync(sitemapFile, 'utf-8');
+      const matches = [...raw.matchAll(/<loc>(.*?)<\/loc>/g)].map(m => m[1].trim());
+      const unique = [...new Set(matches)];
+      return unique;
+    }
+    throw new Error(`Sitemap file not found at ${sitemapFile}`);
+  }
   if (fs.existsSync(PRIORITY_FILE)) {
     const raw = fs.readFileSync(PRIORITY_FILE, 'utf-8');
     const parsed = JSON.parse(raw);
@@ -39,7 +54,7 @@ function getUrlsToIndex() {
 
 async function main() {
   console.log('='.repeat(70));
-  console.log('⚡ TELEHEALTH FX — INDEXNOW INSTANT SUBMISSION ENGINE (TOP 200)');
+  console.log(`⚡ TELEHEALTH FX — INDEXNOW INSTANT SUBMISSION ENGINE (${isAll ? 'ENTIRE SITE' : 'TOP 200 PRIORITY'})`);
   console.log('='.repeat(70));
 
   const urls = getUrlsToIndex();

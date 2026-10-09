@@ -5,6 +5,11 @@ export const metadata = {
   description: "Get doctor-prescribed compounded Tirzepatide for a flat $129/month across all doses. Dual GIP/GLP-1 agonist for maximum weight loss. 24-hour approval, free cold-chain shipping.",
   alternates: {
     canonical: 'https://telehealthfx.com/medications/tirzepatide/',
+    languages: {
+      'en-US': 'https://telehealthfx.com/medications/tirzepatide/',
+      'es-US': 'https://telehealthfx.com/es/medications/tirzepatide/',
+      'x-default': 'https://telehealthfx.com/medications/tirzepatide/',
+    },
   },
 };
 

@@ -17,9 +17,13 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const projectRoot = path.join(__dirname, '..');
 
+if (process.env.NODE_EXTRA_CA_CERTS && process.env.NODE_TLS_REJECT_UNAUTHORIZED === undefined) {
+  process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
+}
+
 const KEY_FILE = path.join(projectRoot, 'service-account-telehealthfx.json');
 const batchArg = process.argv.find(a => a.startsWith('--batch='));
-const batchNum = batchArg ? batchArg.split('=')[1] : '4';
+const batchNum = batchArg ? batchArg.split('=')[1] : '5';
 
 let PRIORITY_FILE = path.join(projectRoot, 'src', 'data', `priority-200-urls-batch${batchNum}.json`);
 if (!fs.existsSync(PRIORITY_FILE)) {
@@ -95,7 +99,13 @@ async function main() {
 
   const urls = getUrlsToIndex();
   console.log(`📌 Queued EXACTLY ${urls.length} URLs (Batch ${batchNum} — 100% of Google's daily 200 quota).`);
-  if (batchNum === '4') {
+  if (batchNum === '5') {
+    console.log(`   ├─ Tier 1: 38 Pages Created/Modified Today (CoreAge Lines, Homepage, Medications Directory, Articles)`);
+    console.log(`   ├─ Tier 2: 11 Full Medication & Compounding Formulations`);
+    console.log(`   ├─ Tier 3: 12 Phase 3 KGR Authority Hubs, Calculators & Comparison Showdowns`);
+    console.log(`   ├─ Tier 4: 50 Programmatic US State GLP-1 Care Center Hubs`);
+    console.log(`   └─ Tier 5: 89 Core Navigation Hubs & Top Metropolitan Telehealth Care Centers`);
+  } else if (batchNum === '4') {
     console.log(`   ├─ Tier 1: 4 High-CPC KGR Quick-Win Authority Hubs`);
     console.log(`   ├─ Tier 2: 8 Phase 1 & 2 Authority Hubs, Calculators & Comparison Showdowns`);
     console.log(`   ├─ Tier 3: 50 Programmatic US State GLP-1 Care Center Hubs`);

@@ -5,6 +5,11 @@ export const metadata = {
   description: "Get doctor-prescribed compounded Semaglutide for a flat $79/month across all doses. 24-hour clinician approval, zero membership fees, free 2-day cold shipping.",
   alternates: {
     canonical: 'https://telehealthfx.com/medications/semaglutide/',
+    languages: {
+      'en-US': 'https://telehealthfx.com/medications/semaglutide/',
+      'es-US': 'https://telehealthfx.com/es/medications/semaglutide/',
+      'x-default': 'https://telehealthfx.com/medications/semaglutide/',
+    },
   },
 };
 

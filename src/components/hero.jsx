@@ -19,6 +19,10 @@ function Nav() {
     window.addEventListener('scroll', onScroll);
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
+  const isEs = pathname?.startsWith('/es');
+  const enPath = isEs ? (pathname.replace(/^\/es/, '') || '/') : (pathname || '/');
+  const esPath = isEs ? pathname : `/es${pathname === '/' ? '' : (pathname || '')}`;
+
   return (
     <nav style={{
       position: 'relative', zIndex: 50,
@@ -28,17 +32,32 @@ function Nav() {
       transition: 'all .3s ease',
     }}>
       <div className="container" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', height: 72 }}>
-        <a href="/" style={{ textDecoration: 'none', color: 'inherit' }}><Logo /></a>
+        <a href={isEs ? "/es/" : "/"} style={{ textDecoration: 'none', color: 'inherit' }}><Logo /></a>
         <div className="nav-links" style={{ display: 'flex', gap: 32, fontSize: 14, color: 'var(--ink-2)' }}>
-          <a href="/#how">How it works</a>
-          <a href="/medications/">Medications</a>
-          <a href="/#pricing">Pricing</a>
-          <a href="/#results">Results</a>
-          <a href="/#faq">FAQ</a>
+          <a href={isEs ? "/es/#how" : "/#how"}>{isEs ? "Cómo funciona" : "How it works"}</a>
+          <a href={isEs ? "/es/medications/" : "/medications/"}>{isEs ? "Medicamentos" : "Medications"}</a>
+          <a href={isEs ? "/es/#pricing" : "/#pricing"}>{isEs ? "Precios" : "Pricing"}</a>
+          <a href={isEs ? "/es/#results" : "/#results"}>{isEs ? "Resultados" : "Results"}</a>
+          <a href={isEs ? "/es/#faq" : "/#faq"}>FAQ</a>
         </div>
         <div className="flex-row nav-actions" style={{ gap: 12, alignItems: 'center' }}>
-          <a className="btn btn-primary" href={ctaUrl}>
-            See If You Qualify <Icon.Arrow />
+          <div className="lang-switch" style={{ display: 'inline-flex', alignItems: 'center', gap: 6, fontSize: 13, fontWeight: 700, padding: '4px 10px', borderRadius: 9999, background: 'rgba(15, 23, 42, 0.05)', border: '1px solid rgba(15, 23, 42, 0.1)' }}>
+            {isEs ? (
+              <>
+                <a href={enPath} style={{ color: 'var(--ink-2)', textDecoration: 'none' }}>EN</a>
+                <span style={{ color: 'var(--line-soft)' }}>|</span>
+                <span style={{ color: 'var(--brand)' }}>ES</span>
+              </>
+            ) : (
+              <>
+                <span style={{ color: 'var(--brand)' }}>EN</span>
+                <span style={{ color: 'var(--line-soft)' }}>|</span>
+                <a href={esPath} style={{ color: 'var(--ink-2)', textDecoration: 'none' }}>ES</a>
+              </>
+            )}
+          </div>
+          <a className="btn btn-primary" href={isEs ? `${ctaUrl}?sub3=es&sub4=thfx` : ctaUrl}>
+            {isEs ? "Verificar Elegibilidad" : "See If You Qualify"} <Icon.Arrow />
           </a>
         </div>
       </div>

@@ -9,6 +9,7 @@
     "lint": "eslint",
     "test": "node tests/verify-geo-canonical-schema.js",
     "index:now": "node scripts/instant_index_indexnow.mjs",
+    "index:now:all": "node scripts/instant_index_indexnow.mjs --all",
     "index:google": "node scripts/instant_index_google.mjs",
     "index:all": "node scripts/instant_index_indexnow.mjs && node scripts/instant_index_google.mjs"
   },
