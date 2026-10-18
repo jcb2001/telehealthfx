@@ -3,7 +3,7 @@ import React from 'react';
 import { Icon } from './common.jsx';
 import { PatientReviewsSection } from './patient-reviews-section.jsx';
 
-const CTA_URL = "https://go.telehealthfx.com/anti-aging-cream?subId1=tfx_med_smooth_move";
+const CTA_URL = "https://go.telehealthfx.com/anti-aging-cream?aff_sub=tfx_med_smooth_move&subId1=tfx_med_smooth_move";
 
 function SmoothMovePage() {
   const schema = {

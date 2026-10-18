@@ -3,7 +3,7 @@ import React from 'react';
 import { Icon } from './common.jsx';
 import { PatientReviewsSection } from './patient-reviews-section.jsx';
 
-const CTA_URL = "https://go.telehealthfx.com/spot-cream?subId1=tfx_med_spot_on";
+const CTA_URL = "https://go.telehealthfx.com/spot-cream?aff_sub=tfx_med_spot_on&subId1=tfx_med_spot_on";
 
 function SpotOnPage() {
   const schema = {

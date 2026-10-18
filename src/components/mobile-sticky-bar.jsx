@@ -51,7 +51,7 @@ export function MobileStickyBar() {
   } else if (p.includes('skincare') || p.includes('tretinoin') || p.includes('smooth-move') || p.includes('spot-on') || p.includes('pore-favor') || p.includes('time-out') || p.includes('anti-aging-cream') || p.includes('spot-cream')) {
     title = isEs ? "Dermatología Clínica Musely" : "Musely Clinical Skincare";
     subtitle = isEs ? "Tretinoína e Hidroquinona 12%" : "Prescription Tretinoin & 12% HQ";
-    ctaUrl = isEs ? "https://go.telehealthfx.com/anti-aging-cream?sub3=es&sub4=tfx_sticky_skin" : "https://go.telehealthfx.com/anti-aging-cream?subId1=tfx_sticky_skin";
+    ctaUrl = isEs ? "https://go.telehealthfx.com/anti-aging-cream?sub3=es&sub4=tfx_sticky_skin" : "https://go.telehealthfx.com/anti-aging-cream?aff_sub=tfx_sticky_skin&subId1=tfx_sticky_skin";
   }
 
   if (!visible) return null;
