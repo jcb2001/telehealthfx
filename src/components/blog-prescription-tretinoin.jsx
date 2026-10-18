@@ -2,7 +2,7 @@
 import React from 'react';
 import { Icon } from './common.jsx';
 
-const AFF_URL = "https://go.telehealthfx.com/retinoid?aff_sub_1=seo_blog_prescription_tretinoin";
+const AFF_URL = "https://go.telehealthfx.com/anti-aging-cream?subId1=tfx_blog_tretinoin";
 
 export function BlogPrescriptionTretinoin() {
   return (

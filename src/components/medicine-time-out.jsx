@@ -3,7 +3,7 @@ import React from 'react';
 import { Icon } from './common.jsx';
 import { PatientReviewsSection } from './patient-reviews-section.jsx';
 
-const CTA_URL = "https://go.telehealthfx.com/time-out";
+const CTA_URL = "https://go.telehealthfx.com/aging-repair-cream?subId1=tfx_med_time_out";
 
 function TimeOutPage() {
   const schema = {

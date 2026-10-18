@@ -13,9 +13,9 @@ function getPageCtaUrl(pathname) {
   if (p.includes('enclomiphene')) return 'https://go.telehealthfx.com/enclomiphene';
   if (p.includes('nad')) return 'https://go.telehealthfx.com/nad';
   if (p.includes('tablets') || p.includes('oral-glp')) return 'https://go.telehealthfx.com/willow?aff_sub=tfx_nav_tablets';
-  if (p.includes('tretinoin') || p.includes('retinoid') || p.includes('smooth-move')) return 'https://go.telehealthfx.com/retinoid';
-  if (p.includes('copper-peptide')) return 'https://go.telehealthfx.com/copper-peptide';
-  if (p.includes('spot-on')) return 'https://go.telehealthfx.com/spot-on';
+  if (p.includes('tretinoin') || p.includes('retinoid') || p.includes('smooth-move')) return 'https://go.telehealthfx.com/anti-aging-cream?subId1=tfx_nav_retinoid';
+  if (p.includes('copper-peptide')) return 'https://go.telehealthfx.com/copper-peptide?subId1=tfx_nav_copper';
+  if (p.includes('spot-on')) return 'https://go.telehealthfx.com/spot-cream?subId1=tfx_nav_spot';
   if (p.includes('trt') || p.includes('testosterone')) return 'https://go.telehealthfx.com/coreage-trt';
   if (p.includes('ed')) return 'https://go.telehealthfx.com/coreage-ed';
   if (p.includes('hair')) return 'https://go.telehealthfx.com/hair';
