@@ -38,7 +38,7 @@ export function MobileStickyBar() {
     ctaUrl = isEs ? "https://go.telehealthfx.com/willow?sub3=es&sub4=tfx_sticky_tablets" : "https://go.telehealthfx.com/willow?aff_sub=tfx_sticky_tablets";
   } else if (p.includes('trt') || p.includes('testosterone') || p.includes('enclomiphene')) {
     title = "Testosterone (TRT) Care";
-    subtitle = "Starting $93/mo · MD Supervised";
+    subtitle = "Starting $89/mo · MD Supervised";
     ctaUrl = "https://go.telehealthfx.com/coreage-trt?aff_sub=tfx_sticky_trt";
   } else if (p.includes('nad')) {
     title = "NAD+ Cellular Injection";
