@@ -2,16 +2,16 @@
 import React from 'react';
 import { usePathname } from 'next/navigation';
 
-const TRT_ROUTES = ['/blog/trt-', '/blog/does-insurance-cover-trt', '/blog/best-online-trt', '/blog/how-to-get-trt', '/blog/testosterone-', '/blog/enclomiphene-vs-trt', '/blog/hcg-with-trt', '/blog/does-trt-', '/blog/low-testosterone-', '/medications/testosterone', '/medications/enclomiphene', '/trt/'];
+const NON_GLP1_KEYWORDS = ['trt', 'testosterone', 'enclomiphene', 'sermorelin', 'nad', 'tretinoin', 'retinoid', 'smooth-move', 'spot-on', 'copper-peptide', 'hair-loss', 'ed'];
 
 function AnnouncementBar() {
-  const pathname = usePathname();
-  const isTrt = TRT_ROUTES.some(r => pathname?.startsWith(r));
-  if (isTrt) return null;
+  const pathname = usePathname() || '';
+  const isNonGlp1 = NON_GLP1_KEYWORDS.some(k => pathname.toLowerCase().includes(k));
+  if (isNonGlp1) return null;
   const isEs = pathname?.startsWith('/es');
   const ctaUrl = isEs 
-    ? "https://go.telehealthfx.com/coreage-glp1?sub3=es&sub4=thfx"
-    : "https://go.telehealthfx.com/coreage-glp1";
+    ? "https://go.telehealthfx.com/embody?sub3=es&sub4=thfx"
+    : "https://go.telehealthfx.com/embody?aff_sub=tfx_top_bar";
 
   return (
     <>
@@ -162,8 +162,8 @@ function AnnouncementBar() {
                 backgroundClip: 'text',
                 animation: 'announcement-shimmer 3s ease-in-out infinite',
               }}
-            >{isEs ? 'Semaglutida $79 · Tirzepatida $129' : 'Semaglutide $79 · Tirzepatide $129'}</strong>{' '}
-            {isEs ? '— ¡Mismo Precio en Todas las Dosis!' : '— Same Price on All Doses!'}
+            >{isEs ? 'Semaglutida $69 · Tirzepatida $119' : 'Semaglutide $69 · Tirzepatide $119'}</strong>{' '}
+            {isEs ? '— ¡Envío Gratis y Consulta Médica Incluida!' : '— Free Shipping & Doctor Consult Included!'}
           </span>
 
           {/* Sparkle right */}

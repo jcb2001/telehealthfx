@@ -3,7 +3,7 @@ import React from 'react';
 import { Icon } from './common.jsx';
 import { PatientReviewsSection } from './patient-reviews-section.jsx';
 
-const CTA_URL = "https://go.telehealthfx.com/coreage-semaglutide";
+const CTA_URL = "https://go.telehealthfx.com/embody?aff_sub=tfx_sema_page";
 
 function SemaglutidePage() {
   const schema = {
@@ -13,7 +13,7 @@ function SemaglutidePage() {
         "@type": "MedicalWebPage",
         "@id": "https://telehealthfx.com/medications/semaglutide/#webpage",
         "name": "Semaglutide Weight Loss Program | Telehealth FX",
-        "description": "Get prescribed compounded Semaglutide (GLP-1 receptor agonist) for a flat $79/month across all doses. 24-hour clinician approval, zero hidden fees, free 2-day cold shipping.",
+        "description": "Get prescribed compounded Semaglutide (GLP-1 receptor agonist) from $69/month introductory promo across all doses. 24-hour clinician approval, zero hidden fees, free 2-day cold shipping.",
         "url": "https://telehealthfx.com/medications/semaglutide/",
         "about": {
           "@type": "Substance",
@@ -67,7 +67,7 @@ function SemaglutidePage() {
         ],
         "offers": {
           "@type": "Offer",
-          "price": "79.00",
+          "price": "69.00",
           "priceCurrency": "USD",
           "availability": "https://schema.org/InStock",
           "validFrom": "2026-01-01",
@@ -86,16 +86,16 @@ function SemaglutidePage() {
         {/* Hero */}
         <div style={{ textAlign: 'center', marginBottom: 80 }}>
           <div className="pill pill-brand" style={{ marginBottom: 20, display: 'inline-flex' }}>
-            <span className="pill-dot" /> Most Popular GLP-1 · $79/mo Flat Rate
+            <span className="pill-dot" /> Most Popular GLP-1 · From $69/mo Promo Rate
           </div>
           <h1 className="serif" style={{ fontSize: 72, marginBottom: 28, lineHeight: 0.95 }}>
-            Semaglutide<br/><span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>$79/mo flat.</span>
+            Semaglutide<br/><span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>from $69/mo.</span>
           </h1>
           <p style={{ fontSize: 20, color: 'var(--ink-2)', maxWidth: 600, margin: '0 auto 40px', lineHeight: 1.6 }}>
-            A GLP-1 receptor agonist formulation compounded by licensed US 503A pharmacies. Flat $79/month across all doses — no dosage price escalation, zero membership fees, and free 2-day cold shipping.
+            A GLP-1 receptor agonist formulation compounded by licensed US 503A pharmacies. From $69/month promotional introductory rate — no dosage price escalation, zero membership fees, and free 2-day cold shipping.
           </p>
           <a href={CTA_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex' }}>
-            Claim $79/mo Flat Rate <Icon.Arrow />
+            Claim $69/mo Promo Rate <Icon.Arrow />
           </a>
         </div>
 
@@ -183,7 +183,7 @@ function SemaglutidePage() {
 
           <h2 className="serif" style={{ fontSize: 40, marginTop: 64, marginBottom: 24, color: 'var(--ink)' }}>What Is Compounded Semaglutide?</h2>
           <p>Compounded semaglutide is formulated with the active pharmaceutical ingredient <strong>semaglutide</strong>, and is produced by <strong>licensed 503A and 503B compounding pharmacies</strong> in the United States. These pharmacies operate under state board oversight and follow Current Good Manufacturing Practices (cGMP).</p>
-          <p>The key difference? <strong>Price.</strong> Branded Wegovy costs $1,300+/month without insurance. Compounded semaglutide through Telehealth FX is a flat <strong>$79/month across every dosage</strong> — making this clinically proven treatment accessible to people who would otherwise be priced out of the most effective weight loss medication available.</p>
+          <p>The key difference? <strong>Price.</strong> Branded Wegovy costs $1,300+/month without insurance. Compounded semaglutide through Telehealth FX starts at just <strong>$69/month promotional introductory rate</strong> — making this clinically proven treatment accessible to people who would otherwise be priced out of the most effective weight loss medication available.</p>
           <p>Every compounded prescription is:</p>
           <ul style={{ marginBottom: 24, paddingLeft: 20 }}>
             <li style={{ marginBottom: 8 }}>Prescribed by a licensed, board-certified clinician after medical review</li>

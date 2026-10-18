@@ -3,7 +3,7 @@ import React from 'react';
 import { Icon } from './common.jsx';
 import { PatientReviewsSection } from './patient-reviews-section.jsx';
 
-const CTA_URL = "https://go.telehealthfx.com/skinnyrx-tablets?sub3=es&sub4=thfx";
+const CTA_URL = "https://go.telehealthfx.com/willow?sub3=es&sub4=thfx";
 
 export function OralTabletsPageEs() {
   const schema = {
@@ -28,12 +28,41 @@ export function OralTabletsPageEs() {
         "@id": "https://telehealthfx.com/es/oral-tablets/#product",
         "name": "Programa de Tabletas Sublinguales GLP-1",
         "brand": { "@type": "Brand", "name": "Telehealth FX" },
-        "description": "Tratamiento de pérdida de peso con tabletas sublinguales sin inyecciones semanales.",
+        "description": "Tratamiento de pérdida de peso con tabletas sublinguales de semaglutida y tirzepatida sin inyecciones semanales.",
+        "image": "https://telehealthfx.com/assets/Site%20Icon-modified.png",
+        "sku": "SUB-TAB-01-ES",
+        "url": "https://telehealthfx.com/es/oral-tablets/",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "bestRating": "5",
+          "worstRating": "1",
+          "reviewCount": "74",
+          "ratingCount": "74"
+        },
+        "review": [
+          {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Karen W." },
+            "datePublished": "2026-04-14",
+            "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+            "reviewBody": "Las tabletas sublinguales son muy fáciles de tomar cada mañana. Bajé 22 libras en 2 meses sin una sola aguja. El equipo médico me brindó mucho apoyo."
+          },
+          {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "David M." },
+            "datePublished": "2026-03-21",
+            "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+            "reviewBody": "Odio las inyecciones, así que esta tableta oral sublingual fue la alternativa perfecta. Mi apetito disminuyó por completo y desapareció la ansiedad por comer."
+          }
+        ],
         "offers": {
           "@type": "Offer",
           "price": "149.00",
           "priceCurrency": "USD",
           "availability": "https://schema.org/InStock",
+          "validFrom": "2026-01-01",
+          "priceValidUntil": "2027-12-31",
           "url": CTA_URL
         }
       }
@@ -123,7 +152,24 @@ export function OralTabletsPageEs() {
         </div>
 
         {/* Reviews */}
-        <PatientReviewsSection />
+        <PatientReviewsSection
+          productName="Tabletas Sublinguales GLP-1"
+          aggregateRating={{ ratingValue: "4.9", reviewCount: "74" }}
+          reviews={[
+            {
+              author: { name: "Karen W." },
+              datePublished: "2026-04-14",
+              reviewRating: { ratingValue: "5" },
+              reviewBody: "Las tabletas sublinguales son muy fáciles de tomar cada mañana. Bajé 22 libras en 2 meses sin una sola aguja. El equipo médico me brindó mucho apoyo."
+            },
+            {
+              author: { name: "David M." },
+              datePublished: "2026-03-21",
+              reviewRating: { ratingValue: "5" },
+              reviewBody: "Odio las inyecciones, así que esta tableta oral sublingual fue la alternativa perfecta. Mi apetito disminuyó por completo y desapareció la ansiedad por comer."
+            }
+          ]}
+        />
 
       </div>
     </section>

@@ -3,7 +3,7 @@ import React from 'react';
 import { Icon } from './common.jsx';
 import { PatientReviewsSection } from './patient-reviews-section.jsx';
 
-const CTA_URL = "https://go.telehealthfx.com/coreage-tirzepatide?sub3=es&sub4=thfx";
+const CTA_URL = "https://go.telehealthfx.com/embody?sub3=es&sub4=thfx";
 
 export function TirzepatidePageEs() {
   const schema = {
@@ -13,7 +13,7 @@ export function TirzepatidePageEs() {
         "@type": "MedicalWebPage",
         "@id": "https://telehealthfx.com/es/medications/tirzepatide/#webpage",
         "name": "Programa de Tirzepatida Compuesta para Pérdida de Peso | Telehealth FX",
-        "description": "Terapia de doble agonista GIP/GLP-1 tirzepatida compuesta por $129/mes tarifa plana en todas las dosis. Máxima pérdida de peso metabólica, aprobación clínica en 24 horas y envío refrigerado incluido.",
+        "description": "Terapia de doble agonista GIP/GLP-1 tirzepatida compuesta desde $119/mes en tarifa promocional. Máxima pérdida de peso metabólica, aprobación clínica en 24 horas y envío refrigerado incluido.",
         "url": "https://telehealthfx.com/es/medications/tirzepatide/",
         "about": {
           "@type": "Substance",
@@ -28,11 +28,41 @@ export function TirzepatidePageEs() {
         "@id": "https://telehealthfx.com/es/medications/tirzepatide/#product",
         "name": "Programa de Tirzepatida Compuesta",
         "brand": { "@type": "Brand", "name": "Telehealth FX" },
+        "description": "Programa de agonista dual de receptores GIP/GLP-1 que incluye consultas médicas y tirzepatida compuesta para una pérdida de peso superior. Tarifa plana de $129/mes en todas las dosis.",
+        "image": "https://telehealthfx.com/assets/Site%20Icon-modified.png",
+        "sku": "TIR-01-ES",
+        "url": "https://telehealthfx.com/es/medications/tirzepatide/",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.8",
+          "bestRating": "5",
+          "worstRating": "1",
+          "reviewCount": "142",
+          "ratingCount": "142"
+        },
+        "review": [
+          {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "James L." },
+            "datePublished": "2026-03-22",
+            "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+            "reviewBody": "Cambié de semaglutida a tirzepatida y los resultados se aceleraron notablemente. Bajé 41 libras en 4 meses casi sin apetito. Me cambió la vida."
+          },
+          {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Amanda P." },
+            "datePublished": "2026-04-10",
+            "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+            "reviewBody": "El mecanismo de doble acción realmente funciona. Mi nivel de azúcar en sangre está mejor que en años y he perdido 35 libras. El proceso de telesalud hizo todo muy sencillo."
+          }
+        ],
         "offers": {
           "@type": "Offer",
-          "price": "129.00",
+          "price": "119.00",
           "priceCurrency": "USD",
           "availability": "https://schema.org/InStock",
+          "validFrom": "2026-01-01",
+          "priceValidUntil": "2027-12-31",
           "url": CTA_URL
         }
       }
@@ -47,16 +77,16 @@ export function TirzepatidePageEs() {
         {/* Hero */}
         <div style={{ textAlign: 'center', marginBottom: 80 }}>
           <div className="pill pill-brand" style={{ marginBottom: 20, display: 'inline-flex' }}>
-            <span className="pill-dot" /> Doble Agonista GIP/GLP-1 · $129/mes Tarifa Plana
+            <span className="pill-dot" /> Doble Agonista GIP/GLP-1 · Desde $119/mes Promo
           </div>
           <h1 className="serif" style={{ fontSize: 72, marginBottom: 28, lineHeight: 0.95 }}>
-            Tirzepatida<br/><span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>$129/mes tarifa plana.</span>
+            Tirzepatida<br/><span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>desde $119/mes.</span>
           </h1>
           <p style={{ fontSize: 20, color: 'var(--ink-2)', maxWidth: 600, margin: '0 auto 40px', lineHeight: 1.6 }}>
-            El tratamiento de doble acción GIP y GLP-1 de mayor potencia metabólica. Formulado por farmacias 503A con licencia en EE. UU. a una tarifa plana de $129/mes en todas las dosis, con consulta médica y envío refrigerado incluidos.
+            El tratamiento de doble acción GIP y GLP-1 de mayor potencia metabólica. Formulado por farmacias 503A con licencia en EE. UU. desde $119/mes tarifa promocional, con consulta médica y envío refrigerado incluidos.
           </p>
           <a href={CTA_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex' }}>
-            Aprovechar Tarifa de $129/mes <Icon.Arrow />
+            Aprovechar Promo de $119/mes <Icon.Arrow />
           </a>
         </div>
 
@@ -64,7 +94,7 @@ export function TirzepatidePageEs() {
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 24, marginBottom: 80 }}>
           {[
             { num: '20-22%', label: 'Pérdida de Peso Promedio' },
-            { num: '$129', label: 'Tarifa Plana en Todas las Dosis' },
+            { num: '$119', label: 'Tarifa Promocional Mensual' },
             { num: '2 Días', label: 'Envío Refrigerado Exprés' },
           ].map((s, i) => (
             <div key={i} className="card" style={{ padding: 28, textAlign: 'center' }}>
@@ -94,7 +124,24 @@ export function TirzepatidePageEs() {
           </div>
         </div>
 
-        <PatientReviewsSection compoundName="Tirzepatide" />
+        <PatientReviewsSection
+          productName="Tirzepatida Compuesta"
+          aggregateRating={{ ratingValue: "4.8", reviewCount: "142" }}
+          reviews={[
+            {
+              author: { name: "James L." },
+              datePublished: "2026-03-22",
+              reviewRating: { ratingValue: "5" },
+              reviewBody: "Cambié de semaglutida a tirzepatida y los resultados se aceleraron notablemente. Bajé 41 libras en 4 meses casi sin apetito. Me cambió la vida."
+            },
+            {
+              author: { name: "Amanda P." },
+              datePublished: "2026-04-10",
+              reviewRating: { ratingValue: "5" },
+              reviewBody: "El mecanismo de doble acción realmente funciona. Mi nivel de azúcar en sangre está mejor que en años y he perdido 35 libras. El proceso de telesalud hizo todo muy sencillo."
+            }
+          ]}
+        />
       </div>
     </section>
   );

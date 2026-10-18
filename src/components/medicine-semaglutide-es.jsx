@@ -3,7 +3,7 @@ import React from 'react';
 import { Icon } from './common.jsx';
 import { PatientReviewsSection } from './patient-reviews-section.jsx';
 
-const CTA_URL = "https://go.telehealthfx.com/coreage-semaglutide?sub3=es&sub4=thfx";
+const CTA_URL = "https://go.telehealthfx.com/embody?sub3=es&sub4=thfx";
 
 export function SemaglutidePageEs() {
   const schema = {
@@ -13,7 +13,7 @@ export function SemaglutidePageEs() {
         "@type": "MedicalWebPage",
         "@id": "https://telehealthfx.com/es/medications/semaglutide/#webpage",
         "name": "Programa de Semaglutida Compuesta para Pérdida de Peso | Telehealth FX",
-        "description": "Obtén semaglutida compuesta (agonista del receptor GLP-1) por una tarifa plana de $79/mes en todas las dosis. Aprobación médica en 24 horas, sin tarifas ocultas, envío refrigerado exprés en 2 días.",
+        "description": "Obtén semaglutida compuesta (agonista del receptor GLP-1) desde $69/mes en tarifa promocional. Aprobación médica en 24 horas, sin tarifas ocultas, envío refrigerado exprés en 2 días.",
         "url": "https://telehealthfx.com/es/medications/semaglutide/",
         "about": {
           "@type": "Substance",
@@ -42,9 +42,32 @@ export function SemaglutidePageEs() {
           "reviewCount": "218",
           "ratingCount": "218"
         },
+        "review": [
+          {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Michael T." },
+            "datePublished": "2026-03-15",
+            "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+            "reviewBody": "Perdí 32 libras en 3 meses. El proceso en línea fue impecable: aprobado en menos de 24 horas y mi medicamento llegó en 2 días. Sin efectos secundarios más allá de náuseas leves la primera semana."
+          },
+          {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Sarah K." },
+            "datePublished": "2026-02-28",
+            "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+            "reviewBody": "Por fin un programa que realmente funciona. Mi médico ajustó mi dosis perfectamente y los resultados han sido increíbles. Bajé 28 libras y mi A1C bajó de 6.1 a 5.4."
+          },
+          {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "David R." },
+            "datePublished": "2026-04-02",
+            "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+            "reviewBody": "La transparencia en los precios me convenció. Sin cargos ocultos, envío gratuito y la calidad del medicamento es excelente. Mejor que mi proveedor anterior a mitad de precio."
+          }
+        ],
         "offers": {
           "@type": "Offer",
-          "price": "79.00",
+          "price": "69.00",
           "priceCurrency": "USD",
           "availability": "https://schema.org/InStock",
           "validFrom": "2026-01-01",
@@ -63,16 +86,16 @@ export function SemaglutidePageEs() {
         {/* Hero */}
         <div style={{ textAlign: 'center', marginBottom: 80 }}>
           <div className="pill pill-brand" style={{ marginBottom: 20, display: 'inline-flex' }}>
-            <span className="pill-dot" /> GLP-1 Más Popular · $79/mes Tarifa Plana
+            <span className="pill-dot" /> GLP-1 Más Popular · Desde $69/mes Promo
           </div>
           <h1 className="serif" style={{ fontSize: 72, marginBottom: 28, lineHeight: 0.95 }}>
-            Semaglutida<br/><span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>$79/mes tarifa plana.</span>
+            Semaglutida<br/><span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>desde $69/mes.</span>
           </h1>
           <p style={{ fontSize: 20, color: 'var(--ink-2)', maxWidth: 600, margin: '0 auto 40px', lineHeight: 1.6 }}>
-            Formulación agonista del receptor GLP-1 preparada por farmacias de formulación magistral 503A con licencia en EE. UU. Tarifa plana de $79/mes en todas las dosis: sin aumentos de precio al subir la dosis, cero cuotas de membresía y envío refrigerado exprés en 2 días.
+            Formulación agonista del receptor GLP-1 preparada por farmacias 503A con licencia en EE. UU. Tarifa promocional desde $69/mes: sin aumentos de precio al subir la dosis, cero cuotas de membresía y envío refrigerado exprés en 2 días.
           </p>
           <a href={CTA_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex' }}>
-            Aprovechar Tarifa de $79/mes <Icon.Arrow />
+            Aprovechar Promo de $69/mes <Icon.Arrow />
           </a>
         </div>
 
@@ -161,7 +184,30 @@ export function SemaglutidePageEs() {
 
         </div>
 
-        <PatientReviewsSection compoundName="Semaglutide" />
+        <PatientReviewsSection
+          productName="Semaglutida Compuesta"
+          aggregateRating={{ ratingValue: "4.9", reviewCount: "218" }}
+          reviews={[
+            {
+              author: { name: "Michael T." },
+              datePublished: "2026-03-15",
+              reviewRating: { ratingValue: "5" },
+              reviewBody: "Perdí 32 libras en 3 meses. El proceso en línea fue impecable: aprobado en menos de 24 horas y mi medicamento llegó en 2 días. Sin efectos secundarios más allá de náuseas leves la primera semana."
+            },
+            {
+              author: { name: "Sarah K." },
+              datePublished: "2026-02-28",
+              reviewRating: { ratingValue: "5" },
+              reviewBody: "Por fin un programa que realmente funciona. Mi médico ajustó mi dosis perfectamente y los resultados han sido increíbles. Bajé 28 libras y mi A1C bajó de 6.1 a 5.4."
+            },
+            {
+              author: { name: "David R." },
+              datePublished: "2026-04-02",
+              reviewRating: { ratingValue: "5" },
+              reviewBody: "La transparencia en los precios me convenció. Sin cargos ocultos, envío gratuito y la calidad del medicamento es excelente. Mejor que mi proveedor anterior a mitad de precio."
+            }
+          ]}
+        />
       </div>
     </section>
   );

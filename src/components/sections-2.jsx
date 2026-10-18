@@ -170,21 +170,21 @@ function Pricing() {
   const plans = [
     {
       name: 'Semaglutide',
-      price: '79',
+      price: '69',
       interval: 'mo',
-      note: '$79/month Flat Rate · Same price on every dose · $0 consult',
+      note: '$69 First Month Promo · Doctor consult & shipping included',
       best: true,
-      save: 'Most Popular · All Doses $79/mo',
-      cta: 'https://go.telehealthfx.com/coreage-semaglutide'
+      save: 'Most Popular · From $69/mo',
+      cta: 'https://go.telehealthfx.com/embody?aff_sub=tfx_home_pricing_sema'
     },
     {
       name: 'Tirzepatide',
-      price: '129',
+      price: '119',
       interval: 'mo',
-      note: '$129/month Flat Rate · Same price on every dose · $0 consult',
+      note: '$119 First Month Promo · Dual GIP/GLP-1 · All doses',
       best: false,
-      save: 'Strongest Results · All Doses $129/mo',
-      cta: 'https://go.telehealthfx.com/coreage-tirzepatide'
+      save: 'Strongest Results · From $119/mo',
+      cta: 'https://go.telehealthfx.com/embody?aff_sub=tfx_home_pricing_tirz'
     },
   ];
   return (
@@ -196,7 +196,7 @@ function Pricing() {
             100% Transparent Pricing.<br/><span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>No hidden fees.</span>
           </h2>
           <p style={{ maxWidth: 620, margin: '0 auto', color: 'var(--ink-2)', fontSize: 16 }}>
-            $0 doctor consultation. Zero membership fees. Flat-rate pricing starting at $79/mo. Same price on all dosages — no titration price hikes. Medication, supplies, and free 2-Day cold shipping included.
+            $0 doctor consultation. Zero membership fees. Introductory pricing starting at $69/mo. Same price on all dosages — no titration price hikes. Medication, supplies, and free 2-Day cold shipping included.
           </p>
         </div>
 

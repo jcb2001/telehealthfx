@@ -2,6 +2,7 @@ import "./globals.css";
 import { Nav } from "../components/hero.jsx";
 import { Footer } from "../components/sections-3.jsx";
 import { AnnouncementBar } from "../components/announcement-bar.jsx";
+import { MobileStickyBar } from "../components/mobile-sticky-bar.jsx";
 import { GoogleAnalytics } from "@next/third-parties/google";
 
 export const metadata = {
@@ -239,6 +240,7 @@ export default function RootLayout({ children }) {
         <div id="root-header-spacer" style={{ height: 112 }} />
         <main>{children}</main>
         <Footer />
+        <MobileStickyBar />
       </body>
     </html>
   );

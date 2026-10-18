@@ -6,14 +6,27 @@ import { Logo } from './common.jsx';
 
 const { useState: useStateNav, useEffect: useEffectNav } = React;
 
-const TRT_ROUTES = ['/blog/trt-', '/blog/does-insurance-cover-trt', '/blog/best-online-trt', '/blog/how-to-get-trt', '/blog/testosterone-', '/blog/enclomiphene-vs-trt', '/blog/hcg-with-trt', '/blog/does-trt-', '/blog/low-testosterone-', '/medications/testosterone', '/medications/enclomiphene', '/trt/'];
-function isTrtPage(path) { return TRT_ROUTES.some(r => path?.startsWith(r)); }
+function getPageCtaUrl(pathname) {
+  if (!pathname) return 'https://go.telehealthfx.com/embody?aff_sub=tfx_nav';
+  const p = pathname.toLowerCase();
+  if (p.includes('sermorelin')) return 'https://go.telehealthfx.com/sermorelin';
+  if (p.includes('enclomiphene')) return 'https://go.telehealthfx.com/enclomiphene';
+  if (p.includes('nad')) return 'https://go.telehealthfx.com/nad';
+  if (p.includes('tablets') || p.includes('oral-glp')) return 'https://go.telehealthfx.com/willow?aff_sub=tfx_nav_tablets';
+  if (p.includes('tretinoin') || p.includes('retinoid') || p.includes('smooth-move')) return 'https://go.telehealthfx.com/retinoid';
+  if (p.includes('copper-peptide')) return 'https://go.telehealthfx.com/copper-peptide';
+  if (p.includes('spot-on')) return 'https://go.telehealthfx.com/spot-on';
+  if (p.includes('trt') || p.includes('testosterone')) return 'https://go.telehealthfx.com/coreage-trt';
+  if (p.includes('ed')) return 'https://go.telehealthfx.com/coreage-ed';
+  if (p.includes('hair')) return 'https://go.telehealthfx.com/hair';
+  if (p.includes('tirzepatide') || p.includes('zepbound') || p.includes('mounjaro')) return 'https://go.telehealthfx.com/embody?aff_sub=tfx_nav_tirz';
+  return 'https://go.telehealthfx.com/embody?aff_sub=tfx_nav';
+}
 
 function Nav() {
   const [scrolled, setScrolled] = useStateNav(false);
   const pathname = usePathname();
-  const trt = isTrtPage(pathname);
-  const ctaUrl = trt ? 'https://go.telehealthfx.com/coreage-trt' : 'https://go.telehealthfx.com/coreage-glp1';
+  const ctaUrl = getPageCtaUrl(pathname);
   useEffectNav(() => {
     const onScroll = () => setScrolled(window.scrollY > 20);
     window.addEventListener('scroll', onScroll);
@@ -91,7 +104,7 @@ function HeroDefault({ headline, priceAnchor }) {
             GLP-1 weight loss medication, delivered. A personalized clinical program with 100% transparent pricing, 6-month payment plans, and 2-Day UPS shipping to your door.
           </p>
           <div className="flex-row stack-mobile" style={{ gap: 12, marginBottom: 40 }}>
-            <a className="btn btn-primary btn-lg" href="https://go.telehealthfx.com/coreage-glp1">
+            <a className="btn btn-primary btn-lg" href="https://go.telehealthfx.com/embody?aff_sub=tfx_hero">
               See If You Qualify <Icon.Arrow />
             </a>
           </div>

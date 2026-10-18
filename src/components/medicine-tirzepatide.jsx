@@ -3,7 +3,7 @@ import React from 'react';
 import { Icon } from './common.jsx';
 import { PatientReviewsSection } from './patient-reviews-section.jsx';
 
-const CTA_URL = "https://go.telehealthfx.com/coreage-tirzepatide";
+const CTA_URL = "https://go.telehealthfx.com/embody?aff_sub=tfx_tirz_page";
 
 function TirzepatidePage() {
   const schema = {
@@ -13,7 +13,7 @@ function TirzepatidePage() {
         "@type": "MedicalWebPage",
         "@id": "https://telehealthfx.com/medications/tirzepatide/#webpage",
         "name": "Tirzepatide Weight Loss Program | Telehealth FX",
-        "description": "Dual GIP and GLP-1 receptor agonist therapy for superior metabolic weight management. Flat rate $129/month across all doses. 24-hour approval and cold-chain overnight shipping.",
+        "description": "Dual GIP and GLP-1 receptor agonist therapy for superior metabolic weight management. Promotional introductory rate from $119/month across all doses. 24-hour approval and cold-chain overnight shipping.",
         "url": "https://telehealthfx.com/medications/tirzepatide/",
         "about": {
           "@type": "Substance",
@@ -60,7 +60,7 @@ function TirzepatidePage() {
         ],
         "offers": {
           "@type": "Offer",
-          "price": "129.00",
+          "price": "119.00",
           "priceCurrency": "USD",
           "availability": "https://schema.org/InStock",
           "validFrom": "2026-01-01",
@@ -78,23 +78,23 @@ function TirzepatidePage() {
 
         <div style={{ textAlign: 'center', marginBottom: 80 }}>
           <div className="pill" style={{ marginBottom: 20, display: 'inline-flex', background: 'rgba(199, 125, 92, 0.12)', borderColor: 'rgba(199, 125, 92, 0.3)', color: 'var(--accent)' }}>
-            <span style={{ width: 6, height: 6, borderRadius: '50%', background: 'var(--accent)' }}/> Strongest Results · $129/mo Flat Rate
+            <span style={{ width: 6, height: 6, borderRadius: '50%', background: 'var(--accent)' }}/> Strongest Results · From $119/mo Promo Rate
           </div>
           <h1 className="serif" style={{ fontSize: 72, marginBottom: 28, lineHeight: 0.95 }}>
-            Tirzepatide<br/><span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>$129/mo flat.</span>
+            Tirzepatide<br/><span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>from $119/mo.</span>
           </h1>
           <p style={{ fontSize: 20, color: 'var(--ink-2)', maxWidth: 600, margin: '0 auto 40px', lineHeight: 1.6 }}>
-            Dual GIP/GLP-1 receptor agonist formulation — the most powerful class available for maximum weight loss. Flat $129/month across all doses — no dosage price increases, zero membership fees, and free 2-day cold shipping.
+            Dual GIP/GLP-1 receptor agonist formulation — the most powerful class available for maximum weight loss. From $119/month promotional introductory rate — no dosage price increases, zero membership fees, and free 2-day cold shipping.
           </p>
           <a href={CTA_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex' }}>
-            Claim $129/mo Flat Rate <Icon.Arrow />
+            Claim $119/mo Promo Rate <Icon.Arrow />
           </a>
         </div>
 
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 24, marginBottom: 80 }}>
           {[
             { num: '~22%', label: 'Average Body Weight Loss' },
-            { num: '$129', label: 'Flat Monthly Rate' },
+            { num: '$119', label: 'Promo Monthly Rate' },
             { num: 'Dual', label: 'GIP + GLP-1 Action' },
           ].map((s, i) => (
             <div key={i} className="card" style={{ padding: 28, textAlign: 'center' }}>
