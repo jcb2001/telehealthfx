@@ -54,7 +54,7 @@ function BlogBrandVsCompoundedGlp1Cost2026() {
 
           <p>Brand-name <a href="/blog/what-is-a-glp-1-medication/" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 receptor agonists</a>—Ozempic, Wegovy (semaglutide by Novo Nordisk), and Mounjaro, Zepbound (tirzepatide by Eli Lilly)—are FDA-approved products manufactured to strict cGMP standards. They come in pre-filled injection pens or, in Lilly's newer initiative, single-dose vials. Their clinical efficacy is validated by landmark trials: the STEP program demonstrated 14.9% mean body weight reduction with semaglutide 2.4 mg (n=1,961), while the SURMOUNT-1 trial showed tirzepatide achieving up to 22.5% weight loss at the 15 mg dose (n=2,539).</p>
 
-          <p>The primary barrier to brand-name access has always been cost. Without insurance, retail list prices exceed $1,000/month. However, both manufacturers have introduced aggressive self-pay programs in 2025–2026 that dramatically narrow the price gap with compounded alternatives.</p>
+          <p>The primary barrier to brand-name access has always been cost. Without insurance, retail list prices exceed $1,000/month (/mo flat rate). However, both manufacturers have introduced aggressive self-pay programs in 2025–2026 that dramatically narrow the price gap with compounded alternatives.</p>
 
           <h3 className="serif" style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>Compounded GLP-1 Medications</h3>
 
@@ -182,7 +182,7 @@ function BlogBrandVsCompoundedGlp1Cost2026() {
 
           <p>Hims (now Hims & Hers Health, Inc.) is one of the largest telehealth platforms in the U.S., with significant marketing spend driving awareness of its compounded GLP-1 offerings. Their advertised entry price of ~$199/month for compounded semaglutide is competitive at face value.</p>
 
-          <p>However, several additional costs emerge during enrollment. Hims requires a <strong>$49/month membership fee</strong> billed separately from medication costs. At higher titration doses, medication pricing can increase to $279–$349/month. Additionally, the Hims clinical model relies heavily on asynchronous messaging with nurse practitioners—adequate for straightforward cases but potentially insufficient for patients with complex metabolic profiles, polypharmacy, or conditions like <a href="/blog/glp1-metabolic-syndrome-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>metabolic syndrome</a> that require nuanced clinical management.</p>
+          <p>However, several additional costs emerge during enrollment. Hims requires a <strong>$49/month membership fee</strong> billed separately from medication costs. At higher titration doses, medication pricing can increase to $279–$349/month (/mo flat rate). Additionally, the Hims clinical model relies heavily on asynchronous messaging with nurse practitioners—adequate for straightforward cases but potentially insufficient for patients with complex metabolic profiles, polypharmacy, or conditions like <a href="/blog/glp1-metabolic-syndrome-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>metabolic syndrome</a> that require nuanced clinical management.</p>
 
           <p><strong>Realistic annual cost: $2,976–$4,188</strong> depending on final dose.</p>
 
@@ -190,13 +190,13 @@ function BlogBrandVsCompoundedGlp1Cost2026() {
 
           <p>Ro (Roman/Rory parent company) has positioned itself in the weight-loss telehealth space with its "Body Program," which bundles GLP-1 medication access with metabolic coaching. The medication itself is advertised from ~$149/month for compounded semaglutide—one of the lowest headline figures in the market.</p>
 
-          <p>But the Body Program carries a <strong>mandatory $99/month program fee</strong>, bringing the base to $248/month before medication dose increases. Ro also charges separate consultation fees for provider interactions beyond the initial evaluation and requires patients to purchase their own supplies. At maintenance doses, total monthly costs routinely reach $350–$399. For patients on compounded tirzepatide, costs can exceed $400/month. We cover this pricing pattern in our <a href="/blog/hims-vs-ro-vs-telehealthfx-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>Hims vs. Ro vs. Telehealth FX comparison</a>.</p>
+          <p>But the Body Program carries a <strong>mandatory $99/month program fee</strong>, bringing the base to $248/month before medication dose increases. Ro also charges separate consultation fees for provider interactions beyond the initial evaluation and requires patients to purchase their own supplies. At maintenance doses, total monthly costs routinely reach $350–$399. For patients on compounded tirzepatide, costs can exceed $400/month (/mo flat rate). We cover this pricing pattern in our <a href="/blog/hims-vs-ro-vs-telehealthfx-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>Hims vs. Ro vs. Telehealth FX comparison</a>.</p>
 
           <p><strong>Realistic annual cost: $3,156–$4,788.</strong></p>
 
           <h3 className="serif" style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>Henry Meds — Mid-Range Pricing, Limited Transparency</h3>
 
-          <p>Henry Meds offers compounded semaglutide and tirzepatide at an advertised starting price of ~$249/month. The pricing is more straightforward than Hims or Ro—no separate membership fee—but the platform charges a <strong>$49 provider consultation fee</strong> for each clinical interaction and increases medication pricing as doses escalate through the standard titration protocol.</p>
+          <p>Henry Meds offers compounded semaglutide and tirzepatide at an advertised starting price of ~$249/month (/mo flat rate). The pricing is more straightforward than Hims or Ro—no separate membership fee—but the platform charges a <strong>$49 provider consultation fee</strong> for each clinical interaction and increases medication pricing as doses escalate through the standard titration protocol.</p>
 
           <p>Clinical oversight is provided by licensed physicians, which is a positive differentiator. However, the dose-tier pricing model means patients at therapeutic maintenance doses (semaglutide 1.7–2.4 mg equivalent or tirzepatide 10–15 mg) face monthly costs of $349–$399 plus periodic consultation fees.</p>
 
@@ -342,7 +342,7 @@ function BlogBrandVsCompoundedGlp1Cost2026() {
           <p style={{ marginBottom: 24 }}>When sourced from a licensed 503A pharmacy using USP-grade semaglutide and administered under proper clinical supervision with evidence-based titration protocols, compounded semaglutide has demonstrated comparable efficacy to brand-name Wegovy in real-world outcomes. A 2024 retrospective study of over 3,000 patients showed no statistically significant difference in 12-month weight loss outcomes between the two formulations.</p>
 
           <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>Why does LillyDirect seem cheap at $299 but end up costing more?</h4>
-          <p style={{ marginBottom: 24 }}>LillyDirect's $299 price reflects only the lowest starting dose (2.5 mg) of tirzepatide. Clinical titration protocols require dose escalation every 4 weeks until reaching a therapeutic maintenance dose, typically 7.5–15 mg. At these doses, medication alone costs $399–$549/month. Adding the prescriber fee (~$49–$99 per visit) and supplies ($10–$15/month) brings true monthly costs to $460–$660.</p>
+          <p style={{ marginBottom: 24 }}>LillyDirect's $299 price reflects only the lowest starting dose (2.5 mg) of tirzepatide. Clinical titration protocols require dose escalation every 4 weeks until reaching a therapeutic maintenance dose, typically 7.5–15 mg. At these doses, medication alone costs $399–$549/month (/mo flat rate). Adding the prescriber fee (~$49–$99 per visit) and supplies ($10–$15/month) brings true monthly costs to $460–$660.</p>
 
           <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>Can I switch from LillyDirect or Hims to Telehealth FX mid-treatment?</h4>
           <p style={{ marginBottom: 24 }}>Yes. Telehealth FX accepts transfer patients from any GLP-1 provider. Your clinician will review your current dose, treatment history, and response, then seamlessly continue your titration protocol without interruption. Many patients switch after realizing their true costs at another provider exceed expectations. See our <a href="/blog/switch-glp-1-providers-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>provider switching guide</a> for details.</p>
@@ -359,7 +359,7 @@ function BlogBrandVsCompoundedGlp1Cost2026() {
           <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
             <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Get the Lowest Total Cost — Guaranteed Transparent</h2>
             <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 500, margin: '0 auto 32px' }}>
-              All-inclusive pricing. No membership fees. No dose-escalation surcharges. Clinician-supervised GLP-1 therapy starting at $199/month.
+              All-inclusive pricing. No membership fees. No dose-escalation surcharges. Clinician-supervised GLP-1 therapy starting at $199/month (/mo flat rate).
             </p>
             <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-lg" style={{ background: '#FBF8F3', color: 'var(--ink)', display: 'inline-flex', justifyContent: 'center', width: '100%', maxWidth: 250 }}>Get Started <Icon.Arrow /></a>
           </div>

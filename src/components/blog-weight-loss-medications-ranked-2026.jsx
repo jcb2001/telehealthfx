@@ -161,7 +161,7 @@ function BlogWeightLossMedicationsRanked() {
             <p>The most studied weight loss medication with the strongest outcomes data. The SELECT trial proved a 20% reduction in cardiovascular events. The FLOW trial proved kidney protection. Available as compounded semaglutide from $99 for the first month (then $190–$199/month; Affirm from ~$25/mo).</p>
 
             <h3 style={{ fontSize: 22, marginTop: 32, marginBottom: 12, color: 'var(--ink)' }}>Liraglutide (Saxenda)</h3>
-            <p>The first-generation GLP-1 weight loss drug. Requires daily injection (vs. weekly for semaglutide). Produces 8% weight loss — roughly half of semaglutide. Still costs $1,349/month. There is almost no clinical scenario where liraglutide is preferred over semaglutide in 2026.</p>
+            <p>The first-generation GLP-1 weight loss drug. Requires daily injection (vs. weekly for semaglutide). Produces 8% weight loss — roughly half of semaglutide. Still costs $1,349/month (/mo flat rate). There is almost no clinical scenario where liraglutide is preferred over semaglutide in 2026.</p>
 
             <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
               <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>The #1 and #2 Ranked Medications. Both Available from $99 1st Mo.</h3>

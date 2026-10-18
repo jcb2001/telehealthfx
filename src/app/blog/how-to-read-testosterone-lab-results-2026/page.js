@@ -88,7 +88,7 @@ export default function Page() {
           {
             "@type": "Offer",
             "name": "Telehealth FX TRT Clinical Protocol (Testosterone Cypionate)",
-            "price": "79.00",
+            "price": "89.00",
             "priceCurrency": "USD",
             "availability": "https://schema.org/InStock",
             "validFrom": "2026-01-01",

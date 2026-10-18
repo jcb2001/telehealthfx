@@ -128,7 +128,7 @@ export function BlogGlp1MenTrtPreservation() {
             Lose Fat, Not Muscle: Start Dual Therapy Today
           </h3>
           <p style={{ color: '#475569', fontSize: '16px', maxWidth: '600px', margin: '0 auto 24px' }}>
-            Compounded GLP-1 starting at $99 for your first month ($146 flat after), paired with physician-managed TRT for just $79/month. Zero membership dues.
+            Compounded GLP-1 starting at $99 for your first month ($146 flat after), paired with physician-managed TRT for just $79/month (/mo flat rate). Zero membership dues.
           </p>
           <a
             href={START_URL}

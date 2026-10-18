@@ -74,7 +74,7 @@ function BlogCompoundedDosingGuide() {
 
       <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
         <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>More Flexibility Than Ozempic Pens. At a Fraction of the Cost.</h2>
-        <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 500, margin: '0 auto 32px' }}>From $199/month. Custom doses. Everything shipped to your door. Month-to-month.</p>
+        <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 500, margin: '0 auto 32px' }}>From $199/month (/mo flat rate). Custom doses. Everything shipped to your door. Month-to-month.</p>
         <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-lg" style={{ background: '#FBF8F3', color: 'var(--ink)', display: 'inline-flex', justifyContent: 'center', width: '100%', maxWidth: 250 }}>Get Started <Icon.Arrow /></a>
       </div>
       <div style={{ marginTop: 80, paddingTop: 40, borderTop: '1px solid var(--line-soft)', fontSize: 14, color: 'var(--ink-3)' }}>

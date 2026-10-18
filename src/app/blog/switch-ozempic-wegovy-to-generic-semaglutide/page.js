@@ -3,13 +3,13 @@ import { BlogSwitchOzempicToGeneric } from "../../../components/blog-switch-ozem
 export const metadata = {
   robots: { index: true, follow: true },
   title: "Switch from Ozempic to Generic: Dose Matching & Titration",
-  description: "How to switch from Ozempic to generic semaglutide seamlessly. Review complete dose conversion charts, maintain appetite suppression, and save over $1,000/month.",
+  description: "How to switch from Ozempic to generic semaglutide seamlessly. Review complete dose conversion charts, maintain appetite suppression, and save over $1,000/month (/mo flat rate).",
   alternates: {
     canonical: 'https://telehealthfx.com/blog/switch-ozempic-wegovy-to-generic-semaglutide/',
   },
   openGraph: {
     title: "Switch from Ozempic to Generic: Dose Matching & Titration",
-    description: "How to switch from Ozempic to generic semaglutide seamlessly. Review complete dose conversion charts, maintain appetite suppression, and save over $1,000/month.",
+    description: "How to switch from Ozempic to generic semaglutide seamlessly. Review complete dose conversion charts, maintain appetite suppression, and save over $1,000/month (/mo flat rate).",
     url: 'https://telehealthfx.com/blog/switch-ozempic-wegovy-to-generic-semaglutide/',
     siteName: 'Telehealth FX',
     images: [
@@ -32,7 +32,7 @@ export default function Page() {
         "@id": "https://telehealthfx.com/blog/switch-ozempic-wegovy-to-generic-semaglutide/#webpage",
         "url": "https://telehealthfx.com/blog/switch-ozempic-wegovy-to-generic-semaglutide/",
         "headline": "Switch from Ozempic to Generic: Dose Matching & Titration",
-        "description": "How to switch from Ozempic to generic semaglutide seamlessly. Review complete dose conversion charts, maintain appetite suppression, and save over $1,000/month.",
+        "description": "How to switch from Ozempic to generic semaglutide seamlessly. Review complete dose conversion charts, maintain appetite suppression, and save over $1,000/month (/mo flat rate).",
         "datePublished": "2026-09-16",
         "dateModified": "2026-09-16",
         "author": {

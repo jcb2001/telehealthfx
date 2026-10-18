@@ -65,7 +65,7 @@ function BlogCheapestCompoundedSemaglutide() {
             </table>
           </div>
 
-          <p>The critical takeaway: a provider advertising "$99/month semaglutide" with a mandatory $149/month membership fee has a <strong>true cost of $248/month</strong>—more expensive than an all-inclusive provider at $199/month. Always calculate the total before comparing.</p>
+          <p>The critical takeaway: a provider advertising "$99/month semaglutide" with a mandatory $149/month membership fee has a <strong>true cost of $248/month</strong>—more expensive than an all-inclusive provider at $199/month (/mo flat rate). Always calculate the total before comparing.</p>
 
           <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
             <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Transparent Pricing. Period.</h3>
@@ -115,7 +115,7 @@ function BlogCheapestCompoundedSemaglutide() {
           <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Frequently Asked Questions</h2>
 
           <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>What is the cheapest way to get semaglutide in 2026?</h4>
-          <p style={{ marginBottom: 24 }}>Compounded semaglutide through an all-inclusive telehealth provider (no membership fees) typically offers the lowest true monthly cost at $150–$300/month. Always compare total cost, not just advertised medication price.</p>
+          <p style={{ marginBottom: 24 }}>Compounded semaglutide through an all-inclusive telehealth provider (no membership fees) typically offers the lowest true monthly cost at $150–$300/month (/mo flat rate). Always compare total cost, not just advertised medication price.</p>
 
           <h4 style={{ fontSize: 20, marginTop: 24, marginBottom: 8, color: 'var(--ink)' }}>Why do some providers charge less than $100/month?</h4>
           <p style={{ marginBottom: 24 }}>Providers advertising sub-$100 semaglutide almost always have a separate mandatory membership fee ($49–$149/month), charge extra for consultations, use starting-dose-only pricing, or source from unverified pharmacies. Calculate total cost before committing.</p>

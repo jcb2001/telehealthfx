@@ -135,7 +135,7 @@ export default function Page() {
             "name": "What is the cheapest GLP-1 medication without insurance?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Compounded semaglutide through SkinnyRx is typically the most affordable clinical option, starting at $99 for the first month and $190–$199/month ongoing with all-inclusive pricing ($0 doctor consult, free cold-chain shipping). Eligible patients can also use Affirm financing from ~$25/month."
+              "text": "Compounded semaglutide through SkinnyRx is typically the most affordable clinical option, starting at $99 for the first month and $190–$199/month ongoing with all-inclusive pricing ($0 doctor consult, free cold-chain shipping). Eligible patients can also use Affirm financing from ~$25/month (/mo flat rate)."
             }
           },
           {

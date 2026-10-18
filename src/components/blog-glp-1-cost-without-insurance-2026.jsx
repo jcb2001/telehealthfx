@@ -161,8 +161,8 @@ function BlogGLP1CostWithoutInsurance() {
             <p>The Federal Trade Commission has launched enforcement actions against commercial telehealth operators under the <strong>FTC Guides Against Deceptive Pricing (16 CFR Part 233)</strong>. Many heavily advertised direct-to-consumer platforms use fine-print billing models that increase out-of-pocket costs by $1,200 to $2,400 annually:</p>
 
             <ol>
-              <li style={{ marginBottom: 16 }}><strong>Monthly "Membership" Dues ($49–$149/mo):</strong> Advertising "$99/month medication," while charging a separate mandatory monthly platform subscription. True monthly cost: $248–$348/month. SkinnyRx charges <strong>$0.00 platform membership fees</strong>.</li>
-              <li style={{ marginBottom: 16 }}><strong>Dose Escalation Surcharges:</strong> Advertising introductory doses (0.25 mg semaglutide) at low prices, but escalating maintenance doses (1.7 mg to 2.4 mg) to $399–$599/month.</li>
+              <li style={{ marginBottom: 16 }}><strong>Monthly "Membership" Dues ($49–$149/mo):</strong> Advertising "$99/month medication," while charging a separate mandatory monthly platform subscription. True monthly cost: $248–$348/month (/mo flat rate). SkinnyRx charges <strong>$0.00 platform membership fees</strong>.</li>
+              <li style={{ marginBottom: 16 }}><strong>Dose Escalation Surcharges:</strong> Advertising introductory doses (0.25 mg semaglutide) at low prices, but escalating maintenance doses (1.7 mg to 2.4 mg) to $399–$599/month (/mo flat rate).</li>
               <li style={{ marginBottom: 16 }}><strong>Clinician Consultation Surcharges ($75–$150/visit):</strong> Billing separately for doctor evaluations, dosage adjustments, and refill authorizations.</li>
               <li style={{ marginBottom: 16 }}><strong>Cold-Chain Shipping Line Items ($25–$45/shipment):</strong> Charging extra for temperature-controlled insulated packaging.</li>
             </ol>

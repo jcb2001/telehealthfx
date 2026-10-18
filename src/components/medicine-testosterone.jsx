@@ -51,7 +51,7 @@ function TestosteronePage() {
         "@type": "MedicalWebPage",
         "@id": "https://telehealthfx.com/medications/testosterone/#webpage",
         "name": "Testosterone Therapy (TRT) Program | Telehealth FX",
-        "description": "Get prescribed Testosterone Replacement Therapy (TRT) online — injectable, oral, or topical. From $93/mo with licensed clinicians, free discreet shipping, and a price match guarantee.",
+        "description": "Get prescribed Testosterone Replacement Therapy (TRT) online — injectable, oral, or topical. From $89/mo with licensed clinicians, free discreet shipping, and zero hidden fees.",
         "url": "https://telehealthfx.com/medications/testosterone/",
         "lastReviewed": "2026-05-12",
         "medicalAudience": {
@@ -143,7 +143,7 @@ function TestosteronePage() {
         ],
         "offers": {
           "@type": "Offer",
-          "price": "93.00",
+          "price": "89.00",
           "priceCurrency": "USD",
           "availability": "https://schema.org/InStock",
           "validFrom": "2026-01-01",
@@ -337,9 +337,9 @@ function TestosteronePage() {
           <p>All plans include licensed clinician oversight, medication, and free discreet shipping. No hidden fees.</p>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 20, margin: '32px 0' }}>
             {[
-              { plan: 'Annual', price: '$93', period: '/mo', note: 'Best Value — $93/mo billed annually', highlight: true },
-              { plan: 'Quarterly', price: '$96', period: '/mo', note: 'Popular option', highlight: false },
-              { plan: 'Monthly', price: '$99', period: '/mo', note: 'Standard month-to-month', highlight: false },
+              { plan: '6-Month Plan', price: '$89', period: '/mo', note: 'Best Value — $89/mo ($534 billed biannually)', highlight: true },
+              { plan: 'Quarterly', price: '$95', period: '/mo', note: 'Popular option — $95/mo billed quarterly', highlight: false },
+              { plan: 'Month-to-Month', price: '$99', period: '/mo', note: 'Flexible month-to-month flat rate', highlight: false },
             ].map((p, i) => (
               <div key={i} className="card" style={{
                 padding: 32,
@@ -362,7 +362,7 @@ function TestosteronePage() {
                 <a href={CTA_URL} target="_blank" rel="noopener noreferrer"
                   className={`btn ${p.highlight ? 'btn-primary' : 'btn-secondary'}`}
                   style={{ width: '100%', justifyContent: 'center' }}>
-                  Learn More
+                  Get Started →
                 </a>
               </div>
             ))}
@@ -373,8 +373,8 @@ function TestosteronePage() {
           <div style={{ display: 'grid', gridTemplateColumns: '48px 1fr', gap: '20px 16px', margin: '32px 0' }}>
             {[
               { step: '1', title: 'Health Assessment', desc: 'Complete a quick online questionnaire about your symptoms, medical history, and goals. Already have recent blood work? Upload it to fast-track your review.' },
-              { step: '2', title: 'Clinician Review & Labs', desc: 'A licensed clinician reviews your assessment. If labs are needed, get nationwide bloodwork access for as low as $95 — testing Free & Total Testosterone, PSA, CBC, FSH, and LH.' },
-              { step: '3', title: 'Treatment & Ongoing Care', desc: 'Your personalized TRT protocol is prescribed and shipped free to your door. Enjoy unlimited provider access and regular check-ins to optimize your results.' },
+              { step: '2', title: 'Clinician Review & Labs', desc: 'A licensed clinician reviews your assessment. If labs are needed, get nationwide bloodwork access for $129 through partner labs (LabCorp/Quest), or upload qualifying labs from your PCP.' },
+              { step: '3', title: 'Treatment & Ongoing Care', desc: 'Your personalized TRT protocol (Testosterone Cypionate or topical) with all injection supplies is prescribed and shipped free to your door. Enjoy unlimited provider access and regular check-ins.' },
             ].map((s, i) => (
               <React.Fragment key={i}>
                 <div style={{ width: 48, height: 48, borderRadius: '50%', background: 'var(--brand)', color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 600, fontSize: 18, fontFamily: 'var(--sans)', flexShrink: 0 }}>{s.step}</div>

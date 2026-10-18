@@ -33,7 +33,7 @@ function BlogCalibrateVsFoundVsHenryMeds() {
       <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Calibrate: Deep Dive</h2>
       <p><strong>Best for:</strong> Patients with insurance coverage who want a structured, year-long metabolic reset program with curriculum-based behavioral change.</p>
       <p><strong>The sell:</strong> Calibrate positions itself as a "metabolic reset" — not just medication. You get a structured curriculum, regular coaching check-ins, and insurance navigation support.</p>
-      <p><strong>The catch:</strong> The $1,499 program fee is on top of medication costs. If your insurance denies coverage for Wegovy or Zepbound, you{"'"}re paying the program fee PLUS $1,300+/month for brand-name medication. That{"'"}s $2,800+/month. The 12-month commitment means you{"'"}re locked in even if the program isn{"'"}t working for you.</p>
+      <p><strong>The catch:</strong> The $1,499 program fee is on top of medication costs. If your insurance denies coverage for Wegovy or Zepbound, you{"'"}re paying the program fee PLUS $1,300+/month for brand-name medication. That{"'"}s $2,800+/month (/mo flat rate). The 12-month commitment means you{"'"}re locked in even if the program isn{"'"}t working for you.</p>
 
       <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Found: Deep Dive</h2>
       <p><strong>Best for:</strong> Patients who want holistic behavioral coaching alongside medication and prefer a wider range of medication options (not just GLP-1).</p>

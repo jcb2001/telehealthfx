@@ -164,7 +164,7 @@ function Blog5LeadingGLP1Therapies() {
 
       <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
         <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Find the Right Program for Your Metabolism</h2>
-        <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 500, margin: '0 auto 32px' }}>Start your clinical evaluation today. Telehealth FX offers personalized compounded GLP-1 programs and hormone optimization with no insurance required, starting at $199/month.</p>
+        <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 500, margin: '0 auto 32px' }}>Start your clinical evaluation today. Telehealth FX offers personalized compounded GLP-1 programs and hormone optimization with no insurance required, starting at $199/month (/mo flat rate).</p>
         <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-lg" style={{ background: '#FBF8F3', color: 'var(--ink)', display: 'inline-flex', justifyContent: 'center', width: '100%', maxWidth: 250 }}>Get Started <Icon.Arrow /></a>
       </div>
 

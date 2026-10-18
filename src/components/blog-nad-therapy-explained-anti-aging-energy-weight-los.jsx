@@ -3,7 +3,7 @@ import React from 'react';
 import Image from 'next/image';
 import { Icon } from './common.jsx';
 
-const START_URL = "https://go.telehealthfx.com/start";
+const START_URL = "https://go.telehealthfx.com/nad";
 
 export function BlogNadTherapyExplainedAntiAgingEnergyWeightLos() {
   return (

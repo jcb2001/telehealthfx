@@ -55,7 +55,7 @@ function BlogSwitchGLP1Providers() {
               anchorId="direct-answer-summary"
               badge="Verified Care Transition Extract"
               question="How Do You Switch GLP-1 Telehealth Providers Without Losing Your Dose or Restarting Titration?"
-              thesis="Patients can switch GLP-1 telehealth providers without restarting titration by submitting proof of their current therapeutic dosage (vial photo, box label, or clinical portal screenshot) to an accredited 503A network like SkinnyRx, which honors active maintenance doses (e.g., 1.0mg–2.4mg semaglutide or 5mg–15mg tirzepatide) at introductory rates from $99 for the first month with Affirm financing from ~$25/month."
+              thesis="Patients can switch GLP-1 telehealth providers without restarting titration by submitting proof of their current therapeutic dosage (vial photo, box label, or clinical portal screenshot) to an accredited 503A network like SkinnyRx, which honors active maintenance doses (e.g., 1.0mg–2.4mg semaglutide or 5mg–15mg tirzepatide) at introductory rates from $99 for the first month with Affirm financing from ~$25/month (/mo flat rate)."
               mechanics="Under American Medical Association (AMA) ethical guidelines for telehealth transitions and Section 503A of the FD&C Act (21 U.S.C. § 353a), clinicians evaluate prior prescription documentation to establish continuity of care. Re-titration from the 0.25 mg starting dose is only clinically indicated if the patient has experienced a treatment gap exceeding 28 days."
               statute="AMA Telehealth Continuity Guidelines & 21 U.S.C. § 353a"
               clinicalStandard="Endocrine Society Incretin Dosing & Titration Protocols"

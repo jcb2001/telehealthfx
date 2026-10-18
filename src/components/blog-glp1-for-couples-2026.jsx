@@ -40,8 +40,8 @@ function BlogGLP1ForCouples() {
       <p>Two subscriptions are obviously more than one — but the per-person economics improve significantly when you factor in shared household costs:</p>
       <ul>
         <li style={{ marginBottom: 12 }}><strong>Semaglutide for two:</strong> $199 × 2 = $398/month household. With <a href="/blog/hsa-fsa-glp-1-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>HSA/FSA</a>, effective cost drops to ~$270/month for the household (~$135/person).</li>
-        <li style={{ marginBottom: 12 }}><strong>Tirzepatide for two:</strong> $349 × 2 = $698/month. HSA-adjusted: ~$475/month (~$237/person).</li>
-        <li style={{ marginBottom: 12 }}><strong>Mixed protocol:</strong> One partner on semaglutide ($199) + one on tirzepatide ($349) = $548/month. This is common when partners have different metabolic needs.</li>
+        <li style={{ marginBottom: 12 }}><strong>Tirzepatide for two:</strong> $349 × 2 = $698/month (/mo flat rate). HSA-adjusted: ~$475/month (~$237/person).</li>
+        <li style={{ marginBottom: 12 }}><strong>Mixed protocol:</strong> One partner on semaglutide ($199) + one on tirzepatide ($349) = $548/month (/mo flat rate). This is common when partners have different metabolic needs.</li>
         <li style={{ marginBottom: 12 }}><strong>Tax benefit:</strong> Both prescriptions are <a href="/blog/glp1-tax-deduction-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>tax-deductible medical expenses</a>. Combined, a couple spending $548/month = $6,576/year, which easily exceeds the 7.5% AGI threshold for Schedule A deductions.</li>
       </ul>
       <p>Compare this to a gym membership ($100/month × 2), meal delivery ($600/month × 2), or Weight Watchers ($45/month × 2 + the cost of constantly failing). The math is clear. For full pricing, see our <a href="/blog/semaglutide-real-cost-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>semaglutide cost guide</a> and <a href="/blog/tirzepatide-cost-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>tirzepatide cost guide</a>.</p>

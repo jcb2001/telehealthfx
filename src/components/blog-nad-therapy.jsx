@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Head from 'next/head';
 import { Icon } from './common.jsx';
 
-const START_URL = "https://go.telehealthfx.com/start";
+const START_URL = "https://go.telehealthfx.com/nad";
 
 function BlogNadTherapy() {
   return (

@@ -23,7 +23,7 @@ if (process.env.NODE_EXTRA_CA_CERTS && process.env.NODE_TLS_REJECT_UNAUTHORIZED 
 
 const KEY_FILE = path.join(projectRoot, 'service-account-telehealthfx.json');
 const batchArg = process.argv.find(a => a.startsWith('--batch='));
-const batchNum = batchArg ? batchArg.split('=')[1] : '5';
+const batchNum = batchArg ? batchArg.split('=')[1] : '6';
 
 let PRIORITY_FILE = path.join(projectRoot, 'src', 'data', `priority-200-urls-batch${batchNum}.json`);
 if (!fs.existsSync(PRIORITY_FILE)) {
@@ -99,7 +99,12 @@ async function main() {
 
   const urls = getUrlsToIndex();
   console.log(`📌 Queued EXACTLY ${urls.length} URLs (Batch ${batchNum} — 100% of Google's daily 200 quota).`);
-  if (batchNum === '5') {
+  if (batchNum === '6') {
+    console.log(`   ├─ Tier 1: 5 Net-New High-CPC Clinical Authority Blogs (Sermorelin, Enclomiphene, NAD+, Oral GLP-1, Tretinoin)`);
+    console.log(`   ├─ Tier 2: 34 Core Commercial Medications, Pricing, Shortage Tracker & Showdown Hubs`);
+    console.log(`   ├─ Tier 3: 59 Native Spanish Expansion Hubs (/es/ & all 50 State GLP-1 Hubs)`);
+    console.log(`   └─ Tier 4: 102 High-Impression Metropolitan Centers & Core Protocol Guides`);
+  } else if (batchNum === '5') {
     console.log(`   ├─ Tier 1: 38 Pages Created/Modified Today (CoreAge Lines, Homepage, Medications Directory, Articles)`);
     console.log(`   ├─ Tier 2: 11 Full Medication & Compounding Formulations`);
     console.log(`   ├─ Tier 3: 12 Phase 3 KGR Authority Hubs, Calculators & Comparison Showdowns`);

@@ -187,7 +187,7 @@ function BlogBerberineVsOzempic() {
             <li style={{ marginBottom: 12 }}>You only have 5 to 10 pounds to lose and want gentle, natural metabolic support.</li>
             <li style={{ marginBottom: 12 }}>You are managing mild insulin resistance or PCOS and want a non-prescription option (see our <a href="/blog/berberine-pcos-weight-loss/" style={{ color: 'var(--brand)', fontWeight: 500 }}>Berberine for PCOS guide</a>).</li>
             <li style={{ marginBottom: 12 }}>You are looking for longevity and anti-aging benefits via cellular AMPK activation.</li>
-            <li style={{ marginBottom: 12 }}>You want an affordable, sustainable daily habit under $50/month.</li>
+            <li style={{ marginBottom: 12 }}>You want an affordable, sustainable daily habit under $50/month (/mo flat rate).</li>
           </ul>
 
           <p><strong>You should choose Ozempic (Compounded Semaglutide) if:</strong></p>

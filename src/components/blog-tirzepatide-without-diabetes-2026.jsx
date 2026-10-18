@@ -82,7 +82,7 @@ function BlogTirzepatideWithoutDiabetes() {
           <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>How to Access Tirzepatide in 2026</h2>
 
           <ol>
-            <li style={{ marginBottom: 16 }}><strong>Branded Zepbound (self-pay):</strong> LillyDirect vials start at $299/month. Pen injectors at list price (~$1,060/month) but savings programs available.</li>
+            <li style={{ marginBottom: 16 }}><strong>Branded Zepbound (self-pay):</strong> LillyDirect vials start at $299/month (/mo flat rate). Pen injectors at list price (~$1,060/month) but savings programs available.</li>
             <li style={{ marginBottom: 16 }}><strong>Insurance coverage:</strong> Variable. Many insurers cover Mounjaro for T2D but deny Zepbound for weight loss. Prior authorization often required. If denied, see our approach to working through the process.</li>
             <li style={{ marginBottom: 16 }}><strong>Compounded tirzepatide via telehealth:</strong> $199–$449/month from licensed 503A pharmacies. Same molecule, individual prescription required. Available through providers like TelehealthFX with <a href="/blog/get-semaglutide-online-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>full telehealth access</a>.</li>
           </ol>

@@ -47,7 +47,7 @@ function BlogCompoundedTirzepatideOnline() {
 
       <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
         <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>The Most Effective GLP-1. Now Accessible.</h3>
-        <p style={{ marginBottom: 24, fontSize: 16 }}>Compounded tirzepatide from $349/month. 503A pharmacy partners. Same dual-agonist molecule at a fraction of the brand-name cost.</p>
+        <p style={{ marginBottom: 24, fontSize: 16 }}>Compounded tirzepatide from $349/month (/mo flat rate). 503A pharmacy partners. Same dual-agonist molecule at a fraction of the brand-name cost.</p>
         <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>Start Your Evaluation <Icon.Arrow /></a>
       </div>
 

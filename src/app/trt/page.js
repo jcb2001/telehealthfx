@@ -2,11 +2,11 @@ import Link from "next/link";
 
 export const metadata = {
   robots: { index: true, follow: true },
-  title: "TRT & Testosterone Replacement Therapy Online | From $79/mo | Telehealth FX",
-  description: "Clinical Testosterone Replacement Therapy (TRT) prescribed by licensed physicians. Comprehensive $95 diagnostic bloodwork, Testosterone Cypionate, and discreet delivery across 21 metropolitan areas.",
+  title: "TRT & Testosterone Replacement Therapy Online | From $89/mo | Telehealth FX",
+  description: "Clinical Testosterone Replacement Therapy (TRT) prescribed by licensed physicians. Comprehensive diagnostic bloodwork, Testosterone Cypionate, injection supplies, and discreet delivery from $89/mo ($99/mo flat rate).",
   openGraph: {
     title: "TRT & Testosterone Replacement Therapy Online | Telehealth FX",
-    description: "Doctor-prescribed Testosterone Replacement Therapy online from $79/mo. Transparent pricing, lab monitoring, and discreet shipping.",
+    description: "Doctor-prescribed Testosterone Replacement Therapy online from $89/mo ($99/mo flat rate). Transparent pricing, lab monitoring, and discreet shipping.",
     url: "https://telehealthfx.com/trt/",
     siteName: "Telehealth FX",
     type: "website"
@@ -190,18 +190,43 @@ export default function TRTHubPage() {
           Clinical TRT &amp; Testosterone Therapy, <span style={{ fontStyle: "italic", color: "var(--brand)" }}>Delivered.</span>
         </h1>
         <p style={{ fontSize: 18, color: "var(--ink-2)", maxWidth: 760, margin: "0 auto 32px", lineHeight: 1.6 }}>
-          Evidence-based testosterone therapy prescribed by state-licensed physicians. Comprehensive diagnostic bloodwork, clinical titration, and continuous hematocrit &amp; PSA safety monitoring from $79/month.
+          Evidence-based testosterone therapy prescribed by state-licensed physicians. Comprehensive diagnostic bloodwork, clinical titration, and continuous hematocrit &amp; PSA safety monitoring from $89/month ($99/mo flat rate).
         </p>
+
+        <div style={{ marginBottom: 32 }}>
+          <a
+            href="https://go.telehealthfx.com/coreage-trt"
+            className="btn btn-primary"
+            style={{
+              display: "inline-flex",
+              alignItems: "center",
+              gap: 8,
+              background: "var(--brand)",
+              color: "#ffffff",
+              padding: "16px 36px",
+              borderRadius: 999,
+              fontSize: 16,
+              fontWeight: 700,
+              textDecoration: "none",
+              boxShadow: "0 4px 14px rgba(199, 125, 92, 0.4)"
+            }}
+          >
+            Start Your TRT Medical Intake →
+          </a>
+          <div style={{ marginTop: 10, fontSize: 13, color: "var(--ink-2)" }}>
+            America&apos;s #1 Low-Cost Online TRT · From $89/mo · Lab Monitoring Included
+          </div>
+        </div>
 
         {/* Highlight Stats */}
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))", gap: 20, maxWidth: 900, margin: "40px auto 0" }}>
           <div style={{ background: "#FFFFFF", padding: "24px 20px", borderRadius: 16, border: "1px solid var(--line-soft)", boxShadow: "0 2px 8px rgba(0,0,0,0.03)" }}>
-            <div style={{ fontSize: 32, fontWeight: 700, color: "var(--brand)", marginBottom: 4 }}>$79/mo</div>
-            <div style={{ fontSize: 14, color: "var(--ink-2)", fontWeight: 500 }}>Transparent Flat Rate</div>
+            <div style={{ fontSize: 32, fontWeight: 700, color: "var(--brand)", marginBottom: 4 }}>$89–$99/mo</div>
+            <div style={{ fontSize: 14, color: "var(--ink-2)", fontWeight: 500 }}>All-Inclusive (Meds &amp; Supplies)</div>
           </div>
           <div style={{ background: "#FFFFFF", padding: "24px 20px", borderRadius: 16, border: "1px solid var(--line-soft)", boxShadow: "0 2px 8px rgba(0,0,0,0.03)" }}>
-            <div style={{ fontSize: 32, fontWeight: 700, color: "var(--brand)", marginBottom: 4 }}>$95</div>
-            <div style={{ fontSize: 14, color: "var(--ink-2)", fontWeight: 500 }}>Comprehensive Blood Panel</div>
+            <div style={{ fontSize: 32, fontWeight: 700, color: "var(--brand)", marginBottom: 4 }}>$129</div>
+            <div style={{ fontSize: 14, color: "var(--ink-2)", fontWeight: 500 }}>Diagnostic Labs (or Bring Your Own)</div>
           </div>
           <div style={{ background: "#FFFFFF", padding: "24px 20px", borderRadius: 16, border: "1px solid var(--line-soft)", boxShadow: "0 2px 8px rgba(0,0,0,0.03)" }}>
             <div style={{ fontSize: 32, fontWeight: 700, color: "var(--brand)", marginBottom: 4 }}>100%</div>

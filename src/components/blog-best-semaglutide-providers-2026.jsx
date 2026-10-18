@@ -67,14 +67,14 @@ function BlogBestSemaglutideProviders() {
       <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Red Flags to Watch For</h2>
       <ul>
         <li style={{ marginBottom: 12 }}><strong>No clinician evaluation required.</strong> Any provider that ships semaglutide without a medical consultation is operating illegally.</li>
-        <li style={{ marginBottom: 12 }}><strong>Prices below $150/month.</strong> Legitimate compounded semaglutide from a licensed 503A pharmacy has real costs. Prices significantly below $150 suggest either diluted formulations or unverified sourcing.</li>
+        <li style={{ marginBottom: 12 }}><strong>Prices below $150/month (/mo flat rate).</strong> Legitimate compounded semaglutide from a licensed 503A pharmacy has real costs. Prices significantly below $150 suggest either diluted formulations or unverified sourcing.</li>
         <li style={{ marginBottom: 12 }}><strong>No pharmacy licensing information.</strong> Ask which pharmacy compounds the medication and verify their state board of pharmacy license.</li>
         <li style={{ marginBottom: 12 }}><strong>No ongoing clinical oversight.</strong> A prescription-and-goodbye model is medically irresponsible. Your provider should monitor your progress and adjust dosing.</li>
       </ul>
 
       <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
         <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>All-Inclusive. No Hidden Fees. Cancel Anytime.</h2>
-        <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 500, margin: '0 auto 32px' }}>Compounded semaglutide from $199/month. Compounded tirzepatide available. HSA/FSA accepted.</p>
+        <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 500, margin: '0 auto 32px' }}>Compounded semaglutide from $199/month (/mo flat rate). Compounded tirzepatide available. HSA/FSA accepted.</p>
         <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-lg" style={{ background: '#FBF8F3', color: 'var(--ink)', display: 'inline-flex', justifyContent: 'center', width: '100%', maxWidth: 250 }}>Start Now <Icon.Arrow /></a>
       </div>
       <div style={{ marginTop: 80, paddingTop: 40, borderTop: '1px solid var(--line-soft)', fontSize: 14, color: 'var(--ink-3)' }}>

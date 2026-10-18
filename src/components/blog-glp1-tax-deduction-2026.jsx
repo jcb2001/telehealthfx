@@ -30,7 +30,7 @@ function BlogGLP1TaxDeduction() {
       <ul>
         <li style={{ marginBottom: 12 }}><strong>How it works:</strong> HSA and FSA contributions are pre-tax — money goes in before income tax, Social Security tax, and Medicare tax are calculated. When you pay for GLP-1 with these funds, you effectively reduce the cost by your marginal tax rate.</li>
         <li style={{ marginBottom: 12 }}><strong>Is GLP-1 eligible?</strong> Yes. Prescription medication for a diagnosed medical condition (obesity, BMI 30+, or BMI 27+ with comorbidity) is an eligible expense under IRS Publication 502.</li>
-        <li style={{ marginBottom: 12 }}><strong>The math:</strong> At a 24% federal tax bracket + 7.65% FICA = ~32% effective savings. $199/month becomes ~$135/month in after-tax terms. At the 37% bracket, your effective cost drops to ~$125/month.</li>
+        <li style={{ marginBottom: 12 }}><strong>The math:</strong> At a 24% federal tax bracket + 7.65% FICA = ~32% effective savings. $199/month becomes ~$135/month in after-tax terms. At the 37% bracket, your effective cost drops to ~$125/month (/mo flat rate).</li>
         <li style={{ marginBottom: 12 }}><strong>2026 HSA contribution limits:</strong> $4,300 (individual) or $8,550 (family). This covers your full GLP-1 cost and then some.</li>
       </ul>
 

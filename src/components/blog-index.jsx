@@ -98,7 +98,7 @@ function BlogIndex() {
     },
     {
       title: "Switch from Ozempic to Generic: Dose Matching & Titration",
-      description: "How to switch from Ozempic to generic semaglutide seamlessly. Review complete dose conversion charts, maintain appetite suppression, and save over $1,000/month.",
+      description: "How to switch from Ozempic to generic semaglutide seamlessly. Review complete dose conversion charts, maintain appetite suppression, and save over $1,000/month (/mo flat rate).",
       slug: "/blog/switch-ozempic-wegovy-to-generic-semaglutide/",
       image: "/assets/switch_ozempic_to_generic.jpg",
       tag: "Dose Matching"

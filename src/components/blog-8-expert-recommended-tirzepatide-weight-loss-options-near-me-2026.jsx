@@ -46,7 +46,7 @@ function Blog8ExpertRecommendedTirzepatideOptions() {
       <ul>
         <li style={{ marginBottom: 12 }}><strong>Pros:</strong> Unrivaled diagnostic depth; ideal for patients with complex medical histories, history of bariatric surgery, or concurrent endocrine disorders like type 1 diabetes or pituitary issues.</li>
         <li style={{ marginBottom: 12 }}><strong>Cons:</strong> Severe access constraints. In most metropolitan areas, wait times for initial appointments with board-certified endocrinologists or obesity specialists range from 3 to 6 months. In-person consultation fees are high, often between $250 and $600 for the initial workup, which is typically not covered by insurance if the patient does not have type 2 diabetes.</li>
-        <li style={{ marginBottom: 12 }}><strong>Medication Sourcing:</strong> These physicians write prescriptions for brand-name Zepbound or Mounjaro, sending them to retail pharmacies (CVS, Walgreens). If insurance denies coverage, patients must pay the full cash price of $1,060/month.</li>
+        <li style={{ marginBottom: 12 }}><strong>Medication Sourcing:</strong> These physicians write prescriptions for brand-name Zepbound or Mounjaro, sending them to retail pharmacies (CVS, Walgreens). If insurance denies coverage, patients must pay the full cash price of $1,060/month (/mo flat rate).</li>
       </ul>
 
       {/* MID-ARTICLE CTA */}

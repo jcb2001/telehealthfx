@@ -41,7 +41,7 @@ function BlogOzempicVsWegovy() {
 
         <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
           <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Skip the Brand Confusion</h3>
-          <p style={{ marginBottom: 24, fontSize: 16 }}>TelehealthFX prescribes compounded semaglutide at your clinician-determined dose — no brand premium, no insurance battles, no shortages. Same molecule from $199/month.</p>
+          <p style={{ marginBottom: 24, fontSize: 16 }}>TelehealthFX prescribes compounded semaglutide at your clinician-determined dose — no brand premium, no insurance battles, no shortages. Same molecule from $199/month (/mo flat rate).</p>
           <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>Get Started <Icon.Arrow /></a>
         </div>
 
