@@ -190,7 +190,7 @@ export default function TRTHubPage() {
           Clinical TRT &amp; Testosterone Therapy, <span style={{ fontStyle: "italic", color: "var(--brand)" }}>Delivered.</span>
         </h1>
         <p style={{ fontSize: 18, color: "var(--ink-2)", maxWidth: 760, margin: "0 auto 32px", lineHeight: 1.6 }}>
-          Evidence-based testosterone therapy prescribed by state-licensed physicians. Comprehensive diagnostic bloodwork, clinical titration, and continuous hematocrit &amp; PSA safety monitoring from $89/month ($99/mo flat rate).
+          Evidence-based testosterone therapy prescribed by state-licensed physicians. Comprehensive diagnostic bloodwork, clinical titration, and continuous medical oversight. From $89/mo on 6-month protocol ($534 upfront) or $99/mo standard billing.
         </p>
 
         <div style={{ marginBottom: 32 }}>
@@ -214,7 +214,7 @@ export default function TRTHubPage() {
             Start Your TRT Medical Intake →
           </a>
           <div style={{ marginTop: 10, fontSize: 13, color: "var(--ink-2)" }}>
-            America&apos;s #1 Low-Cost Online TRT · From $89/mo · Lab Monitoring Included
+            Physician-Prescribed TRT · $89/mo (6-Mo Commitment) or $99/mo · $129 Diagnostic Labs (or Upload Recent Bloodwork)
           </div>
         </div>
 

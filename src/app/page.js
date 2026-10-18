@@ -162,7 +162,7 @@ function HomePageSchema() {
           { "@type": "Review", "author": { "@type": "Person", "name": "Robert H." }, "datePublished": "2026-04-18", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "reviewBody": "After years of feeling exhausted and unmotivated, TRT gave me my life back. My levels went from 280 to 850 ng/dL. The clinician support has been outstanding." },
           { "@type": "Review", "author": { "@type": "Person", "name": "Derek W." }, "datePublished": "2026-02-14", "reviewRating": { "@type": "Rating", "ratingValue": "4", "bestRating": "5" }, "reviewBody": "Great program and responsive clinicians. Took about 8 weeks to dial in my dose perfectly but the results are worth it. Mood, energy, and body composition all improved significantly." }
         ],
-        "offers": { "@type": "Offer", "price": "79.00", "priceCurrency": "USD", "validFrom": "2026-01-01", "priceValidUntil": "2027-12-31", "availability": "https://schema.org/InStock", "url": "https://telehealthfx.com/medications/testosterone", "shippingDetails": shippingDetails, "hasMerchantReturnPolicy": returnPolicy }
+        "offers": { "@type": "Offer", "price": "89.00", "priceCurrency": "USD", "validFrom": "2026-01-01", "priceValidUntil": "2027-12-31", "availability": "https://schema.org/InStock", "url": "https://telehealthfx.com/medications/testosterone", "shippingDetails": shippingDetails, "hasMerchantReturnPolicy": returnPolicy }
       },
       // ── Product: Enclomiphene ──
       {
