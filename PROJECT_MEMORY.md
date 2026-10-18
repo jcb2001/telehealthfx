@@ -52,35 +52,62 @@ git push telehealthfx telehealthfx-main:main && git push telehealthfx telehealth
 
 ## 3. Partner, API & Affiliate Routing Architecture
 
-### 3.1 Katalys Network Details
+### 3.1 Katalys Network Details & Active Offer Portfolio
 - **Affiliate Network:** Katalys (formerly RevOffers / `track.revoffers.com`)
 - **Affiliate ID:** `12322`
-- **Primary Offer:** `1632` (CoreAge Rx)
-- **Intake Flow Base URL:** `https://track.revoffers.com/aff_c?offer_id=1632&aff_id=12322`
-- **API Key:** `kapi-3da5c02c19c94add84874f7486a48b6f@5eb226f8-236a-4e22-83f4-3f2c545b13c4`
-- **Parameter Handling:** Preserves `transaction_id`, sub-affiliates (`aff_sub`, `aff_sub2`), and standard UTM parameters (`utm_source`, `utm_medium`, `utm_campaign`).
+- **Active Programs & Performance Hierarchy (Audited October 2026):**
+  1. **Embody (Offer ID: `1548`)** — Flagship Injectables & Primary Quiz Destination
+     - *Performance:* 8.70% CR, $13.05 EPC, $150 CPA
+     - *Pricing:* $69/mo flat Semaglutide promo, $119/mo flat Tirzepatide promo
+     - *Switchy Slugs:* `go.telehealthfx.com/embody`, `go.telehealthfx.com/coreage-glp1`, `go.telehealthfx.com/discount`, `go.telehealthfx.com/yt`, `go.telehealthfx.com/weight-loss`
+     - *Destination:* `https://track.revoffers.com/aff_c?offer_id=1548&aff_id=12322`
+     - *Use Case:* Flagship GLP-1 offer and primary destination for BMI intake quizzes on Losing Weight RX and Get Skinny Online (via `aff_sub=lwr_qualify_*` and `gso_qualify_*`)
+  2. **Peter MD (Offer ID: `1344`)** — Flagship TRT & Men's Hormone Optimization
+     - *Performance:* 1.44% CR, $2.77 EPC, $192 CPA
+     - *Pricing:* From $89/mo on 6-month protocol ($534 upfront) or $99/mo standard billing · $129 Diagnostic Labs
+     - *Switchy Slugs:* `go.telehealthfx.com/petermd`, `go.telehealthfx.com/coreage-trt`, `go.telehealthfx.com/trt`, `go.telehealthfx.com/enclomiphene`
+     - *Destination:* `https://track.revoffers.com/aff_c?offer_id=1344&aff_id=12322`
+     - *Use Case:* Primary conversion partner for all TRT hubs, Peter MD comparison guides, enclomiphene pages, and men's health traffic
+  3. **Gala Health (Offer ID: `1576`)** — Secondary Intake Quiz Bridge
+     - *Performance:* 2.08% CR, $3.74 true EPC, $180 CPA
+     - *Offer Details:* 100% money-back guarantee, dedicated multi-step quiz flow
+     - *Switchy Slug:* `go.telehealthfx.com/gala`
+     - *Destination:* `https://track.revoffers.com/aff_c?offer_id=1576&aff_id=12322`
+  4. **Willow (Offer ID: `1325`)** — Needle-Free Oral Tablets & Sublingual Drops
+     - *Performance:* 0.70% CR, $1.47 EPC, $315 CPA
+     - *Pricing:* $149/mo all-inclusive
+     - *Switchy Slugs:* `go.telehealthfx.com/willow`, `go.telehealthfx.com/semaglutide-tablets`, `go.telehealthfx.com/tirzepatide-tablets`, `go.telehealthfx.com/sublingual-semaglutide`, `go.telehealthfx.com/skinnyrx`
+     - *Destination:* `https://track.revoffers.com/aff_c?offer_id=1325&aff_id=12322`
+  5. **CoreAge Rx (Offer ID: `1632`)** — Longevity, Peptides & Skincare
+     - *Products:* NAD+ ($99/mo), Sermorelin ($99/mo), 4Play ED, Topical Peptides
 
 ### 3.2 Switchy.io Tracking Links (`go.telehealthfx.com`)
 - **Custom Tracking Domain:** `go.telehealthfx.com`
 - **API Key:** `c641dca8-e3c4-40db-baa5-9d72ac78a2b3`
-- All affiliate links across Telehealth FX route through `go.telehealthfx.com/<slug>` to provide cloaking, click tracking, dynamic retargeting pixels, and UTM pass-through.
+- All affiliate links across Telehealth FX, Losing Weight RX, and Get Skinny Online route through `go.telehealthfx.com/<slug>` to provide cloaking, click tracking, dynamic retargeting pixels, and UTM pass-through.
+- Legacy `coreage-glp1` and `weight-loss` slugs are mapped in Switchy to Embody (Offer 1548) for 100% backlink safety.
+- Legacy `coreage-trt`, `trt`, and `enclomiphene` slugs are mapped in Switchy to Peter MD (Offer 1344).
+- Automated health check script `scripts/check_offer_telemetry.js` validates all 12 routes in real-time.
 
-### 3.3 CoreAge Rx Product & Switchy Mapping Table
-All CoreAge products are mapped to verified Katalys Offer 1632 destination `url_id` parameters:
-
-| Product Name | Category | Switchy Link | Katalys Offer / URL ID | CoreAge Destination Landing Page | Live Audited Price |
+### 3.3 Active Product & Switchy Mapping Table
+| Product Name | Category | Primary Switchy Link | Katalys Offer | Destination Landing Page | Live Promotional Price |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Compounded Semaglutide** | GLP-1 Weight Loss | `go.telehealthfx.com/coreage-glp1` | Offer 1632 (Base) | `app.coreagerx.com/go/k` | **$79/mo flat rate** (all doses) |
-| **Compounded Tirzepatide** | Dual GIP/GLP-1 | `go.telehealthfx.com/coreage-glp1` | Offer 1632 (Base) | `app.coreagerx.com/go/k` | **$129/mo flat rate** (all doses) |
-| **NAD+ Therapy** | Longevity & Peptides | `go.telehealthfx.com/nad` | Offer 1632 · `url_id=12688` | `app.coreagerx.com/go/k/nad` | **From $99/mo** (Flat $99/mo) |
+| **Compounded Semaglutide** | GLP-1 Weight Loss | `go.telehealthfx.com/embody` | Offer 1548 (Embody) | `embodywellness.com` | **$69/mo promo rate** |
+| **Compounded Tirzepatide** | Dual GIP/GLP-1 | `go.telehealthfx.com/embody` | Offer 1548 (Embody) | `embodywellness.com` | **$119/mo promo rate** |
+| **Testosterone Therapy (TRT)**| Men's Hormone | `go.telehealthfx.com/petermd` | Offer 1344 (Peter MD) | `petermd.com` | **$89/mo (6-mo protocol) / $99/mo standard** |
+| **Enclomiphene / Oral TRT** | Men's Hormone | `go.telehealthfx.com/enclomiphene` | Offer 1344 (Peter MD) | `petermd.com` | **From $89/mo** |
+| **Intake / Qualification Quiz** | Intake Assessment | `go.telehealthfx.com/embody` | Offer 1548 (Embody) | `embodywellness.com` | **From $69/mo** |
+| **Oral Semaglutide Tablets** | Needle-Free GLP-1 | `go.telehealthfx.com/semaglutide-tablets` | Offer 1325 (Willow) | `willow.com` | **$149/mo flat rate** |
+| **Oral Tirzepatide Tablets** | Needle-Free Dual | `go.telehealthfx.com/tirzepatide-tablets` | Offer 1325 (Willow) | `willow.com` | **$199/mo flat rate** |
+| **Sublingual Semaglutide Drops**| Liquid Sublingual | `go.telehealthfx.com/sublingual-semaglutide` | Offer 1325 (Willow) | `willow.com` | **$149/mo flat rate** |
+| **NAD+ Therapy** | Longevity & Peptides | `go.telehealthfx.com/nad` | Offer 1632 · `url_id=12688` | `app.coreagerx.com/go/k/nad` | **From $99/mo** |
 | **Sermorelin Peptide** | Longevity & Peptides | `go.telehealthfx.com/sermorelin` | Offer 1632 · `url_id=12689` | `app.coreagerx.com/go/k/sermorelin` | **Flat $99/mo** |
-| **Testosterone (TRT)** | Men's Hormone | `go.telehealthfx.com/coreage-trt` | Offer 1632 · `url_id=12692` | `app.coreagerx.com/go/k/trt` | **From $93/mo** ($93/mo annual / $99 standard) |
 | **4Play ED Compound** | Sexual Wellness | `go.telehealthfx.com/coreage-ed` | Offer 1632 · `url_id=12693` | `app.coreagerx.com/go/k/4play` | **From $18/dose** |
-| **Bounce Back Copper Peptide** | Longevity / Derma | `go.telehealthfx.com/copper-peptide` | Offer 1632 · `url_id=12694` | `app.coreagerx.com/go/k/bounce-back` | **From $64.99/mo** ($80 one-time) |
-| **Pore Favor Minimizer** | Clinical Derma | `go.telehealthfx.com/pore-favor` | Offer 1632 · `url_id=12695` | `app.coreagerx.com/go/k/pore-favor` | **From $42/mo** ($70 one-time) |
-| **Smooth Move Retinoid** | Clinical Derma | `go.telehealthfx.com/retinoid` | Offer 1632 · `url_id=12697` | `app.coreagerx.com/go/k/smooth-move` | **From $42/mo** ($70 one-time) |
-| **Spot On Dark Spot** | Clinical Derma | `go.telehealthfx.com/spot-on` | Offer 1632 · `url_id=12698` | `app.coreagerx.com/go/k/spot-on` | **From $54.99/mo** ($70 one-time) |
-| **Time Out Peptide Serum** | Clinical Derma | `go.telehealthfx.com/time-out` | Offer 1632 · `url_id=12699` | `app.coreagerx.com/go/k/time-out` | **From $48/mo** ($75 one-time) |
+| **The Spot Cream (Melasma/Dark Spots)**| Clinical Derma | `go.telehealthfx.com/spot-cream` | Musely (Impact Radius) | `musely.com` | **Hydroquinone 12% + Kojic** |
+| **The Anti-Aging Cream (Tretinoin)** | Clinical Derma | `go.telehealthfx.com/anti-aging-cream`| Musely (Impact Radius) | `musely.com` | **Prescription Retinoid + Niacinamide** |
+| **The Aging Repair Cream (Estriol)**| Clinical Derma | `go.telehealthfx.com/aging-repair-cream`| Musely (Impact Radius) | `musely.com` | **Estrogen Menopause Cream** |
+| **Pore & Acne Care (Red Rescue)** | Clinical Derma | `go.telehealthfx.com/pore-favor` | Musely (Impact Radius) | `musely.com` | **Metronidazole / Ivermectin** |
+| **Cellular Youth Formula** | Clinical Derma | `go.telehealthfx.com/copper-peptide` | Musely (Impact Radius) | `musely.com` | **Clinical Anti-Aging** |
 | **Bioidentical Estrogen HRT** | Women's Hormone | `go.telehealthfx.com/estrogen` | Offer 1632 · `url_id=12690` | `app.coreagerx.com/go/k/estrogen` | **From $42/mo** |
 | **Progesterone Oral HRT** | Women's Hormone | `go.telehealthfx.com/progesterone`| Offer 1632 · `url_id=12696` | `app.coreagerx.com/go/k/progesterone`| **From $64.99/mo** |
 | **Thyroid Optimization** | Hormone / Thyroid | `go.telehealthfx.com/thyroid` | Offer 1632 · `url_id=12691` | `app.coreagerx.com/go/k/thyroid` | **From $42/mo** |
@@ -103,17 +130,17 @@ Every product featured on Telehealth FX has a full standalone route under `/medi
 
 | # | Product Name | Slug Route | Component File | Starting Price | Provider / Fulfillment |
 |---|:---|:---|:---|:---|:---|
-| 1 | Compounded Semaglutide | `/medications/semaglutide/` | `medicine-semaglutide.jsx` | $79/mo flat | CoreAge Rx (503A) |
-| 2 | Compounded Tirzepatide | `/medications/tirzepatide/` | `medicine-tirzepatide.jsx` | $129/mo flat | CoreAge Rx (503A) |
+| 1 | Compounded Semaglutide | `/medications/semaglutide/` | `medicine-semaglutide.jsx` | $69/mo promo | Embody GLP-1 (Offer 1548) |
+| 2 | Compounded Tirzepatide | `/medications/tirzepatide/` | `medicine-tirzepatide.jsx` | $119/mo promo | Embody GLP-1 (Offer 1548) |
 | 3 | NAD+ Cellular Therapy | `/medications/nad/` | `medicine-nad.jsx` | From $99/mo | CoreAge Rx (503A) |
 | 4 | Sermorelin Peptide | `/medications/sermorelin/` | `medicine-sermorelin.jsx` | Flat $99/mo | CoreAge Rx (503A) |
-| 5 | Testosterone (TRT) | `/medications/testosterone/` | `medicine-testosterone.jsx` | From $93/mo | CoreAge Rx (503A) |
+| 5 | Testosterone (TRT) | `/medications/testosterone/` | `medicine-testosterone.jsx` | From $89/mo | Peter MD (Offer 1344) |
 | 6 | 4Play Custom Compound ED | `/medications/ed/` | `medicine-ed.jsx` | From $18/dose | CoreAge Rx (503A) |
-| 7 | Bounce Back Copper Peptide | `/medications/copper-peptide/` | `medicine-copper-peptide.jsx` | From $64.99/mo | CoreAge Rx (503A) |
-| 8 | Pore Favor Minimizer | `/medications/pore-favor/` | `medicine-pore-favor.jsx` | From $42/mo | CoreAge Rx (503A) |
-| 9 | Smooth Move Retinoid | `/medications/smooth-move/` | `medicine-smooth-move.jsx` | From $42/mo | CoreAge Rx (503A) |
-| 10 | Spot On Dark Spot Eraser | `/medications/spot-on/` | `medicine-spot-on.jsx` | From $54.99/mo | CoreAge Rx (503A) |
-| 11 | Time Out Peptide Serum | `/medications/time-out/` | `medicine-time-out.jsx` | From $48/mo | CoreAge Rx (503A) |
+| 7 | Cellular Youth Peptide | `/medications/copper-peptide/` | `medicine-copper-peptide.jsx` | Clinical Anti-Aging | Musely (Impact Radius) |
+| 8 | Pore & Redness Care | `/medications/pore-favor/` | `medicine-pore-favor.jsx` | Metronidazole/Ivermectin | Musely (Impact Radius) |
+| 9 | The Anti-Aging Cream (Tretinoin)| `/medications/smooth-move/` | `medicine-smooth-move.jsx` | Custom Retinoid Rx | Musely (Impact Radius) |
+| 10 | The Spot Cream (Hydroquinone) | `/medications/spot-on/` | `medicine-spot-on.jsx` | 12% HQ + Kojic Acid | Musely (Impact Radius) |
+| 11 | The Aging Repair Cream (Estriol)| `/medications/time-out/` | `medicine-time-out.jsx` | Clinical Estriol Rx | Musely (Impact Radius) |
 | 12 | Bioidentical Estrogen HRT | `/medications/estrogen/` | `medicine-estrogen.jsx` | From $42/mo | CoreAge Rx (503A) |
 | 13 | Progesterone Oral HRT | `/medications/progesterone/` | `medicine-progesterone.jsx` | From $64.99/mo | CoreAge Rx (503A) |
 | 14 | Thyroid Optimization (T3/T4) | `/medications/thyroid/` | `medicine-thyroid.jsx` | From $42/mo | CoreAge Rx (503A) |
@@ -177,13 +204,19 @@ All medication and blog pages embed comprehensive JSON-LD `@graph` structures:
 - **Google Search Console / Indexing:** Service Account API configured with instant IndexNow and Google Search Indexing engine scripts in `scripts/`.
 - **FeedHive Workspace:** Telehealth FX (`Telehealth FX`)
   - **API Key:** `fh_dcbd10b1f8dbcdc40f71c7e9a627012e4815becb55dcf5ca`
-  - **Connected Channels:**
-    - YouTube: Telehealth FX (`08e483da-1454-4b3d-9abf-e99cc1a52996`)
-    - Facebook: Telehealth FX (`d1b37bb5-5580-4a5f-9d7b-044b5ecf756e`)
-    - YouTube: Healthy Lifestyle Podcast (`d6dfbb19-ddca-4b70-b204-58de7095f38c`)
-    - Facebook: Luxury Old Money (`874a304e-21a0-4c42-af12-03767ccb26f5`)
-    - YouTube: Quiz Select (`71510b60-03e9-4a38-bb8e-0fd0007440c0`)
-    - Facebook: Quiz Select (`ad553e6d-f293-4be4-9fe6-771b3b0ecc03`)
+  - **Connected Channels & Destination Mapping:**
+    - **Set 1 (Telehealth FX)**:
+      - YouTube: Telehealth FX (`08e483da-1454-4b3d-9abf-e99cc1a52996`)
+      - Facebook: Telehealth FX (`d1b37bb5-5580-4a5f-9d7b-044b5ecf756e`)
+      - Destination: `https://telehealthfx.com` (Intake: `https://go.telehealthfx.com/coreage-glp1`)
+    - **Set 2 (Losing Weight RX)**:
+      - YouTube: Quiz Select profile (`71510b60-03e9-4a38-bb8e-0fd0007440c0`)
+      - Facebook: Quiz Select profile (`ad553e6d-f293-4be4-9fe6-771b3b0ecc03`)
+      - Destination: `https://losingweightrx.com` (Intake: `https://losingweightrx.com/do-i-qualify.html`)
+    - **Set 3 (Get Skinny Online)**:
+      - YouTube: Healthy Lifestyle Podcast profile (`d6dfbb19-ddca-4b70-b204-58de7095f38c`)
+      - Facebook: Luxury Old Money profile (`874a304e-21a0-4c42-af12-03767ccb26f5`)
+      - Destination: `https://getskinnyonline.com` (Intake: `https://getskinnyonline.com/do-i-qualify.html`)
 
 ---
 
@@ -204,9 +237,10 @@ Before any agent or script performs a mutating action in FeedHive (creating post
 1. **Workspace Verification**: Call `feedhive_status` or execute `node scripts/feedhive_cli.js status`.
 2. **Assert Workspace Identity**: Confirm that the returned username is strictly `"Telehealth FX"`.
 3. **Hard Stop on Mismatch**: If the returned identity does not match `"Telehealth FX"`, or if authentication fails, **HALT ALL OPERATIONS IMMEDIATELY**. Do not attempt fallback posting or generic uploading. Output an alert indicating the workspace mismatch.
-4. **Channel Targeting Whitelist**: Verify that target social platforms use verified Telehealth FX channel IDs:
-   - **Telehealth FX YouTube**: `08e483da-1454-4b3d-9abf-e99cc1a52996`
-   - **Telehealth FX Facebook**: `d1b37bb5-5580-4a5f-9d7b-044b5ecf756e`
+4. **Channel Targeting Whitelist**: Verify that target social platforms use verified channel IDs:
+   - **Set 1 (Telehealth FX)**: YouTube `08e483da-1454-4b3d-9abf-e99cc1a52996`, Facebook `d1b37bb5-5580-4a5f-9d7b-044b5ecf756e`
+   - **Set 2 (Losing Weight RX)**: YouTube `71510b60-03e9-4a38-bb8e-0fd0007440c0`, Facebook `ad553e6d-f293-4be4-9fe6-771b3b0ecc03`
+   - **Set 3 (Get Skinny Online)**: YouTube `d6dfbb19-ddca-4b70-b204-58de7095f38c`, Facebook `874a304e-21a0-4c42-af12-03767ccb26f5`
 
 ### 8.3 Built-In Programmatic Enforcement
 The project CLI at `scripts/feedhive_cli.js` includes automated pre-flight assertion logic. Any mutating command automatically verifies the workspace identity against `"Telehealth FX"` before dispatching the request.
@@ -333,3 +367,152 @@ To diversify social reach, eliminate ad fatigue, and optimize algorithmic delive
    - **Losing Weight RX Set**: YouTube `71510b60-03e9-4a38-bb8e-0fd0007440c0`, Facebook `ad553e6d-f293-4be4-9fe6-771b3b0ecc03` → Destination: `https://losingweightrx.com`.
    - **Get Skinny Online Set**: YouTube `d6dfbb19-ddca-4b70-b204-58de7095f38c`, Facebook `874a304e-21a0-4c42-af12-03767ccb26f5` → Destination: `https://getskinnyonline.com`.
 
+---
+
+## 11. Programmatic SEO Indexing & Rapid URL Indexer Registry
+
+### 11.1 Indexing Architecture & State Management
+- **Indexing Engine Script**: [`scripts/automate_batch_indexing.js`](file:///Users/joshburrows/Desktop/Antigravity/Side%20Hustles/Telehealth%20FX/scripts/automate_batch_indexing.js)
+- **Registry File**: [`data/indexed_urls_registry.json`](file:///Users/joshburrows/Desktop/Antigravity/Side%20Hustles/Telehealth%20FX/data/indexed_urls_registry.json)
+- **API Provider**: Rapid URL Indexer API (`https://rapidurlindexer.com/wp-json/api/v1`)
+- **Sitemap Verification**: Live at `https://telehealthfx.com/sitemap.xml` (722 programmatic URLs: 257 locations, 269 blogs, 28 medications, 23 TRT guides, 108 comparisons).
+
+### 11.2 Batch 1 Execution Summary (October 11, 2026)
+- **Project ID**: `1247167` ("Telehealth FX - Priority Metros & Clinical Hubs (2026-10-11)")
+- **Submitted Volume**: Exactly **90 priority URLs**
+  - **11 Core Medication & Pricing Pillars**: `/medications/semaglutide/`, `/medications/tirzepatide/`, `/medications/retatrutide/`, `/medications/nad/`, `/medications/sermorelin/`, `/medications/trt/`, `/medications/enclomiphene/`, `/medications/ed/`, `/medications/skincare/`, `/pricing/`, `/glp-1-shortage-tracker-2026/`.
+  - **14 High-Intent Clinical Guides**: Top weight-loss injections near me, titration safety, stopping GLP-1, hidden fees, and side effect management.
+  - **64 Tier 1 Metro Locations**: Highest-population metros (Atlanta, Austin, Dallas, Houston, Phoenix, Miami, Tampa, Orlando, Chicago, Denver, Charlotte, Nashville, Las Vegas, LA, San Diego, SF, Seattle, etc.).
+  - **1 Secondary City Location**: `/locations/abilene/`.
+- **Remaining Balance**: 31 credits preserved (above 30-credit threshold).
+- **Next Batch (Tier 2)**: 60 remaining secondary cities queued in [`data/indexed_urls_registry.json`](file:///Users/joshburrows/Desktop/Antigravity/Side%20Hustles/Telehealth%20FX/data/indexed_urls_registry.json) ready for submission when credits are replenished.
+
+### 11.3 Batch 2 Execution Summary (October 11, 2026)
+- **Project ID**: `1247191` ("Telehealth FX - Priority Metros & Clinical Hubs (2026-10-11)")
+- **Submitted Volume**: Exactly **31 secondary city location URLs** (Akron, Albuquerque, Amarillo, Anchorage, Augusta, Bakersfield, Baton Rouge, Beaumont, Billings, Biloxi, Birmingham, Boise, Brownsville, Buffalo, Charleston, Chattanooga, Cincinnati, Clarksville, Cleveland, Clovis, College Station, Colorado Springs, Columbia, Columbus, Corpus Christi, Dayton, Des Moines, Detroit, Dothan, Duluth, Durham).
+- **Total Lifetime Indexed URLs**: **121 verified URLs** registered.
+
+### 11.4 Batch 6 Execution Summary (October 12, 2026)
+- **Universal IndexNow Network (Bing, Yandex, Seznam, Naver)**:
+  - Submitted all **727 sitemap URLs** via [`Telehealth FX Site/scripts/instant_index_indexnow.mjs --all`](file:///Users/joshburrows/Desktop/Antigravity/Side%20Hustles/Telehealth%20FX/Telehealth%20FX%20Site/scripts/instant_index_indexnow.mjs).
+  - HTTP 200 confirmed by `www.bing.com/indexnow` for immediate propagation across all partner engines.
+- **Google Instant Indexing API (Service Account `telehealthfx-indexing`)**:
+  - Submitted **200 priority URLs** (100% daily Googlebot quota) via [`Telehealth FX Site/scripts/instant_index_google.mjs --batch=6`](file:///Users/joshburrows/Desktop/Antigravity/Side%20Hustles/Telehealth%20FX/Telehealth%20FX%20Site/scripts/instant_index_google.mjs).
+  - Curated in [`Telehealth FX Site/src/data/priority-200-urls-batch6.json`](file:///Users/joshburrows/Desktop/Antigravity/Side%20Hustles/Telehealth%20FX/Telehealth%20FX%20Site/src/data/priority-200-urls-batch6.json):
+    - 5 New High-CPC Clinical Blogs (Sermorelin vs CJC-1295, Enclomiphene oral TRT, SubQ NAD+, Oral GLP-1 tablets, Prescription Tretinoin).
+    - 59 Native Spanish Routes (`/es/`, `/es/medications/semaglutide/`, `/es/medications/tirzepatide/`, `/es/compare/`, `/es/oral-tablets/`, `/es/trt/`, 50 Spanish state hubs).
+    - 36 Core English Medication Pillars, Pricing, and Comparison Showdowns.
+    - 50 US State GLP-1 Care Center Hubs and Top Metropolitan Centers.
+  - Results: **200 successful, 0 failed (100% submission rate)**.
+
+---
+
+## 12. High-Value Clinical SEO Blog Content Engine (October 2026)
+
+Targeting premium commercial CPC keywords ($8 to $29+ CPC) across GLP-1, Secretagogues, Longevity, and TRT. Every article adheres strictly to brand visual invariants (zero people, zero human hands, zero text/letters/numbers, and zero logos/labels) using clinical macro still-life photography.
+
+### 12.1 Published Articles & Live Routes
+
+| # | Article Title & Live URL | Primary Target Keywords | Dedicated Visual Asset (Zero People) | Partner & Flat Price |
+| :--- | :--- | :--- | :--- | :--- |
+| **1** | [Sermorelin vs CJC-1295 Clinical Guide](https://telehealthfx.com/blog/sermorelin-vs-cjc-1295-clinical-guide-2026/) | `sermorelin vs cjc 1295`<br>`sermorelin injection` ($10.43)<br>`sermorelin cost` | `/assets/sermorelin-vs-cjc-1295-featured.jpg`<br>Amber peptide vial on Carrara marble plinth | **CoreAge Rx Sermorelin**<br>Flat $99/mo |
+| **2** | [Enclomiphene Citrate Oral TRT Guide](https://telehealthfx.com/blog/enclomiphene-citrate-oral-trt-fertility-guide-2026/) | `enclomiphene citrate`<br>`oral trt` ($8.36)<br>`buy enclomiphene online` ($11.31) | `/assets/enclomiphene-oral-trt-featured.jpg`<br>Frosted dropper bottle on charcoal slate | **Peter MD / Maximus**<br>From $89/mo |
+| **3** | [At-Home Subcutaneous NAD+ Injections](https://telehealthfx.com/blog/at-home-subcutaneous-nad-injections-guide-2026/) | `nad injections at home` ($22.73)<br>`subcutaneous nad injection`<br>`nad therapy near me` | `/assets/nad-subcutaneous-injections-featured.jpg`<br>Amber vial & micro-syringe on basalt | **CoreAge Rx NAD+**<br>Flat $99/mo |
+| **4** | [Oral GLP-1 Sublingual Tablets vs Injections](https://telehealthfx.com/blog/oral-glp-1-sublingual-tablets-vs-injections-2026/) | `glp 1 pills` ($27.10, 201k vol)<br>`semaglutide tablets` ($27.27)<br>`semaglutide pill` ($29.41) | `/assets/oral-glp1-tablets-featured.jpg`<br>White sublingual tablets on travertine | **SkinnyRx Tablets**<br>Flat $149/mo |
+| **5** | [Prescription Tretinoin Online Telehealth Guide](https://telehealthfx.com/blog/prescription-tretinoin-online-telehealth-retinoid-guide-2026/) | `prescription tretinoin online` ($16.01)<br>`tretinoin telehealth`<br>`tretinoin cost without insurance` | `/assets/prescription-tretinoin-featured.jpg`<br>Golden retinoid swirl on black granite | **CoreAge Smooth Move**<br>Flat $42/mo |
+
+### 12.2 Technical Invariants Enforced
+- **E-E-A-T Schema**: Full `@graph` containing `MedicalWebPage`, `Article`, `FAQPage`, and `Drug` entities.
+- **Conversion Sub-IDs**: All conversion CTAs explicitly pass `aff_sub_1=seo_blog_<slug>` to resolve analytics attribution gaps.
+- **Internal Linking**: Each article links to 2 location pages, 1 core medication pillar page, and 1 sibling comparison guide.
+- **Production Edge**: Deployed directly to Cloudflare Pages production (`--branch=main`). HTTP 200 OK verified across all 5 routes.
+
+---
+
+## 13. Sister Sites (Losing Weight RX & Get Skinny Online) High-CPC Blog Engine (October 2026)
+
+To capture search demand from our 11,269-keyword master dataset without cannibalizing Telehealth FX, dedicated blog architectures and distinct brand positioning were deployed across both sister properties:
+
+### 13.1 Brand & Persona Allocation
+1. **Losing Weight RX (`losingweightrx.com`)**:
+   - **Positioning**: *The Clinical Incretin Authority & Healthcare Cost Demystifier*
+   - **Focus**: Titration schedules, syringe unit conversions, drug cross-switching protocols, prior authorizations, and competitor hidden subscription fee audits.
+   - **Conversion Flow**: Intake Quiz at `/do-i-qualify.html` routing to CoreAge $79/$129 flat rates.
+2. **Get Skinny Online (`getskinnyonline.com`)**:
+   - **Positioning**: *The Lifestyle Transformation & Fast-Track Telehealth Hub*
+   - **Focus**: 24-hour asynchronous online prescriptions without video calls, realistic 1/3/6-month weight loss proof, needle-free dissolving tablets, food noise elimination, and aesthetic preservation.
+   - **Conversion Flow**: Intake Quiz at `/do-i-qualify.html` routing to CoreAge $79/$129 flat rates.
+
+### 13.2 Published Commercial Articles (Full 10-Article Portfolio)
+
+| Property | Article Title & Slug | Primary Keywords & Search Economics | Intent & Angle |
+| :--- | :--- | :--- | :--- |
+| **Get Skinny Online** | `/blog/how-to-get-semaglutide-prescribed-online-24-hours` | `semaglutide prescription online` ($64.62 CPC)<br>`semaglutide online` ($49.30 CPC, 3.6k vol) | Highest dataset CPC; 24-hr doctor approval without video calls. |
+| **Get Skinny Online** | `/blog/how-to-get-tirzepatide-online-prescription-guide` | `get tirzepatide online` ($57.63 CPC)<br>`tirzepatide online` ($37.94 CPC, 14.8k vol) | High commercial buyer; dual GIP/GLP-1 503A cold-chain delivery. |
+| **Get Skinny Online** | `/blog/tirzepatide-weight-loss-timeline-month-by-month-results` | `tirzepatide for weight loss` (40.5k vol, $24.13 CPC)<br>`tirzepatide weight loss` (27.1k vol) | Massive traffic proof; month-by-month SURMOUNT-1 milestones. |
+| **Get Skinny Online** | `/blog/semaglutide-for-weight-loss-realistic-results-timeline` | `semaglutide for weight loss` (49.5k vol, $28.16 CPC)<br>`semaglutide weight loss` (14.8k vol) | Massive volume proof; STEP-1 monthly weight loss expectations. |
+| **Get Skinny Online** | `/blog/oral-glp1-tablets-needle-free-weight-loss-guide` | `tirzepatide pill` (27.1k vol)<br>`semaglutide oral` (12.1k vol, $29.41 CPC) | Needle-phobic lifestyle patients; sublingual bioavailability guide. |
+| **Losing Weight RX** | `/blog/tirzepatide-dosage-chart-units-titration-guide` | `tirzepatide dosage chart` (33.1k vol, $5.48 CPC)<br>`tirzepatide dosing for weight loss in units` (12.1k vol) | Massive clinical reference; U-100 syringe units to mg conversion. |
+| **Losing Weight RX** | `/blog/glp1-telehealth-no-membership-fees-pricing-guide` | `semaglutide without membership fees` ($48.42 CPC)<br>`tirzepatide no membership` ($38.15 CPC) | High-intent buyer; exposing Ro/Hims/Mochi $99-$145/mo fees. |
+| **Losing Weight RX** | `/blog/switching-semaglutide-to-tirzepatide-dose-conversion` | `semaglutide to tirzepatide dose conversion` ($13.42 CPC)<br>`tirzepatide vs semaglutide` (49.5k vol) | High-intent patient switcher; overcoming plateaus with dual incretin. |
+| **Losing Weight RX** | `/blog/semaglutide-cost-without-insurance-cash-pay-guide` | `semaglutide cost without insurance` ($26.33 CPC, 5.4k vol)<br>`semaglutide cost` (27.1k vol) | Financial breakdown; $968-$1,349 retail vs $79/mo 503A compounding. |
+| **Losing Weight RX** | `/blog/what-is-compounded-semaglutide-503a-safety-guide` | `compounded semaglutide` (33.1k vol, $23.72 CPC)<br>`tirzepatide compound` (27.1k vol, $21.91 CPC) | Regulatory authority; Section 503A, USP <797>, HPLC purity, base vs salt. |
+
+### 13.3 Technical Standards Enforced
+- Complete Schema.org JSON-LD graph (`MedicalOrganization`, `Person`, `MedicalWebPage`, `Product`, `Offer` [$79 / $129], `FAQPage`, `BreadcrumbList`).
+- Interactive vanilla JS FAQ accordions with zero layout shift.
+- Responsive clinical and pricing comparison tables.
+- Updated `blog/index.html` grids with custom badges, reading times, and editorial meta.
+- Updated `sitemap.xml` files with priority 0.85 and weekly change frequency.
+- Git commits executed in both repositories (`Get Skinny Online` and `Losing Weight RX`).
+
+---
+
+## 14. Short-Form Video Performance Autopsy & Conversion Taskforce Charter (October 2026)
+
+### 14.1 FeedHive Telemetry Audit (100 Posts Analyzed)
+- **Total Published Posts Audited**: 100 posts across 6 social channels via `scripts/feedhive_video_analytics.json`.
+- **Facebook Reels Performance**: 51 posts total, 51 zero-view posts (**100% zero-distribution rate** across Telehealth FX, Quiz Select, and Luxury Old Money).
+- **YouTube Shorts Performance**: 49 posts total, 609 total views (average 12.4 views/post), 14 likes, 0 comments.
+- **Top Performing Post**: 59 views (*"Why Your Brain Keeps Shouting for Snacks"* on Telehealth FX YouTube).
+- **Primary Root Causes Diagnosed**:
+  1. *Zero TTS / Spoken Audio*: Audio pool strictly rotated Deals Direct Daily music tracks with zero spoken dialogue. Over 85% of mobile short-form users swipe away within 1.0s without voiceover.
+  2. *Faceless Academic Cards*: Playwright text slideshows lack human authority (doctors) or emotional peer empathy (patients).
+  3. *Unclickable Links*: YouTube mobile Shorts permanently disabled clickable links in descriptions and comments. Facebook first-comment isolation received zero reach due to 0 views.
+  4. *Account Identity Mismatch*: Facebook page titled "Luxury Old Money" posting medical weight loss content caused severe algorithmic spam flags and zero seed impressions.
+
+### 14.2 Conversion Video Taskforce Charter
+- **Chief** (`Chief`): Executive Orchestrator.
+- **ShortFormViralScientist** (`.agents/agents/short-form-viral-scientist.md`): Short-form algorithmic retention & 3-second hook survival lead.
+- **Glp1ConversionCopywriter** (`.agents/agents/glp1-conversion-copywriter.md`): Direct-response GLP-1 scriptwriting director ($79/$129 pricing expose, food noise relief, habit teardowns).
+- **UgcCreativeDirector** (`.agents/agents/ugc-creative-director.md`): AI avatar (ElevenLabs + HeyGen/Hedra), UGC creator, and kinetic subtitle production director.
+- **DataEmailCro** / **SocialMedia**: Funnel CRO, channel re-branding, and comment-to-DM quiz lead capture architecture.
+
+### 14.3 251-Post Keyword & Brand Positioning Remediation Rollout (October 18, 2026)
+- **Remediation Engine**: [`scripts/remediate_keywords_and_positioning.js`](file:///Users/joshburrows/Desktop/Antigravity/Side%20Hustles/Telehealth%20FX/scripts/remediate_keywords_and_positioning.js)
+- **Live Queue Remediated**: 251/251 posts (250 scheduled + 1 previously failed Facebook post `8f9534ed-eb3f-45f2-bbb2-b4db279b901c` rescheduled to `2026-10-31T22:45:00.000Z`).
+- **YouTube Shorts (126 Scheduled)**:
+  - 100% of titles ($\le 95$ chars, zero HTML entity encoding artifacts) now explicitly include **`GLP-1`**, **`Semaglutide`**, **`Tirzepatide`**, and **`Weight Loss`**.
+  - Descriptions start with the direct qualification URL (`https://go.telehealthfx.com/coreage-glp1`, `https://losingweightrx.com/do-i-qualify.html`, `https://getskinnyonline.com/do-i-qualify.html`), include the brand-specific **"About / What We Do"** block (`Compounded Semaglutide $79/mo flat`, `Compounded Tirzepatide $129/mo flat`), and include `#GLP1 #Semaglutide #Tirzepatide #WeightLoss #MedicalWeightLoss`.
+- **Facebook Reels (125 Scheduled)**:
+  - 100% of main post captions include a zero-URL/zero-domain **"What We Do"** positioning block featuring `GLP-1 Medical Weight Loss`, `Compounded Semaglutide ($79/mo flat)`, and `Compounded Tirzepatide ($129/mo flat)` + downward pointer CTA (`👉 Check if you qualify for GLP-1 Weight Loss (Semaglutide $79/mo • Tirzepatide $129/mo) with a licensed physician!`).
+  - 100% of pinned first comments (`subposts[0]`) updated with the $79/$129 Semaglutide & Tirzepatide positioning and direct qualification URLs.
+- **On-Screen Video Templates Upgraded**:
+  - Added persistent top `.brand-header-pill` (`GLP-1 WEIGHT LOSS • SEMAGLUTIDE $79/MO • TIRZEPATIDE $129/MO`) and updated default CTA/disclaimer text across [`telehealth-reel.html`](file:///Users/joshburrows/Desktop/Antigravity/Side%20Hustles/Telehealth%20FX/templates/reels/telehealth-reel.html), [`telehealth-myth-fact.html`](file:///Users/joshburrows/Desktop/Antigravity/Side%20Hustles/Telehealth%20FX/templates/reels/telehealth-myth-fact.html), [`telehealth-three-signs.html`](file:///Users/joshburrows/Desktop/Antigravity/Side%20Hustles/Telehealth%20FX/templates/reels/telehealth-three-signs.html), [`telehealth-checklist.html`](file:///Users/joshburrows/Desktop/Antigravity/Side%20Hustles/Telehealth%20FX/templates/reels/telehealth-checklist.html), and [`scripts/render_telehealth_reels.py`](file:///Users/joshburrows/Desktop/Antigravity/Side%20Hustles/Telehealth%20FX/scripts/render_telehealth_reels.py).
+
+---
+
+## 15. Multi-Property Conversion Overhaul & Musely Rollout (October 18, 2026)
+
+### 15.1 Core Partner Realignment
+- **Flagship GLP-1**: Pivoted away from dormant CoreAge Rx (0 conversions / 266 clicks) to **Embody GLP-1 (Offer 1548)** ($69/mo intro, 8.70% network CR, $13.05 EPC) and **Gala Health (Offer 1576)** (2.08% CR, $6.98 EPC).
+- **Flagship TRT**: Peter MD (Offer 1344) mapped across `go.telehealthfx.com/petermd`, `coreage-trt`, `trt`, and `enclomiphene` with transparent $89/mo multi-month billing and lab disclosures.
+- **Clinical Skincare**: Musely accepted all properties (Telehealth FX, Deals Direct Daily, Losing Weight RX, Get Skinny Online). 100% routed through cloaked Switchy URLs (`go.telehealthfx.com/musely*`, `/spot-cream`, `/anti-aging-cream`, `/aging-repair-cream`) targeting verified Impact Radius partner link (`https://musely.pxf.io/m4B7KZ`) with dynamic `subId1` preservation.
+- **HealthRX (Offer 1630) Evaluation**: Evaluated HealthRX ($99/mo intro). Due to lack of network-wide conversion/EPC data in Katalys, traffic remains prioritized on proven high-EPC winners (Embody, Peter MD, Musely).
+
+### 15.2 Deployment & Verification Status
+- **Switchy Link Architecture**: 21/21 routes audited and passing 100% telemetry verification with full query parameter forwarding (`check_offer_telemetry.js`).
+- **Deals Direct Daily**: 864 HTML files (1,680 link instances) updated across 31 skincare quizzes and deal pages across English and all 11 international languages (`sv/`, `es/`, `de/`, `fr/`, `it/`, `nl/`, `no/`, `pl/`, `pt/`, `ja/`). Rebuilt 3,298-URL sitemap, deployed to Cloudflare Pages (`8bec2186.deals-direct-daily.pages.dev`), pushed to `origin/main` (`65f1bd9`), and dispatched to Universal IndexNow.
+- **Telehealth FX Site**: Tretinoin blog, product components, and hero search updated to Musely. Deployed to Cloudflare Pages (`0cca228a.telehealthfx.pages.dev`) and pushed to `origin/main` (`d9b6f7f`).
+- **Losing Weight RX**: Clinical skincare cards on `pricing.html` and `es/pricing.html` updated to Musely The Anti-Aging Cream & The Spot Cream. Deployed to Cloudflare Pages (`239db24d.losing-weight-rx.pages.dev`) and pushed to `origin/main` (`e1c461e`).
+- **Get Skinny Online**: Clinical skincare cards on `pricing.html` and `es/pricing.html` updated to Musely. Deployed to Cloudflare Pages (`1442ad0d.getskinnyonline.pages.dev`).
