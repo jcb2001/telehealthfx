@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { Icon, Logo } from './common.jsx';
 import { PatientReviewsSection } from './patient-reviews-section.jsx';
 
-const CTA_URL = "https://go.telehealthfx.com/coreage-trt";
+const CTA_URL = "https://go.telehealthfx.com/petermd?aff_sub=tfx_trt_page";
 
 // ============================================================================
 // STANDALONE NAV — No GLP-1 banner, TRT-specific CTA
@@ -42,6 +42,117 @@ function TestosteroneNav() {
   );
 }
 
+function LowTScreener({ ctaUrl }) {
+  const [selected, setSelected] = useState([]);
+  
+  const symptoms = [
+    { id: 'fatigue', label: 'Afternoon energy crashes — even after 7+ hours of sleep' },
+    { id: 'belly_fat', label: 'Stubborn midsection weight gain that workouts won\'t shift' },
+    { id: 'libido', label: 'Noticeable drop in sex drive, performance, or morning erections' },
+    { id: 'brain_fog', label: 'Brain fog, reduced drive, or difficulty concentrating at work' },
+    { id: 'recovery', label: 'Prolonged muscle soreness and slow recovery after exercise' },
+    { id: 'mood', label: 'Unexplained irritability, mood dips, or lack of competitive edge' }
+  ];
+
+  const toggleSymptom = (id) => {
+    setSelected(prev => 
+      prev.includes(id) ? prev.filter(x => x !== id) : [...prev, id]
+    );
+  };
+
+  const count = selected.length;
+
+  return (
+    <div className="card" style={{ padding: '36px 32px', marginBottom: 80, background: 'linear-gradient(135deg, rgba(46, 74, 59, 0.05), rgba(46, 74, 59, 0.02))', border: '2px solid var(--brand)', borderRadius: 20 }}>
+      <div style={{ textAlign: 'center', marginBottom: 28 }}>
+        <div style={{ display: 'inline-block', padding: '4px 12px', borderRadius: 9999, background: 'var(--brand)', color: '#fff', fontSize: 12, fontWeight: 700, textTransform: 'uppercase', letterSpacing: 0.5, marginBottom: 12 }}>
+          Interactive Clinical Screener
+        </div>
+        <h2 className="serif" style={{ fontSize: 32, marginBottom: 12, color: 'var(--ink)' }}>Could Low Testosterone Be Holding You Back?</h2>
+        <p style={{ fontSize: 16, color: 'var(--ink-2)', maxWidth: 580, margin: '0 auto' }}>
+          Select any symptoms you have experienced consistently over the past 30 days:
+        </p>
+      </div>
+
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: 14, marginBottom: 28 }}>
+        {symptoms.map(s => {
+          const isChecked = selected.includes(s.id);
+          return (
+            <div
+              key={s.id}
+              onClick={() => toggleSymptom(s.id)}
+              style={{
+                display: 'flex',
+                alignItems: 'center',
+                gap: 12,
+                padding: '14px 18px',
+                borderRadius: 12,
+                background: isChecked ? 'rgba(46, 74, 59, 0.1)' : '#FFFFFF',
+                border: isChecked ? '2px solid var(--brand)' : '1px solid var(--line)',
+                cursor: 'pointer',
+                transition: 'all 0.2s ease',
+                userSelect: 'none'
+              }}
+            >
+              <div style={{
+                width: 22,
+                height: 22,
+                borderRadius: 6,
+                border: isChecked ? '2px solid var(--brand)' : '2px solid var(--line-soft)',
+                background: isChecked ? 'var(--brand)' : '#FFF',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                flexShrink: 0
+              }}>
+                {isChecked && <span style={{ color: '#FFF', fontSize: 13, fontWeight: 900 }}>✓</span>}
+              </div>
+              <span style={{ fontSize: 14, color: isChecked ? 'var(--ink)' : 'var(--ink-2)', fontWeight: isChecked ? 600 : 400 }}>
+                {s.label}
+              </span>
+            </div>
+          );
+        })}
+      </div>
+
+      {count >= 2 ? (
+        <div style={{
+          background: '#FFFFFF',
+          padding: '24px 28px',
+          borderRadius: 14,
+          border: '1px solid var(--brand)',
+          textAlign: 'center',
+          boxShadow: '0 4px 16px rgba(46, 74, 59, 0.08)'
+        }}>
+          <div style={{ fontSize: 15, fontWeight: 700, color: 'var(--brand)', marginBottom: 8 }}>
+            ⚠️ {count} Clinical Indicators Flagged
+          </div>
+          <p style={{ fontSize: 15, color: 'var(--ink-2)', maxWidth: 540, margin: '0 auto 18px', lineHeight: 1.5 }}>
+            Your selections match the clinical profile for suboptimal free or total testosterone. Peter MD provides comprehensive at-home diagnostic lab kits and board-certified TRT protocols from <strong>$89/month</strong>.
+          </p>
+          <a
+            href="https://go.telehealthfx.com/petermd?aff_sub=tfx_trt_screener"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-primary btn-lg"
+            style={{ display: 'inline-flex' }}
+          >
+            Check Your TRT Eligibility ($89 Promo) <Icon.Arrow />
+          </a>
+          <div style={{ fontSize: 12, color: 'var(--ink-3)', marginTop: 10 }}>
+            ⚡ 100% Online Physician Review · Free Lab Analysis with Protocol
+          </div>
+        </div>
+      ) : (
+        <div style={{ textAlign: 'center', padding: '16px', background: 'rgba(0,0,0,0.02)', borderRadius: 12 }}>
+          <p style={{ fontSize: 14, color: 'var(--ink-3)', margin: 0 }}>
+            Select 2 or more symptoms above to view your personalized hormone optimization pathway.
+          </p>
+        </div>
+      )}
+    </div>
+  );
+}
 
 function TestosteronePage() {
   const schema = {
@@ -219,13 +330,13 @@ function TestosteronePage() {
             <span className="pill-dot" /> Men's Hormone Optimization
           </div>
           <h1 className="serif" style={{ fontSize: 72, marginBottom: 28, lineHeight: 0.95 }}>
-            Testosterone<br/>Therapy<br/><span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>from $93/mo.</span>
+            Testosterone<br/>Therapy<br/><span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>from $89/mo.</span>
           </h1>
           <p style={{ fontSize: 20, color: 'var(--ink-2)', maxWidth: 620, margin: '0 auto 40px', lineHeight: 1.6 }}>
             Personalized TRT prescribed by licensed clinicians and delivered to your door. Injectable, oral, and topical options — no waiting rooms, no guesswork.
           </p>
           <a href={CTA_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex' }}>
-            Learn More <Icon.Arrow />
+            See If You Qualify ($89 Promo) <Icon.Arrow />
           </a>
         </div>
 
@@ -241,7 +352,7 @@ function TestosteronePage() {
         {/* Trust Strip */}
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 24, marginBottom: 80 }}>
           {[
-            { num: '$93', label: 'Starting Price/mo' },
+            { num: '$89', label: 'Starting Price/mo' },
             { num: '100%', label: 'Online Care' },
             { num: 'Free', label: 'Discreet Shipping' },
           ].map((s, i) => (
@@ -252,30 +363,8 @@ function TestosteronePage() {
           ))}
         </div>
 
-        {/* Symptom Awareness */}
-        <div className="card" style={{ padding: 40, marginBottom: 80, background: 'rgba(46, 74, 59, 0.04)', borderColor: 'rgba(46, 74, 59, 0.15)' }}>
-          <h2 className="serif" style={{ fontSize: 32, marginBottom: 24, color: 'var(--ink)', textAlign: 'center' }}>Could Low Testosterone Be Holding You Back?</h2>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: 16 }}>
-            {[
-              'Fatigue — even after a full night\'s sleep',
-              'Stubborn weight gain, especially around the belly',
-              'Low sex drive or performance issues',
-              'Brain fog and poor focus',
-              'Mood swings or irritability',
-              'Slow recovery after workouts',
-            ].map((symptom, i) => (
-              <div key={i} style={{ display: 'flex', alignItems: 'flex-start', gap: 10, fontSize: 15, color: 'var(--ink-2)', lineHeight: 1.5 }}>
-                <div style={{ width: 22, height: 22, borderRadius: '50%', background: 'var(--accent-soft)', color: 'var(--accent)', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0, marginTop: 1 }}>
-                  <Icon.Check size={12} />
-                </div>
-                {symptom}
-              </div>
-            ))}
-          </div>
-          <p style={{ textAlign: 'center', marginTop: 28, fontSize: 14, color: 'var(--ink-3)' }}>
-            If two or more apply, you may be a candidate for testosterone replacement therapy.
-          </p>
-        </div>
+        {/* Interactive Low T Clinical Screener */}
+        <LowTScreener ctaUrl={CTA_URL} />
 
         {/* Content */}
         <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
