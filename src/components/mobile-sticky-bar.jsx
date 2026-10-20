@@ -8,8 +8,8 @@ export function MobileStickyBar() {
 
   useEffect(() => {
     const handleScroll = () => {
-      // Show after scrolling past the first 250px
-      if (window.scrollY > 250) {
+      // Show after scrolling past the hero section
+      if (window.scrollY > 400) {
         setVisible(true);
       } else {
         setVisible(false);
@@ -24,8 +24,8 @@ export function MobileStickyBar() {
 
   // Route-specific configurations
   let title = isEs ? "Semaglutida desde $69/mes" : "Semaglutide from $69/mo";
-  let subtitle = isEs ? "Aprobación en 24h · Envío gratis" : "24h Approval · Free Shipping";
-  let ctaText = isEs ? "Verificar →" : "Qualify Now →";
+  let subtitle = isEs ? "Aprobación en 24h · Envío gratis" : "24h Approval · $0 Membership Fees";
+  let ctaText = isEs ? "Verificar →" : "See If You Qualify →";
   let ctaUrl = isEs ? "https://go.telehealthfx.com/embody?sub3=es&sub4=tfx_sticky" : "https://go.telehealthfx.com/embody?aff_sub=tfx_sticky_bar";
 
   if (p.includes('tirzepatide') || p.includes('zepbound') || p.includes('mounjaro')) {
@@ -117,17 +117,17 @@ export function MobileStickyBar() {
       <a
         href={ctaUrl}
         style={{
-          background: 'var(--accent, #C77D5C)',
-          color: '#FBF8F3',
-          padding: '10px 16px',
+          background: '#FBF8F3',
+          color: '#2E4A3B',
+          padding: '12px 18px',
           borderRadius: 999,
           fontSize: 13,
-          fontWeight: 600,
+          fontWeight: 700,
           letterSpacing: '-0.01em',
           textDecoration: 'none',
           whiteSpace: 'nowrap',
           flexShrink: 0,
-          boxShadow: '0 2px 8px rgba(199, 125, 92, 0.4)',
+          boxShadow: '0 4px 12px rgba(0, 0, 0, 0.25)',
         }}
       >
         {ctaText}

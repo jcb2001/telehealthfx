@@ -103,10 +103,17 @@ function HeroDefault({ headline, priceAnchor }) {
           <p className="fade-in" style={{ fontSize: 18, color: 'var(--ink-2)', maxWidth: 520, marginBottom: 36, lineHeight: 1.55 }}>
             GLP-1 weight loss medication, delivered. A personalized clinical program with 100% transparent pricing, 6-month payment plans, and 2-Day UPS shipping to your door.
           </p>
-          <div className="flex-row stack-mobile" style={{ gap: 12, marginBottom: 40 }}>
+          <div className="flex-row stack-mobile" style={{ gap: 12, marginBottom: 24 }}>
             <a className="btn btn-primary btn-lg" href="https://go.telehealthfx.com/embody?aff_sub=tfx_hero">
               See If You Qualify <Icon.Arrow />
             </a>
+          </div>
+
+          {/* Mobile proof strip (replaces floating cards on narrow viewports) */}
+          <div className="mobile-proof-badges">
+            <span className="mobile-proof-pill">🛡️ Prescribed by Dr. Elena Rivera, MD</span>
+            <span className="mobile-proof-pill">📉 &minus;22 lbs Avg at Mo 4</span>
+            <span className="mobile-proof-pill">⚡ 24h Approval · $0 Membership Fees</span>
           </div>
 
           {/* Trust row */}

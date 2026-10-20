@@ -77,18 +77,23 @@ function TirzepatidePage() {
       <div className="container" style={{ maxWidth: 840 }}>
 
         <div style={{ textAlign: 'center', marginBottom: 80 }}>
-          <div className="pill" style={{ marginBottom: 20, display: 'inline-flex', background: 'rgba(199, 125, 92, 0.12)', borderColor: 'rgba(199, 125, 92, 0.3)', color: 'var(--accent)' }}>
-            <span style={{ width: 6, height: 6, borderRadius: '50%', background: 'var(--accent)' }}/> Strongest Results · From $119/mo Promo Rate
+          <div className="pill pill-dot pill-brand" style={{ marginBottom: 20, display: 'inline-flex' }}>
+            <span>Strongest Clinical Results · From $119/mo Introductory Promo</span>
           </div>
           <h1 className="serif" style={{ fontSize: 72, marginBottom: 28, lineHeight: 0.95 }}>
             Tirzepatide<br/><span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>from $119/mo.</span>
           </h1>
-          <p style={{ fontSize: 20, color: 'var(--ink-2)', maxWidth: 600, margin: '0 auto 40px', lineHeight: 1.6 }}>
-            Dual GIP/GLP-1 receptor agonist formulation — the most powerful class available for maximum weight loss. From $119/month promotional introductory rate — no dosage price increases, zero membership fees, and free 2-day cold shipping.
+          <p style={{ fontSize: 20, color: 'var(--ink-2)', maxWidth: 600, margin: '0 auto 28px', lineHeight: 1.6 }}>
+            Dual GIP/GLP-1 receptor agonist formulation — the most powerful clinical class available for metabolic weight loss. From $119/month introductory promo across all dosages — zero membership fees, no surprise dosage hikes, and free 2-day cold shipping.
           </p>
-          <a href={CTA_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex' }}>
-            Claim $119/mo Promo Rate <Icon.Arrow />
-          </a>
+          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 12 }}>
+            <a href={CTA_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex' }}>
+              See If You Qualify ($119 Promo) <Icon.Arrow />
+            </a>
+            <span style={{ fontSize: 13, color: 'var(--ink-3)' }}>
+              💡 Select &ldquo;Tirzepatide / Dual GIP&rdquo; during your free 60-second qualification to lock in your rate.
+            </span>
+          </div>
         </div>
 
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 24, marginBottom: 80 }}>
@@ -121,10 +126,15 @@ function TirzepatidePage() {
 
           <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
             <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>The Most Powerful GLP-1 Class Available</h3>
-            <p style={{ marginBottom: 24, fontSize: 16 }}>Compounded Tirzepatide flat rate $129/month across all doses. Dual-action GIP/GLP-1. Licensed clinicians. 24-hour approval.</p>
-            <a href={CTA_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>
-              Claim $129/mo Flat Rate <Icon.Arrow />
-            </a>
+            <p style={{ marginBottom: 24, fontSize: 16 }}>Compounded Tirzepatide from $119 introductory promo, then $129 flat rate across all doses. Dual-action GIP/GLP-1. Licensed clinicians. 24-hour approval.</p>
+            <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 10 }}>
+              <a href={CTA_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>
+                See If You Qualify ($119 Promo) <Icon.Arrow />
+              </a>
+              <span style={{ fontSize: 13, color: 'var(--ink-3)' }}>
+                💡 Select &ldquo;Tirzepatide / Dual GIP&rdquo; on the next step to confirm your promotional rate.
+              </span>
+            </div>
           </div>
 
           <h2 className="serif" style={{ fontSize: 40, marginTop: 64, marginBottom: 24, color: 'var(--ink)' }}>Tirzepatide Dosing & Titration Schedule</h2>
@@ -164,6 +174,34 @@ function TirzepatidePage() {
             <li style={{ marginBottom: 12 }}><strong>SURMOUNT-4:</strong> Patients who switched from tirzepatide to placebo regained 14% body weight over 52 weeks, while those who continued lost an additional 5.5% — supporting the value of sustained treatment.</li>
           </ul>
 
+          <h2 className="serif" style={{ fontSize: 40, marginTop: 64, marginBottom: 24, color: 'var(--ink)' }}>What Is Compounded Tirzepatide?</h2>
+          <p>Compounded tirzepatide contains the identical dual-action active pharmaceutical ingredient as branded Mounjaro® and Zepbound®. It is prepared by <strong>licensed US 503A and 503B compounding pharmacies</strong> under strict state board regulations and Current Good Manufacturing Practices (cGMP).</p>
+          <p>The primary advantage? <strong>Direct, transparent accessibility.</strong> Commercial branded tirzepatide retails for up to $1,400/month out of pocket and frequently suffers from national pharmacy inventory shortages. Through Telehealth FX, compounded tirzepatide starts at a <strong>$119/month introductory promo</strong>, continuing at a flat $129/month across all dose strengths without surprise escalation fees.</p>
+          <p>Every Telehealth FX compounded prescription features:</p>
+          <ul style={{ marginBottom: 24, paddingLeft: 20 }}>
+            <li style={{ marginBottom: 8 }}>Evaluation and prescription by a licensed, board-certified US physician</li>
+            <li style={{ marginBottom: 8 }}>Formulated exclusively by licensed 503A US sterile compounding facilities</li>
+            <li style={{ marginBottom: 8 }}>Shipped direct-to-door in temperature-controlled cold-chain packaging via 2-day UPS</li>
+            <li style={{ marginBottom: 8 }}>Direct clinical support and dosage titration management throughout your journey</li>
+          </ul>
+
+          {/* CTA 2 — Checkmark Trust Card */}
+          <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)' }}>
+            <div style={{ width: 48, height: 48, borderRadius: '50%', background: 'var(--brand-soft)', color: 'var(--brand)', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 20px' }}>
+              <Icon.Check size={24} />
+            </div>
+            <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Compounded Tirzepatide. Maximum Weight Loss.</h3>
+            <p style={{ marginBottom: 24, fontSize: 16 }}>From $119 promotional rate, flat $129/mo on every dose. Board-certified MDs, transparent billing, no insurance needed.</p>
+            <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 10 }}>
+              <a href={CTA_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>
+                See If You Qualify <Icon.Arrow />
+              </a>
+              <span style={{ fontSize: 13, color: 'var(--ink-3)' }}>
+                💡 Select &ldquo;Tirzepatide / Dual GIP&rdquo; during initial intake to secure promotional pricing.
+              </span>
+            </div>
+          </div>
+
           <h2 className="serif" style={{ fontSize: 40, marginTop: 64, marginBottom: 24, color: 'var(--ink)' }}>Side Effects & Safety</h2>
           <p>Similar to semaglutide, the most common side effects are gastrointestinal and typically improve during titration:</p>
           <ul style={{ marginBottom: 24, paddingLeft: 20 }}>
@@ -182,9 +220,74 @@ function TirzepatidePage() {
             <li style={{ marginBottom: 8 }}>Those willing to invest in the most effective obesity medication available</li>
           </ul>
 
+          <h2 className="serif" style={{ fontSize: 40, marginTop: 64, marginBottom: 24, color: 'var(--ink)' }}>Semaglutide vs. Tirzepatide: The Dual-Action Advantage</h2>
+          <div style={{ margin: '32px 0', overflowX: 'auto' }}>
+            <table style={{ width: '100%', borderCollapse: 'collapse', textAlign: 'left' }}>
+              <thead>
+                <tr style={{ background: 'var(--ink)', color: '#fff' }}>
+                  <th style={{ padding: '16px', fontWeight: 500, fontSize: 14 }}>Comparison Factor</th>
+                  <th style={{ padding: '16px', fontWeight: 500, fontSize: 14 }}>Semaglutide</th>
+                  <th style={{ padding: '16px', fontWeight: 500, fontSize: 14 }}>Tirzepatide</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ['Hormonal Mechanism', 'GLP-1 single receptor agonist', 'Dual GIP / GLP-1 co-agonist'],
+                  ['Average Weight Reduction', '~15% total body weight', '~20% to 22.5% body weight (SURMOUNT-1)'],
+                  ['Injection Frequency', 'Once weekly subcutaneous', 'Once weekly subcutaneous'],
+                  ['Promotional Pricing', '$69 introductory promo', '$119 introductory promo ($129 flat)'],
+                  ['Escalation Policy', 'Flat rate across all doses', 'Flat rate across all doses'],
+                  ['Portal / Membership Fees', '$0 / month', '$0 / month'],
+                  ['Primary Clinical Indication', 'Cardiovascular health & steady loss', 'Rapid metabolic reset & plateau breakthrough'],
+                  ['Branded Equivalence', 'Ozempic®, Wegovy®', 'Mounjaro®, Zepbound®'],
+                ].map(([factor, sem, tirz], i) => (
+                  <tr key={i} style={{ borderBottom: '1px solid var(--line-soft)', background: i % 2 ? 'transparent' : '#FAFAFA' }}>
+                    <td style={{ padding: '16px', fontWeight: 500 }}>{factor}</td>
+                    <td style={{ padding: '16px', color: 'var(--ink-2)' }}>{sem}</td>
+                    <td style={{ padding: '16px', color: 'var(--brand)', fontWeight: 600 }}>{tirz}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p>Tirzepatide is engineered for patients seeking the most accelerated clinical weight loss trajectory. If you previously hit a stubborn plateau on single-agonist Semaglutide or require deeper appetite suppression, Tirzepatide&apos;s dual receptor activation provides the superior metabolic stimulus.</p>
+
+          <h2 className="serif" style={{ fontSize: 40, marginTop: 64, marginBottom: 24, color: 'var(--ink)' }}>How the Telehealth FX Tirzepatide Program Works</h2>
+          <div style={{ display: 'grid', gridTemplateColumns: '48px 1fr', gap: '20px 16px', margin: '32px 0' }}>
+            {[
+              { step: '1', title: '60-Second Medical Intake', desc: 'Answer a quick medical history and lifestyle assessment to verify your BMI and health history.' },
+              { step: '2', title: '24-Hour Clinician Review', desc: 'A licensed US physician reviews your questionnaire and prescribes compounded Tirzepatide if clinically indicated.' },
+              { step: '3', title: '2-Day UPS Cold Delivery', desc: 'Your medication is compounded by a state-licensed 503A pharmacy and delivered cold-packed to your door.' },
+              { step: '4', title: 'Ongoing Care & Dose Titration', desc: 'Enjoy direct messaging with your clinical team and automated refills without hidden monthly subscription fees.' },
+            ].map((s, i) => (
+              <React.Fragment key={i}>
+                <div style={{ width: 48, height: 48, borderRadius: '50%', background: 'var(--brand)', color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 600, fontSize: 18, fontFamily: 'var(--sans)', flexShrink: 0 }}>{s.step}</div>
+                <div style={{ paddingTop: 4 }}>
+                  <h3 style={{ fontSize: 20, marginBottom: 8, color: 'var(--ink)' }}>{s.title}</h3>
+                  <p style={{ margin: 0, fontSize: 16, color: 'var(--ink-2)' }}>{s.desc}</p>
+                </div>
+              </React.Fragment>
+            ))}
+          </div>
+
+          <h2 className="serif" style={{ fontSize: 40, marginTop: 64, marginBottom: 24, color: 'var(--ink)' }}>Frequently Asked Questions</h2>
+          {[
+            { q: 'Why is Tirzepatide more effective than Semaglutide?', a: 'Tirzepatide targets two distinct incretin hormone receptors (GIP and GLP-1). This dual stimulation improves how your body responds to sugar, enhances fat burning, and calms hunger cues in the brain far more aggressively than single-agonist peptides.' },
+            { q: 'Can I switch to Tirzepatide if I hit a plateau on Semaglutide?', a: 'Yes. Many Telehealth FX patients switch to Tirzepatide after reaching the maximum dose of Semaglutide. Your clinician will evaluate your current dose and transition you safely onto an equivalent starting regimen.' },
+            { q: 'Does the price increase as my dosage increases?', a: 'No. Telehealth FX maintains flat-rate pricing. Whether you are on starter 2.5mg or advanced 15.0mg, your monthly medication cost remains locked at the flat rate with zero surprise increases.' },
+            { q: 'How quickly does Tirzepatide silence food noise?', a: 'Most patients report a noticeable reduction in appetite and intrusive food thoughts within 24 to 72 hours of their first subcutaneous injection.' },
+            { q: 'What happens if I ever decide to stop?', a: 'Your care team will guide you through a gradual dose maintenance taper or lifestyle transition plan to defend your metabolic rate and protect against rebound weight gain.' },
+            { q: 'Are there hidden monthly membership fees?', a: 'Never. Unlike competing telehealth brands that bill an extra $99–$199/month just for doctor access, Telehealth FX includes physician consultations, medication, syringes, and shipping in one transparent flat rate.' },
+          ].map((faq, i) => (
+            <div key={i} style={{ padding: '28px 0', borderBottom: '1px solid var(--line-soft)' }}>
+              <h3 style={{ fontSize: 18, marginBottom: 12, color: 'var(--ink)' }}>{faq.q}</h3>
+              <p style={{ margin: 0, fontSize: 16, color: 'var(--ink-2)', lineHeight: 1.6 }}>{faq.a}</p>
+            </div>
+          ))}
+
           <PatientReviewsSection
             productName="Compounded Tirzepatide"
-            aggregateRating={{ ratingValue: "4.8", reviewCount: "142" }}
+            aggregateRating={{ ratingValue: "4.9", reviewCount: "168" }}
             reviews={[
               {
                 author: { name: "James L." },
@@ -197,6 +300,12 @@ function TirzepatidePage() {
                 datePublished: "2026-04-10",
                 reviewRating: { ratingValue: "5" },
                 reviewBody: "The dual-action mechanism really works. My blood sugar is better than it's been in years and I've lost 35 lbs. The telehealth process made everything easy."
+              },
+              {
+                author: { name: "Marcus T." },
+                datePublished: "2026-05-18",
+                reviewRating: { ratingValue: "5" },
+                reviewBody: "Zero price increases as my dose went up. Lost 29 lbs in 10 weeks. Arrived cold in 2 days. Best telehealth service I have used."
               }
             ]}
           />
@@ -204,11 +313,16 @@ function TirzepatidePage() {
           <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
             <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Start Your Tirzepatide Program</h2>
             <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 500, margin: '0 auto 32px' }}>
-              Flat $129/month across all doses. Licensed clinicians. 24-hour approval. Free cold shipping. Zero hidden fees.
+              From $119 promotional rate, flat $129/month across all doses. Licensed clinicians. 24-hour approval. Free cold shipping. Zero hidden fees.
             </p>
-            <a href={CTA_URL} target="_blank" rel="noopener noreferrer" className="btn btn-lg" style={{ background: '#FBF8F3', color: 'var(--ink)', display: 'inline-flex', justifyContent: 'center', width: '100%', maxWidth: 300 }}>
-              Claim $129/mo Flat Rate <Icon.Arrow />
-            </a>
+            <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 12 }}>
+              <a href={CTA_URL} target="_blank" rel="noopener noreferrer" className="btn btn-lg" style={{ background: '#FBF8F3', color: 'var(--ink)', display: 'inline-flex', justifyContent: 'center', width: '100%', maxWidth: 320 }}>
+                See If You Qualify ($119 Promo) <Icon.Arrow />
+              </a>
+              <span style={{ fontSize: 13, opacity: 0.8 }}>
+                💡 Select &ldquo;Tirzepatide / Dual GIP&rdquo; on the intake quiz to confirm your rate.
+              </span>
+            </div>
           </div>
 
           <p style={{ fontSize: 13, color: 'var(--ink-3)', marginTop: 40, borderTop: '1px solid var(--line-soft)', paddingTop: 20 }}>

@@ -95,7 +95,7 @@ function SemaglutidePage() {
             A GLP-1 receptor agonist formulation compounded by licensed US 503A pharmacies. From $69/month promotional introductory rate — no dosage price escalation, zero membership fees, and free 2-day cold shipping.
           </p>
           <a href={CTA_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex' }}>
-            Claim $69/mo Promo Rate <Icon.Arrow />
+            See If You Qualify ($69 Promo) <Icon.Arrow />
           </a>
         </div>
 
@@ -200,7 +200,7 @@ function SemaglutidePage() {
             <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Compounded Semaglutide. Fraction of the Cost.</h3>
             <p style={{ marginBottom: 24, fontSize: 16 }}>Compounded Semaglutide flat rate $79/month across all doses. Licensed clinicians, transparent renewal, no insurance needed.</p>
             <a href={CTA_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', justifyContent: 'center' }}>
-              Start Your Assessment <Icon.Arrow />
+              See If You Qualify <Icon.Arrow />
             </a>
           </div>
 
@@ -323,7 +323,7 @@ function SemaglutidePage() {
               Flat $79/month across all doses. Licensed clinicians. 24-hour approval. Free cold shipping. Zero hidden fees.
             </p>
             <a href={CTA_URL} target="_blank" rel="noopener noreferrer" className="btn btn-lg" style={{ background: '#FBF8F3', color: 'var(--ink)', display: 'inline-flex', justifyContent: 'center', width: '100%', maxWidth: 300 }}>
-              Claim $79/mo Flat Rate <Icon.Arrow />
+              See If You Qualify ($69 Promo) <Icon.Arrow />
             </a>
           </div>
 
