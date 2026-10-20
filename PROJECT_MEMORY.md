@@ -1,12 +1,14 @@
 # Telehealth FX — Project Memory & Master Blueprint
 
-> **Last Updated:** October 2026  
+> **Last Updated:** October 20, 2026  
 > **Production Domain:** [https://telehealthfx.com](https://telehealthfx.com) · [https://www.telehealthfx.com](https://www.telehealthfx.com)  
 > **Platform & Hosting:** Cloudflare Pages (`telehealthfx` project)  
 > **Codebase:** Next.js 14+ (App Router, Static HTML Export `output: 'export'`)  
 > **Primary Git Repository:** `git@github.com:jcb2001/telehealthfx.git` (Remote `telehealthfx`, branch `telehealthfx-main`, tracking `main`)  
 > **Tracking & Domain Routing:** Switchy.io (`go.telehealthfx.com`)  
-> **Affiliate Network:** Katalys / RevOffers (Offer ID `1632`, Affiliate ID `12322`)  
+> **Affiliate Network:** Katalys / RevOffers (Partner Org `54809618-86ff-42b1-a56f-f85b4d2ba19a` · Traffic Sources: `12322` Telehealth FX, `12648` Losing Weight RX, `14011` Get Skinny Online, `12417` Deals Direct Daily)  
+> **Katalys Script Deployments:** `KA-PECTXTXO70` (TFX), `KA-C80APGJU4X` (LWR), `KA-SCBUIOZ0FW` (GSO), `KA-8ZK3OQ4AXH` (DDD)  
+> **Katalys S2S Webhook Postbacks:** `#681` (`https://telehealthfx.com/api/katalys-postback`) · `#682` (`https://quiz.losingweightrx.com/api/katalys-postback`)  
 
 ---
 
@@ -75,9 +77,11 @@ git push telehealthfx telehealthfx-main:main && git push telehealthfx telehealth
      - *Destination:* `https://track.revoffers.com/aff_c?offer_id=1576&aff_id=12322`
   4. **Willow (Offer ID: `1325`)** — Needle-Free Oral Tablets & Sublingual Drops
      - *Performance:* 0.70% CR, $1.47 EPC, $315 CPA
-     - *Pricing:* $149/mo all-inclusive
-     - *Switchy Slugs:* `go.telehealthfx.com/willow`, `go.telehealthfx.com/semaglutide-tablets`, `go.telehealthfx.com/tirzepatide-tablets`, `go.telehealthfx.com/sublingual-semaglutide`, `go.telehealthfx.com/skinnyrx`
-     - *Destination:* `https://track.revoffers.com/aff_c?offer_id=1325&aff_id=12322`
+     - *Pricing:* $149/mo all-inclusive ($149/mo Semaglutide, $199/mo Tirzepatide)
+     - *Switchy Slugs (TFX - aff_id 12322):* `go.telehealthfx.com/willow`, `go.telehealthfx.com/semaglutide-tablets`, `go.telehealthfx.com/tirzepatide-tablets`, `go.telehealthfx.com/sublingual-semaglutide`, `go.telehealthfx.com/skinnyrx`
+     - *Switchy Slugs (LWR - aff_id 12648):* `go.telehealthfx.com/willow-lwr`, `go.telehealthfx.com/semaglutide-tablets-lwr`, `go.telehealthfx.com/tirzepatide-tablets-lwr`
+     - *Switchy Slugs (GSO - aff_id 14011):* `go.telehealthfx.com/willow-gso`, `go.telehealthfx.com/semaglutide-tablets-gso`, `go.telehealthfx.com/tirzepatide-tablets-gso`
+     - *Destination:* `https://track.revoffers.com/aff_c?offer_id=1325&aff_id={aff_id}`
   5. **CoreAge Rx (Offer ID: `1632`)** — Longevity, Peptides & Skincare
      - *Products:* NAD+ ($99/mo), Sermorelin ($99/mo), 4Play ED, Topical Peptides
 
@@ -97,9 +101,13 @@ git push telehealthfx telehealthfx-main:main && git push telehealthfx telehealth
 | **Testosterone Therapy (TRT)**| Men's Hormone | `go.telehealthfx.com/petermd` | Offer 1344 (Peter MD) | `petermd.com` | **$89/mo (6-mo protocol) / $99/mo standard** |
 | **Enclomiphene / Oral TRT** | Men's Hormone | `go.telehealthfx.com/enclomiphene` | Offer 1344 (Peter MD) | `petermd.com` | **From $89/mo** |
 | **Intake / Qualification Quiz** | Intake Assessment | `go.telehealthfx.com/embody` | Offer 1548 (Embody) | `embodywellness.com` | **From $69/mo** |
-| **Oral Semaglutide Tablets** | Needle-Free GLP-1 | `go.telehealthfx.com/semaglutide-tablets` | Offer 1325 (Willow) | `willow.com` | **$149/mo flat rate** |
-| **Oral Tirzepatide Tablets** | Needle-Free Dual | `go.telehealthfx.com/tirzepatide-tablets` | Offer 1325 (Willow) | `willow.com` | **$199/mo flat rate** |
-| **Sublingual Semaglutide Drops**| Liquid Sublingual | `go.telehealthfx.com/sublingual-semaglutide` | Offer 1325 (Willow) | `willow.com` | **$149/mo flat rate** |
+| **Oral Semaglutide Tablets (TFX)** | Needle-Free GLP-1 | `go.telehealthfx.com/semaglutide-tablets` | Offer 1325 (Willow · aff_id 12322) | `willow.com` | **$149/mo flat rate** |
+| **Oral Tirzepatide Tablets (TFX)** | Needle-Free Dual | `go.telehealthfx.com/tirzepatide-tablets` | Offer 1325 (Willow · aff_id 12322) | `willow.com` | **$199/mo flat rate** |
+| **Oral Semaglutide Tablets (LWR)** | Needle-Free GLP-1 | `go.telehealthfx.com/semaglutide-tablets-lwr` | Offer 1325 (Willow · aff_id 12648) | `willow.com` | **$149/mo flat rate** |
+| **Oral Tirzepatide Tablets (LWR)** | Needle-Free Dual | `go.telehealthfx.com/tirzepatide-tablets-lwr` | Offer 1325 (Willow · aff_id 12648) | `willow.com` | **$199/mo flat rate** |
+| **Oral Semaglutide Tablets (GSO)** | Needle-Free GLP-1 | `go.telehealthfx.com/semaglutide-tablets-gso` | Offer 1325 (Willow · aff_id 14011) | `willow.com` | **$249/mo flat rate** |
+| **Oral Tirzepatide Tablets (GSO)** | Needle-Free Dual | `go.telehealthfx.com/tirzepatide-tablets-gso` | Offer 1325 (Willow · aff_id 14011) | `willow.com` | **$299/mo flat rate** |
+| **Sublingual Semaglutide Drops**| Liquid Sublingual | `go.telehealthfx.com/sublingual-semaglutide` | Offer 1325 (Willow · aff_id 12322) | `willow.com` | **$149/mo flat rate** |
 | **NAD+ Therapy** | Longevity & Peptides | `go.telehealthfx.com/nad` | Offer 1632 · `url_id=12688` | `app.coreagerx.com/go/k/nad` | **From $99/mo** |
 | **Sermorelin Peptide** | Longevity & Peptides | `go.telehealthfx.com/sermorelin` | Offer 1632 · `url_id=12689` | `app.coreagerx.com/go/k/sermorelin` | **Flat $99/mo** |
 | **4Play ED Compound** | Sexual Wellness | `go.telehealthfx.com/coreage-ed` | Offer 1632 · `url_id=12693` | `app.coreagerx.com/go/k/4play` | **From $18/dose** |
@@ -971,6 +979,70 @@ Conducted deep funnel CRO & telemetry audit across converting vs non-converting 
      - Detected 127 scheduled YouTube Shorts descriptions containing commercial prescription drug price figures (`$69/mo`, `$79/mo`, `$119/mo`, `$129/mo`) across Telehealth FX (`08e483da`), Healthy Lifestyle Podcast (`d6dfbb19`), and Quiz Select (`71510b60`), creating vulnerability to YouTube's "Online Pharmacy" algorithmic suppression.
      - Engineered and executed automated batch remediation via `scripts/remediate_feedhive_youtube_posts.js`, sanitizing all 127 YouTube descriptions to compliant clinical qualification framing while preserving attribution links, UTM parameters, and full FDA 503A compounding / Boxed Warning disclaimers.
      - Final re-audit confirmed **161 / 161 scheduled posts (100%) completely clean** across all 16 channels: 0 Critical, 0 High, 0 Medium warnings.
+   8. **Things 3 Automation & Phase 2 Gatekeeper Task (Scheduled for Oct 23, 2026)**:
+      - Created scheduled task in Things 3 project `✅ Telehealth FX` (`to do id N4y2LsMvhH2ARZSVHT5h2W`): *"Audit Phase 1 Social Delivery & Ramp to Phase 2"* scheduled and due on **October 23, 2026**.
+      - Checklist gate: Verify all 31 Phase 1 posts across Facebook, YouTube, and Pinterest published cleanly with zero algorithmic strikes or comment drops, then greenlight Phase 2 acceleration to 2 posts/day per channel (22 posts/day total).
+
+---
+
+## 24. Katalys Script Deployments & Webhook Postbacks Architecture (October 20, 2026)
+
+### 24.1 Portfolio Script Deployments (`https://app.katalys.com/pub/54809618-86ff-42b1-a56f-f85b4d2ba19a/integrations`)
+Configured, compiled, and deployed 4 brand-specific Katalys Tracking Scripts across the entire portfolio, all verified **Active / Receiving Data**:
+
+| Property / Brand | Katalys Traffic Source (`aff_id`) | Realm ID | Script ID (`site_id`) | CDN Script URL | Deployment Scope |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Telehealth FX** | `12322` | `149956` | **`KA-PECTXTXO70`** | `https://js.katalys.com/js/KA-PECTXTXO70.js` | `Telehealth FX Site/src/app/layout.js` (735 pages) |
+| **Losing Weight RX** | `12648` | `176707` | **`KA-C80APGJU4X`** | `https://js.katalys.com/js/KA-C80APGJU4X.js` | `Losing Weight RX` (182 HTML files) & `Ads Campaign` (`quiz.losingweightrx.com`) |
+| **Get Skinny Online** | `14011` | `176708` | **`KA-SCBUIOZ0FW`** | `https://js.katalys.com/js/KA-SCBUIOZ0FW.js` | `Get Skinny Online` (34 HTML files) |
+| **Deals Direct Daily** | `12417` | `176709` | **`KA-8ZK3OQ4AXH`** | `https://js.katalys.com/js/KA-8ZK3OQ4AXH.js` | `Deals Direct Daily/Website` (9 HTML files) |
+
+- **Enabled Features on All 4 Scripts**:
+  1. **Visitor & Event Tracking (`js_track`)**: Captures 90-day 1st-party session cookies (`revoffers_affil`) and processes client-side micro-conversions (`outbound_cta_click`, `conversion`) via `window._revoffers_track.push(...)`.
+  2. **Campaign Tracking (`url_clone`)**: Automatically captures media-buying parameters (`utm_*`, `gclid`, `fbclid`, `ttclid`, `msclkid`, `_fbc`, `_fbp`, `_ttp`, `_gcl_aw`) and exposes custom rules in Katalys reporting:
+     - `sub2` $\to$ `utm_source`
+     - `sub3` $\to$ `utm_campaign`
+     - `sub4` $\to$ `{{location.pathname}}` (exact landing/article page path)
+     - `sub5` $\to$ `{{location.hostname}}` (exact originating domain)
+  3. **Link Replacer (`link_replacer`)**: Automatically rewrites any direct links to Katalys advertiser domains with the property's exact `affId` (`12322`, `12648`, `14011`, `12417`).
+  4. **Switchy Attribution Bridge**: Client-side bridge script synchronizes active UTM/click-ID parameters and `aff_sub4`/`aff_sub5` onto cloaked `go.telehealthfx.com/*` links and dispatches real-time `outbound_cta_click` telemetry to Katalys.
+
+### 24.2 Active Webhook Postbacks (`https://app.katalys.com/pub/54809618-86ff-42b1-a56f-f85b4d2ba19a/settings/postbacks`)
+Configured and verified 2 active server-to-server (S2S) HTTP Webhook Postbacks:
+1. **Postback #681 — `Portfolio Global Webhook (Conversions & Partial Attribution)`**:
+   - **Endpoint**: `https://telehealthfx.com/api/katalys-postback` ([`Telehealth FX Site/functions/api/katalys-postback.ts`](file:///Users/joshburrows/Desktop/Antigravity/Side%20Hustles/Telehealth%20FX/Telehealth%20FX%20Site/functions/api/katalys-postback.ts))
+   - **Triggers**: `create`, `update`, `delete` across Payable Conversions (`1`), Pending (`0`), Partial/Touched Conversions (`5`), Rejected (`9`), and Funnel Events (`view`, `engagement`, `progress`).
+   - **Capabilities**: Enriches `aff_id` (`12322` TFX, `12648` LWR, `14011` GSO, `12417` DDD) and `offer_id` (`1548` Embody, `1344` Peter MD, `1701` Musely, `1576` Gala, `1632` CoreAge), logs structured JSON telemetry, and automatically forwards to `CRM_WEBHOOK_URL` and Meta Conversions API (`META_PIXEL_ID` + `META_CAPI_TOKEN`) when configured.
+2. **Postback #682 — `Losing Weight RX Quiz Conversion Webhook`**:
+   - **Endpoint**: `https://quiz.losingweightrx.com/api/katalys-postback` ([`Ads Campaign/functions/api/katalys-postback.ts`](file:///Users/joshburrows/Desktop/Antigravity/Side%20Hustles/Telehealth%20FX/Ads%20Campaign/functions/api/katalys-postback.ts))
+   - **Triggers**: `create`, `update` filtered to Traffic Source `12648` (`Losing Weight US`).
+
+---
+
+## 25. Fable Forensic Telemetry Audit & Daily Sales Growth Blueprint (October 20, 2026)
+
+### 25.1 The 90-Day Katalys Ground Truth & The 568-Click Leak
+A forensic extraction across all Katalys API reporting rows revealed why sales suddenly began and where massive traffic was previously lost:
+- **Total 90-Day Unique Outbound Clicks**: 611 unique clicks across all network properties.
+- **The Converting Seam**: **Embody (Offer 1548)** received only **43 unique clicks (7.0%)**, but generated **100% of all portfolio commissions ($450.00 / 3 conversions @ $150 CPA)**:
+  - `tfx_hero`: 5 unique clicks ➔ **2 conversions (40.0% CR, $60.00 EPC)**.
+  - `tfx_sema_page`: 1 unique click ➔ **1 conversion (100% CR, $150.00 EPC)**.
+- **The 568-Click Wasteland (93.0% of all traffic routed to non-converting offers)**:
+  - `CoreAge Rx (1632)`: **274 unique clicks ➔ 0 conversions ($0 payout)**.
+  - `SkinnyRx (1464)`: **147 unique clicks ➔ 0 conversions ($0 payout)**.
+  - `Peter MD TRT (1344)`: **94 unique clicks ➔ 0 conversions ($0 payout)**.
+
+### 25.2 Immediate High-Leverage Remediations Executed
+1. **Switchy Slug `/start` Remediated**:
+   - Discovered that high-ranking GSC organic blog posts (such as `/blog/compounded-semaglutide-after-hims-ro-2026/`) were linking to `go.telehealthfx.com/start`, which redirected to dead Offer 1464 (SkinnyRx).
+   - Executed live Switchy API PUT updating `go.telehealthfx.com/start` to `https://track.revoffers.com/aff_c?offer_id=1548&aff_id=12322&aff_sub=tfx_blog_start`. Verified live redirect to Embody Offer 1548.
+2. **`quiz.losingweightrx.com` Friction Wall Smashed**:
+   - In `Ads Campaign/src/screens/Results.tsx`, removed the forced email waiting barrier by adding a high-contrast on-screen qualification CTA: `See If You Qualify ($69 Promo) →` pointing to `go.telehealthfx.com/embody?aff_sub=lwr_quiz_screen`.
+   - In `Ads Campaign/functions/api/submit.ts`, updated default offer and affiliate IDs to `1548` (Embody) and `12648` (Losing Weight US).
+   - Rebuilt and deployed cleanly to Cloudflare Pages production (`losing-weight-rx-quiz.pages.dev` / `quiz.losingweightrx.com`).
+3. **Master Blueprint Published**:
+   - Authored and verified full Fable Mode forensic report and daily sales scaling roadmap in [`master_sales_growth_fable_audit.md`](file:///Users/joshburrows/.gemini/antigravity/brain/22103756-97b6-4405-97f6-73bdb40065df/master_sales_growth_fable_audit.md).
+
 
 
 

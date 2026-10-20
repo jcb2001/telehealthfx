@@ -6,7 +6,7 @@ import { DirectAnswerSnippet } from './direct-answer-snippet.jsx';
 import { ExtractiveAIAnswerBlock } from './extractive-ai-answer-block.jsx';
 import { AIQuickSummaryAction } from './ai-quick-summary-action.jsx';
 
-const START_URL = "https://go.telehealthfx.com/start";
+const START_URL = "https://go.telehealthfx.com/embody?aff_sub=tfx_hims_ro_callout";
 
 function BlogCompoundedAfterHimsRo() {
   const [selectedDose, setSelectedDose] = useState("1.0 mg");
@@ -68,6 +68,52 @@ function BlogCompoundedAfterHimsRo() {
                 { label: "National SLA", value: "24-48 Hr Cold-Chain Overnight" }
               ]}
             />
+
+            {/* Top-Rated 2026 Alternative Callout Card */}
+            <div style={{
+              background: 'linear-gradient(135deg, rgba(46, 74, 59, 0.08), rgba(46, 74, 59, 0.02))',
+              border: '2px solid var(--brand)',
+              borderRadius: 16,
+              padding: '24px 28px',
+              margin: '32px 0',
+              boxShadow: '0 4px 16px rgba(46, 74, 59, 0.08)'
+            }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 12 }}>
+                <span style={{ background: 'var(--brand)', color: '#fff', fontSize: 11, fontWeight: 800, padding: '4px 10px', borderRadius: 9999, textTransform: 'uppercase', letterSpacing: 0.5 }}>Top-Rated 2026 Alternative</span>
+                <span style={{ fontSize: 13, color: 'var(--ink-2)', fontWeight: 600 }}>Doctor-Supervised 503A Care</span>
+              </div>
+              <h3 className="serif" style={{ fontSize: 24, margin: '0 0 10px', color: 'var(--ink)' }}>
+                Looking for Flat-Rate Compounded Semaglutide Without Ro or Hims Fees?
+              </h3>
+              <p style={{ fontSize: 15, lineHeight: 1.6, color: 'var(--ink-2)', margin: '0 0 18px' }}>
+                Embody Wellness offers verified 503A compounded semaglutide from <strong>$69/month</strong> introductory promotional rate. Includes board-certified physician evaluation, free cold shipping to your door, and zero hidden membership dues.
+              </p>
+              <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: 16 }}>
+                <div style={{ display: 'flex', gap: 16, fontSize: 13, color: 'var(--ink-3)' }}>
+                  <span>🛡️ 24h Approval</span>
+                  <span>📉 No Dose Escalation Markups</span>
+                  <span>📦 2-Day Cold Shipping</span>
+                </div>
+                <a
+                  href={START_URL}
+                  className="btn btn-primary"
+                  style={{
+                    backgroundColor: 'var(--brand)',
+                    color: '#FFFFFF',
+                    padding: '12px 24px',
+                    fontSize: '15px',
+                    fontWeight: 700,
+                    borderRadius: '8px',
+                    textDecoration: 'none',
+                    display: 'inline-flex',
+                    alignItems: 'center',
+                    gap: '8px'
+                  }}
+                >
+                  See If You Qualify ($69 Promo) <Icon.Arrow />
+                </a>
+              </div>
+            </div>
 
             {/* Direct Ro vs Hims vs Telehealth FX Head-to-Head Comparison Table */}
             <div

@@ -6,7 +6,7 @@ import { DirectAnswerSnippet } from './direct-answer-snippet.jsx';
 import { ExtractiveAIAnswerBlock } from './extractive-ai-answer-block.jsx';
 import { AIQuickSummaryAction } from './ai-quick-summary-action.jsx';
 
-const S = "https://go.telehealthfx.com/start";
+const S = "https://go.telehealthfx.com/embody?aff_sub=tfx_travel_callout";
 
 function BlogGLP1TravelGuide() {
   const [copiedLetter, setCopiedLetter] = useState(false);
@@ -186,6 +186,52 @@ contact@telehealthfx.com | 1-800-TELEHEALTH`;
 
             <p>Traveling while on semaglutide or tirzepatide raises practical questions that most clinicians never address: Can you bring an injection pen through airport security? How do you keep medication cold during a 14-hour flight? What happens if your injection day falls mid-travel? This guide covers every scenario — from TSA rules to international travel, from cruise ships to camping trips.</p>
             <p>The stakes are real: semaglutide and tirzepatide are peptide medications that degrade when exposed to heat, freezing, or prolonged light exposure. Improper storage during travel can render your medication ineffective — a $200–$400 mistake that also disrupts your <a href="/blog/semaglutide-weight-loss-timeline-2026/" style={{ color: 'var(--brand)', fontWeight: 500 }}>weight loss timeline</a>. Prevention is straightforward with the right preparation.</p>
+
+            {/* Editor's Choice Travel Refill & Access Box */}
+            <div style={{
+              background: 'linear-gradient(135deg, rgba(46, 74, 59, 0.08), rgba(46, 74, 59, 0.02))',
+              border: '2px solid var(--brand)',
+              borderRadius: 16,
+              padding: '24px 28px',
+              margin: '32px 0',
+              boxShadow: '0 4px 16px rgba(46, 74, 59, 0.08)'
+            }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 12 }}>
+                <span style={{ background: 'var(--brand)', color: '#fff', fontSize: 11, fontWeight: 800, padding: '4px 10px', borderRadius: 9999, textTransform: 'uppercase', letterSpacing: 0.5 }}>Travel-Ready Care</span>
+                <span style={{ fontSize: 13, color: 'var(--ink-2)', fontWeight: 600 }}>Doctor-Supervised 503A Delivery</span>
+              </div>
+              <h3 className="serif" style={{ fontSize: 24, margin: '0 0 10px', color: 'var(--ink)' }}>
+                Need Medication Shipped Before Your Trip?
+              </h3>
+              <p style={{ fontSize: 15, lineHeight: 1.6, color: 'var(--ink-2)', margin: '0 0 18px' }}>
+                Embody Wellness provides 24-hour physician evaluations and express cold-chain delivery nationwide. Flat-rate compounded semaglutide from <strong>$69/month</strong> introductory promotional pricing with zero hidden membership fees.
+              </p>
+              <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: 16 }}>
+                <div style={{ display: 'flex', gap: 16, fontSize: 13, color: 'var(--ink-3)' }}>
+                  <span>🛡️ 24h Approval</span>
+                  <span>📦 Insulated Cold Shipping</span>
+                  <span>✈️ Travel-Safe Packaging</span>
+                </div>
+                <a
+                  href={S}
+                  className="btn btn-primary"
+                  style={{
+                    backgroundColor: 'var(--brand)',
+                    color: '#FFFFFF',
+                    padding: '12px 24px',
+                    fontSize: '15px',
+                    fontWeight: 700,
+                    borderRadius: '8px',
+                    textDecoration: 'none',
+                    display: 'inline-flex',
+                    alignItems: 'center',
+                    gap: '8px'
+                  }}
+                >
+                  See If You Qualify ($69 Promo) <Icon.Arrow />
+                </a>
+              </div>
+            </div>
 
             <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>TSA and Airport Security: The Rules</h2>
             <p>Injectable medications are <strong>explicitly exempt</strong> from the TSA 3-1-1 liquids rule. You may bring your GLP-1 pen, vials, and syringes in your carry-on bag in any quantity. You do not need a separate plastic bag. However, you should follow these best practices to avoid delays at security checkpoints:</p>

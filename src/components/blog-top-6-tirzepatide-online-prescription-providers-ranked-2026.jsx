@@ -4,7 +4,7 @@ import { Icon } from './common.jsx';
 import { ExtractiveAIAnswerBlock } from './extractive-ai-answer-block.jsx';
 import { AIQuickSummaryAction } from './ai-quick-summary-action.jsx';
 
-const START_URL = "https://go.telehealthfx.com/start";
+const START_URL = "https://go.telehealthfx.com/embody?aff_sub=tfx_tirz_rank_callout";
 
 function BlogTop6TirzepatideProvidersRanked() {
   return (
@@ -51,6 +51,52 @@ function BlogTop6TirzepatideProvidersRanked() {
                 { label: "Pharmacy Sourcing", value: "100% State-Licensed 503A Compounding Pharmacies (USP <797>)" },
               ]}
             />
+
+            {/* Top-Rated 2026 Alternative Callout Card */}
+            <div style={{
+              background: 'linear-gradient(135deg, rgba(17, 94, 89, 0.08), rgba(17, 94, 89, 0.02))',
+              border: '2px solid #115e59',
+              borderRadius: 16,
+              padding: '24px 28px',
+              margin: '32px 0',
+              boxShadow: '0 4px 16px rgba(17, 94, 89, 0.08)'
+            }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 12 }}>
+                <span style={{ background: '#115e59', color: '#fff', fontSize: 11, fontWeight: 800, padding: '4px 10px', borderRadius: 9999, textTransform: 'uppercase', letterSpacing: 0.5 }}>#1 Top-Rated 2026 Provider</span>
+                <span style={{ fontSize: 13, color: '#042f2e', fontWeight: 600 }}>Doctor-Supervised Dual GIP/GLP-1 Care</span>
+              </div>
+              <h3 className="serif" style={{ fontSize: 24, margin: '0 0 10px', color: '#042f2e' }}>
+                Access Flat-Rate Compounded Tirzepatide from $119/Month
+              </h3>
+              <p style={{ fontSize: 15, lineHeight: 1.6, color: '#0f2f2b', margin: '0 0 18px' }}>
+                Embody Wellness offers verified 503A compounded tirzepatide from <strong>$119/month</strong> introductory promotional pricing (or $69/month for semaglutide). Features board-certified doctor review, 24-hour approval, and zero hidden recurring membership fees.
+              </p>
+              <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: 16 }}>
+                <div style={{ display: 'flex', gap: 16, fontSize: 13, color: '#0d9488' }}>
+                  <span>🛡️ 24h Approval</span>
+                  <span>📉 -20.9% Avg Weight Loss</span>
+                  <span>📦 Free Cold Shipping</span>
+                </div>
+                <a
+                  href={START_URL}
+                  className="btn btn-primary"
+                  style={{
+                    backgroundColor: '#115e59',
+                    color: '#FFFFFF',
+                    padding: '12px 24px',
+                    fontSize: '15px',
+                    fontWeight: 700,
+                    borderRadius: '8px',
+                    textDecoration: 'none',
+                    display: 'inline-flex',
+                    alignItems: 'center',
+                    gap: '8px'
+                  }}
+                >
+                  See If You Qualify ($119 Promo) <Icon.Arrow />
+                </a>
+              </div>
+            </div>
 
             {/* Extractive AI Answer Block with High-Weight Thesis and Statutory Anchor */}
             <ExtractiveAIAnswerBlock
