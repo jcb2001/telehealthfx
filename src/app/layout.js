@@ -229,6 +229,13 @@ export default function RootLayout({ children }) {
             __html: `(function(){if(window.location.hostname==='www.telehealthfx.com'){window.location.replace('https://telehealthfx.com'+window.location.pathname+window.location.search);}})();`,
           }}
         />
+        {/* Katalys Script Deployment (Telehealth FX: KA-PECTXTXO70) + Switchy Attribution Bridge */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `!function(w,d,e,u,v,n,t,s){if(w[u])return;n=w[u]=[];n.push=function(){Array.prototype.push.call(w[u],arguments)};t=d.createElement(e);t.async=!0;t.src=v;s=d.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,"script","_revoffers_track","https://js.katalys.com/js/KA-PECTXTXO70.js");
+!function(){function syncSwitchyLinks(){try{var qs=new URLSearchParams(window.location.search);var carry=["utm_source","utm_medium","utm_campaign","utm_term","utm_content","gclid","fbclid","ttclid","msclkid"];var links=document.querySelectorAll('a[href*="go.telehealthfx.com"]');for(var i=0;i<links.length;i++){var a=links[i];try{var u=new URL(a.href);for(var j=0;j<carry.length;j++){var k=carry[j],v=qs.get(k);if(v&&!u.searchParams.has(k))u.searchParams.set(k,v);}if(!u.searchParams.has("aff_sub4"))u.searchParams.set("aff_sub4",window.location.pathname);if(!u.searchParams.has("aff_sub5"))u.searchParams.set("aff_sub5",window.location.hostname);a.href=u.toString();}catch(e){}}}catch(e){}}if(document.readyState==="loading"){document.addEventListener("DOMContentLoaded",syncSwitchyLinks);}else{syncSwitchyLinks();}document.addEventListener("click",function(ev){var a=ev.target&&ev.target.closest?ev.target.closest('a[href*="go.telehealthfx.com"],a[href*="track.revoffers.com"]'):null;if(!a)return;syncSwitchyLinks();try{var u=new URL(a.href);var sub1=u.searchParams.get("aff_sub")||u.searchParams.get("sub1")||u.pathname.replace(/^\\//,"");if(window._revoffers_track&&typeof window._revoffers_track.push==="function"){window._revoffers_track.push(["event",{action:"outbound_cta_click",sub1:sub1,sub4:window.location.pathname,sub5:window.location.hostname}]);}}catch(e){}},true);}();`,
+          }}
+        />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(globalSchema) }} />
       </head>
       <body>

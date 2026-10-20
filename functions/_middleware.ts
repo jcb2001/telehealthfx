@@ -9,8 +9,8 @@ export const onRequest: PagesFunction<Env> = async (context) => {
     return Response.redirect(url.toString(), 301);
   }
 
-  // 2. Trailing Slash Normalization: Force trailing slash on clean directory paths
-  if (!url.pathname.endsWith('/') && !url.pathname.includes('.')) {
+  // 2. Trailing Slash Normalization: Force trailing slash on clean directory paths (skip /api/*)
+  if (!url.pathname.startsWith('/api/') && !url.pathname.endsWith('/') && !url.pathname.includes('.')) {
     url.pathname = `${url.pathname}/`;
     return Response.redirect(url.toString(), 301);
   }
