@@ -9,178 +9,194 @@ const START_URL = "https://go.telehealthfx.com/coreage-glp1";
 export function BlogCompoundedSemaglutide503aPharmacyGuide() {
   return (
     <section className="section" style={{ minHeight: '60vh', paddingTop: 120, paddingBottom: 100 }}>
-      <div className="container" style={{ maxWidth: 840, margin: '0 auto', padding: '0 20px' }}>
+      <div className="container" style={{ maxWidth: 860 }}>
         
-        {/* Category Badge */}
-        <div style={{ display: 'inline-block', padding: '4px 12px', borderRadius: 6, background: '#1E3D34', color: '#fff', fontSize: 12, fontWeight: 700, letterSpacing: 1, textTransform: 'uppercase', marginBottom: 16 }}>
-          Clinical Pharmacy Standards
-        </div>
-
-        {/* Article H1 Title */}
-        <h1 className="serif" style={{ fontSize: 42, marginBottom: 20, lineHeight: 1.18, color: 'var(--ink, #1A1F1C)' }}>
-          Compounded Semaglutide 503A Pharmacy Guide: Purity, Safety & Legal Standards (2026)
+        <div className="eyebrow" style={{ marginBottom: 20 }}>Regulatory Framework & Pharmacy Compliance</div>
+        <h1 className="serif" style={{ fontSize: 48, marginBottom: 24, lineHeight: 1.15 }}>
+          Compounded Semaglutide 503A Pharmacy Guide: <span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>Cleanroom Standards, Cold-Chain Safety &amp; Legal Compliance</span>
         </h1>
-
-        {/* Byline and Author Credentials */}
-        <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 32, paddingBottom: 20, borderBottom: '1px solid var(--line-soft, #EBE5DA)' }}>
-          <div style={{ width: 44, height: 44, borderRadius: '50%', overflow: 'hidden', flexShrink: 0 }}>
-            <Image src="/assets/jm-profile.jpg" alt="Julian Mercer, M.S." width={88} height={88} style={{ width: '100%', height: '100%', objectFit: 'cover' }} priority={true} />
+        
+        <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 40, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}>
+          <div style={{ width: 44, height: 44, borderRadius: '50%', background: 'var(--brand)', color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold', overflow: 'hidden' }}>
+            <Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={44} height={44} style={{ width: '100%', height: '100%', objectFit: 'cover' }} priority={true} />
           </div>
           <div>
-            <div style={{ fontWeight: 600, fontSize: 15, color: 'var(--ink, #1A1F1C)' }}>
-              <a href="/about/" style={{ color: 'inherit', textDecoration: 'none' }}>Julian Mercer, M.S.</a>
-            </div>
-            <div style={{ fontSize: 13, color: 'var(--ink-3, #5F6762)' }}>
-              Lead Bio-Systems Analyst · Clinically Reviewed · 12 min read
-            </div>
+            <div style={{ fontWeight: 600, fontSize: 15 }}><a href="/about/" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
+            <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Senior Pharmaceutical Regulatory Analyst · Updated October 2026 · 23 min read</div>
           </div>
         </div>
 
-        {/* Featured Hero Image */}
-        <div style={{ margin: '0 0 36px', borderRadius: 16, overflow: 'hidden', boxShadow: '0 10px 30px rgba(0,0,0,0.07)', border: '1px solid var(--line-soft, #EBE5DA)' }}>
-          <Image
-            src="/assets/compounded-semaglutide-safety-fda-featured.png"
-            alt="Compounded Semaglutide 503A Pharmacy Guide"
-            width={1200}
-            height={675}
-            style={{ width: '100%', height: 'auto', display: 'block' }}
-            priority={true}
-          />
-        </div>
-
-        {/* AI Quick Summary Action Widget */}
-        <AIQuickSummaryAction
-          title="Section 503A Quality Standards & Flat-Rate Access"
-          subtitle="Direct prescription access through state-licensed 503A compounding facilities adhering to USP <797> sterile protocols"
-          price="$79 / mo flat rate"
-          turnaround="24-hr clinician review · Temperature-controlled cold chain shipping"
-          doseMatch={true}
-          keyPoints={[
-            { label: "Federal Authority", value: "FD&C Act Section 503A (21 U.S.C. § 353a)" },
-            { label: "Sterile Compounding", value: "USP <797> Cleanroom & HPLC Mass Spec Purity Testing" },
-            { label: "Active Substance", value: "Pure Semaglutide Base (Zero Sodium or Acetate Salts)" },
-            { label: "Transparent Cost", value: "$79/mo flat rate across all dosage strengths" },
-          ]}
-          ctaText="Check Your 503A GLP-1 Eligibility →"
-          ctaUrl={START_URL}
+        <DirectAnswerSnippet 
+          heading="What Is a 503A Compounding Pharmacy and Why Does It Matter for Semaglutide?"
+          answer="A 503A compounding pharmacy is a state-licensed facility designated under Section 503A of the Federal Food, Drug, and Cosmetic Act (FD&amp;C Act) authorized to compound custom, sterile medications for individual, patient-specific prescriptions. Unlike unregulated research peptide vendors or non-sterile facilities, 503A pharmacies operate under strict United States Pharmacopeia (USP) chapters &lt;797&gt; and &lt;800&gt; sterility standards. They formulate compounded semaglutide inside ISO Class 5 cleanrooms using pharmaceutical-grade Semaglutide Base, verified by third-party HPLC potency testing, endotoxin screening, and 14-day sterility incubation to guarantee clinical safety and bioequivalence."
         />
 
-        {/* Direct-Answer Featured Snippet Box */}
-        <DirectAnswerSnippet
-          question="What is a 503A compounding pharmacy and is compounded semaglutide legal?"
-          answer="Under Section 503A of the Federal Food, Drug, and Cosmetic Act (21 U.S.C. § 353a), state-licensed compounding pharmacies are legally authorized to prepare patient-specific compounded semaglutide upon receiving a valid physician prescription. Compounded formulations use pure pharmaceutical-grade semaglutide base and must meet strict United States Pharmacopeia (USP <797>) sterility and potency standards."
-          keyTakeaways={[
-            { label: "Legal Basis", value: "FD&C Act Section 503A patient-specific prescriptions" },
-            { label: "Chemical Form", value: "Pure Semaglutide Base with verified Certificate of Analysis" },
-            { label: "Flat Pricing", value: "$79/mo all doses with $0 doctor consultation fees" }
-          ]}
-          badge="Regulatory Clinical Audit • Section 503A Compliance"
-        />
-
-        {/* Blog Article Body */}
-        <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.75, color: 'var(--ink-2, #333C36)' }}>
+        <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.75, color: 'var(--ink-2)', marginTop: 40 }}>
           
-          <h2 className="serif" style={{ fontSize: 32, marginTop: 44, marginBottom: 18, color: 'var(--ink, #1A1F1C)' }}>
-            1. Understanding Section 503A vs. 503B Compounding Facilities
-          </h2>
           <p>
-            When patients seek compounded semaglutide online, the single most critical quality safeguard is verifying the licensing category of the fulfilling pharmacy. The United States Congress established two distinct compounding frameworks under the Drug Quality and Security Act (DQSA):
+            The national surge in demand for GLP-1 weight loss medications has created unprecedented drug shortages across the United States. In response, millions of patients have turned to compounded semaglutide to initiate and maintain their medical weight loss therapy. However, the legal and regulatory framework governing drug compounding is complex, and widespread consumer confusion persists regarding what separates legitimate, doctor-prescribed compounded medication from unauthorized black-market alternatives.
           </p>
-          <ul style={{ paddingLeft: 24, marginBottom: 24 }}>
-            <li style={{ marginBottom: 12 }}>
-              <strong>Section 503A Pharmacies:</strong> State-board-licensed traditional compounding pharmacies that formulate custom medications for individual, named patients based on a valid prescription from a licensed healthcare provider. They must comply with strict United States Pharmacopeia (USP) general chapters, specifically USP &lt;795&gt; for non-sterile and USP &lt;797&gt; for sterile injectable preparations.
-            </li>
-            <li style={{ marginBottom: 12 }}>
-              <strong>Section 503B Outsourcing Facilities:</strong> Larger manufacturing facilities registered with the FDA that can compound larger batches without patient-specific prescriptions, adhering to Current Good Manufacturing Practices (cGMP).
-            </li>
+
+          <p>
+            At the center of legitimate GLP-1 compounding is the <strong>503A compounding pharmacy</strong>. Understanding how 503A facilities operate, how their cleanrooms are monitored, and what legal standards protect patients is essential for any individual navigating telehealth options in 2026.
+          </p>
+
+          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>
+            The Legal Anatomy: Section 503A of the FD&amp;C Act Explained
+          </h2>
+
+          <p>
+            In 1997, the United States Congress passed the Food and Drug Administration Modernization Act (FDAMA), establishing Section 503A of the Federal Food, Drug, and Cosmetic Act (21 U.S.C. &sect; 353a). This landmark legislation formally defined the boundary between traditional, patient-specific pharmacy compounding and mass pharmaceutical manufacturing.
+          </p>
+
+          <p>
+            Under Section 503A, a pharmacy is legally exempt from three major requirements that govern large pharmaceutical manufacturers (like Novo Nordisk or Eli Lilly):
+          </p>
+
+          <ul style={{ margin: '24px 0', paddingLeft: 28 }}>
+            <li><strong>Premarket Approval (New Drug Applications / NDA):</strong> The pharmacy is not required to conduct independent multi-year clinical trials for every individual customized preparation.</li>
+            <li><strong>Mandatory Finished-Product Labeling Rules:</strong> Exemption from commercial package insert mandates, allowing patient-specific dosage instructions.</li>
+            <li><strong>Federal Current Good Manufacturing Practice (cGMP):</strong> While exempt from certain industrial batch manufacturing rules under 21 CFR Part 211, 503A pharmacies are strictly bound by the comprehensive, legally enforceable standards of the <strong>United States Pharmacopeia (USP)</strong>.</li>
           </ul>
 
-          <h2 className="serif" style={{ fontSize: 32, marginTop: 44, marginBottom: 18, color: 'var(--ink, #1A1F1C)' }}>
-            2. The Salt Form Warning: Semaglutide Base vs. Semaglutide Sodium
-          </h2>
           <p>
-            The FDA has issued explicit consumer guidance warning against unauthorized compounding using salt forms. In legitimate Section 503A compounding, the active pharmaceutical ingredient (API) must be <strong>Semaglutide Base</strong>, which is chemically identical to the active moiety in branded Ozempic® and Wegovy®.
-          </p>
-          <p>
-            Unregulated online vendors and "research peptide" websites frequently source <em>Semaglutide Sodium</em> or <em>Semaglutide Acetate</em>. These salt formulations are not pharmaceutical grade, have not demonstrated bioequivalence in human clinical trials, and are strictly prohibited by accredited 503A pharmacies. Telehealth FX fulfillment partners exclusively utilize verified pure Semaglutide Base accompanied by lot-specific Certificates of Analysis (CoA) confirming $\ge 99.0\%$ purity via High-Performance Liquid Chromatography (HPLC).
+            <strong>The Patient-Specific Prescription Requirement:</strong> Crucially, a 503A compounding pharmacy cannot manufacture bulk medication for speculative retail sale. By law, every single vial of compounded semaglutide produced by a 503A facility must be tied to a valid, individualized medical prescription issued by a licensed healthcare provider for an identified patient following a clinical evaluation.
           </p>
 
-          {/* Comparison Table */}
-          <div style={{ overflowX: 'auto', margin: '36px 0' }}>
-            <table style={{ width: '100%', borderCollapse: 'collapse', textAlign: 'left', fontSize: 16 }}>
+          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>
+            503A vs. 503B Compounding Facilities: Key Differences
+          </h2>
+
+          <p>
+            Many patients encounter terms like &ldquo;503A pharmacy&rdquo; and &ldquo;503B outsourcing facility&rdquo; without understanding the distinction. Both play critical roles in the healthcare ecosystem, but their regulatory mandates differ significantly:
+          </p>
+
+          <div style={{ overflowX: 'auto', margin: '32px 0', borderRadius: 12, border: '1px solid var(--line-soft)' }}>
+            <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: 15, textAlign: 'left', background: '#fff' }}>
               <thead>
-                <tr style={{ background: '#F4F0E8', borderBottom: '2px solid #2E4A3B' }}>
-                  <th style={{ padding: '14px 16px', color: '#1A1F1C' }}>Quality Standard</th>
-                  <th style={{ padding: '14px 16px', color: '#1A1F1C' }}>Accredited 503A Compounding</th>
-                  <th style={{ padding: '14px 16px', color: '#1A1F1C' }}>Unregulated "Research" Vendors</th>
+                <tr style={{ background: '#f8fafc', borderBottom: '2px solid var(--line-soft)' }}>
+                  <th style={{ padding: '16px 14px', fontWeight: 600 }}>Feature / Standard</th>
+                  <th style={{ padding: '16px 14px', fontWeight: 600 }}>503A Compounding Pharmacy</th>
+                  <th style={{ padding: '16px 14px', fontWeight: 600 }}>503B Outsourcing Facility</th>
                 </tr>
               </thead>
               <tbody>
-                <tr style={{ borderBottom: '1px solid #EBE5DA' }}>
-                  <td style={{ padding: '14px 16px', fontWeight: 600 }}>Active Molecule</td>
-                  <td style={{ padding: '14px 16px', color: '#2E4A3B', fontWeight: 600 }}>Pure Semaglutide Base</td>
-                  <td style={{ padding: '14px 16px', color: '#C0392B' }}>Semaglutide Sodium / Acetate Salts</td>
+                <tr style={{ borderBottom: '1px solid var(--line-soft)' }}>
+                  <td style={{ padding: '14px 14px', fontWeight: 600 }}>Primary Regulatory Oversight</td>
+                  <td style={{ padding: '14px 14px' }}>State Boards of Pharmacy (with FDA oversight)</td>
+                  <td style={{ padding: '14px 14px' }}>Direct FDA Federal Oversight &amp; Inspection</td>
                 </tr>
-                <tr style={{ borderBottom: '1px solid #EBE5DA' }}>
-                  <td style={{ padding: '14px 16px', fontWeight: 600 }}>Prescription Requirement</td>
-                  <td style={{ padding: '14px 16px' }}>Mandatory Board-Certified MD Intake</td>
-                  <td style={{ padding: '14px 16px', color: '#C0392B' }}>None ("Research Use Only" Loophole)</td>
+                <tr style={{ borderBottom: '1px solid var(--line-soft)' }}>
+                  <td style={{ padding: '14px 14px', fontWeight: 600 }}>Prescription Requirement</td>
+                  <td style={{ padding: '14px 14px', fontWeight: 600, color: 'var(--brand)' }}>Mandatory Patient-Specific Prescription</td>
+                  <td style={{ padding: '14px 14px' }}>Bulk orders for office-use (no individual Rx required)</td>
                 </tr>
-                <tr style={{ borderBottom: '1px solid #EBE5DA' }}>
-                  <td style={{ padding: '14px 16px', fontWeight: 600 }}>Sterility Standard</td>
-                  <td style={{ padding: '14px 16px' }}>USP &lt;797&gt; ISO Class 5 Cleanroom</td>
-                  <td style={{ padding: '14px 16px', color: '#C0392B' }}>Unverified Non-Sterile Labs</td>
+                <tr style={{ borderBottom: '1px solid var(--line-soft)' }}>
+                  <td style={{ padding: '14px 14px', fontWeight: 600 }}>Manufacturing Standards</td>
+                  <td style={{ padding: '14px 14px' }}>USP &lt;795&gt;, USP &lt;797&gt;, USP &lt;800&gt;</td>
+                  <td style={{ padding: '14px 14px' }}>Full Federal cGMP (21 CFR Part 211)</td>
                 </tr>
-                <tr style={{ borderBottom: '1px solid #EBE5DA' }}>
-                  <td style={{ padding: '14px 16px', fontWeight: 600 }}>Potency Verification</td>
-                  <td style={{ padding: '14px 16px' }}>HPLC Mass Spectrometry Batch Testing</td>
-                  <td style={{ padding: '14px 16px', color: '#C0392B' }}>None / Falsified PDF Reports</td>
+                <tr style={{ borderBottom: '1px solid var(--line-soft)' }}>
+                  <td style={{ padding: '14px 14px', fontWeight: 600 }}>Dispensing Destination</td>
+                  <td style={{ padding: '14px 14px' }}>Direct to patient doorstep via cold-chain</td>
+                  <td style={{ padding: '14px 14px' }}>Direct to hospitals, clinics, or physician offices</td>
                 </tr>
-                <tr style={{ background: '#FAF8F5' }}>
-                  <td style={{ padding: '14px 16px', fontWeight: 600 }}>All-Inclusive Pricing</td>
-                  <td style={{ padding: '14px 16px', color: '#2E4A3B', fontWeight: 700 }}>$79/mo Flat Rate (All Doses)</td>
-                  <td style={{ padding: '14px 16px' }}>Varies + Hidden Lab/Mixing Costs</td>
+                <tr>
+                  <td style={{ padding: '14px 14px', fontWeight: 600 }}>Flexibility &amp; Customization</td>
+                  <td style={{ padding: '14px 14px' }}>High (custom concentrations, additives like B12)</td>
+                  <td style={{ padding: '14px 14px' }}>Low (standardized fixed commercial batch runs)</td>
                 </tr>
               </tbody>
             </table>
           </div>
 
-          <h2 className="serif" style={{ fontSize: 32, marginTop: 44, marginBottom: 18, color: 'var(--ink, #1A1F1C)' }}>
-            3. How to Verify Your Compounding Pharmacy
-          </h2>
           <p>
-            Before initiating any telehealth medical weight loss program, confirm these 4 checkpoints:
+            For individual telehealth patients receiving personalized medical weight loss therapy, <strong>503A compounding pharmacies are the gold standard</strong>. They provide tailored formulations suited to the patient&rsquo;s titration stage while maintaining uncompromising sterile cleanroom standards.
           </p>
-          <ol style={{ paddingLeft: 24, marginBottom: 32 }}>
-            <li style={{ marginBottom: 12 }}>
-              <strong>State Board of Pharmacy License:</strong> The dispensing pharmacy must maintain an active sterile compounding permit in your resident state.
-            </li>
-            <li style={{ marginBottom: 12 }}>
-              <strong>Licensed Cold-Chain Logistics:</strong> Semaglutide is a fragile 31-amino-acid peptide that denatures if exposed to high temperatures. Authentic 503A pharmacies ship in insulated, temperature-monitored medical coolers with gel packs.
-            </li>
-            <li style={{ marginBottom: 12 }}>
-              <strong>Patient-Specific Labeling:</strong> Federal law requires the vial to bear your full name, prescribing doctor, exact milligram concentration, beyond-use date (BUD), and lot number.
-            </li>
-            <li style={{ marginBottom: 12 }}>
-              <strong>Zero Hidden Dosage Surcharges:</strong> Predatory clinics bait patients with a cheap 0.25mg starter dose and triple fees when titration reaches 2.4mg. Telehealth FX locks in a transparent <strong>$79/month flat rate</strong> across every dosage tier.
-            </li>
-          </ol>
 
-          {/* Bottom Conversion CTA Card */}
-          <div style={{ marginTop: 48, padding: 32, background: 'linear-gradient(135deg, #1E3D34 0%, #2E4A3B 100%)', borderRadius: 16, color: '#fff', textAlign: 'center' }}>
-            <h3 style={{ fontSize: 26, marginBottom: 12, color: '#fff' }}>Access Verified 503A Compounded Semaglutide</h3>
-            <p style={{ fontSize: 16, maxWidth: 620, margin: '0 auto 24px', opacity: 0.9 }}>
-              Complete your online clinical consultation in under 5 minutes. Transparent $79/mo flat rate pricing, board-certified physician review, and licensed US 503A sterile delivery.
+          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>
+            Inside the Sterile Cleanroom: USP &lt;797&gt; Engineering Standards
+          </h2>
+
+          <p>
+            Sterility is non-negotiable when preparing injectable peptides. United States Pharmacopeia Chapter &lt;797&gt; establishes the mandatory minimum operational practices for compounding sterile preparations (CSPs). A licensed 503A cleanroom is a masterwork of bio-environmental engineering:
+          </p>
+
+          <ul style={{ margin: '24px 0', paddingLeft: 28 }}>
+            <li><strong>ISO Class 5 Primary Engineering Control (PEC):</strong> Sterile compounding takes place in the primary engineering control (PEC), where high-efficiency particulate air (HEPA) filters sweep air across the work surface at 90 feet per minute. The air contains zero viable microbes and fewer than 3,520 particles per cubic meter.</li>
+            <li><strong>ISO Class 7 Buffer Cleanrooms:</strong> The PEC is housed inside a positive-pressure buffer room providing at least 30 air changes per hour. Walls, ceilings, and floors are non-porous and continuously sanitized using sterile sporicidal agents.</li>
+            <li><strong>ISO Class 8 Anteroom:</strong> Personnel transition through a sealed gowning anteroom where they don sterile lint-free coveralls, hair covers, shoe covers, face masks, and sterile powder-free gloves sanitised with sterile 70% isopropyl alcohol.</li>
+            <li><strong>Environmental Air &amp; Surface Sampling:</strong> Continuous laser particle counters monitor airborne particulate counts in real time, while contact agar plates test surfaces and technician fingertips for microbial bioburden.</li>
+          </ul>
+
+          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>
+            The Active Pharmaceutical Ingredient (API): Purity Verification
+          </h2>
+
+          <p>
+            The quality of compounded semaglutide is strictly limited by the purity of the raw bulk drug substance (API) procured by the compounding pharmacy. Legitimate 503A facilities must adhere to strict sourcing mandates:
+          </p>
+
+          <ul style={{ margin: '24px 0', paddingLeft: 28 }}>
+            <li><strong>FDA-Registered Facility Requirement:</strong> The API must be manufactured by a chemical synthesis facility registered with the U.S. Food and Drug Administration under Section 510 of the FD&amp;C Act.</li>
+            <li><strong>USP / NF Monograph Compliance:</strong> The active drug substance must meet or exceed official United States Pharmacopeia (USP) or National Formulary (NF) standards.</li>
+            <li><strong>Certificate of Analysis (CoA) Invariant:</strong> Every shipment of raw peptide powder must be accompanied by an analytical CoA verifying identity via Infrared Spectroscopy (IR), molecular weight via Mass Spectrometry (MS), and chemical purity (&ge; 98.0%) via HPLC.</li>
+          </ul>
+
+          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>
+            Cold-Chain Logistics: Protecting Peptide Integrity in Transit
+          </h2>
+
+          <p>
+            Formulating pure semaglutide in an ISO Class 5 cleanroom is meaningless if the medication degrades during shipping. Semaglutide is a 31-amino-acid peptide held together by delicate disulfide and hydrogen bonds. If exposed to sustained high temperatures (&gt; 86&deg;F / 30&deg;C) or prolonged direct UV light, the peptide denatures, unfolding its tertiary structure, losing biological potency, and potentially triggering immunogenic antibody reactions.
+          </p>
+
+          <p>
+            Legitimate 503A compounding pharmacies utilize medical-grade cold-chain shipping protocols:
+          </p>
+
+          <ul style={{ margin: '24px 0', paddingLeft: 28 }}>
+            <li><strong>Vacuum-Insulated / High-R Expanded Polystyrene Coolers:</strong> Shipped inside heavy, thermal-resistant containers designed to maintain an internal temperature of 36&deg;F to 46&deg;F (2&deg;C to 8&deg;C) for up to 72 hours.</li>
+            <li><strong>Phase-Change Refrigerant Gel Packs:</strong> Pre-conditioned gel refrigerants absorb ambient thermal spikes during transit without freezing the liquid medication (which can damage borosilicate vials).</li>
+            <li><strong>Expedited Overnight / 2-Day Air Logistics:</strong> Time in transit is minimized via direct air couriers, ensuring your medication arrives fresh, cold, and ready for immediate refrigeration.</li>
+          </ul>
+
+          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>
+            The Danger of Unlicensed &ldquo;Research Peptide&rdquo; Sites
+          </h2>
+
+          <p>
+            Due to commercial drug shortages, an unregulated gray market has proliferated online, selling vials labeled &ldquo;For Research Use Only&rdquo; or &ldquo;Not for Human Consumption.&rdquo;
+          </p>
+
+          <p>
+            These entities are <strong>not 503A compounding pharmacies</strong>. They operate with zero medical oversight, zero cleanroom validation, and zero legal accountability. Independent testing of &ldquo;research chemical&rdquo; peptide vials has routinely detected dangerous contaminants, including high bacterial endotoxin levels, heavy metal residues, inaccurate dosing (some vials containing 40% less or 150% more peptide than stated), and unauthorized salt forms like semaglutide sodium. Injecting non-sterile substances from research vendors carries extreme risks of sterile abscesses, septic shock, and permanent tissue damage.
+          </p>
+
+          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>
+            The Telehealth FX Commitment: Clinical Integrity at $79/Month
+          </h2>
+
+          <p>
+            Telehealth FX operates at the highest tier of pharmaceutical compliance. Every patient consultation is evaluated by a board-certified medical doctor or nurse practitioner licensed in the patient&rsquo;s state. Every prescription is routed exclusively to fully accredited, state-licensed 503A compounding pharmacies utilizing USP &lt;797&gt; cleanrooms, HPLC potency testing, and insulated cold-chain shipping.
+          </p>
+
+          <p>
+            Most importantly, Telehealth FX believes that pharmaceutical-grade obesity care must be accessible. By maintaining a transparent, unalterable flat rate of <strong>$79 per month</strong> across all doses, we provide uncompromising clinical quality without predatory pricing.
+          </p>
+
+          <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)', borderRadius: 16 }}>
+            <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Get Safe, 503A-Compounded Semaglutide for $79/Mo</h3>
+            <p style={{ marginBottom: 28, fontSize: 17, maxWidth: 640, marginLeft: 'auto', marginRight: 'auto' }}>
+              Protect your health with authentic 503A sterile compounding. Complete your online medical evaluation today and receive your medication direct to your doorstep with cold-chain shipping included.
             </p>
-            <a
-              href={START_URL}
-              style={{ display: 'inline-block', background: '#D4AF37', color: '#1A1F1C', padding: '14px 32px', borderRadius: 8, fontWeight: 700, fontSize: 16, textDecoration: 'none' }}
-            >
-              Start Free Clinical Consultation →
+            <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary" style={{ display: 'inline-flex', justifyContent: 'center', padding: '16px 36px', fontSize: 17, fontWeight: 600, textDecoration: 'none', borderRadius: 8 }}>
+              Start Online Medical Intake &rarr;
             </a>
           </div>
 
         </div>
+
       </div>
     </section>
   );

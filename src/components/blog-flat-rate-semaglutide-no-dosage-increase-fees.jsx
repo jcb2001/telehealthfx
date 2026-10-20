@@ -9,167 +9,204 @@ const START_URL = "https://go.telehealthfx.com/coreage-glp1";
 export function BlogFlatRateSemaglutideNoDosageIncreaseFees() {
   return (
     <section className="section" style={{ minHeight: '60vh', paddingTop: 120, paddingBottom: 100 }}>
-      <div className="container" style={{ maxWidth: 840, margin: '0 auto', padding: '0 20px' }}>
+      <div className="container" style={{ maxWidth: 860 }}>
         
-        {/* Category Badge */}
-        <div style={{ display: 'inline-block', padding: '4px 12px', borderRadius: 6, background: '#1E3D34', color: '#fff', fontSize: 12, fontWeight: 700, letterSpacing: 1, textTransform: 'uppercase', marginBottom: 16 }}>
-          Transparent Pricing
-        </div>
-
-        {/* Article H1 Title */}
-        <h1 className="serif" style={{ fontSize: 42, marginBottom: 20, lineHeight: 1.18, color: 'var(--ink, #1A1F1C)' }}>
-          Flat-Rate Semaglutide: Why You Should Never Pay Dosage Escalation Fees (2026)
+        <div className="eyebrow" style={{ marginBottom: 20 }}>Consumer Advocacy & Financial Transparency</div>
+        <h1 className="serif" style={{ fontSize: 48, marginBottom: 24, lineHeight: 1.15 }}>
+          Flat-Rate Compounded Semaglutide: <span style={{ fontStyle: 'italic', color: 'var(--brand)' }}>The Hidden Cost of Dosage Increase Fees Exposed</span>
         </h1>
-
-        {/* Byline and Author Credentials */}
-        <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 32, paddingBottom: 20, borderBottom: '1px solid var(--line-soft, #EBE5DA)' }}>
-          <div style={{ width: 44, height: 44, borderRadius: '50%', overflow: 'hidden', flexShrink: 0 }}>
-            <Image src="/assets/jm-profile.jpg" alt="Julian Mercer, M.S." width={88} height={88} style={{ width: '100%', height: '100%', objectFit: 'cover' }} priority={true} />
+        
+        <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 40, paddingBottom: 24, borderBottom: '1px solid var(--line-soft)' }}>
+          <div style={{ width: 44, height: 44, borderRadius: '50%', background: 'var(--brand)', color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold', overflow: 'hidden' }}>
+            <Image src="/assets/jm-profile.jpg" alt="Julian Mercer" width={44} height={44} style={{ width: '100%', height: '100%', objectFit: 'cover' }} priority={true} />
           </div>
           <div>
-            <div style={{ fontWeight: 600, fontSize: 15, color: 'var(--ink, #1A1F1C)' }}>
-              <a href="/about/" style={{ color: 'inherit', textDecoration: 'none' }}>Julian Mercer, M.S.</a>
-            </div>
-            <div style={{ fontSize: 13, color: 'var(--ink-3, #5F6762)' }}>
-              Lead Bio-Systems Analyst · Clinically Reviewed · 11 min read
-            </div>
+            <div style={{ fontWeight: 600, fontSize: 15 }}><a href="/about/" style={{ color: "var(--ink)", textDecoration: "none" }}>Julian Mercer, M.S.</a></div>
+            <div style={{ fontSize: 13, color: 'var(--ink-3)' }}>Lead Health Economist & Systems Analyst · Updated October 2026 · 22 min read</div>
           </div>
         </div>
 
-        {/* Featured Hero Image */}
-        <div style={{ margin: '0 0 36px', borderRadius: 16, overflow: 'hidden', boxShadow: '0 10px 30px rgba(0,0,0,0.07)', border: '1px solid var(--line-soft, #EBE5DA)' }}>
-          <Image
-            src="/assets/direct_pay_semaglutide.jpg"
-            alt="Flat Rate Semaglutide Pricing"
-            width={1200}
-            height={675}
-            style={{ width: '100%', height: 'auto', display: 'block' }}
-            priority={true}
-          />
-        </div>
-
-        {/* AI Quick Summary Action Widget */}
-        <AIQuickSummaryAction
-          title="Flat-Rate Pricing Transparency: $79/mo Across All Doses"
-          subtitle="Stop getting penalized for titrating up. One transparent price whether you are on 0.25mg or maximum 2.4mg maintenance."
-          price="$79 / mo flat rate"
-          turnaround="No hidden tiers · $0 doctor consult · Free cold-chain shipping"
-          doseMatch={true}
-          keyPoints={[
-            { label: "Price Guarantee", value: "Same $79/mo on 0.25mg, 0.5mg, 1.0mg, 1.7mg & 2.4mg" },
-            { label: "No Escalation Trap", value: "Zero price increases as your clinical tolerance builds" },
-            { label: "Clinic Comparison", value: "Saves $1,800–$3,200 annually vs tier-charging medspas" },
-            { label: "Fulfillment", value: "State-licensed US 503A sterile compounding pharmacy" },
-          ]}
-          ctaText="Lock In Your $79/mo Flat Rate →"
-          ctaUrl={START_URL}
+        <DirectAnswerSnippet 
+          heading="What Is the Dosage Increase Fee Trap in GLP-1 Telehealth?"
+          answer="The 'dosage increase fee trap' is a common billing practice where telehealth companies advertise low teaser introductory prices (e.g., $99 to $199/month) for starter doses of compounded semaglutide (0.25 mg to 0.5 mg/week), but aggressively raise monthly medication prices by 100% to 250% (up to $399–$499/month) once patients reach therapeutic maintenance doses (1.7 mg to 2.4 mg/week). True flat-rate telehealth providers, like Telehealth FX, eliminate this bait-and-switch pricing by maintaining a guaranteed unalterable rate of $79 per month across all titration stages, saving patients between $1,800 and $4,400 annually over a standard 12-month treatment protocol."
         />
 
-        {/* Direct-Answer Featured Snippet Box */}
-        <DirectAnswerSnippet
-          question="What is flat-rate semaglutide and how does it save money?"
-          answer="Flat-rate semaglutide is a transparent telehealth pricing structure where patients pay one fixed monthly fee ($79/month) regardless of dose titration. Traditional medical spas and clinics often bait patients with a $199 starter rate (0.25mg) and escalate prices up to $499/month at maximum maintenance (2.4mg). Flat-rate models eliminate dosage escalation fees completely."
-          keyTakeaways={[
-            { label: "Pricing Model", value: "Pure $79/mo flat rate from starter dose to maximum maintenance" },
-            { label: "Hidden Fee Elimination", value: "$0 membership dues, $0 doctor fees, $0 titration surcharges" },
-            { label: "Annual Savings", value: "Over $2,400 saved compared to tiered clinic escalation schedules" }
-          ]}
-          badge="Healthcare Economics Audit • Transparent Billing"
-        />
-
-        {/* Blog Article Body */}
-        <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.75, color: 'var(--ink-2, #333C36)' }}>
+        <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.75, color: 'var(--ink-2)', marginTop: 40 }}>
           
-          <h2 className="serif" style={{ fontSize: 32, marginTop: 44, marginBottom: 18, color: 'var(--ink, #1A1F1C)' }}>
-            1. The Clinic "Bait-and-Switch": The Dosage Escalation Trap
-          </h2>
           <p>
-            The most common predatory billing practice in the medical weight loss industry is the <strong>dosage escalation surcharge</strong>. Traditional weight loss clinics and many private medical spas advertise an affordable introductory rate—often "$199 for your first month."
-          </p>
-          <p>
-            What patients rarely realize is that this price covers only the initial starter titration dose (0.25 mg weekly). By month 3 or 4, when the patient builds physiological tolerance and titrates up to clinical therapeutic doses (1.7 mg or 2.4 mg), clinics double or triple their billing. Patients find themselves locked into paying $399 to $599 per month simply to maintain the exact medication level that produces continued weight loss.
+            When embarking on a medical weight management journey with GLP-1 receptor agonists, patients frequently evaluate costs through the narrow lens of their first month&rsquo;s invoice. Telehealth marketing teams understand this psychological bias thoroughly. By plastering &ldquo;Get Semaglutide for $99!&rdquo; across social feeds, platforms capture high volumes of initial signups.
           </p>
 
-          {/* Pricing Escalation Comparison Table */}
-          <div style={{ overflowX: 'auto', margin: '36px 0' }}>
-            <table style={{ width: '100%', borderCollapse: 'collapse', textAlign: 'left', fontSize: 16 }}>
+          <p>
+            However, GLP-1 therapy is physiologically designed around progressive, monthly titration. Patients do not remain on the initial 0.25 mg starter dose; they escalate through 0.5 mg, 1.0 mg, 1.7 mg, and ultimately reach the clinically proven therapeutic maintenance dose of 2.4 mg per week. It is precisely at this point&mdash;when the patient is biologically invested and finally experiencing robust appetite suppression and fat loss&mdash;that the hidden economics of tiered pricing deliver a devastating financial shock.
+          </p>
+
+          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>
+            The Physiology of Titration: Why Higher Doses Are Medically Mandatory
+          </h2>
+
+          <p>
+            To understand why tiered pricing is predatory, one must first examine the clinical pharmacokinetics of semaglutide. In landmark clinical trials such as the 68-week STEP-1 study published in <em>The New England Journal of Medicine</em>, participants achieved an average of 14.9% total body weight reduction. However, that profound metabolic efficacy was achieved specifically at the <strong>2.4 mg weekly maintenance dose</strong>.
+          </p>
+
+          <p>
+            The introductory 0.25 mg and 0.5 mg dosages are not designed to induce maximal weight loss. Their primary clinical function is to gently upregulate GLP-1 receptors in the central nervous system and gut, allowing the body to develop tolerance and preventing severe nausea, vomiting, or gastrointestinal distress. When patients are forced to remain at sub-therapeutic doses (0.25 mg or 0.5 mg) simply because they cannot afford the steep price increases demanded by tiered telehealth platforms, their weight loss stalls, and the clinical intervention fails.
+          </p>
+
+          <h3 style={{ fontSize: 24, marginTop: 32, marginBottom: 16, color: 'var(--ink)' }}>
+            The 5 Standard Phases of Semaglutide Titration
+          </h3>
+
+          <ul style={{ margin: '20px 0', paddingLeft: 28 }}>
+            <li><strong>Phase 1: Initiation (Weeks 1 &ndash; 4):</strong> 0.25 mg once weekly. The primary goal is acclimating the digestive system and establishing basic peptide tolerance.</li>
+            <li><strong>Phase 2: Escalation (Weeks 5 &ndash; 8):</strong> 0.50 mg once weekly. Patients begin noticing gradual reductions in hunger cues and slower gastric emptying.</li>
+            <li><strong>Phase 3: Intermediate (Weeks 9 &ndash; 12):</strong> 1.00 mg once weekly. Robust dampening of constant psychological food noise and reduced meal portion capacity.</li>
+            <li><strong>Phase 4: Advanced Escalation (Weeks 13 &ndash; 16):</strong> 1.70 mg once weekly. Sustained lipolysis and rapid improvements in visceral adiposity.</li>
+            <li><strong>Phase 5: Therapeutic Maintenance (Weeks 17+):</strong> 2.40 mg once weekly. The full clinical target dose demonstrated in clinical trials to maximize total adipose reduction and long-term glycemic control.</li>
+          </ul>
+
+          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>
+            The Financial Autopsy: Flat-Rate vs. Tiered Pricing Over 12 Months
+          </h2>
+
+          <p>
+            Let us dissect the empirical numbers. Below is a comprehensive financial model comparing Telehealth FX&rsquo;s unalterable $79/month flat rate against a typical industry &ldquo;tiered&rdquo; competitor charging $199 for starter doses, escalating to $299 for intermediate doses, and $399 for maintenance doses, plus a standard $99/month recurring platform membership fee.
+          </p>
+
+          <div style={{ overflowX: 'auto', margin: '32px 0', borderRadius: 12, border: '1px solid var(--line-soft)' }}>
+            <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: 15, textAlign: 'left', background: '#fff' }}>
               <thead>
-                <tr style={{ background: '#F4F0E8', borderBottom: '2px solid #2E4A3B' }}>
-                  <th style={{ padding: '14px 16px', color: '#1A1F1C' }}>Dosage Level</th>
-                  <th style={{ padding: '14px 16px', color: '#1A1F1C' }}>Typical Clinic / Medspa</th>
-                  <th style={{ padding: '14px 16px', color: '#1A1F1C' }}>Telehealth FX Flat Rate</th>
+                <tr style={{ background: '#f8fafc', borderBottom: '2px solid var(--line-soft)' }}>
+                  <th style={{ padding: '16px 14px', fontWeight: 600 }}>Treatment Month</th>
+                  <th style={{ padding: '16px 14px', fontWeight: 600 }}>Weekly Dose</th>
+                  <th style={{ padding: '16px 14px', fontWeight: 600 }}>Telehealth FX ($79 Flat)</th>
+                  <th style={{ padding: '16px 14px', fontWeight: 600 }}>Typical Tiered Provider</th>
+                  <th style={{ padding: '16px 14px', fontWeight: 600 }}>Monthly Patient Savings</th>
                 </tr>
               </thead>
               <tbody>
-                <tr style={{ borderBottom: '1px solid #EBE5DA' }}>
-                  <td style={{ padding: '14px 16px', fontWeight: 600 }}>Month 1 (0.25 mg)</td>
-                  <td style={{ padding: '14px 16px' }}>$199 (Teaser Intro Rate)</td>
-                  <td style={{ padding: '14px 16px', color: '#2E4A3B', fontWeight: 700 }}>$79 / month</td>
+                <tr style={{ borderBottom: '1px solid var(--line-soft)' }}>
+                  <td style={{ padding: '14px 14px', fontWeight: 600 }}>Month 1</td>
+                  <td style={{ padding: '14px 14px' }}>0.25 mg / week</td>
+                  <td style={{ padding: '14px 14px', fontWeight: 600, color: 'var(--brand)' }}>$79</td>
+                  <td style={{ padding: '14px 14px' }}>$199 (Promo rate)</td>
+                  <td style={{ padding: '14px 14px', color: '#059669', fontWeight: 600 }}>+$120</td>
                 </tr>
-                <tr style={{ borderBottom: '1px solid #EBE5DA' }}>
-                  <td style={{ padding: '14px 16px', fontWeight: 600 }}>Month 2 (0.50 mg)</td>
-                  <td style={{ padding: '14px 16px' }}>$249 (Price Increase 1)</td>
-                  <td style={{ padding: '14px 16px', color: '#2E4A3B', fontWeight: 700 }}>$79 / month</td>
+                <tr style={{ borderBottom: '1px solid var(--line-soft)' }}>
+                  <td style={{ padding: '14px 14px', fontWeight: 600 }}>Month 2</td>
+                  <td style={{ padding: '14px 14px' }}>0.50 mg / week</td>
+                  <td style={{ padding: '14px 14px', fontWeight: 600, color: 'var(--brand)' }}>$79</td>
+                  <td style={{ padding: '14px 14px' }}>$249 + $99 fee ($348)</td>
+                  <td style={{ padding: '14px 14px', color: '#059669', fontWeight: 600 }}>+$269</td>
                 </tr>
-                <tr style={{ borderBottom: '1px solid #EBE5DA' }}>
-                  <td style={{ padding: '14px 16px', fontWeight: 600 }}>Month 3 (1.00 mg)</td>
-                  <td style={{ padding: '14px 16px' }}>$329 (Price Increase 2)</td>
-                  <td style={{ padding: '14px 16px', color: '#2E4A3B', fontWeight: 700 }}>$79 / month</td>
+                <tr style={{ borderBottom: '1px solid var(--line-soft)' }}>
+                  <td style={{ padding: '14px 14px', fontWeight: 600 }}>Month 3</td>
+                  <td style={{ padding: '14px 14px' }}>1.00 mg / week</td>
+                  <td style={{ padding: '14px 14px', fontWeight: 600, color: 'var(--brand)' }}>$79</td>
+                  <td style={{ padding: '14px 14px' }}>$299 + $99 fee ($398)</td>
+                  <td style={{ padding: '14px 14px', color: '#059669', fontWeight: 600 }}>+$319</td>
                 </tr>
-                <tr style={{ borderBottom: '1px solid #EBE5DA' }}>
-                  <td style={{ padding: '14px 16px', fontWeight: 600 }}>Month 4 (1.70 mg)</td>
-                  <td style={{ padding: '14px 16px' }}>$419 (Price Increase 3)</td>
-                  <td style={{ padding: '14px 16px', color: '#2E4A3B', fontWeight: 700 }}>$79 / month</td>
+                <tr style={{ borderBottom: '1px solid var(--line-soft)' }}>
+                  <td style={{ padding: '14px 14px', fontWeight: 600 }}>Month 4</td>
+                  <td style={{ padding: '14px 14px' }}>1.70 mg / week</td>
+                  <td style={{ padding: '14px 14px', fontWeight: 600, color: 'var(--brand)' }}>$79</td>
+                  <td style={{ padding: '14px 14px' }}>$349 + $99 fee ($448)</td>
+                  <td style={{ padding: '14px 14px', color: '#059669', fontWeight: 600 }}>+$369</td>
                 </tr>
-                <tr style={{ background: '#FAF8F5' }}>
-                  <td style={{ padding: '14px 16px', fontWeight: 600 }}>Month 5+ (2.40 mg Max)</td>
-                  <td style={{ padding: '14px 16px', color: '#C0392B', fontWeight: 600 }}>$499 – $599 / month</td>
-                  <td style={{ padding: '14px 16px', color: '#2E4A3B', fontWeight: 800, fontSize: 18 }}>$79 / month FLAT</td>
+                <tr style={{ borderBottom: '1px solid var(--line-soft)' }}>
+                  <td style={{ padding: '14px 14px', fontWeight: 600 }}>Months 5 &ndash; 12 (Each)</td>
+                  <td style={{ padding: '14px 14px' }}>2.40 mg / week</td>
+                  <td style={{ padding: '14px 14px', fontWeight: 600, color: 'var(--brand)' }}>$79 / month</td>
+                  <td style={{ padding: '14px 14px' }}>$399 + $99 fee ($498)</td>
+                  <td style={{ padding: '14px 14px', color: '#059669', fontWeight: 600 }}>+$419 / month</td>
+                </tr>
+                <tr style={{ background: '#f8fafc', fontWeight: 700 }}>
+                  <td style={{ padding: '16px 14px', fontSize: 16 }}>12-Month Total Cost</td>
+                  <td style={{ padding: '16px 14px' }}>Full Protocol</td>
+                  <td style={{ padding: '16px 14px', fontSize: 18, color: 'var(--brand)' }}>$948 Total</td>
+                  <td style={{ padding: '16px 14px', fontSize: 18, color: '#dc2626' }}>$5,376 Total</td>
+                  <td style={{ padding: '16px 14px', fontSize: 18, color: '#059669' }}>$4,428 Saved</td>
                 </tr>
               </tbody>
             </table>
           </div>
 
-          <h2 className="serif" style={{ fontSize: 32, marginTop: 44, marginBottom: 18, color: 'var(--ink, #1A1F1C)' }}>
-            2. The Clinical Pharmacology of Dosing: Why Compounding Costs Don't Scale 5x
-          </h2>
           <p>
-            Why do traditional clinics charge 300% more for higher doses? It is purely an arbitrary margin markup. In pharmaceutical manufacturing and 503A compounding, the physical cost of active semaglutide peptide powder represents only a fraction of total overhead. Compounding a 2.4 mg vial requires virtually the same sterile compounding cleanroom time, bacteriostatic water, sterile glassware, vial crimping, and shipping cold-chain logistics as a 0.25 mg vial.
-          </p>
-          <p>
-            By partnering directly with high-capacity 503A sterile compounding facilities, Telehealth FX passes wholesale volume efficiencies directly to the patient. You pay exactly <strong>$79 per month</strong>, regardless of whether your prescribing physician titrates your protocol to 0.25 mg, 0.5 mg, 1.0 mg, 1.7 mg, or maximum 2.4 mg weekly.
+            The disparity is staggering. Over a single year of medically guided treatment, a patient enrolled in a tiered telehealth program spends over <strong>$5,300</strong> for compounded semaglutide. On Telehealth FX, that identical 12-month course costs exactly <strong>$948</strong> all-inclusive.
           </p>
 
-          <h2 className="serif" style={{ fontSize: 32, marginTop: 44, marginBottom: 18, color: 'var(--ink, #1A1F1C)' }}>
-            3. Zero Monthly Membership Dues: Comparing Telehealth FX to Venture Brands
+          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>
+            The Industry Secret: Why Do Tiered Providers Charge More for Higher Doses?
           </h2>
+
           <p>
-            Beyond dosage escalation, subscription-based telehealth companies charge ongoing "membership fees" ($99 to $145 per month) simply for access to their digital messaging portal. If you pause or cancel the membership, your medication prescription is abruptly terminated.
+            Does it actually cost compounding pharmacies 250% more to formulate a 2.4 mg dose compared to a 0.25 mg dose? <strong>The answer is an unequivocal no.</strong>
           </p>
+
           <p>
-            Telehealth FX operates on a true direct-care model:
+            In professional pharmaceutical compounding under Section 503A of the FD&amp;C Act, the overwhelming majority of production overhead is fixed:
           </p>
-          <ul style={{ paddingLeft: 24, marginBottom: 32 }}>
-            <li style={{ marginBottom: 10 }}><strong>$0 Platform Fee:</strong> No monthly club dues, recurring membership tiers, or hidden administrative retainers.</li>
-            <li style={{ marginBottom: 10 }}><strong>$0 Doctor Consult Fee:</strong> Initial clinical evaluation and ongoing physician messaging are 100% included in the medication cost.</li>
-            <li style={{ marginBottom: 10 }}><strong>Free Expedited Shipping:</strong> Temperature-monitored cold-chain overnight delivery right to your door with all injection supplies included (syringes, alcohol prep pads, sharps disposal guide).</li>
+
+          <ul style={{ margin: '24px 0', paddingLeft: 28 }}>
+            <li><strong>Sterile Cleanroom Overhead:</strong> Operating ISO Class 5 laminar airflow hoods, maintaining ISO Class 7 buffer rooms, and performing continuous airborne particle and microbiological monitoring.</li>
+            <li><strong>Analytical Lot Testing:</strong> Third-party sterility verification (USP &lt;71&gt;), endotoxin testing (USP &lt;85&gt;), and HPLC potency quantification run per batch, not per milligram.</li>
+            <li><strong>Sterile Supplies &amp; Cold-Chain Freight:</strong> Type I borosilicate glass multidose vials, sterile stoppers, crimp seals, alcohol swabs, U-100 syringes, and temperature-controlled insulated shipping with phase-change refrigerants.</li>
           </ul>
 
-          {/* Bottom Conversion CTA Card */}
-          <div style={{ marginTop: 48, padding: 32, background: 'linear-gradient(135deg, #1E3D34 0%, #2E4A3B 100%)', borderRadius: 16, color: '#fff', textAlign: 'center' }}>
-            <h3 style={{ fontSize: 26, marginBottom: 12, color: '#fff' }}>Lock In Your Flat-Rate $79/mo Semaglutide Care</h3>
-            <p style={{ fontSize: 16, maxWidth: 620, margin: '0 auto 24px', opacity: 0.9 }}>
-              Experience pure transparent medical weight loss. No dosage jump fees, no monthly membership dues, and 100% licensed US 503A pharmacy fulfillment.
+          <p>
+            The raw Active Pharmaceutical Ingredient (API)&mdash;pure semaglutide base peptide powder&mdash;represents only a modest fraction of the total per-vial production cost. While a 2.4 mg weekly vial contains mathematically more peptide mass than a 0.25 mg vial, the wholesale difference in raw peptide cost to the compounding facility is minimal&mdash;typically between $8 and $22.
+          </p>
+
+          <p>
+            When a tiered telehealth platform charges an extra $200 per month for maintenance doses, that surcharge is not reflecting pharmacy production costs. It is <strong>pure profit extraction</strong> levied against patients who have become dependent on the medication for their health and well-being.
+          </p>
+
+          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>
+            The Clinical Cost of Therapy Discontinuation: The Rebound Effect
+          </h2>
+
+          <p>
+            The most severe danger of exorbitant dosage escalation fees is premature treatment cessation. Obesity is recognized by the American Medical Association as a complex, chronic neuro-metabolic disease. When patients abruptly discontinue GLP-1 therapy due to financial strain, the physiological consequences are immediate:
+          </p>
+
+          <ul style={{ margin: '24px 0', paddingLeft: 28 }}>
+            <li><strong>Ghrelin Hyper-Secretion:</strong> Circulating hunger hormones spike well above baseline levels, triggering uncontrollable biological cravings.</li>
+            <li><strong>Metabolic Adaptation:</strong> The resting metabolic rate (RMR), which decreases during caloric restriction, remains suppressed, causing rapid fat accumulation.</li>
+            <li><strong>Weight Recidivism:</strong> In clinical trials (such as the STEP-4 extension study), patients who ceased semaglutide regained approximately two-thirds of their lost weight within 52 weeks.</li>
+          </ul>
+
+          <p>
+            By offering a sustainable, long-term flat rate of <strong>$79 per month</strong>, Telehealth FX ensures patients can remain on therapy indefinitely, securing permanent metabolic health without accumulating thousands of dollars in medical debt.
+          </p>
+
+          <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>
+            The Danger of &ldquo;Dose Capping&rdquo; Due to Financial Pressure
+          </h2>
+
+          <p>
+            One of the most concerning clinical consequences of tiered pricing is patient self-rationing, also known as &ldquo;dose capping.&rdquo;
+          </p>
+
+          <p>
+            When patients face a $150 to $200 jump in their monthly bill to move from 0.5 mg to 1.0 mg, many plead with their providers to keep them at the lower dose, or worse, they begin diluting their medication or stretching weekly injections to 10 or 14 days. This clinical compromise leads to rapid resurgence of hunger and intense food noise. Patients blame themselves for failing, unaware that their physiology was starved of the therapeutic dose necessary to maintain receptor saturation.
+          </p>
+
+          <p>
+            By guaranteeing an unalterable flat rate of <strong>$79/month</strong> regardless of dose, Telehealth FX completely decouples clinical decision-making from financial anxiety. If your physician determines you need to advance to 1.7 mg or 2.4 mg, your price stays $79. If you need to titrate down to manage mild nausea, your price stays $79. Your treatment protocol is governed entirely by what is clinically optimal for your body.
+          </p>
+
+          <div className="card" style={{ padding: 40, margin: '48px 0', textAlign: 'center', background: '#FFFDF9', borderColor: 'var(--brand)', borderRadius: 16 }}>
+            <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>Never Pay Extra for Your Maintenance Dose</h3>
+            <p style={{ marginBottom: 28, fontSize: 17, maxWidth: 640, marginLeft: 'auto', marginRight: 'auto' }}>
+              Protect your health and your wallet with guaranteed flat-rate compounded semaglutide. $79 per month covers your doctor consultation, 503A compounded medication at any dose, injection supplies, and cold-chain shipping.
             </p>
-            <a
-              href={START_URL}
-              style={{ display: 'inline-block', background: '#D4AF37', color: '#1A1F1C', padding: '14px 32px', borderRadius: 8, fontWeight: 700, fontSize: 16, textDecoration: 'none' }}
-            >
-              Start Free Clinical Consultation →
+            <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary" style={{ display: 'inline-flex', justifyContent: 'center', padding: '16px 36px', fontSize: 17, fontWeight: 600, textDecoration: 'none', borderRadius: 8 }}>
+              Lock In Your $79 Flat Rate &rarr;
             </a>
           </div>
 
         </div>
+
       </div>
     </section>
   );
