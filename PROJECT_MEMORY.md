@@ -1043,6 +1043,39 @@ A forensic extraction across all Katalys API reporting rows revealed why sales s
 3. **Master Blueprint Published**:
    - Authored and verified full Fable Mode forensic report and daily sales scaling roadmap in [`master_sales_growth_fable_audit.md`](file:///Users/joshburrows/.gemini/antigravity/brain/22103756-97b6-4405-97f6-73bdb40065df/master_sales_growth_fable_audit.md).
 
+---
+
+## 26. WebinarJam Architecture & Fletcher Method VSL Funnel Deployment (October 2026)
+
+### 26.1 Direct 1:1 Cloning of Proven ZoomReferral WebinarJam Architecture
+- **Exact WebinarJam Engine Cloned**: Ported the entire 4,102-line production-grade WebinarJam architecture from `zoomreferral/webinars/corporate-ai-data-gold-rush/` into `Telehealth FX Site/public/briefings/food-noise-metabolic-reset/index.html`.
+- **Authentic Conversion Components**:
+  - Live broadcast eyebrow `.suptitle_wrapper` with animated `.live-dot` pulse.
+  - Video preview stage `.hero-video-frame` with centered blue pulsing play button `.hero-center-play-btn`.
+  - Session ticker strip `.hero-under-strip` with `.hero-session-pill` and auto-advancing broadcast slots.
+  - 3-card clinical compounding protocol strip `.tombstone-strip` ($69/mo Semaglutide, $119/mo Tirzepatide, $149/mo Sublingual Tablets).
+  - 5-point clinical mechanism checkmark list `.info_list`.
+  - Right-column dark registration box `.pseudo_regform_wrapper.wj_theme_dark` with custom styled `.base-select.w_description` dropdown, local timezone auto-detection `.timezone_wrapper`, and `.pseudo_field` icon inputs.
+  - Sticky bottom floating bar `.wj_embed_wrapper.wj_bottombar` with 3D flip-clock countdown `.timeTo` and quick registration button.
+  - Compact 2-step registration popup modal `.wj_registration-overlay` with hand-drawn callout annotations (`Architects Daughter`), circular presenter avatar, and schedule selection.
+  - Full-screen watch room `.wj-broadcast-wrapper` with dynamic pitch unlock, unmuting bumper, and 10-second heartbeat telemetry to `/api/register`.
+  - In-room 4-question medical pre-qualification questionnaire `.wj-qualify-modal-overlay`.
+
+### 26.2 Waiting Room & Qualified Portal Deployment
+- **Waiting Room (`/waiting-room/`)**:
+  - Direct 1:1 clone of ZoomReferral's authentic WebinarJam Waiting Room with 3D flip-clock countdown (`.timeTo .digit-box`).
+  - Personalized registrant greeting and live countdown with automated redirect into broadcast room at 00:00.
+- **Pre-Qualification Approved Portal (`/qualified/`)**:
+  - Direct 1:1 clone of ZoomReferral's glassmorphic pre-qualification approved portal (`qualified/index.html`).
+  - Dynamic protocol matching for Semaglutide ($69/mo flat), Tirzepatide ($119/mo flat), and Oral Sublingual ($149/mo flat).
+  - Direct primary routing to Embody licensed physician medical intake (`https://go.telehealthfx.com/embody?aff_sub=tfx_vsl_qual`).
+
+### 26.3 Live Endpoints Verified
+- Main Briefing: `https://telehealthfx.com/briefings/food-noise-metabolic-reset/` (HTTP 200)
+- Waiting Room: `https://telehealthfx.com/briefings/food-noise-metabolic-reset/waiting-room/` (HTTP 200)
+- Qualified Portal: `https://telehealthfx.com/briefings/food-noise-metabolic-reset/qualified/` (HTTP 200)
+
+
 
 
 
