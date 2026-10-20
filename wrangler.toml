@@ -1,0 +1,15 @@
+name = "telehealthfx"
+compatibility_date = "2024-09-23"
+compatibility_flags = ["nodejs_compat"]
+pages_build_output_dir = "out"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "telehealth-crm-db"
+database_id = "c03e2f93-1491-493f-a39d-8e4f41e71239"
+
+[vars]
+ADMIN_API_KEY = "KailiKyle3133$"
+EMAIL_FROM_NAME = "Telehealth FX Clinical Desk"
+EMAIL_FROM_ADDRESS = "intake@telehealthfx.com"
+CAN_SPAM_PHYSICAL_ADDRESS = "4100 Eldorado Parkway, McKinney, TX 75070"

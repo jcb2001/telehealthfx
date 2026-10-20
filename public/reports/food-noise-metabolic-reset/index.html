@@ -1,0 +1,1124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>The Biological Truth Behind 'Food Noise' & Satiety Signaling | Metabolic Health Review</title>
+  <meta name="description" content="Endocrinology researchers uncover why late-night cravings and midlife weight plateaus are driven by the gut-brain signaling axis, not weak willpower." />
+  <meta name="robots" content="noindex, nofollow" />
+
+  <!-- Fonts: Inter & Newsreader -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;0,6..72,700;1,6..72,400&display=swap" rel="stylesheet" />
+
+  <style>
+    :root {
+      --color-bg: #f8fafc;
+      --color-surface: #ffffff;
+      --color-surface-subtle: #f1f5f9;
+      --color-border: #e2e8f0;
+      --color-border-dark: #cbd5e1;
+      --color-text-main: #0f172a;
+      --color-text-body: #1e293b;
+      --color-text-muted: #475569;
+      --color-text-subtle: #64748b;
+      --color-brand-primary: #0f766e; /* Deep Clinical Teal */
+      --color-brand-dark: #115e59;
+      --color-brand-light: #f0fdfa;
+      --color-link: #0369a1;
+      --color-cta: #059669;
+      --color-cta-hover: #047857;
+      --radius-sm: 6px;
+      --radius-md: 10px;
+      --radius-lg: 16px;
+      --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+      --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.07), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+      --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -4px rgba(0, 0, 0, 0.04);
+      --shadow-sticky: 0 -4px 16px rgba(0, 0, 0, 0.12);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--color-bg);
+      color: var(--color-text-body);
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      padding-bottom: 70px; /* Space for sticky mobile CTA */
+    }
+
+    /* Reading Progress Bar */
+    #reading-progress {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 3px;
+      background: linear-gradient(90deg, #0f766e, #10b981);
+      width: 0%;
+      z-index: 1000;
+      transition: width 0.1s ease-out;
+    }
+
+    /* Mandatory Taboola Compliance Bar */
+    .taboola-header-bar {
+      background-color: #f1f5f9;
+      border-bottom: 1px solid #e2e8f0;
+      padding: 6px 16px;
+      text-align: center;
+      font-size: 0.6875rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #64748b;
+    }
+
+    /* Masthead */
+    .site-masthead {
+      background: var(--color-surface);
+      border-bottom: 1px solid var(--color-border);
+      padding: 12px 20px;
+    }
+    .masthead-wrap {
+      max-width: 980px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .masthead-logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+      color: inherit;
+    }
+    .logo-badge {
+      background: var(--color-brand-primary);
+      color: white;
+      font-weight: 800;
+      font-size: 0.75rem;
+      padding: 3px 7px;
+      border-radius: var(--radius-sm);
+      letter-spacing: 0.05em;
+    }
+    .logo-title {
+      font-family: 'Newsreader', serif;
+      font-weight: 700;
+      font-size: 1.25rem;
+      color: var(--color-text-main);
+      letter-spacing: -0.01em;
+    }
+    .masthead-topics {
+      display: none;
+      gap: 18px;
+      font-size: 0.8125rem;
+      font-weight: 500;
+      color: var(--color-text-muted);
+    }
+    @media (min-width: 768px) {
+      .masthead-topics {
+        display: flex;
+      }
+    }
+
+    /* Article Wrapper */
+    .article-wrap {
+      max-width: 740px;
+      margin: 0 auto;
+      padding: 24px 18px 40px;
+    }
+
+    /* Category Pill & Urgency */
+    .category-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 12px;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .category-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      color: var(--color-brand-primary);
+      font-weight: 700;
+      font-size: 0.75rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+    .category-badge::before {
+      content: '';
+      display: inline-block;
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background-color: var(--color-brand-primary);
+    }
+    .trending-indicator {
+      font-size: 0.75rem;
+      color: #991b1b;
+      font-weight: 600;
+      background: #fef2f2;
+      padding: 2px 8px;
+      border-radius: 9999px;
+      border: 1px solid #fecaca;
+    }
+
+    /* Article Headlines */
+    h1.story-headline {
+      font-family: 'Newsreader', Georgia, serif;
+      font-size: 2.15rem;
+      line-height: 1.22;
+      font-weight: 700;
+      color: #0f172a;
+      letter-spacing: -0.025em;
+      margin-bottom: 14px;
+    }
+    @media (min-width: 640px) {
+      h1.story-headline {
+        font-size: 2.65rem;
+      }
+    }
+
+    p.story-deck {
+      font-size: 1.125rem;
+      line-height: 1.5;
+      color: var(--color-text-muted);
+      margin-bottom: 20px;
+      font-weight: 400;
+    }
+
+    /* Author & Verification Card */
+    .author-card {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 12px 16px;
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-md);
+      margin-bottom: 26px;
+      font-size: 0.8125rem;
+      box-shadow: var(--shadow-sm);
+    }
+    .author-avatar {
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      background: #e2e8f0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      color: #334155;
+      font-size: 0.875rem;
+      border: 2px solid #cbd5e1;
+      flex-shrink: 0;
+    }
+    .author-text {
+      flex: 1;
+    }
+    .author-name {
+      font-weight: 700;
+      color: var(--color-text-main);
+    }
+    .author-sub {
+      font-size: 0.75rem;
+      color: var(--color-text-subtle);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 2px;
+    }
+    .med-badge {
+      color: #047857;
+      font-weight: 600;
+      background: #ecfdf5;
+      padding: 1px 6px;
+      border-radius: 4px;
+    }
+
+    /* Narrative Content Formatting */
+    .story-content p {
+      font-size: 1.0625rem;
+      line-height: 1.72;
+      color: #1e293b;
+      margin-bottom: 18px; /* Short, scannable paragraph pacing */
+    }
+    .lead-dropcap {
+      font-size: 1.1875rem !important;
+      line-height: 1.68 !important;
+      font-weight: 400;
+      color: #0f172a !important;
+    }
+    .lead-dropcap::first-letter {
+      font-family: 'Newsreader', serif;
+      font-size: 3.5rem;
+      float: left;
+      line-height: 0.8;
+      margin-right: 10px;
+      color: var(--color-brand-primary);
+      font-weight: 700;
+    }
+
+    .story-content h2 {
+      font-family: 'Newsreader', serif;
+      font-size: 1.7rem;
+      line-height: 1.3;
+      font-weight: 700;
+      color: #0f172a;
+      margin: 36px 0 14px;
+      letter-spacing: -0.015em;
+    }
+
+    /* In-Text Blue Links */
+    .in-text-link {
+      color: var(--color-link);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+      font-weight: 500;
+    }
+    .in-text-link:hover {
+      color: #0284c7;
+    }
+
+    /* Editorial Figure & Captions (3x Readership Multiplier) */
+    .editorial-figure {
+      margin: 28px 0;
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      box-shadow: var(--shadow-sm);
+    }
+    .figure-img {
+      width: 100%;
+      height: auto;
+      display: block;
+      object-fit: cover;
+      max-height: 440px;
+    }
+    .figure-graphic {
+      background: linear-gradient(135deg, #042f2e 0%, #0f766e 100%);
+      color: #ffffff;
+      padding: 24px 20px;
+      text-align: center;
+    }
+    .figure-diagram {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 12px;
+      margin-top: 10px;
+      font-size: 0.875rem;
+      flex-wrap: wrap;
+    }
+    .diagram-step {
+      background: rgba(255, 255, 255, 0.12);
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      padding: 10px 14px;
+      border-radius: var(--radius-sm);
+      font-weight: 600;
+      font-size: 0.8125rem;
+    }
+    .diagram-arrow {
+      font-size: 1.25rem;
+      color: #34d399;
+      font-weight: 800;
+    }
+    .figure-caption {
+      padding: 12px 16px;
+      background: #f8fafc;
+      border-top: 1px solid var(--color-border);
+      font-size: 0.8125rem;
+      line-height: 1.5;
+      color: var(--color-text-muted);
+    }
+    .figure-caption strong {
+      color: var(--color-text-main);
+    }
+
+    /* Empathy Story Pullout */
+    .story-pullout {
+      background: #f0fdfa;
+      border-left: 4px solid var(--color-brand-primary);
+      padding: 18px 20px;
+      border-radius: 0 var(--radius-md) var(--radius-md) 0;
+      margin: 26px 0;
+      font-style: italic;
+      color: #134e4a;
+      font-size: 1.0625rem;
+    }
+    .pullout-author {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 0.8125rem;
+      color: var(--color-brand-dark);
+      margin-top: 8px;
+    }
+
+    /* Comparison Box */
+    .contrast-box {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 14px;
+      margin: 32px 0;
+    }
+    @media (min-width: 640px) {
+      .contrast-box {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+    .contrast-col {
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-md);
+      padding: 20px;
+      box-shadow: var(--shadow-sm);
+    }
+    .contrast-col.winner {
+      border: 2px solid var(--color-brand-primary);
+      background: #fcfdfd;
+    }
+    .contrast-tag {
+      display: inline-block;
+      font-size: 0.6875rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      padding: 3px 8px;
+      border-radius: var(--radius-sm);
+      margin-bottom: 10px;
+    }
+    .tag-fail {
+      background: #fee2e2;
+      color: #991b1b;
+    }
+    .tag-win {
+      background: #d1fae5;
+      color: #065f46;
+    }
+    .contrast-title {
+      font-size: 1.0625rem;
+      font-weight: 700;
+      margin-bottom: 12px;
+      color: var(--color-text-main);
+    }
+    .contrast-list {
+      list-style: none;
+      font-size: 0.875rem;
+      line-height: 1.55;
+      color: var(--color-text-muted);
+    }
+    .contrast-list li {
+      margin-bottom: 8px;
+      padding-left: 20px;
+      position: relative;
+    }
+    .contrast-col.winner .contrast-list li::before {
+      content: '✓';
+      position: absolute;
+      left: 0;
+      color: var(--color-brand-primary);
+      font-weight: 800;
+    }
+    .contrast-col:not(.winner) .contrast-list li::before {
+      content: '✕';
+      position: absolute;
+      left: 0;
+      color: #ef4444;
+      font-weight: 800;
+    }
+
+    /* Mid-Article Soft CTA */
+    .soft-cta-panel {
+      background: #f8fafc;
+      border: 2px dashed #cbd5e1;
+      border-radius: var(--radius-md);
+      padding: 22px;
+      text-align: center;
+      margin: 32px 0;
+    }
+    .soft-cta-title {
+      font-size: 1.0625rem;
+      font-weight: 700;
+      color: #0f172a;
+      margin-bottom: 6px;
+    }
+    .soft-cta-sub {
+      font-size: 0.8125rem;
+      color: #64748b;
+      margin-bottom: 14px;
+    }
+
+    /* Interactive Rapid Screener Widget */
+    .interactive-screener {
+      background: var(--color-surface);
+      border: 2px solid #0f766e;
+      border-radius: var(--radius-lg);
+      padding: 26px 20px;
+      margin: 36px 0;
+      box-shadow: var(--shadow-md);
+      text-align: center;
+    }
+    .screener-top-pill {
+      background: #ccfbf1;
+      color: #0f766e;
+      font-weight: 700;
+      font-size: 0.6875rem;
+      padding: 3px 10px;
+      border-radius: 9999px;
+      display: inline-block;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .screener-heading {
+      font-family: 'Newsreader', serif;
+      font-size: 1.55rem;
+      margin-bottom: 6px;
+      color: #0f172a;
+      font-weight: 700;
+    }
+    .screener-subtext {
+      font-size: 0.875rem;
+      color: #475569;
+      margin-bottom: 20px;
+    }
+    .screener-options {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      max-width: 480px;
+      margin: 0 auto 20px;
+      text-align: left;
+    }
+    .option-card {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      background: #f8fafc;
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-sm);
+      padding: 12px 14px;
+      font-size: 0.875rem;
+      font-weight: 500;
+      color: #1e293b;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .option-card:hover {
+      background: #f0fdfa;
+      border-color: #0f766e;
+    }
+    .option-radio {
+      width: 18px;
+      height: 18px;
+      accent-color: #0f766e;
+    }
+
+    /* Primary Conversion Button */
+    .btn-action {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      background: linear-gradient(180deg, #059669 0%, #047857 100%);
+      color: #ffffff;
+      font-weight: 700;
+      font-size: 1.0625rem;
+      padding: 16px 28px;
+      border-radius: var(--radius-md);
+      text-decoration: none;
+      box-shadow: 0 4px 14px rgba(5, 150, 105, 0.35);
+      transition: all 0.15s ease-in-out;
+      width: 100%;
+      max-width: 460px;
+    }
+    .btn-action:hover {
+      background: linear-gradient(180deg, #047857 0%, #065f46 100%);
+      transform: translateY(-1px);
+      box-shadow: 0 6px 20px rgba(5, 150, 105, 0.45);
+    }
+    .btn-sub {
+      font-size: 0.75rem;
+      color: #64748b;
+      margin-top: 8px;
+    }
+
+    /* Reader Discussion / Comments Section (Major Conversion Driver) */
+    .comments-section {
+      margin-top: 48px;
+      border-top: 2px solid var(--color-border);
+      padding-top: 32px;
+    }
+    .comments-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    .comments-title {
+      font-family: 'Newsreader', serif;
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: #0f172a;
+    }
+    .comments-count {
+      font-size: 0.8125rem;
+      color: #64748b;
+    }
+    .comment-item {
+      display: flex;
+      gap: 12px;
+      padding: 16px 0;
+      border-bottom: 1px solid #f1f5f9;
+    }
+    .comment-avatar {
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      background: #e2e8f0;
+      color: #475569;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 0.8125rem;
+      flex-shrink: 0;
+    }
+    .comment-body {
+      flex: 1;
+    }
+    .comment-author-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 4px;
+    }
+    .comment-name {
+      font-weight: 700;
+      font-size: 0.875rem;
+      color: #0f172a;
+    }
+    .comment-badge {
+      font-size: 0.6875rem;
+      background: #f1f5f9;
+      color: #475569;
+      padding: 1px 6px;
+      border-radius: 4px;
+    }
+    .comment-time {
+      font-size: 0.75rem;
+      color: #94a3b8;
+      margin-left: auto;
+    }
+    .comment-text {
+      font-size: 0.875rem;
+      color: #334155;
+      line-height: 1.5;
+    }
+    .comment-reply {
+      margin-top: 10px;
+      padding: 10px 14px;
+      background: #f8fafc;
+      border-left: 3px solid var(--color-brand-primary);
+      border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+      font-size: 0.8125rem;
+      color: #1e293b;
+    }
+    .reply-header {
+      font-weight: 700;
+      color: var(--color-brand-dark);
+      margin-bottom: 2px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    /* Fixed Floating Mobile CTA Bar */
+    .sticky-mobile-cta {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(255, 255, 255, 0.98);
+      backdrop-filter: blur(8px);
+      border-top: 1px solid #cbd5e1;
+      padding: 10px 16px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      z-index: 999;
+      box-shadow: var(--shadow-sticky);
+      transform: translateY(100%);
+      transition: transform 0.25s ease-in-out;
+    }
+    .sticky-mobile-cta.visible {
+      transform: translateY(0);
+    }
+    .sticky-info {
+      display: flex;
+      flex-direction: column;
+    }
+    .sticky-title {
+      font-weight: 700;
+      font-size: 0.8125rem;
+      color: #0f172a;
+      line-height: 1.2;
+    }
+    .sticky-sub {
+      font-size: 0.6875rem;
+      color: #059669;
+      font-weight: 600;
+    }
+    .sticky-btn {
+      background: linear-gradient(180deg, #059669 0%, #047857 100%);
+      color: #ffffff;
+      font-weight: 700;
+      font-size: 0.875rem;
+      padding: 10px 18px;
+      border-radius: var(--radius-sm);
+      text-decoration: none;
+      white-space: nowrap;
+      box-shadow: 0 2px 8px rgba(5, 150, 105, 0.3);
+    }
+
+    /* Footer Disclosures */
+    .article-footer {
+      border-top: 1px solid var(--color-border);
+      background: #f8fafc;
+      padding: 36px 18px;
+      margin-top: 40px;
+      font-size: 0.75rem;
+      color: #64748b;
+      line-height: 1.6;
+    }
+    .footer-wrap {
+      max-width: 740px;
+      margin: 0 auto;
+    }
+    .disclaimer-item {
+      margin-bottom: 14px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid #e2e8f0;
+    }
+    .disclaimer-item strong {
+      color: #334155;
+    }
+    .footer-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-top: 14px;
+    }
+    .footer-nav a {
+      color: #475569;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Reading Progress Bar -->
+  <div id="reading-progress"></div>
+
+  <!-- Mandatory Taboola Compliance Bar -->
+  <div class="taboola-header-bar">
+    ADVERTISEMENT · SPONSORED EDITORIAL CONTENT · PRESENTED BY TELEHEALTH FX
+  </div>
+
+  <!-- Editorial Masthead -->
+  <header class="site-masthead">
+    <div class="masthead-wrap">
+      <a href="#" class="masthead-logo">
+        <span class="logo-badge">MHR</span>
+        <span class="logo-title">Metabolic Health Review</span>
+      </a>
+      <div class="masthead-topics">
+        <span>Endocrinology</span>
+        <span>Satiety Science</span>
+        <span>Clinical Access</span>
+        <span>Physician Review</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Article Content -->
+  <main class="article-wrap">
+
+    <!-- Category Tag & Social Proof -->
+    <div class="category-row">
+      <div class="category-badge">Clinical Endocrinology & Metabolic Science</div>
+      <div class="trending-indicator">🔥 8.4k Readers Today</div>
+    </div>
+
+    <!-- Article Headline -->
+    <h1 class="story-headline" id="page-h1">Why Restrictive Diets Trigger 'Starvation Mode': The Gut-Brain Signaling Loop Most Doctors Miss</h1>
+
+    <!-- Deck / Subhead -->
+    <p class="story-deck" id="page-deck">
+      Endocrinologists uncover why cutting calories triggers 'adaptive thermogenesis' and relentless 8 PM cravings—and how a biological reset is helping Americans break the rebound cycle from home.
+    </p>
+
+    <!-- Author & Med Review Card -->
+    <div class="author-card">
+      <div class="author-avatar">MD</div>
+      <div class="author-text">
+        <div class="author-name">Sarah Jenkins, MD · Clinical Investigative Fellow</div>
+        <div class="author-sub">
+          <span>Published: October 2026</span>
+          <span>•</span>
+          <span>6 min read</span>
+          <span>•</span>
+          <span class="med-badge">✓ Medically Verified</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Story Content Body -->
+    <article class="story-content">
+
+      <p class="lead-dropcap">
+        When 51-year-old Laura Bennett sat in front of her physician after gaining 34 stubborn pounds over three years, she braced herself for the standard lecture: <em>eat less, move more, count your calories, and try harder</em>.
+      </p>
+
+      <p>
+        She had spent the previous eighteen months doing exactly that. She had cut carbohydrates, logged every morsel into a smartphone app, and spent 45 minutes on an elliptical before sunrise. Yet by 8:30 PM each evening, standing in front of her pantry, an overwhelming urge for food would take over her mind.
+      </p>
+
+      <p>
+        "I felt like a complete failure," Laura told us. "I thought everyone else possessed this superhuman discipline that I was somehow missing."
+      </p>
+
+      <p>
+        What Laura did not know—and what tens of millions of Americans are never told—is that those relentless late-night cravings had almost nothing to do with her willpower. According to <a href="https://go.telehealthfx.com/embody?aff_sub=taboola&aff_sub2=advertorial_foodnoise" class="in-text-link dynamic-link">groundbreaking research from top academic medical centers</a>, Laura was fighting a documented neuro-chemical loop known as <strong>"Food Noise."</strong>
+      </p>
+
+      <!-- Editorial Figure 1: The Vagus Nerve Signaling Loop -->
+      <figure class="editorial-figure">
+        <img src="/assets/editorial-metabolic-signaling.jpg" alt="Scientific visualization of transmembrane metabolic receptors and glowing bio-peptide molecules" class="figure-img" loading="eager" />
+        <figcaption class="figure-caption">
+          <strong>Figure 1.1 (Microscopic Satiety Signaling):</strong> 3D high-resolution visualization of cellular incretin receptors embedded in the cell membrane responding to bio-peptide messengers. When endogenous peptide signaling breaks down, the brain's appetite center fails to receive the satiety shutoff dispatch.
+        </figcaption>
+      </figure>
+
+      <h2>The Starvation Trap: Why Cutting Calories Locks Fat Away</h2>
+
+      <p>
+        For decades, the commercial diet industry sold us a simple arithmetic formula: calories in minus calories out. But human evolutionary biology is far more complex than a spreadsheet.
+      </p>
+
+      <p>
+        When you slash your calories below maintenance levels, your ancient survival genetics do not view it as a wellness transformation. Your body perceives an existential crisis: <em>a winter famine</em>.
+      </p>
+
+      <p>
+        To prevent you from starving, your endocrine system initiates a defense state known as <strong>Adaptive Thermogenesis</strong>:
+      </p>
+
+      <ul>
+        <li style="margin-left: 20px; margin-bottom: 8px;"><strong>Resting Metabolic Rate Dips:</strong> Your thyroid conversion slows down, burning up to 25% fewer calories while sleeping.</li>
+        <li style="margin-left: 20px; margin-bottom: 8px;"><strong>Ghrelin Surges 300%:</strong> Your stomach ramps up hunger hormone production, making calorie-dense foods smell and look irresistible.</li>
+        <li style="margin-left: 20px; margin-bottom: 8px;"><strong>Satiety Signals Collapse:</strong> Natural incretin hormones (like GLP-1) disappear, blinding the brain's appetite shutoff valve.</li>
+      </ul>
+
+      <p>
+        This is why 92% of traditional diets hit an impenetrable plateau by week six or eight: you are not failing the diet—your biology is fighting to protect your life.
+      </p>
+
+      <!-- Soft Mid-Article CTA -->
+      <div class="soft-cta-panel">
+        <div class="soft-cta-title">Are You Experiencing Biological 'Food Noise'?</div>
+        <div class="soft-cta-sub">Licensed physicians have released a 60-second self-screening assessment for qualified adults.</div>
+        <a href="https://go.telehealthfx.com/embody?aff_sub=taboola&aff_sub2=advertorial_foodnoise" class="btn-action dynamic-link">
+          Check Your Clinical Qualification Online →
+        </a>
+        <div class="btn-sub">100% confidential • Board-certified US providers • No insurance required</div>
+      </div>
+
+      <h2>The Satiety Revolution: How the Gut Shuts Off the Brain's Cravings</h2>
+
+      <p>
+        In healthy metabolic states, when nutrients reach the lower digestive tract, specialized L-cells release peptides known as <em>incretins</em>. These messengers signal the vagus nerve and travel to the hypothalamus, delivering a clear message: <strong>"Fuel received. Cease search for food."</strong>
+      </p>
+
+      <p>
+        When that signaling loop is properly supported, the mental chatter around food vanishes. You sit down to a meal, eat a normal portion, feel completely satisfied, and go on with your evening without obsessive snacking.
+      </p>
+
+      <!-- Empathy Pullout Quote -->
+      <div class="story-pullout">
+        "The first evening after my physician adjusted my incretin signaling, I ate half a chicken breast and vegetables. I pushed the plate away, realized I was completely satisfied, and didn't think about food again until morning. For the first time in twenty years, the noise in my head was silent."
+        <div class="pullout-author">— Laura B., 51, Ohio</div>
+      </div>
+
+      <!-- Editorial Figure 2: The Satiety Balance State -->
+      <figure class="editorial-figure">
+        <img src="/assets/editorial-satiety-calm.jpg" alt="Editorial magazine still-life illustrating natural metabolic satiety and calm nutrient balance" class="figure-img" loading="lazy" />
+        <figcaption class="figure-caption">
+          <strong>Figure 1.2 (The Anti-Starvation State):</strong> When hypothalamic satiety receptors are rebalanced, the body exits emergency famine mode (adaptive thermogenesis). Food noise turns off naturally, allowing steady, sustainable metabolic balance without deprivation.
+        </figcaption>
+      </figure>
+
+      <!-- Contrast Box: Willpower vs Clinical Support -->
+      <div class="contrast-box">
+        <div class="contrast-col">
+          <span class="contrast-tag tag-fail">The Old Way (Willpower)</span>
+          <div class="contrast-title">Caloric Deprivation</div>
+          <ul class="contrast-list">
+            <li>Constant mental battle with food noise</li>
+            <li>Metabolic rate drops by 15% to 28%</li>
+            <li>Ghrelin spikes cause rapid rebound regain</li>
+            <li>Guilt, exhaustion, and social deprivation</li>
+          </ul>
+        </div>
+        <div class="contrast-col winner">
+          <span class="contrast-tag tag-win">The Modern Standard</span>
+          <div class="contrast-title">Doctor-Supervised Satiety</div>
+          <ul class="contrast-list">
+            <li>Hypothalamic food noise turns off naturally</li>
+            <li>Metabolic rate and lean muscle protected</li>
+            <li>Doctor-guided custom dosing & monitoring</li>
+            <li>Sustainable weight wellness from home</li>
+          </ul>
+        </div>
+      </div>
+
+      <h2>The In-Person Clinic Problem vs. The Telehealth Breakthrough</h2>
+
+      <p>
+        Until recently, accessing physician-directed metabolic protocols required taking time off work, sitting in medical waiting rooms, and paying astronomical out-of-pocket fees: often <strong>$800 to $1,400 per month</strong> plus lab co-pays.
+      </p>
+
+      <p>
+        Furthermore, retail pharmacies faced nationwide supply shortages and unpredictable pricing tier hikes.
+      </p>
+
+      <p>
+        Fortunately, accredited nationwide telehealth platforms have disrupted this outdated model. Through direct partnerships with licensed, state-inspected <strong>503A compounding pharmacies</strong>, qualified adults can now complete a physician intake entirely online and receive custom compounded therapies shipped straight to their doorstep.
+      </p>
+
+      <p>
+        Instead of \$1,000+ monthly retail prices, modern programs provide all-inclusive clinical consultations, ongoing provider support, and monthly medication delivery starting at <strong>flat, transparent promotional rates ($69–$79/mo for Semaglutide, $119–$129/mo for Tirzepatide)</strong> with zero insurance requirements.
+      </p>
+
+      <!-- Interactive Screener Widget -->
+      <div class="interactive-screener">
+        <span class="screener-top-pill">Physician Assessment Screener</span>
+        <h3 class="screener-heading">Do You Qualify For A Doctor-Guided Metabolic Program?</h3>
+        <p class="screener-subtext">Select the statements that apply to your current situation:</p>
+
+        <div class="screener-options">
+          <label class="option-card">
+            <input type="checkbox" class="option-radio" checked />
+            <span>I experience persistent thoughts or cravings about food between meals ("Food Noise").</span>
+          </label>
+          <label class="option-card">
+            <input type="checkbox" class="option-radio" checked />
+            <span>I have lost weight in the past only to watch it return despite healthy habits.</span>
+          </label>
+          <label class="option-card">
+            <input type="checkbox" class="option-radio" checked />
+            <span>Diets that worked in my 20s or 30s have stopped moving the scale in my 40s or 50s.</span>
+          </label>
+          <label class="option-card">
+            <input type="checkbox" class="option-radio" checked />
+            <span>I am 18+ years of age and looking for affordable, doctor-directed care from home.</span>
+          </label>
+        </div>
+
+        <a href="https://go.telehealthfx.com/embody?aff_sub=taboola&aff_sub2=advertorial_foodnoise" class="btn-action dynamic-link">
+          See If You Qualify With Embody Health →
+        </a>
+        <div class="btn-sub">Takes under 90 seconds • Licensed 503A Pharmacy Supply • Shipped to all 50 States</div>
+      </div>
+
+      <h2>How To Claim Your Physician Consultation</h2>
+
+      <p>
+        Our editorial review board recommends <a href="https://go.telehealthfx.com/embody?aff_sub=taboola&aff_sub2=advertorial_foodnoise" class="in-text-link dynamic-link"><strong>Embody Health</strong></a>, a premier US telehealth provider currently accepting new patient intakes with transparent, all-inclusive pricing:
+      </p>
+
+      <ol style="margin-left: 24px; margin-bottom: 24px; line-height: 1.8; color: #334155;">
+        <li><strong>Complete the 90-Second Intake:</strong> Answer confidential questions regarding your metabolic health history and wellness goals.</li>
+        <li><strong>Physician Evaluation:</strong> A licensed US healthcare provider evaluates your profile to verify if a doctor-directed protocol is medically appropriate for you.</li>
+        <li><strong>Direct Doorstep Delivery:</strong> If approved, your personalized compounded therapy is prepared by a state-inspected 503A pharmacy and delivered directly to your home in temperature-controlled packaging with full clinical supplies.</li>
+      </ol>
+
+      <div style="text-align: center; margin-top: 36px; margin-bottom: 20px;">
+        <a href="https://go.telehealthfx.com/embody?aff_sub=taboola&aff_sub2=advertorial_foodnoise" class="btn-action dynamic-link" style="font-size: 1.125rem; padding: 18px 36px;">
+          Check Your Clinical Eligibility Now →
+        </a>
+        <div class="btn-sub">Clicking above takes you directly to Embody's confidential physician intake screener.</div>
+      </div>
+
+      <!-- Reader Discussion Section (High Trust & Objection Busting) -->
+      <section class="comments-section">
+        <div class="comments-header">
+          <div class="comments-title">Clinical Q&A & Reader Discussion</div>
+          <div class="comments-count">14 Comments · Moderated</div>
+        </div>
+
+        <!-- Comment 1 -->
+        <div class="comment-item">
+          <div class="comment-avatar">KW</div>
+          <div class="comment-body">
+            <div class="comment-author-row">
+              <span class="comment-name">Karen W.</span>
+              <span class="comment-badge">Verified Reader</span>
+              <span class="comment-time">2 hours ago</span>
+            </div>
+            <p class="comment-text">
+              Does this require insurance approval or taking time off for in-person doctor appointments? My primary care doctor wanted a 3-month waiting list just for a consultation.
+            </p>
+            <div class="comment-reply">
+              <div class="reply-header">🩺 Editorial Staff Response:</div>
+              No insurance is required. Embody operates on a flat, transparent out-of-pocket rate ($69–$79/mo promo for Semaglutide, $119–$129/mo for Tirzepatide). The entire physician intake is completed 100% online from your phone or computer.
+            </div>
+          </div>
+        </div>
+
+        <!-- Comment 2 -->
+        <div class="comment-item">
+          <div class="comment-avatar">DM</div>
+          <div class="comment-body">
+            <div class="comment-author-row">
+              <span class="comment-name">David M.</span>
+              <span class="comment-badge">Verified Reader</span>
+              <span class="comment-time">4 hours ago</span>
+            </div>
+            <p class="comment-text">
+              I turned 52 and hit a severe plateau despite doing CrossFit and intermittent fasting. Is the food noise effect really this common in men over 50?
+            </p>
+            <div class="comment-reply">
+              <div class="reply-header">🩺 Editorial Staff Response:</div>
+              Extremely common, David. As testosterone and growth hormone signaling shift in your 50s, leptin resistance and hypothalamic appetite signaling frequently trigger compensatory evening cravings. Incretin therapies address the receptor pathways directly regardless of gender.
+            </div>
+          </div>
+        </div>
+
+        <!-- Comment 3 -->
+        <div class="comment-item">
+          <div class="comment-avatar">RT</div>
+          <div class="comment-body">
+            <div class="comment-author-row">
+              <span class="comment-name">Rachel T.</span>
+              <span class="comment-badge">Verified Reader</span>
+              <span class="comment-time">Yesterday</span>
+            </div>
+            <p class="comment-text">
+              Does the monthly price spike when the doctor increases your dosage? Other clinic programs lured me in with a cheap teaser rate and then tripled the price on month two.
+            </p>
+            <div class="comment-reply">
+              <div class="reply-header">🩺 Editorial Staff Response:</div>
+              That is one of the main reasons our review board recommends Embody. They provide transparent, flat-rate pricing without surprise dose-escalation tier penalties. All clinical supplies and shipping are included.
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </article>
+  </main>
+
+  <!-- Sticky Mobile Floating CTA Bar -->
+  <div id="sticky-bar" class="sticky-mobile-cta">
+    <div class="sticky-info">
+      <div class="sticky-title">Doctor-Supervised Intake</div>
+      <div class="sticky-sub">Introductory Rates from $69/mo</div>
+    </div>
+    <a href="https://go.telehealthfx.com/embody?aff_sub=taboola&aff_sub2=advertorial_foodnoise" class="sticky-btn dynamic-link">
+      Check Eligibility →
+    </a>
+  </div>
+
+  <!-- Regulatory & Legal Disclosures Footer -->
+  <footer class="article-footer">
+    <div class="footer-wrap">
+      <div class="disclaimer-item">
+        <strong>ADVERTORIAL DISCLOSURE:</strong> This website is an informational advertorial publication operated by Telehealth FX. The content contained on this page is for educational and journalistic purposes and does not constitute formal medical advice, diagnosis, or treatment. A licensed healthcare professional evaluates all individuals prior to prescribing any clinical therapy. Individual results will vary based on adherence, baseline metabolic rate, genetics, diet, and physical activity.
+      </div>
+      <div class="disclaimer-item">
+        <strong>AFFILIATE DISCLOSURE:</strong> Telehealth FX maintains commercial affiliate relationships with third-party digital health platforms, including Embody Health. When you click links on this page and initiate a telehealth consultation, Telehealth FX may receive financial referral compensation at zero additional cost to you.
+      </div>
+      <div class="disclaimer-item">
+        <strong>COMPOUNDING PHARMACY NOTICE:</strong> Any compounded medications referenced or prescribed through affiliated telehealth providers are prepared by state-licensed 503A compounding pharmacies pursuant to a valid prescription from a licensed healthcare practitioner. Compounded medications are not FDA-approved, and the FDA does not evaluate compounded drugs for safety, effectiveness, or manufacturing quality.
+      </div>
+      <div class="footer-nav">
+        <a href="/privacy" target="_blank">Privacy Policy</a>
+        <a href="/terms" target="_blank">Terms of Service</a>
+        <a href="/disclaimer" target="_blank">Medical Disclaimer</a>
+        <a href="/contact" target="_blank">Editorial Contact</a>
+      </div>
+      <div style="margin-top: 14px; font-size: 0.6875rem; color: #94a3b8;">
+        © 2026 Telehealth FX. All rights reserved. Metabolic Health Review is an independent editorial publishing brand.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Dynamic Tracking & Scroll Triggers Script -->
+  <script>
+    (function() {
+      // 1. Reading progress bar
+      window.addEventListener('scroll', function() {
+        var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+        var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        var scrolled = (winScroll / height) * 100;
+        var bar = document.getElementById('reading-progress');
+        if (bar) bar.style.width = scrolled + '%';
+
+        // Show sticky bar after 25% scroll depth
+        var stickyBar = document.getElementById('sticky-bar');
+        if (stickyBar) {
+          if (scrolled > 22 && scrolled < 95) {
+            stickyBar.classList.add('visible');
+          } else {
+            stickyBar.classList.remove('visible');
+          }
+        }
+      });
+
+      // 2. Parse URL parameters from current page
+      var params = new URLSearchParams(window.location.search);
+      var angle = params.get('angle') || 'starvation';
+      if (angle === 'endocrinologists' || angle === 'willpower') {
+        var h1 = document.getElementById('page-h1');
+        var deck = document.getElementById('page-deck');
+        if (h1) h1.textContent = "Top Endocrinologists Reveal: The Real Reason 8 PM Cravings Have Nothing to Do With Willpower";
+        if (deck) deck.textContent = "Why caloric restriction triggers 'adaptive thermogenesis' and relentless food noise—and how a breakthrough in gut-brain signaling is helping Americans break the rebound cycle from home.";
+      }
+
+      var siteId = params.get('site_id') || params.get('aff_sub3') || '{site_id}';
+      var campaignItemId = params.get('campaign_item_id') || params.get('aff_sub4') || '{campaign_item_id}';
+      var clickId = params.get('click_id') || params.get('aff_sub5') || '{click_id}';
+      var utmCampaign = params.get('utm_campaign') || ('starvation_mode_' + angle);
+
+      // 3. Build destination URL
+      var baseUrl = 'https://go.telehealthfx.com/embody';
+      var destinationUrl = baseUrl + 
+        '?aff_sub=taboola' + 
+        '&aff_sub2=advertorial_' + encodeURIComponent(angle) + 
+        '&aff_sub3=' + encodeURIComponent(siteId) + 
+        '&aff_sub4=' + encodeURIComponent(campaignItemId) + 
+        '&aff_sub5=' + encodeURIComponent(clickId) + 
+        '&utm_campaign=' + encodeURIComponent(utmCampaign);
+
+      // 4. Update all dynamic link CTA buttons
+      var ctaButtons = document.querySelectorAll('.dynamic-link');
+      ctaButtons.forEach(function(btn) {
+        btn.setAttribute('href', destinationUrl);
+      });
+    })();
+  </script>
+</body>
+</html>
