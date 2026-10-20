@@ -12,175 +12,477 @@
   <meta charset="utf-8">
   <title>Session Waiting Room — Food Noise & Incretin Satiety Briefing | Telehealth FX</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="robots" content="noindex, nofollow">
+
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/Site%20Icon-modified.png">
+
+  <!-- Google Fonts: Telehealth FX Typography Stack -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
 
   <style>
-    * { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #F5F1EA;
+      --bg-alt: #EDE7DC;
+      --bg-card: #FBF8F3;
+      --ink: #1A1F1C;
+      --ink-2: #3A423D;
+      --ink-3: #6B7068;
+      --ink-4: #A4A69E;
+      --line: #D9D3C6;
+      --line-soft: #E5DFD2;
+      --brand: #2E4A3B;
+      --brand-deep: #1F3529;
+      --brand-soft: #C4D1C4;
+      --accent: #C77D5C;
+      --accent-soft: #E8C4AE;
+      --radius-lg: 12px;
+      --radius-xl: 20px;
+      --serif: 'Instrument Serif', 'Cormorant Garamond', Georgia, serif;
+      --sans: 'Inter', -apple-system, system-ui, sans-serif;
+      --mono: 'JetBrains Mono', ui-monospace, Menlo, monospace;
+    }
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
     body {
-      background: #0C0E10;
-      color: #FFFFFF;
-      font-family: 'Plus Jakarta Sans', -apple-system, sans-serif;
+      background-color: var(--bg);
+      color: var(--ink);
+      font-family: var(--sans);
       min-height: 100vh;
       display: flex;
       flex-direction: column;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* Top Waiting Bar */
+    .waiting-topbar {
+      background: var(--bg-alt);
+      border-bottom: 1px solid var(--line-soft);
+      padding: 14px 24px;
+      display: flex;
       align-items: center;
-      justify-content: center;
-      padding: 24px;
-      text-align: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
     }
-    .card {
-      background: #161B22;
-      border: 1px solid rgba(255, 255, 255, 0.12);
-      border-radius: 16px;
-      max-width: 640px;
-      width: 100%;
-      padding: 44px 32px;
-      box-shadow: 0 25px 65px rgba(0, 0, 0, 0.7);
-    }
-    .badge {
+    .logo-container {
       display: inline-flex;
       align-items: center;
       gap: 8px;
-      font-size: 13px;
-      font-weight: 800;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      color: #21B6D7;
-      background: rgba(33, 182, 215, 0.12);
-      padding: 6px 14px;
+      color: var(--ink);
+      text-decoration: none;
+    }
+    .waiting-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 4px 12px;
       border-radius: 999px;
-      margin-bottom: 20px;
+      background: rgba(46, 74, 59, 0.08);
+      border: 1px solid rgba(46, 74, 59, 0.2);
+      color: var(--brand);
+      font-family: var(--mono);
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
     }
-    .badge-dot {
-      width: 8px;
-      height: 8px;
+    .pulse-dot {
+      width: 7px;
+      height: 7px;
       border-radius: 50%;
-      background: #21B6D7;
-      animation: pulse 1.5s infinite;
+      background: #10B981;
+      box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.25);
+      animation: pulseDot 1.8s infinite;
     }
-    @keyframes pulse {
-      0% { transform: scale(0.9); opacity: 0.7; }
-      50% { transform: scale(1.3); opacity: 1; }
-      100% { transform: scale(0.9); opacity: 0.7; }
+    @keyframes pulseDot {
+      0%, 100% { transform: scale(1); opacity: 1; }
+      50% { transform: scale(1.25); opacity: 0.75; }
     }
-    h1 { font-size: 28px; font-weight: 800; margin-bottom: 12px; }
-    p { font-size: 15px; color: #94A3B8; line-height: 1.6; margin-bottom: 32px; }
 
-    /* Flip-Clock / Countdown Digits */
-    .countdown-grid {
+    /* Main Waiting Area */
+    .waiting-main {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 20px 60px;
+    }
+
+    .waiting-card {
+      width: 100%;
+      max-width: 740px;
+      background: var(--bg-card);
+      border: 1px solid var(--line);
+      border-radius: var(--radius-xl);
+      overflow: hidden;
+      box-shadow: 0 24px 60px rgba(46, 74, 59, 0.08);
+    }
+
+    /* Header Banner */
+    .waiting-card-header {
+      background: var(--brand);
+      color: #FBF8F3;
+      padding: 32px 28px;
+      text-align: center;
+    }
+    .seat-confirmed-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(255, 255, 255, 0.15);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      padding: 4px 14px;
+      border-radius: 999px;
+      font-family: var(--mono);
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 12px;
+    }
+    .waiting-card-header h1 {
+      font-family: var(--serif);
+      font-size: 32px;
+      font-weight: 400;
+      line-height: 1.15;
+      letter-spacing: -0.02em;
+      margin-bottom: 6px;
+    }
+    .waiting-card-header p {
+      font-size: 14px;
+      color: var(--brand-soft);
+      line-height: 1.4;
+    }
+
+    /* Card Body */
+    .waiting-card-body {
+      padding: 36px 32px 40px;
+      text-align: center;
+    }
+    .session-starts-label {
+      font-family: var(--mono);
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--ink-3);
+      margin-bottom: 6px;
+    }
+    .session-target-time {
+      font-size: 18px;
+      font-weight: 600;
+      color: var(--brand);
+      margin-bottom: 24px;
+    }
+
+    /* Authentic 3D Flip-Clock Countdown Block */
+    .clock-wrap {
+      background: var(--bg-alt);
+      border: 1px solid var(--line);
+      border-radius: var(--radius-lg);
+      padding: 24px 20px;
+      max-width: 480px;
+      margin: 0 auto 28px;
+    }
+    .clock-status {
+      font-family: var(--mono);
+      font-size: 12px;
+      color: var(--ink-3);
+      margin-bottom: 16px;
+    }
+    .clock-status strong {
+      color: var(--accent);
+    }
+
+    .time-digits-row {
       display: flex;
       align-items: center;
       justify-content: center;
       gap: 12px;
-      margin-bottom: 32px;
     }
-    .digit-box {
-      background: #0C0E10;
-      border: 1px solid rgba(255, 255, 255, 0.15);
-      border-radius: 10px;
-      padding: 16px 14px;
-      min-width: 76px;
+    .time-group {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
-    .digit-num {
-      font-size: 38px;
-      font-weight: 900;
-      color: #FFFFFF;
-      line-height: 1;
-      font-variant-numeric: tabular-nums;
+    .digits-pair {
+      display: flex;
+      gap: 4px;
     }
-    .digit-label {
-      font-size: 10px;
-      text-transform: uppercase;
+    .flip-digit {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 46px;
+      height: 60px;
+      border-radius: 8px;
+      background: var(--brand-deep);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      font-family: var(--mono);
+      font-size: 32px;
       font-weight: 700;
-      color: #71717A;
-      letter-spacing: 1px;
-      margin-top: 6px;
+      color: #FBF8F3;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     }
-    .digit-sep {
-      font-size: 28px;
-      font-weight: 800;
-      color: #52525B;
+    .flip-digit::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+      height: 1px;
+      background: rgba(0, 0, 0, 0.4);
+    }
+    .time-sep {
+      font-size: 32px;
+      font-weight: 700;
+      color: var(--brand);
+      margin-top: -16px;
+    }
+    .time-label {
+      font-family: var(--mono);
+      font-size: 10px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--ink-3);
+      margin-top: 8px;
+      font-weight: 600;
     }
 
-    .checklist {
-      text-align: left;
-      background: rgba(255, 255, 255, 0.03);
-      border: 1px solid rgba(255, 255, 255, 0.08);
-      border-radius: 8px;
-      padding: 18px 20px;
-      font-size: 14px;
-      color: #CBD5E1;
-      line-height: 1.6;
+    /* Auto-Redirect Notice */
+    .auto-redirect-note {
+      font-size: 13px;
+      color: var(--ink-2);
+      margin-bottom: 24px;
     }
-    .checklist li { margin-bottom: 8px; list-style: none; display: flex; align-items: center; gap: 8px; }
-    .checklist li:last-child { margin-bottom: 0; }
-    .checklist svg { color: #00A86B; flex-shrink: 0; }
+
+    /* Direct Enter Button */
+    .enter-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      width: 100%;
+      max-width: 420px;
+      padding: 16px 28px;
+      border-radius: 999px;
+      background: var(--brand);
+      color: #FBF8F3;
+      font-size: 15px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all .2s ease;
+      margin-bottom: 32px;
+    }
+    .enter-btn:hover {
+      background: var(--brand-deep);
+      transform: translateY(-1px);
+      box-shadow: 0 8px 20px rgba(46, 74, 59, 0.25);
+    }
+
+    /* While You Wait Checklist */
+    .prep-box {
+      border-top: 1px solid var(--line-soft);
+      padding-top: 28px;
+      text-align: left;
+    }
+    .prep-box h4 {
+      font-family: var(--serif);
+      font-size: 22px;
+      color: var(--ink);
+      margin-bottom: 16px;
+      text-align: center;
+    }
+    .prep-list {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .prep-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      background: var(--bg);
+      border: 1px solid var(--line-soft);
+      border-radius: var(--radius-lg);
+      padding: 14px 18px;
+    }
+    .prep-icon {
+      font-size: 16px;
+      color: var(--brand);
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+    .prep-text h5 {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--ink);
+      margin-bottom: 2px;
+    }
+    .prep-text p {
+      font-size: 12px;
+      color: var(--ink-3);
+      line-height: 1.4;
+    }
+
+    /* Footer Notice */
+    .waiting-footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 12px;
+      color: var(--ink-4);
+    }
   </style>
 </head>
 <body>
-  <div class="card">
-    <div class="badge">
-      <span class="badge-dot"></span>
-      <span>Session Waiting Room</span>
-    </div>
 
-    <h1>Your Clinical Briefing Begins Shortly</h1>
-    <p>Please keep this window open. You will be automatically admitted into the broadcast room the moment the countdown reaches zero.</p>
+  <!-- Top Bar -->
+  <div class="waiting-topbar">
+    <a href="/" class="logo-container">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+        <circle cx="10" cy="10" r="9" stroke="currentColor" stroke-width="1.2" />
+        <path d="M10 1.5 v17 M1.5 10 h17" stroke="currentColor" stroke-width="1.2" opacity="0.3"/>
+        <circle cx="10" cy="10" r="3.5" fill="currentColor" />
+      </svg>
+      <span style="font-family: var(--serif); font-size: 19px; letter-spacing: -0.02em;">
+        Telehealth<span style="font-style: italic; margin-left: 2px;">FX</span>
+      </span>
+    </a>
 
-    <!-- Flip Clock -->
-    <div class="countdown-grid">
-      <div class="digit-box">
-        <div class="digit-num" id="cdMinutes">00</div>
-        <div class="digit-label">Minutes</div>
-      </div>
-      <div class="digit-sep">:</div>
-      <div class="digit-box">
-        <div class="digit-num" id="cdSeconds">15</div>
-        <div class="digit-label">Seconds</div>
-      </div>
-    </div>
-
-    <!-- Briefing Prep Points -->
-    <div class="checklist">
-      <ul>
-        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Audio test active: ensure device sound is unmuted</li>
-        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Clinical focus: Hypothalamic signaling & $69/mo compounding</li>
-        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Automatic admission: Zero passwords or downloads needed</li>
-      </ul>
+    <div class="waiting-badge">
+      <span class="pulse-dot"></span>
+      <span>Live Broadcast Room &bull; Access Confirmed</span>
     </div>
   </div>
 
-  <script>
-    const urlParams = new URLSearchParams(window.location.search);
-    const targetSlot = Number(urlParams.get('slot')) || (Date.now() + 15000);
-    const regId = urlParams.get('reg') || localStorage.getItem('tfx_reg_id') || '';
+  <!-- Main Card -->
+  <div class="waiting-main">
+    <div class="waiting-card">
+      <div class="waiting-card-header">
+        <div class="seat-confirmed-pill">
+          <span>&#10003; Free Pass Reserved</span>
+        </div>
+        <h1>Your Seat Is Confirmed, <span id="attendee-name">Patient</span>!</h1>
+        <p>The 7-minute clinical briefing on food noise &amp; incretin receptor reset is queued.</p>
+      </div>
 
-    // Record waiting room entry
-    if (regId) {
-      fetch('/api/register', {
-        method: 'PATCH',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ registrationId: Number(regId), event: 'enter_waiting_room' })
-      }).catch(() => {});
+      <div class="waiting-card-body">
+        <div class="session-starts-label">Session Commences In</div>
+        <div class="session-target-time" id="target-time-label">Scheduled Broadcast Starting Shortly</div>
+
+        <!-- 3D Flip-Clock Countdown -->
+        <div class="clock-wrap">
+          <div class="clock-status">
+            Status: Stream initializing &bull; <strong>Room Open</strong>
+          </div>
+          <div class="time-digits-row">
+            <div class="time-group">
+              <div class="digits-pair">
+                <div class="flip-digit" id="flip-m1">0</div>
+                <div class="flip-digit" id="flip-m2">2</div>
+              </div>
+              <div class="time-label">Minutes</div>
+            </div>
+
+            <div class="time-sep">:</div>
+
+            <div class="time-group">
+              <div class="digits-pair">
+                <div class="flip-digit" id="flip-s1">3</div>
+                <div class="flip-digit" id="flip-s2">0</div>
+              </div>
+              <div class="time-label">Seconds</div>
+            </div>
+          </div>
+        </div>
+
+        <p class="auto-redirect-note">
+          You will be automatically transferred into the broadcast room when the countdown reaches zero.
+        </p>
+
+        <a href="/briefings/food-noise-metabolic-reset/?room=1" class="enter-btn" id="direct-enter-btn">
+          ENTER BROADCAST ROOM NOW &rarr;
+        </a>
+
+        <!-- Preparation Checklist -->
+        <div class="prep-box">
+          <h4>While You Wait: 3 Critical Points To Prepare</h4>
+          <div class="prep-list">
+            <div class="prep-item">
+              <div class="prep-icon">&#10003;</div>
+              <div class="prep-text">
+                <h5>1. Concise 7-Minute Briefing</h5>
+                <p>This is a focused clinical presentation by our medical directorate. No 60-minute fluff or high-pressure sales pitch.</p>
+              </div>
+            </div>
+
+            <div class="prep-item">
+              <div class="prep-icon">&#10003;</div>
+              <div class="prep-text">
+                <h5>2. Flat-Rate Pricing Verification</h5>
+                <p>Discover how 503A compounding maintains $69/mo Semaglutide and $119/mo Tirzepatide across all dosages with zero escalation traps.</p>
+              </div>
+            </div>
+
+            <div class="prep-item">
+              <div class="prep-icon">&#10003;</div>
+              <div class="prep-text">
+                <h5>3. Instant Medical Pre-Qualification</h5>
+                <p>At the conclusion of the briefing, you will receive direct access to our 60-second doctor screening form to check your prescription eligibility.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="waiting-footer">
+    &copy; 2026 Telehealth FX. All rights reserved. 503A Compounding Pharmacy Protocols.
+  </div>
+
+  <script>
+    // Grab Name & Details from URL or LocalStorage
+    const urlParams = new URLSearchParams(window.location.search);
+    const regName = urlParams.get('name') || localStorage.getItem('tfx_user_name') || 'Patient';
+    document.getElementById('attendee-name').textContent = regName;
+
+    // Countdown: 2 minutes 30 seconds (150 seconds)
+    let secondsRemaining = 150;
+
+    function renderClock() {
+      if (secondsRemaining <= 0) {
+        // Auto-redirect to the broadcast room
+        window.location.href = '/briefings/food-noise-metabolic-reset/?room=1';
+        return;
+      }
+
+      const m = Math.floor(secondsRemaining / 60);
+      const s = secondsRemaining % 60;
+
+      const mStr = m.toString().padStart(2, '0');
+      const sStr = s.toString().padStart(2, '0');
+
+      document.getElementById('flip-m1').textContent = mStr[0];
+      document.getElementById('flip-m2').textContent = mStr[1];
+      document.getElementById('flip-s1').textContent = sStr[0];
+      document.getElementById('flip-s2').textContent = sStr[1];
+
+      secondsRemaining -= 1;
     }
 
-    const timer = setInterval(() => {
-      const now = Date.now();
-      const diffSec = Math.max(0, Math.floor((targetSlot - now) / 1000));
-
-      const mins = Math.floor(diffSec / 60);
-      const secs = diffSec % 60;
-
-      document.getElementById('cdMinutes').innerText = String(mins).padStart(2, '0');
-      document.getElementById('cdSeconds').innerText = String(secs).padStart(2, '0');
-
-      if (diffSec <= 0) {
-        clearInterval(timer);
-        window.location.href = `/briefings/food-noise-metabolic-reset/?room=1&reg=${regId}`;
-      }
-    }, 1000);
+    renderClock();
+    setInterval(renderClock, 1000);
   </script>
 </body>
 </html>

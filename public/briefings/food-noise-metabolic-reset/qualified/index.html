@@ -12,173 +12,417 @@
   <meta charset="utf-8">
   <title>Pre-Qualification Approved — Begin Medical Intake | Telehealth FX</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="robots" content="noindex, nofollow">
+
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/Site%20Icon-modified.png">
+
+  <!-- Google Fonts: Telehealth FX Typography Stack -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
 
   <style>
-    * { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #F5F1EA;
+      --bg-alt: #EDE7DC;
+      --bg-card: #FBF8F3;
+      --ink: #1A1F1C;
+      --ink-2: #3A423D;
+      --ink-3: #6B7068;
+      --ink-4: #A4A69E;
+      --line: #D9D3C6;
+      --line-soft: #E5DFD2;
+      --brand: #2E4A3B;
+      --brand-deep: #1F3529;
+      --brand-soft: #C4D1C4;
+      --accent: #C77D5C;
+      --accent-soft: #E8C4AE;
+      --radius-lg: 12px;
+      --radius-xl: 20px;
+      --serif: 'Instrument Serif', 'Cormorant Garamond', Georgia, serif;
+      --sans: 'Inter', -apple-system, system-ui, sans-serif;
+      --mono: 'JetBrains Mono', ui-monospace, Menlo, monospace;
+    }
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
     body {
-      background: #0C0E10;
-      color: #FFFFFF;
-      font-family: 'Plus Jakarta Sans', -apple-system, sans-serif;
+      background-color: var(--bg);
+      color: var(--ink);
+      font-family: var(--sans);
       min-height: 100vh;
       display: flex;
       flex-direction: column;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* Top Nav */
+    .topbar {
+      background: var(--bg-alt);
+      border-bottom: 1px solid var(--line-soft);
+      padding: 14px 24px;
+      display: flex;
       align-items: center;
-      justify-content: center;
-      padding: 32px 20px;
-      text-align: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
     }
-    .card {
-      background: #161B22;
-      border: 1px solid rgba(255, 255, 255, 0.12);
-      border-radius: 16px;
-      max-width: 620px;
-      width: 100%;
-      padding: 44px 32px;
-      box-shadow: 0 25px 65px rgba(0, 0, 0, 0.75);
-    }
-    .badge {
+    .logo-container {
       display: inline-flex;
       align-items: center;
       gap: 8px;
-      font-size: 13px;
-      font-weight: 800;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      color: #10B981;
-      background: rgba(16, 185, 129, 0.12);
-      padding: 8px 18px;
-      border-radius: 999px;
-      border: 1px solid rgba(16, 185, 129, 0.35);
-      margin-bottom: 24px;
+      color: var(--ink);
+      text-decoration: none;
     }
-    .badge-icon {
-      width: 18px;
-      height: 18px;
+    .approved-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 4px 12px;
+      border-radius: 999px;
+      background: rgba(16, 185, 129, 0.1);
+      border: 1px solid rgba(16, 185, 129, 0.3);
+      color: #065F46;
+      font-family: var(--mono);
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+    .approved-dot {
+      width: 7px;
+      height: 7px;
       border-radius: 50%;
       background: #10B981;
+    }
+
+    /* Main Container */
+    .main-wrap {
+      flex: 1;
       display: flex;
       align-items: center;
       justify-content: center;
-      color: #0C0E10;
+      padding: 48px 20px 80px;
     }
-    h1 { font-size: 32px; font-weight: 900; margin-bottom: 12px; line-height: 1.2; }
-    p { font-size: 16px; color: #94A3B8; line-height: 1.6; margin-bottom: 28px; }
 
+    .qual-card {
+      width: 100%;
+      max-width: 680px;
+      background: var(--bg-card);
+      border: 1px solid var(--line);
+      border-radius: var(--radius-xl);
+      padding: 44px 36px;
+      box-shadow: 0 24px 60px rgba(46, 74, 59, 0.08);
+      text-align: center;
+    }
+
+    .pill-wrap {
+      margin-bottom: 16px;
+    }
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 14px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 500;
+      background: rgba(46, 74, 59, 0.08);
+      border: 1px solid rgba(46, 74, 59, 0.2);
+      color: var(--brand);
+    }
+
+    h1.qual-title {
+      font-family: var(--serif);
+      font-size: clamp(30px, 4vw, 42px);
+      line-height: 1.15;
+      letter-spacing: -0.02em;
+      color: var(--ink);
+      margin-bottom: 12px;
+    }
+
+    p.qual-sub {
+      font-size: 15px;
+      color: var(--ink-2);
+      line-height: 1.55;
+      margin-bottom: 28px;
+    }
+
+    /* Matched Offer Box */
     .offer-box {
-      background: rgba(255, 255, 255, 0.03);
-      border: 1px solid rgba(255, 255, 255, 0.1);
-      border-radius: 12px;
+      background: var(--bg);
+      border: 1px solid var(--line);
+      border-radius: var(--radius-lg);
       padding: 24px;
       text-align: left;
       margin-bottom: 32px;
     }
-    .offer-row {
+    .offer-eyebrow {
+      font-family: var(--mono);
+      font-size: 11px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--brand);
+      margin-bottom: 8px;
+    }
+    .offer-title {
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--ink);
+      margin-bottom: 16px;
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .offer-price-highlight {
+      font-family: var(--serif);
+      font-size: 28px;
+      color: var(--brand);
+    }
+    .offer-detail-rows {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      border-top: 1px solid var(--line-soft);
+      padding-top: 14px;
+      font-size: 13px;
+      color: var(--ink-2);
+    }
+    .detail-row {
       display: flex;
       justify-content: space-between;
-      align-items: center;
-      padding: 10px 0;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.06);
-      font-size: 15px;
     }
-    .offer-row:last-child { border-bottom: none; }
-    .offer-label { color: #94A3B8; }
-    .offer-val { font-weight: 700; color: #FFFFFF; }
-    .offer-price { font-size: 20px; font-weight: 900; color: #10B981; }
+    .detail-row strong {
+      color: var(--ink);
+    }
 
-    .btn-intake {
-      display: block;
-      width: 100%;
-      background: #00A86B;
-      color: #FFFFFF;
-      text-decoration: none;
-      font-weight: 800;
-      font-size: 18px;
-      text-transform: uppercase;
-      letter-spacing: 0.8px;
-      padding: 18px;
-      border-radius: 10px;
-      transition: background 0.2s ease, transform 0.15s ease;
-      box-shadow: 0 10px 30px rgba(0, 168, 107, 0.35);
+    /* 4-Step Next Steps Walkthrough */
+    .steps-box {
+      text-align: left;
+      margin-bottom: 32px;
+      border-top: 1px solid var(--line-soft);
+      padding-top: 24px;
     }
-    .btn-intake:hover {
-      background: #008f5b;
-      transform: translateY(-2px);
-    }
-    .disclaimer {
+    .steps-box h4 {
+      font-family: var(--mono);
       font-size: 12px;
-      color: #64748B;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--ink-3);
+      margin-bottom: 16px;
+      text-align: center;
+    }
+    .step-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+      margin-bottom: 14px;
+    }
+    .step-number {
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      background: var(--brand);
+      color: #FBF8F3;
+      font-family: var(--mono);
+      font-size: 11px;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+    .step-content h5 {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--ink);
+      margin-bottom: 2px;
+    }
+    .step-content p {
+      font-size: 12px;
+      color: var(--ink-3);
+      line-height: 1.4;
+    }
+
+    /* CTA Button */
+    .cta-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      width: 100%;
+      padding: 18px 32px;
+      border-radius: 999px;
+      background: var(--brand);
+      color: #FBF8F3;
+      font-size: 16px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all .2s ease;
+      box-shadow: 0 4px 16px rgba(46, 74, 59, 0.25);
+      margin-bottom: 18px;
+    }
+    .cta-btn:hover {
+      background: var(--brand-deep);
+      transform: translateY(-1px);
+      box-shadow: 0 8px 24px rgba(46, 74, 59, 0.35);
+    }
+
+    .trust-footer-note {
+      font-size: 12px;
+      color: var(--ink-3);
       line-height: 1.5;
-      margin-top: 24px;
+    }
+
+    /* Footer */
+    .site-footer {
+      text-align: center;
+      padding: 24px 20px;
+      font-size: 12px;
+      color: var(--ink-4);
+      border-top: 1px solid var(--line-soft);
+      background: var(--bg-alt);
     }
   </style>
 </head>
 <body>
-  <div class="card">
-    <div class="badge">
-      <span class="badge-icon">✓</span>
-      <span>Preliminary Qualification Approved</span>
-    </div>
 
-    <h1>Your Clinical Protocol Is Reserved</h1>
-    <p>Based on your intake criteria, you have met the preliminary standards for physician-supervised compounded incretin therapy.</p>
-
-    <!-- Protocol Summary -->
-    <div class="offer-box">
-      <div class="offer-row">
-        <span class="offer-label">Compounded Semaglutide</span>
-        <span class="offer-price">$69 / month</span>
-      </div>
-      <div class="offer-row">
-        <span class="offer-label">Compounded Tirzepatide (Dual Incretin)</span>
-        <span class="offer-price">$119 / month</span>
-      </div>
-      <div class="offer-row">
-        <span class="offer-label">Dosage Escalation Surcharge</span>
-        <span class="offer-val" style="color:#10B981;">$0.00 (Flat Rate Guaranteed)</span>
-      </div>
-      <div class="offer-row">
-        <span class="offer-label">Fulfillment Pharmacy</span>
-        <span class="offer-val">Licensed 503A US Pharmacy</span>
-      </div>
-      <div class="offer-row">
-        <span class="offer-label">Physician Consultation</span>
-        <span class="offer-val">Included Online</span>
-      </div>
-    </div>
-
-    <!-- Direct Switchy Conversion Link -->
-    <a href="https://go.telehealthfx.com/embody?aff_sub=vsl_webinar&aff_sub_1=vsl_food_noise_metabolic_reset&aff_sub_2=telehealthfx" 
-       id="intakeLink" 
-       class="btn-intake" 
-       target="_blank" 
-       rel="noopener">
-      Complete Medical Intake Assessment →
+  <!-- Top Bar -->
+  <div class="topbar">
+    <a href="/" class="logo-container">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+        <circle cx="10" cy="10" r="9" stroke="currentColor" stroke-width="1.2" />
+        <path d="M10 1.5 v17 M1.5 10 h17" stroke="currentColor" stroke-width="1.2" opacity="0.3"/>
+        <circle cx="10" cy="10" r="3.5" fill="currentColor" />
+      </svg>
+      <span style="font-family: var(--serif); font-size: 19px; letter-spacing: -0.02em;">
+        Telehealth<span style="font-style: italic; margin-left: 2px;">FX</span>
+      </span>
     </a>
 
-    <p class="disclaimer">
-      Subject to independent medical review and prescription issuance by a US-licensed physician. Fulfillments handled by state-licensed 503A compounding pharmacies. Cancel anytime with zero penalty.
-    </p>
+    <div class="approved-badge">
+      <span class="approved-dot"></span>
+      <span>Pre-Qualification Approved &bull; Medical Intake Queued</span>
+    </div>
   </div>
 
+  <!-- Main Card -->
+  <div class="main-wrap">
+    <div class="qual-card">
+      <div class="pill-wrap">
+        <div class="pill">
+          <span>&#10003; CLINICAL VETTING PASSED</span>
+        </div>
+      </div>
+
+      <h1 class="qual-title">Congratulations, <span id="user-first-name">Patient</span>!</h1>
+      <p class="qual-sub">
+        Based on your screening criteria, you meet the initial physician qualification parameters for doctor-prescribed GLP-1 weight management therapy.
+      </p>
+
+      <!-- Matched Protocol Box -->
+      <div class="offer-box">
+        <div class="offer-eyebrow" id="matched-protocol-eyebrow">Matched Clinical Protocol</div>
+        <div class="offer-title">
+          <span id="matched-protocol-name">Compounded Semaglutide Protocol</span>
+          <span class="offer-price-highlight" id="matched-protocol-price">$69/mo</span>
+        </div>
+
+        <div class="offer-detail-rows">
+          <div class="detail-row">
+            <span>Dose Escalation Guarantee:</span>
+            <strong>$0 Price Hikes (All Strengths Included)</strong>
+          </div>
+          <div class="detail-row">
+            <span>Physician Consultation:</span>
+            <strong>100% Free Initial &amp; Ongoing Doctor Review</strong>
+          </div>
+          <div class="detail-row">
+            <span>Pharmacy Formulation:</span>
+            <strong>Sterile 503A Compounded API + B12 / Glycine</strong>
+          </div>
+          <div class="detail-row">
+            <span>Shipping:</span>
+            <strong>Cold-Packed Express Delivery to Your Door</strong>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4-Step Intake Walkthrough -->
+      <div class="steps-box">
+        <h4>What Happens Next</h4>
+        <div class="step-item">
+          <div class="step-number">1</div>
+          <div class="step-content">
+            <h5>Complete 3-Minute Health Intake</h5>
+            <p>Answer a few health history questions on our secure HIPAA-compliant doctor portal.</p>
+          </div>
+        </div>
+
+        <div class="step-item">
+          <div class="step-number">2</div>
+          <div class="step-content">
+            <h5>Licensed U.S. Physician Review</h5>
+            <p>A doctor licensed in your state reviews your profile within 24 hours and issues your prescription.</p>
+          </div>
+        </div>
+
+        <div class="step-item">
+          <div class="step-number">3</div>
+          <div class="step-content">
+            <h5>503A Pharmacy Dispensing &amp; Cold Delivery</h5>
+            <p>Your medication is compounded and shipped in temperature-controlled packaging with all supplies.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Action Button -->
+      <a href="https://go.telehealthfx.com/embody?aff_sub=tfx_vsl_qual" class="cta-btn" id="intake-cta-btn">
+        CONTINUE TO LICENSED DOCTOR INTAKE &rarr;
+      </a>
+
+      <div class="trust-footer-note">
+        🔒 256-Bit SSL Encrypted &bull; HIPAA Compliant &bull; No Hidden Monthly Membership Fees
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    &copy; 2026 Telehealth FX. All rights reserved. Prescription medications require online physician evaluation.
+  </footer>
+
   <script>
+    // Grab URL params
     const urlParams = new URLSearchParams(window.location.search);
-    const regId = urlParams.get('reg') || localStorage.getItem('tfx_reg_id');
-    const format = urlParams.get('format');
+    const name = urlParams.get('name') || localStorage.getItem('tfx_user_name') || 'Patient';
+    const program = urlParams.get('program') || localStorage.getItem('tfx_matched_program') || 'semaglutide';
 
-    // If candidate preferred oral sublingual tablets, route to Willow ($149/mo)
-    if (format === 'sublingual_tablet') {
-      document.getElementById('intakeLink').href = "https://go.telehealthfx.com/semaglutide-tablets?aff_sub=vsl_webinar&aff_sub_1=vsl_oral_tablets&aff_sub_2=telehealthfx";
-    }
+    document.getElementById('user-first-name').textContent = name;
 
-    if (regId) {
-      fetch('/api/register', {
-        method: 'PATCH',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ registrationId: Number(regId), event: 'clicked_final_intake' })
-      }).catch(() => {});
+    const nameEl = document.getElementById('matched-protocol-name');
+    const priceEl = document.getElementById('matched-protocol-price');
+    const ctaBtn = document.getElementById('intake-cta-btn');
+
+    if (program === 'tirzepatide') {
+      nameEl.textContent = 'Compounded Tirzepatide (Dual GLP-1/GIP)';
+      priceEl.textContent = '$119/mo';
+      ctaBtn.href = 'https://go.telehealthfx.com/embody?aff_sub=tfx_vsl_qual_tirz';
+    } else if (program === 'tablets') {
+      nameEl.textContent = 'Oral Sublingual GLP-1 Tablets (No Needles)';
+      priceEl.textContent = '$149/mo';
+      ctaBtn.href = 'https://go.telehealthfx.com/willow?aff_sub=tfx_vsl_qual_oral';
+    } else {
+      nameEl.textContent = 'Compounded Semaglutide (Pure GLP-1)';
+      priceEl.textContent = '$69/mo';
+      ctaBtn.href = 'https://go.telehealthfx.com/embody?aff_sub=tfx_vsl_qual_sema';
     }
   </script>
 </body>
