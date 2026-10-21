@@ -1155,6 +1155,18 @@ A forensic extraction across all Katalys API reporting rows revealed why sales s
    - *Core Value Prop:* Solves single-receptor Semaglutide downregulation and metabolic stalls; SURMOUNT-1 dual-action mechanism (up to 22.5% loss); 85%+ plateau breakthrough; flat $119/mo Tirzepatide.
    - *SubID Tracking:* `tfx_vsl_plateau_sema`, `tfx_vsl_plateau_tirz`, `tfx_vsl_plateau_switch`, `tfx_vsl_plateau`
 
+8. **Angle 7 (The Asynchronous Telehealth Revolution: Zero Video Calls & Waiting Rooms)**:
+   - *Video:* `/videos/glp1_async_telehealth_vsl.mp4` (7.56 MB on wire, 267.04s / 4.5 mins, 1080p CFR 30fps, +faststart, karaoke ribbon)
+   - *Subtitles:* `/videos/glp1_async_telehealth_vsl.srt` (695 spoken words aligned across 110 segments)
+   - *Hero Poster:* `/briefings/glp1-async-telehealth/hero-cover.png` (Slide 00)
+   - *Hero Card Badge:* `ASYNCHRONOUS CLINICAL MASTERCLASS` (4.5 MINS)
+   - *Category:* `Modern Asynchronous Telehealth Kinetics`
+   - *Live Watch Room:* `https://telehealthfx.com/briefings/glp1-async-telehealth/` (HTTP 200)
+   - *Waiting Room:* `https://telehealthfx.com/briefings/glp1-async-telehealth/waiting-room/` (HTTP 200)
+   - *Qualified Portal:* `https://telehealthfx.com/briefings/glp1-async-telehealth/qualified/` (HTTP 200)
+   - *Core Value Prop:* Solves medical clinic anxiety, waiting rooms, and awkward 15-minute video calls; 60-second digital chart review by state-licensed physician; flat $69/mo Semaglutide & $119/mo Tirzepatide in discreet doorstep cold-chain packaging.
+   - *SubID Tracking:* `tfx_vsl_async_sema`, `tfx_vsl_async_tirz`, `tfx_vsl_async_care`, `tfx_vsl_async`
+
 
 
 
