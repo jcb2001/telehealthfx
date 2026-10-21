@@ -1131,6 +1131,30 @@ A forensic extraction across all Katalys API reporting rows revealed why sales s
    - *Core Value Prop:* Addresses estrogen depletion, insulin resistance, cortisol belly fat, and PCOS metabolic lock; $69/mo flat Semaglutide & $119/mo flat Tirzepatide (Embody).
    - *SubID Tracking:* `tfx_vsl_womens_sema`, `tfx_vsl_womens_tirz`, `tfx_vsl_womens_pcos`, `tfx_vsl_womens_hormonal`
 
+6. **Angle 5 (The GLP-1 Tapering, Micro-Dosing & Long-Term Maintenance Blueprint)**:
+   - *Video:* `/videos/glp1_maintenance_taper_vsl.mp4` (8.77 MB on wire, 303.92s / 5.1 mins, 1080p CFR 30fps, +faststart, karaoke ribbon)
+   - *Subtitles:* `/videos/glp1_maintenance_taper_vsl.srt` (814 spoken words aligned across 117 segments)
+   - *Hero Poster:* `/briefings/glp1-maintenance-taper/hero-cover.png` (Slide 00)
+   - *Hero Card Badge:* `LONG-TERM MAINTENANCE MASTERCLASS` (5.1 MINS)
+   - *Category:* `Long-Term Endocrine & Set-Point Kinetics`
+   - *Live Watch Room:* `https://telehealthfx.com/briefings/glp1-maintenance-taper/` (HTTP 200)
+   - *Waiting Room:* `https://telehealthfx.com/briefings/glp1-maintenance-taper/waiting-room/` (HTTP 200)
+   - *Qualified Portal:* `https://telehealthfx.com/briefings/glp1-maintenance-taper/qualified/` (HTTP 200)
+   - *Core Value Prop:* Explains hypothalamic set point reset (12-18 months), preventing cold-turkey ghrelin whiplash, 3-phase doctor-guided tapering, and 70% cost reduction via micro-dosing.
+   - *SubID Tracking:* `tfx_vsl_taper_sema`, `tfx_vsl_taper_tirz`, `tfx_vsl_taper_micro`, `tfx_vsl_taper`
+
+7. **Angle 6 (The Plateau Breaker / Dual GIP/GLP-1 Tirzepatide Switch)**:
+   - *Video:* `/videos/glp1_plateau_breaker_vsl.mp4` (8.73 MB on wire, 311.48s / 5.2 mins, 1080p CFR 30fps, +faststart, karaoke ribbon)
+   - *Subtitles:* `/videos/glp1_plateau_breaker_vsl.srt` (729 spoken words aligned across 118 segments)
+   - *Hero Poster:* `/briefings/glp1-plateau-breaker/hero-cover.png` (Slide 00)
+   - *Hero Card Badge:* `DUAL-ACTION CLINICAL MASTERCLASS` (5.2 MINS)
+   - *Category:* `Dual-Receptor Incretin Kinetics`
+   - *Live Watch Room:* `https://telehealthfx.com/briefings/glp1-plateau-breaker/` (HTTP 200)
+   - *Waiting Room:* `https://telehealthfx.com/briefings/glp1-plateau-breaker/waiting-room/` (HTTP 200)
+   - *Qualified Portal:* `https://telehealthfx.com/briefings/glp1-plateau-breaker/qualified/` (HTTP 200)
+   - *Core Value Prop:* Solves single-receptor Semaglutide downregulation and metabolic stalls; SURMOUNT-1 dual-action mechanism (up to 22.5% loss); 85%+ plateau breakthrough; flat $119/mo Tirzepatide.
+   - *SubID Tracking:* `tfx_vsl_plateau_sema`, `tfx_vsl_plateau_tirz`, `tfx_vsl_plateau_switch`, `tfx_vsl_plateau`
+
 
 
 
