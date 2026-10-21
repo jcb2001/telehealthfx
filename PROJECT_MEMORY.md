@@ -1106,7 +1106,16 @@ A forensic extraction across all Katalys API reporting rows revealed why sales s
    - *SubID Tracking:* `tfx_vsl_needlefree_sema`, `tfx_vsl_needlefree_tirz`, `tfx_vsl_needlefree_oral`
 
 4. **Angle 3 (GLP-1 + TRT Dual Body Recomposition for Men 35+)**:
-   - *Status:* Script ready with contractions (awaiting user audio recording to compile and deploy).
+   - *Video:* `/videos/glp1_trt_recomp_vsl.mp4` (6.84 MB / 7.16 MB on wire, 252.8s / 4.2 mins, 1080p CFR 30fps, +faststart, karaoke ribbon)
+   - *Subtitles:* `/videos/glp1_trt_recomp_vsl.srt` (627 spoken words aligned, 98 segments)
+   - *Hero Poster:* `/briefings/glp1-trt-metabolic-synergy/hero-cover.png` (Slide 00)
+   - *Hero Card Badge:* `CLINICAL RECOMPOSITION MASTERCLASS` (4.2 MINS)
+   - *Live Watch Room:* `https://telehealthfx.com/briefings/glp1-trt-metabolic-synergy/` (HTTP 200)
+   - *Waiting Room:* `https://telehealthfx.com/briefings/glp1-trt-metabolic-synergy/waiting-room/` (HTTP 200)
+   - *Qualified Portal:* `https://telehealthfx.com/briefings/glp1-trt-metabolic-synergy/qualified/` (HTTP 200)
+   - *Core Value Prop:* Prevents 40% skeletal muscle loss and testosterone drops during calorie deficits; strips visceral fat; $89/mo TRT (Peter MD) + $69/mo GLP-1 (Embody).
+   - *SubID Tracking:* `tfx_vsl_recomp_trt`, `tfx_vsl_recomp_glp1`, `tfx_vsl_recomp_dual`, `tfx_vsl_recomp`
+
 
 
 
