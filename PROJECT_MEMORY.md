@@ -1119,6 +1119,18 @@ A forensic extraction across all Katalys API reporting rows revealed why sales s
    - *Core Value Prop:* Prevents 40% skeletal muscle loss and testosterone drops during calorie deficits; strips visceral fat; $89/mo TRT (Peter MD) + $69/mo GLP-1 (Embody).
    - *SubID Tracking:* `tfx_vsl_recomp_trt`, `tfx_vsl_recomp_glp1`, `tfx_vsl_recomp_dual`, `tfx_vsl_recomp`
 
+5. **Angle 4 (Women's Hormonal Weight Loss, PCOS & Perimenopause 35–55)**:
+   - *Video:* `/videos/glp1_womens_hormonal_vsl.mp4` (9.81 MB / 10.28 MB on wire, 371.12s / 6.2 mins, 1080p CFR 30fps, +faststart, karaoke ribbon)
+   - *Subtitles:* `/videos/glp1_womens_hormonal_vsl.srt` (902 spoken words aligned across 142 segments)
+   - *Hero Poster:* `/briefings/womens-hormonal-weight-loss/hero-cover.png` (Slide 00)
+   - *Hero Card Badge:* `WOMEN'S CLINICAL MASTERCLASS` (6.2 MINS)
+   - *Category:* `Female Endocrine & Incretin Kinetics`
+   - *Live Watch Room:* `https://telehealthfx.com/briefings/womens-hormonal-weight-loss/` (HTTP 200)
+   - *Waiting Room:* `https://telehealthfx.com/briefings/womens-hormonal-weight-loss/waiting-room/` (HTTP 200)
+   - *Qualified Portal:* `https://telehealthfx.com/briefings/womens-hormonal-weight-loss/qualified/` (HTTP 200)
+   - *Core Value Prop:* Addresses estrogen depletion, insulin resistance, cortisol belly fat, and PCOS metabolic lock; $69/mo flat Semaglutide & $119/mo flat Tirzepatide (Embody).
+   - *SubID Tracking:* `tfx_vsl_womens_sema`, `tfx_vsl_womens_tirz`, `tfx_vsl_womens_pcos`, `tfx_vsl_womens_hormonal`
+
 
 
 
