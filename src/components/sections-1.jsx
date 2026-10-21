@@ -485,7 +485,7 @@ function Medications() {
       priceLabel: 'Flat rate across all doses',
       rating: { score: '4.9', count: 184 },
       reviewSnippet: { quote: 'A1C dropped from 7.8% to 5.9% in 5 months. Excellent physician care.', author: 'William K.' },
-      intro: 'FDA-approved semaglutide injection for type 2 diabetes glycemic control and cardiovascular protection. Proven 26% MACE risk reduction.',
+      intro: 'Doctor-prescribed semaglutide for metabolic weight health glycemic control and cardiovascular protection. Proven 26% MACE risk reduction.',
       avg: 'A1C & CV Protection',
       avgSub: '26% MACE Hazard Reduction',
       ctaUrl: 'https://go.telehealthfx.com/ozempic',

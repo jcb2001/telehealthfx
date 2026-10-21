@@ -17,7 +17,7 @@ export function BlogSafeGenericWegovy() {
 
         {/* Article H1 Title */}
         <h1 className="serif" style={{ fontSize: 44, marginBottom: 20, lineHeight: 1.15, color: 'var(--ink, #1A1F1C)' }}>
-          Safe Generic Wegovy Online: Compounding Legality & 503A
+          Safe Compounded Semaglutide Online: Legality & 503A
         </h1>
 
         {/* Byline and Author Credentials */}

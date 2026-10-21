@@ -17,7 +17,7 @@ export function BlogGenericOzempicDiscount() {
 
         {/* Article H1 Title */}
         <h1 className="serif" style={{ fontSize: 44, marginBottom: 20, lineHeight: 1.15, color: 'var(--ink, #1A1F1C)' }}>
-          Generic Ozempic Discount: Coupons vs Cash Pay Telehealth
+          Compounded Semaglutide Cost Guide: Pricing vs Cash Pay Telehealth
         </h1>
 
         {/* Byline and Author Credentials */}

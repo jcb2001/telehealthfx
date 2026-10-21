@@ -104,7 +104,7 @@ function BlogIndex() {
       tag: "Dose Matching"
     },
     {
-      title: "Generic Ozempic Discount: Coupons vs Cash Pay Telehealth",
+      title: "Compounded Semaglutide Cost Guide: Pricing vs Cash Pay Telehealth",
       description: "Explore generic Ozempic discounts, coupons, and manufacturer assistance limits. Learn why transparent flat-rate cash telehealth provides the lowest net cost.",
       slug: "/blog/glp1-patient-assistance-programs-cost-guide/",
       image: "/assets/generic_ozempic_discount.jpg",
@@ -125,7 +125,7 @@ function BlogIndex() {
       tag: "Transparent Pricing"
     },
     {
-      title: "Safe Generic Wegovy Online: Compounding Legality & 503A",
+      title: "Safe Compounded Semaglutide Online: Legality & 503A",
       description: "Is generic Wegovy online safe? Learn how 503A compounding pharmacies legally produce bioequivalent semaglutide under strict federal sterility and potency rules.",
       slug: "/blog/is-generic-ozempic-safe-compounding-legality/",
       image: "/assets/safe_generic_wegovy.jpg",
@@ -174,21 +174,21 @@ function BlogIndex() {
       tag: "Metabolic Comparison"
     },
     {
-      title: "Generic Ozempic Online: Safe 503A Compounded Access Guide",
+      title: "Compounded Semaglutide Online: Safe 503A Guide Access Guide",
       description: "Learn how to get generic Ozempic online safely. Explore 503A compounded semaglutide from $99 first month promo with doctor consultations and free home delivery.",
       slug: "/blog/generic-ozempic-online-prescription/",
       image: "/assets/generic_ozempic_guide.jpg",
       tag: "Direct Acquisition"
     },
     {
-      title: "Generic Wegovy Prescription Online: Safe 2026 Access Guide",
+      title: "Compounded Semaglutide Prescription Online: Safe 2026 Access Guide",
       description: "Compare generic Wegovy prescription alternatives online. Discover affordable compounded semaglutide options from $99 promo with fast digital medical approval.",
       slug: "/blog/generic-wegovy-prescription-online/",
       image: "/assets/generic_wegovy_rx.jpg",
       tag: "Brand Alternatives"
     },
     {
-      title: "Generic Mounjaro Tirzepatide Online: Safe Compounded Care",
+      title: "Compounded Tirzepatide Online: Safe 503A Careounded Care",
       description: "Get generic Mounjaro online through board-certified doctors. Access dual GIP/GLP-1 compounded tirzepatide from $99 first month promo with free cold-chain home delivery.",
       slug: "/blog/generic-mounjaro-tirzepatide-online/",
       image: "/assets/generic_mounjaro_guide.jpg",

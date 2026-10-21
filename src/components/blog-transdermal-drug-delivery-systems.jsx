@@ -142,7 +142,7 @@ function BlogTransdermalSystems() {
           <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
             <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Ready to Optimize Your Metabolism?</h2>
             <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 500, margin: '0 auto 32px' }}>
-              Stop guessing with oral supplements. Choose precision delivery with transdermal berberine, or escalate to clinical GLP-1 therapy for guaranteed weight loss.
+              Stop guessing with oral supplements. Choose precision delivery with transdermal berberine, or escalate to clinical GLP-1 therapy for clinically demonstrated weight loss.
             </p>
             <div style={{ display: 'flex', gap: 16, justifyContent: 'center', flexWrap: 'wrap' }}>
               <a href={CTA_URL} target="_blank" rel="noopener noreferrer" className="btn btn-lg" style={{ background: 'transparent', border: '1px solid #FBF8F3', color: '#FBF8F3', display: 'inline-flex', justifyContent: 'center', width: '100%', maxWidth: 250 }}>

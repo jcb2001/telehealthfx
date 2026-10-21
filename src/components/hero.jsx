@@ -34,7 +34,9 @@ function Nav() {
   }, []);
   const isEs = pathname?.startsWith('/es');
   const enPath = isEs ? (pathname.replace(/^\/es/, '') || '/') : (pathname || '/');
-  const esPath = isEs ? pathname : `/es${pathname === '/' ? '' : (pathname || '')}`;
+  const knownEsRoutes = ['/locations', '/medications', '/oral-tablets', '/trt', '/compare'];
+  const hasEsEquivalent = pathname === '/' || knownEsRoutes.some(r => pathname?.startsWith(r));
+  const esPath = isEs ? pathname : (hasEsEquivalent ? `/es${pathname === '/' ? '' : pathname}` : '/es/');
 
   return (
     <nav style={{

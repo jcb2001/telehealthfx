@@ -140,7 +140,7 @@ function Blog72HourBerberinePatch() {
           <div style={{ padding: 40, marginTop: 60, borderRadius: 20, background: 'var(--ink)', color: '#FBF8F3', textAlign: 'center' }}>
             <h2 className="serif" style={{ fontSize: 40, marginBottom: 20, color: '#FBF8F3' }}>Ready to Do It Right?</h2>
             <p style={{ fontSize: 18, opacity: 0.9, marginBottom: 32, maxWidth: 500, margin: '0 auto 32px' }}>
-              Stop wasting two out of every three days. Choose genuine 24-hour transdermal delivery, or step up to clinical GLP-1 therapy for guaranteed results.
+              Stop wasting two out of every three days. Choose genuine 24-hour transdermal delivery, or step up to clinical GLP-1 therapy for optimal metabolic outcomes.
             </p>
             <div style={{ display: 'flex', gap: 16, justifyContent: 'center', flexWrap: 'wrap' }}>
               <a href={CTA_URL} target="_blank" rel="noopener noreferrer" className="btn btn-lg" style={{ background: 'transparent', border: '1px solid #FBF8F3', color: '#FBF8F3', display: 'inline-flex', justifyContent: 'center', width: '100%', maxWidth: 250 }}>
