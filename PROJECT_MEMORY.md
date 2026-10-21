@@ -1075,6 +1075,40 @@ A forensic extraction across all Katalys API reporting rows revealed why sales s
 - Waiting Room: `https://telehealthfx.com/briefings/food-noise-metabolic-reset/waiting-room/` (HTTP 200)
 - Qualified Portal: `https://telehealthfx.com/briefings/food-noise-metabolic-reset/qualified/` (HTTP 200)
 
+---
+
+## 27. Clinical Video Sales Letters (VSLs) & Briefing Pipeline
+
+### 27.1 Multi-Angle VSL Architecture & Live Inventory
+1. **Angle 0 (Biological Incretin Reset / Food Noise)**:
+   - *Video:* `/videos/glp1_food_noise_vsl.mp4` (9.0 MB, 280.1s, 1080p CFR 30fps, +faststart, karaoke ribbon)
+   - *Subtitles:* `/videos/glp1_food_noise_vsl.srt`
+   - *Hero Card Badge:* `FEATURED CLINICAL MASTERCLASS` (4.7 MINS)
+   - *Live Watch Room:* `https://telehealthfx.com/briefings/food-noise-metabolic-reset/` (HTTP 200)
+   - *Core Value Prop:* Incretin biology, food noise elimination, $69/mo flat Semaglutide & $119/mo flat Tirzepatide.
+
+2. **Angle 1 (Price Trap Expose)**:
+   - *Video:* `/videos/glp1_price_trap_vsl.mp4` (9.0 MB, 280.1s, 1080p CFR 30fps)
+   - *Hero Cover:* Slide 12 escalation staircase ("From $199 up to $500/Month")
+   - *Hero Card Badge:* `INVESTIGATIVE PRICING REPORT` (4.7 MINS)
+   - *Live Watch Room:* `https://telehealthfx.com/briefings/glp1-price-trap-expose/` (HTTP 200)
+   - *Core Value Prop:* Exposes $199 intro to $500 dose stair-step; transparent 503A compounding.
+
+3. **Angle 2 (Needle-Free Sublingual GLP-1 Breakthrough)**:
+   - *Video:* `/videos/glp1_needle_free_vsl.mp4` (10.4 MB, 369.64s / 6.1 mins, 1080p CFR 30fps, +faststart, karaoke ribbon)
+   - *Subtitles:* `/videos/glp1_needle_free_vsl.srt` (965 spoken words with natural contractions)
+   - *Hero Poster:* `/briefings/needle-free-glp1-breakthrough/hero-cover.png` (Slide 00)
+   - *Hero Card Badge:* `CLINICAL INNOVATION BRIEFING` (6.1 MINS)
+   - *Live Watch Room:* `https://telehealthfx.com/briefings/needle-free-glp1-breakthrough/` (HTTP 200)
+   - *Waiting Room:* `https://telehealthfx.com/briefings/needle-free-glp1-breakthrough/waiting-room/` (HTTP 200)
+   - *Qualified Portal:* `https://telehealthfx.com/briefings/needle-free-glp1-breakthrough/qualified/` (HTTP 200)
+   - *Core Value Prop:* Sublingual micro-tablets bypass gastric acid via capillary bed; no weekly injections; $149/mo flat Semaglutide & $199/mo flat Tirzepatide tablets.
+   - *SubID Tracking:* `tfx_vsl_needlefree_sema`, `tfx_vsl_needlefree_tirz`, `tfx_vsl_needlefree_oral`
+
+4. **Angle 3 (GLP-1 + TRT Dual Body Recomposition for Men 35+)**:
+   - *Status:* Script ready with contractions (awaiting user audio recording to compile and deploy).
+
+
 
 
 
