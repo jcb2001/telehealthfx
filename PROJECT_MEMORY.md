@@ -1167,6 +1167,18 @@ A forensic extraction across all Katalys API reporting rows revealed why sales s
    - *Core Value Prop:* Solves medical clinic anxiety, waiting rooms, and awkward 15-minute video calls; 60-second digital chart review by state-licensed physician; flat $69/mo Semaglutide & $119/mo Tirzepatide in discreet doorstep cold-chain packaging.
    - *SubID Tracking:* `tfx_vsl_async_sema`, `tfx_vsl_async_tirz`, `tfx_vsl_async_care`, `tfx_vsl_async`
 
+9. **Angle 8 (Aesthetic Preservation: Preventing "Ozempic Face", Hair Thinning & Muscle Loss)**:
+   - *Video:* `/videos/glp1_aesthetic_preservation_vsl.mp4` (7.95 MB on wire, 281.44s / 4.7 mins, 1080p CFR 30fps, +faststart, karaoke ribbon)
+   - *Subtitles:* `/videos/glp1_aesthetic_preservation_vsl.srt` (667 spoken words aligned across 111 segments)
+   - *Hero Poster:* `/briefings/glp1-aesthetic-preservation/hero-cover.png` (Slide 00)
+   - *Hero Card Badge:* `AESTHETIC CLINICAL MASTERCLASS` (4.7 MINS)
+   - *Category:* `Aesthetic Endocrine & Dermal Kinetics`
+   - *Live Watch Room:* `https://telehealthfx.com/briefings/glp1-aesthetic-preservation/` (HTTP 200)
+   - *Waiting Room:* `https://telehealthfx.com/briefings/glp1-aesthetic-preservation/waiting-room/` (HTTP 200)
+   - *Qualified Portal:* `https://telehealthfx.com/briefings/glp1-aesthetic-preservation/qualified/` (HTTP 200)
+   - *Core Value Prop:* Addresses the viral fear of "Ozempic Face", hair shedding (telogen effluvium), and muscle wasting; gentle titration, 30g protein thresholds, and Vitamin B12 co-formulated 503A Semaglutide ($69/mo) and Tirzepatide ($119/mo).
+   - *SubID Tracking:* `tfx_vsl_aesthetic_sema`, `tfx_vsl_aesthetic_tirz`, `tfx_vsl_aesthetic_b12`, `tfx_vsl_aesthetic`
+
 
 
 
