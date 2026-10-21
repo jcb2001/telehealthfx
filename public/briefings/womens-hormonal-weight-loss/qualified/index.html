@@ -14,6 +14,7 @@
   <title>Pre-Qualification Approved — Begin Medical Intake | Telehealth FX</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="noindex, nofollow">
+  <link rel="canonical" href="https://telehealthfx.com/briefings/womens-hormonal-weight-loss/">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="icon" type="image/png" href="/favicon.png">
   <script src="/assets/js/analytics.js" defer></script>
@@ -152,13 +153,13 @@
 
       <!-- Primary Intake Button -->
       <div class="flex flex-col sm:flex-row sm:items-center gap-4 pt-2">
-        <a href="/go/company-intake"
+        <a href="https://go.telehealthfx.com/embody"
            id="final-intake-btn"
            target="_blank"
            rel="noopener"
            onclick="logFinalIntakeClick('doctor_intake_primary')"
            class="inline-flex items-center justify-center gap-2.5 px-7 py-4 rounded-xl bg-brand-400 hover:bg-brand-500 text-dark-900 font-extrabold text-base shadow-xl shadow-brand-500/20 transition-all duration-150 hover:-translate-y-0.5">
-          <span id="final-intake-btn-label">Open Official Company Registration Portal</span>
+          <span id="final-intake-btn-label">Continue to Confidential Doctor Intake →</span>
           <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>
         </a>
         <div class="text-xs text-slate-400 leading-relaxed">
@@ -174,13 +175,13 @@
             Optional Second Desk &bull; U.S. Principal Archive Lab ($69/mo)
           </div>
           <div class="text-sm sm:text-base font-bold text-white" id="secondary-desk-title">
-            U.S. Company with 3+ Years of System History? Request a Second Competitive Bid from Our U.S. Principal Data Lab
+            Interested in Dual GLP-1/GIP Action? Tirzepatide is Also Available at $119/mo Flat
           </div>
           <p class="text-xs text-slate-300 leading-relaxed" id="secondary-desk-desc">
             Patients across all 50 U.S. states can complete their 3-minute health intake online for same-day physician evaluation and direct 503A pharmacy fulfillment.
           </p>
         </div>
-        <a href="/go/us-archive-intake"
+        <a href="https://go.telehealthfx.com/embody?aff_sub=tfx_vsl_qual_tirz"
            id="secondary-desk-btn"
            target="_blank"
            rel="noopener"
@@ -265,8 +266,8 @@
     <div class="mb-8">
       <div class="flex flex-col sm:flex-row sm:items-end justify-between mb-4 gap-2">
         <div>
-          <div class="text-xs font-mono uppercase tracking-widest text-brand-400 font-semibold" id="walkthrough-eyebrow">Step-by-Step Guide &bull; Official Company Portal</div>
-          <h2 class="text-xl sm:text-2xl font-bold text-white mt-1" id="walkthrough-heading">How to Complete Your Official Company Registration</h2>
+          <div class="text-xs font-mono uppercase tracking-widest text-brand-400 font-semibold" id="walkthrough-eyebrow">Step-by-Step Guide &bull; Clinical Onboarding</div>
+          <h2 class="text-xl sm:text-2xl font-bold text-white mt-1" id="walkthrough-heading">How to Complete Your Confidential Clinical Intake</h2>
         </div>
         <span class="text-xs font-mono text-slate-400" id="walkthrough-time">Takes ~2 minutes</span>
       </div>
@@ -357,13 +358,13 @@
           Zero hidden monthly membership fees, zero long-term commitments, and zero surprise price increases as your dosage escalates. True flat-rate clinical pricing.
         </p>
       </div>
-      <a href="/go/company-intake"
+      <a href="https://go.telehealthfx.com/embody"
          id="bottom-intake-btn"
          target="_blank"
          rel="noopener"
          onclick="logFinalIntakeClick('doctor_intake_bottom')"
          class="w-full sm:w-auto shrink-0 px-6 py-3.5 rounded-xl bg-brand-400 hover:bg-brand-500 text-dark-900 font-extrabold text-sm text-center shadow-lg shadow-brand-500/20 transition-all">
-        Continue to Official Company Portal &rarr;
+        Continue to Confidential Doctor Intake &rarr;
       </a>
     </div>
 
@@ -373,9 +374,9 @@
   <div class="sm:hidden fixed bottom-0 inset-x-0 z-40 bg-dark-900/95 backdrop-blur-md border-t border-white/10 px-4 py-2.5 flex items-center justify-between gap-3">
     <div class="min-w-0">
       <div class="text-[11px] font-mono text-brand-400 font-bold uppercase tracking-wider leading-tight">Pre-Approved</div>
-      <div class="text-xs text-slate-300 truncate" id="mobile-sticky-subtitle">Official Company Registration</div>
+      <div class="text-xs text-slate-300 truncate" id="mobile-sticky-subtitle">Confidential Clinical Intake</div>
     </div>
-    <a href="/go/company-intake"
+    <a href="https://go.telehealthfx.com/embody"
        id="mobile-sticky-intake-btn"
        target="_blank"
        rel="noopener"
@@ -507,18 +508,20 @@
         if (subEl) subEl.textContent = selected.subheadline;
       }
 
-      // Update Primary, Bottom, and Mobile Sticky CTA Buttons
+      // Update Primary, Bottom, and Mobile Sticky CTA Buttons (Robust Fallback)
       const primaryBtn = document.getElementById('final-intake-btn');
       const primaryBtnLabel = document.getElementById('final-intake-btn-label');
       const bottomBtn = document.getElementById('bottom-intake-btn');
       const mobileBtn = document.getElementById('mobile-sticky-intake-btn');
-      if (primaryBtn) primaryBtn.href = selected.primaryHref;
-      if (primaryBtnLabel) primaryBtnLabel.textContent = selected.primaryBtnLabel;
+      const intakeUrl = selected.intakeHref || selected.primaryHref || "https://go.telehealthfx.com/embody";
+      const intakeLabel = selected.intakeBtnLabel || selected.primaryBtnLabel || "CONTINUE TO LICENSED DOCTOR INTAKE →";
+      if (primaryBtn) primaryBtn.href = intakeUrl;
+      if (primaryBtnLabel) primaryBtnLabel.textContent = intakeLabel;
       if (bottomBtn) {
-        bottomBtn.href = selected.primaryHref;
-        bottomBtn.textContent = selected.bottomBtnLabel;
+        bottomBtn.href = intakeUrl;
+        bottomBtn.textContent = intakeLabel;
       }
-      if (mobileBtn) mobileBtn.href = selected.primaryHref;
+      if (mobileBtn) mobileBtn.href = intakeUrl;
 
       // Update Steps 1-3 if custom step copy is defined (e.g., us_direct_archive)
       if (selected.walkthroughEyebrow) {

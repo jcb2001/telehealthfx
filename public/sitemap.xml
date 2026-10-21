@@ -4363,4 +4363,65 @@
 		<changefreq>monthly</changefreq>
 		<priority>0.85</priority>
 	</url>
+
+	<url>
+		<loc>https://telehealthfx.com/briefings/</loc>
+		<lastmod>2026-10-21T05:00:00.000Z</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.9</priority>
+	</url>
+	<url>
+		<loc>https://telehealthfx.com/briefings/food-noise-metabolic-reset/</loc>
+		<lastmod>2026-10-21T05:00:00.000Z</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+	<url>
+		<loc>https://telehealthfx.com/briefings/glp1-price-trap-expose/</loc>
+		<lastmod>2026-10-21T05:00:00.000Z</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+	<url>
+		<loc>https://telehealthfx.com/briefings/needle-free-glp1-breakthrough/</loc>
+		<lastmod>2026-10-21T05:00:00.000Z</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+	<url>
+		<loc>https://telehealthfx.com/briefings/glp1-trt-metabolic-synergy/</loc>
+		<lastmod>2026-10-21T05:00:00.000Z</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+	<url>
+		<loc>https://telehealthfx.com/briefings/womens-hormonal-weight-loss/</loc>
+		<lastmod>2026-10-21T05:00:00.000Z</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+	<url>
+		<loc>https://telehealthfx.com/briefings/glp1-maintenance-taper/</loc>
+		<lastmod>2026-10-21T05:00:00.000Z</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+	<url>
+		<loc>https://telehealthfx.com/briefings/glp1-plateau-breaker/</loc>
+		<lastmod>2026-10-21T05:00:00.000Z</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+	<url>
+		<loc>https://telehealthfx.com/briefings/glp1-async-telehealth/</loc>
+		<lastmod>2026-10-21T05:00:00.000Z</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+	<url>
+		<loc>https://telehealthfx.com/briefings/glp1-aesthetic-preservation/</loc>
+		<lastmod>2026-10-21T05:00:00.000Z</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
 </urlset>

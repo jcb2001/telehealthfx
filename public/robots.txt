@@ -22,3 +22,7 @@ Allow: /
 Disallow:
 
 Sitemap: https://telehealthfx.com/sitemap.xml
+
+# Block non-indexable intermediate funnel steps to protect crawl budget
+Disallow: /briefings/*/waiting-room/
+Disallow: /briefings/*/qualified/
