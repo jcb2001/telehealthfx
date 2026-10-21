@@ -132,6 +132,7 @@ function Footer() {
       { label: 'Semaglutida ($79/mes)', href: '/es/medications/semaglutide/' }, 
       { label: 'Tirzepatida ($129/mes)', href: '/es/medications/tirzepatide/' }, 
       { label: 'Precios', href: '/es/#pricing' }, 
+      { label: 'Sesiones Clínicas (VSL)', href: '/briefings/' },
       { label: 'Resultados', href: '/es/#results' }, 
       { label: 'Preguntas Frecuentes', href: '/es/#faq' }
     ] },
@@ -164,6 +165,7 @@ function Footer() {
       { label: 'Medications', slug: 'medications' }, 
       { label: 'Pricing', slug: 'pricing' }, 
       { label: 'Compare & Switch', slug: 'compare' },
+      { label: 'Clinical Briefings (VSL)', href: '/briefings/' },
       { label: 'Results', slug: 'results' }, 
       { label: 'Science', slug: 'science' }
     ] },

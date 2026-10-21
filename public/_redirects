@@ -33,6 +33,11 @@ https://www.telehealthfx.com/* https://telehealthfx.com/:splat 301!
 /accessibility /accessibility/ 301
 /affiliate-disclosure /affiliate-disclosure/ 301
 
+# Webinars to Briefings Aliases
+/webinars/* /briefings/:splat 301
+/webinars /briefings/ 301
+/briefings /briefings/ 301
+
 # Sitemap fallbacks & aliases
 /sitemap /sitemap.xml 301
 /sitemap_index.xml /sitemap.xml 301
