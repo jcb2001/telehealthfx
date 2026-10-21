@@ -1081,11 +1081,14 @@ A forensic extraction across all Katalys API reporting rows revealed why sales s
 
 ### 27.1 Multi-Angle VSL Architecture & Live Inventory
 1. **Angle 0 (Biological Incretin Reset / Food Noise)**:
-   - *Video:* `/videos/glp1_food_noise_vsl.mp4` (9.0 MB, 280.1s, 1080p CFR 30fps, +faststart, karaoke ribbon)
-   - *Subtitles:* `/videos/glp1_food_noise_vsl.srt`
-   - *Hero Card Badge:* `FEATURED CLINICAL MASTERCLASS` (4.7 MINS)
+   - *Video:* `/videos/glp1_food_noise_vsl.mp4` (9.74 MB / 10.2 MB on wire, 367.32s / 6.1 mins, 1080p CFR 30fps, +faststart, karaoke ribbon)
+   - *Subtitles:* `/videos/glp1_food_noise_vsl.srt` (892 spoken words aligned across 137 segments)
+   - *Hero Card Badge:* `FEATURED CLINICAL MASTERCLASS` (4.7 MINS / 6.1 MINS updated)
    - *Live Watch Room:* `https://telehealthfx.com/briefings/food-noise-metabolic-reset/` (HTTP 200)
-   - *Core Value Prop:* Incretin biology, food noise elimination, $69/mo flat Semaglutide & $119/mo flat Tirzepatide.
+   - *Waiting Room:* `https://telehealthfx.com/briefings/food-noise-metabolic-reset/waiting-room/` (HTTP 200)
+   - *Qualified Portal:* `https://telehealthfx.com/briefings/food-noise-metabolic-reset/qualified/` (HTTP 200)
+   - *Core Value Prop:* Incretin biology, food noise elimination, $69/mo flat Semaglutide & $119/mo flat Tirzepatide (Embody).
+
 
 2. **Angle 1 (Price Trap Expose)**:
    - *Video:* `/videos/glp1_price_trap_vsl.mp4` (9.0 MB, 280.1s, 1080p CFR 30fps)
