@@ -1,555 +1,711 @@
 1
-00:00:00,320 --> 00:00:02,040
-If you've ever felt like you failed
+00:00:00,220 --> 00:00:02,340
+If you've ever felt like your brain
 
 2
-00:00:02,040 --> 00:00:02,819
-at dieting,
+00:00:02,340 --> 00:00:04,260
+is in an exhausting,
 
 3
-00:00:03,250 --> 00:00:05,259
-or watched the scale bounce right back
+00:00:04,260 --> 00:00:06,480
+nonstop battle with food,
 
 4
-00:00:05,259 --> 00:00:06,879
-up the second you stopped starving yourself,
+00:00:06,480 --> 00:00:07,560
+I want you to hear this loud
 
 5
-00:00:07,960 --> 00:00:09,387
-I need you to hear this truth today:
+00:00:07,560 --> 00:00:08,800
+and clear:
 
 6
-00:00:10,460 --> 00:00:11,099
-you didn't fail.
+00:00:08,800 --> 00:00:10,520
+it's not a lack of willpower,
 
 7
-00:00:11,788 --> 00:00:13,080
-Your willpower isn't broken.
+00:00:10,520 --> 00:00:13,540
+and it's definitely not your fault.
 
 8
-00:00:13,848 --> 00:00:15,800
-Your body was simply doing exactly what
+00:00:13,540 --> 00:00:15,420
+What millions of people describe as constant
 
 9
-00:00:15,800 --> 00:00:16,660
-it was built to do.
+00:00:15,420 --> 00:00:17,320
+food noise—that
 
 10
-00:00:17,640 --> 00:00:18,620
-Whenever you cut calories,
+00:00:17,320 --> 00:00:19,620
+unrelenting mental chatter about what you're eating
 
 11
-00:00:18,890 --> 00:00:19,635
-your brain panics.
+00:00:19,620 --> 00:00:21,680
+next, counting calories,
 
 12
-00:00:20,379 --> 00:00:22,420
-It treats dieting like an emergency famine.
+00:00:21,680 --> 00:00:25,100
+or fighting cravings—isn't a moral flaw.
 
 13
-00:00:23,089 --> 00:00:24,640
-It slows down your engine to save fuel,
+00:00:25,100 --> 00:00:28,100
+It's a hardwired biological misfiring between your
 
 14
-00:00:25,210 --> 00:00:26,559
-and it turns up the volume on
+00:00:28,100 --> 00:00:28,780
+gut
 
 15
-00:00:26,559 --> 00:00:27,179
-your hunger switch.
+00:00:28,780 --> 00:00:31,920
+and your brain's hypothalamic satiety center.
 
 16
-00:00:28,269 --> 00:00:29,820
-You know that feeling all too well.
+00:00:31,920 --> 00:00:33,340
+For decades,
 
 17
-00:00:30,260 --> 00:00:32,472
-It's that nonstop background chatter in your
+00:00:33,340 --> 00:00:35,100
+conventional diet culture told us to just
 
 18
-00:00:32,472 --> 00:00:34,107
-head that people call food noise.
+00:00:35,100 --> 00:00:37,700
+eat less and move more.
 
 19
-00:00:35,027 --> 00:00:36,170
-It's thinking about what you're going to
+00:00:37,700 --> 00:00:39,600
+But modern metabolic science has proven that
 
 20
-00:00:36,170 --> 00:00:38,079
-eat next while you're still chewing lunch.
+00:00:39,600 --> 00:00:42,820
+95% of restrictive diets fail for a
 
 21
-00:00:38,768 --> 00:00:40,600
-It's craving chips or ice cream at
+00:00:42,820 --> 00:00:44,680
+very specific reason:
 
 22
-00:00:40,719 --> 00:00:41,128
-ten at night,
+00:00:44,680 --> 00:00:46,500
+your body doesn't see a diet as
 
 23
-00:00:41,619 --> 00:00:42,799
-even though you just ate dinner.
+00:00:46,500 --> 00:00:48,000
+self-improvement.
 
 24
-00:00:43,880 --> 00:00:45,619
-You can't beat that kind of biological
+00:00:48,000 --> 00:00:49,980
+It sees it as starvation.
 
 25
-00:00:45,619 --> 00:00:47,210
-drive with willpower alone.
+00:00:49,980 --> 00:00:51,440
+The moment you cut calories,
 
 26
-00:00:48,027 --> 00:00:49,579
-It's like trying to hold your breath underwater.
+00:00:51,440 --> 00:00:54,520
+your stomach releases massive surges of ghrelin—the
 
 27
-00:00:50,710 --> 00:00:52,659
-Eventually, your survival instinct takes over.
+00:00:54,520 --> 00:00:58,340
+primary hunger hormone—while your thyroid down-regulates to
 
 28
-00:00:53,859 --> 00:00:56,820
-That's why GLP-1 medications have changed everything.
+00:00:58,340 --> 00:01:00,500
+protect stored body fat.
 
 29
-00:00:57,728 --> 00:00:59,420
-They aren't magic pills and they aren't hype.
+00:01:00,500 --> 00:01:02,420
+You aren't just fighting an appetite;
 
 30
-00:01:00,167 --> 00:01:02,140
-They work by copying a natural chemical
+00:01:02,420 --> 00:01:04,840
+you're fighting two million years of human
 
 31
-00:01:02,140 --> 00:01:04,060
-your gut already makes when you eat
+00:01:04,840 --> 00:01:06,760
+survival biology.
 
 32
-00:01:04,060 --> 00:01:04,579
-a full meal.
+00:01:06,760 --> 00:01:09,980
+And biology wins every single time.
 
 33
-00:01:05,487 --> 00:01:06,900
-When that signal reaches your brain,
+00:01:09,980 --> 00:01:11,760
+That's why losing weight through sheer restriction
 
 34
-00:01:07,349 --> 00:01:09,819
-the constant thoughts about food simply shut off.
+00:01:11,760 --> 00:01:15,060
+always leads to the dreaded rebound.
 
 35
-00:01:10,560 --> 00:01:11,200
-The noise is gone.
+00:01:15,060 --> 00:01:16,660
+Your metabolism slows down,
 
 36
-00:01:12,007 --> 00:01:14,359
-Your stomach empties at a slow, steady pace,
+00:01:16,660 --> 00:01:18,160
+your cravings multiply,
 
 37
-00:01:14,780 --> 00:01:16,420
-so you feel comfortably full on half
+00:01:18,160 --> 00:01:19,760
+and the moment you eat normally,
 
 38
-00:01:16,420 --> 00:01:16,760
-a plate.
+00:01:19,760 --> 00:01:22,320
+your body desperately stores every calorie it
 
 39
-00:01:17,560 --> 00:01:18,920
-You aren't fighting cravings anymore
+00:01:22,320 --> 00:01:23,440
+can get its hands on.
 
 40
-00:01:19,563 --> 00:01:21,040
-because the cravings aren't even there.
+00:01:23,440 --> 00:01:25,860
+When patients finally reach out for clinical
 
 41
-00:01:22,450 --> 00:01:24,760
-Thousands of everyday people have finally broken
+00:01:25,860 --> 00:01:26,700
+help,
 
 42
-00:01:24,760 --> 00:01:26,879
-through weight plateaus using these treatments.
+00:01:26,700 --> 00:01:28,780
+they often get blindsided by commercial weight
 
 43
-00:01:27,790 --> 00:01:29,260
-But if you've tried looking into them
+00:01:28,780 --> 00:01:30,160
+loss clinics.
 
 44
-00:01:29,260 --> 00:01:30,560
-online over the past year,
+00:01:30,160 --> 00:01:31,960
+You've probably seen the med-spa ads promising
 
 45
-00:01:31,049 --> 00:01:32,819
-you probably ran right into a wall.
+00:01:31,960 --> 00:01:34,580
+Semaglutide for ninety-nine dollars.
 
 46
-00:01:33,849 --> 00:01:34,060
-First,
+00:01:34,580 --> 00:01:35,640
+But the moment you read the fine
 
 47
-00:01:34,659 --> 00:01:37,040
-brand-name pens at the local drugstore often
+00:01:35,640 --> 00:01:36,540
+print,
 
 48
-00:01:37,040 --> 00:01:38,947
-cost over a thousand dollars a month.
+00:01:36,540 --> 00:01:38,300
+you realize that's just a teaser rate
 
 49
-00:01:39,629 --> 00:01:41,459
-Insurance almost always denies coverage
+00:01:38,300 --> 00:01:40,660
+for a micro starter dose.
 
 50
-00:01:41,829 --> 00:01:43,340
-unless you've got severe diabetes.
+00:01:40,660 --> 00:01:41,780
+As soon as your body builds a
 
 51
-00:01:44,599 --> 00:01:46,140
-So then you look at online weight
+00:01:41,780 --> 00:01:43,680
+tolerance and you need a therapeutic maintenance
 
 52
-00:01:46,140 --> 00:01:46,579
-loss clinics,
+00:01:43,680 --> 00:01:46,500
+dose, your monthly bill suddenly escalates to
 
 53
-00:01:47,290 --> 00:01:47,900
-and at first glance,
+00:01:46,500 --> 00:01:47,940
+three hundred, four hundred,
 
 54
-00:01:47,900 --> 00:01:48,700
-things look promising.
+00:01:47,940 --> 00:01:50,240
+or even six hundred dollars a month.
 
 55
-00:01:49,450 --> 00:01:51,480
-You see big banner ads promising treatment
+00:01:50,240 --> 00:01:52,420
+It's a predatory pricing trap designed to
 
 56
-00:01:51,480 --> 00:01:52,637
-for one hundred and ninety-nine dollars.
+00:01:52,420 --> 00:01:54,640
+squeeze patients right when the medication is
 
 57
-00:01:54,400 --> 00:01:54,900
-You sign up,
+00:01:54,640 --> 00:01:55,780
+working best.
 
 58
-00:01:55,409 --> 00:01:57,280
-you take your first low starter dose,
+00:01:55,780 --> 00:01:57,720
+At Telehealth FX,
 
 59
-00:01:57,859 --> 00:01:59,640
-and you finally start seeing the scale
+00:01:57,720 --> 00:02:00,620
+we built a completely different clinical model.
 
 60
-00:01:59,640 --> 00:02:00,180
-move down.
+00:02:00,620 --> 00:02:03,660
+We believe sustainable healthcare requires total financial
 
 61
-00:02:01,147 --> 00:02:02,019
-Then comes week five.
+00:02:03,660 --> 00:02:05,500
+transparency.
 
 62
-00:02:02,727 --> 00:02:04,379
-Your body naturally gets used to that
+00:02:05,500 --> 00:02:07,700
+That's why our doctor-guided protocols are pure
 
 63
-00:02:04,379 --> 00:02:05,359
-tiny baby dose,
+00:02:07,700 --> 00:02:09,220
+flat rate:
 
 64
-00:02:06,019 --> 00:02:07,459
-and your doctor needs to step up
+00:02:09,220 --> 00:02:12,260
+sixty-nine dollars a month for compounded Semaglutide,
 
 65
-00:02:07,459 --> 00:02:09,139
-your strength so you keep losing weight.
+00:02:12,260 --> 00:02:14,140
+and one hundred nineteen dollars a month
 
 66
-00:02:10,039 --> 00:02:11,659
-That's when the trap snaps shut.
+00:02:14,140 --> 00:02:15,960
+for dual-action Tirzepatide,
 
 67
-00:02:12,710 --> 00:02:14,759
-Suddenly, that hundred and ninety-nine dollar monthly
+00:02:15,960 --> 00:02:18,180
+across every single dose.
 
 68
-00:02:14,759 --> 00:02:16,778
-bill jumps to two hundred and ninety-nine dollars.
+00:02:18,180 --> 00:02:19,820
+Whether you're on week one or month
 
 69
-00:02:17,979 --> 00:02:18,539
-A month later,
+00:02:19,820 --> 00:02:20,780
+six,
 
 70
-00:02:18,979 --> 00:02:20,068
-it jumps to three hundred and ninety-nine dollars.
+00:02:20,780 --> 00:02:22,860
+your price never increases.
 
 71
-00:02:20,960 --> 00:02:21,979
-And by the time you reach the
+00:02:22,860 --> 00:02:24,820
+There aren't any hidden membership fees,
 
 72
-00:02:21,979 --> 00:02:24,180
-full-strength dose you actually need to hit
+00:02:24,820 --> 00:02:27,400
+no consultation charges, and no sudden dosage
 
 73
-00:02:24,180 --> 00:02:25,830
-your goal weight, you're being billed four
+00:02:27,400 --> 00:02:28,880
+surcharges.
 
 74
-00:02:25,830 --> 00:02:28,050
-hundred or even five hundred dollars every
+00:02:28,880 --> 00:02:29,920
+Ever.
 
 75
-00:02:28,330 --> 00:02:28,888
-single month.
+00:02:29,920 --> 00:02:32,540
+To understand why incretin therapies work when
 
 76
-00:02:29,927 --> 00:02:31,180
-It's a classic bait-and-switch.
+00:02:32,540 --> 00:02:34,360
+diets don't, you have to look at
 
 77
-00:02:31,949 --> 00:02:33,460
-You're finally getting your health,
+00:02:34,360 --> 00:02:36,640
+what happens in the hypothalamus.
 
 78
-00:02:33,699 --> 00:02:35,539
-your confidence, and your energy back,
+00:02:36,640 --> 00:02:38,600
+This deep region of your brain acts
 
 79
-00:02:36,090 --> 00:02:37,860
-and these corporate companies force you into
+00:02:38,600 --> 00:02:40,740
+as your metabolic thermostat,
 
 80
-00:02:37,860 --> 00:02:38,800
-an impossible choice:
+00:02:40,740 --> 00:02:43,260
+constantly reading hormonal cues from your digestive
 
 81
-00:02:39,472 --> 00:02:40,560
-either drain your bank account,
+00:02:43,260 --> 00:02:47,360
+tract to regulate appetite and energy expenditure.
 
 82
-00:02:41,180 --> 00:02:42,879
-or quit and watch the weight come
+00:02:47,360 --> 00:02:48,940
+In a healthy metabolism,
 
 83
-00:02:42,879 --> 00:02:43,439
-right back.
+00:02:48,940 --> 00:02:50,520
+when you eat a balanced meal,
 
 84
-00:02:44,550 --> 00:02:46,740
-We started Telehealth FX because we believe
+00:02:50,520 --> 00:02:55,960
+your intestines release natural incretin peptides—specifically GLP-1.
 
 85
-00:02:46,740 --> 00:02:48,879
-that kind of pricing is completely wrong.
+00:02:55,960 --> 00:02:59,100
+These messenger molecules gently slow gastric emptying
 
 86
-00:02:49,680 --> 00:02:50,800
-Medical care should be transparent,
+00:02:59,100 --> 00:03:00,820
+so you feel full longer,
 
 87
-00:02:51,569 --> 00:02:53,780
-honest, and affordable from day one to
+00:03:00,820 --> 00:03:02,940
+while crossing the blood-brain barrier to trigger
 
 88
-00:02:53,780 --> 00:02:54,300
-the finish line.
+00:03:02,940 --> 00:03:06,100
+genuine satiety signals in your brain.
 
 89
-00:02:55,370 --> 00:02:57,259
-We completely threw out the dose price hikes.
+00:03:06,100 --> 00:03:07,960
+For millions of Americans living with chronic
 
 90
-00:02:57,770 --> 00:02:59,300
-We partnered directly with licensed,
+00:03:07,960 --> 00:03:10,380
+insulin resistance or metabolic inflammation,
 
 91
-00:02:59,300 --> 00:03:02,159
-certified pharmacies to bring you true flat-rate
+00:03:10,380 --> 00:03:13,560
+that signaling pathway is broken.
 
 92
-00:03:02,159 --> 00:03:03,780
-care across every single dose.
+00:03:13,560 --> 00:03:16,220
+The gut doesn't release enough GLP-1,
 
 93
-00:03:04,780 --> 00:03:07,139
-With Telehealth FX, you can get doctor-prescribed
+00:03:16,220 --> 00:03:17,640
+and the brain never receives the signal
 
 94
-00:03:07,139 --> 00:03:10,000
-compounded Semaglutide for a flat sixty-nine dollars
+00:03:17,640 --> 00:03:19,400
+that you've eaten enough.
 
 95
-00:03:10,000 --> 00:03:10,699
-a month.
+00:03:19,400 --> 00:03:21,260
+That's what causes chronic,
 
 96
-00:03:11,409 --> 00:03:12,590
-If your doctor recommends Tirzepatide,
+00:03:21,260 --> 00:03:22,850
+intrusive food noise.
 
 97
-00:03:13,030 --> 00:03:14,114
-it's a flat one hundred and nineteen
+00:03:22,850 --> 00:03:25,500
+Compounded Semaglutide works by
 
 98
-00:03:14,114 --> 00:03:15,247
-dollars a month.
+00:03:25,500 --> 00:03:28,280
+mimicking your body's natural GLP-1 at an
 
 99
-00:03:15,909 --> 00:03:16,800
-And if you don't like needles,
+00:03:28,280 --> 00:03:30,320
+optimal receptor level.
 
 100
-00:03:17,099 --> 00:03:19,659
-we've also got daily dissolving sublingual tablets
+00:03:30,320 --> 00:03:32,500
+Within forty-eight hours of your first dose,
 
 101
-00:03:19,659 --> 00:03:21,127
-for a flat one hundred and forty-nine
+00:03:32,500 --> 00:03:35,080
+the constant mental chatter simply fades into
 
 102
-00:03:21,127 --> 00:03:22,268
-dollars a month.
+00:03:35,080 --> 00:03:36,500
+the background.
 
 103
-00:03:23,151 --> 00:03:24,120
-Here's the most important part:
+00:03:36,500 --> 00:03:39,220
+Patients describe it as a profound mental
 
 104
-00:03:24,627 --> 00:03:26,120
-that price never changes.
+00:03:39,220 --> 00:03:40,460
+quiet.
 
 105
-00:03:26,848 --> 00:03:28,580
-When your doctor increases your dose from
+00:03:40,460 --> 00:03:41,620
+You wake up in the morning and
 
 106
-00:03:28,580 --> 00:03:30,379
-starter strength to full maintenance strength,
+00:03:41,620 --> 00:03:44,240
+realize you aren't obsessing over breakfast.
 
 107
-00:03:30,569 --> 00:03:32,960
-your monthly cost stays exactly the same.
+00:03:44,240 --> 00:03:45,920
+You sit down to a normal meal,
 
 108
-00:03:33,849 --> 00:03:35,000
-Zero surprise price hikes.
+00:03:45,920 --> 00:03:46,780
+eat half of it,
 
 109
-00:03:35,569 --> 00:03:36,520
-Zero membership fees.
+00:03:46,780 --> 00:03:49,680
+and feel completely satisfied without any feelings
 
 110
-00:03:37,120 --> 00:03:38,699
-Zero doctor consultation charges.
+00:03:49,680 --> 00:03:51,360
+of deprivation.
 
 111
-00:03:39,659 --> 00:03:41,295
-Everything's handled one hundred percent online.
+00:03:51,360 --> 00:03:52,740
+For patients who need an even stronger
 
 112
-00:03:42,240 --> 00:03:43,527
-There are no crowded waiting rooms,
+00:03:52,740 --> 00:03:54,360
+metabolic reset,
 
 113
-00:03:44,139 --> 00:03:45,979
-no awkward in-person weigh-ins,
+00:03:54,360 --> 00:03:57,720
+compounded Tirzepatide represents the gold standard.
 
 114
-00:03:46,319 --> 00:03:48,780
-and no wasted afternoons taking time off work.
+00:03:57,720 --> 00:04:00,350
+It's a dual-agonist peptide that targets both
 
 115
-00:03:49,569 --> 00:03:50,900
-You simply fill out a fast
+00:04:00,350 --> 00:04:03,480
+GLP-1 and GIP receptors at the exact
 
 116
-00:03:51,379 --> 00:03:53,580
-two-minute health assessment on your phone or computer.
+00:04:03,480 --> 00:04:05,140
+same time.
 
 117
-00:03:54,310 --> 00:03:55,080
-A licensed U.S.
+00:04:05,140 --> 00:04:07,160
+By activating both pathways,
 
 118
-00:03:55,080 --> 00:03:56,819
-physician reviews your health history,
+00:04:07,160 --> 00:04:09,760
+Tirzepatide not only quiets appetite,
 
 119
-00:03:56,949 --> 00:03:58,240
-checks any safety questions,
+00:04:09,760 --> 00:04:11,820
+but it also improves insulin
 
 120
-00:03:58,919 --> 00:04:00,599
-and writes your prescription if you qualify.
+00:04:11,820 --> 00:04:12,340
+sensitivity
 
 121
-00:04:01,788 --> 00:04:04,259
-Your medication's then prepared by a licensed pharmacy,
+00:04:12,340 --> 00:04:15,360
+and stimulates fat oxidation in visceral adipose
 
 122
-00:04:05,012 --> 00:04:06,360
-packed on ice in a secure,
+00:04:15,360 --> 00:04:16,340
+tissue.
 
 123
-00:04:06,800 --> 00:04:07,860
-discreet cold box,
+00:04:16,340 --> 00:04:17,860
+In clinical trials,
 
 124
-00:04:08,419 --> 00:04:09,699
-and shipped right to your front door
+00:04:17,860 --> 00:04:20,820
+patients taking dual-agonist peptides lost up to
 
 125
-00:04:09,699 --> 00:04:11,800
-by express delivery with all the supplies
+00:04:20,820 --> 00:04:23,560
+twenty-two percent of their total body weight.
 
 126
-00:04:12,020 --> 00:04:12,680
-you need included.
+00:04:23,560 --> 00:04:24,780
+And because we partner
 
 127
-00:04:14,009 --> 00:04:15,340
-You don't have to keep fighting an
+00:04:24,780 --> 00:04:29,940
+exclusively with certified, state-licensed 503A compounding pharmacies,
 
 128
-00:04:15,340 --> 00:04:17,060
-uphill battle against your own biology,
+00:04:29,940 --> 00:04:32,920
+every vial is custom-compounded to strict USP
 
 129
-00:04:18,050 --> 00:04:19,060
-and you don't have to get trapped
+00:04:32,920 --> 00:04:33,980
+standards.
 
 130
-00:04:19,060 --> 00:04:20,759
-by hidden clinic price gouging.
+00:04:33,980 --> 00:04:35,620
+You aren't getting generic overseas
 
 131
-00:04:21,600 --> 00:04:23,040
-Click the button right below this video
+00:04:35,620 --> 00:04:37,080
+powders or
 
 132
-00:04:23,040 --> 00:04:25,589
-right now to take the free qualification quiz.
+00:04:37,080 --> 00:04:39,320
+unregulated research chemicals.
 
 133
-00:04:26,360 --> 00:04:27,759
-It takes less than sixty seconds,
+00:04:39,320 --> 00:04:40,800
+You're receiving pure,
 
 134
-00:04:28,019 --> 00:04:29,079
-there's zero obligation,
+00:04:40,800 --> 00:04:45,100
+pharmaceutical-grade active medication formulated under sterile cleanroom
 
 135
-00:04:29,889 --> 00:04:31,240
-and you can see instantly if you
+00:04:45,100 --> 00:04:45,800
+controls.
 
 136
-00:04:31,240 --> 00:04:32,800
-qualify for flat-rate care.
+00:04:45,800 --> 00:04:49,280
+Every patient protocol includes an asynchronous medical
 
 137
-00:04:33,680 --> 00:04:34,730
-Check your qualification now,
+00:04:49,280 --> 00:04:51,360
+review by a licensed U.S.
 
 138
-00:04:35,240 --> 00:04:36,439
-and let's get you moving toward your
+00:04:51,360 --> 00:04:53,880
+physician who evaluates your health history,
 
 139
-00:04:36,439 --> 00:04:37,500
-goal the honest way.
+00:04:53,880 --> 00:04:56,100
+monitors your progress, and ensures your treatment
+
+140
+00:04:56,100 --> 00:04:57,960
+is safe and tailored to your specific
+
+141
+00:04:57,960 --> 00:05:00,000
+metabolic profile.
+
+142
+00:05:00,000 --> 00:05:01,520
+Your medication is compounded fresh,
+
+143
+00:05:01,520 --> 00:05:04,680
+packaged in temperature-controlled medical shipping,
+
+144
+00:05:04,680 --> 00:05:06,280
+and delivered straight to your door with
+
+145
+00:05:06,280 --> 00:05:08,840
+all required clinical supplies included—at no extra
+
+146
+00:05:08,840 --> 00:05:09,980
+cost.
+
+147
+00:05:09,980 --> 00:05:11,280
+You don't have to drive across town
+
+148
+00:05:11,280 --> 00:05:13,400
+to sit in a crowded clinic waiting
+
+149
+00:05:13,400 --> 00:05:14,200
+room,
+
+150
+00:05:14,200 --> 00:05:15,240
+and you don't have to battle insurance
+
+151
+00:05:15,240 --> 00:05:17,980
+companies for prior authorizations that get denied
+
+152
+00:05:17,980 --> 00:05:18,670
+anyway.
+
+153
+00:05:18,670 --> 00:05:20,860
+If you're ready to stop fighting your
+
+154
+00:05:20,860 --> 00:05:22,120
+own biology
+
+155
+00:05:22,120 --> 00:05:24,200
+and experience what life feels like without
+
+156
+00:05:24,200 --> 00:05:26,160
+constant food noise,
+
+157
+00:05:26,160 --> 00:05:28,700
+getting started takes less than two minutes.
+
+158
+00:05:28,700 --> 00:05:29,880
+Right below this video,
+
+159
+00:05:29,880 --> 00:05:32,280
+you'll find our secure clinical intake form.
+
+160
+00:05:32,280 --> 00:05:34,580
+It takes about sixty seconds to complete.
+
+161
+00:05:34,580 --> 00:05:36,800
+A board-certified physician will review your metabolic
+
+162
+00:05:36,800 --> 00:05:38,020
+profile,
+
+163
+00:05:38,020 --> 00:05:40,380
+verify your eligibility, and approve your customized
+
+164
+00:05:40,380 --> 00:05:41,840
+protocol.
+
+165
+00:05:41,840 --> 00:05:42,680
+You'll get transparent,
+
+166
+00:05:42,680 --> 00:05:45,240
+flat-rate pricing from day one:
+
+167
+00:05:45,240 --> 00:05:47,440
+sixty-nine dollars a month for Semaglutide,
+
+168
+00:05:47,440 --> 00:05:49,000
+or one hundred nineteen dollars a month
+
+169
+00:05:49,000 --> 00:05:50,280
+for Tirzepatide,
+
+170
+00:05:50,280 --> 00:05:50,980
+guaranteed
+
+171
+00:05:50,980 --> 00:05:53,160
+across all dosage levels.
+
+172
+00:05:53,160 --> 00:05:55,020
+Don't spend another year trapped in the
+
+173
+00:05:55,020 --> 00:05:57,120
+cycle of calorie deprivation,
+
+174
+00:05:57,120 --> 00:06:00,140
+metabolic rebound, and willpower guilt.
+
+175
+00:06:00,140 --> 00:06:01,460
+Click the button below,
+
+176
+00:06:01,460 --> 00:06:03,560
+claim your doctor-approved protocol,
+
+177
+00:06:03,560 --> 00:06:05,340
+and take the first step toward lasting
+
+178
+00:06:05,340 --> 00:06:06,920
+metabolic freedom today.
