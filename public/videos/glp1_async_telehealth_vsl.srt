@@ -1,0 +1,511 @@
+1
+00:00:00,280 --> 00:00:01,980
+If you've been putting off getting a
+
+2
+00:00:01,980 --> 00:00:04,559
+GLP-1 prescription because you don't want to
+
+3
+00:00:04,559 --> 00:00:06,900
+sit in a doctor's waiting room or
+
+4
+00:00:06,900 --> 00:00:09,140
+deal with an awkward video call,
+
+5
+00:00:09,140 --> 00:00:11,039
+you're definitely not alone.
+
+6
+00:00:11,039 --> 00:00:13,279
+For decades, getting medical weight care meant
+
+7
+00:00:13,279 --> 00:00:15,519
+running a stressful gauntlet:
+
+8
+00:00:15,519 --> 00:00:17,260
+taking half a day off work,
+
+9
+00:00:17,260 --> 00:00:19,179
+fighting traffic, and sitting in a crowded
+
+10
+00:00:19,179 --> 00:00:21,780
+clinic waiting room for forty-five minutes.
+
+11
+00:00:21,780 --> 00:00:24,600
+Then comes the most humiliating part:
+
+12
+00:00:24,600 --> 00:00:26,800
+being weighed in a public hallway,
+
+13
+00:00:26,800 --> 00:00:28,780
+followed by a rushed ten-minute lecture from
+
+14
+00:00:28,780 --> 00:00:30,379
+a doctor who tells you to just
+
+15
+00:00:30,379 --> 00:00:32,020
+try harder and eat less.
+
+16
+00:00:32,020 --> 00:00:34,920
+When telehealth first started,
+
+17
+00:00:34,920 --> 00:00:36,840
+people thought it would fix everything.
+
+18
+00:00:36,840 --> 00:00:39,299
+But most platforms simply replaced the waiting
+
+19
+00:00:39,299 --> 00:00:40,619
+room with an awkward,
+
+20
+00:00:40,619 --> 00:00:42,719
+scheduled video call where you've got to
+
+21
+00:00:42,719 --> 00:00:44,979
+stare at a screen and justify your
+
+22
+00:00:44,979 --> 00:00:46,570
+struggles to a stranger.
+
+23
+00:00:46,570 --> 00:00:48,960
+Here's what most people don't realize:
+
+24
+00:00:48,960 --> 00:00:51,140
+in 2026, you don't need to sit
+
+25
+00:00:51,140 --> 00:00:52,020
+in a clinic,
+
+26
+00:00:52,020 --> 00:00:53,859
+you don't need an awkward video appointment,
+
+27
+00:00:53,859 --> 00:00:55,960
+and you don't need to justify yourself
+
+28
+00:00:55,960 --> 00:00:57,500
+to anyone.
+
+29
+00:00:57,500 --> 00:01:01,280
+Welcome to the asynchronous telehealth revolution—a modern
+
+30
+00:01:01,280 --> 00:01:03,340
+clinical model that lets you complete your
+
+31
+00:01:03,340 --> 00:01:06,980
+entire medical intake online in sixty seconds,
+
+32
+00:01:06,980 --> 00:01:07,959
+right from your phone,
+
+33
+00:01:07,959 --> 00:01:09,859
+whenever it's convenient for you.
+
+34
+00:01:09,859 --> 00:01:11,280
+Instead of waiting weeks for an open
+
+35
+00:01:11,280 --> 00:01:13,719
+calendar slot, you answer a few essential
+
+36
+00:01:13,719 --> 00:01:16,400
+clinical questions regarding your health history,
+
+37
+00:01:16,400 --> 00:01:18,840
+medical background, and weight loss goals at
+
+38
+00:01:18,840 --> 00:01:20,239
+eleven at night or six in the
+
+39
+00:01:20,239 --> 00:01:21,379
+morning.
+
+40
+00:01:21,379 --> 00:01:22,900
+Your chart doesn't go to an automated
+
+41
+00:01:22,900 --> 00:01:23,959
+bot.
+
+42
+00:01:23,959 --> 00:01:26,879
+It's personally reviewed by a board-certified physician
+
+43
+00:01:26,879 --> 00:01:29,659
+licensed in your specific state who specializes
+
+44
+00:01:29,659 --> 00:01:33,480
+in incretin biology and metabolic medicine.
+
+45
+00:01:33,480 --> 00:01:35,739
+Your physician evaluates your BMI,
+
+46
+00:01:35,739 --> 00:01:37,879
+checks for potential contraindications,
+
+47
+00:01:37,879 --> 00:01:40,379
+and determines the precise medication and starting
+
+48
+00:01:40,379 --> 00:01:42,939
+dosage that's safest and most effective for
+
+49
+00:01:42,939 --> 00:01:44,219
+your body.
+
+50
+00:01:44,219 --> 00:01:46,359
+If your physician has follow-up questions,
+
+51
+00:01:46,359 --> 00:01:48,269
+they message you directly through your secure,
+
+52
+00:01:48,269 --> 00:01:50,640
+HIPAA-compliant patient portal.
+
+53
+00:01:50,640 --> 00:01:51,959
+You can respond on your own time
+
+54
+00:01:51,959 --> 00:01:55,019
+without stressing over a live camera.
+
+55
+00:01:55,019 --> 00:01:56,840
+Once approved, you don't have to stand
+
+56
+00:01:56,840 --> 00:01:58,560
+in line at your local retail pharmacy,
+
+57
+00:01:58,560 --> 00:02:01,540
+where technicians announce your prescription out loud
+
+58
+00:02:01,540 --> 00:02:03,780
+or tell you brand-name pens are out
+
+59
+00:02:03,780 --> 00:02:05,019
+of stock.
+
+60
+00:02:05,019 --> 00:02:07,599
+Your prescription is transmitted electronically to a
+
+61
+00:02:07,599 --> 00:02:11,560
+state-licensed 503A compounding pharmacy right here in
+
+62
+00:02:11,560 --> 00:02:12,939
+the United States,
+
+63
+00:02:12,939 --> 00:02:16,020
+where it's custom-compounded under strict sterile standards.
+
+64
+00:02:16,020 --> 00:02:19,759
+Within days, your medication arrives directly on
+
+65
+00:02:19,759 --> 00:02:21,620
+your doorstep in a temperature-controlled,
+
+66
+00:02:21,620 --> 00:02:25,759
+discreet package with zero outside branding.
+
+67
+00:02:25,759 --> 00:02:28,620
+Nobody knows what's inside except you.
+
+68
+00:02:28,620 --> 00:02:30,139
+Everything you need arrives right in the
+
+69
+00:02:30,139 --> 00:02:30,840
+box:
+
+70
+00:02:30,840 --> 00:02:33,599
+your medication, sterile alcohol prep pads,
+
+71
+00:02:33,599 --> 00:02:35,879
+precision micro-needles, and clear,
+
+72
+00:02:35,879 --> 00:02:38,800
+step-by-step visual dosing instructions that make your
+
+73
+00:02:38,800 --> 00:02:40,939
+first dose effortless.
+
+74
+00:02:40,939 --> 00:02:42,360
+As you begin your protocol,
+
+75
+00:02:42,360 --> 00:02:43,900
+you're never left on your own.
+
+76
+00:02:43,900 --> 00:02:44,610
+You have unlimited,
+
+77
+00:02:44,610 --> 00:02:47,379
+direct digital access to your medical team
+
+78
+00:02:47,379 --> 00:02:49,099
+whenever questions arise,
+
+79
+00:02:49,099 --> 00:02:52,000
+with zero extra consultation fees.
+
+80
+00:02:52,000 --> 00:02:53,639
+Now let's talk about cost.
+
+81
+00:02:53,639 --> 00:02:56,680
+Traditional medical spas and big-box telehealth brands
+
+82
+00:02:56,680 --> 00:02:58,919
+love to charge you fifty to one
+
+83
+00:02:58,919 --> 00:03:01,099
+hundred dollars just to book a fifteen-minute
+
+84
+00:03:01,099 --> 00:03:02,800
+video consultation.
+
+85
+00:03:02,800 --> 00:03:03,819
+On top of that,
+
+86
+00:03:03,819 --> 00:03:07,379
+they tack on ninety-nine-dollar monthly platform memberships,
+
+87
+00:03:07,379 --> 00:03:09,240
+mandatory laboratory fees,
+
+88
+00:03:09,240 --> 00:03:11,280
+and drastic price hikes the moment your
+
+89
+00:03:11,280 --> 00:03:12,939
+dosage increases.
+
+90
+00:03:12,939 --> 00:03:14,280
+At Telehealth FX,
+
+91
+00:03:14,280 --> 00:03:16,539
+we believe medical care should be frictionless,
+
+92
+00:03:16,539 --> 00:03:19,099
+private, and completely transparent.
+
+93
+00:03:19,099 --> 00:03:20,400
+We threw out the waiting rooms,
+
+94
+00:03:20,400 --> 00:03:21,740
+the awkward video calls,
+
+95
+00:03:21,740 --> 00:03:22,340
+and the hidden fees.
+
+96
+00:03:22,340 --> 00:03:24,639
+With our partner pharmacies,
+
+97
+00:03:24,639 --> 00:03:26,400
+your entire treatment is covered by one
+
+98
+00:03:26,400 --> 00:03:27,979
+flat price:
+
+99
+00:03:27,979 --> 00:03:30,259
+sixty-nine dollars a month for Semaglutide or
+
+100
+00:03:30,259 --> 00:03:33,539
+one-nineteen a month for Tirzepatide—with zero dose
+
+101
+00:03:33,539 --> 00:03:35,340
+increases ever.
+
+102
+00:03:35,340 --> 00:03:37,460
+That single price covers everything:
+
+103
+00:03:37,460 --> 00:03:39,319
+your digital physician consultation,
+
+104
+00:03:39,319 --> 00:03:40,620
+your ongoing clinical support,
+
+105
+00:03:40,620 --> 00:03:43,000
+your custom-compounded medication,
+
+106
+00:03:43,000 --> 00:03:45,379
+and express cold-chain delivery right to your
+
+107
+00:03:45,379 --> 00:03:46,340
+door.
+
+108
+00:03:46,340 --> 00:03:48,020
+You're never locked into a long-term contract
+
+109
+00:03:48,020 --> 00:03:50,819
+or forced into a multi-month commitment.
+
+110
+00:03:50,819 --> 00:03:52,500
+You can pause or cancel your care
+
+111
+00:03:52,500 --> 00:03:54,539
+anytime with a single click inside your
+
+112
+00:03:54,539 --> 00:03:55,800
+portal.
+
+113
+00:03:55,800 --> 00:03:57,840
+You don't have to sacrifice your dignity,
+
+114
+00:03:57,840 --> 00:03:59,699
+your privacy, or half a day of
+
+115
+00:03:59,699 --> 00:04:01,979
+work to access the gold standard in
+
+116
+00:04:01,979 --> 00:04:03,340
+metabolic medicine.
+
+117
+00:04:03,340 --> 00:04:04,800
+In less time than it takes to
+
+118
+00:04:04,800 --> 00:04:06,139
+brew a cup of coffee,
+
+119
+00:04:06,139 --> 00:04:08,199
+you can start the process of reclaiming
+
+120
+00:04:08,199 --> 00:04:10,719
+your health, resetting your food noise,
+
+121
+00:04:10,719 --> 00:04:12,800
+and hitting your target weight.
+
+122
+00:04:12,800 --> 00:04:14,919
+If you're ready to experience private,
+
+123
+00:04:14,919 --> 00:04:18,040
+physician-guided weight loss without the clinic runaround,
+
+124
+00:04:18,040 --> 00:04:19,500
+click the button right below this video
+
+125
+00:04:19,500 --> 00:04:21,000
+right now.
+
+126
+00:04:21,000 --> 00:04:23,620
+Complete your free sixty-second assessment today,
+
+127
+00:04:23,620 --> 00:04:25,379
+and take the first step toward lasting
+
+128
+00:04:25,379 --> 00:04:26,439
+metabolic health.
