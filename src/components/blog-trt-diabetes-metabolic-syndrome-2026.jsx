@@ -2,7 +2,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { Icon } from './common.jsx';
-const S = "https://go.telehealthfx.com/start";
+const S = "https://go.telehealthfx.com/petermd?aff_sub=tfx_trt_blog";
 
 function BlogTrtDiabetesMetabolicSyndrome2026() {
   return (<><section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}><div className="container" style={{ maxWidth: 800 }}>

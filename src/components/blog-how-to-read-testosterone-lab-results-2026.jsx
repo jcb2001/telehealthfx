@@ -5,7 +5,7 @@ import { Icon } from './common.jsx';
 import { ExtractiveAIAnswerBlock } from './extractive-ai-answer-block.jsx';
 import { AIQuickSummaryAction } from './ai-quick-summary-action.jsx';
 
-const S = "https://go.telehealthfx.com/start";
+const S = "https://go.telehealthfx.com/petermd?aff_sub=tfx_trt_blog";
 
 function BlogHowToReadTestosteroneLabResults2026() {
   return (

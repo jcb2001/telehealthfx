@@ -39,7 +39,7 @@ export function MobileStickyBar() {
   } else if (p.includes('trt') || p.includes('testosterone') || p.includes('enclomiphene')) {
     title = "Testosterone (TRT) Care";
     subtitle = "Starting $89/mo · MD Supervised";
-    ctaUrl = "https://go.telehealthfx.com/coreage-trt?aff_sub=tfx_sticky_trt";
+    ctaUrl = "https://go.telehealthfx.com/petermd?aff_sub=tfx_sticky_trt";
   } else if (p.includes('nad')) {
     title = "NAD+ Cellular Injection";
     subtitle = "$99/mo Flat Rate · US Pharmacy";
@@ -59,35 +59,50 @@ export function MobileStickyBar() {
   return (
     <aside
       aria-label="Quick Qualification"
-      className="mobile-sticky-cta-bar"
+      className="site-sticky-cta-bar"
       style={{
         position: 'fixed',
-        bottom: 0,
-        left: 0,
-        right: 0,
         zIndex: 9999,
         background: 'rgba(31, 53, 41, 0.95)',
         backdropFilter: 'blur(12px)',
         WebkitBackdropFilter: 'blur(12px)',
-        borderTop: '1px solid rgba(232, 196, 174, 0.3)',
-        padding: '10px 16px',
-        paddingBottom: 'calc(10px + env(safe-area-inset-bottom, 0px))',
-        boxShadow: '0 -8px 24px rgba(0,0,0,0.25)',
+        border: '1px solid rgba(232, 196, 174, 0.35)',
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'space-between',
         gap: 12,
-        animation: 'mobileBarSlideUp 0.3s cubic-bezier(0.16, 1, 0.3, 1)',
       }}
     >
       <style>{`
-        @keyframes mobileBarSlideUp {
+        @keyframes stickyBarSlideUpMobile {
           from { transform: translateY(100%); opacity: 0; }
           to { transform: translateY(0); opacity: 1; }
         }
+        @keyframes stickyBarSlideUpDesktop {
+          from { transform: translate(-50%, 100%); opacity: 0; }
+          to { transform: translate(-50%, 0); opacity: 1; }
+        }
+        .site-sticky-cta-bar {
+          bottom: 0;
+          left: 0;
+          right: 0;
+          padding: 10px 16px;
+          padding-bottom: calc(10px + env(safe-area-inset-bottom, 0px));
+          box-shadow: 0 -8px 24px rgba(0,0,0,0.25);
+          animation: stickyBarSlideUpMobile 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+        }
         @media (min-width: 769px) {
-          .mobile-sticky-cta-bar {
-            display: none !important;
+          .site-sticky-cta-bar {
+            bottom: 24px !important;
+            left: 50% !important;
+            right: auto !important;
+            transform: translateX(-50%) !important;
+            width: calc(100% - 48px) !important;
+            max-width: 620px !important;
+            border-radius: 14px !important;
+            padding: 12px 24px !important;
+            box-shadow: 0 16px 36px rgba(0, 0, 0, 0.35) !important;
+            animation: stickyBarSlideUpDesktop 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
           }
         }
       `}</style>
