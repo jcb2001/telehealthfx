@@ -11,10 +11,10 @@ export const metadata = {
     },
   },
   title: "Telehealth FX vs Henry Meds: 2026 GLP-1 Price Audit",
-  description: "Compare Telehealth FX vs Henry Meds pricing. Save up to $191/month on compounded Tirzepatide with flat $258 pricing, zero consult fees, and free shipping.",
+  description: "Compare Telehealth FX vs Henry Meds pricing. Save up to $3,900/year on compounded Tirzepatide & Semaglutide with promos from $69/mo, zero consult fees, and free 2-day shipping.",
   openGraph: {
     title: "Telehealth FX vs Henry Meds: 2026 GLP-1 Price Audit",
-    description: "Compare Telehealth FX vs Henry Meds pricing. Save up to $191/month on compounded Tirzepatide with flat $258 pricing, zero consult fees, and free shipping.",
+    description: "Compare Telehealth FX vs Henry Meds pricing. Save up to $3,900/year on compounded Tirzepatide & Semaglutide with promos from $69/mo, zero consult fees, and free 2-day shipping.",
     url: "https://telehealthfx.com/compare/telehealth-fx-vs-henry-meds-cost/",
     siteName: "Telehealth FX",
     images: [
@@ -56,7 +56,7 @@ export default function Page() {
             "name": "How much does Henry Meds charge for tirzepatide?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Henry Meds charges $449 per month for injectable compounded tirzepatide. In contrast, Telehealth FX offers identical 503A compounded tirzepatide for a flat $258 per month across all doses, saving patients $191 each month."
+              "text": "Henry Meds charges $449 per month for injectable compounded tirzepatide. In contrast, Telehealth FX offers identical 503A compounded tirzepatide starting from $119 per month promo across all doses with zero membership dues, saving patients up to $330 each month."
             }
           },
           {

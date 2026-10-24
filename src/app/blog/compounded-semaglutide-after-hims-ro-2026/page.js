@@ -2,14 +2,14 @@ import { BlogCompoundedAfterHimsRo } from "../../../components/blog-compounded-s
 
 export const metadata = {
   robots: { index: true, follow: true },
-  title: "Does Ro Sell Compounded Semaglutide? 2026 Switch Guide",
-  description: "Does Ro or Hims still sell compounded semaglutide? Compare pricing, 503A pharmacy rules, and switch to $99/mo doctor-prescribed semaglutide today.",
+  title: "Compounded Semaglutide vs Hims & Ro (2026 Pricing & Switch Guide)",
+  description: "Paying $299–$399/mo at Ro or Hims? See how patients are switching to flat-rate $69/mo compounded Semaglutide with zero membership fees and 503A US pharmacy fulfillment.",
   alternates: {
     canonical: 'https://telehealthfx.com/blog/compounded-semaglutide-after-hims-ro-2026/',
   },
   openGraph: {
-    title: "Does Ro Sell Compounded Semaglutide? 2026 Switch Guide",
-    description: "Does Ro or Hims still sell compounded semaglutide? Compare pricing, 503A pharmacy rules, and switch to $99/mo doctor-prescribed semaglutide today.",
+    title: "Compounded Semaglutide vs Hims & Ro (2026 Pricing & Switch Guide)",
+    description: "Paying $299–$399/mo at Ro or Hims? See how patients are switching to flat-rate $69/mo compounded Semaglutide with zero membership fees and 503A US pharmacy fulfillment.",
     url: 'https://telehealthfx.com/blog/compounded-semaglutide-after-hims-ro-2026/',
     siteName: 'Telehealth FX',
     images: [
@@ -17,7 +17,7 @@ export const metadata = {
         url: "https://telehealthfx.com/assets/compounded-semaglutide-after-hims-ro-featured.png",
         width: 1200,
         height: 630,
-        alt: "Does Ro Sell Compounded Semaglutide? 2026 Switch Guide",
+        alt: "Compounded Semaglutide vs Hims & Ro 2026 Switch Guide",
       },
     ],
   },
@@ -127,7 +127,7 @@ export default function Page() {
             "name": "How much does compounded semaglutide cost after switching?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Compounded semaglutide through Telehealth FX starts at $99 for your first month (regular $190/mo, Affirm from $25/mo) all-inclusive, covering physician consultations, medication, injection supplies, and cold-pack home shipping with zero hidden membership fees."
+              "text": "Compounded semaglutide through Telehealth FX partner Embody Wellness starts at an introductory $69/month promotional rate all-inclusive, covering physician consultations, medication, injection supplies, and cold-pack express home delivery with zero hidden membership dues or recurring platform fees."
             }
           }
         ]

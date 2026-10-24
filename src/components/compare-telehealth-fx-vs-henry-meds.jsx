@@ -2,7 +2,7 @@
 import React from 'react';
 import { Icon } from './common.jsx';
 
-const START_URL = "https://go.telehealthfx.com/start";
+const START_URL = "https://go.telehealthfx.com/embody?aff_sub=tfx_compare_henrymeds";
 
 export function CompareTelehealthFxVsHenryMeds() {
   return (
@@ -42,7 +42,7 @@ export function CompareTelehealthFxVsHenryMeds() {
             Direct Comparative Resolution
           </div>
           <p style={{ fontSize: 18, lineHeight: 1.65, color: 'var(--ink)', margin: 0, fontWeight: 500 }}>
-            Henry Meds charges $297 monthly for compounded semaglutide and $449 monthly for compounded tirzepatide. In comparison, Telehealth FX provides identical 503A clinical quality for a flat $146 monthly for semaglutide and $258 monthly for tirzepatide across all doses, saving patients $1,812 to $2,292 annually without long-term commitments.
+            Henry Meds charges $297 monthly for compounded semaglutide and $449 monthly for compounded tirzepatide. In comparison, Telehealth FX provides identical 503A clinical quality starting from $69/month promo for semaglutide and $119/month promo for tirzepatide across all doses, saving patients $2,700 to $3,900+ annually without long-term commitments or subscription dues.
           </p>
         </div>
 
@@ -67,21 +67,21 @@ export function CompareTelehealthFxVsHenryMeds() {
             <tbody>
               <tr style={{ background: '#FFFFFF' }}>
                 <td style={{ padding: '14px 18px', border: '1px solid #E5E7EB', fontWeight: 600 }}>Compounded Semaglutide (Injectable)</td>
-                <td style={{ padding: '14px 18px', border: '1px solid #E5E7EB', color: '#059669', fontWeight: 800, background: '#ECFDF5' }}>Flat $146/mo ($99 Mo 1)</td>
+                <td style={{ padding: '14px 18px', border: '1px solid #E5E7EB', color: '#059669', fontWeight: 800, background: '#ECFDF5' }}>From $69/mo Promo</td>
                 <td style={{ padding: '14px 18px', border: '1px solid #E5E7EB', color: '#DC2626', fontWeight: 700 }}>$297 / month</td>
-                <td style={{ padding: '14px 18px', border: '1px solid #E5E7EB', color: '#059669', fontWeight: 800 }}>Save $1,812 / year</td>
+                <td style={{ padding: '14px 18px', border: '1px solid #E5E7EB', color: '#059669', fontWeight: 800 }}>Save $2,736+ / year</td>
               </tr>
               <tr style={{ background: '#F9FAFB' }}>
                 <td style={{ padding: '14px 18px', border: '1px solid #E5E7EB', fontWeight: 600 }}>Compounded Tirzepatide (Injectable)</td>
-                <td style={{ padding: '14px 18px', border: '1px solid #E5E7EB', color: '#059669', fontWeight: 800, background: '#ECFDF5' }}>Flat $258/mo ($99 Mo 1)</td>
+                <td style={{ padding: '14px 18px', border: '1px solid #E5E7EB', color: '#059669', fontWeight: 800, background: '#ECFDF5' }}>From $119/mo Promo</td>
                 <td style={{ padding: '14px 18px', border: '1px solid #E5E7EB', color: '#DC2626', fontWeight: 700 }}>$449 / month</td>
-                <td style={{ padding: '14px 18px', border: '1px solid #E5E7EB', color: '#059669', fontWeight: 800 }}>Save $2,292 / year</td>
+                <td style={{ padding: '14px 18px', border: '1px solid #E5E7EB', color: '#059669', fontWeight: 800 }}>Save $3,960+ / year</td>
               </tr>
               <tr style={{ background: '#FFFFFF' }}>
                 <td style={{ padding: '14px 18px', border: '1px solid #E5E7EB', fontWeight: 600 }}>Oral Sublingual Tablets</td>
-                <td style={{ padding: '14px 18px', border: '1px solid #E5E7EB', color: '#059669', fontWeight: 800, background: '#ECFDF5' }}>Available from $146/mo</td>
+                <td style={{ padding: '14px 18px', border: '1px solid #E5E7EB', color: '#059669', fontWeight: 800, background: '#ECFDF5' }}>Available from $69/mo Promo</td>
                 <td style={{ padding: '14px 18px', border: '1px solid #E5E7EB' }}>$249 / month</td>
-                <td style={{ padding: '14px 18px', border: '1px solid #E5E7EB', color: '#059669', fontWeight: 800 }}>Save $1,236 / year</td>
+                <td style={{ padding: '14px 18px', border: '1px solid #E5E7EB', color: '#059669', fontWeight: 800 }}>Save $2,160+ / year</td>
               </tr>
               <tr style={{ background: '#F9FAFB' }}>
                 <td style={{ padding: '14px 18px', border: '1px solid #E5E7EB', fontWeight: 600 }}>Doctor Check-ins & Consults</td>
@@ -99,13 +99,13 @@ export function CompareTelehealthFxVsHenryMeds() {
             Prescription Transfer Guarantee
           </div>
           <h3 className="serif" style={{ fontSize: 32, marginBottom: 16, color: 'var(--ink)' }}>
-            Paying $449/Month with Henry Meds? Switch to Flat $258
+            Paying $449/Month with Henry Meds? Switch to Starting at $119/Mo
           </h3>
           <p style={{ fontSize: 17, lineHeight: 1.6, color: 'var(--ink-2)', maxWidth: 640, margin: '0 auto 24px' }}>
-            Switch your compounded Tirzepatide or Semaglutide prescription to Telehealth FX in minutes. Maintain your existing dose without starting over, and save up to $191 every single month.
+            Switch your compounded Tirzepatide or Semaglutide prescription to Telehealth FX in minutes. Maintain your existing dose without starting over, and save hundreds every single month.
           </p>
           <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', alignItems: 'center', gap: 8, padding: '14px 28px', fontSize: 16 }}>
-            Transfer from Henry Meds ($99 Month 1) <Icon.Arrow />
+            Transfer from Henry Meds ($69 Month 1 Promo) <Icon.Arrow />
           </a>
         </div>
 

@@ -11,10 +11,10 @@ export const metadata = {
     },
   },
   title: "Telehealth FX vs Ro and Hims: GLP-1 Cost Comparison 2026",
-  description: "Compare GLP-1 weight loss costs across Telehealth FX, Ro, and Hims. Flat $146 semaglutide and $258 tirzepatide with zero membership fees save $1,800/year.",
+  description: "Compare GLP-1 weight loss costs across Telehealth FX, Ro, and Hims. Flat promo rates from $69/mo semaglutide & $119/mo tirzepatide with zero membership fees save up to $2,500/year.",
   openGraph: {
     title: "Telehealth FX vs Ro and Hims: GLP-1 Cost Comparison 2026",
-    description: "Compare GLP-1 weight loss costs across Telehealth FX, Ro, and Hims. Flat $146 semaglutide and $258 tirzepatide with zero membership fees save $1,800/year.",
+    description: "Compare GLP-1 weight loss costs across Telehealth FX, Ro, and Hims. Flat promo rates from $69/mo semaglutide & $119/mo tirzepatide with zero membership fees save up to $2,500/year.",
     url: "https://telehealthfx.com/compare/telehealth-fx-vs-ro-hims-glp1-cost/",
     siteName: "Telehealth FX",
     images: [
@@ -56,7 +56,7 @@ export default function Page() {
             "name": "Does Telehealth FX charge a monthly membership fee like Ro?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "No. Telehealth FX charges exactly $0 in monthly membership fees. Consultations, clinical support, and doctor messaging are completely free. You pay only for the medication prescribed ($146/mo for Semaglutide or $258/mo for Tirzepatide)."
+              "text": "No. Telehealth FX charges exactly $0 in monthly membership fees. Consultations, clinical support, and doctor messaging are completely free. You pay only for the medication prescribed (starting from $69/mo promo for Semaglutide or $119/mo promo for Tirzepatide)."
             }
           },
           {
@@ -72,7 +72,7 @@ export default function Page() {
             "name": "Does Telehealth FX increase medication prices at higher titration doses?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "No. Telehealth FX provides an absolute Price Freeze Guarantee. Compounded Semaglutide is flat $146/month and Tirzepatide is flat $258/month across all doses, from starting doses up to maximum therapeutic maintenance levels."
+              "text": "No. Telehealth FX provides an absolute Price Freeze Guarantee. Compounded Semaglutide starts from flat $69/month promo and Tirzepatide starts from flat $119/month promo across all doses, from starting doses up to maximum therapeutic maintenance levels with zero surprise spikes."
             }
           }
         ]

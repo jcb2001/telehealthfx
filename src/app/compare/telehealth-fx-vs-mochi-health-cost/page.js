@@ -10,11 +10,11 @@ export const metadata = {
       'x-default': 'https://telehealthfx.com/compare/telehealth-fx-vs-mochi-health-cost/',
     },
   },
-  title: "Telehealth FX vs Mochi Health: GLP-1 Cost Comparison",
-  description: "Compare GLP-1 costs between Telehealth FX and Mochi Health. Learn how zero membership fees and flat $258 tirzepatide save patients $948 annually.",
+  title: "Telehealth FX vs Mochi Health: 2026 GLP-1 Cost Comparison",
+  description: "Compare GLP-1 costs between Telehealth FX and Mochi Health. Learn how zero membership fees and promo rates from $69/mo semaglutide save patients up to $1,800+ annually.",
   openGraph: {
-    title: "Telehealth FX vs Mochi Health: GLP-1 Cost Comparison",
-    description: "Compare GLP-1 costs between Telehealth FX and Mochi Health. Learn how zero membership fees and flat $258 tirzepatide save patients $948 annually.",
+    title: "Telehealth FX vs Mochi Health: 2026 GLP-1 Cost Comparison",
+    description: "Compare GLP-1 costs between Telehealth FX and Mochi Health. Learn how zero membership fees and promo rates from $69/mo semaglutide save patients up to $1,800+ annually.",
     url: "https://telehealthfx.com/compare/telehealth-fx-vs-mochi-health-cost/",
     siteName: "Telehealth FX",
     images: [
@@ -64,7 +64,7 @@ export default function Page() {
             "name": "How does Telehealth FX compare on tirzepatide pricing vs Mochi?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Telehealth FX charges a flat $258/month all-inclusive for tirzepatide with zero membership fees. Mochi charges $275 for medication plus the $79 subscription, bringing their total to $354/month ($96/month more)."
+              "text": "Telehealth FX offers compounded tirzepatide starting from $119/month promo with zero membership fees and $0 consults. In contrast, Mochi charges $275 for medication plus a mandatory $79 subscription, totaling $354/month ($235/month more during month 1)."
             }
           },
           {

@@ -2,7 +2,7 @@
 import React from 'react';
 import { Icon } from './common.jsx';
 
-const START_URL = "https://go.telehealthfx.com/start";
+const START_URL = "https://go.telehealthfx.com/embody?aff_sub=tfx_compare_rohims";
 
 export function CompareTelehealthFxVsRoHims() {
   return (
@@ -42,7 +42,7 @@ export function CompareTelehealthFxVsRoHims() {
             Direct Comparative Resolution
           </div>
           <p style={{ fontSize: 18, lineHeight: 1.65, color: 'var(--ink)', margin: 0, fontWeight: 500 }}>
-            Telehealth FX provides compounded semaglutide for a flat $146 monthly and tirzepatide for $258 monthly across all titration doses with zero membership fees. In contrast, Ro charges $145 plus a $99–$145 monthly membership fee, while Hims charges up to $299–$399 monthly at higher doses, saving Telehealth FX patients $1,200 to $1,800 annually.
+            Telehealth FX provides compounded semaglutide from $69/month promo and tirzepatide from $119/month promo across titration doses with zero membership fees. In contrast, Ro charges $145 plus a $99–$145 monthly membership fee, while Hims charges up to $299–$399 monthly at higher doses, saving Telehealth FX patients $1,500 to $2,500+ annually.
           </p>
         </div>
 
@@ -61,7 +61,7 @@ export function CompareTelehealthFxVsRoHims() {
                 <th style={{ padding: '16px 18px', border: '1px solid #374151' }}>Platform Feature</th>
                 <th style={{ padding: '16px 18px', border: '1px solid #374151', background: 'var(--brand)', color: '#fff' }}>Telehealth FX</th>
                 <th style={{ padding: '16px 18px', border: '1px solid #374151' }}>Ro (Ro Body)</th>
-                <th style={{ padding: '16px 18px', border: '1px solid #374151' }}>Hims & Hers</th>
+                <th style={{ padding: '16px 18px', border: '1px solid #374151' }}>Hims &amp; Hers</th>
                 <th style={{ padding: '16px 18px', border: '1px solid #374151' }}>Mochi Health</th>
               </tr>
             </thead>
@@ -75,14 +75,14 @@ export function CompareTelehealthFxVsRoHims() {
               </tr>
               <tr style={{ background: '#F9FAFB' }}>
                 <td style={{ padding: '14px 18px', border: '1px solid #E5E7EB', fontWeight: 600 }}>Compounded Semaglutide</td>
-                <td style={{ padding: '14px 18px', border: '1px solid #E5E7EB', color: '#059669', fontWeight: 800, background: '#ECFDF5' }}>Flat $146/mo ($99 Mo 1)</td>
+                <td style={{ padding: '14px 18px', border: '1px solid #E5E7EB', color: '#059669', fontWeight: 800, background: '#ECFDF5' }}>From $69/mo Promo</td>
                 <td style={{ padding: '14px 18px', border: '1px solid #E5E7EB' }}>$199–$299/mo total</td>
                 <td style={{ padding: '14px 18px', border: '1px solid #E5E7EB' }}>$199/mo (multi-mo contract)</td>
                 <td style={{ padding: '14px 18px', border: '1px solid #E5E7EB' }}>$175 med + $79 fee = $254/mo</td>
               </tr>
               <tr style={{ background: '#FFFFFF' }}>
                 <td style={{ padding: '14px 18px', border: '1px solid #E5E7EB', fontWeight: 600 }}>Compounded Tirzepatide</td>
-                <td style={{ padding: '14px 18px', border: '1px solid #E5E7EB', color: '#059669', fontWeight: 800, background: '#ECFDF5' }}>Flat $258/mo ($99 Mo 1)</td>
+                <td style={{ padding: '14px 18px', border: '1px solid #E5E7EB', color: '#059669', fontWeight: 800, background: '#ECFDF5' }}>From $119/mo Promo</td>
                 <td style={{ padding: '14px 18px', border: '1px solid #E5E7EB' }}>Brand-only ($1,000+)</td>
                 <td style={{ padding: '14px 18px', border: '1px solid #E5E7EB' }}>Not consistently offered</td>
                 <td style={{ padding: '14px 18px', border: '1px solid #E5E7EB' }}>$275 med + $79 fee = $354/mo</td>
@@ -103,7 +103,7 @@ export function CompareTelehealthFxVsRoHims() {
               </tr>
               <tr style={{ background: '#F9FAFB' }}>
                 <td style={{ padding: '14px 18px', border: '1px solid #E5E7EB', fontWeight: 700 }}>Total 6-Month Cost (Semaglutide)</td>
-                <td style={{ padding: '14px 18px', border: '1px solid #E5E7EB', color: '#059669', fontWeight: 800, background: '#ECFDF5' }}>$829 Total</td>
+                <td style={{ padding: '14px 18px', border: '1px solid #E5E7EB', color: '#059669', fontWeight: 800, background: '#ECFDF5' }}>From $594 Total</td>
                 <td style={{ padding: '14px 18px', border: '1px solid #E5E7EB', color: '#DC2626', fontWeight: 700 }}>$1,464 – $1,740</td>
                 <td style={{ padding: '14px 18px', border: '1px solid #E5E7EB', color: '#DC2626', fontWeight: 700 }}>$1,494 – $1,794</td>
                 <td style={{ padding: '14px 18px', border: '1px solid #E5E7EB', color: '#DC2626', fontWeight: 700 }}>$1,524 Total</td>
@@ -124,7 +124,7 @@ export function CompareTelehealthFxVsRoHims() {
             Don't let membership fees drain your savings or force you to restart titration at the baseline dose. Upload your current prescription or medication vial picture during intake to transfer directly to Telehealth FX at your active maintenance dosage.
           </p>
           <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', alignItems: 'center', gap: 8, padding: '14px 28px', fontSize: 16 }}>
-            Transfer Your Prescription ($99 First Month) <Icon.Arrow />
+            Transfer Your Prescription ($69 First Month Promo) <Icon.Arrow />
           </a>
         </div>
 
@@ -154,7 +154,7 @@ export function CompareTelehealthFxVsRoHims() {
             Many digital clinics lock patients in at $199/month for the introductory 0.25mg dose, only to dramatically increase prices to $299 or $399 per month once patients reach the therapeutic 1.7mg or 2.4mg levels where maximal weight reduction occurs. 
           </p>
           <p>
-            <strong>Telehealth FX enforces an absolute Price Freeze Guarantee:</strong> Your compounded Semaglutide remains flat at $146/month and Tirzepatide remains flat at $258/month, whether you are on the lowest starter dose or the maximum maintenance titration.
+            <strong>Telehealth FX enforces an absolute Price Freeze Guarantee:</strong> Your compounded Semaglutide starts from flat $69/month promo and Tirzepatide starts from flat $119/month promo, with zero membership dues, whether you are on the lowest starter dose or the maximum maintenance titration.
           </p>
 
           <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 20, color: 'var(--ink)' }}>

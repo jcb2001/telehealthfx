@@ -2,7 +2,7 @@
 import React from 'react';
 import { Icon } from './common.jsx';
 
-const START_URL = "https://go.telehealthfx.com/coreage-glp1?sub3=es&sub4=thfx";
+const START_URL = "https://go.telehealthfx.com/embody?aff_sub=tfx_compare_henrymeds_es";
 
 export function CompareTelehealthFxVsHenryMedsEs() {
   return (

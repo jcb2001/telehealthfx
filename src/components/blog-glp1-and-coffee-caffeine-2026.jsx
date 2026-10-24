@@ -6,7 +6,7 @@ import { DirectAnswerSnippet } from './direct-answer-snippet.jsx';
 import { ExtractiveAIAnswerBlock } from './extractive-ai-answer-block.jsx';
 import { AIQuickSummaryAction } from './ai-quick-summary-action.jsx';
 
-const START_URL = "https://go.telehealthfx.com/start";
+const START_URL = "https://go.telehealthfx.com/embody?aff_sub=tfx_blog_coffee";
 
 function BlogGLP1CoffeeCaffeine() {
   const [wakeTime, setWakeTime] = useState("7:00 AM");

@@ -3,11 +3,11 @@ import { BlogGLP1TravelGuide } from "../../../components/blog-glp1-travel-guide-
 export const metadata = {
   robots: { index: true, follow: true },
   alternates: { canonical: 'https://telehealthfx.com/blog/glp1-travel-guide-2026/' },
-  title: "Traveling with GLP-1: Flying, TSA Rules & Storage Guide",
-  description: "Complete guide to traveling with Semaglutide & Tirzepatide vials or pens. TSA airport security rules, cold storage temperature limits, and flying abroad.",
+  title: "Flying With GLP-1 Pens & Compounded Vials (2026 TSA & Doctor Travel Rules)",
+  description: "Can you fly with Semaglutide or Tirzepatide? Step-by-step 2026 TSA liquid exemption rules, ice pack storage, hotel fridge protocols, and $69 direct-mail refills.",
   openGraph: {
-    title: "Traveling with GLP-1: Flying, TSA Rules & Storage Guide",
-    description: "Complete guide to traveling with Semaglutide & Tirzepatide vials or pens. TSA airport security rules, cold storage temperature limits, and flying abroad.",
+    title: "Flying With GLP-1 Pens & Compounded Vials (2026 TSA & Doctor Travel Rules)",
+    description: "Can you fly with Semaglutide or Tirzepatide? Step-by-step 2026 TSA liquid exemption rules, ice pack storage, hotel fridge protocols, and $69 direct-mail refills.",
     url: 'https://telehealthfx.com/blog/glp1-travel-guide-2026/',
     siteName: 'Telehealth FX',
     images: [{ url: "https://telehealthfx.com/assets/glp1-travel-guide-featured.png", width: 1200, height: 630, alt: "GLP-1 Travel Guide" }],
@@ -194,6 +194,44 @@ export default function Page() {
       ]
     },
     {
+      "@type": "FAQPage",
+      "@id": "https://telehealthfx.com/blog/glp1-travel-guide-2026/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can you take semaglutide or tirzepatide pens through TSA airport security?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. The TSA explicitly permits prescription injectable medications and associated supplies (including pre-filled pens, glass vials, and needles) through airport security checkpoints. Medications are exempt from the standard 3.4-ounce (100ml) liquid restriction."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do ice packs for GLP-1 medications need to be frozen solid for TSA?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under TSA guidelines, gel and ice packs used to cool medically necessary medications must be completely frozen solid when presented at security screening. If partially melted or slushy, they may be subjected to additional screening, so declare them to the TSA officer upon arrival."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can compounded semaglutide stay at room temperature while traveling?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Compounded semaglutide and tirzepatide can typically remain at controlled room temperature (between 59°F and 86°F / 15°C to 30°C) for up to 21 to 28 days depending on the specific 503A compounding pharmacy formulation, but must be kept out of direct heat and sunlight."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I get GLP-1 refills if I am traveling domestically across the United States?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Telehealth FX partner Embody Wellness operates nationwide with licensed 503A compounding pharmacies, allowing you to order flat-rate $69/mo refills with 2-day cold-chain shipping directly to any residential address, Airbnb, or hotel across all eligible US states."
+          }
+        }
+      ]
+    },
+    {
       "@type": "MedicalOrganization",
       "@id": "https://telehealthfx.com/#organization",
       "name": "Telehealth FX",
@@ -208,7 +246,7 @@ export default function Page() {
       "contactPoint": {
         "@type": "ContactPoint",
         "contactType": "customer service",
-        "url": "https://go.telehealthfx.com/start"
+        "url": "https://go.telehealthfx.com/embody?aff_sub=tfx_blog_travel"
       },
       "medicalSpecialty": "Endocrine"
     }

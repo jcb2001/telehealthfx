@@ -2,7 +2,7 @@
 import React from 'react';
 import { Icon } from './common.jsx';
 
-const START_URL = "https://go.telehealthfx.com/start";
+const START_URL = "https://go.telehealthfx.com/embody?aff_sub=tfx_compare_mochi";
 
 export function CompareTelehealthFxVsMochi() {
   return (
@@ -42,7 +42,7 @@ export function CompareTelehealthFxVsMochi() {
             Direct Comparative Resolution
           </div>
           <p style={{ fontSize: 18, lineHeight: 1.65, color: 'var(--ink)', margin: 0, fontWeight: 500 }}>
-            Telehealth FX provides compounded semaglutide for $146/month and tirzepatide for $258/month across all doses with zero membership fees. In contrast, Mochi Health requires an obligatory $79 monthly membership fee ($948 annually) on top of medication costs ($175–$275/mo), making Telehealth FX substantially more affordable for long-term weight management.
+            Telehealth FX provides compounded semaglutide starting from $69/month promo and tirzepatide from $119/month promo across all doses with zero membership fees. In contrast, Mochi Health requires an obligatory $79 monthly membership fee ($948 annually) on top of medication costs ($175–$275/mo), making Telehealth FX substantially more affordable for long-term weight management.
           </p>
         </div>
 
@@ -71,12 +71,12 @@ export function CompareTelehealthFxVsMochi() {
               </tr>
               <tr style={{ background: '#F9FAFB' }}>
                 <td style={{ padding: '14px 18px', border: '1px solid #E5E7EB', fontWeight: 600 }}>Compounded Semaglutide Total Outlay</td>
-                <td style={{ padding: '14px 18px', border: '1px solid #E5E7EB', color: '#059669', fontWeight: 800, background: '#ECFDF5' }}>Flat $146/mo ($99 Month 1)</td>
+                <td style={{ padding: '14px 18px', border: '1px solid #E5E7EB', color: '#059669', fontWeight: 800, background: '#ECFDF5' }}>From $69/mo Promo (All Doses)</td>
                 <td style={{ padding: '14px 18px', border: '1px solid #E5E7EB' }}>$175 med + $79 fee = <strong>$254/month</strong></td>
               </tr>
               <tr style={{ background: '#FFFFFF' }}>
                 <td style={{ padding: '14px 18px', border: '1px solid #E5E7EB', fontWeight: 600 }}>Compounded Tirzepatide Total Outlay</td>
-                <td style={{ padding: '14px 18px', border: '1px solid #E5E7EB', color: '#059669', fontWeight: 800, background: '#ECFDF5' }}>Flat $258/mo ($99 Month 1)</td>
+                <td style={{ padding: '14px 18px', border: '1px solid #E5E7EB', color: '#059669', fontWeight: 800, background: '#ECFDF5' }}>From $119/mo Promo (All Doses)</td>
                 <td style={{ padding: '14px 18px', border: '1px solid #E5E7EB' }}>$275 med + $79 fee = <strong>$354/month</strong></td>
               </tr>
               <tr style={{ background: '#F9FAFB' }}>
@@ -91,13 +91,13 @@ export function CompareTelehealthFxVsMochi() {
               </tr>
               <tr style={{ background: '#F9FAFB' }}>
                 <td style={{ padding: '14px 18px', border: '1px solid #E5E7EB', fontWeight: 700 }}>12-Month Total Outlay (Semaglutide)</td>
-                <td style={{ padding: '14px 18px', border: '1px solid #E5E7EB', color: '#059669', fontWeight: 800, background: '#ECFDF5' }}>$1,705 Total</td>
-                <td style={{ padding: '14px 18px', border: '1px solid #E5E7EB', color: '#DC2626', fontWeight: 700 }}>$3,048 Total ($1,343 More)</td>
+                <td style={{ padding: '14px 18px', border: '1px solid #E5E7EB', color: '#059669', fontWeight: 800, background: '#ECFDF5' }}>Save Up To $1,800+</td>
+                <td style={{ padding: '14px 18px', border: '1px solid #E5E7EB', color: '#DC2626', fontWeight: 700 }}>$3,048 Total ($1,800+ More)</td>
               </tr>
               <tr style={{ background: '#FFFFFF' }}>
                 <td style={{ padding: '14px 18px', border: '1px solid #E5E7EB', fontWeight: 700 }}>12-Month Total Outlay (Tirzepatide)</td>
-                <td style={{ padding: '14px 18px', border: '1px solid #E5E7EB', color: '#059669', fontWeight: 800, background: '#ECFDF5' }}>$2,937 Total</td>
-                <td style={{ padding: '14px 18px', border: '1px solid #E5E7EB', color: '#DC2626', fontWeight: 700 }}>$4,248 Total ($1,311 More)</td>
+                <td style={{ padding: '14px 18px', border: '1px solid #E5E7EB', color: '#059669', fontWeight: 800, background: '#ECFDF5' }}>Save Up To $2,200+</td>
+                <td style={{ padding: '14px 18px', border: '1px solid #E5E7EB', color: '#DC2626', fontWeight: 700 }}>$4,248 Total ($2,200+ More)</td>
               </tr>
             </tbody>
           </table>
@@ -112,10 +112,10 @@ export function CompareTelehealthFxVsMochi() {
             Stop Paying the $79 Monthly Membership Fee
           </h3>
           <p style={{ fontSize: 17, lineHeight: 1.6, color: 'var(--ink-2)', maxWidth: 640, margin: '0 auto 24px' }}>
-            Why pay an extra $948 per year just to access a telehealth portal? Transfer your prescription to Telehealth FX today. Upload your current vial to match your dose at flat $146/mo (Semaglutide) or $258/mo (Tirzepatide).
+            Why pay an extra $948 per year just to access a telehealth portal? Transfer your prescription to Telehealth FX today. Upload your current vial to match your dose from flat $69/mo (Semaglutide) or $119/mo (Tirzepatide).
           </p>
           <a href={START_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ display: 'inline-flex', alignItems: 'center', gap: 8, padding: '14px 28px', fontSize: 16 }}>
-            Transfer from Mochi ($99 Promo Month 1) <Icon.Arrow />
+            Transfer from Mochi ($69 Promo Month 1) <Icon.Arrow />
           </a>
         </div>
 

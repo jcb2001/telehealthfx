@@ -3,11 +3,11 @@ import { BlogGLP1CoffeeCaffeine } from "../../../components/blog-glp1-and-coffee
 export const metadata = {
   robots: { index: true, follow: true },
   alternates: { canonical: 'https://telehealthfx.com/blog/glp1-and-coffee-caffeine-2026/' },
-  title: "Can You Drink Coffee on GLP-1? Caffeine & Ozempic Guide",
-  description: "Can you drink coffee on Ozempic or Mounjaro? Learn clinical rules for caffeine timing, managing acid reflux, hydration protocols, and energy drink warnings.",
+  title: "Drinking Coffee on Semaglutide & Tirzepatide (2026 Doctor Guidelines)",
+  description: "Can you drink coffee on GLP-1 medications? Clinician guidelines on caffeine sensitivity, acid reflux prevention, hydration pacing, and maximizing metabolic results.",
   openGraph: {
-    title: "Can You Drink Coffee on GLP-1? Caffeine & Ozempic Guide",
-    description: "Can you drink coffee on Ozempic or Mounjaro? Learn clinical rules for caffeine timing, managing acid reflux, hydration protocols, and energy drink warnings.",
+    title: "Drinking Coffee on Semaglutide & Tirzepatide (2026 Doctor Guidelines)",
+    description: "Can you drink coffee on GLP-1 medications? Clinician guidelines on caffeine sensitivity, acid reflux prevention, hydration pacing, and maximizing metabolic results.",
     url: 'https://telehealthfx.com/blog/glp1-and-coffee-caffeine-2026/',
     siteName: 'Telehealth FX',
     images: [{ url: "https://telehealthfx.com/assets/glp1-coffee-caffeine-featured.png", width: 1200, height: 630, alt: "GLP-1 and Coffee Caffeine Guide" }],
@@ -123,7 +123,7 @@ export default function Page() {
         "@type": "Brand",
         "name": "TelehealthFX"
       },
-      "url": "https://go.telehealthfx.com/start",
+      "url": "https://go.telehealthfx.com/embody?aff_sub=tfx_blog_coffee",
       "image": "https://telehealthfx.com/assets/Site%20Icon-modified.png",
       "aggregateRating": {
         "@type": "AggregateRating",
@@ -167,7 +167,7 @@ export default function Page() {
         "validFrom": "2026-01-01",
         "priceValidUntil": "2026-12-31",
         "availability": "https://schema.org/InStock",
-        "url": "https://go.telehealthfx.com/start",
+        "url": "https://go.telehealthfx.com/embody?aff_sub=tfx_blog_coffee",
         "shippingDetails": {
           "@type": "OfferShippingDetails",
           "shippingRate": {
