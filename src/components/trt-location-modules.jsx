@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import { Icon } from './common.jsx';
 
-const TRT_URL = "https://go.telehealthfx.com/testosterone";
+const TRT_URL = "https://go.telehealthfx.com/petermd?aff_sub=tfx_trt_guide";
 
 // ---------------------------------------------------------
 // MODULE 1: HERO VARIATION A (Centered, Classic Premium)

@@ -2,7 +2,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { Icon } from './common.jsx';
-const S = "https://go.telehealthfx.com/testosterone";
+const S = "https://go.telehealthfx.com/petermd?aff_sub=tfx_trt_guide";
 
 function BlogTrtWeightLossBodyComposition2026() {
   return (<><section className="section" style={{ minHeight: '60vh', paddingTop: 120 }}><div className="container" style={{ maxWidth: 800 }}>
@@ -12,7 +12,7 @@ function BlogTrtWeightLossBodyComposition2026() {
     <div className="blog-content" style={{ fontSize: 18, lineHeight: 1.7, color: 'var(--ink-2)' }}>
       <Image src="/assets/trt_weight_loss_featured_1779013217136.png" alt="TRT for Weight Loss and Muscle Mass infographic" width={1024} height={1024} style={{ width: '100%', borderRadius: 16, marginBottom: 40, border: '1px solid var(--line-soft)', background: '#111', height: "auto"}} priority={true} />
       <p>One of the most frustrating symptoms of clinically low testosterone is an expanding waistline that refuses to shrink, regardless of diet and exercise. Hypogonadism alters your body's metabolic environment, shifting the bias from muscle preservation to fat storage — particularly visceral fat around the abdomen.</p>
-      <p>Testosterone replacement therapy (TRT) reverses this metabolic bias. While it is not a direct "weight loss drug" in the way <a href="https://go.telehealthfx.com/start" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 medications like Semaglutide</a> are, TRT causes profound changes in body composition, driving simultaneous fat loss and lean muscle gain. Here is exactly how <a href={S} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)', fontWeight: 500 }}>TRT from providers like Telehealth FX</a> transforms male body composition.</p>
+      <p>Testosterone replacement therapy (TRT) reverses this metabolic bias. While it is not a direct "weight loss drug" in the way <a href="https://go.telehealthfx.com/petermd?aff_sub=tfx_trt_guide" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 medications like Semaglutide</a> are, TRT causes profound changes in body composition, driving simultaneous fat loss and lean muscle gain. Here is exactly how <a href={S} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--brand)', fontWeight: 500 }}>TRT from providers like Telehealth FX</a> transforms male body composition.</p>
 
       <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>The Metabolic Mechanisms of TRT</h2>
       <p>When serum testosterone is restored to optimal levels (typically 600-1000 ng/dL), several key physiological shifts occur:</p>
@@ -28,7 +28,7 @@ function BlogTrtWeightLossBodyComposition2026() {
 
       <div style={{ background: 'linear-gradient(135deg, #F0FDF4, #ECFDF5)', border: '2px solid #16A34A', borderRadius: 16, padding: 32, margin: '48px 0' }}>
         <h3 className="serif" style={{ fontSize: 28, marginBottom: 16, color: 'var(--ink)' }}>TRT + GLP-1: The Ultimate Synergistic Stack</h3>
-        <p style={{ fontSize: 16, marginBottom: 24 }}>For men with significant obesity (BMI &gt; 30) alongside low testosterone, combining TRT with a <a href="https://go.telehealthfx.com/start" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 like Tirzepatide</a> is clinically revolutionary. The GLP-1 drastically reduces appetite and drives massive fat loss, while the TRT completely prevents the <a href="/blog/glp1-muscle-loss-the-hidden-risk-nobodys-talking/" style={{ color: 'var(--brand)', fontWeight: 500 }}>muscle wasting commonly associated with extreme diets</a>. Telehealth FX clinicians can manage both simultaneously.</p>
+        <p style={{ fontSize: 16, marginBottom: 24 }}>For men with significant obesity (BMI &gt; 30) alongside low testosterone, combining TRT with a <a href="https://go.telehealthfx.com/petermd?aff_sub=tfx_trt_guide" style={{ color: 'var(--brand)', fontWeight: 500 }}>GLP-1 like Tirzepatide</a> is clinically revolutionary. The GLP-1 drastically reduces appetite and drives massive fat loss, while the TRT completely prevents the <a href="/blog/glp1-muscle-loss-the-hidden-risk-nobodys-talking/" style={{ color: 'var(--brand)', fontWeight: 500 }}>muscle wasting commonly associated with extreme diets</a>. Telehealth FX clinicians can manage both simultaneously.</p>
       </div>
 
       <h2 className="serif" style={{ fontSize: 32, marginTop: 48, marginBottom: 24, color: 'var(--ink)' }}>Energy, Motivation, and the Gym</h2>

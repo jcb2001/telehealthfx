@@ -3,7 +3,7 @@ import React from 'react';
 import Image from 'next/image';
 import { Icon } from './common.jsx';
 
-const START_URL = "https://go.telehealthfx.com/start";
+const START_URL = "https://go.telehealthfx.com/petermd?aff_sub=tfx_trt_guide";
 
 function BlogTrtPolycythemiaHematocritManagement2026() {
   return (

@@ -34,7 +34,7 @@ export default function Page() {
     "image": "https://telehealthfx.com/assets/trt_injection_pain.png",
     "offers": {
       "@type": "Offer",
-      "url": "https://go.telehealthfx.com/testosterone",
+      "url": "https://go.telehealthfx.com/petermd?aff_sub=tfx_trt_guide",
       "priceCurrency": "USD",
       "price": "89.00",
       "validFrom": "2026-01-01",

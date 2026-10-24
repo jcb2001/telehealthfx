@@ -89,7 +89,7 @@ export default function Page() {
             "validFrom": "2026-01-01",
             "priceValidUntil": "2027-12-31",
             "description": "Ryan Haight Act compliant synchronous WebRTC physician consult with state-licensed doctor, supplies, and home delivery of Testosterone Cypionate for $79/mo.",
-            "url": "https://go.telehealthfx.com/testosterone"
+            "url": "https://go.telehealthfx.com/petermd?aff_sub=tfx_trt_guide"
           },
           {
             "@type": "Offer",
@@ -100,7 +100,7 @@ export default function Page() {
             "validFrom": "2026-01-01",
             "priceValidUntil": "2027-12-31",
             "description": "Wholesale diagnostic blood panel at Quest Diagnostics or LabCorp including Total T, Free T, SHBG, sensitive estradiol LC-MS/MS, CBC, CMP, and PSA.",
-            "url": "https://go.telehealthfx.com/testosterone"
+            "url": "https://go.telehealthfx.com/petermd?aff_sub=tfx_trt_guide"
           }
         ]
       },
