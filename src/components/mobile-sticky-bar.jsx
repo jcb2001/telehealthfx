@@ -22,7 +22,7 @@ export function MobileStickyBar() {
   const p = pathname.toLowerCase();
   const isEs = pathname.startsWith('/es');
 
-  // Route-specific configurations
+  // Route-specific configurations — strictly prioritizing proven converting GLP-1 programs
   let title = isEs ? "Semaglutida desde $69/mes" : "Semaglutide from $69/mo";
   let subtitle = isEs ? "Aprobación en 24h · Envío gratis" : "24h Approval · $0 Membership Fees";
   let ctaText = isEs ? "Verificar →" : "See If You Qualify →";
@@ -32,26 +32,6 @@ export function MobileStickyBar() {
     title = isEs ? "Tirzepatida desde $119/mes" : "Tirzepatide from $119/mo";
     subtitle = isEs ? "Doble acción GIP/GLP-1" : "Dual GIP/GLP-1 Power";
     ctaUrl = isEs ? "https://go.telehealthfx.com/embody?sub3=es&sub4=tfx_sticky_tirz" : "https://go.telehealthfx.com/embody?aff_sub=tfx_sticky_tirz";
-  } else if (p.includes('tablets') || p.includes('oral-glp')) {
-    title = isEs ? "Tabletas Orales de GLP-1" : "Oral GLP-1 Tablets";
-    subtitle = isEs ? "Sin agujas · Consulta $0" : "Needle-Free · $0 Doctor Consult";
-    ctaUrl = isEs ? "https://go.telehealthfx.com/willow?sub3=es&sub4=tfx_sticky_tablets" : "https://go.telehealthfx.com/willow?aff_sub=tfx_sticky_tablets";
-  } else if (p.includes('trt') || p.includes('testosterone') || p.includes('enclomiphene')) {
-    title = "Testosterone (TRT) Care";
-    subtitle = "Starting $89/mo · MD Supervised";
-    ctaUrl = "https://go.telehealthfx.com/petermd?aff_sub=tfx_sticky_trt";
-  } else if (p.includes('nad')) {
-    title = "NAD+ Cellular Injection";
-    subtitle = "$99/mo Flat Rate · US Pharmacy";
-    ctaUrl = "https://go.telehealthfx.com/nad?aff_sub=tfx_sticky_nad";
-  } else if (p.includes('sermorelin')) {
-    title = "Sermorelin GH Peptide";
-    subtitle = "$99/mo Flat Rate · Sleep & Muscle";
-    ctaUrl = "https://go.telehealthfx.com/sermorelin?aff_sub=tfx_sticky_sermo";
-  } else if (p.includes('skincare') || p.includes('tretinoin') || p.includes('smooth-move') || p.includes('spot-on') || p.includes('pore-favor') || p.includes('time-out') || p.includes('anti-aging-cream') || p.includes('spot-cream')) {
-    title = isEs ? "Dermatología Clínica Musely" : "Musely Clinical Skincare";
-    subtitle = isEs ? "Tretinoína e Hidroquinona 12%" : "Prescription Tretinoin & 12% HQ";
-    ctaUrl = isEs ? "https://go.telehealthfx.com/anti-aging-cream?sub3=es&sub4=tfx_sticky_skin" : "https://go.telehealthfx.com/anti-aging-cream?aff_sub=tfx_sticky_skin&subId1=tfx_sticky_skin";
   }
 
   if (!visible) return null;

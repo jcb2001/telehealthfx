@@ -3,6 +3,7 @@ import { Nav } from "../components/hero.jsx";
 import { Footer } from "../components/sections-3.jsx";
 import { AnnouncementBar } from "../components/announcement-bar.jsx";
 import { MobileStickyBar } from "../components/mobile-sticky-bar.jsx";
+import { BlogPromoHook } from "../components/blog-promo-hook.jsx";
 import { GoogleAnalytics } from "@next/third-parties/google";
 
 export const metadata = {
@@ -248,6 +249,7 @@ export default function RootLayout({ children }) {
         <main>{children}</main>
         <Footer />
         <MobileStickyBar />
+        <BlogPromoHook />
       </body>
     </html>
   );

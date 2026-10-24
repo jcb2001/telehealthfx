@@ -9,17 +9,9 @@ const { useState: useStateNav, useEffect: useEffectNav } = React;
 function getPageCtaUrl(pathname) {
   if (!pathname) return 'https://go.telehealthfx.com/embody?aff_sub=tfx_nav';
   const p = pathname.toLowerCase();
-  if (p.includes('sermorelin')) return 'https://go.telehealthfx.com/sermorelin';
-  if (p.includes('enclomiphene')) return 'https://go.telehealthfx.com/enclomiphene';
-  if (p.includes('nad')) return 'https://go.telehealthfx.com/nad';
-  if (p.includes('tablets') || p.includes('oral-glp')) return 'https://go.telehealthfx.com/willow?aff_sub=tfx_nav_tablets';
-  if (p.includes('tretinoin') || p.includes('retinoid') || p.includes('smooth-move')) return 'https://go.telehealthfx.com/anti-aging-cream?aff_sub=tfx_nav_retinoid&subId1=tfx_nav_retinoid';
-  if (p.includes('copper-peptide')) return 'https://go.telehealthfx.com/copper-peptide?aff_sub=tfx_nav_copper&subId1=tfx_nav_copper';
-  if (p.includes('spot-on')) return 'https://go.telehealthfx.com/spot-cream?aff_sub=tfx_nav_spot&subId1=tfx_nav_spot';
-  if (p.includes('trt') || p.includes('testosterone')) return 'https://go.telehealthfx.com/coreage-trt';
-  if (p.includes('ed')) return 'https://go.telehealthfx.com/coreage-ed';
-  if (p.includes('hair')) return 'https://go.telehealthfx.com/hair';
-  if (p.includes('tirzepatide') || p.includes('zepbound') || p.includes('mounjaro')) return 'https://go.telehealthfx.com/embody?aff_sub=tfx_nav_tirz';
+  if (p.includes('tirzepatide') || p.includes('zepbound') || p.includes('mounjaro')) {
+    return 'https://go.telehealthfx.com/embody?aff_sub=tfx_nav_tirz';
+  }
   return 'https://go.telehealthfx.com/embody?aff_sub=tfx_nav';
 }
 
@@ -95,7 +87,7 @@ function HeroDefault({ headline, priceAnchor }) {
       <div className="container grid-2-hero">
         <div>
           <div className="pill pill-dot pill-brand fade-in" style={{ marginBottom: 28 }}>
-            <span>24-Hour Approval · No Hidden Membership Fees</span>
+            <span>Flat-Rate Semaglutide from $69/mo · 24-Hour Approval</span>
           </div>
           <h1 className="serif fade-in" style={{ fontSize: 88, marginBottom: 28 }}>
             {headline?.split('\n').map((line, i) => (
@@ -103,7 +95,7 @@ function HeroDefault({ headline, priceAnchor }) {
             )) || "GLP-1 clinical weight loss, delivered."}
           </h1>
           <p className="fade-in" style={{ fontSize: 18, color: 'var(--ink-2)', maxWidth: 520, marginBottom: 36, lineHeight: 1.55 }}>
-            GLP-1 weight loss medication, delivered. A personalized clinical program with 100% transparent pricing, 6-month payment plans, and 2-Day UPS shipping to your door.
+            Physician-prescribed GLP-1 weight loss medication, delivered. Introductory flat rate from $69/mo across all dosages, $0 doctor consultation fees, and free 2-Day refrigerated shipping to your door.
           </p>
           <div className="flex-row stack-mobile" style={{ gap: 12, marginBottom: 24 }}>
             <a className="btn btn-primary btn-lg" href="https://go.telehealthfx.com/embody?aff_sub=tfx_hero">
@@ -144,9 +136,9 @@ function HeroEditorial({ headline, priceAnchor }) {
           )) || "GLP-1 Clinical Weight Loss"}
         </h1>
         <p style={{ fontSize: 19, color: 'var(--ink-2)', maxWidth: 600, margin: '0 auto 40px', lineHeight: 1.5 }}>
-          Personalized GLP-1 care from licensed clinicians. From $99 first month promo with Affirm financing, free 2-Day cold shipping to your door.
+          Personalized GLP-1 care from licensed clinicians. Introductory promo from $69/mo flat rate, $0 doctor consult, and free 2-Day cold shipping to your door.
         </p>
-        <a className="btn btn-primary btn-lg" href="https://go.telehealthfx.com/start">
+        <a className="btn btn-primary btn-lg" href="https://go.telehealthfx.com/embody?aff_sub=tfx_hero">
           See If You Qualify <Icon.Arrow />
         </a>
       </div>
@@ -160,7 +152,7 @@ function HeroData({ headline, priceAnchor }) {
       <div className="container grid-2">
         <div>
           <div className="pill pill-dot pill-brand" style={{ marginBottom: 28 }}>
-            <span>Now accepting new patients</span>
+            <span>Now accepting new patients · From $69/mo</span>
           </div>
           <h1 className="serif" style={{ fontSize: 80, marginBottom: 28 }}>
             {headline?.split('\n').map((line, i) => (
@@ -168,9 +160,9 @@ function HeroData({ headline, priceAnchor }) {
             )) || "GLP-1 Clinical Weight Loss"}
           </h1>
           <p style={{ fontSize: 17, color: 'var(--ink-2)', maxWidth: 480, marginBottom: 32, lineHeight: 1.55 }}>
-            Personalized GLP-1 care from board-certified clinicians. Transparent introductory pricing from $99 first month.
+            Personalized GLP-1 care from board-certified clinicians. Transparent flat-rate pricing starting at $69/mo across all dosages.
           </p>
-          <a className="btn btn-primary btn-lg" href="https://go.telehealthfx.com/start">
+          <a className="btn btn-primary btn-lg" href="https://go.telehealthfx.com/embody?aff_sub=tfx_hero">
             See If You Qualify <Icon.Arrow />
           </a>
         </div>

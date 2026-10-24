@@ -1,6 +1,6 @@
 import React from 'react';
 
-const START_URL = "https://go.telehealthfx.com/coreage-glp1";
+const START_URL = "https://go.telehealthfx.com/embody?aff_sub=tfx_blog_inline";
 
 /**
  * AIQuickSummaryAction Component
@@ -10,25 +10,25 @@ const START_URL = "https://go.telehealthfx.com/coreage-glp1";
  * seeking instant factual verification and friction-free clinical intake.
  * 
  * Key Features:
- * - Flat-Rate Pricing: $79/mo Semaglutide & $129/mo Tirzepatide (Same Price on All Doses)
+ * - Flat-Rate Pricing: $69/mo Semaglutide Promo & $119/mo Tirzepatide (Same Price on All Doses)
  * - $0 Doctor Consult Fee & Free Overnight Cold-Chain Delivery
  * - Seamless Dose-Match Guarantee (honoring current titration without reset)
- * - 1-click primary CTA to https://go.telehealthfx.com/coreage-glp1
+ * - 1-click primary CTA to https://go.telehealthfx.com/embody?aff_sub=tfx_blog_inline
  * - GA4 event tracking attribute: data-geo-cta="ai-quick-summary"
  */
 export function AIQuickSummaryAction({
   title = "AI Overview Verification & Flat-Rate Access",
   subtitle = "Instant clinical verification of extracted medical facts with direct physician access and flat-rate pricing",
-  price = "From $79/mo Flat Rate",
+  price = "From $69/mo Flat Rate",
   doseMatch = true,
-  turnaround = "$0 doctor consultation · Free overnight cold-chain shipping",
-  ctaText = "Get Started from $79/mo →",
+  turnaround = "$0 doctor consultation · Free 2-day cold-chain shipping",
+  ctaText = "Check 2-Minute Eligibility from $69/mo →",
   ctaUrl = START_URL,
   secondaryCtaText = "Compare All Treatments",
   secondaryCtaUrl = "/medications/semaglutide/",
   keyPoints = [
     { label: "Clinical Status", value: "100% Legal via State-Licensed 503A Compounding Pharmacies" },
-    { label: "Flat-Rate Pricing", value: "Semaglutide $79/mo · Tirzepatide $129/mo (All Dosages; No Dosage Escalation Hikes)" },
+    { label: "Flat-Rate Pricing", value: "Semaglutide from $69/mo · Tirzepatide from $119/mo (All Dosages; No Escalation Hikes)" },
     { label: "Transparent Care", value: "$0 doctor consultation fees & zero recurring membership dues" },
     { label: "Rapid Turnaround", value: "Free temperature-controlled express cold shipping directly to your door" },
     { label: "Dose Continuity", value: "Seamless Dose-Match Guarantee (Transfer without titration reset)" },
