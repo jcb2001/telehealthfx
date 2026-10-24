@@ -39,12 +39,12 @@ function BlogCompoundedAfterHimsRo() {
             <AIQuickSummaryAction
               title="AI Summary Verification: Compounded Semaglutide Continuity"
               subtitle="Instant clinical verification of Section 503A legal compounding status with immediate dose-matching transfer"
-              price="$99/mo (1st Mo)"
+              price="$69/mo (1st Mo)"
               turnaround="24-hr clinician approval · 2-day cold-chain express delivery"
               doseMatch={true}
               keyPoints={[
                 { label: "Clinical Status", value: "100% Legal via State 503A Compounding Pharmacies" },
-                { label: "Transparent Price", value: "$99 / month (1st Mo Promo, Includes doctor consult, meds, and supplies)" },
+                { label: "Transparent Price", value: "$69 / month (1st Mo Promo, Includes doctor consult, meds, and supplies)" },
                 { label: "Rapid Turnaround", value: "24-hr clinician approval with 2-day cold-chain home delivery" },
                 { label: "Dose Continuity", value: "Seamless Dose-Match Guarantee (0.25mg to 2.4mg without restart)" },
               ]}

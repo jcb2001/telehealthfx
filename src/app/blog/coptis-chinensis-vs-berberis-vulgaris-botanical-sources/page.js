@@ -2,14 +2,14 @@ import { BlogCoptisChinensis } from "../../../components/blog-coptis-chinensis.j
 
 export const metadata = {
   robots: { index: true, follow: true },
-  title: "Coptis Chinensis vs Berberis Vulgaris: Nature's Ozempic",
-  description: "Phytochemical analysis of Coptis Chinensis & Berberis Vulgaris. Compare berberine, coptisine, and epiberberine purity vs clinical GLP-1 receptor agonists.",
+  title: "Coptis Chinensis vs Berberis Vulgaris: Epiberberine, Coptisine & GLP-1 (2026)",
+  description: "Compare Coptis Chinensis & Berberis Vulgaris alkaloid profiles: epiberberine, coptisine, and berberine purity vs clinical compounded GLP-1 weight loss.",
   alternates: {
     canonical: 'https://telehealthfx.com/blog/coptis-chinensis-vs-berberis-vulgaris-botanical-sources/',
   },
   openGraph: {
-    title: "Coptis Chinensis vs Berberis Vulgaris: Nature's Ozempic",
-    description: "Phytochemical analysis of Coptis Chinensis & Berberis Vulgaris. Compare berberine, coptisine, and epiberberine purity vs clinical GLP-1 receptor agonists.",
+    title: "Coptis Chinensis vs Berberis Vulgaris: Epiberberine, Coptisine & GLP-1 (2026)",
+    description: "Compare Coptis Chinensis & Berberis Vulgaris alkaloid profiles: epiberberine, coptisine, and berberine purity vs clinical compounded GLP-1 weight loss.",
     url: 'https://telehealthfx.com/blog/coptis-chinensis-vs-berberis-vulgaris-botanical-sources/',
     siteName: 'Telehealth FX',
     images: [

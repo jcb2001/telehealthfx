@@ -2,12 +2,12 @@ import { BlogBestOnlineTrtClinics2026 } from "../../../components/best-online-tr
 
 export const metadata = {
   robots: { index: true, follow: true },
-  title: "Best Online TRT Clinics (2026): Top Providers Ranked",
-  description: "Compare top online TRT clinics by cost, labs, and doctor oversight. Telehealth FX offers licensed TRT from $79/mo with free discreet overnight delivery.",
+  title: "Best Online TRT Clinics of 2026: Top Providers Ranked",
+  description: "Compare the best online TRT clinics of 2026 by monthly cost, blood work requirements, and doctor oversight. See top providers ranked with plans from $89/mo.",
   alternates: { canonical: 'https://telehealthfx.com/blog/best-online-trt-clinics-2026/' },
   openGraph: {
-    title: "Best Online TRT Clinics (2026): Top Providers Ranked",
-    description: "Compare top online TRT clinics by cost, labs, and doctor oversight. Telehealth FX offers licensed TRT from $79/mo with free discreet overnight delivery.",
+    title: "Best Online TRT Clinics of 2026: Top Providers Ranked",
+    description: "Compare the best online TRT clinics of 2026 by monthly cost, blood work requirements, and doctor oversight. See top providers ranked with plans from $89/mo.",
     url: "https://telehealthfx.com/blog/best-online-trt-clinics-2026/",
     siteName: "Telehealth FX",
     type: "article",

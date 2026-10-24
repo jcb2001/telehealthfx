@@ -2,14 +2,14 @@ import { BlogCompoundedAfterHimsRo } from "../../../components/blog-compounded-s
 
 export const metadata = {
   robots: { index: true, follow: true },
-  title: "Compounded Semaglutide vs Hims & Ro (2026 Pricing & Switch Guide)",
-  description: "Paying $299–$399/mo at Ro or Hims? See how patients are switching to flat-rate $69/mo compounded Semaglutide with zero membership fees and 503A US pharmacy fulfillment.",
+  title: "Does Ro or Hims Still Sell Compounded Semaglutide? (2026 Status & $69 Switch Guide)",
+  description: "Wondering if Ro or Hims still offer compounded semaglutide? Learn why mass 503B batches stopped and how patients are switching to 503A flat $69/mo care without restarting titration.",
   alternates: {
     canonical: 'https://telehealthfx.com/blog/compounded-semaglutide-after-hims-ro-2026/',
   },
   openGraph: {
-    title: "Compounded Semaglutide vs Hims & Ro (2026 Pricing & Switch Guide)",
-    description: "Paying $299–$399/mo at Ro or Hims? See how patients are switching to flat-rate $69/mo compounded Semaglutide with zero membership fees and 503A US pharmacy fulfillment.",
+    title: "Does Ro or Hims Still Sell Compounded Semaglutide? (2026 Status & $69 Switch Guide)",
+    description: "Wondering if Ro or Hims still offer compounded semaglutide? Learn why mass 503B batches stopped and how patients are switching to 503A flat $69/mo care without restarting titration.",
     url: 'https://telehealthfx.com/blog/compounded-semaglutide-after-hims-ro-2026/',
     siteName: 'Telehealth FX',
     images: [

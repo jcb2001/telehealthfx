@@ -2,14 +2,14 @@ import { BlogHiddenFeesInTelehealthWeightLossHowToSpot } from "../../../componen
 
 export const metadata = {
   robots: { index: true, follow: true },
-  title: "Telehealth Weight Loss: No Hidden Fees Pricing (2026)",
-  description: "Tired of surprise membership fees? See full transparent price breakdown for Semaglutide (from $99/mo promo) and Tirzepatide (from $99/mo promo) with zero extra costs or traps.",
+  title: "Fastest Delivery & No Hidden Fees: 2026 Telehealth Weight Loss Guide",
+  description: "Looking for fastest medication delivery and no hidden fees? Compare telehealth weight loss platforms: $0 consults, 24–48hr express cold shipping, and flat-rate care from $69/mo.",
   alternates: {
     canonical: 'https://telehealthfx.com/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot/',
   },
   openGraph: {
-    title: "Telehealth Weight Loss: No Hidden Fees Pricing (2026)",
-    description: "Tired of surprise membership fees? See full transparent price breakdown for Semaglutide (from $99/mo promo) and Tirzepatide (from $99/mo promo) with zero extra costs or traps.",
+    title: "Fastest Delivery & No Hidden Fees: 2026 Telehealth Weight Loss Guide",
+    description: "Looking for fastest medication delivery and no hidden fees? Compare telehealth weight loss platforms: $0 consults, 24–48hr express cold shipping, and flat-rate care from $69/mo.",
     url: 'https://telehealthfx.com/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot/',
     siteName: 'Telehealth FX',
     images: [
@@ -140,7 +140,16 @@ export default function Page() {
             "url": "https://telehealthfx.com/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot/#faq-delivery",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Telehealth FX connects patients to SkinnyRx, shipping patient-specific compounded semaglutide and tirzepatide within 24 to 48 hours in insulated cold-pack containers via accredited 503A pharmacy partners with $0 shipping fees."
+              "text": "Telehealth FX connects patients to partner Embody Wellness, shipping patient-specific compounded semaglutide and tirzepatide within 24 to 48 hours in insulated temperature-controlled cold-pack containers via accredited 503A pharmacy partners with free 2-day express delivery nationwide."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which telehealth providers have transparent pricing and no hidden fees?",
+            "url": "https://telehealthfx.com/blog/hidden-fees-in-telehealth-weight-loss-how-to-spot/#faq-transparent",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Telehealth FX operates with 100% transparent flat-rate pricing starting from $69/mo promo for Semaglutide and $119/mo promo for Tirzepatide. There are $0 monthly membership fees, $0 doctor consultation dues, and no dosage price increases at maintenance levels."
             }
           },
           {
